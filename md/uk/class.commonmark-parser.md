@@ -1,8 +1,8 @@
 Клас CommonMarkParser
 
--   [« CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
+-   [« CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
     
--   [CommonMark\\Parser::\_\_construct »](commonmark-parser.construct.html)
+-   [CommonMarkParser::construct »](commonmark-parser.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,6 +47,6 @@ public finish(): CommonMark\Node
 
 ## Зміст
 
--   [CommonMark\\Parser::\_\_construct](commonmark-parser.construct.html) - Розбір
--   [CommonMark\\Parser::parse](commonmark-parser.parse.html) - Розбір
--   [CommonMark\\Parser::finish](commonmark-parser.finish.html) - Розбір
+-   [CommonMarkParser::construct](commonmark-parser.construct.html) - Розбір
+-   [CommonMarkParser::parse](commonmark-parser.parse.html) - Розбір
+-   [CommonMarkParser::finish](commonmark-parser.finish.html) - Розбір

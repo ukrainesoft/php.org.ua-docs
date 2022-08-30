@@ -2,7 +2,7 @@
 
 -   [« HashContext](class.hashcontext.html)
     
--   [HashContext::\_\_serialize »](hashcontext.serialize.html)
+-   [HashContext::serialize »](hashcontext.serialize.html)
     
 -   [PHP Manual](index.html)
     

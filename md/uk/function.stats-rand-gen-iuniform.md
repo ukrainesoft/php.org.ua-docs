@@ -1,12 +1,12 @@
 Генерує ціле число рівномірно розподілене в діапазоні LOW (включно) та HIGH (включаючи)
 
--   [« stats\_rand\_gen\_ipoisson](function.stats-rand-gen-ipoisson.html)
+-   [« statsrandgenipoisson](function.stats-rand-gen-ipoisson.html)
     
--   [stats\_rand\_gen\_noncentral\_chisquare »](function.stats-rand-gen-noncentral-chisquare.html)
+-   [statsrandgennoncentralchisquare »](function.stats-rand-gen-noncentral-chisquare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує ціле число рівномірно розподілене в діапазоні LOW (включно) та HIGH (включаючи)
     

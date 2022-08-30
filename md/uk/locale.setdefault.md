@@ -73,4 +73,4 @@ de-DE
 
 ### Дивіться також
 
--   [locale\_get\_default()](locale.getdefault.html) - Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
+-   [localegetdefault()](locale.getdefault.html) - Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'

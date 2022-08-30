@@ -1,8 +1,8 @@
 Повертає результат застосування callback-функції до всіх значень колекції
 
--   [« Ds\\Map::last](ds-map.last.html)
+-   [« DsMap::last](ds-map.last.html)
     
--   [Ds\\Map::merge »](ds-map.merge.html)
+-   [ДсMap::merge »](ds-map.merge.html)
     
 -   [PHP Manual](index.html)
     

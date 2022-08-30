@@ -1,6 +1,6 @@
 Встановлює дату
 
--   [« DateTimeImmutable::\_\_set\_state](datetimeimmutable.set-state.html)
+-   [« DateTimeImmutable::setstate](datetimeimmutable.set-state.html)
     
 -   [DateTimeImmutable::setISODate »](datetimeimmutable.setisodate.html)
     
@@ -29,7 +29,7 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `year`
 

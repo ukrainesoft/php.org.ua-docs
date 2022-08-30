@@ -1,6 +1,6 @@
 Повертає відповідь від сервера
 
--   [« SolrPingResponse::\_\_destruct](solrpingresponse.destruct.html)
+-   [« SolrPingResponse::destruct](solrpingresponse.destruct.html)
     
 -   [SolrGenericResponse »](class.solrgenericresponse.html)
     

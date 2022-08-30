@@ -1,12 +1,12 @@
 Обчислює один із параметрів Гамма-розподілу за рештою
 
--   [« stats\_cdf\_f](function.stats-cdf-f.html)
+-   [« statscdfф](function.stats-cdf-f.html)
     
--   [stats\_cdf\_laplace »](function.stats-cdf-laplace.html)
+-   [statscdflaplace »](function.stats-cdf-laplace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів Гамма-розподілу за рештою
     

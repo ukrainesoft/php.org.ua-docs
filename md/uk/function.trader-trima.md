@@ -1,8 +1,8 @@
 Трикутна ковзна середня
 
--   [« trader\_trange](function.trader-trange.html)
+-   [« tradertrange](function.trader-trange.html)
     
--   [trader\_trix »](function.trader-trix.html)
+-   [tradertrix »](function.trader-trix.html)
     
 -   [PHP Manual](index.html)
     

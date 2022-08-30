@@ -1,8 +1,8 @@
 Клас ParleStack
 
--   [« Parle\\RParser::validate](parle-rparser.validate.html)
+-   [« ParleRParser::validate](parle-rparser.validate.html)
     
--   [Parle\\Stack::pop »](parle-stack.pop.html)
+-   [ParleStack::pop »](parle-stack.pop.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,5 +71,5 @@ top
 
 ## Зміст
 
--   [Parle\\Stack::pop](parle-stack.pop.html) — Витягує предмет із стеку
--   [Parle\\Stack::push](parle-stack.push.html) — Поміщає елемент у стек
+-   [ParleStack::pop](parle-stack.pop.html) — Витягує предмет із стеку
+-   [ParleStack::push](parle-stack.push.html) — Поміщає елемент у стек

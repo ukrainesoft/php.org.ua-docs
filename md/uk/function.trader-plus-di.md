@@ -1,8 +1,8 @@
 Плюс-спрямований індикатор
 
--   [« trader\_obv](function.trader-obv.html)
+-   [« traderobv](function.trader-obv.html)
     
--   [trader\_plus\_dm »](function.trader-plus-dm.html)
+-   [traderplusdm »](function.trader-plus-dm.html)
     
 -   [PHP Manual](index.html)
     

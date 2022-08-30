@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html)
+-   [« FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html)
     
--   [FFI\\CType::getFuncReturnType »](ffi-ctype.getfuncreturntype.html)
+-   [FFICType::getFuncReturnType »](ffi-ctype.getfuncreturntype.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

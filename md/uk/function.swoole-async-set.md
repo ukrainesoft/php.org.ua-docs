@@ -1,8 +1,8 @@
 Оновлення опцій асинхронного введення-виводу
 
--   [« swoole\_async\_readfile](function.swoole-async-readfile.html)
+-   [« swooleasyncreadfile](function.swoole-async-readfile.html)
     
--   [swoole\_async\_write »](function.swoole-async-write.html)
+-   [swooleasyncwrite »](function.swoole-async-write.html)
     
 -   [PHP Manual](index.html)
     

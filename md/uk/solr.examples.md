@@ -1,6 +1,6 @@
 Приклади
 
--   [« solr\_get\_version](function.solr-get-version.html)
+-   [« solrgetversion](function.solr-get-version.html)
     
 -   [SolrUtils »](class.solrutils.html)
     

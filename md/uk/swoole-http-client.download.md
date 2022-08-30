@@ -1,12 +1,12 @@
 Завантажує файл із віддаленого сервера
 
--   [« Swoole\\Http\\Client::\_\_destruct](swoole-http-client.destruct.html)
+-   [« SwooleHttpClient::destruct](swoole-http-client.destruct.html)
     
--   [Swoole\\Http\\Client::execute »](swoole-http-client.execute.html)
+-   [SwooleHttpClient::execute »](swoole-http-client.execute.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Завантажує файл із віддаленого сервера
     

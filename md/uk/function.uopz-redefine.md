@@ -1,12 +1,12 @@
 Перевизначити константу
 
--   [« uopz\_overload](function.uopz-overload.html)
+-   [« uopzoverload](function.uopz-overload.html)
     
--   [uopz\_rename »](function.uopz-rename.html)
+-   [uopzrename »](function.uopz-rename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Перевизначити константу
     

@@ -1,8 +1,8 @@
 Псевдонім DateTimeZone::getLocation
 
--   [« timezone\_identifiers\_list](function.timezone-identifiers-list.html)
+-   [« timezoneidentifierslist](function.timezone-identifiers-list.html)
     
--   [timezone\_name\_from\_abbr »](function.timezone-name-from-abbr.html)
+-   [timezonenamefromabbr »](function.timezone-name-from-abbr.html)
     
 -   [PHP Manual](index.html)
     

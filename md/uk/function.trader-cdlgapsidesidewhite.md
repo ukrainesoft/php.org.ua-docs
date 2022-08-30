@@ -1,8 +1,8 @@
 Свічкова модель "Суміжні білі свічки"
 
--   [« trader\_cdleveningstar](function.trader-cdleveningstar.html)
+-   [« tradercdleveningstar](function.trader-cdleveningstar.html)
     
--   [trader\_cdlgravestonedoji »](function.trader-cdlgravestonedoji.html)
+-   [tradercdlgravestonedoji »](function.trader-cdlgravestonedoji.html)
     
 -   [PHP Manual](index.html)
     

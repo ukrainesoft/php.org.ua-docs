@@ -1,12 +1,12 @@
 Реєстрація
 
--   [« Componere\\Definition::addProperty](componere-definition.addproperty.html)
+-   [« ComponereDefinition::addProperty](componere-definition.addproperty.html)
     
--   [Componere\\Definition::isRegistered »](componere-definition.isregistered.html)
+-   [ComponereDefinition::isRegistered »](componere-definition.isregistered.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Реєстрація
     

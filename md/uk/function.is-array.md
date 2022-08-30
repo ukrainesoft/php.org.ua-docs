@@ -2,11 +2,11 @@
 
 -   [« intval](function.intval.html)
     
--   [is\_bool »](function.is-bool.html)
+-   [ісbool »](function.is-bool.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Визначає, чи є змінна масивом
     
@@ -61,7 +61,7 @@ echo is_array($no) ? 'Массив' : 'Не массив';
 
 ### Дивіться також
 
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом

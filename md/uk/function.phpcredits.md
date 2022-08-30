@@ -1,12 +1,12 @@
 Виводить список розробників PHP
 
--   [« php\_uname](function.php-uname.html)
+-   [« phpuname](function.php-uname.html)
     
 -   [phpinfo »](function.phpinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Виводить список розробників PHP
     

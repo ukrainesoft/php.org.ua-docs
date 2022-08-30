@@ -1,12 +1,12 @@
 Повертає масив інформації, що описує сервер
 
--   [« MongoDB\\Driver\\Server::getHost](mongodb-driver-server.gethost.html)
+-   [« MongoDBDriverServer::getHost](mongodb-driver-server.gethost.html)
     
--   [MongoDB\\Driver\\Server::getLatency »](mongodb-driver-server.getlatency.html)
+-   [MongoDBDriverServer::getLatency »](mongodb-driver-server.getlatency.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Повертає масив інформації, що описує сервер
     
@@ -27,7 +27,7 @@ final public MongoDB\Driver\Server::getInfo(): array
 
 > **Зауваження**
 > 
-> Коли драйвер підключено до балансувальника навантаження, метод поверне відповідь на команду [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/) від резервного сервера під час початкового підтвердження з'єднання. Це відрізняється від інших методів (наприклад, [MongoDB\\Driver\\Server::getType()](mongodb-driver-server.gettype.html)), які повертають інформацію про самого балансувальника навантаження.
+> Коли драйвер підключено до балансувальника навантаження, метод поверне відповідь на команду [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/) від резервного сервера під час початкового підтвердження з'єднання. Це відрізняється від інших методів (наприклад, [MongoDBDriverServer::getType()](mongodb-driver-server.gettype.html)), які повертають інформацію про самого балансувальника навантаження.
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ final public MongoDB\Driver\Server::getInfo(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -196,6 +196,6 @@ array(23) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ServerDescription::getHelloResponse()](mongodb-driver-serverdescription.gethelloresponse.html) - Повертає останню відповідь сервера "hello"
+-   [MongoDBDriverServerDescription::getHelloResponse()](mongodb-driver-serverdescription.gethelloresponse.html) - Повертає останню відповідь сервера "hello"
 -   Команда [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/) у посібнику MongoDB
 -   [» Руководство по обнаружению и мониторингу серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

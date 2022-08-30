@@ -1,12 +1,12 @@
 Видаляє визначення функції
 
--   [« runkit7\_function\_redefine](function.runkit7-function-redefine.html)
+-   [« runkit7functionredefine](function.runkit7-function-redefine.html)
     
--   [runkit7\_function\_rename »](function.runkit7-function-rename.html)
+-   [runkit7functionrename »](function.runkit7-function-rename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.html)
     
 -   Видаляє визначення функції
     
@@ -37,7 +37,7 @@ runkit7_function_remove(string $function_name): bool
 
 ### Дивіться також
 
--   [runkit7\_function\_add()](function.runkit7-function-add.html) - Додає нову функцію, функція аналогічна createfunction
--   [runkit7\_function\_copy()](function.runkit7-function-copy.html) - Копіює функцію в нове ім'я функції
--   [runkit7\_function\_redefine()](function.runkit7-function-redefine.html) - замінює визначення функції новою реалізацією
--   [runkit7\_function\_rename()](function.runkit7-function-rename.html) - Змінює ім'я функції
+-   [runkit7functionadd()](function.runkit7-function-add.html) - Додає нову функцію, функція аналогічна createfunction
+-   [runkit7functioncopy()](function.runkit7-function-copy.html) - Копіює функцію в нове ім'я функції
+-   [runkit7functionredefine()](function.runkit7-function-redefine.html) - замінює визначення функції новою реалізацією
+-   [runkit7functionrename()](function.runkit7-function-rename.html) - Змінює ім'я функції

@@ -1,12 +1,12 @@
 Призначення getLocalNamespace
 
--   [« Yaf\_Loader::getLibraryPath](yaf-loader.getlibrarypath.html)
+-   [« YafLoader::getLibraryPath](yaf-loader.getlibrarypath.html)
     
--   [Yaf\_Loader::getNamespacePath »](yaf-loader.getnamespacepath.html)
+-   [YafLoader::getNamespacePath »](yaf-loader.getnamespacepath.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Призначення getLocalNamespace
     

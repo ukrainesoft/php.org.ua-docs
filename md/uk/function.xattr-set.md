@@ -1,8 +1,8 @@
 Встановлення розширених атрибутів файлу
 
--   [« xattr\_remove](function.xattr-remove.html)
+-   [« xattrremove](function.xattr-remove.html)
     
--   [xattr\_supported »](function.xattr-supported.html)
+-   [xattrsupported »](function.xattr-supported.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,5 +70,5 @@ printf("You've played this song %d times", xattr_get($file, 'Listen coun
 
 ### Дивіться також
 
--   [xattr\_get()](function.xattr-get.html) - Отримання розширених атрибутів файлу
--   [xattr\_remove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу
+-   [xattrget()](function.xattr-get.html) - Отримання розширених атрибутів файлу
+-   [xattrremove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу

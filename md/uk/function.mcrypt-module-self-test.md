@@ -1,8 +1,8 @@
 Функція запускає самоперевірку вказаного модуля
 
--   [« mcrypt\_module\_open](function.mcrypt-module-open.html)
+-   [« mcryptmoduleopen](function.mcrypt-module-open.html)
     
--   [mdecrypt\_generic »](function.mdecrypt-generic.html)
+-   [mdecryptgeneric »](function.mdecrypt-generic.html)
     
 -   [PHP Manual](index.html)
     

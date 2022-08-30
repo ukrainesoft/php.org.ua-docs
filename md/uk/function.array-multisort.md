@@ -1,12 +1,12 @@
 Сортує кілька масивів або багатовимірні масиви
 
--   [« array\_merge](function.array-merge.html)
+-   [« arraymerge](function.array-merge.html)
     
--   [array\_pad »](function.array-pad.html)
+-   [arraypad »](function.array-pad.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Сортує кілька масивів або багатовимірні масиви
     
@@ -155,7 +155,7 @@ volume | edition
     67 |       7
 ```
 
-Дані представлені як масиву з ім'ям data. Зазвичай їх можна отримати, наприклад, за допомогою циклу функції [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html)
+Дані представлені як масиву з ім'ям data. Зазвичай їх можна отримати, наприклад, за допомогою циклу функції [mysqlifetchassoc()](mysqli-result.fetch-assoc.html)
 
 ```php
 <?php
@@ -235,4 +235,4 @@ Array
 ### Дивіться також
 
 -   [usort()](function.usort.html) - Сортує масив за значеннями використовуючи функцію користувача для порівняння елементів
--   [Сравнение функций сортировки массивов](array.sorting.html)
+-   [Порівняння функцій сортування масивів](array.sorting.html)

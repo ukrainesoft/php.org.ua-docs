@@ -1,12 +1,12 @@
 Повертає рядок, що повторюється
 
--   [« str\_pad](function.str-pad.html)
+-   [« strpad](function.str-pad.html)
     
--   [str\_replace »](function.str-replace.html)
+-   [strreplace »](function.str-replace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає рядок, що повторюється
     
@@ -60,5 +60,5 @@ echo str_repeat("-=", 10);
 ### Дивіться також
 
 -   [for](control-structures.for.html)
--   [str\_pad()](function.str-pad.html) - Доповнює рядок іншим рядком до заданої довжини
--   [substr\_count()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [strpad()](function.str-pad.html) - Доповнює рядок іншим рядком до заданої довжини
+-   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка

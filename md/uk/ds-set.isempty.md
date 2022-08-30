@@ -1,8 +1,8 @@
 Перевіряє, чи порожня колекція
 
--   [« Ds\\Set::intersect](ds-set.intersect.html)
+-   [« DsSet::intersect](ds-set.intersect.html)
     
--   [Ds\\Set::join »](ds-set.join.html)
+-   [ДсSet::join »](ds-set.join.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Отримати налаштування рівня квоти та статистику використання поштових скриньок
 
--   [« imap\_gc](function.imap-gc.html)
+-   [« imapгк](function.imap-gc.html)
     
--   [imap\_get\_quotaroot »](function.imap-get-quotaroot.html)
+-   [imapgetquotaroot »](function.imap-get-quotaroot.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ imap_get_quota(IMAP\Connection $imap, string $quota_root): array|false
 
 Повертає налаштування рівня квоти та статистику використання поштових скриньок.
 
-Версія цієї функції для використання звичайними користувачами, не адміністраторами - [imap\_get\_quotaroot()](function.imap-get-quotaroot.html)
+Версія цієї функції для використання звичайними користувачами, не адміністраторами - [imapgetquotaroot()](function.imap-get-quotaroot.html)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `quota_root`
 
@@ -47,9 +47,9 @@ imap_get_quota(IMAP\Connection $imap, string $quota_root): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -102,6 +102,6 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imap\_open()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
--   [imap\_set\_quota()](function.imap-set-quota.html) - Встановити квоту для заданої поштової скриньки
--   [imap\_get\_quotaroot()](function.imap-get-quotaroot.html) - Отримати налаштування квоти для кожного користувача
+-   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
+-   [imapsetquota()](function.imap-set-quota.html) - Встановити квоту для заданої поштової скриньки
+-   [imapgetquotaroot()](function.imap-get-quotaroot.html) - Отримати налаштування квоти для кожного користувача

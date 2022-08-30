@@ -2,7 +2,7 @@
 
 -   [« Функции CommonMark](ref.cmark.html)
     
--   [CommonMark\\Render »](function.commonmark-render.html)
+-   [CommonMarkRender »](function.commonmark-render.html)
     
 -   [PHP Manual](index.html)
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Розбиває рядок за допомогою роздільника
     
@@ -153,9 +153,9 @@ Array
 
 ### Дивіться також
 
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [str\_split()](function.str-split.html) - Перетворює рядок на масив
--   [mb\_split()](function.mb-split.html) - Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
--   [str\_word\_count()](function.str-word-count.html) - Повертає інформацію про слова, що входять до рядка
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [strsplit()](function.str-split.html) - Перетворює рядок на масив
+-   [мбsplit()](function.mb-split.html) - Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
+-   [strwordcount()](function.str-word-count.html) - Повертає інформацію про слова, що входять до рядка
 -   [strtok()](function.strtok.html) - Розбиває рядок на токени
 -   [implode()](function.implode.html) - Об'єднує елементи масиву в рядок

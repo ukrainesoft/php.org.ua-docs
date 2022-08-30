@@ -1,12 +1,12 @@
 Обчислює коваріацію двох наборів даних
 
--   [« stats\_cdf\_weibull](function.stats-cdf-weibull.html)
+-   [« statscdfweibull](function.stats-cdf-weibull.html)
     
--   [stats\_dens\_beta »](function.stats-dens-beta.html)
+-   [statsdensbeta »](function.stats-dens-beta.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює коваріацію двох наборів даних
     

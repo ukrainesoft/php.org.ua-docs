@@ -1,12 +1,12 @@
 Вибирає зріз масиву
 
--   [« array\_shift](function.array-shift.html)
+-   [« arrayshift](function.array-shift.html)
     
--   [array\_splice »](function.array-splice.html)
+-   [arraysplice »](function.array-splice.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Вибирає зріз масиву
     
@@ -142,6 +142,6 @@ Array
 
 ### Дивіться також
 
--   [array\_chunk()](function.array-chunk.html) - Розбиває масив на частини
--   [array\_splice()](function.array-splice.html) - Видаляє частину масиву і замінює її чимось ще
+-   [arraychunk()](function.array-chunk.html) - Розбиває масив на частини
+-   [arraysplice()](function.array-splice.html) - Видаляє частину масиву і замінює її чимось ще
 -   [unset()](function.unset.html) - Видаляє змінну

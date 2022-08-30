@@ -1,12 +1,12 @@
 Конструктор класу Value
 
--   [« Componere\\Value](class.componere-value.html)
+-   [« ComponereValue](class.componere-value.html)
     
--   [Componere\\Value::setPrivate »](componere-value.setprivate.html)
+-   [ComponereValue::setPrivate »](componere-value.setprivate.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Конструктор класу Value
     

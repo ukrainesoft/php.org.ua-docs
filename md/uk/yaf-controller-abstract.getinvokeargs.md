@@ -1,12 +1,12 @@
 Призначення getInvokeArgs
 
--   [« Yaf\_Controller\_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.html)
+-   [« YafControllerAbstract::getInvokeArg](yaf-controller-abstract.getinvokearg.html)
     
--   [Yaf\_Controller\_Abstract::getModuleName »](yaf-controller-abstract.getmodulename.html)
+-   [YafControllerAbstract::getModuleName »](yaf-controller-abstract.getmodulename.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Призначення getInvokeArgs
     

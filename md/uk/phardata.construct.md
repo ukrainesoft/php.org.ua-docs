@@ -23,7 +23,7 @@ public **PharData::construct**
 string `$filename`  
 int `$flags` = FilesystemIterator::SKIPDOTS | FilesystemIterator::UNIXPATHS,  
 ?string `$alias` **`null`**  
-int `$format`  
+int `$format`
 
 ### Список параметрів
 

@@ -1,12 +1,12 @@
 Додати керуючий елемент
 
--   [« UI\\Controls\\Box](class.ui-controls-box.html)
+-   [« UIControlsBox](class.ui-controls-box.html)
     
--   [UI\\Controls\\Box::\_\_construct »](ui-controls-box.construct.html)
+-   [ОЙControlsBox::construct »](ui-controls-box.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Box](class.ui-controls-box.html)
+-   [ОЙControlsBox](class.ui-controls-box.html)
     
 -   Додати керуючий елемент
     

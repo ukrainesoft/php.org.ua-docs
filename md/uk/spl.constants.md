@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](spl.resources.html)
     
--   [Структуры данных »](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.html)
     
 -   [PHP Manual](index.html)
     

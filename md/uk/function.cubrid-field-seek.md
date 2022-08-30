@@ -1,12 +1,12 @@
 Перемістити внутрішній покажчик результуючого набору на вказаний стовпець
 
--   [« cubrid\_field\_name](function.cubrid-field-name.html)
+-   [« cubridfieldname](function.cubrid-field-name.html)
     
--   [cubrid\_field\_table »](function.cubrid-field-table.html)
+-   [cubridfieldtable »](function.cubrid-field-table.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Перемістити внутрішній покажчик результуючого набору на вказаний стовпець
     
@@ -23,13 +23,13 @@ cubridfieldseek — Перемістити внутрішній покажчик
 cubrid_field_seek(resource $result, int $field_offset = 0): bool
 ```
 
-Функція переміщує внутрішній покажчик результуючого набору вказаний стовпець. Це усунення використовується функцією [cubrid\_fetch\_field()](function.cubrid-fetch-field.html), якщо не вказано параметр offset. Повертає **`true`** або **`false`** залежно від успішності виконання.
+Функція переміщує внутрішній покажчик результуючого набору вказаний стовпець. Це усунення використовується функцією [cubridfetchfield()](function.cubrid-fetch-field.html), якщо не вказано параметр offset. Повертає **`true`** або **`false`** залежно від успішності виконання.
 
 ### Список параметрів
 
 `result`
 
-`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 

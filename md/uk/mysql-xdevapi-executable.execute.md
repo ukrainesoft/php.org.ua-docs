@@ -1,12 +1,12 @@
 Виконує затвердження
 
--   [« mysql\_xdevapi\\Executable](class.mysql-xdevapi-executable.html)
+-   [« mysqlxdevapiExecutable](class.mysql-xdevapi-executable.html)
     
--   [mysql\_xdevapi\\ExecutionStatus »](class.mysql-xdevapi-executionstatus.html)
+-   [mysqlxdevapiExecutionStatus »](class.mysql-xdevapi-executionstatus.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Executable](class.mysql-xdevapi-executable.html)
+-   [mysqlxdevapiExecutable](class.mysql-xdevapi-executable.html)
     
 -   Виконує затвердження
     

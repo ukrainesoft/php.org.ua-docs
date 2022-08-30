@@ -1,12 +1,12 @@
 Зменшує значення у таблиці Swoole за $rowkey та $columnkey
 
--   [« Swoole\\Table::current](swoole-table.current.html)
+-   [« SwooleTable::current](swoole-table.current.html)
     
--   [Swoole\\Table::del »](swoole-table.del.html)
+-   [SwooleTable::del »](swoole-table.del.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Зменшує значення у таблиці Swoole за $rowkey та $columnkey
     

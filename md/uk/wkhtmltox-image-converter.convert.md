@@ -1,12 +1,12 @@
 Виконати перетворення зображень
 
--   [« wkhtmltox\\Image\\Converter::\_\_construct](wkhtmltox-image-converter.construct.html)
+-   [« wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.html)
     
--   [wkhtmltox\\Image\\Converter::getVersion »](wkhtmltox-image-converter.getversion.html)
+-   [wkhtmltoxImageConverter::getVersion »](wkhtmltox-image-converter.getversion.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.html)
+-   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
     
 -   Виконати перетворення зображень
     

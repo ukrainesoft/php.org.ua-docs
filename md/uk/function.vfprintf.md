@@ -1,12 +1,12 @@
 Записує відформатований рядок у потік
 
--   [« utf8\_encode](function.utf8-encode.html)
+-   [« utf8encode](function.utf8-encode.html)
     
 -   [vprintf »](function.vprintf.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Записує відформатований рядок у потік
     
@@ -135,5 +135,5 @@ vfprintf($fp, "%04d-%02d-%02d", array($year, $month, $day));
 -   [vsprintf()](function.vsprintf.html) - Повертає відформатований рядок
 -   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату
 -   [fscanf()](function.fscanf.html) - Обробляє дані з файлу відповідно до формату
--   [number\_format()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.html) - Форматує число з поділом груп
 -   [date()](function.date.html) - Форматує тимчасову мітку Unix

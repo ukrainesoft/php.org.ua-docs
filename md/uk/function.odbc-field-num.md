@@ -1,8 +1,8 @@
 Повертає номер стовпця
 
--   [« odbc\_field\_name](function.odbc-field-name.html)
+-   [« odbcfieldname](function.odbc-field-name.html)
     
--   [odbc\_field\_precision »](function.odbc-field-precision.html)
+-   [odbcfieldprecision »](function.odbc-field-precision.html)
     
 -   [PHP Manual](index.html)
     

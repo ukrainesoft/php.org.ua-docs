@@ -1,12 +1,12 @@
 Перевірка існування черги повідомлень
 
--   [« msg\_get\_queue](function.msg-get-queue.html)
+-   [« msggetqueue](function.msg-get-queue.html)
     
--   [msg\_receive »](function.msg-receive.html)
+-   [msgreceive »](function.msg-receive.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Перевірка існування черги повідомлень
     
@@ -37,6 +37,6 @@ msg_queue_exists(int $key): bool
 
 ### Дивіться також
 
--   [msg\_remove\_queue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msg\_receive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
--   [msg\_stat\_queue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень

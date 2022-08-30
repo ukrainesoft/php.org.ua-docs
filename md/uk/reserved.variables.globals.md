@@ -2,7 +2,7 @@
 
 -   [« Суперглобальные переменные](language.variables.superglobals.html)
     
--   [$\_SERVER »](reserved.variables.server.html)
+-   [SERVER »](reserved.variables.server.html)
     
 -   [PHP Manual](index.html)
     

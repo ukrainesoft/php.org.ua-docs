@@ -2,7 +2,7 @@
 
 -   [« Инструмент установки PHP на Windows](install.windows.tools.html)
     
--   [Самостоятельная установка PHP в Windows »](install.windows.manual.html)
+-   [Самостійне встановлення PHP у Windows »](install.windows.manual.html)
     
 -   [PHP Manual](index.html)
     

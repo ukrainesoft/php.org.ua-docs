@@ -1,12 +1,12 @@
 Визначити версію конвертера
 
--   [« wkhtmltox\\Image\\Converter::convert](wkhtmltox-image-converter.convert.html)
+-   [« wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.html)
     
 -   [PS »](book.ps.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.html)
+-   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
     
 -   Визначити версію конвертера
     

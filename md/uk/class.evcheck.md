@@ -2,11 +2,11 @@
 
 -   [« Ev::verify](ev.verify.html)
     
--   [EvCheck::\_\_construct »](evcheck.construct.html)
+-   [EvCheck::construct »](evcheck.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvCheck
     
@@ -119,5 +119,5 @@ public
 
 ## Зміст
 
--   [EvCheck::\_\_construct](evcheck.construct.html) - Конструктор об'єкта EvCheck
+-   [EvCheck::construct](evcheck.construct.html) - Конструктор об'єкта EvCheck
 -   [EvCheck::createStopped](evcheck.createstopped.html) — Створює зупинений екземпляр спостерігача EvCheck

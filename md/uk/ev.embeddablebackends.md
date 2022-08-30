@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](class.ev.html)
+-   [Єв](class.ev.html)
     
 -   Повертає набір бекендів, які можна вбудувати в інші цикли подій
     

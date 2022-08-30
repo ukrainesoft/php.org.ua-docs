@@ -2,7 +2,7 @@
 
 -   [« GearmanJob](class.gearmanjob.html)
     
--   [GearmanJob::\_\_construct »](gearmanjob.construct.html)
+-   [GearmanJob::construct »](gearmanjob.construct.html)
     
 -   [PHP Manual](index.html)
     

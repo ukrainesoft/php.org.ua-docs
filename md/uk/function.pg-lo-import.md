@@ -1,8 +1,8 @@
 Імпорт великого об'єкта з файлу
 
--   [« pg\_lo\_export](function.pg-lo-export.html)
+-   [« pgлоexport](function.pg-lo-export.html)
     
--   [pg\_lo\_open »](function.pg-lo-open.html)
+-   [пглоopen »](function.pg-lo-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_lo_import(PgSql\Connection $connection = ?, string $pathname, mixed $object_i
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -55,9 +55,9 @@ OID створеного великого об'єкта або **`false`** у р
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -74,5 +74,5 @@ OID створеного великого об'єкта або **`false`** у р
 
 ### Дивіться також
 
--   [pg\_lo\_export()](function.pg-lo-export.html) - Виведення великого об'єкта у файл
--   [pg\_lo\_open()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
+-   [пглоexport()](function.pg-lo-export.html) - Виведення великого об'єкта у файл
+-   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних

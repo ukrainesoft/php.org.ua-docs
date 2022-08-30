@@ -1,12 +1,12 @@
 Знаходить конфігурацію лише для читання
 
--   [« Yaf\_Config\_Abstract::get](yaf-config-abstract.get.html)
+-   [« YafConfigAbstract::get](yaf-config-abstract.get.html)
     
--   [Yaf\_Config\_Abstract::set »](yaf-config-abstract.set.html)
+-   [YafConfigAbstract::set »](yaf-config-abstract.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+-   [YafConfigAbstract](class.yaf-config-abstract.html)
     
 -   Знаходить конфігурацію лише для читання
     

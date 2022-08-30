@@ -1,12 +1,12 @@
 Підсвічування синтаксису рядка
 
--   [« highlight\_file](function.highlight-file.html)
+-   [« highlightfile](function.highlight-file.html)
     
 -   [hrtime »](function.hrtime.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Підсвічування синтаксису рядка
     
@@ -62,11 +62,11 @@ highlight_string('<?php phpinfo(); ?>');
 
 > **Зауваження**
 > 
-> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [ob\_start()](function.ob-start.html)
+> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [проstart()](function.ob-start.html)
 
 Згенерована розмітка HTML може бути змінена.
 
 ### Дивіться також
 
--   [highlight\_file()](function.highlight-file.html) - Підсвічування синтаксису файлу
+-   [highlightfile()](function.highlight-file.html) - Підсвічування синтаксису файлу
 -   [Подсветка директив INI](misc.configuration.html#ini.syntax-highlighting)

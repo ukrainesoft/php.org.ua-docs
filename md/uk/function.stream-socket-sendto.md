@@ -1,12 +1,12 @@
 Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
 
--   [« stream\_socket\_recvfrom](function.stream-socket-recvfrom.html)
+-   [« streamsocketrecvfrom](function.stream-socket-recvfrom.html)
     
--   [stream\_socket\_server »](function.stream-socket-server.html)
+-   [streamsocketserver »](function.stream-socket-server.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
     
@@ -73,6 +73,6 @@ fclose($socket);
 
 ### Дивіться також
 
--   [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.html) - Отримує дані із сокету, підключеного чи ні
--   [stream\_socket\_client()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [stream\_socket\_server()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketrecvfrom()](function.stream-socket-recvfrom.html) - Отримує дані із сокету, підключеного чи ні
+-   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix

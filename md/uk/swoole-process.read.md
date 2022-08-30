@@ -1,12 +1,12 @@
 Читає дані відправки у процес
 
--   [« Swoole\\Process::push](swoole-process.push.html)
+-   [« SwooleProcess::push](swoole-process.push.html)
     
--   [Swoole\\Process::signal »](swoole-process.signal.html)
+-   [SwooleProcess::signal »](swoole-process.signal.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Читає дані відправки у процес
     

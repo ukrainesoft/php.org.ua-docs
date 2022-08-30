@@ -1,8 +1,8 @@
 Установка обробника початкового та кінцевого елементів
 
--   [« xml\_set\_default\_handler](function.xml-set-default-handler.html)
+-   [« xmlsetdefaulthandler](function.xml-set-default-handler.html)
     
--   [xml\_set\_end\_namespace\_decl\_handler »](function.xml-set-end-namespace-decl-handler.html)
+-   [xmlsetendnamespacedeclhandler »](function.xml-set-end-namespace-decl-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ xmlsetelementhandler — Встановлення обробника почат�
 xml_set_element_handler(XMLParser $parser, callable $start_handler, callable $end_handler): bool
 ```
 
-Встановлює функцію обробник елементів для XML-аналізатора `parser`. . `start_handler` і `end_handler` - рядки, що містять імена функцій, які мають бути визначені на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+Встановлює функцію обробник елементів для XML-аналізатора `parser`. . `start_handler` і `end_handler` - рядки, що містять імена функцій, які мають бути визначені на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
 ### Список параметрів
 

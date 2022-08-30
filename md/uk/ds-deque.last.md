@@ -1,12 +1,12 @@
 Повертає останнє значення двосторонньої черги
 
--   [« Ds\\Deque::jsonSerialize](ds-deque.jsonserialize.html)
+-   [« DsDeque::jsonSerialize](ds-deque.jsonserialize.html)
     
--   [Ds\\Deque::map »](ds-deque.map.html)
+-   [ДсDeque::map »](ds-deque.map.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає останнє значення двосторонньої черги
     

@@ -1,12 +1,12 @@
 Застосовує задану користувачем функцію кожного елемента масиву
 
--   [« array\_walk\_recursive](function.array-walk-recursive.html)
+-   [« arraywalkrecursive](function.array-walk-recursive.html)
     
 -   [array »](function.array.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Застосовує задану користувачем функцію кожного елемента масиву
     
@@ -57,7 +57,7 @@ array_walk(array|object &$array, callable $callback, mixed $arg = null): bool
 
 ### Помилки
 
-Починаючи з PHP 7.1.0, якщо `callback`функція вимагає більше двох параметрів (значення та ключ елемента масиву) або більше 3 параметрів, якщо також передається параметр `arg`, буде викинуто виняток [ArgumentCountError](class.argumentcounterror.html). Раніше в такому разі при кожному виклику `callback`, генерувалася помилка рівня [E\_WARNING](errorfunc.constants.html)
+Починаючи з PHP 7.1.0, якщо `callback`функція вимагає більше двох параметрів (значення та ключ елемента масиву) або більше 3 параметрів, якщо також передається параметр `arg`, буде викинуто виняток [ArgumentCountError](class.argumentcounterror.html). Раніше в такому разі при кожному виклику `callback`, генерувалася помилка рівня [ЕWARNING](errorfunc.constants.html)
 
 ### список змін
 
@@ -131,10 +131,10 @@ array_walk($elements, function ($value, $key) {
 
 ### Дивіться також
 
--   [array\_walk\_recursive()](function.array-walk-recursive.html) - Рекурсивно застосовує функцію користувача до кожного елементу масиву
--   [iterator\_apply()](function.iterator-apply.html) - Викликає функцію кожного елемента в итераторе
+-   [arraywalkrecursive()](function.array-walk-recursive.html) - Рекурсивно застосовує функцію користувача до кожного елементу масиву
+-   [iteratorapply()](function.iterator-apply.html) - Викликає функцію кожного елемента в итераторе
 -   [list()](function.list.html) - Надає змінним зі списку значення подібно до масиву
 -   [each()](function.each.html) - Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
--   [call\_user\_func\_array()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
--   [array\_map()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
+-   [arraymap()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
 -   [foreach](control-structures.foreach.html)

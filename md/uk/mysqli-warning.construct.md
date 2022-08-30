@@ -1,12 +1,12 @@
 Закритий конструктор для заборони прямого створення екземпляра
 
--   [« mysqli\_warning](class.mysqli-warning.html)
+-   [« mysqliwarning](class.mysqli-warning.html)
     
--   [mysqli\_warning::next »](mysqli-warning.next.html)
+-   [mysqliwarning::next »](mysqli-warning.next.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_warning](class.mysqli-warning.html)
+-   [mysqliwarning](class.mysqli-warning.html)
     
 -   Закритий конструктор для заборони прямого створення екземпляра
     

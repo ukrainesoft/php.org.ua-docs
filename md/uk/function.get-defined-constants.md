@@ -1,12 +1,12 @@
 Повертає асоціативний масив з іменами всіх констант та їх значень
 
--   [« get\_current\_user](function.get-current-user.html)
+-   [« getcurrentuser](function.get-current-user.html)
     
--   [get\_extension\_funcs »](function.get-extension-funcs.html)
+-   [getextensionfuncs »](function.get-extension-funcs.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає асоціативний масив з іменами всіх констант та їх значень
     
@@ -118,6 +118,6 @@ Array
 
 -   [defined()](function.defined.html) - Перевіряє існування вказаної іменованої константи
 -   [constant()](function.constant.html) - Повертає значення константи
--   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [get\_defined\_functions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [get\_defined\_vars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних
+-   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [getdefinedvars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних

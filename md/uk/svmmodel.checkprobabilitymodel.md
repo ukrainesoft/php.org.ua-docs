@@ -2,7 +2,7 @@
 
 -   [« SVMModel](class.svmmodel.html)
     
--   [SVMModel::\_\_construct »](svmmodel.construct.html)
+-   [SVMModel::construct »](svmmodel.construct.html)
     
 -   [PHP Manual](index.html)
     

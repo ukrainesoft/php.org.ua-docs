@@ -1,8 +1,8 @@
 Повертає текст останньої помилки, що сталася
 
--   [« cubrid\_error\_code](function.cubrid-error-code.html)
+-   [« cubriderrorcode](function.cubrid-error-code.html)
     
--   [cubrid\_execute »](function.cubrid-execute.html)
+-   [cubridexecute »](function.cubrid-execute.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,5 +61,5 @@ Error msg: Invalid T_CCI_SCH_TYPE value
 
 ### Дивіться також
 
--   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка
+-   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubriderrorcodefacility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка

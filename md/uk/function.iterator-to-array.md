@@ -1,12 +1,12 @@
 Копіює ітератор у масив
 
--   [« iterator\_count](function.iterator-count.html)
+-   [« iteratorcount](function.iterator-count.html)
     
--   [spl\_autoload\_call »](function.spl-autoload-call.html)
+-   [splautoloadcall »](function.spl-autoload-call.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Копіює ітератор у масив
     

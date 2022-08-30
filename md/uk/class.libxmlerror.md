@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](libxml.constants.html)
     
--   [Функции libxml »](ref.libxml.html)
+-   [Функції libxml »](ref.libxml.html)
     
 -   [PHP Manual](index.html)
     

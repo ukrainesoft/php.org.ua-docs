@@ -1,12 +1,12 @@
 Повертає кодування поточного з'єднання CUBRID
 
--   [« cubrid\_affected\_rows](function.cubrid-affected-rows.html)
+-   [« cubridaffectedrows](function.cubrid-affected-rows.html)
     
--   [cubrid\_close »](function.cubrid-close.html)
+-   [cubridclose »](function.cubrid-close.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Повертає кодування поточного з'єднання CUBRID
     
@@ -29,7 +29,7 @@ cubrid_client_encoding(resource $conn_identifier = ?): string
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
 
 ### Значення, що повертаються
 
@@ -63,4 +63,4 @@ printf("Текущая кодировка CUBRID: %s\n", cubrid_client_encod
 
 ### Дивіться також
 
--   [cubrid\_get\_charset()](function.cubrid-get-charset.html) - Повертає кодування поточного з'єднання CUBRID
+-   [cubridgetcharset()](function.cubrid-get-charset.html) - Повертає кодування поточного з'єднання CUBRID

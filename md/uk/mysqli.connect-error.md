@@ -1,8 +1,8 @@
 Повертає опис останньої помилки підключення
 
--   [« mysqli::$connect\_errno](mysqli.connect-errno.html)
+-   [« mysqli::$connecterrno](mysqli.connect-errno.html)
     
--   [mysqli::\_\_construct »](mysqli.construct.html)
+-   [mysqli::construct »](mysqli.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ mysqli::$connecterror - mysqliconnecterror — Повертає опис ост�
 
 Об'єктно-орієнтований стиль
 
-?string [$mysqli->connect\_error](mysqli.connect-error.html)
+?string [$mysqli->connecterror](mysqli.connect-error.html)
 
 Процедурний стиль
 
@@ -39,7 +39,7 @@ mysqli_connect_error(): ?string
 
 ### Значення, що повертаються
 
-Повідомлення про помилку . **`null`**якщо помилка відсутня.
+Повідомлення про помилку . \*\*`null`\*\*якщо помилка відсутня.
 
 ### Приклади
 
@@ -81,8 +81,8 @@ if (!$link) {
 
 ### Дивіться також
 
--   [mysqli\_connect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqli\_connect\_errno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
--   [mysqli\_errno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqli\_error()](mysqli.error.html) - Повертає рядок із описом останньої помилки
--   [mysqli\_sqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqliconnecterrno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
+-   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
+-   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції

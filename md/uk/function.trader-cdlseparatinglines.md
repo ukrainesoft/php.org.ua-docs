@@ -1,8 +1,8 @@
 Поділ
 
--   [« trader\_cdlrisefall3methods](function.trader-cdlrisefall3methods.html)
+-   [« tradercdlrisefall3methods](function.trader-cdlrisefall3methods.html)
     
--   [trader\_cdlshootingstar »](function.trader-cdlshootingstar.html)
+-   [tradercdlshootingstar »](function.trader-cdlshootingstar.html)
     
 -   [PHP Manual](index.html)
     

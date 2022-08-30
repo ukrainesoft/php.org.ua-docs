@@ -1,8 +1,8 @@
 Перевіряє, чи заданий алгоритм є блоковим чи ні
 
--   [« mcrypt\_module\_is\_block\_algorithm\_mode](function.mcrypt-module-is-block-algorithm-mode.html)
+-   [« mcryptmoduleісblockalgorithmmode](function.mcrypt-module-is-block-algorithm-mode.html)
     
--   [mcrypt\_module\_is\_block\_mode »](function.mcrypt-module-is-block-mode.html)
+-   [mcryptmoduleісblockmode »](function.mcrypt-module-is-block-mode.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ mcryptmoduleісblockalgorithm — Перевіряє, чи заданий ал�
 mcrypt_module_is_block_algorithm(string $algorithm, string $lib_dir = ?): bool
 ```
 
-Функція повертає **`true`**якщо алгоритм блоковий, інакше повертає **`false`** (Потоковий).
+Функція повертає \*\*`true`\*\*якщо алгоритм блоковий, інакше повертає **`false`** (Потоковий).
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ mcrypt_module_is_block_algorithm(string $algorithm, string $lib_dir = ?): bool
 
 ### Значення, що повертаються
 
-Функція повертає **`true`**якщо алгоритм блоковий, інакше повертає **`false`** (Потоковий).
+Функція повертає \*\*`true`\*\*якщо алгоритм блоковий, інакше повертає **`false`** (Потоковий).

@@ -1,8 +1,8 @@
 Створює новий набір з елементами, яких немає в іншому наборі
 
--   [« Ds\\Set::count](ds-set.count.html)
+-   [« DsSet::count](ds-set.count.html)
     
--   [Ds\\Set::filter »](ds-set.filter.html)
+-   [ДсSet::filter »](ds-set.filter.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public Ds\Set::diff(Ds\Set $set): Ds\Set
 
 ### Дивіться також
 
--   [» Разность множеств](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Вікіпедія
+-   [» Різниця множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Вікіпедія
 
 ### Приклади
 

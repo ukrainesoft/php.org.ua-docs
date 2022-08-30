@@ -2,7 +2,7 @@
 
 -   [« Установка](componere.installation.html)
     
--   [Componere\\Abstract\\Definition::addInterface »](componere-abstract-definition.addinterface.html)
+-   [ComponereAbstractDefinition::addInterface »](componere-abstract-definition.addinterface.html)
     
 -   [PHP Manual](index.html)
     
@@ -46,7 +46,7 @@ public getReflector(): ReflectionClass
 
 ## Зміст
 
--   [Componere\\Abstract\\Definition::addInterface](componere-abstract-definition.addinterface.html) — Додає інтерфейс
--   [Componere\\Abstract\\Definition::addMethod](componere-abstract-definition.addmethod.html) — Додає метод
--   [Componere\\Abstract\\Definition::addTrait](componere-abstract-definition.addtrait.html) - Додає трейт
--   [Componere\\Abstract\\Definition::getReflector](componere-abstract-definition.getreflector.html) - Reflection
+-   [ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.html) — Додає інтерфейс
+-   [ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.html) — Додає метод
+-   [ComponereAbstractDefinition::addTrait](componere-abstract-definition.addtrait.html) - Додає трейт
+-   [ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.html) - Reflection

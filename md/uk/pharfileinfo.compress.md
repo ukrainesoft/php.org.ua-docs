@@ -2,7 +2,7 @@
 
 -   [« PharFileInfo::chmod](pharfileinfo.chmod.html)
     
--   [PharFileInfo::\_\_construct »](pharfileinfo.construct.html)
+-   [PharFileInfo::construct »](pharfileinfo.construct.html)
     
 -   [PHP Manual](index.html)
     

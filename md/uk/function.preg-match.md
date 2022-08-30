@@ -1,8 +1,8 @@
 Виконує перевірку на відповідність регулярному виразу
 
--   [« preg\_match\_all](function.preg-match-all.html)
+-   [« pregmatchall](function.preg-match-all.html)
     
--   [preg\_quote »](function.preg-quote.html)
+-   [pregquote »](function.preg-quote.html)
     
 -   [PHP Manual](index.html)
     
@@ -182,7 +182,7 @@ array(4) {
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
@@ -291,9 +291,9 @@ Array
 ### Дивіться також
 
 -   "[Регулярные выражения PCRE](pcre.pattern.html)"
--   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [preg\_match\_all()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [preg\_last\_error()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
--   [preg\_last\_error\_msg()](function.preg-last-error-msg.html) - Повертає повідомлення про помилку останньої запущеної функції PCRE
+-   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preglasterrormsg()](function.preg-last-error-msg.html) - Повертає повідомлення про помилку останньої запущеної функції PCRE

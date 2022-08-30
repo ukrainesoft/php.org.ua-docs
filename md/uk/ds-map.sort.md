@@ -1,8 +1,8 @@
 Сортує колекцію за значеннями
 
--   [« Ds\\Map::slice](ds-map.slice.html)
+-   [« DsMap::slice](ds-map.slice.html)
     
--   [Ds\\Map::sorted »](ds-map.sorted.html)
+-   [ДсMap::sorted »](ds-map.sorted.html)
     
 -   [PHP Manual](index.html)
     

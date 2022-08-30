@@ -1,8 +1,8 @@
 Читає вміст директорії
 
--   [« eio\_readahead](function.eio-readahead.html)
+-   [« eioreadahead](function.eio-readahead.html)
     
--   [eio\_readlink »](function.eio-readlink.html)
+-   [eioreadlink »](function.eio-readlink.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

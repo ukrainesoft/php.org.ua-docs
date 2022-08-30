@@ -1,8 +1,8 @@
 Векторний тригонометричний синус
 
--   [« trader\_set\_unstable\_period](function.trader-set-unstable-period.html)
+-   [« tradersetunstableperiod](function.trader-set-unstable-period.html)
     
--   [trader\_sinh »](function.trader-sinh.html)
+-   [tradersinh »](function.trader-sinh.html)
     
 -   [PHP Manual](index.html)
     

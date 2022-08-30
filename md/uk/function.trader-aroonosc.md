@@ -1,8 +1,8 @@
 Осцилятор індикатора Aroon
 
--   [« trader\_aroon](function.trader-aroon.html)
+-   [« traderaroon](function.trader-aroon.html)
     
--   [trader\_asin »](function.trader-asin.html)
+-   [traderasin »](function.trader-asin.html)
     
 -   [PHP Manual](index.html)
     

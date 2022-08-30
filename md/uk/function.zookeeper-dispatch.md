@@ -86,7 +86,7 @@ while(true) {
 
 -   [Zookeeper::addAuth()](zookeeper.addauth.html) - Вказує облікові дані програми
 -   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::\_\_construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
 -   [Zookeeper::exists()](zookeeper.exists.html) - Синхронно перевіряє наявність вузла в zookeeper
 -   [Zookeeper::get()](zookeeper.get.html) - Синхронно отримує дані, пов'язані з вузлом
 -   [Zookeeper::getChildren()](zookeeper.getchildren.html) - Виводить список нащадків вузла синхронно

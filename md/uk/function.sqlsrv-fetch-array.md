@@ -1,12 +1,12 @@
 Повертає рядок як масив
 
--   [« sqlsrv\_execute](function.sqlsrv-execute.html)
+-   [« sqlsrvexecute](function.sqlsrv-execute.html)
     
--   [sqlsrv\_fetch\_object »](function.sqlsrv-fetch-object.html)
+-   [sqlsrvfetchobject »](function.sqlsrv-fetch-object.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Повертає рядок як масив
     
@@ -47,7 +47,7 @@ sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив, **`null`**якщо в наборі результатів більше немає рядків і **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає масив, \*\*`null`\*\*якщо в наборі результатів більше немає рядків і **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -111,7 +111,7 @@ sqlsrv_free_stmt( $stmt);
 
 ### Дивіться також
 
--   [sqlsrv\_connect()](function.sqlsrv-connect.html) - Відкриває з'єднання з базою даних Microsoft SQL Server
--   [sqlsrv\_query()](function.sqlsrv-query.html) - готує та виконує запит
--   [sqlsrv\_errors()](function.sqlsrv-errors.html) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
--   [sqlsrv\_fetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvconnect()](function.sqlsrv-connect.html) - Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrverrors()](function.sqlsrv-errors.html) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+-   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання

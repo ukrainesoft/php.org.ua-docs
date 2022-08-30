@@ -34,11 +34,11 @@ public
 
 `pid`
 
-Дивіться [EvChild::\_\_construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.html)
 
 `trace`
 
-Дивіться [EvChild::\_\_construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.html)
 
 ### Значення, що повертаються
 
@@ -46,4 +46,4 @@ public
 
 ### Дивіться також
 
--   [EvChild::\_\_construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvChild::construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild

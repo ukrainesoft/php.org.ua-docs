@@ -1,6 +1,6 @@
 Функціонал, оголошений застарілим у PHP 7.3.x
 
--   [« Изменения, ломающие обратную совместимость](migration73.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration73.incompatible.html)
     
 -   [Прочие изменения »](migration73.other-changes.html)
     
@@ -38,7 +38,7 @@
 
 #### Зміни у видаленні тегів
 
-Функція [fgetss()](function.fgetss.html) і [фильтр потока string.strip\_tags](filters.string.html) оголошено застарілим. Це також впливає на метод [SplFileObject::fgetss()](splfileobject.fgetss.html) та на функцію [gzgetss()](function.gzgetss.html)
+Функція [fgetss()](function.fgetss.html) і [фильтр потока string.striptags](filters.string.html) оголошено застарілим. Це також впливає на метод [SplFileObject::fgetss()](splfileobject.fgetss.html) та на функцію [gzgetss()](function.gzgetss.html)
 
 ### Фільтрування даних
 
@@ -73,4 +73,4 @@
 
 ### Функції ODBC та DB2 (PDOODBC)
 
-Налаштування ini-файлу [pdo\_odbc.db2\_instance\_name](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) офіційно оголошено застарілим. Опція застаріла у документації, починаючи з PHP 5.1.1.
+Налаштування ini-файлу [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) офіційно оголошено застарілим. Опція застаріла у документації, починаючи з PHP 5.1.1.

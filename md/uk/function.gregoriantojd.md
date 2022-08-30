@@ -84,4 +84,4 @@ echo gregoriantojd(2, 31, 2018), PHP_EOL,
 ### Дивіться також
 
 -   [jdtogregorian()](function.jdtogregorian.html) - Переказує кількість днів у юліанському літочисленні в дату за Григоріанським календарем
--   [cal\_to\_jd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
+-   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську

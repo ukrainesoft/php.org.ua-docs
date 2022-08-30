@@ -1,12 +1,12 @@
 Конструктор класу YafSession
 
--   [« Yaf\_Session](class.yaf-session.html)
+-   [« YafSession](class.yaf-session.html)
     
--   [Yaf\_Session::count »](yaf-session.count.html)
+-   [YafSession::count »](yaf-session.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Конструктор класу YafSession
     

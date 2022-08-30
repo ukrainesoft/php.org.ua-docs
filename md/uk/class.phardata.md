@@ -194,7 +194,7 @@ public SplFileInfo::__toString(): string
 -   [PharData::buildFromIterator](phardata.buildfromiterator.html) — Створення tar/zip-архіву за допомогою ітератора
 -   [PharData::compress](phardata.compress.html) — Стискає весь архів tar/zip, використовуючи стиск Gzip або Bzip2
 -   [PharData::compressFiles](phardata.compressfiles.html) — Стиснути всі файли у поточному tar/zip-архіві
--   [PharData::\_\_construct](phardata.construct.html) - Конструктор об'єкта PharData
+-   [PharData::construct](phardata.construct.html) - Конструктор об'єкта PharData
 -   [PharData::convertToData](phardata.converttodata.html) — Конвертація phar-архіву в tar/zip-архів, що не запускається.
 -   [PharData::convertToExecutable](phardata.converttoexecutable.html) — Конвертація tar/zip-архіву з даними в phar-архів, що запускається
 -   [PharData::copy](phardata.copy.html) — Скопіювати файл із tar/zip-архіву в новий файл усередині нього ж
@@ -202,7 +202,7 @@ public SplFileInfo::__toString(): string
 -   [PharData::decompressFiles](phardata.decompressfiles.html) — Розпакувати всі файли у поточному zip-архіві
 -   [PharData::delMetadata](phardata.delmetadata.html) — Видалити глобальні метадані для zip-архіву
 -   [PharData::delete](phardata.delete.html) — Видалити файл із tar/zip-архіву
--   [PharData::\_\_destruct](phardata.destruct.html) — Знищує об'єкт архіву tar або zip, що не виконується.
+-   [PharData::destruct](phardata.destruct.html) — Знищує об'єкт архіву tar або zip, що не виконується.
 -   [PharData::extractTo](phardata.extractto.html) — Витягти вміст tar/zip-архіву в директорію
 -   [PharData::isWritable](phardata.iswritable.html) — Перевірити, чи можна модифікувати tar/zip-архів
 -   [PharData::offsetSet](phardata.offsetset.html) — Зміна вмісту файлу

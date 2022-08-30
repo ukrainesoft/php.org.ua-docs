@@ -207,4 +207,4 @@ World Wide Web Consortium (приклад: 2005-08-15T15:52:01+00:00)
 -   [DateTimeInterface::getOffset](datetime.getoffset.html) — Повертає усунення часового поясу
 -   [DateTimeInterface::getTimestamp](datetime.gettimestamp.html) — Повертає тимчасову мітку Unix
 -   [DateTimeInterface::getTimezone](datetime.gettimezone.html) — Повертає часовий пояс щодо поточного значення DateTime
--   [DateTime::\_\_wakeup](datetime.wakeup.html) - Обробник wakeup
+-   [DateTime::wakeup](datetime.wakeup.html) - Обробник wakeup

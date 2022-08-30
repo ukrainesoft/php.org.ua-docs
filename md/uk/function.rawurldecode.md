@@ -1,12 +1,12 @@
 Декодування URL-кодованого рядка
 
--   [« parse\_url](function.parse-url.html)
+-   [« parseurl](function.parse-url.html)
     
 -   [rawurlencode »](function.rawurlencode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   Декодування URL-кодованого рядка
     

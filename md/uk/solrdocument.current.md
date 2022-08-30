@@ -1,6 +1,6 @@
 Отримує поточне поле
 
--   [« SolrDocument::\_\_construct](solrdocument.construct.html)
+-   [« SolrDocument::construct](solrdocument.construct.html)
     
 -   [SolrDocument::deleteField »](solrdocument.deletefield.html)
     

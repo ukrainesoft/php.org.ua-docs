@@ -1,8 +1,8 @@
 Отримати швидкість з'єднання з мережею Інтернет
 
--   [« geoip\_isp\_by\_name](function.geoip-isp-by-name.html)
+-   [« geoipispбname](function.geoip-isp-by-name.html)
     
--   [geoip\_org\_by\_name »](function.geoip-org-by-name.html)
+-   [geoiporgбname »](function.geoip-org-by-name.html)
     
 -   [PHP Manual](index.html)
     

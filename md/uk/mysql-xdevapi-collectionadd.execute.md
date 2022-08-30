@@ -1,12 +1,12 @@
 Виконує затвердження
 
--   [« CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.html)
+-   [« CollectionAdd::construct](mysql-xdevapi-collectionadd.construct.html)
     
--   [mysql\_xdevapi\\CollectionFind »](class.mysql-xdevapi-collectionfind.html)
+-   [mysqlxdevapiCollectionFind »](class.mysql-xdevapi-collectionfind.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html)
+-   [mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html)
     
 -   Виконує затвердження
     

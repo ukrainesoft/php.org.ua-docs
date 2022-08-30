@@ -1,12 +1,12 @@
 Клас Pair
 
--   [« Ds\\Map::xor](ds-map.xor.html)
+-   [« DsMap::xor](ds-map.xor.html)
     
--   [Ds\\Pair::clear »](ds-pair.clear.html)
+-   [ДсPair::clear »](ds-pair.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Клас Pair
     
@@ -48,9 +48,9 @@ public toArray(): array
 
 ## Зміст
 
--   [Ds\\Pair::clear](ds-pair.clear.html) - Видаляє всі значення
--   [Ds\\Pair::\_\_construct](ds-pair.construct.html) - Створює екземпляр класу
--   [Ds\\Pair::copy](ds-pair.copy.html) — Повертає поверхневу копію пари
--   [Ds\\Pair::isEmpty](ds-pair.isempty.html) — Перевіряє, чи пара порожня.
--   [Ds\\Pair::jsonSerialize](ds-pair.jsonserialize.html) — Повертає пару у виставі JSON
--   [Ds\\Pair::toArray](ds-pair.toarray.html) - Перетворює пару в масив (array)
+-   [ДсPair::clear](ds-pair.clear.html) - Видаляє всі значення
+-   [ДсPair::construct](ds-pair.construct.html) - Створює екземпляр класу
+-   [ДсPair::copy](ds-pair.copy.html) — Повертає поверхневу копію пари
+-   [ДсPair::isEmpty](ds-pair.isempty.html) — Перевіряє, чи пара порожня.
+-   [ДсPair::jsonSerialize](ds-pair.jsonserialize.html) — Повертає пару у виставі JSON
+-   [ДсPair::toArray](ds-pair.toarray.html) - Перетворює пару в масив (array)

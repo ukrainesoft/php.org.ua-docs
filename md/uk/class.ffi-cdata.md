@@ -2,7 +2,7 @@
 
 -   [« FFI::typeof](ffi.typeof.html)
     
--   [FFI\\CType »](class.ffi-ctype.html)
+-   [FFICType »](class.ffi-ctype.html)
     
 -   [PHP Manual](index.html)
     
@@ -30,7 +30,7 @@
 -   Вказівники C можна віднімати один з одного за допомогою операції `-`
 -   Вказівники на функції можна викликати як звичайні замикання PHP: `$cdata()`
 -   Будь-які дані C можна клонувати за допомогою [clone](language.oop5.cloning.html) `$cdata2 = clone $cdata;`
--   Будь-які дані C можна візуалізувати за допомогою [var\_dump()](function.var-dump.html) [print\_r()](function.print-r.html), і т.д.
+-   Будь-які дані C можна візуалізувати за допомогою [vardump()](function.var-dump.html) [printr()](function.print-r.html), і т.д.
 
 > **Зауваження**: Зверніть увагу, що для екземплярів **FFICData** не підтримуються функції [isset()](function.isset.html) [empty()](function.empty.html) і [unset()](function.unset.html). А для тих, що обертають структури та об'єднання, не реалізований інтерфейс. [Traversable](class.traversable.html)
 

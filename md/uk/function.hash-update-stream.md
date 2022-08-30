@@ -1,8 +1,8 @@
 Додає дані з відкритого потоку до активного контексту хешування
 
--   [« hash\_update\_file](function.hash-update-file.html)
+-   [« hashupdatefile](function.hash-update-file.html)
     
--   [hash\_update »](function.hash-update.html)
+-   [hashupdate »](function.hash-update.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 `context`
 
-Контекст хешування, що повертається [hash\_init()](function.hash-init.html)
+Контекст хешування, що повертається [hashinit()](function.hash-init.html)
 
 `stream`
 
@@ -71,8 +71,8 @@ bff8b4bc8b5c1c1d5b3211dfb21d1e76
 
 ### Дивіться також
 
--   [hash\_init()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hash\_update()](function.hash-update.html) - Додає дані до активного контексту хешування
--   [hash\_final()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashupdate()](function.hash-update.html) - Додає дані до активного контексту хешування
+-   [hashfinal()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
 -   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
--   [hash\_file()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу

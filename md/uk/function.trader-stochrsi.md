@@ -1,8 +1,8 @@
 Стохастичний відносний індекс сили
 
--   [« trader\_stochf](function.trader-stochf.html)
+-   [« traderstochf](function.trader-stochf.html)
     
--   [trader\_sub »](function.trader-sub.html)
+-   [tradersub »](function.trader-sub.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fas
 
 `fastD_MAType`
 
-Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 ### Значення, що повертаються
 

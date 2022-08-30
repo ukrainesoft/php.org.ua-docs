@@ -1,6 +1,6 @@
 Визначає MIME-тип вмісту файлу
 
--   [« finfo\_set\_flags](function.finfo-set-flags.html)
+-   [« finfosetflags](function.finfo-set-flags.html)
     
 -   [finfo »](class.finfo.html)
     
@@ -59,5 +59,5 @@ text/plain
 
 ### Дивіться також
 
--   [finfo\_file()](finfo.file.html) - Псевдонім finfofile()
--   [finfo\_buffer()](finfo.buffer.html) - Псевдонім finfobuffer()
+-   [finfofile()](finfo.file.html) - Псевдонім finfofile()
+-   [finfobuffer()](finfo.buffer.html) - Псевдонім finfobuffer()

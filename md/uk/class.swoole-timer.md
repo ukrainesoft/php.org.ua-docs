@@ -1,8 +1,8 @@
 Клас SwooleTimer
 
--   [« Swoole\\Table::valid](swoole-table.valid.html)
+-   [« SwooleTable::valid](swoole-table.valid.html)
     
--   [Swoole\\Timer::after »](swoole-timer.after.html)
+-   [SwooleTimer::after »](swoole-timer.after.html)
     
 -   [PHP Manual](index.html)
     
@@ -42,7 +42,7 @@ public static tick(int $interval_ms, callable $callback, string $param = ?): voi
 
 ## Зміст
 
--   [Swoole\\Timer::after](swoole-timer.after.html) - Запускає callback-функцію через певний проміжок часу
--   [Swoole\\Timer::clear](swoole-timer.clear.html) — Видаляє таймер за ідентифікатором
--   [Swoole\\Timer::exists](swoole-timer.exists.html) — Перевіряє, чи існує таймер
--   [Swoole\\Timer::tick](swoole-timer.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
+-   [SwooleTimer::after](swoole-timer.after.html) - Запускає callback-функцію через певний проміжок часу
+-   [SwooleTimer::clear](swoole-timer.clear.html) — Видаляє таймер за ідентифікатором
+-   [SwooleTimer::exists](swoole-timer.exists.html) — Перевіряє, чи існує таймер
+-   [SwooleTimer::tick](swoole-timer.tick.html) — Повторює цю функцію у кожний заданий інтервал часу

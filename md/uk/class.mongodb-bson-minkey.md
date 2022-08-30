@@ -1,12 +1,12 @@
 Клас MongoDBBSONMinKey
 
--   [« MongoDB\\BSON\\MaxKey::unserialize](mongodb-bson-maxkey.unserialize.html)
+-   [« MongoDBBSONMaxKey::unserialize](mongodb-bson-maxkey.unserialize.html)
     
--   [MongoDB\\BSON\\MinKey::\_\_construct »](mongodb-bson-minkey.construct.html)
+-   [MongoDBBSONMinKey::construct »](mongodb-bson-minkey.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONMinKey
     
@@ -51,12 +51,12 @@ final public unserialize(string $serialized): void
 
 | Версия             | Описание                                                                                                      |
 |--------------------|---------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.html)                  |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html)                      |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 
--   [MongoDB\\BSON\\MinKey::\_\_construct](mongodb-bson-minkey.construct.html) - Конструктор MinKey
--   [MongoDB\\BSON\\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\MinKey::serialize](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
--   [MongoDB\\BSON\\MinKey::unserialize](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey
+-   [MongoDBBSONMinKey::construct](mongodb-bson-minkey.construct.html) - Конструктор MinKey
+-   [MongoDBBSONMinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONMinKey::serialize](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
+-   [MongoDBBSONMinKey::unserialize](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey

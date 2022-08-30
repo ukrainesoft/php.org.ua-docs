@@ -1,12 +1,12 @@
 Кількість рядків, порушених останнім SQL-запитом
 
--   [« Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [« Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
--   [cubrid\_client\_encoding »](function.cubrid-client-encoding.html)
+-   [cubridclientencoding »](function.cubrid-client-encoding.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Кількість рядків, порушених останнім SQL-запитом
     
@@ -33,11 +33,11 @@ cubrid_affected_rows(resource $req_identifier = ?): int
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
 
 `req_identifier`
 
-Ідентифікатор запиту має бути повернутий функціями [cubrid\_prepare()](function.cubrid-prepare.html) або [cubrid\_execute()](function.cubrid-execute.html). Якщо не заданий, буде використано останній запит, повернутий [cubrid\_prepare()](function.cubrid-prepare.html) або [cubrid\_execute()](function.cubrid-execute.html)
+Ідентифікатор запиту має бути повернутий функціями [cubridprepare()](function.cubrid-prepare.html) або [cubridexecute()](function.cubrid-execute.html). Якщо не заданий, буде використано останній запит, повернутий [cubridprepare()](function.cubrid-prepare.html) або [cubridexecute()](function.cubrid-execute.html)
 
 ### Значення, що повертаються
 
@@ -83,4 +83,4 @@ Rows deleted: 5
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

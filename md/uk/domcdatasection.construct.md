@@ -53,5 +53,5 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMText::\_\_construct()](domtext.construct.html) - Створює об'єкт класу DOMText
+-   [DOMText::construct()](domtext.construct.html) - Створює об'єкт класу DOMText
 -   [DOMDocument::createTextNode()](domdocument.createtextnode.html) - Створити новий текстовий вузол

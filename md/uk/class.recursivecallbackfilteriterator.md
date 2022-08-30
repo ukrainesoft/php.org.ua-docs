@@ -2,11 +2,11 @@
 
 -   [« RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.html)
     
--   [RecursiveCallbackFilterIterator::\_\_construct »](recursivecallbackfilteriterator.construct.html)
+-   [RecursiveCallbackFilterIterator::construct »](recursivecallbackfilteriterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас RecursiveCallbackFilterIterator
     
@@ -90,7 +90,7 @@ function my_callback($current, $key, $iterator) {
 ?>
 ```
 
-Фільтрація рекурсивного ітератора зазвичай включає дві умови. Перше у тому, щоб дозволити рекурсію. Callback-функція має повертати **`true`**якщо поточний елемент ітератора має нащадків. Друге - це нормальна умова фільтра, наприклад, перевірка розміру файлу чи розширення, як у наведеному нижче прикладі.
+Фільтрація рекурсивного ітератора зазвичай включає дві умови. Перше у тому, щоб дозволити рекурсію. Callback-функція має повертати \*\*`true`\*\*якщо поточний елемент ітератора має нащадків. Друге - це нормальна умова фільтра, наприклад, перевірка розміру файлу чи розширення, як у наведеному нижче прикладі.
 
 **Приклад #2 Простий приклад рекурсивного зворотного виклику**
 
@@ -121,6 +121,6 @@ foreach (new RecursiveIteratorIterator($files) as $file) {
 
 ## Зміст
 
--   [RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.html) — Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilterIterator::construct](recursivecallbackfilteriterator.construct.html) — Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
 -   [RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.html) — Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
 -   [RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.html) — Перевіряє, чи поточний елемент внутрішнього ітератора містить дочірні елементи.

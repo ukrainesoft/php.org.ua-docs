@@ -1,12 +1,12 @@
 Показати блок повідомлення
 
--   [« UI\\Window::isFullScreen](ui-window.isfullscreen.html)
+-   [« UIWindow::isFullScreen](ui-window.isfullscreen.html)
     
--   [UI\\Window::onClosing »](ui-window.onclosing.html)
+-   [ОЙWindow::onClosing »](ui-window.onclosing.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Показати блок повідомлення
     

@@ -19,8 +19,8 @@
 
 **Приклад #1 Проста HTML-форма**
 
-Ім'я:   
-Email:   
+Ім'я:  
+Email:
 
 Є лише два способи отримати доступ до даних форм HTML. Наявні способи наведені нижче:
 
@@ -33,7 +33,7 @@ echo $_REQUEST['username'];
 ?>
 ```
 
-GET-форма використовується аналогічно, за винятком того, що замість POST, вам потрібно буде використовувати відповідну певну змінну GET. GET відноситься також до `QUERY_STRING` (Інформація в URL після '?'). Так наприклад, `http://www.example.com/test.php?id=3` містить GET-дані, доступні як [$\_GET\['id'\]](reserved.variables.get.html). Дивіться також [$\_REQUEST](reserved.variables.request.html)
+GET-форма використовується аналогічно, за винятком того, що замість POST, вам потрібно буде використовувати відповідну певну змінну GET. GET відноситься також до `QUERY_STRING` (Інформація в URL після '?'). Так наприклад, `http://www.example.com/test.php?id=3` містить GET-дані, доступні як [GET\['id'\]](reserved.variables.get.html). Дивіться також [REQUEST](reserved.variables.request.html)
 
 > **Зауваження**
 > 
@@ -74,7 +74,7 @@ if ($_POST) {
 
 ### HTTP Cookies
 
-PHP прозоро підтримує HTTP cookies як визначено в [» RFC 6265](http://www.faqs.org/rfcs/rfc6265). Cookies - це механізм для зберігання даних у віддаленому браузері і, таким чином, відстеження та ідентифікації користувачів, що повернулися. Ви можете встановити cookies за допомогою функції [setcookie()](function.setcookie.html). Cookies є частиною HTTP-заголовка, тому функція SetCookie повинна викликатися до того, як браузеру буде відправлено будь-який висновок. Це те ж обмеження, що й для функції [header()](function.header.html). Дані, що зберігаються в cookie, доступні у відповідних масивах даних cookie, таких як [$\_COOKIE](reserved.variables.cookies.html) і [$\_REQUEST](reserved.variables.request.html). Подробиці та приклади дивіться у довідковій сторінці [setcookie()](function.setcookie.html)
+PHP прозоро підтримує HTTP cookies як визначено в [» RFC 6265](http://www.faqs.org/rfcs/rfc6265). Cookies - це механізм для зберігання даних у віддаленому браузері і, таким чином, відстеження та ідентифікації користувачів, що повернулися. Ви можете встановити cookies за допомогою функції [setcookie()](function.setcookie.html). Cookies є частиною HTTP-заголовка, тому функція SetCookie повинна викликатися до того, як браузеру буде відправлено будь-який висновок. Це те ж обмеження, що й для функції [header()](function.header.html). Дані, що зберігаються в cookie, доступні у відповідних масивах даних cookie, таких як [COOKIE](reserved.variables.cookies.html) і [REQUEST](reserved.variables.request.html). Подробиці та приклади дивіться у довідковій сторінці [setcookie()](function.setcookie.html)
 
 > **Зауваження**: Починаючи з PHP 7.2.34, 7.3.23 та 7.4.11, відповідно, *імена* вхідні cookie більше не декодуються з URL-закодованого рядка з міркувань безпеки.
 
@@ -121,9 +121,9 @@ $varname.ext;  /* неверное имя переменной */
 
 ### Визначення типів змінних
 
-Оскільки PHP визначає типи змінних і перетворює їх (як правило) у міру необхідності, не завжди очевидно, який тип має змінна в будь-який момент часу. PHP містить кілька функцій, що дозволяють визначити тип змінної, таких як: [gettype()](function.gettype.html) [is\_array()](function.is-array.html) [is\_float()](function.is-float.html) [is\_int()](function.is-int.html) [is\_object()](function.is-object.html) і [is\_string()](function.is-string.html). Дивіться також розділ [Типы](language.types.html)
+Оскільки PHP визначає типи змінних і перетворює їх (як правило) у міру необхідності, не завжди очевидно, який тип має змінна в будь-який момент часу. PHP містить кілька функцій, що дозволяють визначити тип змінної, таких як: [gettype()](function.gettype.html) [ісarray()](function.is-array.html) [ісfloat()](function.is-float.html) [ісint()](function.is-int.html) [ісobject()](function.is-object.html) і [ісstring()](function.is-string.html). Дивіться також розділ [Типы](language.types.html)
 
-HTTP є текстовим протоколом, і більшість, якщо не все, вміст, що надходить в [суперглобальные массивы](language.variables.superglobals.html), наприклад, [$\_POST](reserved.variables.post.html) і [$\_GET](reserved.variables.get.html)залишиться у вигляді рядків. PHP не перетворюватиме значення на певний тип. У наведеному нижче прикладі [$\_GET\["var1"\]](reserved.variables.get.html) міститиме рядок "null", а [$\_GET\["var2"\]](reserved.variables.get.html) - Рядок "123".
+HTTP є текстовим протоколом, і більшість, якщо не все, вміст, що надходить в [суперглобальные массивы](language.variables.superglobals.html), наприклад, [POST](reserved.variables.post.html) і [GET](reserved.variables.get.html)залишиться у вигляді рядків. PHP не перетворюватиме значення на певний тип. У наведеному нижче прикладі [GET\["var1"\]](reserved.variables.get.html) міститиме рядок "null", а [GET\["var2"\]](reserved.variables.get.html) - Рядок "123".
 
 ```
 /index.php?var1=null&var2=123

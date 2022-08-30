@@ -15,7 +15,7 @@
 
 # Дивіться також
 
-За описом супутніх функцій, таких як [dirname()](function.dirname.html) [is\_dir()](function.is-dir.html) [mkdir()](function.mkdir.html) і [rmdir()](function.rmdir.html), зверніться до глави [Файловая система](ref.filesystem.html)
+За описом супутніх функцій, таких як [dirname()](function.dirname.html) [ісdir()](function.is-dir.html) [mkdir()](function.mkdir.html) і [rmdir()](function.rmdir.html), зверніться до глави [Файлова система](ref.filesystem.html)
 
 ## Зміст
 

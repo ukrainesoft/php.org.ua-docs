@@ -1,6 +1,6 @@
 Повертає значення атрибуту
 
--   [« DOMElement::\_\_construct](domelement.construct.html)
+-   [« DOMElement::construct](domelement.construct.html)
     
 -   [DOMElement::getAttributeNode »](domelement.getattributenode.html)
     

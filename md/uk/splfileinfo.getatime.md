@@ -1,6 +1,6 @@
 Отримує час останнього доступу до файлу
 
--   [« SplFileInfo::\_\_construct](splfileinfo.construct.html)
+-   [« SplFileInfo::construct](splfileinfo.construct.html)
     
 -   [SplFileInfo::getBasename »](splfileinfo.getbasename.html)
     

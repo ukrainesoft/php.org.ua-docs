@@ -6,16 +6,16 @@
     
 -   [PHP Manual](index.html)
     
--   [Обучающие материалы](mongodb.tutorial.html)
+-   [Навчальні матеріали](mongodb.tutorial.html)
     
 -   Моніторинг продуктивності програми (Application Performance Monitoring або APM)
     
 
 # Моніторинг продуктивності програми (Application Performance Monitoring або APM)
 
-Драйвер MongoDB містить API передплатника подій, який дозволяє програмам відстежувати команди та внутрішню активність, що відноситься до [» Спецификации обнаружения и мониторинга серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst). У цьому посібнику буде продемонстровано моніторинг команд за допомогою інтерфейсу [MongoDB\\Driver\\Monitoring\\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
+Драйвер MongoDB містить API передплатника подій, який дозволяє програмам відстежувати команди та внутрішню активність, що відноситься до [» Спецификации обнаружения и мониторинга серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst). У цьому посібнику буде продемонстровано моніторинг команд за допомогою інтерфейсу [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
 
-Інтерфейс [MongoDB\\Driver\\Monitoring\\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html) визначає три методи: `commandStarted` `commandSucceeded` і `commandFailed`. Кожен із них приймає один параметр `event` класу, що відповідає потрібній події. Наприклад, `commandSucceeded` приймає аргумент `$event` класу [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
+Інтерфейс [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html) визначає три методи: `commandStarted` `commandSucceeded` і `commandFailed`. Кожен із них приймає один параметр `event` класу, що відповідає потрібній події. Наприклад, `commandSucceeded` приймає аргумент `$event` класу [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
 
 У цьому посібнику ви реалізуємо передплатника, який створює список профілювань усіх запитів та середнього часу їх виконання.
 
@@ -46,7 +46,7 @@ class QueryTimeCollector implements \MongoDB\Driver\Monitoring\CommandSubscri
 
 ## Реєстрація передплатника
 
-Як тільки об'єкт передплатник створено, необхідно його зареєструвати в драйвері системи моніторингу. Реєстрація здійснюється методом [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) або [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) для реєстрації передплатника глобально або за допомогою певного класу Manager відповідно.
+Як тільки об'єкт передплатник створено, необхідно його зареєструвати в драйвері системи моніторингу. Реєстрація здійснюється методом [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) або [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) для реєстрації передплатника глобально або за допомогою певного класу Manager відповідно.
 
 ```php
 <?php

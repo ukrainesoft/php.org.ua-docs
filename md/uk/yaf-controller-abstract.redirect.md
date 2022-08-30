@@ -1,12 +1,12 @@
 Перенаправляє на URL
 
--   [« Yaf\_Controller\_Abstract::initView](yaf-controller-abstract.initview.html)
+-   [« YafControllerAbstract::initView](yaf-controller-abstract.initview.html)
     
--   [Yaf\_Controller\_Abstract::render »](yaf-controller-abstract.render.html)
+-   [YafControllerAbstract::render »](yaf-controller-abstract.render.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Перенаправляє на URL
     

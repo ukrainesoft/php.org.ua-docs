@@ -1,8 +1,8 @@
 Отримання інформації про задану у визначеному форматі дату
 
--   [« date\_offset\_get](function.date-offset-get.html)
+-   [« dateoffsetget](function.date-offset-get.html)
     
--   [date\_parse »](function.date-parse.html)
+-   [dateparse »](function.date-parse.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Сортує колекцію
 
--   [« Ds\\Set::slice](ds-set.slice.html)
+-   [« DsSet::slice](ds-set.slice.html)
     
--   [Ds\\Set::sorted »](ds-set.sorted.html)
+-   [ДсSet::sorted »](ds-set.sorted.html)
     
 -   [PHP Manual](index.html)
     

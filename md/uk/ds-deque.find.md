@@ -1,12 +1,12 @@
 Пошук індексу за значенням
 
--   [« Ds\\Deque::filter](ds-deque.filter.html)
+-   [« DsDeque::filter](ds-deque.filter.html)
     
--   [Ds\\Deque::first »](ds-deque.first.html)
+-   [ДсDeque::first »](ds-deque.first.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Пошук індексу за значенням
     
@@ -23,7 +23,7 @@
 public Ds\Deque::find(mixed $value): mixed
 ```
 
-Повертає індекс значення `value` або **`false`**якщо нічого не знайдено.
+Повертає індекс значення `value` або \*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public Ds\Deque::find(mixed $value): mixed
 
 ### Значення, що повертаються
 
-Індекс елемента або **`false`**якщо значення не знайдено.
+Індекс елемента або \*\*`false`\*\*якщо значення не знайдено.
 
 > **Зауваження**
 > 

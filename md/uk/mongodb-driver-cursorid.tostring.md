@@ -1,12 +1,12 @@
 Рядкове подання ідентифікатора курсора
 
--   [« MongoDB\\Driver\\CursorId::serialize](mongodb-driver-cursorid.serialize.html)
+-   [« MongoDBDriverCursorId::serialize](mongodb-driver-cursorid.serialize.html)
     
--   [MongoDB\\Driver\\CursorId::unserialize »](mongodb-driver-cursorid.unserialize.html)
+-   [MongoDBDriverCursorId::unserialize »](mongodb-driver-cursorid.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
+-   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
     
 -   Рядкове подання ідентифікатора курсора
     
@@ -66,4 +66,4 @@ string(11) "98061641158"
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Cursor::getId()](mongodb-driver-cursor.getid.html) - Повертає ідентифікатор для курсору
+-   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.html) - Повертає ідентифікатор для курсору

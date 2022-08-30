@@ -1,12 +1,12 @@
 Декодує XML до списку описів методів
 
--   [« xmlrpc\_is\_fault](function.xmlrpc-is-fault.html)
+-   [« xmlrpcісfault](function.xmlrpc-is-fault.html)
     
--   [xmlrpc\_server\_add\_introspection\_data »](function.xmlrpc-server-add-introspection-data.html)
+-   [xmlrpcserveraddintrospectiondata »](function.xmlrpc-server-add-introspection-data.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Декодує XML до списку описів методів
     

@@ -35,4 +35,4 @@ public SolrClient::getOptions(): array
 
 ### Дивіться також
 
--   [SolrClient::\_\_construct()](solrclient.construct.html) - Конструктор об'єкта SolrClient
+-   [SolrClient::construct()](solrclient.construct.html) - Конструктор об'єкта SolrClient

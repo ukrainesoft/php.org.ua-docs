@@ -1,12 +1,12 @@
 Створює новий екземпляр
 
--   [« Ds\\Queue::clear](ds-queue.clear.html)
+-   [« DsQueue::clear](ds-queue.clear.html)
     
--   [Ds\\Queue::copy »](ds-queue.copy.html)
+-   [ДсQueue::copy »](ds-queue.copy.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Створює новий екземпляр
     

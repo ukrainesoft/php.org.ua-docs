@@ -1,12 +1,12 @@
 Витягує інформацію з довідника
 
--   [« ldap\_parse\_exop](function.ldap-parse-exop.html)
+-   [« ldapparseexop](function.ldap-parse-exop.html)
     
--   [ldap\_parse\_result »](function.ldap-parse-result.html)
+-   [ldapparseresult »](function.ldap-parse-result.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Витягує інформацію з довідника
     

@@ -1,12 +1,12 @@
 Отримати всі рядки
 
--   [« DocResult::\_\_construct](mysql-xdevapi-docresult.construct.html)
+-   [« DocResult::construct](mysql-xdevapi-docresult.construct.html)
     
 -   [DocResult::fetchOne »](mysql-xdevapi-docresult.fetchone.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.html)
+-   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     
 -   Отримати всі рядки
     

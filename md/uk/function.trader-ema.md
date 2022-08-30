@@ -1,8 +1,8 @@
 Експоненційна ковзна середня
 
--   [« trader\_dx](function.trader-dx.html)
+-   [« traderдкс](function.trader-dx.html)
     
--   [trader\_errno »](function.trader-errno.html)
+-   [tradererrno »](function.trader-errno.html)
     
 -   [PHP Manual](index.html)
     

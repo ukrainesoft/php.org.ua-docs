@@ -41,7 +41,7 @@ public COMPersistHelper::SaveToFile(?string $filename, bool $remember = true): b
 
 ### Помилки
 
-Викидає виняток [com\_exception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::Save()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::Save()** завершився помилкою.
 
 ### Приклади
 

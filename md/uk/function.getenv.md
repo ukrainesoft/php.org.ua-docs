@@ -1,12 +1,12 @@
 Отримання значення змінної оточення
 
--   [« get\_resources](function.get-resources.html)
+-   [« getresources](function.get-resources.html)
     
 -   [getlastmod »](function.getlastmod.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримання значення змінної оточення
     
@@ -79,5 +79,5 @@ $ip = getenv('REMOTE_ADDR', true) ?: getenv('REMOTE_ADDR');
 ### Дивіться також
 
 -   [putenv()](function.putenv.html) - Встановлює значення змінного середовища
--   [apache\_getenv()](function.apache-getenv.html) - Повертає змінну оточення підпроцесу сервера Apache
+-   [apachegetenv()](function.apache-getenv.html) - Повертає змінну оточення підпроцесу сервера Apache
 -   [Суперглобальные переменные](language.variables.superglobals.html)

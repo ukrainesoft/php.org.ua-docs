@@ -1,6 +1,6 @@
 Виконує підготовлений запит та повертає об'єкт із результуючим набором
 
--   [« SQLite3Stmt::\_\_construct](sqlite3stmt.construct.html)
+-   [« SQLite3Stmt::construct](sqlite3stmt.construct.html)
     
 -   [SQLite3Stmt::getSQL »](sqlite3stmt.getsql.html)
     

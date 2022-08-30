@@ -1,12 +1,12 @@
 Отримати вибраний варіант
 
--   [« UI\\Controls\\Radio::append](ui-controls-radio.append.html)
+-   [« UIControlsRadio::append](ui-controls-radio.append.html)
     
--   [UI\\Controls\\Radio::onSelected »](ui-controls-radio.onselected.html)
+-   [ОЙControlsRadio::onSelected »](ui-controls-radio.onselected.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Radio](class.ui-controls-radio.html)
+-   [ОЙControlsRadio](class.ui-controls-radio.html)
     
 -   Отримати вибраний варіант
     

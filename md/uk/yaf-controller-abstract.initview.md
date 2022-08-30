@@ -1,12 +1,12 @@
 Призначення initView
 
--   [« Yaf\_Controller\_Abstract::init](yaf-controller-abstract.init.html)
+-   [« YafControllerAbstract::init](yaf-controller-abstract.init.html)
     
--   [Yaf\_Controller\_Abstract::redirect »](yaf-controller-abstract.redirect.html)
+-   [YafControllerAbstract::redirect »](yaf-controller-abstract.redirect.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Призначення initView
     

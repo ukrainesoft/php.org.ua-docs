@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](lzf.resources.html)
     
--   [Функции LZF »](ref.lzf.html)
+-   [Функції LZF »](ref.lzf.html)
     
 -   [PHP Manual](index.html)
     

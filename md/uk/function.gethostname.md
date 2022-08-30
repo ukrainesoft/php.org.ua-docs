@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Отримує ім'я хоста
     
@@ -47,4 +47,4 @@ echo gethostname(); // может вывести например: sandie
 
 -   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
 -   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [php\_uname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP
+-   [phpuname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP

@@ -1,8 +1,8 @@
 Встановити або отримати час очікування imap
 
--   [« imap\_thread](function.imap-thread.html)
+-   [« imapthread](function.imap-thread.html)
     
--   [imap\_uid »](function.imap-uid.html)
+-   [imapuid »](function.imap-uid.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Призначення construct
 
--   [« Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [« YafConfigSimple](class.yaf-config-simple.html)
     
--   [Yaf\_Config\_Simple::count »](yaf-config-simple.count.html)
+-   [YafConfigSimple::count »](yaf-config-simple.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення construct
     

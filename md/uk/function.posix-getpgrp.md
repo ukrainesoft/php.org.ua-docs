@@ -1,8 +1,8 @@
 Повертає ідентифікатор групи поточного процесу
 
--   [« posix\_getpgid](function.posix-getpgid.html)
+-   [« posixgetpgid](function.posix-getpgid.html)
     
--   [posix\_getpid »](function.posix-getpid.html)
+-   [posixgetpid »](function.posix-getpid.html)
     
 -   [PHP Manual](index.html)
     

@@ -103,5 +103,5 @@ A salmon is a fish with 0 legs
 
 -   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html) - Встановлює символи роздільника, обгортання та екранування для CSV
 -   [SplFileObject::setFlags()](splfileobject.setflags.html) - Встановлює прапори для SplFileObject
--   [SplFileObject::READ\_CSV](class.splfileobject.html#splfileobject.constants.read-csv)
+-   [SplFileObject::READCSV](class.splfileobject.html#splfileobject.constants.read-csv)
 -   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу

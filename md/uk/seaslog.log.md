@@ -31,14 +31,14 @@ public static SeasLog::log(    string $level,    string $message = ?, �
 
 Можна використовувати рівень один із:
 
--   [SEASLOG\_DEBUG](seaslog.constants.html#constant.seaslog-debug)
--   [SEASLOG\_INFO](seaslog.constants.html#constant.seaslog-info)
--   [SEASLOG\_NOTICE](seaslog.constants.html#constant.seaslog-notice)
--   [SEASLOG\_WARNING](seaslog.constants.html#constant.seaslog-warning)
--   [SEASLOG\_ERROR](seaslog.constants.html#constant.seaslog-error)
--   [SEASLOG\_CRITICAL](seaslog.constants.html#constant.seaslog-critical)
--   [SEASLOG\_ALERT](seaslog.constants.html#constant.seaslog-alert)
--   [SEASLOG\_EMERGENCY](seaslog.constants.html#constant.seaslog-emergency)
+-   [SEASLOGDEBUG](seaslog.constants.html#constant.seaslog-debug)
+-   [SEASLOGINFO](seaslog.constants.html#constant.seaslog-info)
+-   [SEASLOGNOTICE](seaslog.constants.html#constant.seaslog-notice)
+-   [SEASLOGWARNING](seaslog.constants.html#constant.seaslog-warning)
+-   [SEASLOGERROR](seaslog.constants.html#constant.seaslog-error)
+-   [SEASLOGCRITICAL](seaslog.constants.html#constant.seaslog-critical)
+-   [SEASLOGALERT](seaslog.constants.html#constant.seaslog-alert)
+-   [SEASLOGEMERGENCY](seaslog.constants.html#constant.seaslog-emergency)
 
 Або ви можете створити власний рівень.
 
@@ -130,7 +130,7 @@ array(1) {
 
 ### Дивіться також
 
--   [seaslog.default\_template](seaslog.configuration.html#ini.seaslog.default-template)
+-   [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)
 -   [SeasLog::debug()](seaslog.debug.html) - Записує інформацію рівня "debug" до журналу
 -   [SeasLog::info()](seaslog.info.html) - Записує інформацію рівня "info" до журналу
 -   [SeasLog::notice()](seaslog.notice.html) - Записує інформацію рівня "notice" у журнал

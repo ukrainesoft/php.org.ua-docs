@@ -1,12 +1,12 @@
 Призначення postDispatch
 
--   [« Yaf\_Plugin\_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.html)
+-   [« YafPluginAbstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.html)
     
--   [Yaf\_Plugin\_Abstract::preDispatch »](yaf-plugin-abstract.predispatch.html)
+-   [YafPluginAbstract::preDispatch »](yaf-plugin-abstract.predispatch.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
+-   [YafPluginAbstract](class.yaf-plugin-abstract.html)
     
 -   Призначення postDispatch
     

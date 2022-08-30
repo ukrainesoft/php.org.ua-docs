@@ -2,7 +2,7 @@
 
 -   [« Функции SimpleXML](ref.simplexml.html)
     
--   [simplexml\_load\_file »](function.simplexml-load-file.html)
+-   [simplexmlloadfile »](function.simplexml-load-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -66,5 +66,5 @@ echo $s->book[0]->title;
 
 ### Дивіться також
 
--   [dom\_import\_simplexml()](function.dom-import-simplexml.html) - Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+-   [domimportsimplexml()](function.dom-import-simplexml.html) - Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)

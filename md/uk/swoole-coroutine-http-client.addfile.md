@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::set](swoole-coroutine-client.set.html)
+-   [« SwooleCoroutineClient::set](swoole-coroutine-client.set.html)
     
--   [Swoole\\Coroutine\\Http\\Client::close »](swoole-coroutine-http-client.close.html)
+-   [SwooleCoroutineHttpClient::close »](swoole-coroutine-http-client.close.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

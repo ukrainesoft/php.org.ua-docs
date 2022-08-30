@@ -1,6 +1,6 @@
 Константи типу запуску служби Win32Service
 
--   [« Принимаемые битовые маски обработки сообщений службой Win32Service](win32service.constants.controlsaccepted.html)
+-   [« бітові маски обробки повідомлень, що приймаються службою Win32Service](win32service.constants.controlsaccepted.html)
     
 -   [Константы контроля ошибок сервиса Win32Service »](win32service.constants.errorcontrol.html)
     

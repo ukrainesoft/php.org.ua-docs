@@ -2,7 +2,7 @@ Exception
 
 -   [« Предопределённые исключения](reserved.exceptions.html)
     
--   [Exception::\_\_construct »](exception.construct.html)
+-   [Exception::construct »](exception.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -114,7 +114,7 @@ trace
 
 ## Зміст
 
--   [Exception::\_\_construct](exception.construct.html) - Створити виняток
+-   [Exception::construct](exception.construct.html) - Створити виняток
 -   [Exception::getMessage](exception.getmessage.html) — Отримує повідомлення про виключення
 -   [Exception::getPrevious](exception.getprevious.html) — Повертає попередній об'єкт, що реалізує Throwable
 -   [Exception::getCode](exception.getcode.html) — Отримує код виключення
@@ -122,5 +122,5 @@ trace
 -   [Exception::getLine](exception.getline.html) — Отримує рядок, у якому виник виняток
 -   [Exception::getTrace](exception.gettrace.html) — Отримує трасування стека
 -   [Exception::getTraceAsString](exception.gettraceasstring.html) — Отримує трасування стека у вигляді рядка
--   [Exception::\_\_toString](exception.tostring.html) — Строкове подання винятку
--   [Exception::\_\_clone](exception.clone.html) — Клонувати виняток
+-   [Exception::toString](exception.tostring.html) — Строкове подання винятку
+-   [Exception::clone](exception.clone.html) — Клонувати виняток

@@ -1,8 +1,8 @@
 Індикатор Чайкіна Накопичення/Розпродаж
 
--   [« trader\_acos](function.trader-acos.html)
+-   [« traderacos](function.trader-acos.html)
     
--   [trader\_add »](function.trader-add.html)
+-   [traderadd »](function.trader-add.html)
     
 -   [PHP Manual](index.html)
     

@@ -76,4 +76,4 @@ foreach ($classes as $class) {
 
 ### Дивіться також
 
--   [ReflectionClass::\_\_construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass

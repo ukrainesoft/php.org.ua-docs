@@ -1,12 +1,12 @@
 Видаляє ключ зі зв'язування ключів
 
--   [« gnupg\_decryptverify](function.gnupg-decryptverify.html)
+-   [« gnupgdecryptverify](function.gnupg-decryptverify.html)
     
--   [gnupg\_encrypt »](function.gnupg-encrypt.html)
+-   [gnupgencrypt »](function.gnupg-encrypt.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Видаляє ключ зі зв'язування ключів
     
@@ -27,7 +27,7 @@ gnupg_deletekey(resource $identifier, string $key, bool $allow_secret): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `key`
 

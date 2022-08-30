@@ -1,6 +1,6 @@
 Конструктор
 
--   [« SolrInputDocument::\_\_clone](solrinputdocument.clone.html)
+-   [« SolrInputDocument::clone](solrinputdocument.clone.html)
     
 -   [SolrInputDocument::deleteField »](solrinputdocument.deletefield.html)
     

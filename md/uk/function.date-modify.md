@@ -1,8 +1,8 @@
 Псевдонім DateTime::modify
 
--   [« date\_isodate\_set](function.date-isodate-set.html)
+-   [« dateisodateset](function.date-isodate-set.html)
     
--   [date\_offset\_get »](function.date-offset-get.html)
+-   [dateoffsetget »](function.date-offset-get.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
 
--   [« socket\_sendmsg](function.socket-sendmsg.html)
+-   [« socketsendmsg](function.socket-sendmsg.html)
     
--   [socket\_set\_block »](function.socket-set-block.html)
+-   [socketsetblock »](function.socket-set-block.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_sendto(    Socket $socket,    string $data,    int $length, 
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою [socket\_create()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою [socketcreate()](function.socket-create.html)
 
 `data`
 
@@ -84,4 +84,4 @@ IP-адреса віддаленого хоста.
 
 ### Дивіться також
 
--   [socket\_send()](function.socket-send.html) - Надсилає дані в приєднаний сокет
+-   [socketsend()](function.socket-send.html) - Надсилає дані в приєднаний сокет

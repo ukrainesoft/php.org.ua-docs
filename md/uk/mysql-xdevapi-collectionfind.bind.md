@@ -1,12 +1,12 @@
 Прив'язує значення до заповнювача запиту
 
--   [« mysql\_xdevapi\\CollectionFind](class.mysql-xdevapi-collectionfind.html)
+-   [« mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     
--   [CollectionFind::\_\_construct »](mysql-xdevapi-collectionfind.construct.html)
+-   [CollectionFind::construct »](mysql-xdevapi-collectionfind.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionFind](class.mysql-xdevapi-collectionfind.html)
+-   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     
 -   Прив'язує значення до заповнювача запиту
     

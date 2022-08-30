@@ -1,8 +1,8 @@
 Повертає кількість рядів результату запиту
 
--   [« mysql\_num\_fields](function.mysql-num-fields.html)
+-   [« mysqlnumfields](function.mysql-num-fields.html)
     
--   [mysql\_pconnect »](function.mysql-pconnect.html)
+-   [mysqlpconnect »](function.mysql-pconnect.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlnumrows — Повертає кількість рядів результа
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_num\_rows()](mysqli-result.num-rows.html)
--   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html)
+-   [mysqlinumrows()](mysqli-result.num-rows.html)
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html)
 -   [PDOStatement::rowCount()](pdostatement.rowcount.html)
 
 ### Опис
@@ -31,13 +31,13 @@ mysqlnumrows — Повертає кількість рядів результа
 mysql_num_rows(resource $result): int|false
 ```
 
-Повертає кількість рядів результатів запиту. Ця команда працює тільки із запитами SELECT або SHOW, які повертають актуальний результат запиту. Щоб отримати кількість рядів, оброблених функціями INSERT, UPDATE, REPLACE та DELETE, використовуйте функцію [mysql\_affected\_rows()](function.mysql-affected-rows.html)
+Повертає кількість рядів результатів запиту. Ця команда працює тільки із запитами SELECT або SHOW, які повертають актуальний результат запиту. Щоб отримати кількість рядів, оброблених функціями INSERT, UPDATE, REPLACE та DELETE, використовуйте функцію [mysqlaffectedrows()](function.mysql-affected-rows.html)
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 ### Значення, що повертаються
 
@@ -65,7 +65,7 @@ echo "Получено $num_rows рядов\n";
 
 > **Зауваження**
 > 
-> При використанні [mysql\_unbuffered\_query()](function.mysql-unbuffered-query.html) функція **mysqlnumrows()** не поверне коректного значення доти, доки всі ряди не будуть отримані.
+> При використанні [mysqlunbufferedquery()](function.mysql-unbuffered-query.html) функція **mysqlnumrows()** не поверне коректного значення доти, доки всі ряди не будуть отримані.
 
 > **Зауваження**
 > 
@@ -73,8 +73,8 @@ echo "Получено $num_rows рядов\n";
 
 ### Дивіться також
 
--   [mysql\_affected\_rows()](function.mysql-affected-rows.html) - Повертає кількість порушених минулою операцією рядів
--   [mysql\_connect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
--   [mysql\_data\_seek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
--   [mysql\_select\_db()](function.mysql-select-db.html) - Вибирає базу даних MySQL
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlaffectedrows()](function.mysql-affected-rows.html) - Повертає кількість порушених минулою операцією рядів
+-   [mysqlconnect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
+-   [mysqldataseek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysqlselectdb()](function.mysql-select-db.html) - Вибирає базу даних MySQL
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL

@@ -2,11 +2,11 @@
 
 -   [« chop](function.chop.html)
     
--   [chunk\_split »](function.chunk-split.html)
+-   [chunksplit »](function.chunk-split.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Генерує односимвольний рядок за заданим числом
     
@@ -101,5 +101,5 @@ echo $str;
 -   Опис формату `%c` функції [sprintf()](function.sprintf.html)
 -   [ord()](function.ord.html)
 -   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.html)
--   [mb\_chr()](function.mb-chr.html)
+-   [мбchr()](function.mb-chr.html)
 -   [IntlChar::chr()](intlchar.chr.html)

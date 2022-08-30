@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONType
 
--   [« MongoDB\\BSON\\UTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.html)
+-   [« MongoDBBSONUTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.html)
     
--   [MongoDB\\BSON\\Persistable »](class.mongodb-bson-persistable.html)
+-   [MongoDBBSONPersistable »](class.mongodb-bson-persistable.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONType
     

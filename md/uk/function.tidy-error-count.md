@@ -1,8 +1,8 @@
 Повертає кількість помилок Tidy, що зустрілися під час розгляду документа
 
--   [« tidy\_config\_count](function.tidy-config-count.html)
+-   [« tidyconfigcount](function.tidy-config-count.html)
     
--   [tidy\_get\_output »](function.tidy-get-output.html)
+-   [tidygetoutput »](function.tidy-get-output.html)
     
 -   [PHP Manual](index.html)
     
@@ -66,5 +66,5 @@ line 1 column 1 - Warning: inserting missing 'title' element
 
 ### Дивіться також
 
--   [tidy\_access\_count()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
--   [tidy\_warning\_count()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
+-   [tidyaccesscount()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidywarningcount()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі

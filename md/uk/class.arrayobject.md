@@ -90,7 +90,7 @@ public unserialize(string $data): void
 
 -   [ArrayObject::append](arrayobject.append.html) — Додає значення до кінця масиву
 -   [ArrayObject::asort](arrayobject.asort.html) — Сортувати записи за значенням
--   [ArrayObject::\_\_construct](arrayobject.construct.html) — Створює новий об'єкт масиву
+-   [ArrayObject::construct](arrayobject.construct.html) — Створює новий об'єкт масиву
 -   [ArrayObject::count](arrayobject.count.html) — Отримати кількість загальнодоступних властивостей ArrayObject
 -   [ArrayObject::exchangeArray](arrayobject.exchangearray.html) - Замінити масив на інший
 -   [ArrayObject::getArrayCopy](arrayobject.getarraycopy.html) - Створює копію ArrayObject

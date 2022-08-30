@@ -1,12 +1,12 @@
 Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
 
--   [« db2\_execute](function.db2-execute.html)
+-   [« db2execute](function.db2-execute.html)
     
--   [db2\_fetch\_assoc »](function.db2-fetch-assoc.html)
+-   [db2fetchassoc »](function.db2-fetch-assoc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
     
@@ -96,8 +96,8 @@ while ($row = db2_fetch_array($result, $i)) {
 
 ### Дивіться також
 
--   [db2\_fetch\_assoc()](function.db2-fetch-assoc.html) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
--   [db2\_fetch\_both()](function.db2-fetch-both.html) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
--   [db2\_fetch\_object()](function.db2-fetch-object.html) - Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
--   [db2\_fetch\_row()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
--   [db2\_result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів
+-   [db2fetchassoc()](function.db2-fetch-assoc.html) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
+-   [db2fetchboth()](function.db2-fetch-both.html) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
+-   [db2fetchobject()](function.db2-fetch-object.html) - Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
+-   [db2fetchrow()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+-   [db2result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів

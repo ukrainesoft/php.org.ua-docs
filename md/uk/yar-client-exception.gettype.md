@@ -1,12 +1,12 @@
 Отримати тип виключення
 
--   [« Yar\_Client\_Exception](class.yar-client-exception.html)
+-   [« YarClientException](class.yar-client-exception.html)
     
 -   [XML-RPC »](book.xmlrpc.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Client\_Exception](class.yar-client-exception.html)
+-   [YarClientException](class.yar-client-exception.html)
     
 -   Отримати тип виключення
     

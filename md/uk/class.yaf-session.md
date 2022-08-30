@@ -1,8 +1,8 @@
 Клас YafSession
 
--   [« Yaf\_Route\_Supervar::route](yaf-route-supervar.route.html)
+-   [« YafRouteSupervar::route](yaf-route-supervar.route.html)
     
--   [Yaf\_Session::\_\_construct »](yaf-session.construct.html)
+-   [YafSession::construct »](yaf-session.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -81,22 +81,22 @@ started
 
 ## Зміст
 
--   [Yaf\_Session::\_\_construct](yaf-session.construct.html) - Конструктор класу YafSession
--   [Yaf\_Session::count](yaf-session.count.html) - Призначення count
--   [Yaf\_Session::current](yaf-session.current.html) - Призначення current
--   [Yaf\_Session::del](yaf-session.del.html) - Призначення del
--   [Yaf\_Session::\_\_get](yaf-session.get.html) - Призначення get
--   [Yaf\_Session::getInstance](yaf-session.getinstance.html) — Призначення getInstance
--   [Yaf\_Session::has](yaf-session.has.html) - Призначення has
--   [Yaf\_Session::\_\_isset](yaf-session.isset.html) - Призначення isset
--   [Yaf\_Session::key](yaf-session.key.html) - Призначення key
--   [Yaf\_Session::next](yaf-session.next.html) - Призначення next
--   [Yaf\_Session::offsetExists](yaf-session.offsetexists.html) — Призначення offsetExists
--   [Yaf\_Session::offsetGet](yaf-session.offsetget.html) - Призначення offsetGet
--   [Yaf\_Session::offsetSet](yaf-session.offsetset.html) - Призначення offsetSet
--   [Yaf\_Session::offsetUnset](yaf-session.offsetunset.html) - Призначення offsetUnset
--   [Yaf\_Session::rewind](yaf-session.rewind.html) - Призначення rewind
--   [Yaf\_Session::\_\_set](yaf-session.set.html) - Призначення set
--   [Yaf\_Session::start](yaf-session.start.html) - Призначення start
--   [Yaf\_Session::\_\_unset](yaf-session.unset.html) - Призначення unset
--   [Yaf\_Session::valid](yaf-session.valid.html) - Призначення valid
+-   [YafSession::construct](yaf-session.construct.html) - Конструктор класу YafSession
+-   [YafSession::count](yaf-session.count.html) - Призначення count
+-   [YafSession::current](yaf-session.current.html) - Призначення current
+-   [YafSession::del](yaf-session.del.html) - Призначення del
+-   [YafSession::get](yaf-session.get.html) - Призначення get
+-   [YafSession::getInstance](yaf-session.getinstance.html) — Призначення getInstance
+-   [YafSession::has](yaf-session.has.html) - Призначення has
+-   [YafSession::isset](yaf-session.isset.html) - Призначення isset
+-   [YafSession::key](yaf-session.key.html) - Призначення key
+-   [YafSession::next](yaf-session.next.html) - Призначення next
+-   [YafSession::offsetExists](yaf-session.offsetexists.html) — Призначення offsetExists
+-   [YafSession::offsetGet](yaf-session.offsetget.html) - Призначення offsetGet
+-   [YafSession::offsetSet](yaf-session.offsetset.html) - Призначення offsetSet
+-   [YafSession::offsetUnset](yaf-session.offsetunset.html) - Призначення offsetUnset
+-   [YafSession::rewind](yaf-session.rewind.html) - Призначення rewind
+-   [YafSession::set](yaf-session.set.html) - Призначення set
+-   [YafSession::start](yaf-session.start.html) - Призначення start
+-   [YafSession::unset](yaf-session.unset.html) - Призначення unset
+-   [YafSession::valid](yaf-session.valid.html) - Призначення valid

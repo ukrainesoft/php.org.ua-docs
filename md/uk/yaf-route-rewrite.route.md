@@ -1,12 +1,12 @@
 Призначення route
 
--   [« Yaf\_Route\_Rewrite::\_\_construct](yaf-route-rewrite.construct.html)
+-   [« YafRouteRewrite::construct](yaf-route-rewrite.construct.html)
     
--   [Yaf\_Router »](class.yaf-router.html)
+-   [YafRouter »](class.yaf-router.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
+-   [YafRouteRewrite](class.yaf-route-rewrite.html)
     
 -   Призначення route
     

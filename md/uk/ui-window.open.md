@@ -1,12 +1,12 @@
 Відкрити діалогове вікно
 
--   [« UI\\Window::onClosing](ui-window.onclosing.html)
+-   [« UIWindow::onClosing](ui-window.onclosing.html)
     
--   [UI\\Window::save »](ui-window.save.html)
+-   [ОЙWindow::save »](ui-window.save.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Відкрити діалогове вікно
     

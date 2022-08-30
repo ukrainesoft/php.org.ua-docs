@@ -1,8 +1,8 @@
 Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
 
--   [« sodium\_crypto\_aead\_aes256gcm\_decrypt](function.sodium-crypto-aead-aes256gcm-decrypt.html)
+-   [« sodiumcryptoaeadaes256gcmdecrypt](function.sodium-crypto-aead-aes256gcm-decrypt.html)
     
--   [sodium\_crypto\_aead\_aes256gcm\_is\_available »](function.sodium-crypto-aead-aes256gcm-is-available.html)
+-   [sodiumcryptoaeadaes256gcmісavailable »](function.sodium-crypto-aead-aes256gcm-is-available.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ sodiumcryptoaeadaes256gcmencrypt — Шифрує, а потім перевір�
 sodium_crypto_aead_aes256gcm_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
 ```
 
-Шифрує, а потім перевіряє автентичність за допомогою AES-256-GCM. Доступно, тільки якщо [sodium\_crypto\_aead\_aes256gcm\_is\_available()](function.sodium-crypto-aead-aes256gcm-is-available.html) повертає **`true`**
+Шифрує, а потім перевіряє автентичність за допомогою AES-256-GCM. Доступно, тільки якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.html) повертає **`true`**
 
 ### Список параметрів
 

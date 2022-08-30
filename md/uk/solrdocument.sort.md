@@ -1,6 +1,6 @@
 Сортує поля у документі
 
--   [« SolrDocument::\_\_set](solrdocument.set.html)
+-   [« SolrDocument::set](solrdocument.set.html)
     
 -   [SolrDocument::toArray »](solrdocument.toarray.html)
     

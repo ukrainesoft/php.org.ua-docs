@@ -1,6 +1,6 @@
 Отримує Reflection-об'єкт перерахування цього варіанта
 
--   [« ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.html)
+-   [« ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.html)
     
 -   [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.html)
     

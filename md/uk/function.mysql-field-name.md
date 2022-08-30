@@ -1,8 +1,8 @@
 Повертає назву вказаної колонки результату запиту
 
--   [« mysql\_field\_len](function.mysql-field-len.html)
+-   [« mysqlfieldlen](function.mysql-field-len.html)
     
--   [mysql\_field\_seek »](function.mysql-field-seek.html)
+-   [mysqlfieldseek »](function.mysql-field-seek.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlfieldname — Повертає назву вказаної колонки �
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.html) name або orgname
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) name або orgname
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) name
 
 ### Опис
@@ -36,7 +36,7 @@ mysql_field_name(resource $result, int $field_offset): string|false
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 
@@ -90,5 +90,5 @@ password
 
 ### Дивіться також
 
--   [mysql\_field\_type()](function.mysql-field-type.html) - Повертає тип вказаного поля із результату запиту
--   [mysql\_field\_len()](function.mysql-field-len.html) - Повертає довжину вказаного поля
+-   [mysqlfieldtype()](function.mysql-field-type.html) - Повертає тип вказаного поля із результату запиту
+-   [mysqlfieldlen()](function.mysql-field-len.html) - Повертає довжину вказаного поля

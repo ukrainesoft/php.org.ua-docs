@@ -1,12 +1,12 @@
 Повертає, чи сесія була позначена як брудна
 
--   [« MongoDB\\Driver\\Session::getTransactionState](mongodb-driver-session.gettransactionstate.html)
+-   [« MongoDBDriverSession::getTransactionState](mongodb-driver-session.gettransactionstate.html)
     
--   [MongoDB\\Driver\\Session::isInTransaction »](mongodb-driver-session.isintransaction.html)
+-   [MongoDBDriverSession::isInTransaction »](mongodb-driver-session.isintransaction.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Повертає, чи сесія була позначена як брудна
     
@@ -35,4 +35,4 @@ final public MongoDB\Driver\Session::isDirty(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

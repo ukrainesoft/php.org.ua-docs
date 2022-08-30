@@ -1,8 +1,8 @@
 Клас YafExceptionLoadFailedModule
 
--   [« Yaf\_Exception\_LoadFailed](class.yaf-exception-loadfailed.html)
+-   [« YafExceptionLoadFailed](class.yaf-exception-loadfailed.html)
     
--   [Yaf\_Exception\_LoadFailed\_Controller »](class.yaf-exception-loadfailed-controller.html)
+-   [YafExceptionLoadFailedController »](class.yaf-exception-loadfailed-controller.html)
     
 -   [PHP Manual](index.html)
     

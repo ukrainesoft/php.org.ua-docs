@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей виняток викидається, якщо опція **`JSON_THROW_ON_ERROR`** встановлена ​​для функції [json\_encode()](function.json-encode.html) або [json\_decode()](function.json-decode.html). code містить тип помилки, дивіться можливі значення [json\_last\_error()](function.json-last-error.html)
+Цей виняток викидається, якщо опція **`JSON_THROW_ON_ERROR`** встановлена ​​для функції [jsonencode()](function.json-encode.html) або [jsondecode()](function.json-decode.html). code містить тип помилки, дивіться можливі значення [jsonlasterror()](function.json-last-error.html)
 
 ## Огляд класів
 

@@ -1,6 +1,6 @@
 Розбирає рядок з датою згідно з вказаним форматом
 
--   [« DateTimeImmutable::\_\_construct](datetimeimmutable.construct.html)
+-   [« DateTimeImmutable::construct](datetimeimmutable.construct.html)
     
 -   [DateTimeImmutable::createFromInterface »](datetimeimmutable.createfrominterface.html)
     
@@ -227,7 +227,7 @@ Mon, 10 Aug 2020 01:00:00 +0000
 Хоча результат виглядає дивно, він правильний, тому що трапляються такі переповнення:
 
 1.  `3 Aug 2020 25:00:00` перевалює за `(Tue) 4 Aug 2020 01:00`
-2.  Застосовується `Mon`, що перекладає дату на `Mon, 10 Aug 2020 01:00:00`. Пояснення щодо ключових слів, таких як `Mon`, описано в розділі [относительные форматы](datetime.formats.relative.html)
+2.  Застосовується `Mon`, що перекладає дату на `Mon, 10 Aug 2020 01:00:00`. Пояснення щодо ключових слів, таких як `Mon`, описано в розділі [відносні формати](datetime.formats.relative.html)
 
 Для виявлення переповнень у датах можна використовувати метод [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.html), який включатиме попередження, якщо відбулося переповнення.
 
@@ -265,7 +265,7 @@ array(4) {
 
 ### Дивіться також
 
--   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
 -   [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.html) - Повертає попередження та помилки
 -   [checkdate()](function.checkdate.html) - Перевіряє коректність дати за григоріанським календарем
 -   [strptime()](function.strptime.html) - Розбирає рядок дати/часу, згенерований функцією strftime

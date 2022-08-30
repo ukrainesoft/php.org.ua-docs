@@ -1,12 +1,12 @@
 Отримує ім'я власника поточного скрипту PHP
 
--   [« get\_cfg\_var](function.get-cfg-var.html)
+-   [« getcfgvar](function.get-cfg-var.html)
     
--   [get\_defined\_constants »](function.get-defined-constants.html)
+-   [getdefinedconstants »](function.get-defined-constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримує ім'я власника поточного скрипту PHP
     

@@ -1,8 +1,8 @@
 Отримує значення ключа /Encoding
 
--   [« fdf\_get\_attachment](function.fdf-get-attachment.html)
+-   [« fdfgetattachment](function.fdf-get-attachment.html)
     
--   [fdf\_get\_file »](function.fdf-get-file.html)
+-   [fdfgetfile »](function.fdf-get-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_get_encoding(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ fdf_get_encoding(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdf\_set\_encoding()](function.fdf-set-encoding.html) - Встановлює кодування символів FDF
+-   [fdfsetencoding()](function.fdf-set-encoding.html) - Встановлює кодування символів FDF

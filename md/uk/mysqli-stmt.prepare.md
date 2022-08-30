@@ -1,12 +1,12 @@
 Готує затвердження SQL до виконання
 
--   [« mysqli\_stmt::$param\_count](mysqli-stmt.param-count.html)
+-   [« mysqlistmt::$paramcount](mysqli-stmt.param-count.html)
     
--   [mysqli\_stmt::reset »](mysqli-stmt.reset.html)
+-   [mysqlistmt::reset »](mysqli-stmt.reset.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Готує затвердження SQL до виконання
     
@@ -35,7 +35,7 @@ mysqli_stmt_prepare(mysqli_stmt $statement, string $query): bool
 
 Готує затвердження до виконання. Запит повинен складатися з одного оператора SQL.
 
-Шаблон затвердження може містити нуль або кілька знаків запитання (`?`), позначок параметрів⁠, також званих заповнювачами. Мітки параметрів повинні бути прив'язані до змінних додатків за допомогою [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) перед виконанням затвердження. рядків.
+Шаблон затвердження може містити нуль або кілька знаків запитання (`?`), позначок параметрів⁠, також званих заповнювачами. Мітки параметрів повинні бути прив'язані до змінних додатків за допомогою [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) перед виконанням затвердження. рядків.
 
 > **Зауваження**
 > 
@@ -52,7 +52,7 @@ mysqli_stmt_prepare(mysqli_stmt $statement, string $query): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 `query`
 
@@ -140,10 +140,10 @@ Amersfoort находится в районе Utrecht
 
 ### Дивіться також
 
--   [mysqli\_stmt\_init()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
--   [mysqli\_stmt\_execute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
--   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
--   [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
--   [mysqli\_stmt\_bind\_result()](mysqli-stmt.bind-result.html) - Прив'язка змінних до підготовленого запиту для розміщення результату
--   [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
--   [mysqli\_stmt\_close()](mysqli-stmt.close.html) - Закриває підготовлений запит
+-   [mysqlistmtinit()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+-   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqlistmtbindresult()](mysqli-stmt.bind-result.html) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqlistmtgetresult()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
+-   [mysqlistmtclose()](mysqli-stmt.close.html) - Закриває підготовлений запит

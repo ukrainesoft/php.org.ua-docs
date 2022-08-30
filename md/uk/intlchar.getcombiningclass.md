@@ -2,7 +2,7 @@
 
 -   [« IntlChar::getBlockCode](intlchar.getblockcode.html)
     
--   [IntlChar::getFC\_NFKC\_Closure »](intlchar.getfc-nfkc-closure.html)
+-   [IntlChar::getFCNFKCClosure »](intlchar.getfc-nfkc-closure.html)
     
 -   [PHP Manual](index.html)
     

@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-Модуль визначає серверний ресурс XML-RPC, що повертається [xmlrpc\_server\_create()](function.xmlrpc-server-create.html)
+Модуль визначає серверний ресурс XML-RPC, що повертається [xmlrpcservercreate()](function.xmlrpc-server-create.html)

@@ -1,12 +1,12 @@
 Клас MongoDBBSONBinary
 
--   [« MongoDB\\BSON\\toRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.html)
+-   [« MongoDBBSONtoRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.html)
     
--   [MongoDB\\BSON\\Binary::\_\_construct »](mongodb-bson-binary.construct.html)
+-   [MongoDBBSONBinary::construct »](mongodb-bson-binary.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONBinary
     
@@ -135,14 +135,14 @@ final public unserialize(string $serialized): void
 
 Доданий тип **`MongoDB\BSON\Binary::TYPE_COLUMN`**
 
-| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDB\\BSON\\BinaryInterface](class.mongodb-bson-binaryinterface.html). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html).
+| | PECL mongodb 1.7.0 Доданий тип **`MongoDB\BSON\Binary::TYPE_ENCRYPTED`**. | | PECL mongodb 1.3.0 Реалізує інтерфейс [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html). | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html).
 
 ## Зміст
 
--   [MongoDB\\BSON\\Binary::\_\_construct](mongodb-bson-binary.construct.html) - Створює новий Binary
--   [MongoDB\\BSON\\Binary::getData](mongodb-bson-binary.getdata.html) - Повертає дані Binary
--   [MongoDB\\BSON\\Binary::getType](mongodb-bson-binary.gettype.html) - Повертає тип Binary
--   [MongoDB\\BSON\\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\Binary::serialize](mongodb-bson-binary.serialize.html) - Серіалізує Binary
--   [MongoDB\\BSON\\Binary::\_\_toString](mongodb-bson-binary.tostring.html) - Повертає дані Binary
--   [MongoDB\\BSON\\Binary::unserialize](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
+-   [MongoDBBSONBinary::construct](mongodb-bson-binary.construct.html) - Створює новий Binary
+-   [MongoDBBSONBinary::getData](mongodb-bson-binary.getdata.html) - Повертає дані Binary
+-   [MongoDBBSONBinary::getType](mongodb-bson-binary.gettype.html) - Повертає тип Binary
+-   [MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONBinary::serialize](mongodb-bson-binary.serialize.html) - Серіалізує Binary
+-   [MongoDBBSONBinary::toString](mongodb-bson-binary.tostring.html) - Повертає дані Binary
+-   [MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary

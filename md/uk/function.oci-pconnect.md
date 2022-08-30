@@ -1,8 +1,8 @@
 Встановлює постійне з'єднання із сервером Oracle
 
--   [« oci\_password\_change](function.oci-password-change.html)
+-   [« ocipasswordchange](function.oci-password-change.html)
     
--   [oci\_register\_taf\_callback »](function.oci-register-taf-callback.html)
+-   [ociregistertafcallback »](function.oci-register-taf-callback.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,9 +57,9 @@ oci_pconnect(    string $username,    string $password,    ?string $
 
 `session_mode`
 
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо були вказані **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо були вказані **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
 
-У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
+У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
 
 **`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
 
@@ -99,13 +99,13 @@ echo "</table>\n";
 ?>
 ```
 
-Додаткові приклади можна знайти в описі функції [oci\_connect()](function.oci-connect.html)
+Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.html)
 
 ### Примітки
 
-> **Зауваження**: Починаючи з версії PHP 5.1.2 та PECL OCI8 1.1, тривалість та максимальна кількість постійних з'єднань до сервера Oracle на кожен процес PHP може бути змінена в наступних директивах: [oci8.persistent\_timeout](oci8.configuration.html#ini.oci8.persistent-timeout) [oci8.ping\_interval](oci8.configuration.html#ini.oci8.ping-interval) і [oci8.max\_persistent](oci8.configuration.html#ini.oci8.max-persistent)
+> **Зауваження**: Починаючи з версії PHP 5.1.2 та PECL OCI8 1.1, тривалість та максимальна кількість постійних з'єднань до сервера Oracle на кожен процес PHP може бути змінена в наступних директивах: [oci8.persistenttimeout](oci8.configuration.html#ini.oci8.persistent-timeout) [oci8.pinginterval](oci8.configuration.html#ini.oci8.ping-interval) і [oci8.maxpersistent](oci8.configuration.html#ini.oci8.max-persistent)
 
 ### Дивіться також
 
--   [oci\_connect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
--   [oci\_new\_connect()](function.oci-new-connect.html) - Встановлює нове з'єднання із сервером Oracle
+-   [ociconnect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
+-   [ocinewconnect()](function.oci-new-connect.html) - Встановлює нове з'єднання із сервером Oracle

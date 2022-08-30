@@ -2,7 +2,7 @@
 
 -   [« Примеры](yar.examples.html)
     
--   [Yar\_Server::\_\_construct »](yar-server.construct.html)
+-   [YarServer::construct »](yar-server.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -50,5 +50,5 @@ executor
 
 ## Зміст
 
--   [Yar\_Server::\_\_construct](yar-server.construct.html) - Конструктор YarServer
--   [Yar\_Server::handle](yar-server.handle.html) — Запустити сервер RPC
+-   [YarServer::construct](yar-server.construct.html) - Конструктор YarServer
+-   [YarServer::handle](yar-server.handle.html) — Запустити сервер RPC

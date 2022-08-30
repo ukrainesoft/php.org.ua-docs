@@ -1,8 +1,8 @@
 Дві ворони
 
--   [« trader\_cci](function.trader-cci.html)
+-   [« tradercci](function.trader-cci.html)
     
--   [trader\_cdl3blackcrows »](function.trader-cdl3blackcrows.html)
+-   [tradercdl3blackcrows »](function.trader-cdl3blackcrows.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,7 +2,7 @@
 
 -   [« Directory::read](directory.read.html)
     
--   [Функции для работы с каталогами »](ref.dir.html)
+-   [Функції для роботи з каталогами »](ref.dir.html)
     
 -   [PHP Manual](index.html)
     

@@ -87,6 +87,6 @@ if(intl_is_failure($fmt->getErrorCode())) {
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_format\_currency()](numberformatter.formatcurrency.html) - Форматує значення валюти
--   [numfmt\_parse()](numberformatter.parse.html) - Розбирає число
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtformatcurrency()](numberformatter.formatcurrency.html) - Форматує значення валюти
+-   [numfmtparse()](numberformatter.parse.html) - Розбирає число

@@ -39,4 +39,4 @@ public **RecursiveCachingIterator::construct**[Iterator](class.iterator.html) `$
 
 ### Дивіться також
 
--   [CachingIterator::\_\_construct()](cachingiterator.construct.html) - Створює новий об'єкт CachingIterator для ітератора
+-   [CachingIterator::construct()](cachingiterator.construct.html) - Створює новий об'єкт CachingIterator для ітератора

@@ -1,6 +1,6 @@
 Отримання поточного елемента
 
--   [« RecursiveTreeIterator::\_\_construct](recursivetreeiterator.construct.html)
+-   [« RecursiveTreeIterator::construct](recursivetreeiterator.construct.html)
     
 -   [RecursiveTreeIterator::endChildren »](recursivetreeiterator.endchildren.html)
     

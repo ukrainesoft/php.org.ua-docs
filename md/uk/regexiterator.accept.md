@@ -2,7 +2,7 @@
 
 -   [« RegexIterator](class.regexiterator.html)
     
--   [RegexIterator::\_\_construct »](regexiterator.construct.html)
+-   [RegexIterator::construct »](regexiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ RegexIterator::accept — Перевірка відповідності регу
 public RegexIterator::accept(): bool
 ```
 
-Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()** (або **RegexIterator::key()**, якщо встановлено прапор [RegexIterator::USE\_KEY](class.regexiterator.html#regexiterator.constants.use-key)), регулярному виразу.
+Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()** (або **RegexIterator::key()**, якщо встановлено прапор [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key)), регулярному виразу.
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public RegexIterator::accept(): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо значення елемента відповідає регулярному виразу, **`false`** в іншому випадку.
+\*\*`true`\*\*якщо значення елемента відповідає регулярному виразу, **`false`** в іншому випадку.
 
 ### Приклади
 

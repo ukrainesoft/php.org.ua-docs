@@ -1,12 +1,12 @@
 Повертає рівень вкладеності механізму буферизації виводу
 
--   [« ob\_get\_length](function.ob-get-length.html)
+-   [« obgetlength](function.ob-get-length.html)
     
--   [ob\_get\_status »](function.ob-get-status.html)
+-   [проgetstatus »](function.ob-get-status.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Повертає рівень вкладеності механізму буферизації виводу
     
@@ -35,5 +35,5 @@ ob_get_level(): int
 
 ### Дивіться також
 
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
--   [ob\_get\_contents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу

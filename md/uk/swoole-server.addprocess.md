@@ -1,12 +1,12 @@
 Додає певний користувачем swooleprocess на сервер
 
--   [« Swoole\\Server::addlistener](swoole-server.addlistener.html)
+-   [« SwooleServer::addlistener](swoole-server.addlistener.html)
     
--   [Swoole\\Server::after »](swoole-server.after.html)
+-   [SwooleServer::after »](swoole-server.after.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Додає певний користувачем swooleprocess на сервер
     

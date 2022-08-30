@@ -1,8 +1,8 @@
 Згенерувати джерело ресурсу
 
--   [« openal\_listener\_set](function.openal-listener-set.html)
+-   [« openallistenerset](function.openal-listener-set.html)
     
--   [openal\_source\_destroy »](function.openal-source-destroy.html)
+-   [openalsourcedestroy »](function.openal-source-destroy.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,6 +33,6 @@ openal_source_create(): resource
 
 ### Дивіться також
 
--   [openal\_source\_set()](function.openal-source-set.html) - Встановити властивість джерела
--   [openal\_source\_play()](function.openal-source-play.html) - Почати відтворення джерела
--   [openal\_source\_destroy()](function.openal-source-destroy.html) - Знищення ресурсу джерела
+-   [openalsourceset()](function.openal-source-set.html) - Встановити властивість джерела
+-   [openalsourceplay()](function.openal-source-play.html) - Почати відтворення джерела
+-   [openalsourcedestroy()](function.openal-source-destroy.html) - Знищення ресурсу джерела

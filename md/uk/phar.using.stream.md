@@ -26,6 +26,6 @@ file_put_contents('phar://my.phar/somefile.php', 0, $context);
 ?>
 ```
 
-Обгортка потоку `phar` не працює з файлами, розташованими віддалено, і не може з ними працювати, так що її використання можливе навіть коли параметри INI [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen) і [allow\_url\_include](filesystem.configuration.html#ini.allow-url-include) вимкнено.
+Обгортка потоку `phar` не працює з файлами, розташованими віддалено, і не може з ними працювати, так що її використання можливе навіть коли параметри INI [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) і [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) вимкнено.
 
 Незважаючи на наявність можливості створювати phar-архіви з нуля, просто використовуючи потокові операції, найкращим рішенням буде використання функціоналу, вбудованого в клас Phar. Обгортку потоку найкраще використовувати лише читання.

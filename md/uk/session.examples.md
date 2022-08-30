@@ -17,4 +17,4 @@
 
 -   [Основы использования](session.examples.basic.html)
 -   [Передача идентификатора сессии](session.idpassing.html)
--   [Пользовательские обработчики сессии](session.customhandler.html)
+-   [Користувальницькі обробники сесії](session.customhandler.html)

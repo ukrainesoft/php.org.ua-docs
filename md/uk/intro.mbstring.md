@@ -1,12 +1,12 @@
 Вступ
 
--   [« Многобайтовые строки](book.mbstring.html)
+-   [« Багатобайтові рядки](book.mbstring.html)
     
 -   [Установка и настройка »](mbstring.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   Вступ
     

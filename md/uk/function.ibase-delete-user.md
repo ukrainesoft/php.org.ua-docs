@@ -1,8 +1,8 @@
 Видаляє користувача з безпечної бази даних
 
--   [« ibase\_db\_info](function.ibase-db-info.html)
+-   [« ibaseдбinfo](function.ibase-db-info.html)
     
--   [ibase\_drop\_db »](function.ibase-drop-db.html)
+-   [ibasedropdb »](function.ibase-drop-db.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,5 +39,5 @@ ibase_delete_user(resource $service_handle, string $user_name): bool
 
 ### Дивіться також
 
--   [ibase\_add\_user()](function.ibase-add-user.html) - Додає користувача до безпечної бази даних
--   [ibase\_modify\_user()](function.ibase-modify-user.html) - Змінює користувача у безпечній базі даних
+-   [ibaseadduser()](function.ibase-add-user.html) - Додає користувача до безпечної бази даних
+-   [ibasemodifyuser()](function.ibase-modify-user.html) - Змінює користувача у безпечній базі даних

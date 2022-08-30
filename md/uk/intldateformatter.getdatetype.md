@@ -111,5 +111,5 @@ echo 'Второй отформатированный вывод с тип�
 
 ### Дивіться також
 
--   [datefmt\_get\_timetype()](intldateformatter.gettimetype.html) - Отримує тип часу, який використовується IntlDateFormatter
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgettimetype()](intldateformatter.gettimetype.html) - Отримує тип часу, який використовується IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

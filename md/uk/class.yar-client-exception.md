@@ -1,8 +1,8 @@
 Клас YarClientException
 
--   [« Yar\_Server\_Exception::getType](yar-server-exception.gettype.html)
+-   [« YarServerException::getType](yar-server-exception.gettype.html)
     
--   [Yar\_Client\_Exception::getType »](yar-client-exception.gettype.html)
+-   [YarClientException::getType »](yar-client-exception.gettype.html)
     
 -   [PHP Manual](index.html)
     
@@ -69,4 +69,4 @@ line
 
 ## Зміст
 
--   [Yar\_Client\_Exception::getType](yar-client-exception.gettype.html) — Отримати тип виключення
+-   [YarClientException::getType](yar-client-exception.gettype.html) — Отримати тип виключення

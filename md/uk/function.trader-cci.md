@@ -1,8 +1,8 @@
 Індекс товарного каналу
 
--   [« trader\_bop](function.trader-bop.html)
+-   [« traderbop](function.trader-bop.html)
     
--   [trader\_cdl2crows »](function.trader-cdl2crows.html)
+-   [tradercdl2crows »](function.trader-cdl2crows.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Створює синхронний або асинхронний TCP/UDP клієнт Swoole за допомогою SSL або без нього
 
--   [« Swoole\\Client::connect](swoole-client.connect.html)
+-   [« SwooleClient::connect](swoole-client.connect.html)
     
--   [Swoole\\Client::\_\_destruct »](swoole-client.destruct.html)
+-   [SwooleClient::destruct »](swoole-client.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Створює синхронний або асинхронний TCP/UDP клієнт Swoole за допомогою SSL або без нього
     

@@ -2,7 +2,7 @@
 
 -   [« Базовое использование](outcontrol.examples.basic.html)
     
--   [Функции контроля вывода »](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@
 
 ## Використання перезапису виводу
 
-Починаючи з PHP 7.1.0, [output\_add\_rewrite\_var()](function.output-add-rewrite-var.html) і [output\_reset\_rewrite\_vars()](function.output-reset-rewrite-vars.html) використовують окремий буфер виводу, тобто не використовують буфер виводу [прозрачной поддержки sid](session.configuration.html#ini.session.use-trans-sid)
+Починаючи з PHP 7.1.0, [outputaddrewritevar()](function.output-add-rewrite-var.html) і [outputresetrewritevars()](function.output-reset-rewrite-vars.html) використовують окремий буфер виводу, тобто не використовують буфер виводу [прозорої підтримки sid](session.configuration.html#ini.session.use-trans-sid)
 
 **Приклад #1 Приклад перезапису виводу**
 
@@ -49,4 +49,4 @@ output_add_rewrite_var('test', 'value');
 </form>
 ```
 
-З PHP 7.1.0, функції перезапису виводу мають власні INI-настройки . [url\_rewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) і [url\_rewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
+З PHP 7.1.0, функції перезапису виводу мають власні INI-настройки . [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) і [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)

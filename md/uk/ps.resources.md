@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-У модулі визначено ресурс PostScript document, який повертається функцією [ps\_new()](function.ps-new.html)
+У модулі визначено ресурс PostScript document, який повертається функцією [псnew()](function.ps-new.html)

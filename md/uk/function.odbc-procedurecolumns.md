@@ -1,8 +1,8 @@
 Отримує інформацію про параметри процедур
 
--   [« odbc\_primarykeys](function.odbc-primarykeys.html)
+-   [« odbcprimarykeys](function.odbc-primarykeys.html)
     
--   [odbc\_procedures »](function.odbc-procedures.html)
+-   [odbcprocedures »](function.odbc-procedures.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null, �
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -127,4 +127,4 @@ Array
 
 ### Дивіться також
 
--   [odbc\_columns()](function.odbc-columns.html) - перераховує імена стовпців у зазначених таблицях
+-   [odbccolumns()](function.odbc-columns.html) - перераховує імена стовпців у зазначених таблицях

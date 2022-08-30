@@ -1,12 +1,12 @@
 Встановити стовпець
 
--   [« Vtiful\\Kernel\\Excel::output](vtiful-kernel-excel.output.html)
+-   [« VtifulKernelExcel::output](vtiful-kernel-excel.output.html)
     
--   [Vtiful\\Kernel\\Excel::setRow »](vtiful-kernel-excel.setRow.html)
+-   [VtifulKernelExcel::setRow »](vtiful-kernel-excel.setRow.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Встановити стовпець
     
@@ -41,7 +41,7 @@ public Vtiful\Kernel\Excel::setColumn(string $range, float $width, resource $for
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Призначення has
 
--   [« Yaf\_Session::getInstance](yaf-session.getinstance.html)
+-   [« YafSession::getInstance](yaf-session.getinstance.html)
     
--   [Yaf\_Session::\_\_isset »](yaf-session.isset.html)
+-   [YafSession::isset »](yaf-session.isset.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення has
     

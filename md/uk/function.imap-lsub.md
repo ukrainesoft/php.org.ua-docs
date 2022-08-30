@@ -1,8 +1,8 @@
 Список усіх підписаних поштових скриньок
 
--   [« imap\_listsubscribed](function.imap-listsubscribed.html)
+-   [« imaplistsubscribed](function.imap-listsubscribed.html)
     
--   [imap\_mail\_compose »](function.imap-mail-compose.html)
+-   [imapmailcompose »](function.imap-mail-compose.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,15 +29,15 @@ imap_lsub(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `reference`
 
-У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imap\_open()](function.imap-open.html)
+У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
 
@@ -51,11 +51,11 @@ imap_lsub(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_list()](function.imap-list.html) - Прочитати список поштових скриньок
--   [imap\_getmailboxes()](function.imap-getmailboxes.html) - Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожного з них
+-   [imaplist()](function.imap-list.html) - Прочитати список поштових скриньок
+-   [imapgetmailboxes()](function.imap-getmailboxes.html) - Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожного з них

@@ -1,12 +1,12 @@
 Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
 
--   [« Функции IBM DB2](ref.ibm-db2.html)
+-   [« Функції IBM DB2](ref.ibm-db2.html)
     
--   [db2\_bind\_param »](function.db2-bind-param.html)
+-   [db2bindparam »](function.db2-bind-param.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
     
@@ -29,7 +29,7 @@ db2_autocommit(resource $connection, bool $value = ?): mixed
 
 `connection`
 
-Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2\_connect()](function.db2-connect.html) або [db2\_pconnect()](function.db2-pconnect.html)
+Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
 
 `value`
 
@@ -108,5 +108,5 @@ if ($ac == DB2_AUTOCOMMIT_OFF) {
 
 ### Дивіться також
 
--   [db2\_connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2\_pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
+-   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
+-   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних

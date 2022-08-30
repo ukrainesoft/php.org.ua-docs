@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](uopz.resources.html)
     
--   [Функции Uopz »](ref.uopz.html)
+-   [Функції Uopz »](ref.uopz.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,7 +2,7 @@
 
 -   [« Pool](class.pool.html)
     
--   [Pool::\_\_construct »](pool.construct.html)
+-   [Pool::construct »](pool.construct.html)
     
 -   [PHP Manual](index.html)
     

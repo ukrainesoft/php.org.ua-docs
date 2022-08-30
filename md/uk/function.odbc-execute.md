@@ -1,8 +1,8 @@
 Виконує запит
 
--   [« odbc\_exec](function.odbc-exec.html)
+-   [« odbcexec](function.odbc-exec.html)
     
--   [odbc\_fetch\_array »](function.odbc-fetch-array.html)
+-   [odbcfetcharray »](function.odbc-fetch-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ odbcexecute — Виконує запит
 odbc_execute(resource $statement, array $params = []): bool
 ```
 
-Виконує запит, підготовлений [odbc\_prepare()](function.odbc-prepare.html)
+Виконує запит, підготовлений [odbcprepare()](function.odbc-prepare.html)
 
 ### Список параметрів
 
 `statement`
 
-Ресурс (resource) з ідентифікатором результату [odbc\_prepare()](function.odbc-prepare.html)
+Ресурс (resource) з ідентифікатором результату [odbcprepare()](function.odbc-prepare.html)
 
 `params`
 
@@ -37,7 +37,7 @@ odbc_execute(resource $statement, array $params = []): bool
 
 Будь-які параметри в `params`, укладені в одинарні лапки, будуть сприйматися як ім'я файлу для читання та відправки на сервер бази даних як дані для відповідної псевдозмінної.
 
-Якщо необхідно зберегти рядок, який насправді починається і закінчується одинарними лапками, потрібно додати пробіл або інший символ, що не є одинарною лапкою, на початок або в кінець параметра, що запобігатиме використанню параметра в якості імені файлу. Якщо цей варіант не підходить, необхідно використовувати інший механізм для зберігання рядка, наприклад виконання запиту безпосередньо за допомогою [odbc\_exec()](function.odbc-exec.html)
+Якщо необхідно зберегти рядок, який насправді починається і закінчується одинарними лапками, потрібно додати пробіл або інший символ, що не є одинарною лапкою, на початок або в кінець параметра, що запобігатиме використанню параметра в якості імені файлу. Якщо цей варіант не підходить, необхідно використовувати інший механізм для зберігання рядка, наприклад виконання запиту безпосередньо за допомогою [odbcexec()](function.odbc-exec.html)
 
 ### Значення, що повертаються
 
@@ -45,7 +45,7 @@ odbc_execute(resource $statement, array $params = []): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **odbcexecute()** і [odbc\_prepare()](function.odbc-prepare.html)**
+**Приклад #1 Приклад використання **odbcexecute()** і [odbcprepare()](function.odbc-prepare.html)**
 
 У цьому коді $success матиме значення **`true`**, тільки якщо всі три параметри myproc присутні у масиві параметрів:
 
@@ -63,4 +63,4 @@ $success = odbc_execute($stmt, array($a, $b, $c));
 
 ### Дивіться також
 
--   [odbc\_prepare()](function.odbc-prepare.html) - готує запит до виконання
+-   [odbcprepare()](function.odbc-prepare.html) - готує запит до виконання

@@ -1,8 +1,8 @@
 Змінні сесії
 
--   [« $\_REQUEST](reserved.variables.request.html)
+-   [REQUEST](reserved.variables.request.html)
     
--   [$\_ENV »](reserved.variables.environment.html)
+-   [ENV »](reserved.variables.environment.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,4 +29,4 @@ SESSION - Змінні сесії
 
 ### Дивіться також
 
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу

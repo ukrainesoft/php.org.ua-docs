@@ -1,8 +1,8 @@
 Клас YafRouteRewrite
 
--   [« Yaf\_Route\_Regex::route](yaf-route-regex.route.html)
+-   [« YafRouteRegex::route](yaf-route-regex.route.html)
     
--   [Yaf\_Route\_Rewrite::assemble »](yaf-route-rewrite.assemble.html)
+-   [YafRouteRewrite::assemble »](yaf-route-rewrite.assemble.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Приклад використання дивіться у розділі прикладів [Yaf\_Route\_Rewrite::\_\_construct()](yaf-route-rewrite.construct.html)
+Приклад використання дивіться у розділі прикладів [YafRouteRewrite::construct()](yaf-route-rewrite.construct.html)
 
 ## Огляд класів
 
@@ -77,6 +77,6 @@ verify
 
 ## Зміст
 
--   [Yaf\_Route\_Rewrite::assemble](yaf-route-rewrite.assemble.html) - Збирає URL
--   [Yaf\_Route\_Rewrite::\_\_construct](yaf-route-rewrite.construct.html) - Конструктор класу YafRouteRewrite
--   [Yaf\_Route\_Rewrite::route](yaf-route-rewrite.route.html) - Призначення route
+-   [YafRouteRewrite::assemble](yaf-route-rewrite.assemble.html) - Збирає URL
+-   [YafRouteRewrite::construct](yaf-route-rewrite.construct.html) - Конструктор класу YafRouteRewrite
+-   [YafRouteRewrite::route](yaf-route-rewrite.route.html) - Призначення route

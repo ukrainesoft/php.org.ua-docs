@@ -1,8 +1,8 @@
 Запитує віддалену сторону зазначеного сокету, в результаті може бути повернутий хост/порт або шлях у файловій системі Unix, залежно від типу сокету
 
--   [« socket\_getopt](function.socket-getopt.html)
+-   [« socketgetopt](function.socket-getopt.html)
     
--   [socket\_getsockname »](function.socket-getsockname.html)
+-   [socketgetsockname »](function.socket-getsockname.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_getpeername(Socket $socket, string &$address, int &$port = null): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `address`
 
@@ -43,7 +43,7 @@ socket_getpeername(Socket $socket, string &$address, int &$port = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки . **socketgetpeername()** також може повернути **`false`**якщо сокет мати тип відмінний від **`AF_INET`** **`AF_INET6`** або **`AF_UNIX`**, у цьому випадку код останньої помилки сокету *НЕ* буде оновлено.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки . **socketgetpeername()** також може повернути \*\*`false`\*\*якщо сокет мати тип відмінний від **`AF_INET`** **`AF_INET6`** або **`AF_UNIX`**, у цьому випадку код останньої помилки сокету *НЕ* буде оновлено.
 
 ### список змін
 
@@ -55,7 +55,7 @@ socket_getpeername(Socket $socket, string &$address, int &$port = null): bool
 
 > **Зауваження**
 > 
-> **socketgetpeername()** не повинна бути використана із сокетами **`AF_UNIX`**, створеними за допомогою функції [socket\_accept()](function.socket-accept.html). Тільки сокети, створені за допомогою [socket\_connect()](function.socket-connect.html) або серверний сокет, до якого застосовано виклик функції [socket\_bind()](function.socket-bind.html), повертатимуть осмислені значення.
+> **socketgetpeername()** не повинна бути використана із сокетами **`AF_UNIX`**, створеними за допомогою функції [socketaccept()](function.socket-accept.html). Тільки сокети, створені за допомогою [socketconnect()](function.socket-connect.html) або серверний сокет, до якого застосовано виклик функції [socketbind()](function.socket-bind.html), повертатимуть осмислені значення.
 
 > **Зауваження**
 > 
@@ -63,6 +63,6 @@ socket_getpeername(Socket $socket, string &$address, int &$port = null): bool
 
 ### Дивіться також
 
--   [socket\_getsockname()](function.socket-getsockname.html) - Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketgetsockname()](function.socket-getsockname.html) - Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

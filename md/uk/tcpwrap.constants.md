@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](tcpwrap.resources.html)
     
--   [Функции TCP »](ref.tcpwrap.html)
+-   [Функції TCP »](ref.tcpwrap.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Записує та передає дані в канал Swoole
 
--   [« Swoole\\Channel::pop](swoole-channel.pop.html)
+-   [« SwooleChannel::pop](swoole-channel.pop.html)
     
--   [Swoole\\Channel::stats »](swoole-channel.stats.html)
+-   [SwooleChannel::stats »](swoole-channel.stats.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Channel](class.swoole-channel.html)
+-   [SwooleChannel](class.swoole-channel.html)
     
 -   Записує та передає дані в канал Swoole
     

@@ -1,8 +1,8 @@
 Створення нового відкритого підписаного ключа з викликом
 
--   [« openssl\_spki\_export](function.openssl-spki-export.html)
+-   [« opensslspkiexport](function.openssl-spki-export.html)
     
--   [openssl\_spki\_verify »](function.openssl-spki-verify.html)
+-   [opensslspkiverify »](function.openssl-spki-verify.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 `private_key`
 
-`private_key` задається секретним ключем, створеним раніше функцією [openssl\_pkey\_new()](function.openssl-pkey-new.html) (або отриманий іншим чином). Відповідна відкрита частина ключа буде використана для підпису CSR.
+`private_key` задається секретним ключем, створеним раніше функцією [opensslpkeynew()](function.openssl-pkey-new.html) (або отриманий іншим чином). Відповідна відкрита частина ключа буде використана для підпису CSR.
 
 `challenge`
 
@@ -92,9 +92,9 @@ MML5G2iNVgNozAo=
 
 ### Дивіться також
 
--   [openssl\_spki\_verify()](function.openssl-spki-verify.html) - Перевіряє підписаний відкритий ключ та виклик
--   [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.html) - Експорт виклику, пов'язаного з підписаним ключем та викликом
--   [openssl\_spki\_export()](function.openssl-spki-export.html) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
--   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
--   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
--   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslspkiverify()](function.openssl-spki-verify.html) - Перевіряє підписаний відкритий ключ та виклик
+-   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.html) - Експорт виклику, пов'язаного з підписаним ключем та викликом
+-   [opensslspkiexport()](function.openssl-spki-export.html) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

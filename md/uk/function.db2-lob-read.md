@@ -1,12 +1,12 @@
 Отримує певний користувачем розмір LOB-файлів під час кожного виклику
 
--   [« db2\_last\_insert\_id](function.db2-last-insert-id.html)
+-   [« db2lastinsertід](function.db2-last-insert-id.html)
     
--   [db2\_next\_result »](function.db2-next-result.html)
+-   [db2nextresult »](function.db2-next-result.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Отримує певний користувачем розмір LOB-файлів під час кожного виклику
     
@@ -41,7 +41,7 @@ db2_lob_read(resource $stmt, int $colnum, int $length): string
 
 ### Значення, що повертаються
 
-Повертає кількість даних, вказаних користувачем. Повертає **`false`**якщо дані не можуть бути отримані.
+Повертає кількість даних, вказаних користувачем. Повертає \*\*`false`\*\*якщо дані не можуть бути отримані.
 
 ### Приклади
 
@@ -132,9 +132,9 @@ Loop 6: TEST.
 
 ### Дивіться також
 
--   [db2\_bind\_param()](function.db2-bind-param.html) - Зв'язує змінну PHP із параметром SQL-виразу
--   [db2\_exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2\_execute()](function.db2-execute.html) - Виконує підготовлений SQL-запит
--   [db2\_fetch\_row()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
--   [db2\_prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
--   [db2\_result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів
+-   [db2bindparam()](function.db2-bind-param.html) - Зв'язує змінну PHP із параметром SQL-виразу
+-   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
+-   [db2execute()](function.db2-execute.html) - Виконує підготовлений SQL-запит
+-   [db2fetchrow()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+-   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів

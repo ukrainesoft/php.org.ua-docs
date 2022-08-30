@@ -1,12 +1,12 @@
 Пошук останнього входження одного рядка в інший
 
--   [« mb\_strpos](function.mb-strpos.html)
+-   [« mbstrpos](function.mb-strpos.html)
     
--   [mb\_strrichr »](function.mb-strrichr.html)
+-   [мбstrrichr »](function.mb-strrichr.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Пошук останнього входження одного рядка в інший
     
@@ -57,5 +57,5 @@ mb_strrchr(    string $haystack,    string $needle,    bool $before_
 ### Дивіться також
 
 -   [strrchr()](function.strrchr.html) - Знаходить останнє входження символу у рядку
--   [mb\_strstr()](function.mb-strstr.html) - Знаходить перше входження підрядка у рядку
--   [mb\_strrichr()](function.mb-strrichr.html) - Пошук останнього входження одного рядка в інший, нечутливий до регістру
+-   [мбstrstr()](function.mb-strstr.html) - Знаходить перше входження підрядка у рядку
+-   [мбstrrichr()](function.mb-strrichr.html) - Пошук останнього входження одного рядка в інший, нечутливий до регістру

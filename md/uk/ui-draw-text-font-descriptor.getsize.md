@@ -1,12 +1,12 @@
 Визначення розміру
 
--   [« UI\\Draw\\Text\\Font\\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html)
+-   [« UIDrawTextFontDescriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor::getStretch »](ui-draw-text-font-descriptor.getstretch.html)
+-   [ОЙDrawTextFontDescriptor::getStretch »](ui-draw-text-font-descriptor.getstretch.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+-   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     
 -   Визначення розміру
     

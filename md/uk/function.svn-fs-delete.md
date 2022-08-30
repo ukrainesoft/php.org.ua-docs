@@ -1,12 +1,12 @@
 Видаляє файл або директорію
 
--   [« svn\_fs\_copy](function.svn-fs-copy.html)
+-   [« svnфсcopy](function.svn-fs-copy.html)
     
--   [svn\_fs\_dir\_entries »](function.svn-fs-dir-entries.html)
+-   [svnфсdirentries »](function.svn-fs-dir-entries.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Видаляє файл або директорію
     

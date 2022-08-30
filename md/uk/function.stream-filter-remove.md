@@ -1,12 +1,12 @@
 Видалити фільтр із потоку
 
--   [« stream\_filter\_register](function.stream-filter-register.html)
+-   [« streamfilterregister](function.stream-filter-register.html)
     
--   [stream\_get\_contents »](function.stream-get-contents.html)
+-   [streamgetcontents »](function.stream-get-contents.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Видалити фільтр із потоку
     
@@ -23,7 +23,7 @@ streamfilterremove — Видалити фільтр із потоку
 stream_filter_remove(resource $stream_filter): bool
 ```
 
-Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [stream\_filter\_prepend()](function.stream-filter-prepend.html) або [stream\_filter\_append()](function.stream-filter-append.html). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
+Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [streamfilterprepend()](function.stream-filter-prepend.html) або [streamfilterappend()](function.stream-filter-append.html). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
 
 ### Список параметрів
 
@@ -64,6 +64,6 @@ Guvf vf a test
 
 ### Дивіться також
 
--   [stream\_filter\_register()](function.stream-filter-register.html) - Реєструє потоковий фільтр, визначений користувачем
--   [stream\_filter\_append()](function.stream-filter-append.html) - Прикріпити фільтр до потоку
--   [stream\_filter\_prepend()](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку
+-   [streamfilterregister()](function.stream-filter-register.html) - Реєструє потоковий фільтр, визначений користувачем
+-   [streamfilterappend()](function.stream-filter-append.html) - Прикріпити фільтр до потоку
+-   [streamfilterprepend()](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку

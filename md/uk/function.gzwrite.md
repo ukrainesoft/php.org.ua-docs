@@ -2,7 +2,7 @@
 
 -   [« gzuncompress](function.gzuncompress.html)
     
--   [inflate\_add »](function.inflate-add.html)
+-   [inflateadd »](function.inflate-add.html)
     
 -   [PHP Manual](index.html)
     

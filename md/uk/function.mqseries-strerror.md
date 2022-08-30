@@ -1,6 +1,6 @@
 Отримати повідомлення про помилку, що відповідає її коду (MQRC)
 
--   [« mqseries\_set](function.mqseries-set.html)
+-   [« mqseriesset](function.mqseries-set.html)
     
 -   [Сеть »](book.network.html)
     

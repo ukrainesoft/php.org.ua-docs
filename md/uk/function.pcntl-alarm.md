@@ -1,12 +1,12 @@
 Задати таймер доставки сигналу SIGALRM
 
--   [« Функции PCNTL](ref.pcntl.html)
+-   [« Функції PCNTL](ref.pcntl.html)
     
--   [pcntl\_async\_signals »](function.pcntl-async-signals.html)
+-   [pcntlasyncsignals »](function.pcntl-async-signals.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Задати таймер доставки сигналу SIGALRM
     

@@ -1,8 +1,8 @@
 Отримує значення часу очікування запиту
 
--   [« cubrid\_get\_db\_parameter](function.cubrid-get-db-parameter.html)
+-   [« cubridgetдбparameter](function.cubrid-get-db-parameter.html)
     
--   [cubrid\_get\_server\_info »](function.cubrid-get-server-info.html)
+-   [cubridgetserverinfo »](function.cubrid-get-server-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,4 +71,4 @@ int(1000)
 
 ### Дивіться також
 
--   [cubrid\_set\_query\_timeout()](function.cubrid-set-query-timeout.html) - Встановлює час очікування на виконання запиту
+-   [cubridsetquerytimeout()](function.cubrid-set-query-timeout.html) - Встановлює час очікування на виконання запиту

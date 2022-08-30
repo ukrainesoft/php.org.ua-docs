@@ -1,12 +1,12 @@
 Знищує чергу повідомлень, створену swooleprocess::useQueue
 
--   [« Swoole\\Process::exit](swoole-process.exit.html)
+-   [« SwooleProcess::exit](swoole-process.exit.html)
     
--   [Swoole\\Process::kill »](swoole-process.kill.html)
+-   [SwooleProcess::kill »](swoole-process.kill.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Знищує чергу повідомлень, створену swooleprocess::useQueue
     

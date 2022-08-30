@@ -2,7 +2,7 @@
 
 -   [« EvPeriodic::again](evperiodic.again.html)
     
--   [EvPeriodic::\_\_construct »](evperiodic.construct.html)
+-   [EvPeriodic::construct »](evperiodic.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -24,7 +24,7 @@ public
    EvPeriodic::at(): float
 ```
 
-Якщо спостерігач активний, повертає абсолютний час, коли спостерігач запуститься наступного разу. Це не те ж саме, що аргумент offset для [EvPeriodic::set()](evperiodic.set.html) або [EvPeriodic::\_\_construct()](evperiodic.construct.html)він працює навіть в інтервальному режимі.
+Якщо спостерігач активний, повертає абсолютний час, коли спостерігач запуститься наступного разу. Це не те ж саме, що аргумент offset для [EvPeriodic::set()](evperiodic.set.html) або [EvPeriodic::construct()](evperiodic.construct.html)він працює навіть в інтервальному режимі.
 
 ### Список параметрів
 

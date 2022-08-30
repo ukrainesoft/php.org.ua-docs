@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\MySQL::recv](swoole-coroutine-mysql.recv.html)
+-   [« SwooleCoroutineMySQL::recv](swoole-coroutine-mysql.recv.html)
     
--   [Swoole\\Coroutine::getuid »](swoole-coroutine.getuid.html)
+-   [SwooleCoroutine::getuid »](swoole-coroutine.getuid.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

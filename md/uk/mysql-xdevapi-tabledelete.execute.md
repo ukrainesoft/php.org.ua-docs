@@ -1,12 +1,12 @@
 Виконує запит на видалення
 
--   [« TableDelete::\_\_construct](mysql-xdevapi-tabledelete.construct.html)
+-   [« TableDelete::construct](mysql-xdevapi-tabledelete.construct.html)
     
 -   [TableDelete::limit »](mysql-xdevapi-tabledelete.limit.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableDelete](class.mysql-xdevapi-tabledelete.html)
+-   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     
 -   Виконує запит на видалення
     

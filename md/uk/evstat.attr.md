@@ -2,7 +2,7 @@
 
 -   [« EvStat](class.evstat.html)
     
--   [EvStat::\_\_construct »](evstat.construct.html)
+-   [EvStat::construct »](evstat.construct.html)
     
 -   [PHP Manual](index.html)
     

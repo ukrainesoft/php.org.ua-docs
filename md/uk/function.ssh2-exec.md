@@ -1,12 +1,12 @@
 Виконання команди на віддаленому сервері
 
--   [« ssh2\_disconnect](function.ssh2-disconnect.html)
+-   [« ssh2disconnect](function.ssh2-disconnect.html)
     
--   [ssh2\_fetch\_stream »](function.ssh2-fetch-stream.html)
+-   [ssh2fetchstream »](function.ssh2-fetch-stream.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Виконання команди на віддаленому сервері
     
@@ -29,7 +29,7 @@ ssh2_exec(    resource $session,    string $command,    string $pty 
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `command`
 
@@ -70,6 +70,6 @@ $stream = ssh2_exec($connection, '/usr/local/bin/php -i');
 
 ### Дивіться також
 
--   [ssh2\_connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
--   [ssh2\_shell()](function.ssh2-shell.html) - запитує інтерактивний термінал
--   [ssh2\_tunnel()](function.ssh2-tunnel.html) - Відкрити тунель через віддалений сервер
+-   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2shell()](function.ssh2-shell.html) - запитує інтерактивний термінал
+-   [ssh2tunnel()](function.ssh2-tunnel.html) - Відкрити тунель через віддалений сервер

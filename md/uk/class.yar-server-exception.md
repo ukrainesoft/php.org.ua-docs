@@ -1,8 +1,8 @@
 Клас YarServerException
 
--   [« Yar\_Concurrent\_Client::reset](yar-concurrent-client.reset.html)
+-   [« YarConcurrentClient::reset](yar-concurrent-client.reset.html)
     
--   [Yar\_Server\_Exception::getType »](yar-server-exception.gettype.html)
+-   [YarServerException::getType »](yar-server-exception.gettype.html)
     
 -   [PHP Manual](index.html)
     
@@ -77,4 +77,4 @@ type
 
 ## Зміст
 
--   [Yar\_Server\_Exception::getType](yar-server-exception.gettype.html) — Отримати тип виключення
+-   [YarServerException::getType](yar-server-exception.gettype.html) — Отримати тип виключення

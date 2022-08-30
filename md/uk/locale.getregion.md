@@ -43,9 +43,9 @@ locale_get_region(string $locale): ?string
 
 ### Значення, що повертаються
 
-Код регіону, пов'язаний з локаллю або **`null`**якщо відсутня.
+Код регіону, пов'язаний з локаллю або \*\*`null`\*\*якщо відсутня.
 
-Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
@@ -73,6 +73,6 @@ CH
 
 ### Дивіться також
 
--   [locale\_get\_primary\_language()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
--   [locale\_get\_script()](locale.getscript.html) - Отримати алфавіт для локалі
--   [locale\_get\_all\_variants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetprimarylanguage()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
+-   [localegetscript()](locale.getscript.html) - Отримати алфавіт для локалі
+-   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі

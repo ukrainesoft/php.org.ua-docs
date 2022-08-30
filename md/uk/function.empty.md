@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи порожня змінна
     
@@ -88,14 +88,14 @@ bool(true)
 
 > **Зауваження**
 > 
-> При використанні функції **empty()** на недоступних (неоголошених) властивостях об'єкта буде викликано вбудований метод об'єкту [\_\_isset()](language.oop5.overloading.html#object.isset)якщо він визначений.
+> При використанні функції **empty()** на недоступних (неоголошених) властивостях об'єкта буде викликано вбудований метод об'єкту [isset()](language.oop5.overloading.html#object.isset)якщо він визначений.
 
 ### Дивіться також
 
 -   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [\_\_isset()](language.oop5.overloading.html#object.isset)
+-   [isset()](language.oop5.overloading.html#object.isset)
 -   [unset()](function.unset.html) - Видаляє змінну
--   [array\_key\_exists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
 -   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
 -   [strlen()](function.strlen.html) - Повертає довжину рядка
 -   [Таблица сравнения типов](types.comparisons.html)

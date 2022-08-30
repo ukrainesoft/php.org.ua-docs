@@ -55,4 +55,4 @@ object(ReflectionNamedType)#2 (0) {
 
 -   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.html) - Отримує оголошений тип значення, що повертається функцією значення
 -   [ReflectionFunctionAbstract::hasTentativeReturnType()](reflectionfunctionabstract.hastentativereturntype.html) - Визначає, чи є у функції попередній тип значення, що повертається
--   [Совместимость типов возвращаемых значений с внутренними классами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)
+-   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)

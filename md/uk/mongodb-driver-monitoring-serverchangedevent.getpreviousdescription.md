@@ -1,12 +1,12 @@
 Повертає попередній опис сервера
 
--   [« MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.html)
+-   [« MongoDBDriverMonitoringServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getTopologyId »](mongodb-driver-monitoring-serverchangedevent.gettopologyid.html)
+-   [MongoDBDriverMonitoringServerChangedEvent::getTopologyId »](mongodb-driver-monitoring-serverchangedevent.gettopologyid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
+-   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
     
 -   Повертає попередній опис сервера
     
@@ -29,8 +29,8 @@ final public MongoDB\Driver\Monitoring\ServerChangedEvent::getPreviousDescriptio
 
 ### Значення, що повертаються
 
-Повертає попередній опис ([MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)) сервера.
+Повертає попередній опис ([MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)) сервера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

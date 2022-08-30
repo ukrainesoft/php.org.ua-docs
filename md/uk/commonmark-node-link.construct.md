@@ -1,12 +1,12 @@
 Конструктор класу Link
 
--   [« CommonMark\\Node\\Link](class.commonmark-node-link.html)
+-   [« CommonMarkNodeLink](class.commonmark-node-link.html)
     
--   [CommonMark\\Node\\CustomBlock »](class.commonmark-node-customblock.html)
+-   [CommonMarkNodeCustomBlock »](class.commonmark-node-customblock.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node\\Link](class.commonmark-node-link.html)
+-   [CommonMarkNodeLink](class.commonmark-node-link.html)
     
 -   Конструктор класу Link
     

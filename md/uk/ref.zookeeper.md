@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](zookeeper.constants.html)
     
--   [zookeeper\_dispatch »](function.zookeeper-dispatch.html)
+-   [zookeeperdispatch »](function.zookeeper-dispatch.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [zookeeper\_dispatch](function.zookeeper-dispatch.html) — Викликати callback-функції для операцій, що очікують
+-   [zookeeperdispatch](function.zookeeper-dispatch.html) — Викликати callback-функції для операцій, що очікують

@@ -1,12 +1,12 @@
 Заповнює область затіненням
 
--   [« ps\_shading](function.ps-shading.html)
+-   [«psshading](function.ps-shading.html)
     
--   [ps\_show\_boxed »](function.ps-show-boxed.html)
+-   [псshowboxed »](function.ps-show-boxed.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Заповнює область затіненням
     
@@ -23,17 +23,17 @@
 ps_shfill(resource $psdoc, int $shadingid): bool
 ```
 
-Заповнює область затіненням, яке має бути створене раніше за допомогою [ps\_shading()](function.ps-shading.html). Це альтернативний спосіб створення візерунка із затінення [ps\_shading\_pattern()](function.ps-shading-pattern.html) і використання візерунка як колір заливки.
+Заповнює область затіненням, яке має бути створене раніше за допомогою [псshading()](function.ps-shading.html). Це альтернативний спосіб створення візерунка із затінення [псshadingpattern()](function.ps-shading-pattern.html) і використання візерунка як колір заливки.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `shadingid`
 
-Ідентифікатор затінення, створеного раніше за допомогою [ps\_shading()](function.ps-shading.html)
+Ідентифікатор затінення, створеного раніше за допомогою [псshading()](function.ps-shading.html)
 
 ### Значення, що повертаються
 
@@ -41,5 +41,5 @@ ps_shfill(resource $psdoc, int $shadingid): bool
 
 ### Дивіться також
 
--   [ps\_shading()](function.ps-shading.html) - Створює затінення для подальшого використання
--   [ps\_shading\_pattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
+-   [псshading()](function.ps-shading.html) - Створює затінення для подальшого використання
+-   [псshadingpattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення

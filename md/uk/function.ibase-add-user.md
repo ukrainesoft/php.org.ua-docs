@@ -1,8 +1,8 @@
 Додає користувача до безпечної бази даних
 
--   [« fbird\_wait\_event](function.fbird-wait-event.html)
+-   [« fbirdwaitevent](function.fbird-wait-event.html)
     
--   [ibase\_affected\_rows »](function.ibase-affected-rows.html)
+-   [ibaseaffectedrows »](function.ibase-affected-rows.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,5 +55,5 @@ ibase_add_user(    resource $service_handle,    string $user_name,   
 
 ### Дивіться також
 
--   [ibase\_modify\_user()](function.ibase-modify-user.html) - Змінює користувача у безпечній базі даних
--   [ibase\_delete\_user()](function.ibase-delete-user.html) - Видаляє користувача з безпечної бази даних
+-   [ibasemodifyuser()](function.ibase-modify-user.html) - Змінює користувача у безпечній базі даних
+-   [ibasedeleteuser()](function.ibase-delete-user.html) - Видаляє користувача з безпечної бази даних

@@ -1,12 +1,12 @@
 InvalidArgumentException
 
--   [« UI\\Key](class.ui-key.html)
+-   [« UIKey](class.ui-key.html)
     
--   [UI\\Exception\\RuntimeException »](class.ui-exception-runtimeexception.html)
+-   [ОЙExceptionRuntimeException »](class.ui-exception-runtimeexception.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   InvalidArgumentException
     

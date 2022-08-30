@@ -1,8 +1,8 @@
 Встановлює нестабільний період
 
--   [« trader\_set\_compat](function.trader-set-compat.html)
+-   [« tradersetcompat](function.trader-set-compat.html)
     
--   [trader\_sin »](function.trader-sin.html)
+-   [tradersin »](function.trader-sin.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ trader_set_unstable_period(int $functionId, int $timePeriod): void
 
 `functionId`
 
-Ідентифікатор функції, на яку має бути встановлений коефіцієнт. Серія констант [TRADER\_FUNC\_UNST\_\*](trader.constants.html) може використовуватися для на відповідну функцію.
+Ідентифікатор функції, на яку має бути встановлений коефіцієнт. Серія констант [TRADERFUNCUNST](trader.constants.html) може використовуватися для на відповідну функцію.
 
 `timePeriod`
 

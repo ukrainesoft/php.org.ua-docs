@@ -1,12 +1,12 @@
 Перевіряє, чи існує трейт
 
--   [« property\_exists](function.property-exists.html)
+-   [« propertyexists](function.property-exists.html)
     
 -   [Ctype »](book.ctype.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи існує трейт
     
@@ -35,4 +35,4 @@ trait_exists(string $trait, bool $autoload = true): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо трейт існує, в іншому випадку повертає **`false`**
+Повертає \*\*`true`\*\*якщо трейт існує, в іншому випадку повертає **`false`**

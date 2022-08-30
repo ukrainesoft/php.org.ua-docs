@@ -1,12 +1,12 @@
 Повертає інформацію про двигун
 
--   [« gnupg\_export](function.gnupg-export.html)
+-   [« gnupgexport](function.gnupg-export.html)
     
--   [gnupg\_geterror »](function.gnupg-geterror.html)
+-   [gnupggeterror »](function.gnupg-geterror.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Повертає інформацію про двигун
     
@@ -27,7 +27,7 @@ gnupg_getengineinfo(resource $identifier): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 ### Значення, що повертаються
 

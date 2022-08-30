@@ -1,12 +1,12 @@
 Повертає поточний активний протокол для всіх операцій
 
--   [« gnupg\_geterrorinfo](function.gnupg-geterrorinfo.html)
+-   [« gnupggeterrorinfo](function.gnupg-geterrorinfo.html)
     
--   [gnupg\_gettrustlist »](function.gnupg-gettrustlist.html)
+-   [gnupggettrustlist »](function.gnupg-gettrustlist.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Повертає поточний активний протокол для всіх операцій
     
@@ -27,7 +27,7 @@ gnupg_getprotocol(resource $identifier): int
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 ### Значення, що повертаються
 

@@ -2,7 +2,7 @@
 
 -   [« Алгоритмы подписи](openssl.signature-algos.html)
     
--   [Константы версий »](openssl.constversion.html)
+-   [Константи версій »](openssl.constversion.html)
     
 -   [PHP Manual](index.html)
     

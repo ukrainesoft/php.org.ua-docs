@@ -1,8 +1,8 @@
 Перезаписує рядок символами NULL
 
--   [« sodium\_memcmp](function.sodium-memcmp.html)
+-   [« sodiummemcmp](function.sodium-memcmp.html)
     
--   [sodium\_pad »](function.sodium-pad.html)
+-   [sodiumpad »](function.sodium-pad.html)
     
 -   [PHP Manual](index.html)
     

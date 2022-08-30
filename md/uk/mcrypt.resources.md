@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-[mcrypt\_module\_open()](function.mcrypt-module-open.html) повертає дескриптор шифрування.
+[mcryptmoduleopen()](function.mcrypt-module-open.html) повертає дескриптор шифрування.

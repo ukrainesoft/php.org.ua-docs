@@ -2,7 +2,7 @@
 
 -   [« Transliterator::transliterate](transliterator.transliterate.html)
     
--   [IntlBreakIterator::\_\_construct »](intlbreakiterator.construct.html)
+-   [IntlBreakIterator::construct »](intlbreakiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -193,7 +193,7 @@ public setText(string $text): ?bool
 
 ## Зміст
 
--   [IntlBreakIterator::\_\_construct](intlbreakiterator.construct.html) — Закритий конструктор, який забороняє створення екземплярів об'єкту
+-   [IntlBreakIterator::construct](intlbreakiterator.construct.html) — Закритий конструктор, який забороняє створення екземплярів об'єкту
 -   [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.html) — Створює ітератор переривання меж комбінування послідовностей символів.
 -   [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.html) — Створює ітератор переривання меж кодових точок.
 -   [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.html) — Створює ітератор переривання для логічно можливих розривів рядків

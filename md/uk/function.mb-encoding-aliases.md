@@ -1,12 +1,12 @@
 Отримує псевдоніми відомого типу кодування
 
--   [« mb\_encode\_numericentity](function.mb-encode-numericentity.html)
+-   [« mbencodenumericentity](function.mb-encode-numericentity.html)
     
--   [mb\_ereg\_match »](function.mb-ereg-match.html)
+-   [мбeregmatch »](function.mb-ereg-match.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Отримує псевдоніми відомого типу кодування
     
@@ -81,4 +81,4 @@ Array
 
 ### Дивіться також
 
--   [mb\_list\_encodings()](function.mb-list-encodings.html) - Повертає масив усіх кодувань, що підтримуються.
+-   [мбlistencodings()](function.mb-list-encodings.html) - Повертає масив усіх кодувань, що підтримуються.

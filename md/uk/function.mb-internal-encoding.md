@@ -1,12 +1,12 @@
 Встановлення/отримання внутрішнього кодування скрипту
 
--   [« mb\_http\_output](function.mb-http-output.html)
+-   [« mbhttpoutput](function.mb-http-output.html)
     
--   [mb\_language »](function.mb-language.html)
+-   [мбlanguage »](function.mb-language.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Встановлення/отримання внутрішнього кодування скрипту
     
@@ -62,7 +62,7 @@ echo mb_internal_encoding();
 
 ### Дивіться також
 
--   [mb\_http\_input()](function.mb-http-input.html) - Визначення кодування символів вхідних даних HTTP-запиту
--   [mb\_http\_output()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
--   [mb\_detect\_order()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбhttpinput()](function.mb-http-input.html) - Визначення кодування символів вхідних даних HTTP-запиту
+-   [мбhttpoutput()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
+-   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу

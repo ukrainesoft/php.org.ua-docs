@@ -1,8 +1,8 @@
 MQSeries MQSET
 
--   [« mqseries\_put](function.mqseries-put.html)
+-   [« mqseriesput](function.mqseries-put.html)
     
--   [mqseries\_strerror »](function.mqseries-strerror.html)
+-   [mqseriesstrerror »](function.mqseries-strerror.html)
     
 -   [PHP Manual](index.html)
     
@@ -77,4 +77,4 @@ Object handle.
 
 ### Дивіться також
 
--   [mqseries\_inq()](function.mqseries-inq.html) - MQSeries MQINQ
+-   [mqseriesinq()](function.mqseries-inq.html) - MQSeries MQINQ

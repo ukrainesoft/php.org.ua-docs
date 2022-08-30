@@ -200,7 +200,7 @@ public writeimage(string $filename, bool $all_frames = false): Gmagick
 -   [Gmagick::clear](gmagick.clear.html) — Зачищає всі ресурси, пов'язані з об'єктом Gmagick
 -   [Gmagick::commentimage](gmagick.commentimage.html) — Додати коментар до зображення
 -   [Gmagick::compositeimage](gmagick.compositeimage.html) — Накладає одне зображення на інше
--   [Gmagick::\_\_construct](gmagick.construct.html) - Конструктор об'єкта Gmagick
+-   [Gmagick::construct](gmagick.construct.html) - Конструктор об'єкта Gmagick
 -   [Gmagick::cropimage](gmagick.cropimage.html) — Обрізає зображення
 -   [Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.html) — Створення обрізаного зменшеного зображення
 -   [Gmagick::current](gmagick.current.html) - Повернути самого себе

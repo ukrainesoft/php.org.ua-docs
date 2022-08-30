@@ -1,8 +1,8 @@
 Встановлює блокування запису для цього OID
 
--   [« cubrid\_lock\_read](function.cubrid-lock-read.html)
+-   [« cubridlockread](function.cubrid-lock-read.html)
     
--   [cubrid\_move\_cursor »](function.cubrid-move-cursor.html)
+-   [cubridmovecursor »](function.cubrid-move-cursor.html)
     
 -   [PHP Manual](index.html)
     
@@ -95,4 +95,4 @@ array(3) {
 
 ### Дивіться також
 
--   [cubrid\_lock\_read()](function.cubrid-lock-read.html) - Встановлює блокування читання для цього OID
+-   [cubridlockread()](function.cubrid-lock-read.html) - Встановлює блокування читання для цього OID

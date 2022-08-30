@@ -1,12 +1,12 @@
 Встановити "тільки для читання"
 
--   [« UI\\Controls\\MultilineEntry::onChange](ui-controls-multilineentry.onchange.html)
+-   [« UIControlsMultilineEntry::onChange](ui-controls-multilineentry.onchange.html)
     
--   [UI\\Controls\\MultilineEntry::setText »](ui-controls-multilineentry.settext.html)
+-   [ОЙControlsMultilineEntry::setText »](ui-controls-multilineentry.settext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html)
+-   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     
 -   Встановити "тільки для читання"
     

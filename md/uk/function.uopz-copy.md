@@ -1,12 +1,12 @@
 Копіювати функцію
 
--   [« uopz\_compose](function.uopz-compose.html)
+-   [« uopzcompose](function.uopz-compose.html)
     
--   [uopz\_del\_function »](function.uopz-del-function.html)
+-   [uopzdelfunction »](function.uopz-del-function.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Копіювати функцію
     

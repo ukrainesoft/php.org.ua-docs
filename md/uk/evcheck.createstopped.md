@@ -1,6 +1,6 @@
 Створює зупинений екземпляр спостерігача EvCheck
 
--   [« EvCheck::\_\_construct](evcheck.construct.html)
+-   [« EvCheck::construct](evcheck.construct.html)
     
 -   [EvChild »](class.evchild.html)
     
@@ -41,7 +41,7 @@ final
 
 `callback`
 
-Дивіться [Callback-функции наблюдателя](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.html)
 
 `data`
 

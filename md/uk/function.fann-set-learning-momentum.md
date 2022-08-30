@@ -1,8 +1,8 @@
 Встановлює імпульс навчання
 
--   [« fann\_set\_input\_scaling\_params](function.fann-set-input-scaling-params.html)
+-   [« fannsetinputscalingparams](function.fann-set-input-scaling-params.html)
     
--   [fann\_set\_learning\_rate »](function.fann-set-learning-rate.html)
+-   [fannsetlearningrate »](function.fann-set-learning-rate.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ fann_set_learning_momentum(resource $ann, float $learning_momentum): bool
 
 Встановлює імпульс навчання.
 
-Докладніша інформація доступна в [fann\_get\_learning\_momentum()](function.fann-get-learning-momentum.html)
+Докладніша інформація доступна в [fanngetlearningmomentum()](function.fann-get-learning-momentum.html)
 
 ### Список параметрів
 
@@ -43,5 +43,5 @@ fann_set_learning_momentum(resource $ann, float $learning_momentum): bool
 
 ### Дивіться також
 
--   [fann\_get\_learning\_momentum()](function.fann-get-learning-momentum.html) - Повертає імпульс навчання
--   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fanngetlearningmomentum()](function.fann-get-learning-momentum.html) - Повертає імпульс навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

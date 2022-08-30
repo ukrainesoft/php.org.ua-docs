@@ -43,7 +43,7 @@ date_timezone_set(DateTime $object, DateTimeZone $timezone): DateTime
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `timezone`
 
@@ -92,4 +92,4 @@ echo date_format($date, 'Y-m-d H:i:sP') . "\n";
 
 -   [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.html) - Встановлює часовий пояс
 -   [DateTime::getTimezone()](datetime.gettimezone.html) - Повертає часовий пояс щодо поточного значення DateTime
--   [DateTimeZone::\_\_construct()](datetimezone.construct.html) - Створює новий об'єкт DateTimeZone
+-   [DateTimeZone::construct()](datetimezone.construct.html) - Створює новий об'єкт DateTimeZone

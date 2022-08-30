@@ -1,12 +1,12 @@
 Оновлення до протоколу websocket
 
--   [« Swoole\\Http\\Client::setMethod](swoole-http-client.setmethod.html)
+-   [« SwooleHttpClient::setMethod](swoole-http-client.setmethod.html)
     
--   [Swoole\\Http\\Request »](class.swoole-http-request.html)
+-   [SwooleHttpRequest »](class.swoole-http-request.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Оновлення до протоколу websocket
     

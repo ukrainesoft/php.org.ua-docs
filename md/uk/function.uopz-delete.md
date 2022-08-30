@@ -1,12 +1,12 @@
 Видалити функцію
 
--   [« uopz\_del\_function](function.uopz-del-function.html)
+-   [« uopzdelfunction](function.uopz-del-function.html)
     
--   [uopz\_extend »](function.uopz-extend.html)
+-   [uopzextend »](function.uopz-extend.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Видалити функцію
     

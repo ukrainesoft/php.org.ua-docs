@@ -1,8 +1,8 @@
 Розрив Тасукі
 
--   [« trader\_cdltakuri](function.trader-cdltakuri.html)
+-   [« tradercdltakuri](function.trader-cdltakuri.html)
     
--   [trader\_cdlthrusting »](function.trader-cdlthrusting.html)
+-   [tradercdlthrusting »](function.trader-cdlthrusting.html)
     
 -   [PHP Manual](index.html)
     

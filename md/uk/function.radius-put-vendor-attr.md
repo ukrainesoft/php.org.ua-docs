@@ -1,8 +1,8 @@
 Приєднує бінарний атрибут, що залежить від постачальника
 
--   [« radius\_put\_vendor\_addr](function.radius-put-vendor-addr.html)
+-   [« radiusputvendoraddr](function.radius-put-vendor-addr.html)
     
--   [radius\_put\_vendor\_int »](function.radius-put-vendor-int.html)
+-   [radiusputvendorint »](function.radius-put-vendor-int.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ radius_put_vendor_attr(    resource $radius_handle,    int $vendor,  �
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 
@@ -80,4 +80,4 @@ if (!radius_put_vendor_attr($res, RADIUS_VENDOR_MICROSOFT, RAD_MICROSOFT_MS_C
 
 ### Дивіться також
 
--   [radius\_get\_vendor\_attr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника
+-   [radiusgetvendorattr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника

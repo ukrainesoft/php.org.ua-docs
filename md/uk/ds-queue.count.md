@@ -1,12 +1,12 @@
 Повертає кількість елементів черги
 
--   [« Ds\\Queue::copy](ds-queue.copy.html)
+-   [« DsQueue::copy](ds-queue.copy.html)
     
--   [Ds\\Queue::isEmpty »](ds-queue.isempty.html)
+-   [ДсQueue::isEmpty »](ds-queue.isempty.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Повертає кількість елементів черги
     

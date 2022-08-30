@@ -1,12 +1,12 @@
 Повертає прапори Regex
 
--   [« MongoDB\\BSON\\Regex::\_\_construct](mongodb-bson-regex.construct.html)
+-   [« MongoDBBSONRegex::construct](mongodb-bson-regex.construct.html)
     
--   [MongoDB\\BSON\\Regex::getPattern »](mongodb-bson-regex.getpattern.html)
+-   [MongoDBBSONRegex::getPattern »](mongodb-bson-regex.getpattern.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+-   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
 -   Повертає прапори Regex
     
@@ -33,7 +33,7 @@ final public MongoDB\BSON\Regex::getFlags(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -57,4 +57,4 @@ string(1) "i"
 ### Дивіться також
 
 -   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [» Поддерживаемые флаги регулярных выражений](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+-   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

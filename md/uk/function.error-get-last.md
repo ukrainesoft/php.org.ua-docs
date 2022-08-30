@@ -1,8 +1,8 @@
 Отримання інформації про останню помилку
 
--   [« error\_clear\_last](function.error-clear-last.html)
+-   [« errorclearlast](function.error-clear-last.html)
     
--   [error\_log »](function.error-log.html)
+-   [errorlog »](function.error-log.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ error_get_last(): ?array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив з описом останньої помилки, що відбулася. Ключі масиву: "type", "message", "file" та "line". Якщо помилка відбулася у внутрішній функції PHP, елемент із ключем "message" почнеться з імені цієї функції. Повертає **`null`**якщо помилок ще не сталося.
+Повертає асоціативний масив з описом останньої помилки, що відбулася. Ключі масиву: "type", "message", "file" та "line". Якщо помилка відбулася у внутрішній функції PHP, елемент із ключем "message" почнеться з імені цієї функції. Повертає \*\*`null`\*\*якщо помилок ще не сталося.
 
 ### Приклади
 
@@ -59,8 +59,8 @@ Array
 ### Дивіться також
 
 -   [Константы ошибок](errorfunc.constants.html)
--   Змінна [$php\_errormsg](reserved.variables.phperrormsg.html)
--   [error\_clear\_last()](function.error-clear-last.html) - Очистити останню помилку
+-   Змінна [$phperrormsg](reserved.variables.phperrormsg.html)
+-   [errorclearlast()](function.error-clear-last.html) - Очистити останню помилку
 -   [Директива `display_errors`](errorfunc.configuration.html#ini.display-errors)
 -   [Директива `html_errors`](errorfunc.configuration.html#ini.html-errors)
 -   [Директива `xmlrpc_errors`](errorfunc.configuration.html#ini.xmlrpc-errors)

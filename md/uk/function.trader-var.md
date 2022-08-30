@@ -1,8 +1,8 @@
 Варіація
 
--   [« trader\_ultosc](function.trader-ultosc.html)
+-   [« traderultosc](function.trader-ultosc.html)
     
--   [trader\_wclprice »](function.trader-wclprice.html)
+-   [traderwclprice »](function.trader-wclprice.html)
     
 -   [PHP Manual](index.html)
     

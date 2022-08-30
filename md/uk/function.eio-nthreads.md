@@ -1,8 +1,8 @@
 Повертає кількість потоків, що використовуються в даний момент
 
--   [« eio\_nreqs](function.eio-nreqs.html)
+-   [« eionreqs](function.eio-nreqs.html)
     
--   [eio\_open »](function.eio-open.html)
+-   [eioopen »](function.eio-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,9 +33,9 @@ eio_nthreads(): int
 
 ### Дивіться також
 
--   [eio\_npending()](function.eio-npending.html) - Повертає кількість завершених, але необроблених процесів
--   [eio\_nready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
--   [eio\_nreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
--   [eio\_set\_max\_idle()](function.eio-set-max-idle.html) - Встановлює максимальну кількість очікуваних потоків
--   [eio\_set\_max\_parallel()](function.eio-set-max-parallel.html) - Встановлює максимальну кількість паралельних потоків
--   [eio\_set\_min\_parallel()](function.eio-set-min-parallel.html) - Встановлює мінімальну кількість паралельних потоків
+-   [eionpending()](function.eio-npending.html) - Повертає кількість завершених, але необроблених процесів
+-   [eionready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
+-   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
+-   [eiosetmaxidle()](function.eio-set-max-idle.html) - Встановлює максимальну кількість очікуваних потоків
+-   [eiosetmaxparallel()](function.eio-set-max-parallel.html) - Встановлює максимальну кількість паралельних потоків
+-   [eiosetminparallel()](function.eio-set-min-parallel.html) - Встановлює мінімальну кількість паралельних потоків

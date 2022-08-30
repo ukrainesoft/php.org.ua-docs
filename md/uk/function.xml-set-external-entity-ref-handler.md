@@ -1,8 +1,8 @@
 Встановлення оброблювача зовнішніх сутностей
 
--   [« xml\_set\_end\_namespace\_decl\_handler](function.xml-set-end-namespace-decl-handler.html)
+-   [« xmlsetendnamespacedeclhandler](function.xml-set-end-namespace-decl-handler.html)
     
--   [xml\_set\_notation\_decl\_handler »](function.xml-set-notation-decl-handler.html)
+-   [xmlsetnotationdeclhandler »](function.xml-set-notation-decl-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,9 +33,9 @@ xml_set_external_entity_ref_handler(XMLParser $parser, callable $handler): bool
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, яка повинна бути визначена на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, яка повинна бути визначена на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
-Функція з ім'ям `handler` має приймати п'ять аргументів та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xml\_get\_error\_code()](function.xml-get-error-code.html) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
+Функція з ім'ям `handler` має приймати п'ять аргументів та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.html) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
 
 ```methodsynopsis
 handler(    XMLParser $parser,    string $open_entity_names,    string $base,    string $system_id,    string $public_id)

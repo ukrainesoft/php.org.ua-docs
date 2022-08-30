@@ -1,12 +1,12 @@
 Прив'язує значення до заповнювача
 
--   [« mysql\_xdevapi\\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
+-   [« mysqlxdevapiCrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
     
--   [mysql\_xdevapi\\CrudOperationLimitable »](class.mysql-xdevapi-crudoperationlimitable.html)
+-   [mysqlxdevapiCrudOperationLimitable »](class.mysql-xdevapi-crudoperationlimitable.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
+-   [mysqlxdevapiCrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
     
 -   Прив'язує значення до заповнювача
     

@@ -1,8 +1,8 @@
 Зупинити семплююче профіль xhprof
 
--   [« xhprof\_enable](function.xhprof-enable.html)
+-   [« xhprofenable](function.xhprof-enable.html)
     
--   [xhprof\_sample\_enable »](function.xhprof-sample-enable.html)
+-   [xhprofsampleenable »](function.xhprof-sample-enable.html)
     
 -   [PHP Manual](index.html)
     

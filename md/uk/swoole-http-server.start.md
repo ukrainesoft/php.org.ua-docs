@@ -1,12 +1,12 @@
 Запускає http-сервер swoole
 
--   [« Swoole\\Http\\Server::on](swoole-http-server.on.html)
+-   [« SwooleHttpServer::on](swoole-http-server.on.html)
     
--   [Swoole\\Lock »](class.swoole-lock.html)
+-   [SwooleLock »](class.swoole-lock.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Server](class.swoole-http-server.html)
+-   [SwooleHttpServer](class.swoole-http-server.html)
     
 -   Запускає http-сервер swoole
     

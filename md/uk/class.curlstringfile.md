@@ -2,7 +2,7 @@
 
 -   [« CURLFile::setPostFilename](curlfile.setpostfilename.html)
     
--   [CURLStringFile::\_\_construct »](curlstringfile.construct.html)
+-   [CURLStringFile::construct »](curlstringfile.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,9 +70,9 @@ MIME-тип файлу (за замовчуванням `application/octet-strea
 
 ## Дивіться також
 
--   [curl\_setopt()](function.curl-setopt.html)
+-   [curlsetopt()](function.curl-setopt.html)
 -   [CURLFile](class.curlfile.html)
 
 ## Зміст
 
--   [CURLStringFile::\_\_construct](curlstringfile.construct.html) — Створює об'єкт CURLStringFile
+-   [CURLStringFile::construct](curlstringfile.construct.html) — Створює об'єкт CURLStringFile

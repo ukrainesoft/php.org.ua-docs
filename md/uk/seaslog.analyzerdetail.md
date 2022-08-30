@@ -49,10 +49,10 @@ SeasLog отримує результат виконання команди grep
 
 `order`
 
-Ціле число. За замовчуванням [SEASLOG\_DETAIL\_ORDER\_ASC](seaslog.constants.html#constant.seaslog-detail-order-asc). Дивіться також:
+Ціле число. За замовчуванням [SEASLOGDETAILORDERASC](seaslog.constants.html#constant.seaslog-detail-order-asc). Дивіться також:
 
--   [SEASLOG\_DETAIL\_ORDER\_ASC](seaslog.constants.html#constant.seaslog-detail-order-asc)
--   [SEASLOG\_DETAIL\_ORDER\_DESC](seaslog.constants.html#constant.seaslog-detail-order-desc)
+-   [SEASLOGDETAILORDERASC](seaslog.constants.html#constant.seaslog-detail-order-asc)
+-   [SEASLOGDETAILORDERDESC](seaslog.constants.html#constant.seaslog-detail-order-desc)
 
 ### Значення, що повертаються
 

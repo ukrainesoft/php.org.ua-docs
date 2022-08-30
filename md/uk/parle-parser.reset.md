@@ -1,12 +1,12 @@
 Скидає стан парсера
 
--   [« Parle\\Parser::push](parle-parser.push.html)
+-   [« ParleParser::push](parle-parser.push.html)
     
--   [Parle\\Parser::right »](parle-parser.right.html)
+-   [ParleParser::right »](parle-parser.right.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Скидає стан парсера
     

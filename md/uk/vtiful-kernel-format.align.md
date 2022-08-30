@@ -1,12 +1,12 @@
 Вирівнювання
 
--   [« Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+-   [« VtifulKernelFormat](class.vtiful-kernel-format.html)
     
--   [Vtiful\\Kernel\\Format::bold »](vtiful-kernel-format.bold.html)
+-   [VtifulKernelFormat::bold »](vtiful-kernel-format.bold.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+-   [VtifulKernelFormat](class.vtiful-kernel-format.html)
     
 -   Вирівнювання
     
@@ -33,7 +33,7 @@ public Vtiful\Kernel\Format::align(resource $handle, int $style)
 
 `style`
 
-Константа [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+Константа [VtifulKernelFormat](class.vtiful-kernel-format.html)
 
 ### Значення, що повертаються
 

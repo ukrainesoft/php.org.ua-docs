@@ -2,11 +2,11 @@
 
 -   [« Общие рассуждения](security.general.html)
     
--   [Возможные атаки »](security.cgi-bin.attacks.html)
+-   [Можливі атаки »](security.cgi-bin.attacks.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](security.html)
+-   [Безпека](security.html)
     
 -   Якщо PHP встановлено як CGI
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [Возможные атаки](security.cgi-bin.attacks.html)
--   [Вариант 1: обслуживаются только общедоступные файлы](security.cgi-bin.default.html)
--   [Вариант 2: использование cgi.force\_redirect](security.cgi-bin.force-redirect.html)
--   [Вариант 3: использование опций doc\_root или user\_dir](security.cgi-bin.doc-root.html)
--   [Вариант 4: PHP вне дерева веб-документов](security.cgi-bin.shell.html)
+-   [Можливі атаки](security.cgi-bin.attacks.html)
+-   [Варіант 1: обслуговуються лише загальнодоступні файли](security.cgi-bin.default.html)
+-   [Вариант 2: использование cgi.forceredirect](security.cgi-bin.force-redirect.html)
+-   [Вариант 3: использование опций docroot или userdir](security.cgi-bin.doc-root.html)
+-   [Варіант 4: PHP поза деревом веб-документів](security.cgi-bin.shell.html)

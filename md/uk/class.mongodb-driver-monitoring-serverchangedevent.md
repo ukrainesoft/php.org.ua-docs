@@ -1,12 +1,12 @@
 Клас MongoDBDriverMonitoringServerChangedEvent
 
--   [« MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.html)
+-   [« MongoDBDriverMonitoringCommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getHost »](mongodb-driver-monitoring-serverchangedevent.gethost.html)
+-   [MongoDBDriverMonitoringServerChangedEvent::getHost »](mongodb-driver-monitoring-serverchangedevent.gethost.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.html)
     
 -   Клас MongoDBDriverMonitoringServerChangedEvent
     
@@ -46,8 +46,8 @@ final public getTopologyId(): MongoDB\BSON\ObjectId
 
 ## Зміст
 
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.html) — Повертає ім'я сервера.
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getNewDescription](mongodb-driver-monitoring-serverchangedevent.getnewdescription.html) — Повертає новий опис сервера
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.html) — Повертає порт, на якому прослуховується сервер
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPreviousDescription](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html) — Повертає попередній опис сервера
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getTopologyId](mongodb-driver-monitoring-serverchangedevent.gettopologyid.html) — Повертає ідентифікатор топології, пов'язаний із цим сервером
+-   [MongoDBDriverMonitoringServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.html) — Повертає ім'я сервера.
+-   [MongoDBDriverMonitoringServerChangedEvent::getNewDescription](mongodb-driver-monitoring-serverchangedevent.getnewdescription.html) — Повертає новий опис сервера
+-   [MongoDBDriverMonitoringServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.html) — Повертає порт, на якому прослуховується сервер
+-   [MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html) — Повертає попередній опис сервера
+-   [MongoDBDriverMonitoringServerChangedEvent::getTopologyId](mongodb-driver-monitoring-serverchangedevent.gettopologyid.html) — Повертає ідентифікатор топології, пов'язаний із цим сервером

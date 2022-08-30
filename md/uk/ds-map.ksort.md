@@ -1,8 +1,8 @@
 Сортує поточну колекцію за ключами
 
--   [« Ds\\Map::keys](ds-map.keys.html)
+-   [« DsMap::keys](ds-map.keys.html)
     
--   [Ds\\Map::ksorted »](ds-map.ksorted.html)
+-   [ДсMap::ksorted »](ds-map.ksorted.html)
     
 -   [PHP Manual](index.html)
     

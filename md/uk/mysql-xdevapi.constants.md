@@ -1,12 +1,12 @@
 Обумовлені константи
 
--   [« Сборка / Компиляция из исходного кода](mysql-xdevapi.build.html)
+-   [« Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)
     
 -   [Список изменений »](changelog.mysql_xdevapi.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Обумовлені константи
     

@@ -1,8 +1,8 @@
 Порівняє вектор
 
--   [« sodium\_crypto\_core\_ristretto255\_add](function.sodium-crypto-core-ristretto255-add.html)
+-   [« sodiumcryptocoreristretto255add](function.sodium-crypto-core-ristretto255-add.html)
     
--   [sodium\_crypto\_core\_ristretto255\_is\_valid\_point »](function.sodium-crypto-core-ristretto255-is-valid-point.html)
+-   [sodiumcryptocoreristretto255ісvalidpoint »](function.sodium-crypto-core-ristretto255-is-valid-point.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,6 +62,6 @@ string(64) "3066f82a1a747d45120d1740f14358531a8f04bbffe6a819f86dfe50f44a0a46"
 
 ### Дивіться також
 
--   [sodium\_hex2bin()](function.sodium-hex2bin.html) - Декодує рядок у шістнадцятковому поданні до бінарного
--   [sodium\_bin2hex()](function.sodium-bin2hex.html) - Кодувати у шістнадцяткову виставу
+-   [sodiumhex2bin()](function.sodium-hex2bin.html) - Декодує рядок у шістнадцятковому поданні до бінарного
+-   [sodiumbin2hex()](function.sodium-bin2hex.html) - Кодувати у шістнадцяткову виставу
 -   **sodiumcryptocoreristretto255fromhash()**

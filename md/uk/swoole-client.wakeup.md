@@ -1,12 +1,12 @@
 Додає TCP-клієнт назад у цикл системних подій
 
--   [« Swoole\\Client::sleep](swoole-client.sleep.html)
+-   [« SwooleClient::sleep](swoole-client.sleep.html)
     
--   [Swoole\\Connection\\Iterator »](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator »](class.swoole-connection-iterator.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Додає TCP-клієнт назад у цикл системних подій
     

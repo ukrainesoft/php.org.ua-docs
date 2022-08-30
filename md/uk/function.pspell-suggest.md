@@ -1,8 +1,8 @@
 Пропонує варіанти виправлення слова
 
--   [« pspell\_store\_replacement](function.pspell-store-replacement.html)
+-   [« pspellstorereplacement](function.pspell-store-replacement.html)
     
--   [PSpell\\Dictionary »](class.pspell-dictionary.html)
+-   [PSpellDictionary »](class.pspell-dictionary.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 `dictionary`
 
-Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
 
 `word`
 
@@ -41,9 +41,9 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

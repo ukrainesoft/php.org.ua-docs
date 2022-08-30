@@ -2,7 +2,7 @@
 
 -   [« Установка модулей PECL](install.pecl.html)
     
--   [Загрузка модулей PECL »](install.pecl.downloads.html)
+-   [Завантаження модулів PECL »](install.pecl.downloads.html)
     
 -   [PHP Manual](index.html)
     

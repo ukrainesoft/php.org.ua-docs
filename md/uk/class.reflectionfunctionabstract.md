@@ -1,8 +1,8 @@
 Клас ReflectionFunctionAbstract
 
--   [« ReflectionFunction::\_\_toString](reflectionfunction.tostring.html)
+-   [« ReflectionFunction::toString](reflectionfunction.tostring.html)
     
--   [ReflectionFunctionAbstract::\_\_clone »](reflectionfunctionabstract.clone.html)
+-   [ReflectionFunctionAbstract::clone »](reflectionfunctionabstract.clone.html)
     
 -   [PHP Manual](index.html)
     
@@ -87,7 +87,7 @@ name
 
 ## Зміст
 
--   [ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.html) - Клонує функцію
+-   [ReflectionFunctionAbstract::clone](reflectionfunctionabstract.clone.html) - Клонує функцію
 -   [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.html) — Отримує атрибути
 -   [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.html) — Повертає клас, в рамках якого було оголошено замикання
 -   [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.html) — Повертає покажчик, прив'язаний до замикання
@@ -117,4 +117,4 @@ name
 -   [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.html) — Перевіряє, чи функція є певною користувачем
 -   [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.html) — Перевіряє, чи є функція зі змінною кількістю аргументів
 -   [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.html) - Перевіряє, що функція повертає посилання
--   [ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.html) — Перетворення на рядок
+-   [ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.html) — Перетворення на рядок

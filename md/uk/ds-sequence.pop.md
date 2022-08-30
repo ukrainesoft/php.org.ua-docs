@@ -1,12 +1,12 @@
 Видаляє та повертає останнє значення
 
--   [« Ds\\Sequence::merge](ds-sequence.merge.html)
+-   [« DsSequence::merge](ds-sequence.merge.html)
     
--   [Ds\\Sequence::push »](ds-sequence.push.html)
+-   [ДсSequence::push »](ds-sequence.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Видаляє та повертає останнє значення
     

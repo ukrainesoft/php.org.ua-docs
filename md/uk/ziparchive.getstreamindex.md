@@ -33,7 +33,7 @@ public ZipArchive::getStreamIndex(int $index, int $flags = 0): resource|false
 
 `flags`
 
-Якщо у flags встановлена ​​константа **`ZipArchive::FL_UNCHANGED`**повертається вихідний незмінений потік.
+Якщо у flags встановлена ​​константа \*\*`ZipArchive::FL_UNCHANGED`\*\*повертається вихідний незмінений потік.
 
 ### Значення, що повертаються
 

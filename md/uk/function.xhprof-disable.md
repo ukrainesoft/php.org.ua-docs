@@ -2,7 +2,7 @@
 
 -   [« Функции Xhprof](ref.xhprof.html)
     
--   [xhprof\_enable »](function.xhprof-enable.html)
+-   [xhprofenable »](function.xhprof-enable.html)
     
 -   [PHP Manual](index.html)
     

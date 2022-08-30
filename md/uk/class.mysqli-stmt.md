@@ -1,8 +1,8 @@
 The mysqlistmt class
 
--   [« mysqli::$warning\_count](mysqli.warning-count.html)
+-   [« mysqli::$warningcount](mysqli.warning-count.html)
     
--   [mysqli\_stmt::$affected\_rows »](mysqli-stmt.affected-rows.html)
+-   [mysqlistmt::$affectedrows »](mysqli-stmt.affected-rows.html)
     
 -   [PHP Manual](index.html)
     
@@ -119,31 +119,31 @@ public store_result(): bool
 
 ## Зміст
 
--   [mysqli\_stmt::$affected\_rows](mysqli-stmt.affected-rows.html) — Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
--   [mysqli\_stmt::attr\_get](mysqli-stmt.attr-get.html) — Отримує поточне значення атрибуту запиту
--   [mysqli\_stmt::attr\_set](mysqli-stmt.attr-set.html) — Змінює поведінку підготовленого запиту
--   [mysqli\_stmt::bind\_param](mysqli-stmt.bind-param.html) — Прив'язка змінних до параметрів запиту, що готується.
--   [mysqli\_stmt::bind\_result](mysqli-stmt.bind-result.html) — Прив'язка змінних до підготовленого запиту для розміщення результату
--   [mysqli\_stmt::close](mysqli-stmt.close.html) - Закриває підготовлений запит
--   [mysqli\_stmt::\_\_construct](mysqli-stmt.construct.html) - Конструктор для об'єкту mysqlistmt
--   [mysqli\_stmt::data\_seek](mysqli-stmt.data-seek.html) — Перехід до заданого рядка в результуючому наборі
--   [mysqli\_stmt::$errno](mysqli-stmt.errno.html) — Повертає код помилки виконання останнього запиту
--   [mysqli\_stmt::$error\_list](mysqli-stmt.error-list.html) — Повертає перелік помилок виконання останнього запиту
--   [mysqli\_stmt::$error](mysqli-stmt.error.html) — Повертає рядок із поясненням останньої помилки під час виконання запиту
--   [mysqli\_stmt::execute](mysqli-stmt.execute.html) - Виконує підготовлене твердження
--   [mysqli\_stmt::fetch](mysqli-stmt.fetch.html) — пов'язує результати підготовленого виразу зі змінними
--   [mysqli\_stmt::$field\_count](mysqli-stmt.field-count.html) — Повертає кількість стовпців у заданому виразі
--   [mysqli\_stmt::free\_result](mysqli-stmt.free-result.html) — Звільняє пам'ять від результату запиту, вказаного дескриптором
--   [mysqli\_stmt::get\_result](mysqli-stmt.get-result.html) — Отримує результат із підготовленого запиту у вигляді об'єкту mysqliresult
--   [mysqli\_stmt::get\_warnings](mysqli-stmt.get-warnings.html) — Отримує результат від SHOW WARNINGS
--   [mysqli\_stmt::$insert\_id](mysqli-stmt.insert-id.html) — Отримує ID, згенероване попередньою операцією INSERT
--   [mysqli\_stmt::more\_results](mysqli-stmt.more-results.html) — Перевіряє, чи є ще набори рядків через мультизапит.
--   [mysqli\_stmt::next\_result](mysqli-stmt.next-result.html) — Читає наступний набір рядків із мультизапиту
--   [mysqli\_stmt::$num\_rows](mysqli-stmt.num-rows.html) — Повертає кількість рядків, отриманих із сервера
--   [mysqli\_stmt::$param\_count](mysqli-stmt.param-count.html) — Повертає кількість параметрів у запиті
--   [mysqli\_stmt::prepare](mysqli-stmt.prepare.html) — готує затвердження SQL до виконання
--   [mysqli\_stmt::reset](mysqli-stmt.reset.html) — скидає результати виконання підготовленого запиту
--   [mysqli\_stmt::result\_metadata](mysqli-stmt.result-metadata.html) — Повертає метадані результуючої таблиці запиту, що готується.
--   [mysqli\_stmt::send\_long\_data](mysqli-stmt.send-long-data.html) — Надсилання даних блоками
--   [mysqli\_stmt::$sqlstate](mysqli-stmt.sqlstate.html) — Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
--   [mysqli\_stmt::store\_result](mysqli-stmt.store-result.html) — Зберігає набір результатів у внутрішньому буфері
+-   [mysqlistmt::$affectedrows](mysqli-stmt.affected-rows.html) — Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
+-   [mysqlistmt::attrget](mysqli-stmt.attr-get.html) — Отримує поточне значення атрибуту запиту
+-   [mysqlistmt::attrset](mysqli-stmt.attr-set.html) — Змінює поведінку підготовленого запиту
+-   [mysqlistmt::bindparam](mysqli-stmt.bind-param.html) — Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqlistmt::bindresult](mysqli-stmt.bind-result.html) — Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqlistmt::close](mysqli-stmt.close.html) - Закриває підготовлений запит
+-   [mysqlistmt::construct](mysqli-stmt.construct.html) - Конструктор для об'єкту mysqlistmt
+-   [mysqlistmt::dataseek](mysqli-stmt.data-seek.html) — Перехід до заданого рядка в результуючому наборі
+-   [mysqlistmt::$errno](mysqli-stmt.errno.html) — Повертає код помилки виконання останнього запиту
+-   [mysqlistmt::$errorlist](mysqli-stmt.error-list.html) — Повертає перелік помилок виконання останнього запиту
+-   [mysqlistmt::$error](mysqli-stmt.error.html) — Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmt::execute](mysqli-stmt.execute.html) - Виконує підготовлене твердження
+-   [mysqlistmt::fetch](mysqli-stmt.fetch.html) — пов'язує результати підготовленого виразу зі змінними
+-   [mysqlistmt::$fieldcount](mysqli-stmt.field-count.html) — Повертає кількість стовпців у заданому виразі
+-   [mysqlistmt::freeresult](mysqli-stmt.free-result.html) — Звільняє пам'ять від результату запиту, вказаного дескриптором
+-   [mysqlistmt::getresult](mysqli-stmt.get-result.html) — Отримує результат із підготовленого запиту у вигляді об'єкту mysqliresult
+-   [mysqlistmt::getwarnings](mysqli-stmt.get-warnings.html) — Отримує результат від SHOW WARNINGS
+-   [mysqlistmt::$insertід](mysqli-stmt.insert-id.html) — Отримує ID, згенероване попередньою операцією INSERT
+-   [mysqlistmt::moreresults](mysqli-stmt.more-results.html) — Перевіряє, чи є ще набори рядків через мультизапит.
+-   [mysqlistmt::nextresult](mysqli-stmt.next-result.html) — Читає наступний набір рядків із мультизапиту
+-   [mysqlistmt::$numrows](mysqli-stmt.num-rows.html) — Повертає кількість рядків, отриманих із сервера
+-   [mysqlistmt::$paramcount](mysqli-stmt.param-count.html) — Повертає кількість параметрів у запиті
+-   [mysqlistmt::prepare](mysqli-stmt.prepare.html) — готує затвердження SQL до виконання
+-   [mysqlistmt::reset](mysqli-stmt.reset.html) — скидає результати виконання підготовленого запиту
+-   [mysqlistmt::resultmetadata](mysqli-stmt.result-metadata.html) — Повертає метадані результуючої таблиці запиту, що готується.
+-   [mysqlistmt::sendlongdata](mysqli-stmt.send-long-data.html) — Надсилання даних блоками
+-   [mysqlistmt::$sqlstate](mysqli-stmt.sqlstate.html) — Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+-   [mysqlistmt::storeresult](mysqli-stmt.store-result.html) — Зберігає набір результатів у внутрішньому буфері

@@ -1,6 +1,6 @@
 Повертає інтервал
 
--   [« DatePeriod::\_\_construct](dateperiod.construct.html)
+-   [« DatePeriod::construct](dateperiod.construct.html)
     
 -   [DatePeriod::getEndDate »](dateperiod.getenddate.html)
     

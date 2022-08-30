@@ -2,7 +2,7 @@
 
 -   [« SolrObject](class.solrobject.html)
     
--   [SolrObject::\_\_destruct »](solrobject.destruct.html)
+-   [SolrObject::destruct »](solrobject.destruct.html)
     
 -   [PHP Manual](index.html)
     

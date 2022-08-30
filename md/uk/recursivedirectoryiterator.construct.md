@@ -89,6 +89,6 @@ while($it->valid()) {
 
 ### Дивіться також
 
--   [FilesystemIterator::\_\_construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
--   [RecursiveIteratorIterator::\_\_construct()](recursiveiteratoriterator.construct.html) - Конструктор класу RecursiveIteratorIterator
+-   [FilesystemIterator::construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
+-   [RecursiveIteratorIterator::construct()](recursiveiteratoriterator.construct.html) - Конструктор класу RecursiveIteratorIterator
 -   [Предопределённые константы класса FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)

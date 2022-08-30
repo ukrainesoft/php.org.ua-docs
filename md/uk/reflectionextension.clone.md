@@ -2,7 +2,7 @@
 
 -   [« ReflectionExtension](class.reflectionextension.html)
     
--   [ReflectionExtension::\_\_construct »](reflectionextension.construct.html)
+-   [ReflectionExtension::construct »](reflectionextension.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,5 +41,5 @@ private ReflectionExtension::__clone(): void
 
 ### Дивіться також
 
--   [ReflectionExtension::\_\_construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
+-   [ReflectionExtension::construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
 -   [Клонирование объектов](language.oop5.cloning.html)

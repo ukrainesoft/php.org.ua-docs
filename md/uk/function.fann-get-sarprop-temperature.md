@@ -1,8 +1,8 @@
 Повертає температуру sarprop
 
--   [« fann\_get\_sarprop\_step\_error\_threshold\_factor](function.fann-get-sarprop-step-error-threshold-factor.html)
+-   [« fanngetsarpropsteperrorthresholdfactor](function.fann-get-sarprop-step-error-threshold-factor.html)
     
--   [fann\_get\_sarprop\_weight\_decay\_shift »](function.fann-get-sarprop-weight-decay-shift.html)
+-   [fanngetsarpropweightdecayshift »](function.fann-get-sarprop-weight-decay-shift.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,4 +45,4 @@ fann_get_sarprop_temperature(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_set\_sarprop\_temperature()](function.fann-set-sarprop-temperature.html) - Встановлює температуру sarprop
+-   [fannsetsarproptemperature()](function.fann-set-sarprop-temperature.html) - Встановлює температуру sarprop

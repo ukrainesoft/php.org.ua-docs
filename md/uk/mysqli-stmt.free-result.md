@@ -1,12 +1,12 @@
 Звільняє пам'ять від результату запиту, вказаного дескриптором
 
--   [« mysqli\_stmt::$field\_count](mysqli-stmt.field-count.html)
+-   [« mysqlistmt::$fieldcount](mysqli-stmt.field-count.html)
     
--   [mysqli\_stmt::get\_result »](mysqli-stmt.get-result.html)
+-   [mysqlistmt::getresult »](mysqli-stmt.get-result.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Звільняє пам'ять від результату запиту, вказаного дескриптором
     
@@ -33,13 +33,13 @@ public mysqli_stmt::free_result(): void
 mysqli_stmt_free_result(mysqli_stmt $statement): void
 ```
 
-Звільняє від результату запиту пам'ять, яка була зарезервована за допомогою [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html)
+Звільняє від результату запиту пам'ять, яка була зарезервована за допомогою [mysqlistmtstoreresult()](mysqli-stmt.store-result.html)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -47,4 +47,4 @@ mysqli_stmt_free_result(mysqli_stmt $statement): void
 
 ### Дивіться також
 
--   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері

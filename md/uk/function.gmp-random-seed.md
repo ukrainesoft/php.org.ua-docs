@@ -1,12 +1,12 @@
 Встановити початковий стан RNG
 
--   [« gmp\_random\_range](function.gmp-random-range.html)
+-   [« gmprandomrange](function.gmp-random-range.html)
     
--   [gmp\_random »](function.gmp-random.html)
+-   [gmprandom »](function.gmp-random.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Встановити початковий стан RNG
     
@@ -27,7 +27,7 @@ gmp_random_seed(GMP|int|string $seed): void
 
 `seed`
 
-Початковий стан для функцій [gmp\_random()](function.gmp-random.html) [gmp\_random\_bits()](function.gmp-random-bits.html) і [gmp\_random\_range()](function.gmp-random-range.html)
+Початковий стан для функцій [gmprandom()](function.gmp-random.html) [gmprandombits()](function.gmp-random-bits.html) і [gmprandomrange()](function.gmp-random-range.html)
 
 Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
@@ -71,7 +71,7 @@ bool(false)
 
 ### Дивіться також
 
--   [gmp\_init()](function.gmp-init.html) - Створення GMP числа
--   [gmp\_random()](function.gmp-random.html) - Випадкове число
--   [gmp\_random\_bits()](function.gmp-random-bits.html) - Випадкове число
--   [gmp\_random\_range()](function.gmp-random-range.html) - Випадкове число
+-   [gmpinit()](function.gmp-init.html) - Створення GMP числа
+-   [gmprandom()](function.gmp-random.html) - Випадкове число
+-   [gmprandombits()](function.gmp-random-bits.html) - Випадкове число
+-   [gmprandomrange()](function.gmp-random-range.html) - Випадкове число

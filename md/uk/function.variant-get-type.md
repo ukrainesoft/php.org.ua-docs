@@ -1,8 +1,8 @@
 Отримати тип варіанта
 
--   [« variant\_fix](function.variant-fix.html)
+-   [« variantfix](function.variant-fix.html)
     
--   [variant\_idiv »](function.variant-idiv.html)
+-   [variantidiv »](function.variant-idiv.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ variant_get_type(variant $variant): int
 
 ### Дивіться також
 
--   [variant\_set\_type()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"
+-   [variantsettype()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"

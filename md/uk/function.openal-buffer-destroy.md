@@ -1,8 +1,8 @@
 Знищує буфер OpenAL
 
--   [« openal\_buffer\_data](function.openal-buffer-data.html)
+-   [« openalbufferdata](function.openal-buffer-data.html)
     
--   [openal\_buffer\_get »](function.openal-buffer-get.html)
+-   [openalbufferget »](function.openal-buffer-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_buffer_destroy(resource $buffer): bool
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.html) (раніше створений за допомогою [openal\_buffer\_create()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.html) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
 
 ### Значення, що повертаються
 
@@ -35,4 +35,4 @@ openal_buffer_destroy(resource $buffer): bool
 
 ### Дивіться також
 
--   [openal\_buffer\_create()](function.openal-buffer-create.html) - Згенерувати буфер OpenAL
+-   [openalbuffercreate()](function.openal-buffer-create.html) - Згенерувати буфер OpenAL

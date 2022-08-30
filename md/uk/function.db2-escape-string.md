@@ -1,12 +1,12 @@
 Використовується для екранування деяких символів
 
--   [« db2\_cursor\_type](function.db2-cursor-type.html)
+-   [« db2cursortype](function.db2-cursor-type.html)
     
--   [db2\_exec »](function.db2-exec.html)
+-   [db2exec »](function.db2-exec.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Використовується для екранування деяких символів
     
@@ -76,4 +76,4 @@ db2_escape_string:
 
 ### Дивіться також
 
--   [db2\_prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання

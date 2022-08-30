@@ -1,8 +1,8 @@
 Що роблять посилання
 
--   [« Что такое ссылки](language.references.whatare.html)
+-   [« Що таке посилання](language.references.whatare.html)
     
--   [Чем ссылки не являются »](language.references.arent.html)
+-   [Чим посилання не є »](language.references.arent.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,7 +61,7 @@ $foo =& find_var($bar);
 ?>
 ```
 
-Використання того ж синтаксису з функцією, яка *не* повертає за посиланням, призведе до помилки, як і її використання з результатом оператора [new](language.oop5.basic.html#language.oop5.basic.new). Хоча об'єкти передаються як покажчики, це не те саме, що посилання, як описано в розділі [Объекты и ссылки](language.oop5.references.html)
+Використання того ж синтаксису з функцією, яка *не* повертає за посиланням, призведе до помилки, як і її використання з результатом оператора [new](language.oop5.basic.html#language.oop5.basic.new). Хоча об'єкти передаються як покажчики, це не те саме, що посилання, як описано в розділі [Об'єкти та посилання](language.oop5.references.html)
 
 **Увага**
 

@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\MySQL::close](swoole-coroutine-mysql.close.html)
+-   [« SwooleCoroutineMySQL::close](swoole-coroutine-mysql.close.html)
     
--   [Swoole\\Coroutine\\MySQL::\_\_construct »](swoole-coroutine-mysql.construct.html)
+-   [SwooleCoroutineMySQL::construct »](swoole-coroutine-mysql.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

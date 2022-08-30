@@ -1,8 +1,8 @@
 Paragraph успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Heading::\_\_construct](commonmark-node-heading.construct.html)
+-   [« CommonMarkNodeHeading::construct](commonmark-node-heading.construct.html)
     
--   [CommonMark\\Node\\BlockQuote »](class.commonmark-node-blockquote.html)
+-   [CommonMarkNodeBlockQuote »](class.commonmark-node-blockquote.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Отримує своє ім'я
 
--   [« Yaf\_Controller\_Abstract::getModuleName](yaf-controller-abstract.getmodulename.html)
+-   [« YafControllerAbstract::getModuleName](yaf-controller-abstract.getmodulename.html)
     
--   [Yaf\_Controller\_Abstract::getRequest »](yaf-controller-abstract.getrequest.html)
+-   [YafControllerAbstract::getRequest »](yaf-controller-abstract.getrequest.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Отримує своє ім'я
     

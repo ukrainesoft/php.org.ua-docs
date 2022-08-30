@@ -1,6 +1,6 @@
 Якщо поточний елемент є директорією, метод повертає нею ітератор
 
--   [« RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.html)
+-   [« RecursiveDirectoryIterator::construct](recursivedirectoryiterator.construct.html)
     
 -   [RecursiveDirectoryIterator::getSubPath »](recursivedirectoryiterator.getsubpath.html)
     

@@ -1,12 +1,12 @@
 Видаляє всі значення
 
--   [« Ds\\PriorityQueue::capacity](ds-priorityqueue.capacity.html)
+-   [« DsPriorityQueue::capacity](ds-priorityqueue.capacity.html)
     
--   [Ds\\PriorityQueue::\_\_construct »](ds-priorityqueue.construct.html)
+-   [ДсPriorityQueue::construct »](ds-priorityqueue.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Видаляє всі значення
     

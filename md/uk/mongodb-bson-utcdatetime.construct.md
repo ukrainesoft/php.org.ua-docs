@@ -1,12 +1,12 @@
 Створює новий UTCDateTime
 
--   [« MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.html)
+-   [« MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
     
--   [MongoDB\\BSON\\UTCDateTime::jsonSerialize »](mongodb-bson-utcdatetime.jsonserialize.html)
+-   [MongoDBBSONUTCDateTime::jsonSerialize »](mongodb-bson-utcdatetime.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.html)
+-   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
     
 -   Створює новий UTCDateTime
     
@@ -29,13 +29,13 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 
 Кількість мілісекунд з часів Unix (1 січня 1970). Негативні значення становлять дати до 1970 року. Це значення може бути представлене як 64-розрядний int. Для сумісності в 32-бітових системах цей параметр також може бути представлений як float або string.
 
-Якщо аргумент є [DateTimeInterface](class.datetimeinterface.html), З цього значення буде отримано кількість мілісекунд, що пройшли з початку епохи Unix. Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти [DateTime](class.datetime.html) і [DateTimeImmutable](class.datetimeimmutable.html), побудовані за поточним часом, [не включают в себя точность менее секунды](migration71.incompatible.html#migration71.incompatible.datetime-microseconds)
+Якщо аргумент є [DateTimeInterface](class.datetimeinterface.html), З цього значення буде отримано кількість мілісекунд, що пройшли з початку епохи Unix. Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти [DateTime](class.datetime.html) і [DateTimeImmutable](class.datetimeimmutable.html), побудовані за поточним часом, [не включають точність менше секунди](migration71.incompatible.html#migration71.incompatible.datetime-microseconds)
 
 Якщо цей аргумент дорівнює **`null`**, використовуватиметься поточний час за промовчанням.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 

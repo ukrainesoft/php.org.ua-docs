@@ -1,8 +1,8 @@
 Вийняти секцію повідомлення разом із заголовками без декодування
 
--   [« mailparse\_msg\_extract\_part](function.mailparse-msg-extract-part.html)
+-   [« mailparsemsgextractpart](function.mailparse-msg-extract-part.html)
     
--   [mailparse\_msg\_free »](function.mailparse-msg-free.html)
+-   [mailparsemsgfree »](function.mailparse-msg-free.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,5 +41,5 @@ mailparse_msg_extract_whole_part_file(resource $mimemail, string $filename, call
 
 ### Дивіться також
 
--   [mailparse\_msg\_extract\_part()](function.mailparse-msg-extract-part.html) - Вийняти/декодувати секцію із повідомленням
--   [mailparse\_msg\_extract\_part\_file()](function.mailparse-msg-extract-part-file.html) - Вийняти/декодувати секцію із повідомленням із файлу
+-   [mailparsemsgextractpart()](function.mailparse-msg-extract-part.html) - Вийняти/декодувати секцію із повідомленням
+-   [mailparsemsgextractpartfile()](function.mailparse-msg-extract-part-file.html) - Вийняти/декодувати секцію із повідомленням із файлу

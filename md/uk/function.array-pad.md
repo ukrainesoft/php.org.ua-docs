@@ -1,12 +1,12 @@
 Доповнити масив певним значенням до вказаної довжини
 
--   [« array\_multisort](function.array-multisort.html)
+-   [« arraymultisort](function.array-multisort.html)
     
--   [array\_pop »](function.array-pop.html)
+-   [arraypop »](function.array-pop.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Доповнити масив певним значенням до вказаної довжини
     
@@ -63,5 +63,5 @@ $result = array_pad($input, 2, "noop");
 
 ### Дивіться також
 
--   [array\_fill()](function.array-fill.html) - Заповнює масив значеннями
+-   [arrayfill()](function.array-fill.html) - Заповнює масив значеннями
 -   [range()](function.range.html) - Створює масив, що містить діапазон елементів

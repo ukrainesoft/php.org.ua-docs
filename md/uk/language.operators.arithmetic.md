@@ -1,12 +1,12 @@
 Арифметичні оператори
 
--   [« Приоритет оператора](language.operators.precedence.html)
+-   [« Пріоритет оператора](language.operators.precedence.html)
     
 -   [Оператор присваивания »](language.operators.assignment.html)
     
 -   [PHP Manual](index.html)
     
--   [Операторы](language.operators.html)
+-   [Оператори](language.operators.html)
     
 -   Арифметичні оператори
     
@@ -47,4 +47,4 @@ echo (-5 % -3)."\n";         // выводит -2
 
 ### Дивіться також
 
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)

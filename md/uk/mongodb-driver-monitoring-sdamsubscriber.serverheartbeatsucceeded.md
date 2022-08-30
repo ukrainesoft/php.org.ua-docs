@@ -1,12 +1,12 @@
 Метод повідомлення про успішний heartbeat сервер
 
--   [« MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html)
+-   [« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html)
     
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverOpening »](mongodb-driver-monitoring-sdamsubscriber.serveropening.html)
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverOpening »](mongodb-driver-monitoring-sdamsubscriber.serveropening.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
+-   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
     
 -   Метод повідомлення про успішний heartbeat сервер
     
@@ -27,7 +27,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceed
 
 ### Список параметрів
 
-`event` [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
+`event` [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
 
 Об'єкт події, що містить інформацію про успішному серцевомусервері.
 
@@ -37,10 +37,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceed
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
--   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

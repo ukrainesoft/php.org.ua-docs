@@ -2,11 +2,11 @@
 
 -   [« WeakReference::get](weakreference.get.html)
     
--   [WeakMap::\_\_construct »](ext-weakmap.construct.html)
+-   [WeakMap::construct »](ext-weakmap.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Клас WeakMap
     
@@ -88,7 +88,7 @@ int(0)
 
 ## Зміст
 
--   [WeakMap::\_\_construct](ext-weakmap.construct.html) - Створює нову колекцію (map)
+-   [WeakMap::construct](ext-weakmap.construct.html) - Створює нову колекцію (map)
 -   [WeakMap::count](weakmap.count.html) — Підраховує кількість живих записів у колекції (map)
 -   [WeakMap::getIterator](weakmap.getiterator.html) — Отримує зовнішній ітератор
 -   [WeakMap::offsetExists](weakmap.offsetexists.html) — Перевіряє, чи є у колекції (map) певний об'єкт

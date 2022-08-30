@@ -1,12 +1,12 @@
 Встановлює/отримує поточну мову
 
--   [« mb\_internal\_encoding](function.mb-internal-encoding.html)
+-   [« mbinternalencoding](function.mb-internal-encoding.html)
     
--   [mb\_list\_encodings »](function.mb-list-encodings.html)
+-   [мбlistencodings »](function.mb-list-encodings.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Встановлює/отримує поточну мову
     
@@ -29,7 +29,7 @@ mb_language(?string $language = null): string|bool
 
 `language`
 
-Використовується для кодування електронних листів. Допустимі мови перелічені в наступній таблиці.[mb\_send\_mail()](function.mb-send-mail.html) використовує параметр для кодування електронної пошти.
+Використовується для кодування електронних листів. Допустимі мови перелічені в наступній таблиці.[мбsendmail()](function.mb-send-mail.html) використовує параметр для кодування електронної пошти.
 
 | Язык                            | Кодировка   | Кодирование      | Псевдоним               |
 |---------------------------------|-------------|------------------|-------------------------|
@@ -58,4 +58,4 @@ mb_language(?string $language = null): string|bool
 
 ### Дивіться також
 
--   [mb\_send\_mail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення
+-   [мбsendmail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення

@@ -1,12 +1,12 @@
 Генерує одне випадкове відхилення від нормального розподілу
 
--   [« stats\_rand\_gen\_noncentral\_t](function.stats-rand-gen-noncentral-t.html)
+-   [« statsrandgennoncentralт](function.stats-rand-gen-noncentral-t.html)
     
--   [stats\_rand\_gen\_t »](function.stats-rand-gen-t.html)
+-   [statsrandgent »](function.stats-rand-gen-t.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує одне випадкове відхилення від нормального розподілу
     

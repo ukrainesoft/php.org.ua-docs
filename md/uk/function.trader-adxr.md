@@ -1,8 +1,8 @@
 Середній рейтинг індексу спрямованого руху
 
--   [« trader\_adx](function.trader-adx.html)
+-   [« traderadx](function.trader-adx.html)
     
--   [trader\_apo »](function.trader-apo.html)
+-   [traderapo »](function.trader-apo.html)
     
 -   [PHP Manual](index.html)
     

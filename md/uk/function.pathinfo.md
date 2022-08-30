@@ -1,12 +1,12 @@
 Повертає інформацію про шлях до файлу
 
--   [« parse\_ini\_string](function.parse-ini-string.html)
+-   [« parseinistring](function.parse-ini-string.html)
     
 -   [pclose »](function.pclose.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає інформацію про шлях до файлу
     
@@ -136,5 +136,5 @@ Array
 
 -   [dirname()](function.dirname.html) - Повертає ім'я батьківського каталогу із зазначеного шляху
 -   [basename()](function.basename.html) - Повертає останній компонент імені із зазначеного шляху
--   [parse\_url()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
 -   [realpath()](function.realpath.html) - Повертає абсолютний канонізований шлях до файлу

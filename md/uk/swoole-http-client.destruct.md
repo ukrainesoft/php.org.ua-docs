@@ -1,12 +1,12 @@
 Знищує HTTP-клієнт
 
--   [« Swoole\\Http\\Client::\_\_construct](swoole-http-client.construct.html)
+-   [« SwooleHttpClient::construct](swoole-http-client.construct.html)
     
--   [Swoole\\Http\\Client::download »](swoole-http-client.download.html)
+-   [SwooleHttpClient::download »](swoole-http-client.download.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Знищує HTTP-клієнт
     

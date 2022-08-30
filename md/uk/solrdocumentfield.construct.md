@@ -2,7 +2,7 @@
 
 -   [« SolrDocumentField](class.solrdocumentfield.html)
     
--   [SolrDocumentField::\_\_destruct »](solrdocumentfield.destruct.html)
+-   [SolrDocumentField::destruct »](solrdocumentfield.destruct.html)
     
 -   [PHP Manual](index.html)
     

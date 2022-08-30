@@ -2,7 +2,7 @@
 
 -   [« strtotime](function.strtotime.html)
     
--   [timezone\_abbreviations\_list »](function.timezone-abbreviations-list.html)
+-   [timezoneabbreviationslist »](function.timezone-abbreviations-list.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,7 +58,7 @@ echo 'Сейчас: '. time();
 
 **Підказка**
 
-Час початку запиту доступний у глобальній змінній [$\_SERVER\['REQUEST\_TIME'\]](reserved.variables.server.html)
+Час початку запиту доступний у глобальній змінній [SERVER\['REQUESTTIME'\]](reserved.variables.server.html)
 
 ### Дивіться також
 

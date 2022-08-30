@@ -1,8 +1,8 @@
 Встановлює UID поточного процесу
 
--   [« posix\_setsid](function.posix-setsid.html)
+-   [« posixsetsid](function.posix-setsid.html)
     
--   [posix\_strerror »](function.posix-strerror.html)
+-   [posixstrerror »](function.posix-strerror.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ echo posix_geteuid()."\n"; //10000
 
 ### Дивіться також
 
--   [posix\_setgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
--   [posix\_seteuid()](function.posix-seteuid.html) - Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
--   [posix\_getuid()](function.posix-getuid.html) - Повертає фактичний ідентифікатор користувача поточного процесу UID
--   [posix\_geteuid()](function.posix-geteuid.html) - Повертає ефективний ідентифікатор користувача поточного процесу EUID
+-   [posixsetgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
+-   [posixseteuid()](function.posix-seteuid.html) - Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
+-   [posixgetuid()](function.posix-getuid.html) - Повертає фактичний ідентифікатор користувача поточного процесу UID
+-   [posixgeteuid()](function.posix-geteuid.html) - Повертає ефективний ідентифікатор користувача поточного процесу EUID

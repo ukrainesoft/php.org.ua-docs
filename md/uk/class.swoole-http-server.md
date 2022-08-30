@@ -1,8 +1,8 @@
 Клас SwooleHttpServer
 
--   [« Swoole\\Http\\Response::write](swoole-http-response.write.html)
+-   [« SwooleHttpResponse::write](swoole-http-response.write.html)
     
--   [Swoole\\Http\\Server::on »](swoole-http-server.on.html)
+-   [SwooleHttpServer::on »](swoole-http-server.on.html)
     
 -   [PHP Manual](index.html)
     
@@ -89,5 +89,5 @@ public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 ## Зміст
 
--   [Swoole\\Http\\Server::on](swoole-http-server.on.html) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
--   [Swoole\\Http\\Server::start](swoole-http-server.start.html) - Запускає http-сервер swoole
+-   [SwooleHttpServer::on](swoole-http-server.on.html) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
+-   [SwooleHttpServer::start](swoole-http-server.start.html) - Запускає http-сервер swoole

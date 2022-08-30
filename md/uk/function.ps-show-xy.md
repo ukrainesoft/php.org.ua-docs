@@ -1,12 +1,12 @@
 Виводить текст у заданій позиції
 
--   [« ps\_show\_xy2](function.ps-show-xy2.html)
+-   [«psshowxy2](function.ps-show-xy2.html)
     
--   [ps\_show2 »](function.ps-show2.html)
+-   [псshow2 »](function.ps-show2.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Виводить текст у заданій позиції
     
@@ -29,7 +29,7 @@ ps_show_xy(    resource $psdoc,    string $text,    float $x,   �
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `text`
 
@@ -49,5 +49,5 @@ ps_show_xy(    resource $psdoc,    string $text,    float $x,   �
 
 ### Дивіться також
 
--   [ps\_continue\_text()](function.ps-continue-text.html) - Продовжує текст у наступному рядку
--   [ps\_show()](function.ps-show.html) - Виводить текст
+-   [псcontinuetext()](function.ps-continue-text.html) - Продовжує текст у наступному рядку
+-   [псshow()](function.ps-show.html) - Виводить текст

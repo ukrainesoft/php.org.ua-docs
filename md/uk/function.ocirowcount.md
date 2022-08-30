@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocirowcount - Псевдонім [oci\_num\_rows()](function.oci-num-rows.html)
+ocirowcount - Псевдонім [ocinumrows()](function.oci-num-rows.html)
 
 ### Опис
 
-Псевдонім [oci\_num\_rows()](function.oci-num-rows.html)
+Псевдонім [ocinumrows()](function.oci-num-rows.html)
 
 **Увага**
 

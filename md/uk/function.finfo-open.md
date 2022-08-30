@@ -1,8 +1,8 @@
 Створює екземпляр finfo
 
--   [« finfo\_file](function.finfo-file.html)
+-   [« finfofile](function.finfo-file.html)
     
--   [finfo\_set\_flags »](function.finfo-set-flags.html)
+-   [finfosetflags »](function.finfo-set-flags.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ finfo_open(int $flags = FILEINFO_NONE, ?string $magic_database = null): finfo|fa
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public [finfo::\_\_construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
+public [finfo::construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
 
 Ця функція відкриває магічну базу даних та повертає екземпляр.
 
@@ -105,4 +105,4 @@ text/plain; charset=us-ascii
 
 ### Дивіться також
 
--   [finfo\_close()](function.finfo-close.html) - Закриває екземпляр finfo
+-   [finfoclose()](function.finfo-close.html) - Закриває екземпляр finfo

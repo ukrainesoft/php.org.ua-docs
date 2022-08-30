@@ -1,12 +1,12 @@
 Створює новий об'єкт BulkWrite
 
--   [« MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+-   [« MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
     
--   [MongoDB\\Driver\\BulkWrite::count »](mongodb-driver-bulkwrite.count.html)
+-   [MongoDBDriverBulkWrite::count »](mongodb-driver-bulkwrite.count.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+-   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
     
 -   Створює новий об'єкт BulkWrite
     
@@ -23,7 +23,7 @@ MongoDBDriverBulkWrite::construct — Створює новий об'єкт Bulk
 public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 ```
 
-Створює новий [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html), який є об'єктом, що змінюється, до якого можуть бути додані одна і кілька операцій запису. Операції запису можуть бути виконані за допомогою [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
+Створює новий [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html), який є об'єктом, що змінюється, до якого можуть бути додані одна і кілька операцій запису. Операції запису можуть бути виконані за допомогою [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
 
 ### Список параметрів
 
@@ -54,7 +54,7 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
@@ -135,5 +135,5 @@ printf("Удалено  %d документ(ов)\n", $result->getDeletedCou
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)

@@ -1,12 +1,12 @@
 Визначити версію конвертера
 
--   [« wkhtmltox\\PDF\\Converter::convert](wkhtmltox-pdf-converter.convert.html)
+-   [« wkhtmltoxPDFConverter::convert](wkhtmltox-pdf-converter.convert.html)
     
--   [wkhtmltox\\PDF\\Object »](class.wkhtmltox-pdf-object.html)
+-   [wkhtmltoxPDFObject »](class.wkhtmltox-pdf-object.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\PDF\\Converter](class.wkhtmltox-pdf-converter.html)
+-   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
     
 -   Визначити версію конвертера
     

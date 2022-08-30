@@ -1,6 +1,6 @@
 Клас Event
 
--   [« Создание событий для сигналов](event.constructing.signal.events.html)
+-   [« Створення подій для сигналів](event.constructing.signal.events.html)
     
 -   [Event::add »](event.add.html)
     
@@ -172,7 +172,7 @@ public
 
 pending
 
-Позначає, що подія може очікувати. Дивіться [О постоянных событиях](event.persistence.html)
+Позначає, що подія може очікувати. Дивіться [Про постійні події](event.persistence.html)
 
 ## Обумовлені константи
 
@@ -182,7 +182,7 @@ pending
 
 **`Event::PERSIST`**
 
-Позначає, що подія стала. Дивіться [О постоянных событиях](event.persistence.html)
+Позначає, що подія стала. Дивіться [Про постійні події](event.persistence.html)
 
 **`Event::READ`**
 
@@ -207,7 +207,7 @@ pending
 -   [Event::add](event.add.html) — Перевести подію у стан очікування
 -   [Event::addSignal](event.addsignal.html) - Псевдонім Event:: add
 -   [Event::addTimer](event.addtimer.html) - Псевдонім Event:: add
--   [Event::\_\_construct](event.construct.html) - Конструктор об'єкта Event
+-   [Event::construct](event.construct.html) - Конструктор об'єкта Event
 -   [Event::del](event.del.html) - Перевести подію в пасивний стан
 -   [Event::delSignal](event.delsignal.html) - Псевдонім Event::del
 -   [Event::delTimer](event.deltimer.html) - Псевдонім Event::del

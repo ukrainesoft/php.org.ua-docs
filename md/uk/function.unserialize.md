@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Створює PHP-значення зі збереженого уявлення
     
@@ -27,9 +27,9 @@ unserialize(string $data, array $options = []): mixed
 
 **Увага**
 
-Не передавайте неперевірені дані користувача в **unserialize()**, навіть якщо в `options` поставлено `allowed_classes`. Десеріалізація може створити код, який виконається при створенні об'єкта або автоматичному завантаженні коду, чим можуть скористатися несумлінні користувачі. Найкраще використовувати більш безпечні стандартні формати обміну даними, такі як JSON (за допомогою функцій [json\_decode()](function.json-decode.html) і [json\_encode()](function.json-encode.html)), якщо вам потрібно передати серіалізовані дані користувачеві.
+Не передавайте неперевірені дані користувача в **unserialize()**, навіть якщо в `options` поставлено `allowed_classes`. Десеріалізація може створити код, який виконається при створенні об'єкта або автоматичному завантаженні коду, чим можуть скористатися несумлінні користувачі. Найкраще використовувати більш безпечні стандартні формати обміну даними, такі як JSON (за допомогою функцій [jsondecode()](function.json-decode.html) і [jsonencode()](function.json-encode.html)), якщо вам потрібно передати серіалізовані дані користувачеві.
 
-Якщо вам потрібно десеріалізувати дані із зовнішніх джерел, використовуйте функцію [hash\_hmac()](function.hash-hmac.html) для перевірки цих даних. Переконайтеся, що ці дані, крім вас, ніхто не змінював.
+Якщо вам потрібно десеріалізувати дані із зовнішніх джерел, використовуйте функцію [hashhmac()](function.hash-hmac.html) для перевірки цих даних. Переконайтеся, що ці дані, крім вас, ніхто не змінював.
 
 ### Список параметрів
 
@@ -37,11 +37,11 @@ unserialize(string $data, array $options = []): mixed
 
 Серіалізований рядок.
 
-Якщо змінна, яка потребує десеріалізації, є об'єктом, то після успішного відновлення об'єкта PHP автоматично спробує викликати магічний метод [\_\_unserialize()](language.oop5.magic.html#object.unserialize) або [\_\_wakeup()](language.oop5.magic.html#object.wakeup) (якщо він існує).
+Якщо змінна, яка потребує десеріалізації, є об'єктом, то після успішного відновлення об'єкта PHP автоматично спробує викликати магічний метод [unserialize()](language.oop5.magic.html#object.unserialize) або [wakeup()](language.oop5.magic.html#object.wakeup) (якщо він існує).
 
 > **Зауваження** **Директива unserializecallbackfunc**
 > 
-> Існує можливість вказати функцію зворотного виклику, яка буде викликана, якщо в процесі десеріалізації має бути проініціалізовано невизначений клас. (для запобігання отриманню неповного об'єкта (object) "PHPIncompleteClass"). Використовуйте php.ini, [ini\_set()](function.ini-set.html) або .htaccess для визначення функції [unserialize\_callback\_func](var.configuration.html#ini.unserialize-callback-func). Ця функція буде викликатися щоразу, коли має бути проініціалізований невизначений клас. Щоб вимкнути цю можливість, просто залиште значення директиви порожнім.
+> Існує можливість вказати функцію зворотного виклику, яка буде викликана, якщо в процесі десеріалізації має бути проініціалізовано невизначений клас. (для запобігання отриманню неповного об'єкта (object) "PHPIncompleteClass"). Використовуйте php.ini, [iniset()](function.ini-set.html) або .htaccess для визначення функції [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func). Ця функція буде викликатися щоразу, коли має бути проініціалізований невизначений клас. Щоб вимкнути цю можливість, просто залиште значення директиви порожнім.
 
 `options`
 
@@ -120,12 +120,12 @@ function mycallback($classname)
 
 ### Дивіться також
 
--   [json\_encode()](function.json-encode.html) - Повертає JSON-подання даних
--   [json\_decode()](function.json-decode.html) - Декодує рядок JSON
--   [hash\_hmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+-   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
+-   [jsondecode()](function.json-decode.html) - Декодує рядок JSON
+-   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Автоматическая загрузка классов](language.oop5.autoload.html)
--   [unserialize\_callback\_func](var.configuration.html#ini.unserialize-callback-func)
--   [\_\_wakeup()](language.oop5.magic.html#object.wakeup)
--   [\_\_serialize()](language.oop5.magic.html#object.serialize)
--   [\_\_unserialize()](language.oop5.magic.html#object.unserialize)
+-   [Автоматичне завантаження класів](language.oop5.autoload.html)
+-   [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func)
+-   [wakeup()](language.oop5.magic.html#object.wakeup)
+-   [serialize()](language.oop5.magic.html#object.serialize)
+-   [unserialize()](language.oop5.magic.html#object.unserialize)

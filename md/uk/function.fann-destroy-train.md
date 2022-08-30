@@ -1,8 +1,8 @@
 Знищує тренувальні дані
 
--   [« fann\_descale\_train](function.fann-descale-train.html)
+-   [« fanndescaletrain](function.fann-descale-train.html)
     
--   [fann\_destroy »](function.fann-destroy.html)
+-   [fanndestroy »](function.fann-destroy.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,11 +2,11 @@
 
 -   [« DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.html)
     
--   [mysql\_xdevapi\\Executable »](class.mysql-xdevapi-executable.html)
+-   [mysqlxdevapiExecutable »](class.mysql-xdevapi-executable.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Exception
     

@@ -1,8 +1,8 @@
 Прогноз тимчасового ряду
 
--   [« trader\_trix](function.trader-trix.html)
+-   [« tradertrix](function.trader-trix.html)
     
--   [trader\_typprice »](function.trader-typprice.html)
+-   [tradertypprice »](function.trader-typprice.html)
     
 -   [PHP Manual](index.html)
     

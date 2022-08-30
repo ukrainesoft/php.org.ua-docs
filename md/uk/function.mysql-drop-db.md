@@ -1,8 +1,8 @@
 Знищує базу даних MySQL
 
--   [« mysql\_db\_query](function.mysql-db-query.html)
+-   [« mysqlдбquery](function.mysql-db-query.html)
     
--   [mysql\_errno »](function.mysql-errno.html)
+-   [mysqlerrno »](function.mysql-errno.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,7 +19,7 @@ mysqldropdb — Знищує базу даних MySQL
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
 -   Виконати запит `DROP DATABASE`
 
@@ -29,7 +29,7 @@ mysqldropdb — Знищує базу даних MySQL
 mysql_drop_db(string $database_name, resource $link_identifier = NULL): bool
 ```
 
-**mysqldropdb()** намагається знищити базу даних на сервері, на який посилається переданий дескриптор з'єднання. Ця функція застаріла, використовуйте замість неї [mysql\_query()](function.mysql-query.html) із запитом `DROP DATABASE`
+**mysqldropdb()** намагається знищити базу даних на сервері, на який посилається переданий дескриптор з'єднання. Ця функція застаріла, використовуйте замість неї [mysqlquery()](function.mysql-query.html) із запитом `DROP DATABASE`
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ mysql_drop_db(string $database_name, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -77,4 +77,4 @@ if (mysql_query($sql, $link)) {
 
 ### Дивіться також
 
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL

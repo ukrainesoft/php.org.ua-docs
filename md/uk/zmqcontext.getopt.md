@@ -1,6 +1,6 @@
 Отримати опцію контексту
 
--   [« ZMQContext::\_\_construct](zmqcontext.construct.html)
+-   [« ZMQContext::construct](zmqcontext.construct.html)
     
 -   [ZMQContext::getSocket »](zmqcontext.getsocket.html)
     

@@ -1,12 +1,12 @@
 Закриває з'єднання з FTP-сервером
 
--   [« ftp\_chmod](function.ftp-chmod.html)
+-   [« ftpchmod](function.ftp-chmod.html)
     
--   [ftp\_connect »](function.ftp-connect.html)
+-   [ftpconnect »](function.ftp-connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Закриває з'єднання з FTP-сервером
     
@@ -27,13 +27,13 @@ ftp_close(FTP\Connection $ftp): bool
 
 > **Зауваження**
 > 
-> Після виклику цієї функції, з'єднання більше не може бути використане, і при необхідності має бути встановлене заново за допомогою функції [ftp\_connect()](function.ftp-connect.html)
+> Після виклику цієї функції, з'єднання більше не може бути використане, і при необхідності має бути встановлене заново за допомогою функції [ftpconnect()](function.ftp-connect.html)
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 ### Значення, що повертаються
 
@@ -41,9 +41,9 @@ ftp_close(FTP\Connection $ftp): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -68,4 +68,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_connect()](function.ftp-connect.html) - Встановлює з'єднання з FTP-сервером
+-   [ftpconnect()](function.ftp-connect.html) - Встановлює з'єднання з FTP-сервером

@@ -1,6 +1,6 @@
 Клас EnchantBroker
 
--   [« enchant\_dict\_suggest](function.enchant-dict-suggest.html)
+-   [« enchantdictsuggest](function.enchant-dict-suggest.html)
     
 -   [EnchantDictionary »](class.enchantdictionary.html)
     

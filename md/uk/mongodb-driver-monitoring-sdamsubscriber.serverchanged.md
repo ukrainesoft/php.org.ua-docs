@@ -1,12 +1,12 @@
 Метод сповіщення про зміну опису сервера
 
--   [« MongoDB\\Driver\\Monitoring\\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
+-   [« MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
     
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverClosed »](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html)
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverClosed »](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
+-   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
     
 -   Метод сповіщення про зміну опису сервера
     
@@ -27,7 +27,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged(MongoDB\
 
 ### Список параметрів
 
-`event` [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
+`event` [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
 
 Об'єкт події, що містить інформацію про змінений опис сервера.
 
@@ -37,10 +37,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged(MongoDB\
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
--   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

@@ -69,4 +69,4 @@ int(65)
 
 -   [IntlChar::tolower()](intlchar.tolower.html) - Перетворення символу Unicode на нижній регістр
 -   [IntlChar::totitle()](intlchar.totitle.html) - Перетворює символ Unicode у titlecase
--   [mb\_strtoupper()](function.mb-strtoupper.html) - Приведення рядка до верхнього регістру
+-   [мбstrtoupper()](function.mb-strtoupper.html) - Приведення рядка до верхнього регістру

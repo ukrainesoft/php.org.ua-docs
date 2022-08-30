@@ -1,8 +1,8 @@
 Відкочує транзакцію
 
--   [« ibase\_rollback\_ret](function.ibase-rollback-ret.html)
+-   [« ibaserollbackret](function.ibase-rollback-ret.html)
     
--   [ibase\_server\_info »](function.ibase-server-info.html)
+-   [ibaseserverinfo »](function.ibase-server-info.html)
     
 -   [PHP Manual](index.html)
     

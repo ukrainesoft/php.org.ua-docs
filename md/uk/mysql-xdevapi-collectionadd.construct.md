@@ -1,12 +1,12 @@
 Конструктор класу CollectionAdd
 
--   [« mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html)
+-   [« mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html)
     
 -   [CollectionAdd::execute »](mysql-xdevapi-collectionadd.execute.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html)
+-   [mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html)
     
 -   Конструктор класу CollectionAdd
     

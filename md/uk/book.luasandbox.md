@@ -1,12 +1,12 @@
 LuaSandbox
 
--   [« LuaClosure::\_\_invoke](luaclosure.invoke.html)
+-   [« LuaClosure::invoke](luaclosure.invoke.html)
     
 -   [Введение »](intro.luasandbox.html)
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   LuaSandbox
     
@@ -41,7 +41,7 @@ LuaSandbox
     -   [LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.html) — Обертає PHP-об'єкт, що викликається в LuaSandboxFunction
 -   [LuaSandboxFunction](class.luasandboxfunction.html) - Клас LuaSandboxFunction
     -   [LuaSandboxFunction::call](luasandboxfunction.call.html) - Викликає Lua-функцію
-    -   [LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.html) - Не використовується
+    -   [LuaSandboxFunction::construct](luasandboxfunction.construct.html) - Не використовується
     -   [LuaSandboxFunction::dump](luasandboxfunction.dump.html) — Вивантажує функцію у вигляді BLOB
 -   [LuaSandboxError](class.luasandboxerror.html) - Клас LuaSandboxError
 -   [LuaSandboxErrorError](class.luasandboxerrorerror.html) - Клас LuaSandboxErrorError

@@ -1,12 +1,12 @@
 Абсолютна величина
 
--   [« GMP Функции](ref.gmp.html)
+-   [« GMP Функції](ref.gmp.html)
     
--   [gmp\_add »](function.gmp-add.html)
+-   [gmpadd »](function.gmp-add.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Абсолютна величина
     

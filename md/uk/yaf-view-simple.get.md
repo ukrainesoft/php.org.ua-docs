@@ -1,12 +1,12 @@
 Отримує призначену змінну
 
--   [« Yaf\_View\_Simple::eval](yaf-view-simple.eval.html)
+-   [« YafViewSimple::eval](yaf-view-simple.eval.html)
     
--   [Yaf\_View\_Simple::getScriptPath »](yaf-view-simple.getscriptpath.html)
+-   [YafViewSimple::getScriptPath »](yaf-view-simple.getscriptpath.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Отримує призначену змінну
     

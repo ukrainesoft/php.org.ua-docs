@@ -1,8 +1,8 @@
 Записує дані у великий об'єкт
 
--   [« pg\_lo\_unlink](function.pg-lo-unlink.html)
+-   [« pgлоunlink](function.pg-lo-unlink.html)
     
--   [pg\_meta\_data »](function.pg-meta-data.html)
+-   [пгmetadata »](function.pg-meta-data.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 `lob`
 
-Ан [PgSql\\Lob](class.pgsql-lob.html) instance, returned by [pg\_lo\_open()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
 
 `data`
 
@@ -51,10 +51,10 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `length` тепер допускає значення null.                                                                                                      |
+| Версия | Описание                                                                                                                                  |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `length` тепер допускає значення null.                                                                                                    |
 
 ### Приклади
 
@@ -74,5 +74,5 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### Дивіться також
 
--   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт
--   [pg\_lo\_open()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
+-   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних

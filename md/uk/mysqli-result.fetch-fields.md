@@ -1,12 +1,12 @@
 Повертає масив об'єктів, що становлять поля результуючого набору
 
--   [« mysqli\_result::fetch\_field](mysqli-result.fetch-field.html)
+-   [« mysqliresult::fetchfield](mysqli-result.fetch-field.html)
     
--   [mysqli\_result::fetch\_object »](mysqli-result.fetch-object.html)
+-   [mysqliresult::fetchobject »](mysqli-result.fetch-object.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Повертає масив об'єктів, що становлять поля результуючого набору
     
@@ -33,13 +33,13 @@ public mysqli_result::fetch_fields(): array
 mysqli_fetch_fields(mysqli_result $result): array
 ```
 
-Ця функція служить для тих же цілей, що й [mysqli\_fetch\_field()](mysqli-result.fetch-field.html), З тією лише різницею, що повертає не один об'єкт для стовпця, а масив таких об'єктів.
+Ця функція служить для тих же цілей, що й [mysqlifetchfield()](mysqli-result.fetch-field.html), З тією лише різницею, що повертає не один об'єкт для стовпця, а масив таких об'єктів.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -194,6 +194,6 @@ Flags:     20489
 
 ### Дивіться також
 
--   [mysqli\_num\_fields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
--   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.html) - Отримання метаданих конкретного поля
--   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlinumfields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) - Отримання метаданих конкретного поля
+-   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору

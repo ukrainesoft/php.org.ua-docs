@@ -1,8 +1,8 @@
 Повертає розмір блоку вказаного алгоритму
 
--   [« mcrypt\_module\_close](function.mcrypt-module-close.html)
+-   [« mcryptmoduleclose](function.mcrypt-module-close.html)
     
--   [mcrypt\_module\_get\_algo\_key\_size »](function.mcrypt-module-get-algo-key-size.html)
+-   [mcryptmodulegetalgokeysize »](function.mcrypt-module-get-algo-key-size.html)
     
 -   [PHP Manual](index.html)
     

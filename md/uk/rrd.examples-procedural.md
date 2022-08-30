@@ -2,7 +2,7 @@
 
 -   [« Примеры](rrd.examples.html)
     
--   [Объектно-ориентированный пример PECL/rrd »](rrd.examples-oop.html)
+-   [Об'єктно-орієнтований приклад PECL/rrd »](rrd.examples-oop.html)
     
 -   [PHP Manual](index.html)
     

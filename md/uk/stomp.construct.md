@@ -2,7 +2,7 @@
 
 -   [« Stomp::commit](stomp.commit.html)
     
--   [Stomp::\_\_destruct »](stomp.destruct.html)
+-   [Stomp::destruct »](stomp.destruct.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ public **Stomp::construct**
 string `$broker` = iniget("stomp.defaultbrokeruri"),  
 string `$username`  
 string `$password`  
-array `$headers`  
+array `$headers`
 
 Процедурний стиль:
 

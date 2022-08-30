@@ -17,5 +17,5 @@
 
 -   [Требования](oci8.requirements.html)
 -   [Установка](oci8.installation.html)
--   [Тестирование](oci8.test.html)
+-   [Тестування](oci8.test.html)
 -   [Настройка во время выполнения](oci8.configuration.html)

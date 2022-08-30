@@ -2,7 +2,7 @@
 
 -   [« checkdate](function.checkdate.html)
     
--   [date\_create\_from\_format »](function.date-create-from-format.html)
+-   [datecreatefromformat »](function.date-create-from-format.html)
     
 -   [PHP Manual](index.html)
     

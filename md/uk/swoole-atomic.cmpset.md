@@ -1,12 +1,12 @@
 Порівнює та встановлює значення атомарного об'єкта
 
--   [« Swoole\\Atomic::add](swoole-atomic.add.html)
+-   [« SwooleAtomic::add](swoole-atomic.add.html)
     
--   [Swoole\\Atomic::\_\_construct »](swoole-atomic.construct.html)
+-   [SwooleAtomic::construct »](swoole-atomic.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Atomic](class.swoole-atomic.html)
+-   [SwooleAtomic](class.swoole-atomic.html)
     
 -   Порівнює та встановлює значення атомарного об'єкта
     

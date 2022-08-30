@@ -2,7 +2,7 @@
 
 -   [« DirectoryIterator::rewind](directoryiterator.rewind.html)
     
--   [DirectoryIterator::\_\_toString »](directoryiterator.tostring.html)
+-   [DirectoryIterator::toString »](directoryiterator.tostring.html)
     
 -   [PHP Manual](index.html)
     

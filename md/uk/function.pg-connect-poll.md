@@ -1,8 +1,8 @@
 Опитати статус спроби з'єднання PostgreSQL.
 
--   [« pg\_close](function.pg-close.html)
+-   [« pgclose](function.pg-close.html)
     
--   [pg\_connect »](function.pg-connect.html)
+-   [пгconnect »](function.pg-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@
 pg_connect_poll(PgSql\Connection $connection): int
 ```
 
-**пгconnectpoll()** опитує статус з'єднання PostgreSQL, створеного викликом функції [pg\_connect()](function.pg-connect.html) з параметром **`PGSQL_CONNECT_ASYNC`**
+**пгconnectpoll()** опитує статус з'єднання PostgreSQL, створеного викликом функції [пгconnect()](function.pg-connect.html) з параметром **`PGSQL_CONNECT_ASYNC`**
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ pg_connect_poll(PgSql\Connection $connection): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

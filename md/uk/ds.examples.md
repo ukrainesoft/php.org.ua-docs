@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Приклади
     

@@ -1,12 +1,12 @@
 Створити новий PDF-конвертер
 
--   [« wkhtmltox\\PDF\\Converter::add](wkhtmltox-pdf-converter.add.html)
+-   [« wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.html)
     
--   [wkhtmltox\\PDF\\Converter::convert »](wkhtmltox-pdf-converter.convert.html)
+-   [wkhtmltoxPDFConverter::convert »](wkhtmltox-pdf-converter.convert.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\PDF\\Converter](class.wkhtmltox-pdf-converter.html)
+-   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
     
 -   Створити новий PDF-конвертер
     

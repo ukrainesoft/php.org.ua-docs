@@ -1,12 +1,12 @@
 Встановити батьківський керуючий елемент
 
--   [« UI\\Control::isVisible](ui-control.isvisible.html)
+-   [« UIControl::isVisible](ui-control.isvisible.html)
     
--   [UI\\Control::show »](ui-control.show.html)
+-   [ОЙControl::show »](ui-control.show.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Встановити батьківський керуючий елемент
     

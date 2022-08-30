@@ -1,8 +1,8 @@
 Додає сервер
 
--   [« radius\_acct\_open](function.radius-acct-open.html)
+-   [« radiusacctopen](function.radius-acct-open.html)
     
--   [radius\_auth\_open »](function.radius-auth-open.html)
+-   [radiusauthopen »](function.radius-auth-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ radiusaddserver — Додає сервер
 radius_add_server(    resource $radius_handle,    string $hostname,    int $port,    string $secret,    int $timeout,    int $max_tries): bool
 ```
 
-**radiusaddserver()** може викликатися кілька разів і може використовуватися разом з [radius\_config()](function.radius-config.html). Можна вказати не більше 10 серверів. Коли задано кілька серверів, вони перевіряються циклічно, доки не буде отримано дійсну відповідь або доки не буде досягнуто межі `max_tries` для кожного сервера.
+**radiusaddserver()** може викликатися кілька разів і може використовуватися разом з [radiusconfig()](function.radius-config.html). Можна вказати не більше 10 серверів. Коли задано кілька серверів, вони перевіряються циклічно, доки не буде отримано дійсну відповідь або доки не буде досягнуто межі `max_tries` для кожного сервера.
 
 ### Список параметрів
 
@@ -68,4 +68,4 @@ if (!radius_add_server($res, 'radius.example.com', 1812, 'testing123', 3, 
 
 ### Дивіться також
 
--   [radius\_config()](function.radius-config.html) - Примушує бібліотеку читати цей файл конфігурації
+-   [radiusconfig()](function.radius-config.html) - Примушує бібліотеку читати цей файл конфігурації

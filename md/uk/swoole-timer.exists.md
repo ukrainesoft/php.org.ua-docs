@@ -1,12 +1,12 @@
 Перевіряє, чи існує таймер
 
--   [« Swoole\\Timer::clear](swoole-timer.clear.html)
+-   [« SwooleTimer::clear](swoole-timer.clear.html)
     
--   [Swoole\\Timer::tick »](swoole-timer.tick.html)
+-   [SwooleTimer::tick »](swoole-timer.tick.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Timer](class.swoole-timer.html)
+-   [SwooleTimer](class.swoole-timer.html)
     
 -   Перевіряє, чи існує таймер
     

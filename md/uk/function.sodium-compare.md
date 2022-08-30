@@ -1,8 +1,8 @@
 Порівняти великі числа
 
--   [« sodium\_bin2hex](function.sodium-bin2hex.html)
+-   [« sodiumbin2hex](function.sodium-bin2hex.html)
     
--   [sodium\_crypto\_aead\_aes256gcm\_decrypt »](function.sodium-crypto-aead-aes256gcm-decrypt.html)
+-   [sodiumcryptoaeadaes256gcmdecrypt »](function.sodium-crypto-aead-aes256gcm-decrypt.html)
     
 -   [PHP Manual](index.html)
     

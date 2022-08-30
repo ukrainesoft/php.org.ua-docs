@@ -1,12 +1,12 @@
 Прив'язує значення до заповнювача
 
--   [« mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html)
+-   [« mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
     
--   [CollectionRemove::\_\_construct »](mysql-xdevapi-collectionremove.construct.html)
+-   [CollectionRemove::construct »](mysql-xdevapi-collectionremove.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html)
+-   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
     
 -   Прив'язує значення до заповнювача
     

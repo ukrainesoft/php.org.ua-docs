@@ -45,7 +45,7 @@ locale_get_all_variants(string $locale): ?array
 
 Масив, що містить список варіантів заданої локалі, або **`null`**, якщо таких немає
 
-Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
@@ -79,6 +79,6 @@ array (
 
 ### Дивіться також
 
--   [locale\_get\_primary\_language()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
--   [locale\_get\_script()](locale.getscript.html) - Отримати алфавіт для локалі
--   [locale\_get\_region()](locale.getregion.html) - Отримати регіон для локалі
+-   [localegetprimarylanguage()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
+-   [localegetscript()](locale.getscript.html) - Отримати алфавіт для локалі
+-   [localegetregion()](locale.getregion.html) - Отримати регіон для локалі

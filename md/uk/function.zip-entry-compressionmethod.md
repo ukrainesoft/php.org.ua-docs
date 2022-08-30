@@ -1,8 +1,8 @@
 Повертає метод стиснення дескриптора директорії
 
--   [« zip\_entry\_compressedsize](function.zip-entry-compressedsize.html)
+-   [« zipentrycompressedsize](function.zip-entry-compressedsize.html)
     
--   [zip\_entry\_filesize »](function.zip-entry-filesize.html)
+-   [zipentryfilesize »](function.zip-entry-filesize.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ zip_entry_compressionmethod(resource $zip_entry): string|false
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zip\_read()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
 
 ### Значення, що повертаються
 
@@ -47,5 +47,5 @@ zip_entry_compressionmethod(resource $zip_entry): string|false
 
 ### Дивіться також
 
--   [zip\_open()](function.zip-open.html) - Відкриває ZIP-архів
--   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві

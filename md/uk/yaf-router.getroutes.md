@@ -1,12 +1,12 @@
 Отримує зареєстровані маршрути
 
--   [« Yaf\_Router::getRoute](yaf-router.getroute.html)
+-   [« YafRouter::getRoute](yaf-router.getroute.html)
     
--   [Yaf\_Router::route »](yaf-router.route.html)
+-   [YafRouter::route »](yaf-router.route.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Router](class.yaf-router.html)
+-   [YafRouter](class.yaf-router.html)
     
 -   Отримує зареєстровані маршрути
     

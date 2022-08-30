@@ -1,12 +1,12 @@
 Зупинити вимір
 
--   [« HRTime\\StopWatch::start](hrtime-stopwatch.start.html)
+-   [« HRTimeStopWatch::start](hrtime-stopwatch.start.html)
     
--   [HRTime\\Unit »](class.hrtime-unit.html)
+-   [HRTimeUnit »](class.hrtime-unit.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\StopWatch](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     
 -   Зупинити вимір
     

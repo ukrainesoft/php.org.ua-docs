@@ -1,8 +1,8 @@
 Свічкова модель "Перевернути дві ворони"
 
--   [« trader\_cdlunique3river](function.trader-cdlunique3river.html)
+-   [« tradercdlunique3river](function.trader-cdlunique3river.html)
     
--   [trader\_cdlxsidegap3methods »](function.trader-cdlxsidegap3methods.html)
+-   [tradercdlxsidegap3methods »](function.trader-cdlxsidegap3methods.html)
     
 -   [PHP Manual](index.html)
     

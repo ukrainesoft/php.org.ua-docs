@@ -1,12 +1,12 @@
 Відвідування
 
--   [« CommonMark\\Interfaces\\IVisitor::enter](commonmark-interfaces-ivisitor.enter.html)
+-   [« CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.html)
     
--   [CommonMark\\Interfaces\\IVisitable »](class.commonmark-interfaces-ivisitable.html)
+-   [CommonMarkInterfacesIVisitable »](class.commonmark-interfaces-ivisitable.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Interfaces\\IVisitor](class.commonmark-interfaces-ivisitor.html)
+-   [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
     
 -   Відвідування
     
@@ -27,7 +27,7 @@ abstract public CommonMark\Interfaces\IVisitor::leave(IVisitable $visitable): in
 
 `visitable`
 
-Поточний покиданий [CommonMark\\Interfaces\\IVisitable](class.commonmark-interfaces-ivisitable.html)
+Поточний покиданий [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
 
 ### Значення, що повертаються
 
@@ -43,4 +43,4 @@ abstract public CommonMark\Interfaces\IVisitor::leave(IVisitable $visitable): in
 
 ### Дивіться також
 
--   [CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
+-   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html)

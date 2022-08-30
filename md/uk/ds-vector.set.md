@@ -1,8 +1,8 @@
 Замінює значення за вказаним індексом
 
--   [« Ds\\Vector::rotate](ds-vector.rotate.html)
+-   [« DsVector::rotate](ds-vector.rotate.html)
     
--   [Ds\\Vector::shift »](ds-vector.shift.html)
+-   [ДсVector::shift »](ds-vector.shift.html)
     
 -   [PHP Manual](index.html)
     

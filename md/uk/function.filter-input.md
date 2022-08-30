@@ -1,12 +1,12 @@
 Приймає змінну ззовні PHP і, при необхідності, фільтрує її
 
--   [« filter\_input\_array](function.filter-input-array.html)
+-   [« filterinputarray](function.filter-input-array.html)
     
--   [filter\_list »](function.filter-list.html)
+-   [filterlist »](function.filter-list.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции фильтрации данных](ref.filter.html)
+-   [Функції фільтрації даних](ref.filter.html)
     
 -   Приймає змінну ззовні PHP і, при необхідності, фільтрує її
     
@@ -35,7 +35,7 @@ filter_input(    int $type,    string $var_name,    int $filter = FI
 
 `filter`
 
-Ідентифікатор (ID) фільтра. На сторінці [Типы фильтров](filter.filters.html) наведено список доступних фільтрів.
+Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.html) наведено список доступних фільтрів.
 
 Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.html). Це означає, що за замовчуванням не застосовується фільтр.
 
@@ -45,7 +45,7 @@ filter_input(    int $type,    string $var_name,    int $filter = FI
 
 ### Значення, що повертаються
 
-Значення запитуваної змінної у разі успішного виконання, **`false`**, якщо фільтрація завершилася невдачею, або **`null`**, якщо змінна `var_name` не визначена. Якщо встановлено прапор **`FILTER_NULL_ON_FAILURE`**, функція повертає **`false`**, якщо змінна не визначена та **`null`**якщо фільтрація завершилася невдачею.
+Значення запитуваної змінної у разі успішного виконання, **`false`**, якщо фільтрація завершилася невдачею, або **`null`**, якщо змінна `var_name` не визначена. Якщо встановлено прапор **`FILTER_NULL_ON_FAILURE`**, функція повертає **`false`**, якщо змінна не визначена та \*\*`null`\*\*якщо фільтрація завершилася невдачею.
 
 ### Приклади
 
@@ -69,7 +69,7 @@ echo "<a href='?search=$search_url'>Искать снова.</a>";
 
 ### Дивіться також
 
--   [filter\_var()](function.filter-var.html) - Фільтрує змінну за допомогою певного фільтра
--   [filter\_input\_array()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
--   [filter\_var\_array()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
--   [Типы фильтров](filter.filters.html)
+-   [filtervar()](function.filter-var.html) - Фільтрує змінну за допомогою певного фільтра
+-   [filterinputarray()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
+-   [filtervararray()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
+-   [Типи фільтрів](filter.filters.html)

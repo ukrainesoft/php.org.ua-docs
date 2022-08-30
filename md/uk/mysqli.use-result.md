@@ -1,8 +1,8 @@
 Готує результуючий набір на сервері для використання
 
--   [« mysqli::thread\_safe](mysqli.thread-safe.html)
+-   [« mysqli::threadsafe](mysqli.thread-safe.html)
     
--   [mysqli::$warning\_count »](mysqli.warning-count.html)
+-   [mysqli::$warningcount »](mysqli.warning-count.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,13 +33,13 @@ public mysqli::use_result(): mysqli_result|false
 mysqli_use_result(mysqli $mysql): mysqli_result|false
 ```
 
-Використовується для підготовки результуючого набору останнього запиту, запущеного функцією [mysqli\_real\_query()](mysqli.real-query.html)
+Використовується для підготовки результуючого набору останнього запиту, запущеного функцією [mysqlirealquery()](mysqli.real-query.html)
 
-Щоб результати запиту стали доступними, після запиту необхідно викликати або цю функцію, або [mysqli\_store\_result()](mysqli.store-result.html). Також виклик будь-якому з них запобігатиме відмову наступних запитів на цьому ж з'єднанні.
+Щоб результати запиту стали доступними, після запиту необхідно викликати або цю функцію, або [mysqlistoreresult()](mysqli.store-result.html). Також виклик будь-якому з них запобігатиме відмову наступних запитів на цьому ж з'єднанні.
 
 > **Зауваження**
 > 
-> **mysqliuseresult()** не передає весь результуючий набір на клієнта, а отже неможливо скористатися функцією [mysqli\_data\_seek()](mysqli-result.data-seek.html)для переміщення по ньому. Для цього потрібно скористатися функцією [mysqli\_store\_result()](mysqli.store-result.html). . **mysqliuseresult()** не слід використовувати, якщо на стороні клієнта дані результуючого набору довго обробляються, оскільки це затримує роботу сервера і не дає іншим процесам оновлювати таблиці, дані з яких є в результуючому наборі.
+> **mysqliuseresult()** не передає весь результуючий набір на клієнта, а отже неможливо скористатися функцією [mysqlidataseek()](mysqli-result.data-seek.html)для переміщення по ньому. Для цього потрібно скористатися функцією [mysqlistoreresult()](mysqli.store-result.html). . **mysqliuseresult()** не слід використовувати, якщо на стороні клієнта дані результуючого набору довго обробляються, оскільки це затримує роботу сервера і не дає іншим процесам оновлювати таблиці, дані з яких є в результуючому наборі.
 
 ### Список параметрів
 
@@ -141,5 +141,5 @@ Haarlemmermeer
 
 ### Дивіться також
 
--   [mysqli\_real\_query()](mysqli.real-query.html) - Виконання SQL запиту
--   [mysqli\_store\_result()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
+-   [mysqlirealquery()](mysqli.real-query.html) - Виконання SQL запиту
+-   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту

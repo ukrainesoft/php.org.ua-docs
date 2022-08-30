@@ -1,12 +1,12 @@
 Вставляє HTML код розриву рядка перед кожним перекладом рядка
 
--   [« nl\_langinfo](function.nl-langinfo.html)
+-   [« nllanginfo](function.nl-langinfo.html)
     
--   [number\_format »](function.number-format.html)
+-   [numberformat »](function.number-format.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Вставляє HTML код розриву рядка перед кожним перекладом рядка
     
@@ -94,4 +94,4 @@ string<br />
 -   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
 -   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
 -   [wordwrap()](function.wordwrap.html) - Переносить рядок за вказаною кількістю символів
--   [str\_replace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
+-   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни

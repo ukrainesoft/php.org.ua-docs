@@ -1,8 +1,8 @@
 Встановлює внутрішній покажчик результату на передане усунення поля
 
--   [« mysql\_field\_name](function.mysql-field-name.html)
+-   [« mysqlfieldname](function.mysql-field-name.html)
     
--   [mysql\_field\_table »](function.mysql-field-table.html)
+-   [mysqlfieldtable »](function.mysql-field-table.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlfieldseek - Встановлює внутрішній покажчик ре
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_field\_seek()](mysqli-result.field-seek.html)
+-   [mysqlifieldseek()](mysqli-result.field-seek.html)
 -   [PDOStatement::fetch()](pdostatement.fetch.html) з використанням параметрів `cursor_orientation` і `offset`
 
 ### Опис
@@ -30,13 +30,13 @@ mysqlfieldseek - Встановлює внутрішній покажчик ре
 mysql_field_seek(resource $result, int $field_offset): bool
 ```
 
-Переміщує покажчик до поля із зазначеним усуненням. Якщо наступний виклик функції [mysql\_fetch\_field()](function.mysql-fetch-field.html) не містить зміщення, то буде повернено зміщення, що міститься в **mysqlfieldseek()**
+Переміщує покажчик до поля із зазначеним усуненням. Якщо наступний виклик функції [mysqlfetchfield()](function.mysql-fetch-field.html) не містить зміщення, то буде повернено зміщення, що міститься в **mysqlfieldseek()**
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 
@@ -48,4 +48,4 @@ mysql_field_seek(resource $result, int $field_offset): bool
 
 ### Дивіться також
 
--   [mysql\_fetch\_field()](function.mysql-fetch-field.html) - Повертає інформацію про колонку з результату запиту як об'єкта
+-   [mysqlfetchfield()](function.mysql-fetch-field.html) - Повертає інформацію про колонку з результату запиту як об'єкта

@@ -1,8 +1,8 @@
 Анулює закешований скрипт
 
--   [« opcache\_get\_status](function.opcache-get-status.html)
+-   [« opcachegetstatus](function.opcache-get-status.html)
     
--   [opcache\_is\_script\_cached »](function.opcache-is-script-cached.html)
+-   [opcacheісscriptcached »](function.opcache-is-script-cached.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,5 +41,5 @@ opcache_invalidate(string $filename, bool $force = false): bool
 
 ### Дивіться також
 
--   [opcache\_compile\_file()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP
--   [opcache\_reset()](function.opcache-reset.html) - скидає вміст кешу опкодів
+-   [opcachecompilefile()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcachereset()](function.opcache-reset.html) - скидає вміст кешу опкодів

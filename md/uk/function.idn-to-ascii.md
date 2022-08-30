@@ -1,12 +1,12 @@
 Перетворити доменне ім'я на формат IDNA ASCII
 
--   [« Функции IDN](ref.intl.idn.html)
+-   [« Функції IDN](ref.intl.idn.html)
     
--   [idn\_to\_utf8 »](function.idn-to-utf8.html)
+-   [idnтоutf8 »](function.idn-to-utf8.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IDN](ref.intl.idn.html)
+-   [Функції IDN](ref.intl.idn.html)
     
 -   Перетворити доменне ім'я на формат IDNA ASCII
     
@@ -76,4 +76,4 @@ xn--tst-qla.de
 
 ### Дивіться також
 
--   [idn\_to\_utf8()](function.idn-to-utf8.html) - Перетворення доменного імені з IDNA ASCII в Unicode
+-   [idnтоutf8()](function.idn-to-utf8.html) - Перетворення доменного імені з IDNA ASCII в Unicode

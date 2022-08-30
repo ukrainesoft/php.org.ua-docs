@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+-   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     
 -   Отримує рядок із результату
     
@@ -35,7 +35,7 @@ public mysql_xdevapi\RowResult::fetchOne(): array
 
 ### Значення, що повертаються
 
-Результат у вигляді асоціативного масиву або **`null`**якщо немає результатів.
+Результат у вигляді асоціативного масиву або \*\*`null`\*\*якщо немає результатів.
 
 ### Приклади
 

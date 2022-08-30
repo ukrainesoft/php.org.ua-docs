@@ -1,8 +1,8 @@
 Асинхронний запис даних у файл
 
--   [« swoole\_async\_write](function.swoole-async-write.html)
+-   [« swooleasyncwrite](function.swoole-async-write.html)
     
--   [swoole\_clear\_error »](function.swoole-clear-error.html)
+-   [swooleclearerror »](function.swoole-clear-error.html)
     
 -   [PHP Manual](index.html)
     

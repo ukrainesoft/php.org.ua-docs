@@ -38,4 +38,4 @@ jdtojulian(int $julian_day): string
 ### Дивіться також
 
 -   [juliantojd()](function.juliantojd.html) - Переказує дату за юліанським календарем у число днів у юліанському літочисленні
--   [cal\_from\_jd()](function.cal-from-jd.html) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [calfromjd()](function.cal-from-jd.html) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

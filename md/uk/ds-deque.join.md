@@ -1,12 +1,12 @@
 Склеює всі значення в рядок
 
--   [« Ds\\Deque::isEmpty](ds-deque.isempty.html)
+-   [« DsDeque::isEmpty](ds-deque.isempty.html)
     
--   [Ds\\Deque::jsonSerialize »](ds-deque.jsonserialize.html)
+-   [ДсDeque::jsonSerialize »](ds-deque.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Склеює всі значення в рядок
     

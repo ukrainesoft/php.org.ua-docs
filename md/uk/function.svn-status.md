@@ -1,12 +1,12 @@
 Повертає SVN-статус файлів та директорій робочої копії
 
--   [« svn\_revert](function.svn-revert.html)
+-   [« svnrevert](function.svn-revert.html)
     
--   [svn\_update »](function.svn-update.html)
+-   [svnupdate »](function.svn-update.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає SVN-статус файлів та директорій робочої копії
     
@@ -51,19 +51,19 @@ path
 
 textstatus
 
-Код текстового статусу елемент. Дивіться Для інформації про можливі значення, зверніться до [константам статусов](svn.constants.html#svn.constants.status)
+Код текстового статусу елемент. Дивіться Для інформації про можливі значення, зверніться до [константам статусів](svn.constants.html#svn.constants.status)
 
 repostextstatus
 
-Код текстового статусу елемента у репозиторії. Відображається якщо `update` встановлений в **`true`**. Дивіться Для інформації про можливі значення, зверніться до [константам статусов](svn.constants.html#svn.constants.status)
+Код текстового статусу елемента у репозиторії. Відображається якщо `update` встановлений в **`true`**. Дивіться Для інформації про можливі значення, зверніться до [константам статусів](svn.constants.html#svn.constants.status)
 
 propstatus
 
-Код текстового статусу властивостей елемента. Дивіться Для інформації про можливі значення, зверніться до [константам статусов](svn.constants.html#svn.constants.status)
+Код текстового статусу властивостей елемента. Дивіться Для інформації про можливі значення, зверніться до [константам статусів](svn.constants.html#svn.constants.status)
 
 repospropstatus
 
-Код текстового статусу властивостей елемента у репозиторії. Відображається якщо `update` встановлений в **`true`**. Дивіться Для інформації про можливі значення, зверніться до [константам статусов](svn.constants.html#svn.constants.status)
+Код текстового статусу властивостей елемента у репозиторії. Відображається якщо `update` встановлений в **`true`**. Дивіться Для інформації про можливі значення, зверніться до [константам статусів](svn.constants.html#svn.constants.status)
 
 locked
 
@@ -191,6 +191,6 @@ Array (
 
 ### Дивіться також
 
--   [svn\_update()](function.svn-update.html) - Оновлює робочу копію
--   [svn\_log()](function.svn-log.html) - Повертає коментарі до правок у репозиторії
+-   [svnupdate()](function.svn-update.html) - Оновлює робочу копію
+-   [svnlog()](function.svn-log.html) - Повертає коментарі до правок у репозиторії
 -   [» SVN-документация по svn status](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.html)

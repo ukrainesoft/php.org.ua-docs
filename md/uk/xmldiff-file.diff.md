@@ -1,12 +1,12 @@
 Порівняння двох файлів XML
 
--   [« XMLDiff\\File](class.xmldiff-file.html)
+-   [« XMLDiffFile](class.xmldiff-file.html)
     
--   [XMLDiff\\File::merge »](xmldiff-file.merge.html)
+-   [XMLDiffFile::merge »](xmldiff-file.merge.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\File](class.xmldiff-file.html)
+-   [XMLDiffFile](class.xmldiff-file.html)
     
 -   Порівняння двох файлів XML
     

@@ -1,12 +1,12 @@
 Повертає об'єкт серіалізації BSON
 
--   [« MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+-   [« MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
--   [MongoDB\\Driver\\ReadPreference::\_\_construct »](mongodb-driver-readpreference.construct.html)
+-   [MongoDBDriverReadPreference::construct »](mongodb-driver-readpreference.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
 -   Повертає об'єкт серіалізації BSON
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -142,5 +142,5 @@ object(stdClass)#2 (2) {
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
 -   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)

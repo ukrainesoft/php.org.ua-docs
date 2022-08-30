@@ -1,8 +1,8 @@
 Отримує дані результату
 
--   [« odbc\_result\_all](function.odbc-result-all.html)
+-   [« odbcresultall](function.odbc-result-all.html)
     
--   [odbc\_rollback »](function.odbc-rollback.html)
+-   [odbcrollback »](function.odbc-rollback.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,4 +54,4 @@ $item_val = odbc_result($Query_ID, "val");
 
 ### Примітки
 
-Індекси полів починаються з 1. Для отримання інформації про спосіб повернення двійкових даних або даних стовпців LONG необхідно звернутися до [odbc\_binmode()](function.odbc-binmode.html) і [odbc\_longreadlen()](function.odbc-longreadlen.html)
+Індекси полів починаються з 1. Для отримання інформації про спосіб повернення двійкових даних або даних стовпців LONG необхідно звернутися до [odbcbinmode()](function.odbc-binmode.html) і [odbclongreadlen()](function.odbc-longreadlen.html)

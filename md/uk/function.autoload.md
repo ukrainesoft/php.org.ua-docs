@@ -1,12 +1,12 @@
 Спроба завантажити невизначений клас
 
--   [« Функции работы с классами и объектами](ref.classobj.html)
+-   [« Функції роботи з класами та об'єктами](ref.classobj.html)
     
--   [class\_alias »](function.class-alias.html)
+-   [classalias »](function.class-alias.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Спроба завантажити невизначений клас
     
@@ -41,4 +41,4 @@ __autoload(string $class): void
 
 ### Дивіться також
 
--   [spl\_autoload\_register()](function.spl-autoload-register.html) - Реєструє задану функцію як реалізацію методу autoload()
+-   [splautoloadregister()](function.spl-autoload-register.html) - Реєструє задану функцію як реалізацію методу autoload()

@@ -1,8 +1,8 @@
 (Переважно) Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305
 
--   [« sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html)
+-   [« sodiumcryptoaeadxchacha20poly1305ietfdecrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html)
     
--   [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_keygen »](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.html)
+-   [sodiumcryptoaeadxchacha20poly1305ietfkeygen »](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,   
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key`
 

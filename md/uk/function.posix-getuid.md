@@ -1,8 +1,8 @@
 Повертає фактичний ідентифікатор користувача поточного процесу UID
 
--   [« posix\_getsid](function.posix-getsid.html)
+-   [« posixgetsid](function.posix-getsid.html)
     
--   [posix\_initgroups »](function.posix-initgroups.html)
+-   [posixinitgroups »](function.posix-initgroups.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@ echo posix_getuid(); //10000
 
 ### Дивіться також
 
--   [posix\_getpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
+-   [posixgetpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
 -   POSIX керівництво GETUID(2)

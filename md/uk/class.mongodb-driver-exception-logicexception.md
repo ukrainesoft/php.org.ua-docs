@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionLogicException
 
--   [« MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   [« MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
     
--   [MongoDB\\Driver\\Exception\\RuntimeException »](class.mongodb-driver-exception-runtimeexception.html)
+-   [MongoDBDriverExceptionRuntimeException »](class.mongodb-driver-exception-runtimeexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionLogicException
     

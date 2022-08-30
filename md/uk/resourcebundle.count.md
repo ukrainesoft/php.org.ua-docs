@@ -73,4 +73,4 @@ echo $r->count();
 
 ### Дивіться також
 
--   [resourcebundle\_get()](resourcebundle.get.html) - Отримати дані з пакета
+-   [resourcebundleget()](resourcebundle.get.html) - Отримати дані з пакета

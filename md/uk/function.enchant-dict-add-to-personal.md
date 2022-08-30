@@ -1,8 +1,8 @@
 Додати слово до списку персональних слів
 
--   [« enchant\_broker\_set\_ordering](function.enchant-broker-set-ordering.html)
+-   [« enchantbrokersetordering](function.enchant-broker-set-ordering.html)
     
--   [enchant\_dict\_add\_to\_session »](function.enchant-dict-add-to-session.html)
+-   [enchantdictaddтоsession »](function.enchant-dict-add-to-session.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,4 +23,4 @@ enchantdictaddтоpersonal — Додати слово до списку пер�
 
 ### Опис
 
-Ця функція є псевдонімом: [enchant\_dict\_add()](function.enchant-dict-add.html)
+Ця функція є псевдонімом: [enchantdictadd()](function.enchant-dict-add.html)

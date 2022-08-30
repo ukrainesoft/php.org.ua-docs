@@ -67,5 +67,5 @@ Array
 
 ### Дивіться також
 
--   [ini\_get\_all()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
+-   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
 -   [ReflectionExtension::getConstants()](reflectionextension.getconstants.html) - Отримання констант

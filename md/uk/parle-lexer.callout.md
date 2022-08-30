@@ -1,12 +1,12 @@
 Визначає callback-функцію токена
 
--   [« Parle\\Lexer::build](parle-lexer.build.html)
+-   [« ParleLexer::build](parle-lexer.build.html)
     
--   [Parle\\Lexer::consume »](parle-lexer.consume.html)
+-   [ParleLexer::consume »](parle-lexer.consume.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Lexer](class.parle-lexer.html)
+-   [ParleLexer](class.parle-lexer.html)
     
 -   Визначає callback-функцію токена
     

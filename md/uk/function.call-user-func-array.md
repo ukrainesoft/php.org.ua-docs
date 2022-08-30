@@ -2,7 +2,7 @@
 
 -   [« Функции управления функциями](ref.funchand.html)
     
--   [call\_user\_func »](function.call-user-func.html)
+-   [calluserfunc »](function.call-user-func.html)
     
 -   [PHP Manual](index.html)
     
@@ -151,10 +151,10 @@ global $bar=55
 
 > **Зауваження**
 > 
-> Callback-функції, зареєстровані такими функціями як [call\_user\_func()](function.call-user-func.html) і **calluserfuncarray()**, не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
+> Callback-функції, зареєстровані такими функціями як [calluserfunc()](function.call-user-func.html) і **calluserfuncarray()**, не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
 
 ### Дивіться також
 
--   [call\_user\_func()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
+-   [calluserfunc()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
 -   [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.html) - Виклик функції із передачею аргументів
 -   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) - виклик методу з передачею аргументів масивом

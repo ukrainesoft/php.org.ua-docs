@@ -1,12 +1,12 @@
 Читає та витягує дані з каналу Swoole
 
--   [« Swoole\\Channel::\_\_destruct](swoole-channel.destruct.html)
+-   [« SwooleChannel::destruct](swoole-channel.destruct.html)
     
--   [Swoole\\Channel::push »](swoole-channel.push.html)
+-   [SwooleChannel::push »](swoole-channel.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Channel](class.swoole-channel.html)
+-   [SwooleChannel](class.swoole-channel.html)
     
 -   Читає та витягує дані з каналу Swoole
     

@@ -23,7 +23,7 @@ final public **PhpToken::construct**
 int `$id`  
 string `$text`  
 int `$line`  
-int `$pos`  
+int `$pos`
 
 Повертає новий об'єкт PhpToken.
 

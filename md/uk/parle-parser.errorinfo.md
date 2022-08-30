@@ -1,12 +1,12 @@
 Отримує інформацію про помилку
 
--   [« Parle\\Parser::dump](parle-parser.dump.html)
+-   [« ParleParser::dump](parle-parser.dump.html)
     
--   [Parle\\Parser::left »](parle-parser.left.html)
+-   [ParleParser::left »](parle-parser.left.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Отримує інформацію про помилку
     
@@ -31,4 +31,4 @@ public Parle\Parser::errorInfo(): Parle\ErrorInfo
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Parle\\ErrorInfo](class.parle-errorinfo.html)
+Повертає екземпляр [ParleErrorInfo](class.parle-errorinfo.html)

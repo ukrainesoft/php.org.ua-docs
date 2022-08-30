@@ -1,12 +1,12 @@
 Встановлює метод HTTP-запиту
 
--   [« Swoole\\Http\\Client::setHeaders](swoole-http-client.setheaders.html)
+-   [« SwooleHttpClient::setHeaders](swoole-http-client.setheaders.html)
     
--   [Swoole\\Http\\Client::upgrade »](swoole-http-client.upgrade.html)
+-   [SwooleHttpClient::upgrade »](swoole-http-client.upgrade.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Встановлює метод HTTP-запиту
     

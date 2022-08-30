@@ -1,8 +1,8 @@
 Закриває ресурс
 
--   [« streamWrapper::stream\_cast](streamwrapper.stream-cast.html)
+-   [« streamWrapper::streamcast](streamwrapper.stream-cast.html)
     
--   [streamWrapper::stream\_eof »](streamwrapper.stream-eof.html)
+-   [streamWrapper::streameof »](streamwrapper.stream-eof.html)
     
 -   [PHP Manual](index.html)
     
@@ -38,4 +38,4 @@ public streamWrapper::stream_close(): void
 ### Дивіться також
 
 -   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
--   [streamWrapper::dir\_closedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
+-   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії

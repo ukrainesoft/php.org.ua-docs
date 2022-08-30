@@ -1,8 +1,8 @@
 Встановлює мінімальні епохи вихідних даних
 
--   [« fann\_set\_cascade\_min\_cand\_epochs](function.fann-set-cascade-min-cand-epochs.html)
+-   [« fannsetcascademincandepochs](function.fann-set-cascade-min-cand-epochs.html)
     
--   [fann\_set\_cascade\_num\_candidate\_groups »](function.fann-set-cascade-num-candidate-groups.html)
+-   [fannsetcascadenumcandidategroups »](function.fann-set-cascade-num-candidate-groups.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,4 +47,4 @@ fann_set_cascade_min_out_epochs(resource $ann, int $cascade_min_out_epochs): boo
 
 ### Дивіться також
 
--   [fann\_get\_cascade\_min\_out\_epochs()](function.fann-get-cascade-min-out-epochs.html) - Повертає мінімальну кількість періодів
+-   [fanngetcascademinoutepochs()](function.fann-get-cascade-min-out-epochs.html) - Повертає мінімальну кількість періодів

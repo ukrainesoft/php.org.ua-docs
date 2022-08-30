@@ -1,12 +1,12 @@
 Повертає ReadPreference для Manager
 
--   [« MongoDB\\Driver\\Manager::getReadConcern](mongodb-driver-manager.getreadconcern.html)
+-   [« MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.html)
     
--   [MongoDB\\Driver\\Manager::getServers »](mongodb-driver-manager.getservers.html)
+-   [MongoDBDriverManager::getServers »](mongodb-driver-manager.getservers.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+-   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
 -   Повертає ReadPreference для Manager
     
@@ -23,7 +23,7 @@ MongoDBDriverManager::getReadPreference — Повертає ReadPreference дл
 final public MongoDB\Driver\Manager::getReadPreference(): MongoDB\Driver\ReadPreference
 ```
 
-Повертає [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html) для Manager, отриманий із його URI-опцій. Це перевага для читання за промовчанням для запитів і команд, що виконуються в Manager.
+Повертає [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) для Manager, отриманий із його URI-опцій. Це перевага для читання за промовчанням для запитів і команд, що виконуються в Manager.
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ final public MongoDB\Driver\Manager::getReadPreference(): MongoDB\Driver\ReadPre
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html) для Manager.
+Повертає [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) для Manager.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -86,5 +86,5 @@ object(MongoDB\Driver\ReadPreference)#1 (2) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
--   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
+-   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB

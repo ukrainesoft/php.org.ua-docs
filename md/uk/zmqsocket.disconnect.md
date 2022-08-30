@@ -1,6 +1,6 @@
 Вимкнути сокет
 
--   [« ZMQSocket::\_\_construct](zmqsocket.construct.html)
+-   [« ZMQSocket::construct](zmqsocket.construct.html)
     
 -   [ZMQSocket::getEndpoints »](zmqsocket.getendpoints.html)
     

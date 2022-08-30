@@ -1,12 +1,12 @@
 Вказує, чи є у вказаного оператора рядки
 
--   [« sqlsrv\_get\_field](function.sqlsrv-get-field.html)
+-   [« sqlsrvgetfield](function.sqlsrv-get-field.html)
     
--   [sqlsrv\_next\_result »](function.sqlsrv-next-result.html)
+-   [sqlsrvnextresult »](function.sqlsrv-next-result.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Вказує, чи є у вказаного оператора рядки
     
@@ -29,7 +29,7 @@ sqlsrv_has_rows(resource $stmt): bool
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrv\_query()](function.sqlsrv-query.html) або [sqlsrv\_execute()](function.sqlsrv-execute.html)
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
 
 ### Значення, що повертаються
 
@@ -59,5 +59,5 @@ if ($stmt) {
 
 ### Дивіться також
 
--   [sqlsrv\_num\_rows()](function.sqlsrv-num-rows.html) - Отримує кількість рядків у наборі результатів
--   [sqlsrv\_query()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvnumrows()](function.sqlsrv-num-rows.html) - Отримує кількість рядків у наборі результатів
+-   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит

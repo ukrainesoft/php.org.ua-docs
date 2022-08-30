@@ -1,12 +1,12 @@
 Отримати максимальну довжину вказаного стовпця
 
--   [« cubrid\_field\_flags](function.cubrid-field-flags.html)
+-   [« cubridfieldflags](function.cubrid-field-flags.html)
     
--   [cubrid\_field\_name »](function.cubrid-field-name.html)
+-   [cubridfieldname »](function.cubrid-field-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати максимальну довжину вказаного стовпця
     
@@ -29,7 +29,7 @@ cubrid_field_len(resource $result, int $field_offset): int
 
 `result`
 
-`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 

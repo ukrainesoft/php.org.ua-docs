@@ -1,12 +1,12 @@
 Вставити текст
 
--   [« Vtiful\\Kernel\\Excel::insertImage](vtiful-kernel-excel.insertImage.html)
+-   [« VtifulKernelExcel::insertImage](vtiful-kernel-excel.insertImage.html)
     
--   [Vtiful\\Kernel\\Excel::mergeCells »](vtiful-kernel-excel.mergeCells.html)
+-   [VtifulKernelExcel::mergeCells »](vtiful-kernel-excel.mergeCells.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Вставити текст
     
@@ -45,7 +45,7 @@ public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,  
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

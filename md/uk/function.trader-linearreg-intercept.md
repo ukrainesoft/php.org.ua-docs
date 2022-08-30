@@ -1,8 +1,8 @@
 Перехоплення лінійної регресії
 
--   [« trader\_linearreg\_angle](function.trader-linearreg-angle.html)
+-   [« traderlinearregangle](function.trader-linearreg-angle.html)
     
--   [trader\_linearreg\_slope »](function.trader-linearreg-slope.html)
+-   [traderlinearregslope »](function.trader-linearreg-slope.html)
     
 -   [PHP Manual](index.html)
     

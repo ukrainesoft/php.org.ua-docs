@@ -2,7 +2,7 @@
 
 -   [« SQLite3::changes](sqlite3.changes.html)
     
--   [SQLite3::\_\_construct »](sqlite3.construct.html)
+-   [SQLite3::construct »](sqlite3.construct.html)
     
 -   [PHP Manual](index.html)
     

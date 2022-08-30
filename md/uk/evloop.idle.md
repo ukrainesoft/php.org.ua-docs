@@ -40,7 +40,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvIdle::\_\_construct()](evidle.construct.html)
+Усі параметри, що й для [EvIdle::construct()](evidle.construct.html)
 
 ### Значення, що повертаються
 
@@ -48,4 +48,4 @@ final
 
 ### Дивіться також
 
--   [EvIdle::\_\_construct()](evidle.construct.html) - Конструктор спостерігача EvIdle
+-   [EvIdle::construct()](evidle.construct.html) - Конструктор спостерігача EvIdle

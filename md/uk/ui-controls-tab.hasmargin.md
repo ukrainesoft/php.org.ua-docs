@@ -1,12 +1,12 @@
 Визначення поля
 
--   [« UI\\Controls\\Tab::delete](ui-controls-tab.delete.html)
+-   [« UIControlsTab::delete](ui-controls-tab.delete.html)
     
--   [UI\\Controls\\Tab::insertAt »](ui-controls-tab.insertat.html)
+-   [ОЙControlsTab::insertAt »](ui-controls-tab.insertat.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Tab](class.ui-controls-tab.html)
+-   [ОЙControlsTab](class.ui-controls-tab.html)
     
 -   Визначення поля
     

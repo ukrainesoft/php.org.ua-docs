@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Отличительные особенности](features.html)
+-   [Відмітні особливості](features.html)
     
 -   Сесії
     

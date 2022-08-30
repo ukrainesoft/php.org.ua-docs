@@ -1,8 +1,8 @@
 Повертає підмножину колекції із заданого діапазону
 
--   [« Ds\\Map::skip](ds-map.skip.html)
+-   [« DsMap::skip](ds-map.skip.html)
     
--   [Ds\\Map::sort »](ds-map.sort.html)
+-   [ДсMap::sort »](ds-map.sort.html)
     
 -   [PHP Manual](index.html)
     

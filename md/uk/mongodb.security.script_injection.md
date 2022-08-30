@@ -2,18 +2,18 @@
 
 -   [« Атака с помощью инъекций в запросе](mongodb.security.request_injection.html)
     
--   [MongoDB\\Driver »](book.mongodb.html)
+-   [MongoDBDriver »](book.mongodb.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](mongodb.security.html)
+-   [Безпека](mongodb.security.html)
     
 -   Атака за допомогою ін'єкцій у скриптах
     
 
 # Атака за допомогою ін'єкцій у скриптах
 
-Якщо ви використовуєте JavaScript, переконайтеся, що всі змінні, які перетинають кордон PHP-JavaScript, передаються в поле `scope` [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html), а не інтерполюються у рядок JavaScript. Це може виникнути під час використання пропозицій `$where` у запитах, командах mapReduce та group, а також у будь-який інший час, коли ви можете передати JavaScript до бази даних.
+Якщо ви використовуєте JavaScript, переконайтеся, що всі змінні, які перетинають кордон PHP-JavaScript, передаються в поле `scope` [MongoDBBSONJavascript](class.mongodb-bson-javascript.html), а не інтерполюються у рядок JavaScript. Це може виникнути під час використання пропозицій `$where` у запитах, командах mapReduce та group, а також у будь-який інший час, коли ви можете передати JavaScript до бази даних.
 
 Наприклад, припустимо, що ми маємо деякий JavaScript, щоб вітати користувача в журналах бази даних. Ми могли б зробити:
 

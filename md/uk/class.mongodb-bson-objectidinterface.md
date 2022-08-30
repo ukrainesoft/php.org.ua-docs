@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONObjectIdInterface
 
--   [« MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.html)
+-   [« MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html)
     
--   [MongoDB\\BSON\\ObjectIdInterface::getTimestamp »](mongodb-bson-objectidinterface.gettimestamp.html)
+-   [MongoDBBSONObjectIdInterface::getTimestamp »](mongodb-bson-objectidinterface.gettimestamp.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONObjectIdInterface
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей інтерфейс реалізований за допомогою [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html), але також може бути використаний як параметр, що повертається значення або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізований за допомогою [MongoDBBSONObjectId](class.mongodb-bson-objectid.html), але також може бути використаний як параметр, що повертається значення або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -44,5 +44,5 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDB\\BSON\\ObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html) — Повертає компонент позначки часу ObjectIdInterface
--   [MongoDB\\BSON\\ObjectIdInterface::\_\_toString](mongodb-bson-objectidinterface.tostring.html) — Повертає шістнадцяткову виставу ObjectIdInterface
+-   [MongoDBBSONObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html) — Повертає компонент позначки часу ObjectIdInterface
+-   [MongoDBBSONObjectIdInterface::toString](mongodb-bson-objectidinterface.tostring.html) — Повертає шістнадцяткову виставу ObjectIdInterface

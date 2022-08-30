@@ -1,12 +1,12 @@
 Прокрутити область
 
--   [« UI\\Area::redraw](ui-area.redraw.html)
+-   [« UIArea::redraw](ui-area.redraw.html)
     
--   [UI\\Area::setSize »](ui-area.setsize.html)
+-   [ОЙArea::setSize »](ui-area.setsize.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Area](class.ui-area.html)
+-   [ОЙArea](class.ui-area.html)
     
 -   Прокрутити область
     

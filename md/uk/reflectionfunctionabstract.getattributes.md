@@ -1,6 +1,6 @@
 Отримує атрибути
 
--   [« ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.html)
+-   [« ReflectionFunctionAbstract::clone](reflectionfunctionabstract.clone.html)
     
 -   [ReflectionFunctionAbstract::getClosureScopeClass »](reflectionfunctionabstract.getclosurescopeclass.html)
     

@@ -1,12 +1,12 @@
 Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
 
--   [« ftp\_nb\_fget](function.ftp-nb-fget.html)
+-   [« ftpнбfget](function.ftp-nb-fget.html)
     
--   [ftp\_nb\_get »](function.ftp-nb-get.html)
+-   [ftpнбget »](function.ftp-nb-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
     
@@ -25,13 +25,13 @@ ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    
 
 **ftpнбfput()** закачує дані з дескриптора файлу до віддаленого файлу на FTP-сервері.
 
-Різниця між цією функцією та [ftp\_fput()](function.ftp-fput.html) полягає в тому, що ця функція завантажує файл асинхронно, тому ваша програма може здійснювати інші операції, поки файл закачується.
+Різниця між цією функцією та [ftpfput()](function.ftp-fput.html) полягає в тому, що ця функція завантажує файл асинхронно, тому ваша програма може здійснювати інші операції, поки файл закачується.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `remote_filename`
 
@@ -55,10 +55,10 @@ ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
 
 ### Приклади
 
@@ -96,7 +96,7 @@ fclose($fp);
 
 ### Дивіться також
 
--   [ftp\_nb\_put()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі
--   [ftp\_nb\_continue()](function.ftp-nb-continue.html) - Продовжує асинхронну операцію
--   [ftp\_put()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftp\_fput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftpнбput()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftpнбcontinue()](function.ftp-nb-continue.html) - Продовжує асинхронну операцію
+-   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
+-   [ftpfput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер

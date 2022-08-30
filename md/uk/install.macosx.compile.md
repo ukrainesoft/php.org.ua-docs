@@ -1,6 +1,6 @@
 Компілювання PHP на macOS
 
--   [« Использование встроенного PHP до macOS Monterey](install.macosx.bundled.html)
+-   [« Використання вбудованого PHP до macOS Monterey](install.macosx.bundled.html)
     
 -   [Установка в системах Windows »](install.windows.html)
     

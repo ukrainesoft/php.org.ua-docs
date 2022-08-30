@@ -1,8 +1,8 @@
 Клас LDAPResult
 
--   [« LDAP\\Connection](class.ldap-connection.html)
+-   [« LDAPConnection](class.ldap-connection.html)
     
--   [LDAP\\ResultEntry »](class.ldap-result-entry.html)
+-   [LDAPResultEntry »](class.ldap-result-entry.html)
     
 -   [PHP Manual](index.html)
     

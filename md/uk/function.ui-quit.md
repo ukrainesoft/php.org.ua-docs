@@ -1,8 +1,8 @@
 Вийти із циклу UI
 
--   [« UI\\Draw\\Text\\Font\\fontFamilies](function.ui-draw-text-font-fontfamilies.html)
+-   [« UIDrawTextFontfontFamilies](function.ui-draw-text-font-fontfamilies.html)
     
--   [UI\\run »](function.ui-run.html)
+-   [ОЙrun »](function.ui-run.html)
     
 -   [PHP Manual](index.html)
     

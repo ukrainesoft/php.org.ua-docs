@@ -1,6 +1,6 @@
 Підраховує кількість живих записів у колекції (map)
 
--   [« WeakMap::\_\_construct](ext-weakmap.construct.html)
+-   [« WeakMap::construct](ext-weakmap.construct.html)
     
 -   [WeakMap::getIterator »](weakmap.getiterator.html)
     

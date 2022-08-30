@@ -33,7 +33,7 @@ public ReflectionClass::hasConstant(string $name): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо константа визначена, інакше **`false`**
+\*\*`true`\*\*якщо константа визначена, інакше **`false`**
 
 ### Приклади
 

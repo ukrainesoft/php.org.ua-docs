@@ -23,7 +23,7 @@ SolrQuery::setHighlightRequireFieldMatch — Вимагати зіставлен
 public SolrQuery::setHighlightRequireFieldMatch(bool $flag): SolrQuery
 ```
 
-Якщо **`true`**тоді поле буде виділено тільки в тому випадку, якщо запит відповідає цьому конкретному полю.
+Якщо \*\*`true`\*\*тоді поле буде виділено тільки в тому випадку, якщо запит відповідає цьому конкретному полю.
 
 Буде працювати тільки якщо для SolrQuery::setHighlightUsePhraseHighlighter() встановлено значення **`true`**
 

@@ -1,12 +1,12 @@
 Перехід до заданого рядка в результуючому наборі
 
--   [« mysqli\_stmt::\_\_construct](mysqli-stmt.construct.html)
+-   [« mysqlistmt::construct](mysqli-stmt.construct.html)
     
--   [mysqli\_stmt::$errno »](mysqli-stmt.errno.html)
+-   [mysqlistmt::$errno »](mysqli-stmt.errno.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Перехід до заданого рядка в результуючому наборі
     
@@ -35,17 +35,17 @@ mysqli_stmt_data_seek(mysqli_stmt $statement, int $offset): void
 
 Переміщує покажчик на заданий рядок у результуючому наборі.
 
-[mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) must be called prior to **mysqlistmtdataseek()**
+[mysqlistmtstoreresult()](mysqli-stmt.store-result.html) must be called prior to **mysqlistmtdataseek()**
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 `offset`
 
-Значення повинне бути в діапазоні від 0 до числа рядків мінус один (0. . [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html)
+Значення повинне бути в діапазоні від 0 до числа рядків мінус один (0. . [mysqlistmtnumrows()](mysqli-stmt.num-rows.html)
 
 ### Значення, що повертаються
 
@@ -145,4 +145,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання

@@ -1,12 +1,12 @@
 Gettext
 
--   [« Gender\\Gender::similarNames](gender-gender.similarnames.html)
+-   [« GenderGender::similarNames](gender-gender.similarnames.html)
     
 -   [Введение »](intro.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [Поддержка языков и кодировок](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.html)
     
 -   Gettext
     
@@ -21,7 +21,7 @@ Gettext
     -   [Типы ресурсов](gettext.resources.html)
 -   [Предопределённые константы](gettext.constants.html)
 -   [Функции gettext](ref.gettext.html)
-    -   [bind\_textdomain\_codeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
+    -   [bindtextdomaincodeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
     -   [bindtextdomain](function.bindtextdomain.html) — Встановлює або отримує шлях для домену
     -   [dcgettext](function.dcgettext.html) — Перевизначає одне повідомлення в домені
     -   [dcngettext](function.dcngettext.html) — Версія dcgettext для множини

@@ -1,8 +1,8 @@
 Запускає завдання відновлення у диспетчері служб та негайно повертається
 
--   [« ibase\_query](function.ibase-query.html)
+-   [« ibasequery](function.ibase-query.html)
     
--   [ibase\_rollback\_ret »](function.ibase-rollback-ret.html)
+-   [ibaserollbackret »](function.ibase-rollback-ret.html)
     
 -   [PHP Manual](index.html)
     
@@ -93,4 +93,4 @@ ibase_service_detach ($service);
 
 ### Дивіться також
 
--   [ibase\_backup()](function.ibase-backup.html) - Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
+-   [ibasebackup()](function.ibase-backup.html) - Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає

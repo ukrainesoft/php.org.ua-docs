@@ -2,7 +2,7 @@
 
 -   [« DateTimeInterface::getTimestamp](datetime.gettimestamp.html)
     
--   [DateTime::\_\_wakeup »](datetime.wakeup.html)
+-   [DateTime::wakeup »](datetime.wakeup.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,7 +51,7 @@ date_timezone_get(DateTimeInterface $object): DateTimeZone|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html)
 
 ### Значення, що повертаються
 

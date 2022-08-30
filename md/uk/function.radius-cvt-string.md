@@ -1,8 +1,8 @@
 Перетворює необроблені дані на рядок
 
--   [« radius\_cvt\_int](function.radius-cvt-int.html)
+-   [« radiuscvtint](function.radius-cvt-int.html)
     
--   [radius\_demangle\_mppe\_key »](function.radius-demangle-mppe-key.html)
+-   [radiusdemanglemppekey »](function.radius-demangle-mppe-key.html)
     
 -   [PHP Manual](index.html)
     
@@ -64,5 +64,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radius\_cvt\_addr()](function.radius-cvt-addr.html) - Перетворює необроблені дані на IP-адресу
--   [radius\_cvt\_int()](function.radius-cvt-int.html) - Перетворює необроблені дані на ціле число
+-   [radiuscvtaddr()](function.radius-cvt-addr.html) - Перетворює необроблені дані на IP-адресу
+-   [radiuscvtint()](function.radius-cvt-int.html) - Перетворює необроблені дані на ціле число

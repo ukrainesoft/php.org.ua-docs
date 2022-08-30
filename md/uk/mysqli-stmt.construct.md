@@ -1,12 +1,12 @@
 Конструктор для об'єкту mysqlistmt
 
--   [« mysqli\_stmt::close](mysqli-stmt.close.html)
+-   [« mysqlistmt::close](mysqli-stmt.close.html)
     
--   [mysqli\_stmt::data\_seek »](mysqli-stmt.data-seek.html)
+-   [mysqlistmt::dataseek »](mysqli-stmt.data-seek.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Конструктор для об'єкту mysqlistmt
     
@@ -15,13 +15,13 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::construct — Конструктор для об'єкту [mysqli\_stmt](class.mysqli-stmt.html)
+mysqlistmt::construct — Конструктор для об'єкту [mysqlistmt](class.mysqli-stmt.html)
 
 ### Опис
 
 public **mysqlistmt::construct**[mysqli](class.mysqli.html) `$mysql`, ?string `$query` **`null`**
 
-Цей метод створює новий об'єкт класу [mysqli\_stmt](class.mysqli-stmt.html)
+Цей метод створює новий об'єкт класу [mysqlistmt](class.mysqli-stmt.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public **mysqlistmt::construct**[mysqli](class.mysqli.html) `$mysql`, ?string `$
 
 `query`
 
-Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqli\_stmt\_init()](mysqli.stmt-init.html), інакше результат буде аналогічний виклику [mysqli\_prepare()](mysqli.prepare.html)
+Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqlistmtinit()](mysqli.stmt-init.html), інакше результат буде аналогічний виклику [mysqliprepare()](mysqli.prepare.html)
 
 ### список змін
 
@@ -41,5 +41,5 @@ public **mysqlistmt::construct**[mysqli](class.mysqli.html) `$mysql`, ?string `$
 
 ### Дивіться також
 
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqli\_stmt\_init()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlistmtinit()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare

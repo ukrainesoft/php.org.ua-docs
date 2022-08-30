@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONMinKeyInterface
 
--   [« MongoDB\\BSON\\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.html)
+-   [« MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.html)
     
--   [MongoDB\\BSON\\ObjectIdInterface »](class.mongodb-bson-objectidinterface.html)
+-   [MongoDBBSONObjectIdInterface »](class.mongodb-bson-objectidinterface.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONMinKeyInterface
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONJavascript](class.mongodb-bson-javascript.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 

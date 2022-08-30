@@ -1,12 +1,12 @@
 Отримує змінну SERVER
 
--   [« Yaf\_Request\_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.html)
+-   [« YafRequestAbstract::getRequestUri](yaf-request-abstract.getrequesturi.html)
     
--   [Yaf\_Request\_Abstract::isCli »](yaf-request-abstract.iscli.html)
+-   [YafRequestAbstract::isCli »](yaf-request-abstract.iscli.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Отримує змінну SERVER
     
@@ -39,5 +39,5 @@ public Yaf_Request_Abstract::getServer(string $name, string $default = ?): void
 
 ### Дивіться також
 
--   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка
--   [Yaf\_Request\_Abstract::getEnv()](yaf-request-abstract.getenv.html) - Отримує змінну ENV
+-   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка
+-   [YafRequestAbstract::getEnv()](yaf-request-abstract.getenv.html) - Отримує змінну ENV

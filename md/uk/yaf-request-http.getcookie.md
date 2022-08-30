@@ -1,12 +1,12 @@
 Отримує змінну Cookie
 
--   [« Yaf\_Request\_Http::get](yaf-request-http.get.html)
+-   [« YafRequestHttp::get](yaf-request-http.get.html)
     
--   [Yaf\_Request\_Http::getFiles »](yaf-request-http.getfiles.html)
+-   [YafRequestHttp::getFiles »](yaf-request-http.getfiles.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Http](class.yaf-request-http.html)
+-   [YafRequestHttp](class.yaf-request-http.html)
     
 -   Отримує змінну Cookie
     
@@ -39,9 +39,9 @@ public Yaf_Request_Http::getCookie(string $name, string $default = ?): mixed
 
 ### Дивіться також
 
--   [Yaf\_Request\_Http::get()](yaf-request-http.get.html) - Отримує змінну від клієнта
--   [Yaf\_Request\_Http::getQuery()](yaf-request-http.getquery.html) - Отримує параметр запиту
--   [Yaf\_Request\_Http::getPost()](yaf-request-http.getpost.html) - Отримує змінну POST
--   [Yaf\_Request\_Http::getRaw()](yaf-request-http.getraw.html) - Отримує необроблене тіло запиту
--   [Yaf\_Request\_Abstract::getServer()](yaf-request-abstract.getserver.html) - Отримує змінну SERVER
--   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка
+-   [YafRequestHttp::get()](yaf-request-http.get.html) - Отримує змінну від клієнта
+-   [YafRequestHttp::getQuery()](yaf-request-http.getquery.html) - Отримує параметр запиту
+-   [YafRequestHttp::getPost()](yaf-request-http.getpost.html) - Отримує змінну POST
+-   [YafRequestHttp::getRaw()](yaf-request-http.getraw.html) - Отримує необроблене тіло запиту
+-   [YafRequestAbstract::getServer()](yaf-request-abstract.getserver.html) - Отримує змінну SERVER
+-   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка

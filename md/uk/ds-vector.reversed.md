@@ -1,8 +1,8 @@
 Повертає перегорнуту копію вектора
 
--   [« Ds\\Vector::reverse](ds-vector.reverse.html)
+-   [« DsVector::reverse](ds-vector.reverse.html)
     
--   [Ds\\Vector::rotate »](ds-vector.rotate.html)
+-   [ДсVector::rotate »](ds-vector.rotate.html)
     
 -   [PHP Manual](index.html)
     

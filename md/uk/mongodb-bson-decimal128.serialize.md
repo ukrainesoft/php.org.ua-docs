@@ -1,12 +1,12 @@
 Серіалізує Decimal128
 
--   [« MongoDB\\BSON\\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html)
+-   [« MongoDBBSONDecimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html)
     
--   [MongoDB\\BSON\\Decimal128::\_\_toString »](mongodb-bson-decimal128.tostring.html)
+-   [MongoDBBSONDecimal128::toString »](mongodb-bson-decimal128.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html)
+-   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
     
 -   Серіалізує Decimal128
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\Decimal128::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html)
+Повертає серіалізовану виставу [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Decimal128::unserialize()](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
+-   [MongoDBBSONDecimal128::unserialize()](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

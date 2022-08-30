@@ -2,7 +2,7 @@
 
 -   [« Примеры](stomp.examples.html)
     
--   [stomp\_connect\_error »](function.stomp-connect-error.html)
+-   [stompconnecterror »](function.stomp-connect-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [stomp\_connect\_error](function.stomp-connect-error.html) — Повертає рядок із описом останньої помилки підключення
--   [stomp\_version](function.stomp-version.html) — Повертає поточну версію модуля Stomp
+-   [stompconnecterror](function.stomp-connect-error.html) — Повертає рядок із описом останньої помилки підключення
+-   [stompversion](function.stomp-version.html) — Повертає поточну версію модуля Stomp

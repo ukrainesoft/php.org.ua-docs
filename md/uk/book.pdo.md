@@ -1,12 +1,12 @@
 Об'єкти даних PHP
 
--   [« odbc\_tables](function.odbc-tables.html)
+-   [« odbctables](function.odbc-tables.html)
     
 -   [Введение »](intro.pdo.html)
     
 -   [PHP Manual](index.html)
     
--   [Уровни абстракции](refs.database.abstract.html)
+-   [Рівні абстракції](refs.database.abstract.html)
     
 -   Об'єкти даних PHP
     
@@ -21,14 +21,14 @@
     -   [Типы ресурсов](pdo.resources.html)
 -   [Предопределённые константы](pdo.constants.html)
 -   [Подключения и управление подключениями](pdo.connections.html)
--   [Транзакции и автоматическая фиксация изменений](pdo.transactions.html)
--   [Подготовленные запросы и хранимые процедуры](pdo.prepared-statements.html)
+-   [Транзакції та автоматична фіксація змін](pdo.transactions.html)
+-   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
 -   [Ошибки и их обработка](pdo.error-handling.html)
--   [Большие объекты (LOB)](pdo.lobs.html)
+-   [Великі об'єкти (LOB)](pdo.lobs.html)
 -   [PDO](class.pdo.html) - Клас PDO
     -   [PDO::beginTransaction](pdo.begintransaction.html) - Ініціалізація транзакції
     -   [PDO::commit](pdo.commit.html) - Фіксує транзакцію
-    -   [PDO::\_\_construct](pdo.construct.html) — Створює екземпляр PDO, що надає з'єднання з базою даних
+    -   [PDO::construct](pdo.construct.html) — Створює екземпляр PDO, що надає з'єднання з базою даних
     -   [PDO::errorCode](pdo.errorcode.html) — Повертає код SQLSTATE результату останньої операції з базою даних
     -   [PDO::errorInfo](pdo.errorinfo.html) — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
     -   [PDO::exec](pdo.exec.html) — Виконує SQL-запит та повертає кількість порушених рядків
@@ -63,9 +63,9 @@
     -   [PDOStatement::setAttribute](pdostatement.setattribute.html) — Встановлює атрибут об'єкту PDOStatement
     -   [PDOStatement::setFetchMode](pdostatement.setfetchmode.html) — Встановлює стандартний режим вибірки для об'єкта запиту
 -   [PDOException](class.pdoexception.html) - Клас PDOException
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     -   [CUBRID (PDO)](ref.pdo-cubrid.html) - Функції CUBRID (PDOCUBRID)
-    -   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html) — Функції Microsoft SQL Server та Sybase (PDODBLIB)
+    -   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html) — Функції Microsoft SQL Server та Sybase (PDODBLIB)
     -   [Firebird (PDO)](ref.pdo-firebird.html) - Функції Firebird (PDOFIREBIRD)
     -   [IBM (PDO)](ref.pdo-ibm.html) - Функції IBM (PDOIBM)
     -   [Informix (PDO)](ref.pdo-informix.html) - Функції Informix (PDOINFORMIX)

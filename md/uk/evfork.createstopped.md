@@ -1,6 +1,6 @@
 Створити об'єкт класу EvFork, але не стартувати його
 
--   [« EvFork::\_\_construct](evfork.construct.html)
+-   [« EvFork::construct](evfork.construct.html)
     
 -   [EvIdle »](class.evidle.html)
     
@@ -35,13 +35,13 @@ final
     = ?): object
 ```
 
-Те саме, що й [EvFork::\_\_construct()](evfork.construct.html) але не виробляє автоматичного старту спостерігача.
+Те саме, що й [EvFork::construct()](evfork.construct.html) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
 `callback`
 
-Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -57,4 +57,4 @@ final
 
 ### Дивіться також
 
--   [EvFork::\_\_construct()](evfork.construct.html) - Конструктор спостерігача EvFork
+-   [EvFork::construct()](evfork.construct.html) - Конструктор спостерігача EvFork

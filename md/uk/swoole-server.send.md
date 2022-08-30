@@ -1,12 +1,12 @@
 Надсилає дані клієнту
 
--   [« Swoole\\Server::resume](swoole-server.resume.html)
+-   [« SwooleServer::resume](swoole-server.resume.html)
     
--   [Swoole\\Server::sendfile »](swoole-server.sendfile.html)
+-   [SwooleServer::sendfile »](swoole-server.sendfile.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Надсилає дані клієнту
     

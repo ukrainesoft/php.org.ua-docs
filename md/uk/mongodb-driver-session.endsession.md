@@ -1,12 +1,12 @@
 Завершує сеанс
 
--   [« MongoDB\\Driver\\Session::\_\_construct](mongodb-driver-session.construct.html)
+-   [« MongoDBDriverSession::construct](mongodb-driver-session.construct.html)
     
--   [MongoDB\\Driver\\Session::getClusterTime »](mongodb-driver-session.getclustertime.html)
+-   [MongoDBDriverSession::getClusterTime »](mongodb-driver-session.getclustertime.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Завершує сеанс
     
@@ -37,11 +37,11 @@ final public MongoDB\Driver\Session::endSession(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::startSession()](mongodb-driver-manager.startsession.html) - Запускає новий сеанс клієнта для використання з цим клієнтом
--   [MongoDB\\Driver\\Session::abortTransaction()](mongodb-driver-session.aborttransaction.html) - перериває транзакцію
--   [MongoDB\\Driver\\Session::commitTransaction()](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
--   [MongoDB\\Driver\\Session::startTransaction()](mongodb-driver-session.starttransaction.html) - Запускає транзакцію
+-   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.html) - Запускає новий сеанс клієнта для використання з цим клієнтом
+-   [MongoDBDriverSession::abortTransaction()](mongodb-driver-session.aborttransaction.html) - перериває транзакцію
+-   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
+-   [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.html) - Запускає транзакцію

@@ -1,8 +1,8 @@
 Отримує кількість нейронів у кожному шарі мережі
 
--   [« fann\_get\_errstr](function.fann-get-errstr.html)
+-   [« fanngeterrstr](function.fann-get-errstr.html)
     
--   [fann\_get\_learning\_momentum »](function.fann-get-learning-momentum.html)
+-   [fanngetlearningmomentum »](function.fann-get-learning-momentum.html)
     
 -   [PHP Manual](index.html)
     

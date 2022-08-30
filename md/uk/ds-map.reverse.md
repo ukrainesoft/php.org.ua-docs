@@ -1,8 +1,8 @@
 Перевертає поточну колекцію
 
--   [« Ds\\Map::remove](ds-map.remove.html)
+-   [« DsMap::remove](ds-map.remove.html)
     
--   [Ds\\Map::reversed »](ds-map.reversed.html)
+-   [ДсMap::reversed »](ds-map.reversed.html)
     
 -   [PHP Manual](index.html)
     

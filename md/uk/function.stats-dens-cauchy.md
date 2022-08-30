@@ -1,12 +1,12 @@
 Щільність ймовірності розподілу Коші
 
--   [« stats\_dens\_beta](function.stats-dens-beta.html)
+-   [« statsdensbeta](function.stats-dens-beta.html)
     
--   [stats\_dens\_chisquare »](function.stats-dens-chisquare.html)
+-   [statsdenschisquare »](function.stats-dens-chisquare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності розподілу Коші
     

@@ -1,8 +1,8 @@
 Перевірити підпис повідомлення S/MIME
 
--   [« openssl\_pkcs7\_sign](function.openssl-pkcs7-sign.html)
+-   [« opensslpkcs7sign](function.openssl-pkcs7-sign.html)
     
--   [openssl\_pkey\_derive »](function.openssl-pkey-derive.html)
+-   [opensslpkeyderive »](function.openssl-pkey-derive.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,7 +55,7 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо перевірка успішна, **`false`**якщо немає і -1 у разі виникнення помилки.
+Повертає **`true`**, якщо перевірка успішна, \*\*`false`\*\*якщо немає і -1 у разі виникнення помилки.
 
 ### список змін
 

@@ -1,8 +1,8 @@
 Фіксує транзакцію ODBC
 
--   [« odbc\_columns](function.odbc-columns.html)
+-   [« odbccolumns](function.odbc-columns.html)
     
--   [odbc\_connect »](function.odbc-connect.html)
+-   [odbcconnect »](function.odbc-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_commit(resource $odbc): bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 ### Значення, що повертаються
 

@@ -1,8 +1,8 @@
 Використання простору імен: основи
 
--   [« Описание нескольких пространств имён в одном файле](language.namespaces.definitionmultiple.html)
+-   [« Опис кількох просторів імен в одному файлі](language.namespaces.definitionmultiple.html)
     
--   [Пространства имён и динамические особенности языка »](language.namespaces.dynamic.html)
+-   [Простір імен та динамічні особливості мови »](language.namespaces.dynamic.html)
     
 -   [PHP Manual](index.html)
     

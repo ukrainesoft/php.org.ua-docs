@@ -1,12 +1,12 @@
 Створити символічне посилання
 
--   [« ssh2\_sftp\_stat](function.ssh2-sftp-stat.html)
+-   [« ssh2sftpstat](function.ssh2-sftp-stat.html)
     
--   [ssh2\_sftp\_unlink »](function.ssh2-sftp-unlink.html)
+-   [ssh2sftpunlink »](function.ssh2-sftp-unlink.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Створити символічне посилання
     
@@ -29,7 +29,7 @@ ssh2_sftp_symlink(resource $sftp, string $target, string $link): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `target`
 
@@ -57,5 +57,5 @@ ssh2_sftp_symlink($sftp, '/var/run/mysql.sock', '/tmp/mysql.sock');
 
 ### Дивіться також
 
--   [ssh2\_sftp\_readlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням
+-   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням
 -   [symlink()](function.symlink.html) - Створює символічне посилання

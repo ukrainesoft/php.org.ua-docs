@@ -1,12 +1,12 @@
 Відкриває файл для виводу
 
--   [« ps\_new](function.ps-new.html)
+-   [«psnew](function.ps-new.html)
     
--   [ps\_open\_image\_file »](function.ps-open-image-file.html)
+-   [псopenimagefile »](function.ps-open-image-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Відкриває файл для виводу
     
@@ -23,13 +23,13 @@
 ps_open_file(resource $psdoc, string $filename = ?): bool
 ```
 
-Створює новий файл на диску і записує документ PostScript. Файл буде закрито під час виклику [ps\_close()](function.ps-close.html)
+Створює новий файл на диску і записує документ PostScript. Файл буде закрито під час виклику [псclose()](function.ps-close.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `filename`
 
@@ -41,4 +41,4 @@ ps_open_file(resource $psdoc, string $filename = ?): bool
 
 ### Дивіться також
 
--   [ps\_close()](function.ps-close.html) - Закриває документ PostScript
+-   [псclose()](function.ps-close.html) - Закриває документ PostScript

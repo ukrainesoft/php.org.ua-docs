@@ -1,12 +1,12 @@
 Малює та відображає
 
--   [« Yaf\_View\_Simple::\_\_construct](yaf-view-simple.construct.html)
+-   [« YafViewSimple::construct](yaf-view-simple.construct.html)
     
--   [Yaf\_View\_Simple::eval »](yaf-view-simple.eval.html)
+-   [YafViewSimple::eval »](yaf-view-simple.eval.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Малює та відображає
     

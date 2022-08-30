@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Копіює файл
     
@@ -43,7 +43,7 @@ copy(string $from, string $to, ?resource $context = null): bool
 
 `context`
 
-Коректний ресурс контексту, створений функцією [stream\_context\_create()](function.stream-context-create.html)
+Коректний ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.html)
 
 ### Значення, що повертаються
 
@@ -66,6 +66,6 @@ if (!copy($file, $newfile)) {
 
 ### Дивіться також
 
--   [move\_uploaded\_file()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
 -   [rename()](function.rename.html) - Перейменовує файл або директорію
--   Розділ керівництва[Загрузка файлов](features.file-upload.html)"
+-   Розділ керівництва[Завантаження файлів](features.file-upload.html)"

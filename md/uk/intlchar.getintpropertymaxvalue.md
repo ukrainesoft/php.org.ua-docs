@@ -1,6 +1,6 @@
 Отримати мінімальне значення для властивості Unicode
 
--   [« IntlChar::getFC\_NFKC\_Closure](intlchar.getfc-nfkc-closure.html)
+-   [« IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html)
     
 -   [IntlChar::getIntPropertyMinValue »](intlchar.getintpropertyminvalue.html)
     

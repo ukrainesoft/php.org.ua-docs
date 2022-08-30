@@ -1,12 +1,12 @@
 Розбирає рядок конфігурації
 
--   [« parse\_ini\_file](function.parse-ini-file.html)
+-   [« parseinifile](function.parse-ini-file.html)
     
 -   [pathinfo »](function.pathinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Розбирає рядок конфігурації
     
@@ -39,7 +39,7 @@ parse_ini_string(string $ini_string, bool $process_sections = false, int $scanne
 
 `scanner_mode`
 
-Може приймати такі значення: **`INI_SCANNER_NORMAL`** (за замовчуванням) або **`INI_SCANNER_RAW`**. Якщо вказано значення **`INI_SCANNER_RAW`**то значення опцій не будуть оброблятися.
+Може приймати такі значення: **`INI_SCANNER_NORMAL`** (за замовчуванням) або **`INI_SCANNER_RAW`**. Якщо вказано значення \*\*`INI_SCANNER_RAW`\*\*то значення опцій не будуть оброблятися.
 
 З версії PHP 5.6.1 можна також задати **`INI_SCANNER_TYPED`**. У цьому режимі типи boolean, null і integer, по можливості, зберігатимуться. Строкові значення `"true"` `"on"` і `"yes"` будуть перетворені на **`true`**. . `"false"` `"off"` `"no"` і `"none"` в **`false`**. . `"null"` перетворюється на **`null`**. Крім цього, усі числові рядки будуть, по можливості, перетворені до цілих чисел.
 
@@ -53,4 +53,4 @@ parse_ini_string(string $ini_string, bool $process_sections = false, int $scanne
 
 ### Дивіться також
 
--   [parse\_ini\_file()](function.parse-ini-file.html) - Обробляє конфігураційний файл
+-   [parseinifile()](function.parse-ini-file.html) - Обробляє конфігураційний файл

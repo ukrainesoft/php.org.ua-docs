@@ -1,12 +1,12 @@
 Екранування спеціальних символів у SQL-запиті
 
--   [« cubrid\_query](function.cubrid-query.html)
+-   [« cubridquery](function.cubrid-query.html)
     
--   [cubrid\_result »](function.cubrid-result.html)
+-   [cubridresult »](function.cubrid-result.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Екранування спеціальних символів у SQL-запиті
     
@@ -33,7 +33,7 @@ cubrid_real_escape_string(string $unescaped_string, resource $conn_identifier = 
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubrid\_connect()](function.cubrid-connect.html)
+Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubridconnect()](function.cubrid-connect.html)
 
 ### Значення, що повертаються
 

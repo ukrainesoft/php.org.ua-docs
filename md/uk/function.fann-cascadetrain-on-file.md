@@ -1,8 +1,8 @@
 Навчання на даних прочитаних із файлу за допомогою алгоритму Cascade2
 
--   [« fann\_cascadetrain\_on\_data](function.fann-cascadetrain-on-data.html)
+-   [« fanncascadetrainвінdata](function.fann-cascadetrain-on-data.html)
     
--   [fann\_clear\_scaling\_params »](function.fann-clear-scaling-params.html)
+-   [fannclearscalingparams »](function.fann-clear-scaling-params.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ fanncascadetrainвінfile — Навчання на даних прочитан
 fann_cascadetrain_on_file(    resource $ann,    string $filename,    int $max_neurons,    int $neurons_between_reports,    float $desired_error): bool
 ```
 
-Робить те саме, що і [fann\_cascadetrain\_on\_data()](function.fann-cascadetrain-on-data.html)але читає дані безпосередньо з файлу.
+Робить те саме, що і [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.html)але читає дані безпосередньо з файлу.
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ fann_cascadetrain_on_file(    resource $ann,    string $filename,   �
 
 `desired_error`
 
-Вибрані [fann\_get\_MSE()](function.fann-get-mse.html) або [fann\_get\_bit\_fail()](function.fann-get-bit-fail.html), в залежності від обраної за допомогою [fann\_set\_train\_stop\_function()](function.fann-set-train-stop-function.html) функції зупинки.
+Вибрані [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), в залежності від обраної за допомогою [fannsettrainstopfunction()](function.fann-set-train-stop-function.html) функції зупинки.
 
 ### Значення, що повертаються
 
@@ -53,5 +53,5 @@ fann_cascadetrain_on_file(    resource $ann,    string $filename,   �
 
 ### Дивіться також
 
--   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fann\_cascadetrain\_on\_data()](function.fann-cascadetrain-on-data.html) - Навчання на всьому наборі даних протягом певного періоду часу за допомогою алгоритму Cascade2
+-   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.html) - Навчання на всьому наборі даних протягом певного періоду часу за допомогою алгоритму Cascade2

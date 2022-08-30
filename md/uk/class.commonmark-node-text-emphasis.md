@@ -1,8 +1,8 @@
 Emphasis успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Text\\Strong](class.commonmark-node-text-strong.html)
+-   [« CommonMarkNodeTextStrong](class.commonmark-node-text-strong.html)
     
--   [CommonMark\\Node\\ThematicBreak »](class.commonmark-node-thematicbreak.html)
+-   [CommonMarkNodeThematicBreak »](class.commonmark-node-thematicbreak.html)
     
 -   [PHP Manual](index.html)
     

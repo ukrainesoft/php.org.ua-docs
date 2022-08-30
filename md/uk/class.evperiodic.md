@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvPeriodic
     
@@ -169,6 +169,6 @@ interval
 
 -   [EvPeriodic::again](evperiodic.again.html) — Зупиняє та знову запускає періодичний спостерігач
 -   [EvPeriodic::at](evperiodic.at.html) — Повертає абсолютний час, коли спостерігач запуститься наступного разу
--   [EvPeriodic::\_\_construct](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::construct](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
 -   [EvPeriodic::createStopped](evperiodic.createstopped.html) - Створює зупинений спостерігач EvPeriodic
 -   [EvPeriodic::set](evperiodic.set.html) — Налаштовує спостерігача

@@ -1,8 +1,8 @@
 Надсилає сигнал відповідному процесу
 
--   [« posix\_isatty](function.posix-isatty.html)
+-   [« posixisatty](function.posix-isatty.html)
     
--   [posix\_mkfifo »](function.posix-mkfifo.html)
+-   [posixmkfifo »](function.posix-mkfifo.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ posix_kill(int $process_id, int $signal): bool
 
 `signal`
 
-Одна з [PCNTL констант сигналов](pcntl.constants.html)
+Одна з [PCNTL констант сигналів](pcntl.constants.html)
 
 ### Значення, що повертаються
 

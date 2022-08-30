@@ -1,12 +1,12 @@
 Переставляє символи у рядку випадковим чином
 
--   [« str\_rot13](function.str-rot13.html)
+-   [« strrot13](function.str-rot13.html)
     
--   [str\_split »](function.str-split.html)
+-   [strsplit »](function.str-split.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Переставляє символи у рядку випадковим чином
     
@@ -27,7 +27,7 @@ str_shuffle(string $string): string
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [random\_int()](function.random-int.html) [random\_bytes()](function.random-bytes.html) або [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
 
 ### Список параметрів
 

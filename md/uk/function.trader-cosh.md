@@ -1,8 +1,8 @@
 Тригонометричний вектор гіперболічного косинуса
 
--   [« trader\_cos](function.trader-cos.html)
+-   [« tradercos](function.trader-cos.html)
     
--   [trader\_dema »](function.trader-dema.html)
+-   [traderdema »](function.trader-dema.html)
     
 -   [PHP Manual](index.html)
     

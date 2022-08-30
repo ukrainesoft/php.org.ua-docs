@@ -1,12 +1,12 @@
 Повертає список вмісту директорії репозиторію URL, опційно для конкретної ревізії
 
--   [« svn\_log](function.svn-log.html)
+-   [« svnlog](function.svn-log.html)
     
--   [svn\_mkdir »](function.svn-mkdir.html)
+-   [svnmkdir »](function.svn-mkdir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає список вмісту директорії репозиторію URL, опційно для конкретної ревізії
     

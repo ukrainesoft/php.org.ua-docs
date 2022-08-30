@@ -1,12 +1,12 @@
 Створити новий об'єкт Box
 
--   [« UI\\Controls\\Box::append](ui-controls-box.append.html)
+-   [« UIControlsBox::append](ui-controls-box.append.html)
     
--   [UI\\Controls\\Box::delete »](ui-controls-box.delete.html)
+-   [ОЙControlsBox::delete »](ui-controls-box.delete.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Box](class.ui-controls-box.html)
+-   [ОЙControlsBox](class.ui-controls-box.html)
     
 -   Створити новий об'єкт Box
     

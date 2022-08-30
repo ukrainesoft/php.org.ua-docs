@@ -1,8 +1,8 @@
 Повертає ідентифікатор поточного процесу
 
--   [« posix\_getpgrp](function.posix-getpgrp.html)
+-   [« posixgetpgrp](function.posix-getpgrp.html)
     
--   [posix\_getppid »](function.posix-getppid.html)
+-   [posixgetppid »](function.posix-getppid.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@ echo posix_getpid(); //8805
 
 ### Дивіться також
 
--   [posix\_kill()](function.posix-kill.html) - Надсилає сигнал відповідному процесу
+-   [posixkill()](function.posix-kill.html) - Надсилає сигнал відповідному процесу
 -   POSIX керівництво GETPID(2)

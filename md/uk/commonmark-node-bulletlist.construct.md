@@ -1,12 +1,12 @@
 Конструктор класу BulletList
 
--   [« CommonMark\\Node\\BulletList](class.commonmark-node-bulletlist.html)
+-   [« CommonMarkNodeBulletList](class.commonmark-node-bulletlist.html)
     
--   [CommonMark\\Node\\OrderedList »](class.commonmark-node-orderedlist.html)
+-   [CommonMarkNodeOrderedList »](class.commonmark-node-orderedlist.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node\\BulletList](class.commonmark-node-bulletlist.html)
+-   [CommonMarkNodeBulletList](class.commonmark-node-bulletlist.html)
     
 -   Конструктор класу BulletList
     

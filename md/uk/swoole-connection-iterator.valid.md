@@ -1,12 +1,12 @@
 Перевіряє правильність поточної позиції
 
--   [« Swoole\\Connection\\Iterator::rewind](swoole-connection-iterator.rewind.html)
+-   [« SwooleConnectionIterator::rewind](swoole-connection-iterator.rewind.html)
     
--   [Swoole\\Coroutine »](class.swoole-coroutine.html)
+-   [SwooleCoroutine »](class.swoole-coroutine.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Перевіряє правильність поточної позиції
     

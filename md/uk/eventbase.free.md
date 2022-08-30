@@ -42,4 +42,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::\_\_construct()](eventbase.construct.html) - Конструктор об'єкту EventBase
+-   [EventBase::construct()](eventbase.construct.html) - Конструктор об'єкту EventBase

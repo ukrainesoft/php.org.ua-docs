@@ -2,7 +2,7 @@
 
 -   [« ImagickDraw::comment](imagickdraw.comment.html)
     
--   [ImagickDraw::\_\_construct »](imagickdraw.construct.html)
+-   [ImagickDraw::construct »](imagickdraw.construct.html)
     
 -   [PHP Manual](index.html)
     

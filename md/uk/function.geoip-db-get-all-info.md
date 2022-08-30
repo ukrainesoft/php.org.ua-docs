@@ -1,8 +1,8 @@
 Повертає детальну інформацію про всі типи бази GeoIP
 
--   [« geoip\_db\_filename](function.geoip-db-filename.html)
+-   [« geoipдбfilename](function.geoip-db-filename.html)
     
--   [geoip\_domain\_by\_name »](function.geoip-domain-by-name.html)
+-   [geoipdomainбname »](function.geoip-domain-by-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,9 +29,9 @@ geoip_db_get_all_info(): array
 
 Імена різних ключів асоціативного масиву, що повертається:
 
--   "available" -- Логічний тип, чи вказує доступна база (дивіться [geoip\_db\_avail()](function.geoip-db-avail.html)
+-   "available" -- Логічний тип, чи вказує доступна база (дивіться [geoipдбavail()](function.geoip-db-avail.html)
 -   "description" -- Опис бази даних
--   "filename" - Ім'я файлу бази даних на диску (дивіться [geoip\_db\_filename()](function.geoip-db-filename.html)
+-   "filename" - Ім'я файлу бази даних на диску (дивіться [geoipдбfilename()](function.geoip-db-filename.html)
 
 ### Список параметрів
 

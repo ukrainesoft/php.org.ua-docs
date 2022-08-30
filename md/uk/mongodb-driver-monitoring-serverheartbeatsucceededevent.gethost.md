@@ -1,12 +1,12 @@
 Повертає ім'я сервера хоста
 
--   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html)
+-   [« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getPort »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html)
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
     
 -   Повертає ім'я сервера хоста
     
@@ -33,4 +33,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getHost():
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

@@ -1,6 +1,6 @@
 Клас ReflectionUnionType
 
--   [« ReflectionType::\_\_toString](reflectiontype.tostring.html)
+-   [« ReflectionType::toString](reflectiontype.tostring.html)
     
 -   [ReflectionUnionType::getTypes »](reflectionuniontype.gettypes.html)
     

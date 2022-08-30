@@ -77,6 +77,6 @@ if (!$iterator->count()) {
 
 ### Дивіться також
 
--   [DirectoryIterator::\_\_construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом
+-   [DirectoryIterator::construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом
 -   [GlobIterator::count()](globiterator.count.html) - Визначає кількість директорій та файлів
 -   [glob()](function.glob.html) - Знаходить файлові шляхи, що збігаються із шаблоном

@@ -2,7 +2,7 @@
 
 -   [« Коллекция](class.ds-collection.html)
     
--   [Ds\\Collection::copy »](ds-collection.copy.html)
+-   [ДсCollection::copy »](ds-collection.copy.html)
     
 -   [PHP Manual](index.html)
     

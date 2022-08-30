@@ -1,8 +1,8 @@
 Повертає дані про MySQL-клієнт
 
--   [« mysql\_free\_result](function.mysql-free-result.html)
+-   [« mysqlfreeresult](function.mysql-free-result.html)
     
--   [mysql\_get\_host\_info »](function.mysql-get-host-info.html)
+-   [mysqlgethostinfo »](function.mysql-get-host-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlgetclientinfo — Повертає дані про MySQL-клієнт
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_get\_client\_info()](mysqli.get-client-info.html)
--   [PDO::getAttribute(PDO::ATTR\_CLIENT\_VERSION)](pdo.getattribute.html)
+-   [mysqligetclientinfo()](mysqli.get-client-info.html)
+-   [PDO::getAttribute(PDO::ATTRCLIENTVERSION)](pdo.getattribute.html)
 
 ### Опис
 
@@ -58,6 +58,6 @@ printf("Версия клиентской библиотеки MySQL: %s\n",
 
 ### Дивіться також
 
--   [mysql\_get\_host\_info()](function.mysql-get-host-info.html) - Повертає інформацію про з'єднання з MySQL
--   [mysql\_get\_proto\_info()](function.mysql-get-proto-info.html) - Повертає інформацію про протокол MySQL
--   [mysql\_get\_server\_info()](function.mysql-get-server-info.html) - Повертає інформацію про сервер MySQL
+-   [mysqlgethostinfo()](function.mysql-get-host-info.html) - Повертає інформацію про з'єднання з MySQL
+-   [mysqlgetprotoinfo()](function.mysql-get-proto-info.html) - Повертає інформацію про протокол MySQL
+-   [mysqlgetserverinfo()](function.mysql-get-server-info.html) - Повертає інформацію про сервер MySQL

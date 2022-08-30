@@ -2,11 +2,11 @@
 
 -   [« SplStack::setIteratorMode](splstack.setiteratormode.html)
     
--   [SplQueue::\_\_construct »](splqueue.construct.html)
+-   [SplQueue::construct »](splqueue.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.html)
     
 -   Клас SplQueue
     
@@ -76,7 +76,7 @@ public SplDoublyLinkedList::valid(): bool
 
 ## Зміст
 
--   [SplQueue::\_\_construct](splqueue.construct.html) — Створює нову чергу, реалізовану за допомогою двозв'язкового списку
+-   [SplQueue::construct](splqueue.construct.html) — Створює нову чергу, реалізовану за допомогою двозв'язкового списку
 -   [SplQueue::dequeue](splqueue.dequeue.html) — Видаляє елемент із черги
 -   [SplQueue::enqueue](splqueue.enqueue.html) — Додає елемент у чергу
 -   [SplQueue::setIteratorMode](splqueue.setiteratormode.html) - Встановлює режим ітератора

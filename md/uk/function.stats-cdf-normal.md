@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу залежно від інших
 
--   [« stats\_cdf\_noncentral\_t](function.stats-cdf-noncentral-t.html)
+-   [« statscdfnoncentralт](function.stats-cdf-noncentral-t.html)
     
--   [stats\_cdf\_poisson »](function.stats-cdf-poisson.html)
+-   [statscdfpoisson »](function.stats-cdf-poisson.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу залежно від інших
     

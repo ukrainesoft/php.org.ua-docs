@@ -1,8 +1,8 @@
 Зв'язати повідомлення COM з об'єктом PHP
 
--   [« com\_create\_guid](function.com-create-guid.html)
+-   [« comcreateguid](function.com-create-guid.html)
     
--   [com\_get\_active\_object »](function.com-get-active-object.html)
+-   [comgetactiveobject »](function.com-get-active-object.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ com_event_sink(variant $variant, object $sink_object, array|string|null $sink_in
 
 `sink_object`
 
-`sink_object` повинен бути екземпляром класу з методами, названими як у вибраному диспетчерському інтерфейсі; ви можете використовувати функцію [com\_print\_typeinfo()](function.com-print-typeinfo.html) для допомоги у генерації шаблону класу.
+`sink_object` повинен бути екземпляром класу з методами, названими як у вибраному диспетчерському інтерфейсі; ви можете використовувати функцію [comprinttypeinfo()](function.com-print-typeinfo.html) для допомоги у генерації шаблону класу.
 
 `sink_interface`
 
@@ -91,5 +91,5 @@ $ie = null;
 
 ### Дивіться також
 
--   [com\_print\_typeinfo()](function.com-print-typeinfo.html) - Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
--   [com\_message\_pump()](function.com-message-pump.html) - Обробка повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після її запуску
+-   [comprinttypeinfo()](function.com-print-typeinfo.html) - Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
+-   [commessagepump()](function.com-message-pump.html) - Обробка повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після її запуску

@@ -1,12 +1,12 @@
 Перевіряє, чи є змінна булевою
 
--   [« is\_array](function.is-array.html)
+-   [« isarray](function.is-array.html)
     
--   [is\_callable »](function.is-callable.html)
+-   [ісcallable »](function.is-callable.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи є змінна булевою
     
@@ -58,8 +58,8 @@ if (is_bool($b) === false) {
 
 ### Дивіться також
 
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом

@@ -1,8 +1,8 @@
 Повертає поточний статус сервера
 
--   [« mysql\_set\_charset](function.mysql-set-charset.html)
+-   [« mysqlsetcharset](function.mysql-set-charset.html)
     
--   [mysql\_tablename »](function.mysql-tablename.html)
+-   [mysqltablename »](function.mysql-tablename.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlstat — Повертає поточний статус сервера
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_stat()](mysqli.stat.html)
--   [PDO::getAttribute(PDO::ATTR\_SERVER\_INFO)](pdo.getattribute.html)
+-   [mysqlistat()](mysqli.stat.html)
+-   [PDO::getAttribute(PDO::ATTRSERVERINFO)](pdo.getattribute.html)
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_stat(resource $link_identifier = NULL): string
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -99,5 +99,5 @@ bdb_tmpdir = /var/tmp/
 
 ### Дивіться також
 
--   [mysql\_get\_server\_info()](function.mysql-get-server-info.html) - Повертає інформацію про сервер MySQL
--   [mysql\_list\_processes()](function.mysql-list-processes.html) - Повертає список процесів MySQL
+-   [mysqlgetserverinfo()](function.mysql-get-server-info.html) - Повертає інформацію про сервер MySQL
+-   [mysqllistprocesses()](function.mysql-list-processes.html) - Повертає список процесів MySQL

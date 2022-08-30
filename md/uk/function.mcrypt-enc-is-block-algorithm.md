@@ -1,8 +1,8 @@
 Перевіряє, чи використовує алгоритм блокові режими
 
--   [« mcrypt\_enc\_is\_block\_algorithm\_mode](function.mcrypt-enc-is-block-algorithm-mode.html)
+-   [« mcryptencісblockalgorithmmode](function.mcrypt-enc-is-block-algorithm-mode.html)
     
--   [mcrypt\_enc\_is\_block\_mode »](function.mcrypt-enc-is-block-mode.html)
+-   [mcryptencісblockmode »](function.mcrypt-enc-is-block-mode.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ mcrypt_enc_is_block_algorithm(resource $td): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо алгоритм є блоковим або **`false`**якщо потоковий.
+Повертає \*\*`true`\*\*якщо алгоритм є блоковим або \*\*`false`\*\*якщо потоковий.

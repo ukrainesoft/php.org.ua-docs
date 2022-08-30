@@ -1,12 +1,12 @@
 Створити новий об'єкт Button
 
--   [« UI\\Controls\\Button](class.ui-controls-button.html)
+-   [« UIControlsButton](class.ui-controls-button.html)
     
--   [UI\\Controls\\Button::getText »](ui-controls-button.gettext.html)
+-   [ОЙControlsButton::getText »](ui-controls-button.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Button](class.ui-controls-button.html)
+-   [ОЙControlsButton](class.ui-controls-button.html)
     
 -   Створити новий об'єкт Button
     

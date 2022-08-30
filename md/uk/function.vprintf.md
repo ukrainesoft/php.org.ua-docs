@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Виводить відформатований рядок
     
@@ -135,5 +135,5 @@ vprintf("%04d-%02d-%02d", explode('-', '1988-8-1'));
 -   [vfprintf()](function.vfprintf.html) - Записує відформатований рядок у потік
 -   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату
 -   [fscanf()](function.fscanf.html) - Обробляє дані з файлу відповідно до формату
--   [number\_format()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.html) - Форматує число з поділом груп
 -   [date()](function.date.html) - Форматує тимчасову мітку Unix

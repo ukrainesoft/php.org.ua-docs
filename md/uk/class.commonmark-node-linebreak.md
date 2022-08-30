@@ -1,8 +1,8 @@
 LineBreak успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\SoftBreak](class.commonmark-node-softbreak.html)
+-   [« CommonMarkNodeSoftBreak](class.commonmark-node-softbreak.html)
     
--   [CommonMark\\Node\\Code »](class.commonmark-node-code.html)
+-   [CommonMarkNodeCode »](class.commonmark-node-code.html)
     
 -   [PHP Manual](index.html)
     

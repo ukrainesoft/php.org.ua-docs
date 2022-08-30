@@ -33,7 +33,7 @@ public DOMDocument::loadXML(string $source, int $options = 0): DOMDocument|bool
 
 `options`
 
-[Побитовое `ИЛИ`](language.operators.bitwise.html) [констант опций libxml](libxml.constants.html)
+[Побитовое`ИЛИ`](language.operators.bitwise.html) [констант опций libxml](libxml.constants.html)
 
 ### Значення, що повертаються
 

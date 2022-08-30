@@ -24,7 +24,7 @@ float `$after`
 float `$repeat`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`  
+int `$priority`
 
 Конструктор об'єкта спостерігача EvTimer.
 
@@ -40,7 +40,7 @@ int `$priority`
 
 `callback`
 
-Дивіться [Наблюдатели callback-функций](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі callback-функцій](ev.watcher-callbacks.html)
 
 `data`
 
@@ -131,5 +131,5 @@ END
 
 -   [EvTimer::createStopped()](evtimer.createstopped.html) - створює зупинений спостерігач EvTimer
 -   [EvPeriodic](class.evperiodic.html)
--   [» ev\_timer - относительное и необязательно повторяющееся время ожидания](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
--   [» Будьте осторожны со временем ожидания](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Be_smart_about_timeouts)
+-   [» evtimer - відносний і необов'язково повторюваний час очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
+-   [» Будьте обережні з часом очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Be_smart_about_timeouts)

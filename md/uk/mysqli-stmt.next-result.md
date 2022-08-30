@@ -1,12 +1,12 @@
 Читає наступний набір рядків із мультизапиту
 
--   [« mysqli\_stmt::more\_results](mysqli-stmt.more-results.html)
+-   [« mysqlistmt::moreresults](mysqli-stmt.more-results.html)
     
--   [mysqli\_stmt::$num\_rows »](mysqli-stmt.num-rows.html)
+-   [mysqlistmt::$numrows »](mysqli-stmt.num-rows.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Читає наступний набір рядків із мультизапиту
     
@@ -43,7 +43,7 @@ mysqli_stmt_next_result(mysqli_stmt $statement): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -57,5 +57,5 @@ mysqli_stmt_next_result(mysqli_stmt $statement): bool
 
 ### Дивіться також
 
--   [mysqli\_stmt::more\_results()](mysqli-stmt.more-results.html) - Перевіряє, чи є ще набори рядків внаслідок мультизапиту
--   [mysqli::multi\_query()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
+-   [mysqlistmt::moreresults()](mysqli-stmt.more-results.html) - Перевіряє, чи є ще набори рядків внаслідок мультизапиту
+-   [mysqli::multiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних

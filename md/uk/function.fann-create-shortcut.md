@@ -1,8 +1,8 @@
 Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
 
--   [« fann\_create\_shortcut\_array](function.fann-create-shortcut-array.html)
+-   [« fanncreateshortcutarray](function.fann-create-shortcut-array.html)
     
--   [fann\_create\_sparse\_array »](function.fann-create-sparse-array.html)
+-   [fanncreatesparsearray »](function.fann-create-sparse-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,6 +51,6 @@ fann_create_shortcut(    int $num_layers,    int $num_neurons1,    i
 
 ### Дивіться також
 
--   [fann\_create\_shortcut\_array()](function.fann-create-shortcut-array.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
--   [fann\_create\_sparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
--   [fann\_create\_standard()](function.fann-create-standard.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+-   [fanncreateshortcutarray()](function.fann-create-shortcut-array.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
+-   [fanncreatesparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
+-   [fanncreatestandard()](function.fann-create-standard.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження

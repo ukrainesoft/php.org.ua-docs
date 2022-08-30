@@ -2,7 +2,7 @@
 
 -   [« Настройка во время выполнения](wkhtmltox.configuration.html)
     
--   [wkhtmltox\\PDF\\Converter::add »](wkhtmltox-pdf-converter.add.html)
+-   [wkhtmltoxPDFConverter::add »](wkhtmltox-pdf-converter.add.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,7 +47,7 @@ public getVersion(): string
 
 ## Зміст
 
--   [wkhtmltox\\PDF\\Converter::add](wkhtmltox-pdf-converter.add.html) — Додавання об'єкта для перетворення
--   [wkhtmltox\\PDF\\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.html) — Створити новий PDF-конвертер
--   [wkhtmltox\\PDF\\Converter::convert](wkhtmltox-pdf-converter.convert.html) — Виконати перетворення PDF
--   [wkhtmltox\\PDF\\Converter::getVersion](wkhtmltox-pdf-converter.getversion.html) — Визначити версію конвертера
+-   [wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.html) — Додавання об'єкта для перетворення
+-   [wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.html) — Створити новий PDF-конвертер
+-   [wkhtmltoxPDFConverter::convert](wkhtmltox-pdf-converter.convert.html) — Виконати перетворення PDF
+-   [wkhtmltoxPDFConverter::getVersion](wkhtmltox-pdf-converter.getversion.html) — Визначити версію конвертера

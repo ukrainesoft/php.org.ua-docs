@@ -1,8 +1,8 @@
 Консультативне блокування файлу
 
--   [« streamWrapper::stream\_flush](streamwrapper.stream-flush.html)
+-   [« streamWrapper::streamflush](streamwrapper.stream-flush.html)
     
--   [streamWrapper::stream\_metadata »](streamwrapper.stream-metadata.html)
+-   [streamWrapper::streammetadata »](streamwrapper.stream-metadata.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ streamWrapper::streamlock — Консультативне блокування 
 public streamWrapper::stream_lock(int $operation): bool
 ```
 
-Цей метод викликається у відповідь [flock()](function.flock.html), коли викликається [file\_put\_contents()](function.file-put-contents.html) (якщо `flags` містить **`LOCK_EX`** [stream\_set\_blocking()](function.stream-set-blocking.html) або при закритті потоку (**`LOCK_UN`**
+Цей метод викликається у відповідь [flock()](function.flock.html), коли викликається [fileputcontents()](function.file-put-contents.html) (якщо `flags` містить **`LOCK_EX`** [streamsetblocking()](function.stream-set-blocking.html) або при закритті потоку (**`LOCK_UN`**
 
 ### Список параметрів
 
@@ -42,9 +42,9 @@ public streamWrapper::stream_lock(int $operation): bool
 
 ### Помилки
 
-Викликає помилку **`E_WARNING`**якщо виклик методу не вдався (тобто метод не реалізований).
+Викликає помилку \*\*`E_WARNING`\*\*якщо виклик методу не вдався (тобто метод не реалізований).
 
 ### Дивіться також
 
--   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
 -   [flock()](function.flock.html) - Портоване консультативне блокування файлів

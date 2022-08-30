@@ -1,12 +1,12 @@
 Перетворює двосторонню чергу на масив (array)
 
--   [« Ds\\Deque::sum](ds-deque.sum.html)
+-   [« DsDeque::sum](ds-deque.sum.html)
     
--   [Ds\\Deque::unshift »](ds-deque.unshift.html)
+-   [ДсDeque::unshift »](ds-deque.unshift.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Перетворює двосторонню чергу на масив (array)
     

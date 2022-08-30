@@ -1,8 +1,8 @@
 Індекс найбільшого значення за вказаний період
 
--   [« trader\_max](function.trader-max.html)
+-   [« tradermax](function.trader-max.html)
     
--   [trader\_medprice »](function.trader-medprice.html)
+-   [tradermedprice »](function.trader-medprice.html)
     
 -   [PHP Manual](index.html)
     

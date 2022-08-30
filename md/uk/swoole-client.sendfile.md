@@ -1,12 +1,12 @@
 Відправляє файл у віддалений TCP-сокет
 
--   [« Swoole\\Client::send](swoole-client.send.html)
+-   [« SwooleClient::send](swoole-client.send.html)
     
--   [Swoole\\Client::sendto »](swoole-client.sendto.html)
+-   [SwooleClient::sendto »](swoole-client.sendto.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Відправляє файл у віддалений TCP-сокет
     

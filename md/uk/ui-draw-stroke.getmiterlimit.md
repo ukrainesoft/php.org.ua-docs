@@ -1,12 +1,12 @@
 Отримати межу зрізу
 
--   [« UI\\Draw\\Stroke::getJoin](ui-draw-stroke.getjoin.html)
+-   [« UIDrawStroke::getJoin](ui-draw-stroke.getjoin.html)
     
--   [UI\\Draw\\Stroke::getThickness »](ui-draw-stroke.getthickness.html)
+-   [ОЙDrawStroke::getThickness »](ui-draw-stroke.getthickness.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Отримати межу зрізу
     

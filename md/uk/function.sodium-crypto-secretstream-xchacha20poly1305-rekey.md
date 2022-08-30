@@ -1,8 +1,8 @@
 Явно повертає ключ у стан secretstream
 
--   [« sodium\_crypto\_secretstream\_xchacha20poly1305\_push](function.sodium-crypto-secretstream-xchacha20poly1305-push.html)
+-   [« sodiumcryptosecretstreamxchacha20poly1305push](function.sodium-crypto-secretstream-xchacha20poly1305-push.html)
     
--   [sodium\_crypto\_shorthash\_keygen »](function.sodium-crypto-shorthash-keygen.html)
+-   [sodiumcryptoshorthashkeygen »](function.sodium-crypto-shorthash-keygen.html)
     
 -   [PHP Manual](index.html)
     

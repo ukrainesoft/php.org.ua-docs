@@ -2,7 +2,7 @@
 
 -   [« Набор](class.ds-set.html)
     
--   [Ds\\Set::allocate »](ds-set.allocate.html)
+-   [ДсSet::allocate »](ds-set.allocate.html)
     
 -   [PHP Manual](index.html)
     

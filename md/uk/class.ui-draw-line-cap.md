@@ -1,12 +1,12 @@
 Налаштування кінців ліній
 
--   [« UI\\Draw\\Text\\Font\\Stretch](class.ui-draw-text-font-stretch.html)
+-   [« UIDrawTextFontStretch](class.ui-draw-text-font-stretch.html)
     
--   [UI\\Draw\\Line\\Join »](class.ui-draw-line-join.html)
+-   [ОЙDrawLineJoin »](class.ui-draw-line-join.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Налаштування кінців ліній
     

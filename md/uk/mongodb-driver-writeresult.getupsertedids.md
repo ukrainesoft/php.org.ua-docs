@@ -1,12 +1,12 @@
 Повертає масив ідентифікаторів для об'єднаних документів
 
--   [« MongoDB\\Driver\\WriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.html)
+-   [« MongoDBDriverWriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.html)
     
--   [MongoDB\\Driver\\WriteResult::getWriteConcernError »](mongodb-driver-writeresult.getwriteconcernerror.html)
+-   [MongoDBDriverWriteResult::getWriteConcernError »](mongodb-driver-writeresult.getwriteconcernerror.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     
 -   Повертає масив ідентифікаторів для об'єднаних документів
     
@@ -29,11 +29,11 @@ final public MongoDB\Driver\WriteResult::getUpsertedIds(): array
 
 ### Значення, що повертаються
 
-Повертає масив ідентифікаторів (тобто значення полів `"_id"`) для об'єднаних документів. Ключі масиву будуть відповідати індексу операції запису (з [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)), відповідальної за злиття.
+Повертає масив ідентифікаторів (тобто значення полів `"_id"`) для об'єднаних документів. Ключі масиву будуть відповідати індексу операції запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)), відповідальної за злиття.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -77,5 +77,5 @@ array(2) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\WriteResult::getUpsertedCount()](mongodb-driver-writeresult.getupsertedcount.html) - Повертає кількість документів, вставлених злиттям
--   [MongoDB\\Driver\\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений
+-   [MongoDBDriverWriteResult::getUpsertedCount()](mongodb-driver-writeresult.getupsertedcount.html) - Повертає кількість документів, вставлених злиттям
+-   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений

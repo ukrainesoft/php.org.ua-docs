@@ -1,8 +1,8 @@
 Отримати версію модуля CUBRID PHP
 
--   [« cubrid\_set\_query\_timeout](function.cubrid-set-query-timeout.html)
+-   [« cubridsetquerytimeout](function.cubrid-set-query-timeout.html)
     
--   [Функции совместимости CUBRID MySQL »](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL »](cubridmysql.cubrid.html)
     
 -   [PHP Manual](index.html)
     
@@ -92,5 +92,5 @@ CUBRID Charset:                iso8859-1
 
 ### Дивіться також
 
--   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка
+-   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubriderrorcodefacility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка

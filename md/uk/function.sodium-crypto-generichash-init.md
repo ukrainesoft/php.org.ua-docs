@@ -1,8 +1,8 @@
 Ініціалізує хеш для потокової передачі
 
--   [« sodium\_crypto\_generichash\_final](function.sodium-crypto-generichash-final.html)
+-   [« sodiumcryptogenerichashfinal](function.sodium-crypto-generichash-final.html)
     
--   [sodium\_crypto\_generichash\_keygen »](function.sodium-crypto-generichash-keygen.html)
+-   [sodiumcryptogenerichashkeygen »](function.sodium-crypto-generichash-keygen.html)
     
 -   [PHP Manual](index.html)
     

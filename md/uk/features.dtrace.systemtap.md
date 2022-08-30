@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Динамическая трассировка DTrace](features.dtrace.html)
+-   [Динамічна трасування DTrace](features.dtrace.html)
     
 -   Використання SystemTap зі статичними зондами PHP DTrace
     

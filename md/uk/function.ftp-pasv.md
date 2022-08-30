@@ -1,12 +1,12 @@
 Вмикає або вимикає пасивний режим
 
--   [« ftp\_nlist](function.ftp-nlist.html)
+-   [« ftpnlist](function.ftp-nlist.html)
     
--   [ftp\_put »](function.ftp-put.html)
+-   [ftpput »](function.ftp-put.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Вмикає або вимикає пасивний режим
     
@@ -31,7 +31,7 @@ ftp_pasv(FTP\Connection $ftp, bool $enable): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `enable`
 
@@ -43,9 +43,9 @@ ftp_pasv(FTP\Connection $ftp, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

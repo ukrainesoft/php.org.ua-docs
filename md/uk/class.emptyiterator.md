@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас EmptyIterator
     

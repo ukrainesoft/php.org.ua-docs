@@ -1,12 +1,12 @@
 Повертає поточну місткість
 
--   [« Ds\\Sequence::apply](ds-sequence.apply.html)
+-   [« DsSequence::apply](ds-sequence.apply.html)
     
--   [Ds\\Sequence::contains »](ds-sequence.contains.html)
+-   [ДсSequence::contains »](ds-sequence.contains.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає поточну місткість
     

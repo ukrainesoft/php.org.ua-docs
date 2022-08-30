@@ -1,12 +1,12 @@
 Сортує колекцію
 
--   [« Ds\\Sequence::slice](ds-sequence.slice.html)
+-   [« DsSequence::slice](ds-sequence.slice.html)
     
--   [Ds\\Sequence::sorted »](ds-sequence.sorted.html)
+-   [ДсSequence::sorted »](ds-sequence.sorted.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Сортує колекцію
     

@@ -1,12 +1,12 @@
 Надсилає дані робочим процесам завдання блокуючим способом
 
--   [« Swoole\\Server::task](swoole-server.task.html)
+-   [« SwooleServer::task](swoole-server.task.html)
     
--   [Swoole\\Server::taskWaitMulti »](swoole-server.taskwaitmulti.html)
+-   [SwooleServer::taskWaitMulti »](swoole-server.taskwaitmulti.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Надсилає дані робочим процесам завдання блокуючим способом
     

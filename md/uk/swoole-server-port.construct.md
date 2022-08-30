@@ -1,12 +1,12 @@
 Створює порт сервера
 
--   [« Swoole\\Server::defer](swoole-server.defer.html)
+-   [« SwooleServer::defer](swoole-server.defer.html)
     
--   [Swoole\\Server\\Port::\_\_destruct »](swoole-server-port.destruct.html)
+-   [SwooleServerPort::destruct »](swoole-server-port.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Створює порт сервера
     

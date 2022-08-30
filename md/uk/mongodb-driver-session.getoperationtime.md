@@ -1,12 +1,12 @@
 Повертає час операції для цього сеансу
 
--   [« MongoDB\\Driver\\Session::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.html)
+-   [« MongoDBDriverSession::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.html)
     
--   [MongoDB\\Driver\\Session::getServer »](mongodb-driver-session.getserver.html)
+-   [MongoDBDriverSession::getServer »](mongodb-driver-session.getserver.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Повертає час операції для цього сеансу
     
@@ -23,7 +23,7 @@ MongoDBDriverSession::getOperationTime — Повертає час операц�
 final public MongoDB\Driver\Session::getOperationTime(): ?MongoDB\BSON\Timestamp
 ```
 
-Повертає час операції для цього сеансу. Якщо сеанс не використовувався для жодної операції, і [MongoDB\\Driver\\Session::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.html) не був викликаний, час операції буде рівним **`null`**
+Повертає час операції для цього сеансу. Якщо сеанс не використовувався для жодної операції, і [MongoDBDriverSession::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.html) не був викликаний, час операції буде рівним **`null`**
 
 ### Список параметрів
 
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Session::getOperationTime(): ?MongoDB\BSON\Timestamp
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Session::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.html) - Збільшує час операції для сеансу
+-   [MongoDBDriverSession::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.html) - Збільшує час операції для сеансу

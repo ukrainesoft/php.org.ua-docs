@@ -1,8 +1,8 @@
 Перетворює рядок з одного кодування символів на інший
 
--   [« iconv\_substr](function.iconv-substr.html)
+-   [« iconvsubstr](function.iconv-substr.html)
     
--   [ob\_iconv\_handler »](function.ob-iconv-handler.html)
+-   [проiconvhandler »](function.ob-iconv-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -83,5 +83,5 @@ Notice: iconv(): Detected an illegal character in input string in .\iconv-exampl
 
 ### Дивіться також
 
--   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
 -   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший

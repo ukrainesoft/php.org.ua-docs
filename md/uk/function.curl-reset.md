@@ -1,8 +1,8 @@
 Скинути налаштування обробника сесії libcurl
 
--   [« curl\_pause](function.curl-pause.html)
+-   [« curlpause](function.curl-pause.html)
     
--   [curl\_setopt\_array »](function.curl-setopt-array.html)
+-   [curlsetoptarray »](function.curl-setopt-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_reset(CurlHandle $handle): void
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 
@@ -69,8 +69,8 @@ curl_close($ch);
 
 > **Зауваження**
 > 
-> **curlreset()** також скидає URL, заданий як параметр [curl\_init()](function.curl-init.html)
+> **curlreset()** також скидає URL, заданий як параметр [curlinit()](function.curl-init.html)
 
 ### Дивіться також
 
--   [curl\_setopt()](function.curl-setopt.html) - Встановлює параметр для сеансу CURL
+-   [curlsetopt()](function.curl-setopt.html) - Встановлює параметр для сеансу CURL

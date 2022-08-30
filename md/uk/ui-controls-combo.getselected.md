@@ -1,12 +1,12 @@
 Отримати вибрану опцію
 
--   [« UI\\Controls\\Combo::append](ui-controls-combo.append.html)
+-   [« UIControlsCombo::append](ui-controls-combo.append.html)
     
--   [UI\\Controls\\Combo::onSelected »](ui-controls-combo.onselected.html)
+-   [ОЙControlsCombo::onSelected »](ui-controls-combo.onselected.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Combo](class.ui-controls-combo.html)
+-   [ОЙControlsCombo](class.ui-controls-combo.html)
     
 -   Отримати вибрану опцію
     

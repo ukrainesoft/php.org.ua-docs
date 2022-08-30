@@ -1,12 +1,12 @@
 Призначення offsetSet
 
--   [« Yaf\_Config\_Ini::offsetGet](yaf-config-ini.offsetget.html)
+-   [« YafConfigIni::offsetGet](yaf-config-ini.offsetget.html)
     
--   [Yaf\_Config\_Ini::offsetUnset »](yaf-config-ini.offsetunset.html)
+-   [YafConfigIni::offsetUnset »](yaf-config-ini.offsetunset.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Призначення offsetSet
     

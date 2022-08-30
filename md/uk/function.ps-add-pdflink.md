@@ -1,12 +1,12 @@
 Додає посилання на сторінку в іншому PDF-документі
 
--   [« ps\_add\_note](function.ps-add-note.html)
+-   [«psaddnote](function.ps-add-note.html)
     
--   [ps\_add\_weblink »](function.ps-add-weblink.html)
+-   [псaddweblink »](function.ps-add-weblink.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Додає посилання на сторінку в іншому PDF-документі
     
@@ -33,7 +33,7 @@ ps_add_pdflink(    resource $psdoc,    float $llx,    float $lly, �
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `llx`
 
@@ -69,6 +69,6 @@ ps_add_pdflink(    resource $psdoc,    float $llx,    float $lly, �
 
 ### Дивіться також
 
--   [ps\_add\_launchlink()](function.ps-add-launchlink.html) - Додає посилання, яке запускає файл
--   [ps\_add\_locallink()](function.ps-add-locallink.html) - Додає посилання на сторінку того самого документа
--   [ps\_add\_weblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку
+-   [псaddlaunchlink()](function.ps-add-launchlink.html) - Додає посилання, яке запускає файл
+-   [псaddlocallink()](function.ps-add-locallink.html) - Додає посилання на сторінку того самого документа
+-   [псaddweblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку

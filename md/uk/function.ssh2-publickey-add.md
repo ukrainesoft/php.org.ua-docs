@@ -1,12 +1,12 @@
 Додає авторизований відкритий ключ
 
--   [« ssh2\_poll](function.ssh2-poll.html)
+-   [« ssh2poll](function.ssh2-poll.html)
     
--   [ssh2\_publickey\_init »](function.ssh2-publickey-init.html)
+-   [ssh2publickeyinit »](function.ssh2-publickey-init.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Додає авторизований відкритий ключ
     
@@ -23,13 +23,13 @@ ssh2publickeyadd — Додає авторизований відкритий к
 ssh2_publickey_add(    resource $pkey,    string $algoname,    string $blob,    bool $overwrite = false,    array $attributes = ?): bool
 ```
 
-> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2\_auth\_pubkey\_file()](function.ssh2-auth-pubkey-file.html)
+> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2authpubkeyfile()](function.ssh2-auth-pubkey-file.html)
 
 ### Список параметрів
 
 `pkey`
 
-Ресурс підсистеми відкритого ключа, створений за допомогою [ssh2\_publickey\_init()](function.ssh2-publickey-init.html)
+Ресурс підсистеми відкритого ключа, створений за допомогою [ssh2publickeyinit()](function.ssh2-publickey-init.html)
 
 `algoname`
 
@@ -73,6 +73,6 @@ ssh2_publickey_add($pkey, 'ssh-rsa', $keyblob, false, array('comment'=>"John
 
 ### Дивіться також
 
--   [ssh2\_publickey\_init()](function.ssh2-publickey-init.html) - Ініціалізує підсистему відкритого ключа
--   [ssh2\_publickey\_remove()](function.ssh2-publickey-remove.html) - Видаляє авторизований відкритий ключ
--   [ssh2\_publickey\_list()](function.ssh2-publickey-list.html) - Список вже авторизованих відкритих ключів
+-   [ssh2publickeyinit()](function.ssh2-publickey-init.html) - Ініціалізує підсистему відкритого ключа
+-   [ssh2publickeyremove()](function.ssh2-publickey-remove.html) - Видаляє авторизований відкритий ключ
+-   [ssh2publickeylist()](function.ssh2-publickey-list.html) - Список вже авторизованих відкритих ключів

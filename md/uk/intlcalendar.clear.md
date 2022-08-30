@@ -2,7 +2,7 @@
 
 -   [« IntlCalendar::before](intlcalendar.before.html)
     
--   [IntlCalendar::\_\_construct »](intlcalendar.construct.html)
+-   [IntlCalendar::construct »](intlcalendar.construct.html)
     
 -   [PHP Manual](index.html)
     

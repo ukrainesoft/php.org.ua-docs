@@ -1,6 +1,6 @@
 Створює зупинений спостерігач EvPeriodic
 
--   [« EvPeriodic::\_\_construct](evperiodic.construct.html)
+-   [« EvPeriodic::construct](evperiodic.construct.html)
     
 -   [EvPeriodic::set »](evperiodic.set.html)
     
@@ -46,25 +46,25 @@ final
    ): EvPeriodic
 ```
 
-Створює зупинений спостерігач EvPeriodic. На відміну від [EvPeriodic::\_\_construct()](evperiodic.construct.html), цей метод не запускає спостерігача автоматично.
+Створює зупинений спостерігач EvPeriodic. На відміну від [EvPeriodic::construct()](evperiodic.construct.html), цей метод не запускає спостерігача автоматично.
 
 ### Список параметрів
 
 `offset`
 
-Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `interval`
 
-Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `reschedule_cb`
 
-Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `callback`
 
-Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -72,7 +72,7 @@ final
 
 `priority`
 
-[Приоритет наблюдателей](class.ev.html#ev.constants.watcher-pri)
+[Пріоритет спостерігачів](class.ev.html#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -80,5 +80,5 @@ final
 
 ### Дивіться також
 
--   [EvPeriodic::\_\_construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
 -   [EvTimer::createStopped()](evtimer.createstopped.html) - створює зупинений спостерігач EvTimer

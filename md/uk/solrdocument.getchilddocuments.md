@@ -1,6 +1,6 @@
 Повертає масив дочірніх документів (SolrDocument)
 
--   [« SolrDocument::\_\_get](solrdocument.get.html)
+-   [« SolrDocument::get](solrdocument.get.html)
     
 -   [SolrDocument::getChildDocumentsCount »](solrdocument.getchilddocumentscount.html)
     

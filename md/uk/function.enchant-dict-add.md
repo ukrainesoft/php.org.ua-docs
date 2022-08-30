@@ -1,8 +1,8 @@
 Додає слово до особистого словника
 
--   [« enchant\_dict\_add\_to\_session](function.enchant-dict-add-to-session.html)
+-   [« enchantdictaddтоsession](function.enchant-dict-add-to-session.html)
     
--   [enchant\_dict\_check »](function.enchant-dict-check.html)
+-   [enchantdictcheck »](function.enchant-dict-check.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
 
@@ -65,5 +65,5 @@ enchant_broker_free($broker);
 
 ### Дивіться також
 
--   [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL
--   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
+-   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег

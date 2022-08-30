@@ -2,7 +2,7 @@
 
 -   [« DOMEntity](class.domentity.html)
     
--   [DOMEntityReference::\_\_construct »](domentityreference.construct.html)
+-   [DOMEntityReference::construct »](domentityreference.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -127,4 +127,4 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Зміст
 
--   [DOMEntityReference::\_\_construct](domentityreference.construct.html) — Створює новий об'єкт класу DOM Entity Reference
+-   [DOMEntityReference::construct](domentityreference.construct.html) — Створює новий об'єкт класу DOM Entity Reference

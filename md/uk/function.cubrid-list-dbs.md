@@ -1,12 +1,12 @@
 Отримати масив зі списком усіх баз даних CUBRID
 
--   [« cubrid\_field\_type](function.cubrid-field-type.html)
+-   [« cubridfieldtype](function.cubrid-field-type.html)
     
--   [cubrid\_num\_fields »](function.cubrid-num-fields.html)
+-   [cubridnumfields »](function.cubrid-num-fields.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати масив зі списком усіх баз даних CUBRID
     

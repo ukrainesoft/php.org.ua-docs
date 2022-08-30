@@ -1,6 +1,6 @@
 Повертає мітки, на яких навчалася модель
 
--   [« SVMModel::\_\_construct](svmmodel.construct.html)
+-   [« SVMModel::construct](svmmodel.construct.html)
     
 -   [SVMModel::getNrClass »](svmmodel.getnrclass.html)
     

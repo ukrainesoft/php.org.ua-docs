@@ -1,12 +1,12 @@
 Конструктор класу Heading
 
--   [« CommonMark\\Node\\Heading](class.commonmark-node-heading.html)
+-   [« CommonMarkNodeHeading](class.commonmark-node-heading.html)
     
--   [CommonMark\\Node\\Paragraph »](class.commonmark-node-paragraph.html)
+-   [CommonMarkNodeParagraph »](class.commonmark-node-paragraph.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node\\Heading](class.commonmark-node-heading.html)
+-   [CommonMarkNodeHeading](class.commonmark-node-heading.html)
     
 -   Конструктор класу Heading
     

@@ -1,12 +1,12 @@
 Повертає стандартне відхилення
 
--   [« stats\_skew](function.stats-skew.html)
+-   [« statsskew](function.stats-skew.html)
     
--   [stats\_stat\_binomial\_coef »](function.stats-stat-binomial-coef.html)
+-   [statsstatbinomialcoef »](function.stats-stat-binomial-coef.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає стандартне відхилення
     

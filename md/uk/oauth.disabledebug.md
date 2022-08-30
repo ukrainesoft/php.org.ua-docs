@@ -1,6 +1,6 @@
 Вимкнути докладну налагоджувальну інформацію
 
--   [« OAuth::\_\_destruct](oauth.destruct.html)
+-   [« OAuth::destruct](oauth.destruct.html)
     
 -   [OAuth::disableRedirects »](oauth.disableredirects.html)
     

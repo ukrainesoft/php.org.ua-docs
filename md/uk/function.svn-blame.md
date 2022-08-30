@@ -1,12 +1,12 @@
 Построчно виводить автора та редакцію для файлу
 
--   [« svn\_auth\_set\_parameter](function.svn-auth-set-parameter.html)
+-   [« svnauthsetparameter](function.svn-auth-set-parameter.html)
     
--   [svn\_cat »](function.svn-cat.html)
+-   [svncat »](function.svn-cat.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Построчно виводить автора та редакцію для файлу
     
@@ -71,6 +71,6 @@ Array
 
 ### Дивіться також
 
--   [svn\_diff()](function.svn-diff.html) - Рекурсивно показує різницю двох файлів
+-   [svndiff()](function.svn-diff.html) - Рекурсивно показує різницю двох файлів
 -   **svnlogs()**
--   [svn\_status()](function.svn-status.html) - Повертає SVN-статус файлів та директорій робочої копії
+-   [svnstatus()](function.svn-status.html) - Повертає SVN-статус файлів та директорій робочої копії

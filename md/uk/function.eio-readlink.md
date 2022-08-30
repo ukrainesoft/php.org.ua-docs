@@ -1,8 +1,8 @@
 Читає значення символічного посилання
 
--   [« eio\_readdir](function.eio-readdir.html)
+-   [« eioreaddir](function.eio-readdir.html)
     
--   [eio\_realpath »](function.eio-realpath.html)
+-   [eiorealpath »](function.eio-realpath.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,7 +51,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -113,4 +113,4 @@ string(16) "/tmp/symlink.dat"
 
 ### Дивіться також
 
--   [eio\_symlink()](function.eio-symlink.html) - Створює символічне посилання
+-   [eiosymlink()](function.eio-symlink.html) - Створює символічне посилання

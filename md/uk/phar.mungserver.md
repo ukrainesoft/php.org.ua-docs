@@ -25,7 +25,7 @@ final public static Phar::mungServer(array $variables): void
 
 Функція **Phar::mungServer()** повинна викликатися лише у завантажувачі.
 
-Визначає список до чотирьох [$\_SERVER](reserved.variables.server.html)змінних, які потрібно модифікувати для запуску. Модифікація полягає у видаленні слідів запуску з phar-архіву для змінних `REQUEST_URI` `PHP_SELF` `SCRIPT_NAME` і `SCRIPT_FILENAME`
+Визначає список до чотирьох [SERVER](reserved.variables.server.html)змінних, які потрібно модифікувати для запуску. Модифікація полягає у видаленні слідів запуску з phar-архіву для змінних `REQUEST_URI` `PHP_SELF` `SCRIPT_NAME` і `SCRIPT_FILENAME`
 
 Сам собою цей метод нічого не робить. Ефект досягається тільки в комбінації з [Phar::webPhar()](phar.webphar.html) і лише якщо запитаний файл є PHP-файлом для аналізу. Зверніть увагу, що змінні `PATH_INFO` і `PATH_TRANSLATED` завжди модифіковані.
 

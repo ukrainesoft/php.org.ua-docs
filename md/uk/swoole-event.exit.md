@@ -1,12 +1,12 @@
 Виходить із циклу подій, доступно лише на стороні клієнта
 
--   [« Swoole\\Event::del](swoole-event.del.html)
+-   [« SwooleEvent::del](swoole-event.del.html)
     
--   [Swoole\\Event::set »](swoole-event.set.html)
+-   [SwooleEvent::set »](swoole-event.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Виходить із циклу подій, доступно лише на стороні клієнта
     

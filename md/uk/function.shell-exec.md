@@ -1,6 +1,6 @@
 Виконати команду через оболонку та повернути висновок у вигляді рядка
 
--   [« proc\_terminate](function.proc-terminate.html)
+-   [« procterminate](function.proc-terminate.html)
     
 -   [system »](function.system.html)
     
@@ -45,7 +45,7 @@ shell_exec(string $command): string|false|null
 
 ### Помилки
 
-Видається помилка рівня **`E_WARNING`**коли канал не може бути встановлений.
+Видається помилка рівня \*\*`E_WARNING`\*\*коли канал не може бути встановлений.
 
 ### Приклади
 

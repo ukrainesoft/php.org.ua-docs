@@ -1,12 +1,12 @@
 Створює новий об'єкт Picker
 
--   [« UI\\Controls\\Picker](class.ui-controls-picker.html)
+-   [« UIControlsPicker](class.ui-controls-picker.html)
     
--   [UI\\Controls\\Form »](class.ui-controls-form.html)
+-   [ОЙControlsForm »](class.ui-controls-form.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Picker](class.ui-controls-picker.html)
+-   [ОЙControlsPicker](class.ui-controls-picker.html)
     
 -   Створює новий об'єкт Picker
     

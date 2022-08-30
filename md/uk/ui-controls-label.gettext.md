@@ -1,12 +1,12 @@
 Отримати текст
 
--   [« UI\\Controls\\Label::\_\_construct](ui-controls-label.construct.html)
+-   [« UIControlsLabel::construct](ui-controls-label.construct.html)
     
--   [UI\\Controls\\Label::setText »](ui-controls-label.settext.html)
+-   [ОЙControlsLabel::setText »](ui-controls-label.settext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Label](class.ui-controls-label.html)
+-   [ОЙControlsLabel](class.ui-controls-label.html)
     
 -   Отримати текст
     

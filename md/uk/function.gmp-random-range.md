@@ -1,12 +1,12 @@
 Випадкове число
 
--   [« gmp\_random\_bits](function.gmp-random-bits.html)
+-   [« gmprandombits](function.gmp-random-bits.html)
     
--   [gmp\_random\_seed »](function.gmp-random-seed.html)
+-   [gmprandomseed »](function.gmp-random-seed.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Випадкове число
     

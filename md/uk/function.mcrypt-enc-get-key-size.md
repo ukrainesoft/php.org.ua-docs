@@ -1,8 +1,8 @@
 Повертає максимальну допустиму довжину ключа алгоритму
 
--   [« mcrypt\_enc\_get\_iv\_size](function.mcrypt-enc-get-iv-size.html)
+-   [« mcryptencgetвербsize](function.mcrypt-enc-get-iv-size.html)
     
--   [mcrypt\_enc\_get\_modes\_name »](function.mcrypt-enc-get-modes-name.html)
+-   [mcryptencgetmodesname »](function.mcrypt-enc-get-modes-name.html)
     
 -   [PHP Manual](index.html)
     

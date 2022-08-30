@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](ctype.resources.html)
     
--   [Функции Ctype »](ref.ctype.html)
+-   [Опції Ctype »](ref.ctype.html)
     
 -   [PHP Manual](index.html)
     

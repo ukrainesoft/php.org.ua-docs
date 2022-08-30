@@ -2,7 +2,7 @@
 
 -   [« SolrQueryResponse](class.solrqueryresponse.html)
     
--   [SolrQueryResponse::\_\_destruct »](solrqueryresponse.destruct.html)
+-   [SolrQueryResponse::destruct »](solrqueryresponse.destruct.html)
     
 -   [PHP Manual](index.html)
     

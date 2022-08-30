@@ -1,8 +1,8 @@
 Повертає кількість елементів колекції
 
--   [« Ds\\Map::copy](ds-map.copy.html)
+-   [« DsMap::copy](ds-map.copy.html)
     
--   [Ds\\Map::diff »](ds-map.diff.html)
+-   [ДсMap::diff »](ds-map.diff.html)
     
 -   [PHP Manual](index.html)
     

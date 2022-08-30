@@ -1,8 +1,8 @@
 Експортує сумісний з PKCS#12 файл сховища сертифікатів у змінну
 
--   [« openssl\_pkcs12\_export\_to\_file](function.openssl-pkcs12-export-to-file.html)
+-   [« opensslpkcs12exportтоfile](function.openssl-pkcs12-export-to-file.html)
     
--   [openssl\_pkcs12\_read »](function.openssl-pkcs12-read.html)
+-   [opensslpkcs12read »](function.openssl-pkcs12-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    str
 
 `private_key`
 
-Компонент закритого ключа PKCS#12. Список допустимих значень дивіться на сторінці [параметров открытого/закрытого ключа](openssl.certparams.html)
+Компонент закритого ключа PKCS#12. Список допустимих значень дивіться на сторінці [параметрів відкритого/закритого ключа](openssl.certparams.html)
 
 `passphrase`
 

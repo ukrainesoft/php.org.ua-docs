@@ -1,12 +1,12 @@
 Розбирає URL та повертає його компоненти
 
--   [« http\_build\_query](function.http-build-query.html)
+-   [httpbuildquery](function.http-build-query.html)
     
 -   [rawurldecode »](function.rawurldecode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   Розбирає URL та повертає його компоненти
     
@@ -63,7 +63,7 @@ http://example.com/foo?# → query = "",   fragment = ""
 
 Раніше у всіх випадках запит та фрагмент були **`null`**
 
-Зверніть увагу, що символи керування (дивіться [ctype\_cntrl()](function.ctype-cntrl.html)) у компонентах замінюються підкресленням (`_`
+Зверніть увагу, що символи керування (дивіться [ctypecntrl()](function.ctype-cntrl.html)) у компонентах замінюються підкресленням (`_`
 
 ### список змін
 
@@ -150,7 +150,7 @@ array(3) {
 
 **Застереження**
 
-Функція може видати некоректні результати для відносних або недійсних URL-адрес і результати можуть навіть не відповідати загальному поведінці HTTP-клієнтів. Якщо потрібно проаналізувати URL-адреси з ненадійних вхідних даних, потрібна додаткова перевірка, наприклад, за допомогою [filter\_var()](function.filter-var.html) з фільтром **`FILTER_VALIDATE_URL`**
+Функція може видати некоректні результати для відносних або недійсних URL-адрес і результати можуть навіть не відповідати загальному поведінці HTTP-клієнтів. Якщо потрібно проаналізувати URL-адреси з ненадійних вхідних даних, потрібна додаткова перевірка, наприклад, за допомогою [filtervar()](function.filter-var.html) з фільтром **`FILTER_VALIDATE_URL`**
 
 > **Зауваження**
 > 
@@ -159,8 +159,8 @@ array(3) {
 ### Дивіться також
 
 -   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
--   [parse\_str()](function.parse-str.html) - Розбирає рядок у змінні
--   [http\_build\_query()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
+-   [parsestr()](function.parse-str.html) - Розбирає рядок у змінні
+-   [httpbuildquery()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
 -   [dirname()](function.dirname.html) - Повертає ім'я батьківського каталогу із зазначеного шляху
 -   [basename()](function.basename.html) - Повертає останній компонент імені із зазначеного шляху
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

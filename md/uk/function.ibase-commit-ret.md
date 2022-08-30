@@ -1,8 +1,8 @@
 Фіксує транзакцію, не закриваючи її
 
--   [« ibase\_close](function.ibase-close.html)
+-   [« ibaseclose](function.ibase-close.html)
     
--   [ibase\_commit »](function.ibase-commit.html)
+-   [ibasecommit »](function.ibase-commit.html)
     
 -   [PHP Manual](index.html)
     

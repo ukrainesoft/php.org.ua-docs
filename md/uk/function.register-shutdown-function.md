@@ -1,8 +1,8 @@
 Реєструє функцію, яка виконається після завершення роботи скрипту
 
--   [« get\_defined\_functions](function.get-defined-functions.html)
+-   [« getdefinedfunctions](function.get-defined-functions.html)
     
--   [register\_tick\_function »](function.register-tick-function.html)
+-   [registertickfunction »](function.register-tick-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ register_shutdown_function(callable $callback, mixed ...$args): ?bool
 
 Реєструє функцію `callback`, яка виконається після завершення роботи скрипта або під час виклику функції [exit()](function.exit.html)
 
-Можлива реєстрація кількох подібних функцій за допомогою **registershutdownfunction()**При цьому функції будуть виконуватися в тому порядку, в якому вони були зареєстровані. Якщо ви викликаєте [exit()](function.exit.html) в одній із зареєстрованих завершальних функцій процес буде повністю зупинено і наступні завершальні функції не будуть викликані.
+Можлива реєстрація кількох подібних функцій за допомогою \*\*registershutdownfunction()\*\*При цьому функції будуть виконуватися в тому порядку, в якому вони були зареєстровані. Якщо ви викликаєте [exit()](function.exit.html) в одній із зареєстрованих завершальних функцій процес буде повністю зупинено і наступні завершальні функції не будуть викликані.
 
 Завершальні функції також можуть викликати самі **registershutdownfunction()**, щоб додати функцію вимкнення на кінець черги.
 
@@ -76,15 +76,15 @@ register_shutdown_function('shutdown');
 
 > **Зауваження**
 > 
-> Функції, які виконуються при завершенні скрипту, не будуть виконані, якщо процес був убитий із сигналами SIGTERM або SIGKILL. Хоча ви не можете перехопити SIGKILL, але ви можете використовувати функцію [pcntl\_signal()](function.pcntl-signal.html), щоб задати обробник сигналу SIGTERM, який використовує функцію [exit()](function.exit.html), щоб завершити скрипт правильно.
+> Функції, які виконуються при завершенні скрипту, не будуть виконані, якщо процес був убитий із сигналами SIGTERM або SIGKILL. Хоча ви не можете перехопити SIGKILL, але ви можете використовувати функцію [pcntlsignal()](function.pcntl-signal.html), щоб задати обробник сигналу SIGTERM, який використовує функцію [exit()](function.exit.html), щоб завершити скрипт правильно.
 
 > **Зауваження**
 > 
-> Завершальні функції виконуються окремо від часу, що відстежується [max\_execution\_time](info.configuration.html#ini.max-execution-time). Це означає, що навіть якщо процес буде завершено через занадто довге виконання, завершальні функції все одно будуть викликані. Крім того, якщо `max_execution_time` закінчується під час роботи завершальної функції, процес не буде завершено.
+> Завершальні функції виконуються окремо від часу, що відстежується [maxexecutiontime](info.configuration.html#ini.max-execution-time). Це означає, що навіть якщо процес буде завершено через занадто довге виконання, завершальні функції все одно будуть викликані. Крім того, якщо `max_execution_time` закінчується під час роботи завершальної функції, процес не буде завершено.
 
 ### Дивіться також
 
--   [auto\_append\_file](ini.core.html#ini.auto-append-file)
+-   [autoappendfile](ini.core.html#ini.auto-append-file)
 -   [exit()](function.exit.html) - Вивести повідомлення та припинити виконання поточного скрипту
--   [fastcgi\_finish\_request()](function.fastcgi-finish-request.html) - скидає всі запитані дані клієнту
+-   [fastcgifinishrequest()](function.fastcgi-finish-request.html) - скидає всі запитані дані клієнту
 -   Розділ [Обработка соединений](features.connection-handling.html)

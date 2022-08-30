@@ -1,12 +1,12 @@
 Вступ
 
--   [« Контроль вывода](book.outcontrol.html)
+-   [« Контроль висновку](book.outcontrol.html)
     
 -   [Установка и настройка »](outcontrol.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Контроль вывода](book.outcontrol.html)
+-   [Контроль виведення](book.outcontrol.html)
     
 -   Вступ
     

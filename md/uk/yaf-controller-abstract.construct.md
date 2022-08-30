@@ -1,12 +1,12 @@
 Конструктор класу YafControllerAbstract
 
--   [« Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [« YafControllerAbstract](class.yaf-controller-abstract.html)
     
--   [Yaf\_Controller\_Abstract::display »](yaf-controller-abstract.display.html)
+-   [YafControllerAbstract::display »](yaf-controller-abstract.display.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Конструктор класу YafControllerAbstract
     
@@ -21,7 +21,7 @@ YafControllerAbstract::construct - Конструктор класу YafControll
 
 final private **YafControllerAbstract::construct**
 
-**YafControllerAbstract::construct()** - Остаточний (final) метод і не може бути перевизначений. Ви можете подивитися натомість [Yaf\_Controller\_Abstract::init()](yaf-controller-abstract.init.html)
+**YafControllerAbstract::construct()** - Остаточний (final) метод і не може бути перевизначений. Ви можете подивитися натомість [YafControllerAbstract::init()](yaf-controller-abstract.init.html)
 
 ### Список параметрів
 
@@ -31,4 +31,4 @@ final private **YafControllerAbstract::construct**
 
 ### Дивіться також
 
--   [Yaf\_Controller\_Abstract::init()](yaf-controller-abstract.init.html) - Ініціалізатор контролера
+-   [YafControllerAbstract::init()](yaf-controller-abstract.init.html) - Ініціалізатор контролера

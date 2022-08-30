@@ -1,8 +1,8 @@
 Серіалізує об'єкт HashContext
 
--   [« HashContext::\_\_construct](hashcontext.construct.html)
+-   [« HashContext::construct](hashcontext.construct.html)
     
--   [HashContext::\_\_unserialize »](hashcontext.unserialize.html)
+-   [HashContext::unserialize »](hashcontext.unserialize.html)
     
 -   [PHP Manual](index.html)
     

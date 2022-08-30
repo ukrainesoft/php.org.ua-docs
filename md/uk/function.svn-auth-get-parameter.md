@@ -1,12 +1,12 @@
 Повертає параметр автентифікації
 
--   [« svn\_add](function.svn-add.html)
+-   [« svnadd](function.svn-add.html)
     
--   [svn\_auth\_set\_parameter »](function.svn-auth-set-parameter.html)
+-   [svnauthsetparameter »](function.svn-auth-set-parameter.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає параметр автентифікації
     
@@ -29,11 +29,11 @@ svn_auth_get_parameter(string $key): string
 
 `key`
 
-Ім'я ключа (рядок). Щоб вказати ключ, використовуйте [список констант аутентификации](svn.constants.html#svn.constants.auth), Визначений даним модулем.
+Ім'я ключа (рядок). Щоб вказати ключ, використовуйте [список констант аутентифікації](svn.constants.html#svn.constants.auth), Визначений даним модулем.
 
 ### Значення, що повертаються
 
-Повертає значення параметра за ключем `key` у вигляді рядка, або **`null`**якщо параметр не існує.
+Повертає значення параметра за ключем `key` у вигляді рядка, або \*\*`null`\*\*якщо параметр не існує.
 
 ### Примітки
 
@@ -43,5 +43,5 @@ svn_auth_get_parameter(string $key): string
 
 ### Дивіться також
 
--   [svn\_auth\_set\_parameter()](function.svn-auth-set-parameter.html) - Встановлює параметр автентифікації
--   [Константы аутентификации](svn.constants.html#svn.constants.auth)
+-   [svnauthsetparameter()](function.svn-auth-set-parameter.html) - Встановлює параметр автентифікації
+-   [Константи аутентифікації](svn.constants.html#svn.constants.auth)

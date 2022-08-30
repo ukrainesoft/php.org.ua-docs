@@ -29,4 +29,4 @@ public Fiber::isRunning(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** тільки якщо файбер працює. Файбер вважається працюючим після виклику [Fiber::start()](fiber.start.html) [Fiber::resume()](fiber.resume.html) або [Fiber::throw()](fiber.throw.html), який ще не повернуто. Повертає **`false`**якщо файбер не працює.
+Повертає **`true`** тільки якщо файбер працює. Файбер вважається працюючим після виклику [Fiber::start()](fiber.start.html) [Fiber::resume()](fiber.resume.html) або [Fiber::throw()](fiber.throw.html), який ще не повернуто. Повертає \*\*`false`\*\*якщо файбер не працює.

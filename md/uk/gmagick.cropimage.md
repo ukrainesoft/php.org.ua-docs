@@ -1,6 +1,6 @@
 Обрізає зображення
 
--   [« Gmagick::\_\_construct](gmagick.construct.html)
+-   [« Gmagick::construct](gmagick.construct.html)
     
 -   [Gmagick::cropthumbnailimage »](gmagick.cropthumbnailimage.html)
     

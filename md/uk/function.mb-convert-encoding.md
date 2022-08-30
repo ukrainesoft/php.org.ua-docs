@@ -1,12 +1,12 @@
 Перетворює рядок з одного кодування символів на інший
 
--   [« mb\_convert\_case](function.mb-convert-case.html)
+-   [« mbconvertcase](function.mb-convert-case.html)
     
--   [mb\_convert\_kana »](function.mb-convert-kana.html)
+-   [мбconvertkana »](function.mb-convert-kana.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Перетворює рядок з одного кодування символів на інший
     
@@ -37,11 +37,11 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 `from_encoding`
 
-Поточне кодування, яке використовується для інтерпретації рядка `string`. Декілька кодувань можуть бути вказані у вигляді масиву (array) або у вигляді рядка через кому, в цьому випадку правильне кодування буде визначено за тим же алгоритмом, що і функції [mb\_detect\_encoding()](function.mb-detect-encoding.html)
+Поточне кодування, яке використовується для інтерпретації рядка `string`. Декілька кодувань можуть бути вказані у вигляді масиву (array) або у вигляді рядка через кому, в цьому випадку правильне кодування буде визначено за тим же алгоритмом, що і функції [мбdetectencoding()](function.mb-detect-encoding.html)
 
-Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде використовуватися [mbstring.internal\_encoding setting](mbstring.configuration.html#ini.mbstring.internal-encoding)якщо вона встановлена, інакше [кодировка по умолчанию](ini.core.html#ini.default-charset)
+Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде використовуватися [mbstring.internalencoding setting](mbstring.configuration.html#ini.mbstring.internal-encoding)якщо вона встановлена, інакше [кодировка по умолчанию](ini.core.html#ini.default-charset)
 
-Допустимі значення `to_encoding` і `from_encoding` вказані на сторінці [поддерживаемые кодировки](mbstring.supported-encodings.html)
+Допустимі значення `to_encoding` і `from_encoding` вказані на сторінці [кодування, що підтримуються](mbstring.supported-encodings.html)
 
 ### Значення, що повертаються
 
@@ -82,6 +82,6 @@ $str = mb_convert_encoding($str, "EUC-JP", "auto");
 
 ### Дивіться також
 
--   [mb\_detect\_order()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
 -   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

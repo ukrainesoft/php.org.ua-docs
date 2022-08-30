@@ -49,7 +49,7 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 `style`
 
-Стиль форматування, одна з констант [стиля форматирования](class.numberformatter.html#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.html#details)відповідно.
+Стиль форматування, одна з констант [стилю форматування](class.numberformatter.html#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.html#details)відповідно.
 
 `pattern`
 
@@ -98,5 +98,5 @@ millicentoquarantadue
 
 ### Дивіться також
 
--   [numfmt\_format()](numberformatter.format.html) - Форматує число
--   [numfmt\_parse()](numberformatter.parse.html) - Розбирає число
+-   [numfmtformat()](numberformatter.format.html) - Форматує число
+-   [numfmtparse()](numberformatter.parse.html) - Розбирає число

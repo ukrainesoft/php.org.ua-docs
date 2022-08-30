@@ -1,12 +1,12 @@
 Додає елемент до реєстру
 
--   [« Yaf\_Registry::has](yaf-registry.has.html)
+-   [« YafRegistry::has](yaf-registry.has.html)
     
--   [Yaf\_Request\_Abstract »](class.yaf-request-abstract.html)
+-   [YafRequestAbstract »](class.yaf-request-abstract.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Registry](class.yaf-registry.html)
+-   [YafRegistry](class.yaf-registry.html)
     
 -   Додає елемент до реєстру
     

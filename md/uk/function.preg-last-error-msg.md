@@ -1,8 +1,8 @@
 Повертає повідомлення про помилку останньої запущеної функції PCRE
 
--   [« preg\_grep](function.preg-grep.html)
+-   [« preggrep](function.preg-grep.html)
     
--   [preg\_last\_error »](function.preg-last-error.html)
+-   [preglasterror »](function.preg-last-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,4 +57,4 @@ Backtrack limit exhausted
 
 ### Дивіться також
 
--   [preg\_last\_error()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE

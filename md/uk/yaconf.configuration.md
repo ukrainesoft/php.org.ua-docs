@@ -17,10 +17,10 @@
 
 **Опції налаштування Yaconf**
 
-| Имя                                                                     | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [yaconf.check\_delay](yaconf.configuration.html#ini.yaconf.check-delay) |              | PHPINISYSTEM    |                  |
-| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory)      | /tmp/conf/   | PHPINISYSTEM    |                  |
+| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------------------------------|--------------|-----------------|------------------|
+| [yaconf.checkdelay](yaconf.configuration.html#ini.yaconf.check-delay) |              | PHPINISYSTEM    |                  |
+| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory)    | /tmp/conf/   | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 

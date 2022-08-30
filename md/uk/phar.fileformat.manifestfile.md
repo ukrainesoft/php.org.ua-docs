@@ -1,12 +1,12 @@
 Опис запису файлу в маніфесті Phar
 
--   [« Флаги глобальной битовой карты Phar](phar.fileformat.flags.html)
+-   [« Прапори глобальної бітової карти Phar](phar.fileformat.flags.html)
     
 -   [Формат подписи Phar »](phar.fileformat.signature.html)
     
 -   [PHP Manual](index.html)
     
--   [Чем отличается phar от tar- или zip-архива?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
     
 -   Опис запису файлу в маніфесті Phar
     

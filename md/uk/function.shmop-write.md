@@ -1,12 +1,12 @@
 Запис даних у пам'ять, що розділяється
 
--   [« shmop\_size](function.shmop-size.html)
+-   [« shmopsize](function.shmop-size.html)
     
 -   [Shmop »](class.shmop.html)
     
 -   [PHP Manual](index.html)
     
--   [Разделяемая (shared) память](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared)](ref.shmop.html)
     
 -   Запис даних у пам'ять, що розділяється
     
@@ -29,7 +29,7 @@ shmop_write(Shmop $shmop, string $data, int $offset): int
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmop\_open()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
 
 `data`
 
@@ -64,4 +64,4 @@ $shm_bytes_written = shmop_write($shm_id, $my_string, 0);
 
 ### Дивіться також
 
--   [shmop\_read()](function.shmop-read.html) - Читання даних з ділянки пам'яті, що розділяється
+-   [shmopread()](function.shmop-read.html) - Читання даних з ділянки пам'яті, що розділяється

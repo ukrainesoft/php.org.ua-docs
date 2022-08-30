@@ -1,12 +1,12 @@
 Отримати останнє повідомлення про помилку
 
--   [« rrd\_create](function.rrd-create.html)
+-   [« rrdcreate](function.rrd-create.html)
     
--   [rrd\_fetch »](function.rrd-fetch.html)
+-   [rrdfetch »](function.rrd-fetch.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Отримати останнє повідомлення про помилку
     

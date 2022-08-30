@@ -1,12 +1,12 @@
 Застосувати зміни до документа XML
 
--   [« XMLDiff\\File::diff](xmldiff-file.diff.html)
+-   [« XMLDiffFile::diff](xmldiff-file.diff.html)
     
 -   [Разбор XML »](book.xml.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\File](class.xmldiff-file.html)
+-   [XMLDiffFile](class.xmldiff-file.html)
     
 -   Застосувати зміни до документа XML
     

@@ -1,8 +1,8 @@
 MQSeries MQOPEN
 
--   [« mqseries\_inq](function.mqseries-inq.html)
+-   [« mqseriesinq](function.mqseries-inq.html)
     
--   [mqseries\_put1 »](function.mqseries-put1.html)
+-   [mqseriesput1 »](function.mqseries-put1.html)
     
 -   [PHP Manual](index.html)
     
@@ -82,4 +82,4 @@ mqseries_open(    resource $hconn,    array &$objDesc,    int $optio
 
 ### Дивіться також
 
--   [mqseries\_close()](function.mqseries-close.html) - MQSeries MQCLOSE
+-   [mqseriesclose()](function.mqseries-close.html) - MQSeries MQCLOSE

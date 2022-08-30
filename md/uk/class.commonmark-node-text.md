@@ -1,8 +1,8 @@
 Text успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Item](class.commonmark-node-item.html)
+-   [« CommonMarkNodeItem](class.commonmark-node-item.html)
     
--   [CommonMark\\Node\\Text::\_\_construct »](commonmark-node-text.construct.html)
+-   [CommonMarkNodeText::construct »](commonmark-node-text.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -102,4 +102,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\Text::\_\_construct](commonmark-node-text.construct.html) - Конструктор класу Text
+-   [CommonMarkNodeText::construct](commonmark-node-text.construct.html) - Конструктор класу Text

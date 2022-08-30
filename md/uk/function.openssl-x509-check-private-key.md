@@ -1,8 +1,8 @@
 Перевірити, чи належить секретний ключ до сертифіката
 
--   [« openssl\_verify](function.openssl-verify.html)
+-   [« opensslverify](function.openssl-verify.html)
     
--   [openssl\_x509\_checkpurpose »](function.openssl-x509-checkpurpose.html)
+-   [opensslx509checkpurpose »](function.openssl-x509-checkpurpose.html)
     
 -   [PHP Manual](index.html)
     

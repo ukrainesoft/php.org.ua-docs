@@ -1,6 +1,6 @@
 Клас CurlHandle
 
--   [« curl\_version](function.curl-version.html)
+-   [« curlversion](function.curl-version.html)
     
 -   [CurlMultiHandle »](class.curlmultihandle.html)
     

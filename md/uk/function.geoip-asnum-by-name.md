@@ -2,7 +2,7 @@
 
 -   [« Функции GeoIP](ref.geoip.html)
     
--   [geoip\_continent\_code\_by\_name »](function.geoip-continent-code-by-name.html)
+-   [geoipcontinentcodeбname »](function.geoip-continent-code-by-name.html)
     
 -   [PHP Manual](index.html)
     

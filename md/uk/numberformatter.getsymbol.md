@@ -43,7 +43,7 @@ numfmt_get_symbol(NumberFormatter $formatter, int $symbol): string|false
 
 `symbol`
 
-Специфікатор символу, одна з констант [символов форматирования](class.numberformatter.html#intl.numberformatter-constants.unumberformatsymbol)
+Специфікатор символу, одна з констант [символів форматування](class.numberformatter.html#intl.numberformatter-constants.unumberformatsymbol)
 
 ### Значення, що повертаються
 
@@ -88,5 +88,5 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_set\_symbol()](numberformatter.setsymbol.html) - Встановлює значення символу
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtsetsymbol()](numberformatter.setsymbol.html) - Встановлює значення символу

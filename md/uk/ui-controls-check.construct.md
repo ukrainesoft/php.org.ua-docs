@@ -1,12 +1,12 @@
 Створити новий об'єкт Check
 
--   [« UI\\Controls\\Check](class.ui-controls-check.html)
+-   [« UIControlsCheck](class.ui-controls-check.html)
     
--   [UI\\Controls\\Check::getText »](ui-controls-check.gettext.html)
+-   [ОЙControlsCheck::getText »](ui-controls-check.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Check](class.ui-controls-check.html)
+-   [ОЙControlsCheck](class.ui-controls-check.html)
     
 -   Створити новий об'єкт Check
     

@@ -1,12 +1,12 @@
 Додати текст
 
--   [« UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html)
+-   [« UIControlsMultilineEntry](class.ui-controls-multilineentry.html)
     
--   [UI\\Controls\\MultilineEntry::\_\_construct »](ui-controls-multilineentry.construct.html)
+-   [ОЙControlsMultilineEntry::construct »](ui-controls-multilineentry.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html)
+-   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     
 -   Додати текст
     

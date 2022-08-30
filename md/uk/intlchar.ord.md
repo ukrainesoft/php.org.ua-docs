@@ -60,5 +60,5 @@ int(9731)
 ### Дивіться також
 
 -   [IntlChar::chr()](intlchar.chr.html) - Отримати символ Unicode за його кодом
--   [mb\_ord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
+-   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
 -   [ord()](function.ord.html) - Конвертує перший байт рядка до числа від 0 до 255

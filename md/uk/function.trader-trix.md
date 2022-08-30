@@ -1,8 +1,8 @@
 1-денна швидкість зміни (ROC) потрійний гладкою EMA
 
--   [« trader\_trima](function.trader-trima.html)
+-   [« tradertrima](function.trader-trima.html)
     
--   [trader\_tsf »](function.trader-tsf.html)
+-   [tradertsf »](function.trader-tsf.html)
     
 -   [PHP Manual](index.html)
     

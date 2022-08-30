@@ -1,12 +1,12 @@
 Повертає тип ресурсу
 
--   [« get\_resource\_id](function.get-resource-id.html)
+-   [« getresourceід](function.get-resource-id.html)
     
 -   [gettype »](function.gettype.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає тип ресурсу
     
@@ -59,4 +59,4 @@ curl
 
 ### Дивіться також
 
--   [get\_resource\_id()](function.get-resource-id.html) - Повертає цілий ідентифікатор для даного ресурсу
+-   [getresourceid()](function.get-resource-id.html) - Повертає цілий ідентифікатор для даного ресурсу

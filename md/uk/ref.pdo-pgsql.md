@@ -1,12 +1,12 @@
 Функції PostgreSQL (PDOPGSQL)
 
--   [« PDO\_ODBC DSN](ref.pdo-odbc.connection.html)
+-   [« PDOODBC DSN](ref.pdo-odbc.connection.html)
     
--   [PDO\_PGSQL DSN »](ref.pdo-pgsql.connection.html)
+-   [PDOPGSQL DSN »](ref.pdo-pgsql.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції PostgreSQL (PDOPGSQL)
     
@@ -45,7 +45,7 @@ $ ./configure --with-pdo-pgsql
 
 ## Зміст
 
--   [PDO\_PGSQL DSN](ref.pdo-pgsql.connection.html) — З'єднання з базою даних PostgreSQL
+-   [PDOPGSQL DSN](ref.pdo-pgsql.connection.html) — З'єднання з базою даних PostgreSQL
 -   [PDO::pgsqlCopyFromArray](pdo.pgsqlcopyfromarray.html) - Копіювати масив PHP в таблицю
 -   [PDO::pgsqlCopyFromFile](pdo.pgsqlcopyfromfile.html) — Копіювати дані з файлу до таблиці
 -   [PDO::pgsqlCopyToArray](pdo.pgsqlcopytoarray.html) — Вивантажити дані з таблиці до масиву PHP

@@ -1,8 +1,8 @@
 Клас parallelSync
 
--   [« parallel\\Events\\Event\\Type](class.parallel-events-event-type.html)
+-   [« parallelEventsEventType](class.parallel-events-event-type.html)
     
--   [parallel\\Sync::\_\_construct »](parallel-sync.construct.html)
+-   [parallelSync::construct »](parallel-sync.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,9 +55,9 @@ public __invoke(callable $critical)
 
 ## Зміст
 
--   [parallel\\Sync::\_\_construct](parallel-sync.construct.html) - Конструктор класу
--   [parallel\\Sync::get](parallel-sync.get.html) - Доступ
--   [parallel\\Sync::set](parallel-sync.set.html) - Доступ
--   [parallel\\Sync::wait](parallel-sync.wait.html) - Синхронізація
--   [parallel\\Sync::notify](parallel-sync.notify.html) - Синхронізація
--   [parallel\\Sync::\_\_invoke](parallel-sync.invoke.html) - Синхронізація
+-   [parallelSync::construct](parallel-sync.construct.html) - Конструктор класу
+-   [parallelSync::get](parallel-sync.get.html) - Доступ
+-   [parallelSync::set](parallel-sync.set.html) - Доступ
+-   [parallelSync::wait](parallel-sync.wait.html) - Синхронізація
+-   [parallelSync::notify](parallel-sync.notify.html) - Синхронізація
+-   [parallelSync::invoke](parallel-sync.invoke.html) - Синхронізація

@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrDocumentField::\_\_construct](solrdocumentfield.construct.html)
+-   [« SolrDocumentField::construct](solrdocumentfield.construct.html)
     
 -   [SolrObject »](class.solrobject.html)
     

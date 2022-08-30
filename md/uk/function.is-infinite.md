@@ -1,12 +1,12 @@
 Перевіряє, чи є значення нескінченним
 
--   [« is\_finite](function.is-finite.html)
+-   [« isfinite](function.is-finite.html)
     
--   [is\_nan »](function.is-nan.html)
+-   [ісnan »](function.is-nan.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Перевіряє, чи є значення нескінченним
     
@@ -37,5 +37,5 @@ is_infinite(float $num): bool
 
 ### Дивіться також
 
--   [is\_finite()](function.is-finite.html) - Перевіряє, чи є значення допустимим кінцевим числом
--   [is\_nan()](function.is-nan.html) - Перевіряє, чи є значення "не числом"
+-   [ісfinite()](function.is-finite.html) - Перевіряє, чи є значення допустимим кінцевим числом
+-   [ісnan()](function.is-nan.html) - Перевіряє, чи є значення "не числом"

@@ -1,6 +1,6 @@
 Повертає ім'я токена
 
--   [« PhpToken::\_\_construct](phptoken.construct.html)
+-   [« PhpToken::construct](phptoken.construct.html)
     
 -   [PhpToken::is »](phptoken.is.html)
     
@@ -31,7 +31,7 @@ public PhpToken::getTokenName(): ?string
 
 ### Значення, що повертаються
 
-Символ ASCII для односимвольних токенів, або ім'я однієї з констант T (дивіться [Список меток (tokens) парсера](tokens.html)), або **`null`**для невідомих токенів.
+Символ ASCII для односимвольних токенів, або ім'я однієї з констант T (дивіться [Список меток (tokens) парсера](tokens.html)), або \*\*`null`\*\*для невідомих токенів.
 
 ### Приклади
 
@@ -55,4 +55,4 @@ var_dump($token->getTokenName());   // -> NULL
 ### Дивіться також
 
 -   [PhpToken::tokenize()](phptoken.tokenize.html) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
--   [token\_name()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми
+-   [tokenname()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми

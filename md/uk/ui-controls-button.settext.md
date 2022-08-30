@@ -1,12 +1,12 @@
 Встановити текст
 
--   [« UI\\Controls\\Button::onClick](ui-controls-button.onclick.html)
+-   [« UIControlsButton::onClick](ui-controls-button.onclick.html)
     
--   [UI\\Controls\\ColorButton »](class.ui-controls-colorbutton.html)
+-   [ОЙControlsColorButton »](class.ui-controls-colorbutton.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Button](class.ui-controls-button.html)
+-   [ОЙControlsButton](class.ui-controls-button.html)
     
 -   Встановити текст
     

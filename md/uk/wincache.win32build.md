@@ -1,6 +1,6 @@
 Складання для Windows
 
--   [« wincache\_unlock](function.wincache-unlock.html)
+-   [« wincacheunlock](function.wincache-unlock.html)
     
 -   [Пререквизиты »](wincache.win32build.prereq.html)
     
@@ -16,5 +16,5 @@
 ## Зміст
 
 -   [Пререквизиты](wincache.win32build.prereq.html)
--   [Компиляция и сборка](wincache.win32build.building.html)
+-   [Компіляція та складання](wincache.win32build.building.html)
 -   [Проверка сборки](wincache.win32build.verify.html)

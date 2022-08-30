@@ -1,12 +1,12 @@
 Застосувати бінарний патч до файлу
 
--   [« xdiff\_file\_bdiff](function.xdiff-file-bdiff.html)
+-   [xdifffilebdiff](function.xdiff-file-bdiff.html)
     
--   [xdiff\_file\_diff\_binary »](function.xdiff-file-diff-binary.html)
+-   [xdifffilediffbinary »](function.xdiff-file-diff-binary.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Застосувати бінарний патч до файлу
     
@@ -23,7 +23,7 @@ xdifffilebpatch — Застосувати бінарний патч до фай
 xdiff_file_bpatch(string $file, string $patch, string $dest): bool
 ```
 
-Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі, створені як [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html) так і [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html) або їх копії.
+Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі, створені як [xdifffilebdiff()](function.xdiff-file-bdiff.html) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.html) або їх копії.
 
 ### Список параметрів
 
@@ -72,5 +72,5 @@ if ($result) {
 
 ### Дивіться також
 
--   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html) - Створити бінарний патч порівнюючи два файли
--   [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
+-   [xdifffilebdiff()](function.xdiff-file-bdiff.html) - Створити бінарний патч порівнюючи два файли
+-   [xdifffilerabdiff()](function.xdiff-file-rabdiff.html) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting

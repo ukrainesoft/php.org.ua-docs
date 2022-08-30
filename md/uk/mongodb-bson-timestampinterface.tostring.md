@@ -1,12 +1,12 @@
 Повертає рядкову виставу TimestampInterface
 
--   [« MongoDB\\BSON\\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html)
+-   [« MongoDBBSONTimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html)
     
--   [MongoDB\\BSON\\UTCDateTimeInterface »](class.mongodb-bson-utcdatetimeinterface.html)
+-   [MongoDBBSONUTCDateTimeInterface »](class.mongodb-bson-utcdatetimeinterface.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\TimestampInterface](class.mongodb-bson-timestampinterface.html)
+-   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
     
 -   Повертає рядкову виставу TimestampInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\TimestampInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Timestamp::\_\_toString()](mongodb-bson-timestamp.tostring.html) - Повертає рядкову виставу Timestamp
+-   [MongoDBBSONTimestamp::toString()](mongodb-bson-timestamp.tostring.html) - Повертає рядкову виставу Timestamp

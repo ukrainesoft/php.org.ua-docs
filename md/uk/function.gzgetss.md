@@ -66,4 +66,4 @@ gzclose($handle);
 
 -   [gzopen()](function.gzopen.html) - Відкрити gz-файл
 -   [gzgets()](function.gzgets.html) - Отримати рядок із покажчика файлу
--   [strip\_tags()](function.strip-tags.html) - Видаляє теги HTML та PHP з рядка
+-   [striptags()](function.strip-tags.html) - Видаляє теги HTML та PHP з рядка

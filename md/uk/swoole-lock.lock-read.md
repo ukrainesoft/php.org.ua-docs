@@ -1,12 +1,12 @@
 Блокує читання-запис блокування для читання
 
--   [« Swoole\\Lock::\_\_destruct](swoole-lock.destruct.html)
+-   [« SwooleLock::destruct](swoole-lock.destruct.html)
     
--   [Swoole\\Lock::lock »](swoole-lock.lock.html)
+-   [SwooleLock::lock »](swoole-lock.lock.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Блокує читання-запис блокування для читання
     

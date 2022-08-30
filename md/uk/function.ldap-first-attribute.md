@@ -1,12 +1,12 @@
 Повернути перший атрибут
 
--   [« ldap\_explode\_dn](function.ldap-explode-dn.html)
+-   [« ldapexplodeдн](function.ldap-explode-dn.html)
     
--   [ldap\_first\_entry »](function.ldap-first-entry.html)
+-   [ldapfirstentry »](function.ldap-first-entry.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Повернути перший атрибут
     
@@ -23,7 +23,7 @@ ldapfirstattribute — Повернути перший атрибут
 ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 ```
 
-Отримує перший атрибут у цьому записі. Атрибути, що залишаються, виходять послідовним викликом [ldap\_next\_attribute()](function.ldap-next-attribute.html)
+Отримує перший атрибут у цьому записі. Атрибути, що залишаються, виходять послідовним викликом [ldapnextattribute()](function.ldap-next-attribute.html)
 
 Подібно до читання записів, атрибути також читаються один за одним з окремого елемента.
 
@@ -31,15 +31,15 @@ ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fal
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `entry`
 
-Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
 
 `ber_identifier`
 
-`ber_identifier` є ідентифікатором внутрішнього покажчика осередку пам'яті. Він передається за посиланням. Також `ber_identifier` передається в [ldap\_next\_attribute()](function.ldap-next-attribute.html)яка змінює цей покажчик.
+`ber_identifier` є ідентифікатором внутрішнього покажчика осередку пам'яті. Він передається за посиланням. Також `ber_identifier` передається в [ldapnextattribute()](function.ldap-next-attribute.html)яка змінює цей покажчик.
 
 > **Зауваження**
 > 
@@ -51,12 +51,12 @@ ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fal
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                   |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html)     |
+|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [ldap\_next\_attribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату
--   [ldap\_get\_attributes()](function.ldap-get-attributes.html) - Отримує атрибути із запису у результатах пошуку
+-   [ldapnextattribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату
+-   [ldapgetattributes()](function.ldap-get-attributes.html) - Отримує атрибути із запису у результатах пошуку

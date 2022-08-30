@@ -1,12 +1,12 @@
 Клас MongoDBDriverManager
 
--   [« MongoDB\\Driver](book.mongodb.html)
+-   [« MongoDBDriver](book.mongodb.html)
     
--   [MongoDB\\Driver\\Manager::addSubscriber »](mongodb-driver-manager.addsubscriber.html)
+-   [MongoDBDriverManager::addSubscriber »](mongodb-driver-manager.addsubscriber.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverManager
     
@@ -62,9 +62,9 @@ final public startSession(?array $options = null): MongoDB\Driver\Session
 
 ## Приклади
 
-**Приклад #1 Простий приклад використання [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.html)**
+**Приклад #1 Простий приклад використання [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html)**
 
-Виводить різну інформацію про **MongoDBDriverManager** за допомогою функції [var\_dump()](function.var-dump.html). Це може бути корисним для налагодження, щоб подивитися як драйвер бачить налаштування MongoDB і які опції використовуються.
+Виводить різну інформацію про **MongoDBDriverManager** за допомогою функції [vardump()](function.var-dump.html). Це може бути корисним для налагодження, щоб подивитися як драйвер бачить налаштування MongoDB і які опції використовуються.
 
 ```php
 <?php
@@ -89,20 +89,20 @@ object(MongoDB\Driver\Manager)#1 (2) {
 
 ## Зміст
 
--   [MongoDB\\Driver\\Manager::addSubscriber](mongodb-driver-manager.addsubscriber.html) — Реєструє передплатника на подію моніторингу в даному об'єкті Manager
--   [MongoDB\\Driver\\Manager::\_\_construct](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
--   [MongoDB\\Driver\\Manager::createClientEncryption](mongodb-driver-manager.createclientencryption.html) — Створення нового об'єкта ClientEncryption
--   [MongoDB\\Driver\\Manager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.html) — Виконує одну або кілька операцій запису
--   [MongoDB\\Driver\\Manager::executeCommand](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
--   [MongoDB\\Driver\\Manager::executeQuery](mongodb-driver-manager.executequery.html) — Виконує запит до бази даних
--   [MongoDB\\Driver\\Manager::executeReadCommand](mongodb-driver-manager.executereadcommand.html) - Виконує команду бази даних, яка читає
--   [MongoDB\\Driver\\Manager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.html) — Виконує команду бази даних, яка читає та пише
--   [MongoDB\\Driver\\Manager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html) - Виконує команду бази даних, яка пише
--   [MongoDB\\Driver\\Manager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html) — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
--   [MongoDB\\Driver\\Manager::getReadConcern](mongodb-driver-manager.getreadconcern.html) — Повертає ReadConcern для Manager
--   [MongoDB\\Driver\\Manager::getReadPreference](mongodb-driver-manager.getreadpreference.html) — Повертає ReadPreference для Manager
--   [MongoDB\\Driver\\Manager::getServers](mongodb-driver-manager.getservers.html) — Повертає сервери, до яких підключено менеджера
--   [MongoDB\\Driver\\Manager::getWriteConcern](mongodb-driver-manager.getwriteconcern.html) — Повертає WriteConcern для Manager
--   [MongoDB\\Driver\\Manager::removeSubscriber](mongodb-driver-manager.removesubscriber.html) — Скасує реєстрацію передплатника на подію моніторингу на даному об'єкті Manager
--   [MongoDB\\Driver\\Manager::selectServer](mongodb-driver-manager.selectserver.html) — Вибрати сервер, який відповідає перевагам читання
--   [MongoDB\\Driver\\Manager::startSession](mongodb-driver-manager.startsession.html) — Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDBDriverManager::addSubscriber](mongodb-driver-manager.addsubscriber.html) — Реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDBDriverManager::construct](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
+-   [MongoDBDriverManager::createClientEncryption](mongodb-driver-manager.createclientencryption.html) — Створення нового об'єкта ClientEncryption
+-   [MongoDBDriverManager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.html) — Виконує одну або кілька операцій запису
+-   [MongoDBDriverManager::executeCommand](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
+-   [MongoDBDriverManager::executeQuery](mongodb-driver-manager.executequery.html) — Виконує запит до бази даних
+-   [MongoDBDriverManager::executeReadCommand](mongodb-driver-manager.executereadcommand.html) - Виконує команду бази даних, яка читає
+-   [MongoDBDriverManager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.html) — Виконує команду бази даних, яка читає та пише
+-   [MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html) - Виконує команду бази даних, яка пише
+-   [MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html) — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
+-   [MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.html) — Повертає ReadConcern для Manager
+-   [MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.html) — Повертає ReadPreference для Manager
+-   [MongoDBDriverManager::getServers](mongodb-driver-manager.getservers.html) — Повертає сервери, до яких підключено менеджера
+-   [MongoDBDriverManager::getWriteConcern](mongodb-driver-manager.getwriteconcern.html) — Повертає WriteConcern для Manager
+-   [MongoDBDriverManager::removeSubscriber](mongodb-driver-manager.removesubscriber.html) — Скасує реєстрацію передплатника на подію моніторингу на даному об'єкті Manager
+-   [MongoDBDriverManager::selectServer](mongodb-driver-manager.selectserver.html) — Вибрати сервер, який відповідає перевагам читання
+-   [MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.html) — Запуск нового клієнтського сеансу для використання з цим клієнтом

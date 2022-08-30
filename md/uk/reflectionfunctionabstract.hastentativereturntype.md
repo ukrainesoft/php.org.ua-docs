@@ -31,7 +31,7 @@ public ReflectionFunctionAbstract::hasTentativeReturnType(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо у функції є попередній тип значення, що повертається, в іншому випадку повертає **`false`**
+Повертає \*\*`true`\*\*якщо у функції є попередній тип значення, що повертається, в іншому випадку повертає **`false`**
 
 ### Приклади
 
@@ -54,4 +54,4 @@ bool(true)
 
 -   [ReflectionFunctionAbstract::getTentativeReturnType()](reflectionfunctionabstract.gettentativereturntype.html) - Повертає попередній тип значення, що повертається, пов'язаний з функцією
 -   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.html) - Перевіряє, чи має функція оголошений тип значення, що повертається
--   [Совместимость типов возвращаемых значений с внутренними классами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)
+-   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)

@@ -1,12 +1,12 @@
 Змінює ім'я стандартної дії
 
--   [« Yaf\_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.html)
+-   [« YafDispatcher::returnResponse](yaf-dispatcher.returnresponse.html)
     
--   [Yaf\_Dispatcher::setDefaultController »](yaf-dispatcher.setdefaultcontroller.html)
+-   [YafDispatcher::setDefaultController »](yaf-dispatcher.setdefaultcontroller.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Змінює ім'я стандартної дії
     

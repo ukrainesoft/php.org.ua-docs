@@ -1,8 +1,8 @@
 Реєструє callback-функцію, яка буде викликатись при публікації подій
 
--   [« ibase\_service\_detach](function.ibase-service-detach.html)
+-   [« ibaseservicedetach](function.ibase-service-detach.html)
     
--   [ibase\_trans »](function.ibase-trans.html)
+-   [ibasetrans »](function.ibase-trans.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,7 +47,7 @@ Callback-функція має повертати **`false`**, якщо обро
 
 ### Значення, що повертаються
 
-Значення, що повертається, є ресурсом події. Цей ресурс можна використовувати для звільнення обробника подій за допомогою [ibase\_free\_event\_handler()](function.ibase-free-event-handler.html)
+Значення, що повертається, є ресурсом події. Цей ресурс можна використовувати для звільнення обробника подій за допомогою [ibasefreeeventhandler()](function.ibase-free-event-handler.html)
 
 ### Приклади
 
@@ -73,5 +73,5 @@ ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");
 
 ### Дивіться також
 
--   [ibase\_free\_event\_handler()](function.ibase-free-event-handler.html) - скасовує зареєстрований обробник події
--   [ibase\_wait\_event()](function.ibase-wait-event.html) - Чекаємо, поки подія буде опублікована в базі даних
+-   [ibasefreeeventhandler()](function.ibase-free-event-handler.html) - скасовує зареєстрований обробник події
+-   [ibasewaitevent()](function.ibase-wait-event.html) - Чекаємо, поки подія буде опублікована в базі даних

@@ -1,12 +1,12 @@
 Закриває з'єднання з базою даних
 
--   [« db2\_client\_info](function.db2-client-info.html)
+-   [« db2clientinfo](function.db2-client-info.html)
     
--   [db2\_column\_privileges »](function.db2-column-privileges.html)
+-   [db2columnprivileges »](function.db2-column-privileges.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Закриває з'єднання з базою даних
     
@@ -23,9 +23,9 @@ db2close — Закриває з'єднання з базою даних
 db2_close(resource $connection): bool
 ```
 
-Функція закриває з'єднання з базою DB2, створене за допомогою [db2\_connect()](function.db2-connect.html) та повертає відповідні ресурси серверу баз даних.
+Функція закриває з'єднання з базою DB2, створене за допомогою [db2connect()](function.db2-connect.html) та повертає відповідні ресурси серверу баз даних.
 
-Якщо ви спробуєте закрити постійне з'єднання, створене за допомогою [db2\_pconnect()](function.db2-pconnect.html), запит на закриття буде проігнорований і з'єднання буде доступне для подальшого використання.
+Якщо ви спробуєте закрити постійне з'єднання, створене за допомогою [db2pconnect()](function.db2-pconnect.html), запит на закриття буде проігнорований і з'єднання буде доступне для подальшого використання.
 
 ### Список параметрів
 
@@ -61,6 +61,6 @@ if ($rc) {
 
 ### Дивіться також
 
--   [db2\_connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2\_pclose()](function.db2-pclose.html) - Закриває постійне з'єднання з базою даних
--   [db2\_pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
+-   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
+-   [db2pclose()](function.db2-pclose.html) - Закриває постійне з'єднання з базою даних
+-   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних

@@ -1,8 +1,8 @@
 Перевірка поля на значення SQL NULL
 
--   [« pg\_fetch\_row](function.pg-fetch-row.html)
+-   [« pgfetchrow](function.pg-fetch-row.html)
     
--   [pg\_field\_name »](function.pg-field-name.html)
+-   [пгfieldname »](function.pg-field-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ pg_field_is_null(PgSql\Result $result, int $row, mixed $field): int
 pg_field_is_null(PgSql\Result $result, mixed $field): int
 ```
 
-**пгfieldісnull()** перевіряє, чи містить осередок екземпляра [PgSql\\Result](class.pgsql-result.html) значення SQL `NULL`
+**пгfieldісnull()** перевіряє, чи містить осередок екземпляра [PgSqlResult](class.pgsql-result.html) значення SQL `NULL`
 
 > **Зауваження**
 > 
@@ -37,7 +37,7 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `row`
 
@@ -53,9 +53,9 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

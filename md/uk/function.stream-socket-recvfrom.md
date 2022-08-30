@@ -1,12 +1,12 @@
 Отримує дані із сокету, підключеного чи ні
 
--   [« stream\_socket\_pair](function.stream-socket-pair.html)
+-   [« streamsocketpair](function.stream-socket-pair.html)
     
--   [stream\_socket\_sendto »](function.stream-socket-sendto.html)
+-   [streamsocketsendto »](function.stream-socket-sendto.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримує дані із сокету, підключеного чи ні
     
@@ -84,10 +84,10 @@ fclose($server);
 
 > **Зауваження**
 > 
-> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.html) або [stream\_get\_line()](function.stream-get-line.html)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
+> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.html) або [streamgetline()](function.stream-get-line.html)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
 
 ### Дивіться також
 
--   [stream\_socket\_sendto()](function.stream-socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
--   [stream\_socket\_client()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [stream\_socket\_server()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketsendto()](function.stream-socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix

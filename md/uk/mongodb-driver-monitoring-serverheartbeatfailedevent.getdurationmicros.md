@@ -1,12 +1,12 @@
 Повертає тривалість heartbeat у мікросекундах
 
--   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+-   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getError »](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html)
+-   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError »](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+-   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
     
 -   Повертає тривалість heartbeat у мікросекундах
     
@@ -35,4 +35,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMi
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

@@ -1,6 +1,6 @@
 Підтримка сесій
 
--   [« Функции обратного вызова сквозного чтения кеша](memcached.callbacks.read-through.html)
+-   [Функції зворотного виклику наскрізного читання кешу](memcached.callbacks.read-through.html)
     
 -   [Memcached »](class.memcached.html)
     

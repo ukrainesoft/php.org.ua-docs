@@ -1,8 +1,8 @@
 Збільшує вказаний генератор та повертає його нове значення
 
--   [« ibase\_free\_result](function.ibase-free-result.html)
+-   [« ibasefreeresult](function.ibase-free-result.html)
     
--   [ibase\_maintain\_db »](function.ibase-maintain-db.html)
+-   [ibasemaintaindb »](function.ibase-maintain-db.html)
     
 -   [PHP Manual](index.html)
     

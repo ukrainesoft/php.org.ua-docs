@@ -1,12 +1,12 @@
 Перевіряє, чи є змінна скалярним значенням
 
--   [« is\_resource](function.is-resource.html)
+-   [« isresource](function.is-resource.html)
     
--   [is\_string »](function.is-string.html)
+-   [ісstring »](function.is-string.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи є змінна скалярним значенням
     
@@ -84,11 +84,11 @@ array(3) {
 
 ### Дивіться також
 
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [is\_real()](function.is-real.html) - Псевдонім isfloat
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісreal()](function.is-real.html) - Псевдонім isfloat
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом

@@ -1,8 +1,8 @@
 Перевіряє, чи міститься в колекції задані значення
 
--   [« Ds\\Set::\_\_construct](ds-set.construct.html)
+-   [« DsSet::construct](ds-set.construct.html)
     
--   [Ds\\Set::copy »](ds-set.copy.html)
+-   [ДсSet::copy »](ds-set.copy.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ public Ds\Set::contains(mixed ...$values): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**якщо хоча б одне значення з `values` не знайдено в колекції та **`true`** в іншому випадку.
+Повертає \*\*`false`\*\*якщо хоча б одне значення з `values` не знайдено в колекції та **`true`** в іншому випадку.
 
 ### Приклади
 

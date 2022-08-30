@@ -1,12 +1,12 @@
 Клас MongoDBBSONObjectId
 
--   [« MongoDB\\BSON\\MinKey::unserialize](mongodb-bson-minkey.unserialize.html)
+-   [« MongoDBBSONMinKey::unserialize](mongodb-bson-minkey.unserialize.html)
     
--   [MongoDB\\BSON\\ObjectId::\_\_construct »](mongodb-bson-objectid.construct.html)
+-   [MongoDBBSONObjectId::construct »](mongodb-bson-objectid.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONObjectId
     
@@ -27,7 +27,7 @@
 
 Використання ObjectIds для поля `_id` забезпечує наступні додаткові переваги:
 
--   Час створення ObjectId можна отримати за допомогою методу [MongoDB\\BSON\\ObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.html)
+-   Час створення ObjectId можна отримати за допомогою методу [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.html)
 -   Сортування по полю `_id`, В якому зберігаються значення ObjectId, приблизно еквівалентна сортуванню за часом створення.
 
 ## Огляд класів
@@ -66,15 +66,15 @@ final public unserialize(string $serialized): void
 | PECL mongodb 1.3.0                                                 |                                                                      |
 | Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |                                                                      |
 
-Реалізує інтерфейс [MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.html)
+Реалізує інтерфейс [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
 
 | | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html).
 
 ## Зміст
 
--   [MongoDB\\BSON\\ObjectId::\_\_construct](mongodb-bson-objectid.construct.html) - Створює новий ObjectId
--   [MongoDB\\BSON\\ObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.html) — Повертає позначку часу ObjectId
--   [MongoDB\\BSON\\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\ObjectId::serialize](mongodb-bson-objectid.serialize.html) - Серіалізує ObjectId
--   [MongoDB\\BSON\\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.html) — Повертає шістнадцяткову виставу ObjectId
--   [MongoDB\\BSON\\ObjectId::unserialize](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
+-   [MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.html) - Створює новий ObjectId
+-   [MongoDBBSONObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.html) — Повертає позначку часу ObjectId
+-   [MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.html) - Серіалізує ObjectId
+-   [MongoDBBSONObjectId::toString](mongodb-bson-objectid.tostring.html) — Повертає шістнадцяткову виставу ObjectId
+-   [MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId

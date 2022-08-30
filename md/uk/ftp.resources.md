@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-До PHP 8.1.0 модуль використовував один тип ресурсу - ідентифікатор з'єднання з FTP-сервером, що повертається функцією [ftp\_connect()](function.ftp-connect.html) або [ftp\_ssl\_connect()](function.ftp-ssl-connect.html)
+До PHP 8.1.0 модуль використовував один тип ресурсу - ідентифікатор з'єднання з FTP-сервером, що повертається функцією [ftpconnect()](function.ftp-connect.html) або [ftpsslconnect()](function.ftp-ssl-connect.html)

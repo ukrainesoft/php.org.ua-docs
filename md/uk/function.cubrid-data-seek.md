@@ -1,12 +1,12 @@
 Перемістити внутрішній покажчик у результуючому наборі CUBRID
 
--   [« cubrid\_close](function.cubrid-close.html)
+-   [« cubridclose](function.cubrid-close.html)
     
--   [cubrid\_db\_name »](function.cubrid-db-name.html)
+-   [cubridдбname »](function.cubrid-db-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Перемістити внутрішній покажчик у результуючому наборі CUBRID
     
@@ -23,7 +23,7 @@ cubriddataseek — Перемістити внутрішній покажчик 
 cubrid_data_seek(resource $result, int $row_number): bool
 ```
 
-Функція переміщує внутрішній покажчик у результуючому наборі CUBRID (заданим ідентифікатором запиту) на рядок із заданим номером. Може використовуватися разом із функціями типу [cubrid\_fetch\_assoc()](function.cubrid-fetch-assoc.html), які використовують значення `row_number`
+Функція переміщує внутрішній покажчик у результуючому наборі CUBRID (заданим ідентифікатором запиту) на рядок із заданим номером. Може використовуватися разом із функціями типу [cubridfetchassoc()](function.cubrid-fetch-assoc.html), які використовують значення `row_number`
 
 ### Список параметрів
 

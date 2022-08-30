@@ -1,12 +1,12 @@
 Повертає середній гармонійний масив значень
 
--   [« stats\_dens\_weibull](function.stats-dens-weibull.html)
+-   [« statsdensweibull](function.stats-dens-weibull.html)
     
--   [stats\_kurtosis »](function.stats-kurtosis.html)
+-   [statskurtosis »](function.stats-kurtosis.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає середній гармонійний масив значень
     

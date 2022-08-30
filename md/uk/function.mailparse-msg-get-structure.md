@@ -1,8 +1,8 @@
 Отримати масив імен mime-секцій у заданому повідомленні
 
--   [« mailparse\_msg\_get\_part](function.mailparse-msg-get-part.html)
+-   [« mailparsemsggetpart](function.mailparse-msg-get-part.html)
     
--   [mailparse\_msg\_parse\_file »](function.mailparse-msg-parse-file.html)
+-   [mailparsemsgparsefile »](function.mailparse-msg-parse-file.html)
     
 -   [PHP Manual](index.html)
     

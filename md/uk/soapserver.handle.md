@@ -60,4 +60,4 @@ $server->handle();
 
 ### Дивіться також
 
--   [SoapServer::\_\_construct()](soapserver.construct.html) - Конструктор SoapServer
+-   [SoapServer::construct()](soapserver.construct.html) - Конструктор SoapServer

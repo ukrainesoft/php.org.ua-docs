@@ -1,12 +1,12 @@
 Перетворити DN на зручний для користувача формат іменування
 
--   [« ldap\_delete](function.ldap-delete.html)
+-   [« ldapdelete](function.ldap-delete.html)
     
--   [ldap\_err2str »](function.ldap-err2str.html)
+-   [ldaperr2str »](function.ldap-err2str.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Перетворити DN на зручний для користувача формат іменування
     

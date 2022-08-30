@@ -91,4 +91,4 @@ echo urlencode($char_2);
 
 ### Дивіться також
 
--   [normalizer\_is\_normalized()](normalizer.isnormalized.html) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+-   [normalizerісnormalized()](normalizer.isnormalized.html) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації

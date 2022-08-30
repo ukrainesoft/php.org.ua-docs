@@ -2,7 +2,7 @@
 
 -   [« Сборка для Windows](wincache.win32build.html)
     
--   [Компиляция и сборка »](wincache.win32build.building.html)
+-   [Компіляція та складання »](wincache.win32build.building.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,4 +21,4 @@
 
 Перші два пункти повністю покриваються статтею керівництва [» сборка PHP под Windows](https://wiki.php.net/internals/windows/stepbystepbuild)
 
-Отримання вихідного коду WinCache описано у розділі [Скачивание PECL-модулей](install.pecl.downloads.html)
+Отримання вихідного коду WinCache описано у розділі [Завантаження PECL-модулів](install.pecl.downloads.html)

@@ -1,8 +1,8 @@
 Повертає документ FDF у вигляді рядка
 
--   [« fdf\_remove\_item](function.fdf-remove-item.html)
+-   [« fdfremoveitem](function.fdf-remove-item.html)
     
--   [fdf\_save »](function.fdf-save.html)
+-   [fdfsave »](function.fdf-save.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_save_string(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 ### Значення, що повертаються
 
@@ -74,7 +74,7 @@ trailer
 
 ### Дивіться також
 
--   [fdf\_open\_string()](function.fdf-open-string.html) - Читає FDF документ з рядка
--   [fdf\_close()](function.fdf-close.html) - Закриває FDF-документ
--   [fdf\_create()](function.fdf-create.html) - Створює новий документ FDF
--   [fdf\_save()](function.fdf-save.html) - Зберігає документ FDF
+-   [fdfopenstring()](function.fdf-open-string.html) - Читає FDF документ з рядка
+-   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
+-   [fdfsave()](function.fdf-save.html) - Зберігає документ FDF

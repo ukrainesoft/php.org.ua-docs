@@ -1,12 +1,12 @@
 Phar
 
--   [« lzf\_optimized\_for](function.lzf-optimized-for.html)
+-   [« lzfoptimizedfor](function.lzf-optimized-for.html)
     
 -   [Введение »](intro.phar.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для сжатия и архивации](refs.compression.html)
+-   [Модулі для стиснення та архівації](refs.compression.html)
     
 -   Phar
     
@@ -26,14 +26,14 @@ Phar
     -   [Использование Phar-архивов: классы Phar и PharData](phar.using.object.html)
 -   [Создание Phar-архивов](phar.creating.html)
     -   [Создание Phar-архивов: Введение](phar.creating.intro.html)
--   [Чем отличается phar от tar- или zip-архива?](phar.fileformat.html)
-    -   [Составные части всех Phar-архивов вне зависимости от формата файла](phar.fileformat.ingredients.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
+    -   [Складові всіх Phar-архівів незалежно від формату файлу](phar.fileformat.ingredients.html)
     -   [Заглушка Phar-файла](phar.fileformat.stub.html)
     -   [Сравнение Phar, Tar и Zip](phar.fileformat.comparison.html)
     -   [Phar-архивы, основанные на tar](phar.fileformat.tar.html)
     -   [Phar-архивы, основанные на zip](phar.fileformat.zip.html)
     -   [Формат файла phar](phar.fileformat.phar.html)
-    -   [Флаги глобальной битовой карты Phar](phar.fileformat.flags.html)
+    -   [Прапори глобальної бітової карти Phar](phar.fileformat.flags.html)
     -   [Описание записи файла в манифесте Phar](phar.fileformat.manifestfile.html)
     -   [Формат подписи Phar](phar.fileformat.signature.html)
 -   [Phar](class.phar.html) - Клас Phar
@@ -47,7 +47,7 @@ Phar
     -   [Phar::canWrite](phar.canwrite.html) — Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
     -   [Phar::compress](phar.compress.html) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
     -   [Phar::compressFiles](phar.compressfiles.html) — Стискає всі файли у поточному Phar-архіві
-    -   [Phar::\_\_construct](phar.construct.html) — Створює об'єкт Phar-архіву
+    -   [Phar::construct](phar.construct.html) — Створює об'єкт Phar-архіву
     -   [Phar::convertToData](phar.converttodata.html) — Конвертує phar-архів у tar-або zip-файл, що не виконується.
     -   [Phar::convertToExecutable](phar.converttoexecutable.html) — Конвертує phar-архів в інший формат файлу, що виконується.
     -   [Phar::copy](phar.copy.html) — Копіює один файл усередині phar-архіву в інший новий файл усередині phar-архіву
@@ -57,7 +57,7 @@ Phar
     -   [Phar::decompressFiles](phar.decompressfiles.html) — Розпаковує всі файли в поточному Phar-архіві
     -   [Phar::delMetadata](phar.delmetadata.html) — Видалити глобальні метадані в архіві phar
     -   [Phar::delete](phar.delete.html) — Видаляє файл усередині phar-архіву
-    -   [Phar::\_\_destruct](phar.destruct.html) — Знищує об'єкт архіву Phar
+    -   [Phar::destruct](phar.destruct.html) — Знищує об'єкт архіву Phar
     -   [Phar::extractTo](phar.extractto.html) — Витягти вміст phar-архіву в директорію
     -   [Phar::getAlias](phar.getalias.html) - Отримати псевдонім для Phar
     -   [Phar::getMetadata](phar.getmetadata.html) — Витягти метадані phar-архіву
@@ -101,7 +101,7 @@ Phar
     -   [PharData::buildFromIterator](phardata.buildfromiterator.html) — Створення tar/zip-архіву за допомогою ітератора
     -   [PharData::compress](phardata.compress.html) - Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
     -   [PharData::compressFiles](phardata.compressfiles.html) — Стиснути всі файли у поточному tar/zip-архіві
-    -   [PharData::\_\_construct](phardata.construct.html) - Конструктор об'єкта PharData
+    -   [PharData::construct](phardata.construct.html) - Конструктор об'єкта PharData
     -   [PharData::convertToData](phardata.converttodata.html) — Конвертація phar-архіву в tar/zip-архів, що не запускається.
     -   [PharData::convertToExecutable](phardata.converttoexecutable.html) — Конвертація tar/zip-архіву з даними в phar-архів, що запускається
     -   [PharData::copy](phardata.copy.html) — Скопіювати файл із tar/zip-архіву в новий файл усередині нього ж
@@ -109,7 +109,7 @@ Phar
     -   [PharData::decompressFiles](phardata.decompressfiles.html) — Розпакувати всі файли у поточному zip-архіві
     -   [PharData::delMetadata](phardata.delmetadata.html) — Видалити глобальні метадані для zip-архіву
     -   [PharData::delete](phardata.delete.html) — Видалити файл із tar/zip-архіву
-    -   [PharData::\_\_destruct](phardata.destruct.html) — Знищує об'єкт архіву tar або zip, що не виконується.
+    -   [PharData::destruct](phardata.destruct.html) — Знищує об'єкт архіву tar або zip, що не виконується.
     -   [PharData::extractTo](phardata.extractto.html) — Витягти вміст tar/zip-архіву в директорію
     -   [PharData::isWritable](phardata.iswritable.html) — Перевірити, чи можна модифікувати tar/zip-архів
     -   [PharData::offsetSet](phardata.offsetset.html) — Зміна вмісту файлу
@@ -122,10 +122,10 @@ Phar
 -   [PharFileInfo](class.pharfileinfo.html) - Клас PharFileInfo
     -   [PharFileInfo::chmod](pharfileinfo.chmod.html) — Встановлення прав доступу
     -   [PharFileInfo::compress](pharfileinfo.compress.html) — Стиснути поточний файл за допомогою zlib або bzip2
-    -   [PharFileInfo::\_\_construct](pharfileinfo.construct.html) - Конструктор об'єкта PharFileInfo
+    -   [PharFileInfo::construct](pharfileinfo.construct.html) - Конструктор об'єкта PharFileInfo
     -   [PharFileInfo::decompress](pharfileinfo.decompress.html) — Розтискає поточний файл
     -   [PharFileInfo::delMetadata](pharfileinfo.delmetadata.html) — Видалити метадані файлу
-    -   [PharFileInfo::\_\_destruct](pharfileinfo.destruct.html) - Знищує вхідний об'єкт Phar
+    -   [PharFileInfo::destruct](pharfileinfo.destruct.html) - Знищує вхідний об'єкт Phar
     -   [PharFileInfo::getCRC32](pharfileinfo.getcrc32.html) — Отримати контрольну суму CRC32
     -   [PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.html) — Отримати реальний розмір, що займає файл, на диску з урахуванням стиснення
     -   [PharFileInfo::getContent](pharfileinfo.getcontent.html) — Отримати повний вміст файлу запису

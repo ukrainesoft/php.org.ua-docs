@@ -1,8 +1,8 @@
 Повертає колекцію в JSON-представництві
 
--   [« Ds\\Map::isEmpty](ds-map.isempty.html)
+-   [« DsMap::isEmpty](ds-map.isempty.html)
     
--   [Ds\\Map::keys »](ds-map.keys.html)
+-   [ДсMap::keys »](ds-map.keys.html)
     
 -   [PHP Manual](index.html)
     

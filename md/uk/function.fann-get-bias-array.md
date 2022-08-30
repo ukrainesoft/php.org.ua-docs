@@ -1,8 +1,8 @@
 Отримує кількість зсувів у кожному шарі у мережі
 
--   [« fann\_get\_activation\_steepness](function.fann-get-activation-steepness.html)
+-   [« fanngetactivationsteepness](function.fann-get-activation-steepness.html)
     
--   [fann\_get\_bit\_fail\_limit »](function.fann-get-bit-fail-limit.html)
+-   [fanngetbitfaillimit »](function.fann-get-bit-fail-limit.html)
     
 -   [PHP Manual](index.html)
     

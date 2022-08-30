@@ -2,11 +2,11 @@
 
 -   [« getimagesize](function.getimagesize.html)
     
--   [image\_type\_to\_extension »](function.image-type-to-extension.html)
+-   [imagetypeтоextension »](function.image-type-to-extension.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции GD и функции для работы с изображениями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     
 -   Отримання розміру зображення з рядка даних
     

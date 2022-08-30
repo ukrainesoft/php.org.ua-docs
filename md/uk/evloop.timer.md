@@ -46,7 +46,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvTimer::\_\_construct()](evtimer.construct.html)
+Усі параметри, що й для [EvTimer::construct()](evtimer.construct.html)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ final
 
 ### Дивіться також
 
--   [EvTimer::\_\_construct()](evtimer.construct.html) - Конструктор об'єкта спостерігача EvTimer
+-   [EvTimer::construct()](evtimer.construct.html) - Конструктор об'єкта спостерігача EvTimer

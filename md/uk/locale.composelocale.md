@@ -129,4 +129,4 @@ en_a_b_c_d_Hans_CN
 
 ### Дивіться також
 
--   [locale\_parse()](locale.parselocale.html) - Отримати асоціативний масив усіх підтегів локалі
+-   [localeparse()](locale.parselocale.html) - Отримати асоціативний масив усіх підтегів локалі

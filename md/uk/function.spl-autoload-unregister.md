@@ -1,12 +1,12 @@
 Скасування реєстрації функції як реалізацію методу autoload()
 
--   [« spl\_autoload\_register](function.spl-autoload-register.html)
+-   [« splautoloadregister](function.spl-autoload-register.html)
     
--   [spl\_autoload »](function.spl-autoload.html)
+-   [splautoload »](function.spl-autoload.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Скасування реєстрації функції як реалізацію методу autoload()
     

@@ -1,12 +1,12 @@
 Повертає масив з усіма оголошеними трейтами
 
--   [« get\_declared\_interfaces](function.get-declared-interfaces.html)
+-   [« getdeclaredinterfaces](function.get-declared-interfaces.html)
     
--   [get\_mangled\_object\_vars »](function.get-mangled-object-vars.html)
+-   [getmangledobjectvars »](function.get-mangled-object-vars.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає масив з усіма оголошеними трейтами
     
@@ -29,9 +29,9 @@ get_declared_traits(): array
 
 ### Значення, що повертаються
 
-Повертає масив з іменами трейтів як значення масиву. Повертає **`null`**якщо такі не знайдені.
+Повертає масив з іменами трейтів як значення масиву. Повертає \*\*`null`\*\*якщо такі не знайдені.
 
 ### Дивіться також
 
--   [class\_uses()](function.class-uses.html) - Повертає список трейтів, які використовуються заданим класом
--   [trait\_exists()](function.trait-exists.html) - Перевіряє, чи існує трейт
+-   [classuses()](function.class-uses.html) - Повертає список трейтів, які використовуються заданим класом
+-   [traitexists()](function.trait-exists.html) - Перевіряє, чи існує трейт

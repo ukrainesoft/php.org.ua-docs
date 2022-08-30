@@ -2,7 +2,7 @@
 
 -   [« Битовые маски типа службы Win32Service](win32service.constants.servicetype.html)
     
--   [Константы обработки сообщений службой Win32Service »](win32service.constants.servicecontrol.html)
+-   [Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Переходить до іншої дії
 
--   [« Yaf\_Controller\_Abstract::display](yaf-controller-abstract.display.html)
+-   [« YafControllerAbstract::display](yaf-controller-abstract.display.html)
     
--   [Yaf\_Controller\_Abstract::getInvokeArg »](yaf-controller-abstract.getinvokearg.html)
+-   [YafControllerAbstract::getInvokeArg »](yaf-controller-abstract.getinvokearg.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Переходить до іншої дії
     

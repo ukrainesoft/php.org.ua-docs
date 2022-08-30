@@ -1,8 +1,8 @@
 Псевдонім DateTimeImmutable::construct
 
--   [« date\_create\_immutable\_from\_format](function.date-create-immutable-from-format.html)
+-   [« datecreateimmutablefromformat](function.date-create-immutable-from-format.html)
     
--   [date\_create »](function.date-create.html)
+-   [datecreate »](function.date-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-datecreateimmutable - Псевдонім [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html)
+datecreateimmutable - Псевдонім [DateTimeImmutable::construct()](datetimeimmutable.construct.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html)
+Ця функція є псевдонімом: [DateTimeImmutable::construct()](datetimeimmutable.construct.html)

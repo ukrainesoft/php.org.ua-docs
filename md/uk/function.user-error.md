@@ -1,6 +1,6 @@
 Псевдонім triggererror
 
--   [« trigger\_error](function.trigger-error.html)
+-   [« triggererror](function.trigger-error.html)
     
 -   [FFI »](book.ffi.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-usererror - Псевдонім [trigger\_error()](function.trigger-error.html)
+usererror - Псевдонім [triggererror()](function.trigger-error.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [trigger\_error()](function.trigger-error.html)
+Ця функція є псевдонімом: [triggererror()](function.trigger-error.html)

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции GD и функции для работы с изображениями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     
 -   Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом
     
@@ -61,7 +61,7 @@ $font = 'SomeFont';
 
 > **Зауваження**
 > 
-> Зверніть увагу, що [open\_basedir](ini.core.html#ini.open-basedir) *не* застосовується до `fontfile`
+> Зверніть увагу, що [openbasedir](ini.core.html#ini.open-basedir) *не* застосовується до `fontfile`
 
 `string`
 

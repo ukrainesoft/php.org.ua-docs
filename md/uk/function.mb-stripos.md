@@ -1,12 +1,12 @@
 Реєстронезалежний пошук позиції першого входження одного рядка в інший
 
--   [« mb\_strimwidth](function.mb-strimwidth.html)
+-   [« mbstrimwidth](function.mb-strimwidth.html)
     
--   [mb\_stristr »](function.mb-stristr.html)
+-   [мбstristr »](function.mb-stristr.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Реєстронезалежний пошук позиції першого входження одного рядка в інший
     
@@ -23,7 +23,7 @@
 mb_stripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
-**мбstripos()** повертає позицію першого входження рядка `needle` у рядку `haystack`. На відміну від [mb\_strpos()](function.mb-strpos.html) **мбstripos()** не чутлива до регістру символів. Якщо рядок `needle` не знайдено, функція поверне **`false`**
+**мбstripos()** повертає позицію першого входження рядка `needle` у рядку `haystack`. На відміну від [мбstrpos()](function.mb-strpos.html) **мбstripos()** не чутлива до регістру символів. Якщо рядок `needle` не знайдено, функція поверне **`false`**
 
 ### Список параметрів
 
@@ -59,4 +59,4 @@ mb_stripos(    string $haystack,    string $needle,    int $offset =
 
 -   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
 -   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
--   [mb\_strpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого
+-   [мбstrpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого

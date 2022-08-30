@@ -1,8 +1,8 @@
 Повертає ідентифікатор батьківського процесу
 
--   [« posix\_getpid](function.posix-getpid.html)
+-   [« posixgetpid](function.posix-getpid.html)
     
--   [posix\_getpwnam »](function.posix-getpwnam.html)
+-   [posixgetpwnam »](function.posix-getpwnam.html)
     
 -   [PHP Manual](index.html)
     

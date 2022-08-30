@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::addFile](swoole-coroutine-http-client.addfile.html)
+-   [« SwooleCoroutineHttpClient::addFile](swoole-coroutine-http-client.addfile.html)
     
--   [Swoole\\Coroutine\\Http\\Client::\_\_construct »](swoole-coroutine-http-client.construct.html)
+-   [SwooleCoroutineHttpClient::construct »](swoole-coroutine-http-client.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

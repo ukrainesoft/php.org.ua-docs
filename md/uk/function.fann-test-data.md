@@ -1,8 +1,8 @@
 Тестування набору навчальних даних та обчислення MSE для нього
 
--   [« fann\_subset\_train\_data](function.fann-subset-train-data.html)
+-   [« fannsubsettraindata](function.fann-subset-train-data.html)
     
--   [fann\_test »](function.fann-test.html)
+-   [fanntest »](function.fann-test.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,8 +43,8 @@ fann_test_data(resource $ann, resource $data): float
 
 ### Дивіться також
 
--   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fann\_train\_epoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
--   [fann\_get\_bit\_fail()](function.fann-get-bit-fail.html) - Кількість бітів збою
--   [fann\_get\_MSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanntrainepoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
+-   [fanngetbitfail()](function.fann-get-bit-fail.html) - Кількість бітів збою
+-   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

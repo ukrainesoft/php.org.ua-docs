@@ -1,12 +1,12 @@
 Отримує кількість полів у наборі результатів
 
--   [« mysqli\_result::fetch\_row](mysqli-result.fetch-row.html)
+-   [« mysqliresult::fetchrow](mysqli-result.fetch-row.html)
     
--   [mysqli\_result::field\_seek »](mysqli-result.field-seek.html)
+-   [mysqliresult::fieldseek »](mysqli-result.field-seek.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Отримує кількість полів у наборі результатів
     
@@ -23,7 +23,7 @@ mysqliresult::$fieldcount - mysqlinumfields — Отримує кількіст�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli\_result->field\_count](mysqli-result.field-count.html)
+int [$mysqliresult->fieldcount](mysqli-result.field-count.html)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_num_fields(mysqli_result $result): int
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -85,4 +85,4 @@ printf("Получено %d полей.\n", $field_cnt);
 
 ### Дивіться також
 
--   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору

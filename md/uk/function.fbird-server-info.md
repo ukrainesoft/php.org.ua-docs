@@ -1,8 +1,8 @@
 Псевдонім ibaseserverinfo
 
--   [« fbird\_rollback](function.fbird-rollback.html)
+-   [« fbirdrollback](function.fbird-rollback.html)
     
--   [fbird\_service\_attach »](function.fbird-service-attach.html)
+-   [fbirdserviceattach »](function.fbird-service-attach.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdserverinfo - Псевдонім [ibase\_server\_info()](function.ibase-server-info.html)
+fbirdserverinfo - Псевдонім [ibaseserverinfo()](function.ibase-server-info.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_server\_info()](function.ibase-server-info.html)
+Ця функція є псевдонімом: [ibaseserverinfo()](function.ibase-server-info.html)

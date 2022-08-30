@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::setDefer](swoole-coroutine-http-client.setdefer.html)
+-   [« SwooleCoroutineHttpClient::setDefer](swoole-coroutine-http-client.setdefer.html)
     
--   [Swoole\\Coroutine\\Http\\Client::setMethod »](swoole-coroutine-http-client.setmethod.html)
+-   [SwooleCoroutineHttpClient::setMethod »](swoole-coroutine-http-client.setmethod.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

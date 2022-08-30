@@ -2,7 +2,7 @@
 
 -   [« Fibers](language.fibers.html)
     
--   [Знакомство с генераторами »](language.generators.overview.html)
+-   [Знайомство з генераторами](language.generators.overview.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Знакомство с генераторами](language.generators.overview.html)
--   [Синтаксис генераторов](language.generators.syntax.html)
--   [Сравнение генераторов с объектами класса Iterator](language.generators.comparison.html)
+-   [Знайомство з генераторами](language.generators.overview.html)
+-   [Синтаксис генераторів](language.generators.syntax.html)
+-   [Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.html)

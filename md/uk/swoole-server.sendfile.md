@@ -1,12 +1,12 @@
 Надсилає файл на з'єднання
 
--   [« Swoole\\Server::send](swoole-server.send.html)
+-   [« SwooleServer::send](swoole-server.send.html)
     
--   [Swoole\\Server::sendMessage »](swoole-server.sendmessage.html)
+-   [SwooleServer::sendMessage »](swoole-server.sendmessage.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Надсилає файл на з'єднання
     

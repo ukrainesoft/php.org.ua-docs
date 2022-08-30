@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine::resume](swoole-coroutine.resume.html)
+-   [« SwooleCoroutine::resume](swoole-coroutine.resume.html)
     
--   [Swoole\\Event »](class.swoole-event.html)
+-   [SwooleEvent »](class.swoole-event.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

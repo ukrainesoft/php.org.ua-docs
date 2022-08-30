@@ -23,7 +23,7 @@ FilesystemIterator::getFlags — Отримання прапорів налаш�
 public FilesystemIterator::getFlags(): int
 ```
 
-Отримує значення прапорів налаштувань об'єкта у вигляді, як вони були задані методами [FilesystemIterator::\_\_construct()](filesystemiterator.construct.html) або [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
+Отримує значення прапорів налаштувань об'єкта у вигляді, як вони були задані методами [FilesystemIterator::construct()](filesystemiterator.construct.html) або [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
 
 ### Список параметрів
 
@@ -35,5 +35,5 @@ public FilesystemIterator::getFlags(): int
 
 ### Дивіться також
 
--   [FilesystemIterator::\_\_construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
 -   [FilesystemIterator::setFlags()](filesystemiterator.setflags.html) - Завдання прапорів обробки

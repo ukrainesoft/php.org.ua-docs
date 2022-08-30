@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnsize - Псевдонім [oci\_field\_size()](function.oci-field-size.html)
+ocicolumnsize - Псевдонім [ocifieldsize()](function.oci-field-size.html)
 
 ### Опис
 
-Псевдонім [oci\_field\_size()](function.oci-field-size.html)
+Псевдонім [ocifieldsize()](function.oci-field-size.html)
 
 **Увага**
 

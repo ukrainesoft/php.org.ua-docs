@@ -1,6 +1,6 @@
 includeonce
 
--   [« require\_once](function.require-once.html)
+-   [« requireonce](function.require-once.html)
     
 -   [goto »](control-structures.goto.html)
     

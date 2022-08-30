@@ -111,4 +111,4 @@ Class [ <internal:Core> class Exception ] {
 ### Дивіться також
 
 -   [ReflectionClass::export()](reflectionclass.export.html) - Експортує клас
--   [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.html#object.tostring)

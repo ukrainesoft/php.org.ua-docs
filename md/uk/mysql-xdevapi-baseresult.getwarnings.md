@@ -1,12 +1,12 @@
 Отримує попередження останньої операції
 
--   [« mysql\_xdevapi\\BaseResult](class.mysql-xdevapi-baseresult.html)
+-   [« mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html)
     
 -   [BaseResult::getWarningsCount »](mysql-xdevapi-baseresult.getwarningscount.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\BaseResult](class.mysql-xdevapi-baseresult.html)
+-   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html)
     
 -   Отримує попередження останньої операції
     

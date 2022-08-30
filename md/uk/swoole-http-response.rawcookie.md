@@ -1,12 +1,12 @@
 Встановлює необроблені cookie у HTTP-відповідь
 
--   [« Swoole\\Http\\Response::initHeader](swoole-http-response.initheader.html)
+-   [« SwooleHttpResponse::initHeader](swoole-http-response.initheader.html)
     
--   [Swoole\\Http\\Response::sendfile »](swoole-http-response.sendfile.html)
+-   [SwooleHttpResponse::sendfile »](swoole-http-response.sendfile.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Встановлює необроблені cookie у HTTP-відповідь
     

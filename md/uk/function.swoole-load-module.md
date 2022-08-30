@@ -1,8 +1,8 @@
 Завантажити модуль swoole
 
--   [« swoole\_last\_error](function.swoole-last-error.html)
+-   [« swoolelasterror](function.swoole-last-error.html)
     
--   [swoole\_select »](function.swoole-select.html)
+-   [swooleselect »](function.swoole-select.html)
     
 -   [PHP Manual](index.html)
     

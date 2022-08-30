@@ -1,12 +1,12 @@
 Видаляє TCP-клієнт із циклу системних подій
 
--   [« Swoole\\Client::set](swoole-client.set.html)
+-   [« SwooleClient::set](swoole-client.set.html)
     
--   [Swoole\\Client::wakeup »](swoole-client.wakeup.html)
+-   [SwooleClient::wakeup »](swoole-client.wakeup.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Видаляє TCP-клієнт із циклу системних подій
     

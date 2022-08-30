@@ -24,7 +24,7 @@ int `$pid`
 bool `$trace`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`  
+int `$priority`
 
 Створює об'єкт спостерігач [EvChild](class.evchild.html)
 
@@ -46,11 +46,11 @@ int `$priority`
 
 `trace`
 
-Якщо **`false`**активація спостерігача відбувається тільки при завершенні процесу. Якщо **`true`**активація відбувається також при зупинці/відновленні процесу.
+Якщо \*\*`false`\*\*активація спостерігача відбувається тільки при завершенні процесу. Якщо \*\*`true`\*\*активація відбувається також при зупинці/відновленні процесу.
 
 `callback`
 
-Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

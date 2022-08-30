@@ -1,8 +1,8 @@
 Повертає запис
 
--   [« yaz\_range](function.yaz-range.html)
+-   [« yazrange](function.yaz-range.html)
     
--   [yaz\_scan\_result »](function.yaz-scan-result.html)
+-   [yazscanresult »](function.yaz-scan-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,11 +29,11 @@ yaz_record(resource $id, int $pos, string $type): string
 
 `id`
 
-Дескриптор з'єднання, що повертається [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
 
 `pos`
 
-Позиція запису. Записи в результуючому наборі нумеруються як 1, 2, ... $hits, де $hits - число записів у результуючому наборі, яке повертається функцією [yaz\_hits()](function.yaz-hits.html)
+Позиція запису. Записи в результуючому наборі нумеруються як 1, 2, ... $hits, де $hits - число записів у результуючому наборі, яке повертається функцією [yazhits()](function.yaz-hits.html)
 
 `type`
 

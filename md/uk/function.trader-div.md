@@ -1,8 +1,8 @@
 Арифметичний вектор поділу
 
--   [« trader\_dema](function.trader-dema.html)
+-   [« traderdema](function.trader-dema.html)
     
--   [trader\_dx »](function.trader-dx.html)
+-   [traderdx »](function.trader-dx.html)
     
 -   [PHP Manual](index.html)
     

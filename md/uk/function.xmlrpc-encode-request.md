@@ -1,12 +1,12 @@
 Генерує XML для методу запиту
 
--   [« xmlrpc\_decode](function.xmlrpc-decode.html)
+-   [« xmlrpcdecode](function.xmlrpc-decode.html)
     
--   [xmlrpc\_encode »](function.xmlrpc-encode.html)
+-   [xmlrpcencode »](function.xmlrpc-encode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Генерує XML для методу запиту
     
@@ -80,6 +80,6 @@ if ($response && xmlrpc_is_fault($response)) {
 
 ### Дивіться також
 
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
--   [file\_get\_contents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [xmlrpc\_decode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [xmlrpcdecode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP

@@ -1,8 +1,8 @@
 Екранує символи у регулярних виразах
 
--   [« preg\_match](function.preg-match.html)
+-   [« pregmatch](function.preg-match.html)
     
--   [preg\_replace\_callback\_array »](function.preg-replace-callback-array.html)
+-   [pregreplacecallbackarray »](function.preg-replace-callback-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ preg_quote(string $str, ?string $delimiter = null): string
 
 > **Зауваження**
 > 
-> Зверніть увагу, що **pregquote()** не призначена для застосування до рядків $replacement функції [preg\_replace()](function.preg-replace.html) і т.д.
+> Зверніть увагу, що **pregquote()** не призначена для застосування до рядків $replacement функції [pregreplace()](function.preg-replace.html) і т.д.
 
 ### Список параметрів
 

@@ -1,6 +1,6 @@
 Відмінності від Perl
 
--   [« Описывает возможные модификаторы шаблонов Perl-совместимых регулярных выражений (PCRE)](reference.pcre.pattern.modifiers.html)
+-   [« Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.html)
     
 -   [Функции PCRE »](ref.pcre.html)
     

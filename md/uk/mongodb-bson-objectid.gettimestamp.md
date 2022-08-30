@@ -1,12 +1,12 @@
 Повертає позначку часу ObjectId
 
--   [« MongoDB\\BSON\\ObjectId::\_\_construct](mongodb-bson-objectid.construct.html)
+-   [« MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.html)
     
--   [MongoDB\\BSON\\ObjectId::jsonSerialize »](mongodb-bson-objectid.jsonserialize.html)
+-   [MongoDBBSONObjectId::jsonSerialize »](mongodb-bson-objectid.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+-   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
 -   Повертає позначку часу ObjectId
     
@@ -37,7 +37,7 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

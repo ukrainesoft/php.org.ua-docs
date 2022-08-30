@@ -1,8 +1,8 @@
 Запускає нейронну мережу із заданими даними
 
--   [« fann\_reset\_MSE](function.fann-reset-mse.html)
+-   [« fannresetMSE](function.fann-reset-mse.html)
     
--   [fann\_save\_train »](function.fann-save-train.html)
+-   [fannsavetrain »](function.fann-save-train.html)
     
 -   [PHP Manual](index.html)
     

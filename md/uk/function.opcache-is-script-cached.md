@@ -1,8 +1,8 @@
 Перевіряє, чи закешовано скрипт в OPCache
 
--   [« opcache\_invalidate](function.opcache-invalidate.html)
+-   [« opcacheinvalidate](function.opcache-invalidate.html)
     
--   [opcache\_reset »](function.opcache-reset.html)
+-   [opcachereset »](function.opcache-reset.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ opcache_is_script_cached(string $filename): bool
 
 ### Дивіться також
 
--   [opcache\_compile\_file()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcachecompilefile()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP

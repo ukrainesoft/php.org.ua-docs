@@ -115,7 +115,7 @@ public
 -   [EventHttp::accept](eventhttp.accept.html) — Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
 -   [EventHttp::addServerAlias](eventhttp.addserveralias.html) — Додає псевдонім сервера до об'єкта HTTP-сервера
 -   [EventHttp::bind](eventhttp.bind.html) — Прив'язує HTTP-сервер до вказаної адреси та порту
--   [EventHttp::\_\_construct](eventhttp.construct.html) — Створює об'єкт EventHttp (сервер HTTP)
+-   [EventHttp::construct](eventhttp.construct.html) — Створює об'єкт EventHttp (сервер HTTP)
 -   [EventHttp::removeServerAlias](eventhttp.removeserveralias.html) — Видаляє псевдонім сервера
 -   [EventHttp::setAllowedMethods](eventhttp.setallowedmethods.html) — Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
 -   [EventHttp::setCallback](eventhttp.setcallback.html) — Встановлює callback-функцію для вказаного URI

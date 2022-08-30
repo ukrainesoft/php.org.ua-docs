@@ -1,8 +1,8 @@
 Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
 
--   [« readline\_add\_history](function.readline-add-history.html)
+-   [« readlineaddhistory](function.readline-add-history.html)
     
--   [readline\_callback\_handler\_remove »](function.readline-callback-handler-remove.html)
+-   [readlinecallbackhandlerremove »](function.readline-callback-handler-remove.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ readline_callback_handler_install(string $prompt, callable $callback): bool
 
 Ініціалізує callback-інтерфейс readline, друкує `prompt` та повертає управління. Повторний виклик цієї функції без попереднього видалення старого callback-інтерфейсу призведе до його автоматичного перезапису.
 
-Функціонал callback-функцій особливо зручний у комбінації з [stream\_select()](function.stream-select.html), оскільки він, на відміну від [readline()](function.readline.html), дозволяє чергувати введення-виведення та введення користувача.
+Функціонал callback-функцій особливо зручний у комбінації з [streamselect()](function.stream-select.html), оскільки він, на відміну від [readline()](function.readline.html), дозволяє чергувати введення-виведення та введення користувача.
 
 ### Список параметрів
 
@@ -84,6 +84,6 @@ echo "Ввод отключён. Спасибо за внимание.\n";
 
 ### Дивіться також
 
--   [readline\_callback\_handler\_remove()](function.readline-callback-handler-remove.html) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал
--   [readline\_callback\_read\_char()](function.readline-callback-read-char.html) - Читає символ та інформує callback-функцію readline, що отримано рядок
--   [stream\_select()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [readlinecallbackhandlerremove()](function.readline-callback-handler-remove.html) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал
+-   [readlinecallbackreadchar()](function.readline-callback-read-char.html) - Читає символ та інформує callback-функцію readline, що отримано рядок
+-   [streamselect()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds

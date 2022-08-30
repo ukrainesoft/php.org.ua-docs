@@ -1,8 +1,8 @@
 Повертає максимальний розмір ключа відкритого режиму
 
--   [« mcrypt\_module\_get\_algo\_block\_size](function.mcrypt-module-get-algo-block-size.html)
+-   [« mcryptmodulegetalgoblocksize](function.mcrypt-module-get-algo-block-size.html)
     
--   [mcrypt\_module\_get\_supported\_key\_sizes »](function.mcrypt-module-get-supported-key-sizes.html)
+-   [mcryptmodulegetsupportedkeysizes »](function.mcrypt-module-get-supported-key-sizes.html)
     
 -   [PHP Manual](index.html)
     

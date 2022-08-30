@@ -1,8 +1,8 @@
 Створення XML-аналізатора
 
--   [« xml\_parser\_create\_ns](function.xml-parser-create-ns.html)
+-   [« xmlparsercreateнс](function.xml-parser-create-ns.html)
     
--   [xml\_parser\_free »](function.xml-parser-free.html)
+-   [xmlparserfree »](function.xml-parser-free.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,5 +44,5 @@ xml_parser_create(?string $encoding = null): XMLParser
 
 ### Дивіться також
 
--   [xml\_parser\_create\_ns()](function.xml-parser-create-ns.html) - Створення XML-аналізатора з підтримкою просторів імен
--   [xml\_parser\_free()](function.xml-parser-free.html) - Звільнення XML-аналізатора
+-   [xmlparsercreatens()](function.xml-parser-create-ns.html) - Створення XML-аналізатора з підтримкою просторів імен
+-   [xmlparserfree()](function.xml-parser-free.html) - Звільнення XML-аналізатора

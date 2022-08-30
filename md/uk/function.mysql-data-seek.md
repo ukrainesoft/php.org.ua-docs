@@ -1,8 +1,8 @@
 Переміщує внутрішній покажчик у результаті запиту
 
--   [« mysql\_create\_db](function.mysql-create-db.html)
+-   [« mysqlcreateдб](function.mysql-create-db.html)
     
--   [mysql\_db\_name »](function.mysql-db-name.html)
+-   [mysqlдбname »](function.mysql-db-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqldataseek — Переміщує внутрішній покажчик в р
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_data\_seek()](mysqli-result.data-seek.html)
+-   [mysqlidataseek()](mysqli-result.data-seek.html)
 -   **`PDO::FETCH_ORI_ABS`**
 
 ### Опис
@@ -30,15 +30,15 @@ mysqldataseek — Переміщує внутрішній покажчик в р
 mysql_data_seek(resource $result, int $row_number): bool
 ```
 
-**mysqldataseek()** переміщує внутрішній покажчик результату запиту, з яким пов'язаний переданий дескриптор, до ряду із зазначеним номером. Наступний дзвінок до функції отримання даних MySQL, такий як [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html), Поверне саме його.
+**mysqldataseek()** переміщує внутрішній покажчик результату запиту, з яким пов'язаний переданий дескриптор, до ряду із зазначеним номером. Наступний дзвінок до функції отримання даних MySQL, такий як [mysqlfetchassoc()](function.mysql-fetch-assoc.html), Поверне саме його.
 
-Нумерація `row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysql\_num\_rows()](function.mysql-num-rows.html) - 1. Однак, якщо результат порожній ([mysql\_num\_rows()](function.mysql-num-rows.html) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`** і **mysqldataseek()** поверне **`false`**
+Нумерація `row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysqlnumrows()](function.mysql-num-rows.html) - 1. Однак, якщо результат порожній ([mysqlnumrows()](function.mysql-num-rows.html) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`** і **mysqldataseek()** поверне **`false`**
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `row_number`
 
@@ -89,13 +89,13 @@ mysql_free_result($result);
 
 > **Зауваження**
 > 
-> Функція **mysqldataseek()** може бути використана тільки з [mysql\_query()](function.mysql-query.html), але не з [mysql\_unbuffered\_query()](function.mysql-unbuffered-query.html)
+> Функція **mysqldataseek()** може бути використана тільки з [mysqlquery()](function.mysql-query.html), але не з [mysqlunbufferedquery()](function.mysql-unbuffered-query.html)
 
 ### Дивіться також
 
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
--   [mysql\_num\_rows()](function.mysql-num-rows.html) - Повертає кількість рядів результату запиту
--   [mysql\_fetch\_row()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysql\_fetch\_array()](function.mysql-fetch-array.html) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysql\_fetch\_object()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlnumrows()](function.mysql-num-rows.html) - Повертає кількість рядів результату запиту
+-   [mysqlfetchrow()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlfetcharray()](function.mysql-fetch-array.html) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqlfetchobject()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт

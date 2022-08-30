@@ -1,8 +1,8 @@
 Псевдонім DateTime::setISODate
 
--   [« date\_interval\_format](function.date-interval-format.html)
+-   [« dateintervalformat](function.date-interval-format.html)
     
--   [date\_modify »](function.date-modify.html)
+-   [datemodify »](function.date-modify.html)
     
 -   [PHP Manual](index.html)
     

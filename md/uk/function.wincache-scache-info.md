@@ -1,8 +1,8 @@
 Отримує інформацію про файли, закешовані в кеші сесії
 
--   [« wincache\_rplist\_meminfo](function.wincache-rplist-meminfo.html)
+-   [« wincacherplistmeminfo](function.wincache-rplist-meminfo.html)
     
--   [wincache\_scache\_meminfo »](function.wincache-scache-meminfo.html)
+-   [wincachescachememinfo »](function.wincache-scache-meminfo.html)
     
 -   [PHP Manual](index.html)
     
@@ -97,12 +97,12 @@ Array
 
 ### Дивіться також
 
--   [wincache\_fcache\_fileinfo()](function.wincache-fcache-fileinfo.html) - Отримує інформацію про файли, закешовані у файловому кеші
--   [wincache\_fcache\_meminfo()](function.wincache-fcache-meminfo.html) - Отримує інформацію про використання пам'яті файлового кешу
--   [wincache\_ocache\_meminfo()](function.wincache-ocache-meminfo.html) - Отримує інформацію про використання кеш-пам'яті опкодів
--   [wincache\_rplist\_fileinfo()](function.wincache-rplist-fileinfo.html) - Отримує інформацію про дозвіл кешу шляху до файлу дозволу
--   [wincache\_rplist\_meminfo()](function.wincache-rplist-meminfo.html) - Отримує інформацію про використання пам'яті за допомогою кеша шляху до файлу роздільної здатності
--   [wincache\_refresh\_if\_changed()](function.wincache-refresh-if-changed.html) - Оновлює записи кеша для закешованих файлів
--   [wincache\_ucache\_meminfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincache\_ucache\_info()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [wincache\_scache\_meminfo()](function.wincache-scache-meminfo.html) - Отримує інформацію про використання кеш-пам'яті сесії
+-   [wincachefcachefileinfo()](function.wincache-fcache-fileinfo.html) - Отримує інформацію про файли, закешовані у файловому кеші
+-   [wincachefcachememinfo()](function.wincache-fcache-meminfo.html) - Отримує інформацію про використання пам'яті файлового кешу
+-   [wincacheocachememinfo()](function.wincache-ocache-meminfo.html) - Отримує інформацію про використання кеш-пам'яті опкодів
+-   [wincacherplistfileinfo()](function.wincache-rplist-fileinfo.html) - Отримує інформацію про дозвіл кешу шляху до файлу дозволу
+-   [wincacherplistmeminfo()](function.wincache-rplist-meminfo.html) - Отримує інформацію про використання пам'яті за допомогою кеша шляху до файлу роздільної здатності
+-   [wincacherefreshіфchanged()](function.wincache-refresh-if-changed.html) - Оновлює записи кеша для закешованих файлів
+-   [wincacheucachememinfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincacheucacheinfo()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wincachescachememinfo()](function.wincache-scache-meminfo.html) - Отримує інформацію про використання кеш-пам'яті сесії

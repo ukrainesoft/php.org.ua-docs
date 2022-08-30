@@ -2,7 +2,7 @@
 
 -   [« Lua::assign](lua.assign.html)
     
--   [Lua::\_\_construct »](lua.construct.html)
+-   [Lua::construct »](lua.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -80,4 +80,4 @@ string(5) "1-2-3"
 
 ### Дивіться також
 
--   [\_\_call()](language.oop5.overloading.html#object.call)
+-   [call()](language.oop5.overloading.html#object.call)

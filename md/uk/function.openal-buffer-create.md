@@ -2,7 +2,7 @@
 
 -   [« Функции OpenAL](ref.openal.html)
     
--   [openal\_buffer\_data »](function.openal-buffer-data.html)
+-   [openalbufferdata »](function.openal-buffer-data.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,5 +33,5 @@ openal_buffer_create(): resource
 
 ### Дивіться також
 
--   [openal\_buffer\_loadwav()](function.openal-buffer-loadwav.html) - Завантажити файл у форматі wav у буфер
--   [openal\_buffer\_data()](function.openal-buffer-data.html) - Завантаження буфера з даними
+-   [openalbufferloadwav()](function.openal-buffer-loadwav.html) - Завантажити файл у форматі wav у буфер
+-   [openalbufferdata()](function.openal-buffer-data.html) - Завантаження буфера з даними

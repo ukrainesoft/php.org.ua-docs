@@ -1,6 +1,6 @@
 Читання атрибутів за допомогою Reflection API
 
--   [« Синтаксис атрибутов](language.attributes.syntax.html)
+-   [« Синтаксис атрибутів](language.attributes.syntax.html)
     
 -   [Объявление классов атрибутов »](language.attributes.classes.html)
     

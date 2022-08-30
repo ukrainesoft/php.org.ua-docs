@@ -1,8 +1,8 @@
 Зменшує колекцію до одного значення, використовуючи callback-функцію
 
--   [« Ds\\Map::putAll](ds-map.putall.html)
+-   [« DsMap::putAll](ds-map.putall.html)
     
--   [Ds\\Map::remove »](ds-map.remove.html)
+-   [ДсMap::remove »](ds-map.remove.html)
     
 -   [PHP Manual](index.html)
     

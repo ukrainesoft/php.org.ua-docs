@@ -1,8 +1,8 @@
 Повертає колекцію в JSON-представництві
 
--   [« Ds\\Stack::isEmpty](ds-stack.isempty.html)
+-   [« DsStack::isEmpty](ds-stack.isempty.html)
     
--   [Ds\\Stack::peek »](ds-stack.peek.html)
+-   [ДсStack::peek »](ds-stack.peek.html)
     
 -   [PHP Manual](index.html)
     

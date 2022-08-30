@@ -1,12 +1,12 @@
 За складом
 
--   [« В алфавитном порядке](extensions.alphabetical.html)
+-   [" В алфавітному порядку](extensions.alphabetical.html)
     
--   [По состоянию »](extensions.state.html)
+-   [Станом "](extensions.state.html)
     
 -   [PHP Manual](index.html)
     
--   [Список/классификация модулей](extensions.html)
+-   [Список/класифікація модулів](extensions.html)
     
 -   За складом
     
@@ -31,9 +31,9 @@
     
 -   [Запуск программы](book.exec.html)
     
--   [Файловая система](book.filesystem.html)
+-   [Файлова система](book.filesystem.html)
     
--   [Менеджер процессов FastCGI](book.fpm.html)
+-   [Менеджер процесів FastCGI](book.fpm.html)
     
 -   [Управление функциями](book.funchand.html)
     
@@ -53,7 +53,7 @@
     
 -   [OPcache](book.opcache.html)
     
--   [Контроль вывода](book.outcontrol.html)
+-   [Контроль виведення](book.outcontrol.html)
     
 -   [Хеширование паролей](book.password.html)
     
@@ -65,7 +65,7 @@
     
 -   [Потоки](book.stream.html)
     
--   [Строки](book.strings.html)
+-   [Рядки](book.strings.html)
     
 -   [URL](book.url.html)
     
@@ -102,11 +102,11 @@
     
 -   [iconv](book.iconv.html)
     
--   [GD](book.image.html)
+-   [ДД](book.image.html)
     
 -   [intl](book.intl.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   [Mhash](book.mhash.html)
     
@@ -165,7 +165,7 @@
     
 -   [OpenSSL](book.openssl.html)
     
--   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html)
+-   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
     
 -   [Firebird (PDO)](ref.pdo-firebird.html)
     
@@ -224,11 +224,11 @@
     
 -   [Прямой ввод/вывод (Direct IO)](book.dio.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   [Eio](book.eio.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   [Event](book.event.html)
     
@@ -276,7 +276,7 @@
     
 -   [MySQL (Original)](book.mysql.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   [OAuth](book.oauth.html)
     
@@ -294,7 +294,7 @@
     
 -   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
     
--   [PS](book.ps.html)
+-   [ПС](book.ps.html)
     
 -   [pthreads](book.pthreads.html)
     
@@ -342,13 +342,13 @@
     
 -   [Trader](book.trader.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   [uopz](book.uopz.html)
     
 -   [V8js](book.v8js.html)
     
--   [var\_representation](book.var_representation.html)
+-   [varrepresentation](book.var_representation.html)
     
 -   [Varnish](book.varnish.html)
     
@@ -384,6 +384,6 @@
     
 -   [YAZ](book.yaz.html)
     
--   [Обмен сообщениями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   [ZooKeeper](book.zookeeper.html)

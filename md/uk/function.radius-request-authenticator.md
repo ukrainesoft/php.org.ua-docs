@@ -1,8 +1,8 @@
 Повертає аутентифікатор запиту
 
--   [« radius\_put\_vendor\_string](function.radius-put-vendor-string.html)
+-   [« radiusputvendorstring](function.radius-put-vendor-string.html)
     
--   [radius\_salt\_encrypt\_attr »](function.radius-salt-encrypt-attr.html)
+-   [radiussaltencryptattr »](function.radius-salt-encrypt-attr.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ radius_request_authenticator(resource $radius_handle): string
 
 ### Дивіться також
 
--   [radius\_demangle()](function.radius-demangle.html) - Розшифровує дані
+-   [radiusdemangle()](function.radius-demangle.html) - Розшифровує дані

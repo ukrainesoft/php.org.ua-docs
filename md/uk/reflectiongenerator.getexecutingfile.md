@@ -1,6 +1,6 @@
 Отримати ім'я файлу, з якого запущено генератор
 
--   [« ReflectionGenerator::\_\_construct](reflectiongenerator.construct.html)
+-   [« ReflectionGenerator::construct](reflectiongenerator.construct.html)
     
 -   [ReflectionGenerator::getExecutingGenerator »](reflectiongenerator.getexecutinggenerator.html)
     

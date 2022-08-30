@@ -1,8 +1,8 @@
 Паттерн "Хрест Харамі"
 
--   [« trader\_cdlharami](function.trader-cdlharami.html)
+-   [« tradercdlharami](function.trader-cdlharami.html)
     
--   [trader\_cdlhighwave »](function.trader-cdlhighwave.html)
+-   [tradercdlhighwave »](function.trader-cdlhighwave.html)
     
 -   [PHP Manual](index.html)
     

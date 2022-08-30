@@ -1,8 +1,8 @@
 Повертає опис помилки для коду помилки FDF
 
--   [« fdf\_errno](function.fdf-errno.html)
+-   [« fdferrno](function.fdf-errno.html)
     
--   [fdf\_get\_ap »](function.fdf-get-ap.html)
+-   [fdfgetap »](function.fdf-get-ap.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_error(int $error_code = -1): string
 
 `error_code`
 
-Код помилки, отриманий за допомогою [fdf\_errno()](function.fdf-errno.html). Якщо не вказано, функція використовує код внутрішньої помилки, встановлений останньою операцією.
+Код помилки, отриманий за допомогою [fdferrno()](function.fdf-errno.html). Якщо не вказано, функція використовує код внутрішньої помилки, встановлений останньою операцією.
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ fdf_error(int $error_code = -1): string
 
 ### Дивіться також
 
--   [fdf\_errno()](function.fdf-errno.html) - Повертає код помилки для останньої операції FDF
+-   [fdferrno()](function.fdf-errno.html) - Повертає код помилки для останньої операції FDF

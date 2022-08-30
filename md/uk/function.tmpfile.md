@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Створює тимчасовий файл
     
@@ -62,4 +62,4 @@ fclose($temp); // происходит удаление файла
 ### Дивіться також
 
 -   [tempnam()](function.tempnam.html) - Створює файл із унікальним ім'ям
--   [sys\_get\_temp\_dir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів
+-   [sysgettempdir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів

@@ -1,12 +1,12 @@
 Отримати батьківський керуючий елемент
 
--   [« UI\\Control::enable](ui-control.enable.html)
+-   [« UIControl::enable](ui-control.enable.html)
     
--   [UI\\Control::getTopLevel »](ui-control.gettoplevel.html)
+-   [ОЙControl::getTopLevel »](ui-control.gettoplevel.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Отримати батьківський керуючий елемент
     

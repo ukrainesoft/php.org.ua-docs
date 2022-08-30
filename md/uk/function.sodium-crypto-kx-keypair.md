@@ -1,8 +1,8 @@
 Створює нову пару ключів.
 
--   [« sodium\_crypto\_kx\_client\_session\_keys](function.sodium-crypto-kx-client-session-keys.html)
+-   [« sodiumcryptoкксclientsessionkeys](function.sodium-crypto-kx-client-session-keys.html)
     
--   [sodium\_crypto\_kx\_publickey »](function.sodium-crypto-kx-publickey.html)
+-   [sodiumcryptoкксpublickey »](function.sodium-crypto-kx-publickey.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ sodiumcryptoкксkeypair — Створює нову пару ключів.
 sodium_crypto_kx_keypair(): string
 ```
 
-Створити нову пару ключів sodium, що складається із секретного ключа (32 байти) і наступного за ним відкритого ключа (32 байти). Ключі можна отримати, викликавши [sodium\_crypto\_kx\_secretkey()](function.sodium-crypto-kx-secretkey.html) і [sodium\_crypto\_kx\_publickey()](function.sodium-crypto-kx-publickey.html) відповідно.
+Створити нову пару ключів sodium, що складається із секретного ключа (32 байти) і наступного за ним відкритого ключа (32 байти). Ключі можна отримати, викликавши [sodiumcryptoкксsecretkey()](function.sodium-crypto-kx-secretkey.html) і [sodiumcryptoкксpublickey()](function.sodium-crypto-kx-publickey.html) відповідно.
 
 ### Список параметрів
 

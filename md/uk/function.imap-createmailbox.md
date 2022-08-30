@@ -1,8 +1,8 @@
 Створити нову поштову скриньку
 
--   [« imap\_create](function.imap-create.html)
+-   [« imapcreate](function.imap-create.html)
     
--   [imap\_delete »](function.imap-delete.html)
+-   [imapdelete »](function.imap-delete.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,15 +29,15 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `mailbox`
 
-Ім'я поштової скриньки. Детальніше дивіться [imap\_open()](function.imap-open.html). Імена поштових скриньок, що містять міжнародні символи, повинні бути закодовані за допомогою [imap\_utf7\_encode()](function.imap-utf7-encode.html)
+Ім'я поштової скриньки. Детальніше дивіться [imapopen()](function.imap-open.html). Імена поштових скриньок, що містять міжнародні символи, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
@@ -45,9 +45,9 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -105,5 +105,5 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imap\_renamemailbox()](function.imap-renamemailbox.html) - Перейменувати поштову скриньку
--   [imap\_deletemailbox()](function.imap-deletemailbox.html) - Видалити поштову скриньку
+-   [imaprenamemailbox()](function.imap-renamemailbox.html) - Перейменувати поштову скриньку
+-   [imapdeletemailbox()](function.imap-deletemailbox.html) - Видалити поштову скриньку

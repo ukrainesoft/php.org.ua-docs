@@ -1,12 +1,12 @@
 Розподіл чисел без залишку
 
--   [« gmp\_div](function.gmp-div.html)
+-   [« gmpdiv](function.gmp-div.html)
     
--   [gmp\_export »](function.gmp-export.html)
+-   [gmpexport »](function.gmp-export.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Розподіл чисел без залишку
     

@@ -1,12 +1,12 @@
 Отримання ідентифікатора семафору
 
--   [« sem\_acquire](function.sem-acquire.html)
+-   [« semacquire](function.sem-acquire.html)
     
--   [sem\_release »](function.sem-release.html)
+-   [semrelease »](function.sem-release.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Отримання ідентифікатора семафору
     
@@ -64,6 +64,6 @@ sem_get(    int $key,    int $max_acquire = 1,    int $permissions =
 
 ### Дивіться також
 
--   [sem\_acquire()](function.sem-acquire.html) - Захоплення семафору
--   [sem\_release()](function.sem-release.html) - Звільнення семафору
+-   [semacquire()](function.sem-acquire.html) - Захоплення семафору
+-   [semrelease()](function.sem-release.html) - Звільнення семафору
 -   [ftok()](function.ftok.html) - Перетворення шляху та ідентифікатора проекту на ключ System V IPC

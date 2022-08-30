@@ -1,8 +1,8 @@
 Отримати кількість рядків у наборі результатів
 
--   [« cubrid\_num\_cols](function.cubrid-num-cols.html)
+-   [« cubridnumcols](function.cubrid-num-cols.html)
     
--   [cubrid\_pconnect\_with\_url »](function.cubrid-pconnect-with-url.html)
+-   [cubridpconnectwithurl »](function.cubrid-pconnect-with-url.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ cubridnumrows — Отримати кількість рядків у набор
 cubrid_num_rows(resource $result): int
 ```
 
-Функція **cubridnumrows()** використовується для одержання кількості рядків результату запиту. Може використовуватись для операторів `SELECT`. Для запитів `INSERT` `UPDATE` або `DELETE`, використовуйте функцію [cubrid\_affected\_rows()](function.cubrid-affected-rows.html)
+Функція **cubridnumrows()** використовується для одержання кількості рядків результату запиту. Може використовуватись для операторів `SELECT`. Для запитів `INSERT` `UPDATE` або `DELETE`, використовуйте функцію [cubridaffectedrows()](function.cubrid-affected-rows.html)
 
 Примітка: Функцію **cubridnumrows()** можна використовувати лише для синхронного запиту; функція повертає 0, якщо використовується для асинхронного запиту.
 
@@ -31,7 +31,7 @@ cubrid_num_rows(resource $result): int
 
 `result`
 
-`result` із виклику функцій [cubrid\_execute()](function.cubrid-execute.html) [cubrid\_query()](function.cubrid-query.html) і [cubrid\_prepare()](function.cubrid-prepare.html)
+`result` із виклику функцій [cubridexecute()](function.cubrid-execute.html) [cubridquery()](function.cubrid-query.html) і [cubridprepare()](function.cubrid-prepare.html)
 
 ### Значення, що повертаються
 
@@ -71,6 +71,6 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubrid\_num\_cols()](function.cubrid-num-cols.html) - Повертає кількість стовпців у наборі результатів
--   [cubrid\_affected\_rows()](function.cubrid-affected-rows.html) - Кількість рядків, порушених останнім SQL-запитом
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridnumcols()](function.cubrid-num-cols.html) - Повертає кількість стовпців у наборі результатів
+-   [cubridaffectedrows()](function.cubrid-affected-rows.html) - Кількість рядків, порушених останнім SQL-запитом

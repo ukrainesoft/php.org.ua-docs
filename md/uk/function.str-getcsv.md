@@ -1,12 +1,12 @@
 Розбирає CSV-рядки в масив.
 
--   [« str\_ends\_with](function.str-ends-with.html)
+-   [« strendswith](function.str-ends-with.html)
     
--   [str\_ireplace »](function.str-ireplace.html)
+-   [strireplace »](function.str-ireplace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Розбирає CSV-рядки в масив.
     

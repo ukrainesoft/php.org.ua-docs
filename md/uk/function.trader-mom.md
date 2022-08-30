@@ -1,8 +1,8 @@
 Моментум
 
--   [« trader\_minus\_dm](function.trader-minus-dm.html)
+-   [« traderminusдм](function.trader-minus-dm.html)
     
--   [trader\_mult »](function.trader-mult.html)
+-   [tradermult »](function.trader-mult.html)
     
 -   [PHP Manual](index.html)
     

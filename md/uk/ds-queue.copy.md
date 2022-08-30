@@ -1,12 +1,12 @@
 Повертає поверхневу копію черги
 
--   [« Ds\\Queue::\_\_construct](ds-queue.construct.html)
+-   [« DsQueue::construct](ds-queue.construct.html)
     
--   [Ds\\Queue::count »](ds-queue.count.html)
+-   [ДсQueue::count »](ds-queue.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Повертає поверхневу копію черги
     

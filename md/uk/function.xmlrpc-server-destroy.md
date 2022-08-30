@@ -1,12 +1,12 @@
 Знищує серверні ресурси
 
--   [« xmlrpc\_server\_create](function.xmlrpc-server-create.html)
+-   [« xmlrpcservercreate](function.xmlrpc-server-create.html)
     
--   [xmlrpc\_server\_register\_introspection\_callback »](function.xmlrpc-server-register-introspection-callback.html)
+-   [xmlrpcserverregisterintrospectioncallback »](function.xmlrpc-server-register-introspection-callback.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Знищує серверні ресурси
     

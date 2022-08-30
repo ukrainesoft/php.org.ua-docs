@@ -1,12 +1,12 @@
 Клас MongoDBDriverTopologyDescription
 
--   [« MongoDB\\Driver\\ServerDescription::getType](mongodb-driver-serverdescription.gettype.html)
+-   [« MongoDBDriverServerDescription::getType](mongodb-driver-serverdescription.gettype.html)
     
--   [MongoDB\\Driver\\TopologyDescription::getServers »](mongodb-driver-topologydescription.getservers.html)
+-   [MongoDBDriverTopologyDescription::getServers »](mongodb-driver-topologydescription.getservers.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverTopologyDescription
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **MongoDBDriverTopologyDescription** є об'єктом значення, що представляє топологію, до якої підключений драйвер. Примірники класу повертаються методами [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
+Клас **MongoDBDriverTopologyDescription** є об'єктом значення, що представляє топологію, до якої підключений драйвер. Примірники класу повертаються методами [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
 
 ## Огляд класів
 
@@ -73,31 +73,31 @@ final public hasWritableServer(): bool
 
 **`MongoDB\Driver\TopologyDescription::TYPE_UNKNOWN`**
 
-Невідомий тип топології, який повертається методом [MongoDB\\Driver\\TopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Невідомий тип топології, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_SINGLE`**
 
-Одиночний сервер (тобто пряме з'єднання), що повертається методом [MongoDB\\Driver\\TopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Одиночний сервер (тобто пряме з'єднання), що повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_SHARDED`**
 
-Кластер, що розділяється, повертається методом [MongoDB\\Driver\\TopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Кластер, що розділяється, повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_REPLICA_SET_NO_PRIMARY`**
 
-Набір реплік без первинного сервера, який повертається методом [MongoDB\\Driver\\TopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Набір реплік без первинного сервера, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_REPLICA_SET_WITH_PRIMARY`**
 
-Набір реплік з первинним сервером, який повертається методом [MongoDB\\Driver\\TopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Набір реплік з первинним сервером, який повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
 
 **`MongoDB\Driver\TopologyDescription::TYPE_LOAD_BALANCED`**
 
-Збалансована за навантаженням топологія, що повертається методом [MongoDB\\Driver\\TopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
+Збалансована за навантаженням топологія, що повертається методом [MongoDBDriverTopologyDescription::getType()](mongodb-driver-topologydescription.gettype.html)
 
 ## Зміст
 
--   [MongoDB\\Driver\\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html) — Повертає сервери у топології
--   [MongoDB\\Driver\\TopologyDescription::getType](mongodb-driver-topologydescription.gettype.html) — Повертає рядок, що позначає тип топології
--   [MongoDB\\Driver\\TopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.html) — Повертає, чи є у топології сервер, доступний для читання
--   [MongoDB\\Driver\\TopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.html) — Повертає, чи є у топології сервер, доступний для запису
+-   [MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html) — Повертає сервери у топології
+-   [MongoDBDriverTopologyDescription::getType](mongodb-driver-topologydescription.gettype.html) — Повертає рядок, що позначає тип топології
+-   [MongoDBDriverTopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.html) — Повертає, чи є у топології сервер, доступний для читання
+-   [MongoDBDriverTopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.html) — Повертає, чи є у топології сервер, доступний для запису

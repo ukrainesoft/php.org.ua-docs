@@ -13,7 +13,7 @@
 
 ## Налаштування під час виконання
 
-Поведінка модуля Apache PHP залежить від налаштувань у php.ini. Налаштування конфігурації з php.ini можуть бути перевизначені через налаштування прапора [php\_flag](configuration.changes.html#configuration.changes.apache) у конфігураційному файлі сервера або локальному файлі .htaccess.
+Поведінка модуля Apache PHP залежить від налаштувань у php.ini. Налаштування конфігурації з php.ini можуть бути перевизначені через налаштування прапора [phpflag](configuration.changes.html#configuration.changes.apache) у конфігураційному файлі сервера або локальному файлі .htaccess.
 
 **Приклад #1 Відключення PHP-сервера для директорії за допомогою .htaccess**
 
@@ -23,12 +23,12 @@ php_flag engine off
 
 **Установки конфігурації Apache**
 
-| Имя                                                               | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------|--------------|-----------------|------------------|
-| [engine](apache.configuration.html#ini.engine)                    | "1"          | PHPINIALL       |                  |
-| [child\_terminate](apache.configuration.html#ini.child-terminate) | "0"          | PHPINIALL       |                  |
-| [last\_modified](apache.configuration.html#ini.last-modified)     | "0"          | PHPINIALL       |                  |
-| [xbithack](apache.configuration.html#ini.xbithack)                | "0"          | PHPINIALL       |                  |
+| Имя                                                             | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------------------------|--------------|-----------------|------------------|
+| [engine](apache.configuration.html#ini.engine)                  | "1"          | PHPINIALL       |                  |
+| [childterminate](apache.configuration.html#ini.child-terminate) | "0"          | PHPINIALL       |                  |
+| [lastmodified](apache.configuration.html#ini.last-modified)     | "0"          | PHPINIALL       |                  |
+| [xbithack](apache.configuration.html#ini.xbithack)              | "0"          | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -40,7 +40,7 @@ php_flag engine off
 
 `child_terminate` bool
 
-Ця установка керує тим, чи можуть скрипти PHP вимагати закінчення дочірніх процесів після завершення запиту. Дивіться також [apache\_child\_terminate()](function.apache-child-terminate.html)
+Ця установка керує тим, чи можуть скрипти PHP вимагати закінчення дочірніх процесів після завершення запиту. Дивіться також [apachechildterminate()](function.apache-child-terminate.html)
 
 `last_modified` bool
 

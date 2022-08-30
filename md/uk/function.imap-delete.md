@@ -1,8 +1,8 @@
 Позначити повідомлення для видалення
 
--   [« imap\_createmailbox](function.imap-createmailbox.html)
+-   [« imapcreatemailbox](function.imap-createmailbox.html)
     
--   [imap\_deletemailbox »](function.imap-deletemailbox.html)
+-   [imapdeletemailbox »](function.imap-deletemailbox.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ imapdelete — Позначити повідомлення для видален
 imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 ```
 
-Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imap\_expunge()](function.imap-expunge.html), або [imap\_close()](function.imap-close.html) із встановленим параметром **`CL_EXPUNGE`**
+Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imapexpunge()](function.imap-expunge.html), або [imapclose()](function.imap-close.html) із встановленим параметром **`CL_EXPUNGE`**
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_nums`
 
@@ -37,7 +37,7 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 `flags`
 
-Можна поставити як **`FT_UID`**тоді функція буде очікувати в параметрі `message_nums` не номер повідомлення, а `UID`
+Можна поставити як \*\*`FT_UID`\*\*тоді функція буде очікувати в параметрі `message_nums` не номер повідомлення, а `UID`
 
 ### Значення, що повертаються
 
@@ -45,9 +45,9 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -80,10 +80,10 @@ imap_close($mbox);
 
 > **Зауваження**
 > 
-> Скриньки IMAP можуть не зберігати прапори між з'єднаннями, тому якщо ви дійсно хочете видалити позначені повідомлення, необхідно викликати [imap\_expunge()](function.imap-expunge.html) у тому з'єднанні, в якому прапори встановлювалися.
+> Скриньки IMAP можуть не зберігати прапори між з'єднаннями, тому якщо ви дійсно хочете видалити позначені повідомлення, необхідно викликати [imapexpunge()](function.imap-expunge.html) у тому з'єднанні, в якому прапори встановлювалися.
 
 ### Дивіться також
 
--   [imap\_undelete()](function.imap-undelete.html) - Знімає з повідомлення позначку видалення
--   [imap\_expunge()](function.imap-expunge.html) - Видалити всі позначені для видалення повідомлення
--   [imap\_close()](function.imap-close.html) - Закрити потік IMAP
+-   [imapundelete()](function.imap-undelete.html) - Знімає з повідомлення позначку видалення
+-   [imapexpunge()](function.imap-expunge.html) - Видалити всі позначені для видалення повідомлення
+-   [imapclose()](function.imap-close.html) - Закрити потік IMAP

@@ -1,12 +1,12 @@
 Повертає, чи використовувався в heartbeat потоковий протокол
 
--   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getPort](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.html)
+-   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent »](class.mongodb-driver-monitoring-serverheartbeatstartedevent.html)
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent »](class.mongodb-driver-monitoring-serverheartbeatstartedevent.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+-   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
     
 -   Повертає, чи використовувався в heartbeat потоковий протокол
     
@@ -35,4 +35,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited(): 
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

@@ -1,12 +1,12 @@
 Додати автофільтр
 
--   [« Vtiful\\Kernel\\Excel::addSheet](vtiful-kernel-excel.addSheet.html)
+-   [« VtifulKernelExcel::addSheet](vtiful-kernel-excel.addSheet.html)
     
--   [Vtiful\\Kernel\\Excel::constMemory »](vtiful-kernel-excel.constMemory.html)
+-   [VtifulKernelExcel::constMemory »](vtiful-kernel-excel.constMemory.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Додати автофільтр
     
@@ -33,7 +33,7 @@ public Vtiful\Kernel\Excel::autoFilter(string $scope)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

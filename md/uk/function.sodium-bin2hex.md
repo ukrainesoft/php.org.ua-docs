@@ -1,8 +1,8 @@
 Кодувати у шістнадцяткову виставу
 
--   [« sodium\_bin2base64](function.sodium-bin2base64.html)
+-   [« sodiumbin2base64](function.sodium-bin2base64.html)
     
--   [sodium\_compare »](function.sodium-compare.html)
+-   [sodiumcompare »](function.sodium-compare.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Індикатор Балансового об'єму
 
--   [« trader\_natr](function.trader-natr.html)
+-   [« tradernatr](function.trader-natr.html)
     
--   [trader\_plus\_di »](function.trader-plus-di.html)
+-   [traderplusdi »](function.trader-plus-di.html)
     
 -   [PHP Manual](index.html)
     

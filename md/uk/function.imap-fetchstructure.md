@@ -1,8 +1,8 @@
 Прочитати структуру вказаного повідомлення
 
--   [« imap\_fetchmime](function.imap-fetchmime.html)
+-   [« imapfetchmime](function.imap-fetchmime.html)
     
--   [imap\_fetchtext »](function.imap-fetchtext.html)
+-   [imapfetchtext »](function.imap-fetchtext.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_fetchstructure(IMAP\Connection $imap, int $message_num, int $flags = 0): st
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -74,11 +74,11 @@ imap_fetchstructure(IMAP\Connection $imap, int $message_num, int $flags = 0): st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_fetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
--   [imap\_bodystruct()](function.imap-bodystruct.html) - Прочитати структуру вказаної секції тіла заданого повідомлення
+-   [imapfetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
+-   [imapbodystruct()](function.imap-bodystruct.html) - Прочитати структуру вказаної секції тіла заданого повідомлення

@@ -1,6 +1,6 @@
 Обробка файлів
 
--   [« spl\_object\_id](function.spl-object-id.html)
+-   [« splobjectід](function.spl-object-id.html)
     
 -   [SplFileInfo »](class.splfileinfo.html)
     

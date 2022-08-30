@@ -1,8 +1,8 @@
 Витягує рядок результату із запиту у вигляді асоціативного масиву
 
--   [« ibase\_execute](function.ibase-execute.html)
+-   [« ibaseexecute](function.ibase-execute.html)
     
--   [ibase\_fetch\_object »](function.ibase-fetch-object.html)
+-   [ibasefetchobject »](function.ibase-fetch-object.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ ibase_fetch_assoc(resource $result, int $fetch_flag = 0): array
 
 Витягує рядок результату із запиту у вигляді асоціативного масиву
 
-**ibasefetchassoc()** витягує один рядок даних із результату. Якщо два або більше стовпця результату мають однакові назви полів, останній стовпець матиме пріоритет. Щоб отримати доступ до інших стовпців з тим же ім'ям, вам потрібно отримати доступ до результату за допомогою числових індексів функцією [ibase\_fetch\_row()](function.ibase-fetch-row.html)або використовувати псевдоніми у своєму запиті.
+**ibasefetchassoc()** витягує один рядок даних із результату. Якщо два або більше стовпця результату мають однакові назви полів, останній стовпець матиме пріоритет. Щоб отримати доступ до інших стовпців з тим же ім'ям, вам потрібно отримати доступ до результату за допомогою числових індексів функцією [ibasefetchrow()](function.ibase-fetch-row.html)або використовувати псевдоніми у своєму запиті.
 
 ### Список параметрів
 
@@ -39,9 +39,9 @@ ibase_fetch_assoc(resource $result, int $fetch_flag = 0): array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, що відповідає обраному рядку. Наступні дзвінки повернуть наступний рядок у наборі результатів або **`false`**якщо рядків більше немає.
+Повертає асоціативний масив, що відповідає обраному рядку. Наступні дзвінки повернуть наступний рядок у наборі результатів або \*\*`false`\*\*якщо рядків більше немає.
 
 ### Дивіться також
 
--   [ibase\_fetch\_row()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
--   [ibase\_fetch\_object()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase
+-   [ibasefetchrow()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
+-   [ibasefetchobject()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase

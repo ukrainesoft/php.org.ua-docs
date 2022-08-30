@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Зведення в ступінь
     
@@ -27,7 +27,7 @@ pow(mixed $num, mixed $exponent): int|float|object
 
 > **Зауваження**
 > 
-> Замість функції можна використовувати оператор [\*\*](language.operators.arithmetic.html)
+> Замість функції можна використовувати оператор[](language.operators.arithmetic.html)
 
 ### Список параметрів
 
@@ -70,4 +70,4 @@ echo pow(-1, 5.5); // NAN
 -   [exp()](function.exp.html) - обчислює ступінь числа e
 -   [sqrt()](function.sqrt.html) - Квадратний корінь
 -   [bcpow()](function.bcpow.html) - Зведення у ступінь чисел із довільною точністю
--   [gmp\_pow()](function.gmp-pow.html) - Зводить число до ступеня
+-   [gmppow()](function.gmp-pow.html) - Зводить число до ступеня

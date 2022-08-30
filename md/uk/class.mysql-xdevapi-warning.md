@@ -2,11 +2,11 @@
 
 -   [« TableUpdate::where](mysql-xdevapi-tableupdate.where.html)
     
--   [Warning::\_\_construct »](mysql-xdevapi-warning.construct.html)
+-   [Warning::construct »](mysql-xdevapi-warning.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Warning
     
@@ -59,4 +59,4 @@ code
 
 ## Зміст
 
--   [Warning::\_\_construct](mysql-xdevapi-warning.construct.html) - Конструктор класу Warning
+-   [Warning::construct](mysql-xdevapi-warning.construct.html) - Конструктор класу Warning

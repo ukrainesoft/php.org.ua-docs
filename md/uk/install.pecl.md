@@ -16,9 +16,9 @@
 ## Зміст
 
 -   [Введение в установку PECL](install.pecl.intro.html)
--   [Загрузка модулей PECL](install.pecl.downloads.html)
+-   [Завантаження модулів PECL](install.pecl.downloads.html)
 -   [Установка PHP-модуля в Windows](install.pecl.windows.html)
--   [Компиляция разделяемых модулей с помощью команды pecl](install.pecl.pear.html)
--   [Компиляция разделяемых модулей с помощью phpize](install.pecl.phpize.html)
+-   [Компіляція модулів, що розділяються за допомогою команди pecl](install.pecl.pear.html)
+-   [Компіляція модулів, що розділяються, за допомогою phpize](install.pecl.phpize.html)
 -   [php-config](install.pecl.php-config.html)
--   [Компиляция модулей PECL статически в PHP](install.pecl.static.html)
+-   [Компіляція модулів PECL статично в PHP](install.pecl.static.html)

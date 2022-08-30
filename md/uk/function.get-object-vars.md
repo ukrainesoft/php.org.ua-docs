@@ -1,12 +1,12 @@
 Повертає властивості вказаного об'єкту
 
--   [« get\_mangled\_object\_vars](function.get-mangled-object-vars.html)
+-   [« getmangledobjectvars](function.get-mangled-object-vars.html)
     
--   [get\_parent\_class »](function.get-parent-class.html)
+-   [getparentclass »](function.get-parent-class.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає властивості вказаного об'єкту
     
@@ -89,5 +89,5 @@ array(4) {
 
 ### Дивіться також
 
--   [get\_class\_methods()](function.get-class-methods.html) - Повертає масив імен методів класу
--   [get\_class\_vars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
+-   [getclassmethods()](function.get-class-methods.html) - Повертає масив імен методів класу
+-   [getclassvars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу

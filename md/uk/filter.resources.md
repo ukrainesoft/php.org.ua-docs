@@ -2,7 +2,7 @@
 
 -   [« Настройка во время выполнения](filter.configuration.html)
     
--   [Типы фильтров »](filter.filters.html)
+-   [Типи фільтрів »](filter.filters.html)
     
 -   [PHP Manual](index.html)
     

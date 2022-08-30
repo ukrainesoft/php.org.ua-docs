@@ -1,8 +1,8 @@
 Отримує інформацію про поле
 
--   [« ibase\_fetch\_row](function.ibase-fetch-row.html)
+-   [« ibasefetchrow](function.ibase-fetch-row.html)
     
--   [ibase\_free\_event\_handler »](function.ibase-free-event-handler.html)
+-   [ibasefreeeventhandler »](function.ibase-free-event-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -60,4 +60,4 @@ for ($i = 0; $i < $coln; $i++) {
 
 ### Дивіться також
 
--   [ibase\_num\_fields()](function.ibase-num-fields.html) - Повертає кількість полів у результуючому наборі
+-   [ibasenumfields()](function.ibase-num-fields.html) - Повертає кількість полів у результуючому наборі

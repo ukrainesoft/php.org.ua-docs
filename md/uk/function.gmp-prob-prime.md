@@ -1,12 +1,12 @@
 Перевіряє, чи є число "ймовірно простим"
 
--   [« gmp\_powm](function.gmp-powm.html)
+-   [« gmppowm](function.gmp-powm.html)
     
--   [gmp\_random\_bits »](function.gmp-random-bits.html)
+-   [gmprandombits »](function.gmp-random-bits.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Перевіряє, чи є число "ймовірно простим"
     

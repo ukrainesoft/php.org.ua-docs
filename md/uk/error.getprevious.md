@@ -23,7 +23,7 @@ Error::getPrevious — Повертає попередній Throwable
 final public Error::getPrevious(): ?Throwable
 ```
 
-Повертає попередній об'єкт Throwable (третій параметр конструктора [Error::\_\_construct()](error.construct.html)
+Повертає попередній об'єкт Throwable (третій параметр конструктора [Error::construct()](error.construct.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ final public Error::getPrevious(): ?Throwable
 
 ### Значення, що повертаються
 
-Повертає попередній об'єкт [Throwable](class.throwable.html), якщо він є, і **`null`**якщо його немає.
+Повертає попередній об'єкт [Throwable](class.throwable.html), якщо він є, і \*\*`null`\*\*якщо його немає.
 
 ### Приклади
 

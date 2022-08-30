@@ -1,8 +1,8 @@
 Видаляє всі значення з колекції
 
--   [« Ds\\Stack::capacity](ds-stack.capacity.html)
+-   [« DsStack::capacity](ds-stack.capacity.html)
     
--   [Ds\\Stack::\_\_construct »](ds-stack.construct.html)
+-   [ДсStack::construct »](ds-stack.construct.html)
     
 -   [PHP Manual](index.html)
     

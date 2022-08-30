@@ -1,12 +1,12 @@
 Звільняє ресурси, пов'язані із зазначеним ресурсом виразу
 
--   [« db2\_free\_result](function.db2-free-result.html)
+-   [« db2freeresult](function.db2-free-result.html)
     
--   [db2\_get\_option »](function.db2-get-option.html)
+-   [db2getoption »](function.db2-get-option.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Звільняє ресурси, пов'язані із зазначеним ресурсом виразу
     
@@ -37,4 +37,4 @@ db2_free_stmt(resource $stmt): bool
 
 ### Дивіться також
 
--   [db2\_free\_result()](function.db2-free-result.html) - звільняє ресурси, пов'язані з набором результатів
+-   [db2freeresult()](function.db2-free-result.html) - звільняє ресурси, пов'язані з набором результатів

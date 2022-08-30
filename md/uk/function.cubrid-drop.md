@@ -1,8 +1,8 @@
 Видалення екземпляра за OID
 
--   [« cubrid\_disconnect](function.cubrid-disconnect.html)
+-   [« cubriddisconnect](function.cubrid-disconnect.html)
     
--   [cubrid\_error\_code\_facility »](function.cubrid-error-code-facility.html)
+-   [cubriderrorcodefacility »](function.cubrid-error-code-facility.html)
     
 -   [PHP Manual](index.html)
     
@@ -145,4 +145,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubrid\_is\_instance()](function.cubrid-is-instance.html) - Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubridісinstance()](function.cubrid-is-instance.html) - Перевіряє, чи існує екземпляр, на який вказує OID

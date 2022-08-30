@@ -1,8 +1,8 @@
 Створює поштовий MIME-ресурс
 
--   [« mailparse\_determine\_best\_xfer\_encoding](function.mailparse-determine-best-xfer-encoding.html)
+-   [« mailparsedeterminebestxferencoding](function.mailparse-determine-best-xfer-encoding.html)
     
--   [mailparse\_msg\_extract\_part\_file »](function.mailparse-msg-extract-part-file.html)
+-   [mailparsemsgextractpartfile »](function.mailparse-msg-extract-part-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,9 +37,9 @@ mailparse_msg_create(): resource
 
 > **Зауваження**
 > 
-> Рекомендується викликати [mailparse\_msg\_free()](function.mailparse-msg-free.html) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
+> Рекомендується викликати [mailparsemsgfree()](function.mailparse-msg-free.html) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
 
 ### Дивіться також
 
--   [mailparse\_msg\_free()](function.mailparse-msg-free.html) - Вивільнити MIME-ресурс
--   [mailparse\_msg\_parse\_file()](function.mailparse-msg-parse-file.html) - Розібрати файл
+-   [mailparsemsgfree()](function.mailparse-msg-free.html) - Вивільнити MIME-ресурс
+-   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.html) - Розібрати файл

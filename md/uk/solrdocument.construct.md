@@ -1,6 +1,6 @@
 Конструктор
 
--   [« SolrDocument::\_\_clone](solrdocument.clone.html)
+-   [« SolrDocument::clone](solrdocument.clone.html)
     
 -   [SolrDocument::current »](solrdocument.current.html)
     

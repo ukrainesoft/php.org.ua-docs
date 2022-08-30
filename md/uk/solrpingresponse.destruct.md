@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrPingResponse::\_\_construct](solrpingresponse.construct.html)
+-   [« SolrPingResponse::construct](solrpingresponse.construct.html)
     
 -   [SolrPingResponse::getResponse »](solrpingresponse.getresponse.html)
     

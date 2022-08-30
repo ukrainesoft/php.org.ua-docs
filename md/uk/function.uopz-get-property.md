@@ -1,12 +1,12 @@
 Отримує значення класу або властивість екземпляра
 
--   [« uopz\_get\_mock](function.uopz-get-mock.html)
+-   [« uopzgetmock](function.uopz-get-mock.html)
     
--   [uopz\_get\_return »](function.uopz-get-return.html)
+-   [uopzgetreturn »](function.uopz-get-return.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Отримує значення класу або властивість екземпляра
     
@@ -45,7 +45,7 @@ uopz_get_property(object $instance, string $property): mixed
 
 ### Значення, що повертаються
 
-Повертає значення класу або властивість екземпляра, або **`null`**якщо властивість не визначено.
+Повертає значення класу або властивість екземпляра, або \*\*`null`\*\*якщо властивість не визначено.
 
 ### Приклади
 
@@ -72,4 +72,4 @@ int(100)
 
 ### Дивіться також
 
--   [uopz\_set\_property()](function.uopz-set-property.html) - Встановлює значення існуючої властивості класу чи екземпляра
+-   [uopzsetproperty()](function.uopz-set-property.html) - Встановлює значення існуючої властивості класу чи екземпляра

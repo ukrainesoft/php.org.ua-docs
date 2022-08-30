@@ -1,6 +1,6 @@
 Додає дані до активного контексту хешування
 
--   [« hash\_update\_stream](function.hash-update-stream.html)
+-   [« hashupdatestream](function.hash-update-stream.html)
     
 -   [hash »](function.hash.html)
     
@@ -27,7 +27,7 @@ hash_update(HashContext $context, string $data): bool
 
 `context`
 
-Контекст хешування, що повертається [hash\_init()](function.hash-init.html)
+Контекст хешування, що повертається [hashinit()](function.hash-init.html)
 
 `data`
 
@@ -45,7 +45,7 @@ hash_update(HashContext $context, string $data): bool
 
 ### Дивіться також
 
--   [hash\_init()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hash\_update\_file()](function.hash-update-file.html) - Додає дані з файлу до активного контексту хешування
--   [hash\_update\_stream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
--   [hash\_final()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashupdatefile()](function.hash-update-file.html) - Додає дані з файлу до активного контексту хешування
+-   [hashupdatestream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
+-   [hashfinal()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду

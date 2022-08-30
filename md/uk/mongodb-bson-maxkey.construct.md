@@ -1,12 +1,12 @@
 Конструктор MaxKey
 
--   [« MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
+-   [« MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
     
--   [MongoDB\\BSON\\MaxKey::jsonSerialize »](mongodb-bson-maxkey.jsonserialize.html)
+-   [MongoDBBSONMaxKey::jsonSerialize »](mongodb-bson-maxkey.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
+-   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
     
 -   Конструктор MaxKey
     
@@ -29,7 +29,7 @@ final public MongoDB\BSON\MaxKey::__construct()
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

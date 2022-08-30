@@ -1,8 +1,8 @@
 Включає трасування підключення PostgreSQL
 
--   [« pg\_socket](function.pg-socket.html)
+-   [« pgsocket](function.pg-socket.html)
     
--   [pg\_transaction\_status »](function.pg-transaction-status.html)
+-   [пгtransactionstatus »](function.pg-transaction-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -51,10 +51,10 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 
@@ -79,4 +79,4 @@ if ($pgsql_conn) {
 ### Дивіться також
 
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [pg\_untrace()](function.pg-untrace.html) - Вимикає трасування з'єднання з PostgreSQL
+-   [пгuntrace()](function.pg-untrace.html) - Вимикає трасування з'єднання з PostgreSQL

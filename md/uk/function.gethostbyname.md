@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Отримує IPv4-адресу, що відповідає переданому імені хоста
     
@@ -51,5 +51,5 @@ echo $ip;
 
 -   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   [gethostbynamel()](function.gethostbynamel.html) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
--   [inet\_pton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
--   [inet\_ntop()](function.inet-ntop.html) - Конвертує упаковану інтернет-адресу в формат, що читається
+-   [inetpton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+-   [inetntop()](function.inet-ntop.html) - Конвертує упаковану інтернет-адресу в формат, що читається

@@ -1,12 +1,12 @@
 Встановлює налаштування часу виконання сервера swoole
 
--   [« Swoole\\Server::sendwait](swoole-server.sendwait.html)
+-   [« SwooleServer::sendwait](swoole-server.sendwait.html)
     
--   [Swoole\\Server::shutdown »](swoole-server.shutdown.html)
+-   [SwooleServer::shutdown »](swoole-server.shutdown.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Встановлює налаштування часу виконання сервера swoole
     

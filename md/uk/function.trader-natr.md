@@ -1,8 +1,8 @@
 Нормалізований середній дійсний діапазон
 
--   [« trader\_mult](function.trader-mult.html)
+-   [« tradermult](function.trader-mult.html)
     
--   [trader\_obv »](function.trader-obv.html)
+-   [traderobv »](function.trader-obv.html)
     
 -   [PHP Manual](index.html)
     

@@ -24,4 +24,4 @@
 2.  Щоразу, коли минуло п'ять секунд з моменту останньої події.
     
 
-Дивіться також [» Fast Быстрое, переносимое, неблокирующее сетевое программирование с Libevent, о постоянных событиях](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.html#_about_event_persistence)
+Дивіться також [» Fast Швидке, переносне, неблокуюче мережне програмування з Libevent, про постійні події](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.html#_about_event_persistence)

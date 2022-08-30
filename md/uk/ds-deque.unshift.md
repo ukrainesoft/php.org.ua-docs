@@ -1,12 +1,12 @@
 Додає значення на початок двосторонньої черги
 
--   [« Ds\\Deque::toArray](ds-deque.toarray.html)
+-   [« DsDeque::toArray](ds-deque.toarray.html)
     
 -   [Коллекция пар ключ-значение »](class.ds-map.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Додає значення на початок двосторонньої черги
     

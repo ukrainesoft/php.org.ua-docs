@@ -1,8 +1,8 @@
 Створити MIME-повідомлення на основі заданих обгортки та тіла
 
--   [« imap\_lsub](function.imap-lsub.html)
+-   [« imaplsub](function.imap-lsub.html)
     
--   [imap\_mail\_copy »](function.imap-mail-copy.html)
+-   [imapmailcopy »](function.imap-mail-copy.html)
     
 -   [PHP Manual](index.html)
     

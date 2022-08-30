@@ -2,7 +2,7 @@
 
 -   [« Функции Seaslog](ref.seaslog.html)
     
--   [seaslog\_get\_version »](function.seaslog-get-version.html)
+-   [seasloggetversion »](function.seaslog-get-version.html)
     
 -   [PHP Manual](index.html)
     

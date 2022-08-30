@@ -2,7 +2,7 @@
 
 -   [« Настройка во время выполнения](mysqli.configuration.html)
     
--   [Модуль mysqli и постоянные соединения »](mysqli.persistconns.html)
+-   [Модуль mysqli та постійні з'єднання »](mysqli.persistconns.html)
     
 -   [PHP Manual](index.html)
     

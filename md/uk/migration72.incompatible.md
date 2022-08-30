@@ -13,9 +13,9 @@
 
 ## Зміни, що ламають зворотну сумісність
 
-### Запобігання поверненню негативного нуля з [number\_format()](function.number-format.html)
+### Запобігання поверненню негативного нуля з [numberformat()](function.number-format.html)
 
-Раніше функція [number\_format()](function.number-format.html) повертала `-0`. Хоча це абсолютно правильно відповідно до специфікації чисел з плаваючою точкою IEEE 754, ця дивина небажана для відображення відформатованих чисел у формі, що легко читається.
+Раніше функція [numberformat()](function.number-format.html) повертала `-0`. Хоча це абсолютно правильно відповідно до специфікації чисел з плаваючою точкою IEEE 754, ця дивина небажана для відображення відформатованих чисел у формі, що легко читається.
 
 ```php
 <?php
@@ -84,9 +84,9 @@ int(1)
 int(1)
 ```
 
-### Заборонено передачу **`null`** в [get\_class()](function.get-class.html)
+### Заборонено передачу **`null`** в [getclass()](function.get-class.html)
 
-Раніше передача **`null`** у функцію [get\_class()](function.get-class.html) повертала ім'я класу, з якого було зроблено виклик. Ця поведінка була видалена і тепер натомість буде викликана помилка рівня **`E_WARNING`**. Для досягнення тієї самої поведінки, як і раніше, слід просто опустити аргумент.
+Раніше передача **`null`** у функцію [getclass()](function.get-class.html) повертала ім'я класу, з якого було зроблено виклик. Ця поведінка була видалена і тепер натомість буде викликана помилка рівня **`E_WARNING`**. Для досягнення тієї самої поведінки, як і раніше, слід просто опустити аргумент.
 
 ### Попередження при підрахунку нечисленних типів
 
@@ -123,7 +123,7 @@ int(2)
 
 ### Перехід від ресурсів до об'єктів у модулі Hash
 
-В рамках довгострокової міграції відмови від ресурсів, модуль [Hash](book.hash.html) було оновлено для використання об'єктів замість ресурсів. Ця зміна повинна бути плавною для PHP-розробників, за винятком випадків, коли використовуються перевірки [is\_resource()](function.is-resource.html) (які потрібно замінити на використання [is\_object()](function.is-object.html)
+В рамках довгострокової міграції відмови від ресурсів, модуль [Hash](book.hash.html) було оновлено для використання об'єктів замість ресурсів. Ця зміна повинна бути плавною для PHP-розробників, за винятком випадків, коли використовуються перевірки [ісresource()](function.is-resource.html) (які потрібно замінити на використання [ісobject()](function.is-object.html)
 
 ### Покращено значення за замовчуванням у SSL/TLS
 
@@ -137,9 +137,9 @@ int(2)
 
 Раніше використання [gettype()](function.gettype.html) на закритому ресурсі повертало рядок `"unknown type"`. Тепер буде повернуто рядок `"resource (closed)"`
 
-### [is\_object()](function.is-object.html) і **PHPIncompleteClass**
+### [ісobject()](function.is-object.html) і **PHPIncompleteClass**
 
-Раніше використання [is\_object()](function.is-object.html) на класі **PHPIncompleteClass** повертало **`false`**. Тепер повертатиметься **`true`**
+Раніше використання [ісobject()](function.is-object.html) на класі **PHPIncompleteClass** повертало **`false`**. Тепер повертатиметься **`true`**
 
 ### Підвищено рівні помилок невизначених констант
 
@@ -161,7 +161,7 @@ int(2)
 
 Підтримка NetWare було видалено.
 
-### [array\_unique()](function.array-unique.html) with **`SORT_STRING`**
+### [arrayunique()](function.array-unique.html) with **`SORT_STRING`**
 
 Якщо `sort_flags` дорівнює **`SORT_STRING`**, раніше масив `array` копіювався, а не унікальні елементи видалялися (зберігаючи значення цифрових індексів), але тепер створюється новий масив шляхом додавання унікальних елементів. Це може призвести до різних числових індексів.
 
@@ -171,23 +171,23 @@ int(2)
 
 ### Функції хешування та некриптографічні хеші
 
-Функції [hash\_hmac()](function.hash-hmac.html) [hash\_hmac\_file()](function.hash-hmac-file.html) [hash\_pbkdf2()](function.hash-pbkdf2.html) і [hash\_init()](function.hash-init.html) (з **`HASH_HMAC`**) більше не приймають некриптографічні хеші.
+Функції [hashhmac()](function.hash-hmac.html) [hashhmacfile()](function.hash-hmac-file.html) [hashpbkdf2()](function.hash-pbkdf2.html) і [hashinit()](function.hash-init.html) (з **`HASH_HMAC`**) більше не приймають некриптографічні хеші.
 
-### Опції функції [json\_decode()](function.json-decode.html)
+### Опції функції [jsondecode()](function.json-decode.html)
 
-Опція функції [json\_decode()](function.json-decode.html) **`JSON_OBJECT_AS_ARRAY`**, тепер використовується, якщо другий параметр (assoc) дорівнює **`null`**. Раніше **`JSON_OBJECT_AS_ARRAY`** завжди ігнорувався.
+Опція функції [jsondecode()](function.json-decode.html) **`JSON_OBJECT_AS_ARRAY`**, тепер використовується, якщо другий параметр (assoc) дорівнює **`null`**. Раніше **`JSON_OBJECT_AS_ARRAY`** завжди ігнорувався.
 
-### Висновок [rand()](function.rand.html) і [mt\_rand()](function.mt-rand.html)
+### Висновок [rand()](function.rand.html) і [мтrand()](function.mt-rand.html)
 
-Числа, що генеруються [rand()](function.rand.html) і [mt\_rand()](function.mt-rand.html) для певного параметра переініціалізації (seed) можуть відрізнятися від PHP 7.1 на 64-бітних машинах (через виправлення помилки модульного зміщення в реалізації).
+Числа, що генеруються [rand()](function.rand.html) і [мтrand()](function.mt-rand.html) для певного параметра переініціалізації (seed) можуть відрізнятися від PHP 7.1 на 64-бітних машинах (через виправлення помилки модульного зміщення в реалізації).
 
 ### Видалення ini-налаштувань [`sql.safe_mode`](ini.core.html#ini.sql.safe-mode)
 
 Налаштування конфігурації `sql.safe_mode` було видалено.
 
-### Зміни в [date\_parse()](function.date-parse.html) і [date\_parse\_from\_format()](function.date-parse-from-format.html)
+### Зміни в [dateparse()](function.date-parse.html) і [dateparsefromformat()](function.date-parse-from-format.html)
 
-Елемент масиву `zone`, що повертається функціями [date\_parse\_from\_format()](function.date-parse-from-format.html) і [date\_parse()](function.date-parse.html) тепер відображає секунди замість хвилин, а його знак інвертується. Наприклад, `-120` тепер буде `7200`
+Елемент масиву `zone`, що повертається функціями [dateparsefromformat()](function.date-parse-from-format.html) і [dateparse()](function.date-parse.html) тепер відображає секунди замість хвилин, а його знак інвертується. Наприклад, `-120` тепер буде `7200`
 
 ### Вхідні Cookies
 

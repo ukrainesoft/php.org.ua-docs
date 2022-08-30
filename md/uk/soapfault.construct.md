@@ -2,7 +2,7 @@
 
 -   [« SoapFault](class.soapfault.html)
     
--   [SoapFault::\_\_toString »](soapfault.tostring.html)
+-   [SoapFault::toString »](soapfault.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ string `$string`
 ?string `$actor` **`null`**  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$details` **`null`**  
 ?string `$name` **`null`**  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$headerFault` **`null`**  
+[mixed](language.types.declarations.html#language.types.declarations.mixed) `$headerFault` **`null`**
 
 Цей клас служить для надсилання відповіді на помилку SOAP з обробника PHP . `faultcode` `faultstring` `faultactor` і `detail` є стандартними елементами SOAP.
 
@@ -92,4 +92,4 @@ $server->handle();
 ### Дивіться також
 
 -   [SoapServer::fault()](soapserver.fault.html) - змушує SoapServer повернути помилку
--   [is\_soap\_fault()](function.is-soap-fault.html) - Перевіряє, чи сталася помилка під час виклику SOAP
+-   [ісsoapfault()](function.is-soap-fault.html) - Перевіряє, чи сталася помилка під час виклику SOAP

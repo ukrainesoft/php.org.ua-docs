@@ -1,8 +1,8 @@
 Перевіряє, чи існує поле у ​​документі
 
--   [« SolrDocument::\_\_destruct](solrdocument.destruct.html)
+-   [« SolrDocument::destruct](solrdocument.destruct.html)
     
--   [SolrDocument::\_\_get »](solrdocument.get.html)
+-   [SolrDocument::get »](solrdocument.get.html)
     
 -   [PHP Manual](index.html)
     

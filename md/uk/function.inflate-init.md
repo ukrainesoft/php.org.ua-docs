@@ -1,6 +1,6 @@
 Ініціалізація контексту інкрементального розпакування
 
--   [« inflate\_get\_status](function.inflate-get-status.html)
+-   [« inflategetstatus](function.inflate-get-status.html)
     
 -   [readgzfile »](function.readgzfile.html)
     
@@ -77,5 +77,5 @@ dictionary
 
 ### Дивіться також
 
--   [inflate\_add()](function.inflate-add.html) - Інкрементальне розпакувати закодовані дані
--   [deflate\_init()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+-   [inflateadd()](function.inflate-add.html) - Інкрементальне розпакувати закодовані дані
+-   [deflateinit()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску

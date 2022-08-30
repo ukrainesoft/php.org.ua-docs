@@ -1,12 +1,12 @@
 Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
 
--   [« stats\_absolute\_deviation](function.stats-absolute-deviation.html)
+-   [« statsabsolutedeviation](function.stats-absolute-deviation.html)
     
--   [stats\_cdf\_binomial »](function.stats-cdf-binomial.html)
+-   [statscdfbinomial »](function.stats-cdf-binomial.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
     

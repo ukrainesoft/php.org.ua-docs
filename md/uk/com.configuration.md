@@ -17,15 +17,15 @@
 
 **Опції конфігурації Com**
 
-| Имя                                                                                          | По умолчанию | Место изменения | Список изменений      |
-|----------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------|
-| [com.allow\_dcom](com.configuration.html#ini.com.allow-dcom)                                 | "0"          | PHPINISYSTEM    |                       |
-| [com.autoregister\_typelib](com.configuration.html#ini.com.autoregister-typelib)             | "0"          | PHPINIALL       |                       |
-| [com.autoregister\_verbose](com.configuration.html#ini.com.autoregister-verbose)             | "0"          | PHPINIALL       |                       |
-| [com.autoregister\_casesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1"          | PHPINIALL       |                       |
-| [com.code\_page](com.configuration.html#ini.com.code-page)                                   | ""           | PHPINIALL       |                       |
-| [com.dotnet\_version](com.configuration.html#ini.com.dotnet-version)                         | ""           | PHPINISYSTEM    | Починаючи з PHP 8.0.0 |
-| [com.typelib\_file](com.configuration.html#ini.com.typelib-file)                             | ""           | PHPINISYSTEM    |                       |
+| Имя                                                                                        | По умолчанию | Место изменения | Список изменений      |
+|--------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------|
+| [com.allowdcom](com.configuration.html#ini.com.allow-dcom)                                 | "0"          | PHPINISYSTEM    |                       |
+| [com.autoregistertypelib](com.configuration.html#ini.com.autoregister-typelib)             | "0"          | PHPINIALL       |                       |
+| [com.autoregisterverbose](com.configuration.html#ini.com.autoregister-verbose)             | "0"          | PHPINIALL       |                       |
+| [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1"          | PHPINIALL       |                       |
+| [com.codepage](com.configuration.html#ini.com.code-page)                                   | ""           | PHPINIALL       |                       |
+| [com.dotnetversion](com.configuration.html#ini.com.dotnet-version)                         | ""           | PHPINISYSTEM    | Починаючи з PHP 8.0.0 |
+| [com.typelibfile](com.configuration.html#ini.com.typelib-file)                             | ""           | PHPINISYSTEM    |                       |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -37,7 +37,7 @@
 
 `com.autoregister_typelib`
 
-Якщо увімкнено, PHP спробує зареєструвати константи бібліотеки типів створюваних об'єктів. [COM](class.com.html)якщо ці об'єкти реалізують інтерфейс, необхідний для отримання даної інформації. Регістрозалежність реєстрованих констант контролюється директивою конфігурації php.ini [com.autoregister\_casesensitive](com.configuration.html#ini.com.autoregister-casesensitive)
+Якщо увімкнено, PHP спробує зареєструвати константи бібліотеки типів створюваних об'єктів. [COM](class.com.html)якщо ці об'єкти реалізують інтерфейс, необхідний для отримання даної інформації. Регістрозалежність реєстрованих констант контролюється директивою конфігурації php.ini [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive)
 
 `com.autoregister_verbose`
 
@@ -45,7 +45,7 @@
 
 `com.autoregister_casesensitive`
 
-Якщо увімкнено (за замовчуванням), константи, виявлені при автозавантаженні бібліотек типів, при інстанцію об'єктів [COM](class.com.html), будуть зареєстровані як реєстрозалежні. Детальніше дивіться в описі функції [com\_load\_typelib()](function.com-load-typelib.html)
+Якщо увімкнено (за замовчуванням), константи, виявлені при автозавантаженні бібліотек типів, при інстанцію об'єктів [COM](class.com.html), будуть зареєстровані як реєстрозалежні. Детальніше дивіться в описі функції [comloadtypelib()](function.com-load-typelib.html)
 
 `com.code_page`
 
@@ -59,4 +59,4 @@
 
 `com.typelib_file`
 
-Значення повинно відповідати шляху файлової системи до файлу, що містить список бібліотек типів, які необхідно завантажити під час запуску. Кожен рядок файлу буде розглядатися як ім'я бібліотеки типів, яка буде завантажена, як тільки ви викличете функцію [com\_load\_typelib()](function.com-load-typelib.html). Константи будуть зареєстровані на постійній основі, тому бібліотеки потрібно завантажувати лише один раз. Якщо ім'я бібліотеки типів закінчується на рядок `#cis` або `#case_insensitive`, то константи будуть зареєстровані як реєстронезалежні.
+Значення повинно відповідати шляху файлової системи до файлу, що містить список бібліотек типів, які необхідно завантажити під час запуску. Кожен рядок файлу буде розглядатися як ім'я бібліотеки типів, яка буде завантажена, як тільки ви викличете функцію [comloadtypelib()](function.com-load-typelib.html). Константи будуть зареєстровані на постійній основі, тому бібліотеки потрібно завантажувати лише один раз. Якщо ім'я бібліотеки типів закінчується на рядок `#cis` або `#case_insensitive`, то константи будуть зареєстровані як реєстронезалежні.

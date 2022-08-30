@@ -1,8 +1,8 @@
 Чекає активності на будь-якому curlmulti з'єднанні
 
--   [« curl\_multi\_remove\_handle](function.curl-multi-remove-handle.html)
+-   [« curlmultiremovehandle](function.curl-multi-remove-handle.html)
     
--   [curl\_multi\_setopt »](function.curl-multi-setopt.html)
+-   [curlmultisetopt »](function.curl-multi-setopt.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
 
 `timeout`
 
@@ -47,4 +47,4 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 ### Дивіться також
 
--   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів

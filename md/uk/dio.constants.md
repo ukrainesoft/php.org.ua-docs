@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](dio.resources.html)
     
--   [Функции прямого ввода/вывода »](ref.dio.html)
+-   [Функції прямого введення/виводу »](ref.dio.html)
     
 -   [PHP Manual](index.html)
     

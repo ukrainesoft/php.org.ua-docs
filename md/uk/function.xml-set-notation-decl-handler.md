@@ -1,8 +1,8 @@
 Установка оброблювача оголошення умовних позначень
 
--   [« xml\_set\_external\_entity\_ref\_handler](function.xml-set-external-entity-ref-handler.html)
+-   [« xmlsetexternalentityrefhandler](function.xml-set-external-entity-ref-handler.html)
     
--   [xml\_set\_object »](function.xml-set-object.html)
+-   [xmlsetobject »](function.xml-set-object.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ xml_set_notation_decl_handler(XMLParser $parser, callable $handler): bool
 
 name systemId publicId?>
 
-Дивіться [» раздел 4.7 спецификации XML 1.0](http://www.w3.org/TR/1998/REC-xml-19980210#Notations) для більш повного опису позначень (нотацій).
+Дивіться [» розділ 4.7 специфікації XML 1.0](http://www.w3.org/TR/1998/REC-xml-19980210#Notations) для більш повного опису позначень (нотацій).
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ name systemId publicId?>
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати п'ять аргументів:
 

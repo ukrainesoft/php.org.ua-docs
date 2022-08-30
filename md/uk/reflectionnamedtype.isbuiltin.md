@@ -64,6 +64,6 @@ bool(false)
 ### Дивіться також
 
 -   [ReflectionType::allowsNull()](reflectiontype.allowsnull.html) - Перевіряє, чи допустимо NULL
--   [ReflectionType::\_\_toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок
 -   [ReflectionClass::isInternal()](reflectionclass.isinternal.html) - Перевіряє, чи є клас вбудованим у модуль чи ядро
 -   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра

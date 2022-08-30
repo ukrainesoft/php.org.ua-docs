@@ -1,12 +1,12 @@
 Витягти корінь ступеня N і повернути його цілу частину
 
--   [« gmp\_random](function.gmp-random.html)
+-   [« gmprandom](function.gmp-random.html)
     
--   [gmp\_rootrem »](function.gmp-rootrem.html)
+-   [gmprootrem »](function.gmp-rootrem.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Витягти корінь ступеня N і повернути його цілу частину
     

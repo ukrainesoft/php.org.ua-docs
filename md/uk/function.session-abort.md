@@ -1,12 +1,12 @@
 Скасовує зміни у масиві сесії та завершує її
 
--   [« Функции для работы с сессиями](ref.session.html)
+-   [« Функції для роботи з сесіями](ref.session.html)
     
--   [session\_cache\_expire »](function.session-cache-expire.html)
+-   [sessioncacheexpire »](function.session-cache-expire.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Скасовує зміни у масиві сесії та завершує її
     
@@ -41,8 +41,8 @@ session_abort(): bool
 
 ### Дивіться також
 
--   [$\_SESSION](reserved.variables.session.html)
--   Директива конфігурації [session.auto\_start](session.configuration.html#ini.session.auto-start)
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [session\_reset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
--   [session\_commit()](function.session-commit.html) - Псевдонім sessionwriteclose
+-   [SESSION](reserved.variables.session.html)
+-   Директива конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionreset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
+-   [sessioncommit()](function.session-commit.html) - Псевдонім sessionwriteclose

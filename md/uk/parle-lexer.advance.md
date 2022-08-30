@@ -1,12 +1,12 @@
 Обробляє таке правило лексера
 
--   [« Parle\\Lexer](class.parle-lexer.html)
+-   [« ParleLexer](class.parle-lexer.html)
     
--   [Parle\\Lexer::build »](parle-lexer.build.html)
+-   [ParleLexer::build »](parle-lexer.build.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Lexer](class.parle-lexer.html)
+-   [ParleLexer](class.parle-lexer.html)
     
 -   Обробляє таке правило лексера
     

@@ -1,12 +1,12 @@
 Tidy
 
--   [« Swoole\\WebSocket\\Server::unpack](swoole-websocket-server.unpack.html)
+-   [« SwooleWebSocketServer::unpack](swoole-websocket-server.unpack.html)
     
 -   [Введение »](intro.tidy.html)
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Tidy
     
@@ -25,7 +25,7 @@ Tidy
 -   [tidy](class.tidy.html) - Клас tidy
     -   [tidy::body](tidy.body.html) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
     -   [tidy::cleanRepair](tidy.cleanrepair.html) — Виконати налаштоване очищення та відновлення розібраної розмітки
-    -   [tidy::\_\_construct](tidy.construct.html) - Створює новий tidy-об'єкт
+    -   [tidy::construct](tidy.construct.html) - Створює новий tidy-об'єкт
     -   [tidy::diagnose](tidy.diagnose.html) — Запуск налаштованої діагностики для розібраної та відновленої розмітки
     -   [tidy::$errorBuffer](tidy.props.errorbuffer.html) — Повертає попередження та помилки, які виникли при розборі зазначеного документа
     -   [tidy::getConfig](tidy.getconfig.html) — Отримує поточну конфігурацію Tidy
@@ -44,7 +44,7 @@ Tidy
     -   [tidy::repairString](tidy.repairstring.html) — Відновлює рядок, використовуючи наскільки можна конфігураційний файл
     -   [tidy::root](tidy.root.html) - Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
 -   [tidyNode](class.tidynode.html) - Клас tidyNode
-    -   [tidyNode::\_\_construct](tidynode.construct.html) — Приватний конструктор, який унеможливлює пряме створення об'єкта
+    -   [tidyNode::construct](tidynode.construct.html) — Приватний конструктор, який унеможливлює пряме створення об'єкта
     -   [tidyNode::getParent](tidynode.getparent.html) - Повертає батьківський вузол поточного вузла
     -   [tidyNode::hasChildren](tidynode.haschildren.html) - Перевіряє існування нащадків біля вузла
     -   [tidyNode::hasSiblings](tidynode.hassiblings.html) - Перевіряє існування сусідніх вузлів
@@ -55,9 +55,9 @@ Tidy
     -   [tidyNode::isPhp](tidynode.isphp.html) — Перевіряє, чи є поточний вузол PHP-кодом
     -   [tidyNode::isText](tidynode.istext.html) — Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)
 -   [Tidy](ref.tidy.html)
-    -   [ob\_tidyhandler](function.ob-tidyhandler.html) — Функція зворотного дзвінка obstart для відновлення буфера
-    -   [tidy\_access\_count](function.tidy-access-count.html) — Повертає кількість доступних попереджень Tidy, які зустрілися у розглянутому документі
-    -   [tidy\_config\_count](function.tidy-config-count.html) — Повертає кількість помилок конфігурації Tidy, які зустрілися під час розгляду документа
-    -   [tidy\_error\_count](function.tidy-error-count.html) — Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
-    -   [tidy\_get\_output](function.tidy-get-output.html) - Повертає рядок, що представляє розібрану tidy-розмітку
-    -   [tidy\_warning\_count](function.tidy-warning-count.html) — Повертає число Tidy-попереджень, які зустріли у зазначеному документі
+    -   [проtidyhandler](function.ob-tidyhandler.html) — Функція зворотного дзвінка obstart для відновлення буфера
+    -   [tidyaccesscount](function.tidy-access-count.html) — Повертає кількість доступних попереджень Tidy, які зустрілися у розглянутому документі
+    -   [tidyconfigcount](function.tidy-config-count.html) — Повертає кількість помилок конфігурації Tidy, які зустрілися під час розгляду документа
+    -   [tidyerrorcount](function.tidy-error-count.html) — Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+    -   [tidygetoutput](function.tidy-get-output.html) - Повертає рядок, що представляє розібрану tidy-розмітку
+    -   [tidywarningcount](function.tidy-warning-count.html) — Повертає число Tidy-попереджень, які зустріли у зазначеному документі

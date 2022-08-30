@@ -1,8 +1,8 @@
 Свічка модель "Свічка короткої лінії"
 
--   [« trader\_cdlshootingstar](function.trader-cdlshootingstar.html)
+-   [« tradercdlshootingstar](function.trader-cdlshootingstar.html)
     
--   [trader\_cdlspinningtop »](function.trader-cdlspinningtop.html)
+-   [tradercdlspinningtop »](function.trader-cdlspinningtop.html)
     
 -   [PHP Manual](index.html)
     

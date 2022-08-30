@@ -1,12 +1,12 @@
 Повертає підрядок
 
--   [« substr\_replace](function.substr-replace.html)
+-   [« substrreplace](function.substr-replace.html)
     
 -   [trim »](function.trim.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає підрядок
     
@@ -161,9 +161,9 @@ bool(false)
 ### Дивіться також
 
 -   [strrchr()](function.strrchr.html) - Знаходить останнє входження символу у рядку
--   [substr\_replace()](function.substr-replace.html) - Замінює частину рядка
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [substrreplace()](function.substr-replace.html) - Замінює частину рядка
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
 -   [trim()](function.trim.html) - Видаляє прогалини (або інші символи) з початку та кінця рядка
--   [mb\_substr()](function.mb-substr.html) - Повертає частину рядка
+-   [мбsubstr()](function.mb-substr.html) - Повертає частину рядка
 -   [wordwrap()](function.wordwrap.html) - Переносить рядок за вказаною кількістю символів
 -   [Посимвольный доступ и изменение строки](language.types.string.html#language.types.string.substr)

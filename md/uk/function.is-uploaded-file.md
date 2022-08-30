@@ -1,12 +1,12 @@
 Визначає, чи файл завантажений за допомогою HTTP POST
 
--   [« is\_readable](function.is-readable.html)
+-   [« isreadable](function.is-readable.html)
     
--   [is\_writable »](function.is-writable.html)
+-   [ісwritable »](function.is-writable.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Визначає, чи файл завантажений за допомогою HTTP POST
     
@@ -27,7 +27,7 @@ is_uploaded_file(string $filename): bool
 
 Такі перевірки особливо корисні, якщо існує можливість, що операції над файлом можуть показати його вміст користувачеві або навіть іншим користувачам тієї ж системи.
 
-Для правильної роботи функції **ісuploadedfile()** потрібен аргумент виду [$\_FILES\['userfile'\]\['tmp\_name'\]](reserved.variables.files.html), - ім'я завантаженого файлу на клієнтській машині [$\_FILES\['userfile'\]\['name'\]](reserved.variables.files.html) не підходить.
+Для правильної роботи функції **ісuploadedfile()** потрібен аргумент виду [FILES\['userfile'\]\['tmpname'\]](reserved.variables.files.html), - ім'я завантаженого файлу на клієнтській машині [FILES\['userfile'\]\['name'\]](reserved.variables.files.html) не підходить.
 
 ### Список параметрів
 
@@ -60,6 +60,6 @@ if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
 
 ### Дивіться також
 
--   [move\_uploaded\_file()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
--   [$\_FILES](reserved.variables.files.html)
+-   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [FILES](reserved.variables.files.html)
 -   Простий приклад використання можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.html)".

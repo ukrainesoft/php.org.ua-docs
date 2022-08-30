@@ -2,7 +2,7 @@
 
 -   [« ZMQSocket::bind](zmqsocket.bind.html)
     
--   [ZMQSocket::\_\_construct »](zmqsocket.construct.html)
+-   [ZMQSocket::construct »](zmqsocket.construct.html)
     
 -   [PHP Manual](index.html)
     

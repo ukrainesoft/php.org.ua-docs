@@ -44,7 +44,7 @@ public syncIterator(): bool
 ## Зміст
 
 -   [ImagickPixelIterator::clear](imagickpixeliterator.clear.html) — Очищає ресурси, пов'язані з PixelIterator
--   [ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.html) - Конструктор ImagickPixelIterator
+-   [ImagickPixelIterator::construct](imagickpixeliterator.construct.html) - Конструктор ImagickPixelIterator
 -   [ImagickPixelIterator::destroy](imagickpixeliterator.destroy.html) — Звільняє ресурси, пов'язані з PixelIterator
 -   [ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.html) — Повертає поточний ряд об'єкту ImagickPixel
 -   [ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.html) - Повертає поточний піксель ітератора ряду

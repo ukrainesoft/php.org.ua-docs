@@ -1,8 +1,8 @@
 Повертає поверхневу копію колекції
 
--   [« Ds\\Set::contains](ds-set.contains.html)
+-   [« DsSet::contains](ds-set.contains.html)
     
--   [Ds\\Set::count »](ds-set.count.html)
+-   [ДсSet::count »](ds-set.count.html)
     
 -   [PHP Manual](index.html)
     

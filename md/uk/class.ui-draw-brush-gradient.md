@@ -1,12 +1,12 @@
 Градієнтні пензлі
 
--   [« UI\\Draw\\Brush::setColor](ui-draw-brush.setcolor.html)
+-   [« UIDrawBrush::setColor](ui-draw-brush.setcolor.html)
     
--   [UI\\Draw\\Brush\\Gradient::addStop »](ui-draw-brush-gradient.addstop.html)
+-   [ОЙDrawBrushGradient::addStop »](ui-draw-brush-gradient.addstop.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Градієнтні пензлі
     
@@ -58,6 +58,6 @@ public UI\Draw\Brush::setColor(int $color): void
 
 ## Зміст
 
--   [UI\\Draw\\Brush\\Gradient::addStop](ui-draw-brush-gradient.addstop.html) - Додає вузол градієнта
--   [UI\\Draw\\Brush\\Gradient::delStop](ui-draw-brush-gradient.delstop.html) - Видаляє вузол градієнта
--   [UI\\Draw\\Brush\\Gradient::setStop](ui-draw-brush-gradient.setstop.html) - Встановлює вузол градієнта
+-   [ОЙDrawBrushGradient::addStop](ui-draw-brush-gradient.addstop.html) - Додає вузол градієнта
+-   [ОЙDrawBrushGradient::delStop](ui-draw-brush-gradient.delstop.html) - Видаляє вузол градієнта
+-   [ОЙDrawBrushGradient::setStop](ui-draw-brush-gradient.setstop.html) - Встановлює вузол градієнта

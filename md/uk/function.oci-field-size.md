@@ -1,8 +1,8 @@
 Повертає розмір поля
 
--   [« oci\_field\_scale](function.oci-field-scale.html)
+-   [« ocifieldscale](function.oci-field-scale.html)
     
--   [oci\_field\_type\_raw »](function.oci-field-type-raw.html)
+-   [ocifieldtyperaw »](function.oci-field-type-raw.html)
     
 -   [PHP Manual](index.html)
     
@@ -99,9 +99,9 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnsize()](function.ocicolumnsize.html). У PHP 5.0.0 і вище [ocicolumnsize()](function.ocicolumnsize.html) є аліасом **ocifieldsize()**Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnsize()](function.ocicolumnsize.html). У PHP 5.0.0 і вище [ocicolumnsize()](function.ocicolumnsize.html) є аліасом \*\*ocifieldsize()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [oci\_num\_fields()](function.oci-num-fields.html) - Повертає кількість полів у результаті запиту
--   [oci\_field\_name()](function.oci-field-name.html) - Повертає ім'я поля з результату запиту
+-   [ocinumfields()](function.oci-num-fields.html) - Повертає кількість полів у результаті запиту
+-   [ocifieldname()](function.oci-field-name.html) - Повертає ім'я поля з результату запиту

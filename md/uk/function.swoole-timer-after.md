@@ -1,8 +1,8 @@
 Запуск callback-функції один раз у майбутньому
 
--   [« swoole\_strerror](function.swoole-strerror.html)
+-   [« swoolestrerror](function.swoole-strerror.html)
     
--   [swoole\_timer\_exists »](function.swoole-timer-exists.html)
+-   [swooletimerexists »](function.swoole-timer-exists.html)
     
 -   [PHP Manual](index.html)
     

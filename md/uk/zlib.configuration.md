@@ -15,15 +15,15 @@
 
 Поведінка цих функцій залежить від установок у php.ini.
 
-Модуль zlib надає можливість стиснення сторінок, що передаються (в т.ч. динамічних) на льоту, якщо браузер це підтримує. За стиск відповідають три параметри в [конфигурационном файле](configuration.file.html) php.ini.
+Модуль zlib надає можливість стиснення сторінок, що передаються (в т.ч. динамічних) на льоту, якщо браузер це підтримує. За стиск відповідають три параметри в [конфігураційному файлі](configuration.file.html) php.ini.
 
 **Параметри конфігурації Zlib**
 
-| Имя                                                                                          | По умолчанию | Место изменения | Список изменений |
-|----------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [zlib.output\_compression](zlib.configuration.html#ini.zlib.output-compression)              | "0"          | PHPINIALL       |                  |
-| [zlib.output\_compression\_level](zlib.configuration.html#ini.zlib.output-compression-level) | "-1"         | PHPINIALL       |                  |
-| [zlib.output\_handler](zlib.configuration.html#ini.zlib.output-handler)                      | ""           | PHPINIALL       |                  |
+| Имя                                                                                      | По умолчанию | Место изменения | Список изменений |
+|------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)            | "0"          | PHPINIALL       |                  |
+| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1"         | PHPINIALL       |                  |
+| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler)                    | ""           | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -37,7 +37,7 @@
 
 > **Зауваження**
 > 
-> [output\_handler](outcontrol.configuration.html#ini.output-handler) має бути порожнім, якщо вибрано значення 'On'! Замість нього слід використовувати `zlib.output_handler`
+> [outputhandler](outcontrol.configuration.html#ini.output-handler) має бути порожнім, якщо вибрано значення 'On'! Замість нього слід використовувати `zlib.output_handler`
 
 `zlib.output_compression_level` int
 
@@ -45,4 +45,4 @@
 
 `zlib.output_handler` string
 
-Якщо zlib.outputcompression активовано, не можна вказувати додаткові обробники виводу. Цей параметр виконує те саме, що і [output\_handler](outcontrol.configuration.html#ini.output-handler)але в іншому порядку.
+Якщо zlib.outputcompression активовано, не можна вказувати додаткові обробники виводу. Цей параметр виконує те саме, що і [outputhandler](outcontrol.configuration.html#ini.output-handler)але в іншому порядку.

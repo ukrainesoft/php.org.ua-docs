@@ -1,12 +1,12 @@
 Реєструє функцію PHP до методу ресурсу, що відповідає методуname
 
--   [« xmlrpc\_server\_register\_introspection\_callback](function.xmlrpc-server-register-introspection-callback.html)
+-   [« xmlrpcserverregisterintrospectioncallback](function.xmlrpc-server-register-introspection-callback.html)
     
--   [xmlrpc\_set\_type »](function.xmlrpc-set-type.html)
+-   [xmlrpcsettype »](function.xmlrpc-set-type.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Реєструє функцію PHP до методу ресурсу, що відповідає методуname
     

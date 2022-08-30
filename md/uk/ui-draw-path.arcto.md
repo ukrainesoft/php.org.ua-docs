@@ -1,12 +1,12 @@
 Намалювати дугу
 
--   [« UI\\Draw\\Path::addRectangle](ui-draw-path.addrectangle.html)
+-   [« UIDrawPath::addRectangle](ui-draw-path.addrectangle.html)
     
--   [UI\\Draw\\Path::bezierTo »](ui-draw-path.bezierto.html)
+-   [ОЙDrawPath::bezierTo »](ui-draw-path.bezierto.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Намалювати дугу
     

@@ -35,7 +35,7 @@ public NoRewindIterator::getInnerIterator(): iterator
 
 ### Значення, що повертаються
 
-Внутрішній ітератор, переданий у [NoRewindIterator::\_\_construct()](norewinditerator.construct.html)
+Внутрішній ітератор, переданий у [NoRewindIterator::construct()](norewinditerator.construct.html)
 
 ### Дивіться також
 

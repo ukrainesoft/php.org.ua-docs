@@ -1,8 +1,8 @@
 MQSeries MQCLOSE
 
--   [« mqseries\_begin](function.mqseries-begin.html)
+-   [« mqseriesbegin](function.mqseries-begin.html)
     
--   [mqseries\_cmit »](function.mqseries-cmit.html)
+-   [mqseriescmit »](function.mqseries-cmit.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ mqseriesclose — MQSeries MQCLOSE
 mqseries_close(    resource $hconn,    resource $hobj,    int $options,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesclose()** (MQCLOSE) припиняє доступ до об'єкта і є зворотною функцією [mqseries\_open()](function.mqseries-open.html) (MQOPEN).
+Функція **mqseriesclose()** (MQCLOSE) припиняє доступ до об'єкта і є зворотною функцією [mqseriesopen()](function.mqseries-open.html) (MQOPEN).
 
 ### Список параметрів
 
@@ -68,6 +68,6 @@ Completion code.
 
 ### Дивіться також
 
--   [mqseries\_open()](function.mqseries-open.html) - MQSeries MQOPEN
--   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN
+-   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX

@@ -1,12 +1,12 @@
 Упакувати дані у бінарний рядок
 
--   [« ignore\_user\_abort](function.ignore-user-abort.html)
+-   [« ignoreuserabort](function.ignore-user-abort.html)
     
--   [php\_strip\_whitespace »](function.php-strip-whitespace.html)
+-   [phpstripwhitespace »](function.php-strip-whitespace.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Упакувати дані у бінарний рядок
     

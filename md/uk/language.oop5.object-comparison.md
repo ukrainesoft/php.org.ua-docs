@@ -2,7 +2,7 @@
 
 -   [« Клонирование объектов](language.oop5.cloning.html)
     
--   [Позднее статическое связывание »](language.oop5.late-static-bindings.html)
+-   [Пізніше статичне зв'язування »](language.oop5.late-static-bindings.html)
     
 -   [PHP Manual](index.html)
     

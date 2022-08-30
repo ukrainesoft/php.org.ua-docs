@@ -1,8 +1,8 @@
 Повертає назву або ідентифікатор таблиці, що містить задане поле
 
--   [« pg\_field\_size](function.pg-field-size.html)
+-   [« pgfieldsize](function.pg-field-size.html)
     
--   [pg\_field\_type\_oid »](function.pg-field-type-oid.html)
+-   [пгfieldtypeoid »](function.pg-field-type-oid.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `field`
 
@@ -37,7 +37,7 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 `oid_only`
 
-За замовчуванням функція повертає назву таблиці, що містить поле. Якщо параметр `oid_only` дорівнює **`true`**то функція поверне oid таблиці.
+За замовчуванням функція повертає назву таблиці, що містить поле. Якщо параметр `oid_only` дорівнює \*\*`true`\*\*то функція поверне oid таблиці.
 
 ### Значення, що повертаються
 
@@ -45,9 +45,9 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -84,5 +84,5 @@ bool(false)
 
 ### Дивіться також
 
--   [pg\_field\_name()](function.pg-field-name.html) - Повертає найменування поля
--   [pg\_field\_type()](function.pg-field-type.html) - Повертає ім'я типу заданого поля
+-   [пгfieldname()](function.pg-field-name.html) - Повертає найменування поля
+-   [пгfieldtype()](function.pg-field-type.html) - Повертає ім'я типу заданого поля

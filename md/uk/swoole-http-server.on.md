@@ -1,12 +1,12 @@
 Прив'язує callback-функцію до HTTP-сервера на ім'я події
 
--   [« Swoole\\Http\\Server](class.swoole-http-server.html)
+-   [« SwooleHttpServer](class.swoole-http-server.html)
     
--   [Swoole\\Http\\Server::start »](swoole-http-server.start.html)
+-   [SwooleHttpServer::start »](swoole-http-server.start.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Server](class.swoole-http-server.html)
+-   [SwooleHttpServer](class.swoole-http-server.html)
     
 -   Прив'язує callback-функцію до HTTP-сервера на ім'я події
     

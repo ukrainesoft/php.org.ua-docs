@@ -1,8 +1,8 @@
 Експортує файл CMS до масиву сертифікатів PEM
 
--   [« openssl\_cms\_encrypt](function.openssl-cms-encrypt.html)
+-   [« opensslcmsencrypt](function.openssl-cms-encrypt.html)
     
--   [openssl\_cms\_sign »](function.openssl-cms-sign.html)
+-   [opensslcmssign »](function.openssl-cms-sign.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ opensslcmsread — Експортує файл CMS до масиву серти�
 openssl_cms_read(string $input_filename, array &$certificates): bool
 ```
 
-Працює аналогічно [openssl\_pkcs7\_read()](function.openssl-pkcs7-read.html)
+Працює аналогічно [opensslpkcs7read()](function.openssl-pkcs7-read.html)
 
 **Увага**
 

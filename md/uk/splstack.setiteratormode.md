@@ -1,6 +1,6 @@
 Встановлює режим ітератора
 
--   [« SplStack::\_\_construct](splstack.construct.html)
+-   [« SplStack::construct](splstack.construct.html)
     
 -   [SplQueue »](class.splqueue.html)
     

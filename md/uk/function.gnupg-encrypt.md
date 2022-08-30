@@ -1,12 +1,12 @@
 Шифрує заданий текст
 
--   [« gnupg\_deletekey](function.gnupg-deletekey.html)
+-   [« gnupgdeletekey](function.gnupg-deletekey.html)
     
--   [gnupg\_encryptsign »](function.gnupg-encryptsign.html)
+-   [gnupgencryptsign »](function.gnupg-encryptsign.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Шифрує заданий текст
     
@@ -23,13 +23,13 @@ gnupgencrypt - Шифрує заданий текст
 gnupg_encrypt(resource $identifier, string $plaintext): string
 ```
 
-Шифрує заданий текст `plaintext` за допомогою ключа, заданого раніше за допомогою функції [gnupg\_addencryptkey](function.gnupg-addencryptkey.html) та повертає результат.
+Шифрує заданий текст `plaintext` за допомогою ключа, заданого раніше за допомогою функції [gnupgaddencryptkey](function.gnupg-addencryptkey.html) та повертає результат.
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `plaintext`
 

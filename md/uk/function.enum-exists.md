@@ -1,12 +1,12 @@
 Перевіряє, чи визначено перерахування
 
--   [« class\_exists](function.class-exists.html)
+-   [« classexists](function.class-exists.html)
     
--   [get\_called\_class »](function.get-called-class.html)
+-   [getcalledclass »](function.get-called-class.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи визначено перерахування
     
@@ -33,7 +33,7 @@ enum_exists(string $enum, bool $autoload = true): bool
 
 `autoload`
 
-Чи слід викликати [\_\_autoload](language.oop5.autoload.html) за замовчуванням.
+Чи слід викликати [autoload](language.oop5.autoload.html) за замовчуванням.
 
 ### Значення, що повертаються
 
@@ -54,7 +54,7 @@ if (enum_exists(Suit::class)) {
 
 ### Дивіться також
 
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [class\_exists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [interface\_exists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [get\_declared\_classes()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
+-   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів

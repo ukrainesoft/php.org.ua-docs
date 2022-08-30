@@ -1,6 +1,6 @@
 Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
 
--   [« SyncSharedMemory::\_\_construct](syncsharedmemory.construct.html)
+-   [« SyncSharedMemory::construct](syncsharedmemory.construct.html)
     
 -   [SyncSharedMemory::read »](syncsharedmemory.read.html)
     

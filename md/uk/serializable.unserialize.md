@@ -27,7 +27,7 @@ public Serializable::unserialize(string $data): void
 
 > **Зауваження**
 > 
-> Метод діє як [конструктор](language.oop5.decon.html#language.oop5.decon.constructor) об'єкт. Метод [\_\_construct()](language.oop5.decon.html#object.construct) *не* викликається після цього.
+> Метод діє як [конструктор](language.oop5.decon.html#language.oop5.decon.constructor) об'єкт. Метод [construct()](language.oop5.decon.html#object.construct) *не* викликається після цього.
 
 ### Список параметрів
 
@@ -41,5 +41,5 @@ public Serializable::unserialize(string $data): void
 
 ### Дивіться також
 
--   [\_\_wakeup()](language.oop5.magic.html#object.wakeup)
--   [\_\_unserialize()](language.oop5.magic.html#object.unserialize)
+-   [wakeup()](language.oop5.magic.html#object.wakeup)
+-   [unserialize()](language.oop5.magic.html#object.unserialize)

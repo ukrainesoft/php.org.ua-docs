@@ -1,12 +1,12 @@
 Генерує та оновлює ідентифікатор поточної сесії
 
--   [« session\_name](function.session-name.html)
+-   [« sessionname](function.session-name.html)
     
--   [session\_register\_shutdown »](function.session-register-shutdown.html)
+-   [sessionregistershutdown »](function.session-register-shutdown.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Генерує та оновлює ідентифікатор поточної сесії
     
@@ -25,7 +25,7 @@ session_regenerate_id(bool $delete_old_session = false): bool
 
 **sessionregenerateid()** замінює ідентифікатор поточної сесії знову згенерованим, при цьому зберігає інформацію про поточну сесію.
 
-При ввімкненій опції [session.use\_trans\_sid](session.configuration.html#ini.session.use-trans-sid), висновок має здійснюватися після виклику **sessionregenerateid()**. В іншому випадку використовуватиметься старий ідентифікатор сесії.
+При ввімкненій опції [session.usetranssid](session.configuration.html#ini.session.use-trans-sid), висновок має здійснюватися після виклику **sessionregenerateid()**. В іншому випадку використовуватиметься старий ідентифікатор сесії.
 
 **Увага**
 
@@ -144,9 +144,9 @@ function my_session_regenerate_id() {
 
 ### Дивіться також
 
--   [session\_id()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
--   [session\_create\_id()](function.session-create-id.html) - створює новий ідентифікатор сесії
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [session\_destroy()](function.session-destroy.html) - Знищує всі дані сесії
--   [session\_reset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
--   [session\_name()](function.session-name.html) - Отримати чи встановити ім'я поточної сесії
+-   [sessionid()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
+-   [sessioncreateid()](function.session-create-id.html) - створює новий ідентифікатор сесії
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessiondestroy()](function.session-destroy.html) - Знищує всі дані сесії
+-   [sessionreset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
+-   [sessionname()](function.session-name.html) - Отримати чи встановити ім'я поточної сесії

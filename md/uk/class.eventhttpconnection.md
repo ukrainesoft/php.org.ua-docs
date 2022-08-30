@@ -2,7 +2,7 @@
 
 -   [« EventHttp::setTimeout](eventhttp.settimeout.html)
     
--   [EventHttpConnection::\_\_construct »](eventhttpconnection.construct.html)
+-   [EventHttpConnection::construct »](eventhttpconnection.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -117,7 +117,7 @@ public
 
 ## Зміст
 
--   [EventHttpConnection::\_\_construct](eventhttpconnection.construct.html) - Конструктор об'єкта EventHttpConnection
+-   [EventHttpConnection::construct](eventhttpconnection.construct.html) - Конструктор об'єкта EventHttpConnection
 -   [EventHttpConnection::getBase](eventhttpconnection.getbase.html) — Повертає базу подій, пов'язану із з'єднанням
 -   [EventHttpConnection::getPeer](eventhttpconnection.getpeer.html) — Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
 -   [EventHttpConnection::makeRequest](eventhttpconnection.makerequest.html) — Робить HTTP-запит із зазначеного з'єднання

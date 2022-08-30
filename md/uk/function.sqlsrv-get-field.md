@@ -1,12 +1,12 @@
 Отримує дані поля з поточного вибраного рядка
 
--   [« sqlsrv\_get\_config](function.sqlsrv-get-config.html)
+-   [« sqlsrvgetconfig](function.sqlsrv-get-config.html)
     
--   [sqlsrv\_has\_rows »](function.sqlsrv-has-rows.html)
+-   [sqlsrvhasrows »](function.sqlsrv-has-rows.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Отримує дані поля з поточного вибраного рядка
     
@@ -29,7 +29,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrv\_query()](function.sqlsrv-query.html) або [sqlsrv\_execute()](function.sqlsrv-execute.html)
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
 
 `fieldIndex`
 
@@ -47,7 +47,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 **Приклад #1 Приклад використання **sqlsrvgetfield()****
 
-У наступному прикладі показано, як отримати рядок за допомогою [sqlsrv\_fetch()](function.sqlsrv-fetch.html) та отримати поля рядки за допомогою **sqlsrvgetfield()**
+У наступному прикладі показано, як отримати рядок за допомогою [sqlsrvfetch()](function.sqlsrv-fetch.html) та отримати поля рядки за допомогою **sqlsrvgetfield()**
 
 ```php
 <?php
@@ -83,6 +83,6 @@ echo $comment;
 
 ### Дивіться також
 
--   [sqlsrv\_fetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrv\_fetch\_array()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
--   [sqlsrv\_fetch\_object()](function.sqlsrv-fetch-object.html) - Отримує наступний рядок даних у наборі результатів як об'єкт
+-   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
+-   [sqlsrvfetchobject()](function.sqlsrv-fetch-object.html) - Отримує наступний рядок даних у наборі результатів як об'єкт

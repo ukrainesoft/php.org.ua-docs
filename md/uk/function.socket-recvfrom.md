@@ -1,8 +1,8 @@
 Отримує дані із сокету, незалежно від того, під'єднаний він чи ні
 
--   [« socket\_recv](function.socket-recv.html)
+-   [« socketrecv](function.socket-recv.html)
     
--   [socket\_recvmsg »](function.socket-recvmsg.html)
+-   [socketrecvmsg »](function.socket-recvmsg.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,7 +58,7 @@ socket_recvfrom(    Socket $socket,    string &$data,    int $length
 
 `address`
 
-Якщо сокет типу **`AF_UNIX`** `address` - Це шлях до файлу. В іншому випадку, для неприєднаних сокетів, параметр `address` - це IP-адреса, віддаленого хоста, або **`null`**якщо сокет орієнтований на з'єднання.
+Якщо сокет типу **`AF_UNIX`** `address` - Це шлях до файлу. В іншому випадку, для неприєднаних сокетів, параметр `address` - це IP-адреса, віддаленого хоста, або \*\*`null`\*\*якщо сокет орієнтований на з'єднання.
 
 `port`
 
@@ -66,7 +66,7 @@ socket_recvfrom(    Socket $socket,    string &$data,    int $length
 
 ### Значення, що повертаються
 
-**socketrecvfrom()** повертає кількість отриманих байт або **`false`**, якщо сталася помилка. Фактичний код помилки можна отримати за допомогою виклику функції [socket\_last\_error()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+**socketrecvfrom()** повертає кількість отриманих байт або **`false`**, якщо сталася помилка. Фактичний код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 ### список змін
 
@@ -96,7 +96,7 @@ echo "Получено $buf с удалённого адреса $from и
 
 ### Дивіться також
 
--   [socket\_recv()](function.socket-recv.html) - Отримує дані із приєднаного сокету
--   [socket\_send()](function.socket-send.html) - Надсилає дані в приєднаний сокет
--   [socket\_sendto()](function.socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketrecv()](function.socket-recv.html) - Отримує дані із приєднаного сокету
+-   [socketsend()](function.socket-send.html) - Надсилає дані в приєднаний сокет
+-   [socketsendto()](function.socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)

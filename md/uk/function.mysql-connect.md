@@ -1,8 +1,8 @@
 Відкриває з'єднання з сервером MySQL
 
--   [« mysql\_close](function.mysql-close.html)
+-   [« mysqlclose](function.mysql-close.html)
     
--   [mysql\_create\_db »](function.mysql-create-db.html)
+-   [mysqlcreatedb »](function.mysql-create-db.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlconnect — Відкриває з'єднання з сервером MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_connect()](function.mysqli-connect.html)
--   [PDO::\_\_construct()](pdo.construct.html)
+-   [mysqliconnect()](function.mysqli-connect.html)
+-   [PDO::construct()](pdo.construct.html)
 
 ### Опис
 
@@ -38,15 +38,15 @@ mysql_connect(    string $server = ini_get("mysql.default_host"),    str
 
 Сервер MySQL. Може також включати номер порту, наприклад "hostname:port" або шлях до локального сокету, наприклад ":/path/to/socket" для локального сервера.
 
-Якщо PHP-директива [mysql.default\_host](mysql.configuration.html#ini.mysql.default-host) не визначена (за умовчанням), то значенням за промовчанням є 'localhost:3306'. У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр ігнорується і завжди використовується значення 'localhost:3306'.
+Якщо PHP-директива [mysql.defaulthost](mysql.configuration.html#ini.mysql.default-host) не визначена (за умовчанням), то значенням за промовчанням є 'localhost:3306'. У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр ігнорується і завжди використовується значення 'localhost:3306'.
 
 `username`
 
-Ім'я користувача. Значення за умовчанням визначається директивою [mysql.default\_user](mysql.configuration.html#ini.mysql.default-user). У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр буде проігнорований і буде використаний користувач, який володіє процесом сервера.
+Ім'я користувача. Значення за умовчанням визначається директивою [mysql.defaultuser](mysql.configuration.html#ini.mysql.default-user). У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр буде проігнорований і буде використаний користувач, який володіє процесом сервера.
 
 `password`
 
-Пароль. Значення за умовчанням визначається директивою [mysql.default\_password](mysql.configuration.html#ini.mysql.default-password). У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр буде проігноровано і як пароль буде використано порожній рядок.
+Пароль. Значення за умовчанням визначається директивою [mysql.defaultpassword](mysql.configuration.html#ini.mysql.default-password). У [SQL safe mode](ini.core.html#ini.sql.safe-mode) цей параметр буде проігноровано і як пароль буде використано порожній рядок.
 
 `new_link`
 
@@ -126,17 +126,17 @@ mysql_close($link);
 
 > **Зауваження**
 > 
-> Якщо вказати параметр `server` значення "localhost" або "localhost:port" клієнтська бібліотека MySQL намагатиметься з'єднатися з локальним сокетом. Якщо ви все ж таки хочете використовувати TCP/IP, використовуйте адресу "127.0.0.1" замість "localhost". Якщо клієнтська бібліотека намагається підключитися не до локального сокету, правильний шлях повинен бути встановлений через вказівку директиви php.ini [mysql.default\_host](mysql.configuration.html#ini.mysql.default-host) у php.ini, після чого можна залишати параметр `server` порожній.
+> Якщо вказати параметр `server` значення "localhost" або "localhost:port" клієнтська бібліотека MySQL намагатиметься з'єднатися з локальним сокетом. Якщо ви все ж таки хочете використовувати TCP/IP, використовуйте адресу "127.0.0.1" замість "localhost". Якщо клієнтська бібліотека намагається підключитися не до локального сокету, правильний шлях повинен бути встановлений через вказівку директиви php.ini [mysql.defaulthost](mysql.configuration.html#ini.mysql.default-host) у php.ini, після чого можна залишати параметр `server` порожній.
 
 > **Зауваження**
 > 
-> З'єднання з сервером буде закрито після завершення виконання скрипту, якщо тільки до цього воно не було закрито за допомогою функції [mysql\_close()](function.mysql-close.html)
+> З'єднання з сервером буде закрито після завершення виконання скрипту, якщо тільки до цього воно не було закрито за допомогою функції [mysqlclose()](function.mysql-close.html)
 
 > **Зауваження**
 > 
-> Помилка "Can't create TCP/IP socket (10106)" (Неможливо створити сокет TCP/IP) зазвичай означає, що конфігураційна директива [variables\_order](ini.core.html#ini.variables-order) не містить символ `E`. У Windows, якщо в оточенні не буде скопійовано змінне оточення `SYSTEMROOT`, то PHP буде мати проблеми при завантаженні Winsock.
+> Помилка "Can't create TCP/IP socket (10106)" (Неможливо створити сокет TCP/IP) зазвичай означає, що конфігураційна директива [variablesorder](ini.core.html#ini.variables-order) не містить символ `E`. У Windows, якщо в оточенні не буде скопійовано змінне оточення `SYSTEMROOT`, то PHP буде мати проблеми при завантаженні Winsock.
 
 ### Дивіться також
 
--   [mysql\_pconnect()](function.mysql-pconnect.html) - Встановлює постійне з'єднання із сервером MySQL
--   [mysql\_close()](function.mysql-close.html) - Закриває з'єднання із сервером MySQL
+-   [mysqlpconnect()](function.mysql-pconnect.html) - Встановлює постійне з'єднання із сервером MySQL
+-   [mysqlclose()](function.mysql-close.html) - Закриває з'єднання із сервером MySQL

@@ -1,12 +1,12 @@
 Перемалювати область
 
--   [« UI\\Area::onMouse](ui-area.onmouse.html)
+-   [« UIArea::onMouse](ui-area.onmouse.html)
     
--   [UI\\Area::scrollTo »](ui-area.scrollto.html)
+-   [ОЙArea::scrollTo »](ui-area.scrollto.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Area](class.ui-area.html)
+-   [ОЙArea](class.ui-area.html)
     
 -   Перемалювати область
     

@@ -1,12 +1,12 @@
 Знімає блокування
 
--   [« Swoole\\Lock::trylock](swoole-lock.trylock.html)
+-   [« SwooleLock::trylock](swoole-lock.trylock.html)
     
--   [Swoole\\Mmap »](class.swoole-mmap.html)
+-   [SwooleMmap »](class.swoole-mmap.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Знімає блокування
     

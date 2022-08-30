@@ -1,8 +1,8 @@
 Клас ReflectionExtension
 
--   [« ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.html)
+-   [« ReflectionZendExtension::toString](reflectionzendextension.tostring.html)
     
--   [ReflectionExtension::\_\_clone »](reflectionextension.clone.html)
+-   [ReflectionExtension::clone »](reflectionextension.clone.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,8 +71,8 @@ name
 
 ## Зміст
 
--   [ReflectionExtension::\_\_clone](reflectionextension.clone.html) - Клонує об'єкт
--   [ReflectionExtension::\_\_construct](reflectionextension.construct.html) — Створює об'єкт класу ReflectionExtension
+-   [ReflectionExtension::clone](reflectionextension.clone.html) - Клонує об'єкт
+-   [ReflectionExtension::construct](reflectionextension.construct.html) — Створює об'єкт класу ReflectionExtension
 -   [ReflectionExtension::export](reflectionextension.export.html) - Експортує модуль
 -   [ReflectionExtension::getClasses](reflectionextension.getclasses.html) - Повертає класи
 -   [ReflectionExtension::getClassNames](reflectionextension.getclassnames.html) - Отримання імен класів
@@ -85,4 +85,4 @@ name
 -   [ReflectionExtension::info](reflectionextension.info.html) — Виведення інформації про модуль
 -   [ReflectionExtension::isPersistent](reflectionextension.ispersistent.html) — Визначає, чи модуль є постійним
 -   [ReflectionExtension::isTemporary](reflectionextension.istemporary.html) — Визначає, чи модуль є тимчасовим
--   [ReflectionExtension::\_\_toString](reflectionextension.tostring.html) — Перетворення на рядок
+-   [ReflectionExtension::toString](reflectionextension.tostring.html) — Перетворення на рядок

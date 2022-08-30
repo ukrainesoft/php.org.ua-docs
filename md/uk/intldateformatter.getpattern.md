@@ -99,5 +99,5 @@ echo 'Второй отформатированный вывод с шаб�
 
 ### Дивіться також
 
--   [datefmt\_set\_pattern()](intldateformatter.setpattern.html) - Встановлює шаблон, який використовується IntlDateFormatter
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtsetpattern()](intldateformatter.setpattern.html) - Встановлює шаблон, який використовується IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

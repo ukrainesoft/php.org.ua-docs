@@ -1,12 +1,12 @@
 Отримати текст
 
--   [« UI\\Controls\\Entry::\_\_construct](ui-controls-entry.construct.html)
+-   [« UIControlsEntry::construct](ui-controls-entry.construct.html)
     
--   [UI\\Controls\\Entry::isReadOnly »](ui-controls-entry.isreadonly.html)
+-   [ОЙControlsEntry::isReadOnly »](ui-controls-entry.isreadonly.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [ОЙControlsEntry](class.ui-controls-entry.html)
     
 -   Отримати текст
     

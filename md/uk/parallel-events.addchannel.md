@@ -1,12 +1,12 @@
 Цілі
 
--   [« parallel\\Events::setInput](parallel-events.setinput.html)
+-   [« parallelEvents::setInput](parallel-events.setinput.html)
     
--   [parallel\\Events::addFuture »](parallel-events.addfuture.html)
+-   [parallelEvents::addFuture »](parallel-events.addfuture.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Events](class.parallel-events.html)
+-   [parallelEvents](class.parallel-events.html)
     
 -   Цілі
     

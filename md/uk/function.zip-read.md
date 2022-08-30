@@ -1,6 +1,6 @@
 Зчитує наступний запис у ZIP-архіві
 
--   [« zip\_open](function.zip-open.html)
+-   [« zipopen](function.zip-open.html)
     
 -   [Zlib »](book.zlib.html)
     
@@ -33,11 +33,11 @@ zip_read(resource $zip): resource|false
 
 `zip`
 
-ZIP-файл, попередньо відкритий за допомогою функції [zip\_open()](function.zip-open.html)
+ZIP-файл, попередньо відкритий за допомогою функції [zipopen()](function.zip-open.html)
 
 ### Значення, що повертаються
 
-Повертає запис каталогу для подальшого використання з функціями `zip_entry_...`, або **`false`**якщо більше немає записів для читання, або код помилки, якщо вона відбулася.
+Повертає запис каталогу для подальшого використання з функціями `zip_entry_...`, або \*\*`false`\*\*якщо більше немає записів для читання, або код помилки, якщо вона відбулася.
 
 ### список змін
 
@@ -47,7 +47,7 @@ ZIP-файл, попередньо відкритий за допомогою ф
 
 ### Дивіться також
 
--   [zip\_open()](function.zip-open.html) - Відкриває ZIP-архів
--   [zip\_close()](function.zip-close.html) - Закриває дескриптор ZIP-архіву
--   [zip\_entry\_open()](function.zip-entry-open.html) - відкриває директорію для читання
--   [zip\_entry\_read()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії
+-   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
+-   [zipclose()](function.zip-close.html) - Закриває дескриптор ZIP-архіву
+-   [zipentryopen()](function.zip-entry-open.html) - відкриває директорію для читання
+-   [zipentryread()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії

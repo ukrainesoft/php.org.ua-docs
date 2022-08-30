@@ -2,7 +2,7 @@
 
 -   [« Вектор](class.ds-vector.html)
     
--   [Ds\\Vector::apply »](ds-vector.apply.html)
+-   [ДсVector::apply »](ds-vector.apply.html)
     
 -   [PHP Manual](index.html)
     

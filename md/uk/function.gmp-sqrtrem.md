@@ -1,12 +1,12 @@
 Квадратний корінь із залишком
 
--   [« gmp\_sqrt](function.gmp-sqrt.html)
+-   [« gmpsqrt](function.gmp-sqrt.html)
     
--   [gmp\_strval »](function.gmp-strval.html)
+-   [gmpstrval »](function.gmp-strval.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Квадратний корінь із залишком
     

@@ -1,12 +1,12 @@
 Обрізає файл до заданої кількості байт
 
--   [« dio\_tcsetattr](function.dio-tcsetattr.html)
+-   [« diotcsetattr](function.dio-tcsetattr.html)
     
--   [dio\_write »](function.dio-write.html)
+-   [diowrite »](function.dio-write.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Обрізає файл до заданої кількості байт
     
@@ -31,7 +31,7 @@ dio_truncate(resource $fd, int $offset): bool
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 `offset`
 

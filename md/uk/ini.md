@@ -1,6 +1,6 @@
 Директиви php.ini
 
--   [« Список основных опций конфигурации](configure.about.html)
+-   [Список основних опцій конфігурації](configure.about.html)
     
 -   [Список директив php.ini »](ini.list.html)
     
@@ -16,5 +16,5 @@
 ## Зміст
 
 -   [Список директив php.ini](ini.list.html)
--   [Список разделов php.ini](ini.sections.html)
--   [Описание встроенных директив php.ini](ini.core.html)
+-   [Список розділів php.ini](ini.sections.html)
+-   [Опис вбудованих директив php.ini](ini.core.html)

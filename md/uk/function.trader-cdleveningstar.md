@@ -1,8 +1,8 @@
 Вечірня зірка
 
--   [« trader\_cdleveningdojistar](function.trader-cdleveningdojistar.html)
+-   [« tradercdleveningdojistar](function.trader-cdleveningdojistar.html)
     
--   [trader\_cdlgapsidesidewhite »](function.trader-cdlgapsidesidewhite.html)
+-   [tradercdlgapsidesidewhite »](function.trader-cdlgapsidesidewhite.html)
     
 -   [PHP Manual](index.html)
     

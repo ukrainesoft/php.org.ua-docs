@@ -2,7 +2,7 @@
 
 -   [« Функции Recode](ref.recode.html)
     
--   [recode\_string »](function.recode-string.html)
+-   [recodestring »](function.recode-string.html)
     
 -   [PHP Manual](index.html)
     

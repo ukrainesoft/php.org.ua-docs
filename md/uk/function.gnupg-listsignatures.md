@@ -1,12 +1,12 @@
 Перераховує підписи ключа
 
--   [« gnupg\_keyinfo](function.gnupg-keyinfo.html)
+-   [« gnupgkeyinfo](function.gnupg-keyinfo.html)
     
--   [gnupg\_setarmor »](function.gnupg-setarmor.html)
+-   [gnupgsetarmor »](function.gnupg-setarmor.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Перераховує підписи ключа
     
@@ -27,7 +27,7 @@ gnupg_listsignatures(resource $identifier, string $keyid): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `keyid`
 

@@ -36,7 +36,7 @@ $t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
 
 `type`
 
-Коректна декларація типу С, наприклад string, або заздалегідь створений об'єкт класу [FFI\\CType](class.ffi-ctype.html)
+Коректна декларація типу С, наприклад string, або заздалегідь створений об'єкт класу [FFICType](class.ffi-ctype.html)
 
 `dimensions`
 
@@ -44,4 +44,4 @@ $t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [FFI\\CType](class.ffi-ctype.html)
+Повертає новий об'єкт [FFICType](class.ffi-ctype.html)

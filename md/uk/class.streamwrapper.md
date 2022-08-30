@@ -1,8 +1,8 @@
 Клас streamWrapper
 
--   [« php\_user\_filter::onCreate](php-user-filter.oncreate.html)
+-   [« phpuserfilter::onCreate](php-user-filter.oncreate.html)
     
--   [streamWrapper::\_\_construct »](streamwrapper.construct.html)
+-   [streamWrapper::construct »](streamwrapper.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -88,7 +88,7 @@ resource context
 
 Поточний [контекст](context.html) або **`null`**, якщо в функцію, що викликає, не було передано ніякого контексту.
 
-Використовуйте функцію [stream\_context\_get\_options()](function.stream-context-get-options.html) для аналізу та розбору контексту.
+Використовуйте функцію [streamcontextgetoptions()](function.stream-context-get-options.html) для аналізу та розбору контексту.
 
 > **Зауваження**
 > 
@@ -96,35 +96,35 @@ resource context
 
 ## Дивіться також
 
--   [Пример класса, зарегистрированного в качестве обёртки потока](stream.streamwrapper.example-1.html)
--   [stream\_wrapper\_register()](function.stream-wrapper-register.html)
--   [stream\_wrapper\_unregister()](function.stream-wrapper-unregister.html)
--   [stream\_wrapper\_restore()](function.stream-wrapper-restore.html)
+-   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
+-   [streamwrapperregister()](function.stream-wrapper-register.html)
+-   [streamwrapperunregister()](function.stream-wrapper-unregister.html)
+-   [streamwrapperrestore()](function.stream-wrapper-restore.html)
 
 ## Зміст
 
--   [streamWrapper::\_\_construct](streamwrapper.construct.html) — Створює новий об'єкт обертання потоку
--   [streamWrapper::\_\_destruct](streamwrapper.destruct.html) — Знищує існуючу обгортку потоку
--   [streamWrapper::dir\_closedir](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
--   [streamWrapper::dir\_opendir](streamwrapper.dir-opendir.html) - Відкрити дескриптор директорії
--   [streamWrapper::dir\_readdir](streamwrapper.dir-readdir.html) — Читання запису з дескриптора директорії
--   [streamWrapper::dir\_rewinddir](streamwrapper.dir-rewinddir.html) — Дескриптор директорії переміщення на її початку
+-   [streamWrapper::construct](streamwrapper.construct.html) — Створює новий об'єкт обертання потоку
+-   [streamWrapper::destruct](streamwrapper.destruct.html) — Знищує існуючу обгортку потоку
+-   [streamWrapper::dirclosedir](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
+-   [streamWrapper::diropendir](streamwrapper.dir-opendir.html) - Відкрити дескриптор директорії
+-   [streamWrapper::dirreaddir](streamwrapper.dir-readdir.html) — Читання запису з дескриптора директорії
+-   [streamWrapper::dirrewinddir](streamwrapper.dir-rewinddir.html) — Дескриптор директорії переміщення на її початку
 -   [streamWrapper::mkdir](streamwrapper.mkdir.html) - Створення директорії
 -   [streamWrapper::rename](streamwrapper.rename.html) — Перейменовує файл чи директорію
 -   [streamWrapper::rmdir](streamwrapper.rmdir.html) - Видаляє директорію
--   [streamWrapper::stream\_cast](streamwrapper.stream-cast.html) — Отримує ресурс рівнем нижче
--   [streamWrapper::stream\_close](streamwrapper.stream-close.html) - Закриває ресурс
--   [streamWrapper::stream\_eof](streamwrapper.stream-eof.html) - Перевіряє досягнення кінця файлу за файловим покажчиком
--   [streamWrapper::stream\_flush](streamwrapper.stream-flush.html) — скидає висновок
--   [streamWrapper::stream\_lock](streamwrapper.stream-lock.html) — Консультативне блокування файлу
--   [streamWrapper::stream\_metadata](streamwrapper.stream-metadata.html) - Змінює метадані потоку
--   [streamWrapper::stream\_open](streamwrapper.stream-open.html) — Відкриває файл чи URL
--   [streamWrapper::stream\_read](streamwrapper.stream-read.html) - Читає з потоку
--   [streamWrapper::stream\_seek](streamwrapper.stream-seek.html) — Переміщення на задану позицію у потоці
--   [streamWrapper::stream\_set\_option](streamwrapper.stream-set-option.html) — Зміна налаштувань потоку
--   [streamWrapper::stream\_stat](streamwrapper.stream-stat.html) — Отримання інформації про файловий ресурс
--   [streamWrapper::stream\_tell](streamwrapper.stream-tell.html) — Визначення поточної позиції потоку
--   [streamWrapper::stream\_truncate](streamwrapper.stream-truncate.html) - Усічення потоку
--   [streamWrapper::stream\_write](streamwrapper.stream-write.html) - Запис у потік
+-   [streamWrapper::streamcast](streamwrapper.stream-cast.html) — Отримує ресурс рівнем нижче
+-   [streamWrapper::streamclose](streamwrapper.stream-close.html) - Закриває ресурс
+-   [streamWrapper::streameof](streamwrapper.stream-eof.html) - Перевіряє досягнення кінця файлу за файловим покажчиком
+-   [streamWrapper::streamflush](streamwrapper.stream-flush.html) — скидає висновок
+-   [streamWrapper::streamlock](streamwrapper.stream-lock.html) — Консультативне блокування файлу
+-   [streamWrapper::streammetadata](streamwrapper.stream-metadata.html) - Змінює метадані потоку
+-   [streamWrapper::streamopen](streamwrapper.stream-open.html) — Відкриває файл чи URL
+-   [streamWrapper::streamread](streamwrapper.stream-read.html) - Читає з потоку
+-   [streamWrapper::streamseek](streamwrapper.stream-seek.html) — Переміщення на задану позицію у потоці
+-   [streamWrapper::streamsetoption](streamwrapper.stream-set-option.html) — Зміна налаштувань потоку
+-   [streamWrapper::streamstat](streamwrapper.stream-stat.html) — Отримання інформації про файловий ресурс
+-   [streamWrapper::streamtell](streamwrapper.stream-tell.html) — Визначення поточної позиції потоку
+-   [streamWrapper::streamtruncate](streamwrapper.stream-truncate.html) - Усічення потоку
+-   [streamWrapper::streamwrite](streamwrapper.stream-write.html) - Запис у потік
 -   [streamWrapper::unlink](streamwrapper.unlink.html) — Видалення файлу
--   [streamWrapper::url\_stat](streamwrapper.url-stat.html) — Отримання інформації про файл
+-   [streamWrapper::urlstat](streamwrapper.url-stat.html) — Отримання інформації про файл

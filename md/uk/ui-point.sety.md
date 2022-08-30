@@ -1,12 +1,12 @@
 Встановити Y
 
--   [« UI\\Point::setX](ui-point.setx.html)
+-   [« UIPoint::setX](ui-point.setx.html)
     
--   [UI\\Size »](class.ui-size.html)
+-   [ОЙSize »](class.ui-size.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Point](class.ui-point.html)
+-   [ОЙPoint](class.ui-point.html)
     
 -   Встановити Y
     

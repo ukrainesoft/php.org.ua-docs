@@ -2,7 +2,7 @@
 
 -   [« Функции Zlib](ref.zlib.html)
     
--   [deflate\_init »](function.deflate-init.html)
+-   [deflateinit »](function.deflate-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `context`
 
-Контекст, створений за допомогою функції [deflate\_init()](function.deflate-init.html)
+Контекст, створений за допомогою функції [deflateinit()](function.deflate-init.html)
 
 `data`
 
@@ -55,4 +55,4 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### Дивіться також
 
--   [deflate\_init()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+-   [deflateinit()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску

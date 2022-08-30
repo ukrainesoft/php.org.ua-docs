@@ -1,8 +1,8 @@
 Надає ім'я набору результатів
 
--   [« ibase\_modify\_user](function.ibase-modify-user.html)
+-   [« ibasemodifyuser](function.ibase-modify-user.html)
     
--   [ibase\_num\_fields »](function.ibase-num-fields.html)
+-   [ibasenumfields »](function.ibase-num-fields.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,5 +58,5 @@ for ($i = 0; ibase_fetch_row($result); ++$i) {
 
 ### Дивіться також
 
--   [ibase\_prepare()](function.ibase-prepare.html) - готує запит для подальшого зв'язування псевдозмінних та виконання
--   [ibase\_execute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит
+-   [ibaseprepare()](function.ibase-prepare.html) - готує запит для подальшого зв'язування псевдозмінних та виконання
+-   [ibaseexecute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит

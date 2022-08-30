@@ -2,7 +2,7 @@
 
 -   [« EventConfig](class.eventconfig.html)
     
--   [EventConfig::\_\_construct »](eventconfig.construct.html)
+-   [EventConfig::construct »](eventconfig.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,4 +54,4 @@ if ($cfg->avoidMethod("select")) {
 
 ### Дивіться також
 
--   [EventBase::\_\_construct()](eventbase.construct.html) - Конструктор об'єкту EventBase
+-   [EventBase::construct()](eventbase.construct.html) - Конструктор об'єкту EventBase

@@ -1,8 +1,8 @@
 Побітове АБО над двома варіантами
 
--   [« variant\_not](function.variant-not.html)
+-   [« variantnot](function.variant-not.html)
     
--   [variant\_pow »](function.variant-pow.html)
+-   [variantpow »](function.variant-pow.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ variant_or(mixed $left, mixed $right): variant
 > 
 > Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
 > 
-> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variantadd()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
 ### Значення, що повертаються
 
@@ -59,9 +59,9 @@ variant_or(mixed $left, mixed $right): variant
 
 ### Помилки
 
-Викидає виняток [com\_exception](class.com-exception.html) у разі виникнення помилки.
+Викидає виняток [comexception](class.com-exception.html) у разі виникнення помилки.
 
 ### Дивіться також
 
--   [variant\_and()](function.variant-and.html) - Побітове І над двома варіантами
--   [variant\_xor()](function.variant-xor.html) - що виключає АБО над двома варіантами
+-   [variantand()](function.variant-and.html) - Побітове І над двома варіантами
+-   [variantxor()](function.variant-xor.html) - що виключає АБО над двома варіантами

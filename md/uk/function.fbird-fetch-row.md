@@ -1,8 +1,8 @@
 Псевдонім ibasefetchrow
 
--   [« fbird\_fetch\_object](function.fbird-fetch-object.html)
+-   [« fbirdfetchobject](function.fbird-fetch-object.html)
     
--   [fbird\_field\_info »](function.fbird-field-info.html)
+-   [fbirdfieldinfo »](function.fbird-field-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,13 +15,13 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfetchrow - Псевдонім [ibase\_fetch\_row()](function.ibase-fetch-row.html)
+fbirdfetchrow - Псевдонім [ibasefetchrow()](function.ibase-fetch-row.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_fetch\_row()](function.ibase-fetch-row.html)
+Ця функція є псевдонімом: [ibasefetchrow()](function.ibase-fetch-row.html)
 
 ### Дивіться також
 
--   [fbird\_fetch\_assoc()](function.fbird-fetch-assoc.html) - Псевдонім ibasefetchassoc
--   [fbird\_fetch\_object()](function.fbird-fetch-object.html) - Псевдонім ibasefetchobject
+-   [fbirdfetchassoc()](function.fbird-fetch-assoc.html) - Псевдонім ibasefetchassoc
+-   [fbirdfetchobject()](function.fbird-fetch-object.html) - Псевдонім ibasefetchobject

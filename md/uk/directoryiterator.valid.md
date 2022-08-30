@@ -1,6 +1,6 @@
 Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
 
--   [« DirectoryIterator::\_\_toString](directoryiterator.tostring.html)
+-   [« DirectoryIterator::toString](directoryiterator.tostring.html)
     
 -   [EmptyIterator »](class.emptyiterator.html)
     
@@ -31,7 +31,7 @@ public DirectoryIterator::valid(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо елемент є допустимим, інакше повертає **`false`**
+Повертає \*\*`true`\*\*якщо елемент є допустимим, інакше повертає **`false`**
 
 ### Приклади
 

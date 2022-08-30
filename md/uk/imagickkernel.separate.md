@@ -2,7 +2,7 @@
 
 -   [« ImagickKernel::scale](imagickkernel.scale.html)
     
--   [Модули для работы с почтой »](refs.remote.mail.html)
+-   [Модулі для роботи з поштою](refs.remote.mail.html)
     
 -   [PHP Manual](index.html)
     

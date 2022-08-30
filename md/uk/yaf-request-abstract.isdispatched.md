@@ -1,12 +1,12 @@
 Визначає, чи надіслано запит
 
--   [« Yaf\_Request\_Abstract::isCli](yaf-request-abstract.iscli.html)
+-   [« YafRequestAbstract::isCli](yaf-request-abstract.iscli.html)
     
--   [Yaf\_Request\_Abstract::isGet »](yaf-request-abstract.isget.html)
+-   [YafRequestAbstract::isGet »](yaf-request-abstract.isget.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Визначає, чи надіслано запит
     
@@ -33,4 +33,4 @@ public Yaf_Request_Abstract::isDispatched(): bool
 
 ### Дивіться також
 
--   [Yaf\_Dispatcher::dispatch()](yaf-dispatcher.dispatch.html) - Надсилає запит
+-   [YafDispatcher::dispatch()](yaf-dispatcher.dispatch.html) - Надсилає запит

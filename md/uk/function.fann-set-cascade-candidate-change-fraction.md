@@ -1,8 +1,8 @@
 Встановлює частку каскадної зміни кандидата
 
--   [« fann\_set\_cascade\_activation\_steepnesses](function.fann-set-cascade-activation-steepnesses.html)
+-   [« fannsetcascadeactivationsteepnesses](function.fann-set-cascade-activation-steepnesses.html)
     
--   [fann\_set\_cascade\_candidate\_limit »](function.fann-set-cascade-candidate-limit.html)
+-   [fannsetcascadecandidatelimit »](function.fann-set-cascade-candidate-limit.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ fann_set_cascade_candidate_change_fraction(resource $ann, float $cascade_candida
 
 ### Дивіться також
 
--   [fann\_get\_cascade\_candidate\_change\_fraction()](function.fann-get-cascade-candidate-change-fraction.html) - Повертає частку зміни каскаду кандидата
+-   [fanngetcascadecandidatechangefraction()](function.fann-get-cascade-candidate-change-fraction.html) - Повертає частку зміни каскаду кандидата

@@ -1,12 +1,12 @@
 Отримання пакету двійкових даних для надсилання однієї групи даних (frame)
 
--   [« Swoole\\WebSocket\\Server::on](swoole-websocket-server.on.html)
+-   [« SwooleWebSocketServer::on](swoole-websocket-server.on.html)
     
--   [Swoole\\WebSocket\\Server::push »](swoole-websocket-server.push.html)
+-   [SwooleWebSocketServer::push »](swoole-websocket-server.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+-   [SwooleWebSocketServer](class.swoole-websocket-server.html)
     
 -   Отримання пакету двійкових даних для надсилання однієї групи даних (frame)
     

@@ -1,8 +1,8 @@
 Повертає масив, що містить аргументи функції
 
--   [« func\_get\_arg](function.func-get-arg.html)
+-   [« funcgetarg](function.func-get-arg.html)
     
--   [func\_num\_args »](function.func-num-args.html)
+-   [funcnumargs »](function.func-num-args.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ func_get_args(): array
 
 Отримує масив, що містить аргументи функції.
 
-Ця функція може бути використана спільно з [func\_num\_args()](function.func-num-args.html) і [func\_get\_arg()](function.func-get-arg.html) для створення функцій із змінною кількістю аргументів.
+Ця функція може бути використана спільно з [funcnumargs()](function.func-num-args.html) і [funcgetarg()](function.func-get-arg.html) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -97,16 +97,16 @@ byRef($arg);
 Результат виконання цього прикладу:
 
 Передано : array (  
-0 => 'bar',  
-  
+0 => 'bar',
+
 Після зміни: array (  
-0 => ьбазь,  
-  
+0 => ьбазь,
+
 Передано : array (  
-0 => 'bar',  
-  
+0 => 'bar',
+
 Після зміни: array (  
-0 => ьбазь,  
+0 => ьбазь,
 
 ### Примітки
 
@@ -122,7 +122,7 @@ byRef($arg);
 
 ### Дивіться також
 
--   [Синтаксис `...`](functions.arguments.html#functions.variable-arg-list)
--   [func\_get\_arg()](function.func-get-arg.html)
--   [func\_num\_args()](function.func-num-args.html)
+-   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
+-   [funcgetarg()](function.func-get-arg.html)
+-   [funcnumargs()](function.func-num-args.html)
 -   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.html)

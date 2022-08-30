@@ -1,8 +1,8 @@
 Марубозу
 
--   [« trader\_cdllongline](function.trader-cdllongline.html)
+-   [« tradercdllongline](function.trader-cdllongline.html)
     
--   [trader\_cdlmatchinglow »](function.trader-cdlmatchinglow.html)
+-   [tradercdlmatchinglow »](function.trader-cdlmatchinglow.html)
     
 -   [PHP Manual](index.html)
     

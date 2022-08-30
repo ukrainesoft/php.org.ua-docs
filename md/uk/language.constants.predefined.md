@@ -2,7 +2,7 @@
 
 -   [« Синтаксис](language.constants.syntax.html)
     
--   [Магические константы »](language.constants.magic.html)
+-   [Магічні константи »](language.constants.magic.html)
     
 -   [PHP Manual](index.html)
     

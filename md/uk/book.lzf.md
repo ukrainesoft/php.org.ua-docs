@@ -6,7 +6,7 @@ LZF
     
 -   [PHP Manual](index.html)
     
--   [Модули для сжатия и архивации](refs.compression.html)
+-   [Модулі для стиснення та архівації](refs.compression.html)
     
 -   LZF
     
@@ -20,7 +20,7 @@ LZF
     -   [Настройка во время выполнения](lzf.configuration.html)
     -   [Типы ресурсов](lzf.resources.html)
 -   [Предопределённые константы](lzf.constants.html)
--   [Функции LZF](ref.lzf.html)
-    -   [lzf\_compress](function.lzf-compress.html) - Стиснення LZF
-    -   [lzf\_decompress](function.lzf-decompress.html) - Розархівація LZF
-    -   [lzf\_optimized\_for](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF
+-   [Функції LZF](ref.lzf.html)
+    -   [lzfcompress](function.lzf-compress.html) - Стиснення LZF
+    -   [lzfdecompress](function.lzf-decompress.html) - Розархівація LZF
+    -   [lzfoptimizedfor](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF

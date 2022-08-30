@@ -1,8 +1,8 @@
 Експортує CSR у файл
 
--   [« openssl\_cms\_verify](function.openssl-cms-verify.html)
+-   [« opensslcmsverify](function.openssl-cms-verify.html)
     
--   [openssl\_csr\_export »](function.openssl-csr-export.html)
+-   [opensslcsrexport »](function.openssl-csr-export.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,6 +71,6 @@ openssl_csr_export_to_file($csr, 'example-csr.pem');
 
 ### Дивіться також
 
--   [openssl\_csr\_export()](function.openssl-csr-export.html) - Експортує CSR у вигляді рядка
--   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
--   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrexport()](function.openssl-csr-export.html) - Експортує CSR у вигляді рядка
+-   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

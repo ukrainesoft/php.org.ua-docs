@@ -1,6 +1,6 @@
 Чекаємо, доки подія буде опублікована в базі даних
 
--   [« ibase\_trans](function.ibase-trans.html)
+-   [« ibasetrans](function.ibase-trans.html)
     
 -   [IBM DB2 »](book.ibm-db2.html)
     
@@ -43,5 +43,5 @@ ibase_wait_event(resource $connection, string $event_name, string ...$event_name
 
 ### Дивіться також
 
--   [ibase\_set\_event\_handler()](function.ibase-set-event-handler.html) - Реєструє callback-функцію, яка буде викликатись при публікації подій
--   [ibase\_free\_event\_handler()](function.ibase-free-event-handler.html) - скасовує зареєстрований обробник події
+-   [ibaseseteventhandler()](function.ibase-set-event-handler.html) - Реєструє callback-функцію, яка буде викликатись при публікації подій
+-   [ibasefreeeventhandler()](function.ibase-free-event-handler.html) - скасовує зареєстрований обробник події

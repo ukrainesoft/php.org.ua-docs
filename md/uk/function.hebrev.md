@@ -1,12 +1,12 @@
 Перетворює текст на івриті з логічного кодування на візуальне
 
--   [« get\_html\_translation\_table](function.get-html-translation-table.html)
+-   [« gethtmltranslationtable](function.get-html-translation-table.html)
     
 -   [hebrevc »](function.hebrevc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює текст на івриті з логічного кодування на візуальне
     

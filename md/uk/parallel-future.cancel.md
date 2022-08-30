@@ -1,12 +1,12 @@
 Припинення
 
--   [« parallel\\Future](class.parallel-future.html)
+-   [« parallelFuture](class.parallel-future.html)
     
--   [parallel\\Future::cancelled »](parallel-future.cancelled.html)
+-   [parallelFuture::cancelled »](parallel-future.cancelled.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Future](class.parallel-future.html)
+-   [parallelFuture](class.parallel-future.html)
     
 -   Припинення
     
@@ -35,7 +35,7 @@ public parallel\Future::cancel(): bool
 
 **Увага**
 
-Викидає parallelFutureErrorKilled, якщо [parallel\\Runtime](class.parallel-runtime.html) виконання завдання було перервано.
+Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.html) виконання завдання було перервано.
 
 **Увага**
 

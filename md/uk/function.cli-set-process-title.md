@@ -1,12 +1,12 @@
 Встановлює заголовок процесу
 
--   [« cli\_get\_process\_title](function.cli-get-process-title.html)
+-   [« cligetprocesstitle](function.cli-get-process-title.html)
     
 -   [dl »](function.dl.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Встановлює заголовок процесу
     
@@ -60,5 +60,5 @@ if (!cli_set_process_title($title)) {
 
 ### Дивіться також
 
--   [cli\_get\_process\_title()](function.cli-get-process-title.html) - Повертає заголовок поточного процесу
+-   [cligetprocesstitle()](function.cli-get-process-title.html) - Повертає заголовок поточного процесу
 -   **setproctitle()**

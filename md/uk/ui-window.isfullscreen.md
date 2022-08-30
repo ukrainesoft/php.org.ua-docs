@@ -1,12 +1,12 @@
 Визначення повного екрану
 
--   [« UI\\Window::hasMargin](ui-window.hasmargin.html)
+-   [« UIWindow::hasMargin](ui-window.hasmargin.html)
     
--   [UI\\Window::msg »](ui-window.msg.html)
+-   [ОЙWindow::msg »](ui-window.msg.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Визначення повного екрану
     

@@ -13,7 +13,7 @@
 
 ## Формати часу
 
-На цій сторінці описані формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [date\_create()](function.date-create.html) [date\_create\_immutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.html)
+На цій сторінці описані формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.html)
 
 **Використовувані символи**
 

@@ -1,6 +1,6 @@
 Властивості Unicode-символів
 
--   [« Экранирующие последовательности](regexp.reference.escape.html)
+-   [« Екрануючі послідовності](regexp.reference.escape.html)
     
 -   [Якоря »](regexp.reference.anchors.html)
     

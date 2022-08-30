@@ -1,8 +1,8 @@
 Генерує випадковий ключ.cryptostream
 
--   [« sodium\_crypto\_sign](function.sodium-crypto-sign.html)
+-   [« sodiumcryptosign](function.sodium-crypto-sign.html)
     
--   [sodium\_crypto\_stream\_xchacha20\_keygen »](function.sodium-crypto-stream-xchacha20-keygen.html)
+-   [sodiumcryptostreamxchacha20keygen »](function.sodium-crypto-stream-xchacha20-keygen.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ sodiumcryptostreamkeygen - Генерує випадковий ключ sodiumcr
 sodium_crypto_stream_keygen(): string
 ```
 
-Створює ключ, який використовується в [sodium\_crypto\_stream()](function.sodium-crypto-stream.html) і [sodium\_crypto\_stream\_xor()](function.sodium-crypto-stream-xor.html)
+Створює ключ, який використовується в [sodiumcryptostream()](function.sodium-crypto-stream.html) і [sodiumcryptostreamxor()](function.sodium-crypto-stream-xor.html)
 
 ### Список параметрів
 

@@ -2,7 +2,7 @@
 
 -   [« SNMP](class.snmp.html)
     
--   [SNMP::\_\_construct »](snmp.construct.html)
+-   [SNMP::construct »](snmp.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,4 +49,4 @@ public SNMP::close(): bool
 
 ### Дивіться також
 
--   [SNMP::\_\_construct()](snmp.construct.html) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+-   [SNMP::construct()](snmp.construct.html) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP

@@ -1,12 +1,12 @@
 Повертає код JavaScript
 
--   [« MongoDB\\BSON\\Javascript::\_\_construct](mongodb-bson-javascript.construct.html)
+-   [« MongoDBBSONJavascript::construct](mongodb-bson-javascript.construct.html)
     
--   [MongoDB\\BSON\\Javascript::getScope »](mongodb-bson-javascript.getscope.html)
+-   [MongoDBBSONJavascript::getScope »](mongodb-bson-javascript.getscope.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+-   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
 -   Повертає код JavaScript
     
@@ -33,7 +33,7 @@ final public MongoDB\BSON\Javascript::getCode(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

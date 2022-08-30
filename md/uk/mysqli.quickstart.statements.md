@@ -2,7 +2,7 @@
 
 -   [« Соединения](mysqli.quickstart.connections.html)
     
--   [Подготавливаемые запросы »](mysqli.quickstart.prepared-statements.html)
+-   [Підготовлювані запити »](mysqli.quickstart.prepared-statements.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@
 
 ## Виконання запитів
 
-За виконання запитів відповідають функції [mysqli::query()](mysqli.query.html) [mysqli::real\_query()](mysqli.real-query.html) і [mysqli::multi\_query()](mysqli.multi-query.html). Найчастіше застосовується функція [mysqli::query()](mysqli.query.html)оскільки вона виконує відразу дві задачі: виконує запит і буферизує на клієнті результат цього запиту (якщо він є). Виклик [mysqli::query()](mysqli.query.html) ідентичний послідовному виклику функцій [mysqli::real\_query()](mysqli.real-query.html) і [mysqli::store\_result()](mysqli.store-result.html)
+За виконання запитів відповідають функції [mysqli::query()](mysqli.query.html) [mysqli::realquery()](mysqli.real-query.html) і [mysqli::multiquery()](mysqli.multi-query.html). Найчастіше застосовується функція [mysqli::query()](mysqli.query.html)оскільки вона виконує відразу дві задачі: виконує запит і буферизує на клієнті результат цього запиту (якщо він є). Виклик [mysqli::query()](mysqli.query.html) ідентичний послідовному виклику функцій [mysqli::realquery()](mysqli.real-query.html) і [mysqli::storeresult()](mysqli.store-result.html)
 
 **Приклад #1 Виконання запитів**
 
@@ -92,7 +92,7 @@ foreach ($result as $row) {
 
 *Типи даних значень у результуючій таблиці*
 
-Функції [mysqli::query()](mysqli.query.html) [mysqli::real\_query()](mysqli.real-query.html) і [mysqli::multi\_query()](mysqli.multi-query.html) призначені для виконання запитів, що не готуються. На рівні протоколу клієнт-серверної взаємодії MySQL за виконання запитів відповідає команда `COM_QUERY` та текстовий протокол. Коли використовується текстовий протокол, сервер MySQL перед відправкою клієнту перетворює всі дані в результуючому наборі текстових рядків. Це перетворення виконується незалежно від типу даних SQL-стовпця результуючої таблиці. Клієнтські бібліотеки mysql, своєю чергою, отримують усі дані, приймаючи їх за рядки. На клієнті не проводиться жодного зворотного перетворення до вихідних типів, всі дані, отримані програмою залишаються PHP рядками.
+Функції [mysqli::query()](mysqli.query.html) [mysqli::realquery()](mysqli.real-query.html) і [mysqli::multiquery()](mysqli.multi-query.html) призначені для виконання запитів, що не готуються. На рівні протоколу клієнт-серверної взаємодії MySQL за виконання запитів відповідає команда `COM_QUERY` та текстовий протокол. Коли використовується текстовий протокол, сервер MySQL перед відправкою клієнту перетворює всі дані в результуючому наборі текстових рядків. Це перетворення виконується незалежно від типу даних SQL-стовпця результуючої таблиці. Клієнтські бібліотеки mysql, своєю чергою, отримують усі дані, приймаючи їх за рядки. На клієнті не проводиться жодного зворотного перетворення до вихідних типів, всі дані, отримані програмою залишаються PHP рядками.
 
 **Приклад #4 Текстовий протокол за промовчанням повертає рядки**
 
@@ -153,10 +153,10 @@ label = a (string)
 
 *Дивіться також*
 
--   [mysqli::\_\_construct()](mysqli.construct.html)
+-   [mysqli::construct()](mysqli.construct.html)
 -   [mysqli::options()](mysqli.options.html)
--   [mysqli::real\_connect()](mysqli.real-connect.html)
+-   [mysqli::realconnect()](mysqli.real-connect.html)
 -   [mysqli::query()](mysqli.query.html)
--   [mysqli::multi\_query()](mysqli.multi-query.html)
--   [mysqli::use\_result()](mysqli.use-result.html)
--   [mysqli::store\_result()](mysqli.store-result.html)
+-   [mysqli::multiquery()](mysqli.multi-query.html)
+-   [mysqli::useresult()](mysqli.use-result.html)
+-   [mysqli::storeresult()](mysqli.store-result.html)

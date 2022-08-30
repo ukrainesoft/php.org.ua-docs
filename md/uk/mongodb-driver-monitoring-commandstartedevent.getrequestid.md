@@ -1,12 +1,12 @@
 Повертає ідентифікатор запиту команди
 
--   [« MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.html)
+-   [« MongoDBDriverMonitoringCommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getServer »](mongodb-driver-monitoring-commandstartedevent.getserver.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServer »](mongodb-driver-monitoring-commandstartedevent.getserver.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
     
 -   Повертає ідентифікатор запиту команди
     
@@ -23,7 +23,7 @@ MongoDBDriverMonitoringCommandStartedEvent::getRequestId — Повертає і
 final public MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId(): string
 ```
 
-Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html) з наступним [MongoDB\\Driver\\Monitoring\\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html) або [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
+Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html) з наступним [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html) або [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
 
 ### Список параметрів
 
@@ -35,10 +35,10 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId(): stri
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getRequestId()](mongodb-driver-monitoring-commandfailedevent.getrequestid.html) - Повертає ідентифікатор запиту команди
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId()](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html) - Повертає ідентифікатор запиту команди
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+-   [MongoDBDriverMonitoringCommandFailedEvent::getRequestId()](mongodb-driver-monitoring-commandfailedevent.getrequestid.html) - Повертає ідентифікатор запиту команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId()](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html) - Повертає ідентифікатор запиту команди
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)

@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifreestatement - Псевдонім [oci\_free\_statement()](function.oci-free-statement.html)
+ocifreestatement - Псевдонім [ocifreestatement()](function.oci-free-statement.html)
 
 ### Опис
 
-Псевдонім [oci\_free\_statement()](function.oci-free-statement.html)
+Псевдонім [ocifreestatement()](function.oci-free-statement.html)
 
 **Увага**
 

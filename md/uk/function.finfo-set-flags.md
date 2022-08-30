@@ -1,8 +1,8 @@
 Встановлює параметри конфігурації libmagic
 
--   [« finfo\_open](function.finfo-open.html)
+-   [« finfoopen](function.finfo-open.html)
     
--   [mime\_content\_type »](function.mime-content-type.html)
+-   [mimecontenttype »](function.mime-content-type.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,13 +33,13 @@ finfo_set_flags(finfo $finfo, int $flags): bool
 public finfo::set_flags(int $flags): bool
 ```
 
-Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfo\_open()](function.finfo-open.html) або інших функцій Fileinfo.
+Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfoopen()](function.finfo-open.html) або інших функцій Fileinfo.
 
 ### Список параметрів
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 `flags`
 

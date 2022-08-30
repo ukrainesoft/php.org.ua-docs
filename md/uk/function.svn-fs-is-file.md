@@ -1,12 +1,12 @@
 Визначає, чи знаходиться файл по даному шляху
 
--   [« svn\_fs\_is\_dir](function.svn-fs-is-dir.html)
+-   [« svnфсісdir](function.svn-fs-is-dir.html)
     
--   [svn\_fs\_make\_dir »](function.svn-fs-make-dir.html)
+-   [svnфсmakedir »](function.svn-fs-make-dir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Визначає, чи знаходиться файл по даному шляху
     

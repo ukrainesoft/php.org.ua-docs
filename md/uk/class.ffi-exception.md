@@ -1,8 +1,8 @@
 Винятки FFI
 
--   [« FFI\\CType::getStructFieldType](ffi-ctype.getstructfieldtype.html)
+-   [« FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.html)
     
--   [FFI\\ParserException »](class.ffi-parserexception.html)
+-   [FFIParserException »](class.ffi-parserexception.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Баланс сил
 
--   [« trader\_beta](function.trader-beta.html)
+-   [« traderbeta](function.trader-beta.html)
     
--   [trader\_cci »](function.trader-cci.html)
+-   [tradercci »](function.trader-cci.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Повертає першу довідку
 
--   [« ldap\_first\_entry](function.ldap-first-entry.html)
+-   [« ldapfirstentry](function.ldap-first-entry.html)
     
--   [ldap\_free\_result »](function.ldap-free-result.html)
+-   [ldapfreeresult »](function.ldap-free-result.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Повертає першу довідку
     

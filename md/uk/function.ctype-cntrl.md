@@ -1,12 +1,12 @@
 Перевіряє наявність символів керування
 
--   [« ctype\_alpha](function.ctype-alpha.html)
+-   [« ctypealpha](function.ctype-alpha.html)
     
--   [ctype\_digit »](function.ctype-digit.html)
+-   [ctypedigit »](function.ctype-digit.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Ctype](ref.ctype.html)
+-   [Опції Ctype](ref.ctype.html)
     
 -   Перевіряє наявність символів керування
     
@@ -69,4 +69,4 @@ foreach ($strings as $name => $testcase) {
 
 ### Дивіться також
 
--   [ctype\_print()](function.ctype-print.html) - Перевіряє наявність друкованих символів
+-   [ctypeprint()](function.ctype-print.html) - Перевіряє наявність друкованих символів

@@ -1,12 +1,12 @@
 Видаляє елементи з робочої копії або репозиторію
 
--   [« svn\_commit](function.svn-commit.html)
+-   [« svncommit](function.svn-commit.html)
     
--   [svn\_diff »](function.svn-diff.html)
+-   [svndiff »](function.svn-diff.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Видаляє елементи з робочої копії або репозиторію
     
@@ -23,7 +23,7 @@ svndelete — Видалення елементів із робочої копі
 svn_delete(string $path, bool $force = false): bool
 ```
 
-Видаляє файл, каталог або символічне посилання `path` з робочої копії. Елемент буде видалено з репозиторію під час наступного виклику [svn\_commit()](function.svn-commit.html) з робочої копії.
+Видаляє файл, каталог або символічне посилання `path` з робочої копії. Елемент буде видалено з репозиторію під час наступного виклику [svncommit()](function.svn-commit.html) з робочої копії.
 
 ### Список параметрів
 

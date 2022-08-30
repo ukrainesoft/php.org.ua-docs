@@ -39,7 +39,7 @@ stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
 
 `transaction_id`
 
@@ -55,7 +55,7 @@ stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 
 ### Приклади
 
-Дивіться [stomp\_commit()](stomp.commit.html) або [stomp\_abort()](stomp.abort.html)
+Дивіться [stompcommit()](stomp.commit.html) або [stompabort()](stomp.abort.html)
 
 ### Примітки
 

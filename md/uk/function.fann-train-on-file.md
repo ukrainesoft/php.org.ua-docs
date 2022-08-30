@@ -1,8 +1,8 @@
 Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
 
--   [« fann\_train\_on\_data](function.fann-train-on-data.html)
+-   [« fanntrainвінdata](function.fann-train-on-data.html)
     
--   [fann\_train »](function.fann-train.html)
+-   [fanntrain »](function.fann-train.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ fann_train_on_file(    resource $ann,    string $filename,    int $m
 
 Навчання на повному наборі даних, прочитаному із файлу, на часовому інтервалі.
 
-Це навчання використовує алгоритм, вибраний функцією [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) та набір параметрів для цих алгоритмів.
+Це навчання використовує алгоритм, вибраний функцією [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) та набір параметрів для цих алгоритмів.
 
 ### Список параметрів
 
@@ -47,7 +47,7 @@ fann_train_on_file(    resource $ann,    string $filename,    int $m
 
 `desired_error`
 
-Бажана [fann\_get\_MSE()](function.fann-get-mse.html) або [fann\_get\_bit\_fail()](function.fann-get-bit-fail.html), залежно від обраної функції зупинки [fann\_set\_train\_stop\_function()](function.fann-set-train-stop-function.html)
+Бажана [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), залежно від обраної функції зупинки [fannsettrainstopfunction()](function.fann-set-train-stop-function.html)
 
 ### Значення, що повертаються
 
@@ -55,10 +55,10 @@ fann_train_on_file(    resource $ann,    string $filename,    int $m
 
 ### Дивіться також
 
--   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fann\_train\_epoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
--   [fann\_get\_bit\_fail()](function.fann-get-bit-fail.html) - Кількість бітів збою
--   [fann\_get\_MSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fann\_set\_train\_stop\_function()](function.fann-set-train-stop-function.html) - Встановлює функцію зупинки під час тренування.
--   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
--   [fann\_set\_callback()](function.fann-set-callback.html) - Встановлює callback-функцію для використання під час навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanntrainepoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
+-   [fanngetbitfail()](function.fann-get-bit-fail.html) - Кількість бітів збою
+-   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
+-   [fannsettrainstopfunction()](function.fann-set-train-stop-function.html) - Встановлює функцію зупинки під час тренування.
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fannsetcallback()](function.fann-set-callback.html) - Встановлює callback-функцію для використання під час навчання

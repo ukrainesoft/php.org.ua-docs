@@ -25,7 +25,7 @@ public LuaSandbox::wrapPhpFunction(callable $function): LuaSandboxFunction
 
 Обертає викликаний PHP-об'єкт в [LuaSandboxFunction](class.luasandboxfunction.html)Тому його можна передати в Lua як анонімну функцію.
 
-Функція повинна повертати або масив значень (який може бути порожнім), або **`null`**що еквівалентно поверненню порожнього масиву.
+Функція повинна повертати або масив значень (який може бути порожнім), або \*\*`null`\*\*що еквівалентно поверненню порожнього масиву.
 
 Винятки виникатимуть як помилки в Lua, проте лише винятки [LuaSandboxRuntimeError](class.luasandboxruntimeerror.html) можуть бути оброблені всередині Lua за допомогою `pcall()` або `xpcall()`
 

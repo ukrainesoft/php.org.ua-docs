@@ -1,6 +1,6 @@
 Зменшує числове значення запису
 
--   [« Memcached::\_\_construct](memcached.construct.html)
+-   [« Memcached::construct](memcached.construct.html)
     
 -   [Memcached::decrementByKey »](memcached.decrementbykey.html)
     

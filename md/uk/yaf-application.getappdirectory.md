@@ -1,12 +1,12 @@
 Отримати директорію програми
 
--   [« Yaf\_Application::execute](yaf-application.execute.html)
+-   [« YafApplication::execute](yaf-application.execute.html)
     
--   [Yaf\_Application::getConfig »](yaf-application.getconfig.html)
+-   [YafApplication::getConfig »](yaf-application.getconfig.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Отримати директорію програми
     

@@ -1,12 +1,12 @@
 Встановлює з'єднання з FTP-сервером через SSL
 
--   [« ftp\_size](function.ftp-size.html)
+-   [« ftpsize](function.ftp-size.html)
     
--   [ftp\_systype »](function.ftp-systype.html)
+-   [ftpsystype »](function.ftp-systype.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Встановлює з'єднання з FTP-сервером через SSL
     
@@ -23,7 +23,7 @@ ftpsslconnect — Встановлює з'єднання з FTP-сервером
 ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection|false
 ```
 
-**ftpsslconnect()** встановлює *явне* SSL з'єднання з FTP-сервером, заданим аргументом `hostname`. Це означає, що **ftpsslconnect()** буде успішним навіть якщо сервер не налаштований для SSL-FTP, або його сертифікат недійсний. Тільки коли буде викликана функція [ftp\_login()](function.ftp-login.html), клієнт надішле необхідну команду AUTH FTP, так що у зазначених випадках [ftp\_login()](function.ftp-login.html) завершиться помилкою.
+**ftpsslconnect()** встановлює *явне* SSL з'єднання з FTP-сервером, заданим аргументом `hostname`. Це означає, що **ftpsslconnect()** буде успішним навіть якщо сервер не налаштований для SSL-FTP, або його сертифікат недійсний. Тільки коли буде викликана функція [ftplogin()](function.ftp-login.html), клієнт надішле необхідну команду AUTH FTP, так що у зазначених випадках [ftplogin()](function.ftp-login.html) завершиться помилкою.
 
 > **Зауваження** **Чому ця функція може бути не визначена**
 > 
@@ -31,7 +31,7 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 > **Зауваження**
 > 
-> **ftpsslconnect()** не призначена для використання протоколу sFTP. Для використання sFTP із PHP дивіться функцію [ssh2\_sftp()](function.ssh2-sftp.html)
+> **ftpsslconnect()** не призначена для використання протоколу sFTP. Для використання sFTP із PHP дивіться функцію [ssh2sftp()](function.ssh2-sftp.html)
 
 ### Список параметрів
 
@@ -45,17 +45,17 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 `timeout`
 
-Задає час очікування для всіх операцій із цим з'єднанням. За замовчуванням час очікування встановлюється за 90 секунд. Отримати та встановити значення часу очікування можна також за допомогою функцій [ftp\_set\_option()](function.ftp-set-option.html) і [ftp\_get\_option()](function.ftp-get-option.html)
+Задає час очікування для всіх операцій із цим з'єднанням. За замовчуванням час очікування встановлюється за 90 секунд. Отримати та встановити значення часу очікування можна також за допомогою функцій [ftpsetoption()](function.ftp-set-option.html) і [ftpgetoption()](function.ftp-get-option.html)
 
 ### Значення, що повертаються
 
-Повертає [FTP\\Connection](class.ftp-connection.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [FTPConnection](class.ftp-connection.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                          |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -84,4 +84,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_connect()](function.ftp-connect.html) - Встановлює з'єднання з FTP-сервером
+-   [ftpconnect()](function.ftp-connect.html) - Встановлює з'єднання з FTP-сервером

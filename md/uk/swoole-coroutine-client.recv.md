@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::isConnected](swoole-coroutine-client.isconnected.html)
+-   [« SwooleCoroutineClient::isConnected](swoole-coroutine-client.isconnected.html)
     
--   [Swoole\\Coroutine\\Client::send »](swoole-coroutine-client.send.html)
+-   [SwooleCoroutineClient::send »](swoole-coroutine-client.send.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

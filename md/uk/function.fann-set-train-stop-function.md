@@ -1,8 +1,8 @@
 Встановлює функцію зупинки під час тренування.
 
--   [« fann\_set\_train\_error\_function](function.fann-set-train-error-function.html)
+-   [« fannsettrainerrorfunction](function.fann-set-train-error-function.html)
     
--   [fann\_set\_training\_algorithm »](function.fann-set-training-algorithm.html)
+-   [fannsettrainingalgorithm »](function.fann-set-training-algorithm.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,4 +43,4 @@ fann_set_train_stop_function(resource $ann, int $stop_function): bool
 
 ### Дивіться також
 
--   [fann\_get\_train\_stop\_function()](function.fann-get-train-stop-function.html) - Повертає функцію зупинки, що використовується під час навчання
+-   [fanngettrainstopfunction()](function.fann-get-train-stop-function.html) - Повертає функцію зупинки, що використовується під час навчання

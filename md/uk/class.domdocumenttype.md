@@ -1,6 +1,6 @@
 Клас DOMDocumentType
 
--   [« DOMDocumentFragment::\_\_construct](domdocumentfragment.construct.html)
+-   [« DOMDocumentFragment::construct](domdocumentfragment.construct.html)
     
 -   [DOMElement »](class.domelement.html)
     
@@ -181,4 +181,4 @@ notations
 
 internalSubset
 
-Внутрішнє підмножина у вигляді рядка або **`null`**якщо такого немає. Воно не повинно містити розділових квадратних дужок.
+Внутрішнє підмножина у вигляді рядка або \*\*`null`\*\*якщо такого немає. Воно не повинно містити розділових квадратних дужок.

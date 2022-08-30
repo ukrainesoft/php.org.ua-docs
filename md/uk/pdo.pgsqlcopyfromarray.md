@@ -1,6 +1,6 @@
 Копіювати масив PHP до таблиці
 
--   [« PDO\_PGSQL DSN](ref.pdo-pgsql.connection.html)
+-   [« PDOPGSQL DSN](ref.pdo-pgsql.connection.html)
     
 -   [PDO::pgsqlCopyFromFile »](pdo.pgsqlcopyfromfile.html)
     

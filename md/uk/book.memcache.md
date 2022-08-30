@@ -1,6 +1,6 @@
 Memcache
 
--   [« LDAP\\ResultEntry](class.ldap-result-entry.html)
+-   [« LDAPResultEntry](class.ldap-result-entry.html)
     
 -   [Введение »](intro.memcache.html)
     
@@ -42,4 +42,4 @@ Memcache
     -   [Memcache::setCompressThreshold](memcache.setcompressthreshold.html) — Увімкнути автоматичний стиск для великих значень
     -   [Memcache::setServerParams](memcache.setserverparams.html) — Змінює параметри сервера та статус під час виконання
 -   [Функции Memcache](ref.memcache.html)
-    -   [memcache\_debug](function.memcache-debug.html) — Увімкнути/вимкнути виведення налагоджувальної інформації
+    -   [memcachedebug](function.memcache-debug.html) — Увімкнути/вимкнути виведення налагоджувальної інформації

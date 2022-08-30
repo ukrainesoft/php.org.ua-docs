@@ -1,6 +1,6 @@
 Видаляє елемент із черги
 
--   [« SplQueue::\_\_construct](splqueue.construct.html)
+-   [« SplQueue::construct](splqueue.construct.html)
     
 -   [SplQueue::enqueue »](splqueue.enqueue.html)
     

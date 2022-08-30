@@ -1,12 +1,12 @@
 Видаляє частину масиву і замінює її чимось ще
 
--   [« array\_slice](function.array-slice.html)
+-   [« arrayslice](function.array-slice.html)
     
--   [array\_sum »](function.array-sum.html)
+-   [arraysum »](function.array-sum.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Видаляє частину масиву і замінює її чимось ще
     
@@ -173,6 +173,6 @@ array_splice($input, $x, 1, $y);
 
 ### Дивіться також
 
--   [array\_merge()](function.array-merge.html) - Зливає один або більше масивів
--   [array\_slice()](function.array-slice.html) - Вибирає зріз масиву
+-   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
+-   [arrayslice()](function.array-slice.html) - Вибирає зріз масиву
 -   [unset()](function.unset.html) - Видаляє змінну

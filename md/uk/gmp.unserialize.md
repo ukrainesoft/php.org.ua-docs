@@ -1,6 +1,6 @@
 Десеріалізує параметр data в об'єкт GMP
 
--   [« GMP::\_\_serialize](gmp.serialize.html)
+-   [« GMP::serialize](gmp.serialize.html)
     
 -   [Math »](book.math.html)
     

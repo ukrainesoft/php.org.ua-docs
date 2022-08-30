@@ -36,4 +36,4 @@ public ReflectionFunctionAbstract::getParameters(): array
 ### Дивіться також
 
 -   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
--   [func\_get\_args()](function.func-get-args.html) - Повертає масив, що містить аргументи функції
+-   [funcgetargs()](function.func-get-args.html) - Повертає масив, що містить аргументи функції

@@ -1,6 +1,6 @@
 Створює дві буферні події, пов'язані один з одним
 
--   [« EventBufferEvent::\_\_construct](eventbufferevent.construct.html)
+-   [« EventBufferEvent::construct](eventbufferevent.construct.html)
     
 -   [EventBufferEvent::disable »](eventbufferevent.disable.html)
     

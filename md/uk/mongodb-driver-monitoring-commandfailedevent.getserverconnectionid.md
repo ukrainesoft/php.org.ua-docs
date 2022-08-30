@@ -1,12 +1,12 @@
 Повертає ідентифікатор з'єднання із сервером для команди
 
--   [« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServer](mongodb-driver-monitoring-commandfailedevent.getserver.html)
+-   [« MongoDBDriverMonitoringCommandFailedEvent::getServer](mongodb-driver-monitoring-commandfailedevent.getserver.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServiceId »](mongodb-driver-monitoring-commandfailedevent.getserviceid.html)
+-   [MongoDBDriverMonitoringCommandFailedEvent::getServiceId »](mongodb-driver-monitoring-commandfailedevent.getserviceid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
+-   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
     
 -   Повертає ідентифікатор з'єднання із сервером для команди
     
@@ -23,7 +23,7 @@ MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId — Повер�
 final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServerConnectionId(): ?int
 ```
 
-Повертає ідентифікатор з'єднання із сервером для команди. Ідентифікатор підключення до сервера відрізняється від сервера (тобто . [MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServer()](mongodb-driver-monitoring-commandfailedevent.getserver.html)) і повертається в поле "connectionId" відповіді команди `hello` у MongoDB 4.2+.
+Повертає ідентифікатор з'єднання із сервером для команди. Ідентифікатор підключення до сервера відрізняється від сервера (тобто . [MongoDBDriverMonitoringCommandFailedEvent::getServer()](mongodb-driver-monitoring-commandfailedevent.getserver.html)) і повертається в поле "connectionId" відповіді команди `hello` у MongoDB 4.2+.
 
 ### Список параметрів
 
@@ -31,8 +31,8 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServerConnectionId
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор з'єднання із сервером або **`null`**якщо він недоступний.
+Повертає ідентифікатор з'єднання із сервером або \*\*`null`\*\*якщо він недоступний.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

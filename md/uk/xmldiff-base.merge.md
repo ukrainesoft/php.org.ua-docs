@@ -1,12 +1,12 @@
 Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
 
--   [« XMLDiff\\Base::diff](xmldiff-base.diff.html)
+-   [« XMLDiffBase::diff](xmldiff-base.diff.html)
     
--   [XMLDiff\\DOM »](class.xmldiff-dom.html)
+-   [XMLDiffDOM »](class.xmldiff-dom.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\Base](class.xmldiff-base.html)
+-   [XMLDiffBase](class.xmldiff-base.html)
     
 -   Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
     

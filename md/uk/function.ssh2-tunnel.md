@@ -1,12 +1,12 @@
 Відкрити тунель через віддалений сервер
 
--   [« ssh2\_shell](function.ssh2-shell.html)
+-   [« ssh2shell](function.ssh2-shell.html)
     
 -   [Stomp »](book.stomp.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Відкрити тунель через віддалений сервер
     
@@ -29,7 +29,7 @@ ssh2_tunnel(resource $session, string $host, int $port): resource
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `host`
 
@@ -52,5 +52,5 @@ $tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
 
 ### Дивіться також
 
--   [ssh2\_connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
 -   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix

@@ -1,8 +1,8 @@
 Клас YafControllerAbstract
 
--   [« Yaf\_Config\_Simple::valid](yaf-config-simple.valid.html)
+-   [« YafConfigSimple::valid](yaf-config-simple.valid.html)
     
--   [Yaf\_Controller\_Abstract::\_\_construct »](yaf-controller-abstract.construct.html)
+-   [YafControllerAbstract::construct »](yaf-controller-abstract.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@
 
 Якщо ви визначили метод init() у своєму контролері користувача, він буде викликатися доти, поки буде створено екземпляр контролера.
 
-У дії під час надходження запиту може бути аргументи. Якщо в параметрах запиту є та сама змінна імені ([Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.html)) після перенаправлення, Yaf передасть їх методу дії ([Yaf\_Action\_Abstract::execute()](yaf-action-abstract.execute.html)
+У дії під час надходження запиту може бути аргументи. Якщо в параметрах запиту є та сама змінна імені ([YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html)) після перенаправлення, Yaf передасть їх методу дії ([YafActionAbstract::execute()](yaf-action-abstract.execute.html)
 
 > **Зауваження**
 > 
@@ -96,7 +96,7 @@ public setViewpath(string $view_directory): void
 
 actions
 
-Ви також можете визначити метод дії в окремому скрипті PHP, використовуючи цю властивість і [Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+Ви також можете визначити метод дії в окремому скрипті PHP, використовуючи цю властивість і [YafActionAbstract](class.yaf-action-abstract.html)
 
 **Приклад #1 Визначення дії в окремому файлі**
 
@@ -154,19 +154,19 @@ view
 
 ## Зміст
 
--   [Yaf\_Controller\_Abstract::\_\_construct](yaf-controller-abstract.construct.html) - Конструктор класу YafControllerAbstract
--   [Yaf\_Controller\_Abstract::display](yaf-controller-abstract.display.html) - Призначення display
--   [Yaf\_Controller\_Abstract::forward](yaf-controller-abstract.forward.html) — Переходить до іншої дії
--   [Yaf\_Controller\_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.html) — Призначення getInvokeArg
--   [Yaf\_Controller\_Abstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.html) — Призначення getInvokeArgs
--   [Yaf\_Controller\_Abstract::getModuleName](yaf-controller-abstract.getmodulename.html) — Отримує ім'я модуля
--   [Yaf\_Controller\_Abstract::getName](yaf-controller-abstract.getname.html) — Отримує своє ім'я
--   [Yaf\_Controller\_Abstract::getRequest](yaf-controller-abstract.getrequest.html) — Отримує поточний об'єкт запиту
--   [Yaf\_Controller\_Abstract::getResponse](yaf-controller-abstract.getresponse.html) — Отримує поточний об'єкт відповіді
--   [Yaf\_Controller\_Abstract::getView](yaf-controller-abstract.getview.html) — Отримує двигун відображення
--   [Yaf\_Controller\_Abstract::getViewpath](yaf-controller-abstract.getviewpath.html) - Призначення getViewpath
--   [Yaf\_Controller\_Abstract::init](yaf-controller-abstract.init.html) - Ініціалізатор контролера
--   [Yaf\_Controller\_Abstract::initView](yaf-controller-abstract.initview.html) - Призначення initView
--   [Yaf\_Controller\_Abstract::redirect](yaf-controller-abstract.redirect.html) — Перенаправляє на URL
--   [Yaf\_Controller\_Abstract::render](yaf-controller-abstract.render.html) — Відображає шаблон представлення
--   [Yaf\_Controller\_Abstract::setViewpath](yaf-controller-abstract.setviewpath.html) - Призначення setViewpath
+-   [YafControllerAbstract::construct](yaf-controller-abstract.construct.html) - Конструктор класу YafControllerAbstract
+-   [YafControllerAbstract::display](yaf-controller-abstract.display.html) - Призначення display
+-   [YafControllerAbstract::forward](yaf-controller-abstract.forward.html) — Переходить до іншої дії
+-   [YafControllerAbstract::getInvokeArg](yaf-controller-abstract.getinvokearg.html) — Призначення getInvokeArg
+-   [YafControllerAbstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.html) — Призначення getInvokeArgs
+-   [YafControllerAbstract::getModuleName](yaf-controller-abstract.getmodulename.html) — Отримує ім'я модуля
+-   [YafControllerAbstract::getName](yaf-controller-abstract.getname.html) — Отримує своє ім'я
+-   [YafControllerAbstract::getRequest](yaf-controller-abstract.getrequest.html) — Отримує поточний об'єкт запиту
+-   [YafControllerAbstract::getResponse](yaf-controller-abstract.getresponse.html) — Отримує поточний об'єкт відповіді
+-   [YafControllerAbstract::getView](yaf-controller-abstract.getview.html) — Отримує двигун відображення
+-   [YafControllerAbstract::getViewpath](yaf-controller-abstract.getviewpath.html) - Призначення getViewpath
+-   [YafControllerAbstract::init](yaf-controller-abstract.init.html) - Ініціалізатор контролера
+-   [YafControllerAbstract::initView](yaf-controller-abstract.initview.html) - Призначення initView
+-   [YafControllerAbstract::redirect](yaf-controller-abstract.redirect.html) — Перенаправляє на URL
+-   [YafControllerAbstract::render](yaf-controller-abstract.render.html) — Відображає шаблон представлення
+-   [YafControllerAbstract::setViewpath](yaf-controller-abstract.setviewpath.html) - Призначення setViewpath

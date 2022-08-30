@@ -2,11 +2,11 @@
 
 -   [« GlobIterator::count](globiterator.count.html)
     
--   [InfiniteIterator::\_\_construct »](infiniteiterator.construct.html)
+-   [InfiniteIterator::construct »](infiniteiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас InfiniteIterator
     
@@ -57,5 +57,5 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [InfiniteIterator::\_\_construct](infiniteiterator.construct.html) - Конструктор класу InfiniteIterator
+-   [InfiniteIterator::construct](infiniteiterator.construct.html) - Конструктор класу InfiniteIterator
 -   [InfiniteIterator::next](infiniteiterator.next.html) — Переміщує ітератор на одну позицію вперед чи на початок

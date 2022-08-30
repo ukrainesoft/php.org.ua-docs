@@ -1,12 +1,12 @@
 Зупинити виконавця
 
--   [« UI\\Executor::\_\_construct](ui-executor.construct.html)
+-   [« UIExecutor::construct](ui-executor.construct.html)
     
--   [UI\\Executor::onExecute »](ui-executor.onexecute.html)
+-   [ОЙExecutor::onExecute »](ui-executor.onexecute.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Executor](class.ui-executor.html)
+-   [ОЙExecutor](class.ui-executor.html)
     
 -   Зупинити виконавця
     

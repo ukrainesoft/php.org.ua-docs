@@ -2,7 +2,7 @@
 
 -   [« Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.html)
     
--   [API плагинов mysqlnd »](mysqlnd.plugin.api.html)
+-   [API плагінів mysqlnd »](mysqlnd.plugin.api.html)
     
 -   [PHP Manual](index.html)
     

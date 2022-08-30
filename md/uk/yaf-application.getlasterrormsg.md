@@ -1,12 +1,12 @@
 Отримати останнє повідомлення про помилку
 
--   [« Yaf\_Application::getDispatcher](yaf-application.getdispatcher.html)
+-   [« YafApplication::getDispatcher](yaf-application.getdispatcher.html)
     
--   [Yaf\_Application::getLastErrorNo »](yaf-application.getlasterrorno.html)
+-   [YafApplication::getLastErrorNo »](yaf-application.getlasterrorno.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Отримати останнє повідомлення про помилку
     

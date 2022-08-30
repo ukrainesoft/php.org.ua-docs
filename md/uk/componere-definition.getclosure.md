@@ -1,12 +1,12 @@
 Отримує замикання
 
--   [« Componere\\Definition::isRegistered](componere-definition.isregistered.html)
+-   [« ComponereDefinition::isRegistered](componere-definition.isregistered.html)
     
--   [Componere\\Definition::getClosures »](componere-definition.getclosures.html)
+-   [ComponereDefinition::getClosures »](componere-definition.getclosures.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Отримує замикання
     

@@ -1,12 +1,12 @@
 Отримує інформацію про базову бібліотеку rrdtool
 
--   [« rrd\_update](function.rrd-update.html)
+-   [« rrdupdate](function.rrd-update.html)
     
--   [rrd\_xport »](function.rrd-xport.html)
+-   [rrdxport »](function.rrd-xport.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Отримує інформацію про базову бібліотеку rrdtool
     

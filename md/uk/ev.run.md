@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](class.ev.html)
+-   [Єв](class.ev.html)
     
 -   Розпочати перевірку наявності подій та виклик callback-функцій циклу за умовчанням
     

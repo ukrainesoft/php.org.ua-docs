@@ -1,8 +1,8 @@
 Повертає результат додавання всіх заданих значень до набору
 
--   [« Ds\\Set::last](ds-set.last.html)
+-   [« DsSet::last](ds-set.last.html)
     
--   [Ds\\Set::reduce »](ds-set.reduce.html)
+-   [ДсSet::reduce »](ds-set.reduce.html)
     
 -   [PHP Manual](index.html)
     

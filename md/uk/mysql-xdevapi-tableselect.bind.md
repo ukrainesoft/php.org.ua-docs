@@ -1,12 +1,12 @@
 Прив'язує параметри запиту вибірки
 
--   [« mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+-   [« mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     
--   [TableSelect::\_\_construct »](mysql-xdevapi-tableselect.construct.html)
+-   [TableSelect::construct »](mysql-xdevapi-tableselect.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+-   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     
 -   Прив'язує параметри запиту вибірки
     

@@ -1,12 +1,12 @@
 Призначення get
 
--   [« Yaf\_Request\_Simple::\_\_construct](yaf-request-simple.construct.html)
+-   [« YafRequestSimple::construct](yaf-request-simple.construct.html)
     
--   [Yaf\_Request\_Simple::getCookie »](yaf-request-simple.getcookie.html)
+-   [YafRequestSimple::getCookie »](yaf-request-simple.getcookie.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Simple](class.yaf-request-simple.html)
+-   [YafRequestSimple](class.yaf-request-simple.html)
     
 -   Призначення get
     

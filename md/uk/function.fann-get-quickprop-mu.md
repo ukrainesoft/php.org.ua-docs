@@ -1,8 +1,8 @@
 Повертає коефіцієнт mu
 
--   [« fann\_get\_quickprop\_decay](function.fann-get-quickprop-decay.html)
+-   [« fanngetquickpropdecay](function.fann-get-quickprop-decay.html)
     
--   [fann\_get\_rprop\_decrease\_factor »](function.fann-get-rprop-decrease-factor.html)
+-   [fanngetrpropdecreasefactor »](function.fann-get-rprop-decrease-factor.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ fann_get_quickprop_mu(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_set\_quickprop\_mu()](function.fann-set-quickprop-mu.html) - Встановлює МЮ-фактор quickprop
+-   [fannsetquickpropmu()](function.fann-set-quickprop-mu.html) - Встановлює МЮ-фактор quickprop

@@ -1,12 +1,12 @@
 Отримати розмір вікна
 
--   [« UI\\Window::error](ui-window.error.html)
+-   [« UIWindow::error](ui-window.error.html)
     
--   [UI\\Window::getTitle »](ui-window.gettitle.html)
+-   [ОЙWindow::getTitle »](ui-window.gettitle.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Отримати розмір вікна
     

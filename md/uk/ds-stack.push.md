@@ -1,8 +1,8 @@
 Додає значення у стек
 
--   [« Ds\\Stack::pop](ds-stack.pop.html)
+-   [« DsStack::pop](ds-stack.pop.html)
     
--   [Ds\\Stack::toArray »](ds-stack.toarray.html)
+-   [ДсStack::toArray »](ds-stack.toarray.html)
     
 -   [PHP Manual](index.html)
     

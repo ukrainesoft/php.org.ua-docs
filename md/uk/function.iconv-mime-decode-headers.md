@@ -1,8 +1,8 @@
 Декодує кілька полів заголовка MIME
 
--   [« iconv\_get\_encoding](function.iconv-get-encoding.html)
+-   [« iconvgetencoding](function.iconv-get-encoding.html)
     
--   [iconv\_mime\_decode »](function.iconv-mime-decode.html)
+-   [iconvmimedecode »](function.iconv-mime-decode.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,7 +44,7 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 `encoding`
 
-Необов'язковий параметр `encoding` вказує кодування, в якому буде представлено результат. Якщо опущено, буде використано значення директиви [iconv.internal\_encoding](iconv.configuration.html)
+Необов'язковий параметр `encoding` вказує кодування, в якому буде представлено результат. Якщо опущено, буде використано значення директиви [iconv.internalencoding](iconv.configuration.html)
 
 ### Значення, що повертаються
 
@@ -102,8 +102,8 @@ Array
 
 ### Дивіться також
 
--   [iconv\_mime\_decode()](function.iconv-mime-decode.html) - Декодує поле MIME-заголовка
--   [mb\_decode\_mimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
--   [imap\_mime\_header\_decode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
--   [imap\_base64()](function.imap-base64.html) - Декодувати текст закодований BASE64
--   [imap\_qprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+-   [iconvmimedecode()](function.iconv-mime-decode.html) - Декодує поле MIME-заголовка
+-   [мбdecodemimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
+-   [imapmimeheaderdecode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
+-   [imapbase64()](function.imap-base64.html) - Декодувати текст закодований BASE64
+-   [imapqprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок

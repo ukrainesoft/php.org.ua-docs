@@ -1,8 +1,8 @@
 Виконує інструкцію SQL безпосередньо
 
--   [« odbc\_errormsg](function.odbc-errormsg.html)
+-   [« odbcerrormsg](function.odbc-errormsg.html)
     
--   [odbc\_execute »](function.odbc-execute.html)
+-   [odbcexecute »](function.odbc-execute.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 `query`
 
@@ -47,5 +47,5 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 ### Дивіться також
 
--   [odbc\_prepare()](function.odbc-prepare.html) - готує запит до виконання
--   [odbc\_execute()](function.odbc-execute.html) - Виконує запит
+-   [odbcprepare()](function.odbc-prepare.html) - готує запит до виконання
+-   [odbcexecute()](function.odbc-execute.html) - Виконує запит

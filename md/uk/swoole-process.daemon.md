@@ -1,12 +1,12 @@
 Змінює процес на процес-демон
 
--   [« Swoole\\Process::\_\_construct](swoole-process.construct.html)
+-   [« SwooleProcess::construct](swoole-process.construct.html)
     
--   [Swoole\\Process::\_\_destruct »](swoole-process.destruct.html)
+-   [SwooleProcess::destruct »](swoole-process.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Змінює процес на процес-демон
     

@@ -1,8 +1,8 @@
 Видаляє всі задані значення з набору
 
--   [« Ds\\Set::reduce](ds-set.reduce.html)
+-   [« DsSet::reduce](ds-set.reduce.html)
     
--   [Ds\\Set::reverse »](ds-set.reverse.html)
+-   [ДсSet::reverse »](ds-set.reverse.html)
     
 -   [PHP Manual](index.html)
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Форматує число з поділом груп
     
@@ -84,7 +84,7 @@ $english_format_number = number_format($number, 2, '.', '');
 
 ### Дивіться також
 
--   [money\_format()](function.money-format.html) - Форматує число як грошову величину
+-   [moneyformat()](function.money-format.html) - Форматує число як грошову величину
 -   [sprintf()](function.sprintf.html) - Повертає відформатований рядок
 -   [printf()](function.printf.html) - Виводить відформатований рядок
 -   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату

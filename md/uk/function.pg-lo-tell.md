@@ -1,8 +1,8 @@
 Повертає поточне положення внутрішнього покажчика великого об'єкта
 
--   [« pg\_lo\_seek](function.pg-lo-seek.html)
+-   [« pgлоseek](function.pg-lo-seek.html)
     
--   [pg\_lo\_truncate »](function.pg-lo-truncate.html)
+-   [пглоtruncate »](function.pg-lo-truncate.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 `lob`
 
-Ан [PgSql\\Lob](class.pgsql-lob.html) instance, returned by [pg\_lo\_open()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
 
 ### Значення, що повертаються
 
@@ -39,9 +39,9 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                  |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -70,4 +70,4 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 ### Дивіться також
 
--   [pg\_lo\_seek()](function.pg-lo-seek.html) - Переміщує внутрішній покажчик великого об'єкта
+-   [пглоseek()](function.pg-lo-seek.html) - Переміщує внутрішній покажчик великого об'єкта

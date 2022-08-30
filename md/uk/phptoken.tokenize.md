@@ -1,6 +1,6 @@
 Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
 
--   [« PhpToken::\_\_toString](phptoken.tostring.html)
+-   [« PhpToken::toString](phptoken.tostring.html)
     
 -   [Функции PHP-лексера (tokenizer) »](ref.tokenizer.html)
     
@@ -87,4 +87,4 @@ echo "'{$tokens[0]->getUpperText()}'";
 
 ### Дивіться також
 
--   [token\_get\_all()](function.token-get-all.html) - Розбиває переданий вихідний код на PHP-лексеми
+-   [tokengetall()](function.token-get-all.html) - Розбиває переданий вихідний код на PHP-лексеми

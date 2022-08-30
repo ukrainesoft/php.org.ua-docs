@@ -1,12 +1,12 @@
 Геттер
 
--   [« Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+-   [« YafConfigAbstract](class.yaf-config-abstract.html)
     
--   [Yaf\_Config\_Abstract::readonly »](yaf-config-abstract.readonly.html)
+-   [YafConfigAbstract::readonly »](yaf-config-abstract.readonly.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+-   [YafConfigAbstract](class.yaf-config-abstract.html)
     
 -   Геттер
     

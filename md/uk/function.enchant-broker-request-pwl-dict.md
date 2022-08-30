@@ -1,8 +1,8 @@
 Створити словник, використовуючи файл PWL
 
--   [« enchant\_broker\_request\_dict](function.enchant-broker-request-dict.html)
+-   [« enchantbrokerrequestdict](function.enchant-broker-request-dict.html)
     
--   [enchant\_broker\_set\_dict\_path »](function.enchant-broker-set-dict-path.html)
+-   [enchantbrokersetdictpath »](function.enchant-broker-set-dict-path.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): Enchan
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 `filename`
 
@@ -48,6 +48,6 @@ enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): Enchan
 
 ### Дивіться також
 
--   [enchant\_dict\_describe()](function.enchant-dict-describe.html) - Повертає інформацію про словник
--   [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.html) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
--   [enchant\_broker\_free\_dict()](function.enchant-broker-free-dict.html) - звільняє ресурс словника
+-   [enchantdictdescribe()](function.enchant-dict-describe.html) - Повертає інформацію про словник
+-   [enchantbrokerdictexists()](function.enchant-broker-dict-exists.html) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
+-   [enchantbrokerfreedict()](function.enchant-broker-free-dict.html) - звільняє ресурс словника

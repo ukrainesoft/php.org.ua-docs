@@ -1,12 +1,12 @@
 Шифрує та підписує переданий текст
 
--   [« gnupg\_encrypt](function.gnupg-encrypt.html)
+-   [« gnupgencrypt](function.gnupg-encrypt.html)
     
--   [gnupg\_export »](function.gnupg-export.html)
+-   [gnupgexport »](function.gnupg-export.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Шифрує та підписує переданий текст
     
@@ -23,13 +23,13 @@ gnupgencryptsign — Шифрує та підписує переданий те�
 gnupg_encryptsign(resource $identifier, string $plaintext): string
 ```
 
-Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupg\_addsignkey](function.gnupg-addsignkey.html) і [gnupg\_addencryptkey](function.gnupg-addencryptkey.html) раніше і повертає зашифрований та підписаний текст.
+Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupgaddsignkey](function.gnupg-addsignkey.html) і [gnupgaddencryptkey](function.gnupg-addencryptkey.html) раніше і повертає зашифрований та підписаний текст.
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `plaintext`
 

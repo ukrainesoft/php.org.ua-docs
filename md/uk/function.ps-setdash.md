@@ -1,12 +1,12 @@
 Встановлює зовнішній вигляд пунктирної лінії
 
--   [« ps\_setcolor](function.ps-setcolor.html)
+-   [«pssetcolor](function.ps-setcolor.html)
     
--   [ps\_setflat »](function.ps-setflat.html)
+-   [псsetflat »](function.ps-setflat.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює зовнішній вигляд пунктирної лінії
     
@@ -29,7 +29,7 @@ ps_setdash(resource $psdoc, float $on, float $off): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `on`
 
@@ -45,4 +45,4 @@ ps_setdash(resource $psdoc, float $on, float $off): bool
 
 ### Дивіться також
 
--   [ps\_setpolydash()](function.ps-setpolydash.html) - Встановлює зовнішній вигляд пунктирної лінії
+-   [псsetpolydash()](function.ps-setpolydash.html) - Встановлює зовнішній вигляд пунктирної лінії

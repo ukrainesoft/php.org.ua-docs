@@ -2,7 +2,7 @@
 
 -   [« SplFileObject::setFlags](splfileobject.setflags.html)
     
--   [SplFileObject::\_\_toString »](splfileobject.tostring.html)
+-   [SplFileObject::toString »](splfileobject.tostring.html)
     
 -   [PHP Manual](index.html)
     

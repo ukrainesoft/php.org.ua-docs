@@ -1,12 +1,12 @@
 Отримує ім'я гліфа
 
--   [« ps\_stroke](function.ps-stroke.html)
+-   [«psstroke](function.ps-stroke.html)
     
--   [ps\_symbol\_width »](function.ps-symbol-width.html)
+-   [псsymbolwidth »](function.ps-symbol-width.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Отримує ім'я гліфа
     
@@ -29,7 +29,7 @@ ps_symbol_name(resource $psdoc, int $ord, int $fontid = 0): string
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `ord`
 
@@ -45,5 +45,5 @@ ps_symbol_name(resource $psdoc, int $ord, int $fontid = 0): string
 
 ### Дивіться також
 
--   [ps\_symbol()](function.ps-symbol.html) - Виводить гліф
--   [ps\_symbol\_width()](function.ps-symbol-width.html) - Отримує ширину гліфа
+-   [псsymbol()](function.ps-symbol.html) - Виводить гліф
+-   [псsymbolwidth()](function.ps-symbol-width.html) - Отримує ширину гліфа

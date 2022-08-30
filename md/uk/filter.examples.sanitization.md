@@ -1,8 +1,8 @@
 Очищення (нормалізація)
 
--   [« Проверка (валидация)](filter.examples.validation.html)
+-   [« Перевірка (валідація)](filter.examples.validation.html)
     
--   [Функции фильтрации данных »](ref.filter.html)
+-   [Функції фільтрації даних »](ref.filter.html)
     
 -   [PHP Manual](index.html)
     

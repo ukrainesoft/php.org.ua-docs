@@ -2,7 +2,7 @@
 
 -   [« SQLite3Stmt::clear](sqlite3stmt.clear.html)
     
--   [SQLite3Stmt::\_\_construct »](sqlite3stmt.construct.html)
+-   [SQLite3Stmt::construct »](sqlite3stmt.construct.html)
     
 -   [PHP Manual](index.html)
     

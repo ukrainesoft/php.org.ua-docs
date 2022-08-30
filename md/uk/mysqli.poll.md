@@ -33,7 +33,7 @@ public static mysqli::poll(    ?array &$read,    ?array &$error,    
 mysqli_poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
 ```
 
-Опитування підключень. Метод може використовуватись як [статический](language.oop5.static.html)
+Опитування підключень. Метод може використовуватись як [статичний](language.oop5.static.html)
 
 > **Зауваження**
 > 
@@ -106,5 +106,5 @@ Array
 
 ### Дивіться також
 
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_reap\_async\_query()](mysqli.reap-async-query.html) - Отримання результату асинхронного запиту
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlireapasyncquery()](mysqli.reap-async-query.html) - Отримання результату асинхронного запиту

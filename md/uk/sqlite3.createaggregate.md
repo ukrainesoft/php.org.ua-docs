@@ -1,6 +1,6 @@
 Зареєструвати функцію PHP як агрегуючу функцію SQL
 
--   [« SQLite3::\_\_construct](sqlite3.construct.html)
+-   [« SQLite3::construct](sqlite3.construct.html)
     
 -   [SQLite3::createCollation »](sqlite3.createcollation.html)
     

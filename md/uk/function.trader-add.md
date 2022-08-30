@@ -1,8 +1,8 @@
 Арифметична додавання вектора
 
--   [« trader\_ad](function.trader-ad.html)
+-   [« traderпекло](function.trader-ad.html)
     
--   [trader\_adosc »](function.trader-adosc.html)
+-   [traderadosc »](function.trader-adosc.html)
     
 -   [PHP Manual](index.html)
     

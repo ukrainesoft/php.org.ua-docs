@@ -1,12 +1,12 @@
 Перейменовує файл або директорію на FTP-сервері
 
--   [« ftp\_rawlist](function.ftp-rawlist.html)
+-   [« ftprawlist](function.ftp-rawlist.html)
     
--   [ftp\_rmdir »](function.ftp-rmdir.html)
+-   [ftprmdir »](function.ftp-rmdir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Перейменовує файл або директорію на FTP-сервері
     
@@ -29,7 +29,7 @@ ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `from`
 
@@ -45,9 +45,9 @@ ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

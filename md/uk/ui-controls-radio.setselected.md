@@ -1,12 +1,12 @@
 Встановити вибраний варіант
 
--   [« UI\\Controls\\Radio::onSelected](ui-controls-radio.onselected.html)
+-   [« UIControlsRadio::onSelected](ui-controls-radio.onselected.html)
     
--   [UI\\Controls\\Picker »](class.ui-controls-picker.html)
+-   [ОЙControlsPicker »](class.ui-controls-picker.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Radio](class.ui-controls-radio.html)
+-   [ОЙControlsRadio](class.ui-controls-radio.html)
     
 -   Встановити вибраний варіант
     

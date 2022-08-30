@@ -1,12 +1,12 @@
 Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
 
--   [« snmp2\_get](function.snmp2-get.html)
+-   [« snmp2get](function.snmp2-get.html)
     
--   [snmp2\_real\_walk »](function.snmp2-real-walk.html)
+-   [snmp2realwalk »](function.snmp2-real-walk.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
     
@@ -63,5 +63,5 @@ $nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifNa
 
 ### Дивіться також
 
--   [snmp2\_get()](function.snmp2-get.html) - Отримує об'єкт SNMP
--   [snmp2\_walk()](function.snmp2-walk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmp2get()](function.snmp2-get.html) - Отримує об'єкт SNMP
+-   [snmp2walk()](function.snmp2-walk.html) - Отримує всі об'єкти SNMP з агента

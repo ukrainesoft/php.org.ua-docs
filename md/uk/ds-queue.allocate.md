@@ -1,12 +1,12 @@
 Виділяє пам'ять під зазначену місткість
 
--   [« Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
--   [Ds\\Queue::capacity »](ds-queue.capacity.html)
+-   [ДсQueue::capacity »](ds-queue.capacity.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Виділяє пам'ять під зазначену місткість
     

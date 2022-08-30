@@ -2,7 +2,7 @@
 
 -   [« PhpToken::tokenize](phptoken.tokenize.html)
     
--   [token\_get\_all »](function.token-get-all.html)
+-   [tokengetall »](function.token-get-all.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [token\_get\_all](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
--   [token\_name](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми
+-   [tokengetall](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
+-   [tokenname](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми

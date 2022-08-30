@@ -1,8 +1,8 @@
 Знищення ресурсу джерела
 
--   [« openal\_source\_create](function.openal-source-create.html)
+-   [« openalsourcecreate](function.openal-source-create.html)
     
--   [openal\_source\_get »](function.openal-source-get.html)
+-   [openalsourceget »](function.openal-source-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_source_destroy(resource $source): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
 
 ### Значення, що повертаються
 
@@ -35,4 +35,4 @@ openal_source_destroy(resource $source): bool
 
 ### Дивіться також
 
--   [openal\_source\_create()](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу

@@ -1,8 +1,8 @@
 Клас com
 
--   [« Массивы и свойства COM в стиле массивов](com.examples.arrays.html)
+-   [« Масиви та властивості COM у стилі масивів](com.examples.arrays.html)
     
--   [com::\_\_construct »](com.construct.html)
+-   [com::construct »](com.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -118,4 +118,4 @@ $conn = null;
 
 ## Зміст
 
--   [com::\_\_construct](com.construct.html) - Конструктор класу com
+-   [com::construct](com.construct.html) - Конструктор класу com

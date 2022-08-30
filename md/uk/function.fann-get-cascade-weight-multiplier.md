@@ -1,8 +1,8 @@
 Повертає множник ваги
 
--   [« fann\_get\_cascade\_output\_stagnation\_epochs](function.fann-get-cascade-output-stagnation-epochs.html)
+-   [« fanngetcascadeoutputstagnationepochs](function.fann-get-cascade-output-stagnation-epochs.html)
     
--   [fann\_get\_connection\_array »](function.fann-get-connection-array.html)
+-   [fanngetconnectionarray »](function.fann-get-connection-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ fann_get_cascade_weight_multiplier(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_set\_cascade\_weight\_multiplier()](function.fann-set-cascade-weight-multiplier.html) - Встановлює множник ваги
+-   [fannsetcascadeweightmultiplier()](function.fann-set-cascade-weight-multiplier.html) - Встановлює множник ваги

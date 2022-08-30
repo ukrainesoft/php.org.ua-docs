@@ -24,7 +24,7 @@ int `$version`
 string `$hostname`  
 string `$community`  
 int `$timeout`  
-int `$retries`  
+int `$retries`
 
 Опис функції
 

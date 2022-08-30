@@ -1,12 +1,12 @@
 Переходить до батьківської директорії
 
--   [« ftp\_append](function.ftp-append.html)
+-   [« ftpappend](function.ftp-append.html)
     
--   [ftp\_chdir »](function.ftp-chdir.html)
+-   [ftpchdir »](function.ftp-chdir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Переходить до батьківської директорії
     
@@ -29,7 +29,7 @@ ftp_cdup(FTP\Connection $ftp): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ ftp_cdup(FTP\Connection $ftp): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -73,5 +73,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_chdir()](function.ftp-chdir.html) - Змінює поточну директорію на FTP-сервері
--   [ftp\_pwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії
+-   [ftpchdir()](function.ftp-chdir.html) - Змінює поточну директорію на FTP-сервері
+-   [ftppwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії

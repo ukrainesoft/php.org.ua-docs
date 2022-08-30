@@ -1,8 +1,8 @@
 Псевдонім imaplsub
 
--   [« imap\_listscan](function.imap-listscan.html)
+-   [« imaplistscan](function.imap-listscan.html)
     
--   [imap\_lsub »](function.imap-lsub.html)
+-   [imaplsub »](function.imap-lsub.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imaplistsubscribed - Псевдонім [imap\_lsub()](function.imap-lsub.html)
+imaplistsubscribed - Псевдонім [imaplsub()](function.imap-lsub.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [imap\_lsub()](function.imap-lsub.html)
+Ця функція є псевдонімом: [imaplsub()](function.imap-lsub.html)

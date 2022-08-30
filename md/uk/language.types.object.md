@@ -1,6 +1,6 @@
 Об'єкти
 
--   [« Итерируемые](language.types.iterable.html)
+-   [« Ітеровані](language.types.iterable.html)
     
 -   [Перечисления »](language.types.enumerations.html)
     

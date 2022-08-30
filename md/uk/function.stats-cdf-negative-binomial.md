@@ -1,12 +1,12 @@
 Обчислює один із параметрів Негативного Біномінального розподілу за рештою
 
--   [« stats\_cdf\_logistic](function.stats-cdf-logistic.html)
+-   [« statscdflogistic](function.stats-cdf-logistic.html)
     
--   [stats\_cdf\_noncentral\_chisquare »](function.stats-cdf-noncentral-chisquare.html)
+-   [statscdfnoncentralchisquare »](function.stats-cdf-noncentral-chisquare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів Негативного Біномінального розподілу за рештою
     

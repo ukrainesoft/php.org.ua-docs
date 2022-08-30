@@ -1,8 +1,8 @@
 Змінює дату та час останньої модифікації та доступу до файлу
 
--   [« eio\_ftruncate](function.eio-ftruncate.html)
+-   [« eioftruncate](function.eio-ftruncate.html)
     
--   [eio\_get\_event\_stream »](function.eio-get-event-stream.html)
+-   [eiogeteventstream »](function.eio-get-event-stream.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ eio_futime(    mixed $fd,    float $atime,    float $mtime,    i
 
 `fd`
 
-Потік, покажчик на сокет, чи числовий дескриптор файлу, повернутий, наприклад, [eio\_open()](function.eio-open.html)
+Потік, покажчик на сокет, чи числовий дескриптор файлу, повернутий, наприклад, [eioopen()](function.eio-open.html)
 
 `atime`
 
@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -73,4 +73,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_utime()](function.eio-utime.html) - Змінює дату та час останньої модифікації та доступу до файлу
+-   [eioutime()](function.eio-utime.html) - Змінює дату та час останньої модифікації та доступу до файлу

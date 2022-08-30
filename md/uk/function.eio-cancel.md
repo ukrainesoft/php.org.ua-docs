@@ -1,8 +1,8 @@
 Скасовує запит
 
--   [« eio\_busy](function.eio-busy.html)
+-   [« eiobusy](function.eio-busy.html)
     
--   [eio\_chmod »](function.eio-chmod.html)
+-   [eiochmod »](function.eio-chmod.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -96,4 +96,4 @@ my_nop 2
 
 ### Дивіться також
 
--   [eio\_grp\_cancel()](function.eio-grp-cancel.html) - Скасує групу запитів
+-   [eiogrpcancel()](function.eio-grp-cancel.html) - Скасує групу запитів

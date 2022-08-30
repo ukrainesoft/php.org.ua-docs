@@ -2,7 +2,7 @@
 
 -   [« Функции CUBRID](ref.cubrid.html)
     
--   [cubrid\_close\_prepare »](function.cubrid-close-prepare.html)
+-   [cubridcloseprepare »](function.cubrid-close-prepare.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ cubridbind — Зв'язує змінні із підготовленим зап
 cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
 ```
 
-Функція **cubridbind()** використовується для прив'язки значень до зазначених міток, або знаків питання, в SQL-запиті, заданому [cubrid\_prepare()](function.cubrid-prepare.html). Якщо не встановлено параметр `bind_value_type`, то буде використовуватися рядковий тип.
+Функція **cubridbind()** використовується для прив'язки значень до зазначених міток, або знаків питання, в SQL-запиті, заданому [cubridprepare()](function.cubrid-prepare.html). Якщо не встановлено параметр `bind_value_type`, то буде використовуватися рядковий тип.
 
 > **Зауваження**
 > 
@@ -61,7 +61,7 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mix
 
 `req_identifier`
 
-Ідентифікатор запиту, отриманий з [cubrid\_prepare()](function.cubrid-prepare.html)
+Ідентифікатор запиту, отриманий з [cubridprepare()](function.cubrid-prepare.html)
 
 `bind_index`
 
@@ -175,5 +175,5 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubrid\_prepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridprepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання

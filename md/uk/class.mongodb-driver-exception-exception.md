@@ -1,12 +1,12 @@
 Інтерфейс MongoDBDriverExceptionException
 
--   [« MongoDB\\Driver\\Exception\\EncryptionException](class.mongodb-driver-exception-encryptionexception.html)
+-   [« MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.html)
     
--   [MongoDB\\Driver\\Exception\\ExecutionTimeoutException »](class.mongodb-driver-exception-executiontimeoutexception.html)
+-   [MongoDBDriverExceptionExecutionTimeoutException »](class.mongodb-driver-exception-executiontimeoutexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Інтерфейс MongoDBDriverExceptionException
     

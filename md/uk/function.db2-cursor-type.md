@@ -1,12 +1,12 @@
 Повертає тип курсору, який використовується у ресурсі оператора
 
--   [« db2\_connect](function.db2-connect.html)
+-   [« db2connect](function.db2-connect.html)
     
--   [db2\_escape\_string »](function.db2-escape-string.html)
+-   [db2escapestring »](function.db2-escape-string.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає тип курсору, який використовується у ресурсі оператора
     
@@ -37,4 +37,4 @@ db2_cursor_type(resource $stmt): int
 
 ### Дивіться також
 
--   [db2\_prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання

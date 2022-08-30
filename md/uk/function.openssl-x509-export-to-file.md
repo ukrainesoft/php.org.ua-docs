@@ -1,8 +1,8 @@
 Експортує сертифікат у файл
 
--   [« openssl\_x509\_checkpurpose](function.openssl-x509-checkpurpose.html)
+-   [« opensslx509checkpurpose](function.openssl-x509-checkpurpose.html)
     
--   [openssl\_x509\_export »](function.openssl-x509-export.html)
+-   [opensslx509export »](function.openssl-x509-export.html)
     
 -   [PHP Manual](index.html)
     

@@ -13,7 +13,7 @@
 
 ## Нові глобальні константи
 
-### [GD](book.image.html)
+### [ДД](book.image.html)
 
 -   **`IMG_WEBP`** (з PHP 5.6.25)
 

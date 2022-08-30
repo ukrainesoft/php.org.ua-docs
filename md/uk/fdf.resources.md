@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-Більшість функцій fdf потребують ресурсу `fdf` як перший параметр. Ресурс `fdf` вказує на відкритий файл fdf . `fdf` можна отримати за допомогою функцій [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) і [fdf\_open\_string()](function.fdf-open-string.html)
+Більшість функцій fdf потребують ресурсу `fdf` як перший параметр. Ресурс `fdf` вказує на відкритий файл fdf . `fdf` можна отримати за допомогою функцій [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) і [fdfopenstring()](function.fdf-open-string.html)

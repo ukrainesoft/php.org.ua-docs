@@ -1,12 +1,12 @@
 Запитує інтерактивний термінал
 
--   [« ssh2\_sftp](function.ssh2-sftp.html)
+-   [« ssh2sftp](function.ssh2-sftp.html)
     
--   [ssh2\_tunnel »](function.ssh2-tunnel.html)
+-   [ssh2tunnel »](function.ssh2-tunnel.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Запитує інтерактивний термінал
     
@@ -29,7 +29,7 @@ ssh2_shell(    resource $session,    string $term_type = "vanilla",  �
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `term_type`
 
@@ -70,6 +70,6 @@ $stream = ssh2_shell($connection, 'vt102', null, 80, 24, SSH2_TERM_UNIT_C
 
 ### Дивіться також
 
--   [ssh2\_exec()](function.ssh2-exec.html) - Виконання команди на віддаленому сервері
--   [ssh2\_tunnel()](function.ssh2-tunnel.html) - Відкрити тунель через віддалений сервер
--   [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних
+-   [ssh2exec()](function.ssh2-exec.html) - Виконання команди на віддаленому сервері
+-   [ssh2tunnel()](function.ssh2-tunnel.html) - Відкрити тунель через віддалений сервер
+-   [ssh2fetchstream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних

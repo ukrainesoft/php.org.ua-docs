@@ -1,12 +1,12 @@
 Отримати розмір файлу після застосування бінарного патчу
 
--   [« Функции xdiff](ref.xdiff.html)
+-   [« Функції xdiff](ref.xdiff.html)
     
--   [xdiff\_file\_bdiff »](function.xdiff-file-bdiff.html)
+-   [xdifffilebdiff »](function.xdiff-file-bdiff.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Отримати розмір файлу після застосування бінарного патчу
     
@@ -29,7 +29,7 @@ xdiff_file_bdiff_size(string $file): int
 
 `file`
 
-Шлях до бінарного патчу, створеного функціями [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html) або [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html)
+Шлях до бінарного патчу, створеного функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.html) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html)
 
 ### Значення, що повертаються
 
@@ -50,6 +50,6 @@ echo "Размер результирующего файла будет $le
 
 ### Дивіться також
 
--   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html) - Створити бінарний патч порівнюючи два файли
--   [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
--   [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.html) - Застосувати бінарний патч до файлу
+-   [xdifffilebdiff()](function.xdiff-file-bdiff.html) - Створити бінарний патч порівнюючи два файли
+-   [xdifffilerabdiff()](function.xdiff-file-rabdiff.html) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
+-   [xdifffilebpatch()](function.xdiff-file-bpatch.html) - Застосувати бінарний патч до файлу

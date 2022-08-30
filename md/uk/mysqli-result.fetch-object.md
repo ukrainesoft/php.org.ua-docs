@@ -1,12 +1,12 @@
 Вибирає наступний рядок із набору результатів у вигляді об'єкта
 
--   [« mysqli\_result::fetch\_fields](mysqli-result.fetch-fields.html)
+-   [« mysqliresult::fetchfields](mysqli-result.fetch-fields.html)
     
--   [mysqli\_result::fetch\_row »](mysqli-result.fetch-row.html)
+-   [mysqliresult::fetchrow »](mysqli-result.fetch-row.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Вибирає наступний рядок із набору результатів у вигляді об'єкта
     
@@ -33,9 +33,9 @@ public mysqli_result::fetch_object(string $class = "stdClass", array $constructo
 mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $constructor_args = []): object|null|false
 ```
 
-Вибирає один рядок даних із набору результатів і повертає його як об'єкт, де кожна властивість представляє ім'я стовпця набору результатів. Кожен наступний виклик цієї функції повертатиме наступний рядок у наборі результатів або **`null`**якщо рядків більше немає.
+Вибирає один рядок даних із набору результатів і повертає його як об'єкт, де кожна властивість представляє ім'я стовпця набору результатів. Кожен наступний виклик цієї функції повертатиме наступний рядок у наборі результатів або \*\*`null`\*\*якщо рядків більше немає.
 
-Якщо у двох і більше стовпців у наборі результатів однакове ім'я, останній стовпець матиме пріоритет і перезапише будь-які попередні дані. Для доступу до кількох стовпців з однаковим ім'ям можна використовувати функцію [mysqli\_fetch\_row()](mysqli-result.fetch-row.html) Для вибору масиву з числовим індексом або у списку вибору SQL-запиту можна використовувати псевдоніми, щоб задати стовпцям різні імена.
+Якщо у двох і більше стовпців у наборі результатів однакове ім'я, останній стовпець матиме пріоритет і перезапише будь-які попередні дані. Для доступу до кількох стовпців з однаковим ім'ям можна використовувати функцію [mysqlifetchrow()](mysqli-result.fetch-row.html) Для вибору масиву з числовим індексом або у списку вибору SQL-запиту можна використовувати псевдоніми, щоб задати стовпцям різні імена.
 
 > **Зауваження**: Функція встановлює значення властивостей об'єкта до виклику конструктора.
 
@@ -47,7 +47,7 @@ mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $co
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `class`
 
@@ -59,7 +59,7 @@ mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $co
 
 ### Значення, що повертаються
 
-Повертає об'єкт, що представляє обраний рядок, де кожна властивість представляє ім'я стовпця набору результатів, **`null`**якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
+Повертає об'єкт, що представляє обраний рядок, де кожна властивість представляє ім'я стовпця набору результатів, \*\*`null`\*\*якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
 
 ### список змін
 
@@ -119,9 +119,9 @@ Santa Clara (USA)
 
 ### Дивіться також
 
--   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqli\_fetch\_column()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqli\_fetch\_row()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_data\_seek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок
+-   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqlifetchrow()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок

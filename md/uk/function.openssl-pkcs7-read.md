@@ -1,8 +1,8 @@
 Експортувати файл PKCS7 до масиву сертифікатів PEM
 
--   [« openssl\_pkcs7\_encrypt](function.openssl-pkcs7-encrypt.html)
+-   [« opensslpkcs7encrypt](function.openssl-pkcs7-encrypt.html)
     
--   [openssl\_pkcs7\_sign »](function.openssl-pkcs7-sign.html)
+-   [opensslpkcs7sign »](function.openssl-pkcs7-sign.html)
     
 -   [PHP Manual](index.html)
     
@@ -67,4 +67,4 @@ print_r($p7);
 
 ### Дивіться також
 
--   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocinewdescriptor - Псевдонім [oci\_new\_descriptor()](function.oci-new-descriptor.html)
+ocinewdescriptor - Псевдонім [ocinewdescriptor()](function.oci-new-descriptor.html)
 
 ### Опис
 
-Псевдонім [oci\_new\_descriptor()](function.oci-new-descriptor.html)
+Псевдонім [ocinewdescriptor()](function.oci-new-descriptor.html)
 
 **Увага**
 

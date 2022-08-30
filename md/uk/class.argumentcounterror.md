@@ -1,6 +1,6 @@
 ArgumentCountError
 
--   [« Error::\_\_clone](error.clone.html)
+-   [« Error::clone](error.clone.html)
     
 -   [ArithmeticError »](class.arithmeticerror.html)
     

@@ -1,12 +1,12 @@
 Оголошує токен з лівою асоціативністю
 
--   [« Parle\\RParser::errorInfo](parle-rparser.errorinfo.html)
+-   [« ParleRParser::errorInfo](parle-rparser.errorinfo.html)
     
--   [Parle\\RParser::nonassoc »](parle-rparser.nonassoc.html)
+-   [ParleRParser::nonassoc »](parle-rparser.nonassoc.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Оголошує токен з лівою асоціативністю
     

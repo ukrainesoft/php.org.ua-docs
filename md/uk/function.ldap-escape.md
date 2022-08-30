@@ -1,12 +1,12 @@
 Екранування рядка для використання у фільтрі LDAP або DN
 
--   [« ldap\_error](function.ldap-error.html)
+-   [« ldaperror](function.ldap-error.html)
     
--   [ldap\_exop\_passwd »](function.ldap-exop-passwd.html)
+-   [ldapexoppasswd »](function.ldap-exop-passwd.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Екранування рядка для використання у фільтрі LDAP або DN
     
@@ -37,7 +37,7 @@ ldap_escape(string $value, string $ignore = "", int $flags = 0): string
 
 `flags`
 
-Контекст, для якого екранується рядок: **`LDAP_ESCAPE_FILTER`** для фільтрів, що використовуються в [ldap\_search()](function.ldap-search.html) або **`LDAP_ESCAPE_DN`** для DN. Якщо не передані жодні прапори, всі символи будуть екрановані.
+Контекст, для якого екранується рядок: **`LDAP_ESCAPE_FILTER`** для фільтрів, що використовуються в [ldapsearch()](function.ldap-search.html) або **`LDAP_ESCAPE_DN`** для DN. Якщо не передані жодні прапори, всі символи будуть екрановані.
 
 ### Значення, що повертаються
 

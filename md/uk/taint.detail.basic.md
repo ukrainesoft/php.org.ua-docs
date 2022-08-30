@@ -2,7 +2,7 @@
 
 -   [« Дополнительные подробности](taint.detail.html)
     
--   [Функции и операторы, которые проверяют испорченные строки »](taint.detail.taint.html)
+-   [Функції та оператори, які перевіряють зіпсовані рядки »](taint.detail.taint.html)
     
 -   [PHP Manual](index.html)
     

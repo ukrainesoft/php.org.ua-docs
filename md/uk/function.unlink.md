@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Видаляє файл
     
@@ -35,7 +35,7 @@ unlink(string $filename, ?resource $context = null): bool
 
 `context`
 
-Ресурс (resource) з [контекстом потока](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.html)
 
 ### Значення, що повертаються
 

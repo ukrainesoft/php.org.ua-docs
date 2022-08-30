@@ -1,12 +1,12 @@
 Витягти корінь ступеня N і повернути його цілу частину і залишок
 
--   [« gmp\_root](function.gmp-root.html)
+-   [« gmproot](function.gmp-root.html)
     
--   [gmp\_scan0 »](function.gmp-scan0.html)
+-   [gmpscan0 »](function.gmp-scan0.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Витягти корінь ступеня N і повернути його цілу частину і залишок
     

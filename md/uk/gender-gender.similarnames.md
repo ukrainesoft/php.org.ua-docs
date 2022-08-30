@@ -1,12 +1,12 @@
 Отримати схожі імена
 
--   [« Gender\\Gender::isNick](gender-gender.isnick.html)
+-   [« GenderGender::isNick](gender-gender.isnick.html)
     
 -   [Gettext »](book.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [Gender\\Gender](class.gender.html)
+-   [GenderGender](class.gender.html)
     
 -   Отримати схожі імена
     

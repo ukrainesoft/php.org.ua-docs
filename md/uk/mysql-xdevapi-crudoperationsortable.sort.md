@@ -1,12 +1,12 @@
 Сортує результати
 
--   [« mysql\_xdevapi\\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
+-   [« mysqlxdevapiCrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
     
--   [mysql\_xdevapi\\DatabaseObject »](class.mysql-xdevapi-databaseobject.html)
+-   [mysqlxdevapiDatabaseObject »](class.mysql-xdevapi-databaseobject.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
+-   [mysqlxdevapiCrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
     
 -   Сортує результати
     

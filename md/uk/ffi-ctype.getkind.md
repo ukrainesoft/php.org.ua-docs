@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getFuncReturnType](ffi-ctype.getfuncreturntype.html)
+-   [« FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.html)
     
--   [FFI\\CType::getName »](ffi-ctype.getname.html)
+-   [FFICType::getName »](ffi-ctype.getname.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

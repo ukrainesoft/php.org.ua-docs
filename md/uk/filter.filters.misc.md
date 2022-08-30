@@ -1,12 +1,12 @@
 Інші фільтри
 
--   [« Очищающие фильтры](filter.filters.sanitize.html)
+-   [« Очищувальні фільтри](filter.filters.sanitize.html)
     
--   [Флаги, используемые в фильтрах »](filter.filters.flags.html)
+-   [Прапори, що використовуються у фільтрах »](filter.filters.flags.html)
     
 -   [PHP Manual](index.html)
     
--   [Типы фильтров](filter.filters.html)
+-   [Типи фільтрів](filter.filters.html)
     
 -   Інші фільтри
     

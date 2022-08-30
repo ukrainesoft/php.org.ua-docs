@@ -1,12 +1,12 @@
 Факторіал
 
--   [« gmp\_export](function.gmp-export.html)
+-   [« gmpexport](function.gmp-export.html)
     
--   [gmp\_gcd »](function.gmp-gcd.html)
+-   [gmpgcd »](function.gmp-gcd.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Факторіал
     

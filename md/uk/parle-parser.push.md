@@ -1,12 +1,12 @@
 Додає граматичне правило
 
--   [« Parle\\Parser::precedence](parle-parser.precedence.html)
+-   [« ParleParser::precedence](parle-parser.precedence.html)
     
--   [Parle\\Parser::reset »](parle-parser.reset.html)
+-   [ParleParser::reset »](parle-parser.reset.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Додає граматичне правило
     

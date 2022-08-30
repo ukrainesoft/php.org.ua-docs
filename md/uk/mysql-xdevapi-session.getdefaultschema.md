@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Отримує ім'я схеми за промовчанням
     
@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::getDefaultSchema(): string
 
 ### Значення, що повертаються
 
-Ім'я схеми за промовчанням, визначеною з'єднанням або **`null`**якщо схема не встановлена.
+Ім'я схеми за промовчанням, визначеною з'єднанням або \*\*`null`\*\*якщо схема не встановлена.
 
 ### Приклади
 

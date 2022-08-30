@@ -1,8 +1,8 @@
 Звільняє пам'ять від результату запиту
 
--   [« mysql\_field\_type](function.mysql-field-type.html)
+-   [« mysqlfieldtype](function.mysql-field-type.html)
     
--   [mysql\_get\_client\_info »](function.mysql-get-client-info.html)
+-   [mysqlgetclientinfo »](function.mysql-get-client-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlfreeresult — Звільняє пам'ять від результату �
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_free\_result()](mysqli-result.free.html)
+-   [mysqlifreeresult()](mysqli-result.free.html)
 -   Присвоєння значення **`null`** змінної PDO об'єкта, або [PDOStatement::closeCursor()](pdostatement.closecursor.html)
 
 ### Опис
@@ -38,13 +38,13 @@ mysql_free_result(resource $result): bool
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 ### Значення, що повертаються
 
 Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Якщо як параметр `result` передано не ресурс, то буде викликана помилка рівня EWARNING. Варто також зауважити, що [mysql\_query()](function.mysql-query.html) повертає resource лише для запитів SELECT, SHOW, EXPLAIN та DESCRIBE.
+Якщо як параметр `result` передано не ресурс, то буде викликана помилка рівня EWARNING. Варто також зауважити, що [mysqlquery()](function.mysql-query.html) повертає resource лише для запитів SELECT, SHOW, EXPLAIN та DESCRIBE.
 
 ### Приклади
 
@@ -76,5 +76,5 @@ echo $row['email'];
 
 ### Дивіться також
 
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
--   [is\_resource()](function.is-resource.html) - Перевіряє, чи є змінна ресурсом
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL
+-   [ісresource()](function.is-resource.html) - Перевіряє, чи є змінна ресурсом

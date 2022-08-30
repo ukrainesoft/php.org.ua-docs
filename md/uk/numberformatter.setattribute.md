@@ -92,6 +92,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_get\_attribute()](numberformatter.getattribute.html) - Отримує атрибут
--   [numfmt\_set\_text\_attribute()](numberformatter.settextattribute.html) - Встановлює текстовий атрибут
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtgetattribute()](numberformatter.getattribute.html) - Отримує атрибут
+-   [numfmtsettextattribute()](numberformatter.settextattribute.html) - Встановлює текстовий атрибут

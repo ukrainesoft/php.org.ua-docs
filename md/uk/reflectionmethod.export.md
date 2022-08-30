@@ -1,6 +1,6 @@
 Експорт відбитого методу
 
--   [« ReflectionMethod::\_\_construct](reflectionmethod.construct.html)
+-   [« ReflectionMethod::construct](reflectionmethod.construct.html)
     
 -   [ReflectionMethod::getClosure »](reflectionmethod.getclosure.html)
     
@@ -49,5 +49,5 @@ public static ReflectionMethod::export(string $class, string $name, bool $return
 
 ### Дивіться також
 
--   [ReflectionMethod::\_\_construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
--   [ReflectionMethod::\_\_toString()](reflectionmethod.tostring.html) - Повертає рядкову виставу об'єкта ReflectionMethod
+-   [ReflectionMethod::construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::toString()](reflectionmethod.tostring.html) - Повертає рядкову виставу об'єкта ReflectionMethod

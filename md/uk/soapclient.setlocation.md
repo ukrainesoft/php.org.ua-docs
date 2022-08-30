@@ -1,8 +1,8 @@
 Встановлює адресу веб-служби, що використовується
 
--   [« SoapClient::\_\_setCookie](soapclient.setcookie.html)
+-   [« SoapClient::setCookie](soapclient.setcookie.html)
     
--   [SoapClient::\_\_setSoapHeaders »](soapclient.setsoapheaders.html)
+-   [SoapClient::setSoapHeaders »](soapclient.setsoapheaders.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,4 +70,4 @@ http://www.somethirdparty.com
 
 ### Дивіться також
 
--   [SoapClient::\_\_construct()](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapClient::construct()](soapclient.construct.html) - Конструктор класу SoapClient

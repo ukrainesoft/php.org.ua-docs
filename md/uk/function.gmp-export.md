@@ -1,12 +1,12 @@
 Експортувати в бінарний рядок
 
--   [« gmp\_divexact](function.gmp-divexact.html)
+-   [« gmpdivexact](function.gmp-divexact.html)
     
--   [gmp\_fact »](function.gmp-fact.html)
+-   [gmpfact »](function.gmp-fact.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Експортувати в бінарний рядок
     
@@ -68,4 +68,4 @@ AA
 
 ### Дивіться також
 
--   [gmp\_import()](function.gmp-import.html) - Імпортувати з бінарного рядка
+-   [gmpimport()](function.gmp-import.html) - Імпортувати з бінарного рядка

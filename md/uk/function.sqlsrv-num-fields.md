@@ -1,12 +1,12 @@
 Витягує кількість полів (стовпців) оператора
 
--   [« sqlsrv\_next\_result](function.sqlsrv-next-result.html)
+-   [« sqlsrvnextresult](function.sqlsrv-next-result.html)
     
--   [sqlsrv\_num\_rows »](function.sqlsrv-num-rows.html)
+-   [sqlsrvnumrows »](function.sqlsrv-num-rows.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Витягує кількість полів (стовпців) оператора
     
@@ -68,6 +68,6 @@ while( sqlsrv_fetch( $stmt )) {
 
 ### Дивіться також
 
--   [sqlsrv\_field\_metadata()](function.sqlsrv-field-metadata.html) - Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
--   [sqlsrv\_fetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrv\_get\_field()](function.sqlsrv-get-field.html) - Отримує дані поля з поточного вибраного рядка
+-   [sqlsrvfieldmetadata()](function.sqlsrv-field-metadata.html) - Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
+-   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvgetfield()](function.sqlsrv-get-field.html) - Отримує дані поля з поточного вибраного рядка

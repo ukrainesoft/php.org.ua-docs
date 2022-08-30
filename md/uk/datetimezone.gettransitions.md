@@ -37,7 +37,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezone\_open()](function.timezone-open.html)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezoneopen()](function.timezone-open.html)
 
 `timestampBegin`
 
@@ -65,7 +65,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 ### Приклади
 
-**Приклад #1 Приклад використання [timezone\_transitions\_get()](function.timezone-transitions-get.html)**
+**Приклад #1 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.html)**
 
 ```php
 <?php
@@ -110,7 +110,7 @@ Array
 )
 ```
 
-**Приклад #2 Приклад використання [timezone\_transitions\_get()](function.timezone-transitions-get.html) із заданим параметром `timestampBegin`**
+**Приклад #2 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.html) із заданим параметром `timestampBegin`**
 
 ```php
 <?php

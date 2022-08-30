@@ -1,12 +1,12 @@
 Серіалізація ReadPreference
 
--   [« MongoDB\\Driver\\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.html)
+-   [« MongoDBDriverReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.html)
     
--   [MongoDB\\Driver\\ReadPreference::unserialize »](mongodb-driver-readpreference.unserialize.html)
+-   [MongoDBDriverReadPreference::unserialize »](mongodb-driver-readpreference.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
 -   Серіалізація ReadPreference
     
@@ -29,14 +29,14 @@ final public MongoDB\Driver\ReadPreference::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+Повертає серіалізовану виставу [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ReadPreference::unserialize()](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference
+-   [MongoDBDriverReadPreference::unserialize()](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

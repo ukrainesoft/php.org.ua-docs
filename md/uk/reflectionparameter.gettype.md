@@ -37,7 +37,7 @@ public ReflectionParameter::getType(): ?ReflectionType
 
 **Приклад #1 Приклад використання **ReflectionParameter::getType()** починаючи з PHP 7.1.0**
 
-Починаючи з PHP 7.1.0, метод [ReflectionType::\_\_toString()](reflectiontype.tostring.html) оголошено застарілим. Метод **ReflectionParameter::getType()** *може* повернути екземпляр [ReflectionNamedType](class.reflectionnamedtype.html). Для отримання імені типу параметра доступний метод **ReflectionNamedType()**
+Починаючи з PHP 7.1.0, метод [ReflectionType::toString()](reflectiontype.tostring.html) оголошено застарілим. Метод **ReflectionParameter::getType()** *може* повернути екземпляр [ReflectionNamedType](class.reflectionnamedtype.html). Для отримання імені типу параметра доступний метод **ReflectionNamedType()**
 
 ```php
 <?php
@@ -106,4 +106,4 @@ function getAllTypes(ReflectionParameter $reflectionParameter): array
 ### Дивіться також
 
 -   [ReflectionParameter::hasType()](reflectionparameter.hastype.html) - Перевірити, чи вказано тип параметра
--   [ReflectionType::\_\_toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок

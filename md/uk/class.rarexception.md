@@ -1,6 +1,6 @@
 Клас RarException
 
--   [« RarEntry::\_\_toString](rarentry.tostring.html)
+-   [« RarEntry::toString](rarentry.tostring.html)
     
 -   [RarException::isUsingExceptions »](rarexception.isusingexceptions.html)
     

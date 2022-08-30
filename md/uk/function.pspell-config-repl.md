@@ -1,8 +1,8 @@
 Встановлює файл, який містить заміщувальні пари
 
--   [« pspell\_config\_personal](function.pspell-config-personal.html)
+-   [« pspellconfigpersonal](function.pspell-config-personal.html)
     
--   [pspell\_config\_runtogether »](function.pspell-config-runtogether.html)
+-   [pspellconfigruntogether »](function.pspell-config-runtogether.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,15 +25,15 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 Встановлює файл, що містить пари, що заміщають.
 
-Заміщаючі пари підвищують якість перевірки орфографії. Коли слово написано з помилками, а правильний варіант не знайдено у списку, [pspell\_store\_replacement()](function.pspell-store-replacement.html) може бути використана для того, щоб зберегти заміщувальну пару, а [pspell\_save\_wordlist()](function.pspell-save-wordlist.html) - щоб зберегти список слів разом із заміщувальною парою.
+Заміщаючі пари підвищують якість перевірки орфографії. Коли слово написано з помилками, а правильний варіант не знайдено у списку, [pspellstorereplacement()](function.pspell-store-replacement.html) може бути використана для того, щоб зберегти заміщувальну пару, а [pspellsavewordlist()](function.pspell-save-wordlist.html) - щоб зберегти список слів разом із заміщувальною парою.
 
-**pspellconfigrepl()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html)
+**pspellconfigrepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpell\\Config](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.html)
 
 `filename`
 
@@ -45,9 +45,9 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

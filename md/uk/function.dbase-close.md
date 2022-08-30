@@ -1,8 +1,8 @@
 Закриває базу даних
 
--   [« dbase\_add\_record](function.dbase-add-record.html)
+-   [« dbaseaddrecord](function.dbase-add-record.html)
     
--   [dbase\_create »](function.dbase-create.html)
+-   [dbasecreate »](function.dbase-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ dbase_close(resource $database): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 ### Значення, що повертаються
 
@@ -62,5 +62,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbase\_open()](function.dbase-open.html) - Відкриває базу даних
--   [dbase\_create()](function.dbase-create.html) - Створює базу даних
+-   [dbaseopen()](function.dbase-open.html) - Відкриває базу даних
+-   [dbasecreate()](function.dbase-create.html) - Створює базу даних

@@ -1,8 +1,8 @@
 Отримує mppe-ключі зі спотворених даних
 
--   [« radius\_cvt\_string](function.radius-cvt-string.html)
+-   [« radiuscvtstring](function.radius-cvt-string.html)
     
--   [radius\_demangle »](function.radius-demangle.html)
+-   [radiusdemangle »](function.radius-demangle.html)
     
 -   [PHP Manual](index.html)
     

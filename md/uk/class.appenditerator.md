@@ -1,12 +1,12 @@
 Клас AppendIterator
 
--   [« Итераторы](spl.iterators.html)
+-   [« Ітератори](spl.iterators.html)
     
 -   [AppendIterator::append »](appenditerator.append.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас AppendIterator
     
@@ -66,7 +66,7 @@ public IteratorIterator::valid(): bool
 ## Зміст
 
 -   [AppendIterator::append](appenditerator.append.html) — додає ітератор
--   [AppendIterator::\_\_construct](appenditerator.construct.html) - Створює AppendIterator
+-   [AppendIterator::construct](appenditerator.construct.html) - Створює AppendIterator
 -   [AppendIterator::current](appenditerator.current.html) — Повертає поточне значення
 -   [AppendIterator::getArrayIterator](appenditerator.getarrayiterator.html) - Повертає клас ітератора масиву ArrayIterator
 -   [AppendIterator::getInnerIterator](appenditerator.getinneriterator.html) - Повертає внутрішній ітератор

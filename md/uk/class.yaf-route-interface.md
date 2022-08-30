@@ -1,8 +1,8 @@
 Клас YafRouteInterface
 
--   [« Yaf\_Response\_Abstract::\_\_toString](yaf-response-abstract.tostring.html)
+-   [« YafResponseAbstract::toString](yaf-response-abstract.tostring.html)
     
--   [Yaf\_Route\_Interface::assemble »](yaf-route-interface.assemble.html)
+-   [YafRouteInterface::assemble »](yaf-route-interface.assemble.html)
     
 -   [PHP Manual](index.html)
     
@@ -42,5 +42,5 @@ abstract public route(Yaf_Request_Abstract $request): bool
 
 ## Зміст
 
--   [Yaf\_Route\_Interface::assemble](yaf-route-interface.assemble.html) - Збирає запит
--   [Yaf\_Route\_Interface::route](yaf-route-interface.route.html) — Надсилання запиту
+-   [YafRouteInterface::assemble](yaf-route-interface.assemble.html) - Збирає запит
+-   [YafRouteInterface::route](yaf-route-interface.route.html) — Надсилання запиту

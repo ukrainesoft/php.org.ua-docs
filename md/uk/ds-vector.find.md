@@ -1,8 +1,8 @@
 Пошук індексу за значенням
 
--   [« Ds\\Vector::filter](ds-vector.filter.html)
+-   [« DsVector::filter](ds-vector.filter.html)
     
--   [Ds\\Vector::first »](ds-vector.first.html)
+-   [ДсVector::first »](ds-vector.first.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 public Ds\Vector::find(mixed $value): mixed
 ```
 
-Повертає індекс значення `value` або **`false`**якщо нічого не знайдено.
+Повертає індекс значення `value` або \*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public Ds\Vector::find(mixed $value): mixed
 
 ### Значення, що повертаються
 
-Індекс елемента або **`false`**якщо значення не знайдено.
+Індекс елемента або \*\*`false`\*\*якщо значення не знайдено.
 
 > **Зауваження**
 > 

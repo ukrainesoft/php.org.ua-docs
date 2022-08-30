@@ -1,8 +1,8 @@
 Задає синтаксис, що віддається перевагу, для видобутого запису
 
--   [« yaz\_sort](function.yaz-sort.html)
+-   [« yazsort](function.yaz-sort.html)
     
--   [yaz\_wait »](function.yaz-wait.html)
+-   [yazwait »](function.yaz-wait.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ yaz_syntax(resource $id, string $syntax): void
 
 **yazsyntax()** задає синтаксис, що віддається перевагу, для видобутого запису
 
-Функція повинна бути викликана до [yaz\_search()](function.yaz-search.html) або [yaz\_present()](function.yaz-present.html)
+Функція повинна бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
 
 `syntax`
 

@@ -1,8 +1,8 @@
 Витягує відкритий ключ із сертифікату та готує його до використання
 
--   [« openssl\_pkey\_get\_private](function.openssl-pkey-get-private.html)
+-   [« opensslpkeygetprivate](function.openssl-pkey-get-private.html)
     
--   [openssl\_pkey\_new »](function.openssl-pkey-new.html)
+-   [opensslpkeynew »](function.openssl-pkey-new.html)
     
 -   [PHP Manual](index.html)
     

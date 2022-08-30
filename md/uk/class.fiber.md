@@ -1,12 +1,12 @@
 Клас Fiber
 
--   [« Generator::\_\_wakeup](generator.wakeup.html)
+-   [« Generator::wakeup](generator.wakeup.html)
     
--   [Fiber::\_\_construct »](fiber.construct.html)
+-   [Fiber::construct »](fiber.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Клас Fiber
     
@@ -53,11 +53,11 @@ public static getCurrent(): ?Fiber
 
 ## Дивіться також
 
-[Обзор файберов](language.fibers.html)
+[Огляд файберів](language.fibers.html)
 
 ## Зміст
 
--   [Fiber::\_\_construct](fiber.construct.html) - Створює новий екземпляр Fiber
+-   [Fiber::construct](fiber.construct.html) - Створює новий екземпляр Fiber
 -   [Fiber::start](fiber.start.html) - Починає виконання волокна
 -   [Fiber::resume](fiber.resume.html) — Відновлює виконання файбера зі значенням
 -   [Fiber::throw](fiber.throw.html) — Відновлює виконання файбера за винятком

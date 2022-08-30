@@ -2,7 +2,7 @@
 
 -   [« CallbackFilterIterator](class.callbackfilteriterator.html)
     
--   [CallbackFilterIterator::\_\_construct »](callbackfilteriterator.construct.html)
+-   [CallbackFilterIterator::construct »](callbackfilteriterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -38,4 +38,4 @@ Callback-функція має повертати **`true`**, якщо пото�
 ### Дивіться також
 
 -   [Примеры использования CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
--   [CallbackFilterIterator::\_\_construct()](callbackfilteriterator.construct.html) - Створює фільтруючий ітератор на основі іншого ітератора
+-   [CallbackFilterIterator::construct()](callbackfilteriterator.construct.html) - Створює фільтруючий ітератор на основі іншого ітератора

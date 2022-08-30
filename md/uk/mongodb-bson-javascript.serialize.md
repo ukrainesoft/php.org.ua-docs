@@ -1,12 +1,12 @@
 Серіалізувати JavaScript
 
--   [« MongoDB\\BSON\\Javascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html)
+-   [« MongoDBBSONJavascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html)
     
--   [MongoDB\\BSON\\Javascript::\_\_toString »](mongodb-bson-javascript.tostring.html)
+-   [MongoDBBSONJavascript::toString »](mongodb-bson-javascript.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+-   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
 -   Серіалізувати JavaScript
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\Javascript::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+Повертає серіалізовану виставу [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Javascript::unserialize()](mongodb-bson-javascript.unserialize.html) - Десеріалізувати JavaScript
+-   [MongoDBBSONJavascript::unserialize()](mongodb-bson-javascript.unserialize.html) - Десеріалізувати JavaScript
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

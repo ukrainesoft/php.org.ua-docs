@@ -1,12 +1,12 @@
 Визначення доступності
 
--   [« Componere\\Value::isProtected](componere-value.isprotected.html)
+-   [« ComponereValue::isProtected](componere-value.isprotected.html)
     
--   [Componere\\Value::hasDefault »](componere-value.hasdefault.html)
+-   [ComponereValue::hasDefault »](componere-value.hasdefault.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Визначення доступності
     

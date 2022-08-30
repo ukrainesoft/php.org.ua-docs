@@ -1,8 +1,8 @@
 php-config
 
--   [« Компиляция разделяемых модулей с помощью phpize](install.pecl.phpize.html)
+-   [« Компіляція модулів, що розділяються, за допомогою phpize](install.pecl.phpize.html)
     
--   [Компиляция модулей PECL статически в PHP »](install.pecl.static.html)
+-   [Компіляція модулів PECL статично в PHP](install.pecl.static.html)
     
 -   [PHP Manual](index.html)
     

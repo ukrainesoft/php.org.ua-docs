@@ -131,4 +131,4 @@ array(2) {
 ### Дивіться також
 
 -   [ReflectionClass::getMethod()](reflectionclass.getmethod.html) - Повертає екземпляр ReflectionMethod для методу класу
--   [get\_class\_methods()](function.get-class-methods.html) - Повертає масив імен методів класу
+-   [getclassmethods()](function.get-class-methods.html) - Повертає масив імен методів класу

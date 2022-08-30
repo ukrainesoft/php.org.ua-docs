@@ -1,8 +1,8 @@
 Три чорні ворони
 
--   [« trader\_cdl2crows](function.trader-cdl2crows.html)
+-   [« tradercdl2crows](function.trader-cdl2crows.html)
     
--   [trader\_cdl3inside »](function.trader-cdl3inside.html)
+-   [tradercdl3inside »](function.trader-cdl3inside.html)
     
 -   [PHP Manual](index.html)
     

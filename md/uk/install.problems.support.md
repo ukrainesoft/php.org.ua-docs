@@ -2,7 +2,7 @@
 
 -   [« Читайте FAQ](install.problems.faq.html)
     
--   [Сообщения о багах »](install.problems.bugs.html)
+-   [Повідомлення про баги »](install.problems.bugs.html)
     
 -   [PHP Manual](index.html)
     

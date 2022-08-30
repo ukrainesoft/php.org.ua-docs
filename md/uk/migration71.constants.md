@@ -1,8 +1,8 @@
 Нові глобальні константи
 
--   [« Новые функции](migration71.new-functions.html)
+-   [« Нові функції](migration71.new-functions.html)
     
--   [Изменения, ломающие обратную совместимость »](migration71.incompatible.html)
+-   [Зміни, що ламають зворотну сумісність »](migration71.incompatible.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 -   **`CURL_PUSH_OK`**
 -   **`CURL_PUSH_DENY`**
 
-### [Фильтрация данных](book.filter.html)
+### [Фільтрування даних](book.filter.html)
 
 -   **`FILTER_FLAG_EMAIL_UNICODE`**
 

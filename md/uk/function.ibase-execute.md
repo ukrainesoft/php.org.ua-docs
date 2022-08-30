@@ -1,8 +1,8 @@
 Виконує попередньо підготовлений запит
 
--   [« ibase\_errmsg](function.ibase-errmsg.html)
+-   [« ibaseerrmsg](function.ibase-errmsg.html)
     
--   [ibase\_fetch\_assoc »](function.ibase-fetch-assoc.html)
+-   [ibasefetchassoc »](function.ibase-fetch-assoc.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,15 +23,15 @@ ibaseexecute — Виконує попередньо підготовлений 
 ibase_execute(resource $query, mixed ...$values): resource
 ```
 
-Виконує запит, підготовлений за допомогою [ibase\_prepare()](function.ibase-prepare.html)
+Виконує запит, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.html)
 
-Це набагато ефективніше, ніж використання [ibase\_query()](function.ibase-query.html), якщо ви повторюєте той самий тип запиту кілька разів, змінюючи лише деякі параметри.
+Це набагато ефективніше, ніж використання [ibasequery()](function.ibase-query.html), якщо ви повторюєте той самий тип запиту кілька разів, змінюючи лише деякі параметри.
 
 ### Список параметрів
 
 `query`
 
-Запит InterBase, підготовлений за допомогою [ibase\_prepare()](function.ibase-prepare.html)
+Запит InterBase, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.html)
 
 `values`
 
@@ -69,4 +69,4 @@ foreach ($updates as $baz => $bar) {
 
 ### Дивіться також
 
--   [ibase\_query()](function.ibase-query.html) - Виконує запит до бази даних InterBase
+-   [ibasequery()](function.ibase-query.html) - Виконує запит до бази даних InterBase

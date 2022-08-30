@@ -1,8 +1,8 @@
 Отримати список поштових скриньок, імена яких містять заданий рядок
 
--   [« imap\_listmailbox](function.imap-listmailbox.html)
+-   [« imaplistmailbox](function.imap-listmailbox.html)
     
--   [imap\_listsubscribed »](function.imap-listsubscribed.html)
+-   [imaplistsubscribed »](function.imap-listsubscribed.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,21 +25,21 @@ imap_listscan(    IMAP\Connection $imap,    string $reference,    st
 
 Повертає масив, що містить імена поштових скриньок, що містять `content` у тексті.
 
-Ця функція схожа на [imap\_listmailbox()](function.imap-listmailbox.html), але також виявляє присутність рядка `content` всередині даних поштової скриньки.
+Ця функція схожа на [imaplistmailbox()](function.imap-listmailbox.html), але також виявляє присутність рядка `content` всередині даних поштової скриньки.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `reference`
 
-У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imap\_open()](function.imap-open.html)
+У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
 
@@ -57,11 +57,11 @@ imap_listscan(    IMAP\Connection $imap,    string $reference,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_listmailbox()](function.imap-listmailbox.html) - Псевдонім imaplist
--   [imap\_search()](function.imap-search.html) - Отримати повідомлення, які відповідають заданим критеріям
+-   [imaplistmailbox()](function.imap-listmailbox.html) - Псевдонім imaplist
+-   [imapsearch()](function.imap-search.html) - Отримати повідомлення, які відповідають заданим критеріям

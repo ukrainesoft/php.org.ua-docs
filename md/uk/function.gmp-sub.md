@@ -1,12 +1,12 @@
 Віднімання чисел
 
--   [« gmp\_strval](function.gmp-strval.html)
+-   [« gmpstrval](function.gmp-strval.html)
     
--   [gmp\_testbit »](function.gmp-testbit.html)
+-   [gmptestbit »](function.gmp-testbit.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Віднімання чисел
     

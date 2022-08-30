@@ -1,8 +1,8 @@
 Видаляє всі значення з колекції
 
--   [« Ds\\Set::capacity](ds-set.capacity.html)
+-   [« DsSet::capacity](ds-set.capacity.html)
     
--   [Ds\\Set::\_\_construct »](ds-set.construct.html)
+-   [ДсSet::construct »](ds-set.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Змінює назву контролера за замовчуванням
 
--   [« Yaf\_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.html)
+-   [« YafDispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.html)
     
--   [Yaf\_Dispatcher::setDefaultModule »](yaf-dispatcher.setdefaultmodule.html)
+-   [YafDispatcher::setDefaultModule »](yaf-dispatcher.setdefaultmodule.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Змінює назву контролера за замовчуванням
     

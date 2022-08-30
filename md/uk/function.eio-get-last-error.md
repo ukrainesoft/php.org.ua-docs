@@ -1,8 +1,8 @@
 Повертає останню помилку, пов'язану із вказівником на ресурс
 
--   [« eio\_get\_event\_stream](function.eio-get-event-stream.html)
+-   [« eiogeteventstream](function.eio-get-event-stream.html)
     
--   [eio\_grp\_add »](function.eio-grp-add.html)
+-   [eiogrpadd »](function.eio-grp-add.html)
     
 -   [PHP Manual](index.html)
     

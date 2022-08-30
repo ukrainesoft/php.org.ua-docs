@@ -1,12 +1,12 @@
 Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 
--   [« is\_string](function.is-string.html)
+-   [« isstring](function.is-string.html)
     
--   [print\_r »](function.print-r.html)
+-   [printr »](function.print-r.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Визначає, чи була встановлена ​​змінна значенням, відмінним від null
     
@@ -137,15 +137,15 @@ bool(false)
 
 > **Зауваження**
 > 
-> При використанні **isset()** на недоступних властивостях об'єкта, буде викликатись перевантажений метод [\_\_isset()](language.oop5.overloading.html#object.isset)якщо він існує.
+> При використанні **isset()** на недоступних властивостях об'єкта, буде викликатись перевантажений метод [isset()](language.oop5.overloading.html#object.isset)якщо він існує.
 
 ### Дивіться також
 
 -   [empty()](function.empty.html) - Перевіряє, чи порожня змінна
--   [\_\_isset()](language.oop5.overloading.html#object.isset)
+-   [isset()](language.oop5.overloading.html#object.isset)
 -   [unset()](function.unset.html) - Видаляє змінну
 -   [defined()](function.defined.html) - Перевіряє існування вказаної іменованої константи
 -   [Таблица сравнения типов](types.comparisons.html)
--   [array\_key\_exists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [is\_null()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
--   Оператор керування помилками [@](language.operators.errorcontrol.html)
+-   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [ісnull()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
+-   Оператор керування помилками[](language.operators.errorcontrol.html)

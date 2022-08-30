@@ -1,12 +1,12 @@
 Створення нового репозиторію Subversion
 
--   [« svn\_mkdir](function.svn-mkdir.html)
+-   [« svnmkdir](function.svn-mkdir.html)
     
--   [svn\_repos\_fs\_begin\_txn\_for\_commit »](function.svn-repos-fs-begin-txn-for-commit.html)
+-   [svnreposфсbegintxnforcommit »](function.svn-repos-fs-begin-txn-for-commit.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створення нового репозиторію Subversion
     

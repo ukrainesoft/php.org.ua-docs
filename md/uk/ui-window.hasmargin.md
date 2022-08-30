@@ -1,12 +1,12 @@
 Визначення полів
 
--   [« UI\\Window::hasBorders](ui-window.hasborders.html)
+-   [« UIWindow::hasBorders](ui-window.hasborders.html)
     
--   [UI\\Window::isFullScreen »](ui-window.isfullscreen.html)
+-   [ОЙWindow::isFullScreen »](ui-window.isfullscreen.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Визначення полів
     

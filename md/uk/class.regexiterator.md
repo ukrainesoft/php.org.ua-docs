@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас RegexIterator
     
@@ -109,23 +109,23 @@ public IteratorIterator::valid(): bool
 
 **`RegexIterator::ALL_MATCHES`**
 
-Повертати всі збіги для поточного запису (дивіться [preg\_match\_all()](function.preg-match-all.html)
+Повертати всі збіги для поточного запису (дивіться [pregmatchall()](function.preg-match-all.html)
 
 **`RegexIterator::GET_MATCH`**
 
-Повертати перший збіг для поточного запису (дивіться [preg\_match()](function.preg-match.html)
+Повертати перший збіг для поточного запису (дивіться [pregmatch()](function.preg-match.html)
 
 **`RegexIterator::MATCH`**
 
-Тільки виконання порівняння (фільтра) для поточного запису (дивіться [preg\_match()](function.preg-match.html)
+Тільки виконання порівняння (фільтра) для поточного запису (дивіться [pregmatch()](function.preg-match.html)
 
 **`RegexIterator::REPLACE`**
 
-Замінити поточний запис (дивіться [preg\_replace()](function.preg-replace.html); Повністю поки що не реалізовано)
+Замінити поточний запис (дивіться [pregreplace()](function.preg-replace.html); Повністю поки що не реалізовано)
 
 **`RegexIterator::SPLIT`**
 
-Повертати розділені значення для поточного запису (див. [preg\_split()](function.preg-split.html)
+Повертати розділені значення для поточного запису (див. [pregsplit()](function.preg-split.html)
 
 ## Прапори RegexIterator
 
@@ -140,7 +140,7 @@ replacement
 ## Зміст
 
 -   [RegexIterator::accept](regexiterator.accept.html) - Перевірка відповідності регулярному виразу
--   [RegexIterator::\_\_construct](regexiterator.construct.html) - Конструктор класу RegexIterator
+-   [RegexIterator::construct](regexiterator.construct.html) - Конструктор класу RegexIterator
 -   [RegexIterator::getFlags](regexiterator.getflags.html) — Отримання прапорів налаштування
 -   [RegexIterator::getMode](regexiterator.getmode.html) — Повертає режим роботи
 -   [RegexIterator::getPregFlags](regexiterator.getpregflags.html) — Повертає прапори регулярного вираження

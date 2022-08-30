@@ -1,8 +1,8 @@
 Отримати розмір ключа заданого шифру
 
--   [« mcrypt\_get\_iv\_size](function.mcrypt-get-iv-size.html)
+-   [« mcryptgetвербsize](function.mcrypt-get-iv-size.html)
     
--   [mcrypt\_list\_algorithms »](function.mcrypt-list-algorithms.html)
+-   [mcryptlistalgorithms »](function.mcrypt-list-algorithms.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ mcrypt_get_key_size(string $cipher, string $mode): int|false
 
 **mcryptgetkeysize()** використовується для отримання розміру ключа для зазначеного шифру `cipher` (У комбінації з режимом шифрування).
 
-Правильніше використовуватиме [mcrypt\_enc\_get\_key\_size()](function.mcrypt-enc-get-key-size.html), тому що вона повертає результат по існуючому дескриптору шифрування, отриманого за допомогою [mcrypt\_module\_open()](function.mcrypt-module-open.html)
+Правильніше використовуватиме [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html), тому що вона повертає результат по існуючому дескриптору шифрування, отриманого за допомогою [mcryptmoduleopen()](function.mcrypt-module-open.html)
 
 ### Список параметрів
 
@@ -71,6 +71,6 @@ mcrypt_get_key_size(string $cipher, string $mode): int|false
 
 ### Дивіться також
 
--   [mcrypt\_get\_block\_size()](function.mcrypt-get-block-size.html) - Повертає розмір блоку для зазначеного шифру
--   [mcrypt\_enc\_get\_key\_size()](function.mcrypt-enc-get-key-size.html) - Повертає максимальну допустиму довжину ключа алгоритму
--   [mcrypt\_encrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами
+-   [mcryptgetblocksize()](function.mcrypt-get-block-size.html) - Повертає розмір блоку для зазначеного шифру
+-   [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html) - Повертає максимальну допустиму довжину ключа алгоритму
+-   [mcryptencrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами

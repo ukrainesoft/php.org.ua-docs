@@ -1,8 +1,8 @@
 Strong успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Text::\_\_construct](commonmark-node-text.construct.html)
+-   [« CommonMarkNodeText::construct](commonmark-node-text.construct.html)
     
--   [CommonMark\\Node\\Text\\Emphasis »](class.commonmark-node-text-emphasis.html)
+-   [CommonMarkNodeTextEmphasis »](class.commonmark-node-text-emphasis.html)
     
 -   [PHP Manual](index.html)
     

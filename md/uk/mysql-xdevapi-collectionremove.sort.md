@@ -2,11 +2,11 @@
 
 -   [« CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.html)
     
--   [mysql\_xdevapi\\ColumnResult »](class.mysql-xdevapi-columnresult.html)
+-   [mysqlxdevapiColumnResult »](class.mysql-xdevapi-columnresult.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html)
+-   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
     
 -   Встановлює критерії сортування
     

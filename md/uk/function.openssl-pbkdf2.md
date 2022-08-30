@@ -1,8 +1,8 @@
 Генерує рядки PKCS5 v2 PBKDF2
 
--   [« openssl\_open](function.openssl-open.html)
+-   [« opensslopen](function.openssl-open.html)
     
--   [openssl\_pkcs12\_export\_to\_file »](function.openssl-pkcs12-export-to-file.html)
+-   [opensslpkcs12exportтоfile »](function.openssl-pkcs12-export-to-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ PBKDF2 рекомендує використовувати криптограф�
 
 `digest_algo`
 
-Опціональний алгоритм хешування отриманий з [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html). Типово SHA-1.
+Опціональний алгоритм хешування отриманий з [opensslgetмдmethods()](function.openssl-get-md-methods.html). Типово SHA-1.
 
 ### Значення, що повертаються
 
@@ -69,5 +69,5 @@ echo base64_encode($generated_key)."\n";
 
 ### Дивіться також
 
--   [hash\_pbkdf2()](function.hash-pbkdf2.html) - Формування ключа PBKDF2 для заданих вхідних даних
--   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [hashpbkdf2()](function.hash-pbkdf2.html) - Формування ключа PBKDF2 для заданих вхідних даних
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування

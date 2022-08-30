@@ -2,7 +2,7 @@
 
 -   [« Настройка во время выполнения](mongodb.configuration.html)
     
--   [Обучающие материалы »](mongodb.tutorial.html)
+-   [Навчальні матеріали "](mongodb.tutorial.html)
     
 -   [PHP Manual](index.html)
     

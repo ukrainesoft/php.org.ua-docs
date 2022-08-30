@@ -52,6 +52,6 @@ int(1024)
 
 ### Дивіться також
 
--   [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
 -   [SyncSharedMemory::write()](syncsharedmemory.write.html) - Копіює дані в іменовану пам'ять, що розділяється.
 -   [SyncSharedMemory::read()](syncsharedmemory.read.html) - Копіює дані з іменованої пам'яті, що розділяється

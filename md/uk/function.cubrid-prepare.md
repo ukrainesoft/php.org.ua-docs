@@ -1,8 +1,8 @@
 Підготовляє SQL-вираз до виконання
 
--   [« cubrid\_pconnect](function.cubrid-pconnect.html)
+-   [« cubridpconnect](function.cubrid-pconnect.html)
     
--   [cubrid\_put »](function.cubrid-put.html)
+-   [cubridput »](function.cubrid-put.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ cubrid_prepare(resource $conn_identifier, string $prepare_stmt, int $option = 0)
 
 Функція **cubridprepare()** - це свого роду API, який представляє вирази SQL, раніше скомпільовані для даного дескриптора з'єднання. Цей попередньо скомпільований SQL-вираз буде включений у функцію **cubridprepare()**
 
-Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubrid\_bind()](function.cubrid-bind.html)
+Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubridbind()](function.cubrid-bind.html)
 
 ### Список параметрів
 
@@ -94,5 +94,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubrid\_bind()](function.cubrid-bind.html) - пов'язує змінні з підготовленим запитом
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridbind()](function.cubrid-bind.html) - пов'язує змінні з підготовленим запитом

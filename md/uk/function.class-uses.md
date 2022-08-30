@@ -1,12 +1,12 @@
 Повертає список трейтів, які використовуються заданим класом
 
--   [« class\_parents](function.class-parents.html)
+-   [« classparents](function.class-parents.html)
     
--   [iterator\_apply »](function.iterator-apply.html)
+-   [iteratorapply »](function.iterator-apply.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Повертає список трейтів, які використовуються заданим класом
     
@@ -33,7 +33,7 @@ class_uses(object|string $object_or_class, bool $autoload = true): array|false
 
 `autoload`
 
-Чи викликати за замовчуванням [\_\_autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
 
 ### Значення, що повертаються
 
@@ -82,5 +82,5 @@ Array
 
 ### Дивіться також
 
--   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
--   [get\_declared\_traits()](function.get-declared-traits.html) - Повертає масив з усіма оголошеними трейтами
+-   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
+-   [getdeclaredtraits()](function.get-declared-traits.html) - Повертає масив з усіма оголошеними трейтами

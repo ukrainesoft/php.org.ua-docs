@@ -1,12 +1,12 @@
 Призначення setDispatched
 
--   [« Yaf\_Request\_Abstract::setControllerName](yaf-request-abstract.setcontrollername.html)
+-   [« YafRequestAbstract::setControllerName](yaf-request-abstract.setcontrollername.html)
     
--   [Yaf\_Request\_Abstract::setModuleName »](yaf-request-abstract.setmodulename.html)
+-   [YafRequestAbstract::setModuleName »](yaf-request-abstract.setmodulename.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Призначення setDispatched
     

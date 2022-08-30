@@ -1,8 +1,8 @@
 Змінні HTTP-запиту
 
--   [« $\_FILES](reserved.variables.files.html)
+-   [FILES](reserved.variables.files.html)
     
--   [$\_SESSION »](reserved.variables.session.html)
+-   [SESSION »](reserved.variables.session.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,7 +19,7 @@ REQUEST — Змінні запити HTTP
 
 ### Опис
 
-Асоціативний масив (array), який за умовчанням містить дані змінних [$\_GET](reserved.variables.get.html) [$\_POST](reserved.variables.post.html) і [$\_COOKIE](reserved.variables.cookies.html)
+Асоціативний масив (array), який за умовчанням містить дані змінних [GET](reserved.variables.get.html) [POST](reserved.variables.post.html) і [COOKIE](reserved.variables.cookies.html)
 
 ### Примітки
 
@@ -29,13 +29,13 @@ REQUEST — Змінні запити HTTP
 
 > **Зауваження**
 > 
-> При роботі в [командной строке](features.commandline.html) змінні [argv](reserved.variables.argv.html) і [argc](reserved.variables.argc.html) *не* включаються до цього масиву - вони присутні в масиві [$\_SERVER](reserved.variables.server.html)
+> При роботі в [командному рядку](features.commandline.html) змінні [argv](reserved.variables.argv.html) і [argc](reserved.variables.argc.html) *не* включаються до цього масиву - вони присутні в масиві [SERVER](reserved.variables.server.html)
 
 > **Зауваження**
 > 
-> Змінні в масиві $REQUEST передаються в скрипт у вигляді методів GET, POST чи COOKIE, тому не можна довіряти, т.к. вони могли бути змінені віддаленим користувачем. Їх наявність та порядок додавання даних у відповідні масиви визначається директивою конфігурації PHP [request\_order](ini.core.html#ini.request-order) і [variables\_order](ini.core.html#ini.variables-order)
+> Змінні в масиві $REQUEST передаються в скрипт у вигляді методів GET, POST чи COOKIE, тому не можна довіряти, т.к. вони могли бути змінені віддаленим користувачем. Їх наявність та порядок додавання даних у відповідні масиви визначається директивою конфігурації PHP [requestorder](ini.core.html#ini.request-order) і [variablesorder](ini.core.html#ini.variables-order)
 
 ### Дивіться також
 
 -   "[Работа с внешними данными](language.variables.external.html)"
--   "[Фильтрация данных](book.filter.html)"
+-   "[Фільтрування даних](book.filter.html)"

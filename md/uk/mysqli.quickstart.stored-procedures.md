@@ -1,8 +1,8 @@
 Збережені процедури
 
--   [« Подготавливаемые запросы](mysqli.quickstart.prepared-statements.html)
+-   [« Підготовка запитів](mysqli.quickstart.prepared-statements.html)
     
--   [Множественные запросы »](mysqli.quickstart.multiple-statement.html)
+-   [Множинні запити »](mysqli.quickstart.multiple-statement.html)
     
 -   [PHP Manual](index.html)
     
@@ -89,7 +89,7 @@ Hi!
 
 Збережені процедури можуть повертати результуючі набори рядків. Таблиці результатів роботи процедури, що зберігається, не можна коректно витягти засобами [mysqli::query()](mysqli.query.html). Функція [mysqli::query()](mysqli.query.html) виконує дві операції: запускає запит і отримує перший результуючий набір, поміщаючи його в буфер. Процедури, що зберігаються, можуть повертати більше одного результуючого набору, але при використанні [mysqli::query()](mysqli.query.html) всі вони, крім першого, стануть недоступними для користувача.
 
-Результуючі таблиці процедур, що зберігаються, витягуються функціями [mysqli::real\_query()](mysqli.real-query.html) або [mysqli::multi\_query()](mysqli.multi-query.html). Обидві функції дозволяють отримати будь-яку кількість результуючих наборів, повернутих SQL-запитами, таких як `CALL`. Якщо в процесі роботи не вдається отримати всі доступні результати виклику процедури, що зберігається, буде викликатися помилка.
+Результуючі таблиці процедур, що зберігаються, витягуються функціями [mysqli::realquery()](mysqli.real-query.html) або [mysqli::multiquery()](mysqli.multi-query.html). Обидві функції дозволяють отримати будь-яку кількість результуючих наборів, повернутих SQL-запитами, таких як `CALL`. Якщо в процесі роботи не вдається отримати всі доступні результати виклику процедури, що зберігається, буде викликатися помилка.
 
 **Приклад #3 Вилучення результатів роботи процедури, що зберігається.**
 
@@ -276,6 +276,6 @@ id = 4
 *Дивіться також*
 
 -   [mysqli::query()](mysqli.query.html)
--   [mysqli::multi\_query()](mysqli.multi-query.html)
--   [mysqli::next\_result()](mysqli.next-result.html)
--   [mysqli::more\_results()](mysqli.more-results.html)
+-   [mysqli::multiquery()](mysqli.multi-query.html)
+-   [mysqli::nextresult()](mysqli.next-result.html)
+-   [mysqli::moreresults()](mysqli.more-results.html)

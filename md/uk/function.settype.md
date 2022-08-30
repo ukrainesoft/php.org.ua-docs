@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Задає тип змінної
     
@@ -71,4 +71,4 @@ settype($bar, "string");  // $bar теперь "1" (строка)
 
 -   [gettype()](function.gettype.html) - Повертає тип змінної
 -   [Приведение типов](language.types.type-juggling.html#language.types.typecasting)
--   [Манипуляции с типами](language.types.type-juggling.html)
+-   [Маніпуляції з типами](language.types.type-juggling.html)

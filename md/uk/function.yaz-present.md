@@ -1,8 +1,8 @@
 Готується до пошуку (Z39.50 є)
 
--   [« yaz\_itemorder](function.yaz-itemorder.html)
+-   [« yazitemorder](function.yaz-itemorder.html)
     
--   [yaz\_range »](function.yaz-range.html)
+-   [yazrange »](function.yaz-range.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ yaz_present(resource $id): bool
 
 Функція готує повернення запису після успішного пошуку.
 
-Функція [yaz\_range()](function.yaz-range.html) має бути викликана до цієї функції, щоб вказати діапазон записів, які потрібно витягти.
+Функція [yazrange()](function.yaz-range.html) має бути викликана до цієї функції, щоб вказати діапазон записів, які потрібно витягти.
 
 ### Список параметрів
 
 `id`
 
-Ресурс з'єднання, повернутий [yaz\_connect()](function.yaz-connect.html)
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
 
 ### Значення, що повертаються
 

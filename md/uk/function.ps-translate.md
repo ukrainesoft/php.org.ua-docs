@@ -1,12 +1,12 @@
 Змінює систему координат
 
--   [« ps\_symbol](function.ps-symbol.html)
+-   [«pssymbol](function.ps-symbol.html)
     
 -   [RpmInfo »](book.rpminfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Змінює систему координат
     
@@ -29,7 +29,7 @@ ps_translate(resource $psdoc, float $x, float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `x`
 
@@ -100,5 +100,5 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [ps\_scale()](function.ps-scale.html) - Встановлює коефіцієнт масштабування
--   [ps\_rotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання
+-   [псscale()](function.ps-scale.html) - Встановлює коефіцієнт масштабування
+-   [псrotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання

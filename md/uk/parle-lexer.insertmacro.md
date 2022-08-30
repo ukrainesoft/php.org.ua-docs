@@ -1,12 +1,12 @@
 Вставляє макрос регулярного виразу
 
--   [« Parle\\Lexer::getToken](parle-lexer.gettoken.html)
+-   [« ParleLexer::getToken](parle-lexer.gettoken.html)
     
--   [Parle\\Lexer::push »](parle-lexer.push.html)
+-   [ParleLexer::push »](parle-lexer.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Lexer](class.parle-lexer.html)
+-   [ParleLexer](class.parle-lexer.html)
     
 -   Вставляє макрос регулярного виразу
     

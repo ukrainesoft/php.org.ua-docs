@@ -33,7 +33,7 @@ public IntlCalendar::getErrorMessage(): string|false
 intlcal_get_error_message(IntlCalendar $calendar): string|false
 ```
 
-Повертає повідомлення про помилку (якщо є), пов'язане з помилкою, про яку повідомляє [IntlCalendar::getErrorCode()](intlcalendar.geterrorcode.html) ор [intlcal\_get\_error\_code()](intlcalendar.geterrorcode.html). Якщо пов'язаного повідомлення про помилку немає, буде повернено лише строкове подання імені константи помилки. В іншому випадку, повідомлення про помилку також включає повідомлення, встановлене на стороні прив'язки PHP.
+Повертає повідомлення про помилку (якщо є), пов'язане з помилкою, про яку повідомляє [IntlCalendar::getErrorCode()](intlcalendar.geterrorcode.html) ор [intlcalgeterrorcode()](intlcalendar.geterrorcode.html). Якщо пов'язаного повідомлення про помилку немає, буде повернено лише строкове подання імені константи помилки. В іншому випадку, повідомлення про помилку також включає повідомлення, встановлене на стороні прив'язки PHP.
 
 ### Список параметрів
 

@@ -1,8 +1,8 @@
 Оновлює значення елемента стовпця типу послідовності за допомогою OID
 
--   [« cubrid\_seq\_insert](function.cubrid-seq-insert.html)
+-   [« cubridseqinsert](function.cubrid-seq-insert.html)
     
--   [cubrid\_set\_add »](function.cubrid-set-add.html)
+-   [cubridsetadd »](function.cubrid-set-add.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,5 +108,5 @@ array(4) {
 
 ### Дивіться також
 
--   [cubrid\_seq\_drop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubrid\_seq\_insert()](function.cubrid-seq-insert.html) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
+-   [cubridseqdrop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqinsert()](function.cubrid-seq-insert.html) - Вставляє елемент у стовпець типу послідовності, використовуючи OID

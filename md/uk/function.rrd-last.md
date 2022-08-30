@@ -1,12 +1,12 @@
 Повертає позначку часу unix останнього зразка
 
--   [« rrd\_info](function.rrd-info.html)
+-   [« rrdinfo](function.rrd-info.html)
     
--   [rrd\_lastupdate »](function.rrd-lastupdate.html)
+-   [rrdlastupdate »](function.rrd-lastupdate.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Повертає позначку часу unix останнього зразка
     

@@ -1,12 +1,12 @@
 Отримати кінець лінії
 
--   [« UI\\Draw\\Stroke::\_\_construct](ui-draw-stroke.construct.html)
+-   [« UIDrawStroke::construct](ui-draw-stroke.construct.html)
     
--   [UI\\Draw\\Stroke::getJoin »](ui-draw-stroke.getjoin.html)
+-   [ОЙDrawStroke::getJoin »](ui-draw-stroke.getjoin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Отримати кінець лінії
     

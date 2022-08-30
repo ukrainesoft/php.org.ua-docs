@@ -1,8 +1,8 @@
 Клас DateTimeZone
 
--   [« DateTime::\_\_wakeup](datetime.wakeup.html)
+-   [« DateTime::wakeup](datetime.wakeup.html)
     
--   [DateTimeZone::\_\_construct »](datetimezone.construct.html)
+-   [DateTimeZone::construct »](datetimezone.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -165,7 +165,7 @@ public static listIdentifiers(int $timezoneGroup = DateTimeZone::ALL, ?string $c
 
 ## Зміст
 
--   [DateTimeZone::\_\_construct](datetimezone.construct.html) — Створює новий об'єкт DateTimeZone
+-   [DateTimeZone::construct](datetimezone.construct.html) — Створює новий об'єкт DateTimeZone
 -   [DateTimeZone::getLocation](datetimezone.getlocation.html) — Повертає інформацію про місцезнаходження для часового поясу
 -   [DateTimeZone::getName](datetimezone.getname.html) — Повертає ім'я часового поясу
 -   [DateTimeZone::getOffset](datetimezone.getoffset.html) — Повертає усунення часового поясу від UTC (GMT)

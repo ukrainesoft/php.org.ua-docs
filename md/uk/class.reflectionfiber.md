@@ -2,7 +2,7 @@
 
 -   [« ReflectionGenerator::getTrace](reflectiongenerator.gettrace.html)
     
--   [ReflectionFiber::\_\_construct »](reflectionfiber.construct.html)
+-   [ReflectionFiber::construct »](reflectionfiber.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -46,7 +46,7 @@ public getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT): array
 
 ## Зміст
 
--   [ReflectionFiber::\_\_construct](reflectionfiber.construct.html) — Створює об'єкт ReflectionFiber
+-   [ReflectionFiber::construct](reflectionfiber.construct.html) — Створює об'єкт ReflectionFiber
 -   [ReflectionFiber::getCallable](reflectionfiber.getcallable.html) — Отримує об'єкт, що використовується для створення файбера.
 -   [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.html) — Отримує ім'я файлу поточної точки виконання
 -   [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.html) — Отримує номер рядка поточної точки виконання

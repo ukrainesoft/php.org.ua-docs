@@ -1,8 +1,8 @@
 Визволяє ресурси, пов'язані з результатом
 
--   [« odbc\_foreignkeys](function.odbc-foreignkeys.html)
+-   [« odbcforeignkeys](function.odbc-foreignkeys.html)
     
--   [odbc\_gettypeinfo »](function.odbc-gettypeinfo.html)
+-   [odbcgettypeinfo »](function.odbc-gettypeinfo.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ odbc_free_result(resource $statement): bool
 
 > **Зауваження**
 > 
-> Якщо автоматична фіксація вимкнена (див. . [odbc\_autocommit()](function.odbc-autocommit.html)), і **odbcfreeresult()** викликається перед фіксацією, всі транзакції, що очікують, відкочуються.
+> Якщо автоматична фіксація вимкнена (див. . [odbcautocommit()](function.odbc-autocommit.html)), і **odbcfreeresult()** викликається перед фіксацією, всі транзакції, що очікують, відкочуються.

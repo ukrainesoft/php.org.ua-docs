@@ -1,12 +1,12 @@
 Повертає вміст файлу у репозиторії
 
--   [« svn\_blame](function.svn-blame.html)
+-   [« svnblame](function.svn-blame.html)
     
--   [svn\_checkout »](function.svn-checkout.html)
+-   [svncheckout »](function.svn-checkout.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає вміст файлу у репозиторії
     

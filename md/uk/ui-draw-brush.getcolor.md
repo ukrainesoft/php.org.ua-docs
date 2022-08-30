@@ -1,12 +1,12 @@
 Отримати колір
 
--   [« UI\\Draw\\Brush::\_\_construct](ui-draw-brush.construct.html)
+-   [« UIDrawBrush::construct](ui-draw-brush.construct.html)
     
--   [UI\\Draw\\Brush::setColor »](ui-draw-brush.setcolor.html)
+-   [ОЙDrawBrush::setColor »](ui-draw-brush.setcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush](class.ui-draw-brush.html)
+-   [ОЙDrawBrush](class.ui-draw-brush.html)
     
 -   Отримати колір
     

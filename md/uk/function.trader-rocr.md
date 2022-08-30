@@ -1,8 +1,8 @@
 Коефіцієнт зміни курсу: (ціна/попередня ціна)
 
--   [« trader\_rocr100](function.trader-rocr100.html)
+-   [« traderrocr100](function.trader-rocr100.html)
     
--   [trader\_rsi »](function.trader-rsi.html)
+-   [traderrsi »](function.trader-rsi.html)
     
 -   [PHP Manual](index.html)
     

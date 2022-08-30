@@ -1,8 +1,8 @@
 Формування ключа HKDF для заданих вхідних даних
 
--   [« hash\_final](function.hash-final.html)
+-   [« hashfinal](function.hash-final.html)
     
--   [hash\_hmac\_algos »](function.hash-hmac-algos.html)
+-   [hashhmacalgos »](function.hash-hmac-algos.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ hash_hkdf(    string $algo,    string $key,    int $length = 0,  �
 
 `algo`
 
-Ім'я вибраного хешируючого алгоритму (наприклад, "sha256", "sha512", "haval160,4" і т.д.) Список підтримуваних алгоритмів можна переглянути в описі функції [hash\_algos()](function.hash-algos.html)
+Ім'я вибраного хешируючого алгоритму (наприклад, "sha256", "sha512", "haval160,4" і т.д.) Список підтримуваних алгоритмів можна переглянути в описі функції [hashalgos()](function.hash-algos.html)
 
 > **Зауваження**
 > 
@@ -83,6 +83,6 @@ var_dump($encryptionKey !== $authenticationKey); // bool(true)
 
 ### Дивіться також
 
--   [hash\_pbkdf2()](function.hash-pbkdf2.html) - Формування ключа PBKDF2 для заданих вхідних даних
+-   [hashpbkdf2()](function.hash-pbkdf2.html) - Формування ключа PBKDF2 для заданих вхідних даних
 -   [» RFC 5869](http://www.faqs.org/rfcs/rfc5869)
--   [» пользовательская реализация](https://github.com/narfbg/hash_hkdf_compat)
+-   [» користувацька реалізація](https://github.com/narfbg/hash_hkdf_compat)

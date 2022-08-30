@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](posix.resources.html)
     
--   [Константы posix\_access »](posix.constants.access.html)
+-   [Константы posixaccess »](posix.constants.access.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [Константы posix\_access](posix.constants.access.html)
--   [Константы posix\_mknod](posix.constants.mknod.html)
--   [Константы posix\_setrlimit](posix.constants.setrlimit.html)
+-   [Константы posixaccess](posix.constants.access.html)
+-   [Константы posixmknod](posix.constants.mknod.html)
+-   [Константы posixsetrlimit](posix.constants.setrlimit.html)
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

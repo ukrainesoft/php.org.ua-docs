@@ -1,12 +1,12 @@
 Зупиняє роботу компілятора
 
--   [« get\_browser](function.get-browser.html)
+-   [« getbrowser](function.get-browser.html)
     
--   [highlight\_file »](function.highlight-file.html)
+-   [highlightfile »](function.highlight-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Зупиняє роботу компілятора
     

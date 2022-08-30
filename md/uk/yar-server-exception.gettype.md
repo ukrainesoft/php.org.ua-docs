@@ -1,12 +1,12 @@
 Отримати тип виключення
 
--   [« Yar\_Server\_Exception](class.yar-server-exception.html)
+-   [« YarServerException](class.yar-server-exception.html)
     
--   [Yar\_Client\_Exception »](class.yar-client-exception.html)
+-   [YarClientException »](class.yar-client-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Server\_Exception](class.yar-server-exception.html)
+-   [YarServerException](class.yar-server-exception.html)
     
 -   Отримати тип виключення
     

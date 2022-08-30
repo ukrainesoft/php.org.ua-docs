@@ -2,7 +2,7 @@
 
 -   [« RRDCreator::save](rrdcreator.save.html)
     
--   [RRDGraph::\_\_construct »](rrdgraph.construct.html)
+-   [RRDGraph::construct »](rrdgraph.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ public setOptions(array $options): void
 
 ## Зміст
 
--   [RRDGraph::\_\_construct](rrdgraph.construct.html) — Створює новий екземпляр RRDGraph
+-   [RRDGraph::construct](rrdgraph.construct.html) — Створює новий екземпляр RRDGraph
 -   [RRDGraph::save](rrdgraph.save.html) — Зберігає результат запиту на зображення
 -   [RRDGraph::saveVerbose](rrdgraph.saveverbose.html) — Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
 -   [RRDGraph::setOptions](rrdgraph.setoptions.html) — Встановлює параметри експорту графіка rrd

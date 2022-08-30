@@ -1,6 +1,6 @@
 Memcached
 
--   [« memcache\_debug](function.memcache-debug.html)
+-   [« memcachedebug](function.memcache-debug.html)
     
 -   [Введение »](intro.memcached.html)
     
@@ -21,9 +21,9 @@ Memcached
     -   [Типы ресурсов](memcached.resources.html)
 -   [Предопределённые константы](memcached.constants.html)
 -   [Время хранения объекта](memcached.expiration.html)
--   [Функции обратного вызова](memcached.callbacks.html)
+-   [Опції зворотного дзвінка](memcached.callbacks.html)
     -   [Функции обратного вызова для результирующего набора](memcached.callbacks.result.html)
-    -   [Функции обратного вызова сквозного чтения кеша](memcached.callbacks.read-through.html)
+    -   [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.html)
 -   [Поддержка сессий](memcached.sessions.html)
 -   [Memcached](class.memcached.html) - Клас Memcached
     -   [Memcached::add](memcached.add.html) — Додає елемент із новим ключем
@@ -34,7 +34,7 @@ Memcached
     -   [Memcached::appendByKey](memcached.appendbykey.html) — Додає дані до наявного запису на заданому сервері
     -   [Memcached::cas](memcached.cas.html) — Порівнює та встановлює значення для запису
     -   [Memcached::casByKey](memcached.casbykey.html) — Порівнює та встановлює значення для запису на конкретному сервері
-    -   [Memcached::\_\_construct](memcached.construct.html) - Створює екземпляр класу Memcached
+    -   [Memcached::construct](memcached.construct.html) - Створює екземпляр класу Memcached
     -   [Memcached::decrement](memcached.decrement.html) — Зменшує числове значення запису
     -   [Memcached::decrementByKey](memcached.decrementbykey.html) — Зменшує числове значення запису, що зберігається на певному сервері
     -   [Memcached::delete](memcached.delete.html) - Видаляє запис

@@ -1,12 +1,12 @@
 Збільшує час операції для сеансу
 
--   [« MongoDB\\Driver\\Session::advanceClusterTime](mongodb-driver-session.advanceclustertime.html)
+-   [« MongoDBDriverSession::advanceClusterTime](mongodb-driver-session.advanceclustertime.html)
     
--   [MongoDB\\Driver\\Session::commitTransaction »](mongodb-driver-session.committransaction.html)
+-   [MongoDBDriverSession::commitTransaction »](mongodb-driver-session.committransaction.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Збільшує час операції для сеансу
     
@@ -25,13 +25,13 @@ final public MongoDB\Driver\Session::advanceOperationTime(MongoDB\BSON\Timestamp
 
 Збільшує час операції для сеансу. Якщо час операції менше або дорівнює поточному часу сеансу, функція не працюватиме.
 
-Використовуючи цей метод у поєднанні з [MongoDB\\Driver\\Session::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) Для копіювання операції та часу кластеризації з іншого сеансу, ви можете гарантувати, що операції у цьому сеансі причинно узгоджуються з останньою операцією на іншому сеансі.
+Використовуючи цей метод у поєднанні з [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) Для копіювання операції та часу кластеризації з іншого сеансу, ви можете гарантувати, що операції у цьому сеансі причинно узгоджуються з останньою операцією на іншому сеансі.
 
 ### Список параметрів
 
 `operationTime`
 
-Час операції є логічною відміткою часу. Як правило, це значення буде отримано шляхом виклику [MongoDB\\Driver\\Session::getOperationTime()](mongodb-driver-session.getoperationtime.html) для іншого об'єкта сеансу.
+Час операції є логічною відміткою часу. Як правило, це значення буде отримано шляхом виклику [MongoDBDriverSession::getOperationTime()](mongodb-driver-session.getoperationtime.html) для іншого об'єкта сеансу.
 
 ### Значення, що повертаються
 
@@ -39,9 +39,9 @@ final public MongoDB\Driver\Session::advanceOperationTime(MongoDB\BSON\Timestamp
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Session::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
--   [MongoDB\\Driver\\Session::getClusterTime()](mongodb-driver-session.getclustertime.html) - Повертає час кластера для цього сеансу
+-   [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
+-   [MongoDBDriverSession::getClusterTime()](mongodb-driver-session.getclustertime.html) - Повертає час кластера для цього сеансу

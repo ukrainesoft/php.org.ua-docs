@@ -2,7 +2,7 @@
 
 -   [« mysqli::savepoint](mysqli.savepoint.html)
     
--   [mysqli::set\_charset »](mysqli.set-charset.html)
+-   [mysqli::setcharset »](mysqli.set-charset.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,13 +37,13 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 
 > **Зауваження**
 > 
-> Ця функція використовується лише для зміни бази даних під час підключення. Ви можете вибрати базу даних, передавши її четвертим параметром функції [mysqli\_connect()](function.mysqli-connect.html)
+> Ця функція використовується лише для зміни бази даних під час підключення. Ви можете вибрати базу даних, передавши її четвертим параметром функції [mysqliconnect()](function.mysqli-connect.html)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `database`
 
@@ -110,5 +110,5 @@ printf("База данных по умолчанию: %s.\n", $row[0]);
 
 ### Дивіться також
 
--   [mysqli\_connect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqli\_real\_connect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql

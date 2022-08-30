@@ -1,12 +1,12 @@
 Скасує оператор
 
--   [« sqlsrv\_begin\_transaction](function.sqlsrv-begin-transaction.html)
+-   [« sqlsrvbegintransaction](function.sqlsrv-begin-transaction.html)
     
--   [sqlsrv\_client\_info »](function.sqlsrv-client-info.html)
+-   [sqlsrvclientinfo »](function.sqlsrv-client-info.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Скасує оператор
     
@@ -23,7 +23,7 @@ sqlsrvcancel — Скасує оператор
 sqlsrv_cancel(resource $stmt): bool
 ```
 
-Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrvcancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.html). Виклик **sqlsrvcancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
+Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrvcancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html). Виклик **sqlsrvcancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
 
 ### Список параметрів
 
@@ -80,9 +80,9 @@ sqlsrv_cancel( $stmt);
 
 ### Примітки
 
-Основна відмінність між [sqlsrv\_free\_stmt()](function.sqlsrv-free-stmt.html) і **sqlsrvcancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrvcancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.html). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
+Основна відмінність між [sqlsrvfreestmt()](function.sqlsrv-free-stmt.html) і **sqlsrvcancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrvcancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
 
 ### Дивіться також
 
--   [sqlsrv\_free\_stmt()](function.sqlsrv-free-stmt.html) - звільняє всі ресурси для вказаного оператора
--   [sqlsrv\_prepare()](function.sqlsrv-prepare.html) - готує запит до виконання
+-   [sqlsrvfreestmt()](function.sqlsrv-free-stmt.html) - звільняє всі ресурси для вказаного оператора
+-   [sqlsrvprepare()](function.sqlsrv-prepare.html) - готує запит до виконання

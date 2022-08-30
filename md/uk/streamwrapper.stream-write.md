@@ -1,6 +1,6 @@
 Запис у потік
 
--   [« streamWrapper::stream\_truncate](streamwrapper.stream-truncate.html)
+-   [« streamWrapper::streamtruncate](streamwrapper.stream-truncate.html)
     
 -   [streamWrapper::unlink »](streamwrapper.unlink.html)
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Файловая система](book.filesystem.html)
+-   [Файлова система](book.filesystem.html)
     
 -   Встановлення та налаштування
     

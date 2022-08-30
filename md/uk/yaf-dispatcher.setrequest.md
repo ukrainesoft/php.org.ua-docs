@@ -1,12 +1,12 @@
 Призначення setRequest
 
--   [« Yaf\_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.html)
+-   [« YafDispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.html)
     
--   [Yaf\_Dispatcher::setView »](yaf-dispatcher.setview.html)
+-   [YafDispatcher::setView »](yaf-dispatcher.setview.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Призначення setRequest
     

@@ -1,8 +1,8 @@
 Оновлює стовпець за допомогою OID
 
--   [« cubrid\_prepare](function.cubrid-prepare.html)
+-   [« cubridprepare](function.cubrid-prepare.html)
     
--   [cubrid\_rollback »](function.cubrid-rollback.html)
+-   [cubridrollback »](function.cubrid-rollback.html)
     
 -   [PHP Manual](index.html)
     
@@ -103,9 +103,9 @@ array(3) {
 
 ### Дивіться також
 
--   [cubrid\_get()](function.cubrid-get.html) - Отримує стовпець, використовуючи OID
--   [cubrid\_set\_add()](function.cubrid-set-add.html) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
--   [cubrid\_set\_drop()](function.cubrid-set-drop.html) - Видаляє елемент із стовпця заданого типу, використовуючи OID
--   [cubrid\_seq\_insert()](function.cubrid-seq-insert.html) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
--   [cubrid\_seq\_drop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubrid\_seq\_put()](function.cubrid-seq-put.html) - Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubridget()](function.cubrid-get.html) - Отримує стовпець, використовуючи OID
+-   [cubridsetadd()](function.cubrid-set-add.html) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubridsetdrop()](function.cubrid-set-drop.html) - Видаляє елемент із стовпця заданого типу, використовуючи OID
+-   [cubridseqinsert()](function.cubrid-seq-insert.html) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
+-   [cubridseqdrop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqput()](function.cubrid-seq-put.html) - Оновлює значення елемента стовпця типу послідовності за допомогою OID

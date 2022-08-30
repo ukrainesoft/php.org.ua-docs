@@ -1,8 +1,8 @@
 Виводить повідомлення про помилки до журналу
 
--   [« swoole\_errno](function.swoole-errno.html)
+-   [« swooleerrno](function.swoole-errno.html)
     
--   [swoole\_event\_add »](function.swoole-event-add.html)
+-   [swooleeventadd »](function.swoole-event-add.html)
     
 -   [PHP Manual](index.html)
     

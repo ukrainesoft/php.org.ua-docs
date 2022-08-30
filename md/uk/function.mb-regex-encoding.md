@@ -1,12 +1,12 @@
 Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
 
--   [« mb\_preferred\_mime\_name](function.mb-preferred-mime-name.html)
+-   [« mbpreferredmimename](function.mb-preferred-mime-name.html)
     
--   [mb\_regex\_set\_options »](function.mb-regex-set-options.html)
+-   [мбregexsetoptions »](function.mb-regex-set-options.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
     
@@ -43,5 +43,5 @@ mb_regex_encoding(?string $encoding = null): string|bool
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [mb\_ereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань

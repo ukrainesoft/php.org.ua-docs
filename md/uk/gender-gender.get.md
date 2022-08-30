@@ -1,12 +1,12 @@
 Отримати підлогу на ім'я
 
--   [« Gender\\Gender::country](gender-gender.country.html)
+-   [« GenderGender::country](gender-gender.country.html)
     
--   [Gender\\Gender::isNick »](gender-gender.isnick.html)
+-   [GenderGender::isNick »](gender-gender.isnick.html)
     
 -   [PHP Manual](index.html)
     
--   [Gender\\Gender](class.gender.html)
+-   [GenderGender](class.gender.html)
     
 -   Отримати підлогу на ім'я
     

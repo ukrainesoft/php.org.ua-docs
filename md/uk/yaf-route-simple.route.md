@@ -1,12 +1,12 @@
 Надсилає запит
 
--   [« Yaf\_Route\_Simple::\_\_construct](yaf-route-simple.construct.html)
+-   [« YafRouteSimple::construct](yaf-route-simple.construct.html)
     
--   [Yaf\_Route\_Static »](class.yaf-route-static.html)
+-   [YafRouteStatic »](class.yaf-route-static.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Simple](class.yaf-route-simple.html)
+-   [YafRouteSimple](class.yaf-route-simple.html)
     
 -   Надсилає запит
     
@@ -23,7 +23,7 @@ YafRouteSimple::route — Надсилає запит
 public Yaf_Route_Simple::route(Yaf_Request_Abstract $request): bool
 ```
 
-дивіться [Yaf\_Route\_Simple::\_\_construct()](yaf-route-simple.construct.html)
+дивіться [YafRouteSimple::construct()](yaf-route-simple.construct.html)
 
 **Увага**
 
@@ -39,8 +39,8 @@ public Yaf_Route_Simple::route(Yaf_Request_Abstract $request): bool
 
 ### Дивіться також
 
--   [Yaf\_Route\_Supervar::route()](yaf-route-supervar.route.html) - Призначення route
--   [Yaf\_Route\_Static::route()](yaf-route-static.route.html) - Надсилає запит
--   [Yaf\_Route\_Regex::route()](yaf-route-regex.route.html) - Мета маршруту
--   [Yaf\_Route\_Rewrite::route()](yaf-route-rewrite.route.html) - Призначення route
--   [Yaf\_Route\_Map::route()](yaf-route-map.route.html) - Призначення route
+-   [YafRouteSupervar::route()](yaf-route-supervar.route.html) - Призначення route
+-   [YafRouteStatic::route()](yaf-route-static.route.html) - Надсилає запит
+-   [YafRouteRegex::route()](yaf-route-regex.route.html) - Мета маршруту
+-   [YafRouteRewrite::route()](yaf-route-rewrite.route.html) - Призначення route
+-   [YafRouteMap::route()](yaf-route-map.route.html) - Призначення route

@@ -2,11 +2,11 @@
 
 -   [« Session::close](mysql-xdevapi-session.close.html)
     
--   [Session::\_\_construct »](mysql-xdevapi-session.construct.html)
+-   [Session::construct »](mysql-xdevapi-session.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Фіксує транзакцію
     

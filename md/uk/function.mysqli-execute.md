@@ -1,12 +1,12 @@
 Синонім для mysqlistmtexecute
 
--   [« mysqli::escape\_string](function.mysqli-escape-string.html)
+-   [« mysqli::escapestring](function.mysqli-escape-string.html)
     
--   [mysqli\_get\_client\_stats »](function.mysqli-get-client-stats.html)
+-   [mysqligetclientstats »](function.mysqli-get-client-stats.html)
     
 -   [PHP Manual](index.html)
     
--   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+-   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
     
 -   Синонім для mysqlistmtexecute
     
@@ -15,11 +15,11 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliexecute - Синонім для [mysqli\_stmt\_execute()](mysqli-stmt.execute.html)
+mysqliexecute - Синонім для [mysqlistmtexecute()](mysqli-stmt.execute.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [mysqli\_stmt\_execute()](mysqli-stmt.execute.html)
+Ця функція є псевдонімом: [mysqlistmtexecute()](mysqli-stmt.execute.html)
 
 ### Примітки
 
@@ -29,4 +29,4 @@ mysqliexecute - Синонім для [mysqli\_stmt\_execute()](mysqli-stmt.exec
 
 ### Дивіться також
 
--   [mysqli\_stmt\_execute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
+-   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження

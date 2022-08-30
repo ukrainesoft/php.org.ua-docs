@@ -1,6 +1,6 @@
 Застаріла функціональність
 
--   [« Изменения, ломающие обратную совместимость](migration81.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration81.incompatible.html)
     
 -   [Другие изменения »](migration81.other-changes.html)
     
@@ -49,7 +49,7 @@ $a[15.0]; // работает, так как 15.0 == 15
 
 #### Повернення не масиву (array) з **sleep()**
 
-Значення, що повертається [\_\_sleep()](language.oop5.magic.html#object.sleep), що не є масивом, тепер згенерує повідомлення.
+Значення, що повертається [sleep()](language.oop5.magic.html#object.sleep), що не є масивом, тепер згенерує повідомлення.
 
 #### Повернення значення за посиланням функції void
 
@@ -95,9 +95,9 @@ $arr[] = 2;   // устарело
 
 ### Date
 
-Функції [date\_sunrise()](function.date-sunrise.html) і [date\_sunset()](function.date-sunset.html) застаріли на користь [date\_sun\_info()](function.date-sun-info.html)
+Функції [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.html) застаріли на користь [datesuninfo()](function.date-sun-info.html)
 
-Функція [strptime()](function.strptime.html) застаріла. Замість неї використовуйте [date\_parse\_from\_format()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.html) (Для синтаксичного аналізу, що залежить від мовного стандарту).
+Функція [strptime()](function.strptime.html) застаріла. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.html) (Для синтаксичного аналізу, що залежить від мовного стандарту).
 
 Функція [strftime()](function.strftime.html) і [gmstrftime()](function.gmstrftime.html) застаріли. Використовуйте замість них функцію [date()](function.date.html) (для форматування, що не залежить від мовного стандарту) або метод [IntlDateFormatter::format()](intldateformatter.format.html) (Для форматування, що залежить від мовного стандарту).
 
@@ -113,7 +113,7 @@ INI-директива [filter.default](filter.configuration.html#ini.filter.def
 
 ### Хешування
 
-Функції [mhash()](function.mhash.html) [mhash\_keygen\_s2k()](function.mhash-keygen-s2k.html) [mhash\_count()](function.mhash-count.html) [mhash\_get\_block\_size()](function.mhash-get-block-size.html) і [mhash\_get\_hash\_name()](function.mhash-get-hash-name.html) застаріли. Замість них використовуйте функції `hash_*()`
+Функції [mhash()](function.mhash.html) [mhashkeygens2k()](function.mhash-keygen-s2k.html) [mhashcount()](function.mhash-count.html) [mhashgetblocksize()](function.mhash-get-block-size.html) і [mhashgethashname()](function.mhash-get-hash-name.html) застаріли. Замість них використовуйте функції `hash_*()`
 
 ### IMAP
 
@@ -125,23 +125,23 @@ INI-директива [filter.default](filter.configuration.html#ini.filter.def
 
 ### Багатобайтові рядки
 
-Виклик [mb\_check\_encoding()](function.mb-check-encoding.html) без жодних аргументів застарів.
+Виклик [мбcheckencoding()](function.mb-check-encoding.html) без жодних аргументів застарів.
 
 ### MySQLi
 
 Властивість mysqlidriver::$driverversion застаріло. Воно було неактуальним, використовуйте замість нього **`PHP_VERSION_ID`**
 
-Виклик методу [mysqli::get\_client\_info()](mysqli.get-client-info.html) або [mysqli\_get\_client\_info()](mysqli.get-client-info.html) з аргументом `mysqli` застарів. Використовуйте [mysqli\_get\_client\_info()](mysqli.get-client-info.html) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
+Виклик методу [mysqli::getclientinfo()](mysqli.get-client-info.html) або [mysqligetclientinfo()](mysqli.get-client-info.html) з аргументом `mysqli` застарів. Використовуйте [mysqligetclientinfo()](mysqli.get-client-info.html) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
 
 Метод [mysqli::init()](mysqli.init.html) застарів. Замініть дзвінки **parent::init()** на **parent::construct()**
 
 ### OCI8
 
-INI-директива [oci8.old\_oci\_close\_semantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) застаріла.
+INI-директива [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) застаріла.
 
 ### ODBC
 
-Функція [odbc\_result\_all()](function.odbc-result-all.html) застаріла.
+Функція [odbcresultall()](function.odbc-result-all.html) застаріла.
 
 ### PDO
 
@@ -153,12 +153,12 @@ INI-директива [oci8.old\_oci\_close\_semantics](oci8.configuration.html
 
 ### SOAP
 
-Параметр `ssl_method` в [SoapClient::\_\_construct()](soapclient.construct.html) застарів на користь параметрів контексту потоку SSL.
+Параметр `ssl_method` в [SoapClient::construct()](soapclient.construct.html) застарів на користь параметрів контексту потоку SSL.
 
 ### Стандартні функції
 
-Виклик [key()](function.key.html) [current()](function.current.html) [next()](function.next.html) [prev()](function.prev.html) [reset()](function.reset.html) або [end()](function.end.html) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [get\_mangled\_object\_vars()](function.get-mangled-object-vars.html), або через [ArrayIterator](class.arrayiterator.html)
+Виклик [key()](function.key.html) [current()](function.current.html) [next()](function.next.html) [prev()](function.prev.html) [reset()](function.reset.html) або [end()](function.end.html) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [getmangledobjectvars()](function.get-mangled-object-vars.html), або через [ArrayIterator](class.arrayiterator.html)
 
-INI-директива [auto\_detect\_line\_endings](filesystem.configuration.html#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"` вручну.
+INI-директива [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"` вручну.
 
 Константи **`FILE_BINARY`** і **`FILE_TEXT`** застаріли. Вони ніколи не мали сенсу.

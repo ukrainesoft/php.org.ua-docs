@@ -1,8 +1,8 @@
 Індекс грошових потоків
 
--   [« trader\_medprice](function.trader-medprice.html)
+-   [« tradermedprice](function.trader-medprice.html)
     
--   [trader\_midpoint »](function.trader-midpoint.html)
+-   [tradermidpoint »](function.trader-midpoint.html)
     
 -   [PHP Manual](index.html)
     

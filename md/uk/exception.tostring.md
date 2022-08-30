@@ -2,7 +2,7 @@
 
 -   [« Exception::getTraceAsString](exception.gettraceasstring.html)
     
--   [Exception::\_\_clone »](exception.clone.html)
+-   [Exception::clone »](exception.clone.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,4 +57,4 @@ Stack trace:
 
 ### Дивіться також
 
--   [Throwable::\_\_toString()](throwable.tostring.html) - отримує рядкове подання викинутого об'єкта
+-   [Throwable::toString()](throwable.tostring.html) - отримує рядкове подання викинутого об'єкта

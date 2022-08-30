@@ -1,8 +1,8 @@
 Отримує список усіх заголовків HTTP-запиту
 
--   [« apache\_note](function.apache-note.html)
+-   [« apachenote](function.apache-note.html)
     
--   [apache\_response\_headers »](function.apache-response-headers.html)
+-   [apacheresponseheaders »](function.apache-response-headers.html)
     
 -   [PHP Manual](index.html)
     
@@ -68,8 +68,8 @@ Connection: Keep-Alive
 
 > **Зауваження**
 > 
-> Також можна отримати значення широко використовуваних CGIзмінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [переменных окружения](language.variables.predefined.html), використовуйте функцію [phpinfo()](function.phpinfo.html)
+> Також можна отримати значення широко використовуваних CGIзмінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [змінних оточення](language.variables.predefined.html), використовуйте функцію [phpinfo()](function.phpinfo.html)
 
 ### Дивіться також
 
--   [apache\_response\_headers()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apacheresponseheaders()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache

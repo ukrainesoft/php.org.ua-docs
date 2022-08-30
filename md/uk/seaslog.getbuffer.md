@@ -65,8 +65,8 @@ array(1) {
 
 ### Дивіться також
 
--   [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer)
--   [seaslog.buffer\_size](seaslog.configuration.html#ini.seaslog.buffer-size)
--   [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
+-   [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)
+-   [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)
+-   [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
 -   [SeasLog::getBufferEnabled()](seaslog.getbufferenabled.html) - Визначає, чи включено буфер
 -   [SeasLog::flushBuffer()](seaslog.flushbuffer.html) - Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp

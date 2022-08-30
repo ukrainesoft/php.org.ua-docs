@@ -1,12 +1,12 @@
 Конструктор класу RadialGradient
 
--   [« UI\\Draw\\Brush\\RadialGradient](class.ui-draw-brush-radialgradient.html)
+-   [« UIDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.html)
     
--   [UI\\Draw\\Text\\Layout »](class.ui-draw-text-layout.html)
+-   [ОЙDrawTextLayout »](class.ui-draw-text-layout.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush\\RadialGradient](class.ui-draw-brush-radialgradient.html)
+-   [ОЙDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.html)
     
 -   Конструктор класу RadialGradient
     
@@ -19,7 +19,7 @@
 
 ### Опис
 
-public **ОЙDrawBrushRadialGradient::construct**[UI\\Point](class.ui-point.html) `$start` [UI\\Point](class.ui-point.html) `$outer`, float `$radius`
+public **ОЙDrawBrushRadialGradient::construct**[ОЙPoint](class.ui-point.html) `$start` [ОЙPoint](class.ui-point.html) `$outer`, float `$radius`
 
 Створює новий радіальний градієнт
 

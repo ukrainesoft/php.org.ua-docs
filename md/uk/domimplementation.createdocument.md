@@ -1,6 +1,6 @@
 Створює об'єкт класу DOMDocument заданого типу з його елементом
 
--   [« DOMImplementation::\_\_construct](domimplementation.construct.html)
+-   [« DOMImplementation::construct](domimplementation.construct.html)
     
 -   [DOMImplementation::createDocumentType »](domimplementation.createdocumenttype.html)
     
@@ -64,5 +64,5 @@ URI простору імен створюваного елемента document
 
 ### Дивіться також
 
--   [DOMDocument::\_\_construct()](domdocument.construct.html) - Створює новий об'єкт DOMDocument
+-   [DOMDocument::construct()](domdocument.construct.html) - Створює новий об'єкт DOMDocument
 -   [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.html) - Створює порожній об'єкт класу DOMDocumentType

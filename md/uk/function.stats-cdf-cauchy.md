@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу Коші за рештою
 
--   [« stats\_cdf\_binomial](function.stats-cdf-binomial.html)
+-   [« statscdfbinomial](function.stats-cdf-binomial.html)
     
--   [stats\_cdf\_chisquare »](function.stats-cdf-chisquare.html)
+-   [statscdfchisquare »](function.stats-cdf-chisquare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу Коші за рештою
     

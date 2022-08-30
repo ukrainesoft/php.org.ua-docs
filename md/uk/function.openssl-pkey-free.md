@@ -1,8 +1,8 @@
 Звільняє ресурс закритого ключа
 
--   [« openssl\_pkey\_export](function.openssl-pkey-export.html)
+-   [« opensslpkeyexport](function.openssl-pkey-export.html)
     
--   [openssl\_pkey\_get\_details »](function.openssl-pkey-get-details.html)
+-   [opensslpkeygetdetails »](function.openssl-pkey-get-details.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ openssl_pkey_free(OpenSSLAsymmetricKey $key): void
 > 
 > Використання функції не має сенсу. До PHP 8.0.0 вона використовувалася для закриття ресурсу.
 
-Функція вивільняє ресурс закритого ключа, створений [openssl\_pkey\_new()](function.openssl-pkey-new.html)
+Функція вивільняє ресурс закритого ключа, створений [opensslpkeynew()](function.openssl-pkey-new.html)
 
 ### Список параметрів
 

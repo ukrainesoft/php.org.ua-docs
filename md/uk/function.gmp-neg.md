@@ -1,12 +1,12 @@
 Зміна знака числа
 
--   [« gmp\_mul](function.gmp-mul.html)
+-   [« gmpmul](function.gmp-mul.html)
     
--   [gmp\_nextprime »](function.gmp-nextprime.html)
+-   [gmpnextprime »](function.gmp-nextprime.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Зміна знака числа
     

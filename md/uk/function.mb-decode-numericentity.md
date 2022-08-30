@@ -1,12 +1,12 @@
 Декодує посилання на числовий рядок HTML на символ
 
--   [« mb\_decode\_mimeheader](function.mb-decode-mimeheader.html)
+-   [« mbdecodemimeheader](function.mb-decode-mimeheader.html)
     
--   [mb\_detect\_encoding »](function.mb-detect-encoding.html)
+-   [мбdetectencoding »](function.mb-detect-encoding.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Декодує посилання на числовий рядок HTML на символ
     
@@ -136,4 +136,4 @@ var_dump(escape_javascript_string($msg));
 
 ### Дивіться також
 
--   [mb\_encode\_numericentity()](function.mb-encode-numericentity.html) - Кодує символ у числове HTML-посилання
+-   [мбencodenumericentity()](function.mb-encode-numericentity.html) - Кодує символ у числове HTML-посилання

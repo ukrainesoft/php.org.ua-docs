@@ -1,8 +1,8 @@
 Перелічує імена стовпців у зазначених таблицях
 
--   [« odbc\_columnprivileges](function.odbc-columnprivileges.html)
+-   [« odbccolumnprivileges](function.odbc-columnprivileges.html)
     
--   [odbc\_commit »](function.odbc-commit.html)
+-   [odbccommit »](function.odbc-commit.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_columns(    resource $odbc,    ?string $catalog = null,    ?str
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -125,5 +125,5 @@ Array
 
 ### Дивіться також
 
--   [odbc\_columnprivileges()](function.odbc-columnprivileges.html) - Перераховує стовпці та пов'язані привілеї для даної таблиці
--   [odbc\_procedurecolumns()](function.odbc-procedurecolumns.html) - Отримує інформацію про параметри процедур
+-   [odbccolumnprivileges()](function.odbc-columnprivileges.html) - Перераховує стовпці та пов'язані привілеї для даної таблиці
+-   [odbcprocedurecolumns()](function.odbc-procedurecolumns.html) - Отримує інформацію про параметри процедур

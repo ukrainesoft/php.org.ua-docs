@@ -2,7 +2,7 @@
 
 -   [« PDOStatement::setFetchMode](pdostatement.setfetchmode.html)
     
--   [Драйверы PDO »](pdo.drivers.html)
+-   [Драйвери PDO »](pdo.drivers.html)
     
 -   [PHP Manual](index.html)
     

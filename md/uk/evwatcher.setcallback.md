@@ -33,7 +33,7 @@ public
 
 `callback`
 
-Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 ### Значення, що повертаються
 

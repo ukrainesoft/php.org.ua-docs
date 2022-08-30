@@ -1,12 +1,12 @@
 Встановлює початкові значення для генератора випадкових чисел
 
--   [« stats\_rand\_ranf](function.stats-rand-ranf.html)
+-   [« statsrandranf](function.stats-rand-ranf.html)
     
--   [stats\_skew »](function.stats-skew.html)
+-   [statsskew »](function.stats-skew.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Встановлює початкові значення для генератора випадкових чисел
     

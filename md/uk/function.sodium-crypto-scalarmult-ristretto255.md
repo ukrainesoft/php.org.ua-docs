@@ -1,8 +1,8 @@
 Обчислює загальний секрет
 
--   [« sodium\_crypto\_scalarmult\_ristretto255\_base](function.sodium-crypto-scalarmult-ristretto255-base.html)
+-   [« sodiumcryptoscalarmultristretto255base](function.sodium-crypto-scalarmult-ristretto255-base.html)
     
--   [sodium\_crypto\_scalarmult »](function.sodium-crypto-scalarmult.html)
+-   [sodiumcryptoscalarmult »](function.sodium-crypto-scalarmult.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,4 +45,4 @@ sodium_crypto_scalarmult_ristretto255(string $n, string $p): string
 
 ### Дивіться також
 
--   [sodium\_crypto\_scalarmult\_ristretto255\_base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа
+-   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа

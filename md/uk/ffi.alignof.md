@@ -23,7 +23,7 @@ FFI::alignof — Повертає величину вирівнювання
 public static FFI::alignof(FFI\CData|FFI\CType &$ptr): int
 ```
 
-Повертає величину вирівнювання об'єктів [FFI\\CData](class.ffi-cdata.html) або [FFI\\CType](class.ffi-ctype.html)
+Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.html) або [FFICType](class.ffi-ctype.html)
 
 ### Список параметрів
 
@@ -33,4 +33,4 @@ public static FFI::alignof(FFI\CData|FFI\CType &$ptr): int
 
 ### Значення, що повертаються
 
-Повертає величину вирівнювання об'єктів [FFI\\CData](class.ffi-cdata.html) або [FFI\\CType](class.ffi-ctype.html)
+Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.html) або [FFICType](class.ffi-ctype.html)

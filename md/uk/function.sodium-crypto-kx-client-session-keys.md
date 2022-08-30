@@ -1,8 +1,8 @@
 Обчислює ключі сесії на стороні клієнта
 
--   [« sodium\_crypto\_kdf\_keygen](function.sodium-crypto-kdf-keygen.html)
+-   [« sodiumcryptokdfkeygen](function.sodium-crypto-kdf-keygen.html)
     
--   [sodium\_crypto\_kx\_keypair »](function.sodium-crypto-kx-keypair.html)
+-   [sodiumcryptoкксkeypair »](function.sodium-crypto-kx-keypair.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_kx_client_session_keys(string $client_key_pair, string $server_key
 
 `client_key_pair`
 
-Пара ключів cryptokx, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.html)
+Пара ключів cryptokx, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.html)
 
 `server_key`
 

@@ -1,6 +1,6 @@
 Отримує результат SHOW WARNINGS
 
--   [« mysqli::$server\_version](mysqli.get-server-version.html)
+-   [« mysqli::$serverversion](mysqli.get-server-version.html)
     
 -   [mysqli::$info »](mysqli.info.html)
     

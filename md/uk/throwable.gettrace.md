@@ -31,7 +31,7 @@ public Throwable::getTrace(): array
 
 ### Значення, що повертаються
 
-Повертає трасування стека у вигляді масиву в такому ж форматі, що й [debug\_backtrace()](function.debug-backtrace.html)
+Повертає трасування стека у вигляді масиву в такому ж форматі, що й [debugbacktrace()](function.debug-backtrace.html)
 
 ### Дивіться також
 

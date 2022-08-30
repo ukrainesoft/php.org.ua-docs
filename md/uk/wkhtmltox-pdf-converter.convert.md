@@ -1,12 +1,12 @@
 Виконати перетворення PDF
 
--   [« wkhtmltox\\PDF\\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.html)
+-   [« wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.html)
     
--   [wkhtmltox\\PDF\\Converter::getVersion »](wkhtmltox-pdf-converter.getversion.html)
+-   [wkhtmltoxPDFConverter::getVersion »](wkhtmltox-pdf-converter.getversion.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\PDF\\Converter](class.wkhtmltox-pdf-converter.html)
+-   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
     
 -   Виконати перетворення PDF
     

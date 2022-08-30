@@ -1,6 +1,6 @@
 Запуск налаштованої діагностики для розібраної та відновленої розмітки
 
--   [« tidy::\_\_construct](tidy.construct.html)
+-   [« tidy::construct](tidy.construct.html)
     
 -   [tidy::$errorBuffer »](tidy.props.errorbuffer.html)
     

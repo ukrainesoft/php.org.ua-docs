@@ -1,8 +1,8 @@
 Отримання контенту стовпця типу колекція з OID
 
--   [« cubrid\_close\_request](function.cubrid-close-request.html)
+-   [« cubridcloserequest](function.cubrid-close-request.html)
     
--   [cubrid\_col\_size »](function.cubrid-col-size.html)
+-   [cubridcolsize »](function.cubrid-col-size.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ OID екземпляра, який ви хочете прочитати.
 
 Індексований масив (починається з 0), що містить запитані елементи у разі успіху.
 
-**`false`** (для помилки від ситуації, коли атрибут містить порожню колекцію або NULL, у разі виникнення помилки буде викликано попередження; у цьому випадку потрібно використовувати функцію [cubrid\_error\_code()](function.cubrid-error-code.html)), у разі невдачі.
+**`false`** (для помилки від ситуації, коли атрибут містить порожню колекцію або NULL, у разі виникнення помилки буде викликано попередження; у цьому випадку потрібно використовувати функцію [cubriderrorcode()](function.cubrid-error-code.html)), у разі невдачі.
 
 ### Приклади
 

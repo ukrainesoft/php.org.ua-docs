@@ -1,8 +1,8 @@
 Лінійний коефіцієнт кореляції r-пірсона
 
--   [« trader\_cmo](function.trader-cmo.html)
+-   [« tradercmo](function.trader-cmo.html)
     
--   [trader\_cos »](function.trader-cos.html)
+-   [tradercos »](function.trader-cos.html)
     
 -   [PHP Manual](index.html)
     

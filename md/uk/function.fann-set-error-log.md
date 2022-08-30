@@ -1,8 +1,8 @@
 Встановлює, де реєструються помилки
 
--   [« fann\_set\_cascade\_weight\_multiplier](function.fann-set-cascade-weight-multiplier.html)
+-   [« fannsetcascadeweightmultiplier](function.fann-set-cascade-weight-multiplier.html)
     
--   [fann\_set\_input\_scaling\_params »](function.fann-set-input-scaling-params.html)
+-   [fannsetinputscalingparams »](function.fann-set-input-scaling-params.html)
     
 -   [PHP Manual](index.html)
     

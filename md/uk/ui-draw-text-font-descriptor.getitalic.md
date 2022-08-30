@@ -1,12 +1,12 @@
 Визначення стилю
 
--   [« UI\\Draw\\Text\\Font\\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html)
+-   [« UIDrawTextFontDescriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor::getSize »](ui-draw-text-font-descriptor.getsize.html)
+-   [ОЙDrawTextFontDescriptor::getSize »](ui-draw-text-font-descriptor.getsize.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+-   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     
 -   Визначення стилю
     

@@ -1,12 +1,12 @@
 Оголошує токен без асоціативності
 
--   [« Parle\\RParser::left](parle-rparser.left.html)
+-   [« ParleRParser::left](parle-rparser.left.html)
     
--   [Parle\\RParser::precedence »](parle-rparser.precedence.html)
+-   [ParleRParser::precedence »](parle-rparser.precedence.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Оголошує токен без асоціативності
     

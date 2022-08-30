@@ -2,11 +2,11 @@
 
 -   [« ArrayIterator::valid](arrayiterator.valid.html)
     
--   [CachingIterator::\_\_construct »](cachingiterator.construct.html)
+-   [CachingIterator::construct »](cachingiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас CachingIterator
     
@@ -133,7 +133,7 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [CachingIterator::\_\_construct](cachingiterator.construct.html) — Створює новий об'єкт CachingIterator для ітератора
+-   [CachingIterator::construct](cachingiterator.construct.html) — Створює новий об'єкт CachingIterator для ітератора
 -   [CachingIterator::count](cachingiterator.count.html) — Повертає кількість елементів в ітераторі
 -   [CachingIterator::current](cachingiterator.current.html) — Повертає поточний елемент
 -   [CachingIterator::getCache](cachingiterator.getcache.html) — Отримання вмісту кешу
@@ -148,5 +148,5 @@ public IteratorIterator::valid(): bool
 -   [CachingIterator::offsetUnset](cachingiterator.offsetunset.html) - Призначення offsetUnset
 -   [CachingIterator::rewind](cachingiterator.rewind.html) — Повертає ітератор на початок
 -   [CachingIterator::setFlags](cachingiterator.setflags.html) — Встановлює прапори для об'єкта CachingIterator
--   [CachingIterator::\_\_toString](cachingiterator.tostring.html) — Повертає строкове представлення поточного елемента
+-   [CachingIterator::toString](cachingiterator.tostring.html) — Повертає строкове представлення поточного елемента
 -   [CachingIterator::valid](cachingiterator.valid.html) — Перевіряє, чи поточний елемент є допустимим

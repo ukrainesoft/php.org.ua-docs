@@ -1,12 +1,12 @@
 Обробник зміни
 
--   [« UI\\Controls\\EditableCombo::getText](ui-controls-editablecombo.gettext.html)
+-   [« UIControlsEditableCombo::getText](ui-controls-editablecombo.gettext.html)
     
--   [UI\\Controls\\EditableCombo::setText »](ui-controls-editablecombo.settext.html)
+-   [ОЙControlsEditableCombo::setText »](ui-controls-editablecombo.settext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+-   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
     
 -   Обробник зміни
     

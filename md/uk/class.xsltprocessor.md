@@ -2,7 +2,7 @@
 
 -   [« Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.html)
     
--   [XSLTProcessor::\_\_construct »](xsltprocessor.construct.html)
+-   [XSLTProcessor::construct »](xsltprocessor.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -52,7 +52,7 @@ public transformToXml(object $document): string|null|false
 
 ## Зміст
 
--   [XSLTProcessor::\_\_construct](xsltprocessor.construct.html) — Створює новий екземпляр класу XSLTProcessor
+-   [XSLTProcessor::construct](xsltprocessor.construct.html) — Створює новий екземпляр класу XSLTProcessor
 -   [XSLTProcessor::getParameter](xsltprocessor.getparameter.html) — Повертає значення параметра
 -   [XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.html) — Отримати налаштування безпеки
 -   [XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.html) — Чи визначає PHP підтримку EXSLT

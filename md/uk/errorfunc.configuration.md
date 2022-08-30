@@ -17,28 +17,28 @@
 
 **Налаштування конфігурації протоколювання подій та помилок**
 
-| Имя                                                                                 | По умолчанию | Место изменения | Список изменений                                        |
-|-------------------------------------------------------------------------------------|--------------|-----------------|---------------------------------------------------------|
-| [error\_reporting](errorfunc.configuration.html#ini.error-reporting)                | NULL         | PHPINIALL       |                                                         |
-| [display\_errors](errorfunc.configuration.html#ini.display-errors)                  | "1"          | PHPINIALL       |                                                         |
-| [display\_startup\_errors](errorfunc.configuration.html#ini.display-startup-errors) | "1"          | PHPINIALL       | До PHP 8.0.0 значення за промовчанням було `"0"`        |
-| [log\_errors](errorfunc.configuration.html#ini.log-errors)                          | "0"          | PHPINIALL       |                                                         |
-| [log\_errors\_max\_len](errorfunc.configuration.html#ini.log-errors-max-len)        | "1024"       | PHPINIALL       |                                                         |
-| [ignore\_repeated\_errors](errorfunc.configuration.html#ini.ignore-repeated-errors) | "0"          | PHPINIALL       |                                                         |
-| [ignore\_repeated\_source](errorfunc.configuration.html#ini.ignore-repeated-source) | "0"          | PHPINIALL       |                                                         |
-| [report\_memleaks](errorfunc.configuration.html#ini.report-memleaks)                | "1"          | PHPINIALL       |                                                         |
-| [track\_errors](errorfunc.configuration.html#ini.track-errors)                      | "0"          | PHPINIALL       | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0. |
-| [html\_errors](errorfunc.configuration.html#ini.html-errors)                        | "1"          | PHPINIALL       |                                                         |
-| [xmlrpc\_errors](errorfunc.configuration.html#ini.xmlrpc-errors)                    | "0"          | PHPINISYSTEM    |                                                         |
-| [xmlrpc\_error\_number](errorfunc.configuration.html#ini.xmlrpc-error-number)       | "0"          | PHPINIALL       |                                                         |
-| [docref\_root](errorfunc.configuration.html#ini.docref-root)                        | ""           | PHPINIALL       |                                                         |
-| [docref\_ext](errorfunc.configuration.html#ini.docref-ext)                          | ""           | PHPINIALL       |                                                         |
-| [error\_prepend\_string](errorfunc.configuration.html#ini.error-prepend-string)     | NULL         | PHPINIALL       |                                                         |
-| [error\_append\_string](errorfunc.configuration.html#ini.error-append-string)       | NULL         | PHPINIALL       |                                                         |
-| [error\_log](errorfunc.configuration.html#ini.error-log)                            | NULL         | PHPINIALL       |                                                         |
-| [syslog.facility](errorfunc.configuration.html#ini.syslog.facility)                 | "LOGUSER"    | PHPINISYSTEM    | Доступно з PHP 7.3.0.                                   |
-| [syslog.filter](errorfunc.configuration.html#ini.syslog.filter)                     | "no-ctrl"    | PHPINIALL       | Доступно з PHP 7.3.0.                                   |
-| [syslog.ident](errorfunc.configuration.html#ini.syslog.ident)                       | "php"        | PHPINISYSTEM    | Доступно з PHP 7.3.0.                                   |
+| Имя                                                                             | По умолчанию | Место изменения | Список изменений                                        |
+|---------------------------------------------------------------------------------|--------------|-----------------|---------------------------------------------------------|
+| [errorreporting](errorfunc.configuration.html#ini.error-reporting)              | NULL         | PHPINIALL       |                                                         |
+| [displayerrors](errorfunc.configuration.html#ini.display-errors)                | "1"          | PHPINIALL       |                                                         |
+| [displaystartuperrors](errorfunc.configuration.html#ini.display-startup-errors) | "1"          | PHPINIALL       | До PHP 8.0.0 значення за промовчанням було `"0"`        |
+| [logerrors](errorfunc.configuration.html#ini.log-errors)                        | "0"          | PHPINIALL       |                                                         |
+| [logerrorsmaxlen](errorfunc.configuration.html#ini.log-errors-max-len)          | "1024"       | PHPINIALL       |                                                         |
+| [ignorerepeatederrors](errorfunc.configuration.html#ini.ignore-repeated-errors) | "0"          | PHPINIALL       |                                                         |
+| [ignorerepeatedsource](errorfunc.configuration.html#ini.ignore-repeated-source) | "0"          | PHPINIALL       |                                                         |
+| [reportmemleaks](errorfunc.configuration.html#ini.report-memleaks)              | "1"          | PHPINIALL       |                                                         |
+| [trackerrors](errorfunc.configuration.html#ini.track-errors)                    | "0"          | PHPINIALL       | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0. |
+| [htmlerrors](errorfunc.configuration.html#ini.html-errors)                      | "1"          | PHPINIALL       |                                                         |
+| [xmlrpcerrors](errorfunc.configuration.html#ini.xmlrpc-errors)                  | "0"          | PHPINISYSTEM    |                                                         |
+| [xmlrpcerrornumber](errorfunc.configuration.html#ini.xmlrpc-error-number)       | "0"          | PHPINIALL       |                                                         |
+| [docrefroot](errorfunc.configuration.html#ini.docref-root)                      | ""           | PHPINIALL       |                                                         |
+| [docrefext](errorfunc.configuration.html#ini.docref-ext)                        | ""           | PHPINIALL       |                                                         |
+| [errorprependstring](errorfunc.configuration.html#ini.error-prepend-string)     | NULL         | PHPINIALL       |                                                         |
+| [errorappendstring](errorfunc.configuration.html#ini.error-append-string)       | NULL         | PHPINIALL       |                                                         |
+| [errorlog](errorfunc.configuration.html#ini.error-log)                          | NULL         | PHPINIALL       |                                                         |
+| [syslog.facility](errorfunc.configuration.html#ini.syslog.facility)             | "LOGUSER"    | PHPINISYSTEM    | Доступно з PHP 7.3.0.                                   |
+| [syslog.filter](errorfunc.configuration.html#ini.syslog.filter)                 | "no-ctrl"    | PHPINIALL       | Доступно з PHP 7.3.0.                                   |
+| [syslog.ident](errorfunc.configuration.html#ini.syslog.ident)                   | "php"        | PHPINISYSTEM    | Доступно з PHP 7.3.0.                                   |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -46,15 +46,15 @@
 
 `error_reporting` int
 
-Визначає рівень протоколювання помилки. Параметр може бути чисельністю, що представляє бітове поле, чи іменованою константою. Відповідні рівні та константи наведені у розділі [Предопределённые константы](errorfunc.constants.html), а також у php.ini. Для встановлення налаштувань під час виконання використовуйте функцію [error\_reporting()](function.error-reporting.html). Дивіться також опис директиви [display\_errors](errorfunc.configuration.html#ini.display-errors)
+Визначає рівень протоколювання помилки. Параметр може бути чисельністю, що представляє бітове поле, чи іменованою константою. Відповідні рівні та константи наведені у розділі [Предопределённые константы](errorfunc.constants.html), а також у php.ini. Для встановлення налаштувань під час виконання використовуйте функцію [errorreporting()](function.error-reporting.html). Дивіться також опис директиви [displayerrors](errorfunc.configuration.html#ini.display-errors)
 
 Значення за умовчанням дорівнює **`E_ALL`**
 
-До PHP 8.0.0 значення за промовчанням було: `E_ALL`\*\* & ~**`E_NOTICE`** & ~**`E_STRICT`** & ~**`E_DEPRECATED`**\`\`\*\*. При цьому налаштуванні не відображаються рівні помилок **`E_NOTICE`** **`E_STRICT`** і **`E_DEPRECATED`**
+До PHP 8.0.0 значення за промовчанням було: `E_ALL`\*\* & ~**`E_NOTICE`** & ~**`E_STRICT`** & ~\*\*`E_DEPRECATED`\*\*\`\`\*\*. При цьому налаштуванні не відображаються рівні помилок **`E_NOTICE`** **`E_STRICT`** і **`E_DEPRECATED`**
 
 > **Зауваження** **PHP-константи за межами PHP**
 > 
-> Використання PHP-констант за межами PHP, наприклад, у файлі httpd.conf, не має сенсу, оскільки в таких випадках потрібні цілочисельні значення (int). Більше того, з часом будуть додаватися нові рівні помилок, а максимальне значення константи **`E_ALL`** відповідно зростатиме. Тому в місці, де передбачається вказати **`E_ALL`**краще задати велике ціле число, щоб перекрити всі можливі бітові поля. Таким числом може бути, наприклад, `2147483647` (воно включить усі можливі помилки, не тільки **`E_ALL`**
+> Використання PHP-констант за межами PHP, наприклад, у файлі httpd.conf, не має сенсу, оскільки в таких випадках потрібні цілочисельні значення (int). Більше того, з часом будуть додаватися нові рівні помилок, а максимальне значення константи **`E_ALL`** відповідно зростатиме. Тому в місці, де передбачається вказати \*\*`E_ALL`\*\*краще задати велике ціле число, щоб перекрити всі можливі бітові поля. Таким числом може бути, наприклад, `2147483647` (воно включить усі можливі помилки, не тільки **`E_ALL`**
 
 `display_errors` string
 
@@ -68,7 +68,7 @@
 
 > **Зауваження**
 > 
-> Незважаючи на те, що displayerrors може бути встановлена ​​під час виконання (функцією [ini\_set()](function.ini-set.html)), це ні на що не вплине, якщо у скрипті є фатальні помилки. Це пов'язано з тим, що очікувані дії програми під час виконання не отримають управління (не виконуватимуться).
+> Незважаючи на те, що displayerrors може бути встановлена ​​під час виконання (функцією [iniset()](function.ini-set.html)), це ні на що не вплине, якщо у скрипті є фатальні помилки. Це пов'язано з тим, що очікувані дії програми під час виконання не отримають управління (не виконуватимуться).
 
 `display_startup_errors` bool
 
@@ -76,7 +76,7 @@
 
 `log_errors` bool
 
-Відповідає за вибір журналу, де зберігатимуться повідомлення про помилки. Це може бути журнал сервера або [error\_log](errorfunc.configuration.html#ini.error-log). Застосовність цього параметра залежить від конкретного сервера.
+Відповідає за вибір журналу, де зберігатимуться повідомлення про помилки. Це може бути журнал сервера або [errorlog](errorfunc.configuration.html#ini.error-log). Застосовність цього параметра залежить від конкретного сервера.
 
 > **Зауваження**
 > 
@@ -84,13 +84,13 @@
 
 `log_errors_max_len` int
 
-Завдання максимальної довжини logerrors у байтах. У [error\_log](errorfunc.configuration.html#ini.error-log) додається інформація про джерело. Значення за умовчанням 1024. Встановлення значення 0 дозволяє зняти обмеження на довжину logerrors. Це обмеження поширюється на помилки, що записуються в журнал, на помилки, що відображаються, а також на [$php\_errormsg](reserved.variables.phperrormsg.html), але не на явно викликані функції, такі як [error\_log()](function.error-log.html)
+Завдання максимальної довжини logerrors у байтах. У [errorlog](errorfunc.configuration.html#ini.error-log) додається інформація про джерело. Значення за умовчанням 1024. Встановлення значення 0 дозволяє зняти обмеження на довжину logerrors. Це обмеження поширюється на помилки, що записуються в журнал, на помилки, що відображаються, а також на [$phperrormsg](reserved.variables.phperrormsg.html), але не на явно викликані функції, такі як [errorlog()](function.error-log.html)
 
-Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [этом разделе FAQ](faq.using.html#faq.using.shorthandbytes)
+Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes)
 
 `ignore_repeated_errors` bool
 
-Не заносити в журнал помилки, що повторюються. Помилка вважається повторюваною, якщо відбувається в тому ж файлі і в тому ж рядку, і якщо налаштування [ignore\_repeated\_source](errorfunc.configuration.html#ini.ignore-repeated-source) вимкнено.
+Не заносити в журнал помилки, що повторюються. Помилка вважається повторюваною, якщо відбувається в тому ж файлі і в тому ж рядку, і якщо налаштування [ignorerepeatedsource](errorfunc.configuration.html#ini.ignore-repeated-source) вимкнено.
 
 `ignore_repeated_source` bool
 
@@ -102,11 +102,11 @@
 
 `track_errors` bool
 
-Якщо включена, остання помилка буде першою в змінній [$php\_errormsg](reserved.variables.phperrormsg.html)
+Якщо включена, остання помилка буде першою в змінній [$phperrormsg](reserved.variables.phperrormsg.html)
 
 `html_errors` bool
 
-Якщо дозволено, повідомлення про помилки включатимуть теги HTML. Формат для HTML-помилок робить посилання, що натискаються, що ведуть на опис помилки, або функції, в якій вона відбулася. За такі посилання відповідальні [docref\_root](errorfunc.configuration.html#ini.docref-root) і [docref\_ext](errorfunc.configuration.html#ini.docref-ext)
+Якщо дозволено, повідомлення про помилки включатимуть теги HTML. Формат для HTML-помилок робить посилання, що натискаються, що ведуть на опис помилки, або функції, в якій вона відбулася. За такі посилання відповідальні [docrefroot](errorfunc.configuration.html#ini.docref-root) і [docrefext](errorfunc.configuration.html#ini.docref-ext)
 
 Якщо заборонено, то помилки видаватимуться простим текстом, без форматування.
 
@@ -130,7 +130,7 @@
 
 `docref_ext` string
 
-Дивіться [docref\_root](errorfunc.configuration.html#ini.docref-root)
+Дивіться [docrefroot](errorfunc.configuration.html#ini.docref-root)
 
 > **Зауваження**
 > 
@@ -146,11 +146,11 @@
 
 `error_log` string
 
-Ім'я файлу, до якого будуть додаватися повідомлення про помилки. Файл повинен бути відкритим для запису користувача веб-сервера. Якщо використовується спеціальне значення `syslog`, то повідомлення будуть надсилатися до системного журналу. На Unix-системах це syslog(3), Windows NT - журнал подій. Дивіться також: [syslog()](function.syslog.html). Якщо директива не вказана, помилки будуть надсилатися до журналів SAPI. Наприклад, це можуть бути журнали помилок Apache або потік `stderr` командний рядок CLI. Також дивіться функцію [error\_log()](function.error-log.html)
+Ім'я файлу, до якого будуть додаватися повідомлення про помилки. Файл повинен бути відкритим для запису користувача веб-сервера. Якщо використовується спеціальне значення `syslog`, то повідомлення будуть надсилатися до системного журналу. На Unix-системах це syslog(3), Windows NT - журнал подій. Дивіться також: [syslog()](function.syslog.html). Якщо директива не вказана, помилки будуть надсилатися до журналів SAPI. Наприклад, це можуть бути журнали помилок Apache або потік `stderr` командний рядок CLI. Також дивіться функцію [errorlog()](function.error-log.html)
 
 `syslog.facility` string
 
-Вказує, який тип програми реєструє повідомлення. Діє лише у тому випадку, якщо опція [error\_log](errorfunc.configuration.html#ini.error-log) встановлена ​​в "syslog".
+Вказує, який тип програми реєструє повідомлення. Діє лише у тому випадку, якщо опція [errorlog](errorfunc.configuration.html#ini.error-log) встановлена ​​в "syslog".
 
 `syslog.filter` string
 
@@ -161,7 +161,7 @@
 -   `no-ctrl` – рядок буде розділено на символи нового рядка, а будь-які символи, що не друкуються, будуть екрановані
 -   `raw` – всі символи передаються до системного журналу без змін, без поділу на нові рядки (ідентично PHP до 7.3)
 
-Параметр впливає на ведення журналу через [error\_log](errorfunc.configuration.html#ini.error-log) встановленого в "syslog" та виклики [syslog()](function.syslog.html)
+Параметр впливає на ведення журналу через [errorlog](errorfunc.configuration.html#ini.error-log) встановленого в "syslog" та виклики [syslog()](function.syslog.html)
 
 > **Зауваження**
 > 
@@ -171,4 +171,4 @@
 
 `syslog.ident` string
 
-Визначає рядок ідентифікатора, який додається до кожного повідомлення. Діє лише у тому випадку, якщо опція [error\_log](errorfunc.configuration.html#ini.error-log) встановлена ​​в "syslog".
+Визначає рядок ідентифікатора, який додається до кожного повідомлення. Діє лише у тому випадку, якщо опція [errorlog](errorfunc.configuration.html#ini.error-log) встановлена ​​в "syslog".

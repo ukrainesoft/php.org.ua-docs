@@ -1,12 +1,12 @@
 Отримання поточного значення конфігурації конфігурації magicquotesgpc
 
--   [« get\_loaded\_extensions](function.get-loaded-extensions.html)
+-   [« getloadedextensions](function.get-loaded-extensions.html)
     
--   [get\_magic\_quotes\_runtime »](function.get-magic-quotes-runtime.html)
+-   [getmagicquotesruntime »](function.get-magic-quotes-runtime.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримання поточного значення конфігурації конфігурації magicquotesgpc
     
@@ -47,5 +47,5 @@ get_magic_quotes_gpc(): bool
 
 -   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
 -   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
--   [get\_magic\_quotes\_runtime()](function.get-magic-quotes-runtime.html) - Отримання поточного значення конфігурації конфігурації magicquotesruntime
--   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [getmagicquotesruntime()](function.get-magic-quotes-runtime.html) - Отримання поточного значення конфігурації конфігурації magicquotesruntime
+-   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації

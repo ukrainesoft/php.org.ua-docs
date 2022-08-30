@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Типы фильтров](filter.filters.html)
+-   [Типи фільтрів](filter.filters.html)
     
 -   Прапори, що використовуються у фільтрах
     

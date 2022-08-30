@@ -1,8 +1,8 @@
 Лінійна регресія
 
--   [« trader\_linearreg\_slope](function.trader-linearreg-slope.html)
+-   [« traderlinearregslope](function.trader-linearreg-slope.html)
     
--   [trader\_ln »](function.trader-ln.html)
+-   [traderln »](function.trader-ln.html)
     
 -   [PHP Manual](index.html)
     

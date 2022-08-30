@@ -2,7 +2,7 @@
 
 -   [« Основные понятия](mysqlinfo.concepts.html)
     
--   [Кодировки символов »](mysqlinfo.concepts.charset.html)
+-   [Кодування символів »](mysqlinfo.concepts.charset.html)
     
 -   [PHP Manual](index.html)
     

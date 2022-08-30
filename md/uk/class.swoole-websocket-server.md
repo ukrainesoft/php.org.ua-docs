@@ -1,8 +1,8 @@
 Клас SwooleWebSocketServer
 
--   [« Swoole\\WebSocket\\Frame](class.swoole-websocket-frame.html)
+-   [« SwooleWebSocketFrame](class.swoole-websocket-frame.html)
     
--   [Swoole\\WebSocket\\Server::exist »](swoole-websocket-server.exist.html)
+-   [SwooleWebSocketServer::exist »](swoole-websocket-server.exist.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,8 +54,8 @@ public Swoole\Http\Server::start(): void
 
 ## Зміст
 
--   [Swoole\\WebSocket\\Server::exist](swoole-websocket-server.exist.html) — Перевіряє, чи є опис файлу
--   [Swoole\\WebSocket\\Server::on](swoole-websocket-server.on.html) - Зареєструвати callback-функцію події
--   [Swoole\\WebSocket\\Server::pack](swoole-websocket-server.pack.html) — Отримання пакета двійкових даних для надсилання в одній групі даних (frame)
--   [Swoole\\WebSocket\\Server::push](swoole-websocket-server.push.html) — Надіслати дані віддаленому клієнту
--   [Swoole\\WebSocket\\Server::unpack](swoole-websocket-server.unpack.html) - Розпакувати двійкові дані, отримані від клієнта
+-   [SwooleWebSocketServer::exist](swoole-websocket-server.exist.html) — Перевіряє, чи є опис файлу
+-   [SwooleWebSocketServer::on](swoole-websocket-server.on.html) - Зареєструвати callback-функцію події
+-   [SwooleWebSocketServer::pack](swoole-websocket-server.pack.html) — Отримання пакета двійкових даних для надсилання в одній групі даних (frame)
+-   [SwooleWebSocketServer::push](swoole-websocket-server.push.html) — Надіслати дані віддаленому клієнту
+-   [SwooleWebSocketServer::unpack](swoole-websocket-server.unpack.html) - Розпакувати двійкові дані, отримані від клієнта

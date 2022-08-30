@@ -1,12 +1,12 @@
 Отримати поточну кодову сторінку
 
--   [« sapi\_windows\_cp\_conv](function.sapi-windows-cp-conv.html)
+-   [« sapiwindowsспconv](function.sapi-windows-cp-conv.html)
     
--   [sapi\_windows\_cp\_is\_utf8 »](function.sapi-windows-cp-is-utf8.html)
+-   [sapiwindowsспісutf8 »](function.sapi-windows-cp-is-utf8.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Отримати поточну кодову сторінку
     
@@ -37,4 +37,4 @@ sapi_windows_cp_get(string $kind = ""): int
 
 ### Дивіться також
 
--   [sapi\_windows\_cp\_set()](function.sapi-windows-cp-set.html) - Встановити кодову сторінку процесу
+-   [sapiwindowsспset()](function.sapi-windows-cp-set.html) - Встановити кодову сторінку процесу

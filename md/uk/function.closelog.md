@@ -2,11 +2,11 @@
 
 -   [« checkdnsrr](function.checkdnsrr.html)
     
--   [dns\_check\_record »](function.dns-check-record.html)
+-   [dnscheckrecord »](function.dns-check-record.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Закриває з'єднання із системним журналом
     

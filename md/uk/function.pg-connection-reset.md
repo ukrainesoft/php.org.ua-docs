@@ -1,8 +1,8 @@
 Скидання підключення (перепідключення)
 
--   [« pg\_connection\_busy](function.pg-connection-busy.html)
+-   [« pgconnectionbusy](function.pg-connection-busy.html)
     
--   [pg\_connection\_status »](function.pg-connection-status.html)
+-   [пгconnectionstatus »](function.pg-connection-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -59,6 +59,6 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ### Дивіться також
 
--   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [pg\_pconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення
+-   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення

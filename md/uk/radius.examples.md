@@ -1,6 +1,6 @@
 Приклади
 
--   [« Атрибуты RADIUS специфичные для разных производителей](radius.constants.vendor-specific.html)
+-   [Атрибути RADIUS специфічні для різних виробників.](radius.constants.vendor-specific.html)
     
 -   [Функции Radius »](ref.radius.html)
     

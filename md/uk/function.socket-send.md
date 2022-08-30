@@ -1,8 +1,8 @@
 Надсилає дані в приєднаний сокет
 
--   [« socket\_select](function.socket-select.html)
+-   [« socketselect](function.socket-select.html)
     
--   [socket\_sendmsg »](function.socket-sendmsg.html)
+-   [socketsendmsg »](function.socket-sendmsg.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `data`
 
@@ -57,4 +57,4 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 ### Дивіться також
 
--   [socket\_sendto()](function.socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [socketsendto()](function.socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні

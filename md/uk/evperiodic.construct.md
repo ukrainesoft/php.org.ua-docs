@@ -25,7 +25,7 @@ string `$interval`
 [callable](language.types.callable.html) `$reschedule_cb`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`  
+int `$priority`
 
 Створює об'єкт спостерігача EvPeriodic та запускає його автоматично. Метод [EvPeriodic::createStopped()](evperiodic.createstopped.html) створює зупинений періодичний спостерігач.
 
@@ -33,19 +33,19 @@ int `$priority`
 
 `offset`
 
-Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `interval`
 
-Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `reschedule_cb`
 
-Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `callback`
 
-Дивіться [Наблюдатели callback-функции](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі callback-функції](ev.watcher-callbacks.html)
 
 `data`
 
@@ -98,6 +98,6 @@ $hourly = EvPeriodic(0, 3600, NULL, function () {
 
 ### Дивіться також
 
--   [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+-   [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 -   [EvTimer](class.evtimer.html)
 -   [EvPeriodic::createStopped()](evperiodic.createstopped.html) - Створює зупинений спостерігач EvPeriodic

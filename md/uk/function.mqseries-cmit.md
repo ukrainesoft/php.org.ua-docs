@@ -1,8 +1,8 @@
 MQSeries MQCMIT
 
--   [« mqseries\_close](function.mqseries-close.html)
+-   [« mqseriesclose](function.mqseries-close.html)
     
--   [mqseries\_conn »](function.mqseries-conn.html)
+-   [mqseriesconn »](function.mqseries-conn.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,11 +62,11 @@ mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 
 > **Зауваження**
 > 
-> [mqseries\_back()](function.mqseries-back.html) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
+> [mqseriesback()](function.mqseries-back.html) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
--   [mqseries\_begin()](function.mqseries-begin.html) - MQseries MQBEGIN
--   [mqseries\_back()](function.mqseries-back.html) - MQSeries MQBACK
--   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesbegin()](function.mqseries-begin.html) - MQseries MQBEGIN
+-   [mqseriesback()](function.mqseries-back.html) - MQSeries MQBACK
+-   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX

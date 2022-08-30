@@ -27,7 +27,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 #### Нові ini-директиви syslog
 
-Наступні ini-директиви додані для налаштування логування, якщо для опції [error\_log](errorfunc.configuration.html#ini.error-log) встановлено значення `syslog`
+Наступні ini-директиви додані для налаштування логування, якщо для опції [errorlog](errorfunc.configuration.html#ini.error-log) встановлено значення `syslog`
 
 [syslog.facility](errorfunc.configuration.html#ini.syslog.facility)
 
@@ -43,15 +43,15 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 #### Складальник сміття
 
-Поліпшено [сбор циклических ссылок](features.gc.collecting-cycles.html)що може призвести до значних покращень продуктивності.
+Поліпшено [збір циклічних посилань](features.gc.collecting-cycles.html)що може призвести до значних покращень продуктивності.
 
 #### Різне
 
-Функція [var\_export()](function.var-export.html) тепер експортує об'єкти **stdClass** як масив, приведений до об'єкта (`(object) array( ... )`), замість використання неіснуючого методу **stdClass::setState()**
+Функція [varexport()](function.var-export.html) тепер експортує об'єкти **stdClass** як масив, приведений до об'єкта (`(object) array( ... )`), замість використання неіснуючого методу **stdClass::setState()**
 
-Функція [debug\_zval\_dump()](function.debug-zval-dump.html) змінена для відображення рекурсивних масивів та об'єктів так само, як і [var\_dump()](function.var-dump.html). Тепер вона не відображає їх двічі.
+Функція [debugzvaldump()](function.debug-zval-dump.html) змінена для відображення рекурсивних масивів та об'єктів так само, як і [vardump()](function.var-dump.html). Тепер вона не відображає їх двічі.
 
-Функції [array\_push()](function.array-push.html) і [array\_unshift()](function.array-unshift.html) тепер також можуть бути викликані одним аргументом, що особливо зручно в поєднанні з оператором поширення.
+Функції [arraypush()](function.array-push.html) і [arrayunshift()](function.array-unshift.html) тепер також можуть бути викликані одним аргументом, що особливо зручно в поєднанні з оператором поширення.
 
 ### Інтерактивний відладчик PHP
 
@@ -83,7 +83,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Об'єктна нотація JavaScript (JSON)
 
-Доданий новий прапор **`JSON_THROW_ON_ERROR`**, який можна використовувати з [json\_decode()](function.json-decode.html) або [json\_encode()](function.json-encode.html) і змушує ці функції викидати новий виняток [JsonException](class.jsonexception.html) у разі виникнення помилки, замість того, щоб встановлювати глобальний стан помилки, який вилучається за допомогою [json\_last\_error()](function.json-last-error.html) і [json\_last\_error\_msg()](function.json-last-error-msg.html). . **`JSON_PARTIAL_OUTPUT_ON_ERROR`** має пріоритет над **`JSON_THROW_ON_ERROR`**
+Доданий новий прапор **`JSON_THROW_ON_ERROR`**, який можна використовувати з [jsondecode()](function.json-decode.html) або [jsonencode()](function.json-encode.html) і змушує ці функції викидати новий виняток [JsonException](class.jsonexception.html) у разі виникнення помилки, замість того, щоб встановлювати глобальний стан помилки, який вилучається за допомогою [jsonlasterror()](function.json-last-error.html) і [jsonlasterrormsg()](function.json-last-error-msg.html). . **`JSON_PARTIAL_OUTPUT_ON_ERROR`** має пріоритет над **`JSON_THROW_ON_ERROR`**
 
 ### Мультибайтові рядки
 
@@ -105,7 +105,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 [Модуль PCRE](book.pcre.html) було оновлено до PCRE2, що може призвести до незначних змін у поведінці (наприклад, діапазони символів у класах тепер інтерпретуються суворіше) і доповнює існуючий синтаксис регулярних виразів.
 
-Функція [preg\_quote()](function.preg-quote.html) тепер також екранує символ `'#'`
+Функція [pregquote()](function.preg-quote.html) тепер також екранує символ `'#'`
 
 ### Microsoft SQL Server та функції Sybase (PDODBLIB)
 
@@ -121,21 +121,21 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Обробка сесій
 
-Функція [session\_set\_cookie\_params()](function.session-set-cookie-params.html) тепер також підтримує таке оголошення (сигнатуру):
+Функція [sessionsetcookieparams()](function.session-set-cookie-params.html) тепер також підтримує таке оголошення (сигнатуру):
 
 ```methodsynopsis
 session_set_cookie_params(array $options): bool
 ```
 
-де `$options` - асоціативний масив, який може мати будь-який із ключів `"lifetime"` `"path"` `"domain"` `"secure"` `"httponly"` і `"samesite"`. Відповідно, значення, що повертається [session\_get\_cookie\_params()](function.session-get-cookie-params.html) тепер також має елемент із ключем `"samesite"`. Крім того, нова ini-опція `session.cookie_samesite` для встановлення за промовчанням директиви SameSite для cookies. За замовчуванням використовується значення `""` (порожній рядок), тому директива SameSite не вказана. Може бути встановлена ​​на значення `"Lax"` або `"Strict"`, яке встановлює відповідне значення директиви SameSite.
+де `$options` - асоціативний масив, який може мати будь-який із ключів `"lifetime"` `"path"` `"domain"` `"secure"` `"httponly"` і `"samesite"`. Відповідно, значення, що повертається [sessiongetcookieparams()](function.session-get-cookie-params.html) тепер також має елемент із ключем `"samesite"`. Крім того, нова ini-опція `session.cookie_samesite` для встановлення за промовчанням директиви SameSite для cookies. За замовчуванням використовується значення `""` (порожній рядок), тому директива SameSite не вказана. Може бути встановлена ​​на значення `"Lax"` або `"Strict"`, яке встановлює відповідне значення директиви SameSite.
 
 ### Tidy
 
-Складання разом [» tidyp](https://github.com/petdance/tidyp) Тепер також підтримується прозоро. Оскільки tidyp не пропонує API для отримання дати релізу, [tidy\_get\_release()](tidy.getrelease.html) і [tidy::getRelease()](tidy.getrelease.html) повертає значення `'unknown'` в цьому випадку.
+Складання разом [» tidyp](https://github.com/petdance/tidyp) Тепер також підтримується прозоро. Оскільки tidyp не пропонує API для отримання дати релізу, [tidygetrelease()](tidy.getrelease.html) і [tidy::getRelease()](tidy.getrelease.html) повертає значення `'unknown'` в цьому випадку.
 
 ### XML-парсер
 
-Значення callback-функції, що повертається [xml\_set\_external\_entity\_ref\_handler()](function.xml-set-external-entity-ref-handler.html) більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а парсинг ніколи не припинявся.
+Значення callback-функції, що повертається [xmlsetexternalentityrefhandler()](function.xml-set-external-entity-ref-handler.html) більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а парсинг ніколи не припинявся.
 
 ### Zip
 

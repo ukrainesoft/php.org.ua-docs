@@ -1,12 +1,12 @@
 Отримати список зареєстрованих транспортів сокету
 
--   [« stream\_get\_meta\_data](function.stream-get-meta-data.html)
+-   [« streamgetmetadata](function.stream-get-meta-data.html)
     
--   [stream\_get\_wrappers »](function.stream-get-wrappers.html)
+-   [streamgetwrappers »](function.stream-get-wrappers.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримати список зареєстрованих транспортів сокету
     
@@ -57,5 +57,5 @@ Array (
 
 ### Дивіться також
 
--   [stream\_get\_filters()](function.stream-get-filters.html) - Отримати список зареєстрованих фільтрів
--   [stream\_get\_wrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків
+-   [streamgetfilters()](function.stream-get-filters.html) - Отримати список зареєстрованих фільтрів
+-   [streamgetwrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків

@@ -1,8 +1,8 @@
 Встановлення значення за заданим ключем
 
--   [« Ds\\Map::pairs](ds-map.pairs.html)
+-   [« DsMap::pairs](ds-map.pairs.html)
     
--   [Ds\\Map::putAll »](ds-map.putall.html)
+-   [ДсMap::putAll »](ds-map.putall.html)
     
 -   [PHP Manual](index.html)
     

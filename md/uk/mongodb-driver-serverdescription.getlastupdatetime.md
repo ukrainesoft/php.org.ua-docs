@@ -1,12 +1,12 @@
 Повертає час останнього оновлення сервера у мікросекундах
 
--   [« MongoDB\\Driver\\ServerDescription::getHost](mongodb-driver-serverdescription.gethost.html)
+-   [« MongoDBDriverServerDescription::getHost](mongodb-driver-serverdescription.gethost.html)
     
--   [MongoDB\\Driver\\ServerDescription::getPort »](mongodb-driver-serverdescription.getport.html)
+-   [MongoDBDriverServerDescription::getPort »](mongodb-driver-serverdescription.getport.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)
+-   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
     
 -   Повертає час останнього оновлення сервера у мікросекундах
     
@@ -37,4 +37,4 @@ final public MongoDB\Driver\ServerDescription::getLastUpdateTime(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

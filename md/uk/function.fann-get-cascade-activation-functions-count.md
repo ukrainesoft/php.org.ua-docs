@@ -1,8 +1,8 @@
 Повертає кількість функцій каскадної активації
 
--   [« fann\_get\_bit\_fail](function.fann-get-bit-fail.html)
+-   [« fanngetbitfail](function.fann-get-bit-fail.html)
     
--   [fann\_get\_cascade\_activation\_functions »](function.fann-get-cascade-activation-functions.html)
+-   [fanngetcascadeactivationfunctions »](function.fann-get-cascade-activation-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ fanngetcascadeactivationфункційcount — Повертає кількіс�
 fann_get_cascade_activation_functions_count(resource $ann): int
 ```
 
-Кількість функцій активації у масиві [fann\_get\_cascade\_activation\_functions()](function.fann-get-cascade-activation-functions.html)
+Кількість функцій активації у масиві [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.html)
 
 Кількість функцій активації за промовчанням - 6.
 
@@ -39,5 +39,5 @@ fann_get_cascade_activation_functions_count(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_get\_cascade\_activation\_functions()](function.fann-get-cascade-activation-functions.html) - Повертає функції каскадної активації
--   [fann\_set\_cascade\_activation\_functions()](function.fann-set-cascade-activation-functions.html) - встановлює масив каскадних функцій активації кандидатів
+-   [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.html) - Повертає функції каскадної активації
+-   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.html) - встановлює масив каскадних функцій активації кандидатів

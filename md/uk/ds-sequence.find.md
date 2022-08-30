@@ -1,12 +1,12 @@
 Пошук індексу за значенням
 
--   [« Ds\\Sequence::filter](ds-sequence.filter.html)
+-   [« DsSequence::filter](ds-sequence.filter.html)
     
--   [Ds\\Sequence::first »](ds-sequence.first.html)
+-   [ДсSequence::first »](ds-sequence.first.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Пошук індексу за значенням
     
@@ -23,7 +23,7 @@
 abstract public Ds\Sequence::find(mixed $value): mixed
 ```
 
-Повертає індекс значення `value`, або **`false`**якщо нічого не знайдено.
+Повертає індекс значення `value`, або \*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ abstract public Ds\Sequence::find(mixed $value): mixed
 
 ### Значення, що повертаються
 
-Індекс елемента, або **`false`**якщо значення не знайдено.
+Індекс елемента, або \*\*`false`\*\*якщо значення не знайдено.
 
 > **Зауваження**
 > 

@@ -1,8 +1,8 @@
 Повертає поверхневу копію вектора
 
--   [« Ds\\Vector::contains](ds-vector.contains.html)
+-   [« DsVector::contains](ds-vector.contains.html)
     
--   [Ds\\Vector::count »](ds-vector.count.html)
+-   [ДсVector::count »](ds-vector.count.html)
     
 -   [PHP Manual](index.html)
     

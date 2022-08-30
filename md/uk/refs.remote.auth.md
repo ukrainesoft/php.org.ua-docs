@@ -1,6 +1,6 @@
 Служби автентифікації
 
--   [« openal\_stream](function.openal-stream.html)
+-   [« openalstream](function.openal-stream.html)
     
 -   [Radius »](book.radius.html)
     

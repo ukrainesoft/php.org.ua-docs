@@ -1,8 +1,8 @@
 Повертає ряд результату запиту як асоціативний масив.
 
--   [« mysql\_fetch\_array](function.mysql-fetch-array.html)
+-   [« mysqlfetcharray](function.mysql-fetch-array.html)
     
--   [mysql\_fetch\_field »](function.mysql-fetch-field.html)
+-   [mysqlfetchfield »](function.mysql-fetch-field.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlfetchassoc — Повертає ряд результату запиту я
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html)
--   [PDOStatement::fetch(PDO::FETCH\_ASSOC)](pdostatement.fetch.html)
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html)
+-   [PDOStatement::fetch(PDO::FETCHASSOC)](pdostatement.fetch.html)
 
 ### Опис
 
@@ -30,19 +30,19 @@ mysqlfetchassoc — Повертає ряд результату запиту я
 mysql_fetch_assoc(resource $result): array
 ```
 
-Повертає асоціативний масив, що відповідає отриманому ряду та зсуває вперед внутрішній покажчик результату. Функція **mysqlfetchassoc()** аналогічна виклику функції [mysql\_fetch\_array()](function.mysql-fetch-array.html) з другим необов'язковим параметром, що дорівнює MYSQLASSOC. Функція повертає лише асоціативний масив.
+Повертає асоціативний масив, що відповідає отриманому ряду та зсуває вперед внутрішній покажчик результату. Функція **mysqlfetchassoc()** аналогічна виклику функції [mysqlfetcharray()](function.mysql-fetch-array.html) з другим необов'язковим параметром, що дорівнює MYSQLASSOC. Функція повертає лише асоціативний масив.
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 ### Значення, що повертаються
 
 Повертає асоціативний масив рядків, що відповідає отриманому ряду, або **`false`** якщо лав більше немає.
 
-Якщо два або більше стовпців результату мають однакові імена, пріоритет матиме останній стовпець. Для доступу до іншого однойменного стовпця (або стовпців), вам необхідно або звернутися до результату запиту за числовим індексом за допомогою [mysql\_fetch\_row()](function.mysql-fetch-row.html) або додати псевдоніми до потрібних стовпців. Для більш детальної інформації про псевдоніми дивіться опис прикладу [mysql\_fetch\_array()](function.mysql-fetch-array.html)
+Якщо два або більше стовпців результату мають однакові імена, пріоритет матиме останній стовпець. Для доступу до іншого однойменного стовпця (або стовпців), вам необхідно або звернутися до результату запиту за числовим індексом за допомогою [mysqlfetchrow()](function.mysql-fetch-row.html) або додати псевдоніми до потрібних стовпців. Для більш детальної інформації про псевдоніми дивіться опис прикладу [mysqlfetcharray()](function.mysql-fetch-array.html)
 
 ### Приклади
 
@@ -98,7 +98,7 @@ mysql_free_result($result);
 
 > **Зауваження** **Продуктивність**
 > 
-> Важливо, що **mysqlfetchassoc()** лише *незначно* повільніше, ніж [mysql\_fetch\_row()](function.mysql-fetch-row.html), але водночас надає важливу додаткову інформацію.
+> Важливо, що **mysqlfetchassoc()** лише *незначно* повільніше, ніж [mysqlfetchrow()](function.mysql-fetch-row.html), але водночас надає важливу додаткову інформацію.
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
@@ -106,8 +106,8 @@ mysql_free_result($result);
 
 ### Дивіться також
 
--   [mysql\_fetch\_row()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysql\_fetch\_array()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysql\_data\_seek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
--   [mysql\_error()](function.mysql-error.html) - Повертає текст помилки останньої операції з MySQL
+-   [mysqlfetchrow()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysqlfetcharray()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqldataseek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlerror()](function.mysql-error.html) - Повертає текст помилки останньої операції з MySQL

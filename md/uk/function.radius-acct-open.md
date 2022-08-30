@@ -2,7 +2,7 @@
 
 -   [« Функции Radius](ref.radius.html)
     
--   [radius\_add\_server »](function.radius-add-server.html)
+-   [radiusaddserver »](function.radius-add-server.html)
     
 -   [PHP Manual](index.html)
     

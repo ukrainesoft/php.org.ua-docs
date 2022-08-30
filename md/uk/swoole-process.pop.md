@@ -1,12 +1,12 @@
 Читає та витягує дані з черги повідомлень
 
--   [« Swoole\\Process::name](swoole-process.name.html)
+-   [« SwooleProcess::name](swoole-process.name.html)
     
--   [Swoole\\Process::push »](swoole-process.push.html)
+-   [SwooleProcess::push »](swoole-process.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Читає та витягує дані з черги повідомлень
     

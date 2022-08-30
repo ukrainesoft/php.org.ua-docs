@@ -1,6 +1,6 @@
 Створити об'єкт класу EvIdle, але не стартувати його
 
--   [« EvIdle::\_\_construct](evidle.construct.html)
+-   [« EvIdle::construct](evidle.construct.html)
     
 -   [EvIo »](class.evio.html)
     
@@ -35,13 +35,13 @@ final
     = ?): object
 ```
 
-Те саме, що й [EvIdle::\_\_construct()](evidle.construct.html) але не виробляє автоматичного старту спостерігача.
+Те саме, що й [EvIdle::construct()](evidle.construct.html) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
 `callback`
 
-Дивіться [функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -57,5 +57,5 @@ final
 
 ### Дивіться також
 
--   [EvIdle::\_\_construct()](evidle.construct.html) - Конструктор спостерігача EvIdle
+-   [EvIdle::construct()](evidle.construct.html) - Конструктор спостерігача EvIdle
 -   [EvLoop::idle()](evloop.idle.html) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій

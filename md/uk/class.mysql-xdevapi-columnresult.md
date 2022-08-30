@@ -2,11 +2,11 @@
 
 -   [« CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.html)
     
--   [ColumnResult::\_\_construct »](mysql-xdevapi-columnresult.construct.html)
+-   [ColumnResult::construct »](mysql-xdevapi-columnresult.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас ColumnResult
     
@@ -50,7 +50,7 @@ public isPadded(): int
 
 ## Зміст
 
--   [ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.html) - Конструктор класу ColumnResult
+-   [ColumnResult::construct](mysql-xdevapi-columnresult.construct.html) - Конструктор класу ColumnResult
 -   [ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.html) — Отримує набір символів
 -   [ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.html) — Отримує ім'я зіставлення
 -   [ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.html) — Отримує мітку стовпця

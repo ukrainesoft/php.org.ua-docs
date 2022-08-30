@@ -65,4 +65,4 @@ endif;
 <?php endswitch ?>
 ```
 
-Дивіться також [while](control-structures.while.html) [for](control-structures.for.html) і [if](control-structures.if.html) для подальших прикладів.
+Дивіться також [while](control-structures.while.html) [for](control-structures.for.html) і [іф](control-structures.if.html) для подальших прикладів.

@@ -2,11 +2,11 @@
 
 -   [« Предопределённые классы](reserved.classes.html)
     
--   [Список прочих зарезервированных слов »](reserved.other-reserved-words.html)
+-   [Список інших зарезервованих слів »](reserved.other-reserved-words.html)
     
 -   [PHP Manual](index.html)
     
--   [Список зарезервированных слов](reserved.html)
+-   [Список зарезервованих слів](reserved.html)
     
 -   Обумовлені константи
     
@@ -59,7 +59,7 @@
 
 **`PHP_SAPI`** (string)
 
-API сервера (Server API) цієї збірки PHP. Дивіться також [php\_sapi\_name()](function.php-sapi-name.html)
+API сервера (Server API) цієї збірки PHP. Дивіться також [phpsapiname()](function.php-sapi-name.html)
 
 **`PHP_EOL`** (string)
 
@@ -101,7 +101,7 @@ API сервера (Server API) цієї збірки PHP. Дивіться та
 
 **`PHP_EXTENSION_DIR`** (string)
 
-Каталог за замовчуванням, в якому слід шукати модулі, що динамічно завантажуються (якщо він не перевизначений в [extension\_dir](ini.core.html#ini.extension-dir)). За замовчуванням використовується **`PHP_PREFIX`** (або `PHP_PREFIX . "\\ext"` у Windows).
+Каталог за замовчуванням, в якому слід шукати модулі, що динамічно завантажуються (якщо він не перевизначений в [extensiondir](ini.core.html#ini.extension-dir)). За замовчуванням використовується **`PHP_PREFIX`** (або `PHP_PREFIX . "\\ext"` у Windows).
 
 **`PHP_PREFIX`** (string)
 
@@ -141,7 +141,7 @@ API сервера (Server API) цієї збірки PHP. Дивіться та
 
 **`E_ERROR`** (int)
 
-[Константа, указывающая уровень сообщений об ошибках](errorfunc.constants.html)
+[Константа, яка вказує рівень повідомлень про помилки](errorfunc.constants.html)
 
 **`E_WARNING`** (int)
 
@@ -225,8 +225,8 @@ Windows `CTRL+C`. Доступно з PHP 7.4.0 (лише для Windows).
 
 Windows `CTRL+BREAK`. Доступно з PHP 7.4.0 (лише для Windows).
 
-Дивіться також: [Магические константы](language.constants.magic.html)
+Дивіться також: [Магічні константи](language.constants.magic.html)
 
 ### Стандартні визначені константи
 
-Усі константи [модулей, входящих в состав ядра](extensions.membership.html#extensions.membership.core), тепер визначено в PHP за промовчанням.
+Усі константи [модулів, що входять до складу ядра](extensions.membership.html#extensions.membership.core), тепер визначено в PHP за промовчанням.

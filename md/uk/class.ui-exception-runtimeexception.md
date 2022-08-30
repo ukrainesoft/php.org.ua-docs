@@ -1,12 +1,12 @@
 RuntimeException
 
--   [« UI\\Exception\\InvalidArgumentException](class.ui-exception-invalidargumentexception.html)
+-   [« UIExceptionInvalidArgumentException](class.ui-exception-invalidargumentexception.html)
     
 -   [ЧАВО »](faq.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   RuntimeException
     

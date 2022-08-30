@@ -1,12 +1,12 @@
 Створює канал Swoole
 
--   [« Swoole\\Channel](class.swoole-channel.html)
+-   [« SwooleChannel](class.swoole-channel.html)
     
--   [Swoole\\Channel::\_\_destruct »](swoole-channel.destruct.html)
+-   [SwooleChannel::destruct »](swoole-channel.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Channel](class.swoole-channel.html)
+-   [SwooleChannel](class.swoole-channel.html)
     
 -   Створює канал Swoole
     

@@ -1,12 +1,12 @@
 Примусовий запуск збирача сміття
 
--   [« extension\_loaded](function.extension-loaded.html)
+-   [« extensionloaded](function.extension-loaded.html)
     
--   [gc\_disable »](function.gc-disable.html)
+-   [гкdisable »](function.gc-disable.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Примусовий запуск збирача сміття
     

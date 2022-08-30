@@ -1,8 +1,8 @@
 Відкриває ZIP-архів
 
--   [« zip\_entry\_read](function.zip-entry-read.html)
+-   [« zipentryread](function.zip-entry-read.html)
     
--   [zip\_read »](function.zip-read.html)
+-   [zipread »](function.zip-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ zip_open(string $filename): resource|int|false
 
 ### Значення, що повертаються
 
-Повертає посилання на ресурс для подальшого використання з функціями [zip\_read()](function.zip-read.html) і [zip\_close()](function.zip-close.html) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
+Повертає посилання на ресурс для подальшого використання з функціями [zipread()](function.zip-read.html) і [zipclose()](function.zip-close.html) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
 
 ### список змін
 
@@ -47,5 +47,5 @@ zip_open(string $filename): resource|int|false
 
 ### Дивіться також
 
--   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
--   [zip\_close()](function.zip-close.html) - Закриває дескриптор ZIP-архіву
+-   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipclose()](function.zip-close.html) - Закриває дескриптор ZIP-архіву

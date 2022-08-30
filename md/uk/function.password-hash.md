@@ -1,12 +1,12 @@
 Створює хеш пароля
 
--   [« password\_get\_info](function.password-get-info.html)
+-   [« passwordgetinfo](function.password-get-info.html)
     
--   [password\_needs\_rehash »](function.password-needs-rehash.html)
+-   [passwordneedsrehash »](function.password-needs-rehash.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции хеширования паролей](ref.password.html)
+-   [Функції хешування паролів](ref.password.html)
     
 -   Створює хеш пароля
     
@@ -84,7 +84,7 @@ password_hash(string $password, string|int|null $algo, array $options = []): str
 
 Повертає пароль хешування.
 
-Використаний алгоритм, вартість та сіль буде повернуто як частину хешу. Таким чином, інформація, необхідна для перевірки хеша, буде в нього включена. Це дозволить функції [password\_verify()](function.password-verify.html) перевіряти хеш без необхідності окремого зберігання інформації про солі та алгоритм.
+Використаний алгоритм, вартість та сіль буде повернуто як частину хешу. Таким чином, інформація, необхідна для перевірки хеша, буде в нього включена. Це дозволить функції [passwordverify()](function.password-verify.html) перевіряти хеш без необхідності окремого зберігання інформації про солі та алгоритм.
 
 ### список змін
 
@@ -207,7 +207,7 @@ echo 'Хеш Argon2i: ' . password_hash('rasmuslerdorf', PASSWORD_ARGON2I)
 
 ### Дивіться також
 
--   [password\_verify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає
+-   [passwordverify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає
 -   [crypt()](function.crypt.html) - Необоротне хешування рядка
--   [» Пользовательская реализация](https://github.com/ircmaxell/password_compat)
--   [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html) - Отримати ASCII-кодований хеш
+-   [» Користувацька реалізація](https://github.com/ircmaxell/password_compat)
+-   [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html) - Отримати ASCII-кодований хеш

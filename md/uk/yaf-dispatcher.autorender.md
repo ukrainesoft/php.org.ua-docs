@@ -1,12 +1,12 @@
 Включає/вимикає авторендеринг
 
--   [« Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [« YafDispatcher](class.yaf-dispatcher.html)
     
--   [Yaf\_Dispatcher::catchException »](yaf-dispatcher.catchexception.html)
+-   [YafDispatcher::catchException »](yaf-dispatcher.catchexception.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Включає/вимикає авторендеринг
     
@@ -23,7 +23,7 @@ YafDispatcher::autoRender — Включає/вимикає авторендер
 public Yaf_Dispatcher::autoRender(bool $flag = ?): Yaf_Dispatcher
 ```
 
-[Yaf\_Dispatcher](class.yaf-dispatcher.html) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
+[YafDispatcher](class.yaf-dispatcher.html) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
 
 > **Зауваження**
 > 

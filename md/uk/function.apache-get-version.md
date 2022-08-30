@@ -1,8 +1,8 @@
 Повертає версію Apache
 
--   [« apache\_get\_modules](function.apache-get-modules.html)
+-   [« apachegetmodules](function.apache-get-modules.html)
     
--   [apache\_getenv »](function.apache-getenv.html)
+-   [apachegetenv »](function.apache-getenv.html)
     
 -   [PHP Manual](index.html)
     

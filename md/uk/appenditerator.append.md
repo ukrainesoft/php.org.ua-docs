@@ -2,7 +2,7 @@
 
 -   [« AppendIterator](class.appenditerator.html)
     
--   [AppendIterator::\_\_construct »](appenditerator.construct.html)
+-   [AppendIterator::construct »](appenditerator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,4 +62,4 @@ abcdef
 
 ### Дивіться також
 
--   [AppendIterator::\_\_construct()](appenditerator.construct.html) - Створює AppendIterator
+-   [AppendIterator::construct()](appenditerator.construct.html) - Створює AppendIterator

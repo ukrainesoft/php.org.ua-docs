@@ -1,8 +1,8 @@
 Повертає інформацію про поточні операції
 
--   [« curl\_multi\_getcontent](function.curl-multi-getcontent.html)
+-   [« curlmultigetcontent](function.curl-multi-getcontent.html)
     
--   [curl\_multi\_init »](function.curl-multi-init.html)
+-   [curlmultiinit »](function.curl-multi-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,13 +29,13 @@ curl_multi_info_read(CurlMultiHandle $multi_handle, int &$queued_messages = null
 
 **Увага**
 
-Дані, на які вказує ресурс, що повертається, будуть затерті викликом [curl\_multi\_remove\_handle()](function.curl-multi-remove-handle.html)
+Дані, на які вказує ресурс, що повертається, будуть затерті викликом [curlmultiremovehandle()](function.curl-multi-remove-handle.html)
 
 ### Список параметрів
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
 
 `queued_messages`
 
@@ -132,4 +132,4 @@ bool(false)
 
 ### Дивіться також
 
--   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів

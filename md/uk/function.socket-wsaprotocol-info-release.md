@@ -1,6 +1,6 @@
 Вивільняє експортовану структуру WSAPROTOCOLINFO
 
--   [« socket\_wsaprotocol\_info\_import](function.socket-wsaprotocol-info-import.html)
+-   [« socketwsaprotocolinfoimport](function.socket-wsaprotocol-info-import.html)
     
 -   [Socket »](class.socket.html)
     
@@ -31,7 +31,7 @@ socket_wsaprotocol_info_release(string $info_id): bool
 
 `info_id`
 
-Ідентифікатор, отриманий під час виклику [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html)
+Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html)
 
 ### Значення, що повертаються
 
@@ -39,4 +39,4 @@ socket_wsaprotocol_info_release(string $info_id): bool
 
 ### Дивіться також
 
--   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO
+-   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO

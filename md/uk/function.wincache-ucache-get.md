@@ -1,8 +1,8 @@
 Отримує змінну, що зберігається в кеші користувача.
 
--   [« wincache\_ucache\_exists](function.wincache-ucache-exists.html)
+-   [« wincacheucacheexists](function.wincache-ucache-exists.html)
     
--   [wincache\_ucache\_inc »](function.wincache-ucache-inc.html)
+-   [wincacheucacheinc »](function.wincache-ucache-inc.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ wincache_ucache_get(mixed $key, bool &$success = ?): mixed
 
 `key`
 
-Параметр `key`, який використовувався для зберігання змінної в кеші . `key` чутливий до регістру . `key` може бути масивом ключів. У цьому випадку значення, що повертається, буде масивом значень кожного елемента в масиві `key`. Якщо повертається об'єкт або масив, що містить об'єкти, об'єкти будуть десеріалізовані. Детальніше про десеріалізацію об'єктів дивіться [\_\_wakeup()](language.oop5.magic.html#object.wakeup)
+Параметр `key`, який використовувався для зберігання змінної в кеші . `key` чутливий до регістру . `key` може бути масивом ключів. У цьому випадку значення, що повертається, буде масивом значень кожного елемента в масиві `key`. Якщо повертається об'єкт або масив, що містить об'єкти, об'єкти будуть десеріалізовані. Детальніше про десеріалізацію об'єктів дивіться [wakeup()](language.oop5.magic.html#object.wakeup)
 
 `success`
 
@@ -84,11 +84,11 @@ bool(true)
 
 ### Дивіться також
 
--   [wincache\_ucache\_add()](function.wincache-ucache-add.html) - Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
--   [wincache\_ucache\_set()](function.wincache-ucache-set.html) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
--   [wincache\_ucache\_delete()](function.wincache-ucache-delete.html) - Видаляє змінні з користувальницького кешу
--   [wincache\_ucache\_clear()](function.wincache-ucache-clear.html) - Видаляє весь вміст кешу користувача.
--   [wincache\_ucache\_exists()](function.wincache-ucache-exists.html) - Перевіряє, чи існує змінна в кеші користувача
--   [wincache\_ucache\_meminfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincache\_ucache\_info()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [\_\_wakeup()](language.oop5.magic.html#object.wakeup)
+-   [wincacheucacheadd()](function.wincache-ucache-add.html) - Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
+-   [wincacheucacheset()](function.wincache-ucache-set.html) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincacheucachedelete()](function.wincache-ucache-delete.html) - Видаляє змінні з користувальницького кешу
+-   [wincacheucacheclear()](function.wincache-ucache-clear.html) - Видаляє весь вміст кешу користувача.
+-   [wincacheucacheexists()](function.wincache-ucache-exists.html) - Перевіряє, чи існує змінна в кеші користувача
+-   [wincacheucachememinfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincacheucacheinfo()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wakeup()](language.oop5.magic.html#object.wakeup)

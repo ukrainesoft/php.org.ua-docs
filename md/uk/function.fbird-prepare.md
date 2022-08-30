@@ -1,8 +1,8 @@
 Псевдонім ibaseprepare
 
--   [« fbird\_pconnect](function.fbird-pconnect.html)
+-   [« fbirdpconnect](function.fbird-pconnect.html)
     
--   [fbird\_query »](function.fbird-query.html)
+-   [fbirdquery »](function.fbird-query.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdprepare - Псевдонім [ibase\_prepare()](function.ibase-prepare.html)
+fbirdprepare - Псевдонім [ibaseprepare()](function.ibase-prepare.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_prepare()](function.ibase-prepare.html)
+Ця функція є псевдонімом: [ibaseprepare()](function.ibase-prepare.html)

@@ -1,8 +1,8 @@
 Підготовка запиту до виконання
 
--   [« oci\_num\_rows](function.oci-num-rows.html)
+-   [« ocinumrows](function.oci-num-rows.html)
     
--   [oci\_password\_change »](function.oci-password-change.html)
+-   [ocipasswordchange »](function.oci-password-change.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,15 +23,15 @@ ociparse — Підготовка запиту до виконання
 oci_parse(resource $connection, string $sql): resource|false
 ```
 
-Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[oci\_bind\_by\_name()](function.oci-bind-by-name.html)[oci\_execute()](function.oci-execute.html) та іншими.
+Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[ocibindбname()](function.oci-bind-by-name.html)[ociexecute()](function.oci-execute.html) та іншими.
 
-Ідентифікатори виразів можуть бути звільнені функцією [oci\_free\_statement()](function.oci-free-statement.html) або встановленням змінної в **`null`**
+Ідентифікатори виразів можуть бути звільнені функцією [ocifreestatement()](function.oci-free-statement.html) або встановленням змінної в **`null`**
 
 ### Список параметрів
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html) або [oci\_new\_connect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.html)
 
 `sql`
 
@@ -116,5 +116,5 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [oci\_execute()](function.oci-execute.html) - Виконує підготовлений вираз
--   [oci\_free\_statement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [ociexecute()](function.oci-execute.html) - Виконує підготовлений вираз
+-   [ocifreestatement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.

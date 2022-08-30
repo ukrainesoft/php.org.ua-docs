@@ -1,12 +1,12 @@
 Викликає обробники для сигналів, що очікують.
 
--   [« pcntl\_setpriority](function.pcntl-setpriority.html)
+-   [pcntlsetpriority](function.pcntl-setpriority.html)
     
--   [pcntl\_signal\_get\_handler »](function.pcntl-signal-get-handler.html)
+-   [pcntlsignalgethandler »](function.pcntl-signal-get-handler.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Викликає обробники для сигналів, що очікують.
     
@@ -23,7 +23,7 @@ pcntlsignaldispatch — Викликає обробники для сигнал�
 pcntl_signal_dispatch(): bool
 ```
 
-Функція **pcntlsignaldispatch()** викликає обробники сигналів, встановлені функцією [pcntl\_signal()](function.pcntl-signal.html), для кожного сигналу, що очікує.
+Функція **pcntlsignaldispatch()** викликає обробники сигналів, встановлені функцією [pcntlsignal()](function.pcntl-signal.html), для кожного сигналу, що очікує.
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ echo "Завершено.\n";
 
 ### Дивіться також
 
--   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [pcntl\_sigprocmask()](function.pcntl-sigprocmask.html) - Задає та витягує список сигналів, що блокуються.
--   [pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
--   [pcntl\_sigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу
+-   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
+-   [pcntlsigprocmask()](function.pcntl-sigprocmask.html) - Задає та витягує список сигналів, що блокуються.
+-   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
+-   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу

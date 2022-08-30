@@ -1,12 +1,12 @@
 Скидання біта
 
--   [« gmp\_binomial](function.gmp-binomial.html)
+-   [« gmpbinomial](function.gmp-binomial.html)
     
--   [gmp\_cmp »](function.gmp-cmp.html)
+-   [gmpcmp »](function.gmp-cmp.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Скидання біта
     
@@ -61,9 +61,9 @@ gmp_clrbit(GMP $num, int $index): void
 
 > **Зауваження**
 > 
-> На відміну від більшості GMP функцій, **gmpclrbit()** повинна викликатись для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmp\_init()](function.gmp-init.html)). Функція не створює їх автоматично.
+> На відміну від більшості GMP функцій, **gmpclrbit()** повинна викликатись для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmpinit()](function.gmp-init.html)). Функція не створює їх автоматично.
 
 ### Дивіться також
 
--   [gmp\_setbit()](function.gmp-setbit.html) - Встановлення біта
--   [gmp\_testbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1
+-   [gmpsetbit()](function.gmp-setbit.html) - Встановлення біта
+-   [gmptestbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1

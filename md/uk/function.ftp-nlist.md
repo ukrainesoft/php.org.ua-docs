@@ -1,12 +1,12 @@
 Повертає список файлів у заданій директорії
 
--   [« ftp\_nb\_put](function.ftp-nb-put.html)
+-   [« ftpнбput](function.ftp-nb-put.html)
     
--   [ftp\_pasv »](function.ftp-pasv.html)
+-   [ftppasv »](function.ftp-pasv.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Повертає список файлів у заданій директорії
     
@@ -27,7 +27,7 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `directory`
 
@@ -39,9 +39,9 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -79,5 +79,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ftp\_rawlist()](function.ftp-rawlist.html) - Повертає докладний список файлів у заданій директорії
--   [ftp\_mlsd()](function.ftp-mlsd.html) - Повертає список файлів у заданій директорії
+-   [ftprawlist()](function.ftp-rawlist.html) - Повертає докладний список файлів у заданій директорії
+-   [ftpmlsd()](function.ftp-mlsd.html) - Повертає список файлів у заданій директорії

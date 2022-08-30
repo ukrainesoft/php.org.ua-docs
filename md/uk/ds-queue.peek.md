@@ -1,12 +1,12 @@
 Повертає значення з початку черги
 
--   [« Ds\\Queue::jsonSerialize](ds-queue.jsonserialize.html)
+-   [« DsQueue::jsonSerialize](ds-queue.jsonserialize.html)
     
--   [Ds\\Queue::pop »](ds-queue.pop.html)
+-   [ДсQueue::pop »](ds-queue.pop.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Повертає значення з початку черги
     

@@ -1,12 +1,12 @@
 Запускає callback-функцію після закінчення певного періоду часу
 
--   [« Swoole\\Server::addProcess](swoole-server.addprocess.html)
+-   [« SwooleServer::addProcess](swoole-server.addprocess.html)
     
--   [Swoole\\Server::bind »](swoole-server.bind.html)
+-   [SwooleServer::bind »](swoole-server.bind.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Запускає callback-функцію після закінчення певного періоду часу
     

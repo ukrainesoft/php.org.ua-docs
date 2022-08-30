@@ -1,12 +1,12 @@
 Обгортка для розширеної операції Refresh
 
--   [« ldap\_exop\_passwd](function.ldap-exop-passwd.html)
+-   [« ldapexoppasswd](function.ldap-exop-passwd.html)
     
--   [ldap\_exop\_whoami »](function.ldap-exop-whoami.html)
+-   [ldapexopwhoami »](function.ldap-exop-whoami.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Обгортка для розширеної операції Refresh
     
@@ -29,7 +29,7 @@ ldap_exop_refresh(LDAP\Connection $ldap, string $dn, int $ttl): int|false
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `dn`
 
@@ -45,10 +45,10 @@ ldap_exop_refresh(LDAP\Connection $ldap, string $dn, int $ttl): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [ldap\_exop()](function.ldap-exop.html) - Виконує розширену операцію
+-   [ldapexop()](function.ldap-exop.html) - Виконує розширену операцію

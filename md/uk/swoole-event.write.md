@@ -1,12 +1,12 @@
 Записує дані в сокет
 
--   [« Swoole\\Event::wait](swoole-event.wait.html)
+-   [« SwooleEvent::wait](swoole-event.wait.html)
     
--   [Swoole\\Exception »](class.swoole-exception.html)
+-   [SwooleException »](class.swoole-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Записує дані в сокет
     

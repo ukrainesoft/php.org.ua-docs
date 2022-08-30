@@ -1,12 +1,12 @@
 Відновлює отримання даних
 
--   [« Swoole\\Client::recv](swoole-client.recv.html)
+-   [« SwooleClient::recv](swoole-client.recv.html)
     
--   [Swoole\\Client::send »](swoole-client.send.html)
+-   [SwooleClient::send »](swoole-client.send.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Відновлює отримання даних
     

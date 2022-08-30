@@ -1,6 +1,6 @@
 Порахувати кількість елементів
 
--   [« ArrayIterator::\_\_construct](arrayiterator.construct.html)
+-   [« ArrayIterator::construct](arrayiterator.construct.html)
     
 -   [ArrayIterator::current »](arrayiterator.current.html)
     

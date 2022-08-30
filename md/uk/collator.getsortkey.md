@@ -51,7 +51,7 @@ collator_get_sort_key(Collator $object, string $string): string|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -74,5 +74,5 @@ echo bin2hex($res);
 
 ### Дивіться також
 
--   [collator\_sort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
--   [collator\_sort\_with\_sort\_keys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування

@@ -1,8 +1,8 @@
 Клас ParleErrorInfo
 
--   [« Parle\\Token](class.parle-token.html)
+-   [« ParleToken](class.parle-token.html)
     
--   [Parle\\LexerException »](class.parle-lexerexception.html)
+-   [ParleLexerException »](class.parle-lexerexception.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас надає детальну інформацію про помилку, надану [Parle\\Parser::errorInfo()](parle-parser.errorinfo.html)
+Клас надає детальну інформацію про помилку, надану [ParleParser::errorInfo()](parle-parser.errorinfo.html)
 
 ## Огляд класів
 
@@ -65,4 +65,4 @@ position
 
 token
 
-Якщо можна застосувати - [Parle\\Token](class.parle-token.html), пов'язаний з помилкою, в іншому випадку **`null`**
+Якщо можна застосувати - [ParleToken](class.parle-token.html), пов'язаний з помилкою, в іншому випадку **`null`**

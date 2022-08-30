@@ -1,12 +1,12 @@
 Виводить текст
 
--   [« ps\_show2](function.ps-show2.html)
+-   [«psshow2](function.ps-show2.html)
     
--   [ps\_string\_geometry »](function.ps-string-geometry.html)
+-   [псstringgeometry »](function.ps-string-geometry.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Виводить текст
     
@@ -23,9 +23,9 @@
 ps_show(resource $psdoc, string $text): bool
 ```
 
-Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [ps\_set\_value()](function.ps-set-value.html). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [ps\_setfont()](function.ps-setfont.html)
+Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [псsetvalue()](function.ps-set-value.html). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [псsetfont()](function.ps-setfont.html)
 
-Функція **псshow()** оцінює наступні параметри та значення, встановлені [ps\_set\_parameter()](function.ps-set-parameter.html) і [ps\_set\_value()](function.ps-set-value.html)
+Функція **псshow()** оцінює наступні параметри та значення, встановлені [псsetparameter()](function.ps-set-parameter.html) і [псsetvalue()](function.ps-set-value.html)
 
 charspacing (значення)
 
@@ -55,7 +55,7 @@ strikeout (параметр)
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `text`
 
@@ -67,6 +67,6 @@ strikeout (параметр)
 
 ### Дивіться також
 
--   [ps\_continue\_text()](function.ps-continue-text.html) - Продовжує текст у наступному рядку
--   [ps\_show\_xy()](function.ps-show-xy.html) - Виводить текст у заданій позиції
--   [ps\_setfont()](function.ps-setfont.html) - Встановлює шрифт, який використовуватиметься для наступного висновку
+-   [псcontinuetext()](function.ps-continue-text.html) - Продовжує текст у наступному рядку
+-   [псshowxy()](function.ps-show-xy.html) - Виводить текст у заданій позиції
+-   [псsetfont()](function.ps-setfont.html) - Встановлює шрифт, який використовуватиметься для наступного висновку

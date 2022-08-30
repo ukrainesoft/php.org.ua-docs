@@ -1,12 +1,12 @@
 Створює процес
 
--   [« Swoole\\Process::close](swoole-process.close.html)
+-   [« SwooleProcess::close](swoole-process.close.html)
     
--   [Swoole\\Process::daemon »](swoole-process.daemon.html)
+-   [SwooleProcess::daemon »](swoole-process.daemon.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Створює процес
     

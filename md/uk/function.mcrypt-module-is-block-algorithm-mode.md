@@ -1,8 +1,8 @@
 Перевіряє, чи є заданий модуль блоковим чи ні
 
--   [« mcrypt\_module\_get\_supported\_key\_sizes](function.mcrypt-module-get-supported-key-sizes.html)
+-   [« mcryptmodulegetsupportedkeysizes](function.mcrypt-module-get-supported-key-sizes.html)
     
--   [mcrypt\_module\_is\_block\_algorithm »](function.mcrypt-module-is-block-algorithm.html)
+-   [mcryptmoduleісblockalgorithm »](function.mcrypt-module-is-block-algorithm.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ mcryptmoduleісblockalgorithmmode — Перевіряє, чи заданий �
 mcrypt_module_is_block_algorithm_mode(string $mode, string $lib_dir = ?): bool
 ```
 
-Функція повертає **`true`**якщо режим використовується з блочними алгоритмами, інакше повертає **`false`**. (тобто **`false`** для потокових та **`true`** для cbc, cfb, ofb).
+Функція повертає \*\*`true`\*\*якщо режим використовується з блочними алгоритмами, інакше повертає **`false`**. (тобто **`false`** для потокових та **`true`** для cbc, cfb, ofb).
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ mcrypt_module_is_block_algorithm_mode(string $mode, string $lib_dir = ?): bool
 
 ### Значення, що повертаються
 
-Функція повертає **`true`**якщо режим використовується з блочними алгоритмами, інакше повертає **`false`**. (тобто **`false`** для потокових та **`true`** для cbc, cfb, ofb).
+Функція повертає \*\*`true`\*\*якщо режим використовується з блочними алгоритмами, інакше повертає **`false`**. (тобто **`false`** для потокових та **`true`** для cbc, cfb, ofb).

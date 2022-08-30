@@ -1,8 +1,8 @@
 Повертає потік, що відображає змінну, що використовується при взаємодії з libeio
 
--   [« eio\_futime](function.eio-futime.html)
+-   [« eiofutime](function.eio-futime.html)
     
--   [eio\_get\_last\_error »](function.eio-get-last-error.html)
+-   [eiogetlasterror »](function.eio-get-last-error.html)
     
 -   [PHP Manual](index.html)
     

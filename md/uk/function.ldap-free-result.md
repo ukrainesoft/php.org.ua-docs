@@ -1,12 +1,12 @@
 Звільнити пам'ять результату
 
--   [« ldap\_first\_reference](function.ldap-first-reference.html)
+-   [« ldapfirstreference](function.ldap-first-reference.html)
     
--   [ldap\_get\_attributes »](function.ldap-get-attributes.html)
+-   [ldapgetattributes »](function.ldap-get-attributes.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Звільнити пам'ять результату
     
@@ -31,7 +31,7 @@ ldap_free_result(LDAP\Result $result): bool
 
 `result`
 
-Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
+Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.html)
 
 ### Значення, що повертаються
 
@@ -39,6 +39,6 @@ ldap_free_result(LDAP\Result $result): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                         |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

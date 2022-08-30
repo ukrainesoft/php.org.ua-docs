@@ -1,12 +1,12 @@
 Декодує рядок із формату uuencode у звичайний вигляд
 
--   [« convert\_cyr\_string](function.convert-cyr-string.html)
+-   [« convertcyrstring](function.convert-cyr-string.html)
     
--   [convert\_uuencode »](function.convert-uuencode.html)
+-   [convertuuencode »](function.convert-uuencode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Декодує рядок із формату uuencode у звичайний вигляд
     
@@ -55,4 +55,4 @@ I love PHP!
 
 ### Дивіться також
 
--   [convert\_uuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode
+-   [convertuuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode

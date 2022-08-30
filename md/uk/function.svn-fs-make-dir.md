@@ -1,12 +1,12 @@
 Створює нову порожню директорію
 
--   [« svn\_fs\_is\_file](function.svn-fs-is-file.html)
+-   [« svnфсісfile](function.svn-fs-is-file.html)
     
--   [svn\_fs\_make\_file »](function.svn-fs-make-file.html)
+-   [svnфсmakefile »](function.svn-fs-make-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює нову порожню директорію
     

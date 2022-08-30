@@ -1,8 +1,8 @@
 (Не-) ініціалізує Eio
 
--   [« eio\_grp](function.eio-grp.html)
+-   [« eiogrp](function.eio-grp.html)
     
--   [eio\_link »](function.eio-link.html)
+-   [eiolink »](function.eio-link.html)
     
 -   [PHP Manual](index.html)
     

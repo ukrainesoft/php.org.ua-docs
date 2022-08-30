@@ -1,12 +1,12 @@
 Знищує канал Swoole
 
--   [« Swoole\\Channel::\_\_construct](swoole-channel.construct.html)
+-   [« SwooleChannel::construct](swoole-channel.construct.html)
     
--   [Swoole\\Channel::pop »](swoole-channel.pop.html)
+-   [SwooleChannel::pop »](swoole-channel.pop.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Channel](class.swoole-channel.html)
+-   [SwooleChannel](class.swoole-channel.html)
     
 -   Знищує канал Swoole
     

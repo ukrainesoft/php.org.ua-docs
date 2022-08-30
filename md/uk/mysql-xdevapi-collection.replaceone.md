@@ -2,11 +2,11 @@
 
 -   [« Collection::removeOne](mysql-xdevapi-collection.removeone.html)
     
--   [mysql\_xdevapi\\CollectionAdd »](class.mysql-xdevapi-collectionadd.html)
+-   [mysqlxdevapiCollectionAdd »](class.mysql-xdevapi-collectionadd.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+-   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     
 -   Замінює один документ колекції
     

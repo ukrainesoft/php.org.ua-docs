@@ -29,7 +29,7 @@ public XMLReader::getParserProperty(int $property): bool
 
 `property`
 
-Одна з [констант анализатора](class.xmlreader.html#xmlreader.constants)
+Одна з [констант аналізатора](class.xmlreader.html#xmlreader.constants)
 
 ### Значення, що повертаються
 

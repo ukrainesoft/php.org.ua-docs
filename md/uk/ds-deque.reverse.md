@@ -1,12 +1,12 @@
 Перевертає поточну двосторонню чергу
 
--   [« Ds\\Deque::remove](ds-deque.remove.html)
+-   [« DsDeque::remove](ds-deque.remove.html)
     
--   [Ds\\Deque::reversed »](ds-deque.reversed.html)
+-   [ДсDeque::reversed »](ds-deque.reversed.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Перевертає поточну двосторонню чергу
     

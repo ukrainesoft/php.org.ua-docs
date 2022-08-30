@@ -2,7 +2,7 @@
 
 -   [« ImagickPixelIterator](class.imagickpixeliterator.html)
     
--   [ImagickPixelIterator::\_\_construct »](imagickpixeliterator.construct.html)
+-   [ImagickPixelIterator::construct »](imagickpixeliterator.construct.html)
     
 -   [PHP Manual](index.html)
     

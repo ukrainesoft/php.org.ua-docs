@@ -1,8 +1,8 @@
 Зупинити та відновити з'єднання
 
--   [« curl\_multi\_strerror](function.curl-multi-strerror.html)
+-   [« curlmultistrerror](function.curl-multi-strerror.html)
     
--   [curl\_reset »](function.curl-reset.html)
+-   [curlreset »](function.curl-reset.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ curl_pause(CurlHandle $handle, int $flags): int
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 `flags`
 

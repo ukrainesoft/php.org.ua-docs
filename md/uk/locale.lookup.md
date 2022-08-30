@@ -57,7 +57,7 @@ locale_lookup(    array $languageTag,    string $locale,    bool $ca
 
 Найбільш відповідна даної локалі мітка мови.
 
-Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### список змін
 
@@ -103,4 +103,4 @@ de_de_1996
 
 ### Дивіться також
 
--   [locale\_filter\_matches()](locale.filtermatches.html) - Перевірити, чи тег фільтра мови локалі відповідає
+-   [localefiltermatches()](locale.filtermatches.html) - Перевірити, чи тег фільтра мови локалі відповідає

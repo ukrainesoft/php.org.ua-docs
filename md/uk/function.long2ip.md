@@ -2,11 +2,11 @@
 
 -   [« ip2long](function.ip2long.html)
     
--   [net\_get\_interfaces »](function.net-get-interfaces.html)
+-   [netgetinterfaces »](function.net-get-interfaces.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Конвертує ціле число в IPv4-адресу
     

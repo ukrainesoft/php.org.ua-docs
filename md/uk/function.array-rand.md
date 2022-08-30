@@ -1,12 +1,12 @@
 Вибирає один або кілька випадкових ключів із масиву
 
--   [« array\_push](function.array-push.html)
+-   [« arraypush](function.array-push.html)
     
--   [array\_reduce »](function.array-reduce.html)
+-   [arrayreduce »](function.array-reduce.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Вибирає один або кілька випадкових ключів із масиву
     
@@ -43,7 +43,7 @@ array_rand(array $array, int $num = 1): int|string|array
 
 | Версия | Описание                                                                                                                                                                                                                                                             |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
+|        | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
 
 ### Приклади
 

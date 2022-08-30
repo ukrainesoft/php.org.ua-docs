@@ -1,8 +1,8 @@
 Виконує SOAP-запит
 
--   [« SoapClient::\_\_construct](soapclient.construct.html)
+-   [« SoapClient::construct](soapclient.construct.html)
     
--   [SoapClient::\_\_getCookies »](soapclient.getcookies.html)
+-   [SoapClient::getCookies »](soapclient.getcookies.html)
     
 -   [PHP Manual](index.html)
     

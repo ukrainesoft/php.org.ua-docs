@@ -1,8 +1,8 @@
 Читає рядок максимальну довжину байт із сокету
 
--   [« socket\_listen](function.socket-listen.html)
+-   [« socketlisten](function.socket-listen.html)
     
--   [socket\_recv »](function.socket-recv.html)
+-   [socketrecv »](function.socket-recv.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ socketread — Читає рядок максимальну довжину ба�
 socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|false
 ```
 
-Функція **socketread()** читає дані з екземпляра [Socket](class.socket.html) `socket`, створеного за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Функція **socketread()** читає дані з екземпляра [Socket](class.socket.html) `socket`, створеного за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `length`
 
@@ -44,7 +44,7 @@ socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|fa
 
 ### Значення, що повертаються
 
-**socketread()** повертає дані у вигляді рядка у разі успішного виконання, або **`false`** у разі виникнення помилки (включаючи випадок, коли віддалений хост закрив з'єднання). Код помилки може бути отриманий за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+**socketread()** повертає дані у вигляді рядка у разі успішного виконання, або **`false`** у разі виникнення помилки (включаючи випадок, коли віддалений хост закрив з'єднання). Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 > **Зауваження**
 > 
@@ -58,10 +58,10 @@ socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|fa
 
 ### Дивіться також
 
--   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
--   [socket\_write()](function.socket-write.html) - Запис у сокет
+-   [socketaccept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketwrite()](function.socket-write.html) - Запис у сокет

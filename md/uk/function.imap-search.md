@@ -1,8 +1,8 @@
 Отримати повідомлення, які відповідають заданим критеріям
 
--   [« imap\_scanmailbox](function.imap-scanmailbox.html)
+-   [« imapscanmailbox](function.imap-scanmailbox.html)
     
--   [imap\_set\_quota »](function.imap-set-quota.html)
+-   [imapsetquota »](function.imap-set-quota.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `criteria`
 
@@ -78,9 +78,9 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -131,4 +131,4 @@ Array
 
 ### Дивіться також
 
--   [imap\_listscan()](function.imap-listscan.html) - Отримати список поштових скриньок, імена яких містять заданий рядок
+-   [imaplistscan()](function.imap-listscan.html) - Отримати список поштових скриньок, імена яких містять заданий рядок

@@ -1,12 +1,12 @@
 Визначення конструктора
 
--   [« Componere\\Definition](class.componere-definition.html)
+-   [« ComponereDefinition](class.componere-definition.html)
     
--   [Componere\\Definition::addConstant »](componere-definition.addconstant.html)
+-   [ComponereDefinition::addConstant »](componere-definition.addconstant.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Визначення конструктора
     

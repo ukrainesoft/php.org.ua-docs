@@ -12,11 +12,11 @@
 # Приступаючи до роботи
 
 -   [Введение](introduction.html)
-    -   [Что такое PHP?](intro-whatis.html)
-    -   [Возможности PHP](intro-whatcando.html)
--   [Простой учебник](tutorial.html)
-    -   [Что мне потребуется?](tutorial.requirements.html)
-    -   [Первая страница на PHP](tutorial.firstpage.html)
-    -   [Делаем что-нибудь полезное](tutorial.useful.html)
+    -   [Що таке PHP?](intro-whatis.html)
+    -   [Можливості PHP](intro-whatcando.html)
+-   [Простий підручник](tutorial.html)
+    -   [Що мені потрібно?](tutorial.requirements.html)
+    -   [Перша сторінка на PHP](tutorial.firstpage.html)
+    -   [Робимо щось корисне](tutorial.useful.html)
     -   [Работа с формами](tutorial.forms.html)
-    -   [Что дальше?](tutorial.whatsnext.html)
+    -   [Що далі?](tutorial.whatsnext.html)

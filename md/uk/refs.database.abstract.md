@@ -1,12 +1,12 @@
 Рівні абстракції
 
--   [« Модули для работы с базами данных](refs.database.html)
+-   [« Модулі для роботи з базами даних](refs.database.html)
     
 -   [DBA »](book.dba.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с базами данных](refs.database.html)
+-   [Модулі для роботи з базами даних](refs.database.html)
     
 -   Рівні абстракції
     
@@ -18,7 +18,7 @@
     -   [Установка и настройка](dba.setup.html)
     -   [Предопределённые константы](dba.constants.html)
     -   [Примеры](dba.examples.html)
-    -   [Функции DBA](ref.dba.html)
+    -   [Функції DBA](ref.dba.html)
 -   [ODBC](book.uodbc.html) - ODBC (Unified)
     -   [Введение](intro.uodbc.html)
     -   [Установка и настройка](uodbc.setup.html)
@@ -29,11 +29,11 @@
     -   [Установка и настройка](pdo.setup.html)
     -   [Предопределённые константы](pdo.constants.html)
     -   [Подключения и управление подключениями](pdo.connections.html)
-    -   [Транзакции и автоматическая фиксация изменений](pdo.transactions.html)
-    -   [Подготовленные запросы и хранимые процедуры](pdo.prepared-statements.html)
+    -   [Транзакції та автоматична фіксація змін](pdo.transactions.html)
+    -   [Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
     -   [Ошибки и их обработка](pdo.error-handling.html)
-    -   [Большие объекты (LOB)](pdo.lobs.html)
+    -   [Великі об'єкти (LOB)](pdo.lobs.html)
     -   [PDO](class.pdo.html) - Клас PDO
     -   [PDOStatement](class.pdostatement.html) - Клас PDOStatement
     -   [PDOException](class.pdoexception.html) - Клас PDOException
-    -   [Драйверы PDO](pdo.drivers.html)
+    -   [Драйвери PDO](pdo.drivers.html)

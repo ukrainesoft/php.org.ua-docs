@@ -1,8 +1,8 @@
 Клас ComponereDefinition
 
--   [« Componere\\Abstract\\Definition::getReflector](componere-abstract-definition.getreflector.html)
+-   [« ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.html)
     
--   [Componere\\Definition::\_\_construct »](componere-definition.construct.html)
+-   [ComponereDefinition::construct »](componere-definition.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,10 +71,10 @@ public Componere\Abstract\Definition::getReflector(): ReflectionClass
 
 ## Зміст
 
--   [Componere\\Definition::\_\_construct](componere-definition.construct.html) - Визначення конструктора
--   [Componere\\Definition::addConstant](componere-definition.addconstant.html) — додає константу
--   [Componere\\Definition::addProperty](componere-definition.addproperty.html) - Додає властивість
--   [Componere\\Definition::register](componere-definition.register.html) - Реєстрація
--   [Componere\\Definition::isRegistered](componere-definition.isregistered.html) — Визначення стану
--   [Componere\\Definition::getClosure](componere-definition.getclosure.html) — Отримує замикання
--   [Componere\\Definition::getClosures](componere-definition.getclosures.html) — Отримує замикання
+-   [ComponereDefinition::construct](componere-definition.construct.html) - Визначення конструктора
+-   [ComponereDefinition::addConstant](componere-definition.addconstant.html) — додає константу
+-   [ComponereDefinition::addProperty](componere-definition.addproperty.html) - Додає властивість
+-   [ComponereDefinition::register](componere-definition.register.html) - Реєстрація
+-   [ComponereDefinition::isRegistered](componere-definition.isregistered.html) — Визначення стану
+-   [ComponereDefinition::getClosure](componere-definition.getclosure.html) — Отримує замикання
+-   [ComponereDefinition::getClosures](componere-definition.getclosures.html) — Отримує замикання

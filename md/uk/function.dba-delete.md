@@ -1,12 +1,12 @@
 Видаляє запис бази даних, визначену ключем
 
--   [« dba\_close](function.dba-close.html)
+-   [« dbaclose](function.dba-close.html)
     
--   [dba\_exists »](function.dba-exists.html)
+-   [dbaexists »](function.dba-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Видаляє запис бази даних, визначену ключем
     
@@ -33,7 +33,7 @@ dba_delete(string|array $key, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
@@ -41,7 +41,7 @@ dba_delete(string|array $key, resource $dba): bool
 
 ### Дивіться також
 
--   [dba\_exists()](function.dba-exists.html) - Перевіряє, чи існує ключ
--   [dba\_fetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
--   [dba\_insert()](function.dba-insert.html) - Вставляє запис
--   [dba\_replace()](function.dba-replace.html) - Перезаписати або вставити запис
+-   [dbaexists()](function.dba-exists.html) - Перевіряє, чи існує ключ
+-   [dbafetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
+-   [dbainsert()](function.dba-insert.html) - Вставляє запис
+-   [dbareplace()](function.dba-replace.html) - Перезаписати або вставити запис

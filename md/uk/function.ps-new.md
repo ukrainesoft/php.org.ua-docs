@@ -1,12 +1,12 @@
 Створює новий об'єкт документа PostScript
 
--   [« ps\_moveto](function.ps-moveto.html)
+-   [«psmoveto](function.ps-moveto.html)
     
--   [ps\_open\_file »](function.ps-open-file.html)
+-   [псopenfile »](function.ps-open-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Створює новий об'єкт документа PostScript
     
@@ -23,7 +23,7 @@
 ps_new(): resource|false
 ```
 
-Створює новий екземпляр документа. Функція не створює файл на диску чи пам'яті, вона просто все налаштовує. За **псnew()** зазвичай слідує виклик [ps\_open\_file()](function.ps-open-file.html) для фактичного створення документа postscript.
+Створює новий екземпляр документа. Функція не створює файл на диску чи пам'яті, вона просто все налаштовує. За **псnew()** зазвичай слідує виклик [псopenfile()](function.ps-open-file.html) для фактичного створення документа postscript.
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ ps_new(): resource|false
 
 ### Дивіться також
 
--   [ps\_delete()](function.ps-delete.html) - Видаляє всі ресурси документа PostScript
+-   [псdelete()](function.ps-delete.html) - Видаляє всі ресурси документа PostScript

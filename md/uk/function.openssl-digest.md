@@ -1,8 +1,8 @@
 Обчислення дайджесту
 
--   [« openssl\_dh\_compute\_key](function.openssl-dh-compute-key.html)
+-   [« opensslдхcomputekey](function.openssl-dh-compute-key.html)
     
--   [openssl\_encrypt »](function.openssl-encrypt.html)
+-   [opensslencrypt »](function.openssl-encrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 `digest_algo`
 
-Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html)
+Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [opensslgetмдmethods()](function.openssl-get-md-methods.html)
 
 `binary`
 
@@ -49,4 +49,4 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 ### Дивіться також
 
--   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування

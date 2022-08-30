@@ -1,6 +1,6 @@
 Клас DOMCharacterData
 
--   [« DOMCdataSection::\_\_construct](domcdatasection.construct.html)
+-   [« DOMCdataSection::construct](domcdatasection.construct.html)
     
 -   [DOMCharacterData::appendData »](domcharacterdata.appenddata.html)
     
@@ -183,7 +183,7 @@ previousElementSibling
 
 ## Дивіться також
 
--   [» Спецификация W3C символьных данных](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-FF21A306)
+-   [» Специфікація W3C символьних даних](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-FF21A306)
 
 ## Зміст
 

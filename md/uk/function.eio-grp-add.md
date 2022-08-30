@@ -1,8 +1,8 @@
 Додає запит до групи запитів
 
--   [« eio\_get\_last\_error](function.eio-get-last-error.html)
+-   [« eiogetlasterror](function.eio-get-last-error.html)
     
--   [eio\_grp\_cancel »](function.eio-grp-cancel.html)
+-   [eiogrpcancel »](function.eio-grp-cancel.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ eio_grp_add(resource $grp, resource $req): void
 
 `grp`
 
-Вказівник на групу запитів, повернутий [eio\_grp()](function.eio-grp.html)
+Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.html)
 
 `req`
 
@@ -113,6 +113,6 @@ bool(true)
 
 ### Дивіться також
 
--   [eio\_grp()](function.eio-grp.html) - Створює групу запитів
--   [eio\_grp\_cancel()](function.eio-grp-cancel.html) - Скасує групу запитів
--   [eio\_grp\_limit()](function.eio-grp-limit.html) - Встановлює граничну кількість запитів у групі
+-   [eiogrp()](function.eio-grp.html) - Створює групу запитів
+-   [eiogrpcancel()](function.eio-grp-cancel.html) - Скасує групу запитів
+-   [eiogrplimit()](function.eio-grp-limit.html) - Встановлює граничну кількість запитів у групі

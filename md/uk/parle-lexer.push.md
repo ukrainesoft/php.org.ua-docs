@@ -1,12 +1,12 @@
 Додає правило лексера
 
--   [« Parle\\Lexer::insertMacro](parle-lexer.insertmacro.html)
+-   [« ParleLexer::insertMacro](parle-lexer.insertmacro.html)
     
--   [Parle\\Lexer::reset »](parle-lexer.reset.html)
+-   [ParleLexer::reset »](parle-lexer.reset.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Lexer](class.parle-lexer.html)
+-   [ParleLexer](class.parle-lexer.html)
     
 -   Додає правило лексера
     
@@ -33,7 +33,7 @@ public Parle\Lexer::push(string $regex, int $id): void
 
 `id`
 
-Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, то може бути довільним числом. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, має бути ідентифікатор, який повертається [Parle\\Parser::tokenid()](parle-parser.tokenid.html)
+Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, то може бути довільним числом. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, має бути ідентифікатор, який повертається [ParleParser::tokenid()](parle-parser.tokenid.html)
 
 ### Значення, що повертаються
 

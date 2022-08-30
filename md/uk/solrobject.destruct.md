@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrObject::\_\_construct](solrobject.construct.html)
+-   [« SolrObject::construct](solrobject.construct.html)
     
 -   [SolrObject::getPropertyNames »](solrobject.getpropertynames.html)
     

@@ -1,8 +1,8 @@
 Відображення
 
--   [« CommonMark\\Render\\HTML](function.commonmark-render-html.html)
+-   [« CommonMarkRenderHTML](function.commonmark-render-html.html)
     
--   [CommonMark\\Render\\Man »](function.commonmark-render-man.html)
+-   [CommonMarkRenderMan »](function.commonmark-render-man.html)
     
 -   [PHP Manual](index.html)
     

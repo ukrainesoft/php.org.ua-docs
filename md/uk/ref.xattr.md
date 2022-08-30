@@ -2,7 +2,7 @@ xattr Функції
 
 -   [« Предопределённые константы](xattr.constants.html)
     
--   [xattr\_get »](function.xattr-get.html)
+-   [xattrget »](function.xattr-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@ xattr Функції
 
 ## Зміст
 
--   [xattr\_get](function.xattr-get.html) — Отримання розширених атрибутів файлу
--   [xattr\_list](function.xattr-list.html) — Перегляд списку розширених атрибутів файлу
--   [xattr\_remove](function.xattr-remove.html) — Видалення розширених атрибутів файлу
--   [xattr\_set](function.xattr-set.html) — Встановлення розширених атрибутів файлу
--   [xattr\_supported](function.xattr-supported.html) — Перевірка підтримки розширених атрибутів
+-   [xattrget](function.xattr-get.html) — Отримання розширених атрибутів файлу
+-   [xattrlist](function.xattr-list.html) — Перегляд списку розширених атрибутів файлу
+-   [xattrremove](function.xattr-remove.html) — Видалення розширених атрибутів файлу
+-   [xattrset](function.xattr-set.html) — Встановлення розширених атрибутів файлу
+-   [xattrsupported](function.xattr-supported.html) — Перевірка підтримки розширених атрибутів

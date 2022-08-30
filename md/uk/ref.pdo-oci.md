@@ -1,12 +1,12 @@
 Функції Oracle (PDOOCI)
 
--   [« PDO\_SQLSRV DSN](ref.pdo-sqlsrv.connection.html)
+-   [« PDOSQLSRV DSN](ref.pdo-sqlsrv.connection.html)
     
--   [PDO\_OCI DSN »](ref.pdo-oci.connection.html)
+-   [PDOOCI DSN »](ref.pdo-oci.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції Oracle (PDOOCI)
     
@@ -59,4 +59,4 @@ $ ./configure --with-pdo-oci=instantclient,/usr,10.2.0.3
 
 ## Зміст
 
--   [PDO\_OCI DSN](ref.pdo-oci.connection.html) — З'єднання з базою даних Oracle
+-   [PDOOCI DSN](ref.pdo-oci.connection.html) — З'єднання з базою даних Oracle

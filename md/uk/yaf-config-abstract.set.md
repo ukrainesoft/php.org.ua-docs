@@ -1,12 +1,12 @@
 Сеттер
 
--   [« Yaf\_Config\_Abstract::readonly](yaf-config-abstract.readonly.html)
+-   [« YafConfigAbstract::readonly](yaf-config-abstract.readonly.html)
     
--   [Yaf\_Config\_Abstract::toArray »](yaf-config-abstract.toarray.html)
+-   [YafConfigAbstract::toArray »](yaf-config-abstract.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+-   [YafConfigAbstract](class.yaf-config-abstract.html)
     
 -   Сеттер
     

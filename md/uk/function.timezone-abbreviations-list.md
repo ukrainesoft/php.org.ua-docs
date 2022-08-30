@@ -2,7 +2,7 @@
 
 -   [« time](function.time.html)
     
--   [timezone\_identifiers\_list »](function.timezone-identifiers-list.html)
+-   [timezoneidentifierslist »](function.timezone-identifiers-list.html)
     
 -   [PHP Manual](index.html)
     

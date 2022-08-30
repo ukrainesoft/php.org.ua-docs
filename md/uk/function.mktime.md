@@ -61,7 +61,7 @@ mktime(    int $hour,    ?int $minute = null,    ?int $second = null
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [date\_default\_timezone\_set()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
 
 ### список змін
 

@@ -23,7 +23,7 @@ mysqli::$affectedrows - mysqliaffectedrows — Отримує кількість
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli->affected\_rows](mysqli.affected-rows.html)
+int|string [$mysqli->affectedrows](mysqli.affected-rows.html)
 
 Процедурний стиль
 
@@ -31,13 +31,13 @@ int|string [$mysqli->affected\_rows](mysqli.affected-rows.html)
 mysqli_affected_rows(mysqli $mysql): int|string
 ```
 
-Повертає кількість рядків, які торкнулися останнім запитом `INSERT` `UPDATE` `REPLACE` або `DELETE`. Працює аналогічно [mysqli\_num\_rows()](mysqli-result.num-rows.html) для виразів `SELECT`
+Повертає кількість рядків, які торкнулися останнім запитом `INSERT` `UPDATE` `REPLACE` або `DELETE`. Працює аналогічно [mysqlinumrows()](mysqli-result.num-rows.html) для виразів `SELECT`
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -124,5 +124,5 @@ mysqli_query($link, "DROP TABLE Language");
 
 ### Дивіться також
 
--   [mysqli\_num\_rows()](mysqli-result.num-rows.html) - Отримує кількість рядків у наборі результатів
--   [mysqli\_info()](mysqli.info.html) - Витягує інформацію про останній виконаний запит
+-   [mysqlinumrows()](mysqli-result.num-rows.html) - Отримує кількість рядків у наборі результатів
+-   [mysqliinfo()](mysqli.info.html) - Витягує інформацію про останній виконаний запит

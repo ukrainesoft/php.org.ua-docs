@@ -1,12 +1,12 @@
 Отримує поточний об'єкт відповіді
 
--   [« Yaf\_Controller\_Abstract::getRequest](yaf-controller-abstract.getrequest.html)
+-   [« YafControllerAbstract::getRequest](yaf-controller-abstract.getrequest.html)
     
--   [Yaf\_Controller\_Abstract::getView »](yaf-controller-abstract.getview.html)
+-   [YafControllerAbstract::getView »](yaf-controller-abstract.getview.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Отримує поточний об'єкт відповіді
     
@@ -31,4 +31,4 @@ public Yaf_Controller_Abstract::getResponse(): Yaf_Response_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+Екземпляр [YafResponseAbstract](class.yaf-response-abstract.html)

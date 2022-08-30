@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Створює файл із унікальним ім'ям
     
@@ -72,5 +72,5 @@ unlink($tmpfname);
 ### Дивіться також
 
 -   [tmpfile()](function.tmpfile.html) - Створює тимчасовий файл
--   [sys\_get\_temp\_dir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів
+-   [sysgettempdir()](function.sys-get-temp-dir.html) - Повертає шлях до директорії тимчасових файлів
 -   [unlink()](function.unlink.html) - Видаляє файл

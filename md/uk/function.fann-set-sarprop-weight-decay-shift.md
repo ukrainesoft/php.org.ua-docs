@@ -1,8 +1,8 @@
 Встановлює зсув згасання sarprop
 
--   [« fann\_set\_sarprop\_temperature](function.fann-set-sarprop-temperature.html)
+-   [« fannsetsarproptemperature](function.fann-set-sarprop-temperature.html)
     
--   [fann\_set\_scaling\_params »](function.fann-set-scaling-params.html)
+-   [fannsetscalingparams »](function.fann-set-scaling-params.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,4 +47,4 @@ fann_set_sarprop_weight_decay_shift(resource $ann, float $sarprop_weight_decay_s
 
 ### Дивіться також
 
--   [fann\_get\_sarprop\_weight\_decay\_shift()](function.fann-get-sarprop-weight-decay-shift.html) - Повертає зсув зменшення ваги sarprop
+-   [fanngetsarpropweightdecayshift()](function.fann-get-sarprop-weight-decay-shift.html) - Повертає зсув зменшення ваги sarprop

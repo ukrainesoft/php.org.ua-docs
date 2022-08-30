@@ -2,11 +2,11 @@
 
 -   [« TableUpdate::set](mysql-xdevapi-tableupdate.set.html)
     
--   [mysql\_xdevapi\\Warning »](class.mysql-xdevapi-warning.html)
+-   [mysqlxdevapiWarning »](class.mysql-xdevapi-warning.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+-   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
     
 -   Встановлює фільтр пошуку
     

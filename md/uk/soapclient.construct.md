@@ -1,8 +1,8 @@
 Конструктор класу SoapClient
 
--   [« SoapClient::\_\_call](soapclient.call.html)
+-   [« SoapClient::call](soapclient.call.html)
     
--   [SoapClient::\_\_doRequest »](soapclient.dorequest.html)
+-   [SoapClient::doRequest »](soapclient.dorequest.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ URI WSDL-файлу, який описує сервіс, який викорис
 
 > **Зауваження**
 > 
-> За промовчанням файл WSDL кешуватиметься для підвищення продуктивності. Щоб вимкнути або налаштувати кешування, дивіться розділ [Опции настройки SOAP](soap.configuration.html#soap.configuration.list) і [параметр `cache_wsdl`](soapclient.construct.html#soapclient.construct.options.cache-wsdl)
+> За промовчанням файл WSDL кешуватиметься для підвищення продуктивності. Щоб вимкнути або налаштувати кешування, дивіться розділ [Опції налаштування SOAP](soap.configuration.html#soap.configuration.list) і [параметр`cache_wsdl`](soapclient.construct.html#soapclient.construct.options.cache-wsdl)
 
 `options`
 
@@ -125,7 +125,7 @@ TCP-порт для використання при підключенні до 
 
 Включає стиснення HTTP SOAP запитів та відповідей.
 
-Значення має бути побітовим АБО з трьох частин: необов'язкова **`SOAP_COMPRESSION_ACCEPT`**для надсилання заголовка "Accept-Encoding"; або константа **`SOAP_COMPRESSION_GZIP`** або **`SOAP_COMPRESSION_DEFLATE`** для вказівки використовуваного алгоритму стискування; число від 1 до 9, щоб вказати рівень стиснення, який використовуватиметься у запиті. Наприклад, щоб увімкнути двосторонній стиск gzip з максимальним рівнем стиснення, використовуйте `SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP | 9`
+Значення має бути побітовим АБО з трьох частин: необов'язкова \*\*`SOAP_COMPRESSION_ACCEPT`\*\*для надсилання заголовка "Accept-Encoding"; або константа **`SOAP_COMPRESSION_GZIP`** або **`SOAP_COMPRESSION_DEFLATE`** для вказівки використовуваного алгоритму стискування; число від 1 до 9, щоб вказати рівень стиснення, який використовуватиметься у запиті. Наприклад, щоб увімкнути двосторонній стиск gzip з максимальним рівнем стиснення, використовуйте `SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP | 9`
 
 `encoding` string
 
@@ -141,9 +141,9 @@ TCP-порт для використання при підключенні до 
 
 Використовується для зіставлення типів, визначених у WSDL із класами PHP. Має бути вказаний асоціативний масив (array) з іменами типів з WSDL як ключі та іменами класів PHP як значень. Зверніть увагу, що назва типу елемента не обов'язково збігається з ім'ям елемента (тега).
 
-Надані імена класів завжди повинні бути повністю визначені за допомогою будь-яких [пространств имён](language.namespaces.html) і ніколи не повинні починатися з ведучого слєша (`\`). Правильна форма може бути вказана за допомогою [::class](language.oop5.basic.html#language.oop5.basic.class.class)
+Надані імена класів завжди повинні бути повністю визначені за допомогою будь-яких [просторів імен](language.namespaces.html) і ніколи не повинні починатися з ведучого слєша (`\`). Правильна форма може бути вказана за допомогою [::class](language.oop5.basic.html#language.oop5.basic.class.class)
 
-Зверніть увагу, що при створенні класу конструктор не викликатиметься, але магічні методи [\_\_set()](language.oop5.overloading.html#object.set) і [\_\_get()](language.oop5.overloading.html#object.get) будуть викликатися окремих властивостей.
+Зверніть увагу, що при створенні класу конструктор не викликатиметься, але магічні методи [set()](language.oop5.overloading.html#object.set) і [get()](language.oop5.overloading.html#object.get) будуть викликатися окремих властивостей.
 
 `typemap` array
 
@@ -157,15 +157,15 @@ TCP-порт для використання при підключенні до 
 
 `connection_timeout` int
 
-Визначає час очікування в секундах для підключення до SOAP. Параметр не визначає час очікування служб із повільними відповідями. Щоб обмежити час очікування завершення дзвінків, можна налаштувати конфігурацію. [default\_socket\_timeout](filesystem.configuration.html#ini.default-socket-timeout)
+Визначає час очікування в секундах для підключення до SOAP. Параметр не визначає час очікування служб із повільними відповідями. Щоб обмежити час очікування завершення дзвінків, можна налаштувати конфігурацію. [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)
 
 `cache_wsdl` int
 
-Якщо вказано параметр `wsdl`, а також параметр [soap.wsdl\_cache\_enabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) Увімкнено, цей параметр визначає тип кешування. Одне із значень: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`** або **`WSDL_CACHE_BOTH`**
+Якщо вказано параметр `wsdl`, а також параметр [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) Увімкнено, цей параметр визначає тип кешування. Одне із значень: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`** або **`WSDL_CACHE_BOTH`**
 
-Доступні два типи кешу: кешування у пам'яті, яке кешує WSDL у пам'яті поточного процесу та дискове кешування, яке кешує WSDL у файлі на диску, що поділяється між усіма процесами. Каталог, який використовуватиметься для дискового кешу, визначається параметром [soap.wsdl\_cache\_dir](soap.configuration.html#ini.soap.wsdl-cache-dir). Обидва кеші використовують однаковий час життя, що визначається параметром [soap.wsdl\_cache\_ttl](soap.configuration.html#ini.soap.wsdl-cache-ttl). У кеша в пам'яті також є максимальна кількість записів, що визначається параметром [soap.wsdl\_cache\_limit](soap.configuration.html#ini.soap.wsdl-cache-limit)
+Доступні два типи кешу: кешування у пам'яті, яке кешує WSDL у пам'яті поточного процесу та дискове кешування, яке кешує WSDL у файлі на диску, що поділяється між усіма процесами. Каталог, який використовуватиметься для дискового кешу, визначається параметром [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir). Обидва кеші використовують однаковий час життя, що визначається параметром [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl). У кеша в пам'яті також є максимальна кількість записів, що визначається параметром [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit)
 
-Якщо не вказано, використовуватиметься параметр конфігурації [soap.wsdl\_cache](soap.configuration.html#ini.soap.wsdl-cache)
+Якщо не вказано, використовуватиметься параметр конфігурації [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache)
 
 `user_agent` string
 
@@ -177,7 +177,7 @@ TCP-порт для використання при підключенні до 
 
 `stream_context` resource
 
-Контекст [stream context](context.html), створений за допомогою функції [stream\_context\_create()](function.stream-context-create.html), яка дає змогу встановити додаткові параметри.
+Контекст [stream context](context.html), створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html), яка дає змогу встановити додаткові параметри.
 
 Контекст може містити [параметры контекста сокета](context.socket.html) [параметры контекста SSL](context.ssl.html), а також вибрані [опции контекста HTTP](context.http.html) `content_type` `header` `max_redirects` `protocol_version`, і `user_agent`
 
@@ -195,7 +195,7 @@ TCP-порт для використання при підключенні до 
 
 **`SOAP_USE_XSI_ARRAY_TYPE`**
 
-Якщо [параметру `use`](soapclient.construct.html#soapclient.construct.options.use) або властивості WSDL передано значення `encoded`, масиви примусово використовують тип `SOAP-ENC:Array`, а чи не специфічний для схеми.
+Якщо [параметру`use`](soapclient.construct.html#soapclient.construct.options.use) або властивості WSDL передано значення `encoded`, масиви примусово використовують тип `SOAP-ENC:Array`, а чи не специфічний для схеми.
 
 **`SOAP_WAIT_ONE_WAY_CALLS`**
 

@@ -1,8 +1,8 @@
 Виправлення сходження/розходження ковзної середньої 12/26
 
--   [« trader\_macdext](function.trader-macdext.html)
+-   [« tradermacdext](function.trader-macdext.html)
     
--   [trader\_mama »](function.trader-mama.html)
+-   [tradermama »](function.trader-mama.html)
     
 -   [PHP Manual](index.html)
     

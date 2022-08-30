@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Поділяє одне число на інше відповідно до IEEE 754
     
@@ -57,6 +57,6 @@ var_dump(fdiv(0.0, 0.0)); // float(NAN)
 
 ### Дивіться також
 
--   [`/`](language.operators.arithmetic.html) - Розподіл чисел з плаваючою точкою
+-   [](language.operators.arithmetic.html)\- Розподіл чисел з плаваючою точкою
 -   [intdiv()](function.intdiv.html) - цілісний поділ
 -   [fmod()](function.fmod.html) - Модуль

@@ -1,12 +1,12 @@
 Встановити об'єкт Color
 
--   [« UI\\Controls\\ColorButton::onChange](ui-controls-colorbutton.onchange.html)
+-   [« UIControlsColorButton::onChange](ui-controls-colorbutton.onchange.html)
     
--   [UI\\Controls\\Label »](class.ui-controls-label.html)
+-   [ОЙControlsLabel »](class.ui-controls-label.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html)
+-   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
     
 -   Встановити об'єкт Color
     

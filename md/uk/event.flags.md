@@ -2,7 +2,7 @@
 
 -   [« Примеры](event.examples.html)
     
--   [О постоянных(persistent) событиях »](event.persistence.html)
+-   [Про постійні (persistent) події »](event.persistence.html)
     
 -   [PHP Manual](index.html)
     

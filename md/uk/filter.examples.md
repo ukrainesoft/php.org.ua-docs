@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](filter.constants.html)
     
--   [Проверка (валидация) »](filter.examples.validation.html)
+-   [Перевірка (валідація) »](filter.examples.validation.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Проверка (валидация)](filter.examples.validation.html)
--   [Очистка (нормализация)](filter.examples.sanitization.html)
+-   [Перевірка (валідація)](filter.examples.validation.html)
+-   [Очищення (нормалізація)](filter.examples.sanitization.html)

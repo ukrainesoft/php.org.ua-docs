@@ -1,12 +1,12 @@
 Пошук нуля в числі
 
--   [« gmp\_rootrem](function.gmp-rootrem.html)
+-   [« gmprootrem](function.gmp-rootrem.html)
     
--   [gmp\_scan1 »](function.gmp-scan1.html)
+-   [gmpscan1 »](function.gmp-scan1.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Пошук нуля в числі
     

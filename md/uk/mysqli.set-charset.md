@@ -1,6 +1,6 @@
 Встановлює набір символів
 
--   [« mysqli::select\_db](mysqli.select-db.html)
+-   [« mysqli::selectдб](mysqli.select-db.html)
     
 -   [mysqli::$sqlstate »](mysqli.sqlstate.html)
     
@@ -39,7 +39,7 @@ mysqli_set_charset(mysqli $mysql, string $charset): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `charset`
 
@@ -100,11 +100,11 @@ printf("Текущий набор символов: %s\n", mysqli_character_
 
 > **Зауваження**
 > 
-> Це найкращий спосіб завдання набору символів. Використання з цією метою функції [mysqli\_query()](mysqli.query.html) (наприклад `SET NAMES utf8`) не рекомендується. Додатково дивіться [Наборы символов в MySQL](mysqlinfo.concepts.charset.html)
+> Це найкращий спосіб завдання набору символів. Використання з цією метою функції [mysqliquery()](mysqli.query.html) (наприклад `SET NAMES utf8`) не рекомендується. Додатково дивіться [Набори символів у MySQL](mysqlinfo.concepts.charset.html)
 
 ### Дивіться також
 
--   [mysqli\_character\_set\_name()](mysqli.character-set-name.html) - Повертає поточне кодування, встановлене для з'єднання з БД
--   [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
--   [Концепции кодировок MySQL](mysqlinfo.concepts.charset.html)
--   [» Список поддерживаемых MySQL наборов символов](http://dev.mysql.com/doc/mysql/en/charset-charsets.html)
+-   [mysqlicharactersetname()](mysqli.character-set-name.html) - Повертає поточне кодування, встановлене для з'єднання з БД
+-   [mysqlirealescapestring()](mysqli.real-escape-string.html) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+-   [Концепції кодувань MySQL](mysqlinfo.concepts.charset.html)
+-   [» Список підтримуваних MySQL наборів символів](http://dev.mysql.com/doc/mysql/en/charset-charsets.html)

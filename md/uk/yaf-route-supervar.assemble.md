@@ -1,12 +1,12 @@
 Збирає URL
 
--   [« Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
+-   [« YafRouteSupervar](class.yaf-route-supervar.html)
     
--   [Yaf\_Route\_Supervar::\_\_construct »](yaf-route-supervar.construct.html)
+-   [YafRouteSupervar::construct »](yaf-route-supervar.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
+-   [YafRouteSupervar](class.yaf-route-supervar.html)
     
 -   Збирає URL
     
@@ -37,7 +37,7 @@ public Yaf_Route_Supervar::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Викидає [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html), якщо ключі параметра `info` `':c'` and `':a'` не задані.
+Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.html), якщо ключі параметра `info` `':c'` and `':a'` не задані.
 
 ### Приклади
 

@@ -1,8 +1,8 @@
 Стиснення даних із зазначеним кодуванням
 
--   [« zlib\_decode](function.zlib-decode.html)
+-   [« zlibdecode](function.zlib-decode.html)
     
--   [zlib\_get\_coding\_type »](function.zlib-get-coding-type.html)
+-   [zlibgetcodingtype »](function.zlib-get-coding-type.html)
     
 -   [PHP Manual](index.html)
     
@@ -63,4 +63,4 @@ echo bin2hex($enc);
 
 ### Дивіться також
 
--   [zlib\_decode()](function.zlib-decode.html) - Розпаковує будь-які закодовані дані raw/gzip/zlib
+-   [zlibdecode()](function.zlib-decode.html) - Розпаковує будь-які закодовані дані raw/gzip/zlib

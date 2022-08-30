@@ -1,8 +1,8 @@
 Отримати властивість джерела OpenAL
 
--   [« openal\_source\_destroy](function.openal-source-destroy.html)
+-   [« openalsourcedestroy](function.openal-source-destroy.html)
     
--   [openal\_source\_pause »](function.openal-source-pause.html)
+-   [openalsourcepause »](function.openal-source-pause.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_source_get(resource $source, int $property): mixed
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
 
 `property`
 
@@ -39,6 +39,6 @@ openal_source_get(resource $source, int $property): mixed
 
 ### Дивіться також
 
--   [openal\_source\_create()](function.openal-source-create.html) - Згенерувати джерело ресурсу
--   [openal\_source\_set()](function.openal-source-set.html) - Встановити властивість джерела
--   [openal\_source\_play()](function.openal-source-play.html) - Почати відтворення джерела
+-   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openalsourceset()](function.openal-source-set.html) - Встановити властивість джерела
+-   [openalsourceplay()](function.openal-source-play.html) - Почати відтворення джерела

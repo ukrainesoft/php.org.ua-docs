@@ -1,8 +1,8 @@
 Встановити опції оброблюваного cURL
 
--   [« curl\_share\_init](function.curl-share-init.html)
+-   [« curlshareinit](function.curl-share-init.html)
     
--   [curl\_share\_strerror »](function.curl-share-strerror.html)
+-   [curlsharestrerror »](function.curl-share-strerror.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_share_setopt(CurlShareHandle $share_handle, int $option, mixed $value): boo
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curl\_share\_init()](function.curl-share-init.html)
+Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.html)
 
 `option`
 

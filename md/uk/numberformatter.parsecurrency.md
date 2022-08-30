@@ -83,6 +83,6 @@ echo "У нас ".$fmt->parseCurrency($num, $curr)." в $curr\n";
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_parse()](numberformatter.parse.html) - Розбирає число
--   [numfmt\_format\_currency()](numberformatter.formatcurrency.html) - Форматує значення валюти
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtparse()](numberformatter.parse.html) - Розбирає число
+-   [numfmtformatcurrency()](numberformatter.formatcurrency.html) - Форматує значення валюти

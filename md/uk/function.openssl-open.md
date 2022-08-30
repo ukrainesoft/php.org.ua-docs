@@ -1,8 +1,8 @@
 Відкрити запечатані дані
 
--   [« openssl\_get\_publickey](function.openssl-get-publickey.html)
+-   [« opensslgetpublickey](function.openssl-get-publickey.html)
     
--   [openssl\_pbkdf2 »](function.openssl-pbkdf2.html)
+-   [opensslpbkdf2 »](function.openssl-pbkdf2.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ opensslopen — Відкрити запечатані дані
 openssl_open(    string $data,    string &$output,    string $encrypted_key,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $cipher_algo,    ?string $iv = null): bool
 ```
 
-**opensslopen()** відкриває (дешифрує) `data`, використовуючи секретний ключ, пов'язаний з ідентифікатором `private_key` і ключ обгортки `encrypted_key`, і заповнює `output` розшифрованими даними. Ключ обгортки створюється під час запечатування даних і може використовуватися тільки з одним секретним ключем. Докладніше можна прочитати на сторінці опису функції [openssl\_seal()](function.openssl-seal.html)
+**opensslopen()** відкриває (дешифрує) `data`, використовуючи секретний ключ, пов'язаний з ідентифікатором `private_key` і ключ обгортки `encrypted_key`, і заповнює `output` розшифрованими даними. Ключ обгортки створюється під час запечатування даних і може використовуватися тільки з одним секретним ключем. Докладніше можна прочитати на сторінці опису функції [opensslseal()](function.openssl-seal.html)
 
 ### Список параметрів
 
@@ -89,4 +89,4 @@ openssl_free_key($pkeyid);
 
 ### Дивіться також
 
--   [openssl\_seal()](function.openssl-seal.html) - Запечатати (зашифрувати) дані
+-   [opensslseal()](function.openssl-seal.html) - Запечатати (зашифрувати) дані

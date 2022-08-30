@@ -1,12 +1,12 @@
 Unix-сокети: UNIX та UDG
 
--   [« Интернет-сокеты: TCP, UDP, SSL и TLS](transports.inet.html)
+-   [Інтернет-сокети: TCP, UDP, SSL і TLS](transports.inet.html)
     
 -   [Таблица сравнения типов в PHP »](types.comparisons.html)
     
 -   [PHP Manual](index.html)
     
--   [Список поддерживаемых транспортных протоколов](transports.html)
+-   [Список підтримуваних транспортних протоколів](transports.html)
     
 -   Unix-сокети: UNIX та UDG
     

@@ -1,12 +1,12 @@
 Кодує рядок у формат uuencode
 
--   [« convert\_uudecode](function.convert-uudecode.html)
+-   [« convertuudecode](function.convert-uudecode.html)
     
--   [count\_chars »](function.count-chars.html)
+-   [countchars »](function.count-chars.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Кодує рядок у формат uuencode
     
@@ -27,7 +27,7 @@ convert_uuencode(string $string): string
 
 Кодування uuencode переводить рядки (включаючи бінарні символи) у послідовності друкованих (7-бітних) ASCII-символів, що дозволяє безпечно обмінюватися даними через мережу. Закодовані дані приблизно на 35% більше від оригіналу.
 
-> **Зауваження** [convert\_uudecode()](function.convert-uudecode.html) не приймає ні початкової (`begin`), ні кінцевої (`end`) рядки, яка є частиною файлів (*files*) uuencoded.
+> **Зауваження** [convertuudecode()](function.convert-uudecode.html) не приймає ні початкової (`begin`), ні кінцевої (`end`) рядки, яка є частиною файлів (*files*) uuencoded.
 
 ### Список параметрів
 
@@ -66,5 +66,5 @@ echo convert_uuencode($some_string);
 
 ### Дивіться також
 
--   [convert\_uudecode()](function.convert-uudecode.html) - Декодує рядок із формату uuencode у звичайний вигляд
--   [base64\_encode()](function.base64-encode.html) - Кодує дані у формат MIME base64
+-   [convertuudecode()](function.convert-uudecode.html) - Декодує рядок із формату uuencode у звичайний вигляд
+-   [base64encode()](function.base64-encode.html) - Кодує дані у формат MIME base64

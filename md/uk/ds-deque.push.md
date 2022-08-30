@@ -1,12 +1,12 @@
 Додає значення до кінця двосторонньої черги
 
--   [« Ds\\Deque::pop](ds-deque.pop.html)
+-   [« DsDeque::pop](ds-deque.pop.html)
     
--   [Ds\\Deque::reduce »](ds-deque.reduce.html)
+-   [ДсDeque::reduce »](ds-deque.reduce.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Додає значення до кінця двосторонньої черги
     

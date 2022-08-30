@@ -1,12 +1,12 @@
 Конструктор класу Channel
 
--   [« parallel\\Channel](class.parallel-channel.html)
+-   [« parallelChannel](class.parallel-channel.html)
     
--   [parallel\\Channel::make »](parallel-channel.make.html)
+-   [parallelChannel::make »](parallel-channel.make.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Channel](class.parallel-channel.html)
+-   [parallelChannel](class.parallel-channel.html)
     
 -   Конструктор класу Channel
     

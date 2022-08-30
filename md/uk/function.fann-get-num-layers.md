@@ -1,8 +1,8 @@
 Отримує кількість шарів у нейронній мережі
 
--   [« fann\_get\_num\_input](function.fann-get-num-input.html)
+-   [« fanngetnuminput](function.fann-get-num-input.html)
     
--   [fann\_get\_num\_output »](function.fann-get-num-output.html)
+-   [fanngetnumoutput »](function.fann-get-num-output.html)
     
 -   [PHP Manual](index.html)
     

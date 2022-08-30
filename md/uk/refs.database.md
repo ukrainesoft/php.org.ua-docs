@@ -2,7 +2,7 @@
 
 -   [« SodiumException](class.sodiumexception.html)
     
--   [Уровни абстракции »](refs.database.abstract.html)
+-   [Рівні абстракції »](refs.database.abstract.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,11 +13,11 @@
 
 # Модулі для роботи з базами даних
 
--   [Уровни абстракции](refs.database.abstract.html)
+-   [Рівні абстракції](refs.database.abstract.html)
     -   [DBA](book.dba.html) - Database (dbm-style) Abstraction Layer
     -   [ODBC](book.uodbc.html) - ODBC (Unified)
     -   [PDO](book.pdo.html) - Об'єкти даних PHP
--   [Модули для работы с базами данных отдельных производителей](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
     -   [CUBRID](book.cubrid.html)
     -   [dBase](book.dbase.html)
     -   [Firebird/InterBase](book.ibase.html)

@@ -1,8 +1,8 @@
 Задає критерій сортування
 
--   [« yaz\_set\_option](function.yaz-set-option.html)
+-   [« yazsetoption](function.yaz-set-option.html)
     
--   [yaz\_syntax »](function.yaz-syntax.html)
+-   [yazsyntax »](function.yaz-syntax.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ yaz_sort(resource $id, string $criteria): void
 
 Функція визначає критерій сортування і включає сортування за Z39.50.
 
-Ця функція має бути викликана *до* [yaz\_search()](function.yaz-search.html). Виклик цієї функції окремо немає сенсу. Коли вона використовується спільно з [yaz\_search()](function.yaz-search.html), параметри сортування будуть надіслані після пошукового запиту і до того, як будь-який запис буде отримано за Z39.50 ([yaz\_present()](function.yaz-present.html)
+Ця функція має бути викликана *до* [yazsearch()](function.yaz-search.html). Виклик цієї функції окремо немає сенсу. Коли вона використовується спільно з [yazsearch()](function.yaz-search.html), параметри сортування будуть надіслані після пошукового запиту і до того, як будь-який запис буде отримано за Z39.50 ([yazpresent()](function.yaz-present.html)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.html)
 
 `criteria`
 

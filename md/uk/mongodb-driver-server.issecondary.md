@@ -1,12 +1,12 @@
 Перевіряє, чи є сервер другорядним членом набору реплік
 
--   [« MongoDB\\Driver\\Server::isPrimary](mongodb-driver-server.isprimary.html)
+-   [« MongoDBDriverServer::isPrimary](mongodb-driver-server.isprimary.html)
     
--   [MongoDB\\Driver\\ServerDescription »](class.mongodb-driver-serverdescription.html)
+-   [MongoDBDriverServerDescription »](class.mongodb-driver-serverdescription.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Перевіряє, чи є сервер другорядним членом набору реплік
     
@@ -23,7 +23,7 @@ MongoDBDriverServer::isSecondary — Перевіряє, чи є сервер д
 final public MongoDB\Driver\Server::isSecondary(): bool
 ```
 
-Повертає, чи є цей сервер [» второстепенным членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-secondary) набір реплік.
+Повертає, чи є цей сервер [» другорядним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-secondary) набір реплік.
 
 ### Список параметрів
 
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Server::isSecondary(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

@@ -1,12 +1,12 @@
 Перевіряє, чи підключено з'єднання
 
--   [« Swoole\\Client::getsockname](swoole-client.getsockname.html)
+-   [« SwooleClient::getsockname](swoole-client.getsockname.html)
     
--   [Swoole\\Client::on »](swoole-client.on.html)
+-   [SwooleClient::on »](swoole-client.on.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Перевіряє, чи підключено з'єднання
     

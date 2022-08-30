@@ -1,12 +1,12 @@
 Отримує інформацію про останні оновлені дані
 
--   [« rrd\_last](function.rrd-last.html)
+-   [« rrdlast](function.rrd-last.html)
     
--   [rrd\_restore »](function.rrd-restore.html)
+-   [rrdrestore »](function.rrd-restore.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Отримує інформацію про останні оновлені дані
     

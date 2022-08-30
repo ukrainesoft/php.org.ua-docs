@@ -1,8 +1,8 @@
 Додає значення до кінця вектора
 
--   [« Ds\\Vector::pop](ds-vector.pop.html)
+-   [« DsVector::pop](ds-vector.pop.html)
     
--   [Ds\\Vector::reduce »](ds-vector.reduce.html)
+-   [ДсVector::reduce »](ds-vector.reduce.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
 
--   [« sqlsrv\_fetch](function.sqlsrv-fetch.html)
+-   [« sqlsrvfetch](function.sqlsrv-fetch.html)
     
--   [sqlsrv\_free\_stmt »](function.sqlsrv-free-stmt.html)
+-   [sqlsrvfreestmt »](function.sqlsrv-free-stmt.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
     
@@ -15,7 +15,7 @@
 
 (No version information available, might only be in Git)
 
-sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.html) або [sqlsrv\_query()](function.sqlsrv-query.html)
+sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.html)
 
 ### Опис
 
@@ -23,7 +23,7 @@ sqlsrvfieldmetadata — Отримує метадані для полів опе
 sqlsrv_field_metadata(resource $stmt): mixed
 ```
 
-Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.html) або [sqlsrv\_query()](function.sqlsrv-query.html). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
+Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.html). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
 
 ### Список параметрів
 
@@ -46,7 +46,7 @@ sqlsrv_field_metadata(resource $stmt): mixed
 | Scale     | Масштаб для типів масштабованих типів даних, **`null`** для інших типів.                                                  |
 | Nullable  | Перелік, що вказує, чи стовпець допускає значення NULL, неприпустиме значення NULL або невідоме.                          |
 
-Для отримання додаткової інформації дивіться [» sqlsrv\_field\_metadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx) у документації Microsoft SQLSRV.
+Для отримання додаткової інформації дивіться [» sqlsrvfieldmetadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx) у документації Microsoft SQLSRV.
 
 ### Приклади
 
@@ -75,4 +75,4 @@ foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {
 
 ### Дивіться також
 
--   [sqlsrv\_client\_info()](function.sqlsrv-client-info.html) - Повертає інформацію про клієнта та зазначене підключення
+-   [sqlsrvclientinfo()](function.sqlsrv-client-info.html) - Повертає інформацію про клієнта та зазначене підключення

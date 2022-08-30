@@ -17,4 +17,4 @@
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.

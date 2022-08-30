@@ -1,6 +1,6 @@
 Створює об'єкт класу ReflectionExtension
 
--   [« ReflectionExtension::\_\_clone](reflectionextension.clone.html)
+-   [« ReflectionExtension::clone](reflectionextension.clone.html)
     
 -   [ReflectionExtension::export »](reflectionextension.export.html)
     
@@ -50,4 +50,4 @@ printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVer
 ### Дивіться також
 
 -   [ReflectionExtension::info()](reflectionextension.info.html) - Виведення інформації про модуль
--   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

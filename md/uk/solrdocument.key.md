@@ -1,6 +1,6 @@
 Отримує поточний ключ
 
--   [« SolrDocument::\_\_isset](solrdocument.isset.html)
+-   [« SolrDocument::isset](solrdocument.isset.html)
     
 -   [SolrDocument::merge »](solrdocument.merge.html)
     

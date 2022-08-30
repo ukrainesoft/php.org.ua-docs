@@ -1,12 +1,12 @@
 Псевдонім exifreaddata
 
--   [« exif\_thumbnail](function.exif-thumbnail.html)
+-   [« exifthumbnail](function.exif-thumbnail.html)
     
 -   [GD »](book.image.html)
     
 -   [PHP Manual](index.html)
     
--   [Exif Функции](ref.exif.html)
+-   [Exif Функції](ref.exif.html)
     
 -   Псевдонім exifreaddata
     
@@ -15,7 +15,7 @@
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7)
 
-readexifdata - Псевдонім [exif\_read\_data()](function.exif-read-data.html)
+readexifdata - Псевдонім [exifreaddata()](function.exif-read-data.html)
 
 **Увага**
 
@@ -23,7 +23,7 @@ readexifdata - Псевдонім [exif\_read\_data()](function.exif-read-data.h
 
 ### Опис
 
-Ця функція є псевдонімом: [exif\_read\_data()](function.exif-read-data.html)
+Ця функція є псевдонімом: [exifreaddata()](function.exif-read-data.html)
 
 ### список змін
 

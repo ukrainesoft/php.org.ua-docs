@@ -1,8 +1,8 @@
 Змінює права доступу до файлу
 
--   [« eio\_fallocate](function.eio-fallocate.html)
+-   [« eiofallocate](function.eio-fallocate.html)
     
--   [eio\_fchown »](function.eio-fchown.html)
+-   [eiofchown »](function.eio-fchown.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ eio_fchmod(    mixed $fd,    int $mode,    int $pri = EIO_PRI_DEFAUL
 
 `fd`
 
-Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eio\_open()](function.eio-open.html)
+Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eioopen()](function.eio-open.html)
 
 `mode`
 
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -69,4 +69,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_fchown()](function.eio-fchown.html) - Змінює власника файлу
+-   [eiofchown()](function.eio-fchown.html) - Змінює власника файлу

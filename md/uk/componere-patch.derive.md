@@ -1,12 +1,12 @@
 Отримання патчу
 
--   [« Componere\\Patch::isApplied](componere-patch.isapplied.html)
+-   [« ComponerePatch::isApplied](componere-patch.isapplied.html)
     
--   [Componere\\Patch::getClosure »](componere-patch.getclosure.html)
+-   [ComponerePatch::getClosure »](componere-patch.getclosure.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Patch](class.componere-patch.html)
+-   [ComponerePatch](class.componere-patch.html)
     
 -   Отримання патчу
     

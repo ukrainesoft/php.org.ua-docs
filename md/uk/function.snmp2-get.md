@@ -1,12 +1,12 @@
 Отримує об'єкт SNMP
 
--   [« snmp\_set\_valueretrieval](function.snmp-set-valueretrieval.html)
+-   [« snmpsetvalueretrieval](function.snmp-set-valueretrieval.html)
     
--   [snmp2\_getnext »](function.snmp2-getnext.html)
+-   [snmp2getnext »](function.snmp2-getnext.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує об'єкт SNMP
     
@@ -63,4 +63,4 @@ $syscontact = snmp2_get("127.0.0.1", "public", "system.SysContact.0");
 
 ### Дивіться також
 
--   [snmp2\_set()](function.snmp2-set.html) - Встановлює значення об'єкта SNMP
+-   [snmp2set()](function.snmp2-set.html) - Встановлює значення об'єкта SNMP

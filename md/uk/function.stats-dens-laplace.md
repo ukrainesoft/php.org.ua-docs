@@ -1,12 +1,12 @@
 Щільність ймовірності розподілу Лапласа
 
--   [« stats\_dens\_gamma](function.stats-dens-gamma.html)
+-   [« statsdensgamma](function.stats-dens-gamma.html)
     
--   [stats\_dens\_logistic »](function.stats-dens-logistic.html)
+-   [statsdenslogistic »](function.stats-dens-logistic.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності розподілу Лапласа
     

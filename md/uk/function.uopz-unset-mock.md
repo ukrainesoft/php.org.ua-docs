@@ -1,12 +1,12 @@
 Видалити раніше встановлений імітатор
 
--   [« uopz\_unset\_hook](function.uopz-unset-hook.html)
+-   [« uopzunsethook](function.uopz-unset-hook.html)
     
--   [uopz\_unset\_return »](function.uopz-unset-return.html)
+-   [uopzunsetreturn »](function.uopz-unset-return.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Видалити раніше встановлений імітатор
     
@@ -71,5 +71,5 @@ A
 
 ### Дивіться також
 
--   [uopz\_set\_mock()](function.uopz-set-mock.html) - Використовувати імітатор замість класу для нових об'єктів
--   [uopz\_get\_mock()](function.uopz-get-mock.html) - отримати поточний імітатор (mock) для класу
+-   [uopzsetmock()](function.uopz-set-mock.html) - Використовувати імітатор замість класу для нових об'єктів
+-   [uopzgetmock()](function.uopz-get-mock.html) - отримати поточний імітатор (mock) для класу

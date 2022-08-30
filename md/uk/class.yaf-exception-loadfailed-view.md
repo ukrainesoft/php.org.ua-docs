@@ -1,6 +1,6 @@
 Клас YafExceptionLoadFailedView
 
--   [« Yaf\_Exception\_LoadFailed\_Action](class.yaf-exception-loadfailed-action.html)
+-   [« YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.html)
     
 -   [Yaconf »](book.yaconf.html)
     

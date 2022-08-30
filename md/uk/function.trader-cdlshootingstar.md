@@ -1,8 +1,8 @@
 Падаюча зірка
 
--   [« trader\_cdlseparatinglines](function.trader-cdlseparatinglines.html)
+-   [« tradercdlseparatinglines](function.trader-cdlseparatinglines.html)
     
--   [trader\_cdlshortline »](function.trader-cdlshortline.html)
+-   [tradercdlshortline »](function.trader-cdlshortline.html)
     
 -   [PHP Manual](index.html)
     

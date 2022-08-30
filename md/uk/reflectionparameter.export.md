@@ -1,6 +1,6 @@
 Експорт
 
--   [« ReflectionParameter::\_\_construct](reflectionparameter.construct.html)
+-   [« ReflectionParameter::construct](reflectionparameter.construct.html)
     
 -   [ReflectionParameter::getAttributes »](reflectionparameter.getattributes.html)
     
@@ -53,4 +53,4 @@ public static ReflectionParameter::export(string $function, string $parameter, b
 
 ### Дивіться також
 
--   [ReflectionParameter::\_\_toString()](reflectionparameter.tostring.html) - Перетворення на рядок
+-   [ReflectionParameter::toString()](reflectionparameter.tostring.html) - Перетворення на рядок

@@ -1,8 +1,8 @@
 Потрійний удар
 
--   [« trader\_cdl3inside](function.trader-cdl3inside.html)
+-   [« tradercdl3inside](function.trader-cdl3inside.html)
     
--   [trader\_cdl3outside »](function.trader-cdl3outside.html)
+-   [tradercdl3outside »](function.trader-cdl3outside.html)
     
 -   [PHP Manual](index.html)
     

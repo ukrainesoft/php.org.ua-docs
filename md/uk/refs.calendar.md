@@ -1,6 +1,6 @@
 Модулі для роботи з датою та часом
 
--   [« sqlsrv\_server\_info](function.sqlsrv-server-info.html)
+-   [« sqlsrvserverinfo](function.sqlsrv-server-info.html)
     
 -   [Календарь »](book.calendar.html)
     
@@ -31,11 +31,11 @@
     -   [DatePeriod](class.dateperiod.html) - Клас DatePeriod
     -   [Функции даты и времени](ref.datetime.html)
     -   [Допустимые форматы даты/времени](datetime.formats.html)
-    -   [Список поддерживаемых часовых поясов](timezones.html)
+    -   [Список підтримуваних часових поясів](timezones.html)
 -   [HRTime](book.hrtime.html) — Час високого дозволу
     -   [Введение](intro.hrtime.html)
     -   [Установка и настройка](hrtime.setup.html)
     -   [Примеры](hrtime.examples.html)
-    -   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html) - Клас HRTimePerformanceCounter
-    -   [HRTime\\StopWatch](class.hrtime-stopwatch.html) - Клас HRTimeStopWatch
-    -   [HRTime\\Unit](class.hrtime-unit.html) - Клас HRTimeUnit
+    -   [HRTimePerformanceCounter](class.hrtime-performancecounter.html) - Клас HRTimePerformanceCounter
+    -   [HRTimeStopWatch](class.hrtime-stopwatch.html) - Клас HRTimeStopWatch
+    -   [HRTimeUnit](class.hrtime-unit.html) - Клас HRTimeUnit

@@ -1,8 +1,8 @@
 Отримує результат наступного запиту під час виконання кількох SQL-операторів
 
--   [« cubrid\_move\_cursor](function.cubrid-move-cursor.html)
+-   [« cubridmovecursor](function.cubrid-move-cursor.html)
     
--   [cubrid\_num\_cols »](function.cubrid-num-cols.html)
+-   [cubridnumcols »](function.cubrid-num-cols.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ cubridnextresult — Отримує результат наступного за
 cubrid_next_result(resource $result): bool
 ```
 
-Функція **cubridnextresult()** використовується для отримання результатів наступного запиту, якщо виконується кілька SQL-операторів та для [cubrid\_execute()](function.cubrid-execute.html) встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**
+Функція **cubridnextresult()** використовується для отримання результатів наступного запиту, якщо виконується кілька SQL-операторів та для [cubridexecute()](function.cubrid-execute.html) встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**
 
 ### Список параметрів
 
 `result`
 
-`result` з виклику функції [cubrid\_execute()](function.cubrid-execute.html)
+`result` з виклику функції [cubridexecute()](function.cubrid-execute.html)
 
 ### Значення, що повертаються
 
@@ -136,4 +136,4 @@ unit                           varchar                        5
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

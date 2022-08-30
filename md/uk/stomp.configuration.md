@@ -17,13 +17,13 @@
 
 **Опції налаштування**
 
-| Имя                                                                                                            | По умолчанию          | Место изменения | Список изменений |
-|----------------------------------------------------------------------------------------------------------------|-----------------------|-----------------|------------------|
-| [stomp.default\_broker](stomp.configuration.html#ini.stomp.default-broker)                                     | tcp://localhost:61613 | PHPINIALL       |                  |
-| [stomp.default\_connection\_timeout\_sec](stomp.configuration.html#ini.stomp.default-connection-timeout-sec)   |                       | PHPINIALL       |                  |
-| [stomp.default\_connection\_timeout\_usec](stomp.configuration.html#ini.stomp.default-connection-timeout-usec) |                       | PHPINIALL       |                  |
-| [stomp.default\_read\_timeout\_sec](stomp.configuration.html#ini.stomp.default-read-timeout-sec)               |                       | PHPINIALL       |                  |
-| [stomp.default\_read\_timeout\_usec](stomp.configuration.html#ini.stomp.default-read-timeout-usec)             |                       | PHPINIALL       |                  |
+| Имя                                                                                                      | По умолчанию          | Место изменения | Список изменений |
+|----------------------------------------------------------------------------------------------------------|-----------------------|-----------------|------------------|
+| [stomp.defaultbroker](stomp.configuration.html#ini.stomp.default-broker)                                 | tcp://localhost:61613 | PHPINIALL       |                  |
+| [stomp.defaultconnectiontimeoutsec](stomp.configuration.html#ini.stomp.default-connection-timeout-sec)   |                       | PHPINIALL       |                  |
+| [stomp.defaultconnectiontimeoutusec](stomp.configuration.html#ini.stomp.default-connection-timeout-usec) |                       | PHPINIALL       |                  |
+| [stomp.defaultreadtimeoutsec](stomp.configuration.html#ini.stomp.default-read-timeout-sec)               |                       | PHPINIALL       |                  |
+| [stomp.defaultreadtimeoutusec](stomp.configuration.html#ini.stomp.default-read-timeout-usec)             |                       | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

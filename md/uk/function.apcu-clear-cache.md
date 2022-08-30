@@ -1,8 +1,8 @@
 Очистити кеш APCu
 
--   [« apcu\_cas](function.apcu-cas.html)
+-   [« apcucas](function.apcu-cas.html)
     
--   [apcu\_dec »](function.apcu-dec.html)
+-   [apcudec »](function.apcu-dec.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,4 +35,4 @@ apcu_clear_cache(): bool
 
 ### Дивіться також
 
--   [apcu\_cache\_info()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu

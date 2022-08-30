@@ -1,8 +1,8 @@
 Повертає статус файлу
 
--   [« eio\_set\_min\_parallel](function.eio-set-min-parallel.html)
+-   [« eiosetminparallel](function.eio-set-min-parallel.html)
     
--   [eio\_statvfs »](function.eio-statvfs.html)
+-   [eiostatvfs »](function.eio-statvfs.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -125,5 +125,5 @@ array(12) {
 
 ### Дивіться також
 
--   [eio\_lstat()](function.eio-lstat.html) - Повертає статус файлу
--   [eio\_fstat()](function.eio-fstat.html) - Повертає статус файлу
+-   [eiolstat()](function.eio-lstat.html) - Повертає статус файлу
+-   [eiofstat()](function.eio-fstat.html) - Повертає статус файлу

@@ -1,6 +1,6 @@
 Перевірка цифрового підпису сертифіката x509 за допомогою публічного ключа
 
--   [« openssl\_x509\_read](function.openssl-x509-read.html)
+-   [« opensslx509read](function.openssl-x509-read.html)
     
 -   [OpenSSLCertificate »](class.opensslcertificate.html)
     
@@ -33,7 +33,7 @@ openssl_x509_verify(OpenSSLCertificate|string $certificate, OpenSSLAsymmetricKey
 
 `public_key`
 
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) - ключ, повернутий функцією [openssl\_get\_publickey()](function.openssl-get-publickey.html)
+[OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) - ключ, повернутий функцією [opensslgetpublickey()](function.openssl-get-publickey.html)
 
 string - ключ у форматі PEM, такого вигляду: : "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
@@ -88,5 +88,5 @@ foreach($cont["options"]["ssl"]["peer_certificate_chain"] as $chaincert)
 
 ### Дивіться також
 
--   [openssl\_verify()](function.openssl-verify.html) - Звіряння сигнатури
--   [openssl\_get\_publickey()](function.openssl-get-publickey.html) - Псевдонім opensslpkeygetpublic
+-   [opensslverify()](function.openssl-verify.html) - Звіряння сигнатури
+-   [opensslgetpublickey()](function.openssl-get-publickey.html) - Псевдонім opensslpkeygetpublic

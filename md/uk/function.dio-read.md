@@ -1,12 +1,12 @@
 Прочитай байти із файлового дескриптора
 
--   [« dio\_open](function.dio-open.html)
+-   [« dioopen](function.dio-open.html)
     
--   [dio\_seek »](function.dio-seek.html)
+-   [dioseek »](function.dio-seek.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Прочитай байти із файлового дескриптора
     
@@ -29,7 +29,7 @@ dio_read(resource $fd, int $len = 1024): string
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 `len`
 
@@ -41,4 +41,4 @@ dio_read(resource $fd, int $len = 1024): string
 
 ### Дивіться також
 
--   [dio\_write()](function.dio-write.html) - Записує байти у файл, опціонально обрізаючи до вказаної довжини
+-   [diowrite()](function.dio-write.html) - Записує байти у файл, опціонально обрізаючи до вказаної довжини

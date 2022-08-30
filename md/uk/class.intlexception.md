@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.use\_exceptions](intl.configuration.html#ini.intl.use-exceptions)
+Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions)
 
 ## Огляд класів
 

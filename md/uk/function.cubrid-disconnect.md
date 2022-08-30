@@ -1,8 +1,8 @@
 Закриває з'єднання з базою даних
 
--   [« cubrid\_current\_oid](function.cubrid-current-oid.html)
+-   [« cubridcurrentoid](function.cubrid-current-oid.html)
     
--   [cubrid\_drop »](function.cubrid-drop.html)
+-   [cubriddrop »](function.cubrid-drop.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ cubriddisconnect — Закриває з'єднання з базою даних
 cubrid_disconnect(resource $conn_identifier = ?): bool
 ```
 
-Функція **cubriddisconnect()** використовується для закриття оброблювача з'єднання та від'єднання від сервера. Якщо будь-який оброблювач запиту не буде закритий на цей момент, він буде примусово закритий. Функція аналогічна функції сумісності CUBRID MySQL [cubrid\_close()](function.cubrid-close.html)
+Функція **cubriddisconnect()** використовується для закриття оброблювача з'єднання та від'єднання від сервера. Якщо будь-який оброблювач запиту не буде закритий на цей момент, він буде примусово закритий. Функція аналогічна функції сумісності CUBRID MySQL [cubridclose()](function.cubrid-close.html)
 
 ### Список параметрів
 
@@ -67,6 +67,6 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubrid\_close()](function.cubrid-close.html) - Закриває з'єднання з базою даних
--   [cubrid\_connect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
--   [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.html) - Створює оточення для з'єднання із сервером CUBRID
+-   [cubridclose()](function.cubrid-close.html) - Закриває з'єднання з базою даних
+-   [cubridconnect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
+-   [cubridconnectwithurl()](function.cubrid-connect-with-url.html) - Створює оточення для з'єднання із сервером CUBRID

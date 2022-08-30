@@ -1,12 +1,12 @@
 Створює сервер Swoole
 
--   [« Swoole\\Server::connection\_list](swoole-server.connection-list.html)
+-   [« SwooleServer::connectionlist](swoole-server.connection-list.html)
     
--   [Swoole\\Server::defer »](swoole-server.defer.html)
+-   [SwooleServer::defer »](swoole-server.defer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Створює сервер Swoole
     
@@ -23,7 +23,7 @@ public **SwooleServer::construct**
 string `$host`  
 int `$port`  
 int `$mode`  
-int `$sock_type`  
+int `$sock_type`
 
 ### Список параметрів
 

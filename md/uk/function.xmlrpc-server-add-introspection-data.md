@@ -1,12 +1,12 @@
 Додає документацію самоаналізу
 
--   [« xmlrpc\_parse\_method\_descriptions](function.xmlrpc-parse-method-descriptions.html)
+-   [« xmlrpcparsemethoddescriptions](function.xmlrpc-parse-method-descriptions.html)
     
--   [xmlrpc\_server\_call\_method »](function.xmlrpc-server-call-method.html)
+-   [xmlrpcservercallmethod »](function.xmlrpc-server-call-method.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Додає документацію самоаналізу
     

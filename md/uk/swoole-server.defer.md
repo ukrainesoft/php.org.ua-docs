@@ -1,12 +1,12 @@
 Відкладає виконання callback-функції наприкінці поточного EventLoop
 
--   [« Swoole\\Server::\_\_construct](swoole-server.construct.html)
+-   [« SwooleServer::construct](swoole-server.construct.html)
     
--   [Swoole\\Server\\Port::\_\_construct »](swoole-server-port.construct.html)
+-   [SwooleServerPort::construct »](swoole-server-port.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Відкладає виконання callback-функції наприкінці поточного EventLoop
     

@@ -1,8 +1,8 @@
 Паттерн "У лінії шиї"
 
--   [« trader\_cdlmorningstar](function.trader-cdlmorningstar.html)
+-   [« tradercdlmorningstar](function.trader-cdlmorningstar.html)
     
--   [trader\_cdlpiercing »](function.trader-cdlpiercing.html)
+-   [tradercdlpiercing »](function.trader-cdlpiercing.html)
     
 -   [PHP Manual](index.html)
     

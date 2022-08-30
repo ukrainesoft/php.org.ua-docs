@@ -1,8 +1,8 @@
 Отримати властивість прослуховувача
 
--   [« openal\_device\_open](function.openal-device-open.html)
+-   [« openaldeviceopen](function.openal-device-open.html)
     
--   [openal\_listener\_set »](function.openal-listener-set.html)
+-   [openallistenerset »](function.openal-listener-set.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,4 +35,4 @@ openal_listener_get(int $property): mixed
 
 ### Дивіться також
 
--   [openal\_listener\_set()](function.openal-listener-set.html) - Встановлення якості прослуховувача
+-   [openallistenerset()](function.openal-listener-set.html) - Встановлення якості прослуховувача

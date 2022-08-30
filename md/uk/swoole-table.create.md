@@ -1,12 +1,12 @@
 Створює таблицю пам'яті swoole
 
--   [« Swoole\\Table::count](swoole-table.count.html)
+-   [« SwooleTable::count](swoole-table.count.html)
     
--   [Swoole\\Table::current »](swoole-table.current.html)
+-   [SwooleTable::current »](swoole-table.current.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Створює таблицю пам'яті swoole
     

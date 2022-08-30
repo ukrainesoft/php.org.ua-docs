@@ -1,8 +1,8 @@
 Отримує запитану інформацію про схему
 
--   [« cubrid\_rollback](function.cubrid-rollback.html)
+-   [« cubridrollback](function.cubrid-rollback.html)
     
--   [cubrid\_seq\_drop »](function.cubrid-seq-drop.html)
+-   [cubridseqdrop »](function.cubrid-seq-drop.html)
     
 -   [PHP Manual](index.html)
     

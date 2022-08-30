@@ -1,12 +1,12 @@
 Виводить стан пристрою
 
--   [« Parle\\Lexer::consume](parle-lexer.consume.html)
+-   [« ParleLexer::consume](parle-lexer.consume.html)
     
--   [Parle\\Lexer::getToken »](parle-lexer.gettoken.html)
+-   [ParleLexer::getToken »](parle-lexer.gettoken.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Lexer](class.parle-lexer.html)
+-   [ParleLexer](class.parle-lexer.html)
     
 -   Виводить стан пристрою
     

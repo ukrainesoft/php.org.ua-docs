@@ -2,7 +2,7 @@
 
 -   [« DOMDocumentFragment](class.domdocumentfragment.html)
     
--   [DOMDocumentFragment::\_\_construct »](domdocumentfragment.construct.html)
+-   [DOMDocumentFragment::construct »](domdocumentfragment.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Відправляє дані у віддалений сокет блокуючим способом
 
--   [« Swoole\\Server::sendto](swoole-server.sendto.html)
+-   [« SwooleServer::sendto](swoole-server.sendto.html)
     
--   [Swoole\\Server::set »](swoole-server.set.html)
+-   [SwooleServer::set »](swoole-server.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Відправляє дані у віддалений сокет блокуючим способом
     

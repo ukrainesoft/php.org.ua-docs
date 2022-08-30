@@ -35,7 +35,7 @@
 
 > **Зауваження**
 > 
-> Використовується тільки для [stream\_socket\_server()](function.stream-socket-server.html)
+> Використовується тільки для [streamsocketserver()](function.stream-socket-server.html)
 
 `ipv6_v6only`
 
@@ -45,7 +45,7 @@
 > 
 > Це важливо у разі спроби окремо слухати IPv4 адреси, у той час як задана прив'язка до `[::]`
 > 
-> Застосовується тільки до [stream\_socket\_server()](function.stream-socket-server.html)
+> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.html)
 
 `so_reuseport`
 
@@ -53,7 +53,7 @@
 
 > **Зауваження**
 > 
-> Застосовується тільки до [stream\_socket\_server()](function.stream-socket-server.html)
+> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.html)
 
 `so_broadcast`
 
@@ -61,7 +61,7 @@
 
 > **Зауваження**
 > 
-> Застосовується тільки до [stream\_socket\_server()](function.stream-socket-server.html)
+> Застосовується тільки до [streamsocketserver()](function.stream-socket-server.html)
 
 `tcp_nodelay`
 

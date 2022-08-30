@@ -1,12 +1,12 @@
 Повертає порожній рядок
 
--   [« MongoDB\\BSON\\DBPointer::serialize](mongodb-bson-dbpointer.serialize.html)
+-   [« MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.html)
     
--   [MongoDB\\BSON\\DBPointer::unserialize »](mongodb-bson-dbpointer.unserialize.html)
+-   [MongoDBBSONDBPointer::unserialize »](mongodb-bson-dbpointer.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html)
+-   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
     
 -   Повертає порожній рядок
     

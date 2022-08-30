@@ -35,9 +35,9 @@ public RegexIterator::setFlags(int $flags): void
 
 **Прапори [RegexIterator](class.regexiterator.html)**
 
-| значение | константа                                                                           |
-|----------|-------------------------------------------------------------------------------------|
-|          | [RegexIterator::USE\_KEY](class.regexiterator.html#regexiterator.constants.use-key) |
+| значение | константа                                                                         |
+|----------|-----------------------------------------------------------------------------------|
+|          | [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key) |
 
 ### Значення, що повертаються
 

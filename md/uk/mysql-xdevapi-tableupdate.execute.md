@@ -1,12 +1,12 @@
 Виконує запит на оновлення
 
--   [« TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.html)
+-   [« TableUpdate::construct](mysql-xdevapi-tableupdate.construct.html)
     
 -   [TableUpdate::limit »](mysql-xdevapi-tableupdate.limit.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+-   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
     
 -   Виконує запит на оновлення
     

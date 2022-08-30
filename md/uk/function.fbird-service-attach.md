@@ -1,8 +1,8 @@
 Псевдонім ibaseserviceattach
 
--   [« fbird\_server\_info](function.fbird-server-info.html)
+-   [« fbirdserverinfo](function.fbird-server-info.html)
     
--   [fbird\_service\_detach »](function.fbird-service-detach.html)
+-   [fbirdservicedetach »](function.fbird-service-detach.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdserviceattach - Псевдонім [ibase\_service\_attach()](function.ibase-service-attach.html)
+fbirdserviceattach - Псевдонім [ibaseserviceattach()](function.ibase-service-attach.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_service\_attach()](function.ibase-service-attach.html)
+Ця функція є псевдонімом: [ibaseserviceattach()](function.ibase-service-attach.html)

@@ -1,12 +1,12 @@
 Визначає метод повернення значень SNMP
 
--   [« snmp\_set\_quick\_print](function.snmp-set-quick-print.html)
+-   [« snmpsetquickprint](function.snmp-set-quick-print.html)
     
--   [snmp2\_get »](function.snmp2-get.html)
+-   [snmp2get »](function.snmp2-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Визначає метод повернення значень SNMP
     
@@ -76,5 +76,5 @@ snmp_set_valueretrieval(int $method): bool
 
 ### Дивіться також
 
--   [snmp\_get\_valueretrieval()](function.snmp-get-valueretrieval.html) - Повертає метод, як буде повернено значення SNMP
+-   [snmpgetvalueretrieval()](function.snmp-get-valueretrieval.html) - Повертає метод, як буде повернено значення SNMP
 -   [Предопределённые константы](snmp.constants.html)

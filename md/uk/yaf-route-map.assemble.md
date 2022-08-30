@@ -1,12 +1,12 @@
 Збирає URL
 
--   [« Yaf\_Route\_Map](class.yaf-route-map.html)
+-   [« YafRouteMap](class.yaf-route-map.html)
     
--   [Yaf\_Route\_Map::\_\_construct »](yaf-route-map.construct.html)
+-   [YafRouteMap::construct »](yaf-route-map.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Map](class.yaf-route-map.html)
+-   [YafRouteMap](class.yaf-route-map.html)
     
 -   Збирає URL
     
@@ -37,7 +37,7 @@ public Yaf_Route_Map::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Може викинути [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html)
+Може викинути [YafExceptionTypeError](class.yaf-exception-typeerror.html)
 
 ### Приклади
 

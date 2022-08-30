@@ -41,4 +41,4 @@ public OCICollection::free(): bool
 
 ### Дивіться також
 
--   [oci\_new\_collection](function.oci-new-collection.html)
+-   [ocinewcollection](function.oci-new-collection.html)

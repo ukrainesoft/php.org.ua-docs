@@ -1,12 +1,12 @@
 Встановити чи видалити обробник події CTRL
 
--   [« sapi\_windows\_generate\_ctrl\_event](function.sapi-windows-generate-ctrl-event.html)
+-   [« sapiwindowsgeneratectrlevent](function.sapi-windows-generate-ctrl-event.html)
     
--   [sapi\_windows\_vt100\_support »](function.sapi-windows-vt100-support.html)
+-   [sapiwindowsvt100support »](function.sapi-windows-vt100-support.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Встановити чи видалити обробник події CTRL
     
@@ -76,4 +76,4 @@ while (true); // Бесконечный цикл
 
 ### Дивіться також
 
--   [sapi\_windows\_generate\_ctrl\_event()](function.sapi-windows-generate-ctrl-event.html) - Надіслати подію CTRL іншому процесу
+-   [sapiwindowsgeneratectrlevent()](function.sapi-windows-generate-ctrl-event.html) - Надіслати подію CTRL іншому процесу

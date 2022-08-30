@@ -1,6 +1,6 @@
 Клас Stomp
 
--   [« stomp\_version](function.stomp-version.html)
+-   [« stompversion](function.stomp-version.html)
     
 -   [Stomp::abort »](stomp.abort.html)
     
@@ -76,8 +76,8 @@ stomp_unsubscribe(resource $link, string $destination, array $headers = ?): bool
 -   [Stomp::ack](stomp.ack.html) — Підтверджує отримання повідомлення
 -   [Stomp::begin](stomp.begin.html) - Створює транзакцію
 -   [Stomp::commit](stomp.commit.html) - Виконує поточну транзакцію
--   [Stomp::\_\_construct](stomp.construct.html) - Відкриває з'єднання
--   [Stomp::\_\_destruct](stomp.destruct.html) - Закриває Stomp-з'єднання
+-   [Stomp::construct](stomp.construct.html) - Відкриває з'єднання
+-   [Stomp::destruct](stomp.destruct.html) - Закриває Stomp-з'єднання
 -   [Stomp::error](stomp.error.html) - Повертає останню помилку Stomp
 -   [Stomp::getReadTimeout](stomp.getreadtimeout.html) — Повертає час максимального очікування на операцію читання
 -   [Stomp::getSessionId](stomp.getsessionid.html) - Повертає ідентифікатор поточної сесії Stomp

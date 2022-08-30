@@ -1,12 +1,12 @@
 Перетворює рядок на масив
 
--   [« str\_shuffle](function.str-shuffle.html)
+-   [« strshuffle](function.str-shuffle.html)
     
--   [str\_starts\_with »](function.str-starts-with.html)
+-   [strstartswith »](function.str-starts-with.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює рядок на масив
     
@@ -99,14 +99,14 @@ Array
 
 > **Зауваження**
 > 
-> Функція **strsplit()** здійснює розбивку за байтами, а не за символами, у разі використання рядків у багатобайтних кодуваннях. Використовуйте функцію [mb\_str\_split()](function.mb-str-split.html), щоб розбити рядок кодових точок.
+> Функція **strsplit()** здійснює розбивку за байтами, а не за символами, у разі використання рядків у багатобайтних кодуваннях. Використовуйте функцію [мбstrsplit()](function.mb-str-split.html), щоб розбити рядок кодових точок.
 
 ### Дивіться також
 
--   [mb\_str\_split()](function.mb-str-split.html) - Якщо заданий багатобайтовий рядок повертає масив символів
--   [chunk\_split()](function.chunk-split.html) - Розбиває рядок на фрагменти
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [мбstrsplit()](function.mb-str-split.html) - Якщо заданий багатобайтовий рядок повертає масив символів
+-   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
 -   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
--   [count\_chars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
--   [str\_word\_count()](function.str-word-count.html) - Повертає інформацію про слова, що входять до рядка
+-   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
+-   [strwordcount()](function.str-word-count.html) - Повертає інформацію про слова, що входять до рядка
 -   [for](control-structures.for.html)

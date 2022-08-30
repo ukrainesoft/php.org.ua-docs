@@ -1,12 +1,12 @@
 Обчислює ексцес даних у масиві
 
--   [« stats\_harmonic\_mean](function.stats-harmonic-mean.html)
+-   [« statsharmonicmean](function.stats-harmonic-mean.html)
     
--   [stats\_rand\_gen\_beta »](function.stats-rand-gen-beta.html)
+-   [statsrandgenbeta »](function.stats-rand-gen-beta.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює ексцес даних у масиві
     

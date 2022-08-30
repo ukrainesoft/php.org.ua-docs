@@ -1,6 +1,6 @@
 Клас DOMException
 
--   [« DOMEntityReference::\_\_construct](domentityreference.construct.html)
+-   [« DOMEntityReference::construct](domentityreference.construct.html)
     
 -   [DOMImplementation »](class.domimplementation.html)
     

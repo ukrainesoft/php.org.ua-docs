@@ -1,12 +1,12 @@
 Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
 
--   [« svn\_repos\_fs](function.svn-repos-fs.html)
+-   [« svnreposфс](function.svn-repos-fs.html)
     
--   [svn\_repos\_open »](function.svn-repos-open.html)
+-   [svnreposopen »](function.svn-repos-open.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
     

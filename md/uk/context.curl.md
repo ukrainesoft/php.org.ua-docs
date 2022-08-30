@@ -2,7 +2,7 @@
 
 -   [« Опции контекста SSL](context.ssl.html)
     
--   [Контекстные опции Phar »](context.phar.html)
+-   [Контекстні опції Phar »](context.phar.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@
 
 Значення для надсилання разом із заголовком User-Agent.
 
-За промовчанням використовується значення директиви [user\_agent](filesystem.configuration.html#ini.user-agent) із файлу php.ini.
+За промовчанням використовується значення директиви [useragent](filesystem.configuration.html#ini.user-agent) із файлу php.ini.
 
 `content` string
 

@@ -149,5 +149,5 @@ if (intl_get_error_code() != 0) {
 
 ### Дивіться також
 
--   [datefmt\_is\_lenient()](intldateformatter.islenient.html) - Отримує поблажливість, що використовується для IntlDateFormatter
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtісlenient()](intldateformatter.islenient.html) - Отримує поблажливість, що використовується для IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

@@ -1,12 +1,12 @@
 Повертає масив тегів, що описують сервер у наборі реплік
 
--   [« MongoDB\\Driver\\Server::getServerDescription](mongodb-driver-server.getserverdescription.html)
+-   [« MongoDBDriverServer::getServerDescription](mongodb-driver-server.getserverdescription.html)
     
--   [MongoDB\\Driver\\Server::getType »](mongodb-driver-server.gettype.html)
+-   [MongoDBDriverServer::getType »](mongodb-driver-server.gettype.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Повертає масив тегів, що описують сервер у наборі реплік
     
@@ -23,7 +23,7 @@ MongoDBDriverServer::getTags — Повертає масив тегів, що о
 final public MongoDB\Driver\Server::getTags(): array
 ```
 
-Повертає array [» тегов](https://www.mongodb.com/docs/manual/reference/glossary/#term-tag), що використовуються для опису цього сервера в наборі реплік. Масив буде містити нуль або більше пар string ключів та значень.
+Повертає array [»тегів](https://www.mongodb.com/docs/manual/reference/glossary/#term-tag), що використовуються для опису цього сервера в наборі реплік. Масив буде містити нуль або більше пар string ключів та значень.
 
 ### Список параметрів
 
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Server::getTags(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

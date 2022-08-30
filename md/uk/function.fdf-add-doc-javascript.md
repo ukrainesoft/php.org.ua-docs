@@ -2,7 +2,7 @@
 
 -   [« FDF](ref.fdf.html)
     
--   [fdf\_add\_template »](function.fdf-add-template.html)
+-   [fdfaddtemplate »](function.fdf-add-template.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_add_doc_javascript(resource $fdf_document, string $script_name, string $scri
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `script_name`
 

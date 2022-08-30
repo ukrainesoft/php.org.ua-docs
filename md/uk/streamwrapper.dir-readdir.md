@@ -1,8 +1,8 @@
 Читання запису з дескриптора директорії
 
--   [« streamWrapper::dir\_opendir](streamwrapper.dir-opendir.html)
+-   [« streamWrapper::diropendir](streamwrapper.dir-opendir.html)
     
--   [streamWrapper::dir\_rewinddir »](streamwrapper.dir-rewinddir.html)
+-   [streamWrapper::dirrewinddir »](streamwrapper.dir-rewinddir.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ public streamWrapper::dir_readdir(): string
 
 ### Значення, що повертаються
 
-Повинна повертати рядок (string), що представляє ім'я наступного файлу, або **`false`**якщо наступного файлу немає.
+Повинна повертати рядок (string), що представляє ім'я наступного файлу, або \*\*`false`\*\*якщо наступного файлу немає.
 
 > **Зауваження**
 > 

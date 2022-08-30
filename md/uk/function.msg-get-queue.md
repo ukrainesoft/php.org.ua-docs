@@ -2,11 +2,11 @@
 
 -   [« ftok](function.ftok.html)
     
--   [msg\_queue\_exists »](function.msg-queue-exists.html)
+-   [msgqueueexists »](function.msg-queue-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Створення або підключення до черги повідомлень
     
@@ -47,8 +47,8 @@ msg_get_queue(int $key, int $permissions = 0666): SysvMessageQueue|false
 
 ### Дивіться також
 
--   [msg\_remove\_queue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msg\_receive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
--   [msg\_send()](function.msg-send.html) - Надсилання повідомлення в чергу повідомлень
--   [msg\_stat\_queue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
--   [msg\_set\_queue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
+-   [msgsend()](function.msg-send.html) - Надсилання повідомлення в чергу повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
+-   [msgsetqueue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень

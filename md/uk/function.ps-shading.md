@@ -1,12 +1,12 @@
 Створює затінення для подальшого використання
 
--   [« ps\_shading\_pattern](function.ps-shading-pattern.html)
+-   [«psshadingpattern](function.ps-shading-pattern.html)
     
--   [ps\_shfill »](function.ps-shfill.html)
+-   [псshfill »](function.ps-shfill.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Створює затінення для подальшого використання
     
@@ -23,7 +23,7 @@
 ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    float $x1,    float $y1,    float $c1,    float $c2,    float $c3,    float $c4,    string $optlist): int|false
 ```
 
-Створює затінення, яке можна використовувати функцією [ps\_shfill()](function.ps-shfill.html) або [ps\_shading\_pattern()](function.ps-shading-pattern.html)
+Створює затінення, яке можна використовувати функцією [псshfill()](function.ps-shfill.html) або [псshadingpattern()](function.ps-shading-pattern.html)
 
 Колір затінення може бути в будь-якому колірному просторі, крім `pattern`
 
@@ -31,11 +31,11 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,   
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `type`
 
-Тип затінення може бути `radial` або `axial`. Кожне затінення починається з поточного кольору заливки та закінчується заданими значеннями кольору, переданими у параметрах від `c1` до `c4` (опис їх значень дивіться в [ps\_setcolor()](function.ps-setcolor.html)
+Тип затінення може бути `radial` або `axial`. Кожне затінення починається з поточного кольору заливки та закінчується заданими значеннями кольору, переданими у параметрах від `c1` до `c4` (опис їх значень дивіться в [псsetcolor()](function.ps-setcolor.html)
 
 `x0, x1, y0, y1`
 
@@ -43,7 +43,7 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,   
 
 `c1, c2, c3, c4`
 
-Дивіться опис їх значень у [ps\_setcolor()](function.ps-setcolor.html)
+Дивіться опис їх значень у [псsetcolor()](function.ps-setcolor.html)
 
 `optlist`
 
@@ -55,5 +55,5 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,   
 
 ### Дивіться також
 
--   [ps\_shading\_pattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
--   [ps\_shfill()](function.ps-shfill.html) - Заповнює область затіненням
+-   [псshadingpattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
+-   [псshfill()](function.ps-shfill.html) - Заповнює область затіненням

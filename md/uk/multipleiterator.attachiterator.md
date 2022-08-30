@@ -2,7 +2,7 @@
 
 -   [« MultipleIterator](class.multipleiterator.html)
     
--   [MultipleIterator::\_\_construct »](multipleiterator.construct.html)
+-   [MultipleIterator::construct »](multipleiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,4 +49,4 @@ public MultipleIterator::attachIterator(Iterator $iterator, string|int|null $inf
 
 ### Дивіться також
 
--   [MultipleIterator::\_\_construct()](multipleiterator.construct.html) - Створює новий MultipleIterator
+-   [MultipleIterator::construct()](multipleiterator.construct.html) - Створює новий MultipleIterator

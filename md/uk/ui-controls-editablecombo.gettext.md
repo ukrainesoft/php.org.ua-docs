@@ -1,12 +1,12 @@
 Отримати текст
 
--   [« UI\\Controls\\EditableCombo::append](ui-controls-editablecombo.append.html)
+-   [« UIControlsEditableCombo::append](ui-controls-editablecombo.append.html)
     
--   [UI\\Controls\\EditableCombo::onChange »](ui-controls-editablecombo.onchange.html)
+-   [ОЙControlsEditableCombo::onChange »](ui-controls-editablecombo.onchange.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+-   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
     
 -   Отримати текст
     

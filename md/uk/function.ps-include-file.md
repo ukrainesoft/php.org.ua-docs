@@ -1,12 +1,12 @@
 Читає зовнішній файл із необробленим кодом PostScript
 
--   [« ps\_hyphenate](function.ps-hyphenate.html)
+-   [«pshyphenate](function.ps-hyphenate.html)
     
--   [ps\_lineto »](function.ps-lineto.html)
+-   [псlineto »](function.ps-lineto.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Читає зовнішній файл із необробленим кодом PostScript
     
@@ -31,7 +31,7 @@ ps_include_file(resource $psdoc, string $file): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `file`
 

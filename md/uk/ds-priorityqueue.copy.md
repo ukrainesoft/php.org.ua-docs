@@ -1,12 +1,12 @@
 Повертає поверхневу копію черги
 
--   [« Ds\\PriorityQueue::\_\_construct](ds-priorityqueue.construct.html)
+-   [« DsPriorityQueue::construct](ds-priorityqueue.construct.html)
     
--   [Ds\\PriorityQueue::count »](ds-priorityqueue.count.html)
+-   [ДсPriorityQueue::count »](ds-priorityqueue.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Повертає поверхневу копію черги
     

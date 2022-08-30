@@ -124,13 +124,13 @@ public __wakeup(): void
 ## Зміст
 
 -   [DateTime::add](datetime.add.html) — Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTime::\_\_construct](datetime.construct.html) - Конструктор класу DateTime
+-   [DateTime::construct](datetime.construct.html) - Конструктор класу DateTime
 -   [DateTime::createFromFormat](datetime.createfromformat.html) — Розбирає рядок із датою згідно з вказаним форматом
 -   [DateTime::createFromImmutable](datetime.createfromimmutable.html) — Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
 -   [DateTime::createFromInterface](datetime.createfrominterface.html) — Повертає новий об'єкт DateTime, створений із переданого об'єкта, який реалізує інтерфейс DateTimeInterface
 -   [DateTime::getLastErrors](datetime.getlasterrors.html) — Повертає попередження та помилки
 -   [DateTime::modify](datetime.modify.html) - Зміна тимчасової мітки
--   [DateTime::\_\_set\_state](datetime.set-state.html) - Обробник setstate
+-   [DateTime::setstate](datetime.set-state.html) - Обробник setstate
 -   [DateTime::setDate](datetime.setdate.html) - Встановлює дату
 -   [DateTime::setISODate](datetime.setisodate.html) — Встановлює дату ISO
 -   [DateTime::setTime](datetime.settime.html) - Встановлює час

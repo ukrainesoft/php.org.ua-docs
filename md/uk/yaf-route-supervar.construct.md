@@ -1,12 +1,12 @@
 Призначення construct
 
--   [« Yaf\_Route\_Supervar::assemble](yaf-route-supervar.assemble.html)
+-   [« YafRouteSupervar::assemble](yaf-route-supervar.assemble.html)
     
--   [Yaf\_Route\_Supervar::route »](yaf-route-supervar.route.html)
+-   [YafRouteSupervar::route »](yaf-route-supervar.route.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
+-   [YafRouteSupervar](class.yaf-route-supervar.html)
     
 -   Призначення construct
     
@@ -21,7 +21,7 @@ YafRouteSupervar::construct - Призначення construct
 
 public **YafRouteSupervar::construct**(string `$supervar_name`
 
-[Yaf\_Route\_Supervar](class.yaf-route-supervar.html) схожий на [Yaf\_Route\_Static](class.yaf-route-static.html), Різниця в тому, що [Yaf\_Route\_Supervar](class.yaf-route-supervar.html) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
+[YafRouteSupervar](class.yaf-route-supervar.html) схожий на [YafRouteStatic](class.yaf-route-static.html), Різниця в тому, що [YafRouteSupervar](class.yaf-route-supervar.html) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
 
 ### Список параметрів
 
@@ -65,10 +65,10 @@ public **YafRouteSupervar::construct**(string `$supervar_name`
 
 ### Дивіться також
 
--   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [Yaf\_Router::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
--   [Yaf\_Route\_Static](class.yaf-route-static.html)
--   [Yaf\_Route\_Regex](class.yaf-route-regex.html)
--   [Yaf\_Route\_Simple](class.yaf-route-simple.html)
--   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
--   [Yaf\_Route\_Map](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.html)
+-   [YafRouteRegex](class.yaf-route-regex.html)
+-   [YafRouteSimple](class.yaf-route-simple.html)
+-   [YafRouteRewrite](class.yaf-route-rewrite.html)
+-   [YafRouteMap](class.yaf-route-map.html)

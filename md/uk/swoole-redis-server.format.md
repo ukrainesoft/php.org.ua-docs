@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Redis\\Server](class.swoole-redis-server.html)
+-   [« SwooleRedisServer](class.swoole-redis-server.html)
     
--   [Swoole\\Redis\\Server::setHandler »](swoole-redis-server.sethandler.html)
+-   [SwooleRedisServer::setHandler »](swoole-redis-server.sethandler.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Redis\\Server](class.swoole-redis-server.html)
+-   [SwooleRedisServer](class.swoole-redis-server.html)
     
 -   Опис
     

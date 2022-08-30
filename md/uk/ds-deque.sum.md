@@ -1,12 +1,12 @@
 Повертає суму всіх значень двосторонньої черги
 
--   [« Ds\\Deque::sorted](ds-deque.sorted.html)
+-   [« DsDeque::sorted](ds-deque.sorted.html)
     
--   [Ds\\Deque::toArray »](ds-deque.toarray.html)
+-   [ДсDeque::toArray »](ds-deque.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає суму всіх значень двосторонньої черги
     

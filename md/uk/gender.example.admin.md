@@ -2,7 +2,7 @@
 
 -   [« Примеры](gender.examples.html)
     
--   [Gender\\Gender »](class.gender.html)
+-   [GenderGender »](class.gender.html)
     
 -   [PHP Manual](index.html)
     

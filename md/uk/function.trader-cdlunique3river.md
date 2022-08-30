@@ -1,8 +1,8 @@
 Свічкова модель "Особлива западина три річки"
 
--   [« trader\_cdltristar](function.trader-cdltristar.html)
+-   [« tradercdltristar](function.trader-cdltristar.html)
     
--   [trader\_cdlupsidegap2crows »](function.trader-cdlupsidegap2crows.html)
+-   [tradercdlupsidegap2crows »](function.trader-cdlupsidegap2crows.html)
     
 -   [PHP Manual](index.html)
     

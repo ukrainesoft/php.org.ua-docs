@@ -1,12 +1,12 @@
 Десеріалізація CursorId
 
--   [« MongoDB\\Driver\\CursorId::\_\_toString](mongodb-driver-cursorid.tostring.html)
+-   [« MongoDBDriverCursorId::toString](mongodb-driver-cursorid.tostring.html)
     
--   [MongoDB\\Driver\\CursorInterface »](class.mongodb-driver-cursorinterface.html)
+-   [MongoDBDriverCursorInterface »](class.mongodb-driver-cursorinterface.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
+-   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
     
 -   Десеріалізація CursorId
     
@@ -27,7 +27,7 @@ final public MongoDB\Driver\CursorId::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
+Серіалізований [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
 
 ### Значення, що повертаються
 
@@ -35,12 +35,12 @@ final public MongoDB\Driver\CursorId::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Кидає виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) якщо виникла неможливо зробити десеріалізацію властивості, наприклад, якщо значення `serialized` не коректно.
--   Кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо властивості не коректні, наприклад, пропущені поля або вони мають некоректні значення.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Кидає виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) якщо виникла неможливо зробити десеріалізацію властивості, наприклад, якщо значення `serialized` не коректно.
+-   Кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо властивості не коректні, наприклад, пропущені поля або вони мають некоректні значення.
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\CursorId::serialize()](mongodb-driver-cursorid.serialize.html) - Серіалізація CursorId
+-   [MongoDBDriverCursorId::serialize()](mongodb-driver-cursorid.serialize.html) - Серіалізація CursorId
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
 -   [Сериализация объектов](language.oop5.serialization.html)

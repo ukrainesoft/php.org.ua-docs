@@ -49,5 +49,5 @@ $client->SomeFunction(new SoapParam($a, "a"),
 
 ### Дивіться також
 
--   [SoapClient::\_\_soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
+-   [SoapClient::soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
 -   **SoapVar::SoapVar()**

@@ -1,6 +1,6 @@
 Create stopped EvSignal watcher об'єкт
 
--   [« EvSignal::\_\_construct](evsignal.construct.html)
+-   [« EvSignal::construct](evsignal.construct.html)
     
 -   [EvSignal::set »](evsignal.set.html)
     
@@ -40,7 +40,7 @@ final
    ): EvSignal
 ```
 
-Створює зупинений об'єкт спостерігач EvSignal. На відміну від [EvSignal::\_\_construct()](evsignal.construct.html), цей метод не запускає створеного спостерігача
+Створює зупинений об'єкт спостерігач EvSignal. На відміну від [EvSignal::construct()](evsignal.construct.html), цей метод не запускає створеного спостерігача
 
 ### Список параметрів
 
@@ -50,7 +50,7 @@ final
 
 `callback`
 
-Дивіться [Функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -67,4 +67,4 @@ final
 ### Дивіться також
 
 -   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
--   [EvSignal::\_\_construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal

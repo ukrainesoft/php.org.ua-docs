@@ -1,12 +1,12 @@
 Зупиняє сервер Swoole
 
--   [« Swoole\\Server::stats](swoole-server.stats.html)
+-   [« SwooleServer::stats](swoole-server.stats.html)
     
--   [Swoole\\Server::task »](swoole-server.task.html)
+-   [SwooleServer::task »](swoole-server.task.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Зупиняє сервер Swoole
     

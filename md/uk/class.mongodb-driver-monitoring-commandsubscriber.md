@@ -1,12 +1,12 @@
 Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
 
--   [« MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html)
+-   [« MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandFailed »](mongodb-driver-monitoring-commandsubscriber.commandfailed.html)
+-   [MongoDBDriverMonitoringCommandSubscriber::commandFailed »](mongodb-driver-monitoring-commandsubscriber.commandfailed.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.html)
     
 -   Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Класи можуть реалізувати цей інтерфейс для реєстрації передплатника подій, який повідомляється про кожну, успішну або невдалу подію команди. Для детальної інформації дивіться [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+Класи можуть реалізувати цей інтерфейс для реєстрації передплатника подій, який повідомляється про кожну, успішну або невдалу подію команди. Для детальної інформації дивіться [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
 
 ## Огляд інтерфейсів
 
@@ -51,6 +51,6 @@ abstract public commandSucceeded(MongoDB\Driver\Monitoring\CommandSucceededEvent
 
 ## Зміст
 
--   [MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.html) — Метод повідомлення про невдалу команду
--   [MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.html) — Метод повідомлення про запущену команду
--   [MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html) — Метод повідомлення про успішну команду
+-   [MongoDBDriverMonitoringCommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.html) — Метод повідомлення про невдалу команду
+-   [MongoDBDriverMonitoringCommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.html) — Метод повідомлення про запущену команду
+-   [MongoDBDriverMonitoringCommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html) — Метод повідомлення про успішну команду

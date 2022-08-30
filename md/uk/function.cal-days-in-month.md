@@ -2,7 +2,7 @@
 
 -   [« Календарь](ref.calendar.html)
     
--   [cal\_from\_jd »](function.cal-from-jd.html)
+-   [calfromjd »](function.cal-from-jd.html)
     
 -   [PHP Manual](index.html)
     

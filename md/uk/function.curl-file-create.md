@@ -1,8 +1,8 @@
 Створює об'єкт CURLFile
 
--   [« curl\_exec](function.curl-exec.html)
+-   [« curlexec](function.curl-exec.html)
     
--   [curl\_getinfo »](function.curl-getinfo.html)
+-   [curlgetinfo »](function.curl-getinfo.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,4 +19,4 @@ curlfilecreate — Створює об'єкт CURLFile
 
 ### Опис
 
-Ця функція є псевдонімом: [CURLFile::\_\_construct()](curlfile.construct.html)
+Ця функція є псевдонімом: [CURLFile::construct()](curlfile.construct.html)

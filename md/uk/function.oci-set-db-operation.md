@@ -1,8 +1,8 @@
 Задає операцію бази даних
 
--   [« oci\_set\_client\_info](function.oci-set-client-info.html)
+-   [« ocisetclientinfo](function.oci-set-client-info.html)
     
--   [oci\_set\_edition »](function.oci-set-edition.html)
+-   [ocisetedition »](function.oci-set-edition.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ oci_set_db_operation(resource $connection, string $action): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html), або [oci\_new\_connect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
 
 `action`
 
@@ -85,7 +85,7 @@ SQL> select dbop_name from v$sql_monitor;
 
 ### Дивіться також
 
--   [oci\_set\_action()](function.oci-set-action.html) - Вказує ім'я для дії
--   [oci\_set\_module\_name()](function.oci-set-module-name.html) - Задає ім'я модулю
--   [oci\_set\_client\_info()](function.oci-set-client-info.html) - Задає інформацію про клієнта
--   [oci\_set\_client\_identifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта
+-   [ocisetaction()](function.oci-set-action.html) - Вказує ім'я для дії
+-   [ocisetmodulename()](function.oci-set-module-name.html) - Задає ім'я модулю
+-   [ocisetclientinfo()](function.oci-set-client-info.html) - Задає інформацію про клієнта
+-   [ocisetclientidentifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта

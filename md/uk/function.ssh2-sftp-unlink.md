@@ -1,12 +1,12 @@
 Видалити файл на сервері
 
--   [« ssh2\_sftp\_symlink](function.ssh2-sftp-symlink.html)
+-   [« ssh2sftpsymlink](function.ssh2-sftp-symlink.html)
     
--   [ssh2\_sftp »](function.ssh2-sftp.html)
+-   [ssh2sftp »](function.ssh2-sftp.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Видалити файл на сервері
     
@@ -29,7 +29,7 @@ ssh2_sftp_unlink(resource $sftp, string $filename): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `filename`
 

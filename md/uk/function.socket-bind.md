@@ -1,8 +1,8 @@
 Прив'язує ім'я до сокету
 
--   [« socket\_addrinfo\_lookup](function.socket-addrinfo-lookup.html)
+-   [« socketaddrinfolookup](function.socket-addrinfo-lookup.html)
     
--   [socket\_clear\_error »](function.socket-clear-error.html)
+-   [socketclearerror »](function.socket-clear-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ socketbind — Прив'язує ім'я до сокету
 socket_bind(Socket $socket, string $address, int $port = 0): bool
 ```
 
-Прив'язує ім'я, вказане у параметрі `address`до сокету, описаного у параметрі `socket`. Це має бути зроблено, перш ніж з'єднання встановлено за допомогою функції [socket\_connect()](function.socket-connect.html) або [socket\_listen()](function.socket-listen.html)
+Прив'язує ім'я, вказане у параметрі `address`до сокету, описаного у параметрі `socket`. Це має бути зроблено, перш ніж з'єднання встановлено за допомогою функції [socketconnect()](function.socket-connect.html) або [socketlisten()](function.socket-listen.html)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
 
 `address`
 
@@ -45,7 +45,7 @@ socket_bind(Socket $socket, string $address, int $port = 0): bool
 
 Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Код помилки може бути отриманий за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 ### список змін
 
@@ -87,16 +87,16 @@ socket_close($sock);
 
 > **Зауваження**
 > 
-> Ця функція має бути застосована на сокеті перед викликом [socket\_connect()](function.socket-connect.html)
+> Ця функція має бути застосована на сокеті перед викликом [socketconnect()](function.socket-connect.html)
 
 > **Зауваження**
 > 
-> Примітка щодо сумісності з Windows 9x/ME: Функція [socket\_last\_error()](function.socket-last-error.html) може повертати неправильний код помилки при спробі зв'язати з сокетом неправильну адресу, яка не належить вашій машині.
+> Примітка щодо сумісності з Windows 9x/ME: Функція [socketlasterror()](function.socket-last-error.html) може повертати неправильний код помилки при спробі зв'язати з сокетом неправильну адресу, яка не належить вашій машині.
 
 ### Дивіться також
 
--   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

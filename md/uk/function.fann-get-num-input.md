@@ -1,8 +1,8 @@
 Отримує кількість вхідних нейронів
 
--   [« fann\_get\_network\_type](function.fann-get-network-type.html)
+-   [« fanngetnetworktype](function.fann-get-network-type.html)
     
--   [fann\_get\_num\_layers »](function.fann-get-num-layers.html)
+-   [fanngetnumlayers »](function.fann-get-num-layers.html)
     
 -   [PHP Manual](index.html)
     

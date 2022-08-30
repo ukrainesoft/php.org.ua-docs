@@ -1,12 +1,12 @@
 Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
 
--   [« MongoDB\\Driver\\Manager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html)
+-   [« MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html)
     
--   [MongoDB\\Driver\\Manager::getReadConcern »](mongodb-driver-manager.getreadconcern.html)
+-   [MongoDBDriverManager::getReadConcern »](mongodb-driver-manager.getreadconcern.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+-   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
 -   Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
     
@@ -31,12 +31,12 @@ final public MongoDB\Driver\Manager::getEncryptedFieldsMap(): array|object|null
 
 ### Значення, що повертаються
 
-Параметр `encryptedFieldsMap` автоматичного шифрування для Manager або **`null`**якщо він не був вказаний.
+Параметр `encryptedFieldsMap` автоматичного шифрування для Manager або \*\*`null`\*\*якщо він не був вказаний.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
+-   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB

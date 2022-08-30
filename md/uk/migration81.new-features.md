@@ -2,7 +2,7 @@
 
 -   [« Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
     
--   [Новые классы и интерфейсы »](migration81.new-classes.html)
+-   [Нові класи та інтерфейси »](migration81.new-classes.html)
     
 -   [PHP Manual](index.html)
     
@@ -28,7 +28,7 @@
 
 #### Розпакування масиву за допомогою рядкових ключів
 
-Додана підтримка [распаковки массивов со строковыми ключами](language.types.array.html#language.types.array.unpacking)
+Додана підтримка [розпакування масивів з рядковими ключами](language.types.array.html#language.types.array.unpacking)
 
 ```php
 <?php
@@ -55,17 +55,17 @@ $arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 
 #### Callback-функції як об'єкти першого класу
 
-Замикання для callback-функцій тепер можна створювати синтаксисом. `myFunc(...)`, який ідентичний [синтаксису `Closure::fromCallable('myFunc')`](functions.first_class_callable_syntax.html)
+Замикання для callback-функцій тепер можна створювати синтаксисом. `myFunc(...)`, який ідентичний [синтаксису`Closure::fromCallable('myFunc')`](functions.first_class_callable_syntax.html)
 
 > **Зауваження** `...` є частиною синтаксису, а чи не перепусткою.
 
 #### Перетин типів
 
-Додана підтримка [пересечения типов](language.types.declarations.html#language.types.declarations.composite.intersection)
+Додана підтримка [перетину типів](language.types.declarations.html#language.types.declarations.composite.intersection)
 
 **Застереження**
 
-[Пересечения типов](language.types.declarations.html#language.types.declarations.composite.intersection) не можна використовувати разом з [объединёнными типами](language.types.declarations.html#language.types.declarations.composite.union)
+[Перетин типів](language.types.declarations.html#language.types.declarations.composite.intersection) не можна використовувати разом з [об'єднаними типами](language.types.declarations.html#language.types.declarations.composite.union)
 
 #### Тип never
 
@@ -118,7 +118,7 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
 
 ### Hash
 
-Наступні функції [hash()](function.hash.html) [hash\_file()](function.hash-file.html) і [hash\_init()](function.hash-init.html) тепер підтримують додатковий необов'язковий аргумент `options`який можна використовувати для передачі специфічних для алгоритму даних.
+Наступні функції [hash()](function.hash.html) [hashfile()](function.hash-file.html) і [hashinit()](function.hash-init.html) тепер підтримують додатковий необов'язковий аргумент `options`який можна використовувати для передачі специфічних для алгоритму даних.
 
 #### MurmurHash3
 
@@ -137,7 +137,7 @@ echo $h, "\n";
 ?>
 ```
 
-Допустиме початкове значення знаходиться в діапазоні від `0` до певного платформою значення **`UINT_MAX`**зазвичай - `4294967295`
+Допустиме початкове значення знаходиться в діапазоні від `0` до певного платформою значення \*\*`UINT_MAX`\*\*зазвичай - `4294967295`
 
 #### xxHash
 
@@ -172,11 +172,11 @@ echo $h, "\n";
 
 #### Нова INI-директива `mysqli.local_infile_directory`
 
-Додано INI-директиву [mysqli.local\_infile\_directory](mysqli.configuration.html#ini.mysqli.local-infile-directory), за допомогою якої можна вказати каталог, з якого дозволено завантаження файлів. Це має сенс тільки якщо [mysqli.allow\_local\_infile](mysqli.configuration.html#ini.mysqli.allow-local-infile) не включено, оскільки в цьому випадку дозволено всі каталоги.
+Додано INI-директиву [mysqli.localinfiledirectory](mysqli.configuration.html#ini.mysqli.local-infile-directory), за допомогою якої можна вказати каталог, з якого дозволено завантаження файлів. Це має сенс тільки якщо [mysqli.allowlocalinfile](mysqli.configuration.html#ini.mysqli.allow-local-infile) не включено, оскільки в цьому випадку дозволено всі каталоги.
 
 #### Прив'язка параметрів під час виконання
 
-Тепер можна прив'язувати параметри, передавши їх у вигляді масиву [mysqli\_stmt::execute()](mysqli-stmt.execute.html). Усі значення будуть прив'язані як рядки. Дозволено лише облікові масиви. Ця нова функція недоступна, якщо MySQLi скомпільовано з libmysqlclient.
+Тепер можна прив'язувати параметри, передавши їх у вигляді масиву [mysqlistmt::execute()](mysqli-stmt.execute.html). Усі значення будуть прив'язані як рядки. Дозволено лише облікові масиви. Ця нова функція недоступна, якщо MySQLi скомпільовано з libmysqlclient.
 
 ```php
 <?php
@@ -185,9 +185,9 @@ $stmt->execute([1, $username]);
 ?>
 ```
 
-#### Новий метод [mysqli\_result::fetch\_column()](mysqli-result.fetch-column.html)
+#### Новий метод [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.html)
 
-Доданий [mysqli\_result::fetch\_column()](mysqli-result.fetch-column.html) для вибірки єдиного скалярного значення набору результатів. Новий метод приймає необов'язковий параметр `column`, що починається з 0, у вигляді цілого числа (int), що вказує з якого стовпця робити вибірку.
+Доданий [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.html) для вибірки єдиного скалярного значення набору результатів. Новий метод приймає необов'язковий параметр `column`, що починається з 0, у вигляді цілого числа (int), що вказує з якого стовпця робити вибірку.
 
 ```php
 <?php

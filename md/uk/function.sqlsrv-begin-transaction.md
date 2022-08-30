@@ -1,12 +1,12 @@
 Розпочинає транзакцію бази даних
 
--   [« Функции SQLSRV](ref.sqlsrv.html)
+-   [« Функції SQLSRV](ref.sqlsrv.html)
     
--   [sqlsrv\_cancel »](function.sqlsrv-cancel.html)
+-   [sqlsrvcancel »](function.sqlsrv-cancel.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Розпочинає транзакцію бази даних
     
@@ -23,13 +23,13 @@ sqlsrvbegintransaction — Починає транзакцію бази дани
 sqlsrv_begin_transaction(resource $conn): bool
 ```
 
-Транзакція, розпочата за допомогою **sqlsrvbegintransaction()**, включає всі оператори, які були виконані після виклику **sqlsrvbegintransaction()** та до викликів [sqlsrv\_rollback()](function.sqlsrv-rollback.html) або [sqlsrv\_commit()](function.sqlsrv-commit.html). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання операторів SQL, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакции SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
+Транзакція, розпочата за допомогою **sqlsrvbegintransaction()**, включає всі оператори, які були виконані після виклику **sqlsrvbegintransaction()** та до викликів [sqlsrvrollback()](function.sqlsrv-rollback.html) або [sqlsrvcommit()](function.sqlsrv-commit.html). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання операторів SQL, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
 
 ### Список параметрів
 
 `conn`
 
-Ресурс підключення, що повертається викликом [sqlsrv\_connect()](function.sqlsrv-connect.html)
+Ресурс підключення, що повертається викликом [sqlsrvconnect()](function.sqlsrv-connect.html)
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ sqlsrv_begin_transaction(resource $conn): bool
 
 **Приклад #1 Приклад використання **sqlsrvbegintransaction()****
 
-У наступному прикладі показано, як використовувати**sqlsrvbegintransaction()** разом з [sqlsrv\_commit()](function.sqlsrv-commit.html) і [sqlsrv\_rollback()](function.sqlsrv-rollback.html)
+У наступному прикладі показано, як використовувати**sqlsrvbegintransaction()** разом з [sqlsrvcommit()](function.sqlsrv-commit.html) і [sqlsrvrollback()](function.sqlsrv-rollback.html)
 
 ```php
 <?php
@@ -87,5 +87,5 @@ if( $stmt1 && $stmt2 ) {
 
 ### Дивіться також
 
--   [sqlsrv\_commit()](function.sqlsrv-commit.html) - Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
--   [sqlsrv\_rollback()](function.sqlsrv-rollback.html) - Відкочує транзакцію, розпочату sqlsrvbegintransaction
+-   [sqlsrvcommit()](function.sqlsrv-commit.html) - Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
+-   [sqlsrvrollback()](function.sqlsrv-rollback.html) - Відкочує транзакцію, розпочату sqlsrvbegintransaction

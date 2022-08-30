@@ -1,8 +1,8 @@
 Свічкова модель "Східчасте дно"
 
--   [« trader\_cdlkickingbylength](function.trader-cdlkickingbylength.html)
+-   [« tradercdlkickingbylength](function.trader-cdlkickingbylength.html)
     
--   [trader\_cdllongleggeddoji »](function.trader-cdllongleggeddoji.html)
+-   [tradercdllongleggeddoji »](function.trader-cdllongleggeddoji.html)
     
 -   [PHP Manual](index.html)
     

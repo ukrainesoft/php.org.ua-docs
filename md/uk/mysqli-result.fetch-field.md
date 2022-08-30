@@ -1,12 +1,12 @@
 Повертає наступне поле результуючого набору
 
--   [« mysqli\_result::fetch\_field\_direct](mysqli-result.fetch-field-direct.html)
+-   [« mysqliresult::fetchfielddirect](mysqli-result.fetch-field-direct.html)
     
--   [mysqli\_result::fetch\_fields »](mysqli-result.fetch-fields.html)
+-   [mysqliresult::fetchfields »](mysqli-result.fetch-fields.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Повертає наступне поле результуючого набору
     
@@ -39,11 +39,11 @@ mysqli_fetch_field(mysqli_result $result): object|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
-Повертає об'єкт, що містить визначення поля або **`false`**якщо стовпці в результуючій таблиці закінчилися.
+Повертає об'єкт, що містить визначення поля або \*\*`false`\*\*якщо стовпці в результуючій таблиці закінчилися.
 
 **Властивості об'єкту**
 
@@ -148,7 +148,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_num\_fields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
--   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.html) - Отримання метаданих конкретного поля
--   [mysqli\_fetch\_fields()](mysqli-result.fetch-fields.html) - Повертає масив об'єктів, що становлять поля результуючого набору
--   [mysqli\_field\_seek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення
+-   [mysqlinumfields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) - Отримання метаданих конкретного поля
+-   [mysqlifetchfields()](mysqli-result.fetch-fields.html) - Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqlifieldseek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення

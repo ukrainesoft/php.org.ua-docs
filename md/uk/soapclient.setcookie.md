@@ -1,8 +1,8 @@
 Встановлює cookie для запитів SOAP
 
--   [« SoapClient::\_\_getTypes](soapclient.gettypes.html)
+-   [« SoapClient::getTypes](soapclient.gettypes.html)
     
--   [SoapClient::\_\_setLocation »](soapclient.setlocation.html)
+-   [SoapClient::setLocation »](soapclient.setlocation.html)
     
 -   [PHP Manual](index.html)
     

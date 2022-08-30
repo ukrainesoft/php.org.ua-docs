@@ -2,7 +2,7 @@
 
 -   [« SoapClient](class.soapclient.html)
     
--   [SoapClient::\_\_construct »](soapclient.construct.html)
+-   [SoapClient::construct »](soapclient.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ SoapClient::call - Викликає SOAP-функцію (застарілий м
 public SoapClient::__call(string $name, array $args): mixed
 ```
 
-Виклик цього методу застарів. Зазвичай функції SOAP можуть бути викликані як методи об'єкта [SoapClient](class.soapclient.html); у ситуаціях, коли це неможливо або потрібні додаткові опції, використовуйте метод [SoapClient::\_\_soapCall()](soapclient.soapcall.html)
+Виклик цього методу застарів. Зазвичай функції SOAP можуть бути викликані як методи об'єкта [SoapClient](class.soapclient.html); у ситуаціях, коли це неможливо або потрібні додаткові опції, використовуйте метод [SoapClient::soapCall()](soapclient.soapcall.html)
 
 ### Список параметрів
 

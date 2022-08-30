@@ -1,6 +1,6 @@
 Клас SeasLog
 
--   [« seaslog\_get\_version](function.seaslog-get-version.html)
+-   [« seasloggetversion](function.seaslog-get-version.html)
     
 -   [SeasLog::alert »](seaslog.alert.html)
     
@@ -68,10 +68,10 @@ public static warning(string $message, array $content = ?, string $logger = ?): 
 -   [SeasLog::analyzerCount](seaslog.analyzercount.html) — Отримує кількість журналів за рівнем, logpath і keyслово
 -   [SeasLog::analyzerDetail](seaslog.analyzerdetail.html) — Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
 -   [SeasLog::closeLoggerStream](seaslog.closeloggerstream.html) - Вручну звільняє потік від реєстратора
--   [SeasLog::\_\_construct](seaslog.construct.html) - Опис
+-   [SeasLog::construct](seaslog.construct.html) - Опис
 -   [SeasLog::critical](seaslog.critical.html) - Записує інформацію рівня "critical" в журнал
 -   [SeasLog::debug](seaslog.debug.html) - Записує інформацію рівня "debug" в журнал
--   [SeasLog::\_\_destruct](seaslog.destruct.html) - Опис
+-   [SeasLog::destruct](seaslog.destruct.html) - Опис
 -   [SeasLog::emergency](seaslog.emergency.html) - Записує інформацію рівня "emergency" в журнал
 -   [SeasLog::error](seaslog.error.html) - Записує інформацію рівня "error" в журнал
 -   [SeasLog::flushBuffer](seaslog.flushbuffer.html) — Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp

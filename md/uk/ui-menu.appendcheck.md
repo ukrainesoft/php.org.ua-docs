@@ -1,12 +1,12 @@
 Додати пункт меню із чекбоксом
 
--   [« UI\\Menu::appendAbout](ui-menu.appendabout.html)
+-   [« UIMenu::appendAbout](ui-menu.appendabout.html)
     
--   [UI\\Menu::appendPreferences »](ui-menu.appendpreferences.html)
+-   [ОЙMenu::appendPreferences »](ui-menu.appendpreferences.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Menu](class.ui-menu.html)
+-   [ОЙMenu](class.ui-menu.html)
     
 -   Додати пункт меню із чекбоксом
     

@@ -1,8 +1,8 @@
 Встановлює нове з'єднання із сервером Oracle
 
--   [« oci\_new\_collection](function.oci-new-collection.html)
+-   [« ocinewcollection](function.oci-new-collection.html)
     
--   [oci\_new\_cursor »](function.oci-new-cursor.html)
+-   [ocinewcursor »](function.oci-new-cursor.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ oci_new_connect(    string $username,    string $password,    ?strin
 
 Створює нове з'єднання з сервером Oracle та здійснює вхід.
 
-На відміну від [oci\_connect()](function.oci-connect.html) і [oci\_pconnect()](function.oci-pconnect.html), функція **ocinewconnect()** не кешує з'єднання і під час кожного виклику встановлює нове з'єднання. Це корисно, якщо додатку потрібна транзакційна ізоляція двох наборів запитів.
+На відміну від [ociconnect()](function.oci-connect.html) і [ocipconnect()](function.oci-pconnect.html), функція **ocinewconnect()** не кешує з'єднання і під час кожного виклику встановлює нове з'єднання. Це корисно, якщо додатку потрібна транзакційна ізоляція двох наборів запитів.
 
 ### Список параметрів
 
@@ -57,9 +57,9 @@ oci_new_connect(    string $username,    string $password,    ?strin
 
 `session_mode`
 
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
 
-У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
+У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
 
 **`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
 
@@ -125,9 +125,9 @@ query("нового соединения после commit", $c2);
 ?>
 ```
 
-Додаткові приклади можна знайти в описі функції [oci\_connect()](function.oci-connect.html)
+Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.html)
 
 ### Дивіться також
 
--   [oci\_connect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
--   [oci\_pconnect()](function.oci-pconnect.html) - Встановлює постійне з'єднання із сервером Oracle
+-   [ociconnect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
+-   [ocipconnect()](function.oci-pconnect.html) - Встановлює постійне з'єднання із сервером Oracle

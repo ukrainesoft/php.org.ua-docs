@@ -1,8 +1,8 @@
 Повертає останній рядок помилки
 
--   [« fann\_get\_errno](function.fann-get-errno.html)
+-   [« fanngeterrno](function.fann-get-errno.html)
     
--   [fann\_get\_layer\_array »](function.fann-get-layer-array.html)
+-   [fanngetlayerarray »](function.fann-get-layer-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,5 +37,5 @@ fann_get_errstr(resource $errdat): string
 
 ### Дивіться також
 
--   [fann\_reset\_errstr()](function.fann-reset-errstr.html) - Скидає останній рядок помилки
--   [fann\_get\_errno()](function.fann-get-errno.html) - Повертає останній номер помилки
+-   [fannreseterrstr()](function.fann-reset-errstr.html) - Скидає останній рядок помилки
+-   [fanngeterrno()](function.fann-get-errno.html) - Повертає останній номер помилки

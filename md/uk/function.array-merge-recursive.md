@@ -1,12 +1,12 @@
 Рекурсивне злиття одного або більше масивів
 
--   [« array\_map](function.array-map.html)
+-   [« arraymap](function.array-map.html)
     
--   [array\_merge »](function.array-merge.html)
+-   [arraymerge »](function.array-merge.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Рекурсивне злиття одного або більше масивів
     
@@ -79,5 +79,5 @@ Array
 
 ### Дивіться також
 
--   [array\_merge()](function.array-merge.html) - Зливає один або більше масивів
--   [array\_replace\_recursive()](function.array-replace-recursive.html) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
+-   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
+-   [arrayreplacerecursive()](function.array-replace-recursive.html) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.

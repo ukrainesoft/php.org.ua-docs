@@ -46,7 +46,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvPeriodic::\_\_construct()](evperiodic.construct.html)
+Усі параметри, що й для [EvPeriodic::construct()](evperiodic.construct.html)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ final
 
 ### Дивіться також
 
--   [EvPeriodic::\_\_construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic

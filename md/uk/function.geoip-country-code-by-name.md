@@ -1,8 +1,8 @@
 Отримати двосимвольний код країни
 
--   [« geoip\_continent\_code\_by\_name](function.geoip-continent-code-by-name.html)
+-   [« geoipcontinentcodeбname](function.geoip-continent-code-by-name.html)
     
--   [geoip\_country\_code3\_by\_name »](function.geoip-country-code3-by-name.html)
+-   [geoipcountrycode3бname »](function.geoip-country-code3-by-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -64,5 +64,5 @@ if ($country) {
 
 ### Дивіться також
 
--   [geoip\_country\_code3\_by\_name()](function.geoip-country-code3-by-name.html) - Отримати трисимвольний код країни
--   [geoip\_country\_name\_by\_name()](function.geoip-country-name-by-name.html) - Отримати повну назву країни
+-   [geoipcountrycode3бname()](function.geoip-country-code3-by-name.html) - Отримати трисимвольний код країни
+-   [geoipcountrynameбname()](function.geoip-country-name-by-name.html) - Отримати повну назву країни

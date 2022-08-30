@@ -1,8 +1,8 @@
 Повертає кількість елементів колекції
 
--   [« Ds\\Stack::copy](ds-stack.copy.html)
+-   [« DsStack::copy](ds-stack.copy.html)
     
--   [Ds\\Stack::isEmpty »](ds-stack.isempty.html)
+-   [ДсStack::isEmpty »](ds-stack.isempty.html)
     
 -   [PHP Manual](index.html)
     

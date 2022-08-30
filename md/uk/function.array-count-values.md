@@ -1,12 +1,12 @@
 Підраховує кількість усіх значень масиву
 
--   [« array\_combine](function.array-combine.html)
+-   [« arraycombine](function.array-combine.html)
     
--   [array\_diff\_assoc »](function.array-diff-assoc.html)
+-   [arraydiffassoc »](function.array-diff-assoc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Підраховує кількість усіх значень масиву
     
@@ -64,6 +64,6 @@ Array
 ### Дивіться також
 
 -   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
--   [array\_unique()](function.array-unique.html) - Прибирає значення, що повторюються, з масиву
--   [array\_values()](function.array-values.html) - Вибирає всі значення масиву
--   [count\_chars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
+-   [arrayunique()](function.array-unique.html) - Прибирає значення, що повторюються, з масиву
+-   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
+-   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка

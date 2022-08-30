@@ -1,12 +1,12 @@
 Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
 
--   [« Swoole\\Process::start](swoole-process.start.html)
+-   [« SwooleProcess::start](swoole-process.start.html)
     
--   [Swoole\\Process::useQueue »](swoole-process.usequeue.html)
+-   [SwooleProcess::useQueue »](swoole-process.usequeue.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
     

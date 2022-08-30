@@ -1,8 +1,8 @@
 Повертає кількість збігів для останнього пошуку
 
--   [« yaz\_get\_option](function.yaz-get-option.html)
+-   [« yazgetoption](function.yaz-get-option.html)
     
--   [yaz\_itemorder »](function.yaz-itemorder.html)
+-   [yazitemorder »](function.yaz-itemorder.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ yaz_hits(resource $id, array &$searchresult = ?): int
 
 `id`
 
-Ресурс підключення, що повертається [yaz\_connect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
 
 `searchresult`
 

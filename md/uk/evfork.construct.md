@@ -27,7 +27,7 @@ public **EvFork::construct** [callable](language.types.callable.html) `$callback
 
 `callback`
 
-Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

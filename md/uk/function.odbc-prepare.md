@@ -1,8 +1,8 @@
 Підготовка запиту до виконання
 
--   [« odbc\_pconnect](function.odbc-pconnect.html)
+-   [« odbcpconnect](function.odbc-pconnect.html)
     
--   [odbc\_primarykeys »](function.odbc-primarykeys.html)
+-   [odbcprimarykeys »](function.odbc-primarykeys.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ odbcprepare — Підготовка запиту до виконання
 odbc_prepare(resource $odbc, string $query): resource|false
 ```
 
-Підготовка запиту до виконання. Ідентифікатор результату може бути використаний пізніше для виконання запиту за допомогою [odbc\_execute()](function.odbc-execute.html)
+Підготовка запиту до виконання. Ідентифікатор результату може бути використаний пізніше для виконання запиту за допомогою [odbcexecute()](function.odbc-execute.html)
 
 Деякі бази даних (наприклад, IBM DB2, MS SQL Server та Oracle) підтримують процедури, що зберігаються, які приймають параметри типу IN, INOUT і OUT, як визначено в специфікації ODBC. Однак драйвер Unified ODBC в даний час підтримує лише параметри типу IN для збережених процедур.
 
@@ -31,7 +31,7 @@ odbc_prepare(resource $odbc, string $query): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `query`
 
@@ -43,7 +43,7 @@ odbc_prepare(resource $odbc, string $query): resource|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання [odbc\_execute()](function.odbc-execute.html) і **odbcprepare()****
+**Приклад #1 Приклад використання [odbcexecute()](function.odbc-execute.html) і **odbcprepare()****
 
 У даному коді значення $success дорівнюватиме **`true`**, тільки якщо всі три параметри myproc є параметрами IN:
 
@@ -61,4 +61,4 @@ $success = odbc_execute($stmt, array($a, $b, $c));
 
 ### Дивіться також
 
--   [odbc\_execute()](function.odbc-execute.html) - Виконує запит
+-   [odbcexecute()](function.odbc-execute.html) - Виконує запит

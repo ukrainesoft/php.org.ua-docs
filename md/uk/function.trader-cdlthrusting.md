@@ -1,8 +1,8 @@
 Свічкова модель "Поштовх"
 
--   [« trader\_cdltasukigap](function.trader-cdltasukigap.html)
+-   [« tradercdltasukigap](function.trader-cdltasukigap.html)
     
--   [trader\_cdltristar »](function.trader-cdltristar.html)
+-   [tradercdltristar »](function.trader-cdltristar.html)
     
 -   [PHP Manual](index.html)
     

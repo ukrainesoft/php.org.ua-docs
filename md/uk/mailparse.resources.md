@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-Mailparse визначає тип ресурсу `mailparse_mail_structure`, який повертається функціями [mailparse\_msg\_create()](function.mailparse-msg-create.html) і [mailparse\_msg\_parse\_file()](function.mailparse-msg-parse-file.html)
+Mailparse визначає тип ресурсу `mailparse_mail_structure`, який повертається функціями [mailparsemsgcreate()](function.mailparse-msg-create.html) і [mailparsemsgparsefile()](function.mailparse-msg-parse-file.html)

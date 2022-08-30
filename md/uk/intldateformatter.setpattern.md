@@ -43,7 +43,7 @@ datefmt_set_pattern(IntlDateFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Новий рядок шаблон для використання. Можливі шаблони можна переглянути на [» https://unicode-org.github.io/icu/userguide/format\_parse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
+Новий рядок шаблон для використання. Можливі шаблони можна переглянути на [» https://unicode-org.github.io/icu/userguide/formatparse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
 
 ### Значення, що повертаються
 
@@ -100,5 +100,5 @@ echo 'Второй отформатированный вывод : ', $fmt
 
 ### Дивіться також
 
--   [datefmt\_get\_pattern()](intldateformatter.getpattern.html) - Отримує шаблон, який використовується IntlDateFormatter
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgetpattern()](intldateformatter.getpattern.html) - Отримує шаблон, який використовується IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

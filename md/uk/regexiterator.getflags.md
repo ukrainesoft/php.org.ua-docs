@@ -1,6 +1,6 @@
 Отримання прапорів налаштування
 
--   [« RegexIterator::\_\_construct](regexiterator.construct.html)
+-   [« RegexIterator::construct](regexiterator.construct.html)
     
 -   [RegexIterator::getMode »](regexiterator.getmode.html)
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   Обумовлені константи
     

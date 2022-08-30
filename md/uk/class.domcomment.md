@@ -2,7 +2,7 @@
 
 -   [« DOMChildNode::replaceWith](domchildnode.replacewith.html)
     
--   [DOMComment::\_\_construct »](domcomment.construct.html)
+-   [DOMComment::construct »](domcomment.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -157,4 +157,4 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Зміст
 
--   [DOMComment::\_\_construct](domcomment.construct.html) — Створює новий екземпляр класу DOMComment
+-   [DOMComment::construct](domcomment.construct.html) — Створює новий екземпляр класу DOMComment

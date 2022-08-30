@@ -2,7 +2,7 @@
 
 -   [« PharFileInfo::decompress](pharfileinfo.decompress.html)
     
--   [PharFileInfo::\_\_destruct »](pharfileinfo.destruct.html)
+-   [PharFileInfo::destruct »](pharfileinfo.destruct.html)
     
 -   [PHP Manual](index.html)
     

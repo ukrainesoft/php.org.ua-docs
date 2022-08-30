@@ -37,4 +37,4 @@ memcache_debug(bool $on_off): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо PHP був зібраний з опцією --enable-debug, інакше - **`false`**
+Повертає \*\*`true`\*\*якщо PHP був зібраний з опцією --enable-debug, інакше - **`false`**

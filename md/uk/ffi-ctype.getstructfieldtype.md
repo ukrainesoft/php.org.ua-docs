@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html)
+-   [« FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html)
     
--   [FFI\\Exception »](class.ffi-exception.html)
+-   [FFIException »](class.ffi-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

@@ -65,7 +65,7 @@ public
 
 `options`
 
-Одна з [констант EventBufferEvent::OPT\_\*](class.eventbufferevent.html#eventbufferevent.constants) або **`0`**
+Одна з [констант EventBufferEvent::OPT](class.eventbufferevent.html#eventbufferevent.constants) або **`0`**
 
 `readcb`
 

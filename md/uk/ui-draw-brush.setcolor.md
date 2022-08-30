@@ -1,12 +1,12 @@
 Встановити колір
 
--   [« UI\\Draw\\Brush::getColor](ui-draw-brush.getcolor.html)
+-   [« UIDrawBrush::getColor](ui-draw-brush.getcolor.html)
     
--   [UI\\Draw\\Brush\\Gradient »](class.ui-draw-brush-gradient.html)
+-   [ОЙDrawBrushGradient »](class.ui-draw-brush-gradient.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush](class.ui-draw-brush.html)
+-   [ОЙDrawBrush](class.ui-draw-brush.html)
     
 -   Встановити колір
     

@@ -17,13 +17,13 @@
 
 **Налаштування конфігурації дати/часу**
 
-| Имя                                                                               | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [date.default\_latitude](datetime.configuration.html#ini.date.default-latitude)   | "31.7667"    | PHPINIALL       |                  |
-| [date.default\_longitude](datetime.configuration.html#ini.date.default-longitude) | "35.2333"    | PHPINIALL       |                  |
-| [date.sunrise\_zenith](datetime.configuration.html#ini.date.sunrise-zenith)       | "90.583333"  | PHPINIALL       |                  |
-| [date.sunset\_zenith](datetime.configuration.html#ini.date.sunset-zenith)         | "90.583333"  | PHPINIALL       |                  |
-| [date.timezone](datetime.configuration.html#ini.date.timezone)                    | "UTC"        | PHPINIALL       |                  |
+| Имя                                                                             | По умолчанию | Место изменения | Список изменений |
+|---------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude)   | "31.7667"    | PHPINIALL       |                  |
+| [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude) | "35.2333"    | PHPINIALL       |                  |
+| [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith)       | "90.583333"  | PHPINIALL       |                  |
+| [date.sunsetzenith](datetime.configuration.html#ini.date.sunset-zenith)         | "90.583333"  | PHPINIALL       |                  |
+| [date.timezone](datetime.configuration.html#ini.date.timezone)                  | "UTC"        | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -47,6 +47,6 @@
 
 `date.timezone` string
 
-Часовий пояс, який використовується за умовчанням всіма функціями дати/часу. Порядок пріоритету часових поясів, що використовуються, описаний на сторінці [date\_default\_timezone\_get()](function.date-default-timezone-get.html). Дивіться також [Список поддерживаемых часовых поясов](timezones.html)
+Часовий пояс, який використовується за умовчанням всіма функціями дати/часу. Порядок пріоритету часових поясів, що використовуються, описаний на сторінці [datedefaulttimezoneget()](function.date-default-timezone-get.html). Дивіться також [Список підтримуваних часових поясів](timezones.html)
 
-> **Зауваження**: Перші чотири опції налаштування в даний час використовуються тільки у функціях [date\_sunrise()](function.date-sunrise.html) і [date\_sunset()](function.date-sunset.html)
+> **Зауваження**: Перші чотири опції налаштування в даний час використовуються тільки у функціях [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.html)

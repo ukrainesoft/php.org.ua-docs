@@ -1,8 +1,8 @@
 Готує з'єднання із сервером Z39.50
 
--   [« yaz\_close](function.yaz-close.html)
+-   [« yazclose](function.yaz-close.html)
     
--   [yaz\_database »](function.yaz-database.html)
+-   [yazdatabase »](function.yaz-database.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ yaz_connect(string $zurl, mixed $options = ?): mixed
 
 Функція повертає дескриптор з'єднання у разі успішного виконання та нуль у разі виникнення помилки.
 
-**yazconnect()** готує з'єднання із сервером Z39.50. Функція не блокує і не намагається встановити з'єднання, а лише готує з'єднання для подальшого виконання функцією [yaz\_wait()](function.yaz-wait.html)
+**yazconnect()** готує з'єднання із сервером Z39.50. Функція не блокує і не намагається встановити з'єднання, а лише готує з'єднання для подальшого виконання функцією [yazwait()](function.yaz-wait.html)
 
 > **Зауваження**
 > 
@@ -69,7 +69,7 @@ persistent
 
 > **Зауваження**
 > 
-> Якщо ви відкрили постійне з'єднання, ви не зможете закрити його пізніше за допомогою [yaz\_close()](function.yaz-close.html)
+> Якщо ви відкрили постійне з'єднання, ви не зможете закрити його пізніше за допомогою [yazclose()](function.yaz-close.html)
 
 piggyback
 
@@ -111,4 +111,4 @@ maximumRecordSize
 
 ### Дивіться також
 
--   [yaz\_close()](function.yaz-close.html) - Закриває з'єднання YAZ
+-   [yazclose()](function.yaz-close.html) - Закриває з'єднання YAZ

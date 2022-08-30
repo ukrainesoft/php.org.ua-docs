@@ -1,8 +1,8 @@
 Віднімає елемент
 
--   [« sodium\_crypto\_core\_ristretto255\_scalar\_sub](function.sodium-crypto-core-ristretto255-scalar-sub.html)
+-   [« sodiumcryptocoreristretto255scalarsub](function.sodium-crypto-core-ristretto255-scalar-sub.html)
     
--   [sodium\_crypto\_generichash\_final »](function.sodium-crypto-generichash-final.html)
+-   [sodiumcryptogenerichashfinal »](function.sodium-crypto-generichash-final.html)
     
 -   [PHP Manual](index.html)
     
@@ -68,5 +68,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodium\_crypto\_core\_ristretto255\_random()](function.sodium-crypto-core-ristretto255-random.html) - Генерує випадковий ключ
--   [sodium\_crypto\_core\_ristretto255\_add()](function.sodium-crypto-core-ristretto255-add.html) - Додає елемент
+-   [sodiumcryptocoreristretto255random()](function.sodium-crypto-core-ristretto255-random.html) - Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.html) - Додає елемент

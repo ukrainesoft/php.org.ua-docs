@@ -1,6 +1,6 @@
 Відключення від інтерфейсу адміністрування екземпляра varnish
 
--   [« VarnishAdmin::\_\_construct](varnishadmin.construct.html)
+-   [« VarnishAdmin::construct](varnishadmin.construct.html)
     
 -   [VarnishAdmin::getPanic »](varnishadmin.getpanic.html)
     

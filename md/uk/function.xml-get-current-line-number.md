@@ -1,8 +1,8 @@
 Отримує від XML-аналізатора номер поточного рядка
 
--   [« xml\_get\_current\_column\_number](function.xml-get-current-column-number.html)
+-   [« xmlgetcurrentcolumnnumber](function.xml-get-current-column-number.html)
     
--   [xml\_get\_error\_code »](function.xml-get-error-code.html)
+-   [xmlgeterrorcode »](function.xml-get-error-code.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,5 +43,5 @@ xml_get_current_line_number(XMLParser $parser): int
 
 ### Дивіться також
 
--   [xml\_get\_current\_column\_number()](function.xml-get-current-column-number.html) - Отримує від XML-аналізатора номер поточного стовпця
--   [xml\_get\_current\_byte\_index()](function.xml-get-current-byte-index.html) - Отримує поточний для XML-аналізатора байтовий індекс
+-   [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.html) - Отримує від XML-аналізатора номер поточного стовпця
+-   [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.html) - Отримує поточний для XML-аналізатора байтовий індекс

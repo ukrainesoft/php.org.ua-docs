@@ -1,12 +1,12 @@
 Масштабувати матрицю
 
--   [« UI\\Draw\\Matrix::rotate](ui-draw-matrix.rotate.html)
+-   [« UIDrawMatrix::rotate](ui-draw-matrix.rotate.html)
     
--   [UI\\Draw\\Matrix::skew »](ui-draw-matrix.skew.html)
+-   [ОЙDrawMatrix::skew »](ui-draw-matrix.skew.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Масштабувати матрицю
     

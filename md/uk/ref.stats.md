@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](stats.constants.html)
     
--   [stats\_absolute\_deviation »](function.stats-absolute-deviation.html)
+-   [statsabsolutedeviation »](function.stats-absolute-deviation.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,72 +15,72 @@
 
 ## Зміст
 
--   [stats\_absolute\_deviation](function.stats-absolute-deviation.html) — Повертає абсолютне відхилення масиву значень
--   [stats\_cdf\_beta](function.stats-cdf-beta.html) — Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
--   [stats\_cdf\_binomial](function.stats-cdf-binomial.html) — Обчислює один із параметрів біномінального розподілу за рештою
--   [stats\_cdf\_cauchy](function.stats-cdf-cauchy.html) — Обчислює один із параметрів розподілу Коші за рештою
--   [stats\_cdf\_chisquare](function.stats-cdf-chisquare.html) — Обчислює один із параметрів розподілу хі-квадрат за рештою
--   [stats\_cdf\_exponential](function.stats-cdf-exponential.html) — Обчислює один із параметрів експоненційного розподілу за рештою
--   [stats\_cdf\_f](function.stats-cdf-f.html) — Обчислює один із параметрів розподілу Фішера за рештою
--   [stats\_cdf\_gamma](function.stats-cdf-gamma.html) — Обчислює один із параметрів Гамма-розподілу за рештою
--   [stats\_cdf\_laplace](function.stats-cdf-laplace.html) — Обчислює один із параметрів розподілу Лапласу за рештою
--   [stats\_cdf\_logistic](function.stats-cdf-logistic.html) — Обчислює один із параметрів логістичного розподілу за рештою
--   [stats\_cdf\_negative\_binomial](function.stats-cdf-negative-binomial.html) — Обчислює один із параметрів Негативного Біномінального розподілу за рештою
--   [stats\_cdf\_noncentral\_chisquare](function.stats-cdf-noncentral-chisquare.html) — Обчислює один із параметрів нецентрального розподілу хі-квадрат за рештою
--   [stats\_cdf\_noncentral\_f](function.stats-cdf-noncentral-f.html) — Обчислює один із параметрів нецентрального розподілу Фішера за рештою
--   [stats\_cdf\_noncentral\_t](function.stats-cdf-noncentral-t.html) — Обчислює один із параметрів нецентрального розподілу Стьюдента залежно від інших
--   [stats\_cdf\_normal](function.stats-cdf-normal.html) — Обчислює один із параметрів розподілу залежно від інших
--   [stats\_cdf\_poisson](function.stats-cdf-poisson.html) — Обчислює один із параметрів розподілу Пуассона за рештою
--   [stats\_cdf\_t](function.stats-cdf-t.html) — Обчислює один із параметрів розподілу Стьюдента за рештою
--   [stats\_cdf\_uniform](function.stats-cdf-uniform.html) — Обчислює один із параметрів рівномірного розподілу за рештою
--   [stats\_cdf\_weibull](function.stats-cdf-weibull.html) — Обчислює один із параметрів розподілу Вейбулла за рештою
--   [stats\_covariance](function.stats-covariance.html) - Обчислює коваріацію двох наборів даних
--   [stats\_dens\_beta](function.stats-dens-beta.html) - Щільність ймовірності бета-розподілу
--   [stats\_dens\_cauchy](function.stats-dens-cauchy.html) - Щільність ймовірності розподілу Коші
--   [stats\_dens\_chisquare](function.stats-dens-chisquare.html) - Щільність ймовірності розподілу хі-квадрат
--   [stats\_dens\_exponential](function.stats-dens-exponential.html) - Щільність ймовірності експоненційного розподілу
--   [stats\_dens\_f](function.stats-dens-f.html) - Щільність ймовірності розподілу Фішера
--   [stats\_dens\_gamma](function.stats-dens-gamma.html) - Щільність ймовірності гамма-розподілу
--   [stats\_dens\_laplace](function.stats-dens-laplace.html) - Щільність ймовірності розподілу Лапласа
--   [stats\_dens\_logistic](function.stats-dens-logistic.html) - Щільність ймовірності логістичного розподілу
--   [stats\_dens\_normal](function.stats-dens-normal.html) — Повертає щільність ймовірності нормального розподілу
--   [stats\_dens\_pmf\_binomial](function.stats-dens-pmf-binomial.html) — Імовірнісні заходи біномінального розподілу
--   [stats\_dens\_pmf\_hypergeometric](function.stats-dens-pmf-hypergeometric.html) — Імовірнісний захід гіпергеометричного розподілу
--   [stats\_dens\_pmf\_negative\_binomial](function.stats-dens-pmf-negative-binomial.html) — Функція густини ймовірності негативного біномінального розподілу
--   [stats\_dens\_pmf\_poisson](function.stats-dens-pmf-poisson.html) — Імовірнісні заходи розподілу Пуассона
--   [stats\_dens\_t](function.stats-dens-t.html) - Щільність ймовірності розподілу Стьюдента
--   [stats\_dens\_uniform](function.stats-dens-uniform.html) - Функція щільності ймовірності рівномірного розподілу
--   [stats\_dens\_weibull](function.stats-dens-weibull.html) - Щільність ймовірності розподілу Вейбулла
--   [stats\_harmonic\_mean](function.stats-harmonic-mean.html) — Повертає середній гармонійний масив значень
--   [stats\_kurtosis](function.stats-kurtosis.html) — Обчислює ексцес даних у масиві
--   [stats\_rand\_gen\_beta](function.stats-rand-gen-beta.html) - Обчислює випадкове відхилення від бета-розподілу
--   [stats\_rand\_gen\_chisquare](function.stats-rand-gen-chisquare.html) - Обчислює випадкове відхилення від розподілу хі-квадрат
--   [stats\_rand\_gen\_exponential](function.stats-rand-gen-exponential.html) - Обчислює випадкове відхилення від експоненційного розподілу
--   [stats\_rand\_gen\_f](function.stats-rand-gen-f.html) - Генерує випадкове відхилення від розподілу Фішера
--   [stats\_rand\_gen\_funiform](function.stats-rand-gen-funiform.html) — Згенерувати раціональне число від low (за винятком) до high (за винятком) на базі рівномірного розподілу
--   [stats\_rand\_gen\_gamma](function.stats-rand-gen-gamma.html) - Обчислює випадкове відхилення від гамма-розподілу
--   [stats\_rand\_gen\_ibinomial\_negative](function.stats-rand-gen-ibinomial-negative.html) - Обчислює випадкове відхилення від негативного біномінального розподілу
--   [stats\_rand\_gen\_ibinomial](function.stats-rand-gen-ibinomial.html) — Обчислює випадкове відхилення від біномінального розподілу
--   [stats\_rand\_gen\_int](function.stats-rand-gen-int.html) - Генерує випадкове число в діапазоні від 1 до 2147483562
--   [stats\_rand\_gen\_ipoisson](function.stats-rand-gen-ipoisson.html) — Обчислює випадкове відхилення від розподілу Пуассона
--   [stats\_rand\_gen\_iuniform](function.stats-rand-gen-iuniform.html) — Генерує ціле число рівномірно розподілене в діапазоні LOW (включно) та HIGH (включаючи)
--   [stats\_rand\_gen\_noncentral\_chisquare](function.stats-rand-gen-noncentral-chisquare.html) - Генерує випадкове відхилення нецентрального розподілу хі-квадрат
--   [stats\_rand\_gen\_noncentral\_f](function.stats-rand-gen-noncentral-f.html) - Обчислює випадкове відхилення від нецентрального розподілу Фішера
--   [stats\_rand\_gen\_noncentral\_t](function.stats-rand-gen-noncentral-t.html) - Обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента
--   [stats\_rand\_gen\_normal](function.stats-rand-gen-normal.html) — Генерує одне випадкове відхилення від нормального розподілу
--   [stats\_rand\_gen\_t](function.stats-rand-gen-t.html) - Генерує одне випадкове відхилення від t-розподілу
--   [stats\_rand\_get\_seeds](function.stats-rand-get-seeds.html) — Отримує початкові значення генератора випадкових чисел
--   [stats\_rand\_phrase\_to\_seeds](function.stats-rand-phrase-to-seeds.html) - Генерує два початкові числа для генератора випадкових чисел RGN
--   [stats\_rand\_ranf](function.stats-rand-ranf.html) - Генерує випадкове число з плаваючою точкою від 0 до 1
--   [stats\_rand\_setall](function.stats-rand-setall.html) — Встановлює початкові значення для генератора випадкових чисел
--   [stats\_skew](function.stats-skew.html) — Обчислює асиметрію даних у масиві
--   [stats\_standard\_deviation](function.stats-standard-deviation.html) — Повертає стандартне відхилення
--   [stats\_stat\_binomial\_coef](function.stats-stat-binomial-coef.html) — Отримати біномінальний коефіцієнт
--   [stats\_stat\_correlation](function.stats-stat-correlation.html) - Повертає коефіцієнт кореляції Пірсона двох наборів даних
--   [stats\_stat\_factorial](function.stats-stat-factorial.html) - Факторіал цілого числа
--   [stats\_stat\_independent\_t](function.stats-stat-independent-t.html) — Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
--   [stats\_stat\_innerproduct](function.stats-stat-innerproduct.html) — Повертає скалярний твір двох векторів
--   [stats\_stat\_paired\_t](function.stats-stat-paired-t.html) — Отримати значення t для двовибіркового t-критерію Стьюдента для залежних вибірок
--   [stats\_stat\_percentile](function.stats-stat-percentile.html) — Повертає значення відсотка
--   [stats\_stat\_powersum](function.stats-stat-powersum.html) — Повертає статечну суму вектора
--   [stats\_variance](function.stats-variance.html) - Повертає дисперсію
+-   [statsabsolutedeviation](function.stats-absolute-deviation.html) — Повертає абсолютне відхилення масиву значень
+-   [statscdfbeta](function.stats-cdf-beta.html) — Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
+-   [statscdfbinomial](function.stats-cdf-binomial.html) — Обчислює один із параметрів біномінального розподілу за рештою
+-   [statscdfcauchy](function.stats-cdf-cauchy.html) — Обчислює один із параметрів розподілу Коші за рештою
+-   [statscdfchisquare](function.stats-cdf-chisquare.html) — Обчислює один із параметрів розподілу хі-квадрат за рештою
+-   [statscdfexponential](function.stats-cdf-exponential.html) — Обчислює один із параметрів експоненційного розподілу за рештою
+-   [statscdfф](function.stats-cdf-f.html) — Обчислює один із параметрів розподілу Фішера за рештою
+-   [statscdfgamma](function.stats-cdf-gamma.html) — Обчислює один із параметрів Гамма-розподілу за рештою
+-   [statscdflaplace](function.stats-cdf-laplace.html) — Обчислює один із параметрів розподілу Лапласу за рештою
+-   [statscdflogistic](function.stats-cdf-logistic.html) — Обчислює один із параметрів логістичного розподілу за рештою
+-   [statscdfnegativebinomial](function.stats-cdf-negative-binomial.html) — Обчислює один із параметрів Негативного Біномінального розподілу за рештою
+-   [statscdfnoncentralchisquare](function.stats-cdf-noncentral-chisquare.html) — Обчислює один із параметрів нецентрального розподілу хі-квадрат за рештою
+-   [statscdfnoncentralф](function.stats-cdf-noncentral-f.html) — Обчислює один із параметрів нецентрального розподілу Фішера за рештою
+-   [statscdfnoncentralт](function.stats-cdf-noncentral-t.html) — Обчислює один із параметрів нецентрального розподілу Стьюдента залежно від інших
+-   [statscdfnormal](function.stats-cdf-normal.html) — Обчислює один із параметрів розподілу залежно від інших
+-   [statscdfpoisson](function.stats-cdf-poisson.html) — Обчислює один із параметрів розподілу Пуассона за рештою
+-   [statscdfт](function.stats-cdf-t.html) — Обчислює один із параметрів розподілу Стьюдента за рештою
+-   [statscdfuniform](function.stats-cdf-uniform.html) — Обчислює один із параметрів рівномірного розподілу за рештою
+-   [statscdfweibull](function.stats-cdf-weibull.html) — Обчислює один із параметрів розподілу Вейбулла за рештою
+-   [statscovariance](function.stats-covariance.html) - Обчислює коваріацію двох наборів даних
+-   [statsdensbeta](function.stats-dens-beta.html) - Щільність ймовірності бета-розподілу
+-   [statsdenscauchy](function.stats-dens-cauchy.html) - Щільність ймовірності розподілу Коші
+-   [statsdenschisquare](function.stats-dens-chisquare.html) - Щільність ймовірності розподілу хі-квадрат
+-   [statsdensexponential](function.stats-dens-exponential.html) - Щільність ймовірності експоненційного розподілу
+-   [statsdensф](function.stats-dens-f.html) - Щільність ймовірності розподілу Фішера
+-   [statsdensgamma](function.stats-dens-gamma.html) - Щільність ймовірності гамма-розподілу
+-   [statsdenslaplace](function.stats-dens-laplace.html) - Щільність ймовірності розподілу Лапласа
+-   [statsdenslogistic](function.stats-dens-logistic.html) - Щільність ймовірності логістичного розподілу
+-   [statsdensnormal](function.stats-dens-normal.html) — Повертає щільність ймовірності нормального розподілу
+-   [statsdenspmfbinomial](function.stats-dens-pmf-binomial.html) — Імовірнісні заходи біномінального розподілу
+-   [statsdenspmfhypergeometric](function.stats-dens-pmf-hypergeometric.html) — Імовірнісний захід гіпергеометричного розподілу
+-   [statsdenspmfnegativebinomial](function.stats-dens-pmf-negative-binomial.html) — Функція густини ймовірності негативного біномінального розподілу
+-   [statsdenspmfpoisson](function.stats-dens-pmf-poisson.html) — Імовірнісні заходи розподілу Пуассона
+-   [statsdensт](function.stats-dens-t.html) - Щільність ймовірності розподілу Стьюдента
+-   [statsdensuniform](function.stats-dens-uniform.html) - Функція щільності ймовірності рівномірного розподілу
+-   [statsdensweibull](function.stats-dens-weibull.html) - Щільність ймовірності розподілу Вейбулла
+-   [statsharmonicmean](function.stats-harmonic-mean.html) — Повертає середній гармонійний масив значень
+-   [statskurtosis](function.stats-kurtosis.html) — Обчислює ексцес даних у масиві
+-   [statsrandgenbeta](function.stats-rand-gen-beta.html) - Обчислює випадкове відхилення від бета-розподілу
+-   [statsrandgenchisquare](function.stats-rand-gen-chisquare.html) - Обчислює випадкове відхилення від розподілу хі-квадрат
+-   [statsrandgenexponential](function.stats-rand-gen-exponential.html) - Обчислює випадкове відхилення від експоненційного розподілу
+-   [statsrandgenф](function.stats-rand-gen-f.html) - Генерує випадкове відхилення від розподілу Фішера
+-   [statsrandgenfuniform](function.stats-rand-gen-funiform.html) — Згенерувати раціональне число від low (за винятком) до high (за винятком) на базі рівномірного розподілу
+-   [statsrandgengamma](function.stats-rand-gen-gamma.html) - Обчислює випадкове відхилення від гамма-розподілу
+-   [statsrandgenibinomialnegative](function.stats-rand-gen-ibinomial-negative.html) - Обчислює випадкове відхилення від негативного біномінального розподілу
+-   [statsrandgenibinomial](function.stats-rand-gen-ibinomial.html) — Обчислює випадкове відхилення від біномінального розподілу
+-   [statsrandgenint](function.stats-rand-gen-int.html) - Генерує випадкове число в діапазоні від 1 до 2147483562
+-   [statsrandgenipoisson](function.stats-rand-gen-ipoisson.html) — Обчислює випадкове відхилення від розподілу Пуассона
+-   [statsrandgeniuniform](function.stats-rand-gen-iuniform.html) — Генерує ціле число рівномірно розподілене в діапазоні LOW (включно) та HIGH (включаючи)
+-   [statsrandgennoncentralchisquare](function.stats-rand-gen-noncentral-chisquare.html) - Генерує випадкове відхилення нецентрального розподілу хі-квадрат
+-   [statsrandgennoncentralф](function.stats-rand-gen-noncentral-f.html) - Обчислює випадкове відхилення від нецентрального розподілу Фішера
+-   [statsrandgennoncentralт](function.stats-rand-gen-noncentral-t.html) - Обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента
+-   [statsrandgennormal](function.stats-rand-gen-normal.html) — Генерує одне випадкове відхилення від нормального розподілу
+-   [statsrandgenт](function.stats-rand-gen-t.html) - Генерує одне випадкове відхилення від t-розподілу
+-   [statsrandgetseeds](function.stats-rand-get-seeds.html) — Отримує початкові значення генератора випадкових чисел
+-   [statsrandphraseтоseeds](function.stats-rand-phrase-to-seeds.html) - Генерує два початкові числа для генератора випадкових чисел RGN
+-   [statsrandranf](function.stats-rand-ranf.html) - Генерує випадкове число з плаваючою точкою від 0 до 1
+-   [statsrandsetall](function.stats-rand-setall.html) — Встановлює початкові значення для генератора випадкових чисел
+-   [statsskew](function.stats-skew.html) — Обчислює асиметрію даних у масиві
+-   [statsstandarddeviation](function.stats-standard-deviation.html) — Повертає стандартне відхилення
+-   [statsstatbinomialcoef](function.stats-stat-binomial-coef.html) — Отримати біномінальний коефіцієнт
+-   [statsstatcorrelation](function.stats-stat-correlation.html) - Повертає коефіцієнт кореляції Пірсона двох наборів даних
+-   [statsstatfactorial](function.stats-stat-factorial.html) - Факторіал цілого числа
+-   [statsstatindependentт](function.stats-stat-independent-t.html) — Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
+-   [statsstatinnerproduct](function.stats-stat-innerproduct.html) — Повертає скалярний твір двох векторів
+-   [statsstatpairedт](function.stats-stat-paired-t.html) — Отримати значення t для двовибіркового t-критерію Стьюдента для залежних вибірок
+-   [statsstatpercentile](function.stats-stat-percentile.html) — Повертає значення відсотка
+-   [statsstatpowersum](function.stats-stat-powersum.html) — Повертає статечну суму вектора
+-   [statsvariance](function.stats-variance.html) - Повертає дисперсію

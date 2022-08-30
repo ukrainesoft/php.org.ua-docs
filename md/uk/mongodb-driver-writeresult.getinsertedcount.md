@@ -1,12 +1,12 @@
 Повертає кількість вставлених документів (за винятком злиття)
 
--   [« MongoDB\\Driver\\WriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.html)
+-   [« MongoDBDriverWriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.html)
     
--   [MongoDB\\Driver\\WriteResult::getMatchedCount »](mongodb-driver-writeresult.getmatchedcount.html)
+-   [MongoDBDriverWriteResult::getMatchedCount »](mongodb-driver-writeresult.getmatchedcount.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     
 -   Повертає кількість вставлених документів (за винятком злиття)
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteResult::getInsertedCount(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -66,4 +66,4 @@ int(1)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений
+-   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений

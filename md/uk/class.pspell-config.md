@@ -1,6 +1,6 @@
 Клас PSpellConfig
 
--   [« PSpell\\Dictionary](class.pspell-dictionary.html)
+-   [« PSpellDictionary](class.pspell-dictionary.html)
     
 -   [Recode »](book.recode.html)
     

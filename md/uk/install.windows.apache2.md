@@ -1,6 +1,6 @@
 Apache 2.x у Microsoft Windows
 
--   [« Командная строка PHP в Microsoft Windows](install.windows.commandline.html)
+-   [Командний рядок PHP у Microsoft Windows](install.windows.commandline.html)
     
 -   [Стандартные проблемы PHP под Windows »](install.windows.troubleshooting.html)
     
@@ -60,7 +60,7 @@ PHPIniDir "C:/php"
 
 **Увага**
 
-Використовуючи інсталяцію CGI, ваш сервер відкритий перед кількома можливими вразливістю. Будь ласка, ознайомтесь із розділом ["Безопасность CGI"](security.cgi-bin.html) щоб дізнатися, як можна захистити себе від таких атак.
+Використовуючи інсталяцію CGI, ваш сервер відкритий перед кількома можливими вразливістю. Будь ласка, ознайомтесь із розділом ["Безпека CGI"](security.cgi-bin.html) щоб дізнатися, як можна захистити себе від таких атак.
 
 ### Запуск PHP під FastCGI
 

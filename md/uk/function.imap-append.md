@@ -1,8 +1,8 @@
 Додає рядкове повідомлення до вказаної поштової скриньки
 
--   [« imap\_alerts](function.imap-alerts.html)
+-   [« imapalerts](function.imap-alerts.html)
     
--   [imap\_base64 »](function.imap-base64.html)
+-   [imapbase64 »](function.imap-base64.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,15 +29,15 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `folder`
 
-Ім'я поштової скриньки. Дивіться [imap\_open()](function.imap-open.html) для детальної інформації.
+Ім'я поштової скриньки. Дивіться [imapopen()](function.imap-open.html) для детальної інформації.
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `message`
 
@@ -59,10 +59,10 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `options` і `internal_date` тепер допускають значення null.                                                                                              |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `options` і `internal_date` тепер допускають значення null.                                                                                            |
 
 ### Приклади
 

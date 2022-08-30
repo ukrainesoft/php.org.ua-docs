@@ -1,6 +1,6 @@
 Отримання результату асинхронного запиту
 
--   [« mysqli::real\_query](mysqli.real-query.html)
+-   [« mysqli::realquery](mysqli.real-query.html)
     
 -   [mysqli::refresh »](mysqli.refresh.html)
     
@@ -43,12 +43,12 @@ mysqli_reap_async_query(mysqli $mysql): mysqli_result|bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlireapasyncquery()** поверне об'єкт [mysqli\_result](class.mysqli-result.html). Для інших успішних запитів **mysqlireapasyncquery()** поверне **`true`**
+Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlireapasyncquery()** поверне об'єкт [mysqliresult](class.mysqli-result.html). Для інших успішних запитів **mysqlireapasyncquery()** поверне **`true`**
 
 ### Дивіться також
 
--   [mysqli\_poll()](mysqli.poll.html) - Опитування підключень
+-   [mysqlipoll()](mysqli.poll.html) - Опитування підключень

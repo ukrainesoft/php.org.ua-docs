@@ -2,7 +2,7 @@
 
 -   [« taint](function.taint.html)
     
--   [Структуры данных »](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   [PHP Manual](index.html)
     

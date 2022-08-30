@@ -2,7 +2,7 @@
 
 -   [« DateInterval::format](dateinterval.format.html)
     
--   [DatePeriod::\_\_construct »](dateperiod.construct.html)
+-   [DatePeriod::construct »](dateperiod.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -87,7 +87,7 @@ public getStartDate(): DateTimeInterface
 
 **`DatePeriod::EXCLUDE_START_DATE`**
 
-Виключає початкову дату, використовується в [DatePeriod::\_\_construct()](dateperiod.construct.html)
+Виключає початкову дату, використовується в [DatePeriod::construct()](dateperiod.construct.html)
 
 ## Властивості
 
@@ -123,7 +123,7 @@ interval
 
 ## Зміст
 
--   [DatePeriod::\_\_construct](dateperiod.construct.html) — Створює новий об'єкт DatePeriod
+-   [DatePeriod::construct](dateperiod.construct.html) — Створює новий об'єкт DatePeriod
 -   [DatePeriod::getDateInterval](dateperiod.getdateinterval.html) - Повертає інтервал
 -   [DatePeriod::getEndDate](dateperiod.getenddate.html) — Повертає кінцеву дату періоду
 -   [DatePeriod::getRecurrences](dateperiod.getrecurrences.html) — Отримує кількість повторів

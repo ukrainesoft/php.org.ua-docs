@@ -2,7 +2,7 @@
 
 -   [« DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.html)
     
--   [DateTimeImmutable::\_\_set\_state »](datetimeimmutable.set-state.html)
+-   [DateTimeImmutable::setstate »](datetimeimmutable.set-state.html)
     
 -   [PHP Manual](index.html)
     

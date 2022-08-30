@@ -1,12 +1,12 @@
 Генерує випадкове відхилення нецентрального розподілу хі-квадрат
 
--   [« stats\_rand\_gen\_iuniform](function.stats-rand-gen-iuniform.html)
+-   [« statsrandgeniuniform](function.stats-rand-gen-iuniform.html)
     
--   [stats\_rand\_gen\_noncentral\_f »](function.stats-rand-gen-noncentral-f.html)
+-   [statsrandgennoncentralf »](function.stats-rand-gen-noncentral-f.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує випадкове відхилення нецентрального розподілу хі-квадрат
     

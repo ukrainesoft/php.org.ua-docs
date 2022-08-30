@@ -1,8 +1,8 @@
 Імпортувати потік
 
--   [« socket\_getsockname](function.socket-getsockname.html)
+-   [« socketgetsockname](function.socket-getsockname.html)
     
--   [socket\_last\_error »](function.socket-last-error.html)
+-   [socketlasterror »](function.socket-last-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,4 +54,4 @@ $sock   = socket_import_stream($stream);
 
 ### Дивіться також
 
--   [stream\_socket\_server()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix

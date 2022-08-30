@@ -1,6 +1,6 @@
 Нові функції
 
--   [« Новые классы и интерфейсы](migration74.new-classes.html)
+-   [« Нові класи та інтерфейси](migration74.new-classes.html)
     
 -   [Новые глобальные константы »](migration74.constants.html)
     
@@ -15,9 +15,9 @@
 
 ### Ядро PHP
 
--   [get\_mangled\_object\_vars()](function.get-mangled-object-vars.html)
--   [password\_algos()](function.password-algos.html)
--   [sapi\_windows\_set\_ctrl\_handler()](function.sapi-windows-set-ctrl-handler.html)
+-   [getmangledobjectvars()](function.get-mangled-object-vars.html)
+-   [passwordalgos()](function.password-algos.html)
+-   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.html)
 
 ### ДД
 
@@ -25,15 +25,15 @@
 
 ### Багатобайтові рядки
 
--   [mb\_str\_split()](function.mb-str-split.html)
+-   [мбstrsplit()](function.mb-str-split.html)
 
 ### OpenSSL
 
--   [openssl\_x509\_verify()](function.openssl-x509-verify.html)
+-   [opensslx509verify()](function.openssl-x509-verify.html)
 
 ### Управління процесами
 
--   [pcntl\_unshare()](function.pcntl-unshare.html)
+-   [pcntlunshare()](function.pcntl-unshare.html)
 
 ### SQLite3
 

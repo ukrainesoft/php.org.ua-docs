@@ -2,7 +2,7 @@
 
 -   [« Функции обратного вызова (callback-функции)](language.types.callable.html)
     
--   [Манипуляции с типами »](language.types.type-juggling.html)
+-   [Маніпуляції з типами »](language.types.type-juggling.html)
     
 -   [PHP Manual](index.html)
     

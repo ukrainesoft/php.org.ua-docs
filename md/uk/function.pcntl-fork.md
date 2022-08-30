@@ -1,12 +1,12 @@
 Розгалужити (fork) поточний запущений процес
 
--   [« pcntl\_exec](function.pcntl-exec.html)
+-   [pcntlexec](function.pcntl-exec.html)
     
--   [pcntl\_get\_last\_error »](function.pcntl-get-last-error.html)
+-   [pcntlgetlasterror »](function.pcntl-get-last-error.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Розгалужити (fork) поточний запущений процес
     
@@ -55,7 +55,7 @@ if ($pid == -1) {
 
 ### Дивіться також
 
--   [pcntl\_rfork()](function.pcntl-rfork.html) - взаємодіє з ресурсами процесу
--   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [cli\_set\_process\_title()](function.cli-set-process-title.html) - Встановлює заголовок процесу
+-   [pcntlrfork()](function.pcntl-rfork.html) - взаємодіє з ресурсами процесу
+-   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
+-   [clisetprocesstitle()](function.cli-set-process-title.html) - Встановлює заголовок процесу

@@ -2,7 +2,7 @@
 
 -   [« xattr Функции](ref.xattr.html)
     
--   [xattr\_list »](function.xattr-list.html)
+-   [xattrlist »](function.xattr-list.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ xattr_get(string $filename, string $name, int $flags = 0): string
 
 ### Значення, що повертаються
 
-Функція повертає рядок, що містить значення **`false`**якщо атрибут не існує.
+Функція повертає рядок, що містить значення \*\*`false`\*\*якщо атрибут не існує.
 
 ### Приклади
 
@@ -61,6 +61,6 @@ $signature = xattr_get($file, 'Root signature', XATTR_ROOT);
 
 ### Дивіться також
 
--   [xattr\_list()](function.xattr-list.html) - Перегляд списку розширених атрибутів файлу
--   [xattr\_set()](function.xattr-set.html) - Встановлення розширених атрибутів файлу
--   [xattr\_remove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу
+-   [xattrlist()](function.xattr-list.html) - Перегляд списку розширених атрибутів файлу
+-   [xattrset()](function.xattr-set.html) - Встановлення розширених атрибутів файлу
+-   [xattrremove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу

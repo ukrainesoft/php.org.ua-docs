@@ -1,6 +1,6 @@
 Веб-сервіси
 
--   [« var\_export](function.var-export.html)
+-   [« varexport](function.var-export.html)
     
 -   [OAuth »](book.oauth.html)
     
@@ -38,13 +38,13 @@
     -   [Установка и настройка](yar.setup.html)
     -   [Предопределённые константы](yar.constants.html)
     -   [Примеры](yar.examples.html)
-    -   [Yar\_Server](class.yar-server.html) - Клас YarServer
-    -   [Yar\_Client](class.yar-client.html) - Клас YarClient
-    -   [Yar\_Concurrent\_Client](class.yar-concurrent-client.html) - Клас YarConcurrentClient
-    -   [Yar\_Server\_Exception](class.yar-server-exception.html) - Клас YarServerException
-    -   [Yar\_Client\_Exception](class.yar-client-exception.html) - Клас YarClientException
+    -   [YarServer](class.yar-server.html) - Клас YarServer
+    -   [YarClient](class.yar-client.html) - Клас YarClient
+    -   [YarConcurrentClient](class.yar-concurrent-client.html) - Клас YarConcurrentClient
+    -   [YarServerException](class.yar-server-exception.html) - Клас YarServerException
+    -   [YarClientException](class.yar-client-exception.html) - Клас YarClientException
 -   [XML-RPC](book.xmlrpc.html)
     -   [Введение](intro.xmlrpc.html)
     -   [Установка и настройка](xmlrpc.setup.html)
     -   [Предопределённые константы](xmlrpc.constants.html)
-    -   [Функции XML-RPC](ref.xmlrpc.html)
+    -   [Функції XML-RPC](ref.xmlrpc.html)

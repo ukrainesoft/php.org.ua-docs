@@ -1,12 +1,12 @@
 Swoole
 
--   [« stream\_wrapper\_unregister](function.stream-wrapper-unregister.html)
+-   [« streamwrapperunregister](function.stream-wrapper-unregister.html)
     
 -   [Введение »](intro.swoole.html)
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Swoole
     
@@ -21,297 +21,297 @@ Swoole
     -   [Типы ресурсов](swoole.resources.html)
 -   [Предопределённые константы](swoole.constants.html)
 -   [Функции Swoole](ref.swoole-funcs.html)
-    -   [swoole\_async\_dns\_lookup](function.swoole-async-dns-lookup.html) — Асинхронний та неблокуючий пошук імені хоста або IP-адреси
-    -   [swoole\_async\_read](function.swoole-async-read.html) - Асинхронне читання потоку файлу
-    -   [swoole\_async\_readfile](function.swoole-async-readfile.html) - Асинхронне читання файлу
-    -   [swoole\_async\_set](function.swoole-async-set.html) — Оновлення опцій асинхронного введення-виводу
-    -   [swoole\_async\_write](function.swoole-async-write.html) — Асинхронний запис даних до потоку файлу
-    -   [swoole\_async\_writefile](function.swoole-async-writefile.html) - Асинхронний запис даних у файл
-    -   [swoole\_clear\_error](function.swoole-clear-error.html) — Скидає помилки в сокеті або за останнім кодом помилки
-    -   [swoole\_client\_select](function.swoole-client-select.html) — Отримати опис файлу, готового до читання/запису чи помилки
-    -   [swoole\_cpu\_num](function.swoole-cpu-num.html) - Отримати кількість CPU
-    -   [swoole\_errno](function.swoole-errno.html) — Отримати код помилки останнього системного виклику
-    -   [swoole\_error\_log](function.swoole-error-log.html) — Виводить повідомлення про помилки до журналу
-    -   [swoole\_event\_add](function.swoole-event-add.html) - Додати нових callback-функцій сокету в цикл подій
-    -   [swoole\_event\_defer](function.swoole-event-defer.html) — Додати callback-функцію до наступного циклу подій
-    -   [swoole\_event\_del](function.swoole-event-del.html) - Видалити всі callback-функції сокету
-    -   [swoole\_event\_exit](function.swoole-event-exit.html) — Закрити цикл подій, доступний лише на стороні клієнта
-    -   [swoole\_event\_set](function.swoole-event-set.html) - Оновити callback-функції події сокету
-    -   [swoole\_event\_wait](function.swoole-event-wait.html) - Запустити цикл подій
-    -   [swoole\_event\_write](function.swoole-event-write.html) - Записати дані в сокет
-    -   [swoole\_get\_local\_ip](function.swoole-get-local-ip.html) — Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
-    -   [swoole\_last\_error](function.swoole-last-error.html) — Отримати останнє повідомлення про помилку
-    -   [swoole\_load\_module](function.swoole-load-module.html) — Завантажити модуль swoole
-    -   [swoole\_select](function.swoole-select.html) — Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
-    -   [swoole\_set\_process\_name](function.swoole-set-process-name.html) - Встановити ім'я процесу
-    -   [swoole\_strerror](function.swoole-strerror.html) — Конвертувати Errno у повідомлення про помилки
-    -   [swoole\_timer\_after](function.swoole-timer-after.html) - Запуск callback-функції один раз у майбутньому
-    -   [swoole\_timer\_exists](function.swoole-timer-exists.html) - Перевірити, чи існує callback-функція таймера
-    -   [swoole\_timer\_tick](function.swoole-timer-tick.html) - Викликати callback-функцію таймера тактів через певний проміжок часу
-    -   [swoole\_version](function.swoole-version.html) — Отримати версію Swoole
--   [Swoole\\Async](class.swoole-async.html) - Клас SwooleAsync
-    -   [Swoole\\Async::dnsLookup](swoole-async.dnslookup.html) — Асинхронний та неблокуючий пошук IP на ім'я хоста
-    -   [Swoole\\Async::read](swoole-async.read.html) - Асинхронне читання файлового потоку
-    -   [Swoole\\Async::readFile](swoole-async.readfile.html) - Асинхронне читання файлу
-    -   [Swoole\\Async::set](swoole-async.set.html) — Оновлює параметри асинхронного вводу-виводу
-    -   [Swoole\\Async::write](swoole-async.write.html) — Асинхронно записує дані у файловий потік
-    -   [Swoole\\Async::writeFile](swoole-async.writefile.html) - Опис
--   [Swoole\\Atomic](class.swoole-atomic.html) - Клас SwooleAtomic
-    -   [Swoole\\Atomic::add](swoole-atomic.add.html) - Додає число до значення атомарного об'єкта
-    -   [Swoole\\Atomic::cmpset](swoole-atomic.cmpset.html) — Порівнює та встановлює значення атомарного об'єкта
-    -   [Swoole\\Atomic::\_\_construct](swoole-atomic.construct.html) — Створює атомарний об'єкт swoole
-    -   [Swoole\\Atomic::get](swoole-atomic.get.html) — Отримує поточне значення атомарного об'єкта
-    -   [Swoole\\Atomic::set](swoole-atomic.set.html) — Встановлює нове значення для атомарного об'єкту
-    -   [Swoole\\Atomic::sub](swoole-atomic.sub.html) — Віднімає число із значення атомарного об'єкта
--   [Swoole\\Buffer](class.swoole-buffer.html) - Клас SwooleBuffer
-    -   [Swoole\\Buffer::append](swoole-buffer.append.html) — Додає рядок або двійкові дані до кінця буфера пам'яті та повертає новий розмір виділеної пам'яті
-    -   [Swoole\\Buffer::clear](swoole-buffer.clear.html) — скидає буфер пам'яті
-    -   [Swoole\\Buffer::\_\_construct](swoole-buffer.construct.html) - Фіксований розмір блоку пам'яті
-    -   [Swoole\\Buffer::\_\_destruct](swoole-buffer.destruct.html) - Знищує буфер пам'яті Swoole
-    -   [Swoole\\Buffer::expand](swoole-buffer.expand.html) - Розширює розмір буфера пам'яті
-    -   [Swoole\\Buffer::read](swoole-buffer.read.html) — Читає дані з буфера пам'яті на основі усунення та довжини
-    -   [Swoole\\Buffer::recycle](swoole-buffer.recycle.html) — Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
-    -   [Swoole\\Buffer::substr](swoole-buffer.substr.html) — Зчитує дані з буфера пам'яті на основі усунення та довжини. Або видаляє дані з буфера пам'яті
-    -   [Swoole\\Buffer::\_\_toString](swoole-buffer.tostring.html) — Отримує строкове значення буфера пам'яті
-    -   [Swoole\\Buffer::write](swoole-buffer.write.html) — Записує дані у буфер пам'яті. Пам'ять виділена для буфера не буде змінена
--   [Swoole\\Channel](class.swoole-channel.html) - Клас SwooleChannel
-    -   [Swoole\\Channel::\_\_construct](swoole-channel.construct.html) - Створює канал Swoole
-    -   [Swoole\\Channel::\_\_destruct](swoole-channel.destruct.html) - Знищує канал Swoole
-    -   [Swoole\\Channel::pop](swoole-channel.pop.html) — Читає та витягує дані з каналу Swoole
-    -   [Swoole\\Channel::push](swoole-channel.push.html) — Записує та передає дані до каналу Swoole
-    -   [Swoole\\Channel::stats](swoole-channel.stats.html) — Отримує статистику каналу Swoole
--   [Swoole\\Client](class.swoole-client.html) - Клас SwooleClient
-    -   [Swoole\\Client::close](swoole-client.close.html) — Закриває встановлене з'єднання
-    -   [Swoole\\Client::connect](swoole-client.connect.html) — Підключається до віддаленого порту TCP або UDP
-    -   [Swoole\\Client::\_\_construct](swoole-client.construct.html) — Створює синхронний або асинхронний TCP/UDP клієнт Swoole за допомогою SSL або без нього
-    -   [Swoole\\Client::\_\_destruct](swoole-client.destruct.html) - Знищує клієнт Swoole
-    -   [Swoole\\Client::getpeername](swoole-client.getpeername.html) — Отримує ім'я віддаленого сокету з'єднання
-    -   [Swoole\\Client::getsockname](swoole-client.getsockname.html) — Отримує локальне ім'я сокета з'єднання
-    -   [Swoole\\Client::isConnected](swoole-client.isconnected.html) — Перевіряє, чи з'єднання встановлено.
-    -   [Swoole\\Client::on](swoole-client.on.html) — Додає callback-функції, спричинені подіями
-    -   [Swoole\\Client::pause](swoole-client.pause.html) — Припиняє отримання даних
-    -   [Swoole\\Client::pipe](swoole-client.pipe.html) — Перенаправляє дані до іншого файлового дескриптора.
-    -   [Swoole\\Client::recv](swoole-client.recv.html) — Отримує дані із віддаленого сокету
-    -   [Swoole\\Client::resume](swoole-client.resume.html) — Відновлює отримання даних
-    -   [Swoole\\Client::send](swoole-client.send.html) — Надсилає дані у віддалений TCP-сокет
-    -   [Swoole\\Client::sendfile](swoole-client.sendfile.html) — Надсилає файл у віддалений TCP-сокет
-    -   [Swoole\\Client::sendto](swoole-client.sendto.html) — Надсилає дані на віддалену UDP-адресу
-    -   [Swoole\\Client::set](swoole-client.set.html) — Встановлює настройки клієнта Swoole до встановлення з'єднання
-    -   [Swoole\\Client::sleep](swoole-client.sleep.html) — Видаляє TCP-клієнт із циклу системних подій
-    -   [Swoole\\Client::wakeup](swoole-client.wakeup.html) — Додає TCP-клієнт назад у цикл системних подій
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html) - Клас SwooleConnectionIterator
-    -   [Swoole\\Connection\\Iterator::count](swoole-connection-iterator.count.html) - Вважає з'єднання
-    -   [Swoole\\Connection\\Iterator::current](swoole-connection-iterator.current.html) — Повертає поточний запис з'єднання
-    -   [Swoole\\Connection\\Iterator::key](swoole-connection-iterator.key.html) — Повертає ключ поточного з'єднання
-    -   [Swoole\\Connection\\Iterator::next](swoole-connection-iterator.next.html) — Переходить до наступного з'єднання
-    -   [Swoole\\Connection\\Iterator::offsetExists](swoole-connection-iterator.offsetexists.html) — Перевіряє, чи є зміщення
-    -   [Swoole\\Connection\\Iterator::offsetGet](swoole-connection-iterator.offsetget.html) - Зміщення для вилучення
-    -   [Swoole\\Connection\\Iterator::offsetSet](swoole-connection-iterator.offsetset.html) — Призначає з'єднання для зазначеного усунення
-    -   [Swoole\\Connection\\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.html) — скидає зміщення
-    -   [Swoole\\Connection\\Iterator::rewind](swoole-connection-iterator.rewind.html) - Перемотує ітератор
-    -   [Swoole\\Connection\\Iterator::valid](swoole-connection-iterator.valid.html) - Перевіряє правильність поточної позиції
--   [Swoole\\Coroutine](class.swoole-coroutine.html) - Клас SwooleCoroutine
-    -   [Swoole\\Coroutine::call\_user\_func\_array](swoole-coroutine.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
-    -   [Swoole\\Coroutine::call\_user\_func](swoole-coroutine.call-user-func.html) - Викликає callback-функцію, задану першим параметром
-    -   [Swoole\\Coroutine::cli\_wait](swoole-coroutine.cli-wait.html) - Опис
-    -   [Swoole\\Coroutine::create](swoole-coroutine.create.html) - Опис
-    -   [Swoole\\Coroutine\\Client::close](swoole-coroutine-client.close.html) - Опис
-    -   [Swoole\\Coroutine\\Client::connect](swoole-coroutine-client.connect.html) - Опис
-    -   [Swoole\\Coroutine\\Client::\_\_construct](swoole-coroutine-client.construct.html) - Опис
-    -   [Swoole\\Coroutine\\Client::\_\_destruct](swoole-coroutine-client.destruct.html) - Опис
-    -   [Swoole\\Coroutine\\Client::getpeername](swoole-coroutine-client.getpeername.html) - Опис
-    -   [Swoole\\Coroutine\\Client::getsockname](swoole-coroutine-client.getsockname.html) - Опис
-    -   [Swoole\\Coroutine\\Client::isConnected](swoole-coroutine-client.isconnected.html) - Опис
-    -   [Swoole\\Coroutine\\Client::recv](swoole-coroutine-client.recv.html) - Опис
-    -   [Swoole\\Coroutine\\Client::send](swoole-coroutine-client.send.html) - Опис
-    -   [Swoole\\Coroutine\\Client::sendfile](swoole-coroutine-client.sendfile.html) - Опис
-    -   [Swoole\\Coroutine\\Client::sendto](swoole-coroutine-client.sendto.html) - Опис
-    -   [Swoole\\Coroutine\\Client::set](swoole-coroutine-client.set.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::addFile](swoole-coroutine-http-client.addfile.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::close](swoole-coroutine-http-client.close.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::\_\_construct](swoole-coroutine-http-client.construct.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::\_\_destruct](swoole-coroutine-http-client.destruct.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::execute](swoole-coroutine-http-client.execute.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::get](swoole-coroutine-http-client.get.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::getDefer](swoole-coroutine-http-client.getdefer.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::isConnected](swoole-coroutine-http-client.isconnected.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::post](swoole-coroutine-http-client.post.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::recv](swoole-coroutine-http-client.recv.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::set](swoole-coroutine-http-client.set.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::setCookies](swoole-coroutine-http-client.setcookies.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::setData](swoole-coroutine-http-client.setdata.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::setDefer](swoole-coroutine-http-client.setdefer.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::setHeaders](swoole-coroutine-http-client.setheaders.html) - Опис
-    -   [Swoole\\Coroutine\\Http\\Client::setMethod](swoole-coroutine-http-client.setmethod.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::close](swoole-coroutine-mysql.close.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::connect](swoole-coroutine-mysql.connect.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::\_\_construct](swoole-coroutine-mysql.construct.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::\_\_destruct](swoole-coroutine-mysql.destruct.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::getDefer](swoole-coroutine-mysql.getdefer.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::query](swoole-coroutine-mysql.query.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::recv](swoole-coroutine-mysql.recv.html) - Опис
-    -   [Swoole\\Coroutine\\MySQL::setDefer](swoole-coroutine-mysql.setdefer.html) - Опис
-    -   [Swoole\\Coroutine::getuid](swoole-coroutine.getuid.html) - Опис
-    -   [Swoole\\Coroutine::resume](swoole-coroutine.resume.html) - Опис
-    -   [Swoole\\Coroutine::suspend](swoole-coroutine.suspend.html) - Опис
--   [Swoole\\Event](class.swoole-event.html) - Клас SwooleEvent
-    -   [Swoole\\Event::add](swoole-event.add.html) — Додає нові callback функції сокету в EventLoop
-    -   [Swoole\\Event::defer](swoole-event.defer.html) — Додає callback-функцію до наступного циклу подій
-    -   [Swoole\\Event::del](swoole-event.del.html) - Видаляє всі callback-функції події сокету
-    -   [Swoole\\Event::exit](swoole-event.exit.html) — Виходить із циклу подій, доступно лише на стороні клієнта
-    -   [Swoole\\Event::set](swoole-event.set.html) - Оновлює callback-функції події сокету
-    -   [Swoole\\Event::wait](swoole-event.wait.html) - Опис
-    -   [Swoole\\Event::write](swoole-event.write.html) - Записує дані в сокет
--   [Swoole\\Exception](class.swoole-exception.html) - Клас SwooleException
--   [Swoole\\Http\\Client](class.swoole-http-client.html) - Клас SwooleHttpClient
-    -   [Swoole\\Http\\Client::addFile](swoole-http-client.addfile.html) — Додає файл до форми повідомлення
-    -   [Swoole\\Http\\Client::close](swoole-http-client.close.html) - Закриває http-з'єднання
-    -   [Swoole\\Http\\Client::\_\_construct](swoole-http-client.construct.html) - Створює асинхронний HTTP-клієнт
-    -   [Swoole\\Http\\Client::\_\_destruct](swoole-http-client.destruct.html) — Знищує HTTP-клієнт
-    -   [Swoole\\Http\\Client::download](swoole-http-client.download.html) — Завантажує файл із віддаленого сервера
-    -   [Swoole\\Http\\Client::execute](swoole-http-client.execute.html) — Надсилає HTTP-запит після встановлення параметрів
-    -   [Swoole\\Http\\Client::get](swoole-http-client.get.html) — Надсилає HTTP-запит GET на віддалений сервер
-    -   [Swoole\\Http\\Client::isConnected](swoole-http-client.isconnected.html) — Перевіряє, чи підключено HTTP-з'єднання.
-    -   [Swoole\\Http\\Client::on](swoole-http-client.on.html) - Реєструє callback-функцію на ім'я події
-    -   [Swoole\\Http\\Client::post](swoole-http-client.post.html) — Надсилає HTTP-запит POST на віддалений сервер
-    -   [Swoole\\Http\\Client::push](swoole-http-client.push.html) — Передає дані клієнту websocket
-    -   [Swoole\\Http\\Client::set](swoole-http-client.set.html) — Оновлює параметри HTTP-клієнта
-    -   [Swoole\\Http\\Client::setCookies](swoole-http-client.setcookies.html) — Встановлює cookies для HTTP-запиту
-    -   [Swoole\\Http\\Client::setData](swoole-http-client.setdata.html) — Встановлює дані тіла HTTP-запиту
-    -   [Swoole\\Http\\Client::setHeaders](swoole-http-client.setheaders.html) — Встановлює заголовки HTTP-запиту
-    -   [Swoole\\Http\\Client::setMethod](swoole-http-client.setmethod.html) — Встановлює метод HTTP-запиту
-    -   [Swoole\\Http\\Client::upgrade](swoole-http-client.upgrade.html) — Оновлення до протоколу websocket
--   [Swoole\\Http\\Request](class.swoole-http-request.html) - Клас SwooleHttpRequest
-    -   [Swoole\\Http\\Request::\_\_destruct](swoole-http-request.destruct.html) - Знищує HTTP-запит
-    -   [Swoole\\Http\\Request::rawcontent](swoole-http-request.rawcontent.html) — Отримує необроблене тіло HTTP POST
--   [Swoole\\Http\\Response](class.swoole-http-response.html) - Клас SwooleHttpResponse
-    -   [Swoole\\Http\\Response::cookie](swoole-http-response.cookie.html) — Встановлює cookie HTTP-відповіді
-    -   [Swoole\\Http\\Response::\_\_destruct](swoole-http-response.destruct.html) — Знищує HTTP-відповідь
-    -   [Swoole\\Http\\Response::end](swoole-http-response.end.html) — Надсилає дані HTTP-запиту та завершує відповідь
-    -   [Swoole\\Http\\Response::gzip](swoole-http-response.gzip.html) — Включає gzip-стиснення відповіді.
-    -   [Swoole\\Http\\Response::header](swoole-http-response.header.html) — Встановлює заголовки HTTP-відповіді
-    -   [Swoole\\Http\\Response::initHeader](swoole-http-response.initheader.html) — Ініціювати заголовок HTTP-відповіді
-    -   [Swoole\\Http\\Response::rawcookie](swoole-http-response.rawcookie.html) — Встановлює необроблені cookie у HTTP-відповідь
-    -   [Swoole\\Http\\Response::sendfile](swoole-http-response.sendfile.html) — Надсилає файл через HTTP-відповідь
-    -   [Swoole\\Http\\Response::status](swoole-http-response.status.html) — Встановлює код стану HTTP-відповіді
-    -   [Swoole\\Http\\Response::write](swoole-http-response.write.html) — Додає вміст тіла HTTP у відповідь HTTP
--   [Swoole\\Http\\Server](class.swoole-http-server.html) - Клас SwooleHttpServer
-    -   [Swoole\\Http\\Server::on](swoole-http-server.on.html) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
-    -   [Swoole\\Http\\Server::start](swoole-http-server.start.html) - Запускає http-сервер swoole
--   [Swoole\\Lock](class.swoole-lock.html) - Клас SwooleLock
-    -   [Swoole\\Lock::\_\_construct](swoole-lock.construct.html) — Створює блокування пам'яті
-    -   [Swoole\\Lock::\_\_destruct](swoole-lock.destruct.html) — Знищує блокування пам'яті Swoole
-    -   [Swoole\\Lock::lock\_read](swoole-lock.lock-read.html) — Блокує читання-запис блокування для читання
-    -   [Swoole\\Lock::lock](swoole-lock.lock.html) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
-    -   [Swoole\\Lock::trylock\_read](swoole-lock.trylock-read.html) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
-    -   [Swoole\\Lock::trylock](swoole-lock.trylock.html) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
-    -   [Swoole\\Lock::unlock](swoole-lock.unlock.html) - Знімає блокування
--   [Swoole\\Mmap](class.swoole-mmap.html) - Клас SwooleMmap
-    -   [Swoole\\Mmap::open](swoole-mmap.open.html) — Відобразити файл у пам'ять і повернути ресурс потоку, який можна використовувати операціями потоку PHP
--   [Swoole\\MySQL](class.swoole-mysql.html) - Клас SwooleMySQL
-    -   [Swoole\\MySQL::close](swoole-mysql.close.html) — Закриває асинхронне з'єднання MySQL
-    -   [Swoole\\MySQL::connect](swoole-mysql.connect.html) — Підключається до віддаленого сервера MySQL
-    -   [Swoole\\MySQL::\_\_construct](swoole-mysql.construct.html) - Створює асинхронний клієнт MySQL
-    -   [Swoole\\MySQL::\_\_destruct](swoole-mysql.destruct.html) - Знищує асинхронний клієнт MySQL
-    -   [Swoole\\MySQL::getBuffer](swoole-mysql.getbuffer.html) - Опис
-    -   [Swoole\\MySQL::on](swoole-mysql.on.html) - Реєструє callback-функцію на основі імені події
-    -   [Swoole\\MySQL::query](swoole-mysql.query.html) — Виконує запит SQL
--   [Swoole\\MySQL\\Exception](class.swoole-mysql-exception.html) - Клас SwooleMySQLException
--   [Swoole\\Process](class.swoole-process.html) - Клас SwooleProcess
-    -   [Swoole\\Process::alarm](swoole-process.alarm.html) — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
-    -   [Swoole\\Process::close](swoole-process.close.html) — Закриває канал для дочірнього процесу
-    -   [Swoole\\Process::\_\_construct](swoole-process.construct.html) - Створює процес
-    -   [Swoole\\Process::daemon](swoole-process.daemon.html) - Змінює процес на процес-демон
-    -   [Swoole\\Process::\_\_destruct](swoole-process.destruct.html) - Знищує процес
-    -   [Swoole\\Process::exec](swoole-process.exec.html) - Виконує системні команди
-    -   [Swoole\\Process::exit](swoole-process.exit.html) - Зупиняє дочірні процеси
-    -   [Swoole\\Process::freeQueue](swoole-process.freequeue.html) — Знищує чергу повідомлень, створену swooleprocess::useQueue
-    -   [Swoole\\Process::kill](swoole-process.kill.html) — Надсилає сигнал дочірньому процесу
-    -   [Swoole\\Process::name](swoole-process.name.html) - Встановлює назву процесу
-    -   [Swoole\\Process::pop](swoole-process.pop.html) — Читає та витягує дані з черги повідомлень
-    -   [Swoole\\Process::push](swoole-process.push.html) — Записує та поміщає дані в чергу повідомлень
-    -   [Swoole\\Process::read](swoole-process.read.html) - Читає дані відправки в процес
-    -   [Swoole\\Process::signal](swoole-process.signal.html) — Надсилає сигнал дочірнім процесам
-    -   [Swoole\\Process::start](swoole-process.start.html) - Запускає процес
-    -   [Swoole\\Process::statQueue](swoole-process.statqueue.html) — Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
-    -   [Swoole\\Process::useQueue](swoole-process.usequeue.html) — Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
-    -   [Swoole\\Process::wait](swoole-process.wait.html) — Чекає на події дочірніх процесів
-    -   [Swoole\\Process::write](swoole-process.write.html) — Записує дані до каналу та зв'язується з батьківським процесом або дочірніми процесами
--   [Swoole\\Redis\\Server](class.swoole-redis-server.html) - Клас SwooleRedisServer
-    -   [Swoole\\Redis\\Server::format](swoole-redis-server.format.html) - Опис
-    -   [Swoole\\Redis\\Server::setHandler](swoole-redis-server.sethandler.html) - Опис
-    -   [Swoole\\Redis\\Server::start](swoole-redis-server.start.html) - Опис
--   [Swoole\\Serialize](class.swoole-serialize.html) - Клас SwooleSerialize
-    -   [Swoole\\Serialize::pack](swoole-serialize.pack.html) - Серіалізувати дані
-    -   [Swoole\\Serialize::unpack](swoole-serialize.unpack.html) - Десеріалізувати дані
--   [Swoole\\Server](class.swoole-server.html) - Клас SwooleServer
-    -   [Swoole\\Server::addlistener](swoole-server.addlistener.html) — Додає нового слухача на сервер
-    -   [Swoole\\Server::addProcess](swoole-server.addprocess.html) — Додає певний користувачем swooleprocess на сервер
-    -   [Swoole\\Server::after](swoole-server.after.html) - Запускає callback-функцію після закінчення певного періоду часу
-    -   [Swoole\\Server::bind](swoole-server.bind.html) — Прив'язує з'єднання до вказаного ідентифікатора користувача
-    -   [Swoole\\Server::clearTimer](swoole-server.cleartimer.html) - Зупиняє та знищує таймер
-    -   [Swoole\\Server::close](swoole-server.close.html) - Закриває з'єднання з клієнтом
-    -   [Swoole\\Server::confirm](swoole-server.confirm.html) - Перевіряє стан з'єднання
-    -   [Swoole\\Server::connection\_info](swoole-server.connection-info.html) — Отримує інформацію про з'єднання з описом файлу
-    -   [Swoole\\Server::connection\_list](swoole-server.connection-list.html) — Отримує всі встановлені з'єднання
-    -   [Swoole\\Server::\_\_construct](swoole-server.construct.html) - Створює сервер Swoole
-    -   [Swoole\\Server::defer](swoole-server.defer.html) — Відкладає виконання callback-функції наприкінці поточного EventLoop
-    -   [Swoole\\Server\\Port::\_\_construct](swoole-server-port.construct.html) - Створює порт сервера
-    -   [Swoole\\Server\\Port::\_\_destruct](swoole-server-port.destruct.html) — Знищує порт сервера
-    -   [Swoole\\Server\\Port::on](swoole-server-port.on.html) - Реєструє callback-функції події
-    -   [Swoole\\Server\\Port::set](swoole-server-port.set.html) — Встановлює протокол порту сервера
-    -   [Swoole\\Server::exist](swoole-server.exist.html) — Перевіряє, чи є з'єднання
-    -   [Swoole\\Server::finish](swoole-server.finish.html) — Використовується в процесі завдання для надсилання результату до робочого процесу після завершення завдання
-    -   [Swoole\\Server::getClientInfo](swoole-server.getclientinfo.html) — Отримує інформацію про з'єднання з описом файлу
-    -   [Swoole\\Server::getClientList](swoole-server.getclientlist.html) — Отримує всі встановлені з'єднання
-    -   [Swoole\\Server::getLastError](swoole-server.getlasterror.html) — Отримує код останньої помилки
-    -   [Swoole\\Server::heartbeat](swoole-server.heartbeat.html) — Перевіряє всі з'єднання на сервері
-    -   [Swoole\\Server::listen](swoole-server.listen.html) — Слухає по заданому IP та порту, тип сокету
-    -   [Swoole\\Server::on](swoole-server.on.html) - Реєструє callback-функцію на ім'я події
-    -   [Swoole\\Server::pause](swoole-server.pause.html) — Припиняє отримання даних від з'єднання
-    -   [Swoole\\Server::protect](swoole-server.protect.html) — Встановлює з'єднання у захищений режим
-    -   [Swoole\\Server::reload](swoole-server.reload.html) - Перезапускає всі робочі процеси
-    -   [Swoole\\Server::resume](swoole-server.resume.html) — Починає отримувати дані із з'єднання
-    -   [Swoole\\Server::send](swoole-server.send.html) — Надсилає дані клієнту
-    -   [Swoole\\Server::sendfile](swoole-server.sendfile.html) — Надсилає файл на з'єднання
-    -   [Swoole\\Server::sendMessage](swoole-server.sendmessage.html) — Надсилає повідомлення робочим процесам за ідентифікатором
-    -   [Swoole\\Server::sendto](swoole-server.sendto.html) — Надсилає дані на віддалену UDP-адресу
-    -   [Swoole\\Server::sendwait](swoole-server.sendwait.html) — Надсилає дані у віддалений сокет блокуючим способом
-    -   [Swoole\\Server::set](swoole-server.set.html) — Встановлює налаштування часу виконання сервера swoole
-    -   [Swoole\\Server::shutdown](swoole-server.shutdown.html) — Завершує процес головного сервера, функцію можна викликати у робочих процесах
-    -   [Swoole\\Server::start](swoole-server.start.html) - Запускає сервер Swoole
-    -   [Swoole\\Server::stats](swoole-server.stats.html) — Отримує статистику сервера Swoole
-    -   [Swoole\\Server::stop](swoole-server.stop.html) - Зупиняє сервер Swoole
-    -   [Swoole\\Server::task](swoole-server.task.html) — Надсилає дані до робочих процесів завдання
-    -   [Swoole\\Server::taskwait](swoole-server.taskwait.html) — Надсилає дані робочим процесам завдання блокуючим способом
-    -   [Swoole\\Server::taskWaitMulti](swoole-server.taskwaitmulti.html) — Виконує кілька завдань одночасно
-    -   [Swoole\\Server::tick](swoole-server.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
--   [Swoole\\Table](class.swoole-table.html) - Клас SwooleTable
-    -   [Swoole\\Table::column](swoole-table.column.html) — Встановлює тип даних та розмір стовпців
-    -   [Swoole\\Table::\_\_construct](swoole-table.construct.html) — Створює таблицю пам'яті Swoole із фіксованим розміром
-    -   [Swoole\\Table::count](swoole-table.count.html) — Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
-    -   [Swoole\\Table::create](swoole-table.create.html) - Створює таблицю пам'яті swoole
-    -   [Swoole\\Table::current](swoole-table.current.html) — Отримує поточний рядок
-    -   [Swoole\\Table::decr](swoole-table.decr.html) — Зменшує значення у таблиці Swoole за $rowkey та $columnkey
-    -   [Swoole\\Table::del](swoole-table.del.html) — Видаляє рядок у таблиці Swoole за $rowkey
-    -   [Swoole\\Table::destroy](swoole-table.destroy.html) - Знищує таблицю Swoole
-    -   [Swoole\\Table::exist](swoole-table.exist.html) — Перевіряє, чи існує рядок $rowkey
-    -   [Swoole\\Table::get](swoole-table.get.html) — Отримує значення у таблиці Swoole за $rowkey та $columnkey
-    -   [Swoole\\Table::incr](swoole-table.incr.html) — Збільшує значення $rowkey та $columnkey
-    -   [Swoole\\Table::key](swoole-table.key.html) — Отримує ключ поточного рядка
-    -   [Swoole\\Table::next](swoole-table.next.html) — Переміщує ітератор на наступний рядок
-    -   [Swoole\\Table::rewind](swoole-table.rewind.html) - Перемотує ітератор
-    -   [Swoole\\Table::set](swoole-table.set.html) — Оновлює рядок таблиці $rowkey
-    -   [Swoole\\Table::valid](swoole-table.valid.html) — Перевіряє, чи поточний рядок є коректним
--   [Swoole\\Timer](class.swoole-timer.html) - Клас SwooleTimer
-    -   [Swoole\\Timer::after](swoole-timer.after.html) - Запускає callback-функцію через певний проміжок часу
-    -   [Swoole\\Timer::clear](swoole-timer.clear.html) — Видаляє таймер за ідентифікатором
-    -   [Swoole\\Timer::exists](swoole-timer.exists.html) — Перевіряє, чи існує таймер
-    -   [Swoole\\Timer::tick](swoole-timer.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
--   [Swoole\\WebSocket\\Frame](class.swoole-websocket-frame.html) - Клас SwooleWebSocketFrame
--   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html) - Клас SwooleWebSocketServer
-    -   [Swoole\\WebSocket\\Server::exist](swoole-websocket-server.exist.html) — Перевіряє, чи є опис файлу
-    -   [Swoole\\WebSocket\\Server::on](swoole-websocket-server.on.html) - Зареєструвати callback-функцію події
-    -   [Swoole\\WebSocket\\Server::pack](swoole-websocket-server.pack.html) — Отримання пакету двійкових даних для надсилання в одній групі даних (frame)
-    -   [Swoole\\WebSocket\\Server::push](swoole-websocket-server.push.html) — Надіслати дані віддаленому клієнту
-    -   [Swoole\\WebSocket\\Server::unpack](swoole-websocket-server.unpack.html) - Розпакувати двійкові дані, отримані від клієнта
+    -   [swooleasyncdnslookup](function.swoole-async-dns-lookup.html) — Асинхронний та неблокуючий пошук імені хоста або IP-адреси
+    -   [swooleasyncread](function.swoole-async-read.html) - Асинхронне читання потоку файлу
+    -   [swooleasyncreadfile](function.swoole-async-readfile.html) - Асинхронне читання файлу
+    -   [swooleasyncset](function.swoole-async-set.html) — Оновлення опцій асинхронного введення-виводу
+    -   [swooleasyncwrite](function.swoole-async-write.html) — Асинхронний запис даних до потоку файлу
+    -   [swooleasyncwritefile](function.swoole-async-writefile.html) - Асинхронний запис даних у файл
+    -   [swooleclearerror](function.swoole-clear-error.html) — Скидає помилки в сокеті або за останнім кодом помилки
+    -   [swooleclientselect](function.swoole-client-select.html) — Отримати опис файлу, готового до читання/запису чи помилки
+    -   [swoolecpunum](function.swoole-cpu-num.html) - Отримати кількість CPU
+    -   [swooleerrno](function.swoole-errno.html) — Отримати код помилки останнього системного виклику
+    -   [swooleerrorlog](function.swoole-error-log.html) — Виводить повідомлення про помилки до журналу
+    -   [swooleeventadd](function.swoole-event-add.html) - Додати нових callback-функцій сокету в цикл подій
+    -   [swooleeventdefer](function.swoole-event-defer.html) — Додати callback-функцію до наступного циклу подій
+    -   [swooleeventdel](function.swoole-event-del.html) - Видалити всі callback-функції сокету
+    -   [swooleeventexit](function.swoole-event-exit.html) — Закрити цикл подій, доступний лише на стороні клієнта
+    -   [swooleeventset](function.swoole-event-set.html) - Оновити callback-функції події сокету
+    -   [swooleeventwait](function.swoole-event-wait.html) - Запустити цикл подій
+    -   [swooleeventwrite](function.swoole-event-write.html) - Записати дані в сокет
+    -   [swoolegetlocalіп](function.swoole-get-local-ip.html) — Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
+    -   [swoolelasterror](function.swoole-last-error.html) — Отримати останнє повідомлення про помилку
+    -   [swooleloadmodule](function.swoole-load-module.html) — Завантажити модуль swoole
+    -   [swooleselect](function.swoole-select.html) — Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
+    -   [swoolesetprocessname](function.swoole-set-process-name.html) - Встановити ім'я процесу
+    -   [swoolestrerror](function.swoole-strerror.html) — Конвертувати Errno у повідомлення про помилки
+    -   [swooletimerafter](function.swoole-timer-after.html) - Запуск callback-функції один раз у майбутньому
+    -   [swooletimerexists](function.swoole-timer-exists.html) - Перевірити, чи існує callback-функція таймера
+    -   [swooletimertick](function.swoole-timer-tick.html) - Викликати callback-функцію таймера тактів через певний проміжок часу
+    -   [swooleversion](function.swoole-version.html) — Отримати версію Swoole
+-   [SwooleAsync](class.swoole-async.html) - Клас SwooleAsync
+    -   [SwooleAsync::dnsLookup](swoole-async.dnslookup.html) — Асинхронний та неблокуючий пошук IP на ім'я хоста
+    -   [SwooleAsync::read](swoole-async.read.html) - Асинхронне читання файлового потоку
+    -   [SwooleAsync::readFile](swoole-async.readfile.html) - Асинхронне читання файлу
+    -   [SwooleAsync::set](swoole-async.set.html) — Оновлює параметри асинхронного вводу-виводу
+    -   [SwooleAsync::write](swoole-async.write.html) — Асинхронно записує дані у файловий потік
+    -   [SwooleAsync::writeFile](swoole-async.writefile.html) - Опис
+-   [SwooleAtomic](class.swoole-atomic.html) - Клас SwooleAtomic
+    -   [SwooleAtomic::add](swoole-atomic.add.html) - Додає число до значення атомарного об'єкта
+    -   [SwooleAtomic::cmpset](swoole-atomic.cmpset.html) — Порівнює та встановлює значення атомарного об'єкта
+    -   [SwooleAtomic::construct](swoole-atomic.construct.html) — Створює атомарний об'єкт swoole
+    -   [SwooleAtomic::get](swoole-atomic.get.html) — Отримує поточне значення атомарного об'єкта
+    -   [SwooleAtomic::set](swoole-atomic.set.html) — Встановлює нове значення для атомарного об'єкту
+    -   [SwooleAtomic::sub](swoole-atomic.sub.html) — Віднімає число із значення атомарного об'єкта
+-   [SwooleBuffer](class.swoole-buffer.html) - Клас SwooleBuffer
+    -   [SwooleBuffer::append](swoole-buffer.append.html) — Додає рядок або двійкові дані до кінця буфера пам'яті та повертає новий розмір виділеної пам'яті
+    -   [SwooleBuffer::clear](swoole-buffer.clear.html) — скидає буфер пам'яті
+    -   [SwooleBuffer::construct](swoole-buffer.construct.html) - Фіксований розмір блоку пам'яті
+    -   [SwooleBuffer::destruct](swoole-buffer.destruct.html) - Знищує буфер пам'яті Swoole
+    -   [SwooleBuffer::expand](swoole-buffer.expand.html) - Розширює розмір буфера пам'яті
+    -   [SwooleBuffer::read](swoole-buffer.read.html) — Читає дані з буфера пам'яті на основі усунення та довжини
+    -   [SwooleBuffer::recycle](swoole-buffer.recycle.html) — Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
+    -   [SwooleBuffer::substr](swoole-buffer.substr.html) — Зчитує дані з буфера пам'яті на основі усунення та довжини. Або видаляє дані з буфера пам'яті
+    -   [SwooleBuffer::toString](swoole-buffer.tostring.html) — Отримує строкове значення буфера пам'яті
+    -   [SwooleBuffer::write](swoole-buffer.write.html) — Записує дані у буфер пам'яті. Пам'ять виділена для буфера не буде змінена
+-   [SwooleChannel](class.swoole-channel.html) - Клас SwooleChannel
+    -   [SwooleChannel::construct](swoole-channel.construct.html) - Створює канал Swoole
+    -   [SwooleChannel::destruct](swoole-channel.destruct.html) - Знищує канал Swoole
+    -   [SwooleChannel::pop](swoole-channel.pop.html) — Читає та витягує дані з каналу Swoole
+    -   [SwooleChannel::push](swoole-channel.push.html) — Записує та передає дані до каналу Swoole
+    -   [SwooleChannel::stats](swoole-channel.stats.html) — Отримує статистику каналу Swoole
+-   [SwooleClient](class.swoole-client.html) - Клас SwooleClient
+    -   [SwooleClient::close](swoole-client.close.html) — Закриває встановлене з'єднання
+    -   [SwooleClient::connect](swoole-client.connect.html) — Підключається до віддаленого порту TCP або UDP
+    -   [SwooleClient::construct](swoole-client.construct.html) — Створює синхронний або асинхронний TCP/UDP клієнт Swoole за допомогою SSL або без нього
+    -   [SwooleClient::destruct](swoole-client.destruct.html) - Знищує клієнт Swoole
+    -   [SwooleClient::getpeername](swoole-client.getpeername.html) — Отримує ім'я віддаленого сокету з'єднання
+    -   [SwooleClient::getsockname](swoole-client.getsockname.html) — Отримує локальне ім'я сокета з'єднання
+    -   [SwooleClient::isConnected](swoole-client.isconnected.html) — Перевіряє, чи з'єднання встановлено.
+    -   [SwooleClient::on](swoole-client.on.html) — Додає callback-функції, спричинені подіями
+    -   [SwooleClient::pause](swoole-client.pause.html) — Припиняє отримання даних
+    -   [SwooleClient::pipe](swoole-client.pipe.html) — Перенаправляє дані до іншого файлового дескриптора.
+    -   [SwooleClient::recv](swoole-client.recv.html) — Отримує дані із віддаленого сокету
+    -   [SwooleClient::resume](swoole-client.resume.html) — Відновлює отримання даних
+    -   [SwooleClient::send](swoole-client.send.html) — Надсилає дані у віддалений TCP-сокет
+    -   [SwooleClient::sendfile](swoole-client.sendfile.html) — Надсилає файл у віддалений TCP-сокет
+    -   [SwooleClient::sendto](swoole-client.sendto.html) — Надсилає дані на віддалену UDP-адресу
+    -   [SwooleClient::set](swoole-client.set.html) — Встановлює настройки клієнта Swoole до встановлення з'єднання
+    -   [SwooleClient::sleep](swoole-client.sleep.html) — Видаляє TCP-клієнт із циклу системних подій
+    -   [SwooleClient::wakeup](swoole-client.wakeup.html) — Додає TCP-клієнт назад у цикл системних подій
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html) - Клас SwooleConnectionIterator
+    -   [SwooleConnectionIterator::count](swoole-connection-iterator.count.html) - Вважає з'єднання
+    -   [SwooleConnectionIterator::current](swoole-connection-iterator.current.html) — Повертає поточний запис з'єднання
+    -   [SwooleConnectionIterator::key](swoole-connection-iterator.key.html) — Повертає ключ поточного з'єднання
+    -   [SwooleConnectionIterator::next](swoole-connection-iterator.next.html) — Переходить до наступного з'єднання
+    -   [SwooleConnectionIterator::offsetExists](swoole-connection-iterator.offsetexists.html) — Перевіряє, чи є зміщення
+    -   [SwooleConnectionIterator::offsetGet](swoole-connection-iterator.offsetget.html) - Зміщення для вилучення
+    -   [SwooleConnectionIterator::offsetSet](swoole-connection-iterator.offsetset.html) — Призначає з'єднання для зазначеного усунення
+    -   [SwooleConnectionIterator::offsetUnset](swoole-connection-iterator.offsetunset.html) — скидає зміщення
+    -   [SwooleConnectionIterator::rewind](swoole-connection-iterator.rewind.html) - Перемотує ітератор
+    -   [SwooleConnectionIterator::valid](swoole-connection-iterator.valid.html) - Перевіряє правильність поточної позиції
+-   [SwooleCoroutine](class.swoole-coroutine.html) - Клас SwooleCoroutine
+    -   [SwooleCoroutine::calluserfuncarray](swoole-coroutine.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
+    -   [SwooleCoroutine::calluserfunc](swoole-coroutine.call-user-func.html) - Викликає callback-функцію, задану першим параметром
+    -   [SwooleCoroutine::cliwait](swoole-coroutine.cli-wait.html) - Опис
+    -   [SwooleCoroutine::create](swoole-coroutine.create.html) - Опис
+    -   [SwooleCoroutineClient::close](swoole-coroutine-client.close.html) - Опис
+    -   [SwooleCoroutineClient::connect](swoole-coroutine-client.connect.html) - Опис
+    -   [SwooleCoroutineClient::construct](swoole-coroutine-client.construct.html) - Опис
+    -   [SwooleCoroutineClient::destruct](swoole-coroutine-client.destruct.html) - Опис
+    -   [SwooleCoroutineClient::getpeername](swoole-coroutine-client.getpeername.html) - Опис
+    -   [SwooleCoroutineClient::getsockname](swoole-coroutine-client.getsockname.html) - Опис
+    -   [SwooleCoroutineClient::isConnected](swoole-coroutine-client.isconnected.html) - Опис
+    -   [SwooleCoroutineClient::recv](swoole-coroutine-client.recv.html) - Опис
+    -   [SwooleCoroutineClient::send](swoole-coroutine-client.send.html) - Опис
+    -   [SwooleCoroutineClient::sendfile](swoole-coroutine-client.sendfile.html) - Опис
+    -   [SwooleCoroutineClient::sendto](swoole-coroutine-client.sendto.html) - Опис
+    -   [SwooleCoroutineClient::set](swoole-coroutine-client.set.html) - Опис
+    -   [SwooleCoroutineHttpClient::addFile](swoole-coroutine-http-client.addfile.html) - Опис
+    -   [SwooleCoroutineHttpClient::close](swoole-coroutine-http-client.close.html) - Опис
+    -   [SwooleCoroutineHttpClient::construct](swoole-coroutine-http-client.construct.html) - Опис
+    -   [SwooleCoroutineHttpClient::destruct](swoole-coroutine-http-client.destruct.html) - Опис
+    -   [SwooleCoroutineHttpClient::execute](swoole-coroutine-http-client.execute.html) - Опис
+    -   [SwooleCoroutineHttpClient::get](swoole-coroutine-http-client.get.html) - Опис
+    -   [SwooleCoroutineHttpClient::getDefer](swoole-coroutine-http-client.getdefer.html) - Опис
+    -   [SwooleCoroutineHttpClient::isConnected](swoole-coroutine-http-client.isconnected.html) - Опис
+    -   [SwooleCoroutineHttpClient::post](swoole-coroutine-http-client.post.html) - Опис
+    -   [SwooleCoroutineHttpClient::recv](swoole-coroutine-http-client.recv.html) - Опис
+    -   [SwooleCoroutineHttpClient::set](swoole-coroutine-http-client.set.html) - Опис
+    -   [SwooleCoroutineHttpClient::setCookies](swoole-coroutine-http-client.setcookies.html) - Опис
+    -   [SwooleCoroutineHttpClient::setData](swoole-coroutine-http-client.setdata.html) - Опис
+    -   [SwooleCoroutineHttpClient::setDefer](swoole-coroutine-http-client.setdefer.html) - Опис
+    -   [SwooleCoroutineHttpClient::setHeaders](swoole-coroutine-http-client.setheaders.html) - Опис
+    -   [SwooleCoroutineHttpClient::setMethod](swoole-coroutine-http-client.setmethod.html) - Опис
+    -   [SwooleCoroutineMySQL::close](swoole-coroutine-mysql.close.html) - Опис
+    -   [SwooleCoroutineMySQL::connect](swoole-coroutine-mysql.connect.html) - Опис
+    -   [SwooleCoroutineMySQL::construct](swoole-coroutine-mysql.construct.html) - Опис
+    -   [SwooleCoroutineMySQL::destruct](swoole-coroutine-mysql.destruct.html) - Опис
+    -   [SwooleCoroutineMySQL::getDefer](swoole-coroutine-mysql.getdefer.html) - Опис
+    -   [SwooleCoroutineMySQL::query](swoole-coroutine-mysql.query.html) - Опис
+    -   [SwooleCoroutineMySQL::recv](swoole-coroutine-mysql.recv.html) - Опис
+    -   [SwooleCoroutineMySQL::setDefer](swoole-coroutine-mysql.setdefer.html) - Опис
+    -   [SwooleCoroutine::getuid](swoole-coroutine.getuid.html) - Опис
+    -   [SwooleCoroutine::resume](swoole-coroutine.resume.html) - Опис
+    -   [SwooleCoroutine::suspend](swoole-coroutine.suspend.html) - Опис
+-   [SwooleEvent](class.swoole-event.html) - Клас SwooleEvent
+    -   [SwooleEvent::add](swoole-event.add.html) — Додає нові callback функції сокету в EventLoop
+    -   [SwooleEvent::defer](swoole-event.defer.html) — Додає callback-функцію до наступного циклу подій
+    -   [SwooleEvent::del](swoole-event.del.html) - Видаляє всі callback-функції події сокету
+    -   [SwooleEvent::exit](swoole-event.exit.html) — Виходить із циклу подій, доступно лише на стороні клієнта
+    -   [SwooleEvent::set](swoole-event.set.html) - Оновлює callback-функції події сокету
+    -   [SwooleEvent::wait](swoole-event.wait.html) - Опис
+    -   [SwooleEvent::write](swoole-event.write.html) - Записує дані в сокет
+-   [SwooleException](class.swoole-exception.html) - Клас SwooleException
+-   [SwooleHttpClient](class.swoole-http-client.html) - Клас SwooleHttpClient
+    -   [SwooleHttpClient::addFile](swoole-http-client.addfile.html) — Додає файл до форми повідомлення
+    -   [SwooleHttpClient::close](swoole-http-client.close.html) - Закриває http-з'єднання
+    -   [SwooleHttpClient::construct](swoole-http-client.construct.html) - Створює асинхронний HTTP-клієнт
+    -   [SwooleHttpClient::destruct](swoole-http-client.destruct.html) — Знищує HTTP-клієнт
+    -   [SwooleHttpClient::download](swoole-http-client.download.html) — Завантажує файл із віддаленого сервера
+    -   [SwooleHttpClient::execute](swoole-http-client.execute.html) — Надсилає HTTP-запит після встановлення параметрів
+    -   [SwooleHttpClient::get](swoole-http-client.get.html) — Надсилає HTTP-запит GET на віддалений сервер
+    -   [SwooleHttpClient::isConnected](swoole-http-client.isconnected.html) — Перевіряє, чи підключено HTTP-з'єднання.
+    -   [SwooleHttpClient::on](swoole-http-client.on.html) - Реєструє callback-функцію на ім'я події
+    -   [SwooleHttpClient::post](swoole-http-client.post.html) — Надсилає HTTP-запит POST на віддалений сервер
+    -   [SwooleHttpClient::push](swoole-http-client.push.html) — Передає дані клієнту websocket
+    -   [SwooleHttpClient::set](swoole-http-client.set.html) — Оновлює параметри HTTP-клієнта
+    -   [SwooleHttpClient::setCookies](swoole-http-client.setcookies.html) — Встановлює cookies для HTTP-запиту
+    -   [SwooleHttpClient::setData](swoole-http-client.setdata.html) — Встановлює дані тіла HTTP-запиту
+    -   [SwooleHttpClient::setHeaders](swoole-http-client.setheaders.html) — Встановлює заголовки HTTP-запиту
+    -   [SwooleHttpClient::setMethod](swoole-http-client.setmethod.html) — Встановлює метод HTTP-запиту
+    -   [SwooleHttpClient::upgrade](swoole-http-client.upgrade.html) — Оновлення до протоколу websocket
+-   [SwooleHttpRequest](class.swoole-http-request.html) - Клас SwooleHttpRequest
+    -   [SwooleHttpRequest::destruct](swoole-http-request.destruct.html) - Знищує HTTP-запит
+    -   [SwooleHttpRequest::rawcontent](swoole-http-request.rawcontent.html) — Отримує необроблене тіло HTTP POST
+-   [SwooleHttpResponse](class.swoole-http-response.html) - Клас SwooleHttpResponse
+    -   [SwooleHttpResponse::cookie](swoole-http-response.cookie.html) — Встановлює cookie HTTP-відповіді
+    -   [SwooleHttpResponse::destruct](swoole-http-response.destruct.html) — Знищує HTTP-відповідь
+    -   [SwooleHttpResponse::end](swoole-http-response.end.html) — Надсилає дані HTTP-запиту та завершує відповідь
+    -   [SwooleHttpResponse::gzip](swoole-http-response.gzip.html) — Включає gzip-стиснення відповіді.
+    -   [SwooleHttpResponse::header](swoole-http-response.header.html) — Встановлює заголовки HTTP-відповіді
+    -   [SwooleHttpResponse::initHeader](swoole-http-response.initheader.html) — Ініціювати заголовок HTTP-відповіді
+    -   [SwooleHttpResponse::rawcookie](swoole-http-response.rawcookie.html) — Встановлює необроблені cookie у HTTP-відповідь
+    -   [SwooleHttpResponse::sendfile](swoole-http-response.sendfile.html) — Надсилає файл через HTTP-відповідь
+    -   [SwooleHttpResponse::status](swoole-http-response.status.html) — Встановлює код стану HTTP-відповіді
+    -   [SwooleHttpResponse::write](swoole-http-response.write.html) — Додає вміст тіла HTTP у відповідь HTTP
+-   [SwooleHttpServer](class.swoole-http-server.html) - Клас SwooleHttpServer
+    -   [SwooleHttpServer::on](swoole-http-server.on.html) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
+    -   [SwooleHttpServer::start](swoole-http-server.start.html) - Запускає http-сервер swoole
+-   [SwooleLock](class.swoole-lock.html) - Клас SwooleLock
+    -   [SwooleLock::construct](swoole-lock.construct.html) — Створює блокування пам'яті
+    -   [SwooleLock::destruct](swoole-lock.destruct.html) — Знищує блокування пам'яті Swoole
+    -   [SwooleLock::lockread](swoole-lock.lock-read.html) — Блокує читання-запис блокування для читання
+    -   [SwooleLock::lock](swoole-lock.lock.html) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
+    -   [SwooleLock::trylockread](swoole-lock.trylock-read.html) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
+    -   [SwooleLock::trylock](swoole-lock.trylock.html) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
+    -   [SwooleLock::unlock](swoole-lock.unlock.html) - Знімає блокування
+-   [SwooleMmap](class.swoole-mmap.html) - Клас SwooleMmap
+    -   [SwooleMmap::open](swoole-mmap.open.html) — Відобразити файл у пам'ять і повернути ресурс потоку, який можна використовувати операціями потоку PHP
+-   [SwooleMySQL](class.swoole-mysql.html) - Клас SwooleMySQL
+    -   [SwooleMySQL::close](swoole-mysql.close.html) — Закриває асинхронне з'єднання MySQL
+    -   [SwooleMySQL::connect](swoole-mysql.connect.html) — Підключається до віддаленого сервера MySQL
+    -   [SwooleMySQL::construct](swoole-mysql.construct.html) - Створює асинхронний клієнт MySQL
+    -   [SwooleMySQL::destruct](swoole-mysql.destruct.html) - Знищує асинхронний клієнт MySQL
+    -   [SwooleMySQL::getBuffer](swoole-mysql.getbuffer.html) - Опис
+    -   [SwooleMySQL::on](swoole-mysql.on.html) - Реєструє callback-функцію на основі імені події
+    -   [SwooleMySQL::query](swoole-mysql.query.html) — Виконує запит SQL
+-   [SwooleMySQLException](class.swoole-mysql-exception.html) - Клас SwooleMySQLException
+-   [SwooleProcess](class.swoole-process.html) - Клас SwooleProcess
+    -   [SwooleProcess::alarm](swoole-process.alarm.html) — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
+    -   [SwooleProcess::close](swoole-process.close.html) — Закриває канал для дочірнього процесу
+    -   [SwooleProcess::construct](swoole-process.construct.html) - Створює процес
+    -   [SwooleProcess::daemon](swoole-process.daemon.html) - Змінює процес на процес-демон
+    -   [SwooleProcess::destruct](swoole-process.destruct.html) - Знищує процес
+    -   [SwooleProcess::exec](swoole-process.exec.html) - Виконує системні команди
+    -   [SwooleProcess::exit](swoole-process.exit.html) - Зупиняє дочірні процеси
+    -   [SwooleProcess::freeQueue](swoole-process.freequeue.html) — Знищує чергу повідомлень, створену swooleprocess::useQueue
+    -   [SwooleProcess::kill](swoole-process.kill.html) — Надсилає сигнал дочірньому процесу
+    -   [SwooleProcess::name](swoole-process.name.html) - Встановлює назву процесу
+    -   [SwooleProcess::pop](swoole-process.pop.html) — Читає та витягує дані з черги повідомлень
+    -   [SwooleProcess::push](swoole-process.push.html) — Записує та поміщає дані в чергу повідомлень
+    -   [SwooleProcess::read](swoole-process.read.html) - Читає дані відправки в процес
+    -   [SwooleProcess::signal](swoole-process.signal.html) — Надсилає сигнал дочірнім процесам
+    -   [SwooleProcess::start](swoole-process.start.html) - Запускає процес
+    -   [SwooleProcess::statQueue](swoole-process.statqueue.html) — Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
+    -   [SwooleProcess::useQueue](swoole-process.usequeue.html) — Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
+    -   [SwooleProcess::wait](swoole-process.wait.html) — Чекає на події дочірніх процесів
+    -   [SwooleProcess::write](swoole-process.write.html) — Записує дані до каналу та зв'язується з батьківським процесом або дочірніми процесами
+-   [SwooleRedisServer](class.swoole-redis-server.html) - Клас SwooleRedisServer
+    -   [SwooleRedisServer::format](swoole-redis-server.format.html) - Опис
+    -   [SwooleRedisServer::setHandler](swoole-redis-server.sethandler.html) - Опис
+    -   [SwooleRedisServer::start](swoole-redis-server.start.html) - Опис
+-   [SwooleSerialize](class.swoole-serialize.html) - Клас SwooleSerialize
+    -   [SwooleSerialize::pack](swoole-serialize.pack.html) - Серіалізувати дані
+    -   [SwooleSerialize::unpack](swoole-serialize.unpack.html) - Десеріалізувати дані
+-   [SwooleServer](class.swoole-server.html) - Клас SwooleServer
+    -   [SwooleServer::addlistener](swoole-server.addlistener.html) — Додає нового слухача на сервер
+    -   [SwooleServer::addProcess](swoole-server.addprocess.html) — Додає певний користувачем swooleprocess на сервер
+    -   [SwooleServer::after](swoole-server.after.html) - Запускає callback-функцію після закінчення певного періоду часу
+    -   [SwooleServer::bind](swoole-server.bind.html) — Прив'язує з'єднання до вказаного ідентифікатора користувача
+    -   [SwooleServer::clearTimer](swoole-server.cleartimer.html) - Зупиняє та знищує таймер
+    -   [SwooleServer::close](swoole-server.close.html) - Закриває з'єднання з клієнтом
+    -   [SwooleServer::confirm](swoole-server.confirm.html) - Перевіряє стан з'єднання
+    -   [SwooleServer::connectioninfo](swoole-server.connection-info.html) — Отримує інформацію про з'єднання з описом файлу
+    -   [SwooleServer::connectionlist](swoole-server.connection-list.html) — Отримує всі встановлені з'єднання
+    -   [SwooleServer::construct](swoole-server.construct.html) - Створює сервер Swoole
+    -   [SwooleServer::defer](swoole-server.defer.html) — Відкладає виконання callback-функції наприкінці поточного EventLoop
+    -   [SwooleServerPort::construct](swoole-server-port.construct.html) - Створює порт сервера
+    -   [SwooleServerPort::destruct](swoole-server-port.destruct.html) — Знищує порт сервера
+    -   [SwooleServerPort::on](swoole-server-port.on.html) - Реєструє callback-функції події
+    -   [SwooleServerPort::set](swoole-server-port.set.html) — Встановлює протокол порту сервера
+    -   [SwooleServer::exist](swoole-server.exist.html) — Перевіряє, чи є з'єднання
+    -   [SwooleServer::finish](swoole-server.finish.html) — Використовується в процесі завдання для надсилання результату до робочого процесу після завершення завдання
+    -   [SwooleServer::getClientInfo](swoole-server.getclientinfo.html) — Отримує інформацію про з'єднання з описом файлу
+    -   [SwooleServer::getClientList](swoole-server.getclientlist.html) — Отримує всі встановлені з'єднання
+    -   [SwooleServer::getLastError](swoole-server.getlasterror.html) — Отримує код останньої помилки
+    -   [SwooleServer::heartbeat](swoole-server.heartbeat.html) — Перевіряє всі з'єднання на сервері
+    -   [SwooleServer::listen](swoole-server.listen.html) — Слухає по заданому IP та порту, тип сокету
+    -   [SwooleServer::on](swoole-server.on.html) - Реєструє callback-функцію на ім'я події
+    -   [SwooleServer::pause](swoole-server.pause.html) — Припиняє отримання даних від з'єднання
+    -   [SwooleServer::protect](swoole-server.protect.html) — Встановлює з'єднання у захищений режим
+    -   [SwooleServer::reload](swoole-server.reload.html) - Перезапускає всі робочі процеси
+    -   [SwooleServer::resume](swoole-server.resume.html) — Починає отримувати дані із з'єднання
+    -   [SwooleServer::send](swoole-server.send.html) — Надсилає дані клієнту
+    -   [SwooleServer::sendfile](swoole-server.sendfile.html) — Надсилає файл на з'єднання
+    -   [SwooleServer::sendMessage](swoole-server.sendmessage.html) — Надсилає повідомлення робочим процесам за ідентифікатором
+    -   [SwooleServer::sendto](swoole-server.sendto.html) — Надсилає дані на віддалену UDP-адресу
+    -   [SwooleServer::sendwait](swoole-server.sendwait.html) — Надсилає дані у віддалений сокет блокуючим способом
+    -   [SwooleServer::set](swoole-server.set.html) — Встановлює налаштування часу виконання сервера swoole
+    -   [SwooleServer::shutdown](swoole-server.shutdown.html) — Завершує процес головного сервера, функцію можна викликати у робочих процесах
+    -   [SwooleServer::start](swoole-server.start.html) - Запускає сервер Swoole
+    -   [SwooleServer::stats](swoole-server.stats.html) — Отримує статистику сервера Swoole
+    -   [SwooleServer::stop](swoole-server.stop.html) - Зупиняє сервер Swoole
+    -   [SwooleServer::task](swoole-server.task.html) — Надсилає дані до робочих процесів завдання
+    -   [SwooleServer::taskwait](swoole-server.taskwait.html) — Надсилає дані робочим процесам завдання блокуючим способом
+    -   [SwooleServer::taskWaitMulti](swoole-server.taskwaitmulti.html) — Виконує кілька завдань одночасно
+    -   [SwooleServer::tick](swoole-server.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
+-   [SwooleTable](class.swoole-table.html) - Клас SwooleTable
+    -   [SwooleTable::column](swoole-table.column.html) — Встановлює тип даних та розмір стовпців
+    -   [SwooleTable::construct](swoole-table.construct.html) — Створює таблицю пам'яті Swoole із фіксованим розміром
+    -   [SwooleTable::count](swoole-table.count.html) — Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
+    -   [SwooleTable::create](swoole-table.create.html) - Створює таблицю пам'яті swoole
+    -   [SwooleTable::current](swoole-table.current.html) — Отримує поточний рядок
+    -   [SwooleTable::decr](swoole-table.decr.html) — Зменшує значення у таблиці Swoole за $rowkey та $columnkey
+    -   [SwooleTable::del](swoole-table.del.html) — Видаляє рядок у таблиці Swoole за $rowkey
+    -   [SwooleTable::destroy](swoole-table.destroy.html) - Знищує таблицю Swoole
+    -   [SwooleTable::exist](swoole-table.exist.html) — Перевіряє, чи існує рядок $rowkey
+    -   [SwooleTable::get](swoole-table.get.html) — Отримує значення у таблиці Swoole за $rowkey та $columnkey
+    -   [SwooleTable::incr](swoole-table.incr.html) — Збільшує значення $rowkey та $columnkey
+    -   [SwooleTable::key](swoole-table.key.html) — Отримує ключ поточного рядка
+    -   [SwooleTable::next](swoole-table.next.html) — Переміщує ітератор на наступний рядок
+    -   [SwooleTable::rewind](swoole-table.rewind.html) - Перемотує ітератор
+    -   [SwooleTable::set](swoole-table.set.html) — Оновлює рядок таблиці $rowkey
+    -   [SwooleTable::valid](swoole-table.valid.html) — Перевіряє, чи поточний рядок є коректним
+-   [SwooleTimer](class.swoole-timer.html) - Клас SwooleTimer
+    -   [SwooleTimer::after](swoole-timer.after.html) - Запускає callback-функцію через певний проміжок часу
+    -   [SwooleTimer::clear](swoole-timer.clear.html) — Видаляє таймер за ідентифікатором
+    -   [SwooleTimer::exists](swoole-timer.exists.html) — Перевіряє, чи існує таймер
+    -   [SwooleTimer::tick](swoole-timer.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
+-   [SwooleWebSocketFrame](class.swoole-websocket-frame.html) - Клас SwooleWebSocketFrame
+-   [SwooleWebSocketServer](class.swoole-websocket-server.html) - Клас SwooleWebSocketServer
+    -   [SwooleWebSocketServer::exist](swoole-websocket-server.exist.html) — Перевіряє, чи є опис файлу
+    -   [SwooleWebSocketServer::on](swoole-websocket-server.on.html) - Зареєструвати callback-функцію події
+    -   [SwooleWebSocketServer::pack](swoole-websocket-server.pack.html) — Отримання пакету двійкових даних для надсилання в одній групі даних (frame)
+    -   [SwooleWebSocketServer::push](swoole-websocket-server.push.html) — Надіслати дані віддаленому клієнту
+    -   [SwooleWebSocketServer::unpack](swoole-websocket-server.unpack.html) - Розпакувати двійкові дані, отримані від клієнта

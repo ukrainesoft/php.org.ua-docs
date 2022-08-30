@@ -1,12 +1,12 @@
 Zlib
 
--   [« zip\_read](function.zip-read.html)
+-   [« zipread](function.zip-read.html)
     
 -   [Введение »](intro.zlib.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для сжатия и архивации](refs.compression.html)
+-   [Модулі для стиснення та архівації](refs.compression.html)
     
 -   Zlib
     
@@ -22,8 +22,8 @@ Zlib
 -   [Предопределённые константы](zlib.constants.html)
 -   [Примеры](zlib.examples.html)
 -   [Функции Zlib](ref.zlib.html)
-    -   [deflate\_add](function.deflate-add.html) - Інкрементальний стиск даних
-    -   [deflate\_init](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+    -   [deflateadd](function.deflate-add.html) - Інкрементальний стиск даних
+    -   [deflateinit](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
     -   [gzclose](function.gzclose.html) — Закрити вказівник відкритого gz-файлу
     -   [gzcompress](function.gzcompress.html) — Стиснути рядок
     -   [gzdecode](function.gzdecode.html) — Декодує рядок, стислий за допомогою gzip
@@ -44,13 +44,13 @@ Zlib
     -   [gztell](function.gztell.html) — Повертає поточну позицію читання/запису в покажчику gz-файлу
     -   [gzuncompress](function.gzuncompress.html) — Розпакувати стислий рядок
     -   [gzwrite](function.gzwrite.html) — Бінарний запис до gz-файлу
-    -   [inflate\_add](function.inflate-add.html) — Інкрементальне розпакування закодованих даних
-    -   [inflate\_get\_read\_len](function.inflate-get-read-len.html) — Отримує кількість прочитаних байт
-    -   [inflate\_get\_status](function.inflate-get-status.html) — Отримує статус декомпресії
-    -   [inflate\_init](function.inflate-init.html) — Ініціалізація контексту інкрементального розпакування
+    -   [inflateadd](function.inflate-add.html) — Інкрементальне розпакування закодованих даних
+    -   [inflategetreadlen](function.inflate-get-read-len.html) — Отримує кількість прочитаних байт
+    -   [inflategetstatus](function.inflate-get-status.html) — Отримує статус декомпресії
+    -   [inflateinit](function.inflate-init.html) — Ініціалізація контексту інкрементального розпакування
     -   [readgzfile](function.readgzfile.html) — Виводить вміст gz-файлу
-    -   [zlib\_decode](function.zlib-decode.html) — Розпаковує будь-які закодовані дані raw/gzip/zlib
-    -   [zlib\_encode](function.zlib-encode.html) — Стиснення даних із зазначеним кодуванням
-    -   [zlib\_get\_coding\_type](function.zlib-get-coding-type.html) — Повертає спосіб кодування, який використовується для стиснення виводу
+    -   [zlibdecode](function.zlib-decode.html) — Розпаковує будь-які закодовані дані raw/gzip/zlib
+    -   [zlibencode](function.zlib-encode.html) — Стиснення даних із зазначеним кодуванням
+    -   [zlibgetcodingtype](function.zlib-get-coding-type.html) — Повертає спосіб кодування, який використовується для стиснення виводу
 -   [DeflateContext](class.deflatecontext.html) - Клас DeflateContext
 -   [InflateContext](class.inflatecontext.html) - Клас InflateContext

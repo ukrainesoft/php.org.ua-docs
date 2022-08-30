@@ -1,8 +1,8 @@
 Видаляє всі значення з колекції
 
--   [« Ds\\Map::capacity](ds-map.capacity.html)
+-   [« DsMap::capacity](ds-map.capacity.html)
     
--   [Ds\\Map::\_\_construct »](ds-map.construct.html)
+-   [ДсMap::construct »](ds-map.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Обробник зміни
 
--   [« UI\\Controls\\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.html)
+-   [« UIControlsMultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.html)
     
--   [UI\\Controls\\MultilineEntry::setReadOnly »](ui-controls-multilineentry.setreadonly.html)
+-   [ОЙControlsMultilineEntry::setReadOnly »](ui-controls-multilineentry.setreadonly.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html)
+-   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     
 -   Обробник зміни
     

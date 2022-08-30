@@ -1,8 +1,8 @@
 Зберегти частину тіла повідомлення у файл
 
--   [« imap\_rfc822\_write\_address](function.imap-rfc822-write-address.html)
+-   [« imaprfc822writeaddress](function.imap-rfc822-write-address.html)
     
--   [imap\_scan »](function.imap-scan.html)
+-   [imapscan »](function.imap-scan.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file, 
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `file`
 
@@ -57,10 +57,10 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file, 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_fetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
+-   [imapfetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення

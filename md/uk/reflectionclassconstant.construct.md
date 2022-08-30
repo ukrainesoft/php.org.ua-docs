@@ -39,4 +39,4 @@ public **ReflectionClassConstant::construct**(object | string `$class`, string `
 
 ### Дивіться також
 
--   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

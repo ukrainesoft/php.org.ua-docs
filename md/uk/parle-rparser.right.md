@@ -1,12 +1,12 @@
 Оголошує токен із правою асоціативністю
 
--   [« Parle\\RParser::reset](parle-rparser.reset.html)
+-   [« ParleRParser::reset](parle-rparser.reset.html)
     
--   [Parle\\RParser::sigil »](parle-rparser.sigil.html)
+-   [ParleRParser::sigil »](parle-rparser.sigil.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Оголошує токен із правою асоціативністю
     

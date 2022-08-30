@@ -1,8 +1,8 @@
 Повертає пару за індексом позиції
 
--   [« Ds\\Map::reversed](ds-map.reversed.html)
+-   [« DsMap::reversed](ds-map.reversed.html)
     
--   [Ds\\Map::slice »](ds-map.slice.html)
+-   [ДсMap::slice »](ds-map.slice.html)
     
 -   [PHP Manual](index.html)
     

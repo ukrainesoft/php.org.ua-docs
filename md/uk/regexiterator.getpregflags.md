@@ -23,7 +23,7 @@ RegexIterator::getPregFlags — Повертає прапори регулярн
 public RegexIterator::getPregFlags(): int
 ```
 
-Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::\_\_construct()](regexiterator.construct.html)
+Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.html)
 
 ### Список параметрів
 

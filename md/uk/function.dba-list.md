@@ -1,12 +1,12 @@
 Список усіх відкритих файлів бази даних
 
--   [« dba\_key\_split](function.dba-key-split.html)
+-   [« dbakeysplit](function.dba-key-split.html)
     
--   [dba\_nextkey »](function.dba-nextkey.html)
+-   [dbanextkey »](function.dba-nextkey.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Список усіх відкритих файлів бази даних
     

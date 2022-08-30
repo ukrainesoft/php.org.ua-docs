@@ -1,8 +1,8 @@
 Змінні оточення
 
--   [« $\_SESSION](reserved.variables.session.html)
+-   [SESSION](reserved.variables.session.html)
     
--   [$\_COOKIE »](reserved.variables.cookies.html)
+-   [COOKIE »](reserved.variables.cookies.html)
     
 -   [PHP Manual](index.html)
     
@@ -52,4 +52,4 @@ echo 'Моё имя пользователя: ' .$_ENV["USER"] . '!';
 ### Дивіться також
 
 -   [getenv()](function.getenv.html) - набуття значення змінної оточення
--   [Фильтрация данных](book.filter.html)
+-   [Фільтрування даних](book.filter.html)

@@ -1,12 +1,12 @@
 Перевіряє, чи був оголошений клас
 
--   [« class\_alias](function.class-alias.html)
+-   [« classalias](function.class-alias.html)
     
--   [enum\_exists »](function.enum-exists.html)
+-   [enumexists »](function.enum-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи був оголошений клас
     
@@ -33,7 +33,7 @@ class_exists(string $class, bool $autoload = true): bool
 
 `autoload`
 
-Чи викликати за замовчуванням [\_\_autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
 
 ### Значення, що повертаються
 
@@ -75,7 +75,7 @@ if (class_exists(MyClass::class)) {
 
 ### Дивіться також
 
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [enum\_exists()](function.enum-exists.html) - Перевіряє, чи визначено перерахування
--   [interface\_exists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [get\_declared\_classes()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [enumexists()](function.enum-exists.html) - Перевіряє, чи визначено перерахування
+-   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
+-   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів

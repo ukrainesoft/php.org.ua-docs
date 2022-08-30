@@ -1,8 +1,8 @@
 Псевдонім DateTime::getTimezone
 
--   [« date\_timestamp\_set](function.date-timestamp-set.html)
+-   [« datetimestampset](function.date-timestamp-set.html)
     
--   [date\_timezone\_set »](function.date-timezone-set.html)
+-   [datetimezoneset »](function.date-timezone-set.html)
     
 -   [PHP Manual](index.html)
     

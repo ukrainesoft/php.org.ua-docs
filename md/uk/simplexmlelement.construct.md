@@ -24,7 +24,7 @@ string `$data`
 int `$options`  
 bool `$dataIsURL` **`false`**  
 string `$namespaceOrPrefix` = "",  
-bool `$isPrefix` **`false`**  
+bool `$isPrefix` **`false`**
 
 Створює новий об'єкт [SimpleXMLElement](class.simplexmlelement.html)
 
@@ -52,7 +52,7 @@ bool `$isPrefix` **`false`**
 
 `isPrefix`
 
-**`true`**, якщо `namespaceOrPrefix` є префіксом, **`false`**якщо це URI; за замовчуванням **`false`**
+**`true`**, якщо `namespaceOrPrefix` є префіксом, \*\*`false`\*\*якщо це URI; за замовчуванням **`false`**
 
 ### Помилки
 
@@ -60,7 +60,7 @@ bool `$isPrefix` **`false`**
 
 **Підказка**
 
-Використовуйте [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.html) для придушення всіх XML-помилок та [libxml\_get\_errors()](function.libxml-get-errors.html) для їхньої ітерації за ними.
+Використовуйте [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) для придушення всіх XML-помилок та [libxmlgeterrors()](function.libxml-get-errors.html) для їхньої ітерації за ними.
 
 ### Приклади
 
@@ -101,8 +101,8 @@ echo $sxe->asXML();
 ### Дивіться також
 
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)
--   [simplexml\_load\_string()](function.simplexml-load-string.html) - Інтерпретує рядок з XML в об'єкт
--   [simplexml\_load\_file()](function.simplexml-load-file.html) - Інтерпретує файл XML в об'єкт
--   [Работа с ошибками XML](simplexml.examples-errors.html)
--   [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
--   [libxml\_set\_streams\_context()](function.libxml-set-streams-context.html) - Встановлення контексту потоків для наступного завантаження чи запису документа за допомогою libxml
+-   [simplexmlloadstring()](function.simplexml-load-string.html) - Інтерпретує рядок з XML в об'єкт
+-   [simplexmlloadfile()](function.simplexml-load-file.html) - Інтерпретує файл XML в об'єкт
+-   [Робота з помилками XML](simplexml.examples-errors.html)
+-   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [libxmlsetstreamscontext()](function.libxml-set-streams-context.html) - Встановлення контексту потоків для наступного завантаження чи запису документа за допомогою libxml

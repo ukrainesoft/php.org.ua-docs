@@ -1,12 +1,12 @@
 Визначає, чи є масив значень уявленням помилки XMLRPC
 
--   [« xmlrpc\_get\_type](function.xmlrpc-get-type.html)
+-   [« xmlrpcgettype](function.xmlrpc-get-type.html)
     
--   [xmlrpc\_parse\_method\_descriptions »](function.xmlrpc-parse-method-descriptions.html)
+-   [xmlrpcparsemethoddescriptions »](function.xmlrpc-parse-method-descriptions.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Визначає, чи є масив значень уявленням помилки XMLRPC
     
@@ -31,7 +31,7 @@ xmlrpc_is_fault(array $arg): bool
 
 `arg`
 
-Масив, що повертається [xmlrpc\_decode()](function.xmlrpc-decode.html)
+Масив, що повертається [xmlrpcdecode()](function.xmlrpc-decode.html)
 
 ### Значення, що повертаються
 
@@ -39,8 +39,8 @@ xmlrpc_is_fault(array $arg): bool
 
 ### Приклади
 
-Дивіться приклад [xmlrpc\_encode\_request()](function.xmlrpc-encode-request.html)
+Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.html)
 
 ### Дивіться також
 
--   [xmlrpc\_decode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP
+-   [xmlrpcdecode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP

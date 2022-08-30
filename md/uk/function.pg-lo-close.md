@@ -1,8 +1,8 @@
 Закриває великий об'єкт
 
--   [« pg\_last\_oid](function.pg-last-oid.html)
+-   [« pglastoid](function.pg-last-oid.html)
     
--   [pg\_lo\_create »](function.pg-lo-create.html)
+-   [пглоcreate »](function.pg-lo-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 `lob`
 
-Ан [PgSql\\Lob](class.pgsql-lob.html) instance, returned by [pg\_lo\_open()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
 
 ### Значення, що повертаються
 
@@ -43,9 +43,9 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                  |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -67,6 +67,6 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 ### Дивіться також
 
--   [pg\_lo\_open()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
--   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт
--   [pg\_lo\_import()](function.pg-lo-import.html) - Імпорт великого об'єкта з файлу
+-   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
+-   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [пглоimport()](function.pg-lo-import.html) - Імпорт великого об'єкта з файлу

@@ -1,6 +1,6 @@
 Створює нове слабке посилання
 
--   [« WeakReference::\_\_construct](weakreference.construct.html)
+-   [« WeakReference::construct](weakreference.construct.html)
     
 -   [WeakReference::get »](weakreference.get.html)
     

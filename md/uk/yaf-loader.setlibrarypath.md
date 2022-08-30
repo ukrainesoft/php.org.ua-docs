@@ -1,12 +1,12 @@
 Змінює шлях до бібліотеки
 
--   [« Yaf\_Loader::registerNamespace](yaf-loader.registernamespace.html)
+-   [« YafLoader::registerNamespace](yaf-loader.registernamespace.html)
     
--   [Yaf\_Plugin\_Abstract »](class.yaf-plugin-abstract.html)
+-   [YafPluginAbstract »](class.yaf-plugin-abstract.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Змінює шлях до бібліотеки
     

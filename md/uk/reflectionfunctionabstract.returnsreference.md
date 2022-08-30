@@ -2,7 +2,7 @@
 
 -   [« ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.html)
     
--   [ReflectionFunctionAbstract::\_\_toString »](reflectionfunctionabstract.tostring.html)
+-   [ReflectionFunctionAbstract::toString »](reflectionfunctionabstract.tostring.html)
     
 -   [PHP Manual](index.html)
     

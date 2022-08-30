@@ -1,8 +1,8 @@
 Вечірня дожі-зірка
 
--   [« trader\_cdlengulfing](function.trader-cdlengulfing.html)
+-   [« tradercdlengulfing](function.trader-cdlengulfing.html)
     
--   [trader\_cdleveningstar »](function.trader-cdleveningstar.html)
+-   [tradercdleveningstar »](function.trader-cdleveningstar.html)
     
 -   [PHP Manual](index.html)
     

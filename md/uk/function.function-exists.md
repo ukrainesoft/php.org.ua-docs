@@ -1,8 +1,8 @@
 Повертає true, якщо вказана функція визначена
 
--   [« func\_num\_args](function.func-num-args.html)
+-   [« funcnumargs](function.func-num-args.html)
     
--   [get\_defined\_functions »](function.get-defined-functions.html)
+-   [getdefinedfunctions »](function.get-defined-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-functionexists - Повертає **`true`**якщо зазначена функція визначена
+functionexists - Повертає \*\*`true`\*\*якщо зазначена функція визначена
 
 ### Опис
 
@@ -37,7 +37,7 @@ function_exists(string $function): bool
 
 > **Зауваження**
 > 
-> Ця функція повертає **`false`** для мовних конструкцій, таких як [include\_once](function.include-once.html) або [echo](function.echo.html)
+> Ця функція повертає **`false`** для мовних конструкцій, таких як [includeonce](function.include-once.html) або [echo](function.echo.html)
 
 ### Приклади
 
@@ -61,8 +61,8 @@ if (function_exists('imap_open')) {
 
 ### Дивіться також
 
--   [method\_exists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
--   [is\_callable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [get\_defined\_functions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [class\_exists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [extension\_loaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
+-   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
+-   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль

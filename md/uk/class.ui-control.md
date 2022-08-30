@@ -1,12 +1,12 @@
 Елемент управління
 
--   [« UI\\Window::setTitle](ui-window.settitle.html)
+-   [« UIWindow::setTitle](ui-window.settitle.html)
     
--   [UI\\Control::destroy »](ui-control.destroy.html)
+-   [ОЙControl::destroy »](ui-control.destroy.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент управління
     
@@ -51,13 +51,13 @@ public show()
 
 ## Зміст
 
--   [UI\\Control::destroy](ui-control.destroy.html) — Знищити керуючий елемент
--   [UI\\Control::disable](ui-control.disable.html) — Вимкнути керуючий елемент
--   [UI\\Control::enable](ui-control.enable.html) — Включити елемент керування
--   [UI\\Control::getParent](ui-control.getparent.html) — Отримати батьківський керуючий елемент
--   [UI\\Control::getTopLevel](ui-control.gettoplevel.html) — Здобути верхній рівень
--   [UI\\Control::hide](ui-control.hide.html) — Приховати елемент керування
--   [UI\\Control::isEnabled](ui-control.isenabled.html) — Визначити, чи включений елемент керування
--   [UI\\Control::isVisible](ui-control.isvisible.html) — Визначити, чи видимий елемент керування
--   [UI\\Control::setParent](ui-control.setparent.html) — Встановити батьківський елемент управління
--   [UI\\Control::show](ui-control.show.html) - Показати керуючий елемент
+-   [ОЙControl::destroy](ui-control.destroy.html) — Знищити керуючий елемент
+-   [ОЙControl::disable](ui-control.disable.html) — Вимкнути керуючий елемент
+-   [ОЙControl::enable](ui-control.enable.html) — Включити елемент керування
+-   [ОЙControl::getParent](ui-control.getparent.html) — Отримати батьківський керуючий елемент
+-   [ОЙControl::getTopLevel](ui-control.gettoplevel.html) — Здобути верхній рівень
+-   [ОЙControl::hide](ui-control.hide.html) — Приховати елемент керування
+-   [ОЙControl::isEnabled](ui-control.isenabled.html) — Визначити, чи включений елемент керування
+-   [ОЙControl::isVisible](ui-control.isvisible.html) — Визначити, чи видимий елемент керування
+-   [ОЙControl::setParent](ui-control.setparent.html) — Встановити батьківський елемент управління
+-   [ОЙControl::show](ui-control.show.html) - Показати керуючий елемент

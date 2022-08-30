@@ -1,12 +1,12 @@
 Повертає поточний стан збирача циклічних посилань
 
--   [« gc\_enable](function.gc-enable.html)
+-   [« gcenable](function.gc-enable.html)
     
--   [gc\_mem\_caches »](function.gc-mem-caches.html)
+-   [гкmemcaches »](function.gc-mem-caches.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає поточний стан збирача циклічних посилань
     

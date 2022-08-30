@@ -1,8 +1,8 @@
 Змінює користувача у безпечній базі даних
 
--   [« ibase\_maintain\_db](function.ibase-maintain-db.html)
+-   [« ibasemaintainдб](function.ibase-maintain-db.html)
     
--   [ibase\_name\_result »](function.ibase-name-result.html)
+-   [ibasenameresult »](function.ibase-name-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,5 +55,5 @@ ibase_modify_user(    resource $service_handle,    string $user_name, �
 
 ### Дивіться також
 
--   [ibase\_add\_user()](function.ibase-add-user.html) - Додає користувача до безпечної бази даних
--   [ibase\_delete\_user()](function.ibase-delete-user.html) - Видаляє користувача з безпечної бази даних
+-   [ibaseadduser()](function.ibase-add-user.html) - Додає користувача до безпечної бази даних
+-   [ibasedeleteuser()](function.ibase-delete-user.html) - Видаляє користувача з безпечної бази даних

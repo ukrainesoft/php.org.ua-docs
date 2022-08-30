@@ -1,12 +1,12 @@
 Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
 
--   [« sqlsrv\_rollback](function.sqlsrv-rollback.html)
+-   [« sqlsrvrollback](function.sqlsrv-rollback.html)
     
--   [sqlsrv\_send\_stream\_data »](function.sqlsrv-send-stream-data.html)
+-   [sqlsrvsendstreamdata »](function.sqlsrv-send-stream-data.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
     
@@ -23,7 +23,7 @@ sqlsrvrowsaffected — Повертає кількість рядків, змі�
 sqlsrv_rows_affected(resource $stmt): int|false
 ```
 
-Повертає кількість рядків, змінених останнім запитом INSERT, UPDATE або DELETE. Для отримання інформації про кількість рядків, які повертаються запитом SELECT, дивіться [sqlsrv\_num\_rows()](function.sqlsrv-num-rows.html)
+Повертає кількість рядків, змінених останнім запитом INSERT, UPDATE або DELETE. Для отримання інформації про кількість рядків, які повертаються запитом SELECT, дивіться [sqlsrvnumrows()](function.sqlsrv-num-rows.html)
 
 ### Список параметрів
 
@@ -67,4 +67,4 @@ if( $rows_affected === false) {
 
 ### Дивіться також
 
--   [sqlsrv\_num\_rows()](function.sqlsrv-num-rows.html) - Отримує кількість рядків у наборі результатів
+-   [sqlsrvnumrows()](function.sqlsrv-num-rows.html) - Отримує кількість рядків у наборі результатів

@@ -1,8 +1,8 @@
 Автоматичне вилучення або створення запису в кеші
 
--   [« apcu\_enabled](function.apcu-enabled.html)
+-   [« apcuenabled](function.apcu-enabled.html)
     
--   [apcu\_exists »](function.apcu-exists.html)
+-   [apcuexists »](function.apcu-exists.html)
     
 -   [PHP Manual](index.html)
     
@@ -102,6 +102,6 @@ array(2) {
 
 ### Дивіться також
 
--   [apcu\_store()](function.apcu-store.html) - Кешує змінну
--   [apcu\_fetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcu\_delete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcustore()](function.apcu-store.html) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу

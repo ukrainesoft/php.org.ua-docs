@@ -1,12 +1,12 @@
 Видаляє вузол градієнта
 
--   [« UI\\Draw\\Brush\\Gradient::addStop](ui-draw-brush-gradient.addstop.html)
+-   [« UIDrawBrushGradient::addStop](ui-draw-brush-gradient.addstop.html)
     
--   [UI\\Draw\\Brush\\Gradient::setStop »](ui-draw-brush-gradient.setstop.html)
+-   [ОЙDrawBrushGradient::setStop »](ui-draw-brush-gradient.setstop.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush\\Gradient](class.ui-draw-brush-gradient.html)
+-   [ОЙDrawBrushGradient](class.ui-draw-brush-gradient.html)
     
 -   Видаляє вузол градієнта
     

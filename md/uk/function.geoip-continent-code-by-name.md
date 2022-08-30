@@ -1,8 +1,8 @@
 Отримати двосимвольний код континенту
 
--   [« geoip\_asnum\_by\_name](function.geoip-asnum-by-name.html)
+-   [« geoipasnumбname](function.geoip-asnum-by-name.html)
     
--   [geoip\_country\_code\_by\_name »](function.geoip-country-code-by-name.html)
+-   [geoipcountrycodeбname »](function.geoip-country-code-by-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,4 +70,4 @@ if ($continent) {
 
 ### Дивіться також
 
--   [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.html) - Отримати двосимвольний код країни
+-   [geoipcountrycodeбname()](function.geoip-country-code-by-name.html) - Отримати двосимвольний код країни

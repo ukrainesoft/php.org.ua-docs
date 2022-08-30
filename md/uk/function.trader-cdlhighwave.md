@@ -1,8 +1,8 @@
 Свічкова модель "Висока хвиля"
 
--   [« trader\_cdlharamicross](function.trader-cdlharamicross.html)
+-   [« tradercdlharamicross](function.trader-cdlharamicross.html)
     
--   [trader\_cdlhikkake »](function.trader-cdlhikkake.html)
+-   [tradercdlhikkake »](function.trader-cdlhikkake.html)
     
 -   [PHP Manual](index.html)
     

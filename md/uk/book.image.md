@@ -1,6 +1,6 @@
 Обробка зображень та GD
 
--   [« read\_exif\_data](function.read-exif-data.html)
+-   [« readexifdata](function.read-exif-data.html)
     
 -   [Введение »](intro.image.html)
     
@@ -21,15 +21,15 @@
     -   [Типы ресурсов](image.resources.html)
 -   [Предопределённые константы](image.constants.html)
 -   [Примеры](image.examples.html)
-    -   [Создание PNG средствами PHP](image.examples-png.html)
+    -   [Створення PNG засобами PHP](image.examples-png.html)
     -   [Добавление водяных знаков на изображения с помощью альфа-каналов](image.examples-watermark.html)
-    -   [Использование imagecopymerge создать полупрозрачный водяной знак](image.examples.merged-watermark.html)
--   [Функции GD и функции для работы с изображениями](ref.image.html)
-    -   [gd\_info](function.gd-info.html) — Виведення інформації про поточну встановлену GD бібліотеку
+    -   [Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.html)
+    -   [гдinfo](function.gd-info.html) — Виведення інформації про поточну встановлену GD бібліотеку
     -   [getimagesize](function.getimagesize.html) — Отримання розміру зображення
     -   [getimagesizefromstring](function.getimagesizefromstring.html) — Отримання розміру зображення з рядка даних
-    -   [image\_type\_to\_extension](function.image-type-to-extension.html) — Розширення файлу для типу зображення
-    -   [image\_type\_to\_mime\_type](function.image-type-to-mime-type.html) — Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+    -   [imagetypeтоextension](function.image-type-to-extension.html) — Розширення файлу для типу зображення
+    -   [imagetypeтоmimetype](function.image-type-to-mime-type.html) — Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
     -   [image2wbmp](function.image2wbmp.html) — Виводить зображення до браузера або пише у файл
     -   [imageaffine](function.imageaffine.html) — Повернути зображення, яке містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
     -   [imageaffinematrixconcat](function.imageaffinematrixconcat.html) — Конкатенує дві афінні матриці перетворення

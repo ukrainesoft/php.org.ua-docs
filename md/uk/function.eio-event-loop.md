@@ -1,8 +1,8 @@
 Взаємодіє з libeio, поки всі запити не будуть виконані
 
--   [« eio\_dup2](function.eio-dup2.html)
+-   [« eiodup2](function.eio-dup2.html)
     
--   [eio\_fallocate »](function.eio-fallocate.html)
+-   [eiofallocate »](function.eio-fallocate.html)
     
 -   [PHP Manual](index.html)
     
@@ -66,4 +66,4 @@ eio_chmod_ok
 
 ### Дивіться також
 
--   [eio\_poll()](function.eio-poll.html) - Може бути викликана коли є запити, що очікують на виконання
+-   [eiopoll()](function.eio-poll.html) - Може бути викликана коли є запити, що очікують на виконання

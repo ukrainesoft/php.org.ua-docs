@@ -1,12 +1,12 @@
 Скасовує визначення константи
 
--   [« uopz\_set\_static](function.uopz-set-static.html)
+-   [« uopzsetstatic](function.uopz-set-static.html)
     
--   [uopz\_unset\_hook »](function.uopz-unset-hook.html)
+-   [uopzunsethook »](function.uopz-unset-hook.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Скасовує визначення константи
     

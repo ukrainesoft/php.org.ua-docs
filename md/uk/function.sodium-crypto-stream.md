@@ -1,8 +1,8 @@
 Створює детерміновану послідовність байтів із початкового числа.
 
--   [« sodium\_crypto\_stream\_xor](function.sodium-crypto-stream-xor.html)
+-   [« sodiumcryptostreamxor](function.sodium-crypto-stream-xor.html)
     
--   [sodium\_hex2bin »](function.sodium-hex2bin.html)
+-   [sodiumhex2bin »](function.sodium-hex2bin.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ sodium_crypto_stream(int $length, string $nonce, string $key): string
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key`
 

@@ -1,12 +1,12 @@
 Вибирає ключ із масиву
 
--   [« key\_exists](function.key-exists.html)
+-   [« keyexists](function.key-exists.html)
     
 -   [krsort »](function.krsort.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Вибирає ключ із масиву
     
@@ -37,9 +37,9 @@ key(array|object $array): int|string|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [get\_mangled\_object\_vars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.html) |
+| Версия | Описание                                                                                                                                                                                                                                     |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.html) |
 
 ### Приклади
 
@@ -77,5 +77,5 @@ fruit5
 
 -   [current()](function.current.html) - Повертає поточний елемент масиву
 -   [next()](function.next.html) - Переміщує покажчик масиву вперед на один елемент
--   [array\_key\_first()](function.array-key-first.html) - Отримує перший ключ масиву
+-   [arraykeyfirst()](function.array-key-first.html) - Отримує перший ключ масиву
 -   [foreach](control-structures.foreach.html)

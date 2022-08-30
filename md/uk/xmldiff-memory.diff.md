@@ -1,12 +1,12 @@
 Порівняння двох документів XML
 
--   [« XMLDiff\\Memory](class.xmldiff-memory.html)
+-   [« XMLDiffMemory](class.xmldiff-memory.html)
     
--   [XMLDiff\\Memory::merge »](xmldiff-memory.merge.html)
+-   [XMLDiffMemory::merge »](xmldiff-memory.merge.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\Memory](class.xmldiff-memory.html)
+-   [XMLDiffMemory](class.xmldiff-memory.html)
     
 -   Порівняння двох документів XML
     

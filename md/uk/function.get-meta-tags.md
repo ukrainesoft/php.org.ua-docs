@@ -1,12 +1,12 @@
 Витягує вміст усіх метатегів із файлу та повертає масив.
 
--   [« get\_headers](function.get-headers.html)
+-   [« getheaders](function.get-headers.html)
     
--   [http\_build\_query »](function.http-build-query.html)
+-   [httpbuildquery »](function.http-build-query.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   Витягує вміст усіх метатегів із файлу та повертає масив.
     
@@ -33,11 +33,9 @@ get_meta_tags(string $filename, bool $use_include_path = false): array|false
 
 **Приклад #1 Що обробляє функція **getmetatags()****
 
-   
-
 `use_include_path`
 
-Якщо `use_include_path` дорівнює **`true`**, PHP буде шукати файл, використовуючи стандартні шляхи пошуку з директиви php.ini [include\_path](ini.core.html#ini.include-path). Це актуально лише для локальних файлів, але не URL.
+Якщо `use_include_path` дорівнює **`true`**, PHP буде шукати файл, використовуючи стандартні шляхи пошуку з директиви php.ini [includepath](ini.core.html#ini.include-path). Це актуально лише для локальних файлів, але не URL.
 
 ### Значення, що повертаються
 

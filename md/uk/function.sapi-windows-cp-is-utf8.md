@@ -1,12 +1,12 @@
 Вказує, чи кодова сторінка сумісна з UTF-8
 
--   [« sapi\_windows\_cp\_get](function.sapi-windows-cp-get.html)
+-   [« sapiwindowsспget](function.sapi-windows-cp-get.html)
     
--   [sapi\_windows\_cp\_set »](function.sapi-windows-cp-set.html)
+-   [sapiwindowsспset »](function.sapi-windows-cp-set.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Вказує, чи кодова сторінка сумісна з UTF-8
     
@@ -35,4 +35,4 @@ sapi_windows_cp_is_utf8(): bool
 
 ### Дивіться також
 
--   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку

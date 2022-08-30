@@ -1,12 +1,12 @@
 Налаштування курсивного шрифту
 
--   [« UI\\Draw\\Text\\Font\\Weight](class.ui-draw-text-font-weight.html)
+-   [« UIDrawTextFontWeight](class.ui-draw-text-font-weight.html)
     
--   [UI\\Draw\\Text\\Font\\Stretch »](class.ui-draw-text-font-stretch.html)
+-   [ОЙDrawTextFontStretch »](class.ui-draw-text-font-stretch.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Налаштування курсивного шрифту
     

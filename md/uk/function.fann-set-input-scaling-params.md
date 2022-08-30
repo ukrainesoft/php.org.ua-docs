@@ -1,8 +1,8 @@
 Розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
 
--   [« fann\_set\_error\_log](function.fann-set-error-log.html)
+-   [« fannseterrorlog](function.fann-set-error-log.html)
     
--   [fann\_set\_learning\_momentum »](function.fann-set-learning-momentum.html)
+-   [fannsetlearningmomentum »](function.fann-set-learning-momentum.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,4 +49,4 @@ fann_set_input_scaling_params(    resource $ann,    resource $train_data
 
 ### Дивіться також
 
--   [fann\_set\_output\_scaling\_params()](function.fann-set-output-scaling-params.html) - розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fannsetoutputscalingparams()](function.fann-set-output-scaling-params.html) - розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання

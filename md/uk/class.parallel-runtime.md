@@ -1,8 +1,8 @@
 Клас parallelRuntime
 
--   [« parallel\\run](parallel.run.html)
+-   [« parallelrun](parallel.run.html)
     
--   [parallel\\Runtime::\_\_construct »](parallel-runtime.construct.html)
+-   [parallelRuntime::construct »](parallel-runtime.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -63,7 +63,7 @@ public kill(): void
 
 ## Зміст
 
--   [parallel\\Runtime::\_\_construct](parallel-runtime.construct.html) - Конструктор класу Runtime
--   [parallel\\Runtime::run](parallel-runtime.run.html) - Виконання
--   [parallel\\Runtime::close](parallel-runtime.close.html) — Витончене з'єднання під час виконання
--   [parallel\\Runtime::kill](parallel-runtime.kill.html) — З'єднання під час виконання
+-   [parallelRuntime::construct](parallel-runtime.construct.html) - Конструктор класу Runtime
+-   [parallelRuntime::run](parallel-runtime.run.html) - Виконання
+-   [parallelRuntime::close](parallel-runtime.close.html) — Витончене з'єднання під час виконання
+-   [parallelRuntime::kill](parallel-runtime.kill.html) — З'єднання під час виконання

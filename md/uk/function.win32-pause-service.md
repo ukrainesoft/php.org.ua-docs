@@ -1,8 +1,8 @@
 Припиняє службу
 
--   [« win32\_get\_last\_control\_message](function.win32-get-last-control-message.html)
+-   [« win32getlastcontrolmessage](function.win32-get-last-control-message.html)
     
--   [win32\_query\_service\_status »](function.win32-query-service-status.html)
+-   [win32queryservicestatus »](function.win32-query-service-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,8 +58,8 @@ win32_pause_service(string $servicename, string $machine = ?): void
 
 ### Дивіться також
 
--   [win32\_start\_service()](function.win32-start-service.html) - Запускає службу
--   [win32\_stop\_service()](function.win32-stop-service.html) - зупиняє службу
--   [win32\_continue\_service()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
--   [win32\_send\_custom\_control()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
+-   [win32startservice()](function.win32-start-service.html) - Запускає службу
+-   [win32stopservice()](function.win32-stop-service.html) - зупиняє службу
+-   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
+-   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
 -   [Коды ошибок Win32](win32service.constants.errors.html)

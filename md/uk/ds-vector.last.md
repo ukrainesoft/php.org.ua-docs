@@ -1,8 +1,8 @@
 Повертає останнє значення вектора
 
--   [« Ds\\Vector::jsonSerialize](ds-vector.jsonserialize.html)
+-   [« DsVector::jsonSerialize](ds-vector.jsonserialize.html)
     
--   [Ds\\Vector::map »](ds-vector.map.html)
+-   [ДсVector::map »](ds-vector.map.html)
     
 -   [PHP Manual](index.html)
     

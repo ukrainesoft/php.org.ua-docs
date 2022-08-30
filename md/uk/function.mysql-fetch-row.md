@@ -1,8 +1,8 @@
 Обробляє ряд результату запиту та повертає масив із числовими індексами
 
--   [« mysql\_fetch\_object](function.mysql-fetch-object.html)
+-   [« mysqlfetchobject](function.mysql-fetch-object.html)
     
--   [mysql\_field\_flags »](function.mysql-field-flags.html)
+-   [mysqlfieldflags »](function.mysql-field-flags.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlfetchrow — Обробляє ряд результату запиту та
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_row()](mysqli-result.fetch-row.html)
--   [PDOStatement::fetch(PDO::FETCH\_NUM)](pdostatement.fetch.html)
+-   [mysqlifetchrow()](mysqli-result.fetch-row.html)
+-   [PDOStatement::fetch(PDO::FETCHNUM)](pdostatement.fetch.html)
 
 ### Опис
 
@@ -36,11 +36,11 @@ mysql_fetch_row(resource $result): array
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 ### Значення, що повертаються
 
-Повертає масив рядків з числовими індексами, що містить дані обробленого ряду, або **`false`**якщо рядів не залишилося.
+Повертає масив рядків з числовими індексами, що містить дані обробленого ряду, або \*\*`false`\*\*якщо рядів не залишилося.
 
 **mysqlfetchrow()** обробляє один ряд результату, який посилається переданий покажчик. Ряд повертається як масиву. Кожна колонка розташовується в наступному осередку масиву, починаючи з нульового індексу
 
@@ -68,9 +68,9 @@ echo $row[1]; // email
 
 ### Дивіться також
 
--   [mysql\_fetch\_array()](function.mysql-fetch-array.html) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysql\_fetch\_object()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт
--   [mysql\_data\_seek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
--   [mysql\_fetch\_lengths()](function.mysql-fetch-lengths.html) - Повертає довжину кожного поля в результаті
--   [mysql\_result()](function.mysql-result.html) - Повертає дані результату запиту
+-   [mysqlfetcharray()](function.mysql-fetch-array.html) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlfetchobject()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт
+-   [mysqldataseek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysqlfetchlengths()](function.mysql-fetch-lengths.html) - Повертає довжину кожного поля в результаті
+-   [mysqlresult()](function.mysql-result.html) - Повертає дані результату запиту

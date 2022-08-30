@@ -23,7 +23,7 @@ FFI::sizeof — Повертає розмір даних або типу C
 public static FFI::sizeof(FFI\CData|FFI\CType &$ptr): int
 ```
 
-Повертає розмір об'єктів [FFI\\CData](class.ffi-cdata.html) або [FFI\\CType](class.ffi-ctype.html)
+Повертає розмір об'єктів [FFICData](class.ffi-cdata.html) або [FFICType](class.ffi-ctype.html)
 
 ### Список параметрів
 

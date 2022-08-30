@@ -1,12 +1,12 @@
 Оператори порівняння
 
--   [« Побитовые операторы](language.operators.bitwise.html)
+-   [« Побітові оператори](language.operators.bitwise.html)
     
 -   [Оператор управления ошибками »](language.operators.errorcontrol.html)
     
 -   [PHP Manual](index.html)
     
--   [Операторы](language.operators.html)
+-   [Оператори](language.operators.html)
     
 -   Оператори порівняння
     
@@ -30,7 +30,7 @@
 | $a >= $b  | Більше або дорівнює            | **`true`** якщо $a більше або дорівнює $b.                                                        |
 | $a <=> $b | Космічний корабель (spaceship) | Число типу int менше, більше або дорівнює нулю, коли $a відповідно менше, більше або дорівнює $b. |
 
-У випадку, якщо обидва операнда є [строками, содержащими числа](language.types.numeric-strings.html) або один операнд є числом, а інший - [строкой, содержащей числа](language.types.numeric-strings.html), то порівняння виконується чисельно. Ці правила також застосовуються до оператора [switch](control-structures.switch.html). Перетворення типу не відбувається при порівнянні `===` або `!==`оскільки це включає порівняння типу, а також значення.
+У випадку, якщо обидва операнда є [рядками, що містять числа](language.types.numeric-strings.html) або один операнд є числом, а інший - [рядком, що містить числа](language.types.numeric-strings.html), то порівняння виконується чисельно. Ці правила також застосовуються до оператора [switch](control-structures.switch.html). Перетворення типу не відбувається при порівнянні `===` або `!==`оскільки це включає порівняння типу, а також значення.
 
 **Увага**
 
@@ -193,7 +193,7 @@ function standard_array_compare($op1, $op2)
 
 -   [strcasecmp()](function.strcasecmp.html)
 -   [strcmp()](function.strcmp.html)
--   [Операторы, работающие с массивами](language.operators.array.html)
+-   [Оператори, що працюють із масивами](language.operators.array.html)
 -   [Типы](language.types.html)
 
 ### Тернарний оператор

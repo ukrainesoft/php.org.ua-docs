@@ -1,8 +1,8 @@
 Додає значення на початок вектора
 
--   [« Ds\\Vector::toArray](ds-vector.toarray.html)
+-   [« DsVector::toArray](ds-vector.toarray.html)
     
--   [Двухсторонняя очередь »](class.ds-deque.html)
+-   [Двостороння черга »](class.ds-deque.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 CustomBlock успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Link::\_\_construct](commonmark-node-link.construct.html)
+-   [« CommonMarkNodeLink::construct](commonmark-node-link.construct.html)
     
--   [CommonMark\\Node\\CustomInline »](class.commonmark-node-custominline.html)
+-   [CommonMarkNodeCustomInline »](class.commonmark-node-custominline.html)
     
 -   [PHP Manual](index.html)
     

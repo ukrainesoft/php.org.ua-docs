@@ -1,8 +1,8 @@
 Отримати список усіх підтримуваних алгоритмів шифрування
 
--   [« mcrypt\_get\_key\_size](function.mcrypt-get-key-size.html)
+-   [« mcryptgetkeysize](function.mcrypt-get-key-size.html)
     
--   [mcrypt\_list\_modes »](function.mcrypt-list-modes.html)
+-   [mcryptlistmodes »](function.mcrypt-list-modes.html)
     
 -   [PHP Manual](index.html)
     

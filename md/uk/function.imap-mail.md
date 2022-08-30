@@ -1,8 +1,8 @@
 Надіслати email
 
--   [« imap\_mail\_move](function.imap-mail-move.html)
+-   [« imapmailmove](function.imap-mail-move.html)
     
--   [imap\_mailboxmsginfo »](function.imap-mailboxmsginfo.html)
+-   [imapmailboxmsginfo »](function.imap-mailboxmsginfo.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ imap_mail(    string $to,    string $subject,    string $message, �
 
 `message`
 
-Тіло листа, дивіться [imap\_mail\_compose()](function.imap-mail-compose.html)
+Тіло листа, дивіться [imapmailcompose()](function.imap-mail-compose.html)
 
 `additional_headers`
 
@@ -68,4 +68,4 @@ imap_mail(    string $to,    string $subject,    string $message, �
 ### Дивіться також
 
 -   [mail()](function.mail.html) - Надсилає електронну пошту
--   [imap\_mail\_compose()](function.imap-mail-compose.html) - Створити MIME-повідомлення на основі заданих обгортки та тіла
+-   [imapmailcompose()](function.imap-mail-compose.html) - Створити MIME-повідомлення на основі заданих обгортки та тіла

@@ -143,7 +143,7 @@ nodeValue
 
 nodeType
 
-Повертає тип цього сайту. Одна з можливих [констант XML\_xxx\_NODE](dom.constants.html)
+Повертає тип цього сайту. Одна з можливих [констант XMLxxxNODE](dom.constants.html)
 
 парентНоді
 
@@ -179,11 +179,11 @@ ownerDocument
 
 namespaceURI
 
-URI простір імен цього вузла або **`null`**якщо він не вказаний.
+URI простір імен цього вузла або \*\*`null`\*\*якщо він не вказаний.
 
 prefix
 
-Префікс простору імен цього вузла або **`null`**якщо він не вказаний.
+Префікс простору імен цього вузла або \*\*`null`\*\*якщо він не вказаний.
 
 localName
 
@@ -191,7 +191,7 @@ localName
 
 baseURI
 
-Абсолютний базовий URI цього вузла або **`null`**якщо реалізація не змогла отримати абсолютний URI.
+Абсолютний базовий URI цього вузла або \*\*`null`\*\*якщо реалізація не змогла отримати абсолютний URI.
 
 textContent
 
@@ -207,7 +207,7 @@ textContent
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
 
 ## Дивіться також
 

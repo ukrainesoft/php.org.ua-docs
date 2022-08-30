@@ -25,7 +25,7 @@ Apple Banana Cherry
 
 Містить неправильне "select" вираз.
 
-http://www.w3.org/1999/XSL/Transform">
+[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform">)
 
 [xsl:apply-templates/](xsl:apply-templates/)
 

@@ -1,8 +1,8 @@
 Отримує об'єкт із бази даних InterBase
 
--   [« ibase\_fetch\_assoc](function.ibase-fetch-assoc.html)
+-   [« ibasefetchassoc](function.ibase-fetch-assoc.html)
     
--   [ibase\_fetch\_row »](function.ibase-fetch-row.html)
+-   [ibasefetchrow »](function.ibase-fetch-row.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 `result_id`
 
-Ідентифікатор результату InterBase, отриманий за допомогою [ibase\_query()](function.ibase-query.html) або [ibase\_execute()](function.ibase-execute.html)
+Ідентифікатор результату InterBase, отриманий за допомогою [ibasequery()](function.ibase-query.html) або [ibaseexecute()](function.ibase-execute.html)
 
 `fetch_flag`
 
@@ -39,7 +39,7 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 ### Значення, що повертаються
 
-Повертає об'єкт з інформацією про рядок або **`false`**якщо рядків більше немає.
+Повертає об'єкт з інформацією про рядок або \*\*`false`\*\*якщо рядків більше немає.
 
 ### Приклади
 
@@ -59,5 +59,5 @@ ibase_close($dbh);
 
 ### Дивіться також
 
--   [ibase\_fetch\_row()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
--   [ibase\_fetch\_assoc()](function.ibase-fetch-assoc.html) - Витягує рядок результату із запиту у вигляді асоціативного масиву
+-   [ibasefetchrow()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
+-   [ibasefetchassoc()](function.ibase-fetch-assoc.html) - Витягує рядок результату із запиту у вигляді асоціативного масиву

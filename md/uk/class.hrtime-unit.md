@@ -1,8 +1,8 @@
 Клас HRTimeUnit
 
--   [« HRTime\\StopWatch::stop](hrtime-stopwatch.stop.html)
+-   [« HRTimeStopWatch::stop](hrtime-stopwatch.stop.html)
     
--   [Модули для работы с файловой системой »](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
     
 -   [PHP Manual](index.html)
     

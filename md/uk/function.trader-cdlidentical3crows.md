@@ -1,8 +1,8 @@
 Свічкова модель "Три однакові ворони"
 
--   [« trader\_cdlhomingpigeon](function.trader-cdlhomingpigeon.html)
+-   [« tradercdlhomingpigeon](function.trader-cdlhomingpigeon.html)
     
--   [trader\_cdlinneck »](function.trader-cdlinneck.html)
+-   [tradercdlinneck »](function.trader-cdlinneck.html)
     
 -   [PHP Manual](index.html)
     

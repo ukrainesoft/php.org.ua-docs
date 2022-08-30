@@ -1,12 +1,12 @@
 Фіксований розмір блоку пам'яті
 
--   [« Swoole\\Buffer::clear](swoole-buffer.clear.html)
+-   [« SwooleBuffer::clear](swoole-buffer.clear.html)
     
--   [Swoole\\Buffer::\_\_destruct »](swoole-buffer.destruct.html)
+-   [SwooleBuffer::destruct »](swoole-buffer.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Фіксований розмір блоку пам'яті
     

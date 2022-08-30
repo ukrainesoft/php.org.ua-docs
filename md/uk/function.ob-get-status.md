@@ -1,12 +1,12 @@
 Отримати статус буфера виводу
 
--   [« ob\_get\_level](function.ob-get-level.html)
+-   [« obgetlevel](function.ob-get-level.html)
     
--   [ob\_gzhandler »](function.ob-gzhandler.html)
+-   [проgzhandler »](function.ob-gzhandler.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Отримати статус буфера виводу
     
@@ -29,7 +29,7 @@ ob_get_status(bool $full_status = false): array
 
 `full_status`
 
-Якщо **`true`**то поверне всі рівні активних буферів. Якщо **`false`** або не встановлений, то поверне статус лише найвищого рівня.
+Якщо \*\*`true`\*\*то поверне всі рівні активних буферів. Якщо **`false`** або не встановлений, то поверне статус лише найвищого рівня.
 
 ### Значення, що повертаються
 
@@ -45,7 +45,7 @@ Array ( level => 2 type => 0 status => 0 name => URL-Rewriter del => 1 )
 | type  | `PHP_OUTPUT_HANDLER_INTERNAL (0)` або `PHP_OUTPUT_HANDLER_USER (1)`          |
 | type  | `0` (внутрішній обробник) або `1` (наданий користувачем обробник)            |
 | name  | Назва діючого обробника виводу або 'default output handler', якщо не заданий |
-| del   | Прапор очищення, встановлений [ob\_start()](function.ob-start.html)          |
+| del   | Прапор очищення, встановлений [проstart()](function.ob-start.html)           |
 
 Якщо функція викликана з `full_status` **`true`**, Повертається масив з елементів рівнів активних буферів. Як ключ використовується рівень виведення, і кожен елемент масиву містить масив інформації про статус одного з активних елементів виведення.
 
@@ -82,13 +82,13 @@ Array
 
 **Повні результати **проgetstatus()****
 
-| Ключ      | Значение                                                          |
-|-----------|-------------------------------------------------------------------|
-| chunksize | Розмір порції, встановлений [ob\_start()](function.ob-start.html) |
-| size      |                                                                   |
-| blocksize |                                                                   |
+| Ключ      | Значение                                                         |
+|-----------|------------------------------------------------------------------|
+| chunksize | Розмір порції, встановлений [проstart()](function.ob-start.html) |
+| size      |                                                                  |
+| blocksize |                                                                  |
 
 ### Дивіться також
 
--   [ob\_get\_level()](function.ob-get-level.html) - Повертає рівень вкладеності механізму буферизації виводу
--   [ob\_list\_handlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [проgetlevel()](function.ob-get-level.html) - Повертає рівень вкладеності механізму буферизації виводу
+-   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу

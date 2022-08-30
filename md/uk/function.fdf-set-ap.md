@@ -1,8 +1,8 @@
 Встановлює зовнішній вигляд поля
 
--   [« fdf\_save](function.fdf-save.html)
+-   [« fdfsave](function.fdf-save.html)
     
--   [fdf\_set\_encoding »](function.fdf-set-encoding.html)
+-   [fdfsetencoding »](function.fdf-set-encoding.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_ap(    resource $fdf_document,    string $field_name,    int
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `field_name`
 

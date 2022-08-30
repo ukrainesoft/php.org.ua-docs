@@ -1,6 +1,6 @@
 Повертає поточну версію модуля Stomp
 
--   [« stomp\_connect\_error](function.stomp-connect-error.html)
+-   [« stompconnecterror](function.stomp-connect-error.html)
     
 -   [Stomp »](class.stomp.html)
     

@@ -50,7 +50,7 @@ public reset(): bool
 
 -   [SQLite3Result::columnName](sqlite3result.columnname.html) — >Повертає ім'я n-ого стовпця
 -   [SQLite3Result::columnType](sqlite3result.columntype.html) - Повертає тип n-ного стовпця
--   [SQLite3Result::\_\_construct](sqlite3result.construct.html) - Конструктор класу SQLite3Result
+-   [SQLite3Result::construct](sqlite3result.construct.html) - Конструктор класу SQLite3Result
 -   [SQLite3Result::fetchArray](sqlite3result.fetcharray.html) — Вибирає один рядок з результуючого набору і поміщає його в асоціативний або нумерований масив, або в обох відразу
 -   [SQLite3Result::finalize](sqlite3result.finalize.html) - Закриває результуючий набір
 -   [SQLite3Result::numColumns](sqlite3result.numcolumns.html) — Повертає кількість стовпців у результуючому наборі

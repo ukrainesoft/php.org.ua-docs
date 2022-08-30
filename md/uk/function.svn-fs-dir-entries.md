@@ -1,12 +1,12 @@
 Перераховує елементи директорії заданим шляхом; повертає хеш імен директорій та типів файлів
 
--   [« svn\_fs\_delete](function.svn-fs-delete.html)
+-   [« svnфсdelete](function.svn-fs-delete.html)
     
--   [svn\_fs\_file\_contents »](function.svn-fs-file-contents.html)
+-   [svnфсfilecontents »](function.svn-fs-file-contents.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Перераховує елементи директорії заданим шляхом; повертає хеш імен директорій та типів файлів
     

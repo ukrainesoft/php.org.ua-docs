@@ -2,7 +2,7 @@
 
 -   [« streamWrapper::unlink](streamwrapper.unlink.html)
     
--   [Функции для работы с потоками »](ref.stream.html)
+-   [Функції для роботи з потоками »](ref.stream.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,13 +35,13 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 -   [filemtime()](function.filemtime.html)
 -   [filectime()](function.filectime.html)
 -   [filetype()](function.filetype.html)
--   [is\_writable()](function.is-writable.html)
--   [is\_readable()](function.is-readable.html)
--   [is\_executable()](function.is-executable.html)
--   [is\_file()](function.is-file.html)
--   [is\_dir()](function.is-dir.html)
--   [is\_link()](function.is-link.html)
--   [file\_exists()](function.file-exists.html)
+-   [ісwritable()](function.is-writable.html)
+-   [ісreadable()](function.is-readable.html)
+-   [ісexecutable()](function.is-executable.html)
+-   [ісfile()](function.is-file.html)
+-   [ісdir()](function.is-dir.html)
+-   [ісlink()](function.is-link.html)
+-   [fileexists()](function.file-exists.html)
 -   [lstat()](function.lstat.html)
 -   [stat()](function.stat.html)
 -   [SplFileInfo::getPerms()](splfileinfo.getperms.html)
@@ -71,10 +71,10 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 
 Зберігає додаткові прапори, встановлені потоками API. Може зберігати одне або кілька нижченаведених значень, об'єднаних операцією АБО.
 
-| Флаг                | Описание                                                                                                                                                                                                                                                                                                                                                                                                               |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| STREAMURLСТАТИLINK  | Для ресурсів, які можуть посилатися на інші ресурси (наприклад, HTTP Location: forward, або символічні посилання файлової системи). Цей прапор вказує, що інформація, що повертається, відноситься до самого посилання, а не до ресурсу, на який вона вказує. Цей використовується під час виклику функцій [lstat()](function.lstat.html) [is\_link()](function.is-link.html) або [filetype()](function.filetype.html) |
-| STREAMURLСТАТИQUIET | Якщо прапорець встановлений, обгортка не повинна викликати жодних помилок. Якщо ні, можна викликати повідомлення про помилки за допомогою функції [trigger\_error()](function.trigger-error.html)                                                                                                                                                                                                                      |
+| Флаг                | Описание                                                                                                                                                                                                                                                                                                                                                                                                             |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| STREAMURLСТАТИLINK  | Для ресурсів, які можуть посилатися на інші ресурси (наприклад, HTTP Location: forward, або символічні посилання файлової системи). Цей прапор вказує, що інформація, що повертається, відноситься до самого посилання, а не до ресурсу, на який вона вказує. Цей використовується під час виклику функцій [lstat()](function.lstat.html) [ісlink()](function.is-link.html) або [filetype()](function.filetype.html) |
+| STREAMURLСТАТИQUIET | Якщо прапорець встановлений, обгортка не повинна викликати жодних помилок. Якщо ні, можна викликати повідомлення про помилки за допомогою функції [triggererror()](function.trigger-error.html)                                                                                                                                                                                                                      |
 
 ### Значення, що повертаються
 
@@ -93,4 +93,4 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 ### Дивіться також
 
 -   [stat()](function.stat.html) - Повертає інформацію про файл
--   [streamwrapper::stream\_stat()](streamwrapper.stream-stat.html) - Отримання інформації про файловий ресурс
+-   [streamwrapper::streamstat()](streamwrapper.stream-stat.html) - Отримання інформації про файловий ресурс

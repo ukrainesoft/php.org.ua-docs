@@ -1,12 +1,12 @@
 Обчислює найменше загальне кратне
 
--   [« gmp\_kronecker](function.gmp-kronecker.html)
+-   [« gmpkronecker](function.gmp-kronecker.html)
     
--   [gmp\_legendre »](function.gmp-legendre.html)
+-   [gmplegendre »](function.gmp-legendre.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислює найменше загальне кратне
     
@@ -41,4 +41,4 @@ gmp_lcm(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Дивіться також
 
--   [gmp\_gcd()](function.gmp-gcd.html) - Обчислення найбільшого спільного дільника
+-   [gmpgcd()](function.gmp-gcd.html) - Обчислення найбільшого спільного дільника

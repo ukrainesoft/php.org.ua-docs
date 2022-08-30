@@ -1,12 +1,12 @@
 Очистити всі зареєстровані дзвінки
 
--   [« Yar\_Concurrent\_Client::loop](yar-concurrent-client.loop.html)
+-   [« YarConcurrentClient::loop](yar-concurrent-client.loop.html)
     
--   [Yar\_Server\_Exception »](class.yar-server-exception.html)
+-   [YarServerException »](class.yar-server-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Concurrent\_Client](class.yar-concurrent-client.html)
+-   [YarConcurrentClient](class.yar-concurrent-client.html)
     
 -   Очистити всі зареєстровані дзвінки
     
@@ -37,7 +37,7 @@ public static Yar_Concurrent_Client::reset(): bool
 
 ### Дивіться також
 
--   [Yar\_Concurrent\_Client::call()](yar-concurrent-client.call.html) - Зареєструвати конкурентний виклик
--   [Yar\_Concurrent\_Client::loop()](yar-concurrent-client.loop.html) - Запуск усіх зареєстрованих викликів
--   [Yar\_Server::\_\_construct()](yar-server.construct.html) - Конструктор YarServer
--   [Yar\_Server::handle()](yar-server.handle.html) - Запустити сервер RPC
+-   [YarConcurrentClient::call()](yar-concurrent-client.call.html) - Зареєструвати конкурентний виклик
+-   [YarConcurrentClient::loop()](yar-concurrent-client.loop.html) - Запуск усіх зареєстрованих викликів
+-   [YarServer::construct()](yar-server.construct.html) - Конструктор YarServer
+-   [YarServer::handle()](yar-server.handle.html) - Запустити сервер RPC

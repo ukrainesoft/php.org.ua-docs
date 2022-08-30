@@ -1,12 +1,12 @@
 Згенерувати унікальний ID
 
--   [« time\_sleep\_until](function.time-sleep-until.html)
+-   [« timesleepuntil](function.time-sleep-until.html)
     
 -   [unpack »](function.unpack.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Згенерувати унікальний ID
     
@@ -27,7 +27,7 @@ uniqid(string $prefix = "", bool $more_entropy = false): string
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [random\_int()](function.random-int.html) [random\_bytes()](function.random-bytes.html) або [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
 
 **Увага**
 

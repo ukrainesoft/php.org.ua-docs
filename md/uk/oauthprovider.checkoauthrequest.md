@@ -2,7 +2,7 @@
 
 -   [« OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.html)
     
--   [OAuthProvider::\_\_construct »](oauthprovider.construct.html)
+-   [OAuthProvider::construct »](oauthprovider.construct.html)
     
 -   [PHP Manual](index.html)
     

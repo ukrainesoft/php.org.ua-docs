@@ -1,12 +1,12 @@
 Закриває файл bzip2
 
--   [« Функции Bzip2](ref.bzip2.html)
+-   [« Функції Bzip2](ref.bzip2.html)
     
 -   [bzcompress »](function.bzcompress.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.html)
     
 -   Закриває файл bzip2
     

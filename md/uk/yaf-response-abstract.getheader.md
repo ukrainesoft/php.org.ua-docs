@@ -1,12 +1,12 @@
 Призначення getHeader
 
--   [« Yaf\_Response\_Abstract::getBody](yaf-response-abstract.getbody.html)
+-   [« YafResponseAbstract::getBody](yaf-response-abstract.getbody.html)
     
--   [Yaf\_Response\_Abstract::prependBody »](yaf-response-abstract.prependbody.html)
+-   [YafResponseAbstract::prependBody »](yaf-response-abstract.prependbody.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Призначення getHeader
     
@@ -35,5 +35,5 @@ public Yaf_Response_Abstract::getHeader(): void
 
 ### Дивіться також
 
--   [Yaf\_Response\_Abstract::setHeader()](yaf-response-abstract.setheader.html) - Встановлює заголовок відповіді
+-   [YafResponseAbstract::setHeader()](yaf-response-abstract.setheader.html) - Встановлює заголовок відповіді
 -   **YafResponseAbstract::cleanHeaders()**

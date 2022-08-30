@@ -1,12 +1,12 @@
 Визначає, чи є запит OPTIONS-запитом
 
--   [« Yaf\_Request\_Abstract::isHead](yaf-request-abstract.ishead.html)
+-   [« YafRequestAbstract::isHead](yaf-request-abstract.ishead.html)
     
--   [Yaf\_Request\_Abstract::isPost »](yaf-request-abstract.ispost.html)
+-   [YafRequestAbstract::isPost »](yaf-request-abstract.ispost.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Визначає, чи є запит OPTIONS-запитом
     

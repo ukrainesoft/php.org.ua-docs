@@ -1,12 +1,12 @@
 Скласти клас
 
--   [« uopz\_backup](function.uopz-backup.html)
+-   [« uopzbackup](function.uopz-backup.html)
     
--   [uopz\_copy »](function.uopz-copy.html)
+-   [uopzcopy »](function.uopz-copy.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Скласти клас
     

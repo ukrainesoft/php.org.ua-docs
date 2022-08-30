@@ -1,12 +1,12 @@
 Реєструє обгортку URL, реалізовану у вигляді PHP-класу
 
--   [« stream\_supports\_lock](function.stream-supports-lock.html)
+-   [« streamsupportslock](function.stream-supports-lock.html)
     
--   [stream\_wrapper\_restore »](function.stream-wrapper-restore.html)
+-   [streamwrapperrestore »](function.stream-wrapper-restore.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Реєструє обгортку URL, реалізовану у вигляді PHP-класу
     
@@ -93,7 +93,7 @@ line3
 ### Дивіться також
 
 -   Клас-прототип [streamWrapper](class.streamwrapper.html)
--   [Пример класса, зарегистрированного в качестве обёртки потока](stream.streamwrapper.example-1.html)
--   [stream\_wrapper\_unregister()](function.stream-wrapper-unregister.html) - Скасує реєстрацію обгортки URL
--   [stream\_wrapper\_restore()](function.stream-wrapper-restore.html) - Відновлює скасовану раніше вбудовану обгортку
--   [stream\_get\_wrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків
+-   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
+-   [streamwrapperunregister()](function.stream-wrapper-unregister.html) - Скасує реєстрацію обгортки URL
+-   [streamwrapperrestore()](function.stream-wrapper-restore.html) - Відновлює скасовану раніше вбудовану обгортку
+-   [streamgetwrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків

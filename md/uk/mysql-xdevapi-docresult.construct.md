@@ -1,12 +1,12 @@
 Конструктор DocResult
 
--   [« mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.html)
+-   [« mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     
 -   [DocResult::fetchAll »](mysql-xdevapi-docresult.fetchall.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.html)
+-   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     
 -   Конструктор DocResult
     

@@ -1,8 +1,8 @@
 Отримати текстовий опис для коду помилки
 
--   [« curl\_share\_strerror](function.curl-share-strerror.html)
+-   [« curlsharestrerror](function.curl-share-strerror.html)
     
--   [curl\_unescape »](function.curl-unescape.html)
+-   [curlunescape »](function.curl-unescape.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ curl_strerror(int $error_code): ?string
 
 ### Значення, що повертаються
 
-Повертає опис помилки або **`null`**якщо такої помилки немає.
+Повертає опис помилки або \*\*`null`\*\*якщо такої помилки немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання [curl\_errno()](function.curl-errno.html)**
+**Приклад #1 Приклад використання [curlerrno()](function.curl-errno.html)**
 
 ```php
 <?php
@@ -67,6 +67,6 @@ cURL error (1):
 
 ### Дивіться також
 
--   [curl\_errno()](function.curl-errno.html) - Повертає код останньої помилки
--   [curl\_error()](function.curl-error.html) - Повертає рядок із описом останньої помилки поточного сеансу
+-   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
+-   [curlerror()](function.curl-error.html) - Повертає рядок із описом останньої помилки поточного сеансу
 -   [» Коды ошибок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

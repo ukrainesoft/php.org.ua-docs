@@ -2,11 +2,11 @@
 
 -   [« setcookie](function.setcookie.html)
     
--   [socket\_get\_status »](function.socket-get-status.html)
+-   [socketgetstatus »](function.socket-get-status.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Надсилає cookie без URL-кодування значення
     

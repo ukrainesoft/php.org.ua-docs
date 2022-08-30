@@ -2,7 +2,7 @@
 
 -   [« Примеры](v8js.examples.html)
     
--   [V8Js::\_\_construct »](v8js.construct.html)
+-   [V8Js::construct »](v8js.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,7 +19,7 @@
 
 Це основний клас модуля V8Js. Кожен екземпляр цього класу має власний контекст у якому буде скомпільовано та запущено JavaScript.
 
-Також дивіться [V8Js::\_\_construct()](v8js.construct.html)
+Також дивіться [V8Js::construct()](v8js.construct.html)
 
 ## Огляд класів
 
@@ -76,7 +76,7 @@ public static registerExtension(    string $extension_name,    string $s
 
 ## Зміст
 
--   [V8Js::\_\_construct](v8js.construct.html) - Створює новий об'єкт V8Js
+-   [V8Js::construct](v8js.construct.html) - Створює новий об'єкт V8Js
 -   [V8Js::executeString](v8js.executestring.html) — Виконати рядок як код Javascript
 -   [V8Js::getExtensions](v8js.getextensions.html) — Повертає масив зареєстрованих модулів
 -   [V8Js::getPendingException](v8js.getpendingexception.html) — Повертає очікуваний непойманий виняток Javascript

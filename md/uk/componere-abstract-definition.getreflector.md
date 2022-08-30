@@ -1,12 +1,12 @@
 Reflection
 
--   [« Componere\\Abstract\\Definition::addTrait](componere-abstract-definition.addtrait.html)
+-   [« ComponereAbstractDefinition::addTrait](componere-abstract-definition.addtrait.html)
     
--   [Componere\\Definition »](class.componere-definition.html)
+-   [ComponereDefinition »](class.componere-definition.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+-   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
     
 -   Reflection
     

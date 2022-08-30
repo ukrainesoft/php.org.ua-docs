@@ -1,8 +1,8 @@
 Визначає ім'я бази даних
 
--   [« pg\_copy\_to](function.pg-copy-to.html)
+-   [« pgcopyто](function.pg-copy-to.html)
     
--   [pg\_delete »](function.pg-delete.html)
+-   [пгdelete »](function.pg-delete.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_dbname(?PgSql\Connection $connection = null): string
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -41,10 +41,10 @@ pg_dbname(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 

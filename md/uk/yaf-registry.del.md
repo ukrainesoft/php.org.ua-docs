@@ -1,12 +1,12 @@
 Видаляє елемент із реєстру
 
--   [« Yaf\_Registry::\_\_construct](yaf-registry.construct.html)
+-   [« YafRegistry::construct](yaf-registry.construct.html)
     
--   [Yaf\_Registry::get »](yaf-registry.get.html)
+-   [YafRegistry::get »](yaf-registry.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Registry](class.yaf-registry.html)
+-   [YafRegistry](class.yaf-registry.html)
     
 -   Видаляє елемент із реєстру
     

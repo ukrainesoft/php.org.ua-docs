@@ -31,9 +31,9 @@ public LimitIterator::getInnerIterator(): Iterator
 
 ### Значення, що повертаються
 
-Внутрішній об'єкт-ітератор, переданий конструктору [LimitIterator::\_\_construct()](limititerator.construct.html)
+Внутрішній об'єкт-ітератор, переданий конструктору [LimitIterator::construct()](limititerator.construct.html)
 
 ### Дивіться також
 
--   [LimitIterator::\_\_construct()](limititerator.construct.html) - Конструктор класу LimitIterator
+-   [LimitIterator::construct()](limititerator.construct.html) - Конструктор класу LimitIterator
 -   [IteratorIterator::getInnerIterator()](iteratoriterator.getinneriterator.html) - отримує внутрішній ітератор

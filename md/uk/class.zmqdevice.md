@@ -2,11 +2,11 @@
 
 -   [« ZMQPoll::remove](zmqpoll.remove.html)
     
--   [ZMQDevice::\_\_construct »](zmqdevice.construct.html)
+-   [ZMQDevice::construct »](zmqdevice.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Обмен сообщениями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   Клас ZMQDevice
     
@@ -46,7 +46,7 @@ public setTimerTimeout(int $timeout): ZMQDevice
 
 ## Зміст
 
--   [ZMQDevice::\_\_construct](zmqdevice.construct.html) — Створює новий пристрій
+-   [ZMQDevice::construct](zmqdevice.construct.html) — Створює новий пристрій
 -   [ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.html) — Отримати час очікування бездіяльності
 -   [ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.html) - Отримати час очікування таймера
 -   [ZMQDevice::run](zmqdevice.run.html) — Запуск нового пристрою

@@ -1,12 +1,12 @@
 Відкриває базу даних
 
--   [« dba\_nextkey](function.dba-nextkey.html)
+-   [« dbanextkey](function.dba-nextkey.html)
     
--   [dba\_optimize »](function.dba-optimize.html)
+-   [dbaoptimize »](function.dba-optimize.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Відкриває базу даних
     
@@ -54,7 +54,7 @@ dba_open(    string $path,    string $mode,    string $handler = ?,�
 > | `mode` = "wd" | illegal | illegal | illegal | illegal | wait | false | wait | false |
 > 
 > -   ok: другий виклик буде успішним.
-> -   wait: другий виклик буде чекати, доки перший не викличе [dba\_close()](function.dba-close.html)
+> -   wait: другий виклик буде чекати, доки перший не викличе [dbaclose()](function.dba-close.html)
 > -   false: другий виклик поверне **`false`**
 > -   illegal: ви не можете змішувати модифікатори `"l"` і `"d"` у параметрі `mode`
 
@@ -84,5 +84,5 @@ dba_open(    string $path,    string $mode,    string $handler = ?,�
 
 ### Дивіться також
 
--   [dba\_popen()](function.dba-popen.html) - встановити постійний екземпляр бази даних
--   [dba\_close()](function.dba-close.html) - Закриває базу даних DBA
+-   [dbapopen()](function.dba-popen.html) - встановити постійний екземпляр бази даних
+-   [dbaclose()](function.dba-close.html) - Закриває базу даних DBA

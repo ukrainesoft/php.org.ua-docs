@@ -1,12 +1,12 @@
 Розбір даних запитів GET/POST/COOKIE та встановлення значень глобальних змінних
 
--   [« mb\_output\_handler](function.mb-output-handler.html)
+-   [« mboutputhandler](function.mb-output-handler.html)
     
--   [mb\_preferred\_mime\_name »](function.mb-preferred-mime-name.html)
+-   [мбpreferredmimename »](function.mb-preferred-mime-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Розбір даних запитів GET/POST/COOKIE та встановлення значень глобальних змінних
     
@@ -48,5 +48,5 @@ mb_parse_str(string $string, array &$result): bool
 
 ### Дивіться також
 
--   [mb\_detect\_order()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту

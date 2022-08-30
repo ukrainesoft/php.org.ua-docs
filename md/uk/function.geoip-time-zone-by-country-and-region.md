@@ -1,6 +1,6 @@
 Повертає часовий пояс для коду країни та регіону
 
--   [« geoip\_setup\_custom\_directory](function.geoip-setup-custom-directory.html)
+-   [« geoipsetupcustomdirectory](function.geoip-setup-custom-directory.html)
     
 -   [FANN »](book.fann.html)
     
@@ -27,7 +27,7 @@ geoip_time_zone_by_country_and_region(string $country_code, string $region_code 
 
 У США код регіону відповідає дволітерному скороченню кожного штату. У Канаді код регіону відповідає дволітерному скороченню провінції або територіальний код, який відповідає канадській пошті.
 
-Для решти світу, для представлення регіонів GeoIP використовує коди FIPS 10-4. Ви можете переглянути [» http://www.maxmind.com/app/fips10\_4](http://www.maxmind.com/app/fips10_4) для отримання повного переліку FIPS 10-4 кодів.
+Для решти світу, для представлення регіонів GeoIP використовує коди FIPS 10-4. Ви можете переглянути [» http://www.maxmind.com/app/fips10](http://www.maxmind.com/app/fips10_4) для отримання повного переліку FIPS 10-4 кодів.
 
 Ця функція завжди доступна під час використання бібліотеки GeoIP версії 1.4.1 або новішої. Дані беруться безпосередньо з бібліотеки GeoIP, а не з будь-якої бази даних.
 
@@ -35,11 +35,11 @@ geoip_time_zone_by_country_and_region(string $country_code, string $region_code 
 
 `country_code`
 
-Дволітерний код країни (дивіться [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.html)
+Дволітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
 
 `region_code`
 
-Дволітерний (або цифровий) код регіону (дивіться [geoip\_region\_by\_name()](function.geoip-region-by-name.html)
+Дволітерний (або цифровий) код регіону (дивіться [geoipregionбname()](function.geoip-region-by-name.html)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Визначення насиченості
 
--   [« UI\\Draw\\Text\\Font\\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html)
+-   [« UIDrawTextFontDescriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html)
     
 -   [Функции UI »](ref.ui.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+-   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     
 -   Визначення насиченості
     

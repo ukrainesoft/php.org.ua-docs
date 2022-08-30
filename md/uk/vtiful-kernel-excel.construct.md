@@ -1,12 +1,12 @@
 Конструктор
 
--   [« Vtiful\\Kernel\\Excel::constMemory](vtiful-kernel-excel.constMemory.html)
+-   [« VtifulKernelExcel::constMemory](vtiful-kernel-excel.constMemory.html)
     
--   [Vtiful\\Kernel\\Excel::data »](vtiful-kernel-excel.data.html)
+-   [VtifulKernelExcel::data »](vtiful-kernel-excel.data.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Конструктор
     
@@ -21,7 +21,7 @@ VtifulKernelExcel::construct — Конструктор
 
 public **VtifulKernelExcel::construct**(array `$config`
 
-Конструктор [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)створити екземпляр.
+Конструктор [VtifulKernelExcel](class.vtiful-kernel-excel.html)створити екземпляр.
 
 ### Список параметрів
 

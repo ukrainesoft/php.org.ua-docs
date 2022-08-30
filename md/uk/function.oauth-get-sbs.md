@@ -2,7 +2,7 @@
 
 -   [« Функции OAuth](ref.oauth.html)
     
--   [oauth\_urlencode »](function.oauth-urlencode.html)
+-   [oauthurlencode »](function.oauth-urlencode.html)
     
 -   [PHP Manual](index.html)
     

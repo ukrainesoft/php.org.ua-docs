@@ -394,7 +394,7 @@ public writeImagesFile(resource $filehandle, string $format = ?): bool
 
 | Эффекты изображения                                                      | Методы получения                                                                 | Методы установки                                                                 | Чтение/запись изображений                                    | Другие                                                           |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------------|
-| [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.html)           | [Imagick::getCompression()](imagick.getcompression.html)                         | [Imagick::setBackgroundColor()](imagick.setbackgroundcolor.html)                 | [Imagick::\_\_construct()](imagick.construct.html)           | [Imagick::clear()](imagick.clear.html)                           |
+| [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.html)           | [Imagick::getCompression()](imagick.getcompression.html)                         | [Imagick::setBackgroundColor()](imagick.setbackgroundcolor.html)                 | [Imagick::construct()](imagick.construct.html)               | [Imagick::clear()](imagick.clear.html)                           |
 | [Imagick::adaptiveResizeImage()](imagick.adaptiveresizeimage.html)       | [Imagick::getFilename()](imagick.getfilename.html)                               | [Imagick::setCompressionQuality()](imagick.setcompressionquality.html)           | [Imagick::addImage()](imagick.addimage.html)                 | [Imagick::clone()](imagick.clone.html)                           |
 | [Imagick::adaptiveSharpenImage()](imagick.adaptivesharpenimage.html)     | [Imagick::getFormat()](imagick.getformat.html)                                   | [Imagick::setCompression()](imagick.setcompression.html)                         | [Imagick::appendImages()](imagick.appendimages.html)         | [Imagick::current()](imagick.current.html)                       |
 | [Imagick::adaptiveThresholdImage()](imagick.adaptivethresholdimage.html) | [Imagick::getImageBackgroundColor()](imagick.getimagebackgroundcolor.html)       | [Imagick::setFilename()](imagick.setfilename.html)                               | [Imagick::getFilename()](imagick.getfilename.html)           | [Imagick::destroy()](imagick.destroy.html)                       |
@@ -531,7 +531,7 @@ public writeImagesFile(resource $filehandle, string $format = ?): bool
 -   [Imagick::compareImageLayers](imagick.compareimagelayers.html) — Повертає максимальну область, що обмежує між зображеннями.
 -   [Imagick::compareImages](imagick.compareimages.html) — Порівнює зображення з відновленим зображенням
 -   [Imagick::compositeImage](imagick.compositeimage.html) — Накладає одне зображення на інше
--   [Imagick::\_\_construct](imagick.construct.html) - Конструктор об'єкту Imagick
+-   [Imagick::construct](imagick.construct.html) - Конструктор об'єкту Imagick
 -   [Imagick::contrastImage](imagick.contrastimage.html) — Змінює контраст зображення
 -   [Imagick::contrastStretchImage](imagick.contraststretchimage.html) — Підвищує контрастність кольорового зображення
 -   [Imagick::convolveImage](imagick.convolveimage.html) — Застосовує ядро ​​згортки до зображення.
@@ -831,7 +831,7 @@ public writeImagesFile(resource $filehandle, string $format = ?): bool
 -   [Imagick::thresholdImage](imagick.thresholdimage.html) - Змінює окремі пікселі на основі порогового значення
 -   [Imagick::thumbnailImage](imagick.thumbnailimage.html) — Змінює розмір зображення
 -   [Imagick::tintImage](imagick.tintimage.html) — Застосовує вектор кольору до кожного пікселя зображення
--   [Imagick::\_\_toString](imagick.tostring.html) — Повертає зображення у вигляді рядка
+-   [Imagick::toString](imagick.tostring.html) — Повертає зображення у вигляді рядка
 -   [Imagick::transformImage](imagick.transformimage.html) — Зручний метод налаштування розміру кадрування та геометрії зображення
 -   [Imagick::transformImageColorspace](imagick.transformimagecolorspace.html) — Перетворює зображення на новий колірний простір
 -   [Imagick::transparentPaintImage](imagick.transparentpaintimage.html) — Малює пікселі прозорими

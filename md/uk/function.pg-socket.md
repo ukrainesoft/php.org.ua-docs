@@ -1,8 +1,8 @@
 Отримати дескриптор тільки для читання на сокет, що лежить в основі з'єднання PostgreSQL
 
--   [« pg\_set\_error\_verbosity](function.pg-set-error-verbosity.html)
+-   [« pgseterrorverbosity](function.pg-set-error-verbosity.html)
     
--   [pg\_trace »](function.pg-trace.html)
+-   [пгtrace »](function.pg-trace.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ pg_socket(PgSql\Connection $connection): resource|false
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -41,6 +41,6 @@ pg_socket(PgSql\Connection $connection): resource|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

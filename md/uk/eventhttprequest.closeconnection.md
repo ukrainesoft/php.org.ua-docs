@@ -2,7 +2,7 @@
 
 -   [« EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.html)
     
--   [EventHttpRequest::\_\_construct »](eventhttprequest.construct.html)
+-   [EventHttpRequest::construct »](eventhttprequest.construct.html)
     
 -   [PHP Manual](index.html)
     

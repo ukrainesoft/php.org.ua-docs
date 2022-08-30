@@ -1,8 +1,8 @@
 Контратака
 
--   [« trader\_cdlconcealbabyswall](function.trader-cdlconcealbabyswall.html)
+-   [« tradercdlconcealbabyswall](function.trader-cdlconcealbabyswall.html)
     
--   [trader\_cdldarkcloudcover »](function.trader-cdldarkcloudcover.html)
+-   [tradercdldarkcloudcover »](function.trader-cdldarkcloudcover.html)
     
 -   [PHP Manual](index.html)
     

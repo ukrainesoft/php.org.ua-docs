@@ -1,12 +1,12 @@
 Знищує процес
 
--   [« Swoole\\Process::daemon](swoole-process.daemon.html)
+-   [« SwooleProcess::daemon](swoole-process.daemon.html)
     
--   [Swoole\\Process::exec »](swoole-process.exec.html)
+-   [SwooleProcess::exec »](swoole-process.exec.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Знищує процес
     

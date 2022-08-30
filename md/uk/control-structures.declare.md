@@ -62,7 +62,7 @@ declare(ticks=1);
 
 Не всі висловлювання підраховуються. Зазвичай, умовні висловлювання та висловлювання аргументів не підраховуються.
 
-Подія (або кілька подій), яка виникає на кожному тику визначається, використовуючи [register\_tick\_function()](function.register-tick-function.html). Дивіться нижче приклад для додаткової інформації. Майте на увазі, що для одного тику може виникати кілька подій.
+Подія (або кілька подій), яка виникає на кожному тику визначається, використовуючи [registertickfunction()](function.register-tick-function.html). Дивіться нижче приклад для додаткової інформації. Майте на увазі, що для одного тику може виникати кілька подій.
 
 **Приклад #1 Приклад використання тику**
 
@@ -89,7 +89,7 @@ if ($a > 0) {
 ?>
 ```
 
-Дивіться також [register\_tick\_function()](function.register-tick-function.html) і [unregister\_tick\_function()](function.unregister-tick-function.html)
+Дивіться також [registertickfunction()](function.register-tick-function.html) і [unregistertickfunction()](function.unregister-tick-function.html)
 
 ### Кодування
 
@@ -108,4 +108,4 @@ declare(encoding='ISO-8859-1');
 
 У поєднанні з простором імен єдино допустимий синтаксис для declare є `declare(encoding='...');` де `...` це значення кодування . `declare(encoding='...') {}` призведе до помилки парсера, якщо використовується разом із простором імен.
 
-Дивіться також [zend.script\_encoding](ini.core.html#ini.zend.script-encoding)
+Дивіться також [zend.scriptencoding](ini.core.html#ini.zend.script-encoding)

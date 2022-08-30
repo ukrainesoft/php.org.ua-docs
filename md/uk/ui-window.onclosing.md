@@ -1,12 +1,12 @@
 Callback-функція закриття
 
--   [« UI\\Window::msg](ui-window.msg.html)
+-   [« UIWindow::msg](ui-window.msg.html)
     
--   [UI\\Window::open »](ui-window.open.html)
+-   [ОЙWindow::open »](ui-window.open.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Callback-функція закриття
     

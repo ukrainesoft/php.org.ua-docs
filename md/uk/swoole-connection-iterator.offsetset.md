@@ -1,12 +1,12 @@
 Призначає з'єднання для зазначеного зміщення
 
--   [« Swoole\\Connection\\Iterator::offsetGet](swoole-connection-iterator.offsetget.html)
+-   [« SwooleConnectionIterator::offsetGet](swoole-connection-iterator.offsetget.html)
     
--   [Swoole\\Connection\\Iterator::offsetUnset »](swoole-connection-iterator.offsetunset.html)
+-   [SwooleConnectionIterator::offsetUnset »](swoole-connection-iterator.offsetunset.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Призначає з'єднання для зазначеного зміщення
     

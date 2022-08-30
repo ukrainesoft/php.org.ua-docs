@@ -43,7 +43,7 @@ datefmt_is_lenient(IntlDateFormatter $formatter): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо парсер поблажливий або **`false`**якщо парсер строгий. За промовчанням парсер поблажливий.
+Повертає \*\*`true`\*\*якщо парсер поблажливий або \*\*`false`\*\*якщо парсер строгий. За промовчанням парсер поблажливий.
 
 ### Приклади
 
@@ -145,5 +145,5 @@ if (intl_get_error_code() != 0) {
 
 ### Дивіться також
 
--   [datefmt\_set\_lenient()](intldateformatter.setlenient.html) - Встановлює м'який режим аналізатора
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtsetlenient()](intldateformatter.setlenient.html) - Встановлює м'який режим аналізатора
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

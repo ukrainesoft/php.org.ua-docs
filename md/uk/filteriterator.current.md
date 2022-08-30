@@ -1,6 +1,6 @@
 Отримує значення поточного елемента
 
--   [« FilterIterator::\_\_construct](filteriterator.construct.html)
+-   [« FilterIterator::construct](filteriterator.construct.html)
     
 -   [FilterIterator::getInnerIterator »](filteriterator.getinneriterator.html)
     

@@ -1,12 +1,12 @@
 Отримує ім'я модуля за замовчуванням
 
--   [« Yaf\_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.html)
+-   [« YafDispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.html)
     
--   [Yaf\_Dispatcher::getInstance »](yaf-dispatcher.getinstance.html)
+-   [YafDispatcher::getInstance »](yaf-dispatcher.getinstance.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує ім'я модуля за замовчуванням
     

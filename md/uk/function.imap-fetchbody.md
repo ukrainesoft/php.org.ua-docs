@@ -1,8 +1,8 @@
 Витягти конкретну секцію тіла повідомлення
 
--   [« imap\_fetch\_overview](function.imap-fetch-overview.html)
+-   [« imapfetchoverview](function.imap-fetch-overview.html)
     
--   [imap\_fetchheader »](function.imap-fetchheader.html)
+-   [imapfetchheader »](function.imap-fetchheader.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    st
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -53,11 +53,11 @@ imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_savebody()](function.imap-savebody.html) - Зберегти частину тіла повідомлення у файл
--   [imap\_fetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення
+-   [imapsavebody()](function.imap-savebody.html) - Зберегти частину тіла повідомлення у файл
+-   [imapfetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення

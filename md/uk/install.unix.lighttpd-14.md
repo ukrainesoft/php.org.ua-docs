@@ -2,7 +2,7 @@
 
 -   [« Установка Nginx 1.4.x на систему Unix](install.unix.nginx.html)
     
--   [Веб-сервер LiteSpeed/OpenLiteSpeed на системах Unix »](install.unix.litespeed.html)
+-   [Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix »](install.unix.litespeed.html)
     
 -   [PHP Manual](index.html)
     

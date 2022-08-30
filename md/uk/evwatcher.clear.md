@@ -2,7 +2,7 @@
 
 -   [« EvWatcher](class.evwatcher.html)
     
--   [EvWatcher::\_\_construct »](evwatcher.construct.html)
+-   [EvWatcher::construct »](evwatcher.construct.html)
     
 -   [PHP Manual](index.html)
     

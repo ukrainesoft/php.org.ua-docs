@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](ibm-db2.resources.html)
     
--   [Функции IBM DB2 »](ref.ibm-db2.html)
+-   [Функції IBM DB2 »](ref.ibm-db2.html)
     
 -   [PHP Manual](index.html)
     

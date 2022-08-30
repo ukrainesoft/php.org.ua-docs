@@ -1,8 +1,8 @@
 Клас HRTimeStopWatch
 
--   [« HRTime\\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.html)
+-   [« HRTimePerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.html)
     
--   [HRTime\\StopWatch::getElapsedTicks »](hrtime-stopwatch.getelapsedticks.html)
+-   [HRTimeStopWatch::getElapsedTicks »](hrtime-stopwatch.getelapsedticks.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,10 +57,10 @@ public static HRTime\PerformanceCounter::getTicksSince(int $start): int
 
 ## Зміст
 
--   [HRTime\\StopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html) — Отримати кількість тиків для всіх інтервалів.
--   [HRTime\\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html) — Отримати сумарний час усіх інтервалів, що минув.
--   [HRTime\\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html) — Отримати кількість тиків, що пройшли, за останній інтервал
--   [HRTime\\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html) — Отримати минулий час для останнього інтервалу
--   [HRTime\\StopWatch::isRunning](hrtime-stopwatch.isrunning.html) — Перевірити, чи виконується вимір
--   [HRTime\\StopWatch::start](hrtime-stopwatch.start.html) - Запустити вимір часу
--   [HRTime\\StopWatch::stop](hrtime-stopwatch.stop.html) — Зупинити вимір
+-   [HRTimeStopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html) — Отримати кількість тиків для всіх інтервалів.
+-   [HRTimeStopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html) — Отримати сумарний час усіх інтервалів, що минув.
+-   [HRTimeStopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html) — Отримати кількість тиків, що пройшли, за останній інтервал
+-   [HRTimeStopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html) — Отримати минулий час для останнього інтервалу
+-   [HRTimeStopWatch::isRunning](hrtime-stopwatch.isrunning.html) — Перевірити, чи виконується вимір
+-   [HRTimeStopWatch::start](hrtime-stopwatch.start.html) - Запустити вимір часу
+-   [HRTimeStopWatch::stop](hrtime-stopwatch.stop.html) — Зупинити вимір

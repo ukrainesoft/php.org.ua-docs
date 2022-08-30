@@ -1,8 +1,8 @@
 Синхронізує поточний стан файлу із фізичним пристроєм
 
--   [« eio\_fstatvfs](function.eio-fstatvfs.html)
+-   [« eiofstatvfs](function.eio-fstatvfs.html)
     
--   [eio\_ftruncate »](function.eio-ftruncate.html)
+-   [eioftruncate »](function.eio-ftruncate.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -65,4 +65,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_sync()](function.eio-sync.html) - Записує кеш із буфера на диск
+-   [eiosync()](function.eio-sync.html) - Записує кеш із буфера на диск

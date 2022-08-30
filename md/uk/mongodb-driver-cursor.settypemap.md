@@ -1,12 +1,12 @@
 Встановлює карту типу для десеріалізації BSON
 
--   [« MongoDB\\Driver\\Cursor::rewind](mongodb-driver-cursor.rewind.html)
+-   [« MongoDBDriverCursor::rewind](mongodb-driver-cursor.rewind.html)
     
--   [MongoDB\\Driver\\Cursor::toArray »](mongodb-driver-cursor.toarray.html)
+-   [MongoDBDriverCursor::toArray »](mongodb-driver-cursor.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Встановлює карту типу для десеріалізації BSON
     
@@ -37,11 +37,11 @@ final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 При ітерації курсором може викидатися такі винятки через неправильну конфігурацію карти типів:
 
--   Викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо клас на карті типів не може бути створений або не реалізує [MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.html)
+-   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо клас на карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
 
 ### Приклади
 
@@ -83,4 +83,4 @@ array(2) {
 
 ### Дивіться також
 
--   [Постоянные данные](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.html)

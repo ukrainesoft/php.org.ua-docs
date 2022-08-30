@@ -1,6 +1,6 @@
 Закриває раніше відкрите з'єднання з базою даних
 
--   [« mysqli::character\_set\_name](mysqli.character-set-name.html)
+-   [« mysqli::charactersetname](mysqli.character-set-name.html)
     
 -   [mysqli::commit »](mysqli.commit.html)
     
@@ -41,7 +41,7 @@ mysqli_close(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -95,7 +95,7 @@ foreach ($result as $row) {
 
 ### Дивіться також
 
--   [mysqli::\_\_construct()](mysqli.construct.html) - Встановлює нове з'єднання із сервером MySQL
--   [mysqli\_init()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqli\_real\_connect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
--   [mysqli\_free\_result()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту
+-   [mysqli::construct()](mysqli.construct.html) - Встановлює нове з'єднання із сервером MySQL
+-   [mysqliinit()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+-   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqlifreeresult()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту

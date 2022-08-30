@@ -1,12 +1,12 @@
 Повертає перегорнуту копію колекції
 
--   [« Ds\\Sequence::reverse](ds-sequence.reverse.html)
+-   [« DsSequence::reverse](ds-sequence.reverse.html)
     
--   [Ds\\Sequence::rotate »](ds-sequence.rotate.html)
+-   [ДсSequence::rotate »](ds-sequence.rotate.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає перегорнуту копію колекції
     

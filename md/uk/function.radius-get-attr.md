@@ -1,8 +1,8 @@
 Витягує атрибут
 
--   [« radius\_demangle](function.radius-demangle.html)
+-   [« radiusdemangle](function.radius-demangle.html)
     
--   [radius\_get\_tagged\_attr\_data »](function.radius-get-tagged-attr-data.html)
+-   [radiusgettaggedattrdata »](function.radius-get-tagged-attr-data.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ radiusgetattr — Витягує атрибут
 radius_get_attr(resource $radius_handle): mixed
 ```
 
-Як і запити Radius, кожна відповідь може містити нуль або більше атрибутів. Після того, як відповідь була успішно отримана від [radius\_send\_request()](function.radius-send-request.html), його атрибути можуть бути витягнуті один за одним за допомогою **radiusgetattr()**. Щоразу, коли викликається **radiusgetattr()**, функція отримує наступний атрибут із поточної відповіді.
+Як і запити Radius, кожна відповідь може містити нуль або більше атрибутів. Після того, як відповідь була успішно отримана від [radiussendrequest()](function.radius-send-request.html), його атрибути можуть бути витягнуті один за одним за допомогою **radiusgetattr()**. Щоразу, коли викликається **radiusgetattr()**, функція отримує наступний атрибут із поточної відповіді.
 
 ### Список параметрів
 
@@ -57,7 +57,7 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radius\_put\_attr()](function.radius-put-attr.html) - приєднує бінарний атрибут
--   [radius\_get\_vendor\_attr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника
--   [radius\_put\_vendor\_attr()](function.radius-put-vendor-attr.html) - Приєднує бінарний атрибут, що залежить від постачальника
--   [radius\_send\_request()](function.radius-send-request.html) - Відправляє запит і чекає на відповідь
+-   [radiusputattr()](function.radius-put-attr.html) - приєднує бінарний атрибут
+-   [radiusgetvendorattr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника
+-   [radiusputvendorattr()](function.radius-put-vendor-attr.html) - Приєднує бінарний атрибут, що залежить від постачальника
+-   [radiussendrequest()](function.radius-send-request.html) - Відправляє запит і чекає на відповідь

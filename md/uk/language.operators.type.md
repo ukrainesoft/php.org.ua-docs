@@ -1,12 +1,12 @@
 Оператор перевірки типу
 
--   [« Операторы, работающие с массивами](language.operators.array.html)
+-   [« Оператори, які працюють з масивами](language.operators.array.html)
     
 -   [Управляющие конструкции »](language.control-structures.html)
     
 -   [PHP Manual](index.html)
     
--   [Операторы](language.operators.html)
+-   [Оператори](language.operators.html)
     
 -   Оператор перевірки типу
     
@@ -68,7 +68,7 @@ bool(true)
 bool(true)
 ```
 
-Для перевірки *неприладдя* об'єкта деякому класу, використовуйте [логический оператор `not`](language.operators.logical.html)
+Для перевірки *неприладдя* об'єкта деякому класу, використовуйте [логічний оператор `not`](language.operators.logical.html)
 
 **Приклад #3 Використання `instanceof` для перевірки того, що об'єкт *не* є екземпляром класу**
 
@@ -89,7 +89,7 @@ var_dump(!($a instanceof stdClass));
 bool(true)
 ```
 
-Зрештою, `instanceof` може бути також використаний для перевірки реалізації об'єктом деякого [интерфейса](language.oop5.interfaces.html)
+Зрештою, `instanceof` може бути також використаний для перевірки реалізації об'єктом деякого [інтерфейсу](language.oop5.interfaces.html)
 
 **Приклад #4 Використання `instanceof` з інтерфейсами**
 
@@ -224,9 +224,9 @@ bool(false)
 bool(true)
 ```
 
-Оператор `instanceof` аналогічний функції [is\_a()](function.is-a.html)
+Оператор `instanceof` аналогічний функції [ісa()](function.is-a.html)
 
 ### Дивіться також
 
--   [get\_class()](function.get-class.html)
--   [is\_a()](function.is-a.html)
+-   [getclass()](function.get-class.html)
+-   [ісa()](function.is-a.html)

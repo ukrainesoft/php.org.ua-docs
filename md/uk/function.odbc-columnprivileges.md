@@ -1,8 +1,8 @@
 Перелічує стовпці та пов'язані привілеї для даної таблиці
 
--   [« odbc\_close](function.odbc-close.html)
+-   [« odbcclose](function.odbc-close.html)
     
--   [odbc\_columns »](function.odbc-columns.html)
+-   [odbccolumns »](function.odbc-columns.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_columnprivileges(    resource $odbc,    ?string $catalog,    st
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 

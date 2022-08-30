@@ -1,12 +1,12 @@
 Встановити рядок
 
--   [« Vtiful\\Kernel\\Excel::setColumn](vtiful-kernel-excel.setColumn.html)
+-   [« VtifulKernelExcel::setColumn](vtiful-kernel-excel.setColumn.html)
     
--   [Vtiful\\Kernel\\Format »](class.vtiful-kernel-format.html)
+-   [VtifulKernelFormat »](class.vtiful-kernel-format.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Встановити рядок
     
@@ -41,7 +41,7 @@ public Vtiful\Kernel\Excel::setRow(string $range, float $height, resource $forma
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

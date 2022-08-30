@@ -1,8 +1,8 @@
 Повертає статус файлу
 
--   [« eio\_fdatasync](function.eio-fdatasync.html)
+-   [« eiofdatasync](function.eio-fdatasync.html)
     
--   [eio\_fstatvfs »](function.eio-fstatvfs.html)
+-   [eiofstatvfs »](function.eio-fstatvfs.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -61,11 +61,11 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-[eio\_busy()](function.eio-busy.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+[eiobusy()](function.eio-busy.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання [eio\_lstat()](function.eio-lstat.html)**
+**Приклад #1 Приклад використання [eiolstat()](function.eio-lstat.html)**
 
 ```php
 <?php
@@ -140,5 +140,5 @@ array(12) {
 
 ### Дивіться також
 
--   [eio\_lstat()](function.eio-lstat.html) - Повертає статус файлу
--   [eio\_stat()](function.eio-stat.html) - Повертає статус файлу
+-   [eiolstat()](function.eio-lstat.html) - Повертає статус файлу
+-   [eiostat()](function.eio-stat.html) - Повертає статус файлу

@@ -2,11 +2,11 @@
 
 -   [« SplDoublyLinkedList::valid](spldoublylinkedlist.valid.html)
     
--   [SplStack::\_\_construct »](splstack.construct.html)
+-   [SplStack::construct »](splstack.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.html)
     
 -   Клас SplStack
     
@@ -74,5 +74,5 @@ public SplDoublyLinkedList::valid(): bool
 
 ## Зміст
 
--   [SplStack::\_\_construct](splstack.construct.html) — Створює новий стек, реалізований за допомогою двозв'язкового списку
+-   [SplStack::construct](splstack.construct.html) — Створює новий стек, реалізований за допомогою двозв'язкового списку
 -   [SplStack::setIteratorMode](splstack.setiteratormode.html) - Встановлює режим ітератора

@@ -2,11 +2,11 @@
 
 -   [« Введение в PHP и DTrace](features.dtrace.introduction.html)
     
--   [Использование SystemTap со статическими зондами PHP DTrace »](features.dtrace.systemtap.html)
+-   [Використання SystemTap із статичними зондами PHP DTrace »](features.dtrace.systemtap.html)
     
 -   [PHP Manual](index.html)
     
--   [Динамическая трассировка DTrace](features.dtrace.html)
+-   [Динамічна трасування DTrace](features.dtrace.html)
     
 -   Використання PHP та DTrace
     
@@ -52,7 +52,7 @@ PHP може бути налаштований зі статичними зон�
 | `function-return`     | Спрацьовує, коли PHP повертається з функції або методу.                                                                                       | char functionname, char requestfile, int lineno, char classname, char scope |
 | `exception-thrown`    | Спрацьовує, коли викинуто виняток.                                                                                                            | char classname                                                              |
 | `exception-caught`    | Спрацьовує, коли виняток спійманий.                                                                                                           | char classname                                                              |
-| `error`               | Спрацьовує якщо сталася помилка, незалежно від рівня [error\_reporting](errorfunc.configuration.html#ini.error-reporting)                     | char errormsg, char requestfile, int lineno                                 |
+| `error`               | Спрацьовує якщо сталася помилка, незалежно від рівня [errorreporting](errorfunc.configuration.html#ini.error-reporting)                       | char errormsg, char requestfile, int lineno                                 |
 
 Модулі PHP можуть містити додаткові зонди.
 
@@ -212,4 +212,4 @@ php*:::function-entry
 
 ### Також дивіться
 
--   [OCI8 и динамическая трассировка DTrace](oci8.dtrace.html)
+-   [OCI8 та динамічне трасування DTrace](oci8.dtrace.html)

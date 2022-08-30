@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Безопасность баз данных](security.database.html)
+-   [Безпека баз даних](security.database.html)
     
 -   З'єднання з базою даних
     

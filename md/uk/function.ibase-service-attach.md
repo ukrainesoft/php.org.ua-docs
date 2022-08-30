@@ -1,8 +1,8 @@
 Підключається до диспетчера служб
 
--   [« ibase\_server\_info](function.ibase-server-info.html)
+-   [« ibaseserverinfo](function.ibase-server-info.html)
     
--   [ibase\_service\_detach »](function.ibase-service-detach.html)
+-   [ibaseservicedetach »](function.ibase-service-detach.html)
     
 -   [PHP Manual](index.html)
     
@@ -105,4 +105,4 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ### Дивіться також
 
--   [ibase\_service\_detach()](function.ibase-service-detach.html) - відключається від диспетчера служб
+-   [ibaseservicedetach()](function.ibase-service-detach.html) - відключається від диспетчера служб

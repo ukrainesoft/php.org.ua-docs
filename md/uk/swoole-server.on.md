@@ -1,12 +1,12 @@
 Реєструє callback-функцію на ім'я події
 
--   [« Swoole\\Server::listen](swoole-server.listen.html)
+-   [« SwooleServer::listen](swoole-server.listen.html)
     
--   [Swoole\\Server::pause »](swoole-server.pause.html)
+-   [SwooleServer::pause »](swoole-server.pause.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Реєструє callback-функцію на ім'я події
     

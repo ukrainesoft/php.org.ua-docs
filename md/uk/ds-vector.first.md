@@ -1,8 +1,8 @@
 Повертає перший елемент вектора
 
--   [« Ds\\Vector::find](ds-vector.find.html)
+-   [« DsVector::find](ds-vector.find.html)
     
--   [Ds\\Vector::get »](ds-vector.get.html)
+-   [ДсVector::get »](ds-vector.get.html)
     
 -   [PHP Manual](index.html)
     

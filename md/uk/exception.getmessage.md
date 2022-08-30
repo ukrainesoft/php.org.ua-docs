@@ -1,6 +1,6 @@
 Отримує повідомлення виключення
 
--   [« Exception::\_\_construct](exception.construct.html)
+-   [« Exception::construct](exception.construct.html)
     
 -   [Exception::getPrevious »](exception.getprevious.html)
     

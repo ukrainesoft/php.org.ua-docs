@@ -1,8 +1,8 @@
 Отримати інформацію про поточну поштову скриньку
 
--   [« imap\_mail](function.imap-mail.html)
+-   [« imapmail](function.imap-mail.html)
     
--   [imap\_mime\_header\_decode »](function.imap-mime-header-decode.html)
+-   [imapmimeheaderdecode »](function.imap-mime-header-decode.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ imapmailboxmsginfo — Отримати інформацію про поточн
 imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 ```
 
-Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imap\_status()](function.imap-status.html), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
+Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imapstatus()](function.imap-status.html), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
@@ -43,9 +43,9 @@ imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

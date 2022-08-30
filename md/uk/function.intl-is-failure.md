@@ -1,8 +1,8 @@
 Перевірити, чи є код помилки ознакою збою
 
--   [« intl\_get\_error\_message](function.intl-get-error-message.html)
+-   [« intlgeterrormessage](function.intl-get-error-message.html)
     
--   [Многобайтовые строки »](book.mbstring.html)
+-   [Багатобайтові рядки »](book.mbstring.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,11 +27,11 @@ intl_is_failure(int $errorCode): bool
 
 `errorCode`
 
-Значення, повернене функціями: [intl\_get\_error\_code()](function.intl-get-error-code.html) [collator\_get\_error\_code()](collator.geterrorcode.html)
+Значення, повернене функціями: [intlgeterrorcode()](function.intl-get-error-code.html) [collatorgeterrorcode()](collator.geterrorcode.html)
 
 ### Значення, що повертаються
 
-**`true`**, якщо стався збій, і **`false`**якщо все успішно, або просто попередження.
+**`true`**, якщо стався збій, і \*\*`false`\*\*якщо все успішно, або просто попередження.
 
 ### Приклади
 
@@ -61,6 +61,6 @@ true
 
 ### Дивіться також
 
--   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [collator\_get\_error\_code()](collator.geterrorcode.html) - Отримує останній код помилки Collator
+-   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [collatorgeterrorcode()](collator.geterrorcode.html) - Отримує останній код помилки Collator
 -   [Collator-getErrorCode()](collator.geterrorcode.html) - Отримує останній код помилки Collator

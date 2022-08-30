@@ -1,6 +1,6 @@
 Yac
 
--   [« xhprof\_sample\_enable](function.xhprof-sample-enable.html)
+-   [« xhprofsampleenable](function.xhprof-sample-enable.html)
     
 -   [Введение »](intro.yac.html)
     
@@ -22,12 +22,12 @@ Yac
 -   [Предопределённые константы](yac.constants.html)
 -   [Yac](class.yac.html) - Клас Yac
     -   [Yac::add](yac.add.html) - Зберігає в кеш
-    -   [Yac::\_\_construct](yac.construct.html) - Конструктор класу
+    -   [Yac::construct](yac.construct.html) - Конструктор класу
     -   [Yac::delete](yac.delete.html) — Видаляє елементи з кешу
     -   [Yac::dump](yac.dump.html) - Дамп кеша
     -   [Yac::flush](yac.flush.html) - Очищає кеш
     -   [Yac::get](yac.get.html) — Витягує значення з кешу
-    -   [Yac::\_\_get](yac.getter.html) - Геттер
+    -   [Yac::get](yac.getter.html) - Геттер
     -   [Yac::info](yac.info.html) - Стан кешу
     -   [Yac::set](yac.set.html) - Зберігає в кеш
-    -   [Yac::\_\_set](yac.setter.html) - Сеттер
+    -   [Yac::set](yac.setter.html) - Сеттер

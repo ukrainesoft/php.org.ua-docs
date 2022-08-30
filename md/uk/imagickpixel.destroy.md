@@ -1,6 +1,6 @@
 Визволяє ресурси, пов'язані з цим об'єктом
 
--   [« ImagickPixel::\_\_construct](imagickpixel.construct.html)
+-   [« ImagickPixel::construct](imagickpixel.construct.html)
     
 -   [ImagickPixel::getColor »](imagickpixel.getcolor.html)
     

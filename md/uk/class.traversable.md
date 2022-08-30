@@ -1,12 +1,12 @@
 Інтерфейс Traversable
 
--   [« Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [« Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   [Iterator »](class.iterator.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Інтерфейс Traversable
     

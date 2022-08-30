@@ -1,8 +1,8 @@
 Скласти значення двох варіантів
 
--   [« variant\_abs](function.variant-abs.html)
+-   [« variantabs](function.variant-abs.html)
     
--   [variant\_and »](function.variant-and.html)
+-   [variantand »](function.variant-and.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,8 +58,8 @@ variant_add(mixed $left, mixed $right): variant
 
 ### Помилки
 
-Викидає виняток [com\_exception](class.com-exception.html) у разі виникнення помилки.
+Викидає виняток [comexception](class.com-exception.html) у разі виникнення помилки.
 
 ### Дивіться також
 
--   [variant\_sub()](function.variant-sub.html) - Віднімає значення правого варіанта з лівого
+-   [variantsub()](function.variant-sub.html) - Віднімає значення правого варіанта з лівого

@@ -1,12 +1,12 @@
 Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
 
--   [« db2\_get\_option](function.db2-get-option.html)
+-   [« db2getoption](function.db2-get-option.html)
     
--   [db2\_lob\_read »](function.db2-lob-read.html)
+-   [db2lobread »](function.db2-lob-read.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
     
@@ -40,7 +40,7 @@ db2_last_insert_id(resource $resource): string
 
 `resource`
 
-Допустимий ресурс підключення, що повертається [db2\_connect()](function.db2-connect.html) або [db2\_pconnect()](function.db2-pconnect.html). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
+Допустимий ресурс підключення, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
 
 ### Значення, що повертаються
 

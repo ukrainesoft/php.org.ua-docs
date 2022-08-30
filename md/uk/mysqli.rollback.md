@@ -1,6 +1,6 @@
 Відкат поточної транзакції
 
--   [« mysqli::release\_savepoint](mysqli.release-savepoint.html)
+-   [« mysqli::releasesavepoint](mysqli.release-savepoint.html)
     
 -   [mysqli::savepoint »](mysqli.savepoint.html)
     
@@ -39,7 +39,7 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `flags`
 
@@ -61,7 +61,7 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Приклади
 
-Дивіться приклад використання у розділі [](mysqli.begin-transaction.html#mysqli.begin-transaction.example.basic)[mysqli::begin\_transaction()](mysqli.begin-transaction.html)
+Дивіться приклад використання у розділі [](mysqli.begin-transaction.html#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.html)
 
 ### Примітки
 
@@ -71,7 +71,7 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Дивіться також
 
--   [mysqli\_begin\_transaction()](mysqli.begin-transaction.html) - Стартує транзакцію
--   [mysqli\_commit()](mysqli.commit.html) - Фіксує поточну транзакцію
--   [mysqli\_autocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
--   [mysqli\_release\_savepoint()](mysqli.release-savepoint.html) - Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
+-   [mysqlibegintransaction()](mysqli.begin-transaction.html) - Стартує транзакцію
+-   [mysqlicommit()](mysqli.commit.html) - Фіксує поточну транзакцію
+-   [mysqliautocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
+-   [mysqlireleasesavepoint()](mysqli.release-savepoint.html) - Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції

@@ -1,12 +1,12 @@
 Викликається, як тільки застосовується фільтр
 
--   [« php\_user\_filter](class.php-user-filter.html)
+-   [« phpuserfilter](class.php-user-filter.html)
     
--   [php\_user\_filter::onClose »](php-user-filter.onclose.html)
+-   [phpuserfilter::onClose »](php-user-filter.onclose.html)
     
 -   [PHP Manual](index.html)
     
--   [php\_user\_filter](class.php-user-filter.html)
+-   [phpuserfilter](class.php-user-filter.html)
     
 -   Викликається, як тільки застосовується фільтр
     

@@ -2,7 +2,7 @@
 
 -   [« Memcache::setServerParams](memcache.setserverparams.html)
     
--   [memcache\_debug »](function.memcache-debug.html)
+-   [memcachedebug »](function.memcache-debug.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [memcache\_debug](function.memcache-debug.html) — Увімкнути/вимкнути виведення налагоджувальної інформації
+-   [memcachedebug](function.memcache-debug.html) — Увімкнути/вимкнути виведення налагоджувальної інформації

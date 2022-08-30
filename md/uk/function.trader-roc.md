@@ -1,8 +1,8 @@
 Швидкість зміни: ((ціна/попередня ціна)-1)
 
--   [« trader\_ppo](function.trader-ppo.html)
+-   [« traderppo](function.trader-ppo.html)
     
--   [trader\_rocp »](function.trader-rocp.html)
+-   [traderrocp »](function.trader-rocp.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Встановити X
 
--   [« UI\\Point::getY](ui-point.gety.html)
+-   [« UIPoint::getY](ui-point.gety.html)
     
--   [UI\\Point::setY »](ui-point.sety.html)
+-   [ОЙPoint::setY »](ui-point.sety.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Point](class.ui-point.html)
+-   [ОЙPoint](class.ui-point.html)
     
 -   Встановити X
     

@@ -1,12 +1,12 @@
 Змінити пріоритет процесу
 
--   [« pcntl\_rfork](function.pcntl-rfork.html)
+-   [pcntlrfork](function.pcntl-rfork.html)
     
--   [pcntl\_signal\_dispatch »](function.pcntl-signal-dispatch.html)
+-   [pcntlsignaldispatch »](function.pcntl-signal-dispatch.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Змінити пріоритет процесу
     
@@ -51,5 +51,5 @@ pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCE
 
 ### Дивіться також
 
--   [pcntl\_getpriority()](function.pcntl-getpriority.html) - Отримати значення пріоритету процесу
+-   [pcntlgetpriority()](function.pcntl-getpriority.html) - Отримати значення пріоритету процесу
 -   **pcntlsetpriority()**

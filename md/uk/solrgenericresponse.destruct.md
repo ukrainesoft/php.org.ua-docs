@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrGenericResponse::\_\_construct](solrgenericresponse.construct.html)
+-   [« SolrGenericResponse::construct](solrgenericresponse.construct.html)
     
 -   [SolrParams »](class.solrparams.html)
     

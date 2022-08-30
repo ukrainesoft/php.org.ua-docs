@@ -1,8 +1,8 @@
 Клас mysqliwarning
 
--   [« mysqli\_driver::$report\_mode](mysqli-driver.report-mode.html)
+-   [« mysqlidriver::$reportmode](mysqli-driver.report-mode.html)
     
--   [mysqli\_warning::\_\_construct »](mysqli-warning.construct.html)
+-   [mysqliwarning::construct »](mysqli-warning.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -73,5 +73,5 @@ errno
 
 ## Зміст
 
--   [mysqli\_warning::\_\_construct](mysqli-warning.construct.html) — Закритий конструктор для заборони прямого створення екземпляра
--   [mysqli\_warning::next](mysqli-warning.next.html) — Отримує таке попередження
+-   [mysqliwarning::construct](mysqli-warning.construct.html) — Закритий конструктор для заборони прямого створення екземпляра
+-   [mysqliwarning::next](mysqli-warning.next.html) — Отримує таке попередження

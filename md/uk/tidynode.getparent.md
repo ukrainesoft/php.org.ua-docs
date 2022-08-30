@@ -1,6 +1,6 @@
 Повертає батьківський вузол поточного вузла
 
--   [« tidyNode::\_\_construct](tidynode.construct.html)
+-   [« tidyNode::construct](tidynode.construct.html)
     
 -   [tidyNode::hasChildren »](tidynode.haschildren.html)
     

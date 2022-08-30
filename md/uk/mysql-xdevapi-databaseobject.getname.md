@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DatabaseObject](class.mysql-xdevapi-databaseobject.html)
+-   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
     
 -   Отримує ім'я об'єкта
     

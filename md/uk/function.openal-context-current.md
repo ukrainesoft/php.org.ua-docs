@@ -1,8 +1,8 @@
 Зробити вказаний контекст поточним
 
--   [« openal\_context\_create](function.openal-context-create.html)
+-   [« openalcontextcreate](function.openal-context-create.html)
     
--   [openal\_context\_destroy »](function.openal-context-destroy.html)
+-   [openalcontextdestroy »](function.openal-context-destroy.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_context_current(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openal\_context\_create()](function.openal-context-create.html)
+Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
 
 ### Значення, що повертаються
 
@@ -35,4 +35,4 @@ openal_context_current(resource $context): bool
 
 ### Дивіться також
 
--   [openal\_context\_create()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку

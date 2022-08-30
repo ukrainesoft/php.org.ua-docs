@@ -1,12 +1,12 @@
 Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
 
--   [« cubrid\_error](function.cubrid-error.html)
+-   [« cubriderror](function.cubrid-error.html)
     
--   [cubrid\_fetch\_assoc »](function.cubrid-fetch-assoc.html)
+-   [cubridfetchassoc »](function.cubrid-fetch-assoc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
     
@@ -29,7 +29,7 @@ cubrid_fetch_array(resource $result, int $type = CUBRID_BOTH): array
 
 `result`
 
-`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `type`
 
@@ -39,7 +39,7 @@ cubrid_fetch_array(resource $result, int $type = CUBRID_BOTH): array
 
 Повертає масив рядків, що відповідає вилученому рядку, у разі успішного виконання.
 
-**`false`**якщо рядків більше немає; NULL, коли процес завершується помилкою.
+\*\*`false`\*\*якщо рядків більше немає; NULL, коли процес завершується помилкою.
 
 Тип масива, що повертається, залежить від заданого типу. За замовчуванням використовується CUBRIDBOTH, що веде до вилучення як асоціативного, і індексованого масивів, але це поведінка можна перевизначити параметром `type`. Значення, допустимі для параметра `type`
 
@@ -87,8 +87,8 @@ Ano Liossia                              34000.00   12000  Ano Liosia, Athens, G
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubrid\_fetch()](function.cubrid-fetch.html) - Вибирає наступний рядок із набору результатів
--   [cubrid\_fetch\_row()](function.cubrid-fetch-row.html) - Витягти рядок із результуючого набору у вигляді індексованого масиву
--   [cubrid\_fetch\_assoc()](function.cubrid-fetch-assoc.html) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubrid\_fetch\_object()](function.cubrid-fetch-object.html) - Витягти наступний рядок як об'єкт
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridfetch()](function.cubrid-fetch.html) - Вибирає наступний рядок із набору результатів
+-   [cubridfetchrow()](function.cubrid-fetch-row.html) - Витягти рядок із результуючого набору у вигляді індексованого масиву
+-   [cubridfetchassoc()](function.cubrid-fetch-assoc.html) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubridfetchobject()](function.cubrid-fetch-object.html) - Витягти наступний рядок як об'єкт

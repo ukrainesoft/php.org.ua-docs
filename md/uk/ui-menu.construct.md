@@ -1,12 +1,12 @@
 Створити новий об'єкт Menu
 
--   [« UI\\Menu::appendSeparator](ui-menu.appendseparator.html)
+-   [« UIMenu::appendSeparator](ui-menu.appendseparator.html)
     
--   [UI\\MenuItem »](class.ui-menuitem.html)
+-   [ОЙMenuItem »](class.ui-menuitem.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Menu](class.ui-menu.html)
+-   [ОЙMenu](class.ui-menu.html)
     
 -   Створити новий об'єкт Menu
     

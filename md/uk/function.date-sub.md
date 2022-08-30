@@ -1,8 +1,8 @@
 Псевдонім DateTime::sub
 
--   [« date\_parse](function.date-parse.html)
+-   [« dateparse](function.date-parse.html)
     
--   [date\_sun\_info »](function.date-sun-info.html)
+-   [datesuninfo »](function.date-sun-info.html)
     
 -   [PHP Manual](index.html)
     

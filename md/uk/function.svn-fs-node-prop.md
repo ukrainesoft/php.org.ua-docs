@@ -1,12 +1,12 @@
 Повертає значення властивості для вузла
 
--   [« svn\_fs\_node\_created\_rev](function.svn-fs-node-created-rev.html)
+-   [« svnфсnodecreatedrev](function.svn-fs-node-created-rev.html)
     
--   [svn\_fs\_props\_changed »](function.svn-fs-props-changed.html)
+-   [svnфсpropschanged »](function.svn-fs-props-changed.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає значення властивості для вузла
     

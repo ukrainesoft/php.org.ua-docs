@@ -1,8 +1,8 @@
 Свічкова модель "Трістар"
 
--   [« trader\_cdlthrusting](function.trader-cdlthrusting.html)
+-   [« tradercdlthrusting](function.trader-cdlthrusting.html)
     
--   [trader\_cdlunique3river »](function.trader-cdlunique3river.html)
+-   [tradercdlunique3river »](function.trader-cdlunique3river.html)
     
 -   [PHP Manual](index.html)
     

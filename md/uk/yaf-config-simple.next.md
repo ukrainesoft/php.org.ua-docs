@@ -1,12 +1,12 @@
 Призначення next
 
--   [« Yaf\_Config\_Simple::key](yaf-config-simple.key.html)
+-   [« YafConfigSimple::key](yaf-config-simple.key.html)
     
--   [Yaf\_Config\_Simple::offsetExists »](yaf-config-simple.offsetexists.html)
+-   [YafConfigSimple::offsetExists »](yaf-config-simple.offsetexists.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення next
     

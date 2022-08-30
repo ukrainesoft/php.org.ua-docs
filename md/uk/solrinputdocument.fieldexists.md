@@ -1,6 +1,6 @@
 Перевіряє, чи існує поле
 
--   [« SolrInputDocument::\_\_destruct](solrinputdocument.destruct.html)
+-   [« SolrInputDocument::destruct](solrinputdocument.destruct.html)
     
 -   [SolrInputDocument::getBoost »](solrinputdocument.getboost.html)
     

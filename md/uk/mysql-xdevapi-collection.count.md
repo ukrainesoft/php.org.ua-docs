@@ -1,12 +1,12 @@
 Отримує кількість документів
 
--   [« Collection::\_\_construct](mysql-xdevapi-collection.construct.html)
+-   [« Collection::construct](mysql-xdevapi-collection.construct.html)
     
 -   [Collection::createIndex »](mysql-xdevapi-collection.createindex.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+-   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     
 -   Отримує кількість документів
     

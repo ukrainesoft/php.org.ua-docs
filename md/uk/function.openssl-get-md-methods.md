@@ -1,8 +1,8 @@
 Отримати список доступних методів хешування
 
--   [« openssl\_get\_curve\_names](function.openssl-get-curve-names.html)
+-   [« opensslgetcurvenames](function.openssl-get-curve-names.html)
     
--   [openssl\_get\_privatekey »](function.openssl-get-privatekey.html)
+-   [opensslgetprivatekey »](function.openssl-get-privatekey.html)
     
 -   [PHP Manual](index.html)
     
@@ -123,5 +123,5 @@ Array
 
 ### Дивіться також
 
--   [openssl\_digest()](function.openssl-digest.html) - Обчислення дайджесту
--   [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.html) - Отримати список доступних алгоритмів шифрування
+-   [openssldigest()](function.openssl-digest.html) - Обчислення дайджесту
+-   [opensslgetciphermethods()](function.openssl-get-cipher-methods.html) - Отримати список доступних алгоритмів шифрування

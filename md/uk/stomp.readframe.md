@@ -39,7 +39,7 @@ stomp_read_frame(resource $link): array
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
 
 `class_name`
 

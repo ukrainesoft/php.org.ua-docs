@@ -1,12 +1,12 @@
 Повертає інформацію про мову та локалі
 
--   [« money\_format](function.money-format.html)
+-   [« moneyformat](function.money-format.html)
     
 -   [nl2br »](function.nl2br.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає інформацію про мову та локалі
     

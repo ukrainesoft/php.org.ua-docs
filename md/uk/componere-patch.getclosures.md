@@ -1,12 +1,12 @@
 Отримує замикання
 
--   [« Componere\\Patch::getClosure](componere-patch.getclosure.html)
+-   [« ComponerePatch::getClosure](componere-patch.getclosure.html)
     
--   [Componere\\Method »](class.componere-method.html)
+-   [ComponereMethod »](class.componere-method.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Patch](class.componere-patch.html)
+-   [ComponerePatch](class.componere-patch.html)
     
 -   Отримує замикання
     

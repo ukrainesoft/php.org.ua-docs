@@ -1,8 +1,8 @@
 Клас OAuth
 
--   [« oauth\_urlencode](function.oauth-urlencode.html)
+-   [« oauthurlencode](function.oauth-urlencode.html)
     
--   [OAuth::\_\_construct »](oauth.construct.html)
+-   [OAuth::construct »](oauth.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -87,8 +87,8 @@ debugInfo
 
 ## Зміст
 
--   [OAuth::\_\_construct](oauth.construct.html) — Створює новий об'єкт OAuth
--   [OAuth::\_\_destruct](oauth.destruct.html) - Деструктор
+-   [OAuth::construct](oauth.construct.html) — Створює новий об'єкт OAuth
+-   [OAuth::destruct](oauth.destruct.html) - Деструктор
 -   [OAuth::disableDebug](oauth.disabledebug.html) — Вимкнути докладну налагоджувальну інформацію
 -   [OAuth::disableRedirects](oauth.disableredirects.html) — Вимкнути переадресацію
 -   [OAuth::disableSSLChecks](oauth.disablesslchecks.html) — Вимкнути SSL перевірки

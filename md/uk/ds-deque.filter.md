@@ -1,12 +1,12 @@
 Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
 
--   [« Ds\\Deque::count](ds-deque.count.html)
+-   [« DsDeque::count](ds-deque.count.html)
     
--   [Ds\\Deque::find »](ds-deque.find.html)
+-   [ДсDeque::find »](ds-deque.find.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
     

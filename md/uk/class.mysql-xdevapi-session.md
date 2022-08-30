@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Session
     
@@ -57,7 +57,7 @@ public startTransaction(): void
 
 -   [Session::close](mysql-xdevapi-session.close.html) - Закриває сесію
 -   [Session::commit](mysql-xdevapi-session.commit.html) - Фіксує транзакцію
--   [Session::\_\_construct](mysql-xdevapi-session.construct.html) - Опис конструктора
+-   [Session::construct](mysql-xdevapi-session.construct.html) - Опис конструктора
 -   [Session::createSchema](mysql-xdevapi-session.createschema.html) - Створює нову схему
 -   [Session::dropSchema](mysql-xdevapi-session.dropschema.html) - Видаляє схему
 -   [Session::generateUUID](mysql-xdevapi-session.generateuuid.html) — Отримує новий UUID

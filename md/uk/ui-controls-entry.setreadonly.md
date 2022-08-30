@@ -1,12 +1,12 @@
 Встановити "тільки для читання"
 
--   [« UI\\Controls\\Entry::onChange](ui-controls-entry.onchange.html)
+-   [« UIControlsEntry::onChange](ui-controls-entry.onchange.html)
     
--   [UI\\Controls\\Entry::setText »](ui-controls-entry.settext.html)
+-   [ОЙControlsEntry::setText »](ui-controls-entry.settext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [ОЙControlsEntry](class.ui-controls-entry.html)
     
 -   Встановити "тільки для читання"
     

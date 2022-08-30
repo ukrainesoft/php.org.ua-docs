@@ -2,7 +2,7 @@
 
 -   [« SolrQuery::addStatsField](solrquery.addstatsfield.html)
     
--   [SolrQuery::\_\_construct »](solrquery.construct.html)
+-   [SolrQuery::construct »](solrquery.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,7 +2,7 @@
 
 -   [« Exception::getTrace](exception.gettrace.html)
     
--   [Exception::\_\_toString »](exception.tostring.html)
+-   [Exception::toString »](exception.tostring.html)
     
 -   [PHP Manual](index.html)
     

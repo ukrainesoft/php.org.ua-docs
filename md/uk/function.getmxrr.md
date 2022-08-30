@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Отримує записи MX, що відповідають переданому доменному імені хоста
     
@@ -41,7 +41,7 @@ getmxrr(string $hostname, array &$hosts, array &$weights = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо були знайдені записи; повертає **`false`**якщо записів не було знайдено або сталася помилка.
+Повертає \*\*`true`\*\*якщо були знайдені записи; повертає \*\*`false`\*\*якщо записів не було знайдено або сталася помилка.
 
 ### Примітки
 
@@ -51,12 +51,12 @@ getmxrr(string $hostname, array &$hosts, array &$weights = null): bool
 
 > **Зауваження**
 > 
-> Для сумісності з попередніми версіями PHP під Windows, де не було реалізації цієї функції, використовуйте клас [» PEAR](https://pear.php.net/) [» Net\_DNS](https://pear.php.net/package/Net_DNS)
+> Для сумісності з попередніми версіями PHP під Windows, де не було реалізації цієї функції, використовуйте клас [» PEAR](https://pear.php.net/) [» NetDNS](https://pear.php.net/package/Net_DNS)
 
 ### Дивіться також
 
 -   [checkdnsrr()](function.checkdnsrr.html) - Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
--   [dns\_get\_record()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
+-   [dnsgetrecord()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
 -   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
 -   [gethostbynamel()](function.gethostbynamel.html) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
 -   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі

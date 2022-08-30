@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrQuery::\_\_construct](solrquery.construct.html)
+-   [« SolrQuery::construct](solrquery.construct.html)
     
 -   [SolrQuery::getExpand »](solrquery.getexpand.html)
     

@@ -23,7 +23,7 @@ SeasLog::getDatetimeFormat — Отримує стиль формату дати
 public static SeasLog::getDatetimeFormat(): string
 ```
 
-Отримує стиль формату дати та часу SeasLog. Використовуйте функцію **SeasLog::getDatetimeFormat()**, щоб отримати значення [seaslog.default\_datetime\_format](seaslog.configuration.html#ini.seaslog.default-datetime-format), яка налаштована в php.ini(seaslog.ini).
+Отримує стиль формату дати та часу SeasLog. Використовуйте функцію **SeasLog::getDatetimeFormat()**, щоб отримати значення [seaslog.defaultdatetimeformat](seaslog.configuration.html#ini.seaslog.default-datetime-format), яка налаштована в php.ini(seaslog.ini).
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public static SeasLog::getDatetimeFormat(): string
 
 ### Значення, що повертаються
 
-Отримує стиль формату дати та часу SeasLog [seaslog.default\_datetime\_format](seaslog.configuration.html#ini.seaslog.default-datetime-format). Використання функції [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.html) змінить це значення.
+Отримує стиль формату дати та часу SeasLog [seaslog.defaultdatetimeformat](seaslog.configuration.html#ini.seaslog.default-datetime-format). Використання функції [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.html) змінить це значення.
 
 ### Приклади
 

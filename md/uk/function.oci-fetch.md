@@ -1,8 +1,8 @@
 Вибирає наступний рядок із результату в буфер
 
--   [« oci\_fetch\_row](function.oci-fetch-row.html)
+-   [« ocifetchrow](function.oci-fetch-row.html)
     
--   [oci\_field\_is\_null »](function.oci-field-is-null.html)
+-   [ocifieldісnull »](function.oci-field-is-null.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,15 +23,15 @@ ocifetch - Вибирає наступний рядок з результату 
 oci_fetch(resource $statement): bool
 ```
 
-Вибирає наступний рядок із результату запиту у внутрішній буфер, доступний за допомогою [oci\_result()](function.oci-result.html) або через змінні, заздалегідь визначені за допомогою [oci\_define\_by\_name()](function.oci-define-by-name.html)
+Вибирає наступний рядок із результату запиту у внутрішній буфер, доступний за допомогою [ociresult()](function.oci-result.html) або через змінні, заздалегідь визначені за допомогою [ocidefineбname()](function.oci-define-by-name.html)
 
-Дивіться [oci\_fetch\_array()](function.oci-fetch-array.html) для більш детальної інформації щодо вибору даних.
+Дивіться [ocifetcharray()](function.oci-fetch-array.html) для більш детальної інформації щодо вибору даних.
 
 ### Список параметрів
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [oci\_parse()](function.oci-parse.html) та виконаний функцією [oci\_execute()](function.oci-execute.html), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.html), або ідентифікатор виразу `REF CURSOR`
 
 ### Значення, що повертаються
 
@@ -74,7 +74,7 @@ oci_close($conn);
 ?>
 ```
 
-**Приклад #2 Приклад використання **ocifetch()** з [oci\_result()](function.oci-result.html)**
+**Приклад #2 Приклад використання **ocifetch()** з [ociresult()](function.oci-result.html)**
 
 ```php
 <?php
@@ -108,14 +108,14 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> Не повертає рядки для неявних результуючих наборів у Oracle Database. Використовуйте замість цієї функції функцію [oci\_fetch\_array()](function.oci-fetch-array.html)
+> Не повертає рядки для неявних результуючих наборів у Oracle Database. Використовуйте замість цієї функції функцію [ocifetcharray()](function.oci-fetch-array.html)
 
 ### Дивіться також
 
--   [oci\_define\_by\_name()](function.oci-define-by-name.html) - зіставляє змінну PHP стовпцю результату запиту
--   [oci\_fetch\_all()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву
--   [oci\_fetch\_array()](function.oci-fetch-array.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
--   [oci\_fetch\_assoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
--   [oci\_fetch\_object()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
--   [oci\_fetch\_row()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
--   [oci\_result()](function.oci-result.html) - Повертає значення поля із результату запиту
+-   [ocidefineбname()](function.oci-define-by-name.html) - зіставляє змінну PHP стовпцю результату запиту
+-   [ocifetchall()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [ocifetcharray()](function.oci-fetch-array.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [ocifetchassoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [ocifetchobject()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [ocifetchrow()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [ociresult()](function.oci-result.html) - Повертає значення поля із результату запиту

@@ -1,12 +1,12 @@
 Повертає сервер, пов'язаний із курсором
 
--   [« MongoDB\\Driver\\Cursor::getId](mongodb-driver-cursor.getid.html)
+-   [« MongoDBDriverCursor::getId](mongodb-driver-cursor.getid.html)
     
--   [MongoDB\\Driver\\Cursor::isDead »](mongodb-driver-cursor.isdead.html)
+-   [MongoDBDriverCursor::isDead »](mongodb-driver-cursor.isdead.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Повертає сервер, пов'язаний із курсором
     
@@ -23,7 +23,7 @@ MongoDBDriverCursor::getServer — Повертає сервер, пов'яза�
 final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), пов'язаний із курсором. Це сервер, який виконав [MongoDB\\Driver\\Query](class.mongodb-driver-query.html) або [MongoDB\\Driver\\Command](class.mongodb-driver-command.html)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із курсором. Це сервер, який виконав [MongoDBDriverQuery](class.mongodb-driver-query.html) або [MongoDBDriverCommand](class.mongodb-driver-command.html)
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), пов'язаний із курсором.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із курсором.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -106,4 +106,4 @@ object(MongoDB\Driver\Server)#5 (10) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)

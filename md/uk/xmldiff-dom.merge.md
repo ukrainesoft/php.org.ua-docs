@@ -1,12 +1,12 @@
 Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
 
--   [« XMLDiff\\DOM::diff](xmldiff-dom.diff.html)
+-   [« XMLDiffDOM::diff](xmldiff-dom.diff.html)
     
--   [XMLDiff\\Memory »](class.xmldiff-memory.html)
+-   [XMLDiffMemory »](class.xmldiff-memory.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\DOM](class.xmldiff-dom.html)
+-   [XMLDiffDOM](class.xmldiff-dom.html)
     
 -   Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
     

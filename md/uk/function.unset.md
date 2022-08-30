@@ -2,11 +2,11 @@
 
 -   [« unserialize](function.unserialize.html)
     
--   [var\_dump »](function.var-dump.html)
+-   [vardump »](function.var-dump.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Видаляє змінну
     
@@ -181,12 +181,12 @@ string(6) "Felipe"
 
 > **Зауваження**
 > 
-> При використанні **unset()** на недоступних або неоголошених властивостях об'єкта, буде викликано вбудований метод об'єкту [\_\_unset()](language.oop5.overloading.html#object.unset)якщо він визначений.
+> При використанні **unset()** на недоступних або неоголошених властивостях об'єкта, буде викликано вбудований метод об'єкту [unset()](language.oop5.overloading.html#object.unset)якщо він визначений.
 
 ### Дивіться також
 
 -   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [empty()](function.empty.html) - Перевіряє, чи порожня змінна
--   [\_\_unset()](language.oop5.overloading.html#object.unset)
--   [array\_splice()](function.array-splice.html) - Видаляє частину масиву і замінює її чимось ще
+-   [unset()](language.oop5.overloading.html#object.unset)
+-   [arraysplice()](function.array-splice.html) - Видаляє частину масиву і замінює її чимось ще
 -   [Приведение типа (unset)](language.types.null.html#language.types.null.casting)

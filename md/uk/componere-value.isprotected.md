@@ -1,12 +1,12 @@
 Визначення доступності
 
--   [« Componere\\Value::isPrivate](componere-value.isprivate.html)
+-   [« ComponereValue::isPrivate](componere-value.isprivate.html)
     
--   [Componere\\Value::isStatic »](componere-value.isstatic.html)
+-   [ComponereValue::isStatic »](componere-value.isstatic.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Визначення доступності
     

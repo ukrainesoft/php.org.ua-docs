@@ -1,12 +1,12 @@
 Розбирає XML-запити та методи, що викликають.
 
--   [« xmlrpc\_server\_add\_introspection\_data](function.xmlrpc-server-add-introspection-data.html)
+-   [« xmlrpcserveraddintrospectiondata](function.xmlrpc-server-add-introspection-data.html)
     
--   [xmlrpc\_server\_create »](function.xmlrpc-server-create.html)
+-   [xmlrpcservercreate »](function.xmlrpc-server-create.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Розбирає XML-запити та методи, що викликають.
     

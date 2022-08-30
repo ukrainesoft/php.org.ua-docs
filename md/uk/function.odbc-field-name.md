@@ -1,8 +1,8 @@
 Повертає ім'я стовпця
 
--   [« odbc\_field\_len](function.odbc-field-len.html)
+-   [« odbcfieldlen](function.odbc-field-len.html)
     
--   [odbc\_field\_num »](function.odbc-field-num.html)
+-   [odbcfieldnum »](function.odbc-field-num.html)
     
 -   [PHP Manual](index.html)
     

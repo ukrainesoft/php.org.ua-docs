@@ -1,8 +1,8 @@
 Відкриває файл
 
--   [« eio\_nthreads](function.eio-nthreads.html)
+-   [« eionthreads](function.eio-nthreads.html)
     
--   [eio\_poll »](function.eio-poll.html)
+-   [eiopoll »](function.eio-poll.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -119,4 +119,4 @@ bool(true)
 
 ### Дивіться також
 
--   [eio\_mknod()](function.eio-mknod.html) - Створює спеціальний чи звичайний файл
+-   [eiomknod()](function.eio-mknod.html) - Створює спеціальний чи звичайний файл

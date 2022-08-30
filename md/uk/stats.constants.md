@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](stats.resources.html)
     
--   [Функции статистики »](ref.stats.html)
+-   [Функції статистики »](ref.stats.html)
     
 -   [PHP Manual](index.html)
     

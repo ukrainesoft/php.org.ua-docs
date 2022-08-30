@@ -2,7 +2,7 @@
 
 -   [« dBase](ref.dbase.html)
     
--   [dbase\_close »](function.dbase-close.html)
+-   [dbaseclose »](function.dbase-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ dbase_add_record(resource $database, array $data): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 `data`
 
@@ -37,7 +37,7 @@ dbase_add_record(resource $database, array $data): bool
 
 > **Зауваження**
 > 
-> Якщо ви використовуєте як параметр запис, який повернула функція [dbase\_get\_record()](function.dbase-get-record.html), не забудьте скинути ключ `deleted`. (прим пров. - unset (record'deleted'
+> Якщо ви використовуєте як параметр запис, який повернула функція [dbasegetrecord()](function.dbase-get-record.html), не забудьте скинути ключ `deleted`. (прим пров. - unset (record'deleted'
 
 ### Значення, що повертаються
 
@@ -74,5 +74,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbase\_delete\_record()](function.dbase-delete-record.html) - Видалення записів із бази даних
--   [dbase\_replace\_record()](function.dbase-replace-record.html) - Замінює запис у базі даних
+-   [dbasedeleterecord()](function.dbase-delete-record.html) - Видалення записів із бази даних
+-   [dbasereplacerecord()](function.dbase-replace-record.html) - Замінює запис у базі даних

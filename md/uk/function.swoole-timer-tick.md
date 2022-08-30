@@ -1,8 +1,8 @@
 Викликати callback-функцію таймера тактів через певний проміжок часу
 
--   [« swoole\_timer\_exists](function.swoole-timer-exists.html)
+-   [« swooletimerexists](function.swoole-timer-exists.html)
     
--   [swoole\_version »](function.swoole-version.html)
+-   [swooleversion »](function.swoole-version.html)
     
 -   [PHP Manual](index.html)
     

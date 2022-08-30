@@ -1,8 +1,8 @@
 Переміщає файловий покажчик файлу fd на число байт offset відповідно до директиви whence
 
--   [« eio\_rmdir](function.eio-rmdir.html)
+-   [« eiormdir](function.eio-rmdir.html)
     
--   [eio\_sendfile »](function.eio-sendfile.html)
+-   [eiosendfile »](function.eio-sendfile.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

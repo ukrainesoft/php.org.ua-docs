@@ -1,12 +1,12 @@
 Десеріалізувати дані
 
--   [« Swoole\\Serialize::pack](swoole-serialize.pack.html)
+-   [« SwooleSerialize::pack](swoole-serialize.pack.html)
     
--   [Swoole\\Server »](class.swoole-server.html)
+-   [SwooleServer »](class.swoole-server.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Serialize](class.swoole-serialize.html)
+-   [SwooleSerialize](class.swoole-serialize.html)
     
 -   Десеріалізувати дані
     

@@ -1,8 +1,8 @@
 Визначає обсяг тексту повідомлень, що повертаються функціями pglasterror та pgresulterror
 
--   [« pg\_set\_client\_encoding](function.pg-set-client-encoding.html)
+-   [« pgsetclientencoding](function.pg-set-client-encoding.html)
     
--   [pg\_socket »](function.pg-socket.html)
+-   [пгsocket »](function.pg-socket.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-пгseterrorverbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [pg\_last\_error()](function.pg-last-error.html) і [pg\_result\_error()](function.pg-result-error.html)
+пгseterrorverbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.html) і [пгresulterror()](function.pg-result-error.html)
 
 ### Опис
 
@@ -23,7 +23,7 @@
 pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 ```
 
-Визначає обсяг тексту повідомлень, що повертаються функціями [pg\_last\_error()](function.pg-last-error.html) і [pg\_result\_error()](function.pg-result-error.html)
+Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.html) і [пгresulterror()](function.pg-result-error.html)
 
 **пгseterrorverbosity()** встановлює режим, який відповідає за повноту повідомлень про помилки. В режимі **`PGSQL_ERRORS_TERSE`** повідомлення будуть містити лише важливість помилки, основний текст та місце виникнення; ця інформація зазвичай міститься в один рядок. У режимі за замовчуванням **`PGSQL_ERRORS_DEFAULT`** до повідомлень буде додано деталі помилки, підказка або поля контексту (це може зайняти кілька рядків). В режимі **`PGSQL_ERRORS_VERBOSE`** повідомлення будуть містити всі поля. Зміна режиму не торкнеться повідомлення існуючих ресурсів. Новий режим буде застосовуватися тільки до новостворених.
 
@@ -31,7 +31,7 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -47,9 +47,9 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -71,5 +71,5 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 ### Дивіться також
 
--   [pg\_last\_error()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
--   [pg\_result\_error()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [пгlasterror()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [пгresulterror()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату

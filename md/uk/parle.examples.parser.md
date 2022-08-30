@@ -2,7 +2,7 @@
 
 -   [« Примеры использования лексера](parle.examples.lexer.html)
     
--   [Parle\\Lexer »](class.parle-lexer.html)
+-   [ParleLexer »](class.parle-lexer.html)
     
 -   [PHP Manual](index.html)
     

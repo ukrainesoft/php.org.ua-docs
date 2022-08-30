@@ -1,8 +1,8 @@
 Повертає масив з допустимими розмірами ключа для алгоритму
 
--   [« mcrypt\_enc\_get\_modes\_name](function.mcrypt-enc-get-modes-name.html)
+-   [« mcryptencgetmodesname](function.mcrypt-enc-get-modes-name.html)
     
--   [mcrypt\_enc\_is\_block\_algorithm\_mode »](function.mcrypt-enc-is-block-algorithm-mode.html)
+-   [mcryptencісblockalgorithmmode »](function.mcrypt-enc-is-block-algorithm-mode.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ mcrypt_enc_get_supported_key_sizes(resource $td): array
 
 ### Значення, що повертаються
 
-Повертає масив з допустимими розмірами ключа для алгоритму. Якщо допустимі будь-які розміри від 1 до [mcrypt\_enc\_get\_key\_size()](function.mcrypt-enc-get-key-size.html), Повертається порожній масив.
+Повертає масив з допустимими розмірами ключа для алгоритму. Якщо допустимі будь-які розміри від 1 до [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.html), Повертається порожній масив.
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Отримує опції для потоку/обгортки/контексту
 
--   [« stream\_context\_get\_default](function.stream-context-get-default.html)
+-   [« streamcontextgetdefault](function.stream-context-get-default.html)
     
--   [stream\_context\_get\_params »](function.stream-context-get-params.html)
+-   [streamcontextgetparams »](function.stream-context-get-params.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримує опції для потоку/обгортки/контексту
     

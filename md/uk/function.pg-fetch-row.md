@@ -1,8 +1,8 @@
 Вибирає рядок результату запиту та поміщає дані до масиву
 
--   [« pg\_fetch\_result](function.pg-fetch-result.html)
+-   [« pgfetchresult](function.pg-fetch-result.html)
     
--   [pg\_field\_is\_null »](function.pg-field-is-null.html)
+-   [пгfieldісnull »](function.pg-field-is-null.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ pg_fetch_row(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_NUM): arr
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `row`
 
@@ -49,9 +49,9 @@ pg_fetch_row(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_NUM): arr
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -82,7 +82,7 @@ while ($row = pg_fetch_row($result)) {
 
 ### Дивіться також
 
--   [pg\_query()](function.pg-query.html) - Виконує запит
--   [pg\_fetch\_array()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
--   [pg\_fetch\_object()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [pg\_fetch\_result()](function.pg-fetch-result.html) - Повертає запис із результату запиту
+-   [пгquery()](function.pg-query.html) - Виконує запит
+-   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [пгfetchobject()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгfetchresult()](function.pg-fetch-result.html) - Повертає запис із результату запиту

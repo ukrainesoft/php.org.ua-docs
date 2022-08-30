@@ -1,12 +1,12 @@
 Отримує всі об'єкти SNMP з агента
 
--   [« snmp2\_set](function.snmp2-set.html)
+-   [« snmp2set](function.snmp2-set.html)
     
--   [snmp3\_get »](function.snmp3-get.html)
+-   [snmpv3get »](function.snmp3-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує всі об'єкти SNMP з агента
     
@@ -72,4 +72,4 @@ foreach ($a as $val) {
 
 ### Дивіться також
 
--   [snmp2\_real\_walk()](function.snmp2-real-walk.html) - Повертає всі об'єкти, включаючи їхній ідентифікатор
+-   [snmp2realwalk()](function.snmp2-real-walk.html) - Повертає всі об'єкти, включаючи їхній ідентифікатор

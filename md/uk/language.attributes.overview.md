@@ -2,7 +2,7 @@
 
 -   [« Атрибуты](language.attributes.html)
     
--   [Синтаксис атрибутов »](language.attributes.syntax.html)
+-   [Синтаксис атрибутів »](language.attributes.syntax.html)
     
 -   [PHP Manual](index.html)
     

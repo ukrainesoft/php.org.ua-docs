@@ -92,4 +92,4 @@ IntlTimeZone Object
 
 -   [IntlCalendar::setTimeZone()](intlcalendar.settimezone.html) - Встановлює часовий пояс, що використовується календарем
 -   [IntlCalendar::createInstance()](intlcalendar.createinstance.html) - Створює новий об'єкт IntlCalendar
--   [IntlGregorianCalendar::\_\_construct()](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря
+-   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря

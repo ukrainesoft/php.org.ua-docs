@@ -1,12 +1,12 @@
 Використання бібліотеки PHP для MongoDB (PHPLIB)
 
--   [« Обучающие материалы](mongodb.tutorial.html)
+-   [" Навчальні матеріали](mongodb.tutorial.html)
     
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM) »](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM) »](mongodb.tutorial.apm.html)
     
 -   [PHP Manual](index.html)
     
--   [Обучающие материалы](mongodb.tutorial.html)
+-   [Навчальні матеріали](mongodb.tutorial.html)
     
 -   Використання бібліотеки PHP для MongoDB (PHPLIB)
     
@@ -47,7 +47,7 @@ require 'vendor/autoload.php';
 
 Після цього можна використовувати будь-який функціонал, описаний у [» документации по библиотеке](https://www.mongodb.com/docs/php-library/current/)
 
-Якщо ви раніше використовували старіший драйвер (тобто модуль `mongo`), то API бібліотеки має бути вам знайоме. Воно містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBClient/) для з'єднання з MongoDB, клас [» Database](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBDatabase/) для операцій рівня бази даних (тобто команди, управління колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBCollection) для операцій рівня колекції (тобто методи [» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами). Різні методи Collection були перейменовані для більшої зрозумілості та відповідності мовно-незалежній [» спецификации](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst)
+Якщо ви раніше використовували старіший драйвер (тобто модуль `mongo`), то API бібліотеки має бути вам знайоме. Воно містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBClient/) для з'єднання з MongoDB, клас [» Database](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBDatabase/) для операцій рівня бази даних (тобто команди, управління колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBCollection) для операцій рівня колекції (тобто методи [» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами). Різні методи Collection були перейменовані для більшої зрозумілості та відповідності мовно-незалежній [» специфікації](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst)
 
 Приклад, як вставити документ у колекцію *beers* бази даних *demo*
 
@@ -83,4 +83,4 @@ foreach ($result as $entry) {
 ?>
 ```
 
-Хоча з прикладу це не очевидно, але документи BSON і масиви за умовчанням десеріалізовані як типи класів у бібліотеці. Ці класи гарантують, що значення збережуть свої типи коли серіалізуватимуться назад у BSON, що дозволяє уникнути проблеми старих драйверів, коли масиви могли перетворитися на документи і навпаки. Крім того, класи успадковують [ArrayObject](class.arrayobject.html) для більшої зручності використання. Більш детально про серіалізацію та десеріалізацію між змінними PHP і BSON можна прочитати у специфікації [Постоянные данные](mongodb.persistence.html)
+Хоча з прикладу це не очевидно, але документи BSON і масиви за умовчанням десеріалізовані як типи класів у бібліотеці. Ці класи гарантують, що значення збережуть свої типи коли серіалізуватимуться назад у BSON, що дозволяє уникнути проблеми старих драйверів, коли масиви могли перетворитися на документи і навпаки. Крім того, класи успадковують [ArrayObject](class.arrayobject.html) для більшої зручності використання. Більш детально про серіалізацію та десеріалізацію між змінними PHP і BSON можна прочитати у специфікації [Постійні дані](mongodb.persistence.html)

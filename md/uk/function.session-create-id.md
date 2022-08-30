@@ -1,12 +1,12 @@
 Створює новий ідентифікатор сесії
 
--   [« session\_commit](function.session-commit.html)
+-   [« sessioncommit](function.session-commit.html)
     
--   [session\_decode »](function.session-decode.html)
+-   [sessiondecode »](function.session-decode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Створює новий ідентифікатор сесії
     
@@ -43,7 +43,7 @@ session_create_id(string $prefix = ""): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sessioncreateid()** з функцією [session\_regenerate\_id()](function.session-regenerate-id.html)**
+**Приклад #1 Приклад використання **sessioncreateid()** з функцією [sessionregenerateid()](function.session-regenerate-id.html)**
 
 ```php
 <?php
@@ -96,7 +96,7 @@ my_session_regenerate_id();
 
 ### Дивіться також
 
--   [session\_regenerate\_id()](function.session-regenerate-id.html) - Генерує та оновлює ідентифікатор поточної сесії
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [session.use\_strict\_mode](session.configuration.html#ini.session.use-strict-mode)
--   [SessionHandler::create\_sid()](sessionhandler.create-sid.html) - Повертає новий ідентифікатор сесії
+-   [sessionregenerateid()](function.session-regenerate-id.html) - Генерує та оновлює ідентифікатор поточної сесії
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)
+-   [SessionHandler::createsid()](sessionhandler.create-sid.html) - Повертає новий ідентифікатор сесії

@@ -1,12 +1,12 @@
 Елемент керування "Селектор"
 
--   [« UI\\Controls\\Radio::setSelected](ui-controls-radio.setselected.html)
+-   [« UIControlsRadio::setSelected](ui-controls-radio.setselected.html)
     
--   [UI\\Controls\\Picker::\_\_construct »](ui-controls-picker.construct.html)
+-   [ОЙControlsPicker::construct »](ui-controls-picker.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент керування "Селектор"
     
@@ -88,4 +88,4 @@ public UI\Control::show()
 
 ## Зміст
 
--   [UI\\Controls\\Picker::\_\_construct](ui-controls-picker.construct.html) - Створює новий об'єкт Picker
+-   [ОЙControlsPicker::construct](ui-controls-picker.construct.html) - Створює новий об'єкт Picker

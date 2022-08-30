@@ -1,8 +1,8 @@
 Перевірка на рівність за постійну кількість часу
 
--   [« sodium\_increment](function.sodium-increment.html)
+-   [« sodiumincrement](function.sodium-increment.html)
     
--   [sodium\_memzero »](function.sodium-memzero.html)
+-   [sodiummemzero »](function.sodium-memzero.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ sodium_memcmp(string $string1, string $string2): int
 
 Порівнює два рядки за постійний час.
 
-Насправді частіше замість цієї функції використовується [hash\_equals()](function.hash-equals.html)оскільки вона надає ту ж логіку, але повертає логічне значення (bool) замість цілого числа (int). Однак, якщо ви використовуєте значення порівняння, що повертається, в обчисленнях, які чутливі до часу, і турбуєтеся про витікання часу при перетвореннях типу bool-to-int, **sodiummemcmp()** - Ідеальна заміна.
+Насправді частіше замість цієї функції використовується [hashequals()](function.hash-equals.html)оскільки вона надає ту ж логіку, але повертає логічне значення (bool) замість цілого числа (int). Однак, якщо ви використовуєте значення порівняння, що повертається, в обчисленнях, які чутливі до часу, і турбуєтеся про витікання часу при перетвореннях типу bool-to-int, **sodiummemcmp()** - Ідеальна заміна.
 
 ### Список параметрів
 

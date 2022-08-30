@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.html)
+-   [« SolrModifiableParams::construct](solrmodifiableparams.construct.html)
     
 -   [SolrQuery »](class.solrquery.html)
     

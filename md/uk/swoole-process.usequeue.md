@@ -1,12 +1,12 @@
 Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
 
--   [« Swoole\\Process::statQueue](swoole-process.statqueue.html)
+-   [« SwooleProcess::statQueue](swoole-process.statqueue.html)
     
--   [Swoole\\Process::wait »](swoole-process.wait.html)
+-   [SwooleProcess::wait »](swoole-process.wait.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
     

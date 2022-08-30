@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](sockets.constants.html)
     
--   [Ошибки сокетов »](sockets.errors.html)
+-   [Помилки сокетів »](sockets.errors.html)
     
 -   [PHP Manual](index.html)
     

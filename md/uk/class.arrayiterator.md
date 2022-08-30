@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас ArrayIterator
     
@@ -94,7 +94,7 @@ public valid(): bool
 
 -   [ArrayIterator::append](arrayiterator.append.html) - Додати елемент
 -   [ArrayIterator::asort](arrayiterator.asort.html) — Сортує елементи за значеннями
--   [ArrayIterator::\_\_construct](arrayiterator.construct.html) - Створює ArrayIterator
+-   [ArrayIterator::construct](arrayiterator.construct.html) - Створює ArrayIterator
 -   [ArrayIterator::count](arrayiterator.count.html) — Порахувати кількість елементів
 -   [ArrayIterator::current](arrayiterator.current.html) — Повертає поточний елемент у масиві
 -   [ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.html) — Повертає копію масиву

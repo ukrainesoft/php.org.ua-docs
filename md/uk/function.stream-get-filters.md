@@ -1,12 +1,12 @@
 Отримати список зареєстрованих фільтрів
 
--   [« stream\_get\_contents](function.stream-get-contents.html)
+-   [« streamgetcontents](function.stream-get-contents.html)
     
--   [stream\_get\_line »](function.stream-get-line.html)
+-   [streamgetline »](function.stream-get-line.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримати список зареєстрованих фільтрів
     
@@ -58,5 +58,5 @@ Array (
 
 ### Дивіться також
 
--   [stream\_filter\_register()](function.stream-filter-register.html) - Реєструє потоковий фільтр, визначений користувачем
--   [stream\_get\_wrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків
+-   [streamfilterregister()](function.stream-filter-register.html) - Реєструє потоковий фільтр, визначений користувачем
+-   [streamgetwrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків

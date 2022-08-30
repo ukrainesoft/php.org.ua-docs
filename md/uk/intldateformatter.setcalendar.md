@@ -127,6 +127,6 @@ echo "После:  ", $formatter->format($time), "\n";
 
 ### Дивіться також
 
--   [datefmt\_get\_calendar()](intldateformatter.getcalendar.html) - Отримує тип календаря, який використовується IntlDateFormatter
--   [datefmt\_get\_calendar\_object()](intldateformatter.getcalendarobject.html) - Отримує копію об'єкта календаря засобу форматування
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgetcalendar()](intldateformatter.getcalendar.html) - Отримує тип календаря, який використовується IntlDateFormatter
+-   [datefmtgetcalendarobject()](intldateformatter.getcalendarobject.html) - Отримує копію об'єкта календаря засобу форматування
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

@@ -17,11 +17,11 @@
 
 **Опції налаштування Intl**
 
-| Имя                                                                     | По умолчанию | Место изменения | Список изменений        |
-|-------------------------------------------------------------------------|--------------|-----------------|-------------------------|
-| [intl.default\_locale](intl.configuration.html#ini.intl.default-locale) |              | PHPINIALL       |                         |
-| [intl.error\_level](intl.configuration.html#ini.intl.error-level)       |              | PHPINIALL       |                         |
-| [intl.use\_exceptions](intl.configuration.html#ini.intl.use-exceptions) |              | PHPINIALL       | Доступно з PECL 3.0.0a1 |
+| Имя                                                                   | По умолчанию | Место изменения | Список изменений        |
+|-----------------------------------------------------------------------|--------------|-----------------|-------------------------|
+| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |              | PHPINIALL       |                         |
+| [intl.errorlevel](intl.configuration.html#ini.intl.error-level)       |              | PHPINIALL       |                         |
+| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |              | PHPINIALL       | Доступно з PECL 3.0.0a1 |
 
 Коротке пояснення конфігураційних директив.
 
@@ -33,12 +33,12 @@
 
 `intl.error_level` int
 
-Рівень повідомлень про помилки, що генеруються при їх виникненні у функціях ICU. Визначається як рівень помилок PHP, таких як **`E_WARNING`**. Можна встановити рівним `0`якщо взагалі не хочете бачити повідомлення про помилки. Дана настройка не впливає на значення функцій, що повертаються, у разі помилок і результат виконання [intl\_get\_error\_code()](function.intl-get-error-code.html) та специфічних для класів методів, які повертають інформацію про помилки. Якщо вибрано рівень `E_ERROR`, то виконання скрипту буде перериватись у разі виникнення помилки.
+Рівень повідомлень про помилки, що генеруються при їх виникненні у функціях ICU. Визначається як рівень помилок PHP, таких як **`E_WARNING`**. Можна встановити рівним `0`якщо взагалі не хочете бачити повідомлення про помилки. Дана настройка не впливає на значення функцій, що повертаються, у разі помилок і результат виконання [intlgeterrorcode()](function.intl-get-error-code.html) та специфічних для класів методів, які повертають інформацію про помилки. Якщо вибрано рівень `E_ERROR`, то виконання скрипту буде перериватись у разі виникнення помилки.
 
 За замовчуванням одно `0`
 
 `intl.use_exceptions` int
 
-Якщо встановлено як **`true`**, то замість помилок викидатимуться винятки класу [IntlException](class.intlexception.html). Можна використовувати на додаток до [intl.error\_level](intl.configuration.html#ini.intl.error-level)
+Якщо встановлено як **`true`**, то замість помилок викидатимуться винятки класу [IntlException](class.intlexception.html). Можна використовувати на додаток до [intl.errorlevel](intl.configuration.html#ini.intl.error-level)
 
 за умовчанням одно **`false`**

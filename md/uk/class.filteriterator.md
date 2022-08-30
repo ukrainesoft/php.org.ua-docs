@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас FilterIterator
     
@@ -65,7 +65,7 @@ public IteratorIterator::valid(): bool
 ## Зміст
 
 -   [FilterIterator::accept](filteriterator.accept.html) — Перевіряє, чи поточний елемент ітератора є допустимим.
--   [FilterIterator::\_\_construct](filteriterator.construct.html) - Конструктор класу FilterIterator
+-   [FilterIterator::construct](filteriterator.construct.html) - Конструктор класу FilterIterator
 -   [FilterIterator::current](filteriterator.current.html) — Отримує значення поточного елемента
 -   [FilterIterator::getInnerIterator](filteriterator.getinneriterator.html) — Отримує внутрішній ітератор
 -   [FilterIterator::key](filteriterator.key.html) — Отримує поточний ключ

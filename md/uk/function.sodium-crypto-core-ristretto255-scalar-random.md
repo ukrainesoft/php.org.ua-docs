@@ -1,8 +1,8 @@
 Генерує випадковий ключ
 
--   [« sodium\_crypto\_core\_ristretto255\_scalar\_negate](function.sodium-crypto-core-ristretto255-scalar-negate.html)
+-   [« sodiumcryptocoreristretto255scalarnegate](function.sodium-crypto-core-ristretto255-scalar-negate.html)
     
--   [sodium\_crypto\_core\_ristretto255\_scalar\_reduce »](function.sodium-crypto-core-ristretto255-scalar-reduce.html)
+-   [sodiumcryptocoreristretto255scalarreduce »](function.sodium-crypto-core-ristretto255-scalar-reduce.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,5 +62,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodium\_crypto\_core\_ristretto255\_scalar\_add()](function.sodium-crypto-core-ristretto255-scalar-add.html) - Додає скалярне значення
--   [sodium\_crypto\_core\_ristretto255\_scalar\_sub()](function.sodium-crypto-core-ristretto255-scalar-sub.html) - Віднімає скалярне значення
+-   [sodiumcryptocoreristretto255scalaradd()](function.sodium-crypto-core-ristretto255-scalar-add.html) - Додає скалярне значення
+-   [sodiumcryptocoreristretto255scalarsub()](function.sodium-crypto-core-ristretto255-scalar-sub.html) - Віднімає скалярне значення

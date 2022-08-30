@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає довжину рядка
     
@@ -62,6 +62,6 @@ echo strlen($str); // 7
 ### Дивіться також
 
 -   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
--   [grapheme\_strlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
--   [iconv\_strlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
--   [mb\_strlen()](function.mb-strlen.html) - Отримує довжину рядка
+-   [graphemestrlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
+-   [iconvstrlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
+-   [мбstrlen()](function.mb-strlen.html) - Отримує довжину рядка

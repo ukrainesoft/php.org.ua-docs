@@ -2,7 +2,7 @@
 
 -   [« Функции intl](ref.intl.html)
     
--   [intl\_get\_error\_code »](function.intl-get-error-code.html)
+-   [intlgeterrorcode »](function.intl-get-error-code.html)
     
 -   [PHP Manual](index.html)
     
@@ -56,6 +56,6 @@ printf( "Символическое имя для %d - %s\n.", $err_code,
 
 ### Дивіться також
 
--   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
--   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intl\_get\_error\_message()](function.intl-get-error-message.html) - Отримати опис помилки
+-   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intlgeterrormessage()](function.intl-get-error-message.html) - Отримати опис помилки

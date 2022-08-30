@@ -1,8 +1,8 @@
 Повертає інформацію про групу за її ID
 
--   [« posix\_getgid](function.posix-getgid.html)
+-   [« posixgetgid](function.posix-getgid.html)
     
--   [posix\_getgrnam »](function.posix-getgrnam.html)
+-   [posixgetgrnam »](function.posix-getgrnam.html)
     
 -   [PHP Manual](index.html)
     
@@ -78,8 +78,8 @@ Array
 
 ### Дивіться також
 
--   [posix\_getegid()](function.posix-getegid.html) - Повертає ефективний ідентифікатор групи поточного процесу EGID
--   [posix\_getgrnam()](function.posix-getgrnam.html) - Повертає інформацію про групу, використовуючи її ім'я
+-   [posixgetegid()](function.posix-getegid.html) - Повертає ефективний ідентифікатор групи поточного процесу EGID
+-   [posixgetgrnam()](function.posix-getgrnam.html) - Повертає інформацію про групу, використовуючи її ім'я
 -   [filegroup()](function.filegroup.html) - Отримує ідентифікатор групи файлу
 -   [stat()](function.stat.html) - Повертає інформацію про файл
 -   POSIX керівництво GETGRNAM(3)

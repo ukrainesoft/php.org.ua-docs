@@ -1,12 +1,12 @@
 Перетворює колекцію на масив (array)
 
--   [« Ds\\Queue::push](ds-queue.push.html)
+-   [« DsQueue::push](ds-queue.push.html)
     
--   [Очередь с приоритетом »](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом »](class.ds-priorityqueue.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Перетворює колекцію на масив (array)
     

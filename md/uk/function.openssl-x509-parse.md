@@ -1,8 +1,8 @@
 Розібрати сертифікат X509 та отримати масив з даними про нього
 
--   [« openssl\_x509\_free](function.openssl-x509-free.html)
+-   [« opensslx509free](function.openssl-x509-free.html)
     
--   [openssl\_x509\_read »](function.openssl-x509-read.html)
+-   [opensslx509read »](function.openssl-x509-read.html)
     
 -   [PHP Manual](index.html)
     

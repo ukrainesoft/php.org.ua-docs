@@ -1,8 +1,8 @@
 Повертає код останньої помилки множинного curl
 
--   [« curl\_multi\_close](function.curl-multi-close.html)
+-   [« curlmulticlose](function.curl-multi-close.html)
     
--   [curl\_multi\_exec »](function.curl-multi-exec.html)
+-   [curlmultiexec »](function.curl-multi-exec.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_multi_errno(CurlMultiHandle $multi_handle): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ curl_multi_errno(CurlMultiHandle $multi_handle): int
 
 ### Дивіться також
 
--   [curl\_errno()](function.curl-errno.html) - Повертає код останньої помилки
+-   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки

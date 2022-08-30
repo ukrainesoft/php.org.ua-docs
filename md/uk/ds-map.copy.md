@@ -1,8 +1,8 @@
 Повертає поверхневу копію колекції
 
--   [« Ds\\Map::\_\_construct](ds-map.construct.html)
+-   [« DsMap::construct](ds-map.construct.html)
     
--   [Ds\\Map::count »](ds-map.count.html)
+-   [ДсMap::count »](ds-map.count.html)
     
 -   [PHP Manual](index.html)
     

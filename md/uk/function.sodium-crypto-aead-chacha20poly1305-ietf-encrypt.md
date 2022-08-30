@@ -1,8 +1,8 @@
 Зашифрувати повідомлення
 
--   [« sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
+-   [« sodiumcryptoaeadchacha20poly1305ietfdecrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
     
--   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_keygen »](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html)
+-   [sodiumcryptoaeadchacha20poly1305ietfkeygen »](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html)
     
 -   [PHP Manual](index.html)
     

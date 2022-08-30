@@ -1,12 +1,12 @@
 Повертає масив із елементами у зворотному порядку
 
--   [« array\_replace](function.array-replace.html)
+-   [« arrayreplace](function.array-replace.html)
     
--   [array\_search »](function.array-search.html)
+-   [arraysearch »](function.array-search.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Повертає масив із елементами у зворотному порядку
     
@@ -95,4 +95,4 @@ Array
 
 ### Дивіться також
 
--   [array\_flip()](function.array-flip.html) - Змінює місцями ключі з їхніми значеннями у масиві
+-   [arrayflip()](function.array-flip.html) - Змінює місцями ключі з їхніми значеннями у масиві

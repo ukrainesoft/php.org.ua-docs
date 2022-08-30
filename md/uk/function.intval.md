@@ -2,11 +2,11 @@
 
 -   [« gettype](function.gettype.html)
     
--   [is\_array »](function.is-array.html)
+-   [ісarray »](function.is-array.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає ціле значення змінної
     
@@ -93,6 +93,6 @@ echo intval(true);                    // 1
 -   [floatval()](function.floatval.html) - Повертає значення змінної у вигляді числа з плаваючою точкою
 -   [strval()](function.strval.html) - Повертає строкове значення змінної
 -   [settype()](function.settype.html) - Задає тип змінної
--   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
--   [Манипуляции с типами](language.types.type-juggling.html)
--   [Математические функции произвольной точности BCMath](ref.bc.html)
+-   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
+-   [Маніпуляції з типами](language.types.type-juggling.html)
+-   [Математичні функції довільної точності BCMath](ref.bc.html)

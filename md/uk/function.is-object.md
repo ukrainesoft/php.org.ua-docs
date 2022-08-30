@@ -1,12 +1,12 @@
 Перевіряє, чи є змінна об'єктом
 
--   [« is\_numeric](function.is-numeric.html)
+-   [« isnumeric](function.is-numeric.html)
     
--   [is\_real »](function.is-real.html)
+-   [ісreal »](function.is-real.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи є змінна об'єктом
     
@@ -71,8 +71,8 @@ var_dump(get_students($obj));
 
 ### Дивіться також
 
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом

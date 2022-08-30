@@ -1,12 +1,12 @@
 Створює нову транзакцію
 
--   [« svn\_fs\_apply\_text](function.svn-fs-apply-text.html)
+-   [« svnфсapplytext](function.svn-fs-apply-text.html)
     
--   [svn\_fs\_change\_node\_prop »](function.svn-fs-change-node-prop.html)
+-   [svnфсchangenodeprop »](function.svn-fs-change-node-prop.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює нову транзакцію
     

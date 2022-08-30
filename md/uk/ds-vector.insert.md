@@ -1,8 +1,8 @@
 Вставляє значення за вказаним індексом
 
--   [« Ds\\Vector::get](ds-vector.get.html)
+-   [« DsVector::get](ds-vector.get.html)
     
--   [Ds\\Vector::isEmpty »](ds-vector.isempty.html)
+-   [ДсVector::isEmpty »](ds-vector.isempty.html)
     
 -   [PHP Manual](index.html)
     

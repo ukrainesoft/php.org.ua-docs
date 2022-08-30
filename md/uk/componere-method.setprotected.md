@@ -1,12 +1,12 @@
 Зміна доступності
 
--   [« Componere\\Method::setPrivate](componere-method.setprivate.html)
+-   [« ComponereMethod::setPrivate](componere-method.setprivate.html)
     
--   [Componere\\Method::setStatic »](componere-method.setstatic.html)
+-   [ComponereMethod::setStatic »](componere-method.setstatic.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Method](class.componere-method.html)
+-   [ComponereMethod](class.componere-method.html)
     
 -   Зміна доступності
     

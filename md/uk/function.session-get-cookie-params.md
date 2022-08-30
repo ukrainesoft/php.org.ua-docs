@@ -1,12 +1,12 @@
 Повертає параметри cookie сесії
 
--   [« session\_gc](function.session-gc.html)
+-   [« sessionгк](function.session-gc.html)
     
--   [session\_id »](function.session-id.html)
+-   [sessionid »](function.session-id.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Повертає параметри cookie сесії
     
@@ -48,10 +48,10 @@ session_get_cookie_params(): array
 
 ### Дивіться також
 
--   [session.cookie\_lifetime](session.configuration.html#ini.session.cookie-lifetime)
--   [session.cookie\_path](session.configuration.html#ini.session.cookie-path)
--   [session.cookie\_domain](session.configuration.html#ini.session.cookie-domain)
--   [session.cookie\_secure](session.configuration.html#ini.session.cookie-secure)
--   [session.cookie\_httponly](session.configuration.html#ini.session.cookie-httponly)
--   [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite)
--   [session\_set\_cookie\_params()](function.session-set-cookie-params.html) - Встановлює параметри сесійної cookie
+-   [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime)
+-   [session.cookiepath](session.configuration.html#ini.session.cookie-path)
+-   [session.cookiedomain](session.configuration.html#ini.session.cookie-domain)
+-   [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)
+-   [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)
+-   [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)
+-   [sessionsetcookieparams()](function.session-set-cookie-params.html) - Встановлює параметри сесійної cookie

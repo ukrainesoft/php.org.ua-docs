@@ -1,8 +1,8 @@
 Отримує ім'я наступного поля
 
--   [« fdf\_header](function.fdf-header.html)
+-   [« fdfheader](function.fdf-header.html)
     
--   [fdf\_open\_string »](function.fdf-open-string.html)
+-   [fdfopenstring »](function.fdf-open-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_next_field_name(resource $fdf_document, string $fieldname = ?): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 
@@ -56,4 +56,4 @@ for ($field = fdf_next_field_name($fdf);
 
 ### Дивіться також
 
--   [fdf\_get\_value()](function.fdf-get-value.html) - Отримує значення поля
+-   [fdfgetvalue()](function.fdf-get-value.html) - Отримує значення поля

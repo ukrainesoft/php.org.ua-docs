@@ -1,12 +1,12 @@
 Призначення valid
 
--   [« Yaf\_Config\_Ini::toArray](yaf-config-ini.toarray.html)
+-   [« YafConfigIni::toArray](yaf-config-ini.toarray.html)
     
--   [Yaf\_Config\_Simple »](class.yaf-config-simple.html)
+-   [YafConfigSimple »](class.yaf-config-simple.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Призначення valid
     

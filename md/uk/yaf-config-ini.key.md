@@ -1,12 +1,12 @@
 Отримує ключ поточного елемента
 
--   [« Yaf\_Config\_Ini::\_\_isset](yaf-config-ini.isset.html)
+-   [« YafConfigIni::isset](yaf-config-ini.isset.html)
     
--   [Yaf\_Config\_Ini::next »](yaf-config-ini.next.html)
+-   [YafConfigIni::next »](yaf-config-ini.next.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Отримує ключ поточного елемента
     

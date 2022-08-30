@@ -1,8 +1,8 @@
 Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305
 
--   [« sodium\_crypto\_aead\_chacha20poly1305\_decrypt](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
+-   [« sodiumcryptoaeadchacha20poly1305decrypt](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
     
--   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
+-   [sodiumcryptoaeadchacha20poly1305ietfdecrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
     
 -   [PHP Manual](index.html)
     

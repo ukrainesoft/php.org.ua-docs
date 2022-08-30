@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](xlswriter.resources.html)
     
--   [Vtiful\\Kernel\\Excel »](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel »](class.vtiful-kernel-excel.html)
     
 -   [PHP Manual](index.html)
     

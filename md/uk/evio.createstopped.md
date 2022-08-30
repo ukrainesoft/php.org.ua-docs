@@ -1,6 +1,6 @@
 Створює зупинений об'єкт спостерігача EvIo
 
--   [« EvIo::\_\_construct](evio.construct.html)
+-   [« EvIo::construct](evio.construct.html)
     
 -   [EvIo::set »](evio.set.html)
     
@@ -43,21 +43,21 @@ final
    ): EvIo
 ```
 
-Те саме, що й [EvIo::\_\_construct()](evio.construct.html) але не відбувається автоматичного запуску спостерігача.
+Те саме, що й [EvIo::construct()](evio.construct.html) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `fd`
 
-Дивіться [EvIo::\_\_construct()](evio.construct.html)
+Дивіться [EvIo::construct()](evio.construct.html)
 
 `events`
 
-Дивіться [EvIo::\_\_construct()](evio.construct.html)
+Дивіться [EvIo::construct()](evio.construct.html)
 
 `callback`
 
-Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -73,5 +73,5 @@ final
 
 ### Дивіться також
 
--   [EvIo::\_\_construct()](evio.construct.html) - Створює об'єкт спостерігач EvIo
+-   [EvIo::construct()](evio.construct.html) - Створює об'єкт спостерігач EvIo
 -   [EvLoop::io()](evloop.io.html) - Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій

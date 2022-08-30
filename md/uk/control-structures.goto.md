@@ -1,8 +1,8 @@
 goto
 
--   [« include\_once](function.include-once.html)
+-   [« includeonce](function.include-once.html)
     
--   [Функции »](language.functions.html)
+-   [Функції »](language.functions.html)
     
 -   [PHP Manual](index.html)
     

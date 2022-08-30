@@ -2,7 +2,7 @@
 
 -   [« RRDGraph::setOptions](rrdgraph.setoptions.html)
     
--   [RRDUpdater::\_\_construct »](rrdupdater.construct.html)
+-   [RRDUpdater::construct »](rrdupdater.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@
 
 ## Зміст
 
--   [RRDUpdater::\_\_construct](rrdupdater.construct.html) — Створює новий об'єкт RRDUpdater
+-   [RRDUpdater::construct](rrdupdater.construct.html) — Створює новий об'єкт RRDUpdater
 -   [RRDUpdater::update](rrdupdater.update.html) — Оновлює файл бази даних RRD

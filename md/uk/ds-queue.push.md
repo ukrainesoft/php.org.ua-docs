@@ -1,12 +1,12 @@
 Додає значення в чергу
 
--   [« Ds\\Queue::pop](ds-queue.pop.html)
+-   [« DsQueue::pop](ds-queue.pop.html)
     
--   [Ds\\Queue::toArray »](ds-queue.toarray.html)
+-   [ДсQueue::toArray »](ds-queue.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Додає значення в чергу
     

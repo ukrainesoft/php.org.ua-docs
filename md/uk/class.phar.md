@@ -228,7 +228,7 @@ public SplFileInfo::__toString(): string
 -   [Phar::canWrite](phar.canwrite.html) — Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
 -   [Phar::compress](phar.compress.html) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
 -   [Phar::compressFiles](phar.compressfiles.html) — Стискає всі файли у поточному Phar-архіві
--   [Phar::\_\_construct](phar.construct.html) — Створює об'єкт Phar-архіву
+-   [Phar::construct](phar.construct.html) — Створює об'єкт Phar-архіву
 -   [Phar::convertToData](phar.converttodata.html) — Конвертує phar-архів у tar-або zip-файл, що не виконується.
 -   [Phar::convertToExecutable](phar.converttoexecutable.html) — Конвертує phar-архів в інший формат файлу, що виконується.
 -   [Phar::copy](phar.copy.html) — Копіює один файл усередині phar-архіву в інший новий файл усередині phar-архіву
@@ -238,7 +238,7 @@ public SplFileInfo::__toString(): string
 -   [Phar::decompressFiles](phar.decompressfiles.html) — Розпаковує всі файли в поточному Phar-архіві
 -   [Phar::delMetadata](phar.delmetadata.html) — Видалити глобальні метадані в архіві phar
 -   [Phar::delete](phar.delete.html) — Видаляє файл усередині phar-архіву
--   [Phar::\_\_destruct](phar.destruct.html) — Знищує об'єкт архіву Phar
+-   [Phar::destruct](phar.destruct.html) — Знищує об'єкт архіву Phar
 -   [Phar::extractTo](phar.extractto.html) — Витягти вміст phar-архіву в директорію
 -   [Phar::getAlias](phar.getalias.html) - Отримати псевдонім для Phar
 -   [Phar::getMetadata](phar.getmetadata.html) — Витягти метадані phar-архіву

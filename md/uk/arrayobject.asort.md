@@ -2,7 +2,7 @@
 
 -   [« ArrayObject::append](arrayobject.append.html)
     
--   [ArrayObject::\_\_construct »](arrayobject.construct.html)
+-   [ArrayObject::construct »](arrayobject.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public ArrayObject::asort(int $flags = SORT_REGULAR): bool
 
 Прапори типу сортування:
 
--   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [операторы сравнения](language.operators.comparison.html)
+-   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [оператори порівняння](language.operators.comparison.html)
 -   **`SORT_NUMERIC`** - числове порівняння елементів
 -   **`SORT_STRING`** - рядкове порівняння елементів
 -   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядки на основі поточного мовного стандарту. Використовується мовний стандарт, який можна змінити за допомогою [setlocale()](function.setlocale.html)

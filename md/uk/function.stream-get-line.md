@@ -1,12 +1,12 @@
 Отримує рядок із потокового ресурсу до вказаного роздільника
 
--   [« stream\_get\_filters](function.stream-get-filters.html)
+-   [« streamgetfilters](function.stream-get-filters.html)
     
--   [stream\_get\_meta\_data »](function.stream-get-meta-data.html)
+-   [streamgetmetadata »](function.stream-get-meta-data.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримує рядок із потокового ресурсу до вказаного роздільника
     

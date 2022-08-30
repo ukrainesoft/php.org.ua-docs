@@ -1,12 +1,12 @@
 Обчислює поліном CRC32 для рядка
 
--   [« count\_chars](function.count-chars.html)
+-   [« countchars](function.count-chars.html)
     
 -   [crypt »](function.crypt.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Обчислює поліном CRC32 для рядка
     

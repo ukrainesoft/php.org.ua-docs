@@ -1,12 +1,12 @@
 Отримує всі встановлені з'єднання
 
--   [« Swoole\\Server::connection\_info](swoole-server.connection-info.html)
+-   [« SwooleServer::connectioninfo](swoole-server.connection-info.html)
     
--   [Swoole\\Server::\_\_construct »](swoole-server.construct.html)
+-   [SwooleServer::construct »](swoole-server.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Отримує всі встановлені з'єднання
     

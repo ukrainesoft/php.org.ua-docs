@@ -1,12 +1,12 @@
 Керування кольором
 
--   [« UI\\Draw\\Color::\_\_construct](ui-draw-color.construct.html)
+-   [« UIDrawColor::construct](ui-draw-color.construct.html)
     
--   [UI\\Draw\\Color::setChannel »](ui-draw-color.setchannel.html)
+-   [ОЙDrawColor::setChannel »](ui-draw-color.setchannel.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Color](class.ui-draw-color.html)
+-   [ОЙDrawColor](class.ui-draw-color.html)
     
 -   Керування кольором
     

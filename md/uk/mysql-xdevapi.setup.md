@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Встановлення та налаштування
     
@@ -18,4 +18,4 @@
 -   [Требования](mysql-xdevapi.requirements.html)
 -   [Установка](mysql-xdevapi.installation.html)
 -   [Настройка во время выполнения](mysql-xdevapi.configuration.html)
--   [Сборка / Компиляция из исходного кода](mysql-xdevapi.build.html)
+-   [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)

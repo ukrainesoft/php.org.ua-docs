@@ -1,12 +1,12 @@
 Повертає час останньої модифікації файлу
 
--   [« ftp\_login](function.ftp-login.html)
+-   [« ftplogin](function.ftp-login.html)
     
--   [ftp\_mkdir »](function.ftp-mkdir.html)
+-   [ftpmkdir »](function.ftp-mkdir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Повертає час останньої модифікації файлу
     
@@ -37,7 +37,7 @@ ftp_mdtm(FTP\Connection $ftp, string $filename): int
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `filename`
 
@@ -49,9 +49,9 @@ ftp_mdtm(FTP\Connection $ftp, string $filename): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

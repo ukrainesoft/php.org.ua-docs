@@ -1,6 +1,6 @@
 Отримує список імен таблиць, що зберігаються у певному джерелі даних
 
--   [« odbc\_tableprivileges](function.odbc-tableprivileges.html)
+-   [« odbctableprivileges](function.odbc-tableprivileges.html)
     
 -   [PDO »](book.pdo.html)
     
@@ -35,7 +35,7 @@ odbc_tables(    resource $odbc,    ?string $catalog = null,    ?stri
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -105,8 +105,8 @@ Array
 
 ### Дивіться також
 
--   [odbc\_tableprivileges()](function.odbc-tableprivileges.html) - Перераховує таблиці та привілеї, пов'язані з кожною таблицею
--   [odbc\_columns()](function.odbc-columns.html) - перераховує імена стовпців у зазначених таблицях
--   [odbc\_specialcolumns()](function.odbc-specialcolumns.html) - Витягує особливі стовпці
--   [odbc\_statistics()](function.odbc-statistics.html) - Отримує статистику про таблицю
--   [odbc\_procedures()](function.odbc-procedures.html) - Отримує список процедур, що зберігаються у певному джерелі даних
+-   [odbctableprivileges()](function.odbc-tableprivileges.html) - Перераховує таблиці та привілеї, пов'язані з кожною таблицею
+-   [odbccolumns()](function.odbc-columns.html) - перераховує імена стовпців у зазначених таблицях
+-   [odbcspecialcolumns()](function.odbc-specialcolumns.html) - Витягує особливі стовпці
+-   [odbcstatistics()](function.odbc-statistics.html) - Отримує статистику про таблицю
+-   [odbcprocedures()](function.odbc-procedures.html) - Отримує список процедур, що зберігаються у певному джерелі даних

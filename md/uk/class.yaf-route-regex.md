@@ -1,8 +1,8 @@
 Клас YafRouteRegex
 
--   [« Yaf\_Route\_Map::route](yaf-route-map.route.html)
+-   [« YafRouteMap::route](yaf-route-map.route.html)
     
--   [Yaf\_Route\_Regex::assemble »](yaf-route-regex.assemble.html)
+-   [YafRouteRegex::assemble »](yaf-route-regex.assemble.html)
     
 -   [PHP Manual](index.html)
     
@@ -82,6 +82,6 @@ verify
 
 ## Зміст
 
--   [Yaf\_Route\_Regex::assemble](yaf-route-regex.assemble.html) — Сформувати URL-адресу
--   [Yaf\_Route\_Regex::\_\_construct](yaf-route-regex.construct.html) - Конструктор класу YafRouteRegex
--   [Yaf\_Route\_Regex::route](yaf-route-regex.route.html) - Мета маршруту
+-   [YafRouteRegex::assemble](yaf-route-regex.assemble.html) — Сформувати URL-адресу
+-   [YafRouteRegex::construct](yaf-route-regex.construct.html) - Конструктор класу YafRouteRegex
+-   [YafRouteRegex::route](yaf-route-regex.route.html) - Мета маршруту

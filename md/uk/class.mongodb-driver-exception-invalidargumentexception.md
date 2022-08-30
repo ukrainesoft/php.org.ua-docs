@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionInvalidArgumentException
 
--   [« MongoDB\\Driver\\Exception\\ExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.html)
+-   [« MongoDBDriverExceptionExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.html)
     
--   [MongoDB\\Driver\\Exception\\LogicException »](class.mongodb-driver-exception-logicexception.html)
+-   [MongoDBDriverExceptionLogicException »](class.mongodb-driver-exception-logicexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionInvalidArgumentException
     

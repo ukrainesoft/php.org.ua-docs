@@ -2,7 +2,7 @@
 
 -   [« Установка](wkhtmltox.installation.html)
     
--   [wkhtmltox\\PDF\\Converter »](class.wkhtmltox-pdf-converter.html)
+-   [wkhtmltoxPDFConverter »](class.wkhtmltox-pdf-converter.html)
     
 -   [PHP Manual](index.html)
     

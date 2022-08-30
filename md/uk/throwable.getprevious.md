@@ -2,7 +2,7 @@
 
 -   [« Throwable::getTraceAsString](throwable.gettraceasstring.html)
     
--   [Throwable::\_\_toString »](throwable.tostring.html)
+-   [Throwable::toString »](throwable.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ Throwable::getPrevious — Повертає попередній Throwable
 public Throwable::getPrevious(): ?Throwable
 ```
 
-Повертає будь-який попередній Throwable (для прикладу, передане третім параметром [Exception::\_\_construct()](exception.construct.html)
+Повертає будь-який попередній Throwable (для прикладу, передане третім параметром [Exception::construct()](exception.construct.html)
 
 ### Список параметрів
 

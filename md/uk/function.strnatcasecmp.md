@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
     
@@ -62,7 +62,7 @@ int(0)
 
 ### Дивіться також
 
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
 -   [strcmp()](function.strcmp.html) - Бінарно-безпечне порівняння рядків
 -   [strcasecmp()](function.strcasecmp.html) - Бінарно-безпечне порівняння рядків без урахування регістру
 -   [substr()](function.substr.html) - Повертає підрядок

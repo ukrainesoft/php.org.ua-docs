@@ -1,12 +1,12 @@
 Кодування символів, що підтримуються
 
--   [« Ввод и вывод HTTP](mbstring.http.html)
+-   [« Введення та виведення HTTP](mbstring.http.html)
     
 -   [Механизм перегрузки функций »](mbstring.overload.html)
     
 -   [PHP Manual](index.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   Кодування символів, що підтримуються
     
@@ -101,6 +101,6 @@
 
 Якщо встановлено значення "`pass`", перетворення кодування немає.
 
-Якщо встановлено значення "`auto`", воно розширюється списком кодувань, визначеним у [NLS (настройках национального языка)](mbstring.configuration.html). Наприклад, якщо NLS встановлено в `Japanese`, передбачається, що значення буде зі списку "`ASCII,JIS,UTF-8,EUC-JP,SJIS`".
+Якщо встановлено значення "`auto`", воно розширюється списком кодувань, визначеним у [NLS (налаштування національної мови)](mbstring.configuration.html). Наприклад, якщо NLS встановлено в `Japanese`, передбачається, що значення буде зі списку "`ASCII,JIS,UTF-8,EUC-JP,SJIS`".
 
-Дивіться також [mb\_detect\_order()](function.mb-detect-order.html)
+Дивіться також [мбdetectorder()](function.mb-detect-order.html)

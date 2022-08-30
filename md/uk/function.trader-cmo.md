@@ -1,8 +1,8 @@
 Осцилятор цінових моментів Чанде
 
--   [« trader\_ceil](function.trader-ceil.html)
+-   [« traderceil](function.trader-ceil.html)
     
--   [trader\_correl »](function.trader-correl.html)
+-   [tradercorrel »](function.trader-correl.html)
     
 -   [PHP Manual](index.html)
     

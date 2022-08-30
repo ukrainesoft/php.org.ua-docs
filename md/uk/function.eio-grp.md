@@ -1,8 +1,8 @@
 Створює групу запитів
 
--   [« eio\_grp\_limit](function.eio-grp-limit.html)
+-   [« eiogrplimit](function.eio-grp-limit.html)
     
--   [eio\_init »](function.eio-init.html)
+-   [eioinit »](function.eio-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -120,5 +120,5 @@ string(4) "some"
 
 ### Дивіться також
 
--   [eio\_grp\_cancel()](function.eio-grp-cancel.html) - Скасує групу запитів
--   [eio\_grp\_add()](function.eio-grp-add.html) - Додає запит до групи запитів
+-   [eiogrpcancel()](function.eio-grp-cancel.html) - Скасує групу запитів
+-   [eiogrpadd()](function.eio-grp-add.html) - Додає запит до групи запитів

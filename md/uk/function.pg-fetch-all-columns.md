@@ -1,8 +1,8 @@
 Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
 
--   [« pg\_execute](function.pg-execute.html)
+-   [« pgexecute](function.pg-execute.html)
     
--   [pg\_fetch\_all »](function.pg-fetch-all.html)
+-   [пгfetchall »](function.pg-fetch-all.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 ```
 
-**пгfetchallcolumns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSql\\Result](class.pgsql-result.html)
+**пгfetchallcolumns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSqlResult](class.pgsql-result.html)
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
@@ -31,7 +31,7 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `field`
 
@@ -43,9 +43,9 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -75,4 +75,4 @@ var_dump($arr);
 
 ### Дивіться також
 
--   [pg\_fetch\_all()](function.pg-fetch-all.html) - Вибирає всі дані з результату запиту та поміщає їх у масив
+-   [пгfetchall()](function.pg-fetch-all.html) - Вибирає всі дані з результату запиту та поміщає їх у масив

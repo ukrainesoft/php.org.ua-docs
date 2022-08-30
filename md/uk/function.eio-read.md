@@ -1,8 +1,8 @@
 Читає дані з файлу, починаючи із заданого усунення
 
--   [« eio\_poll](function.eio-poll.html)
+-   [« eiopoll](function.eio-poll.html)
     
--   [eio\_readahead »](function.eio-readahead.html)
+-   [eioreadahead »](function.eio-readahead.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -126,7 +126,7 @@ string(5) "34567"
 
 ### Дивіться також
 
--   [eio\_open()](function.eio-open.html) - Відкриває файл
--   [eio\_write()](function.eio-write.html) - Запис у файл
--   [eio\_close()](function.eio-close.html) - Закрити файл
--   [eio\_event\_loop()](function.eio-event-loop.html) - Взаємодіє з libeio, поки всі запити не будуть виконані
+-   [eioopen()](function.eio-open.html) - Відкриває файл
+-   [eiowrite()](function.eio-write.html) - Запис у файл
+-   [eioclose()](function.eio-close.html) - Закрити файл
+-   [eioeventloop()](function.eio-event-loop.html) - Взаємодіє з libeio, поки всі запити не будуть виконані

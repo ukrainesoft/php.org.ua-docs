@@ -2,11 +2,11 @@
 
 -   [« atan](function.atan.html)
     
--   [base\_convert »](function.base-convert.html)
+-   [baseconvert »](function.base-convert.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Гіперболічний арктангенс
     

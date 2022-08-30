@@ -15,7 +15,7 @@
 
 **Встановлення PDO на Unix-системах**
 
-1.  PDO та драйвер [PDO\_SQLITE](ref.pdo-sqlite.html) включені за замовчуванням у PHP. Щоб увімкнути PDO драйвер для довільної бази даних, зверніться до документації [драйверы PDO баз данных](pdo.drivers.html)
+1.  PDO та драйвер [PDOSQLITE](ref.pdo-sqlite.html) включені за замовчуванням у PHP. Щоб увімкнути PDO драйвер для довільної бази даних, зверніться до документації [драйверы PDO баз данных](pdo.drivers.html)
     
     > **Зауваження**
     > 
@@ -45,7 +45,7 @@
     extension=php_pdo_sqlite.dll
     ```
     
-    Ці DLL повинні бути в директорії [extension\_dir](ini.core.html#ini.extension-dir)
+    Ці DLL повинні бути в директорії [extensiondir](ini.core.html#ini.extension-dir)
     
 
 > **Зауваження**

@@ -2,7 +2,7 @@
 
 -   [« FilterIterator](class.filteriterator.html)
     
--   [FilterIterator::\_\_construct »](filteriterator.construct.html)
+-   [FilterIterator::construct »](filteriterator.construct.html)
     
 -   [PHP Manual](index.html)
     

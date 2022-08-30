@@ -1,12 +1,12 @@
 Отримує наступний результат
 
--   [« Statement::\_\_construct](mysql-xdevapi-statement.construct.html)
+-   [« Statement::construct](mysql-xdevapi-statement.construct.html)
     
 -   [Statement::getResult »](mysql-xdevapi-statement.getresult.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Statement](class.mysql-xdevapi-statement.html)
+-   [mysqlxdevapiStatement](class.mysql-xdevapi-statement.html)
     
 -   Отримує наступний результат
     

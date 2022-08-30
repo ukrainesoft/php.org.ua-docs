@@ -1,6 +1,6 @@
 Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
 
--   [« RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.html)
+-   [« RecursiveCachingIterator::construct](recursivecachingiterator.construct.html)
     
 -   [RecursiveCachingIterator::hasChildren »](recursivecachingiterator.haschildren.html)
     

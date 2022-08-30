@@ -23,7 +23,7 @@ Exception::getPrevious — Повертає попередній об'єкт, щ
 final public Exception::getPrevious(): ?Throwable
 ```
 
-Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.html) (переданий третім параметром [Exception::\_\_construct()](exception.construct.html)
+Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.html) (переданий третім параметром [Exception::construct()](exception.construct.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ final public Exception::getPrevious(): ?Throwable
 
 ### Значення, що повертаються
 
-Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.html) або **`null`**якщо такого немає.
+Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.html) або \*\*`null`\*\*якщо такого немає.
 
 ### Приклади
 

@@ -2,7 +2,7 @@
 
 -   [« ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.html)
     
--   [ReflectionParameter::\_\_toString »](reflectionparameter.tostring.html)
+-   [ReflectionParameter::toString »](reflectionparameter.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ ReflectionParameter::isVariadic — Перевірити, чи є парамет
 public ReflectionParameter::isVariadic(): bool
 ```
 
-Перевіряє, чи визначено параметр як [параметр с переменным числом аргументов](functions.arguments.html#functions.variable-arg-list)
+Перевіряє, чи визначено параметр як [параметр зі змінною кількістю аргументів](functions.arguments.html#functions.variable-arg-list)
 
 ### Список параметрів
 

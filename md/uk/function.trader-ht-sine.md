@@ -1,8 +1,8 @@
 Перетворення Гільберта - SineWave
 
--   [« trader\_ht\_phasor](function.trader-ht-phasor.html)
+-   [« traderхтphasor](function.trader-ht-phasor.html)
     
--   [trader\_ht\_trendline »](function.trader-ht-trendline.html)
+-   [traderхтtrendline »](function.trader-ht-trendline.html)
     
 -   [PHP Manual](index.html)
     

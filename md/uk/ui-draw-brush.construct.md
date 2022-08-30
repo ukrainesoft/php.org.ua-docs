@@ -1,12 +1,12 @@
 Створити новий об'єкт Brush
 
--   [« UI\\Draw\\Brush](class.ui-draw-brush.html)
+-   [« UIDrawBrush](class.ui-draw-brush.html)
     
--   [UI\\Draw\\Brush::getColor »](ui-draw-brush.getcolor.html)
+-   [ОЙDrawBrush::getColor »](ui-draw-brush.getcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush](class.ui-draw-brush.html)
+-   [ОЙDrawBrush](class.ui-draw-brush.html)
     
 -   Створити новий об'єкт Brush
     
@@ -19,7 +19,7 @@
 
 ### Опис
 
-public **ОЙDrawBrush::construct**[UI\\Draw\\Color](class.ui-draw-color.html) `$color`
+public **ОЙDrawBrush::construct**[ОЙDrawColor](class.ui-draw-color.html) `$color`
 
 public **ОЙDrawBrush::construct**(int `$color`
 

@@ -235,7 +235,7 @@ public
 -   [EventHttpRequest::cancel](eventhttprequest.cancel.html) — Скасує очікування HTTP-запиту
 -   [EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.html) — Видаляє всі вихідні заголовки зі списку заголовків запиту
 -   [EventHttpRequest::closeConnection](eventhttprequest.closeconnection.html) — Закриває пов'язане з'єднання HTTP
--   [EventHttpRequest::\_\_construct](eventhttprequest.construct.html) - Конструктор об'єкта EventHttpRequest
+-   [EventHttpRequest::construct](eventhttprequest.construct.html) - Конструктор об'єкта EventHttpRequest
 -   [EventHttpRequest::findHeader](eventhttprequest.findheader.html) — Отримує значення заголовка
 -   [EventHttpRequest::free](eventhttprequest.free.html) — Звільняє об'єкт та видаляє пов'язані події
 -   [EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.html) — Повертає об'єкт EventBufferEvent

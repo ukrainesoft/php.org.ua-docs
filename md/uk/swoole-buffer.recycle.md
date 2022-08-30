@@ -1,12 +1,12 @@
 Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
 
--   [« Swoole\\Buffer::read](swoole-buffer.read.html)
+-   [« SwooleBuffer::read](swoole-buffer.read.html)
     
--   [Swoole\\Buffer::substr »](swoole-buffer.substr.html)
+-   [SwooleBuffer::substr »](swoole-buffer.substr.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
     

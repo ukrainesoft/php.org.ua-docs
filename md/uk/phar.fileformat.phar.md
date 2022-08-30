@@ -2,11 +2,11 @@
 
 -   [« Phar-архивы, основанные на zip](phar.fileformat.zip.html)
     
--   [Флаги глобальной битовой карты Phar »](phar.fileformat.flags.html)
+-   [Прапори глобальної бітової карти Phar »](phar.fileformat.flags.html)
     
 -   [PHP Manual](index.html)
     
--   [Чем отличается phar от tar- или zip-архива?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
     
 -   Формат файлу phar
     

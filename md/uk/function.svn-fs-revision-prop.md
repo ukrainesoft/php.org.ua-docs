@@ -1,12 +1,12 @@
 Повертає значення цієї властивості
 
--   [« svn\_fs\_props\_changed](function.svn-fs-props-changed.html)
+-   [« svnфсpropschanged](function.svn-fs-props-changed.html)
     
--   [svn\_fs\_revision\_root »](function.svn-fs-revision-root.html)
+-   [svnфсrevisionroot »](function.svn-fs-revision-root.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає значення цієї властивості
     

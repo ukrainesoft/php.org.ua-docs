@@ -1,8 +1,8 @@
 Повертає кількість елементів колекції
 
--   [« Ds\\Set::copy](ds-set.copy.html)
+-   [« DsSet::copy](ds-set.copy.html)
     
--   [Ds\\Set::diff »](ds-set.diff.html)
+-   [ДсSet::diff »](ds-set.diff.html)
     
 -   [PHP Manual](index.html)
     

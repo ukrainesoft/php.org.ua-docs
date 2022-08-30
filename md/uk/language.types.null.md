@@ -34,7 +34,7 @@ $var = NULL;
 ?>
 ```
 
-Дивіться також функції [is\_null()](function.is-null.html) і [unset()](function.unset.html)
+Дивіться також функції [ісnull()](function.is-null.html) і [unset()](function.unset.html)
 
 ### Приведення до **`null`**
 

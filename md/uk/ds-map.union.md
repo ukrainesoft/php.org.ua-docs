@@ -1,8 +1,8 @@
 Створює нову колекцію пар із елементів двох колекцій
 
--   [« Ds\\Map::toArray](ds-map.toarray.html)
+-   [« DsMap::toArray](ds-map.toarray.html)
     
--   [Ds\\Map::values »](ds-map.values.html)
+-   [ДсMap::values »](ds-map.values.html)
     
 -   [PHP Manual](index.html)
     

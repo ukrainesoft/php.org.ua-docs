@@ -35,5 +35,5 @@ public SessionHandler::create_sid(): string
 
 ### Дивіться також
 
--   [session\_id()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
--   [session\_create\_id()](function.session-create-id.html) - створює новий ідентифікатор сесії
+-   [sessionid()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
+-   [sessioncreateid()](function.session-create-id.html) - створює новий ідентифікатор сесії

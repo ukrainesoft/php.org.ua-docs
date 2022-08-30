@@ -1,12 +1,12 @@
 Видалення семафору
 
--   [« sem\_release](function.sem-release.html)
+-   [« semrelease](function.sem-release.html)
     
--   [shm\_attach »](function.shm-attach.html)
+-   [shmattach »](function.shm-attach.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Видалення семафору
     
@@ -31,7 +31,7 @@ sem_remove(SysvSemaphore $semaphore): bool
 
 `semaphore`
 
-Семафор, повернутий [sem\_get()](function.sem-get.html)
+Семафор, повернутий [semget()](function.sem-get.html)
 
 ### Значення, що повертаються
 
@@ -45,6 +45,6 @@ sem_remove(SysvSemaphore $semaphore): bool
 
 ### Дивіться також
 
--   [sem\_get()](function.sem-get.html) - Отримання ідентифікатора семафору
--   [sem\_release()](function.sem-release.html) - Звільнення семафору
--   [sem\_acquire()](function.sem-acquire.html) - Захоплення семафору
+-   [semget()](function.sem-get.html) - Отримання ідентифікатора семафору
+-   [semrelease()](function.sem-release.html) - Звільнення семафору
+-   [semacquire()](function.sem-acquire.html) - Захоплення семафору

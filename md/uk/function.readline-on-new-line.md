@@ -1,8 +1,8 @@
 Повідомляє readline, що курсор перемістився на новий рядок
 
--   [« readline\_list\_history](function.readline-list-history.html)
+-   [« readlinelisthistory](function.readline-list-history.html)
     
--   [readline\_read\_history »](function.readline-read-history.html)
+-   [readlinereadhistory »](function.readline-read-history.html)
     
 -   [PHP Manual](index.html)
     

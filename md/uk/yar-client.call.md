@@ -1,12 +1,12 @@
 Виклик сервісу
 
--   [« Yar\_Client](class.yar-client.html)
+-   [« YarClient](class.yar-client.html)
     
--   [Yar\_Client::\_\_construct »](yar-client.construct.html)
+-   [YarClient::construct »](yar-client.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Client](class.yar-client.html)
+-   [YarClient](class.yar-client.html)
     
 -   Виклик сервісу
     
@@ -55,4 +55,4 @@ $result = $client->some_method("parameter");
 
 ### Дивіться також
 
--   [Yar\_Client::setOpt()](yar-client.setopt.html) - Задати контекст виклику
+-   [YarClient::setOpt()](yar-client.setopt.html) - Задати контекст виклику

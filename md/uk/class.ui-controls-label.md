@@ -1,12 +1,12 @@
 Елемент управління "Мітка"
 
--   [« UI\\Controls\\ColorButton::setColor](ui-controls-colorbutton.setcolor.html)
+-   [« UIControlsColorButton::setColor](ui-controls-colorbutton.setcolor.html)
     
--   [UI\\Controls\\Label::\_\_construct »](ui-controls-label.construct.html)
+-   [ОЙControlsLabel::construct »](ui-controls-label.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент управління "Мітка"
     
@@ -65,6 +65,6 @@ public UI\Control::show()
 
 ## Зміст
 
--   [UI\\Controls\\Label::\_\_construct](ui-controls-label.construct.html) - Створити новий об'єкт Label
--   [UI\\Controls\\Label::getText](ui-controls-label.gettext.html) — Отримати текст
--   [UI\\Controls\\Label::setText](ui-controls-label.settext.html) — Встановити текст
+-   [ОЙControlsLabel::construct](ui-controls-label.construct.html) - Створити новий об'єкт Label
+-   [ОЙControlsLabel::getText](ui-controls-label.gettext.html) — Отримати текст
+-   [ОЙControlsLabel::setText](ui-controls-label.settext.html) — Встановити текст

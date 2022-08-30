@@ -2,7 +2,7 @@
 
 -   [« Примеры](dom.examples.html)
     
--   [DOMAttr::\_\_construct »](domattr.construct.html)
+-   [DOMAttr::construct »](domattr.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -185,5 +185,5 @@ value
 
 ## Зміст
 
--   [DOMAttr::\_\_construct](domattr.construct.html) - Створює екземпляр класу DOMAttr
+-   [DOMAttr::construct](domattr.construct.html) - Створює екземпляр класу DOMAttr
 -   [DOMAttr::isId](domattr.isid.html) — Перевіряє, чи є атрибут певним ідентифікатором

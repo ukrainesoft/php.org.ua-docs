@@ -1,8 +1,8 @@
 Видаляє та повертає значення за індексом
 
--   [« Ds\\Vector::reduce](ds-vector.reduce.html)
+-   [« DsVector::reduce](ds-vector.reduce.html)
     
--   [Ds\\Vector::reverse »](ds-vector.reverse.html)
+-   [ДсVector::reverse »](ds-vector.reverse.html)
     
 -   [PHP Manual](index.html)
     

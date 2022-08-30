@@ -2,7 +2,7 @@
 
 -   [« Функции Stomp](ref.stomp.html)
     
--   [stomp\_version »](function.stomp-version.html)
+-   [stompversion »](function.stomp-version.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ stomp_connect_error(): string
 
 ### Значення, що повертаються
 
-Рядок з описом помилки, або **`null`**якщо помилки не сталося.
+Рядок з описом помилки, або \*\*`null`\*\*якщо помилки не сталося.
 
 ### Приклади
 

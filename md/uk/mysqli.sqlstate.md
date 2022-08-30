@@ -1,8 +1,8 @@
 Повертає код стану SQLSTATE останньої MySQL операції
 
--   [« mysqli::set\_charset](mysqli.set-charset.html)
+-   [« mysqli::setcharset](mysqli.set-charset.html)
     
--   [mysqli::ssl\_set »](mysqli.ssl-set.html)
+-   [mysqli::sslset »](mysqli.ssl-set.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ mysqli_sqlstate(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -101,5 +101,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_errno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqli\_error()](mysqli.error.html) - Повертає рядок із описом останньої помилки
+-   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
+-   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки

@@ -1,8 +1,8 @@
 Присвоєння нового значення об'єкту варіанта
 
--   [« variant\_set\_type](function.variant-set-type.html)
+-   [« variantsettype](function.variant-set-type.html)
     
--   [variant\_sub »](function.variant-sub.html)
+-   [variantsub »](function.variant-sub.html)
     
 -   [PHP Manual](index.html)
     

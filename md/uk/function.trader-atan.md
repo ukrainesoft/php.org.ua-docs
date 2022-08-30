@@ -1,8 +1,8 @@
 Вектор тригонометричний арктангенс
 
--   [« trader\_asin](function.trader-asin.html)
+-   [« traderasin](function.trader-asin.html)
     
--   [trader\_atr »](function.trader-atr.html)
+-   [traderatr »](function.trader-atr.html)
     
 -   [PHP Manual](index.html)
     

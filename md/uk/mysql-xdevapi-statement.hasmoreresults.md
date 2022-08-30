@@ -2,11 +2,11 @@
 
 -   [« Statement::getResult](mysql-xdevapi-statement.getresult.html)
     
--   [mysql\_xdevapi\\Table »](class.mysql-xdevapi-table.html)
+-   [mysqlxdevapiTable »](class.mysql-xdevapi-table.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Statement](class.mysql-xdevapi-statement.html)
+-   [mysqlxdevapiStatement](class.mysql-xdevapi-statement.html)
     
 -   Перевіряє, чи є ще результати
     

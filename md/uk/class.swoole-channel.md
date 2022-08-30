@@ -1,8 +1,8 @@
 Клас SwooleChannel
 
--   [« Swoole\\Buffer::write](swoole-buffer.write.html)
+-   [« SwooleBuffer::write](swoole-buffer.write.html)
     
--   [Swoole\\Channel::\_\_construct »](swoole-channel.construct.html)
+-   [SwooleChannel::construct »](swoole-channel.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -42,8 +42,8 @@ public stats(): array
 
 ## Зміст
 
--   [Swoole\\Channel::\_\_construct](swoole-channel.construct.html) - Створює канал Swoole
--   [Swoole\\Channel::\_\_destruct](swoole-channel.destruct.html) - Знищує канал Swoole
--   [Swoole\\Channel::pop](swoole-channel.pop.html) — Читає та витягує дані з каналу Swoole
--   [Swoole\\Channel::push](swoole-channel.push.html) — Записує та передає дані до каналу Swoole
--   [Swoole\\Channel::stats](swoole-channel.stats.html) — Отримує статистику каналу Swoole
+-   [SwooleChannel::construct](swoole-channel.construct.html) - Створює канал Swoole
+-   [SwooleChannel::destruct](swoole-channel.destruct.html) - Знищує канал Swoole
+-   [SwooleChannel::pop](swoole-channel.pop.html) — Читає та витягує дані з каналу Swoole
+-   [SwooleChannel::push](swoole-channel.push.html) — Записує та передає дані до каналу Swoole
+-   [SwooleChannel::stats](swoole-channel.stats.html) — Отримує статистику каналу Swoole

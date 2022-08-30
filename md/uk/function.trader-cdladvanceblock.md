@@ -1,8 +1,8 @@
 Відбитий наступ
 
--   [« trader\_cdlabandonedbaby](function.trader-cdlabandonedbaby.html)
+-   [« tradercdlabandonedbaby](function.trader-cdlabandonedbaby.html)
     
--   [trader\_cdlbelthold »](function.trader-cdlbelthold.html)
+-   [tradercdlbelthold »](function.trader-cdlbelthold.html)
     
 -   [PHP Manual](index.html)
     

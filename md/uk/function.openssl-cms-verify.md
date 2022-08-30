@@ -1,8 +1,8 @@
 Перевіряє підпис CMS
 
--   [« openssl\_cms\_sign](function.openssl-cms-sign.html)
+-   [« opensslcmssign](function.openssl-cms-sign.html)
     
--   [openssl\_csr\_export\_to\_file »](function.openssl-csr-export-to-file.html)
+-   [opensslcsrexportтоfile »](function.openssl-csr-export-to-file.html)
     
 -   [PHP Manual](index.html)
     

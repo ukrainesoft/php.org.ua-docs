@@ -1,12 +1,12 @@
 Зареєструвати callback-функцію події
 
--   [« Swoole\\WebSocket\\Server::exist](swoole-websocket-server.exist.html)
+-   [« SwooleWebSocketServer::exist](swoole-websocket-server.exist.html)
     
--   [Swoole\\WebSocket\\Server::pack »](swoole-websocket-server.pack.html)
+-   [SwooleWebSocketServer::pack »](swoole-websocket-server.pack.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+-   [SwooleWebSocketServer](class.swoole-websocket-server.html)
     
 -   Зареєструвати callback-функцію події
     

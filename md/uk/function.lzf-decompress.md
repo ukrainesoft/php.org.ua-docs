@@ -1,12 +1,12 @@
 Розархівація LZF
 
--   [« lzf\_compress](function.lzf-compress.html)
+-   [« lzfcompress](function.lzf-compress.html)
     
--   [lzf\_optimized\_for »](function.lzf-optimized-for.html)
+-   [lzfoptimizedfor »](function.lzf-optimized-for.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LZF](ref.lzf.html)
+-   [Функції LZF](ref.lzf.html)
     
 -   Розархівація LZF
     
@@ -23,7 +23,7 @@ lzfdecompress — Розархівація LZF
 lzf_decompress(string $data): string
 ```
 
-[lzf\_compress()](function.lzf-compress.html) розархівує рядок `data`, Що містить дані стиснуті алгоритмом lzf
+[lzfcompress()](function.lzf-compress.html) розархівує рядок `data`, Що містить дані стиснуті алгоритмом lzf
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ lzf_decompress(string $data): string
 
 ### Дивіться також
 
--   [lzf\_compress()](function.lzf-compress.html) - Стиснення LZF
+-   [lzfcompress()](function.lzf-compress.html) - Стиснення LZF

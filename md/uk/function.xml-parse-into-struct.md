@@ -1,8 +1,8 @@
 Розбір XML-даних та приміщення в масив
 
--   [« xml\_get\_error\_code](function.xml-get-error-code.html)
+-   [« xmlgeterrorcode](function.xml-get-error-code.html)
     
--   [xml\_parse »](function.xml-parse.html)
+-   [xmlparse »](function.xml-parse.html)
     
 -   [PHP Manual](index.html)
     

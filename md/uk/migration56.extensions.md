@@ -26,10 +26,10 @@
 
 ### [OCI8](book.oci8.html)
 
--   Підтримка неявних наборів результатів для Oracle Database 12c була додана за допомогою нової функції [oci\_get\_implicit\_resultset()](function.oci-get-implicit-resultset.html)
+-   Підтримка неявних наборів результатів для Oracle Database 12c була додана за допомогою нової функції [ocigetimplicitresultset()](function.oci-get-implicit-resultset.html)
 -   За допомогою `oci_execute($s, OCI_NO_AUTO_COMMIT)`для SELECT більше необов'язково ініціювати внутрішній ROLLBACK під час закриття з'єднання.
 -   Додані зонди DTrace, що контролюються за допомогою опції конфігурації `--enable-dtrace`
--   [oci\_internal\_debug()](function.oci-internal-debug.html) тепер нічого не робить.
+-   [ociinternaldebug()](function.oci-internal-debug.html) тепер нічого не робить.
 -   Формат виведення функції [phpinfo()](function.phpinfo.html) для OCI8 змінилося.
 
 ### [Zip](book.zip.html)
@@ -38,4 +38,4 @@
 
 ### [MySQLi](book.mysqli.html)
 
-Додано опцію [mysqli.rollback\_on\_cached\_plink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink)яка управляє поведінкою відкату постійних з'єднань.
+Додано опцію [mysqli.rollbackвінcachedplink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink)яка управляє поведінкою відкату постійних з'єднань.

@@ -1,8 +1,8 @@
 Псевдонім DateTime::getOffset
 
--   [« date\_modify](function.date-modify.html)
+-   [« datemodify](function.date-modify.html)
     
--   [date\_parse\_from\_format »](function.date-parse-from-format.html)
+-   [dateparsefromformat »](function.date-parse-from-format.html)
     
 -   [PHP Manual](index.html)
     

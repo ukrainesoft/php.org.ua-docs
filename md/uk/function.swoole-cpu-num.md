@@ -1,8 +1,8 @@
 Отримати кількість CPU
 
--   [« swoole\_client\_select](function.swoole-client-select.html)
+-   [« swooleclientselect](function.swoole-client-select.html)
     
--   [swoole\_errno »](function.swoole-errno.html)
+-   [swooleerrno »](function.swoole-errno.html)
     
 -   [PHP Manual](index.html)
     

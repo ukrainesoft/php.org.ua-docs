@@ -1,8 +1,8 @@
 Повертає інформацію про обмеження системних ресурсів
 
--   [« posix\_getpwuid](function.posix-getpwuid.html)
+-   [« posixgetpwuid](function.posix-getpwuid.html)
     
--   [posix\_getsid »](function.posix-getsid.html)
+-   [posixgetsid »](function.posix-getsid.html)
     
 -   [PHP Manual](index.html)
     
@@ -97,4 +97,4 @@ Array
 ### Дивіться також
 
 -   керівництво GETRLIMIT(2)
--   [posix\_setrlimit()](function.posix-setrlimit.html) - встановлює межі системних ресурсів
+-   [posixsetrlimit()](function.posix-setrlimit.html) - встановлює межі системних ресурсів

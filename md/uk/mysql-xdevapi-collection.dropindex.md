@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+-   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     
 -   Видаляє індекс колекції
     
@@ -35,7 +35,7 @@ public mysql_xdevapi\Collection::dropIndex(string $index_name): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо операція DROP INDEX виконана успішно, **`false`** в іншому випадку.
+\*\*`true`\*\*якщо операція DROP INDEX виконана успішно, **`false`** в іншому випадку.
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Визначення стану
 
--   [« parallel\\Future::cancelled](parallel-future.cancelled.html)
+-   [« parallelFuture::cancelled](parallel-future.cancelled.html)
     
--   [parallel\\Future::value »](parallel-future.value.html)
+-   [parallelFuture::value »](parallel-future.value.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Future](class.parallel-future.html)
+-   [parallelFuture](class.parallel-future.html)
     
 -   Визначення стану
     

@@ -1,12 +1,12 @@
 Повертає перший елемент двосторонньої черги
 
--   [« Ds\\Deque::find](ds-deque.find.html)
+-   [« DsDeque::find](ds-deque.find.html)
     
--   [Ds\\Deque::get »](ds-deque.get.html)
+-   [ДсDeque::get »](ds-deque.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає перший елемент двосторонньої черги
     

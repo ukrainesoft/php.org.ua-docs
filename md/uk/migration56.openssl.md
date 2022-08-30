@@ -1,6 +1,6 @@
 Зміни OpenSSL у PHP 5.6.x
 
--   [« Новые функции](migration56.new-functions.html)
+-   [« Нові функції](migration56.new-functions.html)
     
 -   [Другие изменения в модулях »](migration56.extensions.html)
     
@@ -23,7 +23,7 @@
 
 ### Сигнатура сертифіката
 
-Було додано підтримку вилучення та перевірки сигнатури сертифіката. Для отримання сигнатур сертифікатів X.509 додано функцію [openssl\_x509\_fingerprint()](function.openssl-x509-fingerprint.html). Також було додано дві опції [контекста потока SSL](context.ssl.html) `capture_peer_cert` для захоплення вузлового сертифіката X.509, та `peer_fingerprint` для перевірки сертифіката на відповідність заданій сигнатурі.
+Було додано підтримку вилучення та перевірки сигнатури сертифіката. Для отримання сигнатур сертифікатів X.509 додано функцію [opensslx509fingerprint()](function.openssl-x509-fingerprint.html). Також було додано дві опції [контекста потока SSL](context.ssl.html) `capture_peer_cert` для захоплення вузлового сертифіката X.509, та `peer_fingerprint` для перевірки сертифіката на відповідність заданій сигнатурі.
 
 ### Оновлено шифри за замовчуванням
 
@@ -41,7 +41,7 @@
 
 ### Доступ до узгодженого протоколу та шифру
 
-Протокол та шифр, узгоджені для шифрованого потоку, доступні за допомогою функцій [stream\_get\_meta\_data()](function.stream-get-meta-data.html) або [stream\_context\_get\_options()](function.stream-context-get-options.html), якщо опція контексту SSL `capture_session_meta` встановлена ​​як **`true`**
+Протокол та шифр, узгоджені для шифрованого потоку, доступні за допомогою функцій [streamgetmetadata()](function.stream-get-meta-data.html) або [streamcontextgetoptions()](function.stream-context-get-options.html), якщо опція контексту SSL `capture_session_meta` встановлена ​​як **`true`**
 
 ```php
 <?php
@@ -94,9 +94,9 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 
 ### Вибір версії SSL/TLS
 
-Тепер можна вибирати конкретну версію SSL та TLS за допомогою опції контексту `crypto_method` або вказуючи конкретний транспорт під час створення обгортки потоку (наприклад, за допомогою виклику [stream\_socket\_client()](function.stream-socket-client.html) або [stream\_socket\_server()](function.stream-socket-server.html)
+Тепер можна вибирати конкретну версію SSL та TLS за допомогою опції контексту `crypto_method` або вказуючи конкретний транспорт під час створення обгортки потоку (наприклад, за допомогою виклику [streamsocketclient()](function.stream-socket-client.html) або [streamsocketserver()](function.stream-socket-server.html)
 
-Опція контексту SSL `crypto_method` приймає бітову маску, що перераховує допустимі протоколи, як і задається в параметрі `crypto_type` функції [stream\_socket\_enable\_crypto()](function.stream-socket-enable-crypto.html)
+Опція контексту SSL `crypto_method` приймає бітову маску, що перераховує допустимі протоколи, як і задається в параметрі `crypto_type` функції [streamsocketenablecrypto()](function.stream-socket-enable-crypto.html)
 
 **Вибрана версія протоколу та відповідні опції**
 
@@ -135,9 +135,9 @@ $sock = stream_socket_client('tlsv1.2://google.com:443/');
 ?>
 ```
 
-### Додана функція [openssl\_get\_cert\_locations()](function.openssl-get-cert-locations.html)
+### Додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.html)
 
-Була додана функція [openssl\_get\_cert\_locations()](function.openssl-get-cert-locations.html): вона повертає розташування, в яких PHP шукатиме пакети CA за замовчуванням.
+Була додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.html): вона повертає розташування, в яких PHP шукатиме пакети CA за замовчуванням.
 
 ```php
 <?php
@@ -170,7 +170,7 @@ array(8) {
 
 ### Підтримка SPKI
 
-Було додано підтримку для створення, вилучення та перевірки підписаних публічних ключів та розпізнавальних рядків (SPKAC). Були додані функції [openssl\_spki\_new()](function.openssl-spki-new.html) [openssl\_spki\_verify()](function.openssl-spki-verify.html) [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.html) і [openssl\_spki\_export()](function.openssl-spki-export.html) для створення, перевірки експорту PEM публічних ключів та відповідних розпізнавальних рядків із SPKAC, створених з елементів HTML5 `KeyGen`
+Було додано підтримку для створення, вилучення та перевірки підписаних публічних ключів та розпізнавальних рядків (SPKAC). Були додані функції [opensslspkinew()](function.openssl-spki-new.html) [opensslspkiverify()](function.openssl-spki-verify.html) [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.html) і [opensslspkiexport()](function.openssl-spki-export.html) для створення, перевірки експорту PEM публічних ключів та відповідних розпізнавальних рядків із SPKAC, створених з елементів HTML5 `KeyGen`
 
 `openssl_spki_new`
 

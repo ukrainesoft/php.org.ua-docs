@@ -2,7 +2,7 @@
 
 -   [« mysqli::autocommit](mysqli.autocommit.html)
     
--   [mysqli::change\_user »](mysqli.change-user.html)
+-   [mysqli::changeuser »](mysqli.change-user.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ mysqli_begin_transaction(mysqli $mysql, int $flags = 0, ?string $name = null): b
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `flags`
 
@@ -156,6 +156,6 @@ try {
 
 ### Дивіться також
 
--   [mysqli\_autocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
--   [mysqli\_commit()](mysqli.commit.html) - Фіксує поточну транзакцію
--   [mysqli\_rollback()](mysqli.rollback.html) - Відкат поточної транзакції
+-   [mysqliautocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
+-   [mysqlicommit()](mysqli.commit.html) - Фіксує поточну транзакцію
+-   [mysqlirollback()](mysqli.rollback.html) - Відкат поточної транзакції

@@ -1,8 +1,8 @@
 Отримання метаданих таблиці
 
--   [« pg\_lo\_write](function.pg-lo-write.html)
+-   [« pgлоwrite](function.pg-lo-write.html)
     
--   [pg\_num\_fields »](function.pg-num-fields.html)
+-   [пгnumfields »](function.pg-num-fields.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `table_name`
 
@@ -45,9 +45,9 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -114,4 +114,4 @@ array(5) {
 
 ### Дивіться також
 
--   [pg\_convert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
+-   [пгconvert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах

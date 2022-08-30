@@ -1,8 +1,8 @@
 Створення XML-аналізатора з підтримкою просторів імен
 
--   [« xml\_parse](function.xml-parse.html)
+-   [« xmlparse](function.xml-parse.html)
     
--   [xml\_parser\_create »](function.xml-parser-create.html)
+-   [xmlparsercreate »](function.xml-parser-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -48,5 +48,5 @@ xml_parser_create_ns(?string $encoding = null, string $separator = ":"): XMLPars
 
 ### Дивіться також
 
--   [xml\_parser\_create()](function.xml-parser-create.html) - Створення XML-аналізатора
--   [xml\_parser\_free()](function.xml-parser-free.html) - Звільнення XML-аналізатора
+-   [xmlparsercreate()](function.xml-parser-create.html) - Створення XML-аналізатора
+-   [xmlparserfree()](function.xml-parser-free.html) - Звільнення XML-аналізатора

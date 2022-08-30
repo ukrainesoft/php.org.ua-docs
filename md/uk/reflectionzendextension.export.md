@@ -1,6 +1,6 @@
 Експорт
 
--   [« ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.html)
+-   [« ReflectionZendExtension::construct](reflectionzendextension.construct.html)
     
 -   [ReflectionZendExtension::getAuthor »](reflectionzendextension.getauthor.html)
     
@@ -41,4 +41,4 @@ public static ReflectionZendExtension::export(string $name, bool $return = ?): s
 
 ### Дивіться також
 
--   [ReflectionClassConstant::\_\_toString()](reflectionclassconstant.tostring.html) - Повертає рядкове представлення об'єкта ReflectionClassConstant
+-   [ReflectionClassConstant::toString()](reflectionclassconstant.tostring.html) - Повертає рядкове представлення об'єкта ReflectionClassConstant

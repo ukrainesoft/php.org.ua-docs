@@ -1,12 +1,12 @@
 Отримати ім'я таблиці, якою належить вказаний стовпець
 
--   [« cubrid\_field\_seek](function.cubrid-field-seek.html)
+-   [« cubridfieldseek](function.cubrid-field-seek.html)
     
--   [cubrid\_field\_type »](function.cubrid-field-type.html)
+-   [cubridfieldtype »](function.cubrid-field-type.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати ім'я таблиці, якою належить вказаний стовпець
     
@@ -29,7 +29,7 @@ cubrid_field_table(resource $result, int $field_offset): string
 
 `result`
 
-`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 

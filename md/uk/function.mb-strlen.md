@@ -1,12 +1,12 @@
 Отримує довжину рядка
 
--   [« mb\_stristr](function.mb-stristr.html)
+-   [« mbstristr](function.mb-stristr.html)
     
--   [mb\_strpos »](function.mb-strpos.html)
+-   [мбstrpos »](function.mb-strpos.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Отримує довжину рядка
     
@@ -51,7 +51,7 @@ mb_strlen(string $string, ?string $encoding = null): int
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [grapheme\_strlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
--   [iconv\_strlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [graphemestrlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
+-   [iconvstrlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
 -   [strlen()](function.strlen.html) - Повертає довжину рядка

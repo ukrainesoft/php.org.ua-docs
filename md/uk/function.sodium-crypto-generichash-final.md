@@ -1,8 +1,8 @@
 Закінчити хешування
 
--   [« sodium\_crypto\_core\_ristretto255\_sub](function.sodium-crypto-core-ristretto255-sub.html)
+-   [« sodiumcryptocoreristretto255sub](function.sodium-crypto-core-ristretto255-sub.html)
     
--   [sodium\_crypto\_generichash\_init »](function.sodium-crypto-generichash-init.html)
+-   [sodiumcryptogenerichashinit »](function.sodium-crypto-generichash-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_generichash_final(string &$state, int $length = SODIUM_CRYPTO_GENE
 
 `state`
 
-Стан хешу, повернутий [sodium\_crypto\_generichash\_init()](function.sodium-crypto-generichash-init.html)
+Стан хешу, повернутий [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.html)
 
 `length`
 

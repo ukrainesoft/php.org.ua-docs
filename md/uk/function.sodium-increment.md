@@ -1,8 +1,8 @@
 Збільшити на одиницю велике число
 
--   [« sodium\_hex2bin](function.sodium-hex2bin.html)
+-   [« sodiumhex2bin](function.sodium-hex2bin.html)
     
--   [sodium\_memcmp »](function.sodium-memcmp.html)
+-   [sodiummemcmp »](function.sodium-memcmp.html)
     
 -   [PHP Manual](index.html)
     

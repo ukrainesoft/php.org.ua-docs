@@ -1,8 +1,8 @@
 Отримує значення ключа /F
 
--   [« fdf\_get\_encoding](function.fdf-get-encoding.html)
+-   [« fdfgetencoding](function.fdf-get-encoding.html)
     
--   [fdf\_get\_flags »](function.fdf-get-flags.html)
+-   [fdfgetflags »](function.fdf-get-flags.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_get_file(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ fdf_get_file(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdf\_set\_file()](function.fdf-set-file.html) - Встановлює PDF-документ для відображення даних FDF
+-   [fdfsetfile()](function.fdf-set-file.html) - Встановлює PDF-документ для відображення даних FDF

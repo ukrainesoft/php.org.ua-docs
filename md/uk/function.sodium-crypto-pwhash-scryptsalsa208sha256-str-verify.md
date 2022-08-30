@@ -1,8 +1,8 @@
 Перевірити, що пароль є дійсним рядком перевірки пароля
 
--   [« sodium\_crypto\_kx\_server\_session\_keys](function.sodium-crypto-kx-server-session-keys.html)
+-   [« sodiumcryptoкксserversessionkeys](function.sodium-crypto-kx-server-session-keys.html)
     
--   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
+-   [sodiumcryptopwhashscryptsalsa208sha256str »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
     
 -   [PHP Manual](index.html)
     

@@ -39,11 +39,11 @@ xmlwriter_text(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
 
 `content`
 
-Зміст тексту. Символи `<` `>` `&` і `"` записуються як посилання на сутність (тобто . `&lt;` `&gt;` `&amp;` і `&quot;`відповідно). Всі інші символи у тому числі `'` записуються буквально. Щоб записувати спеціальні символи XML буквально або записувати буквальні посилання на сутності, необхідно використовувати [xmlwriter\_write\_raw()](xmlwriter.writeraw.html)
+Зміст тексту. Символи `<` `>` `&` і `"` записуються як посилання на сутність (тобто . `&lt;` `&gt;` `&amp;` і `&quot;`відповідно). Всі інші символи у тому числі `'` записуються буквально. Щоб записувати спеціальні символи XML буквально або записувати буквальні посилання на сутності, необхідно використовувати [xmlwriterwriteraw()](xmlwriter.writeraw.html)
 
 ### Значення, що повертаються
 

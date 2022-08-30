@@ -1,8 +1,8 @@
 Перевірити, чи повертає зазначений режим дані блоками чи ні
 
--   [« mcrypt\_module\_is\_block\_algorithm](function.mcrypt-module-is-block-algorithm.html)
+-   [« mcryptmoduleісblockalgorithm](function.mcrypt-module-is-block-algorithm.html)
     
--   [mcrypt\_module\_open »](function.mcrypt-module-open.html)
+-   [mcryptmoduleopen »](function.mcrypt-module-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ mcryptmoduleісblockmode — Перевірити, чи вказаний реж
 mcrypt_module_is_block_mode(string $mode, string $lib_dir = ?): bool
 ```
 
-Функція повертає **`true`**, якщо дані повертаються блоками та **`false`**якщо побайтно. (тобто **`true`** для cbc та ecb, та **`false`** для cfb та потоку).
+Функція повертає **`true`**, якщо дані повертаються блоками та \*\*`false`\*\*якщо побайтно. (тобто **`true`** для cbc та ecb, та **`false`** для cfb та потоку).
 
 ### Список параметрів
 

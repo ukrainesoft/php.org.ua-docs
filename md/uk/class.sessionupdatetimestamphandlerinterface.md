@@ -1,6 +1,6 @@
 Інтерфейс SessionUpdateTimestampHandlerInterface
 
--   [« SessionIdInterface::create\_sid](sessionidinterface.create-sid.html)
+-   [« SessionIdInterface::createsid](sessionidinterface.create-sid.html)
     
 -   [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.html)
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-**SessionUpdateTimestampHandlerInterface** - це інтерфейс, який визначає додаткові методи для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [session\_set\_save\_handler()](function.session-set-save-handler.html), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
+**SessionUpdateTimestampHandlerInterface** - це інтерфейс, який визначає додаткові методи для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.html), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
 Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Контроль вывода](book.outcontrol.html)
+-   [Контроль виведення](book.outcontrol.html)
     
 -   Обумовлені константи
     
@@ -49,15 +49,15 @@
 
 **`PHP_OUTPUT_HANDLER_CLEANABLE`** (int)
 
-Визначає чи буфер виводу, створений [ob\_start()](function.ob-start.html)бути очищеним.
+Визначає чи буфер виводу, створений [проstart()](function.ob-start.html)бути очищеним.
 
 **`PHP_OUTPUT_HANDLER_FLUSHABLE`** (int)
 
-Визначає чи буфер виводу, створений [ob\_start()](function.ob-start.html), бути скинутий (виведений та очищений).
+Визначає чи буфер виводу, створений [проstart()](function.ob-start.html), бути скинутий (виведений та очищений).
 
 **`PHP_OUTPUT_HANDLER_REMOVABLE`** (int)
 
-Визначає чи буфер виводу, створений [ob\_start()](function.ob-start.html), бути вилученим до завершення скрипта.
+Визначає чи буфер виводу, створений [проstart()](function.ob-start.html), бути вилученим до завершення скрипта.
 
 **`PHP_OUTPUT_HANDLER_STDFLAGS`** (int)
 

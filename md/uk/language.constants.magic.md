@@ -32,7 +32,7 @@
 ### Дивіться також
 
 -   [::class](language.oop5.basic.html#language.oop5.basic.class.class)
--   [get\_class()](function.get-class.html)
--   [get\_object\_vars()](function.get-object-vars.html)
--   [file\_exists()](function.file-exists.html)
--   [function\_exists()](function.function-exists.html)
+-   [getclass()](function.get-class.html)
+-   [getobjectvars()](function.get-object-vars.html)
+-   [fileexists()](function.file-exists.html)
+-   [functionexists()](function.function-exists.html)

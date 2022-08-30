@@ -1,12 +1,12 @@
 скидає всі запитані дані клієнту
 
--   [« Функции FPM](ref.fpm.html)
+-   [« Функції FPM](ref.fpm.html)
     
--   [fpm\_get\_status »](function.fpm-get-status.html)
+-   [fpmgetstatus »](function.fpm-get-status.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FPM](ref.fpm.html)
+-   [Функції FPM](ref.fpm.html)
     
 -   скидає всі запитані дані клієнту
     

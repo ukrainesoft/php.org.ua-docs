@@ -2,7 +2,7 @@
 
 -   [« ReflectionExtension::isPersistent](reflectionextension.ispersistent.html)
     
--   [ReflectionExtension::\_\_toString »](reflectionextension.tostring.html)
+-   [ReflectionExtension::toString »](reflectionextension.tostring.html)
     
 -   [PHP Manual](index.html)
     

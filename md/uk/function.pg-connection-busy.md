@@ -1,8 +1,8 @@
 Перевіряє, чи зайнято з'єднання на даний момент.
 
--   [« pg\_connect](function.pg-connect.html)
+-   [« pgconnect](function.pg-connect.html)
     
--   [pg\_connection\_reset »](function.pg-connection-reset.html)
+-   [пгconnectionreset »](function.pg-connection-reset.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@
 pg_connection_busy(PgSql\Connection $connection): bool
 ```
 
-**пгconnectionbusy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [pg\_get\_result()](function.pg-get-result.html) також блокує з'єднання на час виконання.
+**пгconnectionbusy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [пгgetresult()](function.pg-get-result.html) також блокує з'єднання на час виконання.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -59,5 +59,5 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ### Дивіться також
 
--   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення
--   [pg\_get\_result()](function.pg-get-result.html) - Отримання результату асинхронного запиту
+-   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення
+-   [пгgetresult()](function.pg-get-result.html) - Отримання результату асинхронного запиту

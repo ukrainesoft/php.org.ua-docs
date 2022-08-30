@@ -1,8 +1,8 @@
 Змінює метадані потоку
 
--   [« streamWrapper::stream\_lock](streamwrapper.stream-lock.html)
+-   [« streamWrapper::streamlock](streamwrapper.stream-lock.html)
     
--   [streamWrapper::stream\_open »](streamwrapper.stream-open.html)
+-   [streamWrapper::streamopen »](streamwrapper.stream-open.html)
     
 -   [PHP Manual](index.html)
     

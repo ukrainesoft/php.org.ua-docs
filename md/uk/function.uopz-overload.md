@@ -1,12 +1,12 @@
 Перевантажити опкод VM
 
--   [« uopz\_implement](function.uopz-implement.html)
+-   [« uopzimplement](function.uopz-implement.html)
     
--   [uopz\_redefine »](function.uopz-redefine.html)
+-   [uopzredefine »](function.uopz-redefine.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Перевантажити опкод VM
     

@@ -1,8 +1,8 @@
 Екранує спецсимволи у рядку для вставки у поле типу bytea
 
--   [« pg\_end\_copy](function.pg-end-copy.html)
+-   [« pgendcopy](function.pg-end-copy.html)
     
--   [pg\_escape\_identifier »](function.pg-escape-identifier.html)
+-   [пгescapeidentifier »](function.pg-escape-identifier.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -51,9 +51,9 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -77,5 +77,5 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 ### Дивіться також
 
--   [pg\_unescape\_bytea()](function.pg-unescape-bytea.html) - Забирає екранування двійкових даних типу bytea
--   [pg\_escape\_string()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту
+-   [пгunescapebytea()](function.pg-unescape-bytea.html) - Забирає екранування двійкових даних типу bytea
+-   [пгescapestring()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту

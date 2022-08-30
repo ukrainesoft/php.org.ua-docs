@@ -1,12 +1,12 @@
 Конструктор класу LinearGradient
 
--   [« UI\\Draw\\Brush\\LinearGradient](class.ui-draw-brush-lineargradient.html)
+-   [« UIDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html)
     
--   [UI\\Draw\\Brush\\RadialGradient »](class.ui-draw-brush-radialgradient.html)
+-   [ОЙDrawBrushRadialGradient »](class.ui-draw-brush-radialgradient.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush\\LinearGradient](class.ui-draw-brush-lineargradient.html)
+-   [ОЙDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html)
     
 -   Конструктор класу LinearGradient
     
@@ -19,7 +19,7 @@
 
 ### Опис
 
-public **ОЙDrawBrushLinearGradient::construct**[UI\\Point](class.ui-point.html) `$start` [UI\\Point](class.ui-point.html) `$end`
+public **ОЙDrawBrushLinearGradient::construct**[ОЙPoint](class.ui-point.html) `$start` [ОЙPoint](class.ui-point.html) `$end`
 
 Створює новий лінійний градієнт
 

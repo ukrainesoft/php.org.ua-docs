@@ -1,8 +1,8 @@
 Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
 
--   [« com\_message\_pump](function.com-message-pump.html)
+-   [« commessagepump](function.com-message-pump.html)
     
--   [variant\_abs »](function.variant-abs.html)
+-   [variantabs »](function.variant-abs.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ com_print_typeinfo(variant|string $variant, ?string $dispatch_interface = null, 
 
 `variant`
 
-`variant` повинен бути екземпляром класу COM, або ім'ям бібліотеки типів (яке буде розібрано згідно з набором правил, заданим у [com\_load\_typelib()](function.com-load-typelib.html)
+`variant` повинен бути екземпляром класу COM, або ім'ям бібліотеки типів (яке буде розібрано згідно з набором правил, заданим у [comloadtypelib()](function.com-load-typelib.html)
 
 `dispatch_interface`
 
@@ -45,5 +45,5 @@ com_print_typeinfo(variant|string $variant, ?string $dispatch_interface = null, 
 
 ### Дивіться також
 
--   [com\_event\_sink()](function.com-event-sink.html) - Зв'язати повідомлення COM з об'єктом PHP
--   [com\_load\_typelib()](function.com-load-typelib.html) - Завантаження Typelib
+-   [comeventsink()](function.com-event-sink.html) - Зв'язати повідомлення COM з об'єктом PHP
+-   [comloadtypelib()](function.com-load-typelib.html) - Завантаження Typelib

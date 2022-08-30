@@ -23,7 +23,7 @@ FFI::memcmp — Порівнює дві області пам'яті
 public static FFI::memcmp(string|FFI\CData &$ptr1, string|FFI\CData &$ptr2, int $size): int
 ```
 
-Порівнює `size` байт пам'яті за вказівниками `ptr1` і `ptr2`. І `ptr1` і `ptr2` можуть бути будь-якими нативними структурами даних ([FFI\\CData](class.ffi-cdata.html)), або рядками PHP.
+Порівнює `size` байт пам'яті за вказівниками `ptr1` і `ptr2`. І `ptr1` і `ptr2` можуть бути будь-якими нативними структурами даних ([FFICData](class.ffi-cdata.html)), або рядками PHP.
 
 ### Список параметрів
 

@@ -2,7 +2,7 @@
 
 -   [« GearmanJob::workloadSize](gearmanjob.workloadsize.html)
     
--   [GearmanTask::\_\_construct »](gearmantask.construct.html)
+-   [GearmanTask::construct »](gearmantask.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,7 +55,7 @@ public uuid(): string
 
 ## Зміст
 
--   [GearmanTask::\_\_construct](gearmantask.construct.html) — Створює об'єкт GearmanTask
+-   [GearmanTask::construct](gearmantask.construct.html) — Створює об'єкт GearmanTask
 -   [GearmanTask::create](gearmantask.create.html) - Створює завдання (застарілий метод)
 -   [GearmanTask::data](gearmantask.data.html) — Отримати дані, повернені до завдання
 -   [GearmanTask::dataSize](gearmantask.datasize.html) — Отримати розмір даних, що повертаються

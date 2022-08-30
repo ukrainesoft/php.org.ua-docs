@@ -1,8 +1,8 @@
 Повертає кількість рядків у результаті
 
--   [« odbc\_num\_fields](function.odbc-num-fields.html)
+-   [« odbcnumfields](function.odbc-num-fields.html)
     
--   [odbc\_pconnect »](function.odbc-pconnect.html)
+-   [odbcpconnect »](function.odbc-pconnect.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_num_rows(resource $statement): int
 
 `statement`
 
-Ідентифікатор результату, що повертається [odbc\_exec()](function.odbc-exec.html)
+Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.html)
 
 ### Значення, що повертаються
 

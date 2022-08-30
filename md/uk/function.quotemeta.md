@@ -1,12 +1,12 @@
 Екранує спеціальні символи
 
--   [« quoted\_printable\_encode](function.quoted-printable-encode.html)
+-   [« quotedprintableencode](function.quoted-printable-encode.html)
     
 -   [rtrim »](function.rtrim.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Екранує спеціальні символи
     
@@ -69,4 +69,4 @@ string(69) "PHP is a popular scripting language\. Fast, flexible, and pragmatic\
 -   [nl2br()](function.nl2br.html) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
 -   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
 -   [stripcslashes()](function.stripcslashes.html) - Видаляє екранування символів, зроблене функцією addcslashes
--   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах

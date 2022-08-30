@@ -1,12 +1,12 @@
 Запуск TLS
 
--   [« ldap\_sort](function.ldap-sort.html)
+-   [« ldapsort](function.ldap-sort.html)
     
--   [ldap\_t61\_to\_8859 »](function.ldap-t61-to-8859.html)
+-   [ldapt61то](function.ldap-t61-to-8859.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Запуск TLS
     

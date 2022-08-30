@@ -1,6 +1,6 @@
 Повертає базу подій, пов'язану зі з'єднанням
 
--   [« EventHttpConnection::\_\_construct](eventhttpconnection.construct.html)
+-   [« EventHttpConnection::construct](eventhttpconnection.construct.html)
     
 -   [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.html)
     

@@ -1,8 +1,8 @@
 Ініціалізує новий дескриптор об'єкта LOB чи FILE
 
--   [« oci\_new\_cursor](function.oci-new-cursor.html)
+-   [« ocinewcursor](function.oci-new-cursor.html)
     
--   [oci\_num\_fields »](function.oci-num-fields.html)
+-   [ocinumfields »](function.oci-num-fields.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ oci_new_descriptor(resource $connection, int $type = OCI_DTYPE_LOB): ?OCILob
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [oci\_connect()](function.oci-connect.html) або [oci\_pconnect()](function.oci-pconnect.html)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html)
 
 `type`
 
@@ -146,8 +146,8 @@ oci_free_statement($stmt);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewdescriptor()](function.ocinewdescriptor.html). У PHP 5.0.0 і вище [ocinewdescriptor()](function.ocinewdescriptor.html) є аліасом **ocinewdescriptor()**Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewdescriptor()](function.ocinewdescriptor.html). У PHP 5.0.0 і вище [ocinewdescriptor()](function.ocinewdescriptor.html) є аліасом \*\*ocinewdescriptor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [oci\_bind\_by\_name()](function.oci-bind-by-name.html) - Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
+-   [ocibindбname()](function.oci-bind-by-name.html) - Прикріплює змінну PHP до відповідної мітки у SQL-вираженні

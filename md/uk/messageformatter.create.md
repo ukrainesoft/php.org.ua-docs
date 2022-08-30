@@ -92,7 +92,7 @@ echo $fmt->format(array(4560, 123, 4560/123));
 
 ### Дивіться також
 
--   [msgfmt\_format()](messageformatter.format.html) - Форматує повідомлення
--   [msgfmt\_parse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
--   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
--   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
+-   [msgfmtformat()](messageformatter.format.html) - Форматує повідомлення
+-   [msgfmtparse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmtgeterrorcode()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [msgfmtgeterrormessage()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції

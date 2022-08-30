@@ -2,7 +2,7 @@ OCI8 та динамічне трасування DTrace
 
 -   [« Поддержка прозрачного для приложений восстановления после отказа (Transparent Application Failover или TAF) для OCI8](oci8.taf.html)
     
--   [Поддерживаемые типы данных »](oci8.datatypes.html)
+-   [Типи даних, що підтримуються »](oci8.datatypes.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@ OCI8 та динамічне трасування DTrace
 
 # OCI8 та динамічне трасування DTrace
 
-OCI8 2.0 містить статичні зонди DTrace, які можна використовувати в операційних системах, які підтримують DTrace. Докладніше взаємини PHP та DTrace описані в розділі [Динамическая трассировка DTrace](features.dtrace.html)
+OCI8 2.0 містить статичні зонди DTrace, які можна використовувати в операційних системах, які підтримують DTrace. Докладніше взаємини PHP та DTrace описані в розділі [Динамічна трасування DTrace](features.dtrace.html)
 
 ## Установка OCI8 з підтримкою DTrace
 
@@ -24,7 +24,7 @@ $ export PHP_DTRACE=yes
 $ pecl install oci8
 ```
 
-Відредагуйте php.ini, задавши [extension\_dir](ini.core.html#ini.extension-dir) рівним директорії, в якій створився oci8.so, а також увімкніть модуль таким чином:
+Відредагуйте php.ini, задавши [extensiondir](ini.core.html#ini.extension-dir) рівним директорії, в якій створився oci8.so, а також увімкніть модуль таким чином:
 
 ```
 extension=oci8.so
@@ -46,15 +46,15 @@ extension=oci8.so
 | `oci8-sqltext`          | Спрацьовує при запуску ociparse().                                                                          | void connection, char clientid, void statement, char sql                                  |
 | `oci8-connection-close` | Спрацьовує, коли з'єднання остаточно знищено.                                                               | void connection                                                                           |
 | `oci8-error`            | Спрацьовує, якщо виникла помилка Oracle.                                                                    | int status, long errcode                                                                  |
-| `oci8-execute-mode`     | Спрацьовує за [oci\_execute()](function.oci-execute.html) виявлення режиму запуску.                         | void connection, char clientid, void statement, unsigned int mode                         |
+| `oci8-execute-mode`     | Спрацьовує за [ociexecute()](function.oci-execute.html) виявлення режиму запуску.                           | void connection, char clientid, void statement, unsigned int mode                         |
 
 Ці зонди корисні для налагодження скриптів OCI8.
 
 Параметри connection та statement є вказівниками на внутрішні структури, які використовуються для відстеження з'єднань та запущених запитів.
 
-Параметр clientid встановлюється функцією [oci\_set\_client\_identifier()](function.oci-set-client-identifier.html)
+Параметр clientid встановлюється функцією [ocisetclientidentifier()](function.oci-set-client-identifier.html)
 
-Ядро PHP містить статичні зонди. Дивіться розділ [Статические зонды DTrace в ядре PHP](features.dtrace.dtrace.html#features.dtrace.static-probes)
+Ядро PHP містить статичні зонди. Дивіться розділ [Статичні зонди DTrace у ядрі PHP](features.dtrace.dtrace.html#features.dtrace.static-probes)
 
 **Внутрішні налагоджувальні зонди DTrace в OCI8**
 
@@ -215,4 +215,4 @@ php*:::oci8-execute-mode
 
 ## Дивіться також
 
--   [Динамическая трассировка DTrace](features.dtrace.html)
+-   [Динамічна трасування DTrace](features.dtrace.html)

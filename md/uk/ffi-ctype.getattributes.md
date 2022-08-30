@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getArrayLength](ffi-ctype.getarraylength.html)
+-   [« FFICType::getArrayLength](ffi-ctype.getarraylength.html)
     
--   [FFI\\CType::getEnumKind »](ffi-ctype.getenumkind.html)
+-   [FFICType::getEnumKind »](ffi-ctype.getenumkind.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

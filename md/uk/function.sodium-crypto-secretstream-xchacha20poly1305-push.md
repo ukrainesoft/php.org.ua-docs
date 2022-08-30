@@ -1,8 +1,8 @@
 Шифрує фрагмент даних, щоб його можна було безпечно розшифрувати потоковим API
 
--   [« sodium\_crypto\_secretstream\_xchacha20poly1305\_pull](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html)
+-   [« sodiumcryptosecretstreamxchacha20poly1305pull](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html)
     
--   [sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey »](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html)
+-   [sodiumcryptosecretstreamxchacha20poly1305rekey »](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_secretstream_xchacha20poly1305_push(    string &$state,   �
 
 `state`
 
-Дивіться [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull()](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html) і [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
+Дивіться [sodiumcryptosecretstreamxchacha20poly1305initpull()](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html) і [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
 
 `message`
 

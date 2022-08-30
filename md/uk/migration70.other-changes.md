@@ -1,6 +1,6 @@
 Інші зміни
 
--   [« Удалённые модули и SAPI](migration70.removed-exts-sapis.html)
+-   [« Віддалені модулі та SAPI](migration70.removed-exts-sapis.html)
     
 -   [Миграция с PHP 5.5.x на PHP 5.6.x »](migration56.html)
     

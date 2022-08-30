@@ -1,12 +1,12 @@
 Створити новий об'єкт Color
 
--   [« UI\\Draw\\Color](class.ui-draw-color.html)
+-   [« UIDrawColor](class.ui-draw-color.html)
     
--   [UI\\Draw\\Color::getChannel »](ui-draw-color.getchannel.html)
+-   [ОЙDrawColor::getChannel »](ui-draw-color.getchannel.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Color](class.ui-draw-color.html)
+-   [ОЙDrawColor](class.ui-draw-color.html)
     
 -   Створити новий об'єкт Color
     
@@ -19,7 +19,7 @@
 
 ### Опис
 
-public **ОЙDrawColor::construct**[UI\\Draw\\Color](class.ui-draw-color.html) `$color`
+public **ОЙDrawColor::construct**[ОЙDrawColor](class.ui-draw-color.html) `$color`
 
 public **ОЙDrawColor::construct**(int `$color`
 

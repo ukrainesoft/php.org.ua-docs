@@ -1,12 +1,12 @@
 Функції зворотного дзвінка для результуючого набору
 
--   [« Функции обратного вызова](memcached.callbacks.html)
+-   [« Функції зворотного виклику](memcached.callbacks.html)
     
--   [Функции обратного вызова сквозного чтения кеша »](memcached.callbacks.read-through.html)
+-   [Функції зворотного виклику наскрізного читання кеша »](memcached.callbacks.read-through.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции обратного вызова](memcached.callbacks.html)
+-   [Опції зворотного дзвінка](memcached.callbacks.html)
     
 -   Функції зворотного дзвінка для результуючого набору
     

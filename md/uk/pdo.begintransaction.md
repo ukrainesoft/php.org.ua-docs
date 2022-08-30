@@ -68,4 +68,4 @@ $dbh->rollBack();
 
 -   [PDO::commit()](pdo.commit.html) - Фіксує транзакцію
 -   [PDO::rollBack()](pdo.rollback.html) - Відкат транзакції
--   [Транзакции и автоматическая фиксация](pdo.transactions.html)
+-   [Транзакції та автоматична фіксація](pdo.transactions.html)

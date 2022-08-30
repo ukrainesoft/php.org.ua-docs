@@ -1,8 +1,8 @@
 Подвійна експоненційна ковзна середня
 
--   [« trader\_cosh](function.trader-cosh.html)
+-   [« tradercosh](function.trader-cosh.html)
     
--   [trader\_div »](function.trader-div.html)
+-   [traderdiv »](function.trader-div.html)
     
 -   [PHP Manual](index.html)
     

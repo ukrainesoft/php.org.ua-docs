@@ -1,8 +1,8 @@
 Зупинення асинхронного запиту.
 
--   [« pg\_affected\_rows](function.pg-affected-rows.html)
+-   [« pgaffectedrows](function.pg-affected-rows.html)
     
--   [pg\_client\_encoding »](function.pg-client-encoding.html)
+-   [пгclientencoding »](function.pg-client-encoding.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@
 pg_cancel_query(PgSql\Connection $connection): bool
 ```
 
-**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [pg\_send\_query()](function.pg-send-query.html) [pg\_send\_query\_params()](function.pg-send-query-params.html) або [pg\_send\_execute()](function.pg-send-execute.html). Неможливо завершити виконання запиту, запущеного функцією [pg\_query()](function.pg-query.html)
+**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [пгsendquery()](function.pg-send-query.html) [пгsendqueryparams()](function.pg-send-query-params.html) або [пгsendexecute()](function.pg-send-execute.html). Неможливо завершити виконання запиту, запущеного функцією [пгquery()](function.pg-query.html)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ pg_cancel_query(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -73,5 +73,5 @@ Resource id #3 получил 3 записей
 
 ### Дивіться також
 
--   [pg\_send\_query()](function.pg-send-query.html) - Надсилає асинхронний запит
--   [pg\_connection\_busy()](function.pg-connection-busy.html) - Перевіряє, чи зайнято з'єднання на даний момент.
+-   [пгsendquery()](function.pg-send-query.html) - Надсилає асинхронний запит
+-   [пгconnectionbusy()](function.pg-connection-busy.html) - Перевіряє, чи зайнято з'єднання на даний момент.

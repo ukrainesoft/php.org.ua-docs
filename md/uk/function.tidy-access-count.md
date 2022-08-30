@@ -1,8 +1,8 @@
 Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
 
--   [« ob\_tidyhandler](function.ob-tidyhandler.html)
+-   [« obtidyhandler](function.ob-tidyhandler.html)
     
--   [tidy\_config\_count »](function.tidy-config-count.html)
+-   [tidyconfigcount »](function.tidy-config-count.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,9 +70,9 @@ echo tidy_access_count($tidy); //5
 
 > **Зауваження**
 > 
-> Відповідно до дизайну TidyLib, слід викликати [tidy\_diagnose()](tidy.diagnose.html) до **tidyaccesscount()** або останній завжди повертатиме `0`. Необхідно також вказувати параметр конфігурації `accessibility-check`
+> Відповідно до дизайну TidyLib, слід викликати [tidydiagnose()](tidy.diagnose.html) до **tidyaccesscount()** або останній завжди повертатиме `0`. Необхідно також вказувати параметр конфігурації `accessibility-check`
 
 ### Дивіться також
 
--   [tidy\_error\_count()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidy\_warning\_count()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
+-   [tidyerrorcount()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidywarningcount()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі

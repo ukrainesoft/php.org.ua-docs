@@ -1,8 +1,8 @@
 Переміщує курсор у результаті
 
--   [« cubrid\_lock\_write](function.cubrid-lock-write.html)
+-   [« cubridlockwrite](function.cubrid-lock-write.html)
     
--   [cubrid\_next\_result »](function.cubrid-next-result.html)
+-   [cubridnextresult »](function.cubrid-next-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -97,4 +97,4 @@ array(2) {
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

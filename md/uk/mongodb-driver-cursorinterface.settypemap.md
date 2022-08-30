@@ -1,12 +1,12 @@
 Задати порівняння типів для десеріалізації BSON
 
--   [« MongoDB\\Driver\\CursorInterface::isDead](mongodb-driver-cursorinterface.isdead.html)
+-   [« MongoDBDriverCursorInterface::isDead](mongodb-driver-cursorinterface.isdead.html)
     
--   [MongoDB\\Driver\\CursorInterface::toArray »](mongodb-driver-cursorinterface.toarray.html)
+-   [MongoDBDriverCursorInterface::toArray »](mongodb-driver-cursorinterface.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.html)
+-   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
     
 -   Задати порівняння типів для десеріалізації BSON
     
@@ -37,9 +37,9 @@ abstract public MongoDB\Driver\CursorInterface::setTypeMap(array $typemap): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Cursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) - Встановлює карту типу для десеріалізації BSON
--   [Постоянные данные](mongodb.persistence.html)
+-   [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) - Встановлює карту типу для десеріалізації BSON
+-   [Постійні дані](mongodb.persistence.html)

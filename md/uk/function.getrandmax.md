@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Повертає максимально можливе випадкове число
     
@@ -37,4 +37,4 @@ getrandmax(): int
 
 -   [rand()](function.rand.html) - Генерує випадкове число
 -   [srand()](function.srand.html) - Змінює початкове число генератора псевдовипадкових чисел
--   [mt\_getrandmax()](function.mt-getrandmax.html) - Показує максимально можливе значення випадкового числа
+-   [мтgetrandmax()](function.mt-getrandmax.html) - Показує максимально можливе значення випадкового числа

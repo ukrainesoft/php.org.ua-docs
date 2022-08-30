@@ -1,6 +1,6 @@
 Генерує хеш-код (підпис повідомлення)
 
--   [« hash\_update](function.hash-update.html)
+-   [« hashupdate](function.hash-update.html)
     
 -   [Mcrypt »](book.mcrypt.html)
     
@@ -27,7 +27,7 @@ hash(    string $algo,    string $data,    bool $binary = false,  
 
 `algo`
 
-Ім'я обраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо). Список підтримуваних алгоритмів дивіться [hash\_algos()](function.hash-algos.html)
+Ім'я обраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо). Список підтримуваних алгоритмів дивіться [hashalgos()](function.hash-algos.html)
 
 `data`
 
@@ -70,8 +70,8 @@ echo hash('ripemd160', 'Наглый коричневый лисёнок п
 
 ### Дивіться також
 
--   [hash\_file()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
--   [hash\_hmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
--   [hash\_init()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+-   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
 -   [md5()](function.md5.html) - Повертає MD5-хеш рядки
 -   [sha1()](function.sha1.html) - Повертає SHA1-хеш рядки

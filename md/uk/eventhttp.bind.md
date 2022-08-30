@@ -2,7 +2,7 @@
 
 -   [« EventHttp::addServerAlias](eventhttp.addserveralias.html)
     
--   [EventHttp::\_\_construct »](eventhttp.construct.html)
+-   [EventHttp::construct »](eventhttp.construct.html)
     
 -   [PHP Manual](index.html)
     

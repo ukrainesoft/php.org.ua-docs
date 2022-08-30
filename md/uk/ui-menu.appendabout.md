@@ -1,12 +1,12 @@
 Додати пункт меню About
 
--   [« UI\\Menu::append](ui-menu.append.html)
+-   [« UIMenu::append](ui-menu.append.html)
     
--   [UI\\Menu::appendCheck »](ui-menu.appendcheck.html)
+-   [ОЙMenu::appendCheck »](ui-menu.appendcheck.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Menu](class.ui-menu.html)
+-   [ОЙMenu](class.ui-menu.html)
     
 -   Додати пункт меню About
     

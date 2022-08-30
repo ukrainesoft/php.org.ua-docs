@@ -2,7 +2,7 @@
 
 -   [« SeasLog::critical](seaslog.critical.html)
     
--   [SeasLog::\_\_destruct »](seaslog.destruct.html)
+-   [SeasLog::destruct »](seaslog.destruct.html)
     
 -   [PHP Manual](index.html)
     
@@ -94,7 +94,7 @@ array(2) {
 
 ### Дивіться також
 
--   [seaslog.default\_template](seaslog.configuration.html#ini.seaslog.default-template)
+-   [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)
 -   [SeasLog::info()](seaslog.info.html) - Записує інформацію рівня "info" до журналу
 -   [SeasLog::notice()](seaslog.notice.html) - Записує інформацію рівня "notice" у журнал
 -   [SeasLog::warning()](seaslog.warning.html) - Записує інформацію рівня "warning" до журналу

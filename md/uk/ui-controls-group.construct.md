@@ -1,12 +1,12 @@
 Створити новий об'єкт Group
 
--   [« UI\\Controls\\Group::append](ui-controls-group.append.html)
+-   [« UIControlsGroup::append](ui-controls-group.append.html)
     
--   [UI\\Controls\\Group::getTitle »](ui-controls-group.gettitle.html)
+-   [ОЙControlsGroup::getTitle »](ui-controls-group.gettitle.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Group](class.ui-controls-group.html)
+-   [ОЙControlsGroup](class.ui-controls-group.html)
     
 -   Створити новий об'єкт Group
     

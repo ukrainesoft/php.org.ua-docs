@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає позицію першого входження підрядка
     
@@ -47,7 +47,7 @@ strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
@@ -115,12 +115,12 @@ $pos = strpos($newstring, 'a', 1); // $pos = 7, не 0
 ### Дивіться також
 
 -   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
--   [str\_contains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
--   [str\_ends\_with()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [str\_starts\_with()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
+-   [strcontains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
+-   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strstartswith()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
 -   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
 -   [strripos()](function.strripos.html) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
 -   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
 -   [substr()](function.substr.html) - Повертає підрядок
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

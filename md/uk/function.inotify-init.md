@@ -1,8 +1,8 @@
 Ініціалізує екземпляр inotify
 
--   [« inotify\_add\_watch](function.inotify-add-watch.html)
+-   [« inotifyaddwatch](function.inotify-add-watch.html)
     
--   [inotify\_queue\_len »](function.inotify-queue-len.html)
+-   [inotifyqueuelen »](function.inotify-queue-len.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ inotifyinit - Ініціалізує екземпляр inotify
 inotify_init(): resource
 ```
 
-Ініціалізує екземпляр inotify для використання в [inotify\_add\_watch()](function.inotify-add-watch.html)
+Ініціалізує екземпляр inotify для використання в [inotifyaddwatch()](function.inotify-add-watch.html)
 
 ### Список параметрів
 
@@ -94,8 +94,8 @@ array(
 
 ### Дивіться також
 
--   [inotify\_add\_watch()](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
--   [inotify\_rm\_watch()](function.inotify-rm-watch.html) - Видалити спостерігача
--   [inotify\_queue\_len()](function.inotify-queue-len.html) - Повертає кількість очікуваних подій у черзі
--   [inotify\_read()](function.inotify-read.html) - Читає очікуючі повідомлення з черги
+-   [inotifyaddwatch()](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
+-   [inotifyрмwatch()](function.inotify-rm-watch.html) - Видалити спостерігача
+-   [inotifyqueuelen()](function.inotify-queue-len.html) - Повертає кількість очікуваних подій у черзі
+-   [inotifyread()](function.inotify-read.html) - Читає очікуючі повідомлення з черги
 -   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу

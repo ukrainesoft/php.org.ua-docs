@@ -1,8 +1,8 @@
 Викликає парсер CCL
 
--   [« yaz\_ccl\_conf](function.yaz-ccl-conf.html)
+-   [« yazcclconf](function.yaz-ccl-conf.html)
     
--   [yaz\_close »](function.yaz-close.html)
+-   [yazclose »](function.yaz-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,15 +23,15 @@ yazcclparse — Викликає парсер CCL
 yaz_ccl_parse(resource $id, string $query, array &$result): bool
 ```
 
-Функція викликає синтаксичний аналізатор CCL. Він перетворює цей запит CCL FIND на запит RPN, який можна передати функції [yaz\_search()](function.yaz-search.html) для пошуку.
+Функція викликає синтаксичний аналізатор CCL. Він перетворює цей запит CCL FIND на запит RPN, який можна передати функції [yazsearch()](function.yaz-search.html) для пошуку.
 
-Щоб визначити набір допустимих полів CCL, викличте [yaz\_ccl\_conf()](function.yaz-ccl-conf.html) перед цією функцією.
+Щоб визначити набір допустимих полів CCL, викличте [yazcclconf()](function.yaz-ccl-conf.html) перед цією функцією.
 
 ### Список параметрів
 
 `id`
 
-Ресурс з'єднання, повернутий [yaz\_connect()](function.yaz-connect.html)
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
 
 `query`
 

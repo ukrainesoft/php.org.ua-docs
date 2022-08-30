@@ -1,8 +1,8 @@
 Повертає суму всіх значень колекції
 
--   [« Ds\\Vector::sorted](ds-vector.sorted.html)
+-   [« DsVector::sorted](ds-vector.sorted.html)
     
--   [Ds\\Vector::toArray »](ds-vector.toarray.html)
+-   [ДсVector::toArray »](ds-vector.toarray.html)
     
 -   [PHP Manual](index.html)
     

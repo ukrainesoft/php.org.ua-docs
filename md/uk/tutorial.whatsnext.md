@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Простой учебник](tutorial.html)
+-   [Простий підручник](tutorial.html)
     
 -   Що далі?
     

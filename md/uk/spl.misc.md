@@ -1,6 +1,6 @@
 Різні класи та інтерфейси
 
--   [« SplTempFileObject::\_\_construct](spltempfileobject.construct.html)
+-   [« SplTempFileObject::construct](spltempfileobject.construct.html)
     
 -   [ArrayObject »](class.arrayobject.html)
     

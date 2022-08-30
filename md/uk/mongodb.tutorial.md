@@ -16,4 +16,4 @@
 У цьому розділі ви знайдете кілька навчальних матеріалів з використання драйвера MongoDB для PHP.
 
 -   [Использование библиотеки PHP для MongoDB (PHPLIB)](mongodb.tutorial.library.html)
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)

@@ -82,8 +82,8 @@ echo $fmt->format(array(4560, 123, 4560/123));
 
 ### Дивіться також
 
--   [msgfmt\_create()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmt\_parse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
--   [msgfmt\_format\_message()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
--   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
--   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
+-   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmtparse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmtformatmessage()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
+-   [msgfmtgeterrorcode()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [msgfmtgeterrormessage()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції

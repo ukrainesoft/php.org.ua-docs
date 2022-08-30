@@ -1,12 +1,12 @@
 Малює дугу проти годинникової стрілки
 
--   [« ps\_add\_weblink](function.ps-add-weblink.html)
+-   [«psaddweblink](function.ps-add-weblink.html)
     
--   [ps\_arcn »](function.ps-arcn.html)
+-   [псarcn »](function.ps-arcn.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Малює дугу проти годинникової стрілки
     
@@ -23,13 +23,13 @@
 ps_arc(    resource $psdoc,    float $x,    float $y,    float $radius,    float $alpha,    float $beta): bool
 ```
 
-Малює частину кола із середньою точкою в точці (`x` `y`). Дуга починається під кутом `alpha` і закінчується під кутом `beta`. Вона малюється проти годинникової стрілки (використовуйте [ps\_arcn()](function.ps-arcn.html) для малювання за годинниковою стрілкою). Дочірній шлях, доданий до поточного шляху, починається на дузі під кутом `alpha` і закінчується на дузі під кутом `beta`
+Малює частину кола із середньою точкою в точці (`x` `y`). Дуга починається під кутом `alpha` і закінчується під кутом `beta`. Вона малюється проти годинникової стрілки (використовуйте [псarcn()](function.ps-arcn.html) для малювання за годинниковою стрілкою). Дочірній шлях, доданий до поточного шляху, починається на дузі під кутом `alpha` і закінчується на дузі під кутом `beta`
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `x`
 
@@ -57,4 +57,4 @@ ps_arc(    resource $psdoc,    float $x,    float $y,    float $
 
 ### Дивіться також
 
--   [ps\_arcn()](function.ps-arcn.html) - Малює дугу за годинниковою стрілкою
+-   [псarcn()](function.ps-arcn.html) - Малює дугу за годинниковою стрілкою

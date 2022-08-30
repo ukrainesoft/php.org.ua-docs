@@ -1,12 +1,12 @@
 Отримує всі рядки з результату
 
--   [« RowResult::\_\_construct](mysql-xdevapi-rowresult.construct.html)
+-   [« RowResult::construct](mysql-xdevapi-rowresult.construct.html)
     
 -   [RowResult::fetchOne »](mysql-xdevapi-rowresult.fetchone.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+-   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     
 -   Отримує всі рядки з результату
     

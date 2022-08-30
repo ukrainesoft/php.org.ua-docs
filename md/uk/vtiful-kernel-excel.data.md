@@ -1,12 +1,12 @@
 Записати дані
 
--   [« Vtiful\\Kernel\\Excel::\_\_construct](vtiful-kernel-excel.construct.html)
+-   [« VtifulKernelExcel::construct](vtiful-kernel-excel.construct.html)
     
--   [Vtiful\\Kernel\\Excel::fileName »](vtiful-kernel-excel.filename.html)
+-   [VtifulKernelExcel::fileName »](vtiful-kernel-excel.filename.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Записати дані
     
@@ -33,7 +33,7 @@ public Vtiful\Kernel\Excel::data(array $data)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

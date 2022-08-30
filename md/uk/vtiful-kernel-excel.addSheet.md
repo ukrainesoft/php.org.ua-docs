@@ -1,12 +1,12 @@
 Додати лист
 
--   [« Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [« VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
--   [Vtiful\\Kernel\\Excel::autoFilter »](vtiful-kernel-excel.autoFilter.html)
+-   [VtifulKernelExcel::autoFilter »](vtiful-kernel-excel.autoFilter.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Додати лист
     
@@ -33,7 +33,7 @@ public Vtiful\Kernel\Excel::addSheet(string $sheetName)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

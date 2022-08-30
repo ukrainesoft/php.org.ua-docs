@@ -1,8 +1,8 @@
 Клас PgSqlConnection
 
--   [« pg\_version](function.pg-version.html)
+-   [« pgversion](function.pg-version.html)
     
--   [PgSql\\Result »](class.pgsql-result.html)
+-   [PgSqlResult »](class.pgsql-result.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,7 +2,7 @@
 
 -   [« SoapServer::addFunction](soapserver.addfunction.html)
     
--   [SoapServer::\_\_construct »](soapserver.construct.html)
+-   [SoapServer::construct »](soapserver.construct.html)
     
 -   [PHP Manual](index.html)
     

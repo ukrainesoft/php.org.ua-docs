@@ -1,8 +1,8 @@
 Паттерн "Просвіт у хмарах"
 
--   [« trader\_cdlonneck](function.trader-cdlonneck.html)
+-   [« tradercdlonneck](function.trader-cdlonneck.html)
     
--   [trader\_cdlrickshawman »](function.trader-cdlrickshawman.html)
+-   [tradercdlrickshawman »](function.trader-cdlrickshawman.html)
     
 -   [PHP Manual](index.html)
     

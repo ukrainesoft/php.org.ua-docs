@@ -1,12 +1,12 @@
 Повертає рядкову виставу Regex
 
--   [« MongoDB\\BSON\\Regex::serialize](mongodb-bson-regex.serialize.html)
+-   [« MongoDBBSONRegex::serialize](mongodb-bson-regex.serialize.html)
     
--   [MongoDB\\BSON\\Regex::unserialize »](mongodb-bson-regex.unserialize.html)
+-   [MongoDBBSONRegex::unserialize »](mongodb-bson-regex.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+-   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
 -   Повертає рядкову виставу Regex
     

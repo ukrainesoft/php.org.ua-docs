@@ -1,12 +1,12 @@
 Імпорт шляху без версії до репозиторії
 
--   [« svn\_fs\_youngest\_rev](function.svn-fs-youngest-rev.html)
+-   [« svnфсyoungestrev](function.svn-fs-youngest-rev.html)
     
--   [svn\_log »](function.svn-log.html)
+-   [svnlog »](function.svn-log.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Імпорт шляху без версії до репозиторії
     
@@ -65,5 +65,5 @@ svn_import(realpath('new-files'), 'http://www.example.com/svnroot/incoming/abc'
 
 ### Дивіться також
 
--   [svn\_add()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
+-   [svnadd()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
 -   [» SVN-документация по svn import](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.import.html)

@@ -1,12 +1,12 @@
 Обумовлені класи
 
--   [« Список ключевых слов](reserved.keywords.html)
+-   [« Список ключових слів](reserved.keywords.html)
     
 -   [Предопределённые константы »](reserved.constants.html)
     
 -   [PHP Manual](index.html)
     
--   [Список зарезервированных слов](reserved.html)
+-   [Список зарезервованих слів](reserved.html)
     
 -   Обумовлені класи
     
@@ -35,7 +35,7 @@
 
 [ErrorException](class.errorexception.html)
 
-[php\_user\_filter](class.php-user-filter.html)
+[phpuserfilter](class.php-user-filter.html)
 
 [Closure](class.closure.html)
 
@@ -43,7 +43,7 @@
 
 [Generator](class.generator.html)
 
-Обумовлений остаточний клас [Generator](class.generator.html), використовується для подання [генераторов](language.generators.html)
+Обумовлений остаточний клас [Generator](class.generator.html), використовується для подання [генераторів](language.generators.html)
 
 [ArithmeticError](class.arithmeticerror.html)
 
@@ -73,4 +73,4 @@
 
 **parent**
 
-[Родительский класс](language.oop5.paamayim-nekudotayim.html)
+[Батьківський клас](language.oop5.paamayim-nekudotayim.html)

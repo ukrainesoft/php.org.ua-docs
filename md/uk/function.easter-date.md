@@ -1,8 +1,8 @@
 Отримати мітку часу Unix, що відповідає півночі на Великдень у заданому році
 
--   [« cal\_to\_jd](function.cal-to-jd.html)
+-   [« calтожд](function.cal-to-jd.html)
     
--   [easter\_days »](function.easter-days.html)
+-   [easterdays »](function.easter-days.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,7 +71,7 @@ echo date("M-d-Y", easter_date(2001));        // Apr-15-2001
 > 
 > Функція **easterdate()** залежить від вашої системної бібліотеки C функцій роботи з часом, а не від внутрішніх функцій PHP. Як наслідок, функція **easterdate()** використовує змінну оточення `TZ` для визначення часового поясу, а не заданий у PHP [часовой пояс по умолчанию](datetime.configuration.html#ini.date.timezone). Це може призвести до несподіваної поведінки при використанні цієї функції разом з іншими функціями для роботи з датами PHP.
 > 
-> Як обхідне рішення може бути використання функції [easter\_days()](function.easter-days.html) з об'єктами [DateTime](class.datetime.html) і [DateInterval](class.dateinterval.html) для підрахунку початку Великодня у вашому часовому поясі, як у цьому прикладі:
+> Як обхідне рішення може бути використання функції [easterdays()](function.easter-days.html) з об'єктами [DateTime](class.datetime.html) і [DateInterval](class.dateinterval.html) для підрахунку початку Великодня у вашому часовому поясі, як у цьому прикладі:
 > 
 > ```php
 > <?php
@@ -101,4 +101,4 @@ echo date("M-d-Y", easter_date(2001));        // Apr-15-2001
 
 ### Дивіться також
 
--   Функція [easter\_days()](function.easter-days.html) - Отримати кількість днів між 21 березня та Великоднем у заданому році для розрахунку дня Великодня до 1970 або після 2037 року
+-   Функція [easterdays()](function.easter-days.html) - Отримати кількість днів між 21 березня та Великоднем у заданому році для розрахунку дня Великодня до 1970 або після 2037 року

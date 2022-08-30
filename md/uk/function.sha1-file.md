@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає SHA1-хеш файлу
     
@@ -60,5 +60,5 @@ foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 ### Дивіться також
 
 -   [sha1()](function.sha1.html) - Повертає SHA1-хеш рядки
--   [md5\_file()](function.md5-file.html) - Повертає MD5-хеш файлу
+-   [md5file()](function.md5-file.html) - Повертає MD5-хеш файлу
 -   [crc32()](function.crc32.html) - Обчислює поліном CRC32 для рядка

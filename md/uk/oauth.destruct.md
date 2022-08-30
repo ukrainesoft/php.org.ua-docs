@@ -1,6 +1,6 @@
 Деструктор
 
--   [« OAuth::\_\_construct](oauth.construct.html)
+-   [« OAuth::construct](oauth.construct.html)
     
 -   [OAuth::disableDebug »](oauth.disabledebug.html)
     
@@ -39,4 +39,4 @@ public OAuth::__destruct(): void
 
 ### Дивіться також
 
--   [OAuth::\_\_construct()](oauth.construct.html) - Створює новий об'єкт OAuth
+-   [OAuth::construct()](oauth.construct.html) - Створює новий об'єкт OAuth

@@ -1,6 +1,6 @@
 Клас RRDCreator
 
--   [« rrdc\_disconnect](function.rrdc-disconnect.html)
+-   [« rrdcdisconnect](function.rrdc-disconnect.html)
     
 -   [RRDCreator::addArchive »](rrdcreator.addarchive.html)
     
@@ -47,5 +47,5 @@ public save(): bool
 
 -   [RRDCreator::addArchive](rrdcreator.addarchive.html) — Додає RRA – архів значень даних для кожного джерела даних
 -   [RRDCreator::addDataSource](rrdcreator.adddatasource.html) — Додає визначення джерела даних для бази даних RRD
--   [RRDCreator::\_\_construct](rrdcreator.construct.html) — Створює новий екземпляр RRDCreator
+-   [RRDCreator::construct](rrdcreator.construct.html) — Створює новий екземпляр RRDCreator
 -   [RRDCreator::save](rrdcreator.save.html) — Зберігає базу даних RRD у файл

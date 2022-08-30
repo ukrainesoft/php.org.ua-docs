@@ -1,6 +1,6 @@
 Експортує клас
 
--   [« ReflectionClass::\_\_construct](reflectionclass.construct.html)
+-   [« ReflectionClass::construct](reflectionclass.construct.html)
     
 -   [ReflectionClass::getAttributes »](reflectionclass.getattributes.html)
     
@@ -92,4 +92,4 @@ Class [ <user> class Apple ] {
 ### Дивіться також
 
 -   [ReflectionClass::getName()](reflectionclass.getname.html) - Повертає ім'я класу
--   [ReflectionClass::\_\_toString()](reflectionclass.tostring.html) - Повертає рядкову виставу об'єкта класу ReflectionClass
+-   [ReflectionClass::toString()](reflectionclass.tostring.html) - Повертає рядкову виставу об'єкта класу ReflectionClass

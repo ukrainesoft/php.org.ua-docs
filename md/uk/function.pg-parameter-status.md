@@ -1,8 +1,8 @@
 Перегляд поточних значень параметрів сервера
 
--   [« pg\_options](function.pg-options.html)
+-   [« pgoptions](function.pg-options.html)
     
--   [pg\_pconnect »](function.pg-pconnect.html)
+-   [пгpconnect »](function.pg-pconnect.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ pg_parameter_status(PgSql\Connection $connection = ?, string $param_name): strin
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -55,9 +55,9 @@ pg_parameter_status(PgSql\Connection $connection = ?, string $param_name): strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Вбудований веб-сервер
 
--   [« Интерактивная консоль](features.commandline.interactive.html)
+-   [« Інтерактивна консоль](features.commandline.interactive.html)
     
 -   [Опции конфигурации »](features.commandline.ini.html)
     
 -   [PHP Manual](index.html)
     
--   [Использование PHP в командной строке](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.html)
     
 -   Вбудований веб-сервер
     

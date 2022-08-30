@@ -1,12 +1,12 @@
 Повертає сервер, пов'язаний із цим результатом запису
 
--   [« MongoDB\\Driver\\WriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.html)
+-   [« MongoDBDriverWriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.html)
     
--   [MongoDB\\Driver\\WriteResult::getUpsertedCount »](mongodb-driver-writeresult.getupsertedcount.html)
+-   [MongoDBDriverWriteResult::getUpsertedCount »](mongodb-driver-writeresult.getupsertedcount.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     
 -   Повертає сервер, пов'язаний із цим результатом запису
     
@@ -23,7 +23,7 @@ MongoDBDriverWriteResult::getServer — Повертає сервер, пов'я
 final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html) пов'язаний із цим результатом запису.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html) пов'язаний із цим результатом запису.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -65,4 +65,4 @@ bool(true)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)

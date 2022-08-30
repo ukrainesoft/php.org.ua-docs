@@ -1,8 +1,8 @@
 Клас ReflectionClassConstant
 
--   [« ReflectionClass::\_\_toString](reflectionclass.tostring.html)
+-   [« ReflectionClass::toString](reflectionclass.tostring.html)
     
--   [ReflectionClassConstant::\_\_construct »](reflectionclassconstant.construct.html)
+-   [ReflectionClassConstant::construct »](reflectionclassconstant.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -95,15 +95,15 @@ class
 
 **`ReflectionClassConstant::IS_PUBLIC`**
 
-Вказує, що константа є [общедоступной](language.oop5.visibility.html). До PHP 7.4.0, значення було `256`
+Вказує, що константа є [загальнодоступною](language.oop5.visibility.html). До PHP 7.4.0, значення було `256`
 
 **`ReflectionClassConstant::IS_PROTECTED`**
 
-Вказує, що константа є [защищённой](language.oop5.visibility.html). До PHP 7.4.0, значення було `512`
+Вказує, що константа є [захищеною](language.oop5.visibility.html). До PHP 7.4.0, значення було `512`
 
 **`ReflectionClassConstant::IS_PRIVATE`**
 
-Вказує, що константа є [закрытой](language.oop5.visibility.html). До PHP 7.4.0, значення було `1024`
+Вказує, що константа є [закритою](language.oop5.visibility.html). До PHP 7.4.0, значення було `1024`
 
 > **Зауваження**
 > 
@@ -111,7 +111,7 @@ class
 
 ## Зміст
 
--   [ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.html) — Створює ReflectionClassConstant
+-   [ReflectionClassConstant::construct](reflectionclassconstant.construct.html) — Створює ReflectionClassConstant
 -   [ReflectionClassConstant::export](reflectionclassconstant.export.html) - Експорт
 -   [ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.html) — Отримує атрибути
 -   [ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.html) — Отримує оголошуючий клас
@@ -124,4 +124,4 @@ class
 -   [ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.html) — Перевіряє, чи константа закрита
 -   [ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.html) — Перевіряє, чи константа захищена
 -   [ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.html) — Перевіряє, чи константа є загальнодоступною
--   [ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.html) — Повертає строкове представлення об'єкта ReflectionClassConstant
+-   [ReflectionClassConstant::toString](reflectionclassconstant.tostring.html) — Повертає строкове представлення об'єкта ReflectionClassConstant

@@ -19,9 +19,9 @@
 
 Спроба використовувати значення типу null, bool, int, float або resource як масив (наприклад, `$null["key"]`) Тепер створить повідомлення.
 
-#### Функція [get\_declared\_classes()](function.get-declared-classes.html)
+#### Функція [getdeclaredclasses()](function.get-declared-classes.html)
 
-Функція [get\_declared\_classes()](function.get-declared-classes.html) більше не повертає анонімних класів, які ще не були створені.
+Функція [getdeclaredclasses()](function.get-declared-classes.html) більше не повертає анонімних класів, які ще не були створені.
 
 #### Ключове слово `fn`
 
@@ -33,7 +33,7 @@
 
 #### Поточні обгортки
 
-При використанні include/require з потоком, [streamWrapper::stream\_set\_option()](streamwrapper.stream-set-option.html) буде викликатись з параметром **`STREAM_OPTION_READ_BUFFER`**. Для користувальницьких потокових обгорток, можливо, знадобиться реалізація методу [streamWrapper::stream\_set\_option()](streamwrapper.stream-set-option.html), щоб прибрати попередження (як правило, вистачає тільки повернення **`false`**
+При використанні include/require з потоком, [streamWrapper::streamsetoption()](streamwrapper.stream-set-option.html) буде викликатись з параметром **`STREAM_OPTION_READ_BUFFER`**. Для користувальницьких потокових обгорток, можливо, знадобиться реалізація методу [streamWrapper::streamsetoption()](streamwrapper.stream-set-option.html), щоб прибрати попередження (як правило, вистачає тільки повернення **`false`**
 
 #### Серіалізація
 
@@ -56,7 +56,7 @@
 
 #### Функції [fread()](function.fread.html) і [fwrite()](function.fwrite.html)
 
-Функції [fread()](function.fread.html) і [fwrite()](function.fwrite.html) тепер повертатимуть **`false`**якщо операція не вдалася. Раніше повертався порожній рядок або 0. До помилок EAGAIN/EWOULDBLOCK це не стосується.
+Функції [fread()](function.fread.html) і [fwrite()](function.fwrite.html) тепер повертатимуть \*\*`false`\*\*якщо операція не вдалася. Раніше повертався порожній рядок або 0. До помилок EAGAIN/EWOULDBLOCK це не стосується.
 
 Ці функції тепер також викликають повідомлення при невдалому виконанні, наприклад, під час запису файловий ресурс, призначений лише читання.
 
@@ -70,17 +70,17 @@
 
 Використання **`CURLPIPE_HTTP1`** оголошено застарілим і не підтримуватиметься з версії cURL 7.62.0.
 
-Параметр `$version` функції [curl\_version()](function.curl-version.html) оголошено застарілим. Якщо передається значення, не рівне **`CURLVERSION_NOW`** за промовчанням буде викликано попередження, а параметр проігноровано.
+Параметр `$version` функції [curlversion()](function.curl-version.html) оголошено застарілим. Якщо передається значення, не рівне **`CURLVERSION_NOW`** за промовчанням буде викликано попередження, а параметр проігноровано.
 
 ### дата і час
 
-Виклик [var\_dump()](function.var-dump.html) або схожої налагоджувальної функції з екземпляром [DateTime](class.datetime.html) або [DateTimeImmutable](class.datetimeimmutable.html) більше не залишає після виконання доступних властивостей.
+Виклик [vardump()](function.var-dump.html) або схожої налагоджувальної функції з екземпляром [DateTime](class.datetime.html) або [DateTimeImmutable](class.datetimeimmutable.html) більше не залишає після виконання доступних властивостей.
 
 Порівняння об'єктів [DateInterval](class.dateinterval.html) (з використанням `==` `<` і т.д.) тепер створює попередження і завжди повертає **`false`**. Раніше всі об'єкти [DateInterval](class.dateinterval.html) вважалися однаковими, якщо вони не мали властивостей.
 
 ### Intl
 
-Значення параметрів за замовчуванням у функціях [idn\_to\_ascii()](function.idn-to-ascii.html) і [idn\_to\_utf8()](function.idn-to-utf8.html) тепер **`INTL_IDNA_VARIANT_UTS46`** замість застарілого **`INTL_IDNA_VARIANT_2003`**
+Значення параметрів за замовчуванням у функціях [idnтоascii()](function.idn-to-ascii.html) і [idnтоutf8()](function.idn-to-utf8.html) тепер **`INTL_IDNA_VARIANT_UTS46`** замість застарілого **`INTL_IDNA_VARIANT_2003`**
 
 ### MySQLi
 
@@ -90,7 +90,7 @@
 
 ### OpenSSL
 
-Функція [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) тепер викидатиме виняток у ситуаціях, що й функція [random\_bytes()](function.random-bytes.html). Зокрема, викидається [Error](class.error.html), якщо кількість запрошених байтів менша або дорівнює нулю. Виняток [Exception](class.exception.html) викидається, якщо не отримано достатньої випадковості. Аргумент `$crypto_strong` гарантовано завжди дорівнюватиме **`true`**якщо функція нічого не викидає, тому явно перевіряти його не потрібно.
+Функція [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) тепер викидатиме виняток у ситуаціях, що й функція [randombytes()](function.random-bytes.html). Зокрема, викидається [Error](class.error.html), якщо кількість запрошених байтів менша або дорівнює нулю. Виняток [Exception](class.exception.html) викидається, якщо не отримано достатньої випадковості. Аргумент `$crypto_strong` гарантовано завжди дорівнюватиме \*\*`true`\*\*якщо функція нічого не викидає, тому явно перевіряти його не потрібно.
 
 ### Регулярні вирази (сумісні Perl)
 
@@ -108,13 +108,13 @@
 
 ### Стандартна бібліотека PHP (SPL)
 
-Виклик [get\_object\_vars()](function.get-object-vars.html) з екземпляром [ArrayObject](class.arrayobject.html) тепер завжди повертатиме властивості самого [ArrayObject](class.arrayobject.html) (або підкласу). Раніше він повертав значення упакованого масиву/об'єкта, якщо не було вказано прапор **`ArrayObject::STD_PROP_LIST`**
+Виклик [getobjectvars()](function.get-object-vars.html) з екземпляром [ArrayObject](class.arrayobject.html) тепер завжди повертатиме властивості самого [ArrayObject](class.arrayobject.html) (або підкласу). Раніше він повертав значення упакованого масиву/об'єкта, якщо не було вказано прапор **`ArrayObject::STD_PROP_LIST`**
 
 Інші порушені операції:
 
 -   **ReflectionObject::getProperties()**
 -   [reset()](function.reset.html) [current()](function.current.html) і т.д. Використовуйте натомість методи [Iterator](class.iterator.html)
--   Ймовірно, решта працює з властивостями об'єкта при доступі у вигляді списку, наприклад, [array\_walk()](function.array-walk.html)
+-   Ймовірно, решта працює з властивостями об'єкта при доступі у вигляді списку, наприклад, [arraywalk()](function.array-walk.html)
 
 На приведення типу `(array)` ці зміни не вплинуть. Вони, як і раніше, повертають або упакований масив, або властивості. [ArrayObject](class.arrayobject.html), залежно від того, чи використовується прапор **`ArrayObject::STD_PROP_LIST`**
 
@@ -124,7 +124,7 @@
 
 ### Лексер (Tokenizer)
 
-Функція [token\_get\_all()](function.token-get-all.html) тепер відобразить мітку **`T_BAD_CHARACTER`** у разі виявлення непередбачених символів у потоці міток.
+Функція [tokengetall()](function.token-get-all.html) тепер відобразить мітку **`T_BAD_CHARACTER`** у разі виявлення непередбачених символів у потоці міток.
 
 ### Вхідні Cookies
 

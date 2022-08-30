@@ -1,8 +1,8 @@
 Асинхронний запис даних до потоку файлу
 
--   [« swoole\_async\_set](function.swoole-async-set.html)
+-   [« swooleasyncset](function.swoole-async-set.html)
     
--   [swoole\_async\_writefile »](function.swoole-async-writefile.html)
+-   [swooleasyncwritefile »](function.swoole-async-writefile.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Отримує тип перерахування, якщо є
 
--   [« ReflectionEnum::\_\_construct](reflectionenum.construct.html)
+-   [« ReflectionEnum::construct](reflectionenum.construct.html)
     
 -   [ReflectionEnum::getCase »](reflectionenum.getcase.html)
     

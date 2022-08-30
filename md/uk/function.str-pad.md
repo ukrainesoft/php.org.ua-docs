@@ -1,12 +1,12 @@
 Доповнює рядок іншим рядком до заданої довжини
 
--   [« str\_ireplace](function.str-ireplace.html)
+-   [« strireplace](function.str-ireplace.html)
     
--   [str\_repeat »](function.str-repeat.html)
+-   [strrepeat »](function.str-repeat.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Доповнює рядок іншим рядком до заданої довжини
     

@@ -23,7 +23,7 @@ SeasLog::getBufferEnabled — Визначає, чи буфер увімкнен
 public static SeasLog::getBufferEnabled(): bool
 ```
 
-Результат об'єднання [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer) і [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
+Результат об'єднання [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer) і [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public static SeasLog::getBufferEnabled(): bool
 
 ### Значення, що повертаються
 
-Повертає TRUE, якщо [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer) є true. Якщо увімкнути [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli) та запустити в cli, параметр seaslog.usebuffer буде скинутий, Seaslog НЕГАЙНО перезапише дані в сховище даних.
+Повертає TRUE, якщо [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer) є true. Якщо увімкнути [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli) та запустити в cli, параметр seaslog.usebuffer буде скинутий, Seaslog НЕГАЙНО перезапише дані в сховище даних.
 
 ### Приклади
 
@@ -53,8 +53,8 @@ bool(false)
 
 ### Дивіться також
 
--   [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer)
--   [seaslog.buffer\_size](seaslog.configuration.html#ini.seaslog.buffer-size)
--   [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
+-   [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)
+-   [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)
+-   [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
 -   [SeasLog::getBuffer()](seaslog.getbuffer.html) - Отримує буфер логів у пам'яті у вигляді масиву
 -   [SeasLog::flushBuffer()](seaslog.flushbuffer.html) - Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp

@@ -1,8 +1,8 @@
 Видаляє всі значення
 
--   [« Ds\\Vector::capacity](ds-vector.capacity.html)
+-   [« DsVector::capacity](ds-vector.capacity.html)
     
--   [Ds\\Vector::\_\_construct »](ds-vector.construct.html)
+-   [ДсVector::construct »](ds-vector.construct.html)
     
 -   [PHP Manual](index.html)
     

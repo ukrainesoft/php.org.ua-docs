@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](bzip2.constants.html)
     
--   [Функции Bzip2 »](ref.bzip2.html)
+-   [Функції Bzip2 »](ref.bzip2.html)
     
 -   [PHP Manual](index.html)
     

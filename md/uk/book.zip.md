@@ -6,7 +6,7 @@ Zip
     
 -   [PHP Manual](index.html)
     
--   [Модули для сжатия и архивации](refs.compression.html)
+-   [Модулі для стиснення та архівації](refs.compression.html)
     
 -   Zip
     
@@ -73,13 +73,13 @@ Zip
     -   [ZipArchive::unchangeIndex](ziparchive.unchangeindex.html) — Скасує всі зміни у позиції із заданим індексом
     -   [ZipArchive::unchangeName](ziparchive.unchangename.html) — Скасує всі зміни у позиції із заданим ім'ям
 -   [Функции Zip](ref.zip.html)
-    -   [zip\_close](function.zip-close.html) - Закриває дескриптор ZIP-архіву
-    -   [zip\_entry\_close](function.zip-entry-close.html) - Закриває дескриптор директорії
-    -   [zip\_entry\_compressedsize](function.zip-entry-compressedsize.html) — Повертає стислий розмір файлу для дескриптора директорії
-    -   [zip\_entry\_compressionmethod](function.zip-entry-compressionmethod.html) — Повертає метод стиснення дескриптора директорії
-    -   [zip\_entry\_filesize](function.zip-entry-filesize.html) — Повертає реальний розмір файлу для дескриптора директорії
-    -   [zip\_entry\_name](function.zip-entry-name.html) — Отримує ім'я дескриптора директорії
-    -   [zip\_entry\_open](function.zip-entry-open.html) — Відкриває директорію для читання
-    -   [zip\_entry\_read](function.zip-entry-read.html) — Читає дані із відкритого раніше дескриптора директорії
-    -   [zip\_open](function.zip-open.html) - Відкриває ZIP-архів
-    -   [zip\_read](function.zip-read.html) — Зчитує наступний запис у ZIP-архіві
+    -   [zipclose](function.zip-close.html) - Закриває дескриптор ZIP-архіву
+    -   [zipentryclose](function.zip-entry-close.html) - Закриває дескриптор директорії
+    -   [zipentrycompressedsize](function.zip-entry-compressedsize.html) — Повертає стислий розмір файлу для дескриптора директорії
+    -   [zipentrycompressionmethod](function.zip-entry-compressionmethod.html) — Повертає метод стиснення дескриптора директорії
+    -   [zipentryfilesize](function.zip-entry-filesize.html) — Повертає реальний розмір файлу для дескриптора директорії
+    -   [zipentryname](function.zip-entry-name.html) — Отримує ім'я дескриптора директорії
+    -   [zipentryopen](function.zip-entry-open.html) — Відкриває директорію для читання
+    -   [zipentryread](function.zip-entry-read.html) — Читає дані із відкритого раніше дескриптора директорії
+    -   [zipopen](function.zip-open.html) - Відкриває ZIP-архів
+    -   [zipread](function.zip-read.html) — Зчитує наступний запис у ZIP-архіві

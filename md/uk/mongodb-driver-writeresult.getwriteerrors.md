@@ -1,12 +1,12 @@
 Повертає будь-які помилки запису, що відбулися
 
--   [« MongoDB\\Driver\\WriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.html)
+-   [« MongoDBDriverWriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.html)
     
--   [MongoDB\\Driver\\WriteResult::isAcknowledged »](mongodb-driver-writeresult.isacknowledged.html)
+-   [MongoDBDriverWriteResult::isAcknowledged »](mongodb-driver-writeresult.isacknowledged.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     
 -   Повертає будь-які помилки запису, що відбулися
     
@@ -29,11 +29,11 @@ final public MongoDB\Driver\WriteResult::getWriteErrors(): array
 
 ### Значення, що повертаються
 
-Повертає масив об'єктів [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html) для будь-яких помилок запису, виявлених під час операції запису. Масив буде порожнім, якщо помилок не сталося.
+Повертає масив об'єктів [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html) для будь-яких помилок запису, виявлених під час операції запису. Масив буде порожнім, якщо помилок не сталося.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -140,4 +140,4 @@ array(2) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html)
+-   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)

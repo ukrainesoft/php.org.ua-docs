@@ -1,12 +1,12 @@
 Повертає результат додавання всіх заданих значень у двосторонню чергу
 
--   [« Ds\\Deque::map](ds-deque.map.html)
+-   [« DsDeque::map](ds-deque.map.html)
     
--   [Ds\\Deque::pop »](ds-deque.pop.html)
+-   [ДсDeque::pop »](ds-deque.pop.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає результат додавання всіх заданих значень у двосторонню чергу
     

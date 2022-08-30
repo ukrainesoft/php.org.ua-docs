@@ -1,12 +1,12 @@
 Копіює файл або директорію
 
--   [« svn\_fs\_contents\_changed](function.svn-fs-contents-changed.html)
+-   [« svnфсcontentschanged](function.svn-fs-contents-changed.html)
     
--   [svn\_fs\_delete »](function.svn-fs-delete.html)
+-   [svnфсdelete »](function.svn-fs-delete.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Копіює файл або директорію
     

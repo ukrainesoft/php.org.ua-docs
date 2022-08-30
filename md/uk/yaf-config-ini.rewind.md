@@ -1,12 +1,12 @@
 Призначення rewind
 
--   [« Yaf\_Config\_Ini::readonly](yaf-config-ini.readonly.html)
+-   [« YafConfigIni::readonly](yaf-config-ini.readonly.html)
     
--   [Yaf\_Config\_Ini::\_\_set »](yaf-config-ini.set.html)
+-   [YafConfigIni::set »](yaf-config-ini.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Призначення rewind
     

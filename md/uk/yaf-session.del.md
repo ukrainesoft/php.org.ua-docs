@@ -1,12 +1,12 @@
 Призначення del
 
--   [« Yaf\_Session::current](yaf-session.current.html)
+-   [« YafSession::current](yaf-session.current.html)
     
--   [Yaf\_Session::\_\_get »](yaf-session.get.html)
+-   [YafSession::get »](yaf-session.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення del
     

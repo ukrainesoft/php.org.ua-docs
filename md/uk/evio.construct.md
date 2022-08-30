@@ -24,7 +24,7 @@ public **EvIo::construct**
 int `$events`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
-int `$priority`  
+int `$priority`
 
 Створює та автоматично стартує об'єкт спостерігач EvIo.
 
@@ -36,11 +36,11 @@ int `$priority`
 
 `events`
 
-**`Ev::READ`** та/або **`Ev::WRITE`**. Дивіться [битовые маски](class.ev.html#ev.constants.watcher-revents)
+**`Ev::READ`** та/або **`Ev::WRITE`**. Дивіться [бітові маски](class.ev.html#ev.constants.watcher-revents)
 
 `callback`
 
-Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

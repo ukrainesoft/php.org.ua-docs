@@ -71,4 +71,4 @@ Array
 ### Дивіться також
 
 -   [ReflectionExtension::getClasses()](reflectionextension.getclasses.html) - Повертає класи
--   [get\_extension\_funcs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
+-   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля

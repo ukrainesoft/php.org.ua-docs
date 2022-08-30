@@ -1,12 +1,12 @@
 Отримує розмір кеша realpath
 
--   [« realpath\_cache\_get](function.realpath-cache-get.html)
+-   [« realpathcacheget](function.realpath-cache-get.html)
     
 -   [realpath »](function.realpath.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Отримує розмір кеша realpath
     
@@ -51,5 +51,5 @@ int(412)
 
 ### Дивіться також
 
--   [realpath\_cache\_get()](function.realpath-cache-get.html) - Отримує записи з кеша realpath
--   Конфігураційна опція [realpath\_cache\_size](ini.core.html#ini.realpath-cache-size)
+-   [realpathcacheget()](function.realpath-cache-get.html) - Отримує записи з кеша realpath
+-   Конфігураційна опція [realpathcachesize](ini.core.html#ini.realpath-cache-size)

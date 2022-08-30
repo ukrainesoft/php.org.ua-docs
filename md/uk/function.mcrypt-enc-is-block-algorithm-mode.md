@@ -1,8 +1,8 @@
 Перевіряє, чи використовується блоковий режим
 
--   [« mcrypt\_enc\_get\_supported\_key\_sizes](function.mcrypt-enc-get-supported-key-sizes.html)
+-   [« mcryptencgetsupportedkeysizes](function.mcrypt-enc-get-supported-key-sizes.html)
     
--   [mcrypt\_enc\_is\_block\_algorithm »](function.mcrypt-enc-is-block-algorithm.html)
+-   [mcryptencісblockalgorithm »](function.mcrypt-enc-is-block-algorithm.html)
     
 -   [PHP Manual](index.html)
     

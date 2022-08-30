@@ -1,8 +1,8 @@
 Ластівка, що ховається
 
--   [« trader\_cdlclosingmarubozu](function.trader-cdlclosingmarubozu.html)
+-   [« tradercdlclosingmarubozu](function.trader-cdlclosingmarubozu.html)
     
--   [trader\_cdlcounterattack »](function.trader-cdlcounterattack.html)
+-   [tradercdlcounterattack »](function.trader-cdlcounterattack.html)
     
 -   [PHP Manual](index.html)
     

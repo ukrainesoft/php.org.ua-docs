@@ -1,12 +1,12 @@
 Отримує атрибути із запису у результатах пошуку
 
--   [« ldap\_free\_result](function.ldap-free-result.html)
+-   [« ldapfreeresult](function.ldap-free-result.html)
     
--   [ldap\_get\_dn »](function.ldap-get-dn.html)
+-   [ldapgetdn »](function.ldap-get-dn.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Отримує атрибути із запису у результатах пошуку
     
@@ -41,11 +41,11 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `entry`
 
-Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
 
 ### Значення, що повертаються
 
@@ -53,10 +53,10 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                   |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html)     |
+|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -83,5 +83,5 @@ for ($i=0; $i < $attrs["count"]; $i++) {
 
 ### Дивіться також
 
--   [ldap\_first\_attribute()](function.ldap-first-attribute.html) - Повернути перший атрибут
--   [ldap\_next\_attribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату
+-   [ldapfirstattribute()](function.ldap-first-attribute.html) - Повернути перший атрибут
+-   [ldapnextattribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату

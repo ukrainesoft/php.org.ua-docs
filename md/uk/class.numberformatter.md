@@ -70,7 +70,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 ## Обумовлені константи
 
-Ці стилі використовуються функцією [numfmt\_create()](numberformatter.create.html) визначення типу форматування.
+Ці стилі використовуються функцією [numfmtcreate()](numberformatter.create.html) визначення типу форматування.
 
 **`NumberFormatter::PATTERN_DECIMAL`** (int)
 
@@ -120,7 +120,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Псевдонім для PATTERNDECIMAL
 
-Дані константи визначають, як будуть розібрані чи відформатовані числа. Їх необхідно передавати функціям [numfmt\_format()](numberformatter.format.html) і [numfmt\_parse()](numberformatter.parse.html)
+Дані константи визначають, як будуть розібрані чи відформатовані числа. Їх необхідно передавати функціям [numfmtformat()](numberformatter.format.html) і [numfmtparse()](numberformatter.parse.html)
 
 **`NumberFormatter::TYPE_DEFAULT`** (int)
 
@@ -142,7 +142,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Форматування/розбір як грошової одиниці
 
-Атрибут формату чисел для [numfmt\_get\_attribute()](numberformatter.getattribute.html) і [numfmt\_set\_attribute()](numberformatter.setattribute.html)
+Атрибут формату чисел для [numfmtgetattribute()](numberformatter.getattribute.html) і [numfmtsetattribute()](numberformatter.setattribute.html)
 
 **`NumberFormatter::PARSE_INT_ONLY`** (int)
 
@@ -224,7 +224,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Режим поблажливий синтаксичного аналізу для заснованих на правилах форматів.
 
-Атрибути тексту форматування чисел, що використовуються в [numfmt\_get\_text\_attribute()](numberformatter.gettextattribute.html) і [numfmt\_set\_text\_attribute()](numberformatter.settextattribute.html)
+Атрибути тексту форматування чисел, що використовуються в [numfmtgettextattribute()](numberformatter.gettextattribute.html) і [numfmtsettextattribute()](numberformatter.settextattribute.html)
 
 **`NumberFormatter::POSITIVE_PREFIX`** (int)
 
@@ -258,7 +258,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Публічний набір правил. Доступно лише для форматування на основі правил. Цей атрибут доступний лише для читання. Публічний набір правил повертається у вигляді рядка, в якому кожен набір правил відокремлений крапкою з комою (;).
 
-Символи форматування чисел для [numfmt\_get\_symbol()](numberformatter.getsymbol.html) і [numfmt\_set\_symbol()](numberformatter.setsymbol.html)
+Символи форматування чисел для [numfmtgetsymbol()](numberformatter.getsymbol.html) і [numfmtsetsymbol()](numberformatter.setsymbol.html)
 
 **`NumberFormatter::DECIMAL_SEPARATOR_SYMBOL`** (int)
 
@@ -332,7 +332,7 @@ The international currency symbol.
 
 Розділювач груп для фінансового формату.
 
-Режими округлення для [numfmt\_get\_attribute()](numberformatter.getattribute.html) і [numfmt\_set\_attribute()](numberformatter.setattribute.html) з атрибутом **`NumberFormatter::ROUNDING_MODE`**
+Режими округлення для [numfmtgetattribute()](numberformatter.getattribute.html) і [numfmtsetattribute()](numberformatter.setattribute.html) з атрибутом **`NumberFormatter::ROUNDING_MODE`**
 
 **`NumberFormatter::ROUND_CEILING`** (int)
 
@@ -362,7 +362,7 @@ The international currency symbol.
 
 Округлення вгору.
 
-Значення позиції доповнення для [numfmt\_get\_attribute()](numberformatter.getattribute.html) і [numfmt\_set\_attribute()](numberformatter.setattribute.html) з атрибутом **`NumberFormatter::PADDING_POSITION`**
+Значення позиції доповнення для [numfmtgetattribute()](numberformatter.getattribute.html) і [numfmtsetattribute()](numberformatter.setattribute.html) з атрибутом **`NumberFormatter::PADDING_POSITION`**
 
 **`NumberFormatter::PAD_AFTER_PREFIX`** (int)
 
@@ -383,8 +383,8 @@ The international currency symbol.
 ## Дивіться також
 
 -   [»  ICU formatting documentation](https://unicode-org.github.io/icu/userguide/format_parse/)
--   [» ICU. Форматирование чисел](https://unicode-org.github.io/icu/userguide/format_parse/numbers/)
--   [» ICU. Форматирование десятичных дробей](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details)
+-   [» ICU. Форматування чисел](https://unicode-org.github.io/icu/userguide/format_parse/numbers/)
+-   [» ICU. Форматування десяткових дробів](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details)
 -   [»  ICU. Форматирование на основе правил](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.html#details)
 
 ## Зміст

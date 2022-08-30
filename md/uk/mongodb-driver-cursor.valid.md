@@ -1,12 +1,12 @@
 Перевіряє, чи поточна позиція курсора коректна
 
--   [« MongoDB\\Driver\\Cursor::toArray](mongodb-driver-cursor.toarray.html)
+-   [« MongoDBDriverCursor::toArray](mongodb-driver-cursor.toarray.html)
     
--   [MongoDB\\Driver\\CursorId »](class.mongodb-driver-cursorid.html)
+-   [MongoDBDriverCursorId »](class.mongodb-driver-cursorid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Перевіряє, чи поточна позиція курсора коректна
     

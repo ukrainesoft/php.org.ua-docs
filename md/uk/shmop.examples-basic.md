@@ -2,7 +2,7 @@
 
 -   [« Примеры](shmop.examples.html)
     
--   [Разделяемая (shared) память »](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared) »](ref.shmop.html)
     
 -   [PHP Manual](index.html)
     

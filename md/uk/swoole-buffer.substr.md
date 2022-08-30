@@ -1,12 +1,12 @@
 Зчитує дані з буфера пам'яті на основі зміщення та довжини. Або видаляє дані з буфера пам'яті
 
--   [« Swoole\\Buffer::recycle](swoole-buffer.recycle.html)
+-   [« SwooleBuffer::recycle](swoole-buffer.recycle.html)
     
--   [Swoole\\Buffer::\_\_toString »](swoole-buffer.tostring.html)
+-   [SwooleBuffer::toString »](swoole-buffer.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Зчитує дані з буфера пам'яті на основі зміщення та довжини. Або видаляє дані з буфера пам'яті
     

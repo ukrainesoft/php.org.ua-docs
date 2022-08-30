@@ -1,8 +1,8 @@
 Створює випадковий ключ secretstream
 
--   [« sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
+-   [« sodiumcryptosecretstreamxchacha20poly1305initpush](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
     
--   [sodium\_crypto\_secretstream\_xchacha20poly1305\_pull »](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html)
+-   [sodiumcryptosecretstreamxchacha20poly1305pull »](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Призначення getModuleName
 
--   [« Yaf\_Request\_Abstract::getMethod](yaf-request-abstract.getmethod.html)
+-   [« YafRequestAbstract::getMethod](yaf-request-abstract.getmethod.html)
     
--   [Yaf\_Request\_Abstract::getParam »](yaf-request-abstract.getparam.html)
+-   [YafRequestAbstract::getParam »](yaf-request-abstract.getparam.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Призначення getModuleName
     

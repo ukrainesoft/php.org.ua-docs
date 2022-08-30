@@ -43,5 +43,5 @@ public ReflectionClass::implementsInterface(ReflectionClass|string $interface): 
 
 -   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
 -   [ReflectionClass::isSubclassOf()](reflectionclass.issubclassof.html) - Перевіряє, чи є клас підкласом
--   [interface\_exists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [Интерфейсы объектов](language.oop5.interfaces.html)
+-   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
+-   [Інтерфейси об'єктів](language.oop5.interfaces.html)

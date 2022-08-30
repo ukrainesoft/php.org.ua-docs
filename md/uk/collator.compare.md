@@ -2,7 +2,7 @@
 
 -   [« Collator::asort](collator.asort.html)
     
--   [Collator::\_\_construct »](collator.construct.html)
+-   [Collator::construct »](collator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -64,7 +64,7 @@ collator_compare(Collator $object, string $string1, string $string2): int|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -115,4 +115,4 @@ if ( $c->compare( 'Séan', 'Sean' ) == 0 )
 
 ### Дивіться також
 
--   [collator\_sort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування

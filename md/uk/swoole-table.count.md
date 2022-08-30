@@ -1,12 +1,12 @@
 Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
 
--   [« Swoole\\Table::\_\_construct](swoole-table.construct.html)
+-   [« SwooleTable::construct](swoole-table.construct.html)
     
--   [Swoole\\Table::create »](swoole-table.create.html)
+-   [SwooleTable::create »](swoole-table.create.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
     

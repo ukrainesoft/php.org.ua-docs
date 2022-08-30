@@ -31,7 +31,7 @@ public OAuth::getLastResponseInfo(): array
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією на останній запит. Можна використовувати константи [curl\_getinfo()](function.curl-getinfo.html)
+Повертає масив з інформацією на останній запит. Можна використовувати константи [curlgetinfo()](function.curl-getinfo.html)
 
 ### Дивіться також
 

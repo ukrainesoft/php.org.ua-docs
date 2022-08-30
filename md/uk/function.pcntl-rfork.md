@@ -1,12 +1,12 @@
 Взаємодіє з ресурсами процесу
 
--   [« pcntl\_getpriority](function.pcntl-getpriority.html)
+-   [pcntlgetpriority](function.pcntl-getpriority.html)
     
--   [pcntl\_setpriority »](function.pcntl-setpriority.html)
+-   [pcntlsetpriority »](function.pcntl-setpriority.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Взаємодіє з ресурсами процесу
     
@@ -75,7 +75,7 @@ int(0)
 
 ### Дивіться також
 
--   [pcntl\_fork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
--   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
--   [cli\_set\_process\_title()](function.cli-set-process-title.html) - Встановлює заголовок процесу
+-   [pcntlfork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
+-   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
+-   [clisetprocesstitle()](function.cli-set-process-title.html) - Встановлює заголовок процесу

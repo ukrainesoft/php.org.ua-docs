@@ -1,12 +1,12 @@
 Зливає один або більше масивів
 
--   [« array\_merge\_recursive](function.array-merge-recursive.html)
+-   [« arraymergerecursive](function.array-merge-recursive.html)
     
--   [array\_multisort »](function.array-multisort.html)
+-   [arraymultisort »](function.array-multisort.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Зливає один або більше масивів
     
@@ -143,7 +143,7 @@ Array
 
 ### Дивіться також
 
--   [array\_merge\_recursive()](function.array-merge-recursive.html) - Рекурсивне злиття одного або більше масивів
--   [array\_replace()](function.array-replace.html) - Замінює елементи масиву елементами інших переданих масивів
--   [array\_combine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
--   [Операторы, работающие с массивами](language.operators.array.html)
+-   [arraymergerecursive()](function.array-merge-recursive.html) - Рекурсивне злиття одного або більше масивів
+-   [arrayreplace()](function.array-replace.html) - Замінює елементи масиву елементами інших переданих масивів
+-   [arraycombine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [Оператори, що працюють із масивами](language.operators.array.html)

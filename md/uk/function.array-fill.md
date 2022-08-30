@@ -1,12 +1,12 @@
 Заповнює масив значеннями
 
--   [« array\_fill\_keys](function.array-fill-keys.html)
+-   [« arrayfillkeys](function.array-fill-keys.html)
     
--   [array\_filter »](function.array-filter.html)
+-   [arrayfilter »](function.array-filter.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Заповнює масив значеннями
     
@@ -95,6 +95,6 @@ Array
 
 ### Дивіться також
 
--   [array\_fill\_keys()](function.array-fill-keys.html) - створює масив і заповнює його значеннями з певними ключами
--   [str\_repeat()](function.str-repeat.html) - Повертає рядок, що повторюється
+-   [arrayfillkeys()](function.array-fill-keys.html) - створює масив і заповнює його значеннями з певними ключами
+-   [strrepeat()](function.str-repeat.html) - Повертає рядок, що повторюється
 -   [range()](function.range.html) - Створює масив, що містить діапазон елементів

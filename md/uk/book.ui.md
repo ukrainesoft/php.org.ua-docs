@@ -1,12 +1,12 @@
 ОЙ
 
--   [« Модули для работы с GUI](refs.ui.html)
+-   [Модулі для роботи з GUI](refs.ui.html)
     
 -   [Введение »](intro.ui.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с GUI](refs.ui.html)
+-   [Модулі для роботи з GUI](refs.ui.html)
     
 -   ОЙ
     
@@ -17,251 +17,251 @@
 -   [Установка и настройка](ui.setup.html)
     -   [Требования](ui.requirements.html)
     -   [Установка](ui.installation.html)
--   [UI\\Point](class.ui-point.html) - Представляє позицію (x, y)
-    -   [UI\\Point::at](ui-point.at.html) - Приведення Size
-    -   [UI\\Point::\_\_construct](ui-point.construct.html) — Створити новий об'єкт Point
-    -   [UI\\Point::getX](ui-point.getx.html) — Отримує X
-    -   [UI\\Point::getY](ui-point.gety.html) - Отримати Y
-    -   [UI\\Point::setX](ui-point.setx.html) - Встановити X
-    -   [UI\\Point::setY](ui-point.sety.html) - Встановити Y
--   [UI\\Size](class.ui-size.html) - Представляє розміри (ширина, висота)
-    -   [UI\\Size::\_\_construct](ui-size.construct.html) — Створити новий об'єкт Size
-    -   [UI\\Size::getHeight](ui-size.getheight.html) — Отримує висоту
-    -   [UI\\Size::getWidth](ui-size.getwidth.html) — Отримує ширину
-    -   [UI\\Size::of](ui-size.of.html) - Приведення Point
-    -   [UI\\Size::setHeight](ui-size.setheight.html) - Встановити висоту
-    -   [UI\\Size::setWidth](ui-size.setwidth.html) - Встановити ширину
--   [UI\\Window](class.ui-window.html) - Вікно
-    -   [UI\\Window::add](ui-window.add.html) — Додати елемент керування
-    -   [UI\\Window::\_\_construct](ui-window.construct.html) - Створити новий об'єкт Window
-    -   [UI\\Window::error](ui-window.error.html) - Показати блок помилки
-    -   [UI\\Window::getSize](ui-window.getsize.html) — Отримати розмір вікна
-    -   [UI\\Window::getTitle](ui-window.gettitle.html) - Отримати заголовок
-    -   [UI\\Window::hasBorders](ui-window.hasborders.html) - Визначення рамки
-    -   [UI\\Window::hasMargin](ui-window.hasmargin.html) - Визначення полів
-    -   [UI\\Window::isFullScreen](ui-window.isfullscreen.html) — Визначення повного екрану
-    -   [UI\\Window::msg](ui-window.msg.html) — Показати блок повідомлення
-    -   [UI\\Window::onClosing](ui-window.onclosing.html) - Callback-функція закриття
-    -   [UI\\Window::open](ui-window.open.html) — Відкрити діалогове вікно
-    -   [UI\\Window::save](ui-window.save.html) — Зберегти діалогове вікно
-    -   [UI\\Window::setBorders](ui-window.setborders.html) — Використання рамок
-    -   [UI\\Window::setFullScreen](ui-window.setfullscreen.html) — Використання повного екрану
-    -   [UI\\Window::setMargin](ui-window.setmargin.html) — Використання поля
-    -   [UI\\Window::setSize](ui-window.setsize.html) - Встановити розмір
-    -   [UI\\Window::setTitle](ui-window.settitle.html) - Заголовок вікна
--   [UI\\Control](class.ui-control.html) - Елемент управління
-    -   [UI\\Control::destroy](ui-control.destroy.html) — Знищити керуючий елемент
-    -   [UI\\Control::disable](ui-control.disable.html) — Вимкнути керуючий елемент
-    -   [UI\\Control::enable](ui-control.enable.html) — Включити елемент керування
-    -   [UI\\Control::getParent](ui-control.getparent.html) — Отримати батьківський керуючий елемент
-    -   [UI\\Control::getTopLevel](ui-control.gettoplevel.html) — Здобути верхній рівень
-    -   [UI\\Control::hide](ui-control.hide.html) — Приховати елемент керування
-    -   [UI\\Control::isEnabled](ui-control.isenabled.html) — Визначити, чи керуючий елемент включений
-    -   [UI\\Control::isVisible](ui-control.isvisible.html) — Визначити, чи видимий елемент керування
-    -   [UI\\Control::setParent](ui-control.setparent.html) — Встановити батьківський керуючий елемент
-    -   [UI\\Control::show](ui-control.show.html) - Показати керуючий елемент
--   [UI\\Menu](class.ui-menu.html) - Меню
-    -   [UI\\Menu::append](ui-menu.append.html) - Додати пункт меню
-    -   [UI\\Menu::appendAbout](ui-menu.appendabout.html) — Додати пункт меню About
-    -   [UI\\Menu::appendCheck](ui-menu.appendcheck.html) - Додати пункт меню з чекбоксом
-    -   [UI\\Menu::appendPreferences](ui-menu.appendpreferences.html) - Додати пункт меню "Налаштування" (Preferences)
-    -   [UI\\Menu::appendQuit](ui-menu.appendquit.html) - Додати пункт меню "Вихід" (Quit)
-    -   [UI\\Menu::appendSeparator](ui-menu.appendseparator.html) - Додати пункт меню "Розділювач" (Separator)
-    -   [UI\\Menu::\_\_construct](ui-menu.construct.html) — Створити новий об'єкт
--   [UI\\MenuItem](class.ui-menuitem.html) - Елемент меню
-    -   [UI\\MenuItem::disable](ui-menuitem.disable.html) — Вимкнути пункт меню
-    -   [UI\\MenuItem::enable](ui-menuitem.enable.html) — Увімкнути пункт меню
-    -   [UI\\MenuItem::isChecked](ui-menuitem.ischecked.html) — Визначення обраності пункту
-    -   [UI\\MenuItem::onClick](ui-menuitem.onclick.html) - Обробник натискання
-    -   [UI\\MenuItem::setChecked](ui-menuitem.setchecked.html) - Вибрати пункт меню
--   [UI\\Area](class.ui-area.html) - Area
-    -   [UI\\Area::onDraw](ui-area.ondraw.html) — Функція зворотного виклику під час малювання
-    -   [UI\\Area::onKey](ui-area.onkey.html) — Функція зворотного дзвінка під час натискання
-    -   [UI\\Area::onMouse](ui-area.onmouse.html) — Функція зворотного дзвінка миші
-    -   [UI\\Area::redraw](ui-area.redraw.html) — Перемалювати область
-    -   [UI\\Area::scrollTo](ui-area.scrollto.html) - Прокрутити область
-    -   [UI\\Area::setSize](ui-area.setsize.html) - Встановити розмір
--   [UI\\Executor](class.ui-executor.html) — Планувальник виконання
-    -   [UI\\Executor::\_\_construct](ui-executor.construct.html) — Створити новий об'єкт Executor
-    -   [UI\\Executor::kill](ui-executor.kill.html) - Зупинити виконавець
-    -   [UI\\Executor::onExecute](ui-executor.onexecute.html) - Callback-функція виконання
-    -   [UI\\Executor::setInterval](ui-executor.setinterval.html) - Управління інтервалом
--   [UI\\Controls\\Tab](class.ui-controls-tab.html) - Елемент управління "Таб"
-    -   [UI\\Controls\\Tab::append](ui-controls-tab.append.html) - Додати сторінку
-    -   [UI\\Controls\\Tab::delete](ui-controls-tab.delete.html) — Видалити сторінку
-    -   [UI\\Controls\\Tab::hasMargin](ui-controls-tab.hasmargin.html) - Визначення поля
-    -   [UI\\Controls\\Tab::insertAt](ui-controls-tab.insertat.html) - Вставити сторінку
-    -   [UI\\Controls\\Tab::pages](ui-controls-tab.pages.html) - Кількість сторінок
-    -   [UI\\Controls\\Tab::setMargin](ui-controls-tab.setmargin.html) - Встановити поле
--   [UI\\Controls\\Check](class.ui-controls-check.html) - Елемент управління "Чекбокс"
-    -   [UI\\Controls\\Check::\_\_construct](ui-controls-check.construct.html) - Створити новий об'єкт Check
-    -   [UI\\Controls\\Check::getText](ui-controls-check.gettext.html) — Отримати текст
-    -   [UI\\Controls\\Check::isChecked](ui-controls-check.ischecked.html) — Визначення позначки
-    -   [UI\\Controls\\Check::onToggle](ui-controls-check.ontoggle.html) — Функція зворотного дзвінка перемикання
-    -   [UI\\Controls\\Check::setChecked](ui-controls-check.setchecked.html) — Встановити статус вибраності
-    -   [UI\\Controls\\Check::setText](ui-controls-check.settext.html) — Встановити текст
--   [UI\\Controls\\Button](class.ui-controls-button.html) - Елемент управління "Кнопка"
-    -   [UI\\Controls\\Button::\_\_construct](ui-controls-button.construct.html) — Створити новий об'єкт Button
-    -   [UI\\Controls\\Button::getText](ui-controls-button.gettext.html) — Отримати текст
-    -   [UI\\Controls\\Button::onClick](ui-controls-button.onclick.html) - Обробник кліку
-    -   [UI\\Controls\\Button::setText](ui-controls-button.settext.html) — Встановити текст
--   [UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html) - Елемент управління "Кнопка з палітрою кольорів"
-    -   [UI\\Controls\\ColorButton::getColor](ui-controls-colorbutton.getcolor.html) — Отримати об'єкт Color
-    -   [UI\\Controls\\ColorButton::onChange](ui-controls-colorbutton.onchange.html) - Обробник зміни
-    -   [UI\\Controls\\ColorButton::setColor](ui-controls-colorbutton.setcolor.html) — Встановити об'єкт Color
--   [UI\\Controls\\Label](class.ui-controls-label.html) - Елемент управління "Мітка"
-    -   [UI\\Controls\\Label::\_\_construct](ui-controls-label.construct.html) - Створити новий об'єкт Label
-    -   [UI\\Controls\\Label::getText](ui-controls-label.gettext.html) — Отримати текст
-    -   [UI\\Controls\\Label::setText](ui-controls-label.settext.html) — Встановити текст
--   [UI\\Controls\\Entry](class.ui-controls-entry.html) - Елемент управління "Введення"
-    -   [UI\\Controls\\Entry::\_\_construct](ui-controls-entry.construct.html) — Створити новий об'єкт Entry
-    -   [UI\\Controls\\Entry::getText](ui-controls-entry.gettext.html) — Отримати текст
-    -   [UI\\Controls\\Entry::isReadOnly](ui-controls-entry.isreadonly.html) — Визначити, чи є елемент лише для читання
-    -   [UI\\Controls\\Entry::onChange](ui-controls-entry.onchange.html) - Обробник зміни
-    -   [UI\\Controls\\Entry::setReadOnly](ui-controls-entry.setreadonly.html) - Встановити "тільки для читання"
-    -   [UI\\Controls\\Entry::setText](ui-controls-entry.settext.html) — Встановити текст
--   [UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html) - Елемент управління "Многорядкове введення"
-    -   [UI\\Controls\\MultilineEntry::append](ui-controls-multilineentry.append.html) — Додати текст
-    -   [UI\\Controls\\MultilineEntry::\_\_construct](ui-controls-multilineentry.construct.html) - Створити новий об'єкт "Многорядкове введення"
-    -   [UI\\Controls\\MultilineEntry::getText](ui-controls-multilineentry.gettext.html) — Отримати текст
-    -   [UI\\Controls\\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.html) - Визначення "тільки для читання"
-    -   [UI\\Controls\\MultilineEntry::onChange](ui-controls-multilineentry.onchange.html) - Обробник зміни
-    -   [UI\\Controls\\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.html) - Встановити "тільки для читання"
-    -   [UI\\Controls\\MultilineEntry::setText](ui-controls-multilineentry.settext.html) — Встановити текст
--   [UI\\Controls\\Spin](class.ui-controls-spin.html) - Елемент управління "Спін"
-    -   [UI\\Controls\\Spin::\_\_construct](ui-controls-spin.construct.html) - Створює новий об'єкт Spin
-    -   [UI\\Controls\\Spin::getValue](ui-controls-spin.getvalue.html) — Отримати значення
-    -   [UI\\Controls\\Spin::onChange](ui-controls-spin.onchange.html) - Обробник зміни
-    -   [UI\\Controls\\Spin::setValue](ui-controls-spin.setvalue.html) — Встановити значення
--   [UI\\Controls\\Slider](class.ui-controls-slider.html) - Елемент управління "Слайдер"
-    -   [UI\\Controls\\Slider::\_\_construct](ui-controls-slider.construct.html) — Створює новий об'єкт Slider
-    -   [UI\\Controls\\Slider::getValue](ui-controls-slider.getvalue.html) — Отримати значення
-    -   [UI\\Controls\\Slider::onChange](ui-controls-slider.onchange.html) - Обробник зміни
-    -   [UI\\Controls\\Slider::setValue](ui-controls-slider.setvalue.html) — Встановити значення
--   [UI\\Controls\\Progress](class.ui-controls-progress.html) - Елемент управління "Хід виконання"
-    -   [UI\\Controls\\Progress::getValue](ui-controls-progress.getvalue.html) — Отримати значення
-    -   [UI\\Controls\\Progress::setValue](ui-controls-progress.setvalue.html) — Встановити значення
--   [UI\\Controls\\Separator](class.ui-controls-separator.html) - Елемент управління "Розділювач"
-    -   [UI\\Controls\\Separator::\_\_construct](ui-controls-separator.construct.html) — Створити новий об'єкт Separator
--   [UI\\Controls\\Combo](class.ui-controls-combo.html) - Елемент управління "Комбо"
-    -   [UI\\Controls\\Combo::append](ui-controls-combo.append.html) - Додати опцію
-    -   [UI\\Controls\\Combo::getSelected](ui-controls-combo.getselected.html) — Отримати вибрану опцію
-    -   [UI\\Controls\\Combo::onSelected](ui-controls-combo.onselected.html) - Обробник обраної опції
-    -   [UI\\Controls\\Combo::setSelected](ui-controls-combo.setselected.html) — Встановлює вибрану опцію
--   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html) - Редагований елемент управління "Комбо"
-    -   [UI\\Controls\\EditableCombo::append](ui-controls-editablecombo.append.html) - Додати опцію
-    -   [UI\\Controls\\EditableCombo::getText](ui-controls-editablecombo.gettext.html) — Отримати текст
-    -   [UI\\Controls\\EditableCombo::onChange](ui-controls-editablecombo.onchange.html) - Обробник зміни
-    -   [UI\\Controls\\EditableCombo::setText](ui-controls-editablecombo.settext.html) — Встановити текст
--   [UI\\Controls\\Radio](class.ui-controls-radio.html) - Елемент управління "Радіо"
-    -   [UI\\Controls\\Radio::append](ui-controls-radio.append.html) - Додає варіант
-    -   [UI\\Controls\\Radio::getSelected](ui-controls-radio.getselected.html) — Отримати вибраний варіант
-    -   [UI\\Controls\\Radio::onSelected](ui-controls-radio.onselected.html) - Обробник вибору
-    -   [UI\\Controls\\Radio::setSelected](ui-controls-radio.setselected.html) — Встановити вибраний варіант
--   [UI\\Controls\\Picker](class.ui-controls-picker.html) - Елемент управління "Селектор"
-    -   [UI\\Controls\\Picker::\_\_construct](ui-controls-picker.construct.html) - Створює новий об'єкт Picker
--   [UI\\Controls\\Form](class.ui-controls-form.html) - Елемент управління "Форма" (розташування)
-    -   [UI\\Controls\\Form::append](ui-controls-form.append.html) — Додати елемент керування
-    -   [UI\\Controls\\Form::delete](ui-controls-form.delete.html) — Видалити елемент керування
-    -   [UI\\Controls\\Form::isPadded](ui-controls-form.ispadded.html) - Визначення заповнення
-    -   [UI\\Controls\\Form::setPadded](ui-controls-form.setpadded.html) - Встановити заповнення
--   [UI\\Controls\\Grid](class.ui-controls-grid.html) - Елемент управління "Сітка" (розміщення)
-    -   [UI\\Controls\\Grid::append](ui-controls-grid.append.html) — Додати елемент керування
-    -   [UI\\Controls\\Grid::isPadded](ui-controls-grid.ispadded.html) - Визначення заповнення
-    -   [UI\\Controls\\Grid::setPadded](ui-controls-grid.setpadded.html) - Встановити заповнення
--   [UI\\Controls\\Group](class.ui-controls-group.html) - Елемент управління "Група" (розміщення)
-    -   [UI\\Controls\\Group::append](ui-controls-group.append.html) — Додати елемент керування
-    -   [UI\\Controls\\Group::\_\_construct](ui-controls-group.construct.html) — Створити новий об'єкт Group
-    -   [UI\\Controls\\Group::getTitle](ui-controls-group.gettitle.html) - Отримати заголовок
-    -   [UI\\Controls\\Group::hasMargin](ui-controls-group.hasmargin.html) - Визначення поля
-    -   [UI\\Controls\\Group::setMargin](ui-controls-group.setmargin.html) - Встановити поле
-    -   [UI\\Controls\\Group::setTitle](ui-controls-group.settitle.html) - Встановити заголовок
--   [UI\\Controls\\Box](class.ui-controls-box.html) - Блок управління (розміщення)
-    -   [UI\\Controls\\Box::append](ui-controls-box.append.html) — Додати елемент керування
-    -   [UI\\Controls\\Box::\_\_construct](ui-controls-box.construct.html) - Створити новий об'єкт Box
-    -   [UI\\Controls\\Box::delete](ui-controls-box.delete.html) — Видалити елемент керування
-    -   [UI\\Controls\\Box::getOrientation](ui-controls-box.getorientation.html) — Здобути орієнтацію
-    -   [UI\\Controls\\Box::isPadded](ui-controls-box.ispadded.html) - Визначення заповнення
-    -   [UI\\Controls\\Box::setPadded](ui-controls-box.setpadded.html) - Встановити заповнення
--   [UI\\Draw\\Pen](class.ui-draw-pen.html) - Малювання за допомогою "Перо"
-    -   [UI\\Draw\\Pen::clip](ui-draw-pen.clip.html) - Обрізати шлях
-    -   [UI\\Draw\\Pen::fill](ui-draw-pen.fill.html) - Залити шлях
-    -   [UI\\Draw\\Pen::restore](ui-draw-pen.restore.html) - Відновити
-    -   [UI\\Draw\\Pen::save](ui-draw-pen.save.html) - Зберегти
-    -   [UI\\Draw\\Pen::stroke](ui-draw-pen.stroke.html) - Обвести шлях
-    -   [UI\\Draw\\Pen::transform](ui-draw-pen.transform.html) - Перетворити матрицю
-    -   [UI\\Draw\\Pen::write](ui-draw-pen.write.html) — Намалювати текст у точці
--   [UI\\Draw\\Path](class.ui-draw-path.html) - Шлях малювання
-    -   [UI\\Draw\\Path::addRectangle](ui-draw-path.addrectangle.html) — Намалювати прямокутник
-    -   [UI\\Draw\\Path::arcTo](ui-draw-path.arcto.html) - Намалювати дугу
-    -   [UI\\Draw\\Path::bezierTo](ui-draw-path.bezierto.html) — Намалювати криву Безьє
-    -   [UI\\Draw\\Path::closeFigure](ui-draw-path.closefigure.html) - Закрити фігуру
-    -   [UI\\Draw\\Path::\_\_construct](ui-draw-path.construct.html) - Створити новий об'єкт Path
-    -   [UI\\Draw\\Path::end](ui-draw-path.end.html) - Завершити шлях
-    -   [UI\\Draw\\Path::lineTo](ui-draw-path.lineto.html) - Намалювати лінію
-    -   [UI\\Draw\\Path::newFigure](ui-draw-path.newfigure.html) — Намалювати фігуру
-    -   [UI\\Draw\\Path::newFigureWithArc](ui-draw-path.newfigurewitharc.html) - Намалювати фігуру з дугою
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html) - Матриця малювання
-    -   [UI\\Draw\\Matrix::invert](ui-draw-matrix.invert.html) - Інвертувати матрицю
-    -   [UI\\Draw\\Matrix::isInvertible](ui-draw-matrix.isinvertible.html) — Визначення, чи інвертована матриця
-    -   [UI\\Draw\\Matrix::multiply](ui-draw-matrix.multiply.html) - Помножити матрицю
-    -   [UI\\Draw\\Matrix::rotate](ui-draw-matrix.rotate.html) - Перевернути матрицю
-    -   [UI\\Draw\\Matrix::scale](ui-draw-matrix.scale.html) - Масштабувати матрицю
-    -   [UI\\Draw\\Matrix::skew](ui-draw-matrix.skew.html) - Нахилити матрицю
-    -   [UI\\Draw\\Matrix::translate](ui-draw-matrix.translate.html) - Перекласти матрицю
--   [UI\\Draw\\Color](class.ui-draw-color.html) — Подання кольору
-    -   [UI\\Draw\\Color::\_\_construct](ui-draw-color.construct.html) — Створити новий об'єкт Color
-    -   [UI\\Draw\\Color::getChannel](ui-draw-color.getchannel.html) - Управління кольором
-    -   [UI\\Draw\\Color::setChannel](ui-draw-color.setchannel.html) - Управління кольором
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html) - Малювання обведення
-    -   [UI\\Draw\\Stroke::\_\_construct](ui-draw-stroke.construct.html) - Створити новий об'єкт Stroke
-    -   [UI\\Draw\\Stroke::getCap](ui-draw-stroke.getcap.html) - Отримати кінець лінії
-    -   [UI\\Draw\\Stroke::getJoin](ui-draw-stroke.getjoin.html) — Отримати з'єднання лінії
-    -   [UI\\Draw\\Stroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html) — Отримати межу зрізу
-    -   [UI\\Draw\\Stroke::getThickness](ui-draw-stroke.getthickness.html) - Отримати товщину
-    -   [UI\\Draw\\Stroke::setCap](ui-draw-stroke.setcap.html) - Встановити кінець лінії
-    -   [UI\\Draw\\Stroke::setJoin](ui-draw-stroke.setjoin.html) — Отримати з'єднання лінії
-    -   [UI\\Draw\\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html) - Встановити межу зрізу
-    -   [UI\\Draw\\Stroke::setThickness](ui-draw-stroke.setthickness.html) - Встановити товщину
--   [UI\\Draw\\Brush](class.ui-draw-brush.html) - Щітки
-    -   [UI\\Draw\\Brush::\_\_construct](ui-draw-brush.construct.html) — Створити новий об'єкт Brush
-    -   [UI\\Draw\\Brush::getColor](ui-draw-brush.getcolor.html) - Отримати колір
-    -   [UI\\Draw\\Brush::setColor](ui-draw-brush.setcolor.html) - Встановити колір
--   [UI\\Draw\\Brush\\Gradient](class.ui-draw-brush-gradient.html) - Градієнтні пензлі
-    -   [UI\\Draw\\Brush\\Gradient::addStop](ui-draw-brush-gradient.addstop.html) - Додає вузол градієнта
-    -   [UI\\Draw\\Brush\\Gradient::delStop](ui-draw-brush-gradient.delstop.html) - Видаляє вузол градієнта
-    -   [UI\\Draw\\Brush\\Gradient::setStop](ui-draw-brush-gradient.setstop.html) - Встановлює вузол градієнта
--   [UI\\Draw\\Brush\\LinearGradient](class.ui-draw-brush-lineargradient.html) - Лінійний градієнт
-    -   [UI\\Draw\\Brush\\LinearGradient::\_\_construct](ui-draw-brush-lineargradient.construct.html) - Конструктор класу LinearGradient
--   [UI\\Draw\\Brush\\RadialGradient](class.ui-draw-brush-radialgradient.html) - Радіальний градієнт
-    -   [UI\\Draw\\Brush\\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.html) - Конструктор класу RadialGradient
--   [UI\\Draw\\Text\\Layout](class.ui-draw-text-layout.html) — Подає макет тексту
-    -   [UI\\Draw\\Text\\Layout::\_\_construct](ui-draw-text-layout.construct.html) — Створити новий об'єкт макету тексту
-    -   [UI\\Draw\\Text\\Layout::setColor](ui-draw-text-layout.setcolor.html) - Встановити колір
-    -   [UI\\Draw\\Text\\Layout::setWidth](ui-draw-text-layout.setwidth.html) - Встановити ширину
--   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html) — Подає шрифт
-    -   [UI\\Draw\\Text\\Font::\_\_construct](ui-draw-text-font.construct.html) — Створити новий об'єкт Font
-    -   [UI\\Draw\\Text\\Font::getAscent](ui-draw-text-font.getascent.html) — Показники шрифту
-    -   [UI\\Draw\\Text\\Font::getDescent](ui-draw-text-font.getdescent.html) — Показники шрифту
-    -   [UI\\Draw\\Text\\Font::getLeading](ui-draw-text-font.getleading.html) — Показники шрифту
-    -   [UI\\Draw\\Text\\Font::getUnderlinePosition](ui-draw-text-font.getunderlineposition.html) — Показники шрифту
-    -   [UI\\Draw\\Text\\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.html) — Показники шрифту
--   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html) - Дескриптор шрифту
-    -   [UI\\Draw\\Text\\Font\\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.html) - Конструктор класу Font Descriptor
-    -   [UI\\Draw\\Text\\Font\\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html) — Отримує сімейство шрифтів
-    -   [UI\\Draw\\Text\\Font\\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html) — Визначення стилю
-    -   [UI\\Draw\\Text\\Font\\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.html) - Визначення розміру
-    -   [UI\\Draw\\Text\\Font\\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html) — Визначення стилю
-    -   [UI\\Draw\\Text\\Font\\Descriptor::getWeight](ui-draw-text-font-descriptor.getweight.html) — Визначення насиченості
+-   [ОЙPoint](class.ui-point.html) - Представляє позицію (x, y)
+    -   [ОЙPoint::at](ui-point.at.html) - Приведення Size
+    -   [ОЙPoint::construct](ui-point.construct.html) — Створити новий об'єкт Point
+    -   [ОЙPoint::getX](ui-point.getx.html) — Отримує X
+    -   [ОЙPoint::getY](ui-point.gety.html) - Отримати Y
+    -   [ОЙPoint::setX](ui-point.setx.html) - Встановити X
+    -   [ОЙPoint::setY](ui-point.sety.html) - Встановити Y
+-   [ОЙSize](class.ui-size.html) - Представляє розміри (ширина, висота)
+    -   [ОЙSize::construct](ui-size.construct.html) — Створити новий об'єкт Size
+    -   [ОЙSize::getHeight](ui-size.getheight.html) — Отримує висоту
+    -   [ОЙSize::getWidth](ui-size.getwidth.html) — Отримує ширину
+    -   [ОЙSize::of](ui-size.of.html) - Приведення Point
+    -   [ОЙSize::setHeight](ui-size.setheight.html) - Встановити висоту
+    -   [ОЙSize::setWidth](ui-size.setwidth.html) - Встановити ширину
+-   [ОЙWindow](class.ui-window.html) - Вікно
+    -   [ОЙWindow::add](ui-window.add.html) — Додати елемент керування
+    -   [ОЙWindow::construct](ui-window.construct.html) - Створити новий об'єкт Window
+    -   [ОЙWindow::error](ui-window.error.html) - Показати блок помилки
+    -   [ОЙWindow::getSize](ui-window.getsize.html) — Отримати розмір вікна
+    -   [ОЙWindow::getTitle](ui-window.gettitle.html) - Отримати заголовок
+    -   [ОЙWindow::hasBorders](ui-window.hasborders.html) - Визначення рамки
+    -   [ОЙWindow::hasMargin](ui-window.hasmargin.html) - Визначення полів
+    -   [ОЙWindow::isFullScreen](ui-window.isfullscreen.html) — Визначення повного екрану
+    -   [ОЙWindow::msg](ui-window.msg.html) — Показати блок повідомлення
+    -   [ОЙWindow::onClosing](ui-window.onclosing.html) - Callback-функція закриття
+    -   [ОЙWindow::open](ui-window.open.html) — Відкрити діалогове вікно
+    -   [ОЙWindow::save](ui-window.save.html) — Зберегти діалогове вікно
+    -   [ОЙWindow::setBorders](ui-window.setborders.html) — Використання рамок
+    -   [ОЙWindow::setFullScreen](ui-window.setfullscreen.html) — Використання повного екрану
+    -   [ОЙWindow::setMargin](ui-window.setmargin.html) — Використання поля
+    -   [ОЙWindow::setSize](ui-window.setsize.html) - Встановити розмір
+    -   [ОЙWindow::setTitle](ui-window.settitle.html) - Заголовок вікна
+-   [ОЙControl](class.ui-control.html) - Елемент управління
+    -   [ОЙControl::destroy](ui-control.destroy.html) — Знищити керуючий елемент
+    -   [ОЙControl::disable](ui-control.disable.html) — Вимкнути керуючий елемент
+    -   [ОЙControl::enable](ui-control.enable.html) — Включити елемент керування
+    -   [ОЙControl::getParent](ui-control.getparent.html) — Отримати батьківський керуючий елемент
+    -   [ОЙControl::getTopLevel](ui-control.gettoplevel.html) — Здобути верхній рівень
+    -   [ОЙControl::hide](ui-control.hide.html) — Приховати елемент керування
+    -   [ОЙControl::isEnabled](ui-control.isenabled.html) — Визначити, чи керуючий елемент включений
+    -   [ОЙControl::isVisible](ui-control.isvisible.html) — Визначити, чи видимий елемент керування
+    -   [ОЙControl::setParent](ui-control.setparent.html) — Встановити батьківський керуючий елемент
+    -   [ОЙControl::show](ui-control.show.html) - Показати керуючий елемент
+-   [ОЙMenu](class.ui-menu.html) - Меню
+    -   [ОЙMenu::append](ui-menu.append.html) - Додати пункт меню
+    -   [ОЙMenu::appendAbout](ui-menu.appendabout.html) — Додати пункт меню About
+    -   [ОЙMenu::appendCheck](ui-menu.appendcheck.html) - Додати пункт меню з чекбоксом
+    -   [ОЙMenu::appendPreferences](ui-menu.appendpreferences.html) - Додати пункт меню "Налаштування" (Preferences)
+    -   [ОЙMenu::appendQuit](ui-menu.appendquit.html) - Додати пункт меню "Вихід" (Quit)
+    -   [ОЙMenu::appendSeparator](ui-menu.appendseparator.html) - Додати пункт меню "Розділювач" (Separator)
+    -   [ОЙMenu::construct](ui-menu.construct.html) — Створити новий об'єкт
+-   [ОЙMenuItem](class.ui-menuitem.html) - Елемент меню
+    -   [ОЙMenuItem::disable](ui-menuitem.disable.html) — Вимкнути пункт меню
+    -   [ОЙMenuItem::enable](ui-menuitem.enable.html) — Увімкнути пункт меню
+    -   [ОЙMenuItem::isChecked](ui-menuitem.ischecked.html) — Визначення обраності пункту
+    -   [ОЙMenuItem::onClick](ui-menuitem.onclick.html) - Обробник натискання
+    -   [ОЙMenuItem::setChecked](ui-menuitem.setchecked.html) - Вибрати пункт меню
+-   [ОЙArea](class.ui-area.html) - Area
+    -   [ОЙArea::onDraw](ui-area.ondraw.html) — Функція зворотного виклику під час малювання
+    -   [ОЙArea::onKey](ui-area.onkey.html) — Функція зворотного дзвінка під час натискання
+    -   [ОЙArea::onMouse](ui-area.onmouse.html) — Функція зворотного дзвінка миші
+    -   [ОЙArea::redraw](ui-area.redraw.html) — Перемалювати область
+    -   [ОЙArea::scrollTo](ui-area.scrollto.html) - Прокрутити область
+    -   [ОЙArea::setSize](ui-area.setsize.html) - Встановити розмір
+-   [ОЙExecutor](class.ui-executor.html) — Планувальник виконання
+    -   [ОЙExecutor::construct](ui-executor.construct.html) — Створити новий об'єкт Executor
+    -   [ОЙExecutor::kill](ui-executor.kill.html) - Зупинити виконавець
+    -   [ОЙExecutor::onExecute](ui-executor.onexecute.html) - Callback-функція виконання
+    -   [ОЙExecutor::setInterval](ui-executor.setinterval.html) - Управління інтервалом
+-   [ОЙControlsTab](class.ui-controls-tab.html) - Елемент управління "Таб"
+    -   [ОЙControlsTab::append](ui-controls-tab.append.html) - Додати сторінку
+    -   [ОЙControlsTab::delete](ui-controls-tab.delete.html) — Видалити сторінку
+    -   [ОЙControlsTab::hasMargin](ui-controls-tab.hasmargin.html) - Визначення поля
+    -   [ОЙControlsTab::insertAt](ui-controls-tab.insertat.html) - Вставити сторінку
+    -   [ОЙControlsTab::pages](ui-controls-tab.pages.html) - Кількість сторінок
+    -   [ОЙControlsTab::setMargin](ui-controls-tab.setmargin.html) - Встановити поле
+-   [ОЙControlsCheck](class.ui-controls-check.html) - Елемент управління "Чекбокс"
+    -   [ОЙControlsCheck::construct](ui-controls-check.construct.html) - Створити новий об'єкт Check
+    -   [ОЙControlsCheck::getText](ui-controls-check.gettext.html) — Отримати текст
+    -   [ОЙControlsCheck::isChecked](ui-controls-check.ischecked.html) — Визначення позначки
+    -   [ОЙControlsCheck::onToggle](ui-controls-check.ontoggle.html) — Функція зворотного дзвінка перемикання
+    -   [ОЙControlsCheck::setChecked](ui-controls-check.setchecked.html) — Встановити статус вибраності
+    -   [ОЙControlsCheck::setText](ui-controls-check.settext.html) — Встановити текст
+-   [ОЙControlsButton](class.ui-controls-button.html) - Елемент управління "Кнопка"
+    -   [ОЙControlsButton::construct](ui-controls-button.construct.html) — Створити новий об'єкт Button
+    -   [ОЙControlsButton::getText](ui-controls-button.gettext.html) — Отримати текст
+    -   [ОЙControlsButton::onClick](ui-controls-button.onclick.html) - Обробник кліку
+    -   [ОЙControlsButton::setText](ui-controls-button.settext.html) — Встановити текст
+-   [ОЙControlsColorButton](class.ui-controls-colorbutton.html) - Елемент управління "Кнопка з палітрою кольорів"
+    -   [ОЙControlsColorButton::getColor](ui-controls-colorbutton.getcolor.html) — Отримати об'єкт Color
+    -   [ОЙControlsColorButton::onChange](ui-controls-colorbutton.onchange.html) - Обробник зміни
+    -   [ОЙControlsColorButton::setColor](ui-controls-colorbutton.setcolor.html) — Встановити об'єкт Color
+-   [ОЙControlsLabel](class.ui-controls-label.html) - Елемент управління "Мітка"
+    -   [ОЙControlsLabel::construct](ui-controls-label.construct.html) - Створити новий об'єкт Label
+    -   [ОЙControlsLabel::getText](ui-controls-label.gettext.html) — Отримати текст
+    -   [ОЙControlsLabel::setText](ui-controls-label.settext.html) — Встановити текст
+-   [ОЙControlsEntry](class.ui-controls-entry.html) - Елемент управління "Введення"
+    -   [ОЙControlsEntry::construct](ui-controls-entry.construct.html) — Створити новий об'єкт Entry
+    -   [ОЙControlsEntry::getText](ui-controls-entry.gettext.html) — Отримати текст
+    -   [ОЙControlsEntry::isReadOnly](ui-controls-entry.isreadonly.html) — Визначити, чи є елемент лише для читання
+    -   [ОЙControlsEntry::onChange](ui-controls-entry.onchange.html) - Обробник зміни
+    -   [ОЙControlsEntry::setReadOnly](ui-controls-entry.setreadonly.html) - Встановити "тільки для читання"
+    -   [ОЙControlsEntry::setText](ui-controls-entry.settext.html) — Встановити текст
+-   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html) - Елемент управління "Многорядкове введення"
+    -   [ОЙControlsMultilineEntry::append](ui-controls-multilineentry.append.html) — Додати текст
+    -   [ОЙControlsMultilineEntry::construct](ui-controls-multilineentry.construct.html) - Створити новий об'єкт "Многорядкове введення"
+    -   [ОЙControlsMultilineEntry::getText](ui-controls-multilineentry.gettext.html) — Отримати текст
+    -   [ОЙControlsMultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.html) - Визначення "тільки для читання"
+    -   [ОЙControlsMultilineEntry::onChange](ui-controls-multilineentry.onchange.html) - Обробник зміни
+    -   [ОЙControlsMultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.html) - Встановити "тільки для читання"
+    -   [ОЙControlsMultilineEntry::setText](ui-controls-multilineentry.settext.html) — Встановити текст
+-   [ОЙControlsSpin](class.ui-controls-spin.html) - Елемент управління "Спін"
+    -   [ОЙControlsSpin::construct](ui-controls-spin.construct.html) - Створює новий об'єкт Spin
+    -   [ОЙControlsSpin::getValue](ui-controls-spin.getvalue.html) — Отримати значення
+    -   [ОЙControlsSpin::onChange](ui-controls-spin.onchange.html) - Обробник зміни
+    -   [ОЙControlsSpin::setValue](ui-controls-spin.setvalue.html) — Встановити значення
+-   [ОЙControlsSlider](class.ui-controls-slider.html) - Елемент управління "Слайдер"
+    -   [ОЙControlsSlider::construct](ui-controls-slider.construct.html) — Створює новий об'єкт Slider
+    -   [ОЙControlsSlider::getValue](ui-controls-slider.getvalue.html) — Отримати значення
+    -   [ОЙControlsSlider::onChange](ui-controls-slider.onchange.html) - Обробник зміни
+    -   [ОЙControlsSlider::setValue](ui-controls-slider.setvalue.html) — Встановити значення
+-   [ОЙControlsProgress](class.ui-controls-progress.html) - Елемент управління "Хід виконання"
+    -   [ОЙControlsProgress::getValue](ui-controls-progress.getvalue.html) — Отримати значення
+    -   [ОЙControlsProgress::setValue](ui-controls-progress.setvalue.html) — Встановити значення
+-   [ОЙControlsSeparator](class.ui-controls-separator.html) - Елемент управління "Розділювач"
+    -   [ОЙControlsSeparator::construct](ui-controls-separator.construct.html) — Створити новий об'єкт Separator
+-   [ОЙControlsCombo](class.ui-controls-combo.html) - Елемент управління "Комбо"
+    -   [ОЙControlsCombo::append](ui-controls-combo.append.html) - Додати опцію
+    -   [ОЙControlsCombo::getSelected](ui-controls-combo.getselected.html) — Отримати вибрану опцію
+    -   [ОЙControlsCombo::onSelected](ui-controls-combo.onselected.html) - Обробник обраної опції
+    -   [ОЙControlsCombo::setSelected](ui-controls-combo.setselected.html) — Встановлює вибрану опцію
+-   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html) - Редагований елемент управління "Комбо"
+    -   [ОЙControlsEditableCombo::append](ui-controls-editablecombo.append.html) - Додати опцію
+    -   [ОЙControlsEditableCombo::getText](ui-controls-editablecombo.gettext.html) — Отримати текст
+    -   [ОЙControlsEditableCombo::onChange](ui-controls-editablecombo.onchange.html) - Обробник зміни
+    -   [ОЙControlsEditableCombo::setText](ui-controls-editablecombo.settext.html) — Встановити текст
+-   [ОЙControlsRadio](class.ui-controls-radio.html) - Елемент управління "Радіо"
+    -   [ОЙControlsRadio::append](ui-controls-radio.append.html) - Додає варіант
+    -   [ОЙControlsRadio::getSelected](ui-controls-radio.getselected.html) — Отримати вибраний варіант
+    -   [ОЙControlsRadio::onSelected](ui-controls-radio.onselected.html) - Обробник вибору
+    -   [ОЙControlsRadio::setSelected](ui-controls-radio.setselected.html) — Встановити вибраний варіант
+-   [ОЙControlsPicker](class.ui-controls-picker.html) - Елемент управління "Селектор"
+    -   [ОЙControlsPicker::construct](ui-controls-picker.construct.html) - Створює новий об'єкт Picker
+-   [ОЙControlsForm](class.ui-controls-form.html) - Елемент управління "Форма" (розташування)
+    -   [ОЙControlsForm::append](ui-controls-form.append.html) — Додати елемент керування
+    -   [ОЙControlsForm::delete](ui-controls-form.delete.html) — Видалити елемент керування
+    -   [ОЙControlsForm::isPadded](ui-controls-form.ispadded.html) - Визначення заповнення
+    -   [ОЙControlsForm::setPadded](ui-controls-form.setpadded.html) - Встановити заповнення
+-   [ОЙControlsGrid](class.ui-controls-grid.html) - Елемент управління "Сітка" (розміщення)
+    -   [ОЙControlsGrid::append](ui-controls-grid.append.html) — Додати елемент керування
+    -   [ОЙControlsGrid::isPadded](ui-controls-grid.ispadded.html) - Визначення заповнення
+    -   [ОЙControlsGrid::setPadded](ui-controls-grid.setpadded.html) - Встановити заповнення
+-   [ОЙControlsGroup](class.ui-controls-group.html) - Елемент управління "Група" (розміщення)
+    -   [ОЙControlsGroup::append](ui-controls-group.append.html) — Додати елемент керування
+    -   [ОЙControlsGroup::construct](ui-controls-group.construct.html) — Створити новий об'єкт Group
+    -   [ОЙControlsGroup::getTitle](ui-controls-group.gettitle.html) - Отримати заголовок
+    -   [ОЙControlsGroup::hasMargin](ui-controls-group.hasmargin.html) - Визначення поля
+    -   [ОЙControlsGroup::setMargin](ui-controls-group.setmargin.html) - Встановити поле
+    -   [ОЙControlsGroup::setTitle](ui-controls-group.settitle.html) - Встановити заголовок
+-   [ОЙControlsBox](class.ui-controls-box.html) - Блок управління (розміщення)
+    -   [ОЙControlsBox::append](ui-controls-box.append.html) — Додати елемент керування
+    -   [ОЙControlsBox::construct](ui-controls-box.construct.html) - Створити новий об'єкт Box
+    -   [ОЙControlsBox::delete](ui-controls-box.delete.html) — Видалити елемент керування
+    -   [ОЙControlsBox::getOrientation](ui-controls-box.getorientation.html) — Здобути орієнтацію
+    -   [ОЙControlsBox::isPadded](ui-controls-box.ispadded.html) - Визначення заповнення
+    -   [ОЙControlsBox::setPadded](ui-controls-box.setpadded.html) - Встановити заповнення
+-   [ОЙDrawPen](class.ui-draw-pen.html) - Малювання за допомогою "Перо"
+    -   [ОЙDrawPen::clip](ui-draw-pen.clip.html) - Обрізати шлях
+    -   [ОЙDrawPen::fill](ui-draw-pen.fill.html) - Залити шлях
+    -   [ОЙDrawPen::restore](ui-draw-pen.restore.html) - Відновити
+    -   [ОЙDrawPen::save](ui-draw-pen.save.html) - Зберегти
+    -   [ОЙDrawPen::stroke](ui-draw-pen.stroke.html) - Обвести шлях
+    -   [ОЙDrawPen::transform](ui-draw-pen.transform.html) - Перетворити матрицю
+    -   [ОЙDrawPen::write](ui-draw-pen.write.html) — Намалювати текст у точці
+-   [ОЙDrawPath](class.ui-draw-path.html) - Шлях малювання
+    -   [ОЙDrawPath::addRectangle](ui-draw-path.addrectangle.html) — Намалювати прямокутник
+    -   [ОЙDrawPath::arcTo](ui-draw-path.arcto.html) - Намалювати дугу
+    -   [ОЙDrawPath::bezierTo](ui-draw-path.bezierto.html) — Намалювати криву Безьє
+    -   [ОЙDrawPath::closeFigure](ui-draw-path.closefigure.html) - Закрити фігуру
+    -   [ОЙDrawPath::construct](ui-draw-path.construct.html) - Створити новий об'єкт Path
+    -   [ОЙDrawPath::end](ui-draw-path.end.html) - Завершити шлях
+    -   [ОЙDrawPath::lineTo](ui-draw-path.lineto.html) - Намалювати лінію
+    -   [ОЙDrawPath::newFigure](ui-draw-path.newfigure.html) — Намалювати фігуру
+    -   [ОЙDrawPath::newFigureWithArc](ui-draw-path.newfigurewitharc.html) - Намалювати фігуру з дугою
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html) - Матриця малювання
+    -   [ОЙDrawMatrix::invert](ui-draw-matrix.invert.html) - Інвертувати матрицю
+    -   [ОЙDrawMatrix::isInvertible](ui-draw-matrix.isinvertible.html) — Визначення, чи інвертована матриця
+    -   [ОЙDrawMatrix::multiply](ui-draw-matrix.multiply.html) - Помножити матрицю
+    -   [ОЙDrawMatrix::rotate](ui-draw-matrix.rotate.html) - Перевернути матрицю
+    -   [ОЙDrawMatrix::scale](ui-draw-matrix.scale.html) - Масштабувати матрицю
+    -   [ОЙDrawMatrix::skew](ui-draw-matrix.skew.html) - Нахилити матрицю
+    -   [ОЙDrawMatrix::translate](ui-draw-matrix.translate.html) - Перекласти матрицю
+-   [ОЙDrawColor](class.ui-draw-color.html) — Подання кольору
+    -   [ОЙDrawColor::construct](ui-draw-color.construct.html) — Створити новий об'єкт Color
+    -   [ОЙDrawColor::getChannel](ui-draw-color.getchannel.html) - Управління кольором
+    -   [ОЙDrawColor::setChannel](ui-draw-color.setchannel.html) - Управління кольором
+-   [ОЙDrawStroke](class.ui-draw-stroke.html) - Малювання обведення
+    -   [ОЙDrawStroke::construct](ui-draw-stroke.construct.html) - Створити новий об'єкт Stroke
+    -   [ОЙDrawStroke::getCap](ui-draw-stroke.getcap.html) - Отримати кінець лінії
+    -   [ОЙDrawStroke::getJoin](ui-draw-stroke.getjoin.html) — Отримати з'єднання лінії
+    -   [ОЙDrawStroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html) — Отримати межу зрізу
+    -   [ОЙDrawStroke::getThickness](ui-draw-stroke.getthickness.html) - Отримати товщину
+    -   [ОЙDrawStroke::setCap](ui-draw-stroke.setcap.html) - Встановити кінець лінії
+    -   [ОЙDrawStroke::setJoin](ui-draw-stroke.setjoin.html) — Отримати з'єднання лінії
+    -   [ОЙDrawStroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html) - Встановити межу зрізу
+    -   [ОЙDrawStroke::setThickness](ui-draw-stroke.setthickness.html) - Встановити товщину
+-   [ОЙDrawBrush](class.ui-draw-brush.html) - Щітки
+    -   [ОЙDrawBrush::construct](ui-draw-brush.construct.html) — Створити новий об'єкт Brush
+    -   [ОЙDrawBrush::getColor](ui-draw-brush.getcolor.html) - Отримати колір
+    -   [ОЙDrawBrush::setColor](ui-draw-brush.setcolor.html) - Встановити колір
+-   [ОЙDrawBrushGradient](class.ui-draw-brush-gradient.html) - Градієнтні пензлі
+    -   [ОЙDrawBrushGradient::addStop](ui-draw-brush-gradient.addstop.html) - Додає вузол градієнта
+    -   [ОЙDrawBrushGradient::delStop](ui-draw-brush-gradient.delstop.html) - Видаляє вузол градієнта
+    -   [ОЙDrawBrushGradient::setStop](ui-draw-brush-gradient.setstop.html) - Встановлює вузол градієнта
+-   [ОЙDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html) - Лінійний градієнт
+    -   [ОЙDrawBrushLinearGradient::construct](ui-draw-brush-lineargradient.construct.html) - Конструктор класу LinearGradient
+-   [ОЙDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.html) - Радіальний градієнт
+    -   [ОЙDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.html) - Конструктор класу RadialGradient
+-   [ОЙDrawTextLayout](class.ui-draw-text-layout.html) — Подає макет тексту
+    -   [ОЙDrawTextLayout::construct](ui-draw-text-layout.construct.html) — Створити новий об'єкт макету тексту
+    -   [ОЙDrawTextLayout::setColor](ui-draw-text-layout.setcolor.html) - Встановити колір
+    -   [ОЙDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.html) - Встановити ширину
+-   [ОЙDrawTextFont](class.ui-draw-text-font.html) — Подає шрифт
+    -   [ОЙDrawTextFont::construct](ui-draw-text-font.construct.html) — Створити новий об'єкт Font
+    -   [ОЙDrawTextFont::getAscent](ui-draw-text-font.getascent.html) — Показники шрифту
+    -   [ОЙDrawTextFont::getDescent](ui-draw-text-font.getdescent.html) — Показники шрифту
+    -   [ОЙDrawTextFont::getLeading](ui-draw-text-font.getleading.html) — Показники шрифту
+    -   [ОЙDrawTextFont::getUnderlinePosition](ui-draw-text-font.getunderlineposition.html) — Показники шрифту
+    -   [ОЙDrawTextFont::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.html) — Показники шрифту
+-   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html) - Дескриптор шрифту
+    -   [ОЙDrawTextFontDescriptor::construct](ui-draw-text-font-descriptor.construct.html) - Конструктор класу Font Descriptor
+    -   [ОЙDrawTextFontDescriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html) — Отримує сімейство шрифтів
+    -   [ОЙDrawTextFontDescriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html) — Визначення стилю
+    -   [ОЙDrawTextFontDescriptor::getSize](ui-draw-text-font-descriptor.getsize.html) - Визначення розміру
+    -   [ОЙDrawTextFontDescriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html) — Визначення стилю
+    -   [ОЙDrawTextFontDescriptor::getWeight](ui-draw-text-font-descriptor.getweight.html) — Визначення насиченості
 -   [Функции UI](ref.ui.html)
-    -   [UI\\Draw\\Text\\Font\\fontFamilies](function.ui-draw-text-font-fontfamilies.html) — Витягти сімейство шрифтів
-    -   [UI\\quit](function.ui-quit.html) - Вийти з циклу UI
-    -   [UI\\run](function.ui-run.html) - Увійти в цикл UI
--   [UI\\Draw\\Text\\Font\\Weight](class.ui-draw-text-font-weight.html) — Налаштування зображення шрифту
--   [UI\\Draw\\Text\\Font\\Italic](class.ui-draw-text-font-italic.html) — Налаштування курсивного шрифту
--   [UI\\Draw\\Text\\Font\\Stretch](class.ui-draw-text-font-stretch.html) — Налаштування товщини шрифту
--   [UI\\Draw\\Line\\Cap](class.ui-draw-line-cap.html) — Налаштування кінців ліній
--   [UI\\Draw\\Line\\Join](class.ui-draw-line-join.html) — Налаштування з'єднання ліній
--   [UI\\Key](class.ui-key.html) - Ключові ідентифікатори
--   [UI\\Exception\\InvalidArgumentException](class.ui-exception-invalidargumentexception.html) - InvalidArgumentException
--   [UI\\Exception\\RuntimeException](class.ui-exception-runtimeexception.html) - RuntimeException
+    -   [ОЙDrawTextFontfontFamilies](function.ui-draw-text-font-fontfamilies.html) — Витягти сімейство шрифтів
+    -   [ОЙquit](function.ui-quit.html) - Вийти з циклу UI
+    -   [ОЙrun](function.ui-run.html) - Увійти в цикл UI
+-   [ОЙDrawTextFontWeight](class.ui-draw-text-font-weight.html) — Налаштування зображення шрифту
+-   [ОЙDrawTextFontItalic](class.ui-draw-text-font-italic.html) — Налаштування курсивного шрифту
+-   [ОЙDrawTextFontStretch](class.ui-draw-text-font-stretch.html) — Налаштування товщини шрифту
+-   [ОЙDrawLineCap](class.ui-draw-line-cap.html) — Налаштування кінців ліній
+-   [ОЙDrawLineJoin](class.ui-draw-line-join.html) — Налаштування з'єднання ліній
+-   [ОЙKey](class.ui-key.html) - Ключові ідентифікатори
+-   [ОЙExceptionInvalidArgumentException](class.ui-exception-invalidargumentexception.html) - InvalidArgumentException
+-   [ОЙExceptionRuntimeException](class.ui-exception-runtimeexception.html) - RuntimeException

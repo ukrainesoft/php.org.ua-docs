@@ -1,8 +1,8 @@
 Знищує існуючу обгортку потоку
 
--   [« streamWrapper::\_\_construct](streamwrapper.construct.html)
+-   [« streamWrapper::construct](streamwrapper.construct.html)
     
--   [streamWrapper::dir\_closedir »](streamwrapper.dir-closedir.html)
+-   [streamWrapper::dirclosedir »](streamwrapper.dir-closedir.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,7 +21,7 @@ streamWrapper::destruct — Знищує існуючу обгортку пот�
 
 public **streamWrapper::destruct**
 
-Викликається під час закриття обгортки потоку безпосередньо перед викликом методу [streamWrapper::stream\_flush()](streamwrapper.stream-flush.html)
+Викликається під час закриття обгортки потоку безпосередньо перед викликом методу [streamWrapper::streamflush()](streamwrapper.stream-flush.html)
 
 ### Список параметрів
 

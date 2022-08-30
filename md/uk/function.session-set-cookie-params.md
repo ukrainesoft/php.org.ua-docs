@@ -1,12 +1,12 @@
 Встановлює параметри сесійної cookie
 
--   [« session\_save\_path](function.session-save-path.html)
+-   [« sessionsavepath](function.session-save-path.html)
     
--   [session\_set\_save\_handler »](function.session-set-save-handler.html)
+-   [sessionsetsavehandler »](function.session-set-save-handler.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Встановлює параметри сесійної cookie
     
@@ -33,9 +33,9 @@ session_set_cookie_params(array $lifetime_or_options): bool
 session_set_cookie_params(array $options): bool
 ```
 
-Встановлює параметри cookie, визначені у php.ini. Ефект цієї функції зберігається лише під час виконання скрипта. Таким чином, потрібно викликати **sessionsetcookieparams()** для кожного запиту та перед кожним викликом [session\_start()](function.session-start.html)
+Встановлює параметри cookie, визначені у php.ini. Ефект цієї функції зберігається лише під час виконання скрипта. Таким чином, потрібно викликати **sessionsetcookieparams()** для кожного запиту та перед кожним викликом [sessionstart()](function.session-start.html)
 
-Ця функція оновлює поточні ini-значення відповідних ключів конфігурації PHP ini, які можна отримати за допомогою [ini\_get()](function.ini-get.html)
+Ця функція оновлює поточні ini-значення відповідних ключів конфігурації PHP ini, які можна отримати за допомогою [iniget()](function.ini-get.html)
 
 ### Список параметрів
 
@@ -47,7 +47,7 @@ session_set_cookie_params(array $options): bool
 
 `path`
 
-[Путь](session.configuration.html#ini.session.cookie-path) в домені, де буде працювати cookie. Використовуйте одну косу ('/') для всіх шляхів у домені.
+[Шлях](session.configuration.html#ini.session.cookie-path) в домені, де буде працювати cookie. Використовуйте одну косу ('/') для всіх шляхів у домені.
 
 `domain`
 
@@ -55,7 +55,7 @@ session_set_cookie_params(array $options): bool
 
 `secure`
 
-Якщо **`true`**, то cookies будуть передаватися тільки через [защищённые](session.configuration.html#ini.session.cookie-secure) з'єднання.
+Якщо **`true`**, то cookies будуть передаватися тільки через [захищені](session.configuration.html#ini.session.cookie-secure) з'єднання.
 
 `httponly`
 
@@ -75,10 +75,10 @@ session_set_cookie_params(array $options): bool
 
 ### Дивіться також
 
--   [session.cookie\_lifetime](session.configuration.html#ini.session.cookie-lifetime)
--   [session.cookie\_path](session.configuration.html#ini.session.cookie-path)
--   [session.cookie\_domain](session.configuration.html#ini.session.cookie-domain)
--   [session.cookie\_secure](session.configuration.html#ini.session.cookie-secure)
--   [session.cookie\_httponly](session.configuration.html#ini.session.cookie-httponly)
--   [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite)
--   [session\_get\_cookie\_params()](function.session-get-cookie-params.html) - Повертає параметри cookie сесії
+-   [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime)
+-   [session.cookiepath](session.configuration.html#ini.session.cookie-path)
+-   [session.cookiedomain](session.configuration.html#ini.session.cookie-domain)
+-   [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)
+-   [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)
+-   [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)
+-   [sessiongetcookieparams()](function.session-get-cookie-params.html) - Повертає параметри cookie сесії

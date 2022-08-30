@@ -1,12 +1,12 @@
 Отримання повідомлення з черги повідомлень
 
--   [« msg\_queue\_exists](function.msg-queue-exists.html)
+-   [« msgqueueexists](function.msg-queue-exists.html)
     
--   [msg\_remove\_queue »](function.msg-remove-queue.html)
+-   [msgremovequeue »](function.msg-remove-queue.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Отримання повідомлення з черги повідомлень
     
@@ -49,7 +49,7 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type, 
 
 `unserialize`
 
-Якщо встановлено **`true`**повідомлення розглядається як серіалізоване з використанням того ж механізму, що і в модулі сесій. Повідомлення десеріалізується, а потім повертається до вашого скрипту. Це дозволяє легко отримувати масиви та складні об'єкти з інших PHP-скриптів, або, якщо ви використовуєте WDDX-серіалізатор, з будь-яких сумісних з WDDX джерел.
+Якщо встановлено \*\*`true`\*\*повідомлення розглядається як серіалізоване з використанням того ж механізму, що і в модулі сесій. Повідомлення десеріалізується, а потім повертається до вашого скрипту. Це дозволяє легко отримувати масиви та складні об'єкти з інших PHP-скриптів, або, якщо ви використовуєте WDDX-серіалізатор, з будь-яких сумісних з WDDX джерел.
 
 Якщо в `unserialize` вказано **`false`**, повідомлення повертається у вигляді бінарно-безпечного рядка
 
@@ -77,7 +77,7 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type, 
 
 ### Дивіться також
 
--   [msg\_remove\_queue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msg\_send()](function.msg-send.html) - Надсилання повідомлення в чергу повідомлень
--   [msg\_stat\_queue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
--   [msg\_set\_queue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
+-   [msgsend()](function.msg-send.html) - Надсилання повідомлення в чергу повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
+-   [msgsetqueue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень

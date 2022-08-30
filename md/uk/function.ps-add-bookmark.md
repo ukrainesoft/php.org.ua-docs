@@ -1,12 +1,12 @@
 Додає закладку на поточну сторінку
 
--   [« Функции PS](ref.ps.html)
+-   [« Функції PS](ref.ps.html)
     
--   [ps\_add\_launchlink »](function.ps-add-launchlink.html)
+-   [псaddlaunchlink »](function.ps-add-launchlink.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Додає закладку на поточну сторінку
     
@@ -31,7 +31,7 @@ ps_add_bookmark(    resource $psdoc,    string $text,    int $parent
 
 `psdoc`
 
-Ідентифікатор ресурсу, що повертається [ps\_new()](function.ps-new.html), що посилається на postscript-файл.
+Ідентифікатор ресурсу, що повертається [псnew()](function.ps-new.html), що посилається на postscript-файл.
 
 `text`
 
@@ -51,6 +51,6 @@ ps_add_bookmark(    resource $psdoc,    string $text,    int $parent
 
 ### Дивіться також
 
--   [ps\_add\_launchlink()](function.ps-add-launchlink.html) - Додає посилання, яке запускає файл
--   [ps\_add\_pdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
--   [ps\_add\_weblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку
+-   [псaddlaunchlink()](function.ps-add-launchlink.html) - Додає посилання, яке запускає файл
+-   [псaddpdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
+-   [псaddweblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку

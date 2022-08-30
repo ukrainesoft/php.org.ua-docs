@@ -1,12 +1,12 @@
 Повертає інформацію про клієнта та зазначене підключення
 
--   [« sqlsrv\_cancel](function.sqlsrv-cancel.html)
+-   [« sqlsrvcancel](function.sqlsrv-cancel.html)
     
--   [sqlsrv\_close »](function.sqlsrv-close.html)
+-   [sqlsrvclose »](function.sqlsrv-close.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Повертає інформацію про клієнта та зазначене підключення
     
@@ -70,4 +70,4 @@ if( $client_info = sqlsrv_client_info( $conn)) {
 
 ### Дивіться також
 
--   [sqlsrv\_server\_info()](function.sqlsrv-server-info.html) - Повертає інформацію про сервер
+-   [sqlsrvserverinfo()](function.sqlsrv-server-info.html) - Повертає інформацію про сервер

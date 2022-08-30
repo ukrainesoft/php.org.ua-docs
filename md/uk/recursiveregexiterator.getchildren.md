@@ -1,6 +1,6 @@
 Повертає ітератор для поточного елемента
 
--   [« RecursiveRegexIterator::\_\_construct](recursiveregexiterator.construct.html)
+-   [« RecursiveRegexIterator::construct](recursiveregexiterator.construct.html)
     
 -   [RecursiveRegexIterator::hasChildren »](recursiveregexiterator.haschildren.html)
     

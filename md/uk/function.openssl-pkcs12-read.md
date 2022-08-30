@@ -1,8 +1,8 @@
 Розбирає сховище сертифікатів PKCS#12 масив
 
--   [« openssl\_pkcs12\_export](function.openssl-pkcs12-export.html)
+-   [« opensslpkcs12export](function.openssl-pkcs12-export.html)
     
--   [openssl\_pkcs7\_decrypt »](function.openssl-pkcs7-decrypt.html)
+-   [opensslpkcs7decrypt »](function.openssl-pkcs7-decrypt.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Резервує місце на диску для файлу, що закачується
 
--   [« Функции FTP](ref.ftp.html)
+-   [« Функції FTP](ref.ftp.html)
     
--   [ftp\_append »](function.ftp-append.html)
+-   [ftpappend »](function.ftp-append.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Резервує місце на диску для файлу, що закачується
     
@@ -33,7 +33,7 @@ ftp_alloc(FTP\Connection $ftp, int $size, string &$response = null): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `size`
 
@@ -49,9 +49,9 @@ ftp_alloc(FTP\Connection $ftp, int $size, string &$response = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -80,5 +80,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_put()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftp\_fput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
+-   [ftpfput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер

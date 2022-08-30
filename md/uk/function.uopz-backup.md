@@ -1,12 +1,12 @@
 Резервує функцію
 
--   [« uopz\_allow\_exit](function.uopz-allow-exit.html)
+-   [« uopzallowexit](function.uopz-allow-exit.html)
     
--   [uopz\_compose »](function.uopz-compose.html)
+-   [uopzcompose »](function.uopz-compose.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Резервує функцію
     

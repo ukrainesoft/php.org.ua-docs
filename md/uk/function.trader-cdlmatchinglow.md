@@ -1,8 +1,8 @@
 Свічкова модель "Збіг за нижнім рівнем"
 
--   [« trader\_cdlmarubozu](function.trader-cdlmarubozu.html)
+-   [« tradercdlmarubozu](function.trader-cdlmarubozu.html)
     
--   [trader\_cdlmathold »](function.trader-cdlmathold.html)
+-   [tradercdlmathold »](function.trader-cdlmathold.html)
     
 -   [PHP Manual](index.html)
     

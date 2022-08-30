@@ -1,8 +1,8 @@
 Склеює всі значення в рядок
 
--   [« Ds\\Vector::isEmpty](ds-vector.isempty.html)
+-   [« DsVector::isEmpty](ds-vector.isempty.html)
     
--   [Ds\\Vector::jsonSerialize »](ds-vector.jsonserialize.html)
+-   [ДсVector::jsonSerialize »](ds-vector.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Відкриває з'єднання з базою даних Microsoft SQL Server
 
--   [« sqlsrv\_configure](function.sqlsrv-configure.html)
+-   [« sqlsrvconfigure](function.sqlsrv-configure.html)
     
--   [sqlsrv\_errors »](function.sqlsrv-errors.html)
+-   [sqlsrverrors »](function.sqlsrv-errors.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Відкриває з'єднання з базою даних Microsoft SQL Server
     
@@ -103,6 +103,6 @@ if( $conn ) {
 
 ### Дивіться також
 
--   [sqlsrv\_close()](function.sqlsrv-close.html) - Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
--   [sqlsrv\_errors()](function.sqlsrv-errors.html) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
--   [sqlsrv\_query()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvclose()](function.sqlsrv-close.html) - Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
+-   [sqlsrverrors()](function.sqlsrv-errors.html) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+-   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит

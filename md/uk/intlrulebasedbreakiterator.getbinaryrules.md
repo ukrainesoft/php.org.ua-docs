@@ -1,6 +1,6 @@
 Отримати бінарні дані зі скомпілованих правил
 
--   [« IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.html)
+-   [« IntlRuleBasedBreakIterator::construct](intlrulebasedbreakiterator.construct.html)
     
 -   [IntlRuleBasedBreakIterator::getRules »](intlrulebasedbreakiterator.getrules.html)
     

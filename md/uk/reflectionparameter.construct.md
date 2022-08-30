@@ -1,6 +1,6 @@
 Конструктор
 
--   [« ReflectionParameter::\_\_clone](reflectionparameter.clone.html)
+-   [« ReflectionParameter::clone](reflectionparameter.clone.html)
     
 -   [ReflectionParameter::export »](reflectionparameter.export.html)
     
@@ -102,6 +102,6 @@ Function [ <user> function foo ] {
 ### Дивіться також
 
 -   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.html) - Отримує параметри
--   [ReflectionFunction::\_\_construct()](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
--   [ReflectionMethod::\_\_construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
--   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [ReflectionFunction::construct()](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
+-   [ReflectionMethod::construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+-   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

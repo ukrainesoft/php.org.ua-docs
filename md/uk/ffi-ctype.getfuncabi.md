@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getEnumKind](ffi-ctype.getenumkind.html)
+-   [« FFICType::getEnumKind](ffi-ctype.getenumkind.html)
     
--   [FFI\\CType::getFuncParameterCount »](ffi-ctype.getfuncparametercount.html)
+-   [FFICType::getFuncParameterCount »](ffi-ctype.getfuncparametercount.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

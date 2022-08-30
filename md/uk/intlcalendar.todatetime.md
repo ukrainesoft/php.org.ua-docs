@@ -74,4 +74,4 @@ DateTime Object
 -   [IntlCalendar::fromDateTime()](intlcalendar.fromdatetime.html) - Створює IntlCalendar з об'єкта чи рядка DateTime
 -   [IntlCalendar::getTime()](intlcalendar.gettime.html) - Отримує час, представлений на даний момент об'єктом
 -   [IntlCalendar::createInstance()](intlcalendar.createinstance.html) - Створює новий об'єкт IntlCalendar
--   [DateTime::\_\_construct()](datetime.construct.html) - Конструктор класу DateTime
+-   [DateTime::construct()](datetime.construct.html) - Конструктор класу DateTime

@@ -1,8 +1,8 @@
 Повертає останню пару колекції
 
--   [« Ds\\Map::ksorted](ds-map.ksorted.html)
+-   [« DsMap::ksorted](ds-map.ksorted.html)
     
--   [Ds\\Map::map »](ds-map.map.html)
+-   [ДсMap::map »](ds-map.map.html)
     
 -   [PHP Manual](index.html)
     

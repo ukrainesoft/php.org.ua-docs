@@ -1,6 +1,6 @@
 Клас finfo
 
--   [« mime\_content\_type](function.mime-content-type.html)
+-   [« mimecontenttype](function.mime-content-type.html)
     
 -   [finfo::buffer »](finfo.buffer.html)
     
@@ -46,6 +46,6 @@ public set_flags(int $flags): bool
 ## Зміст
 
 -   [finfo::buffer](finfo.buffer.html) - Псевдонім finfobuffer()
--   [finfo::\_\_construct](finfo.construct.html) - Псевдонім finfoopen
+-   [finfo::construct](finfo.construct.html) - Псевдонім finfoopen
 -   [finfo::file](finfo.file.html) - Псевдонім finfofile()
--   [finfo::set\_flags](finfo.set-flags.html) - Псевдонім finfosetflags()
+-   [finfo::setflags](finfo.set-flags.html) - Псевдонім finfosetflags()

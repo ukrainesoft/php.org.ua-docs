@@ -1,8 +1,8 @@
 Запит для сервера завершити виконання процесу MySQL
 
--   [« mysqli::$insert\_id](mysqli.insert-id.html)
+-   [« mysqli::$insertід](mysqli.insert-id.html)
     
--   [mysqli::more\_results »](mysqli.more-results.html)
+-   [mysqli::moreresults »](mysqli.more-results.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ public mysqli::kill(int $process_id): bool
 mysqli_kill(mysqli $mysql, int $process_id): bool
 ```
 
-Ця функція використовується, щоб відправити на сервер команду завершити MySQL процес заданий параметром `process_id`. Значення цього параметра має бути отримано за допомогою функції [mysqli\_thread\_id()](mysqli.thread-id.html)
+Ця функція використовується, щоб відправити на сервер команду завершити MySQL процес заданий параметром `process_id`. Значення цього параметра має бути отримано за допомогою функції [mysqlithreadid()](mysqli.thread-id.html)
 
 Для завершення поточного запиту використовуйте SQL команду `KILL QUERY processid`
 
@@ -41,7 +41,7 @@ mysqli_kill(mysqli $mysql, int $process_id): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -117,4 +117,4 @@ Error: MySQL server has gone away
 
 ### Дивіться також
 
--   [mysqli\_thread\_id()](mysqli.thread-id.html) - Повертає ID процесу поточного підключення
+-   [mysqlithreadid()](mysqli.thread-id.html) - Повертає ID процесу поточного підключення

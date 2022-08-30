@@ -1,12 +1,12 @@
 Додає один або кілька елементів на початок масиву
 
--   [« array\_unique](function.array-unique.html)
+-   [« arrayunique](function.array-unique.html)
     
--   [array\_values »](function.array-values.html)
+-   [arrayvalues »](function.array-values.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Додає один або кілька елементів на початок масиву
     
@@ -75,6 +75,6 @@ Array
 
 ### Дивіться також
 
--   [array\_shift()](function.array-shift.html) - Витягує перший елемент масиву
--   [array\_push()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
--   [array\_pop()](function.array-pop.html) - Витягує останній елемент масиву
+-   [arrayshift()](function.array-shift.html) - Витягує перший елемент масиву
+-   [arraypush()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
+-   [arraypop()](function.array-pop.html) - Витягує останній елемент масиву

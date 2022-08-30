@@ -1,12 +1,12 @@
 Завершує сторінку
 
--   [« ps\_delete](function.ps-delete.html)
+-   [«psdelete](function.ps-delete.html)
     
--   [ps\_end\_pattern »](function.ps-end-pattern.html)
+-   [псendpattern »](function.ps-end-pattern.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Завершує сторінку
     
@@ -23,13 +23,13 @@
 ps_end_page(resource $psdoc): bool
 ```
 
-Завершує сторінку, яку було розпочато за допомогою [ps\_begin\_page()](function.ps-begin-page.html). Завершення сторінки призведе до виходу з поточного контексту малювання, який, наприклад, вимагає перезавантаження шрифтів, якщо вони завантажувалися на сторінці та налаштування багатьох інших параметрів малювання, таких як ширина лінії або колір.
+Завершує сторінку, яку було розпочато за допомогою [псbeginpage()](function.ps-begin-page.html). Завершення сторінки призведе до виходу з поточного контексту малювання, який, наприклад, вимагає перезавантаження шрифтів, якщо вони завантажувалися на сторінці та налаштування багатьох інших параметрів малювання, таких як ширина лінії або колір.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_end_page(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_begin\_page()](function.ps-begin-page.html) - Починає нову сторінку
+-   [псbeginpage()](function.ps-begin-page.html) - Починає нову сторінку

@@ -1,8 +1,8 @@
 Звіряння сигнатури
 
--   [« openssl\_spki\_verify](function.openssl-spki-verify.html)
+-   [« opensslspkiverify](function.openssl-spki-verify.html)
     
--   [openssl\_x509\_check\_private\_key »](function.openssl-x509-check-private-key.html)
+-   [opensslx509checkprivatekey »](function.openssl-x509-check-private-key.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 `signature`
 
-Необроблений бінарний рядок, створений функцією [openssl\_sign()](function.openssl-sign.html) або її аналогом
+Необроблений бінарний рядок, створений функцією [opensslsign()](function.openssl-sign.html) або її аналогом
 
 `public_key`
 
-Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), що містить ключ, підготовлений [openssl\_get\_publickey()](function.openssl-get-publickey.html)
+Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), що містить ключ, підготовлений [opensslgetpublickey()](function.openssl-get-publickey.html)
 
 Рядок із ключем у форматі PEM. Приблизно такого виду "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
@@ -45,7 +45,7 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 Ціло число, що відповідає одному з [алгоритмов подписи](openssl.signature-algos.html)
 
-Рядок, повернутий [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html)наприклад "sha1WithRSAEncryption" або "sha512".
+Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.html)наприклад "sha1WithRSAEncryption" або "sha512".
 
 ### Значення, що повертаються
 
@@ -114,4 +114,4 @@ if ($ok == 1) {
 
 ### Дивіться також
 
--   [openssl\_sign()](function.openssl-sign.html) - генерація підпису
+-   [opensslsign()](function.openssl-sign.html) - генерація підпису

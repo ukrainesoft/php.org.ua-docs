@@ -1,12 +1,12 @@
 Лінійний градієнт
 
--   [« UI\\Draw\\Brush\\Gradient::setStop](ui-draw-brush-gradient.setstop.html)
+-   [« UIDrawBrushGradient::setStop](ui-draw-brush-gradient.setstop.html)
     
--   [UI\\Draw\\Brush\\LinearGradient::\_\_construct »](ui-draw-brush-lineargradient.construct.html)
+-   [ОЙDrawBrushLinearGradient::construct »](ui-draw-brush-lineargradient.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Лінійний градієнт
     
@@ -55,4 +55,4 @@ public UI\Draw\Brush\Gradient::setStop(int $index, float $position, int $color):
 
 ## Зміст
 
--   [UI\\Draw\\Brush\\LinearGradient::\_\_construct](ui-draw-brush-lineargradient.construct.html) - Конструктор класу LinearGradient
+-   [ОЙDrawBrushLinearGradient::construct](ui-draw-brush-lineargradient.construct.html) - Конструктор класу LinearGradient

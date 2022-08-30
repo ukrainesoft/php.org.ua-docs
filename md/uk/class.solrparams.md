@@ -1,6 +1,6 @@
 Клас SolrParams
 
--   [« SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.html)
+-   [« SolrGenericResponse::destruct](solrgenericresponse.destruct.html)
     
 -   [SolrParams::add »](solrparams.add.html)
     

@@ -1,6 +1,6 @@
 Повертає останню помилку Stomp
 
--   [« Stomp::\_\_destruct](stomp.destruct.html)
+-   [« Stomp::destruct](stomp.destruct.html)
     
 -   [Stomp::getReadTimeout »](stomp.getreadtimeout.html)
     
@@ -39,7 +39,7 @@ stomp_error(resource $link): string
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
 
 ### Значення, що повертаються
 

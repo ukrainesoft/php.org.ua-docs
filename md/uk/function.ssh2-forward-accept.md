@@ -1,12 +1,12 @@
 Приймає з'єднання, створене слухачем
 
--   [« ssh2\_fingerprint](function.ssh2-fingerprint.html)
+-   [« ssh2fingerprint](function.ssh2-fingerprint.html)
     
--   [ssh2\_forward\_listen »](function.ssh2-forward-listen.html)
+-   [ssh2forwardlisten »](function.ssh2-forward-listen.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Приймає з'єднання, створене слухачем
     
@@ -33,7 +33,7 @@ ssh2_forward_accept(resource $listener): resource|false
 
 `desc`
 
-Ресурс SSH2 Listener, отриманий у результаті виклику [ssh2\_forward\_listen()](function.ssh2-forward-listen.html)
+Ресурс SSH2 Listener, отриманий у результаті виклику [ssh2forwardlisten()](function.ssh2-forward-listen.html)
 
 ### Значення, що повертаються
 

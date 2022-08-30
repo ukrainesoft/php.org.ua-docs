@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](misc.resources.html)
     
--   [Разные функции »](ref.misc.html)
+-   [Різні функції »](ref.misc.html)
     
 -   [PHP Manual](index.html)
     

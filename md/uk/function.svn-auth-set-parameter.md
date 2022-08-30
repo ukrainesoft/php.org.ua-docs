@@ -1,12 +1,12 @@
 Встановлює параметр автентифікації
 
--   [« svn\_auth\_get\_parameter](function.svn-auth-get-parameter.html)
+-   [« svnauthgetparameter](function.svn-auth-get-parameter.html)
     
--   [svn\_blame »](function.svn-blame.html)
+-   [svnblame »](function.svn-blame.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Встановлює параметр автентифікації
     
@@ -29,7 +29,7 @@ svn_auth_set_parameter(string $key, string $value): void
 
 `key`
 
-Ім'я ключа (Рядок). Щоб вказати ключ, використовуйте [список констант аутентификации](svn.constants.html#svn.constants.auth), Визначений цим модулем.
+Ім'я ключа (Рядок). Щоб вказати ключ, використовуйте [список констант аутентифікації](svn.constants.html#svn.constants.auth), Визначений цим модулем.
 
 `value`
 
@@ -60,5 +60,5 @@ svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_PASSWORD, 'abc123');
 
 ### Дивіться також
 
--   [svn\_auth\_get\_parameter()](function.svn-auth-get-parameter.html) - Повертає параметр автентифікації
--   [Константы аутентификации](svn.constants.html#svn.constants.auth)
+-   [svnauthgetparameter()](function.svn-auth-get-parameter.html) - Повертає параметр автентифікації
+-   [Константи аутентифікації](svn.constants.html#svn.constants.auth)

@@ -2,7 +2,7 @@
 
 -   [« Коллекция пар ключ-значение](class.ds-map.html)
     
--   [Ds\\Map::apply »](ds-map.apply.html)
+-   [ДсMap::apply »](ds-map.apply.html)
     
 -   [PHP Manual](index.html)
     

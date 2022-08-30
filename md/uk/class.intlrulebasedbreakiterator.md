@@ -2,7 +2,7 @@
 
 -   [« IntlBreakIterator::setText](intlbreakiterator.settext.html)
     
--   [IntlRuleBasedBreakIterator::\_\_construct »](intlrulebasedbreakiterator.construct.html)
+-   [IntlRuleBasedBreakIterator::construct »](intlrulebasedbreakiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -139,7 +139,7 @@ public IntlBreakIterator::setText(string $text): ?bool
 
 ## Зміст
 
--   [IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.html) - Створює ітератор на основі набору правил
+-   [IntlRuleBasedBreakIterator::construct](intlrulebasedbreakiterator.construct.html) - Створює ітератор на основі набору правил
 -   [IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.html) — Отримати бінарні дані зі скомпілованих правил
 -   [IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.html) — Отримати набір правил, які використовуються під час створення цього об'єкта
 -   [IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.html) — Отримати найбільше значення статусу правил зупинки, що визначило поточну позицію зупинки

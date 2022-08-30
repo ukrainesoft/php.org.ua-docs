@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює рядок на нижній регістр
     
@@ -58,4 +58,4 @@ echo $str; // выводит: mary had a little lamb and she loved i
 -   [strtoupper()](function.strtoupper.html) - Перетворює рядок у верхній регістр
 -   [ucfirst()](function.ucfirst.html) - Перетворює перший символ рядка у верхній регістр
 -   [ucwords()](function.ucwords.html) - Перетворює на верхній регістр перший символ кожного слова в рядку
--   [mb\_strtolower()](function.mb-strtolower.html) - Приведення рядка до нижнього регістру
+-   [мбstrtolower()](function.mb-strtolower.html) - Приведення рядка до нижнього регістру

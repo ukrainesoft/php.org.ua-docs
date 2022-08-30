@@ -1,12 +1,12 @@
 Використання рамок
 
--   [« UI\\Window::save](ui-window.save.html)
+-   [« UIWindow::save](ui-window.save.html)
     
--   [UI\\Window::setFullScreen »](ui-window.setfullscreen.html)
+-   [ОЙWindow::setFullScreen »](ui-window.setfullscreen.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Використання рамок
     

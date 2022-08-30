@@ -2,7 +2,7 @@
 
 -   [« mysqli::prepare](mysqli.prepare.html)
     
--   [mysqli::real\_connect »](mysqli.real-connect.html)
+-   [mysqli::realconnect »](mysqli.real-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 Виконує запит `query` до бази даних.
 
-Для не DML-запитів (не INSERT, UPDATE чи DELETE), ця функція рівносильна виклику функції [mysqli\_real\_query()](mysqli.real-query.html), а потім [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_store\_result()](mysqli.store-result.html)
+Для не DML-запитів (не INSERT, UPDATE чи DELETE), ця функція рівносильна виклику функції [mysqlirealquery()](mysqli.real-query.html), а потім [mysqliuseresult()](mysqli.use-result.html) або [mysqlistoreresult()](mysqli.store-result.html)
 
 > **Зауваження**
 > 
@@ -52,7 +52,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `query`
 
@@ -62,21 +62,21 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [подготавливаемые запросы](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html)
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.html)
 
 `result_mode`
 
 Режим результату може бути однією з трьох констант, що вказують, як результат буде повернено сервером MySQL.
 
-**`MYSQLI_STORE_RESULT`** (за замовчуванням) - повертає об'єкт [mysqli\_result](class.mysqli-result.html) із буферизованим набором результатів.
+**`MYSQLI_STORE_RESULT`** (за замовчуванням) - повертає об'єкт [mysqliresult](class.mysqli-result.html) із буферизованим набором результатів.
 
-**`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqli\_result](class.mysqli-result.html) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqli\_free\_result()](mysqli-result.free.html)
+**`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqliresult](class.mysqli-result.html) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqlifreeresult()](mysqli-result.free.html)
 
-**`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім використовується [mysqli\_poll()](mysqli.poll.html) для отримання результатів за цими запитами. Використовується у поєднанні з константою **`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
+**`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім використовується [mysqlipoll()](mysqli.poll.html) для отримання результатів за цими запитами. Використовується у поєднанні з константою **`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. У разі успішного виконання запитів, які створюють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqliquery()** поверне об'єкт [mysqli\_result](class.mysqli-result.html). Для решти успішних запитів **mysqliquery()** поверне **`true`**
+Повертає **`false`** у разі виникнення помилки. У разі успішного виконання запитів, які створюють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqliquery()** поверне об'єкт [mysqliresult](class.mysqli-result.html). Для решти успішних запитів **mysqliquery()** поверне **`true`**
 
 ### Приклади
 
@@ -143,7 +143,7 @@ Fatal error: Uncaught mysqli_sql_exception: Commands out of sync; you can't run 
 
 ### Дивіться також
 
--   [mysqli\_real\_query()](mysqli.real-query.html) - Виконання SQL запиту
--   [mysqli\_multi\_query()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqli\_free\_result()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту
+-   [mysqlirealquery()](mysqli.real-query.html) - Виконання SQL запиту
+-   [mysqlimultiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlifreeresult()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту

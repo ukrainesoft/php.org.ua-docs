@@ -1,8 +1,8 @@
 Дозволяє безпосередньо керувати розміром використовуваного дискового простору для файлу
 
--   [« eio\_event\_loop](function.eio-event-loop.html)
+-   [« eioeventloop](function.eio-event-loop.html)
     
--   [eio\_fchmod »](function.eio-fchmod.html)
+-   [eiofchmod »](function.eio-fchmod.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ eio_fallocate(    mixed $fd,    int $mode,    int $offset,    in
 
 `fd`
 
-Потік, покажчик на сокет, чи числовий дескриптор файлу, наприклад повернутий [eio\_open()](function.eio-open.html)
+Потік, покажчик на сокет, чи числовий дескриптор файлу, наприклад повернутий [eioopen()](function.eio-open.html)
 
 `mode`
 
@@ -69,7 +69,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

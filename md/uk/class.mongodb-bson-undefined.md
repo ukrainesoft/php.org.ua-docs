@@ -1,12 +1,12 @@
 Клас MongoDBBSONUndefined (застаріло)
 
--   [« MongoDB\\BSON\\Symbol::unserialize](mongodb-bson-symbol.unserialize.html)
+-   [« MongoDBBSONSymbol::unserialize](mongodb-bson-symbol.unserialize.html)
     
--   [MongoDB\\BSON\\Undefined::\_\_construct »](mongodb-bson-undefined.construct.html)
+-   [MongoDBBSONUndefined::construct »](mongodb-bson-undefined.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONUndefined (застаріло)
     
@@ -54,8 +54,8 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDB\\BSON\\Undefined::\_\_construct](mongodb-bson-undefined.construct.html) - Створює новий Undefined (не використовується)
--   [MongoDB\\BSON\\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\Undefined::serialize](mongodb-bson-undefined.serialize.html) - Серіалізує Undefined
--   [MongoDB\\BSON\\Undefined::\_\_toString](mongodb-bson-undefined.tostring.html) — Повертає порожній рядок
--   [MongoDB\\BSON\\Undefined::unserialize](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
+-   [MongoDBBSONUndefined::construct](mongodb-bson-undefined.construct.html) - Створює новий Undefined (не використовується)
+-   [MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.html) - Серіалізує Undefined
+-   [MongoDBBSONUndefined::toString](mongodb-bson-undefined.tostring.html) — Повертає порожній рядок
+-   [MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined

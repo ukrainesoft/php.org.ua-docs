@@ -1,8 +1,8 @@
 Індекс спрямованого руху
 
--   [« trader\_div](function.trader-div.html)
+-   [« traderdiv](function.trader-div.html)
     
--   [trader\_ema »](function.trader-ema.html)
+-   [traderema »](function.trader-ema.html)
     
 -   [PHP Manual](index.html)
     

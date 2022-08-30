@@ -1,8 +1,8 @@
 Вставляє записи з масиву до таблиці
 
--   [« pg\_convert](function.pg-convert.html)
+-   [« pgconvert](function.pg-convert.html)
     
--   [pg\_copy\_to »](function.pg-copy-to.html)
+-   [пгcopyto »](function.pg-copy-to.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `table_name`
 
@@ -53,9 +53,9 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -75,4 +75,4 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 ### Дивіться також
 
--   [pg\_copy\_to()](function.pg-copy-to.html) - Копіює дані з таблиці до масиву
+-   [пгcopyto()](function.pg-copy-to.html) - Копіює дані з таблиці до масиву

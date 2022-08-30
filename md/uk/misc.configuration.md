@@ -19,7 +19,7 @@
 
 | Имя                                                                  | По умолчанию | Место изменения | Список изменений |
 |----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [ignore\_user\_abort](misc.configuration.html#ini.ignore-user-abort) | "0"          | PHPINIALL       |                  |
+| [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort)     | "0"          | PHPINIALL       |                  |
 | [highlight.string](misc.configuration.html#ini.syntax-highlighting)  | "#DD0000"    | PHPINIALL       |                  |
 | [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000"    | PHPINIALL       |                  |
 | [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700"    | PHPINIALL       |                  |
@@ -35,7 +35,7 @@
 
 **`false`** за замовчуванням. Якщо змінюється на **`true`**, Скрипти не будуть перервані після того, як клієнт розірве з'єднання.
 
-Дивіться також [ignore\_user\_abort()](function.ignore-user-abort.html)
+Дивіться також [ignoreuserabort()](function.ignore-user-abort.html)
 
 `highlight.bg` string
 
@@ -53,4 +53,4 @@
 
 `browscap` string
 
-Ім'я (наприклад, browscap.ini) та розташування файлу можливостей браузера. Дивіться також [get\_browser()](function.get-browser.html)
+Ім'я (наприклад, browscap.ini) та розташування файлу можливостей браузера. Дивіться також [getbrowser()](function.get-browser.html)

@@ -1,8 +1,8 @@
 Отримати та відсортувати повідомлення
 
--   [« imap\_setflag\_full](function.imap-setflag-full.html)
+-   [« imapsetflagfull](function.imap-setflag-full.html)
     
--   [imap\_status »](function.imap-status.html)
+-   [imapstatus »](function.imap-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `criteria`
 
@@ -56,7 +56,7 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 `search_criteria`
 
-Рядок з пошуковим критерієм у форматі IMAP2. Докладніше дивіться в описі функції [imap\_search()](function.imap-search.html)
+Рядок з пошуковим критерієм у форматі IMAP2. Докладніше дивіться в описі функції [imapsearch()](function.imap-search.html)
 
 `charset`
 
@@ -68,8 +68,8 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `reverse` тепер є логічним типом (Bool) замість цілого числа (int).                                                                                      |
-|        | `search_criteria` і `charset` тепер є nullable.                                                                                                          |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `reverse` тепер є логічним типом (Bool) замість цілого числа (int).                                                                                    |
+|        | `search_criteria` і `charset` тепер є nullable.                                                                                                        |

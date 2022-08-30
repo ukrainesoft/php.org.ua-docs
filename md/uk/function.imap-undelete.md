@@ -1,8 +1,8 @@
 Знімає з повідомлення позначку видалення
 
--   [« imap\_uid](function.imap-uid.html)
+-   [« imapuid](function.imap-uid.html)
     
--   [imap\_unsubscribe »](function.imap-unsubscribe.html)
+-   [imapunsubscribe »](function.imap-unsubscribe.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ imapundelete — Знімає з повідомлення позначку ви�
 imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 ```
 
-Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imap\_delete()](function.imap-delete.html) або [imap\_mail\_move()](function.imap-mail-move.html)
+Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imapdelete()](function.imap-delete.html) або [imapmailmove()](function.imap-mail-move.html)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_nums`
 
@@ -43,11 +43,11 @@ imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_delete()](function.imap-delete.html) - Позначити повідомлення для видалення
--   [imap\_mail\_move()](function.imap-mail-move.html) - Перемістити вказані повідомлення до вказаної поштової скриньки
+-   [imapdelete()](function.imap-delete.html) - Позначити повідомлення для видалення
+-   [imapmailmove()](function.imap-mail-move.html) - Перемістити вказані повідомлення до вказаної поштової скриньки

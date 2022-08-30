@@ -1,8 +1,8 @@
 Установка оброблювача за замовчуванням
 
--   [« xml\_set\_character\_data\_handler](function.xml-set-character-data-handler.html)
+-   [« xmlsetcharacterdatahandler](function.xml-set-character-data-handler.html)
     
--   [xml\_set\_element\_handler »](function.xml-set-element-handler.html)
+-   [xmlsetelementhandler »](function.xml-set-element-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ xml_set_default_handler(XMLParser $parser, callable $handler): bool
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати два аргументи:
 

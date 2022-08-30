@@ -1,8 +1,8 @@
 Очищує поточну сесію
 
--   [« pspell\_check](function.pspell-check.html)
+-   [« pspellcheck](function.pspell-check.html)
     
--   [pspell\_config\_create »](function.pspell-config-create.html)
+-   [pspellconfigcreate »](function.pspell-config-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ pspellclearsession - Очищає поточну сесію
 pspell_clear_session(PSpell\Dictionary $dictionary): bool
 ```
 
-**pspellclearsession()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspell\_save\_wordlist()](function.pspell-save-wordlist.html), Нічого не трапиться.
+**pspellclearsession()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.html), Нічого не трапиться.
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
 
 ### Значення, що повертаються
 
@@ -37,13 +37,13 @@ pspell_clear_session(PSpell\Dictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [pspell\_add\_to\_personal()](function.pspell-add-to-personal.html)**
+**Приклад #1 Приклад використання [pspelladdтоpersonal()](function.pspell-add-to-personal.html)**
 
 ```php
 <?php

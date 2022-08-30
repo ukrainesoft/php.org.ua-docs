@@ -1,12 +1,12 @@
 Створити новий об'єкт Stroke
 
--   [« UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [« UIDrawStroke](class.ui-draw-stroke.html)
     
--   [UI\\Draw\\Stroke::getCap »](ui-draw-stroke.getcap.html)
+-   [ОЙDrawStroke::getCap »](ui-draw-stroke.getcap.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Створити новий об'єкт Stroke
     
@@ -23,7 +23,7 @@ public **ОЙDrawStroke::construct**
 int `$cap` = UIDrawLineCap::Flat,  
 int `$join` = UIDrawLineJoin::Miter,  
 float `$thickness`  
-float `$miterLimit`  
+float `$miterLimit`
 
 Створює новий об'єкт Stroke
 

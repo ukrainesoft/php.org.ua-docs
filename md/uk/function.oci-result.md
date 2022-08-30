@@ -1,8 +1,8 @@
 Повертає значення поля з результату запиту
 
--   [« oci\_register\_taf\_callback](function.oci-register-taf-callback.html)
+-   [« ociregistertafcallback](function.oci-register-taf-callback.html)
     
--   [oci\_rollback »](function.oci-rollback.html)
+-   [ocirollback »](function.oci-rollback.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,9 +23,9 @@ ociresult — Повертає значення поля з результату
 oci_result(resource $statement, string|int $column): mixed
 ```
 
-Повертає дані поля `column` поточного рядка, що повертається функцією [oci\_fetch()](function.oci-fetch.html)
+Повертає дані поля `column` поточного рядка, що повертається функцією [ocifetch()](function.oci-fetch.html)
 
-За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типам данных, поддерживаемых драйвером](oci8.datatypes.html)
+За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.html)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ oci_result(resource $statement, string|int $column): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання [oci\_fetch()](function.oci-fetch.html) з **ociresult()****
+**Приклад #1 Приклад використання [ocifetch()](function.oci-fetch.html) з **ociresult()****
 
 ```php
 <?php
@@ -79,8 +79,8 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [oci\_fetch\_array()](function.oci-fetch-array.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
--   [oci\_fetch\_assoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
--   [oci\_fetch\_object()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
--   [oci\_fetch\_row()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
--   [oci\_fetch\_all()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [ocifetcharray()](function.oci-fetch-array.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [ocifetchassoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [ocifetchobject()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [ocifetchrow()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [ocifetchall()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву

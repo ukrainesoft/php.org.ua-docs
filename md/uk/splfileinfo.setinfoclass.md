@@ -2,7 +2,7 @@
 
 -   [« SplFileInfo::setFileClass](splfileinfo.setfileclass.html)
     
--   [SplFileInfo::\_\_toString »](splfileinfo.tostring.html)
+-   [SplFileInfo::toString »](splfileinfo.tostring.html)
     
 -   [PHP Manual](index.html)
     

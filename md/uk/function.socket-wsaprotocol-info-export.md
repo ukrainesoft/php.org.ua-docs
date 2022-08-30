@@ -1,8 +1,8 @@
 Експорт структури WSAPROTOCOLINFO
 
--   [« socket\_write](function.socket-write.html)
+-   [« socketwrite](function.socket-write.html)
     
--   [socket\_wsaprotocol\_info\_import »](function.socket-wsaprotocol-info-import.html)
+-   [socketwsaprotocolinfoimport »](function.socket-wsaprotocol-info-import.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ socketwsaprotocolinfoexport — Експорт структури WSAPROTOCOLINF
 socket_wsaprotocol_info_export(Socket $socket, int $process_id): string|false
 ```
 
-Експортує структуру `WSAPROTOCOL_INFO` в пам'ять, що розділяється, і повертає ідентифікатор, який можна використовувати в [socket\_wsaprotocol\_info\_import()](function.socket-wsaprotocol-info-import.html). Цей ідентифікатор придатний лише для використання в процесі PID, зазначеного в `process_id`
+Експортує структуру `WSAPROTOCOL_INFO` в пам'ять, що розділяється, і повертає ідентифікатор, який можна використовувати в [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.html). Цей ідентифікатор придатний лише для використання в процесі PID, зазначеного в `process_id`
 
 > **Зауваження**: Функція доступна лише у Windows.
 
@@ -49,5 +49,5 @@ socket_wsaprotocol_info_export(Socket $socket, int $process_id): string|false
 
 ### Дивіться також
 
--   [socket\_wsaprotocol\_info\_import()](function.socket-wsaprotocol-info-import.html) - Імпортує сокет з іншого процесу
--   [socket\_wsaprotocol\_info\_release()](function.socket-wsaprotocol-info-release.html) - Вивільняє експортовану структуру WSAPROTOCOLINFO
+-   [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.html) - Імпортує сокет з іншого процесу
+-   [socketwsaprotocolinforelease()](function.socket-wsaprotocol-info-release.html) - Вивільняє експортовану структуру WSAPROTOCOLINFO

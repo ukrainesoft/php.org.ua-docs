@@ -33,7 +33,7 @@ public QuickHashIntStringHash::__construct(int $size, int $options = 0)
 
 `options`
 
-Ви можете використовувати такі варіанти: **`QuickHashIntStringHash::CHECK_FOR_DUPES`**що гарантує, що в хеш не будуть додані дублюючі записи; **`QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC`** щоб не використовувати внутрішній менеджер пам'яті PHP, а також одну з констант: **`QuickHashIntStringHash::HASHER_NO_HASH`** **`QuickHashIntStringHash::HASHER_JENKINS1`** або **`QuickHashIntStringHash::HASHER_JENKINS2`**. Останні три параметри визначають, який алгоритм хешування використати. Усі параметри можна поєднувати за допомогою побітових операторів.
+Ви можете використовувати такі варіанти: \*\*`QuickHashIntStringHash::CHECK_FOR_DUPES`\*\*що гарантує, що в хеш не будуть додані дублюючі записи; **`QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC`** щоб не використовувати внутрішній менеджер пам'яті PHP, а також одну з констант: **`QuickHashIntStringHash::HASHER_NO_HASH`** **`QuickHashIntStringHash::HASHER_JENKINS1`** або **`QuickHashIntStringHash::HASHER_JENKINS2`**. Останні три параметри визначають, який алгоритм хешування використати. Усі параметри можна поєднувати за допомогою побітових операторів.
 
 ### Значення, що повертаються
 

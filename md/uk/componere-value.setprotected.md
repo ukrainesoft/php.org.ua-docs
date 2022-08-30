@@ -1,12 +1,12 @@
 Зміна доступності
 
--   [« Componere\\Value::setPrivate](componere-value.setprivate.html)
+-   [« ComponereValue::setPrivate](componere-value.setprivate.html)
     
--   [Componere\\Value::setStatic »](componere-value.setstatic.html)
+-   [ComponereValue::setStatic »](componere-value.setstatic.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Зміна доступності
     

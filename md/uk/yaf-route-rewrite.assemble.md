@@ -1,12 +1,12 @@
 Збирає URL
 
--   [« Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
+-   [« YafRouteRewrite](class.yaf-route-rewrite.html)
     
--   [Yaf\_Route\_Rewrite::\_\_construct »](yaf-route-rewrite.construct.html)
+-   [YafRouteRewrite::construct »](yaf-route-rewrite.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
+-   [YafRouteRewrite](class.yaf-route-rewrite.html)
     
 -   Збирає URL
     

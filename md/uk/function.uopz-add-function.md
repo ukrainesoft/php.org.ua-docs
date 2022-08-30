@@ -1,12 +1,12 @@
 Додає неіснуючу функцію чи метод
 
--   [« Функции Uopz](ref.uopz.html)
+-   [« Функції Uopz](ref.uopz.html)
     
--   [uopz\_allow\_exit »](function.uopz-allow-exit.html)
+-   [uopzallowexit »](function.uopz-allow-exit.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Додає неіснуючу функцію чи метод
     
@@ -78,5 +78,5 @@ bar
 
 ### Дивіться також
 
--   [uopz\_del\_function()](function.uopz-del-function.html) - Видаляє раніше додану функцію або метод
--   [uopz\_set\_return()](function.uopz-set-return.html) - Надати значення, що повертається для існуючої функції
+-   [uopzdelfunction()](function.uopz-del-function.html) - Видаляє раніше додану функцію або метод
+-   [uopzsetreturn()](function.uopz-set-return.html) - Надати значення, що повертається для існуючої функції

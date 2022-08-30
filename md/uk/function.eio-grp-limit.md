@@ -1,8 +1,8 @@
 Встановлює граничну кількість запитів у групі
 
--   [« eio\_grp\_cancel](function.eio-grp-cancel.html)
+-   [« eiogrpcancel](function.eio-grp-cancel.html)
     
--   [eio\_grp »](function.eio-grp.html)
+-   [eiogrp »](function.eio-grp.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ eio_grp_limit(resource $grp, int $limit): void
 
 ### Дивіться також
 
--   [eio\_grp\_add()](function.eio-grp-add.html) - Додає запит до групи запитів
+-   [eiogrpadd()](function.eio-grp-add.html) - Додає запит до групи запитів

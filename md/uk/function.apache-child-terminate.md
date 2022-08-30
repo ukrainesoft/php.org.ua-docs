@@ -2,7 +2,7 @@
 
 -   [« Функции Apache](ref.apache.html)
     
--   [apache\_get\_modules »](function.apache-get-modules.html)
+-   [apachegetmodules »](function.apache-get-modules.html)
     
 -   [PHP Manual](index.html)
     

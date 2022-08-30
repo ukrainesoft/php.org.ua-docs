@@ -2,7 +2,7 @@
 
 -   [« Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.html)
     
--   [Использование пространств имён: переход к глобальной функции/константе »](language.namespaces.fallback.html)
+-   [Використання просторів імен: перехід до глобальної функції/константи »](language.namespaces.fallback.html)
     
 -   [PHP Manual](index.html)
     

@@ -32,4 +32,4 @@ public **ReflectionObject::construct**(object `$object`
 ### Дивіться також
 
 -   [ReflectionObject::export()](reflectionobject.export.html) - Експорт
--   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

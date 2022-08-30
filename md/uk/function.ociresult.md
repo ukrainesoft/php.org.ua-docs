@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociresult - Псевдонім [oci\_result()](function.oci-result.html)
+ociresult - Псевдонім [ociresult()](function.oci-result.html)
 
 ### Опис
 
-Псевдонім [oci\_result()](function.oci-result.html)
+Псевдонім [ociresult()](function.oci-result.html)
 
 **Увага**
 

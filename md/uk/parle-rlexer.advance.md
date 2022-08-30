@@ -1,12 +1,12 @@
 Обробка наступного правила лексера
 
--   [« Parle\\RLexer](class.parle-rlexer.html)
+-   [« ParleRLexer](class.parle-rlexer.html)
     
--   [Parle\\RLexer::build »](parle-rlexer.build.html)
+-   [ParleRLexer::build »](parle-rlexer.build.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RLexer](class.parle-rlexer.html)
+-   [ParleRLexer](class.parle-rlexer.html)
     
 -   Обробка наступного правила лексера
     

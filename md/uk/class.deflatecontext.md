@@ -1,6 +1,6 @@
 Клас DeflateContext
 
--   [« zlib\_get\_coding\_type](function.zlib-get-coding-type.html)
+-   [« zlibgetcodingtype](function.zlib-get-coding-type.html)
     
 -   [InflateContext »](class.inflatecontext.html)
     

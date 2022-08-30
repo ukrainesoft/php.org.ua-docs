@@ -1,12 +1,12 @@
 Перетворити матрицю
 
--   [« UI\\Draw\\Pen::stroke](ui-draw-pen.stroke.html)
+-   [« UIDrawPen::stroke](ui-draw-pen.stroke.html)
     
--   [UI\\Draw\\Pen::write »](ui-draw-pen.write.html)
+-   [ОЙDrawPen::write »](ui-draw-pen.write.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Перетворити матрицю
     

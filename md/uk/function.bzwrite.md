@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции Bzip2](ref.bzip2.html)
+-   [Функції Bzip2](ref.bzip2.html)
     
 -   Бінарно-безпечний запис bzip2 файлу
     

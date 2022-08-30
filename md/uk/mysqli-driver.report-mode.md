@@ -1,12 +1,12 @@
 Встановлює режим звіту про помилки mysqli
 
--   [« mysqli\_driver::embedded\_server\_start](mysqli-driver.embedded-server-start.html)
+-   [« mysqlidriver::embeddedserverstart](mysqli-driver.embedded-server-start.html)
     
--   [mysqli\_warning »](class.mysqli-warning.html)
+-   [mysqliwarning »](class.mysqli-warning.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_driver](class.mysqli-driver.html)
+-   [mysqlidriver](class.mysqli-driver.html)
     
 -   Встановлює режим звіту про помилки mysqli
     
@@ -23,7 +23,7 @@ mysqlidriver::$reportmode - mysqlireport — Встановлює режим з�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli\_driver->report\_mode](mysqli-driver.report-mode.html)
+int [$mysqlidriver->reportmode](mysqli-driver.report-mode.html)
 
 Процедурний стиль
 
@@ -45,7 +45,7 @@ mysqli_report(int $flags): bool
 |----------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **`MYSQLI_REPORT_OFF`**    | Вимкнути протоколювання                                                                                            |
 | **`MYSQLI_REPORT_ERROR`**  | Заносити до протоколу помилки викликів функцій mysqli                                                              |
-| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.html)         |
+| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqlisqlexception](class.mysqli-sql-exception.html)             |
 | **`MYSQLI_REPORT_INDEX`**  | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі) |
 | **`MYSQLI_REPORT_ALL`**    | Увімкнути всі налаштування (заносити до протоколу всі події)                                                       |
 
@@ -130,6 +130,6 @@ try {
 
 ### Дивіться також
 
--   [mysqli\_sql\_exception](class.mysqli-sql-exception.html)
--   [set\_exception\_handler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків
--   [error\_reporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
+-   [mysqlisqlexception](class.mysqli-sql-exception.html)
+-   [setexceptionhandler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків
+-   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт

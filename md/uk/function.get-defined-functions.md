@@ -1,8 +1,8 @@
 Повертає масив усіх певних функцій
 
--   [« function\_exists](function.function-exists.html)
+-   [« functionexists](function.function-exists.html)
     
--   [register\_shutdown\_function »](function.register-shutdown-function.html)
+-   [registershutdownfunction »](function.register-shutdown-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -88,7 +88,7 @@ Array
 
 ### Дивіться також
 
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [get\_defined\_vars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних
--   [get\_defined\_constants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [get\_declared\_classes()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [getdefinedvars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних
+-   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів

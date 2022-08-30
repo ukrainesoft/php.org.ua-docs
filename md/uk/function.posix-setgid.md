@@ -1,8 +1,8 @@
 Встановлює ідентифікатор групи для поточного процесу GID
 
--   [« posix\_seteuid](function.posix-seteuid.html)
+-   [« posixseteuid](function.posix-seteuid.html)
     
--   [posix\_setpgid »](function.posix-setpgid.html)
+-   [posixsetpgid »](function.posix-setpgid.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ posixsetgid - Встановлює ідентифікатор групи для 
 posix_setgid(int $group_id): bool
 ```
 
-Визначає фактичний ідентифікатор групи поточного процесу. Це привілейована функція і потребує відповідних прав (зазвичай прав суперкористувача root) у системі, щоб мати можливість виконати її. Правильним є такий порядок виклику функцій: спочатку **posixsetgid()**, потім [posix\_setuid()](function.posix-setuid.html)
+Визначає фактичний ідентифікатор групи поточного процесу. Це привілейована функція і потребує відповідних прав (зазвичай прав суперкористувача root) у системі, щоб мати можливість виконати її. Правильним є такий порядок виклику функцій: спочатку **posixsetgid()**, потім [posixsetuid()](function.posix-setuid.html)
 
 > **Зауваження**
 > 
@@ -56,5 +56,5 @@ echo 'My effective group id is '.posix_getegid(); //40
 
 ### Дивіться також
 
--   [posix\_getgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
--   [posix\_getgid()](function.posix-getgid.html) - Повертає дійсний ID групи поточного процесу GID
+-   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posixgetgid()](function.posix-getgid.html) - Повертає дійсний ID групи поточного процесу GID

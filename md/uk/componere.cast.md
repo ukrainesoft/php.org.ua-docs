@@ -2,7 +2,7 @@
 
 -   [« Функции Componere](reference.componere.html)
     
--   [Componere\\cast\_by\_ref »](componere.cast_by_ref.html)
+-   [Componerecastбref »](componere.cast_by_ref.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,4 +61,4 @@ object типу **Type**, наведений з `object`
 
 ### Дивіться також
 
--   [Componere\\cast\_by\_ref](componere.cast_by_ref.html)
+-   [Componerecastбref](componere.cast_by_ref.html)

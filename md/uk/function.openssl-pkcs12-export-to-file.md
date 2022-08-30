@@ -1,8 +1,8 @@
 Експортує до сумісного з PKCS#12 файлу сховища сертифікатів
 
--   [« openssl\_pbkdf2](function.openssl-pbkdf2.html)
+-   [« opensslpbkdf2](function.openssl-pbkdf2.html)
     
--   [openssl\_pkcs12\_export »](function.openssl-pkcs12-export.html)
+-   [opensslpkcs12export »](function.openssl-pkcs12-export.html)
     
 -   [PHP Manual](index.html)
     

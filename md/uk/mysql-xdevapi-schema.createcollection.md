@@ -1,12 +1,12 @@
 Додати колекцію до схеми
 
--   [« Schema::\_\_construct](mysql-xdevapi-schema.construct.html)
+-   [« Schema::construct](mysql-xdevapi-schema.construct.html)
     
 -   [Schema::dropCollection »](mysql-xdevapi-schema.dropcollection.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+-   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     
 -   Додати колекцію до схеми
     

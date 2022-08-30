@@ -2,7 +2,7 @@
 
 -   [« Yac::flush](yac.flush.html)
     
--   [Yac::\_\_get »](yac.getter.html)
+-   [Yac::get »](yac.getter.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Підраховує кількість операцій запису в порції
 
--   [« MongoDB\\Driver\\BulkWrite::\_\_construct](mongodb-driver-bulkwrite.construct.html)
+-   [« MongoDBDriverBulkWrite::construct](mongodb-driver-bulkwrite.construct.html)
     
--   [MongoDB\\Driver\\BulkWrite::delete »](mongodb-driver-bulkwrite.delete.html)
+-   [MongoDBDriverBulkWrite::delete »](mongodb-driver-bulkwrite.delete.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+-   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
     
 -   Підраховує кількість операцій запису в порції
     
@@ -23,7 +23,7 @@ MongoDBDriverBulkWrite::count — Підраховує кількість опе
 public MongoDB\Driver\BulkWrite::count(): int
 ```
 
-Повертає кількість операцій запису, доданих до об'єкту [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+Повертає кількість операцій запису, доданих до об'єкту [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
 
 ### Список параметрів
 
@@ -31,17 +31,17 @@ public MongoDB\Driver\BulkWrite::count(): int
 
 ### Значення, що повертаються
 
-Повертає кількість операцій запису, доданих до об'єкту [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+Повертає кількість операцій запису, доданих до об'єкту [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                                                                  |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.2.0 | Повертає кількість операцій запису, доданих до об'єкту [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html). У попередніх версіях поверталося передбачувану кількість звернень клієнта до сервера, необхідні виконання всіх операцій записи. |
+| Версия             | Описание                                                                                                                                                                                                                                              |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.2.0 | Повертає кількість операцій запису, доданих до об'єкту [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html). У попередніх версіях поверталося передбачувану кількість звернень клієнта до сервера, необхідні виконання всіх операцій записи. |
 
 ### Приклади
 

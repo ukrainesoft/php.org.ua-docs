@@ -39,7 +39,7 @@ intlcal_from_date_time(DateTime|string $datetime, ?string $locale = null): ?Intl
 
 `datetime`
 
-Об'єкт [DateTime](class.datetime.html) або рядок (string, яка може бути передана в [DateTime::\_\_construct()](datetime.construct.html)
+Об'єкт [DateTime](class.datetime.html) або рядок (string, яка може бути передана в [DateTime::construct()](datetime.construct.html)
 
 ### Значення, що повертаються
 

@@ -2,7 +2,7 @@
 
 -   [« mysqli::rollback](mysqli.rollback.html)
     
--   [mysqli::select\_db »](mysqli.select-db.html)
+-   [mysqli::selectdb »](mysqli.select-db.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ mysqli_savepoint(mysqli $mysql, string $name): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `name`
 
@@ -51,4 +51,4 @@ mysqli_savepoint(mysqli $mysql, string $name): bool
 
 ### Дивіться також
 
--   [mysqli\_release\_savepoint()](mysqli.release-savepoint.html) - Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
+-   [mysqlireleasesavepoint()](mysqli.release-savepoint.html) - Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції

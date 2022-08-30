@@ -1,12 +1,12 @@
 JavaScript Object Notation
 
--   [« igbinary\_unserialize](function.igbinary-unserialize.html)
+-   [« igbinaryunserialize](function.igbinary-unserialize.html)
     
 -   [Введение »](intro.json.html)
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   JavaScript Object Notation
     
@@ -24,7 +24,7 @@ JavaScript Object Notation
 -   [JsonSerializable](class.jsonserializable.html) - Інтерфейс JsonSerializable
     -   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.html) — Задає дані, які мають бути серіалізовані у JSON
 -   [Функции JSON](ref.json.html)
-    -   [json\_decode](function.json-decode.html) - Декодує рядок JSON
-    -   [json\_encode](function.json-encode.html) — Повертає JSON-подання даних
-    -   [json\_last\_error\_msg](function.json-last-error-msg.html) — Повертає рядок із повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
-    -   [json\_last\_error](function.json-last-error.html) — Повертає останню помилку
+    -   [jsondecode](function.json-decode.html) - Декодує рядок JSON
+    -   [jsonencode](function.json-encode.html) — Повертає JSON-подання даних
+    -   [jsonlasterrormsg](function.json-last-error-msg.html) — Повертає рядок із повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
+    -   [jsonlasterror](function.json-last-error.html) — Повертає останню помилку

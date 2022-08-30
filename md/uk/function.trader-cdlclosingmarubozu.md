@@ -1,8 +1,8 @@
 Закриття марубозу
 
--   [« trader\_cdlbreakaway](function.trader-cdlbreakaway.html)
+-   [« tradercdlbreakaway](function.trader-cdlbreakaway.html)
     
--   [trader\_cdlconcealbabyswall »](function.trader-cdlconcealbabyswall.html)
+-   [tradercdlconcealbabyswall »](function.trader-cdlconcealbabyswall.html)
     
 -   [PHP Manual](index.html)
     

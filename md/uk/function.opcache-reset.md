@@ -1,8 +1,8 @@
 Скидає вміст кешу опкодів
 
--   [« opcache\_is\_script\_cached](function.opcache-is-script-cached.html)
+-   [« opcacheісscriptcached](function.opcache-is-script-cached.html)
     
--   [Контроль вывода »](book.outcontrol.html)
+-   [Контроль виведення »](book.outcontrol.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,8 +31,8 @@ opcache_reset(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо кеш скинутий або **`false`**якщо не використовується.
+Повертає \*\*`true`\*\*якщо кеш скинутий або \*\*`false`\*\*якщо не використовується.
 
 ### Дивіться також
 
--   [opcache\_invalidate()](function.opcache-invalidate.html) - анулює закешований скрипт
+-   [opcacheinvalidate()](function.opcache-invalidate.html) - анулює закешований скрипт

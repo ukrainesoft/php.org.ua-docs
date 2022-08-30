@@ -1,8 +1,8 @@
 Копіює об'єкт LOB
 
--   [« oci\_get\_implicit\_resultset](function.oci-get-implicit-resultset.html)
+-   [« ocigetimplicitresultset](function.oci-get-implicit-resultset.html)
     
--   [oci\_lob\_is\_equal »](function.oci-lob-is-equal.html)
+-   [ocilobісequal »](function.oci-lob-is-equal.html)
     
 -   [PHP Manual](index.html)
     

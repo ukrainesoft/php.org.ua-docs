@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Повертає дробовий залишок від розподілу за модулем
     
@@ -54,6 +54,6 @@ $r = fmod($x, $y);
 
 ### Дивіться також
 
--   [`/`](language.operators.arithmetic.html) - розподіл з плаваючою точкою
--   [`%`](language.operators.arithmetic.html) - цілісний залишок
+-   [](language.operators.arithmetic.html)\- розподіл з плаваючою точкою
+-   [](language.operators.arithmetic.html)\- цілісний залишок
 -   [intdiv()](function.intdiv.html) - цілісний поділ

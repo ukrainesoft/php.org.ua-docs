@@ -1,8 +1,8 @@
 Повертає ім'я типу заданого поля
 
--   [« pg\_field\_type\_oid](function.pg-field-type-oid.html)
+-   [« pgfieldtypeoid](function.pg-field-type-oid.html)
     
--   [pg\_flush »](function.pg-flush.html)
+-   [пгflush »](function.pg-flush.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ pg_field_type(PgSql\Result $result, int $field): string
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `field`
 
@@ -49,9 +49,9 @@ pg_field_type(PgSql\Result $result, int $field): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -76,6 +76,6 @@ Title field type: varchar
 
 ### Дивіться також
 
--   [pg\_field\_prtlen()](function.pg-field-prtlen.html) - Повертає кількість друкованих символів
--   [pg\_field\_name()](function.pg-field-name.html) - Повертає найменування поля
--   [pg\_field\_type\_oid()](function.pg-field-type-oid.html) - Повертає ідентифікатор типу заданого поля
+-   [пгfieldprtlen()](function.pg-field-prtlen.html) - Повертає кількість друкованих символів
+-   [пгfieldname()](function.pg-field-name.html) - Повертає найменування поля
+-   [пгfieldtypeoid()](function.pg-field-type-oid.html) - Повертає ідентифікатор типу заданого поля

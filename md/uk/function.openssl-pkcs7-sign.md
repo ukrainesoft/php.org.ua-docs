@@ -1,8 +1,8 @@
 Підписати повідомлення S/MIME
 
--   [« openssl\_pkcs7\_read](function.openssl-pkcs7-read.html)
+-   [« opensslpkcs7read](function.openssl-pkcs7-read.html)
     
--   [openssl\_pkcs7\_verify »](function.openssl-pkcs7-verify.html)
+-   [opensslpkcs7verify »](function.openssl-pkcs7-verify.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 `headers`
 
-`headers` задається масивом заголовків, які будуть додані на початок даних після підписання. (дивіться [openssl\_pkcs7\_encrypt()](function.openssl-pkcs7-encrypt.html) для отримання додаткової інформації про формат цього параметра).
+`headers` задається масивом заголовків, які будуть додані на початок даних після підписання. (дивіться [opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.html) для отримання додаткової інформації про формат цього параметра).
 
 `flags`
 

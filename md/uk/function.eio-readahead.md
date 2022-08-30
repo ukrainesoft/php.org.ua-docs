@@ -1,8 +1,8 @@
 Поміщає дані з файлу до кешу сторінки
 
--   [« eio\_read](function.eio-read.html)
+-   [« eioread](function.eio-read.html)
     
--   [eio\_readdir »](function.eio-readdir.html)
+-   [eioreaddir »](function.eio-readdir.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

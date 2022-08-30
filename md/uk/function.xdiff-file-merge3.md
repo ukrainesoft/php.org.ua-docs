@@ -1,12 +1,12 @@
 Об'єднання трьох файлів в один
 
--   [« xdiff\_file\_diff](function.xdiff-file-diff.html)
+-   [xdifffilediff](function.xdiff-file-diff.html)
     
--   [xdiff\_file\_patch\_binary »](function.xdiff-file-patch-binary.html)
+-   [xdifffilepatchbinary »](function.xdiff-file-patch-binary.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Об'єднання трьох файлів в один
     
@@ -69,4 +69,4 @@ if (is_string($errors)) {
 
 ### Дивіться також
 
--   [xdiff\_string\_merge3()](function.xdiff-string-merge3.html) - Об'єднати три рядки в один
+-   [xdiffstringmerge3()](function.xdiff-string-merge3.html) - Об'єднати три рядки в один

@@ -1,12 +1,12 @@
 Отримати значення із заданого стовпця заданого рядка
 
--   [« cubrid\_real\_escape\_string](function.cubrid-real-escape-string.html)
+-   [« cubridrealescapestring](function.cubrid-real-escape-string.html)
     
--   [cubrid\_unbuffered\_query »](function.cubrid-unbuffered-query.html)
+-   [cubridunbufferedquery »](function.cubrid-unbuffered-query.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати значення із заданого стовпця заданого рядка
     
@@ -29,7 +29,7 @@ cubrid_result(resource $result, int $row, mixed $field = 0): string
 
 `result`
 
-`result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`result` отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `row`
 

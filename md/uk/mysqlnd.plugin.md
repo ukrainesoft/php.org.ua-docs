@@ -18,7 +18,7 @@ API для плагінів до вбудованого драйвера MySQL
 -   [Сравнение плагинов mysqlnd с MySQL Proxy](mysqlnd.plugin.mysql-proxy.html)
 -   [Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.html)
 -   [Архитектура плагинов MySQL Native Driver](mysqlnd.plugin.architecture.html)
--   [API плагинов mysqlnd](mysqlnd.plugin.api.html)
+-   [API плагінів mysqlnd](mysqlnd.plugin.api.html)
 -   [Начинаем разработку плагина mysqlnd](mysqlnd.plugin.developing.html)
 
 API для плагінів до вбудованого драйвера MySQL є особливістю вбудованого драйвера MySQL (`mysqlnd`). Плагіни `mysqlnd` працюють на рівні між PHP-додатками та сервером MySQL. Це схоже на роботу MySQL Proxy. Плагіни `mysqlnd` можуть реалізовувати стандартні завдання MySQL Proxy, такі як балансування навантаження, моніторинг та оптимізація швидкодії. При цьому, внаслідок іншої архітектури та місця розташування, плагіни `mysqlnd` немає деяких недоліків MySQL Proxy. Наприклад, немає єдиної точки відмови, не потрібно встановлення окремого proxy-сервера і немає потреби у вивченні нової мови програмування Lua.

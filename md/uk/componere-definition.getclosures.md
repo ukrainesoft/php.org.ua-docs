@@ -1,12 +1,12 @@
 Отримує замикання
 
--   [« Componere\\Definition::getClosure](componere-definition.getclosure.html)
+-   [« ComponereDefinition::getClosure](componere-definition.getclosure.html)
     
--   [Componere\\Patch »](class.componere-patch.html)
+-   [ComponerePatch »](class.componere-patch.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Отримує замикання
     

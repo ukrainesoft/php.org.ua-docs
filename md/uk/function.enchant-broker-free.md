@@ -1,8 +1,8 @@
 Звільняє ресурс брокера та його словники
 
--   [« enchant\_broker\_free\_dict](function.enchant-broker-free-dict.html)
+-   [« enchantbrokerfreedict](function.enchant-broker-free-dict.html)
     
--   [enchant\_broker\_get\_dict\_path »](function.enchant-broker-get-dict-path.html)
+-   [enchantbrokergetdictpath »](function.enchant-broker-get-dict-path.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ enchant_broker_free(EnchantBroker $broker): bool
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 
@@ -47,4 +47,4 @@ enchant_broker_free(EnchantBroker $broker): bool
 
 ### Дивіться також
 
--   [enchant\_broker\_init()](function.enchant-broker-init.html) - Створити новий об'єкт брокера
+-   [enchantbrokerinit()](function.enchant-broker-init.html) - Створити новий об'єкт брокера

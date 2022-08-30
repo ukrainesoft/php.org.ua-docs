@@ -2,7 +2,7 @@
 
 -   [« Об отладке в PHP](debugger-about.html)
     
--   [Список основных опций конфигурации »](configure.about.html)
+-   [Список основних опцій конфігурації »](configure.about.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Список основных опций конфигурации](configure.about.html)
+-   [Список основних опцій конфігурації](configure.about.html)

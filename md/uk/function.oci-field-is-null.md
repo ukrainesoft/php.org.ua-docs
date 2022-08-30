@@ -1,8 +1,8 @@
 Перевіряє, чи дорівнює поле в поточному отриманому ряду null
 
--   [« oci\_fetch](function.oci-fetch.html)
+-   [« ocifetch](function.oci-fetch.html)
     
--   [oci\_field\_name »](function.oci-field-name.html)
+-   [ocifieldname »](function.oci-field-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ oci_field_is_null(resource $statement, string|int $column): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання [oci\_field\_name()](function.oci-field-name.html)**
+**Приклад #1 Приклад використання [ocifieldname()](function.oci-field-name.html)**
 
 ```php
 <?php
@@ -81,4 +81,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnisnull()](function.ocicolumnisnull.html). У PHP 5.0.0 і вище [ocicolumnisnull()](function.ocicolumnisnull.html) є аліасом **ocifieldісnull()**Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnisnull()](function.ocicolumnisnull.html). У PHP 5.0.0 і вище [ocicolumnisnull()](function.ocicolumnisnull.html) є аліасом \*\*ocifieldісnull()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

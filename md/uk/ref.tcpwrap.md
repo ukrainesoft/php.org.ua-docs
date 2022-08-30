@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](tcpwrap.constants.html)
     
--   [tcpwrap\_check »](function.tcpwrap-check.html)
+-   [tcpwrapcheck »](function.tcpwrap-check.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [tcpwrap\_check](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap
+-   [tcpwrapcheck](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap

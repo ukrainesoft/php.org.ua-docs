@@ -1,8 +1,8 @@
 Item успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\OrderedList::\_\_construct](commonmark-node-orderedlist.construct.html)
+-   [« CommonMarkNodeOrderedList::construct](commonmark-node-orderedlist.construct.html)
     
--   [CommonMark\\Node\\Text »](class.commonmark-node-text.html)
+-   [CommonMarkNodeText »](class.commonmark-node-text.html)
     
 -   [PHP Manual](index.html)
     

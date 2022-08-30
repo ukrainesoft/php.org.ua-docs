@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](openssl.resources.html)
     
--   [Флаги проверки »](openssl.purpose-check.html)
+-   [Прапори перевірки »](openssl.purpose-check.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,14 +15,14 @@
 
 ## Зміст
 
--   [Флаги проверки](openssl.purpose-check.html)
+-   [Прапори перевірки](openssl.purpose-check.html)
 -   [Флаги заполнения для ассиметричного шифрования](openssl.padding.html)
--   [Типы ключей](openssl.key-types.html)
+-   [Типи ключів](openssl.key-types.html)
 -   [Флаги/константы PKCS7](openssl.pkcs7.flags.html)
 -   [Флаги/Константы CMS](openssl.cms.flags.html)
 -   [Алгоритмы подписи](openssl.signature-algos.html)
 -   [Алгоритмы шифрования](openssl.ciphers.html)
--   [Константы версий](openssl.constversion.html)
+-   [Константи версій](openssl.constversion.html)
 -   [Константа SNI (Server Name Indication)](openssl.constsni.html)
 -   [Другие константы](openssl.constants.other.html)
 

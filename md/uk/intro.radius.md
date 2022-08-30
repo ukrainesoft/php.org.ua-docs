@@ -19,4 +19,4 @@
 
 > **Зауваження**
 > 
-> Детальний опис бібліотеки libradius можна знайти [» тут](http://www.freebsd.org/cgi/man.cgi?query=libradius). Детальна інформація про файл конфігурації лежить [» тут](http://www.freebsd.org/cgi/man.cgi?query=radius.conf)
+> Детальний опис бібліотеки libradius можна знайти [»тут](http://www.freebsd.org/cgi/man.cgi?query=libradius). Детальна інформація про файл конфігурації лежить [»тут](http://www.freebsd.org/cgi/man.cgi?query=radius.conf)

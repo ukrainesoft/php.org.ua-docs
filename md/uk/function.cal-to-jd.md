@@ -1,8 +1,8 @@
 Перетворює задану дату на юліанську
 
--   [« cal\_info](function.cal-info.html)
+-   [« calinfo](function.cal-info.html)
     
--   [easter\_date »](function.easter-date.html)
+-   [easterdate »](function.easter-date.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,7 +49,7 @@ cal_to_jd(    int $calendar,    int $month,    int $day,    int 
 
 ### Дивіться також
 
--   [cal\_from\_jd()](function.cal-from-jd.html) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [calfromjd()](function.cal-from-jd.html) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
 -   [frenchtojd()](function.frenchtojd.html) - Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
 -   [gregoriantojd()](function.gregoriantojd.html) - Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
 -   [jewishtojd()](function.jewishtojd.html) - Переказує дату за єврейським календарем у число днів у юліанському літочисленні

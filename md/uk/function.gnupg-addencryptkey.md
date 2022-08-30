@@ -1,12 +1,12 @@
 Додає ключ для шифрування
 
--   [« gnupg\_adddecryptkey](function.gnupg-adddecryptkey.html)
+-   [« gnupgadddecryptkey](function.gnupg-adddecryptkey.html)
     
--   [gnupg\_addsignkey »](function.gnupg-addsignkey.html)
+-   [gnupgaddsignkey »](function.gnupg-addsignkey.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Додає ключ для шифрування
     
@@ -27,7 +27,7 @@ gnupg_addencryptkey(resource $identifier, string $fingerprint): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `fingerprint`
 

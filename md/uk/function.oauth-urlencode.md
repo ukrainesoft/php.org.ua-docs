@@ -1,6 +1,6 @@
 Кодує URI відповідно до RFC 3986
 
--   [« oauth\_get\_sbs](function.oauth-get-sbs.html)
+-   [« oauthgetsbs](function.oauth-get-sbs.html)
     
 -   [OAuth »](class.oauth.html)
     

@@ -1,12 +1,12 @@
 Отримати текст
 
--   [« UI\\Controls\\Button::\_\_construct](ui-controls-button.construct.html)
+-   [« UIControlsButton::construct](ui-controls-button.construct.html)
     
--   [UI\\Controls\\Button::onClick »](ui-controls-button.onclick.html)
+-   [ОЙControlsButton::onClick »](ui-controls-button.onclick.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Button](class.ui-controls-button.html)
+-   [ОЙControlsButton](class.ui-controls-button.html)
     
 -   Отримати текст
     

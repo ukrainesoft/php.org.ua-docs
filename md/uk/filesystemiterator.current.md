@@ -1,6 +1,6 @@
 Поточний файл
 
--   [« FilesystemIterator::\_\_construct](filesystemiterator.construct.html)
+-   [« FilesystemIterator::construct](filesystemiterator.construct.html)
     
 -   [FilesystemIterator::getFlags »](filesystemiterator.getflags.html)
     

@@ -1,8 +1,8 @@
 Відкочує транзакцію, не закриваючи її
 
--   [« ibase\_restore](function.ibase-restore.html)
+-   [« ibaserestore](function.ibase-restore.html)
     
--   [ibase\_rollback »](function.ibase-rollback.html)
+-   [ibaserollback »](function.ibase-rollback.html)
     
 -   [PHP Manual](index.html)
     

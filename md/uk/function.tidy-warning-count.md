@@ -1,6 +1,6 @@
 Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
 
--   [« tidy\_get\_output](function.tidy-get-output.html)
+-   [« tidygetoutput](function.tidy-get-output.html)
     
 -   [Лексер (Tokenizer) »](book.tokenizer.html)
     
@@ -53,5 +53,5 @@ echo tidy_warning_count($tidy) . "\n"; //5
 
 ### Дивіться також
 
--   [tidy\_error\_count()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidy\_access\_count()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidyerrorcount()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidyaccesscount()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі

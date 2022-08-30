@@ -1,8 +1,8 @@
 Перевіряє слово
 
--   [« pspell\_add\_to\_session](function.pspell-add-to-session.html)
+-   [« pspelladdтоsession](function.pspell-add-to-session.html)
     
--   [pspell\_clear\_session »](function.pspell-clear-session.html)
+-   [pspellclearsession »](function.pspell-clear-session.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
 
 `word`
 
@@ -41,9 +41,9 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

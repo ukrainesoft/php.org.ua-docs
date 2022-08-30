@@ -1,12 +1,12 @@
 Доступ
 
--   [« parallel\\Channel::\_\_construct](parallel-channel.construct.html)
+-   [« parallelChannel::construct](parallel-channel.construct.html)
     
--   [parallel\\Channel::open »](parallel-channel.open.html)
+-   [parallelChannel::open »](parallel-channel.open.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Channel](class.parallel-channel.html)
+-   [parallelChannel](class.parallel-channel.html)
     
 -   Доступ
     

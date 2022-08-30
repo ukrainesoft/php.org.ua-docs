@@ -1,12 +1,12 @@
 Встановити значення
 
--   [« UI\\Controls\\Progress::getValue](ui-controls-progress.getvalue.html)
+-   [« UIControlsProgress::getValue](ui-controls-progress.getvalue.html)
     
--   [UI\\Controls\\Separator »](class.ui-controls-separator.html)
+-   [ОЙControlsSeparator »](class.ui-controls-separator.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Progress](class.ui-controls-progress.html)
+-   [ОЙControlsProgress](class.ui-controls-progress.html)
     
 -   Встановити значення
     

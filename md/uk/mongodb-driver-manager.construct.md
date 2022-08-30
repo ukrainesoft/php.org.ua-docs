@@ -1,12 +1,12 @@
 Створює новий Manager MongoDB
 
--   [« MongoDB\\Driver\\Manager::addSubscriber](mongodb-driver-manager.addsubscriber.html)
+-   [« MongoDBDriverManager::addSubscriber](mongodb-driver-manager.addsubscriber.html)
     
--   [MongoDB\\Driver\\Manager::createClientEncryption »](mongodb-driver-manager.createclientencryption.html)
+-   [MongoDBDriverManager::createClientEncryption »](mongodb-driver-manager.createclientencryption.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+-   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
 -   Створює новий Manager MongoDB
     
@@ -23,13 +23,13 @@ MongoDBDriverManager::construct — Створює новий Manager MongoDB
 final public MongoDB\Driver\Manager::__construct(?string $uri = null, ?array $uriOptions = null, ?array $driverOptions = null)
 ```
 
-Створює новий об'єкт [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html) із переданими параметрами.
+Створює новий об'єкт [MongoDBDriverManager](class.mongodb-driver-manager.html) із переданими параметрами.
 
 > **Зауваження**: В [» спецификации по обнаружению и мониторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#single-threaded-client-construction), цей конструктор не виконує введення-виведення. З'єднання ініціалізуватимуться на вимогу, коли виконується перша операція.
 
 > **Зауваження**: Під час передачі будь-яких URI-опцій, пов'язаних з SSL або TLS, через рядок підключення або параметр `uriOptions`драйвер неявно включає TLS при з'єднаннях. Щоб запобігти цьому, або явно вимкніть опцію `tls`, або не передавайте TLS-опцій.
 
-> **Зауваження**: На Unix, драйвер MongoDB чутливий до сценаріїв, які використовують системний виклик fork() без наступного exec(). Користувачам рекомендується не перевикористовувати екземпляр [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html) у дочірньому процесі. child process.
+> **Зауваження**: На Unix, драйвер MongoDB чутливий до сценаріїв, які використовують системний виклик fork() без наступного exec(). Користувачам рекомендується не перевикористовувати екземпляр [MongoDBDriverManager](class.mongodb-driver-manager.html) у дочірньому процесі. child process.
 
 ### Список параметрів
 
@@ -64,7 +64,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | authMechanismProperties | array |
 
-Властивості обраного механізму аутентифікації. Щоб переглянути додаткові відомості та список підтримуваних значень, див. [» Спецификация аутентификации драйвера](https://github.com/mongodb/specifications/blob/master/source/auth/auth.rst#auth-related-options)
+Властивості обраного механізму аутентифікації. Щоб переглянути додаткові відомості та список підтримуваних значень, див. [» Специфікація аутентифікації драйвера](https://github.com/mongodb/specifications/blob/master/source/auth/auth.rst#auth-related-options)
 
 > **Зауваження**: Якщо не вказано у рядку URI-адреси, ця опція подається у вигляді масиву пар ключ-значення. Ключі та значення в цьому масиві мають бути рядками.
 
@@ -82,7 +82,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | Compressors | string |
 
-Той, хто має пріоритет, список розділених комами компресорів, які клієнт хоче використовувати. Повідомлення стиснуті лише в тому випадку, якщо клієнт та сервер спільно використовують будь-які компресори, а компресор, який використовується в кожному напрямку, залежатиме від індивідуальної конфігурації сервера чи драйвера. Дивіться [» Спецификация компрессии драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#compressors) для отримання додаткової інформації.
+Той, хто має пріоритет, список розділених комами компресорів, які клієнт хоче використовувати. Повідомлення стиснуті лише в тому випадку, якщо клієнт та сервер спільно використовують будь-які компресори, а компресор, який використовується в кожному напрямку, залежатиме від індивідуальної конфігурації сервера чи драйвера. Дивіться [» Специфікація компресії драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#compressors) для отримання додаткової інформації.
 
 | | connectTimeoutMS | int |
 
@@ -106,7 +106,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | journal | bool |
 
-Відповідає параметру гарантій запису `journal`. Якщо **`true`**для запису буде потрібно підтвердження від MongoDB, що операція була записана в журнал. Детальніше дивіться [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+Відповідає параметру гарантій запису `journal`. Якщо \*\*`true`\*\*для запису буде потрібно підтвердження від MongoDB, що операція була записана в журнал. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 
 | | loadBalanced | bool |
 
@@ -118,19 +118,19 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | maxStalenessSeconds | int |
 
-Відповідає параметру переваг читання `"maxStalenessSeconds"`. Вказує в секундах наскільки застарілим може бути вторинний вузол у наборі реплік, перш ніж клієнт перестане використовувати його для операцій читання. За замовчуванням не встановлено максимальне відставання реплікації (staleness) і клієнти не враховуватимуть відставання вторинного вузла при виборі напряму операції читання. Детальніше дивіться [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+Відповідає параметру переваг читання `"maxStalenessSeconds"`. Вказує в секундах наскільки застарілим може бути вторинний вузол у наборі реплік, перш ніж клієнт перестане використовувати його для операцій читання. За замовчуванням не встановлено максимальне відставання реплікації (staleness) і клієнти не враховуватимуть відставання вторинного вузла при виборі напряму операції читання. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
 
 Якщо зазначено, максимальне відставання має бути 32-бітовим цілим числом, більшим або рівним **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`** (тобто 90 секунд).
 
-| | password | string | Пароль для автентифікації користувача. Ця опція є корисною, якщо пароль містить спеціальні символи, які в іншому випадку повинні були закодовані для URI-адреси підключення. | | readConcernLevel | string | Відповідає параметру гарантій читання `level` Визначає рівень ізоляції читання. Детальніше дивіться [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html). | | readPreference | string |
+| | password | string | Пароль для автентифікації користувача. Ця опція є корисною, якщо пароль містить спеціальні символи, які в іншому випадку повинні були закодовані для URI-адреси підключення. | | readConcernLevel | string | Відповідає параметру гарантій читання `level` Визначає рівень ізоляції читання. Детальніше дивіться [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html). | | readPreference | string |
 
-Відповідає параметру переваг читання `mode` За замовчуванням - `"primary"`. Детальніше дивіться [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+Відповідає параметру переваг читання `mode` За замовчуванням - `"primary"`. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
 
 | | readPreferenceTags | array |
 
-Відповідає параметру переваг читання `tagSets`. Набір тегів дозволяє настроїти операції читання для певних членів набору репліки. Детальніше дивіться [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+Відповідає параметру переваг читання `tagSets`. Набір тегів дозволяє настроїти операції читання для певних членів набору репліки. Детальніше дивіться [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
 
-> **Зауваження**: Якщо у рядку URI не вказано, цей параметр подається як масив, що відповідає формату, що очікується [MongoDB\\Driver\\ReadPreference::\_\_construct()](mongodb-driver-readpreference.construct.html)
+> **Зауваження**: Якщо у рядку URI не вказано, цей параметр подається як масив, що відповідає формату, що очікується [MongoDBDriverReadPreference::construct()](mongodb-driver-readpreference.construct.html)
 
 | | replicaSet | string |
 
@@ -150,7 +150,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | safe | bool |
 
-Якщо **`true`**, вказує `1` для параметра `w` гарантії запису за замовчуванням. Якщо **`false`**, вказується `0`. Детальніше дивіться [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+Якщо **`true`**, вказує `1` для параметра `w` гарантії запису за замовчуванням. Якщо **`false`**, вказується `0`. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 
 Ця опція застаріла і не повинна використовуватись.
 
@@ -222,7 +222,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | tlsDisableOCSPEndpointCheck | bool |
 
-Якщо **`true`**драйвер не намагатиметься зв'язатися з кінцевою точкою відповіді OCSP, якщо це необхідно (тобто відповідь OCSP не зшивається). За замовчуванням **`false`**
+Якщо \*\*`true`\*\*драйвер не намагатиметься зв'язатися з кінцевою точкою відповіді OCSP, якщо це необхідно (тобто відповідь OCSP не зшивається). За замовчуванням **`false`**
 
 | | tlsInsecure | bool |
 
@@ -234,17 +234,17 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | username | string | Ім'я користувача для автентифікації. Ця опція є корисною, якщо ім'я користувача містить спеціальні символи, які в іншому випадку повинні бути закодовані в URL для URI-адреси підключення. | | w | int | string |
 
-Відповідає параметру гарантій запису `w`. Детальніше дивіться [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+Відповідає параметру гарантій запису `w`. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 
 | | wTimeoutMS | int | string |
 
-Відповідає параметру гарантій запису `wtimeout`. Вказує термін у мілісекундах для гарантії запису. Детальніше дивіться [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+Відповідає параметру гарантій запису `wtimeout`. Вказує термін у мілісекундах для гарантії запису. Детальніше дивіться [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 
 Якщо зазначено, `wTimeoutMS` має бути 32-бітовим цілим числом зі знаком, великим або рівним нулю.
 
 | | zlibCompressionLevel | int |
 
-Вказує рівень стиснення для використання zlib. Ця опція нічого не робить, якщо `zlib` не включений до URL опції `"compressors"`. Дивіться [» Спецификация компрессии драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#zlibcompressionlevel) для отримання додаткової інформації.
+Вказує рівень стиснення для використання zlib. Ця опція нічого не робить, якщо `zlib` не включений до URL опції `"compressors"`. Дивіться [» Специфікація компресії драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#zlibcompressionlevel) для отримання додаткової інформації.
 
 `driverOptions`
 
@@ -265,7 +265,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 > **Зауваження**
 > 
-> Автоматичне шифрування – це функція тільки для Enterprise версії, яка застосовується лише до операцій над колекцією. Автоматичне шифрування не підтримується для операцій над базою даних або поданням, а операції, які не обходяться, призведуть до помилки (див. [» libmongocrypt: Список разрешений на автоматическое шифрование](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#libmongocrypt-auto-encryption-allow-list)). Щоб обійти автоматичне шифрування для всіх операцій, установіть `bypassAutoEncryption` на значення **`true`**
+> Автоматичне шифрування – це функція тільки для Enterprise версії, яка застосовується лише до операцій над колекцією. Автоматичне шифрування не підтримується для операцій над базою даних або поданням, а операції, які не обходяться, призведуть до помилки (див. [» libmongocrypt: Список дозволів на автоматичне шифрування](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#libmongocrypt-auto-encryption-allow-list)). Щоб обійти автоматичне шифрування для всіх операцій, установіть `bypassAutoEncryption` на значення **`true`**
 > 
 > Автоматичне шифрування вимагає, щоб у автентифікованого користувача був привілей [» listCollections](https://www.mongodb.com/docs/manual/reference/command/listCollections/#required-access)
 > 
@@ -275,12 +275,12 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 **Опції для автоматичного шифрування**
 
-| Опция                                                                                                                                                                                                                                       | Тип                                                           | Описание                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| keyVaultClient                                                                                                                                                                                                                              | [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html) | Менеджер використовується для маршрутизації запитів ключів даних до окремого кластера MongoDB. За промовчанням використовується поточний менеджер та кластер.           |
-| keyVaultNamespace                                                                                                                                                                                                                           | string                                                        | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
-| kmsProviders                                                                                                                                                                                                                                | array                                                         |                                                                                                                                                                         |
-| Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |                                                               |                                                                                                                                                                         |
+| Опция                                                                                                                                                                                                                                       | Тип                                                       | Описание                                                                                                                                                                |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| keyVaultClient                                                                                                                                                                                                                              | [MongoDBDriverManager](class.mongodb-driver-manager.html) | Менеджер використовується для маршрутизації запитів ключів даних до окремого кластера MongoDB. За промовчанням використовується поточний менеджер та кластер.           |
+| keyVaultNamespace                                                                                                                                                                                                                           | string                                                    | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
+| kmsProviders                                                                                                                                                                                                                                | array                                                     |                                                                                                                                                                         |
+| Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |                                                           |                                                                                                                                                                         |
 
 Формат для `"aws"` виглядає наступним чином:
 
@@ -310,7 +310,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 | | schemaMap | array | об'єкт |
 
-Карта просторів імен колекції у локальну схему JSON. Використовується для налаштування автоматичного шифрування. Додаткову інформацію дивіться у [» Правилах автоматического шифрования](https://www.mongodb.com/docs/manual/reference/security-client-side-automatic-json-schema/) в посібнику з MongoDB. Помилкою є вказівка ​​колекції як у `schemaMap`, так і в `encryptedFieldsMap`
+Карта просторів імен колекції у локальну схему JSON. Використовується для налаштування автоматичного шифрування. Додаткову інформацію дивіться у [» Правила автоматичного шифрування](https://www.mongodb.com/docs/manual/reference/security-client-side-automatic-json-schema/) в посібнику з MongoDB. Помилкою є вказівка ​​колекції як у `schemaMap`, так і в `encryptedFieldsMap`
 
 > **Зауваження**: Додавання `schemaMap` забезпечує більшу безпеку, ніж використання схем JSON, отриманих із сервера. Це захищає від шкідливого сервера, що рекламує помилкову схему JSON, яка може змусити клієнта надсилати незашифровані дані, які мають бути зашифровані.
 
@@ -322,7 +322,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 | | encryptedFieldsMap | array | об'єкт |
 
-Карта просторів імен колекції у документі `encryptedFields`. Використовується для налаштування шифрування із можливістю запиту. Дивіться [» Шифрование полей и возможность запросов](https://www.mongodb.com/docs/v6.0/core/queryable-encryption/fundamentals/encrypt-and-query/) у посібнику MongoDB для отримання додаткової інформації. Помилкою є вказівка ​​колекції як у `encryptedFieldsMap`, так і в `schemaMap`
+Карта просторів імен колекції у документі `encryptedFields`. Використовується для налаштування шифрування із можливістю запиту. Дивіться [» Шифрування полів та можливість запитів](https://www.mongodb.com/docs/v6.0/core/queryable-encryption/fundamentals/encrypt-and-query/) у посібнику MongoDB для отримання додаткової інформації. Помилкою є вказівка ​​колекції як у `encryptedFieldsMap`, так і в `schemaMap`
 
 > **Зауваження**: Вказівка `encryptedFieldsMap` забезпечує більшу безпеку, ніж покладатися на зашифровані поля `encryptedFields`отримані від сервера. Це захищає від зловмисного сервера, що рекламує помилкові `encryptedFields`
 
@@ -355,7 +355,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 | | context | resource |
 
-[Параметры контекста SSL](context.ssl.html) для використання як запасний варіант, якщо не вказано опцію драйвера або еквівалентну їй опцію URI. Зверніть увагу, що драйвер не звертається до контексту за промовчанням (тобто . [stream\_context\_get\_default()](function.stream-context-get-default.html)). Підтримуються такі параметри контексту:
+[Параметры контекста SSL](context.ssl.html) для використання як запасний варіант, якщо не вказано опцію драйвера або еквівалентну їй опцію URI. Зверніть увагу, що драйвер не звертається до контексту за промовчанням (тобто . [streamcontextgetdefault()](function.stream-context-get-default.html)). Підтримуються такі параметри контексту:
 
 **Резервні параметри контексту SSL**
 
@@ -393,7 +393,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 Цей параметр є застарілим псевдонімом для URI `"tlsCertificateKeyFilePassword"`
 
-| | serverApi | [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+| | serverApi | [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
 
 Опція використовується для оголошення версії сервера API для менеджера. Якщо не вказано, версія API не оголошується.
 
@@ -405,8 +405,8 @@ local: { // 96-байтовий головний ключ, який викори
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При неправильному форматі `uri` викидає виняток [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При неправильному форматі `uri` викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
 
 ### список змін
 
@@ -431,7 +431,7 @@ KMIP тепер підтримується як KMS провайдер для ш
 
 Додано опцію драйвера `"disableClientPersistence"`
 
-Azure та GCP тепер підтримуються як постачальники KMS для шифрування на стороні клієнта і можуть бути налаштовані в полі `"kmsProviders"` параметра драйвера `"autoEncryption"`. Рядки в кодуванні Base64 тепер приймаються як альтернатива [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html) для параметрів усередині `"kmsProviders"`
+Azure та GCP тепер підтримуються як постачальники KMS для шифрування на стороні клієнта і можуть бути налаштовані в полі `"kmsProviders"` параметра драйвера `"autoEncryption"`. Рядки в кодуванні Base64 тепер приймаються як альтернатива [MongoDBBSONBinary](class.mongodb-bson-binary.html) для параметрів усередині `"kmsProviders"`
 
 | | PECL mongodb 1.8.0
 
@@ -473,7 +473,7 @@ Azure та GCP тепер підтримуються як постачальни
 
 Додані параметри драйвера `"allow_invalid_hostname"` `"ca_file"` `"ca_dir"` `"clr_file"` `"pem_file"` `"pem_pwd"` і `"weak_cert_validation"`
 
-API потоків PHP більше не використовується для підключення до сокету. Параметр URI `"connectTimeoutMS"` тепер за умовчанням дорівнює 10 секунд замість [default\_socket\_timeout](filesystem.configuration.html#ini.default-socket-timeout) у попередніх версіях. Крім того, драйвер більше не підтримує все [параметры SSL-контекста](context.ssl.html) через параметр драйвера `"context"`
+API потоків PHP більше не використовується для підключення до сокету. Параметр URI `"connectTimeoutMS"` тепер за умовчанням дорівнює 10 секунд замість [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout) у попередніх версіях. Крім того, драйвер більше не підтримує все [параметры SSL-контекста](context.ssl.html) через параметр драйвера `"context"`
 
 | | PECL mongodb 1.1.0
 

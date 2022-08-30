@@ -1,8 +1,8 @@
 Прилиплий сендвіч
 
--   [« trader\_cdlstalledpattern](function.trader-cdlstalledpattern.html)
+-   [« tradercdlstalledpattern](function.trader-cdlstalledpattern.html)
     
--   [trader\_cdltakuri »](function.trader-cdltakuri.html)
+-   [tradercdltakuri »](function.trader-cdltakuri.html)
     
 -   [PHP Manual](index.html)
     

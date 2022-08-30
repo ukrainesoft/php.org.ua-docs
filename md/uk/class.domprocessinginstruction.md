@@ -2,7 +2,7 @@
 
 -   [« DOMParentNode::prepend](domparentnode.prepend.html)
     
--   [DOMProcessingInstruction::\_\_construct »](domprocessinginstruction.construct.html)
+-   [DOMProcessingInstruction::construct »](domprocessinginstruction.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -144,4 +144,4 @@ data
 
 ## Зміст
 
--   [DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.html) — Створює новий об'єкт класу DOMProcessingInstruction
+-   [DOMProcessingInstruction::construct](domprocessinginstruction.construct.html) — Створює новий об'єкт класу DOMProcessingInstruction

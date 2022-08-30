@@ -1,6 +1,6 @@
 Видаляє псевдонім сервера
 
--   [« EventHttp::\_\_construct](eventhttp.construct.html)
+-   [« EventHttp::construct](eventhttp.construct.html)
     
 -   [EventHttp::setAllowedMethods »](eventhttp.setallowedmethods.html)
     

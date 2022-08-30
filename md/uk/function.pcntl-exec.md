@@ -1,12 +1,12 @@
 Запустити вказану програму в області поточного процесу
 
--   [« pcntl\_errno](function.pcntl-errno.html)
+-   [pcntlerrno](function.pcntl-errno.html)
     
--   [pcntl\_fork »](function.pcntl-fork.html)
+-   [pcntlfork »](function.pcntl-fork.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Запустити вказану програму в області поточного процесу
     

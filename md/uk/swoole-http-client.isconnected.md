@@ -1,12 +1,12 @@
 Перевіряє, чи підключено HTTP-з'єднання.
 
--   [« Swoole\\Http\\Client::get](swoole-http-client.get.html)
+-   [« SwooleHttpClient::get](swoole-http-client.get.html)
     
--   [Swoole\\Http\\Client::on »](swoole-http-client.on.html)
+-   [SwooleHttpClient::on »](swoole-http-client.on.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Перевіряє, чи підключено HTTP-з'єднання.
     

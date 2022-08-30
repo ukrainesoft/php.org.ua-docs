@@ -27,7 +27,7 @@
 
 #### Ядро
 
-Порядок властивостей, що використовуються в [foreach](control-structures.foreach.html) [var\_dump()](function.var-dump.html) [serialize()](function.serialize.html), у порівнянні об'єктів тощо. був змінений. Тепер властивості впорядковані природним чином відповідно до їх оголошення та спадкування. Властивості, оголошені у батьківському класі, будуть перед дочірніми.
+Порядок властивостей, що використовуються в [foreach](control-structures.foreach.html) [vardump()](function.var-dump.html) [serialize()](function.serialize.html), у порівнянні об'єктів тощо. був змінений. Тепер властивості впорядковані природним чином відповідно до їх оголошення та спадкування. Властивості, оголошені у батьківському класі, будуть перед дочірніми.
 
 Цей порядок відповідає внутрішньому розташуванню властивостей у структурі `zend_object` і повторює порядок у `default_properties_table[]` і `properties_info_table[]`. Старий лад не був задокументований і був викликаний деталями реалізації спадкування класів.
 
@@ -61,7 +61,7 @@
 
 #### MySQLi
 
-При складанні PHP з бібліотекою libmysqlclient тепер доступні функції [mysqli\_stmt::next\_result()](mysqli-stmt.next-result.html) і [mysqli::fetch\_all()](mysqli-result.fetch-all.html)
+При складанні PHP з бібліотекою libmysqlclient тепер доступні функції [mysqlistmt::nextresult()](mysqli-stmt.next-result.html) і [mysqli::fetchall()](mysqli-result.fetch-all.html)
 
 #### OpenSSL
 
@@ -87,7 +87,7 @@
 
 ### Зміни в обробці INI-файлів
 
--   INI-директива [log\_errors\_max\_len](errorfunc.configuration.html#ini.log-errors-max-len) видалено. Починаючи з PHP 8.0.0, вона вже перестала працювати.
+-   INI-директива [logerrorsmaxlen](errorfunc.configuration.html#ini.log-errors-max-len) видалено. Починаючи з PHP 8.0.0, вона вже перестала працювати.
     
 -   Долар на початку рядка в лапках тепер можна екранувати: `"\${"` тепер інтерпретуватиметься як рядок із вмістом `${`
     

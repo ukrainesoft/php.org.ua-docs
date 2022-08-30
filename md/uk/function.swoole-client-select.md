@@ -1,8 +1,8 @@
 Отримати опис файлу, готового до читання/запису чи помилки
 
--   [« swoole\_clear\_error](function.swoole-clear-error.html)
+-   [« swooleclearerror](function.swoole-clear-error.html)
     
--   [swoole\_cpu\_num »](function.swoole-cpu-num.html)
+-   [swoolecpunum »](function.swoole-cpu-num.html)
     
 -   [PHP Manual](index.html)
     

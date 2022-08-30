@@ -33,7 +33,7 @@ public DOMDocument::schemaValidate(string $filename, int $flags = 0): bool
 
 `flags`
 
-Бітова маска прапори перевірки схеми Libxml. На даний момент підтримується лише одне значення [LIBXML\_SCHEMA\_CREATE](libxml.constants.html). Параметр доступний, починаючи з Libxml 2.6.14.
+Бітова маска прапори перевірки схеми Libxml. На даний момент підтримується лише одне значення [LIBXMLSCHEMACREATE](libxml.constants.html). Параметр доступний, починаючи з Libxml 2.6.14.
 
 ### Значення, що повертаються
 

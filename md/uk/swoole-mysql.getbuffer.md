@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\MySQL::\_\_destruct](swoole-mysql.destruct.html)
+-   [« SwooleMySQL::destruct](swoole-mysql.destruct.html)
     
--   [Swoole\\MySQL::on »](swoole-mysql.on.html)
+-   [SwooleMySQL::on »](swoole-mysql.on.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\MySQL](class.swoole-mysql.html)
+-   [SwooleMySQL](class.swoole-mysql.html)
     
 -   Опис
     

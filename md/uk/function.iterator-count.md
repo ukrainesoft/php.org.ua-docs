@@ -1,12 +1,12 @@
 Підраховує кількість елементів в ітераторі
 
--   [« iterator\_apply](function.iterator-apply.html)
+-   [« iteratorapply](function.iterator-apply.html)
     
--   [iterator\_to\_array »](function.iterator-to-array.html)
+-   [iteratorтоarray »](function.iterator-to-array.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Підраховує кількість елементів в ітераторі
     

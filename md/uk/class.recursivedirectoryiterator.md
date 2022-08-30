@@ -2,11 +2,11 @@
 
 -   [« RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.html)
     
--   [RecursiveDirectoryIterator::\_\_construct »](recursivedirectoryiterator.construct.html)
+-   [RecursiveDirectoryIterator::construct »](recursivedirectoryiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас RecursiveDirectoryIterator
     
@@ -161,7 +161,7 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.html) - Конструктор класу RecursiveDirectoryIterator
+-   [RecursiveDirectoryIterator::construct](recursivedirectoryiterator.construct.html) - Конструктор класу RecursiveDirectoryIterator
 -   [RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.html) — Якщо поточний елемент є директорією, метод повертає ітератор для неї.
 -   [RecursiveDirectoryIterator::getSubPath](recursivedirectoryiterator.getsubpath.html) — Повертає шлях до піддиректорії
 -   [RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.html) — Повертає шлях до піддиректорії та ім'я файлу

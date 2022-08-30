@@ -2,7 +2,7 @@
 
 -   [« Mailparse](ref.mailparse.html)
     
--   [mailparse\_msg\_create »](function.mailparse-msg-create.html)
+-   [mailparsemsgcreate »](function.mailparse-msg-create.html)
     
 -   [PHP Manual](index.html)
     

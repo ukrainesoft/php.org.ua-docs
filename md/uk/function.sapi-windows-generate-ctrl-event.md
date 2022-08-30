@@ -1,12 +1,12 @@
 Надіслати подію CTRL іншому процесу
 
--   [« sapi\_windows\_cp\_set](function.sapi-windows-cp-set.html)
+-   [« sapiwindowsспset](function.sapi-windows-cp-set.html)
     
--   [sapi\_windows\_set\_ctrl\_handler »](function.sapi-windows-set-ctrl-handler.html)
+-   [sapiwindowssetctrlhandler »](function.sapi-windows-set-ctrl-handler.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Надіслати подію CTRL іншому процесу
     
@@ -63,5 +63,5 @@ while (true) {
 
 ### Дивіться також
 
--   [proc\_open()](function.proc-open.html) - Виконати команду та відкрити покажчик на файл для введення/виводу
--   [sapi\_windows\_set\_ctrl\_handler()](function.sapi-windows-set-ctrl-handler.html) - Встановити чи видалити обробник події CTRL
+-   [procopen()](function.proc-open.html) - Виконати команду та відкрити покажчик на файл для введення/виводу
+-   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.html) - Встановити чи видалити обробник події CTRL

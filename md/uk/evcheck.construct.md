@@ -27,7 +27,7 @@ public **EvCheck::construct** [callable](language.types.callable.html) `$callbac
 
 `callback`
 
-Дивіться [Callback-функции наблюдателя](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.html)
 
 `data`
 

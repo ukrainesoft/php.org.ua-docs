@@ -1,6 +1,6 @@
 Зупиняє службу
 
--   [« win32\_start\_service](function.win32-start-service.html)
+-   [« win32startservice](function.win32-start-service.html)
     
 -   [Обработка XML »](refs.xml.html)
     
@@ -58,8 +58,8 @@ win32_stop_service(string $servicename, string $machine = ?): void
 
 ### Дивіться також
 
--   [win32\_start\_service()](function.win32-start-service.html) - Запускає службу
--   [win32\_pause\_service()](function.win32-pause-service.html) - зупиняє службу
--   [win32\_continue\_service()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
--   [win32\_send\_custom\_control()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
+-   [win32startservice()](function.win32-start-service.html) - Запускає службу
+-   [win32pauseservice()](function.win32-pause-service.html) - зупиняє службу
+-   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
+-   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
 -   [Коды Ошибок Win32](win32service.constants.errors.html)

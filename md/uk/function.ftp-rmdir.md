@@ -1,12 +1,12 @@
 Видаляє директорію
 
--   [« ftp\_rename](function.ftp-rename.html)
+-   [« ftprename](function.ftp-rename.html)
     
--   [ftp\_set\_option »](function.ftp-set-option.html)
+-   [ftpsetoption »](function.ftp-set-option.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Видаляє директорію
     
@@ -29,7 +29,7 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `directory`
 
@@ -41,9 +41,9 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -74,4 +74,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_mkdir()](function.ftp-mkdir.html) - створює директорію
+-   [ftpmkdir()](function.ftp-mkdir.html) - створює директорію

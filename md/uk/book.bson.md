@@ -1,8 +1,8 @@
 Класи типів BSON та функції серіалізації
 
--   [« MongoDB\\Driver\\WriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html)
+-   [« MongoDBDriverWriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html)
     
--   [Функции »](ref.bson.functions.html)
+-   [Функції »](ref.bson.functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,128 +13,128 @@
 
 # Класи типів BSON та функції серіалізації
 
--   [Функции](ref.bson.functions.html)
-    -   [MongoDB\\BSON\\fromJSON](function.mongodb.bson-fromjson.html) — Повертає подання BSON значення JSON
-    -   [MongoDB\\BSON\\fromPHP](function.mongodb.bson-fromphp.html) — Повертає представлення BSON значення PHP
-    -   [MongoDB\\BSON\\toCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.html) — Повертає Canonical Extended JSON представлення для BSON
-    -   [MongoDB\\BSON\\toJSON](function.mongodb.bson-tojson.html) — Повертає Legacy Extended JSON уявлення значення BSON
-    -   [MongoDB\\BSON\\toPHP](function.mongodb.bson-tophp.html) — Повертає PHP подання значення BSON
-    -   [MongoDB\\BSON\\toRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.html) — Повертає Relaxed Extended JSON уявлення значення BSON
--   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html) - Клас MongoDBBSONBinary
-    -   [MongoDB\\BSON\\Binary::\_\_construct](mongodb-bson-binary.construct.html) - Створює новий Binary
-    -   [MongoDB\\BSON\\Binary::getData](mongodb-bson-binary.getdata.html) - Повертає дані Binary
-    -   [MongoDB\\BSON\\Binary::getType](mongodb-bson-binary.gettype.html) - Повертає тип Binary
-    -   [MongoDB\\BSON\\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Binary::serialize](mongodb-bson-binary.serialize.html) - Серіалізує Binary
-    -   [MongoDB\\BSON\\Binary::\_\_toString](mongodb-bson-binary.tostring.html) - Повертає дані Binary
-    -   [MongoDB\\BSON\\Binary::unserialize](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
--   [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html) - Клас MongoDBBSONDecimal128
-    -   [MongoDB\\BSON\\Decimal128::\_\_construct](mongodb-bson-decimal128.construct.html) - Створює новий Decimal128
-    -   [MongoDB\\BSON\\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Decimal128::serialize](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
-    -   [MongoDB\\BSON\\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.html) — Повертає рядкову виставу Decimal128
-    -   [MongoDB\\BSON\\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
--   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html) - Клас MongoDBBSONJavascript
-    -   [MongoDB\\BSON\\Javascript::\_\_construct](mongodb-bson-javascript.construct.html) - Конструктор Javascript
-    -   [MongoDB\\BSON\\Javascript::getCode](mongodb-bson-javascript.getcode.html) — Повертає код JavaScript
-    -   [MongoDB\\BSON\\Javascript::getScope](mongodb-bson-javascript.getscope.html) — Повертає область документа JavaScript
-    -   [MongoDB\\BSON\\Javascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html) — Повертає виставу, яка може бути перетворена на JSON
-    -   [MongoDB\\BSON\\Javascript::serialize](mongodb-bson-javascript.serialize.html) — Серіалізувати JavaScript
-    -   [MongoDB\\BSON\\Javascript::\_\_toString](mongodb-bson-javascript.tostring.html) — Повертає код JavaScript
-    -   [MongoDB\\BSON\\Javascript::unserialize](mongodb-bson-javascript.unserialize.html) — Десеріалізувати JavaScript
--   [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html) - Клас MongoDBBSONMaxKey
-    -   [MongoDB\\BSON\\MaxKey::\_\_construct](mongodb-bson-maxkey.construct.html) - Конструктор MaxKey
-    -   [MongoDB\\BSON\\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\MaxKey::serialize](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
-    -   [MongoDB\\BSON\\MaxKey::unserialize](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
--   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html) - Клас MongoDBBSONMinKey
-    -   [MongoDB\\BSON\\MinKey::\_\_construct](mongodb-bson-minkey.construct.html) - Конструктор MinKey
-    -   [MongoDB\\BSON\\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\MinKey::serialize](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
-    -   [MongoDB\\BSON\\MinKey::unserialize](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey
--   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html) - Клас MongoDBBSONObjectId
-    -   [MongoDB\\BSON\\ObjectId::\_\_construct](mongodb-bson-objectid.construct.html) - Створює новий ObjectId
-    -   [MongoDB\\BSON\\ObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.html) — Повертає позначку часу ObjectId
-    -   [MongoDB\\BSON\\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\ObjectId::serialize](mongodb-bson-objectid.serialize.html) - Серіалізує ObjectId
-    -   [MongoDB\\BSON\\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.html) — Повертає шістнадцяткову виставу ObjectId
-    -   [MongoDB\\BSON\\ObjectId::unserialize](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
--   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html) - Клас MongoDBBSONRegex
-    -   [MongoDB\\BSON\\Regex::\_\_construct](mongodb-bson-regex.construct.html) - Створює новий Regex
-    -   [MongoDB\\BSON\\Regex::getFlags](mongodb-bson-regex.getflags.html) — Повертає прапори Regex
-    -   [MongoDB\\BSON\\Regex::getPattern](mongodb-bson-regex.getpattern.html) — Повертає шаблон Regex
-    -   [MongoDB\\BSON\\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Regex::serialize](mongodb-bson-regex.serialize.html) - Серіалізує Regex
-    -   [MongoDB\\BSON\\Regex::\_\_toString](mongodb-bson-regex.tostring.html) — Повертає рядкову виставу Regex
-    -   [MongoDB\\BSON\\Regex::unserialize](mongodb-bson-regex.unserialize.html) - Десеріалізує Regex
--   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html) - Клас MongoDBBSONTimestamp
-    -   [MongoDB\\BSON\\Timestamp::\_\_construct](mongodb-bson-timestamp.construct.html) - Створює новий Timestamp
-    -   [MongoDB\\BSON\\Timestamp::getIncrement](mongodb-bson-timestamp.getincrement.html) — Повертає компонент збільшення Timestamp
-    -   [MongoDB\\BSON\\Timestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.html) - Повертає компонент позначки часу Timestamp
-    -   [MongoDB\\BSON\\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Timestamp::serialize](mongodb-bson-timestamp.serialize.html) - Серіалізує Timestamp
-    -   [MongoDB\\BSON\\Timestamp::\_\_toString](mongodb-bson-timestamp.tostring.html) — Повертає строкову виставу Timestamp
-    -   [MongoDB\\BSON\\Timestamp::unserialize](mongodb-bson-timestamp.unserialize.html) - Десеріалізує Timestamp
--   [MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.html) - Клас MongoDBBSONUTCDateTime
-    -   [MongoDB\\BSON\\UTCDateTime::\_\_construct](mongodb-bson-utcdatetime.construct.html) — Створює новий UTCDateTime
-    -   [MongoDB\\BSON\\UTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\UTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.html) - Серіалізує UTCDateTime
-    -   [MongoDB\\BSON\\UTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.html) — Повертає уявлення DateTime цього UTCDateTime
-    -   [MongoDB\\BSON\\UTCDateTime::\_\_toString](mongodb-bson-utcdatetime.tostring.html) — Повертає рядкову виставу UTCDateTime
-    -   [MongoDB\\BSON\\UTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.html) - Десеріалізує UTCDateTime
--   [MongoDB\\BSON\\Type](class.mongodb-bson-type.html) - Інтерфейс MongoDBBSONType
--   [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html) - Інтерфейс MongoDBBSONPersistable
--   [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html) - Інтерфейс MongoDBBSONSerializable
-    -   [MongoDB\\BSON\\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html) — Надає масив або документ для серіалізації у BSON
--   [MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.html) - Інтерфейс MongoDBBSONUnserializable
-    -   [MongoDB\\BSON\\Unserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html) — Створює об'єкт із масиву BSON або документа
--   [MongoDB\\BSON\\BinaryInterface](class.mongodb-bson-binaryinterface.html) - Інтерфейс MongoDBBSONBinaryInterface
-    -   [MongoDB\\BSON\\BinaryInterface::getData](mongodb-bson-binaryinterface.getdata.html) — Повертає дані BinaryInterface
-    -   [MongoDB\\BSON\\BinaryInterface::getType](mongodb-bson-binaryinterface.gettype.html) — Повертає тип BinaryInterface
-    -   [MongoDB\\BSON\\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.html) — Повертає дані BinaryInterface
--   [MongoDB\\BSON\\Decimal128Interface](class.mongodb-bson-decimal128interface.html) - Інтерфейс MongoDBBSONDecimal128Interface
-    -   [MongoDB\\BSON\\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.html) — Повертає рядкову виставу Decimal128Interface
--   [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html) - Інтерфейс MongoDBBSONJavascriptInterface
-    -   [MongoDB\\BSON\\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html) — Повертає код JavascriptInterface
-    -   [MongoDB\\BSON\\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html) — Повертає область видимості документа JavascriptInterface
-    -   [MongoDB\\BSON\\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.html) — Повертає код JavascriptInterface
--   [MongoDB\\BSON\\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.html) - Інтерфейс MongoDBBSONMaxKeyInterface
--   [MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.html) - Інтерфейс MongoDBBSONMinKeyInterface
--   [MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.html) - Інтерфейс MongoDBBSONObjectIdInterface
-    -   [MongoDB\\BSON\\ObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html) — Повертає компонент позначки часу ObjectIdInterface
-    -   [MongoDB\\BSON\\ObjectIdInterface::\_\_toString](mongodb-bson-objectidinterface.tostring.html) — Повертає шістнадцяткову виставу ObjectIdInterface
--   [MongoDB\\BSON\\RegexInterface](class.mongodb-bson-regexinterface.html) - Інтерфейс MongoDBBSONRegexInterface
-    -   [MongoDB\\BSON\\RegexInterface::getFlags](mongodb-bson-regexinterface.getflags.html) — Повертає прапори RegexInterface
-    -   [MongoDB\\BSON\\RegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.html) — Повертає шаблон RegexInterface
-    -   [MongoDB\\BSON\\RegexInterface::\_\_toString](mongodb-bson-regexinterface.tostring.html) — Повертає рядкову виставу RegexInterface
--   [MongoDB\\BSON\\TimestampInterface](class.mongodb-bson-timestampinterface.html) - Інтерфейс MongoDBBSONTimestampInterface
-    -   [MongoDB\\BSON\\TimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.html) - Повертає інкрементний компонент TimestampInterface
-    -   [MongoDB\\BSON\\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html) — Повертає компонент позначки часу TimestampInterface
-    -   [MongoDB\\BSON\\TimestampInterface::\_\_toString](mongodb-bson-timestampinterface.tostring.html) — Повертає строкову виставу TimestampInterface
--   [MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html) - Інтерфейс MongoDBBSONUTCDateTimeInterface
-    -   [MongoDB\\BSON\\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.html) — Повертає уявлення DateTime цього UTCDateTimeInterface
-    -   [MongoDB\\BSON\\UTCDateTimeInterface::\_\_toString](mongodb-bson-utcdatetimeinterface.tostring.html) — Повертає рядкову виставу UTCDateTimeInterface
--   [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html) - Клас MongoDBBSONDBPointer (застарілий)
-    -   [MongoDB\\BSON\\DBPointer::\_\_construct](mongodb-bson-dbpointer.construct.html) — Створює новий DBPointer (не використовується)
-    -   [MongoDB\\BSON\\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\DBPointer::serialize](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
-    -   [MongoDB\\BSON\\DBPointer::\_\_toString](mongodb-bson-dbpointer.tostring.html) — Повертає порожній рядок
-    -   [MongoDB\\BSON\\DBPointer::unserialize](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer
--   [MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html) - Клас MongoDBBSONInt64
-    -   [MongoDB\\BSON\\Int64::\_\_construct](mongodb-bson-int64.construct.html) — Створює новий Int64 (не використовується)
-    -   [MongoDB\\BSON\\Int64::jsonSerialize](mongodb-bson-int64.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Int64::serialize](mongodb-bson-int64.serialize.html) - Серіалізує Int64
-    -   [MongoDB\\BSON\\Int64::\_\_toString](mongodb-bson-int64.tostring.html) — Повертає рядкову виставу Int64
-    -   [MongoDB\\BSON\\Int64::unserialize](mongodb-bson-int64.unserialize.html) - Десеріалізує Int64
--   [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.html) - Клас MongoDBBSONSymbol (застарілий)
-    -   [MongoDB\\BSON\\Symbol::\_\_construct](mongodb-bson-symbol.construct.html) — Створює новий Symbol (не використовується)
-    -   [MongoDB\\BSON\\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Symbol::serialize](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
-    -   [MongoDB\\BSON\\Symbol::\_\_toString](mongodb-bson-symbol.tostring.html) — Повертає Symbol у вигляді рядка
-    -   [MongoDB\\BSON\\Symbol::unserialize](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
--   [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html) - Клас MongoDBBSONUndefined (застаріло)
-    -   [MongoDB\\BSON\\Undefined::\_\_construct](mongodb-bson-undefined.construct.html) - Створює новий Undefined (не використовується)
-    -   [MongoDB\\BSON\\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
-    -   [MongoDB\\BSON\\Undefined::serialize](mongodb-bson-undefined.serialize.html) - Серіалізує Undefined
-    -   [MongoDB\\BSON\\Undefined::\_\_toString](mongodb-bson-undefined.tostring.html) — Повертає порожній рядок
-    -   [MongoDB\\BSON\\Undefined::unserialize](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
+-   [Функції](ref.bson.functions.html)
+    -   [MongoDBBSONfromJSON](function.mongodb.bson-fromjson.html) — Повертає подання BSON значення JSON
+    -   [MongoDBBSONfromPHP](function.mongodb.bson-fromphp.html) — Повертає представлення BSON значення PHP
+    -   [MongoDBBSONtoCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.html) — Повертає Canonical Extended JSON представлення для BSON
+    -   [MongoDBBSONtoJSON](function.mongodb.bson-tojson.html) — Повертає Legacy Extended JSON уявлення значення BSON
+    -   [MongoDBBSONtoPHP](function.mongodb.bson-tophp.html) — Повертає PHP подання значення BSON
+    -   [MongoDBBSONtoRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.html) — Повертає Relaxed Extended JSON уявлення значення BSON
+-   [MongoDBBSONBinary](class.mongodb-bson-binary.html) - Клас MongoDBBSONBinary
+    -   [MongoDBBSONBinary::construct](mongodb-bson-binary.construct.html) - Створює новий Binary
+    -   [MongoDBBSONBinary::getData](mongodb-bson-binary.getdata.html) - Повертає дані Binary
+    -   [MongoDBBSONBinary::getType](mongodb-bson-binary.gettype.html) - Повертає тип Binary
+    -   [MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONBinary::serialize](mongodb-bson-binary.serialize.html) - Серіалізує Binary
+    -   [MongoDBBSONBinary::toString](mongodb-bson-binary.tostring.html) - Повертає дані Binary
+    -   [MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
+-   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html) - Клас MongoDBBSONDecimal128
+    -   [MongoDBBSONDecimal128::construct](mongodb-bson-decimal128.construct.html) - Створює новий Decimal128
+    -   [MongoDBBSONDecimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONDecimal128::serialize](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
+    -   [MongoDBBSONDecimal128::toString](mongodb-bson-decimal128.tostring.html) — Повертає рядкову виставу Decimal128
+    -   [MongoDBBSONDecimal128::unserialize](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
+-   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html) - Клас MongoDBBSONJavascript
+    -   [MongoDBBSONJavascript::construct](mongodb-bson-javascript.construct.html) - Конструктор Javascript
+    -   [MongoDBBSONJavascript::getCode](mongodb-bson-javascript.getcode.html) — Повертає код JavaScript
+    -   [MongoDBBSONJavascript::getScope](mongodb-bson-javascript.getscope.html) — Повертає область документа JavaScript
+    -   [MongoDBBSONJavascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html) — Повертає виставу, яка може бути перетворена на JSON
+    -   [MongoDBBSONJavascript::serialize](mongodb-bson-javascript.serialize.html) — Серіалізувати JavaScript
+    -   [MongoDBBSONJavascript::toString](mongodb-bson-javascript.tostring.html) — Повертає код JavaScript
+    -   [MongoDBBSONJavascript::unserialize](mongodb-bson-javascript.unserialize.html) — Десеріалізувати JavaScript
+-   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html) - Клас MongoDBBSONMaxKey
+    -   [MongoDBBSONMaxKey::construct](mongodb-bson-maxkey.construct.html) - Конструктор MaxKey
+    -   [MongoDBBSONMaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONMaxKey::serialize](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
+    -   [MongoDBBSONMaxKey::unserialize](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
+-   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html) - Клас MongoDBBSONMinKey
+    -   [MongoDBBSONMinKey::construct](mongodb-bson-minkey.construct.html) - Конструктор MinKey
+    -   [MongoDBBSONMinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONMinKey::serialize](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
+    -   [MongoDBBSONMinKey::unserialize](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey
+-   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) - Клас MongoDBBSONObjectId
+    -   [MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.html) - Створює новий ObjectId
+    -   [MongoDBBSONObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.html) — Повертає позначку часу ObjectId
+    -   [MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.html) - Серіалізує ObjectId
+    -   [MongoDBBSONObjectId::toString](mongodb-bson-objectid.tostring.html) — Повертає шістнадцяткову виставу ObjectId
+    -   [MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
+-   [MongoDBBSONRegex](class.mongodb-bson-regex.html) - Клас MongoDBBSONRegex
+    -   [MongoDBBSONRegex::construct](mongodb-bson-regex.construct.html) - Створює новий Regex
+    -   [MongoDBBSONRegex::getFlags](mongodb-bson-regex.getflags.html) — Повертає прапори Regex
+    -   [MongoDBBSONRegex::getPattern](mongodb-bson-regex.getpattern.html) — Повертає шаблон Regex
+    -   [MongoDBBSONRegex::jsonSerialize](mongodb-bson-regex.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONRegex::serialize](mongodb-bson-regex.serialize.html) - Серіалізує Regex
+    -   [MongoDBBSONRegex::toString](mongodb-bson-regex.tostring.html) — Повертає рядкову виставу Regex
+    -   [MongoDBBSONRegex::unserialize](mongodb-bson-regex.unserialize.html) - Десеріалізує Regex
+-   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html) - Клас MongoDBBSONTimestamp
+    -   [MongoDBBSONTimestamp::construct](mongodb-bson-timestamp.construct.html) - Створює новий Timestamp
+    -   [MongoDBBSONTimestamp::getIncrement](mongodb-bson-timestamp.getincrement.html) — Повертає компонент збільшення Timestamp
+    -   [MongoDBBSONTimestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.html) - Повертає компонент позначки часу Timestamp
+    -   [MongoDBBSONTimestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONTimestamp::serialize](mongodb-bson-timestamp.serialize.html) - Серіалізує Timestamp
+    -   [MongoDBBSONTimestamp::toString](mongodb-bson-timestamp.tostring.html) — Повертає строкову виставу Timestamp
+    -   [MongoDBBSONTimestamp::unserialize](mongodb-bson-timestamp.unserialize.html) - Десеріалізує Timestamp
+-   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html) - Клас MongoDBBSONUTCDateTime
+    -   [MongoDBBSONUTCDateTime::construct](mongodb-bson-utcdatetime.construct.html) — Створює новий UTCDateTime
+    -   [MongoDBBSONUTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONUTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.html) - Серіалізує UTCDateTime
+    -   [MongoDBBSONUTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.html) — Повертає уявлення DateTime цього UTCDateTime
+    -   [MongoDBBSONUTCDateTime::toString](mongodb-bson-utcdatetime.tostring.html) — Повертає рядкову виставу UTCDateTime
+    -   [MongoDBBSONUTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.html) - Десеріалізує UTCDateTime
+-   [MongoDBBSONType](class.mongodb-bson-type.html) - Інтерфейс MongoDBBSONType
+-   [MongoDBBSONPersistable](class.mongodb-bson-persistable.html) - Інтерфейс MongoDBBSONPersistable
+-   [MongoDBBSONSerializable](class.mongodb-bson-serializable.html) - Інтерфейс MongoDBBSONSerializable
+    -   [MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html) — Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html) - Інтерфейс MongoDBBSONUnserializable
+    -   [MongoDBBSONUnserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html) — Створює об'єкт із масиву BSON або документа
+-   [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html) - Інтерфейс MongoDBBSONBinaryInterface
+    -   [MongoDBBSONBinaryInterface::getData](mongodb-bson-binaryinterface.getdata.html) — Повертає дані BinaryInterface
+    -   [MongoDBBSONBinaryInterface::getType](mongodb-bson-binaryinterface.gettype.html) — Повертає тип BinaryInterface
+    -   [MongoDBBSONBinaryInterface::toString](mongodb-bson-binaryinterface.tostring.html) — Повертає дані BinaryInterface
+-   [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.html) - Інтерфейс MongoDBBSONDecimal128Interface
+    -   [MongoDBBSONDecimal128Interface::toString](mongodb-bson-decimal128interface.tostring.html) — Повертає рядкову виставу Decimal128Interface
+-   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html) - Інтерфейс MongoDBBSONJavascriptInterface
+    -   [MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html) — Повертає код JavascriptInterface
+    -   [MongoDBBSONJavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html) — Повертає область видимості документа JavascriptInterface
+    -   [MongoDBBSONJavascriptInterface::toString](mongodb-bson-javascriptinterface.tostring.html) — Повертає код JavascriptInterface
+-   [MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.html) - Інтерфейс MongoDBBSONMaxKeyInterface
+-   [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html) - Інтерфейс MongoDBBSONMinKeyInterface
+-   [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html) - Інтерфейс MongoDBBSONObjectIdInterface
+    -   [MongoDBBSONObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html) — Повертає компонент позначки часу ObjectIdInterface
+    -   [MongoDBBSONObjectIdInterface::toString](mongodb-bson-objectidinterface.tostring.html) — Повертає шістнадцяткову виставу ObjectIdInterface
+-   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html) - Інтерфейс MongoDBBSONRegexInterface
+    -   [MongoDBBSONRegexInterface::getFlags](mongodb-bson-regexinterface.getflags.html) — Повертає прапори RegexInterface
+    -   [MongoDBBSONRegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.html) — Повертає шаблон RegexInterface
+    -   [MongoDBBSONRegexInterface::toString](mongodb-bson-regexinterface.tostring.html) — Повертає рядкову виставу RegexInterface
+-   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html) - Інтерфейс MongoDBBSONTimestampInterface
+    -   [MongoDBBSONTimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.html) - Повертає інкрементний компонент TimestampInterface
+    -   [MongoDBBSONTimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html) — Повертає компонент позначки часу TimestampInterface
+    -   [MongoDBBSONTimestampInterface::toString](mongodb-bson-timestampinterface.tostring.html) — Повертає строкову виставу TimestampInterface
+-   [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html) - Інтерфейс MongoDBBSONUTCDateTimeInterface
+    -   [MongoDBBSONUTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.html) — Повертає уявлення DateTime цього UTCDateTimeInterface
+    -   [MongoDBBSONUTCDateTimeInterface::toString](mongodb-bson-utcdatetimeinterface.tostring.html) — Повертає рядкову виставу UTCDateTimeInterface
+-   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html) - Клас MongoDBBSONDBPointer (застарілий)
+    -   [MongoDBBSONDBPointer::construct](mongodb-bson-dbpointer.construct.html) — Створює новий DBPointer (не використовується)
+    -   [MongoDBBSONDBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
+    -   [MongoDBBSONDBPointer::toString](mongodb-bson-dbpointer.tostring.html) — Повертає порожній рядок
+    -   [MongoDBBSONDBPointer::unserialize](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer
+-   [MongoDBBSONInt64](class.mongodb-bson-int64.html) - Клас MongoDBBSONInt64
+    -   [MongoDBBSONInt64::construct](mongodb-bson-int64.construct.html) — Створює новий Int64 (не використовується)
+    -   [MongoDBBSONInt64::jsonSerialize](mongodb-bson-int64.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONInt64::serialize](mongodb-bson-int64.serialize.html) - Серіалізує Int64
+    -   [MongoDBBSONInt64::toString](mongodb-bson-int64.tostring.html) — Повертає рядкову виставу Int64
+    -   [MongoDBBSONInt64::unserialize](mongodb-bson-int64.unserialize.html) - Десеріалізує Int64
+-   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html) - Клас MongoDBBSONSymbol (застарілий)
+    -   [MongoDBBSONSymbol::construct](mongodb-bson-symbol.construct.html) — Створює новий Symbol (не використовується)
+    -   [MongoDBBSONSymbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONSymbol::serialize](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
+    -   [MongoDBBSONSymbol::toString](mongodb-bson-symbol.tostring.html) — Повертає Symbol у вигляді рядка
+    -   [MongoDBBSONSymbol::unserialize](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
+-   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html) - Клас MongoDBBSONUndefined (застаріло)
+    -   [MongoDBBSONUndefined::construct](mongodb-bson-undefined.construct.html) - Створює новий Undefined (не використовується)
+    -   [MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+    -   [MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.html) - Серіалізує Undefined
+    -   [MongoDBBSONUndefined::toString](mongodb-bson-undefined.tostring.html) — Повертає порожній рядок
+    -   [MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined

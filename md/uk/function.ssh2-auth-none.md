@@ -1,12 +1,12 @@
 Аутентифікація як "none"
 
--   [« ssh2\_auth\_hostbased\_file](function.ssh2-auth-hostbased-file.html)
+-   [« ssh2authhostbasedfile](function.ssh2-auth-hostbased-file.html)
     
--   [ssh2\_auth\_password »](function.ssh2-auth-password.html)
+-   [ssh2authpassword »](function.ssh2-auth-password.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Аутентифікація як "none"
     
@@ -29,7 +29,7 @@ ssh2_auth_none(resource $session, string $username): mixed
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `username`
 
@@ -37,7 +37,7 @@ ssh2_auth_none(resource $session, string $username): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо сервер приймає аутентифікацію "none", або масив доступних методів аутентифікації.
+Повертає \*\*`true`\*\*якщо сервер приймає аутентифікацію "none", або масив доступних методів аутентифікації.
 
 ### Приклади
 

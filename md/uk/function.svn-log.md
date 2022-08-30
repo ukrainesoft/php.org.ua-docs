@@ -1,12 +1,12 @@
 Повертає коментарі до правок у репозиторії
 
--   [« svn\_import](function.svn-import.html)
+-   [« svnimport](function.svn-import.html)
     
--   [svn\_ls »](function.svn-ls.html)
+-   [svnls »](function.svn-ls.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає коментарі до правок у репозиторії
     
@@ -57,7 +57,7 @@ URL-адреса репозиторію для отримання історії
 > 
 > Висновок завжди представлений як пронумерований масив, що містить масиви, крім випадків відсутності або єдиного екземпляра ревізій.
 
-Значення action є підмножиною [» первых букв состояний SVN](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.html), де можливі значення - це:
+Значення action є підмножиною [» перших літер станів SVN](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.html), де можливі значення - це:
 
 **Дії**
 

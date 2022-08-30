@@ -1,6 +1,6 @@
 Отримати час очікування бездіяльності
 
--   [« ZMQDevice::\_\_construct](zmqdevice.construct.html)
+-   [« ZMQDevice::construct](zmqdevice.construct.html)
     
 -   [ZMQDevice::getTimerTimeout »](zmqdevice.gettimertimeout.html)
     

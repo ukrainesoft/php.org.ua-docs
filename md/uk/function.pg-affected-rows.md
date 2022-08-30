@@ -2,7 +2,7 @@
 
 -   [« Функции PostgreSQL](ref.pgsql.html)
     
--   [pg\_cancel\_query »](function.pg-cancel-query.html)
+-   [пгcancelquery »](function.pg-cancel-query.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_affected_rows(PgSql\Result $result): int
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 ### Значення, що повертаються
 
@@ -43,9 +43,9 @@ pg_affected_rows(PgSql\Result $result): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -69,7 +69,7 @@ echo $cmdtuples . " кортежей затронуто.\n";
 
 ### Дивіться також
 
--   [pg\_query()](function.pg-query.html) - Виконує запит
--   [pg\_query\_params()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
--   [pg\_execute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
--   [pg\_num\_rows()](function.pg-num-rows.html) - Повертає кількість рядків у вибірці
+-   [пгquery()](function.pg-query.html) - Виконує запит
+-   [пгqueryparams()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгnumrows()](function.pg-num-rows.html) - Повертає кількість рядків у вибірці

@@ -1,12 +1,12 @@
 Створює новий запит
 
--   [« MongoDB\\Driver\\Query](class.mongodb-driver-query.html)
+-   [« MongoDBDriverQuery](class.mongodb-driver-query.html)
     
--   [MongoDB\\Driver\\BulkWrite »](class.mongodb-driver-bulkwrite.html)
+-   [MongoDBDriverBulkWrite »](class.mongodb-driver-bulkwrite.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Query](class.mongodb-driver-query.html)
+-   [MongoDBDriverQuery](class.mongodb-driver-query.html)
     
 -   Створює новий запит
     
@@ -23,7 +23,7 @@ MongoDBDriverQuery::construct — Створює новий запит
 final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $queryOptions = null)
 ```
 
-Створює новий [MongoDB\\Driver\\Query](class.mongodb-driver-query.html)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.html)
+Створює новий [MongoDBDriverQuery](class.mongodb-driver-query.html)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами сравнения типов BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `queryOptions`
 
@@ -78,7 +78,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 | | explain | bool |
 
-Якщо **`true`**, повернутий [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html) міститиме один документ, який описує процес та індекси, що використовуються для повернення запиту.
+Якщо **`true`**, повернутий [MongoDBDriverCursor](class.mongodb-driver-cursor.html) міститиме один документ, який описує процес та індекси, що використовуються для повернення запиту.
 
 Повернення до застарілого модифікатора `"$explain"`якщо він не вказаний.
 
@@ -134,7 +134,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Повернення до застарілого модифікатора `"$min"`якщо він не вказаний.
 
-| | modifiers | array | [» Метаоператоры](https://www.mongodb.com/docs/manual/reference/operator/query-modifier/), що змінюють виведення чи поведінку запиту. Використання цих операторів не рекомендується на користь іменованих опцій. | | noCursorTimeout | bool | Забороняє серверу синхронізувати незайняті курсори після періоду бездіяльності (10 хвилин). | | oplogReplay | bool |
+| | modifiers | array | [» Метаоператори](https://www.mongodb.com/docs/manual/reference/operator/query-modifier/), що змінюють виведення чи поведінку запиту. Використання цих операторів не рекомендується на користь іменованих опцій. | | noCursorTimeout | bool | Забороняє серверу синхронізувати незайняті курсори після періоду бездіяльності (10 хвилин). | | oplogReplay | bool |
 
 Внутрішнє використання для реплік наборів. Щоб використовувати oplogReplay, ви повинні включити до фільтра наступну умову:
 
@@ -144,11 +144,11 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 | | проектування | array | об'єкт |
 
-[» Спецификация проекции](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
+[» Специфікація проекції](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
 
 Якщо ви використовуєте [функцию ODM](mongodb.persistence.deserialization.html) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт **stdClass**
 
-| | readConcern | [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
+| | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
 
 Гарантії читання застосувати до операції. За промовчанням будуть використовуватися гарантії читання з [URI подключения MongoDB](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri)
 
@@ -186,7 +186,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
@@ -215,7 +215,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Перейменовано параметр `"partial"` в `"allowPartialResults"`. Для зворотної сумісності, `"partial"` все одно буде прочитаний, якщо `"allowPartialResults"` не вказано.
 
-Видалено застарілий параметр `"secondaryOk"`. Для запитів, які використовують застарілий дротовий протокол OPQUERY, драйвер встановить біт `secondaryOk` при необхідності відповідно до [» Спецификацией выбора сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
+Видалено застарілий параметр `"secondaryOk"`. Для запитів, які використовують застарілий дротовий протокол OPQUERY, драйвер встановить біт `secondaryOk` при необхідності відповідно до [» Специфікацією вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
 
 | | PECL mongodb 1.1.0 Доданий параметр `"readConcern"`.
 
@@ -260,5 +260,5 @@ foreach($cursor as $document) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.html) - Виконує запит до бази даних
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html) - Виконує запит до бази даних
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)

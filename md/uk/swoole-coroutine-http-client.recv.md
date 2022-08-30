@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::post](swoole-coroutine-http-client.post.html)
+-   [« SwooleCoroutineHttpClient::post](swoole-coroutine-http-client.post.html)
     
--   [Swoole\\Coroutine\\Http\\Client::set »](swoole-coroutine-http-client.set.html)
+-   [SwooleCoroutineHttpClient::set »](swoole-coroutine-http-client.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

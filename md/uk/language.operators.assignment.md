@@ -1,12 +1,12 @@
 Оператор присвоєння
 
--   [« Арифметические операторы](language.operators.arithmetic.html)
+-   [« Арифметичні оператори](language.operators.arithmetic.html)
     
--   [Побитовые операторы »](language.operators.bitwise.html)
+-   [Побітові оператори »](language.operators.bitwise.html)
     
 -   [PHP Manual](index.html)
     
--   [Операторы](language.operators.html)
+-   [Оператори](language.operators.html)
     
 -   Оператор присвоєння
     
@@ -25,7 +25,7 @@ $a = ($b = 4) + 5; // $a теперь равно 9, а $b было
 ?>
 ```
 
-Крім базового оператора присвоювання є "комбіновані оператори" всім [бинарных арифметических](language.operators.html) операцій, операцій об'єднання масивів та рядкових операцій, які дозволяють використовувати деяке значення у виразі, а потім встановити його як результат даного виразу. Наприклад:
+Крім базового оператора присвоювання є "комбіновані оператори" всім [бінарних арифметичних](language.operators.html) операцій, операцій об'єднання масивів та рядкових операцій, які дозволяють використовувати деяке значення у виразі, а потім встановити його як результат даного виразу. Наприклад:
 
 ```php
 <?php
@@ -80,7 +80,7 @@ $o = &new C;
 Parse error: syntax error, unexpected 'new' (T_NEW) in …
 ```
 
-Для отримання більш повної інформації про посилання та їх можливості зверніться до розділу [Подробно о ссылках](language.references.html)
+Для отримання більш повної інформації про посилання та їх можливості зверніться до розділу [Детально про посилання](language.references.html)
 
 ### Оператори арифметичного присвоєння
 
@@ -112,6 +112,6 @@ Parse error: syntax error, unexpected 'new' (T_NEW) in …
 
 ### Дивіться також
 
--   [арифметические операторы](language.operators.arithmetic.html)
--   [побитовые операторы](language.operators.bitwise.html)
--   [операторы объединения с null](language.operators.comparison.html#language.operators.comparison.coalesce)
+-   [арифметичні оператори](language.operators.arithmetic.html)
+-   [побітові оператори](language.operators.bitwise.html)
+-   [оператори об'єднання з null](language.operators.comparison.html#language.operators.comparison.coalesce)

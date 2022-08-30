@@ -1,8 +1,8 @@
 Отримати заголовок повідомлення
 
--   [« imap\_fetchbody](function.imap-fetchbody.html)
+-   [« imapfetchbody](function.imap-fetchbody.html)
     
--   [imap\_fetchmime »](function.imap-fetchmime.html)
+-   [imapfetchmime »](function.imap-fetchmime.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_fetchheader(IMAP\Connection $imap, int $message_num, int $flags = 0): strin
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -49,10 +49,10 @@ imap_fetchheader(IMAP\Connection $imap, int $message_num, int $flags = 0): strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_fetch\_overview()](function.imap-fetch-overview.html) - Огляд інформації, що міститься в заголовках повідомлень
+-   [imapfetchoverview()](function.imap-fetch-overview.html) - Огляд інформації, що міститься в заголовках повідомлень

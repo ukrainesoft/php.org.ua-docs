@@ -1,8 +1,8 @@
 Читає дані великого об'єкту
 
--   [« pg\_lo\_read\_all](function.pg-lo-read-all.html)
+-   [« pgлоreadall](function.pg-lo-read-all.html)
     
--   [pg\_lo\_seek »](function.pg-lo-seek.html)
+-   [пглоseek »](function.pg-lo-seek.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 `length`
 
-Ан [PgSql\\Lob](class.pgsql-lob.html) instance, returned by [pg\_lo\_open()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
 
 `length`
 
@@ -47,9 +47,9 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                  |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -69,4 +69,4 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 ### Дивіться також
 
--   [pg\_lo\_read\_all()](function.pg-lo-read-all.html) - Читає вміст великого об'єкта та посилає безпосередньо до браузера
+-   [пглоreadall()](function.pg-lo-read-all.html) - Читає вміст великого об'єкта та посилає безпосередньо до браузера

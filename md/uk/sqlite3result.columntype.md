@@ -2,7 +2,7 @@
 
 -   [« SQLite3Result::columnName](sqlite3result.columnname.html)
     
--   [SQLite3Result::\_\_construct »](sqlite3result.construct.html)
+-   [SQLite3Result::construct »](sqlite3result.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,4 +33,4 @@ public SQLite3Result::columnType(int $column): int|false
 
 ### Значення, що повертаються
 
-Повертає тип стовпця, вказаного в `column`. Повертає значення **`SQLITE3_INTEGER`** **`SQLITE3_FLOAT`** **`SQLITE3_TEXT`** **`SQLITE3_BLOB`** **`SQLITE3_NULL`**) або **`false`**якщо стовпець не існує.
+Повертає тип стовпця, вказаного в `column`. Повертає значення **`SQLITE3_INTEGER`** **`SQLITE3_FLOAT`** **`SQLITE3_TEXT`** **`SQLITE3_BLOB`** **`SQLITE3_NULL`**) або \*\*`false`\*\*якщо стовпець не існує.

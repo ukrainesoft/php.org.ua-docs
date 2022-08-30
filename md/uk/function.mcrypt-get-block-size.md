@@ -1,8 +1,8 @@
 Повертає розмір блоку для зазначеного шифру
 
--   [« mcrypt\_generic](function.mcrypt-generic.html)
+-   [« mcryptgeneric](function.mcrypt-generic.html)
     
--   [mcrypt\_get\_cipher\_name »](function.mcrypt-get-cipher-name.html)
+-   [mcryptgetciphername »](function.mcrypt-get-cipher-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ mcrypt_get_block_size(string $cipher, string $mode): int|false
 
 **mcryptgetblocksize()** використовується для отримання розміру блоку вказаного `cipher` (У комбінації з режимом шифрування).
 
-Правильніше використовувати [mcrypt\_enc\_get\_block\_size()](function.mcrypt-enc-get-block-size.html), яка використовує ресурс, що повертається [mcrypt\_module\_open()](function.mcrypt-module-open.html)
+Правильніше використовувати [mcryptencgetblocksize()](function.mcrypt-enc-get-block-size.html), яка використовує ресурс, що повертається [mcryptmoduleopen()](function.mcrypt-module-open.html)
 
 ### Список параметрів
 
@@ -67,6 +67,6 @@ echo mcrypt_get_block_size('tripledes', 'ecb'); // 8
 
 ### Дивіться також
 
--   [mcrypt\_get\_key\_size()](function.mcrypt-get-key-size.html) - Отримати розмір ключа заданого шифру
--   [mcrypt\_enc\_get\_block\_size()](function.mcrypt-enc-get-block-size.html) - Повертає розмір блоку алгоритму
--   [mcrypt\_encrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами
+-   [mcryptgetkeysize()](function.mcrypt-get-key-size.html) - Отримати розмір ключа заданого шифру
+-   [mcryptencgetblocksize()](function.mcrypt-enc-get-block-size.html) - Повертає розмір блоку алгоритму
+-   [mcryptencrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами

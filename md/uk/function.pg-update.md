@@ -1,8 +1,8 @@
 Оновлення даних у таблиці
 
--   [« pg\_untrace](function.pg-untrace.html)
+-   [« pguntrace](function.pg-untrace.html)
     
--   [pg\_version »](function.pg-version.html)
+-   [пгversion »](function.pg-version.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 **пгupdate()** замінює записи у таблиці, що задовольняють умовам `conditions` даними `values`
 
-Якщо `flags` вказано, [pg\_convert()](function.pg-convert.html) застосовується до `values` із зазначеними прапорами.
+Якщо `flags` вказано, [пгconvert()](function.pg-convert.html) застосовується до `values` із зазначеними прапорами.
 
 За замовчуванням **пгupdate()** передає необроблені значення. Значення мають бути екрановані або опція **`PGSQL_DML_ESCAPE`** має бути вказана . **`PGSQL_DML_ESCAPE`** укладає в лапки та екранує параметри/ідентифікатори. Тому імена таблиць/стовпців стають чутливими до регістру.
 
@@ -35,7 +35,7 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `table_name`
 
@@ -51,7 +51,7 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Одна з констант **`PGSQL_CONV_OPTS`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** або **`PGSQL_DML_STRING`**або їх комбінація. Якщо `flags` містить **`PGSQL_DML_STRING`**, функція поверне рядок. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функція [pg\_convert()](function.pg-convert.html) внутрішньо не викликається.
+Одна з констант **`PGSQL_CONV_OPTS`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** або \*\*`PGSQL_DML_STRING`\*\*або їх комбінація. Якщо `flags` містить **`PGSQL_DML_STRING`**, функція поверне рядок. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функція [пгconvert()](function.pg-convert.html) внутрішньо не викликається.
 
 ### Значення, що повертаються
 
@@ -59,9 +59,9 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -86,4 +86,4 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 ### Дивіться також
 
--   [pg\_convert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
+-   [пгconvert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах

@@ -1,12 +1,12 @@
 Створює блокування пам'яті
 
--   [« Swoole\\Lock](class.swoole-lock.html)
+-   [« SwooleLock](class.swoole-lock.html)
     
--   [Swoole\\Lock::\_\_destruct »](swoole-lock.destruct.html)
+-   [SwooleLock::destruct »](swoole-lock.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Створює блокування пам'яті
     

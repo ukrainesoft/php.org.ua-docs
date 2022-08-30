@@ -1,12 +1,12 @@
 Інтерфейс Executable
 
--   [« mysql\_xdevapi\\Exception](class.mysql-xdevapi-exception.html)
+-   [« mysqlxdevapiException](class.mysql-xdevapi-exception.html)
     
 -   [Executable::execute »](mysql-xdevapi-executable.execute.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Інтерфейс Executable
     

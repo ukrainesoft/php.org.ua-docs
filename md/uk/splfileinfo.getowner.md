@@ -50,5 +50,5 @@ print_r(posix_getpwuid($info->getOwner()));
 
 ### Дивіться також
 
--   [posix\_getpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
+-   [posixgetpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
 -   [SplFileInfo::getGroup()](splfileinfo.getgroup.html) - Отримує групу файлу

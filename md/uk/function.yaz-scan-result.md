@@ -1,8 +1,8 @@
 Повертає результат запиту сканування
 
--   [« yaz\_record](function.yaz-record.html)
+-   [« yazrecord](function.yaz-record.html)
     
--   [yaz\_scan »](function.yaz-scan.html)
+-   [yazscan »](function.yaz-scan.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ yazscanresult — Повернення результату запиту ска�
 yaz_scan_result(resource $id, array &$result = ?): array
 ```
 
-**yazscanresult()** повертає терми та асоційовану з ними інформацію, отримані з сервера останнім викликом функції [yaz\_scan()](function.yaz-scan.html)
+**yazscanresult()** повертає терми та асоційовану з ними інформацію, отримані з сервера останнім викликом функції [yazscan()](function.yaz-scan.html)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, повернутий [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
 
 `result`
 

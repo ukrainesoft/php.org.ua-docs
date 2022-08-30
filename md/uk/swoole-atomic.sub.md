@@ -1,12 +1,12 @@
 Віднімає число із значення атомарного об'єкта
 
--   [« Swoole\\Atomic::set](swoole-atomic.set.html)
+-   [« SwooleAtomic::set](swoole-atomic.set.html)
     
--   [Swoole\\Buffer »](class.swoole-buffer.html)
+-   [SwooleBuffer »](class.swoole-buffer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Atomic](class.swoole-atomic.html)
+-   [SwooleAtomic](class.swoole-atomic.html)
     
 -   Віднімає число із значення атомарного об'єкта
     

@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionWriteException
 
--   [« MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
+-   [« MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
     
--   [MongoDB\\Driver\\Exception\\WriteException::getWriteResult »](mongodb-driver-writeexception.getwriteresult.html)
+-   [MongoDBDriverExceptionWriteException::getWriteResult »](mongodb-driver-writeexception.getwriteresult.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionWriteException
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
 
 ## Огляд класів
 
@@ -104,15 +104,15 @@ private Exception::__clone(): void
 
 writeResult
 
-Об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html), пов'язаний із невдалою операцією запису.
+Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html), пов'язаний із невдалою операцією запису.
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                                        | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.5.0                                                                                                                                                                                                                            |          |
-| Тепер клас успадковується від [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
+| Версия                                                                                                                                                                                                                            | Описание |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.5.0                                                                                                                                                                                                                |          |
+| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
 
 ## Зміст
 
--   [MongoDB\\Driver\\Exception\\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.html) — Повертає WriteResult для операції запису помилкою, що закінчилася.
+-   [MongoDBDriverExceptionWriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.html) — Повертає WriteResult для операції запису помилкою, що закінчилася.

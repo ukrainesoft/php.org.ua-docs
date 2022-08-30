@@ -1,12 +1,12 @@
 Отримує всі встановлені з'єднання
 
--   [« Swoole\\Server::getClientInfo](swoole-server.getclientinfo.html)
+-   [« SwooleServer::getClientInfo](swoole-server.getclientinfo.html)
     
--   [Swoole\\Server::getLastError »](swoole-server.getlasterror.html)
+-   [SwooleServer::getLastError »](swoole-server.getlasterror.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Отримує всі встановлені з'єднання
     

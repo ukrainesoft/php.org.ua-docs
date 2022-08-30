@@ -1,6 +1,6 @@
 Трейти
 
--   [« Интерфейсы объектов](language.oop5.interfaces.html)
+-   [« Інтерфейси об'єктів](language.oop5.interfaces.html)
     
 -   [Анонимные классы »](language.oop5.anonymous.html)
     

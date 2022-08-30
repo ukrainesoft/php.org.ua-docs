@@ -1,8 +1,8 @@
 Повертає ім'я режиму, що використовується
 
--   [« mcrypt\_enc\_get\_key\_size](function.mcrypt-enc-get-key-size.html)
+-   [« mcryptencgetkeysize](function.mcrypt-enc-get-key-size.html)
     
--   [mcrypt\_enc\_get\_supported\_key\_sizes »](function.mcrypt-enc-get-supported-key-sizes.html)
+-   [mcryptencgetsupportedkeysizes »](function.mcrypt-enc-get-supported-key-sizes.html)
     
 -   [PHP Manual](index.html)
     

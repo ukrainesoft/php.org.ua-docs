@@ -1,12 +1,12 @@
 Призначення count
 
--   [« Yaf\_Session::\_\_construct](yaf-session.construct.html)
+-   [« YafSession::construct](yaf-session.construct.html)
     
--   [Yaf\_Session::current »](yaf-session.current.html)
+-   [YafSession::current »](yaf-session.current.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення count
     

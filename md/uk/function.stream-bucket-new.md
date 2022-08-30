@@ -1,12 +1,12 @@
 Створити нове цебро для використання в поточному потоці
 
--   [« stream\_bucket\_make\_writeable](function.stream-bucket-make-writeable.html)
+-   [« streambucketmakewriteable](function.stream-bucket-make-writeable.html)
     
--   [stream\_bucket\_prepend »](function.stream-bucket-prepend.html)
+-   [streambucketprepend »](function.stream-bucket-prepend.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Створити нове цебро для використання в поточному потоці
     

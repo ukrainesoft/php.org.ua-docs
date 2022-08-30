@@ -1,12 +1,12 @@
 Перевіряє, чи є поточний рядок коректним
 
--   [« Swoole\\Table::set](swoole-table.set.html)
+-   [« SwooleTable::set](swoole-table.set.html)
     
--   [Swoole\\Timer »](class.swoole-timer.html)
+-   [SwooleTimer »](class.swoole-timer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Перевіряє, чи є поточний рядок коректним
     

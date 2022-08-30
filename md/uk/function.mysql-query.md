@@ -1,8 +1,8 @@
 Надсилає запит MySQL
 
--   [« mysql\_ping](function.mysql-ping.html)
+-   [« mysqlping](function.mysql-ping.html)
     
--   [mysql\_real\_escape\_string »](function.mysql-real-escape-string.html)
+-   [mysqlrealescapestring »](function.mysql-real-escape-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlquery — Надсилає запит MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_query()](mysqli.query.html)
+-   [mysqliquery()](mysqli.query.html)
 -   [PDO::query()](pdo.query.html)
 
 ### Опис
@@ -42,7 +42,7 @@ SQL-запит
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -50,9 +50,9 @@ SQL-запит
 
 Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP та інших, **mysqlquery()** повертає **`true`** у разі успішного виконання та **`false`** у разі виникнення помилки.
 
-Отриманий дескриптор результату слід передати у функцію [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) або будь-яку іншу функцію, яка працює з результатами запитів.
+Отриманий дескриптор результату слід передати у функцію [mysqlfetchassoc()](function.mysql-fetch-assoc.html) або будь-яку іншу функцію, яка працює з результатами запитів.
 
-Використовуйте [mysql\_num\_rows()](function.mysql-num-rows.html) для з'ясування кількості рядів в результаті SELECT-запиту або [mysql\_affected\_rows()](function.mysql-affected-rows.html) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
+Використовуйте [mysqlnumrows()](function.mysql-num-rows.html) для з'ясування кількості рядів в результаті SELECT-запиту або [mysqlaffectedrows()](function.mysql-affected-rows.html) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
 
 **mysqlquery()** також завершиться з помилкою та поверне **`false`**, якщо користувач не має доступу до будь-якої з таблиць, що фігурують у запиті.
 
@@ -120,9 +120,9 @@ mysql_free_result($result);
 
 ### Дивіться також
 
--   [mysql\_connect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
--   [mysql\_error()](function.mysql-error.html) - Повертає текст помилки останньої операції з MySQL
--   [mysql\_real\_escape\_string()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
--   [mysql\_result()](function.mysql-result.html) - Повертає дані результату запиту
--   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysql\_unbuffered\_query()](function.mysql-unbuffered-query.html) - Надсилає запит MySQL без авто-обробки результату та його буферизації
+-   [mysqlconnect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
+-   [mysqlerror()](function.mysql-error.html) - Повертає текст помилки останньої операції з MySQL
+-   [mysqlrealescapestring()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
+-   [mysqlresult()](function.mysql-result.html) - Повертає дані результату запиту
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlunbufferedquery()](function.mysql-unbuffered-query.html) - Надсилає запит MySQL без авто-обробки результату та його буферизації

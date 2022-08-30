@@ -1,8 +1,8 @@
 OrderedList успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\BulletList::\_\_construct](commonmark-node-bulletlist.construct.html)
+-   [« CommonMarkNodeBulletList::construct](commonmark-node-bulletlist.construct.html)
     
--   [CommonMark\\Node\\OrderedList::\_\_construct »](commonmark-node-orderedlist.construct.html)
+-   [CommonMarkNodeOrderedList::construct »](commonmark-node-orderedlist.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -112,4 +112,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\OrderedList::\_\_construct](commonmark-node-orderedlist.construct.html) - Конструктор класу OrderedList
+-   [CommonMarkNodeOrderedList::construct](commonmark-node-orderedlist.construct.html) - Конструктор класу OrderedList

@@ -1,12 +1,12 @@
 Створює новий Server (не використовується)
 
--   [« MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [« MongoDBDriverServer](class.mongodb-driver-server.html)
     
--   [MongoDB\\Driver\\Server::executeBulkWrite »](mongodb-driver-server.executebulkwrite.html)
+-   [MongoDBDriverServer::executeBulkWrite »](mongodb-driver-server.executebulkwrite.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Створює новий Server (не використовується)
     
@@ -23,7 +23,7 @@ MongoDBDriverServer::construct — Створює новий сервер (не 
 final private MongoDB\Driver\Server::__construct()
 ```
 
-Об'єкти [MongoDB\\Driver\\Server](class.mongodb-driver-server.html) створюються всередині [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html), коли з'єднання з базою даних встановлено і можуть бути повернуті [MongoDB\\Driver\\Manager::getServers()](mongodb-driver-manager.getservers.html) і [MongoDB\\Driver\\Manager::selectServer()](mongodb-driver-manager.selectserver.html)
+Об'єкти [MongoDBDriverServer](class.mongodb-driver-server.html) створюються всередині [MongoDBDriverManager](class.mongodb-driver-manager.html), коли з'єднання з базою даних встановлено і можуть бути повернуті [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.html) і [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.html)
 
 ### Список параметрів
 
@@ -31,5 +31,5 @@ final private MongoDB\Driver\Server::__construct()
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::getServers()](mongodb-driver-manager.getservers.html) - Повертає сервери, до яких підключено менеджера
--   [MongoDB\\Driver\\Manager::selectServer()](mongodb-driver-manager.selectserver.html) - Вибрати сервер, що відповідає перевагам читання
+-   [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.html) - Повертає сервери, до яких підключено менеджера
+-   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.html) - Вибрати сервер, що відповідає перевагам читання

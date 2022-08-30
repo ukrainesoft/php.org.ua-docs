@@ -79,6 +79,6 @@ ERROR: msgfmt_format: not enough parameters: U_ILLEGAL_ARGUMENT_ERROR (1)
 
 ### Дивіться також
 
--   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
--   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [msgfmtgeterrorcode()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

@@ -1,8 +1,8 @@
 Повертає версію сервера Oracle
 
--   [« oci\_rollback](function.oci-rollback.html)
+-   [« ocirollback](function.oci-rollback.html)
     
--   [oci\_set\_action »](function.oci-set-action.html)
+-   [ocisetaction »](function.oci-set-action.html)
     
 -   [PHP Manual](index.html)
     
@@ -56,8 +56,8 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ociserverversion()](function.ociserverversion.html). У PHP 5.0.0 і вище [ociserverversion()](function.ociserverversion.html) є аліасом **ociserverversion()**Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ociserverversion()](function.ociserverversion.html). У PHP 5.0.0 і вище [ociserverversion()](function.ociserverversion.html) є аліасом \*\*ociserverversion()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [oci\_client\_version()](function.oci-client-version.html) - Повертає версію клієнтської бібліотеки
+-   [ociclientversion()](function.oci-client-version.html) - Повертає версію клієнтської бібліотеки

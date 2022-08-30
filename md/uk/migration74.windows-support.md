@@ -19,9 +19,9 @@
 
 ### Обробка CTRL
 
-Комбінації клавіш CTRL+C та CTRL+BREAK у командному рядку можна перехопити, встановивши функцію-обробник за допомогою [sapi\_windows\_set\_ctrl\_handler()](function.sapi-windows-set-ctrl-handler.html)
+Комбінації клавіш CTRL+C та CTRL+BREAK у командному рядку можна перехопити, встановивши функцію-обробник за допомогою [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.html)
 
-Функції [proc\_open()](function.proc-open.html) на Windows може бути передана опція "createprocessgroup". Це потрібно, якщо дочірній процес має обробляти події CTRL.
+Функції [procopen()](function.proc-open.html) на Windows може бути передана опція "createprocessgroup". Це потрібно, якщо дочірній процес має обробляти події CTRL.
 
 ### OPcache
 
@@ -38,4 +38,4 @@ OPcache тепер підтримує довільну кількість окр
 
 ### libsqlite3
 
-libsqlite3 більше не компілюється статично у phpsqlite3.dll та phppdosqlite.dll, але доступний як libsqlite3.dll. Зверніться до інструкції з установки для [SQLite3](sqlite3.installation.html) і [PDO\_SQLITE](ref.pdo-sqlite.html#ref.pdo-sqlite.installation) відповідно.
+libsqlite3 більше не компілюється статично у phpsqlite3.dll та phppdosqlite.dll, але доступний як libsqlite3.dll. Зверніться до інструкції з установки для [SQLite3](sqlite3.installation.html) і [PDOSQLITE](ref.pdo-sqlite.html#ref.pdo-sqlite.installation) відповідно.

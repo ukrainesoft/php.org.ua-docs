@@ -1,12 +1,12 @@
 Відображення кліпів по поточному шляху
 
--   [« ps\_circle](function.ps-circle.html)
+-   [«pscircle](function.ps-circle.html)
     
--   [ps\_close\_image »](function.ps-close-image.html)
+-   [псcloseimage »](function.ps-close-image.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Відображення кліпів по поточному шляху
     
@@ -29,7 +29,7 @@ ps_clip(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_clip(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_closepath()](function.ps-closepath.html) - Замикає шлях
+-   [псclosepath()](function.ps-closepath.html) - Замикає шлях

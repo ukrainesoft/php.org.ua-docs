@@ -1,12 +1,12 @@
 Створити новий конвертер зображень
 
--   [« wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.html)
+-   [« wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
     
--   [wkhtmltox\\Image\\Converter::convert »](wkhtmltox-image-converter.convert.html)
+-   [wkhtmltoxImageConverter::convert »](wkhtmltox-image-converter.convert.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.html)
+-   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
     
 -   Створити новий конвертер зображень
     

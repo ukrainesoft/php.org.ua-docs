@@ -2,7 +2,7 @@
 
 -   [« Хешируемое](class.ds-hashable.html)
     
--   [Ds\\Hashable::hash »](ds-hashable.hash.html)
+-   [ДсHashable::hash »](ds-hashable.hash.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ abstract public Ds\Hashable::equals(object $obj): bool
 
 **Застереження**
 
-Щоб об'єкти вважалися ідентичними, необхідно, щоб вони мали однаковий хеш. Дивіться опис функції [Ds\\Hashable::hash()](ds-hashable.hash.html)
+Щоб об'єкти вважалися ідентичними, необхідно, щоб вони мали однаковий хеш. Дивіться опис функції [ДсHashable::hash()](ds-hashable.hash.html)
 
 ### Список параметрів
 

@@ -1,6 +1,6 @@
 Встановити, чи слід використовувати обробник помилок SOAP
 
--   [« is\_soap\_fault](function.is-soap-fault.html)
+-   [« issoapfault](function.is-soap-fault.html)
     
 -   [SoapClient »](class.soapclient.html)
     
@@ -37,5 +37,5 @@ use_soap_error_handler(bool $enable = true): bool
 
 ### Дивіться також
 
--   [set\_error\_handler()](function.set-error-handler.html) - Задає користувальницький обробник помилок
--   [set\_exception\_handler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків
+-   [seterrorhandler()](function.set-error-handler.html) - Задає користувальницький обробник помилок
+-   [setexceptionhandler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків

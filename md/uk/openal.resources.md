@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-Цей модуль визначає чотири типи ресурсів: *Open AL(Device)* - Повертається [openal\_device\_open()](function.openal-device-open.html) *Open AL(Context)* - Повертається [openal\_context\_create()](function.openal-context-create.html) *Open AL(Buffer)* - Повертається [openal\_buffer\_create()](function.openal-buffer-create.html), і *Open AL(Source)* - Повертається [openal\_source\_create()](function.openal-source-create.html)
+Цей модуль визначає чотири типи ресурсів: *Open AL(Device)* - Повертається [openaldeviceopen()](function.openal-device-open.html) *Open AL(Context)* - Повертається [openalcontextcreate()](function.openal-context-create.html) *Open AL(Buffer)* - Повертається [openalbuffercreate()](function.openal-buffer-create.html), і *Open AL(Source)* - Повертається [openalsourcecreate()](function.openal-source-create.html)

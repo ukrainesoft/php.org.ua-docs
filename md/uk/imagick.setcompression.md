@@ -29,7 +29,7 @@ public Imagick::setCompression(int $compression): bool
 
 `compression`
 
-Тип стиснення. Дивіться константи [Imagick::COMPRESSION\_\*](imagick.constants.html)
+Тип стиснення. Дивіться константи [Imagick::COMPRESSION](imagick.constants.html)
 
 ### Значення, що повертаються
 

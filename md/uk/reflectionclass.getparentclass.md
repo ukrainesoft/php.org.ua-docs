@@ -33,8 +33,8 @@ public ReflectionClass::getParentClass(): ReflectionClass|false
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html), або **`false`**якщо батька немає.
+Об'єкт класу [ReflectionClass](class.reflectionclass.html), або \*\*`false`\*\*якщо батька немає.
 
 ### Дивіться також
 
--   [ReflectionClass::\_\_construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass

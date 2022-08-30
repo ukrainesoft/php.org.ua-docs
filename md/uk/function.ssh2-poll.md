@@ -1,12 +1,12 @@
 Опитує канали/слухачів/потоки щодо подій
 
--   [« ssh2\_methods\_negotiated](function.ssh2-methods-negotiated.html)
+-   [« ssh2methodsnegotiated](function.ssh2-methods-negotiated.html)
     
--   [ssh2\_publickey\_add »](function.ssh2-publickey-add.html)
+-   [ssh2publickeyadd »](function.ssh2-publickey-add.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Опитує канали/слухачів/потоки щодо подій
     

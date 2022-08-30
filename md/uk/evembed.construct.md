@@ -23,7 +23,7 @@ public **EvEmbed::construct**
 object `$other`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
-int `$priority`  
+int `$priority`
 
 Це досить просунутий тип спостерігача, який дозволяє вбудувати один цикл подій в інший (нині підтримуються лише події введення-виводу у вбудованому циклі, інші типи спостерігачів можуть оброблятися із затримкою чи неправильно і не повинні використовуватися).
 
@@ -39,7 +39,7 @@ int `$priority`
 
 `callback`
 
-Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

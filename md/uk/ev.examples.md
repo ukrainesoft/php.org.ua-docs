@@ -2,11 +2,11 @@
 
 -   [« Предопределённые константы](ev.global.constants.html)
     
--   [Наблюдатели »](ev.watchers.html)
+-   [Спостерігачі »](ev.watchers.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Приклади
     

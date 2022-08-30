@@ -1,8 +1,8 @@
 Встановлює специфічні для FDF вихідні заголовки
 
--   [« fdf\_get\_version](function.fdf-get-version.html)
+-   [« fdfgetversion](function.fdf-get-version.html)
     
--   [fdf\_next\_field\_name »](function.fdf-next-field-name.html)
+-   [fdfnextfieldname »](function.fdf-next-field-name.html)
     
 -   [PHP Manual](index.html)
     

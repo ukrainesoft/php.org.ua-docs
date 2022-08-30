@@ -1,12 +1,12 @@
 Конструктор класу YafRequestSimple
 
--   [« Yaf\_Request\_Simple](class.yaf-request-simple.html)
+-   [« YafRequestSimple](class.yaf-request-simple.html)
     
--   [Yaf\_Request\_Simple::get »](yaf-request-simple.get.html)
+-   [YafRequestSimple::get »](yaf-request-simple.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Simple](class.yaf-request-simple.html)
+-   [YafRequestSimple](class.yaf-request-simple.html)
     
 -   Конструктор класу YafRequestSimple
     
@@ -24,7 +24,7 @@ string `$method`
 string `$module`  
 string `$controller`  
 string `$action`  
-array `$params`  
+array `$params`
 
 **Увага**
 

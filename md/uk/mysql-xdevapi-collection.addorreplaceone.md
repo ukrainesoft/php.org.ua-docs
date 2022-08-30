@@ -2,11 +2,11 @@
 
 -   [« Collection::add](mysql-xdevapi-collection.add.html)
     
--   [Collection::\_\_construct »](mysql-xdevapi-collection.construct.html)
+-   [Collection::construct »](mysql-xdevapi-collection.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+-   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     
 -   Додає або замінює документ колекції
     

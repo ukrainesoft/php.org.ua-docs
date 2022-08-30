@@ -2,7 +2,7 @@
 
 -   [« CurlShareHandle](class.curlsharehandle.html)
     
--   [CURLFile::\_\_construct »](curlfile.construct.html)
+-   [CURLFile::construct »](curlfile.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -78,12 +78,12 @@ postname
 
 ## Дивіться також
 
--   [curl\_setopt()](function.curl-setopt.html)
+-   [curlsetopt()](function.curl-setopt.html)
 -   [CURLStringFile](class.curlstringfile.html)
 
 ## Зміст
 
--   [CURLFile::\_\_construct](curlfile.construct.html) — Створює об'єкт CURLFile
+-   [CURLFile::construct](curlfile.construct.html) — Створює об'єкт CURLFile
 -   [CURLFile::getFilename](curlfile.getfilename.html) — Повертає ім'я файлу на сервер
 -   [CURLFile::getMimeType](curlfile.getmimetype.html) - Повертає MIME-тип файлу
 -   [CURLFile::getPostFilename](curlfile.getpostfilename.html) — Повертає ім'я файлу, що надсилається POST-запитом

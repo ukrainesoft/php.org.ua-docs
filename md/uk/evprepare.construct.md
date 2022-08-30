@@ -27,7 +27,7 @@ public **EvPrepare::construct**(string `$callback` , string `$data` ?, string `$
 
 `callback`
 
-Дивіться [функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

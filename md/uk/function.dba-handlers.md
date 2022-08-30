@@ -1,12 +1,12 @@
 Список доступних обробників
 
--   [« dba\_firstkey](function.dba-firstkey.html)
+-   [« dbafirstkey](function.dba-firstkey.html)
     
--   [dba\_insert »](function.dba-insert.html)
+-   [dbainsert »](function.dba-insert.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Список доступних обробників
     

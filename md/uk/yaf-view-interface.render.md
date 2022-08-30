@@ -1,12 +1,12 @@
 Малює шаблон
 
--   [« Yaf\_View\_Interface::getScriptPath](yaf-view-interface.getscriptpath.html)
+-   [« YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.html)
     
--   [Yaf\_View\_Interface::setScriptPath »](yaf-view-interface.setscriptpath.html)
+-   [YafViewInterface::setScriptPath »](yaf-view-interface.setscriptpath.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Interface](class.yaf-view-interface.html)
+-   [YafViewInterface](class.yaf-view-interface.html)
     
 -   Малює шаблон
     

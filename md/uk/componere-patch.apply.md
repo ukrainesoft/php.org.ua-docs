@@ -1,12 +1,12 @@
 додаток
 
--   [« Componere\\Patch::\_\_construct](componere-patch.construct.html)
+-   [« ComponerePatch::construct](componere-patch.construct.html)
     
--   [Componere\\Patch::revert »](componere-patch.revert.html)
+-   [ComponerePatch::revert »](componere-patch.revert.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Patch](class.componere-patch.html)
+-   [ComponerePatch](class.componere-patch.html)
     
 -   додаток
     

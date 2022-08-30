@@ -1,8 +1,8 @@
 Встановити запрошення командного рядка
 
--   [« phpdbg\_get\_executable](function.phpdbg-get-executable.html)
+-   [« phpdbggetexecutable](function.phpdbg-get-executable.html)
     
--   [phpdbg\_start\_oplog »](function.phpdbg-start-oplog.html)
+-   [phpdbgstartoplog »](function.phpdbg-start-oplog.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ phpdbg_prompt(string $string): void
 
 ### Дивіться також
 
--   [phpdbg\_color()](function.phpdbg-color.html) - Задати колір елементу
+-   [phpdbgcolor()](function.phpdbg-color.html) - Задати колір елементу

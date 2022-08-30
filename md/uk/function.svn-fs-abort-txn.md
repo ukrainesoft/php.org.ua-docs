@@ -1,12 +1,12 @@
 Скасує транзакцію
 
--   [« svn\_export](function.svn-export.html)
+-   [« svnexport](function.svn-export.html)
     
--   [svn\_fs\_apply\_text »](function.svn-fs-apply-text.html)
+-   [svnфсapplytext »](function.svn-fs-apply-text.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Скасує транзакцію
     

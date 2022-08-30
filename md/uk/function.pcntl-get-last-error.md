@@ -1,12 +1,12 @@
 Отримати код останньої помилки, що виникла в pcntl-функції
 
--   [« pcntl\_fork](function.pcntl-fork.html)
+-   [pcntlfork](function.pcntl-fork.html)
     
--   [pcntl\_getpriority »](function.pcntl-getpriority.html)
+-   [pcntlgetpriority »](function.pcntl-getpriority.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Отримати код останньої помилки, що виникла в pcntl-функції
     
@@ -37,4 +37,4 @@ pcntl_get_last_error(): int
 
 ### Дивіться також
 
--   [pcntl\_strerror()](function.pcntl-strerror.html) - Отримати текст помилки за її кодом
+-   [pcntlstrerror()](function.pcntl-strerror.html) - Отримати текст помилки за її кодом

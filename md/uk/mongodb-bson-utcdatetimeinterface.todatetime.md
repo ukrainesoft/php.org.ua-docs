@@ -1,12 +1,12 @@
 Повертає уявлення DateTime цього UTCDateTimeInterface
 
--   [« MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
+-   [« MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
     
--   [MongoDB\\BSON\\UTCDateTimeInterface::\_\_toString »](mongodb-bson-utcdatetimeinterface.tostring.html)
+-   [MongoDBBSONUTCDateTimeInterface::toString »](mongodb-bson-utcdatetimeinterface.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
+-   [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
     
 -   Повертає уявлення DateTime цього UTCDateTimeInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\UTCDateTimeInterface::toDateTime(): DateTime
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\UTCDateTime::toDateTime()](mongodb-bson-utcdatetime.todatetime.html) - Повертає уявлення DateTime цього UTCDateTime
+-   [MongoDBBSONUTCDateTime::toDateTime()](mongodb-bson-utcdatetime.todatetime.html) - Повертає уявлення DateTime цього UTCDateTime

@@ -51,11 +51,11 @@ public
 
 `optname`
 
-Ім'я опції (тип). Те саме, що й відповідний параметр функції [socket\_get\_option()](function.socket-get-option.html). Дивіться [константы EventUtil](class.eventutil.html#eventutil.constants)
+Ім'я опції (тип). Те саме, що й відповідний параметр функції [socketgetoption()](function.socket-get-option.html). Дивіться [константы EventUtil](class.eventutil.html#eventutil.constants)
 
 `optval`
 
-Приймає ті ж значення, що й параметр `optval` функції [socket\_get\_option()](function.socket-get-option.html)
+Приймає ті ж значення, що й параметр `optval` функції [socketgetoption()](function.socket-get-option.html)
 
 ### Значення, що повертаються
 
@@ -63,5 +63,5 @@ public
 
 ### Дивіться також
 
--   [socket\_get\_option()](function.socket-get-option.html) - Отримує опції потоку для сокету
--   [socket\_set\_option()](function.socket-set-option.html) - Встановлює опції для сокету
+-   [socketgetoption()](function.socket-get-option.html) - Отримує опції потоку для сокету
+-   [socketsetoption()](function.socket-set-option.html) - Встановлює опції для сокету

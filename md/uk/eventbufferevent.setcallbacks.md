@@ -62,4 +62,4 @@ Callback – функція події зміни статусу. Дивітьс
 
 ### Дивіться також
 
--   [EventBufferEvent::\_\_construct()](eventbufferevent.construct.html) - Створює об'єкт EventBufferEvent
+-   [EventBufferEvent::construct()](eventbufferevent.construct.html) - Створює об'єкт EventBufferEvent

@@ -1,12 +1,12 @@
 Ініціалізувати GnuPG
 
--   [« gnupg\_import](function.gnupg-import.html)
+-   [« gnupgimport](function.gnupg-import.html)
     
--   [gnupg\_keyinfo »](function.gnupg-keyinfo.html)
+-   [gnupgkeyinfo »](function.gnupg-keyinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Ініціалізувати GnuPG
     

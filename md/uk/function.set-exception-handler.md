@@ -1,8 +1,8 @@
 Задає користувальницький обробник винятків
 
--   [« set\_error\_handler](function.set-error-handler.html)
+-   [« seterrorhandler](function.set-error-handler.html)
     
--   [trigger\_error »](function.trigger-error.html)
+-   [triggererror »](function.trigger-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -60,7 +60,7 @@ echo "Не выполнено\n";
 
 ### Дивіться також
 
--   [restore\_exception\_handler()](function.restore-exception-handler.html) - Відновлює попередній обробник винятків
--   [restore\_error\_handler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
--   [error\_reporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
+-   [restoreexceptionhandler()](function.restore-exception-handler.html) - Відновлює попередній обробник винятків
+-   [restoreerrorhandler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
+-   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
 -   [Исключения PHP 5](language.exceptions.html)

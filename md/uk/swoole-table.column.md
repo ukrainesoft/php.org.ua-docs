@@ -1,12 +1,12 @@
 Встановлює тип даних та розмір стовпців
 
--   [« Swoole\\Table](class.swoole-table.html)
+-   [« SwooleTable](class.swoole-table.html)
     
--   [Swoole\\Table::\_\_construct »](swoole-table.construct.html)
+-   [SwooleTable::construct »](swoole-table.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Встановлює тип даних та розмір стовпців
     

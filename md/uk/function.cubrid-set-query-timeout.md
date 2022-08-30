@@ -1,8 +1,8 @@
 Встановлює час очікування на виконання запиту
 
--   [« cubrid\_set\_drop](function.cubrid-set-drop.html)
+-   [« cubridsetdrop](function.cubrid-set-drop.html)
     
--   [cubrid\_version »](function.cubrid-version.html)
+-   [cubridversion »](function.cubrid-version.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ Request identifier.
 
 ### Дивіться також
 
--   [cubrid\_get\_query\_timeout()](function.cubrid-get-query-timeout.html) - Отримує значення часу очікування запиту
+-   [cubridgetquerytimeout()](function.cubrid-get-query-timeout.html) - Отримує значення часу очікування запиту

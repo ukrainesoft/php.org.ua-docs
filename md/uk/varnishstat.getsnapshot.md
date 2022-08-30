@@ -1,6 +1,6 @@
 Отримати фотографію статистики поточного примірника varnish
 
--   [« VarnishStat::\_\_construct](varnishstat.construct.html)
+-   [« VarnishStat::construct](varnishstat.construct.html)
     
 -   [VarnishLog »](class.varnishlog.html)
     

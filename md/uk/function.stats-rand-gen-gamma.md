@@ -1,12 +1,12 @@
 Обчислює випадкове відхилення від гамма-розподілу
 
--   [« stats\_rand\_gen\_funiform](function.stats-rand-gen-funiform.html)
+-   [« statsrandgenfuniform](function.stats-rand-gen-funiform.html)
     
--   [stats\_rand\_gen\_ibinomial\_negative »](function.stats-rand-gen-ibinomial-negative.html)
+-   [statsrandgenibinomialnegative »](function.stats-rand-gen-ibinomial-negative.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює випадкове відхилення від гамма-розподілу
     

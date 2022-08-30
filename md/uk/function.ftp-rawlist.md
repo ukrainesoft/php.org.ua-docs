@@ -1,12 +1,12 @@
 Повертає докладний список файлів у заданій директорії
 
--   [« ftp\_raw](function.ftp-raw.html)
+-   [« ftpraw](function.ftp-raw.html)
     
--   [ftp\_rename »](function.ftp-rename.html)
+-   [ftprename »](function.ftp-rename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Повертає докладний список файлів у заданій директорії
     
@@ -29,7 +29,7 @@ ftp_rawlist(FTP\Connection $ftp, string $directory, bool $recursive = false): ar
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `directory`
 
@@ -43,13 +43,13 @@ ftp_rawlist(FTP\Connection $ftp, string $directory, bool $recursive = false): ar
 
 Повертає масив, кожен елемент якого містить один рядок відповіді сервера. Повертає **`false`**, якщо передана директорія `directory` не валідна.
 
-Відповідь сервера не обробляється. Для визначення того, як слід інтерпретувати результат, можна використовувати результат роботи функції [ftp\_systype()](function.ftp-systype.html)
+Відповідь сервера не обробляється. Для визначення того, як слід інтерпретувати результат, можна використовувати результат роботи функції [ftpsystype()](function.ftp-systype.html)
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -90,5 +90,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ftp\_nlist()](function.ftp-nlist.html) - Повертає список файлів у заданій директорії
--   [ftp\_mlsd()](function.ftp-mlsd.html) - Повертає список файлів у заданій директорії
+-   [ftpnlist()](function.ftp-nlist.html) - Повертає список файлів у заданій директорії
+-   [ftpmlsd()](function.ftp-mlsd.html) - Повертає список файлів у заданій директорії

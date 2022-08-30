@@ -1,8 +1,8 @@
 Перевідкриває потік IMAP до нової скриньки
 
--   [« imap\_renamemailbox](function.imap-renamemailbox.html)
+-   [« imaprenamemailbox](function.imap-renamemailbox.html)
     
--   [imap\_rfc822\_parse\_adrlist »](function.imap-rfc822-parse-adrlist.html)
+-   [imaprfc822parseadrlist »](function.imap-rfc822-parse-adrlist.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,15 +29,15 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `mailbox`
 
-Ім'я поштової скриньки. Докладніше читайте у розділі про функцію [imap\_open()](function.imap-open.html)
+Ім'я поштової скриньки. Докладніше читайте у розділі про функцію [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `flags`
 
@@ -47,7 +47,7 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 -   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
 -   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
 -   **`OP_EXPUNGE`** - мовчки виконати видалення позначених для видалення повідомлень у потоці
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imap\_delete()](function.imap-delete.html) і [imap\_expunge()](function.imap-expunge.html)
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.html)
 
 `retries`
 
@@ -59,9 +59,9 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

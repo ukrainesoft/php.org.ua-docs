@@ -1,12 +1,12 @@
 Повертає останній компонент імені із зазначеного шляху
 
--   [« Функции файловой системы](ref.filesystem.html)
+-   [« Функції файлової системи](ref.filesystem.html)
     
 -   [chgrp »](function.chgrp.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає останній компонент імені із зазначеного шляху
     

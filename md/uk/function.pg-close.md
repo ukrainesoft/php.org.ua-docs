@@ -1,8 +1,8 @@
 Закриває з'єднання з базою даних PostgreSQL
 
--   [« pg\_client\_encoding](function.pg-client-encoding.html)
+-   [« pgclientencoding](function.pg-client-encoding.html)
     
--   [pg\_connect\_poll »](function.pg-connect-poll.html)
+-   [пгconnectpoll »](function.pg-connect-poll.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,13 +29,13 @@ pg_close(?PgSql\Connection $connection = null): bool
 > 
 > Використання **пгclose()**, зазвичай, необов'язково, оскільки непостійні з'єднання закриваються автоматично після завершення роботи скрипта.
 
-Якщо зі з'єднанням працюють екземпляри [PgSql\\Lob](class.pgsql-lob.html), то перед закриттям з'єднання необхідно закрити всі екземпляри [PgSql\\Lob](class.pgsql-lob.html)
+Якщо зі з'єднанням працюють екземпляри [PgSqlLob](class.pgsql-lob.html), то перед закриттям з'єднання необхідно закрити всі екземпляри [PgSqlLob](class.pgsql-lob.html)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -47,10 +47,10 @@ pg_close(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 
@@ -73,4 +73,4 @@ pg_close($dbconn);
 
 ### Дивіться також
 
--   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL

@@ -24,7 +24,7 @@ public
    EventConfig::__construct()
 ```
 
-Створює об'єкт EventConfig, який можна передати до конструктора [EventBase::\_\_construct()](eventbase.construct.html)
+Створює об'єкт EventConfig, який можна передати до конструктора [EventBase::construct()](eventbase.construct.html)
 
 ### Список параметрів
 
@@ -55,4 +55,4 @@ $base = new EventBase($cfg);
 
 ### Дивіться також
 
--   [EventBase::\_\_construct()](eventbase.construct.html) - Конструктор об'єкту EventBase
+-   [EventBase::construct()](eventbase.construct.html) - Конструктор об'єкту EventBase

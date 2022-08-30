@@ -1,12 +1,12 @@
 Надсилає дані HTTP-запиту та завершує відповідь
 
--   [« Swoole\\Http\\Response::\_\_destruct](swoole-http-response.destruct.html)
+-   [« SwooleHttpResponse::destruct](swoole-http-response.destruct.html)
     
--   [Swoole\\Http\\Response::gzip »](swoole-http-response.gzip.html)
+-   [SwooleHttpResponse::gzip »](swoole-http-response.gzip.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Надсилає дані HTTP-запиту та завершує відповідь
     

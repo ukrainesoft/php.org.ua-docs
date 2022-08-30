@@ -2,7 +2,7 @@
 
 -   [« EventDnsBase::addSearch](eventdnsbase.addsearch.html)
     
--   [EventDnsBase::\_\_construct »](eventdnsbase.construct.html)
+-   [EventDnsBase::construct »](eventdnsbase.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Отримання масиву помилок, що відбулися
 
--   [« libxml\_disable\_entity\_loader](function.libxml-disable-entity-loader.html)
+-   [« libxmldisableentityloader](function.libxml-disable-entity-loader.html)
     
--   [libxml\_get\_last\_error »](function.libxml-get-last-error.html)
+-   [libxmlgetlasterror »](function.libxml-get-last-error.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.html)
     
 -   Отримання масиву помилок, що відбулися
     
@@ -112,5 +112,5 @@ Fatal Error 76: Opening and ending tag mismatch: titles line 4 and title
 
 ### Дивіться також
 
--   [libxml\_get\_last\_error()](function.libxml-get-last-error.html) - Вилучення останньої помилки з libxml
--   [libxml\_clear\_errors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml
+-   [libxmlgetlasterror()](function.libxml-get-last-error.html) - Вилучення останньої помилки з libxml
+-   [libxmlclearerrors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml

@@ -1,12 +1,12 @@
 Отримання поточного значення конфігураційної установки includepath
 
--   [« get\_extension\_funcs](function.get-extension-funcs.html)
+-   [« getextensionfuncs](function.get-extension-funcs.html)
     
--   [get\_included\_files »](function.get-included-files.html)
+-   [getincludedfiles »](function.get-included-files.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримання поточного значення конфігураційної установки includepath
     
@@ -23,7 +23,7 @@ getincludepath — Отримання поточного значення кон
 get_include_path(): string|false
 ```
 
-Отримує значення налаштування конфігурації [include\_path](ini.core.html#ini.include-path)
+Отримує значення налаштування конфігурації [includepath](ini.core.html#ini.include-path)
 
 ### Список параметрів
 
@@ -48,7 +48,7 @@ echo ini_get('include_path');
 
 ### Дивіться також
 
--   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [restore\_include\_path()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
--   [set\_include\_path()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
+-   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [restoreincludepath()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
+-   [setincludepath()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
 -   [include](function.include.html) - include

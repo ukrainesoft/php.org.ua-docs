@@ -1,12 +1,12 @@
 Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
 
--   [« dio\_stat](function.dio-stat.html)
+-   [« diostat](function.dio-stat.html)
     
--   [dio\_truncate »](function.dio-truncate.html)
+-   [diotruncate »](function.dio-truncate.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
     
@@ -29,7 +29,7 @@ dio_tcsetattr(resource $fd, array $options): bool
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 `options`
 

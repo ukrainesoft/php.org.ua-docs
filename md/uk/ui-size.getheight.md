@@ -1,12 +1,12 @@
 Отримує висоту
 
--   [« UI\\Size::\_\_construct](ui-size.construct.html)
+-   [« UISize::construct](ui-size.construct.html)
     
--   [UI\\Size::getWidth »](ui-size.getwidth.html)
+-   [ОЙSize::getWidth »](ui-size.getwidth.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Size](class.ui-size.html)
+-   [ОЙSize](class.ui-size.html)
     
 -   Отримує висоту
     

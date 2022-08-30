@@ -1,12 +1,12 @@
 Запускає процес
 
--   [« Swoole\\Process::signal](swoole-process.signal.html)
+-   [« SwooleProcess::signal](swoole-process.signal.html)
     
--   [Swoole\\Process::statQueue »](swoole-process.statqueue.html)
+-   [SwooleProcess::statQueue »](swoole-process.statqueue.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Запускає процес
     

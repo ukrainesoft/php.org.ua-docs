@@ -1,8 +1,8 @@
 Створює випадковий ключ ChaCha20-Poly1305
 
--   [« sodium\_crypto\_aead\_chacha20poly1305\_ietf\_keygen](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html)
+-   [« sodiumcryptoaeadchacha20poly1305ietfkeygen](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html)
     
--   [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt »](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html)
+-   [sodiumcryptoaeadxchacha20poly1305ietfdecrypt »](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ sodiumcryptoaeadchacha20poly1305keygen — Створює випадковий �
 sodium_crypto_aead_chacha20poly1305_keygen(): string
 ```
 
-Створює випадковий ключ для використання в [sodium\_crypto\_aead\_chacha20poly1305\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) і [sodium\_crypto\_aead\_chacha20poly1305\_decrypt()](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
+Створює випадковий ключ для використання в [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) і [sodiumcryptoaeadchacha20poly1305decrypt()](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
 
 ### Список параметрів
 

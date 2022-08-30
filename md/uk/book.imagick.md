@@ -59,7 +59,7 @@
     -   [Imagick::compareImageLayers](imagick.compareimagelayers.html) — Повертає максимальну область, що обмежує між зображеннями.
     -   [Imagick::compareImages](imagick.compareimages.html) — Порівнює зображення з відновленим зображенням
     -   [Imagick::compositeImage](imagick.compositeimage.html) — Накладає одне зображення на інше
-    -   [Imagick::\_\_construct](imagick.construct.html) - Конструктор об'єкту Imagick
+    -   [Imagick::construct](imagick.construct.html) - Конструктор об'єкту Imagick
     -   [Imagick::contrastImage](imagick.contrastimage.html) — Змінює контраст зображення
     -   [Imagick::contrastStretchImage](imagick.contraststretchimage.html) — Підвищує контрастність кольорового зображення
     -   [Imagick::convolveImage](imagick.convolveimage.html) — Застосовує ядро ​​згортки до зображення.
@@ -359,7 +359,7 @@
     -   [Imagick::thresholdImage](imagick.thresholdimage.html) - Змінює окремі пікселі на основі порогового значення
     -   [Imagick::thumbnailImage](imagick.thumbnailimage.html) — Змінює розмір зображення
     -   [Imagick::tintImage](imagick.tintimage.html) — Застосовує вектор кольору до кожного пікселя зображення
-    -   [Imagick::\_\_toString](imagick.tostring.html) — Повертає зображення у вигляді рядка
+    -   [Imagick::toString](imagick.tostring.html) — Повертає зображення у вигляді рядка
     -   [Imagick::transformImage](imagick.transformimage.html) — Зручний метод налаштування розміру кадрування та геометрії зображення
     -   [Imagick::transformImageColorspace](imagick.transformimagecolorspace.html) — Перетворює зображення на новий колірний простір
     -   [Imagick::transparentPaintImage](imagick.transparentpaintimage.html) — Малює пікселі прозорими
@@ -387,7 +387,7 @@
     -   [ImagickDraw::color](imagickdraw.color.html) — Малює колір на зображенні
     -   [ImagickDraw::comment](imagickdraw.comment.html) — Додає коментар
     -   [ImagickDraw::composite](imagickdraw.composite.html) — Накладає зображення на поточне зображення
-    -   [ImagickDraw::\_\_construct](imagickdraw.construct.html) - Конструктор класу ImagickDraw
+    -   [ImagickDraw::construct](imagickdraw.construct.html) - Конструктор класу ImagickDraw
     -   [ImagickDraw::destroy](imagickdraw.destroy.html) — Звільняє усі пов'язані ресурси
     -   [ImagickDraw::ellipse](imagickdraw.ellipse.html) — Малює на зображенні еліпс
     -   [ImagickDraw::getClipPath](imagickdraw.getclippath.html) — Повертає ідентифікатор поточного відсічного контуру
@@ -503,7 +503,7 @@
     -   [ImagickDraw::translate](imagickdraw.translate.html) — Застосовує перенесення до поточної системи координат
 -   [ImagickPixel](class.imagickpixel.html) - Клас ImagickPixel
     -   [ImagickPixel::clear](imagickpixel.clear.html) — Очищає ресурси, пов'язані із цим об'єктом
-    -   [ImagickPixel::\_\_construct](imagickpixel.construct.html) - Конструктор ImagickPixel
+    -   [ImagickPixel::construct](imagickpixel.construct.html) - Конструктор ImagickPixel
     -   [ImagickPixel::destroy](imagickpixel.destroy.html) - Звільняє ресурси, пов'язані з цим об'єктом
     -   [ImagickPixel::getColor](imagickpixel.getcolor.html) - Повертає колір
     -   [ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.html) — Повертає колір у вигляді рядка
@@ -524,7 +524,7 @@
     -   [ImagickPixel::setIndex](imagickpixel.setindex.html) - Опис
 -   [ImagickPixelIterator](class.imagickpixeliterator.html) - Клас ImagickPixelIterator
     -   [ImagickPixelIterator::clear](imagickpixeliterator.clear.html) — Очищає ресурси, пов'язані з PixelIterator
-    -   [ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.html) - Конструктор ImagickPixelIterator
+    -   [ImagickPixelIterator::construct](imagickpixeliterator.construct.html) - Конструктор ImagickPixelIterator
     -   [ImagickPixelIterator::destroy](imagickpixeliterator.destroy.html) — Звільняє ресурси, пов'язані з PixelIterator
     -   [ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.html) — Повертає поточний ряд об'єкту ImagickPixel
     -   [ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.html) - Повертає поточний піксель ітератора ряду

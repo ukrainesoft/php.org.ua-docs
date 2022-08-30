@@ -1,12 +1,12 @@
 Синхронізує базу даних
 
--   [« dba\_replace](function.dba-replace.html)
+-   [« dbareplace](function.dba-replace.html)
     
 -   [ODBC »](book.uodbc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Синхронізує базу даних
     
@@ -29,7 +29,7 @@ dba_sync(resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ dba_sync(resource $dba): bool
 
 ### Дивіться також
 
--   [dba\_optimize()](function.dba-optimize.html) - Оптимізує базу даних
+-   [dbaoptimize()](function.dba-optimize.html) - Оптимізує базу даних

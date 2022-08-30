@@ -1,8 +1,8 @@
 Відкриває BLOB-об'єкт для вилучення частин даних
 
--   [« ibase\_blob\_info](function.ibase-blob-info.html)
+-   [« ibaseblobinfo](function.ibase-blob-info.html)
     
--   [ibase\_close »](function.ibase-close.html)
+-   [ibaseclose »](function.ibase-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,10 +41,10 @@ ibase_blob_open(string $blob_id): resource|false
 
 ### Значення, що повертаються
 
-Повертає дескриптор BLOB-об'єкта для подальшого використання за допомогою [ibase\_blob\_get()](function.ibase-blob-get.html) або **`false`** у разі виникнення помилки.
+Повертає дескриптор BLOB-об'єкта для подальшого використання за допомогою [ibaseblobget()](function.ibase-blob-get.html) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibase\_blob\_echo()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер
--   [ibase\_blob\_get()](function.ibase-blob-get.html) - Отримує кількість байтів від відкритого BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibaseblobecho()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер
+-   [ibaseblobget()](function.ibase-blob-get.html) - Отримує кількість байтів від відкритого BLOB-об'єкта

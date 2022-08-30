@@ -2,7 +2,7 @@
 
 -   [« Устаревшие псевдонимы и функции CUBRID](oldaliases.cubrid.html)
     
--   [cubrid\_new\_glo »](function.cubrid-new-glo.html)
+-   [cubridnewglo »](function.cubrid-new-glo.html)
     
 -   [PHP Manual](index.html)
     
@@ -75,6 +75,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubrid\_new\_glo()](function.cubrid-new-glo.html) - Створює екземпляр glo
--   [cubrid\_save\_to\_glo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
--   [cubrid\_send\_glo()](function.cubrid-send-glo.html) - Читання даних з glo та виведення їх у стандартний пристрій виведення
+-   [cubridnewglo()](function.cubrid-new-glo.html) - Створює екземпляр glo
+-   [cubridsaveтоglo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
+-   [cubridsendglo()](function.cubrid-send-glo.html) - Читання даних з glo та виведення їх у стандартний пристрій виведення

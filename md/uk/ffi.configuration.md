@@ -30,8 +30,8 @@
 
 Дозволяє дозволити (`"true"`) або заборонити (`"false"`) використання FFI API, або обмежити використання тільки для CLI SAPI та передзавантажених файлів (`"preload"`
 
-Обмеження FFI API впливають лише на клас [FFI](class.ffi.html), але не на перезавантажені функції об'єкта [FFI\\CData](class.ffi-cdata.html). Це означає, що можна створити об'єкти [FFI\\CData](class.ffi-cdata.html) у завантажуваних файлах і використовувати потім безпосередньо зі скриптів PHP.
+Обмеження FFI API впливають лише на клас [FFI](class.ffi.html), але не на перезавантажені функції об'єкта [FFICData](class.ffi-cdata.html). Це означає, що можна створити об'єкти [FFICData](class.ffi-cdata.html) у завантажуваних файлах і використовувати потім безпосередньо зі скриптів PHP.
 
 `ffi.preload` string
 
-Дозволяє завантажувати прив'язки FFI під час старту, що неможливо з [FFI::load()](ffi.load.html), якщо увімкнено [opcache.preload\_user](opcache.configuration.html#ini.opcache.preload-user). Ця директива приймає список роздільників імен файлів **`DIRECTORY_SEPARATOR`**. Передзавантажені прив'язки доступні за допомогою дзвінка [FFI::scope()](ffi.scope.html)
+Дозволяє завантажувати прив'язки FFI під час старту, що неможливо з [FFI::load()](ffi.load.html), якщо увімкнено [opcache.preloaduser](opcache.configuration.html#ini.opcache.preload-user). Ця директива приймає список роздільників імен файлів **`DIRECTORY_SEPARATOR`**. Передзавантажені прив'язки доступні за допомогою дзвінка [FFI::scope()](ffi.scope.html)

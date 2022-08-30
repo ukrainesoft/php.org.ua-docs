@@ -17,43 +17,43 @@ parallel
 -   [Установка](parallel.setup.html)
 -   [Философия](philosophy.parallel.html)
 -   [Функциональный API](functional.parallel.html)
-    -   [parallel\\bootstrap](parallel.bootstrap.html) — Початкове завантаження
-    -   [parallel\\run](parallel.run.html) - Виконання
--   [parallel\\Runtime](class.parallel-runtime.html) - Клас parallelRuntime
-    -   [parallel\\Runtime::\_\_construct](parallel-runtime.construct.html) - Конструктор класу Runtime
-    -   [parallel\\Runtime::run](parallel-runtime.run.html) - Виконання
-    -   [parallel\\Runtime::close](parallel-runtime.close.html) — Витончене з'єднання під час виконання
-    -   [parallel\\Runtime::kill](parallel-runtime.kill.html) — З'єднання під час виконання
--   [parallel\\Future](class.parallel-future.html) - Клас parallelFuture
-    -   [parallel\\Future::cancel](parallel-future.cancel.html) - Припинення
-    -   [parallel\\Future::cancelled](parallel-future.cancelled.html) — Визначення стану
-    -   [parallel\\Future::done](parallel-future.done.html) — Визначення стану
-    -   [parallel\\Future::value](parallel-future.value.html) - Розширення
--   [parallel\\Channel](class.parallel-channel.html) - Клас parallelChannel
-    -   [parallel\\Channel::\_\_construct](parallel-channel.construct.html) - Конструктор класу Channel
-    -   [parallel\\Channel::make](parallel-channel.make.html) - Доступ
-    -   [parallel\\Channel::open](parallel-channel.open.html) - Доступ
-    -   [parallel\\Channel::recv](parallel-channel.recv.html) - Спільне використання
-    -   [parallel\\Channel::send](parallel-channel.send.html) - Спільне використання
-    -   [parallel\\Channel::close](parallel-channel.close.html) - Закриття
--   [parallel\\Events](class.parallel-events.html) - Клас parallelEvents
-    -   [parallel\\Events::setBlocking](parallel-events.setblocking.html) - Поведінка
-    -   [parallel\\Events::setTimeout](parallel-events.settimeout.html) - Поведінка
-    -   [parallel\\Events::setInput](parallel-events.setinput.html) - Вхід
-    -   [parallel\\Events::addChannel](parallel-events.addchannel.html) - Цілі
-    -   [parallel\\Events::addFuture](parallel-events.addfuture.html) - Цілі
-    -   [parallel\\Events::remove](parallel-events.remove.html) - Цілі
-    -   [parallel\\Events::poll](parallel-events.poll.html) - Опитування
--   [parallel\\Events\\Input](class.parallel-events-input.html) - Клас parallelEventsInput
-    -   [parallel\\Events\\Input::add](parallel-events-input.add.html) - Входи
-    -   [parallel\\Events\\Input::clear](parallel-events-input.clear.html) - Входи
-    -   [parallel\\Events\\Input::remove](parallel-events-input.remove.html) - Входи
--   [parallel\\Events\\Event](class.parallel-events-event.html) - Клас parallelEventsEvent
--   [parallel\\Events\\Event\\Type](class.parallel-events-event-type.html) - Клас parallelEventsEventType
--   [parallel\\Sync](class.parallel-sync.html) - Клас parallelSync
-    -   [parallel\\Sync::\_\_construct](parallel-sync.construct.html) - Конструктор класу
-    -   [parallel\\Sync::get](parallel-sync.get.html) - Доступ
-    -   [parallel\\Sync::set](parallel-sync.set.html) - Доступ
-    -   [parallel\\Sync::wait](parallel-sync.wait.html) - Синхронізація
-    -   [parallel\\Sync::notify](parallel-sync.notify.html) - Синхронізація
-    -   [parallel\\Sync::\_\_invoke](parallel-sync.invoke.html) - Синхронізація
+    -   [parallelbootstrap](parallel.bootstrap.html) — Початкове завантаження
+    -   [parallelrun](parallel.run.html) - Виконання
+-   [parallelRuntime](class.parallel-runtime.html) - Клас parallelRuntime
+    -   [parallelRuntime::construct](parallel-runtime.construct.html) - Конструктор класу Runtime
+    -   [parallelRuntime::run](parallel-runtime.run.html) - Виконання
+    -   [parallelRuntime::close](parallel-runtime.close.html) — Витончене з'єднання під час виконання
+    -   [parallelRuntime::kill](parallel-runtime.kill.html) — З'єднання під час виконання
+-   [parallelFuture](class.parallel-future.html) - Клас parallelFuture
+    -   [parallelFuture::cancel](parallel-future.cancel.html) - Припинення
+    -   [parallelFuture::cancelled](parallel-future.cancelled.html) — Визначення стану
+    -   [parallelFuture::done](parallel-future.done.html) — Визначення стану
+    -   [parallelFuture::value](parallel-future.value.html) - Розширення
+-   [parallelChannel](class.parallel-channel.html) - Клас parallelChannel
+    -   [parallelChannel::construct](parallel-channel.construct.html) - Конструктор класу Channel
+    -   [parallelChannel::make](parallel-channel.make.html) - Доступ
+    -   [parallelChannel::open](parallel-channel.open.html) - Доступ
+    -   [parallelChannel::recv](parallel-channel.recv.html) - Спільне використання
+    -   [parallelChannel::send](parallel-channel.send.html) - Спільне використання
+    -   [parallelChannel::close](parallel-channel.close.html) - Закриття
+-   [parallelEvents](class.parallel-events.html) - Клас parallelEvents
+    -   [parallelEvents::setBlocking](parallel-events.setblocking.html) - Поведінка
+    -   [parallelEvents::setTimeout](parallel-events.settimeout.html) - Поведінка
+    -   [parallelEvents::setInput](parallel-events.setinput.html) - Вхід
+    -   [parallelEvents::addChannel](parallel-events.addchannel.html) - Цілі
+    -   [parallelEvents::addFuture](parallel-events.addfuture.html) - Цілі
+    -   [parallelEvents::remove](parallel-events.remove.html) - Цілі
+    -   [parallelEvents::poll](parallel-events.poll.html) - Опитування
+-   [parallelEventsInput](class.parallel-events-input.html) - Клас parallelEventsInput
+    -   [parallelEventsInput::add](parallel-events-input.add.html) - Входи
+    -   [parallelEventsInput::clear](parallel-events-input.clear.html) - Входи
+    -   [parallelEventsInput::remove](parallel-events-input.remove.html) - Входи
+-   [parallelEventsEvent](class.parallel-events-event.html) - Клас parallelEventsEvent
+-   [parallelEventsEventType](class.parallel-events-event-type.html) - Клас parallelEventsEventType
+-   [parallelSync](class.parallel-sync.html) - Клас parallelSync
+    -   [parallelSync::construct](parallel-sync.construct.html) - Конструктор класу
+    -   [parallelSync::get](parallel-sync.get.html) - Доступ
+    -   [parallelSync::set](parallel-sync.set.html) - Доступ
+    -   [parallelSync::wait](parallel-sync.wait.html) - Синхронізація
+    -   [parallelSync::notify](parallel-sync.notify.html) - Синхронізація
+    -   [parallelSync::invoke](parallel-sync.invoke.html) - Синхронізація

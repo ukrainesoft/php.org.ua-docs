@@ -1,12 +1,12 @@
 Псевдонім для xdiffstringbpatch
 
--   [« xdiff\_string\_merge3](function.xdiff-string-merge3.html)
+-   [xdiffstringmerge3](function.xdiff-string-merge3.html)
     
--   [xdiff\_string\_patch »](function.xdiff-string-patch.html)
+-   [xdiffstringpatch »](function.xdiff-string-patch.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Псевдонім для xdiffstringbpatch
     
@@ -23,9 +23,9 @@ xdiffstringpatchbinary - Псевдонім для xdiffstringbpatch
 xdiff_string_patch_binary(string $str, string $patch): string
 ```
 
-Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html), так і [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html)
+Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiffstringbdiff()](function.xdiff-string-bdiff.html), так і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html)
 
-Починаючи з версії 1.5.0 є псевдонімом для [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.html)
+Починаючи з версії 1.5.0 є псевдонімом для [xdiffstringbpatch()](function.xdiff-string-bpatch.html)
 
 ### Список параметрів
 
@@ -43,6 +43,6 @@ xdiff_string_patch_binary(string $str, string $patch): string
 
 ### Дивіться також
 
--   [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.html) - Застосування бінарного патча до рядка
--   [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html) - Створити бінарний патч для двох рядків
--   [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
+-   [xdiffstringbpatch()](function.xdiff-string-bpatch.html) - Застосування бінарного патча до рядка
+-   [xdiffstringbdiff()](function.xdiff-string-bdiff.html) - Створити бінарний патч для двох рядків
+-   [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint

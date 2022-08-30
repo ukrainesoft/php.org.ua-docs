@@ -1,12 +1,12 @@
 Відкриває зображення з файлу
 
--   [« ps\_open\_file](function.ps-open-file.html)
+-   [«psopenfile](function.ps-open-file.html)
     
--   [ps\_open\_image »](function.ps-open-image.html)
+-   [псopenimage »](function.ps-open-image.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Відкриває зображення з файлу
     
@@ -29,7 +29,7 @@ ps_open_image_file(    resource $psdoc,    string $type,    string $
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `type`
 
@@ -53,6 +53,6 @@ ps_open_image_file(    resource $psdoc,    string $type,    string $
 
 ### Дивіться також
 
--   [ps\_open\_image()](function.ps-open-image.html) - Зчитує зображення для подальшого розміщення
--   [ps\_place\_image()](function.ps-place-image.html) - Розміщує зображення на сторінці
--   [ps\_close\_image()](function.ps-close-image.html) - Закриває зображення та звільняє пам'ять
+-   [псopenimage()](function.ps-open-image.html) - Зчитує зображення для подальшого розміщення
+-   [псplaceimage()](function.ps-place-image.html) - Розміщує зображення на сторінці
+-   [псcloseimage()](function.ps-close-image.html) - Закриває зображення та звільняє пам'ять

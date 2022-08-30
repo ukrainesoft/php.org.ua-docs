@@ -2,11 +2,11 @@
 
 -   [« DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.html)
     
--   [mysql\_xdevapi\\DocResult »](class.mysql-xdevapi-docresult.html)
+-   [mysqlxdevapiDocResult »](class.mysql-xdevapi-docresult.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DatabaseObject](class.mysql-xdevapi-databaseobject.html)
+-   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
     
 -   Отримує ім'я сесії
     

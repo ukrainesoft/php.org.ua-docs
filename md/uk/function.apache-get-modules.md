@@ -1,8 +1,8 @@
 Повертає список завантажених модулів сервера Apache
 
--   [« apache\_child\_terminate](function.apache-child-terminate.html)
+-   [« apachechildterminate](function.apache-child-terminate.html)
     
--   [apache\_get\_version »](function.apache-get-version.html)
+-   [apachegetversion »](function.apache-get-version.html)
     
 -   [PHP Manual](index.html)
     

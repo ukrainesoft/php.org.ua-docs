@@ -2,7 +2,7 @@
 
 -   [« Примеры](gnupg.examples.html)
     
--   [GnuPG Функции »](ref.gnupg.html)
+-   [GnuPG Функції »](ref.gnupg.html)
     
 -   [PHP Manual](index.html)
     

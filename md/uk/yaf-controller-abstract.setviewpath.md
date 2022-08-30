@@ -1,12 +1,12 @@
 Призначення setViewpath
 
--   [« Yaf\_Controller\_Abstract::render](yaf-controller-abstract.render.html)
+-   [« YafControllerAbstract::render](yaf-controller-abstract.render.html)
     
--   [Yaf\_Action\_Abstract »](class.yaf-action-abstract.html)
+-   [YafActionAbstract »](class.yaf-action-abstract.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Призначення setViewpath
     

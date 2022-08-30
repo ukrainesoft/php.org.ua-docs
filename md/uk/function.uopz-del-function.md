@@ -1,12 +1,12 @@
 Видаляє раніше додану функцію або метод
 
--   [« uopz\_copy](function.uopz-copy.html)
+-   [« uopzcopy](function.uopz-copy.html)
     
--   [uopz\_delete »](function.uopz-delete.html)
+-   [uopzdelete »](function.uopz-delete.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Видаляє раніше додану функцію або метод
     
@@ -49,7 +49,7 @@ uopz_del_function(string $class, string $function, int &$all = true): bool
 
 ### Помилки
 
-**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.html), якщо видалені функції або метод не були додані за допомогою [uopz\_add\_function()](function.uopz-add-function.html)
+**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.html), якщо видалені функції або метод не були додані за допомогою [uopzaddfunction()](function.uopz-add-function.html)
 
 ### Приклади
 
@@ -73,5 +73,5 @@ bool(false)
 
 ### Дивіться також
 
--   [uopz\_add\_function()](function.uopz-add-function.html) - Додає неіснуючу функцію чи метод
--   [uopz\_unset\_return()](function.uopz-unset-return.html) - Скасує раніше встановлене значення, що повертається для функції
+-   [uopzaddfunction()](function.uopz-add-function.html) - Додає неіснуючу функцію чи метод
+-   [uopzunsetreturn()](function.uopz-unset-return.html) - Скасує раніше встановлене значення, що повертається для функції

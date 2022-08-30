@@ -1,12 +1,12 @@
 Повертає загальний розмір файлової системи або розділу диска
 
--   [« disk\_free\_space](function.disk-free-space.html)
+-   [« diskfreespace](function.disk-free-space.html)
     
 -   [diskfreespace »](function.diskfreespace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає загальний розмір файлової системи або розділу диска
     
@@ -52,8 +52,8 @@ $ds = disk_total_space("D:");
 
 ### Примітки
 
-> **Зауваження**: Ця функція не застосовується для роботи з [удалёнными файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
 
 ### Дивіться також
 
--   [disk\_free\_space()](function.disk-free-space.html) - Повертає розмір доступного простору в каталозі чи файловій системі
+-   [diskfreespace()](function.disk-free-space.html) - Повертає розмір доступного простору в каталозі чи файловій системі

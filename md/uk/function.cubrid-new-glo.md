@@ -1,8 +1,8 @@
 Створює екземпляр glo
 
--   [« cubrid\_load\_from\_glo](function.cubrid-load-from-glo.html)
+-   [« cubridloadfromglo](function.cubrid-load-from-glo.html)
     
--   [cubrid\_save\_to\_glo »](function.cubrid-save-to-glo.html)
+-   [cubridsaveтоglo »](function.cubrid-save-to-glo.html)
     
 -   [PHP Manual](index.html)
     
@@ -76,6 +76,6 @@ if ($oid){
 
 ### Дивіться також
 
--   [cubrid\_save\_to\_glo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
--   [cubrid\_load\_from\_glo()](function.cubrid-load-from-glo.html) - Читає дані з екземпляра GLO та записує їх у файл
--   [cubrid\_send\_glo()](function.cubrid-send-glo.html) - Читання даних з glo та виведення їх у стандартний пристрій виведення
+-   [cubridsaveтоglo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
+-   [cubridloadfromglo()](function.cubrid-load-from-glo.html) - Читає дані з екземпляра GLO та записує їх у файл
+-   [cubridsendglo()](function.cubrid-send-glo.html) - Читання даних з glo та виведення їх у стандартний пристрій виведення

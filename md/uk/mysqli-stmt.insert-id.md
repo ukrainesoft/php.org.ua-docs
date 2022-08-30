@@ -1,12 +1,12 @@
 Отримує ID, згенероване попередньою операцією INSERT
 
--   [« mysqli\_stmt::get\_warnings](mysqli-stmt.get-warnings.html)
+-   [« mysqlistmt::getwarnings](mysqli-stmt.get-warnings.html)
     
--   [mysqli\_stmt::more\_results »](mysqli-stmt.more-results.html)
+-   [mysqlistmt::moreresults »](mysqli-stmt.more-results.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Отримує ID, згенероване попередньою операцією INSERT
     
@@ -23,7 +23,7 @@ mysqlistmt::$insertid - mysqlistmtinsertid — Отримує ID, згенеро
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli\_stmt->insert\_id](mysqli-stmt.insert-id.html)
+int|string [$mysqlistmt->insertід](mysqli-stmt.insert-id.html)
 
 Процедурний стиль
 

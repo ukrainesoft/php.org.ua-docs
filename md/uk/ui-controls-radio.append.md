@@ -1,12 +1,12 @@
 Додає варіант
 
--   [« UI\\Controls\\Radio](class.ui-controls-radio.html)
+-   [« UIControlsRadio](class.ui-controls-radio.html)
     
--   [UI\\Controls\\Radio::getSelected »](ui-controls-radio.getselected.html)
+-   [ОЙControlsRadio::getSelected »](ui-controls-radio.getselected.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Radio](class.ui-controls-radio.html)
+-   [ОЙControlsRadio](class.ui-controls-radio.html)
     
 -   Додає варіант
     

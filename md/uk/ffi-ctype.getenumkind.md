@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getAttributes](ffi-ctype.getattributes.html)
+-   [« FFICType::getAttributes](ffi-ctype.getattributes.html)
     
--   [FFI\\CType::getFuncABI »](ffi-ctype.getfuncabi.html)
+-   [FFICType::getFuncABI »](ffi-ctype.getfuncabi.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

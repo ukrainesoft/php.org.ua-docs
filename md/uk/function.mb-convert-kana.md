@@ -1,12 +1,12 @@
 Перетворення кодувань "kana" з одного в інше ("zen-kaku", "han-kaku" та інші)
 
--   [« mb\_convert\_encoding](function.mb-convert-encoding.html)
+-   [« mbconvertencoding](function.mb-convert-encoding.html)
     
--   [mb\_convert\_variables »](function.mb-convert-variables.html)
+-   [мбconvertvariables »](function.mb-convert-variables.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Перетворення кодувань "kana" з одного в інше ("zen-kaku", "han-kaku" та інші)
     

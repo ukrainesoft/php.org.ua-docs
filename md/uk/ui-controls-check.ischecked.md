@@ -1,12 +1,12 @@
 Визначення позначки
 
--   [« UI\\Controls\\Check::getText](ui-controls-check.gettext.html)
+-   [« UIControlsCheck::getText](ui-controls-check.gettext.html)
     
--   [UI\\Controls\\Check::onToggle »](ui-controls-check.ontoggle.html)
+-   [ОЙControlsCheck::onToggle »](ui-controls-check.ontoggle.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Check](class.ui-controls-check.html)
+-   [ОЙControlsCheck](class.ui-controls-check.html)
     
 -   Визначення позначки
     

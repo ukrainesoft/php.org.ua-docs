@@ -1,12 +1,12 @@
 Намалювати текст у точці
 
--   [« UI\\Draw\\Pen::transform](ui-draw-pen.transform.html)
+-   [« UIDrawPen::transform](ui-draw-pen.transform.html)
     
--   [UI\\Draw\\Path »](class.ui-draw-path.html)
+-   [ОЙDrawPath »](class.ui-draw-path.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Намалювати текст у точці
     

@@ -1,8 +1,8 @@
 Повертає значення параметра для підключення
 
--   [« yaz\_es](function.yaz-es.html)
+-   [« yazес](function.yaz-es.html)
     
--   [yaz\_hits »](function.yaz-hits.html)
+-   [yazhits »](function.yaz-hits.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ yaz_get_option(resource $id, string $name): string
 
 `id`
 
-Ресурс підключення, що повертається [yaz\_connect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
 
 `name`
 
@@ -41,4 +41,4 @@ yaz_get_option(resource $id, string $name): string
 
 ### Дивіться також
 
--   Опис [yaz\_set\_option()](function.yaz-set-option.html) - Встановлює параметри з'єднання для перегляду доступних параметрів
+-   Опис [yazsetoption()](function.yaz-set-option.html) - Встановлює параметри з'єднання для перегляду доступних параметрів

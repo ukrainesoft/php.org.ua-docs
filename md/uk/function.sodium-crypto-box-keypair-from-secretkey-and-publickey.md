@@ -1,8 +1,8 @@
 Створює уніфікований рядок ключової пари із секретного та відкритого ключів
 
--   [« sodium\_crypto\_auth](function.sodium-crypto-auth.html)
+-   [« sodiumcryptoauth](function.sodium-crypto-auth.html)
     
--   [sodium\_crypto\_box\_keypair »](function.sodium-crypto-box-keypair.html)
+-   [sodiumcryptoboxkeypair »](function.sodium-crypto-box-keypair.html)
     
 -   [PHP Manual](index.html)
     

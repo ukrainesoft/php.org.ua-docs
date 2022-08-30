@@ -1,6 +1,6 @@
 Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
 
--   [« Closure::\_\_construct](closure.construct.html)
+-   [« Closure::construct](closure.construct.html)
     
 -   [Closure::bindTo »](closure.bindto.html)
     
@@ -76,5 +76,5 @@ echo $bcl2(), "\n";
 
 ### Дивіться також
 
--   [Анонимные функции](functions.anonymous.html)
+-   [Анонімні функції](functions.anonymous.html)
 -   [Closure::bindTo()](closure.bindto.html) - Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу

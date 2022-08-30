@@ -1,6 +1,6 @@
 Клас FTPConnection
 
--   [« ftp\_systype](function.ftp-systype.html)
+-   [« ftpsystype](function.ftp-systype.html)
     
 -   [Gearman »](book.gearman.html)
     

@@ -1,6 +1,6 @@
 Вивантажує функцію у вигляді BLOB
 
--   [« LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.html)
+-   [« LuaSandboxFunction::construct](luasandboxfunction.construct.html)
     
 -   [LuaSandboxError »](class.luasandboxerror.html)
     

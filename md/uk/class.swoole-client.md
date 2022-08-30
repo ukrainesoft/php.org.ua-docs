@@ -1,8 +1,8 @@
 Клас SwooleClient
 
--   [« Swoole\\Channel::stats](swoole-channel.stats.html)
+-   [« SwooleChannel::stats](swoole-channel.stats.html)
     
--   [Swoole\\Client::close »](swoole-client.close.html)
+-   [SwooleClient::close »](swoole-client.close.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,21 +108,21 @@ reuseCount
 
 ## Зміст
 
--   [Swoole\\Client::close](swoole-client.close.html) — Закриває встановлене з'єднання
--   [Swoole\\Client::connect](swoole-client.connect.html) — Підключається до віддаленого порту TCP або UDP
--   [Swoole\\Client::\_\_construct](swoole-client.construct.html) — Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
--   [Swoole\\Client::\_\_destruct](swoole-client.destruct.html) - Знищує клієнт Swoole
--   [Swoole\\Client::getpeername](swoole-client.getpeername.html) — Отримує ім'я віддаленого сокету з'єднання
--   [Swoole\\Client::getsockname](swoole-client.getsockname.html) — Отримує локальне ім'я сокета з'єднання
--   [Swoole\\Client::isConnected](swoole-client.isconnected.html) — Перевіряє, чи з'єднання встановлено.
--   [Swoole\\Client::on](swoole-client.on.html) — Додає callback-функції, спричинені подіями
--   [Swoole\\Client::pause](swoole-client.pause.html) — Припиняє отримання даних
--   [Swoole\\Client::pipe](swoole-client.pipe.html) — Перенаправляє дані до іншого файлового дескриптора.
--   [Swoole\\Client::recv](swoole-client.recv.html) — Отримує дані із віддаленого сокету
--   [Swoole\\Client::resume](swoole-client.resume.html) — Відновлює отримання даних
--   [Swoole\\Client::send](swoole-client.send.html) — Надсилає дані у віддалений TCP-сокет
--   [Swoole\\Client::sendfile](swoole-client.sendfile.html) — Надсилає файл у віддалений TCP-сокет
--   [Swoole\\Client::sendto](swoole-client.sendto.html) — Надсилає дані на віддалену UDP-адресу
--   [Swoole\\Client::set](swoole-client.set.html) — Встановлює параметри Swoole до встановлення з'єднання
--   [Swoole\\Client::sleep](swoole-client.sleep.html) — Видаляє TCP-клієнт із циклу системних подій
--   [Swoole\\Client::wakeup](swoole-client.wakeup.html) — Додає TCP-клієнт назад у цикл системних подій
+-   [SwooleClient::close](swoole-client.close.html) — Закриває встановлене з'єднання
+-   [SwooleClient::connect](swoole-client.connect.html) — Підключається до віддаленого порту TCP або UDP
+-   [SwooleClient::construct](swoole-client.construct.html) — Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
+-   [SwooleClient::destruct](swoole-client.destruct.html) - Знищує клієнт Swoole
+-   [SwooleClient::getpeername](swoole-client.getpeername.html) — Отримує ім'я віддаленого сокету з'єднання
+-   [SwooleClient::getsockname](swoole-client.getsockname.html) — Отримує локальне ім'я сокета з'єднання
+-   [SwooleClient::isConnected](swoole-client.isconnected.html) — Перевіряє, чи з'єднання встановлено.
+-   [SwooleClient::on](swoole-client.on.html) — Додає callback-функції, спричинені подіями
+-   [SwooleClient::pause](swoole-client.pause.html) — Припиняє отримання даних
+-   [SwooleClient::pipe](swoole-client.pipe.html) — Перенаправляє дані до іншого файлового дескриптора.
+-   [SwooleClient::recv](swoole-client.recv.html) — Отримує дані із віддаленого сокету
+-   [SwooleClient::resume](swoole-client.resume.html) — Відновлює отримання даних
+-   [SwooleClient::send](swoole-client.send.html) — Надсилає дані у віддалений TCP-сокет
+-   [SwooleClient::sendfile](swoole-client.sendfile.html) — Надсилає файл у віддалений TCP-сокет
+-   [SwooleClient::sendto](swoole-client.sendto.html) — Надсилає дані на віддалену UDP-адресу
+-   [SwooleClient::set](swoole-client.set.html) — Встановлює параметри Swoole до встановлення з'єднання
+-   [SwooleClient::sleep](swoole-client.sleep.html) — Видаляє TCP-клієнт із циклу системних подій
+-   [SwooleClient::wakeup](swoole-client.wakeup.html) — Додає TCP-клієнт назад у цикл системних подій

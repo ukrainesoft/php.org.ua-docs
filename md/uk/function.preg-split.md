@@ -1,6 +1,6 @@
 Розбиває рядок за регулярним виразом
 
--   [« preg\_replace](function.preg-replace.html)
+-   [« pregreplace](function.preg-replace.html)
     
 -   [ssdeep »](book.ssdeep.html)
     
@@ -151,7 +151,7 @@ Array
 
 **Підказка**
 
-Якщо вам не потрібна потужність регулярних виразів, ви можете вибрати швидші (хоч і прості) альтернативи на кшталт [explode()](function.explode.html) або [str\_split()](function.str-split.html)
+Якщо вам не потрібна потужність регулярних виразів, ви можете вибрати швидші (хоч і прості) альтернативи на кшталт [explode()](function.explode.html) або [strsplit()](function.str-split.html)
 
 **Підказка**
 
@@ -160,9 +160,9 @@ Array
 ### Дивіться також
 
 -   "[Регулярные выражения PCRE](pcre.pattern.html)"
--   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
 -   [implode()](function.implode.html) - Об'єднує елементи масиву в рядок
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [preg\_match\_all()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preg\_last\_error()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE

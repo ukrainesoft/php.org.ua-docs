@@ -1,8 +1,8 @@
 Клас CommonMarkCQL
 
--   [« CommonMark\\Parser::finish](commonmark-parser.finish.html)
+-   [« CommonMarkParser::finish](commonmark-parser.finish.html)
     
--   [CommonMark\\CQL::\_\_construct »](commonmark-cql.construct.html)
+-   [CommonMarkCQL::construct »](commonmark-cql.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -99,5 +99,5 @@ CQL можна доручити створити цикл для переміщ�
 
 ## Зміст
 
--   [CommonMark\\CQL::\_\_construct](commonmark-cql.construct.html) - Конструктор класу CQL
--   [CommonMark\\CQL::\_\_invoke](commonmark-cql.invoke.html) - Виконання CQL
+-   [CommonMarkCQL::construct](commonmark-cql.construct.html) - Конструктор класу CQL
+-   [CommonMarkCQL::invoke](commonmark-cql.invoke.html) - Виконання CQL

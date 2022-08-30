@@ -1,12 +1,12 @@
 Видаляє файл на FTP-сервері
 
--   [« ftp\_connect](function.ftp-connect.html)
+-   [« ftpconnect](function.ftp-connect.html)
     
--   [ftp\_exec »](function.ftp-exec.html)
+-   [ftpexec »](function.ftp-exec.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Видаляє файл на FTP-сервері
     
@@ -29,7 +29,7 @@ ftp_delete(FTP\Connection $ftp, string $filename): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `filename`
 
@@ -41,9 +41,9 @@ ftp_delete(FTP\Connection $ftp, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

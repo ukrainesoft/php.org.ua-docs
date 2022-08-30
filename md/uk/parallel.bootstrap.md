@@ -2,7 +2,7 @@
 
 -   [« Функциональный API](functional.parallel.html)
     
--   [parallel\\run »](parallel.run.html)
+-   [parallelrun »](parallel.run.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,7 +21,7 @@ parallelbootstrap — Початкове завантаження
 parallel\bootstrap(string $file): void
 ```
 
-Повинен використовувати наданий `file` для початкового завантаження всіх середовищ виконання, створених для автоматичного планування за допомогою [parallel\\run()](parallel.run.html)
+Повинен використовувати наданий `file` для початкового завантаження всіх середовищ виконання, створених для автоматичного планування за допомогою [parallelrun()](parallel.run.html)
 
 ### Список параметрів
 
@@ -41,8 +41,8 @@ parallel\bootstrap(string $file): void
 
 **Увага**
 
-Викидає parallelRuntimeErrorBootstrap, якщо викликається після [parallel\\run()](parallel.run.html)
+Викидає parallelRuntimeErrorBootstrap, якщо викликається після [parallelrun()](parallel.run.html)
 
 ### Дивіться також
 
--   [parallel\\Runtime::run](parallel-runtime.run.html)
+-   [parallelRuntime::run](parallel-runtime.run.html)

@@ -1,8 +1,8 @@
 Відкрити дескриптор директорії
 
--   [« streamWrapper::dir\_closedir](streamwrapper.dir-closedir.html)
+-   [« streamWrapper::dirclosedir](streamwrapper.dir-closedir.html)
     
--   [streamWrapper::dir\_readdir »](streamwrapper.dir-readdir.html)
+-   [streamWrapper::dirreaddir »](streamwrapper.dir-readdir.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ public streamWrapper::dir_opendir(string $path, int $options): bool
 
 > **Зауваження**
 > 
-> URL можна розділити на частини за допомогою [parse\_url()](function.parse-url.html)
+> URL можна розділити на частини за допомогою [parseurl()](function.parse-url.html)
 
 `options`
 
@@ -44,5 +44,5 @@ public streamWrapper::dir_opendir(string $path, int $options): bool
 ### Дивіться також
 
 -   [opendir()](function.opendir.html) - Відкриває дескриптор каталогу
--   [streamWrapper::dir\_closedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
--   [parse\_url()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
+-   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти

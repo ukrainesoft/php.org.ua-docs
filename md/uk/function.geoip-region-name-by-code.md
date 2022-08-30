@@ -1,8 +1,8 @@
 Повертає назву регіону для обраної країни та код регіону
 
--   [« geoip\_region\_by\_name](function.geoip-region-by-name.html)
+-   [« geoipregionбname](function.geoip-region-by-name.html)
     
--   [geoip\_setup\_custom\_directory »](function.geoip-setup-custom-directory.html)
+-   [geoipsetupcustomdirectory »](function.geoip-setup-custom-directory.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ geoip_region_name_by_code(string $country_code, string $region_code): string
 
 У США код регіону відповідає дволітерному скороченню кожному штату. У Канаді код регіону відповідає дволітерному скороченню імені провінції чи території, наданий поштовою службою Канади.
 
-Для решти світу GeoIP використовує коди FIPS 10-4 для представлення регіону. Дивіться також [» http://www.maxmind.com/app/fips10\_4](http://www.maxmind.com/app/fips10_4) - Докладний список кодів FIPS 10-4.
+Для решти світу GeoIP використовує коди FIPS 10-4 для представлення регіону. Дивіться також [» http://www.maxmind.com/app/fips10](http://www.maxmind.com/app/fips10_4) - Докладний список кодів FIPS 10-4.
 
 Ця функція завжди доступна при використанні бібліотеки GeoIP версії 1.4.1 та новішої. Дані беруться безпосередньо з бібліотеки GeoIP, а не з будь-якої бази.
 
@@ -35,11 +35,11 @@ geoip_region_name_by_code(string $country_code, string $region_code): string
 
 `country_code`
 
-Двохлітерний код країни [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.html)
+Двохлітерний код країни [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
 
 `region_code`
 
-Дволітерний (або цифровий) код регіону [geoip\_region\_by\_name()](function.geoip-region-by-name.html)
+Дволітерний (або цифровий) код регіону [geoipregionбname()](function.geoip-region-by-name.html)
 
 ### Значення, що повертаються
 

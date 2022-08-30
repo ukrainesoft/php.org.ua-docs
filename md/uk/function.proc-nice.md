@@ -1,8 +1,8 @@
 Змінити пріоритет поточного процесу
 
--   [« proc\_get\_status](function.proc-get-status.html)
+-   [« procgetstatus](function.proc-get-status.html)
     
--   [proc\_open »](function.proc-open.html)
+-   [procopen »](function.proc-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ proc_nice(int $priority): bool
 
 **procnice()** змінює пріоритет поточного процесу на значення, вказане у параметрі `priority`. Позитивне значення параметра `priority` буде зменшувати пріоритет поточного процесу, а негативне значення параметра `priority` збільшуватиме пріоритет.
 
-Функція **procnice()** не пов'язана з функцією [proc\_open()](function.proc-open.html) і до функцій, що відносяться до неї, яким-небудь чином.
+Функція **procnice()** не пов'язана з функцією [procopen()](function.proc-open.html) і до функцій, що відносяться до неї, яким-небудь чином.
 
 ### Список параметрів
 
@@ -78,4 +78,4 @@ proc_nice(-20);
 
 ### Дивіться також
 
--   [pcntl\_setpriority()](function.pcntl-setpriority.html) - Змінити пріоритет процесу
+-   [pcntlsetpriority()](function.pcntl-setpriority.html) - Змінити пріоритет процесу

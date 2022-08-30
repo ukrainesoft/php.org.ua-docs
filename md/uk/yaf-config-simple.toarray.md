@@ -1,12 +1,12 @@
 Повертає масив PHP
 
--   [« Yaf\_Config\_Simple::\_\_set](yaf-config-simple.set.html)
+-   [« YafConfigSimple::set](yaf-config-simple.set.html)
     
--   [Yaf\_Config\_Simple::valid »](yaf-config-simple.valid.html)
+-   [YafConfigSimple::valid »](yaf-config-simple.valid.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Повертає масив PHP
     
@@ -23,7 +23,7 @@ YafConfigSimple::toArray — Повертає масив PHP
 public Yaf_Config_Simple::toArray(): array
 ```
 
-Повертає масив PHP з [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+Повертає масив PHP з [YafConfigSimple](class.yaf-config-simple.html)
 
 ### Список параметрів
 

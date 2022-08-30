@@ -1,12 +1,12 @@
 Відновлює скасовану раніше вбудовану обгортку
 
--   [« stream\_wrapper\_register](function.stream-wrapper-register.html)
+-   [« streamwrapperregister](function.stream-wrapper-register.html)
     
--   [stream\_wrapper\_unregister »](function.stream-wrapper-unregister.html)
+-   [streamwrapperunregister »](function.stream-wrapper-unregister.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Відновлює скасовану раніше вбудовану обгортку
     
@@ -23,7 +23,7 @@ streamwrapperrestore — Відновлює скасовану вбудован�
 stream_wrapper_restore(string $protocol): bool
 ```
 
-Відновлює вбудовану обгортку, реєстрацію якої раніше було скасовано за допомогою [stream\_wrapper\_unregister()](function.stream-wrapper-unregister.html)
+Відновлює вбудовану обгортку, реєстрацію якої раніше було скасовано за допомогою [streamwrapperunregister()](function.stream-wrapper-unregister.html)
 
 ### Список параметрів
 

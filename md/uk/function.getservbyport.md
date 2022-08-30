@@ -2,11 +2,11 @@
 
 -   [« getservbyname](function.getservbyname.html)
     
--   [header\_register\_callback »](function.header-register-callback.html)
+-   [headerregistercallback »](function.header-register-callback.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Отримує інтернет-службу, що відповідає заданому порту та протоколу
     

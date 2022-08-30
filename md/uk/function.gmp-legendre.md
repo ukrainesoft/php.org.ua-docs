@@ -1,12 +1,12 @@
 Лежандра символ.
 
--   [« gmp\_lcm](function.gmp-lcm.html)
+-   [« gmplcm](function.gmp-lcm.html)
     
--   [gmp\_mod »](function.gmp-mod.html)
+-   [gmpmod »](function.gmp-mod.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Лежандра символ.
     
@@ -61,5 +61,5 @@ echo gmp_legendre("2", "3") . "\n";
 
 ### Дивіться також
 
--   [gmp\_jacobi()](function.gmp-jacobi.html) - Символ Якобі
--   [gmp\_kronecker()](function.gmp-kronecker.html) - Символ Кронекера - Якобі
+-   [gmpjacobi()](function.gmp-jacobi.html) - Символ Якобі
+-   [gmpkronecker()](function.gmp-kronecker.html) - Символ Кронекера - Якобі

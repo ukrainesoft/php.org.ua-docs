@@ -1,8 +1,8 @@
 Повертає список груп для поточного процесу
 
--   [« posix\_getgrnam](function.posix-getgrnam.html)
+-   [« posixgetgrnam](function.posix-getgrnam.html)
     
--   [posix\_getlogin »](function.posix-getlogin.html)
+-   [posixgetlogin »](function.posix-getlogin.html)
     
 -   [PHP Manual](index.html)
     
@@ -69,4 +69,4 @@ Array
 
 ### Дивіться також
 
--   [posix\_getgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID

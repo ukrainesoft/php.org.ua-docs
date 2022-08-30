@@ -1,8 +1,8 @@
 Клас variant
 
--   [« dotnet::\_\_construct](dotnet.construct.html)
+-   [« dotnet::construct](dotnet.construct.html)
     
--   [variant::\_\_construct »](variant.construct.html)
+-   [variant::construct »](variant.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,8 +57,8 @@ print "Значение — " . $v . "<br/>";
 > 
 > Коли повертається значення або витягається властивість, variant перетворюється на значення PHP тільки якщо є прямий зв'язок між типами, що не призведе до втрати інформації. В інших випадках результат повернеться у вигляді екземпляра класу variant. Ви можете примусово вказати PHP конвертувати значення в типи PHP використовуючи оператор приведення типів або перетворювати їх у рядок, використовуючи функцію [print](function.print.html). Ви можете використовувати безліч функцій класу для арифметичних операцій без приведення значень типів PHP з ризиком втрати інформації.
 
-Дивіться також [variant\_get\_type()](function.variant-get-type.html)
+Дивіться також [variantgettype()](function.variant-get-type.html)
 
 ## Зміст
 
--   [variant::\_\_construct](variant.construct.html) - Конструктор класу variant
+-   [variant::construct](variant.construct.html) - Конструктор класу variant

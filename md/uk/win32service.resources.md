@@ -2,7 +2,7 @@
 
 -   [« Настройка во время выполнения](win32service.configuration.html)
     
--   [Вопросы безопасности »](win32service.security.html)
+-   [Питання безпеки »](win32service.security.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Стиснення LZF
 
--   [« Функции LZF](ref.lzf.html)
+-   [« Функції LZF](ref.lzf.html)
     
--   [lzf\_decompress »](function.lzf-decompress.html)
+-   [lzfdecompress »](function.lzf-decompress.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LZF](ref.lzf.html)
+-   [Функції LZF](ref.lzf.html)
     
 -   Стиснення LZF
     
@@ -37,4 +37,4 @@ lzf_compress(string $data): string
 
 ### Дивіться також
 
--   [lzf\_decompress()](function.lzf-decompress.html) - Розархівація LZF
+-   [lzfdecompress()](function.lzf-decompress.html) - Розархівація LZF

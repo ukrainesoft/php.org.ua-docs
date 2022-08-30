@@ -1,12 +1,12 @@
 Завантажує шрифт
 
--   [« ps\_fill](function.ps-fill.html)
+-   [«psfill](function.ps-fill.html)
     
--   [ps\_get\_buffer »](function.ps-get-buffer.html)
+-   [псgetbuffer »](function.ps-get-buffer.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Завантажує шрифт
     
@@ -23,17 +23,17 @@
 ps_findfont(    resource $psdoc,    string $fontname,    string $encoding,    bool $embed = false): int
 ```
 
-Завантажує шрифт для подальшого використання. Перед виведенням тексту із завантаженим шрифтом він має бути встановлений за допомогою [ps\_setfont()](function.ps-setfont.html). Функція потребує файлу метрики шрифту Adobe, щоб обчислити простір, що використовується символами. Шрифт, завантажений на сторінку, буде доступний лише на цій сторінці. Шрифти, які будуть використовуватись у всьому документі, повинні бути завантажені до першого виклику [ps\_begin\_page()](function.ps-begin-page.html). Виклик **псfindfont()** між сторінками зробить шрифт доступним для всіх наступних сторінок.
+Завантажує шрифт для подальшого використання. Перед виведенням тексту із завантаженим шрифтом він має бути встановлений за допомогою [псsetfont()](function.ps-setfont.html). Функція потребує файлу метрики шрифту Adobe, щоб обчислити простір, що використовується символами. Шрифт, завантажений на сторінку, буде доступний лише на цій сторінці. Шрифти, які будуть використовуватись у всьому документі, повинні бути завантажені до першого виклику [псbeginpage()](function.ps-begin-page.html). Виклик **псfindfont()** між сторінками зробить шрифт доступним для всіх наступних сторінок.
 
 Ім'я afm-файлу має бути `fontname``.afm`. Якщо шрифт має бути вбудований, також має бути файл `fontname``.pfb`, що містить контур шрифту.
 
-Виклик **псfindfont()** перед першою сторінкою вимагає виведення заголовка PostScript, який включає BoundingBox для документа. Зазвичай BoundingBox встановлюється під час першого виклику [ps\_begin\_page()](function.ps-begin-page.html), який тепер йде після **псfindfont()**. Отже, BoundingBox не встановлено, і під час виклику **псfindfont()** буде видано попередження. Щоб запобігти цій ситуації, слід викликати [ps\_set\_parameter()](function.ps-set-parameter.html) для встановлення BoundingBox до виклику **псfindfont()**
+Виклик **псfindfont()** перед першою сторінкою вимагає виведення заголовка PostScript, який включає BoundingBox для документа. Зазвичай BoundingBox встановлюється під час першого виклику [псbeginpage()](function.ps-begin-page.html), який тепер йде після **псfindfont()**. Отже, BoundingBox не встановлено, і під час виклику **псfindfont()** буде видано попередження. Щоб запобігти цій ситуації, слід викликати [псsetparameter()](function.ps-set-parameter.html) для встановлення BoundingBox до виклику **псfindfont()**
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `fontname`
 
@@ -57,5 +57,5 @@ ps_findfont(    resource $psdoc,    string $fontname,    string $enc
 
 ### Дивіться також
 
--   [ps\_begin\_page()](function.ps-begin-page.html) - Починає нову сторінку
--   [ps\_setfont()](function.ps-setfont.html) - Встановлює шрифт, який використовуватиметься для наступного висновку
+-   [псbeginpage()](function.ps-begin-page.html) - Починає нову сторінку
+-   [псsetfont()](function.ps-setfont.html) - Встановлює шрифт, який використовуватиметься для наступного висновку

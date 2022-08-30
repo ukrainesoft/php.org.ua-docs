@@ -1,12 +1,12 @@
 Отримує та/або встановлює шлях збереження сесії
 
--   [« session\_reset](function.session-reset.html)
+-   [« sessionreset](function.session-reset.html)
     
--   [session\_set\_cookie\_params »](function.session-set-cookie-params.html)
+-   [sessionsetcookieparams »](function.session-set-cookie-params.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Отримує та/або встановлює шлях збереження сесії
     
@@ -29,7 +29,7 @@ session_save_path(?string $path = null): string|false
 
 `path`
 
-Шлях для даних сесії. Якщо вказано і не дорівнює **`null`**, то шлях, куди зберігаються дані, буде змінено. Для цієї мети **sessionsavepath()** слід викликати перед [session\_start()](function.session-start.html)
+Шлях для даних сесії. Якщо вказано і не дорівнює **`null`**, то шлях, куди зберігаються дані, буде змінено. Для цієї мети **sessionsavepath()** слід викликати перед [sessionstart()](function.session-start.html)
 
 > **Зауваження**
 > 
@@ -47,4 +47,4 @@ session_save_path(?string $path = null): string|false
 
 ### Дивіться також
 
--   [session.save\_path](session.configuration.html#ini.session.save-path)
+-   [session.savepath](session.configuration.html#ini.session.save-path)

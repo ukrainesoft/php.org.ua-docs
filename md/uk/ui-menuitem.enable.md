@@ -1,12 +1,12 @@
 Увімкнути пункт меню
 
--   [« UI\\MenuItem::disable](ui-menuitem.disable.html)
+-   [« UIMenuItem::disable](ui-menuitem.disable.html)
     
--   [UI\\MenuItem::isChecked »](ui-menuitem.ischecked.html)
+-   [ОЙMenuItem::isChecked »](ui-menuitem.ischecked.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\MenuItem](class.ui-menuitem.html)
+-   [ОЙMenuItem](class.ui-menuitem.html)
     
 -   Увімкнути пункт меню
     

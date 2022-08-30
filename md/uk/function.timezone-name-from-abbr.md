@@ -1,8 +1,8 @@
 Повертає часовий пояс відповідно до абревіатури
 
--   [« timezone\_location\_get](function.timezone-location-get.html)
+-   [« timezonelocationget](function.timezone-location-get.html)
     
--   [timezone\_name\_get »](function.timezone-name-get.html)
+-   [timezonenameget »](function.timezone-name-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,4 +61,4 @@ Europe/Paris
 
 ### Дивіться також
 
--   [timezone\_abbreviations\_list()](function.timezone-abbreviations-list.html) - Псевдонім DateTimeZone::listAbbreviations
+-   [timezoneabbreviationslist()](function.timezone-abbreviations-list.html) - Псевдонім DateTimeZone::listAbbreviations

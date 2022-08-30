@@ -1,8 +1,8 @@
 Перевіряє, чи існують записи
 
--   [« apcu\_entry](function.apcu-entry.html)
+-   [« apcuentry](function.apcu-entry.html)
     
--   [apcu\_fetch »](function.apcu-fetch.html)
+-   [apcufetch »](function.apcu-fetch.html)
     
 -   [PHP Manual](index.html)
     
@@ -84,5 +84,5 @@ array(2) {
 
 ### Дивіться також
 
--   [apcu\_cache\_info()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
--   [apcu\_fetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+-   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну

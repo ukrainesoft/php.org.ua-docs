@@ -1,12 +1,12 @@
 Повертає масив спотворених властивостей об'єкту
 
--   [« get\_declared\_traits](function.get-declared-traits.html)
+-   [« getdeclaredtraits](function.get-declared-traits.html)
     
--   [get\_object\_vars »](function.get-object-vars.html)
+-   [getobjectvars »](function.get-object-vars.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає масив спотворених властивостей об'єкту
     
@@ -23,7 +23,7 @@ getmangledobjectvars — Повертає масив спотворених вл
 get_mangled_object_vars(object $object): array
 ```
 
-Повертає масив (array), елементи якого властивості (змінні-члени) цього об'єкта. Ключами будуть імена змінних-членів з деякими примітними винятками: до закритих полів класу (private) попереду буде дописано ім'я класу; до захищених полів класу (protected) попереду буде додано символ `*`. Ці додані значення з обох сторін також мають `NUL` байти. Неініціалізовані [типизированные свойства](language.oop5.properties.html#language.oop5.properties.typed-properties) автоматично відкидаються.
+Повертає масив (array), елементи якого властивості (змінні-члени) цього об'єкта. Ключами будуть імена змінних-членів з деякими примітними винятками: до закритих полів класу (private) попереду буде дописано ім'я класу; до захищених полів класу (protected) попереду буде додано символ `*`. Ці додані значення з обох сторін також мають `NUL` байти. Неініціалізовані [типізовані властивості](language.oop5.properties.html#language.oop5.properties.typed-properties) автоматично відкидаються.
 
 ### Список параметрів
 
@@ -100,5 +100,5 @@ array(2) {
 
 ### Дивіться також
 
--   [get\_class\_vars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
--   [get\_object\_vars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту
+-   [getclassvars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
+-   [getobjectvars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту

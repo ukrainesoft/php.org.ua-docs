@@ -1,12 +1,12 @@
 Створює новий Binary
 
--   [« MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+-   [« MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
--   [MongoDB\\BSON\\Binary::getData »](mongodb-bson-binary.getdata.html)
+-   [MongoDBBSONBinary::getData »](mongodb-bson-binary.getdata.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+-   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
 -   Створює новий Binary
     
@@ -35,20 +35,20 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `type` не є 8-розрядним цілим числом.
--   Видає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `type` не є 8-розрядним цілим числом.
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам.
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                                                   | Описание |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.3.0                                                                                                                                                                                                                                                       |          |
-| [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |          |
+| Версия                                                                                                                                                                                                                                                             | Описание |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.3.0                                                                                                                                                                                                                                                 |          |
+| [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |          |
 
 | | PECL mongodb 1.1.3 |
 
-[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` не є 8-розрядним цілим числом.
+[MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` не є 8-розрядним цілим числом.
 
 ### Приклади
 

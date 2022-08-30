@@ -2,11 +2,11 @@
 
 -   [« EvPeriodic::set](evperiodic.set.html)
     
--   [EvPrepare::\_\_construct »](evprepare.construct.html)
+-   [EvPrepare::construct »](evprepare.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvPrepare
     
@@ -121,5 +121,5 @@ public
 
 ## Зміст
 
--   [EvPrepare::\_\_construct](evprepare.construct.html) - Конструктор спостерігача EvPrepare
+-   [EvPrepare::construct](evprepare.construct.html) - Конструктор спостерігача EvPrepare
 -   [EvPrepare::createStopped](evprepare.createstopped.html) - Створити об'єкт класу EvPrepare, але не стартувати його

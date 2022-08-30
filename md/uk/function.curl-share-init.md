@@ -1,8 +1,8 @@
 Ініціалізація оброблюваного обробника cURL
 
--   [« curl\_share\_errno](function.curl-share-errno.html)
+-   [« curlshareerrno](function.curl-share-errno.html)
     
--   [curl\_share\_setopt »](function.curl-share-setopt.html)
+-   [curlsharesetopt »](function.curl-share-setopt.html)
     
 -   [PHP Manual](index.html)
     
@@ -77,5 +77,5 @@ curl_close($ch2);
 
 ### Дивіться також
 
--   [curl\_share\_setopt()](function.curl-share-setopt.html) - Встановити опції роздільного оброблювача cURL
--   [curl\_share\_close()](function.curl-share-close.html) - Закрити оброблюваний обробник cURL
+-   [curlsharesetopt()](function.curl-share-setopt.html) - Встановити опції роздільного оброблювача cURL
+-   [curlshareclose()](function.curl-share-close.html) - Закрити оброблюваний обробник cURL

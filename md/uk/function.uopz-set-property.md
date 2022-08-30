@@ -1,12 +1,12 @@
 Встановлює значення існуючої властивості класу чи екземпляра
 
--   [« uopz\_set\_mock](function.uopz-set-mock.html)
+-   [« uopzsetmock](function.uopz-set-mock.html)
     
--   [uopz\_set\_return »](function.uopz-set-return.html)
+-   [uopzsetreturn »](function.uopz-set-return.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Встановлює значення існуючої властивості класу чи екземпляра
     
@@ -83,4 +83,4 @@ int(10)
 
 ### Дивіться також
 
--   [uopz\_get\_property()](function.uopz-get-property.html) - Отримує значення класу або властивість екземпляра
+-   [uopzgetproperty()](function.uopz-get-property.html) - Отримує значення класу або властивість екземпляра

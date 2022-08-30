@@ -1,8 +1,8 @@
 Видаляє та повертає останнє значення
 
--   [« Ds\\Vector::merge](ds-vector.merge.html)
+-   [« DsVector::merge](ds-vector.merge.html)
     
--   [Ds\\Vector::push »](ds-vector.push.html)
+-   [ДсVector::push »](ds-vector.push.html)
     
 -   [PHP Manual](index.html)
     

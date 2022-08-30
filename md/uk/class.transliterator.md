@@ -2,7 +2,7 @@
 
 -   [« Spoofchecker::setChecks](spoofchecker.setchecks.html)
     
--   [Transliterator::\_\_construct »](transliterator.construct.html)
+-   [Transliterator::construct »](transliterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -76,7 +76,7 @@ public transliterate(string $string, int $start = 0, int $end = -1): string|fals
 
 ## Зміст
 
--   [Transliterator::\_\_construct](transliterator.construct.html) - Приватний конструктор
+-   [Transliterator::construct](transliterator.construct.html) - Приватний конструктор
 -   [Transliterator::create](transliterator.create.html) - Створити транслітератор
 -   [Transliterator::createFromRules](transliterator.createfromrules.html) - Створити транслітератор на основі правил
 -   [Transliterator::createInverse](transliterator.createinverse.html) - Створити інвертований транслітератор

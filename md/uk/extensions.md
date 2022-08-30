@@ -1,8 +1,8 @@
 Список/класифікація модулів
 
--   [« Описание встроенных директив php.ini](ini.core.html)
+-   [« Опис вбудованих директив php.ini](ini.core.html)
     
--   [В алфавитном порядке »](extensions.alphabetical.html)
+-   [В алфавітному порядку "](extensions.alphabetical.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 ## Зміст
 
--   [В алфавитном порядке](extensions.alphabetical.html)
+-   [В алфавітному порядку](extensions.alphabetical.html)
 -   [По составу](extensions.membership.html)
--   [По состоянию](extensions.state.html)
+-   [Станом](extensions.state.html)
 
 Ця програма класифікує за різними критеріями понад 150 модулів, документованих у посібнику з PHP.

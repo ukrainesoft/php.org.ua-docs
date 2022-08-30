@@ -1,6 +1,6 @@
 Обчислює хеш
 
--   [« mhash\_keygen\_s2k](function.mhash-keygen-s2k.html)
+-   [« mhashkeygens2k](function.mhash-keygen-s2k.html)
     
 -   [OpenSSL »](book.openssl.html)
     
@@ -51,5 +51,5 @@ mhash(int $algo, string $data, ?string $key = null): string|false
 
 | Версия | Описание                                                                                     |
 |--------|----------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функции `hash_*()`](ref.hash.html) |
+|        | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.html) |
 |        | `key` тепер допускає значення null.                                                          |

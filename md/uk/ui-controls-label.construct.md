@@ -1,12 +1,12 @@
 Створити новий об'єкт Label
 
--   [« UI\\Controls\\Label](class.ui-controls-label.html)
+-   [« UIControlsLabel](class.ui-controls-label.html)
     
--   [UI\\Controls\\Label::getText »](ui-controls-label.gettext.html)
+-   [ОЙControlsLabel::getText »](ui-controls-label.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Label](class.ui-controls-label.html)
+-   [ОЙControlsLabel](class.ui-controls-label.html)
     
 -   Створити новий об'єкт Label
     

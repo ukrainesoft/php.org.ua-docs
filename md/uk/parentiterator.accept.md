@@ -2,7 +2,7 @@
 
 -   [« ParentIterator](class.parentiterator.html)
     
--   [ParentIterator::\_\_construct »](parentiterator.construct.html)
+-   [ParentIterator::construct »](parentiterator.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,7 +2,7 @@
 
 -   [« Установка на macOS](install.macosx.html)
     
--   [Использование встроенного PHP до macOS Monterey »](install.macosx.bundled.html)
+-   [Використання вбудованого PHP до macOS Monterey »](install.macosx.bundled.html)
     
 -   [PHP Manual](index.html)
     

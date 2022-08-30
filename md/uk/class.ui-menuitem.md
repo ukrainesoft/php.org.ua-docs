@@ -1,12 +1,12 @@
 Елемент меню
 
--   [« UI\\Menu::\_\_construct](ui-menu.construct.html)
+-   [« UIMenu::construct](ui-menu.construct.html)
     
--   [UI\\MenuItem::disable »](ui-menuitem.disable.html)
+-   [ОЙMenuItem::disable »](ui-menuitem.disable.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент меню
     
@@ -45,8 +45,8 @@ public setChecked(bool $checked)
 
 ## Зміст
 
--   [UI\\MenuItem::disable](ui-menuitem.disable.html) — Вимкнути пункт меню
--   [UI\\MenuItem::enable](ui-menuitem.enable.html) — Увімкнути пункт меню
--   [UI\\MenuItem::isChecked](ui-menuitem.ischecked.html) — Визначення обраності пункту
--   [UI\\MenuItem::onClick](ui-menuitem.onclick.html) - Обробник натискання
--   [UI\\MenuItem::setChecked](ui-menuitem.setchecked.html) - Вибрати пункт меню
+-   [ОЙMenuItem::disable](ui-menuitem.disable.html) — Вимкнути пункт меню
+-   [ОЙMenuItem::enable](ui-menuitem.enable.html) — Увімкнути пункт меню
+-   [ОЙMenuItem::isChecked](ui-menuitem.ischecked.html) — Визначення обраності пункту
+-   [ОЙMenuItem::onClick](ui-menuitem.onclick.html) - Обробник натискання
+-   [ОЙMenuItem::setChecked](ui-menuitem.setchecked.html) - Вибрати пункт меню

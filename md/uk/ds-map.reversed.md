@@ -1,8 +1,8 @@
 Повертає перегорнуту копію колекції
 
--   [« Ds\\Map::reverse](ds-map.reverse.html)
+-   [« DsMap::reverse](ds-map.reverse.html)
     
--   [Ds\\Map::skip »](ds-map.skip.html)
+-   [ДсMap::skip »](ds-map.skip.html)
     
 -   [PHP Manual](index.html)
     

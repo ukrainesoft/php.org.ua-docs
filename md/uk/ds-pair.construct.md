@@ -1,8 +1,8 @@
 Створює екземпляр класу
 
--   [« Ds\\Pair::clear](ds-pair.clear.html)
+-   [« DsPair::clear](ds-pair.clear.html)
     
--   [Ds\\Pair::copy »](ds-pair.copy.html)
+-   [ДсPair::copy »](ds-pair.copy.html)
     
 -   [PHP Manual](index.html)
     

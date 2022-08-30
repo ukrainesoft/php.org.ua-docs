@@ -1,12 +1,12 @@
 Отримує поточне значення атомарного об'єкта
 
--   [« Swoole\\Atomic::\_\_construct](swoole-atomic.construct.html)
+-   [« SwooleAtomic::construct](swoole-atomic.construct.html)
     
--   [Swoole\\Atomic::set »](swoole-atomic.set.html)
+-   [SwooleAtomic::set »](swoole-atomic.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Atomic](class.swoole-atomic.html)
+-   [SwooleAtomic](class.swoole-atomic.html)
     
 -   Отримує поточне значення атомарного об'єкта
     

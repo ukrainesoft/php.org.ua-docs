@@ -1,8 +1,8 @@
 Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
 
--   [« date\_default\_timezone\_get](function.date-default-timezone-get.html)
+-   [« datedefaulttimezoneget](function.date-default-timezone-get.html)
     
--   [date\_diff »](function.date-diff.html)
+-   [datediff »](function.date-diff.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ date_default_timezone_set(string $timezoneId): bool
 
 `timezoneId`
 
-Ідентифікатор часового поясу, наприклад, `UTC` `Africa/Lagos` `Asia/Hong_Kong` або `Europe/Lisbon`. Список допустимих ідентифікаторів часових поясів можна знайти у розділі [Список поддерживаемых часовых поясов](timezones.html)
+Ідентифікатор часового поясу, наприклад, `UTC` `Africa/Lagos` `Asia/Hong_Kong` або `Europe/Lisbon`. Список допустимих ідентифікаторів часових поясів можна знайти у розділі [Список підтримуваних часових поясів](timezones.html)
 
 ### Значення, що повертаються
 
@@ -57,5 +57,5 @@ if (strcmp($script_tz, ini_get('date.timezone'))){
 
 ### Дивіться також
 
--   [date\_default\_timezone\_get()](function.date-default-timezone-get.html) - Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу в скрипті
--   [Список поддерживаемых часовых поясов](timezones.html)
+-   [datedefaulttimezoneget()](function.date-default-timezone-get.html) - Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу в скрипті
+-   [Список підтримуваних часових поясів](timezones.html)

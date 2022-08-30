@@ -27,7 +27,7 @@ public static Closure::fromCallable(callable $callback): Closure
 
 > **Зауваження**
 > 
-> Починаючи з PHP 8.1.0, у [Callback-функций как объектов первого класса](functions.first_class_callable_syntax.html) та сама семантика, що й у цього методу.
+> Починаючи з PHP 8.1.0, у [Callback-функцій як об'єктів першого класу](functions.first_class_callable_syntax.html) та сама семантика, що й у цього методу.
 
 ### Список параметрів
 
@@ -41,5 +41,5 @@ public static Closure::fromCallable(callable $callback): Closure
 
 ### Дивіться також
 
--   [Анонимные функции](functions.anonymous.html)
--   [Callback-функции как объекты первого класса](functions.first_class_callable_syntax.html)
+-   [Анонімні функції](functions.anonymous.html)
+-   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.html)

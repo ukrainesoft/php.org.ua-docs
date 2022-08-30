@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine::getuid](swoole-coroutine.getuid.html)
+-   [« SwooleCoroutine::getuid](swoole-coroutine.getuid.html)
     
--   [Swoole\\Coroutine::suspend »](swoole-coroutine.suspend.html)
+-   [SwooleCoroutine::suspend »](swoole-coroutine.suspend.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

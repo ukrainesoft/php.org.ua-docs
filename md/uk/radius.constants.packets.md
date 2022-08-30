@@ -13,7 +13,7 @@
 
 ## типи пакетів RADIUS
 
-Пакети RADIUS, будь то запит або відповідь, завжди включають тип. Ці константи корисні при заданні типу при використанні [radius\_create\_request()](function.radius-create-request.html) та при обробці відповіді [radius\_send\_request()](function.radius-send-request.html)
+Пакети RADIUS, будь то запит або відповідь, завжди включають тип. Ці константи корисні при заданні типу при використанні [radiuscreaterequest()](function.radius-create-request.html) та при обробці відповіді [radiussendrequest()](function.radius-send-request.html)
 
 **`RADIUS_ACCESS_REQUEST`** (int)
 

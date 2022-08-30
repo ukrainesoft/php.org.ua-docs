@@ -1,6 +1,6 @@
 Замінює запис у базі даних
 
--   [« dbase\_pack](function.dbase-pack.html)
+-   [« dbasepack](function.dbase-pack.html)
     
 -   [Firebird/InterBase »](book.ibase.html)
     
@@ -29,7 +29,7 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 `data`
 
@@ -37,11 +37,11 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 
 > **Зауваження**
 > 
-> Якщо ви використовуєте як параметр запис, який повернув [dbase\_get\_record()](function.dbase-get-record.html), не забудьте скинути ключ з ім'ям `deleted`
+> Якщо ви використовуєте як параметр запис, який повернув [dbasegetrecord()](function.dbase-get-record.html), не забудьте скинути ключ з ім'ям `deleted`
 
 `number`
 
-Ціле число, яке може бути в діапазоні від 1 до числа записів у базі даних (яка повернула функція [dbase\_numrecords()](function.dbase-numrecords.html)
+Ціле число, яке може бути в діапазоні від 1 до числа записів у базі даних (яка повернула функція [dbasenumrecords()](function.dbase-numrecords.html)
 
 ### Значення, що повертаються
 
@@ -88,9 +88,9 @@ if ($db) {
 
 > **Зауваження**
 > 
-> При використанні [dbase\_get\_record()](function.dbase-get-record.html) і [dbase\_get\_record\_with\_names()](function.dbase-get-record-with-names.html), поля логічного типу повертаються як ціле (int) значення (`0` або `1`). Якщо ви збираєтеся записувати ці значення назад, потрібно пам'ятати, що результат стане рівним `0`
+> При використанні [dbasegetrecord()](function.dbase-get-record.html) і [dbasegetrecordwithnames()](function.dbase-get-record-with-names.html), поля логічного типу повертаються як ціле (int) значення (`0` або `1`). Якщо ви збираєтеся записувати ці значення назад, потрібно пам'ятати, що результат стане рівним `0`
 
 ### Дивіться також
 
--   [dbase\_add\_record()](function.dbase-add-record.html) - Додає запис до бази даних
--   [dbase\_delete\_record()](function.dbase-delete-record.html) - Видалення записів із бази даних
+-   [dbaseaddrecord()](function.dbase-add-record.html) - Додає запис до бази даних
+-   [dbasedeleterecord()](function.dbase-delete-record.html) - Видалення записів із бази даних

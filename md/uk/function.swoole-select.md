@@ -1,8 +1,8 @@
 Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
 
--   [« swoole\_load\_module](function.swoole-load-module.html)
+-   [« swooleloadmodule](function.swoole-load-module.html)
     
--   [swoole\_set\_process\_name »](function.swoole-set-process-name.html)
+-   [swoolesetprocessname »](function.swoole-set-process-name.html)
     
 -   [PHP Manual](index.html)
     

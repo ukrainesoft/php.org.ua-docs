@@ -2,7 +2,7 @@
 
 -   [« SolrInputDocument::addField](solrinputdocument.addfield.html)
     
--   [SolrInputDocument::\_\_clone »](solrinputdocument.clone.html)
+-   [SolrInputDocument::clone »](solrinputdocument.clone.html)
     
 -   [PHP Manual](index.html)
     

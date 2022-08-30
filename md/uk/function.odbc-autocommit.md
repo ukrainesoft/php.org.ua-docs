@@ -2,7 +2,7 @@
 
 -   [« Функции ODBC](ref.uodbc.html)
     
--   [odbc\_binmode »](function.odbc-binmode.html)
+-   [odbcbinmode »](function.odbc-binmode.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ odbc_autocommit(resource $odbc, bool $enable = false): int|bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 `enable`
 
@@ -45,5 +45,5 @@ odbc_autocommit(resource $odbc, bool $enable = false): int|bool
 
 ### Дивіться також
 
--   [odbc\_commit()](function.odbc-commit.html) - Фіксує транзакцію ODBC
--   [odbc\_rollback()](function.odbc-rollback.html) - Відкочує транзакцію
+-   [odbccommit()](function.odbc-commit.html) - Фіксує транзакцію ODBC
+-   [odbcrollback()](function.odbc-rollback.html) - Відкочує транзакцію

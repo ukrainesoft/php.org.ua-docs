@@ -36,11 +36,11 @@ public
 
 `offset`
 
-Те саме, що і для [EvPeriodic::\_\_construct()](evperiodic.construct.html) . Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.html) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 `interval`
 
-Те саме, що і для [EvPeriodic::\_\_construct()](evperiodic.construct.html) . Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
+Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.html) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
 
 ### Значення, що повертаються
 

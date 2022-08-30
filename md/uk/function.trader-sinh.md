@@ -1,8 +1,8 @@
 Вектор тригонометричний гіперболічний синус
 
--   [« trader\_sin](function.trader-sin.html)
+-   [« tradersin](function.trader-sin.html)
     
--   [trader\_sma »](function.trader-sma.html)
+-   [tradersma »](function.trader-sma.html)
     
 -   [PHP Manual](index.html)
     

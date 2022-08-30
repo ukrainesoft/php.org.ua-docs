@@ -2,7 +2,7 @@
 
 -   [« Event::addSignal](event.addsignal.html)
     
--   [Event::\_\_construct »](event.construct.html)
+-   [Event::construct »](event.construct.html)
     
 -   [PHP Manual](index.html)
     

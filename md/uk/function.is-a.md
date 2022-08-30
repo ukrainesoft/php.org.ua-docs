@@ -1,12 +1,12 @@
 Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
 
--   [« interface\_exists](function.interface-exists.html)
+-   [« interfaceexists](function.interface-exists.html)
     
--   [is\_subclass\_of »](function.is-subclass-of.html)
+-   [ісsubclassof »](function.is-subclass-of.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
     
@@ -41,7 +41,7 @@ is_a(mixed $object_or_class, string $class, bool $allow_string = false): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо об'єкт належить даному класу або чи є цей клас одним з його батьків, інакше повертається **`false`**
+Повертає \*\*`true`\*\*якщо об'єкт належить даному класу або чи є цей клас одним з його батьків, інакше повертається **`false`**
 
 ### Приклади
 
@@ -76,6 +76,6 @@ if ($WF instanceof WidgetFactory) {
 
 ### Дивіться також
 
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

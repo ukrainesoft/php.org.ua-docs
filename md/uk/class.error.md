@@ -2,7 +2,7 @@ Error
 
 -   [« ErrorException::getSeverity](errorexception.getseverity.html)
     
--   [Error::\_\_construct »](error.construct.html)
+-   [Error::construct »](error.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -114,7 +114,7 @@ trace
 
 ## Зміст
 
--   [Error::\_\_construct](error.construct.html) - Створює об'єкт класу Error
+-   [Error::construct](error.construct.html) - Створює об'єкт класу Error
 -   [Error::getMessage](error.getmessage.html) — Отримує повідомлення про помилку
 -   [Error::getPrevious](error.getprevious.html) — Повертає попередній Throwable
 -   [Error::getCode](error.getcode.html) — Повертає код помилки
@@ -122,5 +122,5 @@ trace
 -   [Error::getLine](error.getline.html) — Отримує номер рядка, в якому сталася помилка
 -   [Error::getTrace](error.gettrace.html) — Отримує трасування стека
 -   [Error::getTraceAsString](error.gettraceasstring.html) — Отримує трасування стека у вигляді рядка
--   [Error::\_\_toString](error.tostring.html) — Строкове подання помилки
--   [Error::\_\_clone](error.clone.html) - Клонує помилку
+-   [Error::toString](error.tostring.html) — Строкове подання помилки
+-   [Error::clone](error.clone.html) - Клонує помилку

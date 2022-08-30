@@ -1,8 +1,8 @@
 Читає із потоку
 
--   [« streamWrapper::stream\_open](streamwrapper.stream-open.html)
+-   [« streamWrapper::streamopen](streamwrapper.stream-open.html)
     
--   [streamWrapper::stream\_seek »](streamwrapper.stream-seek.html)
+-   [streamWrapper::streamseek »](streamwrapper.stream-seek.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,11 +51,11 @@ public streamWrapper::stream_read(int $count): string|false
 
 > **Зауваження**
 > 
-> [streamWrapper::stream\_eof()](streamwrapper.stream-eof.html) викликається відразу після виклику **streamWrapper::streamread()**, щоб перевірити, чи кінець файлу EOF досягнуто. Якщо метод не реалізований, то вважається, що кінець EOF файлу досягнутий.
+> [streamWrapper::streameof()](streamwrapper.stream-eof.html) викликається відразу після виклику **streamWrapper::streamread()**, щоб перевірити, чи кінець файлу EOF досягнуто. Якщо метод не реалізований, то вважається, що кінець EOF файлу досягнутий.
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [file\_get\_contents()](function.file-get-contents.html)), PHP буде викликати **streamWrapper::streamread()** і разом із ним [streamWrapper::stream\_eof()](streamwrapper.stream-eof.html) у циклі, поки **streamWrapper::streamread()** повертає непустий рядок. Повертається з [streamWrapper::stream\_eof()](streamwrapper.stream-eof.html) значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати **streamWrapper::streamread()** і разом із ним [streamWrapper::streameof()](streamwrapper.stream-eof.html) у циклі, поки **streamWrapper::streamread()** повертає непустий рядок. Повертається з [streamWrapper::streameof()](streamwrapper.stream-eof.html) значення у своїй ігнорується.
 
 ### Дивіться також
 

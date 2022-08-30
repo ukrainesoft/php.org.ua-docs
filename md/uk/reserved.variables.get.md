@@ -1,8 +1,8 @@
 Змінні HTTP GET
 
--   [« $\_SERVER](reserved.variables.server.html)
+-   [SERVER](reserved.variables.server.html)
     
--   [$\_POST »](reserved.variables.post.html)
+-   [POST »](reserved.variables.post.html)
     
 -   [PHP Manual](index.html)
     
@@ -52,4 +52,4 @@ echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
 ### Дивіться також
 
 -   [Переменные извне PHP](language.variables.external.html)
--   [Фильтрация данных](book.filter.html)
+-   [Фільтрування даних](book.filter.html)

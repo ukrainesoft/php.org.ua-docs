@@ -13,7 +13,7 @@
 
 # Створення подій для сигналів
 
-Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::\_\_construct()](event.construct.html) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.html)
+Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::construct()](event.construct.html) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.html)
 
 **Приклад #1 Обробка сигналу `SIGTERM`**
 

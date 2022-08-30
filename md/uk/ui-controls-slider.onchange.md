@@ -1,12 +1,12 @@
 Обробник зміни
 
--   [« UI\\Controls\\Slider::getValue](ui-controls-slider.getvalue.html)
+-   [« UIControlsSlider::getValue](ui-controls-slider.getvalue.html)
     
--   [UI\\Controls\\Slider::setValue »](ui-controls-slider.setvalue.html)
+-   [ОЙControlsSlider::setValue »](ui-controls-slider.setvalue.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+-   [ОЙControlsSlider](class.ui-controls-slider.html)
     
 -   Обробник зміни
     

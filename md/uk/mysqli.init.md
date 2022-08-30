@@ -2,7 +2,7 @@
 
 -   [« mysqli::$info](mysqli.info.html)
     
--   [mysqli::$insert\_id »](mysqli.insert-id.html)
+-   [mysqli::$insertid »](mysqli.insert-id.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ public mysqli::init(): ?bool
 mysqli_init(): mysqli|false
 ```
 
-Виділяє пам'ять або ініціалізує об'єкт MySQL, придатний для використання у функціях [mysqli\_options()](mysqli.options.html)
+Виділяє пам'ять або ініціалізує об'єкт MySQL, придатний для використання у функціях [mysqlioptions()](mysqli.options.html)
 
 > **Зауваження**
 > 
-> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqli\_options()](mysqli.options.html)) зазнають невдачі, доки не буде викликана функція [mysqli\_real\_connect()](mysqli.real-connect.html)
+> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqlioptions()](mysqli.options.html)) зазнають невдачі, доки не буде викликана функція [mysqlirealconnect()](mysqli.real-connect.html)
 
 ### Список параметрів
 
@@ -55,11 +55,11 @@ mysqli_init(): mysqli|false
 
 ### Приклади
 
-Дивіться [mysqli\_real\_connect()](mysqli.real-connect.html)
+Дивіться [mysqlirealconnect()](mysqli.real-connect.html)
 
 ### Дивіться також
 
--   [mysqli\_options()](mysqli.options.html) - Встановлення налаштувань
--   [mysqli\_close()](mysqli.close.html) - Закриває раніше відкрите з'єднання з базою даних
--   [mysqli\_real\_connect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
--   [mysqli\_connect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqlioptions()](mysqli.options.html) - Встановлення налаштувань
+-   [mysqliclose()](mysqli.close.html) - Закриває раніше відкрите з'єднання з базою даних
+-   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct

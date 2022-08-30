@@ -2,7 +2,7 @@
 
 -   [« Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
     
--   [Новые функции »](migration71.new-functions.html)
+-   [Нові функції »](migration71.new-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -84,7 +84,7 @@ int(2)
 int(1)
 ```
 
-Спроба використовувати значення таких функцій, що повертається, призведе до того, що це значення буде вважатися за **`null`**без виведення попередження. Причина цього в тому, що попередження викликатимуть спільні функції вищого порядку.
+Спроба використовувати значення таких функцій, що повертається, призведе до того, що це значення буде вважатися за \*\*`null`\*\*без виведення попередження. Причина цього в тому, що попередження викликатимуть спільні функції вищого порядку.
 
 ### Симетрична деструктуризація масиву
 
@@ -186,7 +186,7 @@ foreach ($data as ["id" => $id, "name" => $name]) {
 
 ### Підтримка негативних зсувів для рядків
 
-Підтримка негативних зсувів для рядків додана в [функции для работы со строками](book.strings.html), а також у [индексацию строк](language.types.string.html#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
+Підтримка негативних зсувів для рядків додана в [функції для роботи з рядками](book.strings.html), а також у [индексацию строк](language.types.string.html#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
 
 ```php
 <?php
@@ -218,7 +218,7 @@ echo "Последний символ '$string' - '$string[-1]'.\n";
 
 ### Підтримка AEAD в ext/openssl
 
-Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [openssl\_encrypt()](function.openssl-encrypt.html) і [openssl\_decrypt()](function.openssl-decrypt.html) додатковими параметрами.
+Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.html) і [openssldecrypt()](function.openssl-decrypt.html) додатковими параметрами.
 
 ### Перетворення callable в [Closure](class.closure.html) за допомогою [Closure::fromCallable()](closure.fromcallable.html)
 
@@ -251,7 +251,7 @@ string(16) "значение"
 
 ### Асинхронне оброблення сигналів
 
-Нова функція [pcntl\_async\_signals()](function.pcntl-async-signals.html) була додана для дозволу асинхронної обробки сигналів без використання тиків (які виробляють багато накладних витрат).
+Нова функція [pcntlasyncsignals()](function.pcntl-async-signals.html) була додана для дозволу асинхронної обробки сигналів без використання тиків (які виробляють багато накладних витрат).
 
 ```php
 <?php
@@ -272,8 +272,8 @@ SIGHUP
 
 ### Підтримка HTTP/2 server push в ext/curl
 
-Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curl\_multi\_setopt()](function.curl-multi-setopt.html) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`** і **`CURL_PUSH_DENY`** для визначення, був прийнятий або відхилений "server push".
+Підтримка "server push" додана в модуль CURL (потрібна версія 7.46 та вище). Використовувати можна у функції [curlmultisetopt()](function.curl-multi-setopt.html) з новою константою **`CURLMOPT_PUSHFUNCTION`**. Також додані константи **`CURL_PUSH_OK`** і **`CURL_PUSH_DENY`** для визначення, був прийнятий або відхилений "server push".
 
 ### Контекстні опції потоку
 
-Додано опцію контексту потоку [tcp\_nodelay](context.socket.html#context.socket.tcp_nodelay)
+Додано опцію контексту потоку [tcpnodelay](context.socket.html#context.socket.tcp_nodelay)

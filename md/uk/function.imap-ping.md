@@ -1,8 +1,8 @@
 Перевірити, чи активний потік IMAP
 
--   [« imap\_open](function.imap-open.html)
+-   [« imapopen](function.imap-open.html)
     
--   [imap\_qprint »](function.imap-qprint.html)
+-   [imapqprint »](function.imap-qprint.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,17 +29,17 @@ imap_ping(IMAP\Connection $imap): bool
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо потік активний і **`false`**, якщо ні.
+Повертає \*\*`true`\*\*якщо потік активний і **`false`**, якщо ні.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

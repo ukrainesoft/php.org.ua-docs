@@ -2,7 +2,7 @@
 
 -   [« SolrDocument::rewind](solrdocument.rewind.html)
     
--   [SolrDocument::\_\_set »](solrdocument.set.html)
+-   [SolrDocument::set »](solrdocument.set.html)
     
 -   [PHP Manual](index.html)
     

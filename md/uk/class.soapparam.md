@@ -1,8 +1,8 @@
 Клас SoapParam
 
--   [« SoapHeader::\_\_construct](soapheader.construct.html)
+-   [« SoapHeader::construct](soapheader.construct.html)
     
--   [SoapParam::\_\_construct »](soapparam.construct.html)
+-   [SoapParam::construct »](soapparam.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,4 +58,4 @@ paramname
 
 ## Зміст
 
--   [SoapParam::\_\_construct](soapparam.construct.html) - Конструктор SoapParam
+-   [SoapParam::construct](soapparam.construct.html) - Конструктор SoapParam

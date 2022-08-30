@@ -2,7 +2,7 @@
 
 -   [« Функции OpenSSL](ref.openssl.html)
     
--   [openssl\_cms\_decrypt »](function.openssl-cms-decrypt.html)
+-   [opensslcmsdecrypt »](function.openssl-cms-decrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ openssl_cipher_iv_length(string $cipher_algo): int|false
 
 `cipher_algo`
 
-Метод шифрування. Список потенційних значень можна отримати за допомогою [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.html)
+Метод шифрування. Список потенційних значень можна отримати за допомогою [opensslgetciphermethods()](function.openssl-get-cipher-methods.html)
 
 ### Значення, що повертаються
 

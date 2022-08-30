@@ -1,12 +1,12 @@
 Встановлює нове значення для атомарного об'єкту
 
--   [« Swoole\\Atomic::get](swoole-atomic.get.html)
+-   [« SwooleAtomic::get](swoole-atomic.get.html)
     
--   [Swoole\\Atomic::sub »](swoole-atomic.sub.html)
+-   [SwooleAtomic::sub »](swoole-atomic.sub.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Atomic](class.swoole-atomic.html)
+-   [SwooleAtomic](class.swoole-atomic.html)
     
 -   Встановлює нове значення для атомарного об'єкту
     

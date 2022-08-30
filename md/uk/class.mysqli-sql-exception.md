@@ -1,8 +1,8 @@
 Клас mysqlisqlexception
 
--   [« mysqli\_warning::next](mysqli-warning.next.html)
+-   [« mysqliwarning::next](mysqli-warning.next.html)
     
--   [mysqli\_sql\_exception::getSqlState »](mysqli-sql-exception.getsqlstate.html)
+-   [mysqlisqlexception::getSqlState »](mysqli-sql-exception.getsqlstate.html)
     
 -   [PHP Manual](index.html)
     
@@ -98,4 +98,4 @@ sqlstate
 
 ## Зміст
 
--   [mysqli\_sql\_exception::getSqlState](mysqli-sql-exception.getsqlstate.html) — Повертає код помилки SQLSTATE
+-   [mysqlisqlexception::getSqlState](mysqli-sql-exception.getsqlstate.html) — Повертає код помилки SQLSTATE

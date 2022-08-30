@@ -1,6 +1,6 @@
 Перевіряє, чи є атрибут певним ідентифікатором
 
--   [« DOMAttr::\_\_construct](domattr.construct.html)
+-   [« DOMAttr::construct](domattr.construct.html)
     
 -   [DOMCdataSection »](class.domcdatasection.html)
     

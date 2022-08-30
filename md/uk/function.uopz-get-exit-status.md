@@ -1,12 +1,12 @@
 Отримати останній встановлений статус виходу
 
--   [« uopz\_function](function.uopz-function.html)
+-   [« uopzfunction](function.uopz-function.html)
     
--   [uopz\_get\_hook »](function.uopz-get-hook.html)
+-   [uopzgethook »](function.uopz-get-hook.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Отримати останній встановлений статус виходу
     
@@ -57,4 +57,4 @@ echo uopz_get_exit_status();?>
 
 ### Дивіться також
 
--   [uopz\_allow\_exit()](function.uopz-allow-exit.html) - Дозволяє керувати вимкненим опкодом exit
+-   [uopzallowexit()](function.uopz-allow-exit.html) - Дозволяє керувати вимкненим опкодом exit

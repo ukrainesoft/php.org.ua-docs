@@ -1,12 +1,12 @@
 Виконує запит SQL
 
--   [« Swoole\\MySQL::on](swoole-mysql.on.html)
+-   [« SwooleMySQL::on](swoole-mysql.on.html)
     
--   [Swoole\\MySQL\\Exception »](class.swoole-mysql-exception.html)
+-   [SwooleMySQLException »](class.swoole-mysql-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\MySQL](class.swoole-mysql.html)
+-   [SwooleMySQL](class.swoole-mysql.html)
     
 -   Виконує запит SQL
     

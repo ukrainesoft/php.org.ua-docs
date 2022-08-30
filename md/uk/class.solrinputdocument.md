@@ -124,10 +124,10 @@ public toArray(): array
 -   [SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.html) — Додає масив дочірніх документів
 -   [SolrInputDocument::addField](solrinputdocument.addfield.html) — Додає поле до документа
 -   [SolrInputDocument::clear](solrinputdocument.clear.html) — скидає вхідний документ
--   [SolrInputDocument::\_\_clone](solrinputdocument.clone.html) - Створює копію SolrDocument
--   [SolrInputDocument::\_\_construct](solrinputdocument.construct.html) - Конструктор
+-   [SolrInputDocument::clone](solrinputdocument.clone.html) - Створює копію SolrDocument
+-   [SolrInputDocument::construct](solrinputdocument.construct.html) - Конструктор
 -   [SolrInputDocument::deleteField](solrinputdocument.deletefield.html) — Видаляє поле із документа
--   [SolrInputDocument::\_\_destruct](solrinputdocument.destruct.html) - Деструктор
+-   [SolrInputDocument::destruct](solrinputdocument.destruct.html) - Деструктор
 -   [SolrInputDocument::fieldExists](solrinputdocument.fieldexists.html) — Перевіряє, чи є поле
 -   [SolrInputDocument::getBoost](solrinputdocument.getboost.html) — Отримує поточне значення підвищення документа
 -   [SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrInputDocument)

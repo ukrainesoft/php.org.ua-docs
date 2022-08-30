@@ -27,7 +27,7 @@ public static SeasLog::flushBuffer(): bool
 
 > **Зауваження**
 > 
-> Дивіться також: [seaslog.appender\_retry](seaslog.configuration.html#ini.seaslog.appender-retry) [seaslog.remote\_host](seaslog.configuration.html#ini.seaslog.remote-host) [seaslog.remote\_port](seaslog.configuration.html#ini.seaslog.remote-port)
+> Дивіться також: [seaslog.appenderretry](seaslog.configuration.html#ini.seaslog.appender-retry) [seaslog.remotehost](seaslog.configuration.html#ini.seaslog.remote-host) [seaslog.remoteport](seaslog.configuration.html#ini.seaslog.remote-port)
 
 ### Список параметрів
 
@@ -74,8 +74,8 @@ array(0) {
 
 ### Дивіться також
 
--   [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer)
--   [seaslog.buffer\_size](seaslog.configuration.html#ini.seaslog.buffer-size)
--   [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
+-   [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)
+-   [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)
+-   [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
 -   [SeasLog::getBufferEnabled()](seaslog.getbufferenabled.html) - Визначає, чи включено буфер
 -   [SeasLog::getBuffer()](seaslog.getbuffer.html) - Отримує буфер логів у пам'яті у вигляді масиву

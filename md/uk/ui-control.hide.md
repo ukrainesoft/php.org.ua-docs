@@ -1,12 +1,12 @@
 Приховати елемент керування
 
--   [« UI\\Control::getTopLevel](ui-control.gettoplevel.html)
+-   [« UIControl::getTopLevel](ui-control.gettoplevel.html)
     
--   [UI\\Control::isEnabled »](ui-control.isenabled.html)
+-   [ОЙControl::isEnabled »](ui-control.isenabled.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Приховати елемент керування
     

@@ -22,10 +22,10 @@ Document Object Model
 -   [Предопределённые константы](dom.constants.html)
 -   [Примеры](dom.examples.html)
 -   [DOMAttr](class.domattr.html) - Клас DOMAttr
-    -   [DOMAttr::\_\_construct](domattr.construct.html) - Створює екземпляр класу DOMAttr
+    -   [DOMAttr::construct](domattr.construct.html) - Створює екземпляр класу DOMAttr
     -   [DOMAttr::isId](domattr.isid.html) — Перевіряє, чи є атрибут певним ідентифікатором
 -   [DOMCdataSection](class.domcdatasection.html) - Клас DOMCdataSection
-    -   [DOMCdataSection::\_\_construct](domcdatasection.construct.html) — Створює новий екземпляр класу DOMCdataSection
+    -   [DOMCdataSection::construct](domcdatasection.construct.html) — Створює новий екземпляр класу DOMCdataSection
 -   [DOMCharacterData](class.domcharacterdata.html) - Клас DOMCharacterData
     -   [DOMCharacterData::appendData](domcharacterdata.appenddata.html) — Додати рядок до кінця символьних даних вузла
     -   [DOMCharacterData::deleteData](domcharacterdata.deletedata.html) — Видалити діапазон символів із вузла
@@ -38,9 +38,9 @@ Document Object Model
     -   [DOMChildNode::remove](domchildnode.remove.html) - Видаляє вузол
     -   [DOMChildNode::replaceWith](domchildnode.replacewith.html) — Замінює вузол новими вузлами
 -   [DOMComment](class.domcomment.html) - Клас DOMComment
-    -   [DOMComment::\_\_construct](domcomment.construct.html) — Створює новий екземпляр класу DOMComment
+    -   [DOMComment::construct](domcomment.construct.html) — Створює новий екземпляр класу DOMComment
 -   [DOMDocument](class.domdocument.html) - Клас DOMDocument
-    -   [DOMDocument::\_\_construct](domdocument.construct.html) — Створює новий об'єкт DOMDocument
+    -   [DOMDocument::construct](domdocument.construct.html) — Створює новий об'єкт DOMDocument
     -   [DOMDocument::createAttribute](domdocument.createattribute.html) - Створити новий атрибут
     -   [DOMDocument::createAttributeNS](domdocument.createattributens.html) — Створює новий атрибут вузла із відповідним простором імен
     -   [DOMDocument::createCDATASection](domdocument.createcdatasection.html) - Створює новий вузол cdata
@@ -73,10 +73,10 @@ Document Object Model
     -   [DOMDocument::xinclude](domdocument.xinclude.html) — Вставляє XInclude в об'єкті DOMDocument.
 -   [DOMDocumentFragment](class.domdocumentfragment.html) - Клас DOMDocumentFragment
     -   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.html) — Додавання необроблених даних XML
-    -   [DOMDocumentFragment::\_\_construct](domdocumentfragment.construct.html) - Конструктор об'єкта DOMDocumentFragment
+    -   [DOMDocumentFragment::construct](domdocumentfragment.construct.html) - Конструктор об'єкта DOMDocumentFragment
 -   [DOMDocumentType](class.domdocumenttype.html) - Клас DOMDocumentType
 -   [DOMElement](class.domelement.html) - Клас DOMElement
-    -   [DOMElement::\_\_construct](domelement.construct.html) — Створює новий екземпляр класу DOMElement
+    -   [DOMElement::construct](domelement.construct.html) — Створює новий екземпляр класу DOMElement
     -   [DOMElement::getAttribute](domelement.getattribute.html) — Повертає значення атрибуту
     -   [DOMElement::getAttributeNode](domelement.getattributenode.html) - Повертає вузол атрибуту
     -   [DOMElement::getAttributeNodeNS](domelement.getattributenodens.html) - Повертає вузол атрибуту
@@ -97,10 +97,10 @@ Document Object Model
     -   [DOMElement::setIdAttributeNS](domelement.setidattributens.html) — Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
 -   [DOMEntity](class.domentity.html) - Клас DOMEntity
 -   [DOMEntityReference](class.domentityreference.html) - Клас DOMEntityReference
-    -   [DOMEntityReference::\_\_construct](domentityreference.construct.html) — Створює новий об'єкт класу DOM Entity Reference
+    -   [DOMEntityReference::construct](domentityreference.construct.html) — Створює новий об'єкт класу DOM Entity Reference
 -   [DOMException](class.domexception.html) - Клас DOMException
 -   [DOMImplementation](class.domimplementation.html) - Клас DOMImplementation
-    -   [DOMImplementation::\_\_construct](domimplementation.construct.html) — Створює новий об'єкт класу DOMImplementation
+    -   [DOMImplementation::construct](domimplementation.construct.html) — Створює новий об'єкт класу DOMImplementation
     -   [DOMImplementation::createDocument](domimplementation.createdocument.html) — Створює об'єкт класу DOMDocument заданого типу з його елементом.
     -   [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.html) — Створює порожній об'єкт класу DOMDocumentType
     -   [DOMImplementation::hasFeature](domimplementation.hasfeature.html) — Перевірка, чи реалізована певна можливість у реалізації DOM
@@ -135,17 +135,17 @@ Document Object Model
     -   [DOMParentNode::append](domparentnode.append.html) - Додає вузли після останнього дочірнього вузла
     -   [DOMParentNode::prepend](domparentnode.prepend.html) - Додає вузли перед першим дочірнім вузлом
 -   [DOMProcessingInstruction](class.domprocessinginstruction.html) - Клас DOMProcessingInstruction
-    -   [DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.html) — Створює новий об'єкт класу DOMProcessingInstruction
+    -   [DOMProcessingInstruction::construct](domprocessinginstruction.construct.html) — Створює новий об'єкт класу DOMProcessingInstruction
 -   [DOMText](class.domtext.html) - Клас DOMText
-    -   [DOMText::\_\_construct](domtext.construct.html) — Створює об'єкт класу DOMText
+    -   [DOMText::construct](domtext.construct.html) — Створює об'єкт класу DOMText
     -   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.html) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
     -   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.html) — Визначає, чи містить текстовий вузол пробіли у вмісті
     -   [DOMText::splitText](domtext.splittext.html) — Поділяє вузол на два, починаючи із заданої позиції
 -   [DOMXPath](class.domxpath.html) - Клас DOMXPath
-    -   [DOMXPath::\_\_construct](domxpath.construct.html) — Створює новий об'єкт класу DOMXPath
+    -   [DOMXPath::construct](domxpath.construct.html) — Створює новий об'єкт класу DOMXPath
     -   [DOMXPath::evaluate](domxpath.evaluate.html) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
     -   [DOMXPath::query](domxpath.query.html) — Виконує заданий вираз XPath
     -   [DOMXPath::registerNamespace](domxpath.registernamespace.html) — Реєструє простір імен з об'єктом DOMXPath
     -   [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.html) - Реєстрація PHP-функцій як функцій XPath
 -   [Функции DOM](ref.dom.html)
-    -   [dom\_import\_simplexml](function.dom-import-simplexml.html) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+    -   [domimportsimplexml](function.dom-import-simplexml.html) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement

@@ -1,6 +1,6 @@
 Визначає кількість директорій та файлів
 
--   [« GlobIterator::\_\_construct](globiterator.construct.html)
+-   [« GlobIterator::construct](globiterator.construct.html)
     
 -   [InfiniteIterator »](class.infiniteiterator.html)
     
@@ -53,6 +53,6 @@ printf("Найдено элементов: %d \r\n", $iterator->count());
 
 ### Дивіться також
 
--   [GlobIterator::\_\_construct()](globiterator.construct.html) - створює ітератор директорії, використовуючи glob-вираз
+-   [GlobIterator::construct()](globiterator.construct.html) - створює ітератор директорії, використовуючи glob-вираз
 -   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
 -   [glob()](function.glob.html) - Знаходить файлові шляхи, що збігаються із шаблоном

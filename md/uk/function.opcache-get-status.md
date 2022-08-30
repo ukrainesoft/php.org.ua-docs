@@ -1,8 +1,8 @@
 Отримати інформацію про стан кешу
 
--   [« opcache\_get\_configuration](function.opcache-get-configuration.html)
+-   [« opcachegetconfiguration](function.opcache-get-configuration.html)
     
--   [opcache\_invalidate »](function.opcache-invalidate.html)
+-   [opcacheinvalidate »](function.opcache-invalidate.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ opcache_get_status(bool $include_scripts = true): array|false
 
 ### Дивіться також
 
--   [opcache\_get\_configuration()](function.opcache-get-configuration.html) - Отримати конфігураційну інформацію кешу
+-   [opcachegetconfiguration()](function.opcache-get-configuration.html) - Отримати конфігураційну інформацію кешу

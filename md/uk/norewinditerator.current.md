@@ -1,6 +1,6 @@
 Отримує поточне значення
 
--   [« NoRewindIterator::\_\_construct](norewinditerator.construct.html)
+-   [« NoRewindIterator::construct](norewinditerator.construct.html)
     
 -   [NoRewindIterator::getInnerIterator »](norewinditerator.getinneriterator.html)
     

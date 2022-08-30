@@ -1,12 +1,12 @@
 Перевіряє, чи міститься у двосторонній черзі задані значення
 
--   [« Ds\\Deque::\_\_construct](ds-deque.construct.html)
+-   [« DsDeque::construct](ds-deque.construct.html)
     
--   [Ds\\Deque::copy »](ds-deque.copy.html)
+-   [ДсDeque::copy »](ds-deque.copy.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Перевіряє, чи міститься у двосторонній черзі задані значення
     
@@ -33,7 +33,7 @@ public Ds\Deque::contains(mixed ...$values): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**якщо хоча б одне значення з `values` не знайдено в колекції та **`true`** в іншому випадку.
+Повертає \*\*`false`\*\*якщо хоча б одне значення з `values` не знайдено в колекції та **`true`** в іншому випадку.
 
 ### Приклади
 

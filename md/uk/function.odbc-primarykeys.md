@@ -1,8 +1,8 @@
 Отримує первинні ключі таблиці
 
--   [« odbc\_prepare](function.odbc-prepare.html)
+-   [« odbcprepare](function.odbc-prepare.html)
     
--   [odbc\_procedurecolumns »](function.odbc-procedurecolumns.html)
+-   [odbcprocedurecolumns »](function.odbc-procedurecolumns.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_primarykeys(    resource $odbc,    ?string $catalog,    string 
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -89,5 +89,5 @@ Array
 
 ### Дивіться також
 
--   [odbc\_tables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
--   [odbc\_foreignkeys()](function.odbc-foreignkeys.html) - Повертає список зовнішніх ключів
+-   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbcforeignkeys()](function.odbc-foreignkeys.html) - Повертає список зовнішніх ключів

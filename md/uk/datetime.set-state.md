@@ -23,9 +23,9 @@ DateTime::setstate - Оброблювач setstate
 public static DateTime::__set_state(array $array): DateTime
 ```
 
-Обробник [\_\_set\_state()](language.oop5.magic.html#object.set-state)
+Обробник [setstate()](language.oop5.magic.html#object.set-state)
 
-Подібний до методу [DateTimeImmutable::\_\_set\_state()](datetimeimmutable.set-state.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::setstate()](datetimeimmutable.set-state.html), крім роботи з об'єктом [DateTime](class.datetime.html)
 
 ### Список параметрів
 

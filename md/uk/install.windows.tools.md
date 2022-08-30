@@ -2,7 +2,7 @@
 
 -   [« PECL](install.windows.pecl.html)
     
--   [Рекомендованная конфигурация для систем Windows »](install.windows.recommended.html)
+-   [Рекомендована конфігурація для Windows »](install.windows.recommended.html)
     
 -   [PHP Manual](index.html)
     

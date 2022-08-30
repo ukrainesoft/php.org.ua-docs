@@ -1,6 +1,6 @@
 Виконати рядок як код Javascript
 
--   [« V8Js::\_\_construct](v8js.construct.html)
+-   [« V8Js::construct](v8js.construct.html)
     
 -   [V8Js::getExtensions »](v8js.getextensions.html)
     

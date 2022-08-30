@@ -1,12 +1,12 @@
 Конструктор класу YafRouteRegex
 
--   [« Yaf\_Route\_Regex::assemble](yaf-route-regex.assemble.html)
+-   [« YafRouteRegex::assemble](yaf-route-regex.assemble.html)
     
--   [Yaf\_Route\_Regex::route »](yaf-route-regex.route.html)
+-   [YafRouteRegex::route »](yaf-route-regex.route.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Regex](class.yaf-route-regex.html)
+-   [YafRouteRegex](class.yaf-route-regex.html)
     
 -   Конструктор класу YafRouteRegex
     
@@ -24,17 +24,17 @@ string `$match`
 array `$route`  
 array `$map`  
 array `$verify`  
-string `$reverse`  
+string `$reverse`
 
 ### Список параметрів
 
 `match`
 
-Готовий шаблон регулярного виразу використовуватиметься для перевірки відповідності URI запиту; якщо не збігається, [Yaf\_Route\_Regex](class.yaf-route-regex.html) поверне **`false`**
+Готовий шаблон регулярного виразу використовуватиметься для перевірки відповідності URI запиту; якщо не збігається, [YafRouteRegex](class.yaf-route-regex.html) поверне **`false`**
 
 `route`
 
-Коли шаблон відповідності відповідає URI запиту, [Yaf\_Route\_Regex](class.yaf-route-regex.html) буде вирішувати, якого маршруту m/c/a він належить.
+Коли шаблон відповідності відповідає URI запиту, [YafRouteRegex](class.yaf-route-regex.html) буде вирішувати, якого маршруту m/c/a він належить.
 
 Будь-який з m/c/a у цьому масиві - необов'язковий, якщо ви не призначите будь-яке значення, він перенаправить на маршрут за промовчанням.
 
@@ -46,7 +46,7 @@ string `$reverse`
 
 `reverse`
 
-Рядок, що використовується для формування URL, дивіться [Yaf\_Route\_Regex::assemble()](yaf-route-regex.assemble.html)
+Рядок, що використовується для формування URL, дивіться [YafRouteRegex::assemble()](yaf-route-regex.assemble.html)
 
 > **Зауваження**
 > 
@@ -149,10 +149,10 @@ string `$reverse`
 
 ### Дивіться також
 
--   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [Yaf\_Router::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
--   [Yaf\_Route\_Static](class.yaf-route-static.html)
--   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
--   [Yaf\_Route\_Simple](class.yaf-route-simple.html)
--   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
--   [Yaf\_Route\_Map](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [YafRouter::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.html)
+-   [YafRouteSupervar](class.yaf-route-supervar.html)
+-   [YafRouteSimple](class.yaf-route-simple.html)
+-   [YafRouteRewrite](class.yaf-route-rewrite.html)
+-   [YafRouteMap](class.yaf-route-map.html)

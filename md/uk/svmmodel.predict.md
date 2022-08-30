@@ -1,6 +1,6 @@
 Передбачити значення на основі нових даних
 
--   [« SVMModel::predict\_probability](svmmodel.predict-probability.html)
+-   [« SVMModel::predictprobability](svmmodel.predict-probability.html)
     
 -   [SVMModel::save »](svmmodel.save.html)
     

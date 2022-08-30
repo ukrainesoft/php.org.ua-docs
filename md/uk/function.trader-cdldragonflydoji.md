@@ -1,8 +1,8 @@
 Бабка дожі
 
--   [« trader\_cdldojistar](function.trader-cdldojistar.html)
+-   [« tradercdldojistar](function.trader-cdldojistar.html)
     
--   [trader\_cdlengulfing »](function.trader-cdlengulfing.html)
+-   [tradercdlengulfing »](function.trader-cdlengulfing.html)
     
 -   [PHP Manual](index.html)
     

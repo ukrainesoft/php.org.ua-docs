@@ -1,12 +1,12 @@
 Реєструє callback-функцію на ім'я події
 
--   [« Swoole\\Http\\Client::isConnected](swoole-http-client.isconnected.html)
+-   [« SwooleHttpClient::isConnected](swoole-http-client.isconnected.html)
     
--   [Swoole\\Http\\Client::post »](swoole-http-client.post.html)
+-   [SwooleHttpClient::post »](swoole-http-client.post.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Реєструє callback-функцію на ім'я події
     

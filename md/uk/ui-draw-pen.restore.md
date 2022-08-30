@@ -1,12 +1,12 @@
 Відновити
 
--   [« UI\\Draw\\Pen::fill](ui-draw-pen.fill.html)
+-   [« UIDrawPen::fill](ui-draw-pen.fill.html)
     
--   [UI\\Draw\\Pen::save »](ui-draw-pen.save.html)
+-   [ОЙDrawPen::save »](ui-draw-pen.save.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Відновити
     

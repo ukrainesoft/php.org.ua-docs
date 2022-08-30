@@ -1,12 +1,12 @@
 Витягує зовнішній ітератор
 
--   [« mysqli\_result::free](mysqli-result.free.html)
+-   [« mysqliresult::free](mysqli-result.free.html)
     
--   [mysqli\_result::$lengths »](mysqli-result.lengths.html)
+-   [mysqliresult::$lengths »](mysqli-result.lengths.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Витягує зовнішній ітератор
     

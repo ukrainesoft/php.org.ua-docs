@@ -1,12 +1,12 @@
 Надсилає HTTP-запит після встановлення параметрів
 
--   [« Swoole\\Http\\Client::download](swoole-http-client.download.html)
+-   [« SwooleHttpClient::download](swoole-http-client.download.html)
     
--   [Swoole\\Http\\Client::get »](swoole-http-client.get.html)
+-   [SwooleHttpClient::get »](swoole-http-client.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Надсилає HTTP-запит після встановлення параметрів
     

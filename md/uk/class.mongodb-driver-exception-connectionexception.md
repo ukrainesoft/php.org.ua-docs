@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionConnectionException
 
--   [« MongoDB\\Driver\\Exception\\CommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.html)
+-   [« MongoDBDriverExceptionCommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.html)
     
--   [MongoDB\\Driver\\Exception\\ConnectionTimeoutException »](class.mongodb-driver-exception-connectiontimeoutexception.html)
+-   [MongoDBDriverExceptionConnectionTimeoutException »](class.mongodb-driver-exception-connectiontimeoutexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionConnectionException
     

@@ -1,8 +1,8 @@
 Клас DOMDocument
 
--   [« DOMComment::\_\_construct](domcomment.construct.html)
+-   [« DOMComment::construct](domcomment.construct.html)
     
--   [DOMDocument::\_\_construct »](domdocument.construct.html)
+-   [DOMDocument::construct »](domdocument.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -281,11 +281,11 @@ doctype
 
 documentElement
 
-Об'єкт [DOMElement](class.domelement.html)який є першим елементом документа. Якщо не знайдено, оцінюється як **`null`**. Зручний атрибут, що надає прямий доступ до дочірнього вузла як елемент документа . **`null`**якщо не існує.
+Об'єкт [DOMElement](class.domelement.html)який є першим елементом документа. Якщо не знайдено, оцінюється як **`null`**. Зручний атрибут, що надає прямий доступ до дочірнього вузла як елемент документа . \*\*`null`\*\*якщо не існує.
 
 documentURI
 
-Розташування документа або **`null`**якщо воно не визначено.
+Розташування документа або \*\*`null`\*\*якщо воно не визначено.
 
 encoding
 
@@ -366,11 +366,11 @@ xmlVersion
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
 
 > **Зауваження**
 > 
-> При використанні [json\_encode()](function.json-encode.html) для об'єкту **DOMDocument** буде отримано результат кодування порожнього об'єкта.
+> При використанні [jsonencode()](function.json-encode.html) для об'єкту **DOMDocument** буде отримано результат кодування порожнього об'єкта.
 
 ## Дивіться також
 
@@ -378,7 +378,7 @@ xmlVersion
 
 ## Зміст
 
--   [DOMDocument::\_\_construct](domdocument.construct.html) — Створює новий об'єкт DOMDocument
+-   [DOMDocument::construct](domdocument.construct.html) — Створює новий об'єкт DOMDocument
 -   [DOMDocument::createAttribute](domdocument.createattribute.html) - Створити новий атрибут
 -   [DOMDocument::createAttributeNS](domdocument.createattributens.html) — Створює новий атрибут вузла із відповідним простором імен
 -   [DOMDocument::createCDATASection](domdocument.createcdatasection.html) - Створює новий вузол cdata

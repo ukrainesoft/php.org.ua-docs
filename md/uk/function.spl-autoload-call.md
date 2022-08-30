@@ -1,12 +1,12 @@
 Спроба завантажити клас усіма зареєстрованими функціями autoload()
 
--   [« iterator\_to\_array](function.iterator-to-array.html)
+-   [« iteratorтоarray](function.iterator-to-array.html)
     
--   [spl\_autoload\_extensions »](function.spl-autoload-extensions.html)
+-   [splautoloadextensions »](function.spl-autoload-extensions.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Спроба завантажити клас усіма зареєстрованими функціями autoload()
     

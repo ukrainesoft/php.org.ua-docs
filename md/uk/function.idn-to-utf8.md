@@ -1,12 +1,12 @@
 Перетворення доменного імені з IDNA ASCII на Unicode
 
--   [« idn\_to\_ascii](function.idn-to-ascii.html)
+-   [« idnтоascii](function.idn-to-ascii.html)
     
 -   [IntlChar »](class.intlchar.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IDN](ref.intl.idn.html)
+-   [Функції IDN](ref.intl.idn.html)
     
 -   Перетворення доменного імені з IDNA ASCII на Unicode
     
@@ -76,4 +76,4 @@ täst.de
 
 ### Дивіться також
 
--   [idn\_to\_ascii()](function.idn-to-ascii.html) - Перетворити доменне ім'я на формат IDNA ASCII
+-   [idnтоascii()](function.idn-to-ascii.html) - Перетворити доменне ім'я на формат IDNA ASCII

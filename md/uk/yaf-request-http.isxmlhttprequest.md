@@ -1,12 +1,12 @@
 Визначає, чи є запит Ajax-запитом
 
--   [« Yaf\_Request\_Http::getRequest](yaf-request-http.getrequest.html)
+-   [« YafRequestHttp::getRequest](yaf-request-http.getrequest.html)
     
--   [Yaf\_Request\_Simple »](class.yaf-request-simple.html)
+-   [YafRequestSimple »](class.yaf-request-simple.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Http](class.yaf-request-http.html)
+-   [YafRequestHttp](class.yaf-request-http.html)
     
 -   Визначає, чи є запит Ajax-запитом
     

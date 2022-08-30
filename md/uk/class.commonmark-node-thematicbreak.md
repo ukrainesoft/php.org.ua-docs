@@ -1,8 +1,8 @@
 ThematicBreak успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Text\\Emphasis](class.commonmark-node-text-emphasis.html)
+-   [« CommonMarkNodeTextEmphasis](class.commonmark-node-text-emphasis.html)
     
--   [CommonMark\\Node\\SoftBreak »](class.commonmark-node-softbreak.html)
+-   [CommonMarkNodeSoftBreak »](class.commonmark-node-softbreak.html)
     
 -   [PHP Manual](index.html)
     

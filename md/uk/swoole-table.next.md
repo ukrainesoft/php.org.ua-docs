@@ -1,12 +1,12 @@
 Переміщує ітератор на наступний рядок
 
--   [« Swoole\\Table::key](swoole-table.key.html)
+-   [« SwooleTable::key](swoole-table.key.html)
     
--   [Swoole\\Table::rewind »](swoole-table.rewind.html)
+-   [SwooleTable::rewind »](swoole-table.rewind.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Переміщує ітератор на наступний рядок
     

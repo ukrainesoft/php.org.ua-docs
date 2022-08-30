@@ -1,8 +1,8 @@
 Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
 
--   [« apache\_getenv](function.apache-getenv.html)
+-   [« apachegetenv](function.apache-getenv.html)
     
--   [apache\_note »](function.apache-note.html)
+-   [apachenote »](function.apache-note.html)
     
 -   [PHP Manual](index.html)
     

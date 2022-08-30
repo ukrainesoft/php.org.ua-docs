@@ -1,8 +1,8 @@
 Вектор найбільшого цілого числа
 
--   [« trader\_cdlxsidegap3methods](function.trader-cdlxsidegap3methods.html)
+-   [« tradercdlxsidegap3methods](function.trader-cdlxsidegap3methods.html)
     
--   [trader\_cmo »](function.trader-cmo.html)
+-   [tradercmo »](function.trader-cmo.html)
     
 -   [PHP Manual](index.html)
     

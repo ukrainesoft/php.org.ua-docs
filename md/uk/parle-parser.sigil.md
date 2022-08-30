@@ -1,12 +1,12 @@
 Витягує частину збігу за правилом
 
--   [« Parle\\Parser::right](parle-parser.right.html)
+-   [« ParleParser::right](parle-parser.right.html)
     
--   [Parle\\Parser::token »](parle-parser.token.html)
+-   [ParleParser::token »](parle-parser.token.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Витягує частину збігу за правилом
     

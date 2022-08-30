@@ -1,12 +1,12 @@
 Встановити заголовок
 
--   [« UI\\Controls\\Group::setMargin](ui-controls-group.setmargin.html)
+-   [« UIControlsGroup::setMargin](ui-controls-group.setmargin.html)
     
--   [UI\\Controls\\Box »](class.ui-controls-box.html)
+-   [ОЙControlsBox »](class.ui-controls-box.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Group](class.ui-controls-group.html)
+-   [ОЙControlsGroup](class.ui-controls-group.html)
     
 -   Встановити заголовок
     

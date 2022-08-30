@@ -1,12 +1,12 @@
 Меню
 
--   [« UI\\Control::show](ui-control.show.html)
+-   [« UIControl::show](ui-control.show.html)
     
--   [UI\\Menu::append »](ui-menu.append.html)
+-   [ОЙMenu::append »](ui-menu.append.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Меню
     
@@ -50,10 +50,10 @@ public appendSeparator()
 
 ## Зміст
 
--   [UI\\Menu::append](ui-menu.append.html) - Додати пункт меню
--   [UI\\Menu::appendAbout](ui-menu.appendabout.html) — Додати пункт меню About
--   [UI\\Menu::appendCheck](ui-menu.appendcheck.html) - Додати пункт меню з чекбоксом
--   [UI\\Menu::appendPreferences](ui-menu.appendpreferences.html) - Додати пункт меню "Налаштування" (Preferences)
--   [UI\\Menu::appendQuit](ui-menu.appendquit.html) - Додати пункт меню "Вихід" (Quit)
--   [UI\\Menu::appendSeparator](ui-menu.appendseparator.html) - Додати пункт меню "Розділювач" (Separator)
--   [UI\\Menu::\_\_construct](ui-menu.construct.html) — Створити новий об'єкт
+-   [ОЙMenu::append](ui-menu.append.html) - Додати пункт меню
+-   [ОЙMenu::appendAbout](ui-menu.appendabout.html) — Додати пункт меню About
+-   [ОЙMenu::appendCheck](ui-menu.appendcheck.html) - Додати пункт меню з чекбоксом
+-   [ОЙMenu::appendPreferences](ui-menu.appendpreferences.html) - Додати пункт меню "Налаштування" (Preferences)
+-   [ОЙMenu::appendQuit](ui-menu.appendquit.html) - Додати пункт меню "Вихід" (Quit)
+-   [ОЙMenu::appendSeparator](ui-menu.appendseparator.html) - Додати пункт меню "Розділювач" (Separator)
+-   [ОЙMenu::construct](ui-menu.construct.html) — Створити новий об'єкт

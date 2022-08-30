@@ -1,12 +1,12 @@
 Отримує дані з віддаленого сокету
 
--   [« Swoole\\Client::pipe](swoole-client.pipe.html)
+-   [« SwooleClient::pipe](swoole-client.pipe.html)
     
--   [Swoole\\Client::resume »](swoole-client.resume.html)
+-   [SwooleClient::resume »](swoole-client.resume.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Отримує дані з віддаленого сокету
     

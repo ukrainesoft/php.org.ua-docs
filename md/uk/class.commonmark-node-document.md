@@ -2,7 +2,7 @@ Document успадковує CommonMarkNode
 
 -   [« Установка](cmark.installation.html)
     
--   [CommonMark\\Node\\Heading »](class.commonmark-node-heading.html)
+-   [CommonMarkNodeHeading »](class.commonmark-node-heading.html)
     
 -   [PHP Manual](index.html)
     

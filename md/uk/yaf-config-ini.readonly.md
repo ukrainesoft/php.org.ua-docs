@@ -1,12 +1,12 @@
 Призначення readonly
 
--   [« Yaf\_Config\_Ini::offsetUnset](yaf-config-ini.offsetunset.html)
+-   [« YafConfigIni::offsetUnset](yaf-config-ini.offsetunset.html)
     
--   [Yaf\_Config\_Ini::rewind »](yaf-config-ini.rewind.html)
+-   [YafConfigIni::rewind »](yaf-config-ini.rewind.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Призначення readonly
     

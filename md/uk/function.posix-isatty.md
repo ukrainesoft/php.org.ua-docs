@@ -1,8 +1,8 @@
 Чи визначає файловий дескриптор інтерактивним терміналом
 
--   [« posix\_initgroups](function.posix-initgroups.html)
+-   [« posixinitgroups](function.posix-initgroups.html)
     
--   [posix\_kill »](function.posix-kill.html)
+-   [posixkill »](function.posix-kill.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,5 +39,5 @@ posix_isatty(resource|int $file_descriptor): bool
 
 ### Дивіться також
 
--   [posix\_ttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
--   [stream\_isatty()](function.stream-isatty.html) - Перевіряє, чи є потік TTY
+-   [posixttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
+-   [streamisatty()](function.stream-isatty.html) - Перевіряє, чи є потік TTY

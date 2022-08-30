@@ -45,7 +45,7 @@ locale_get_primary_language(string $locale): ?string
 
 Код мови, пов'язаний із локаллю.
 
-Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
@@ -73,6 +73,6 @@ zh
 
 ### Дивіться також
 
--   [locale\_get\_script()](locale.getscript.html) - Отримати алфавіт для локалі
--   [locale\_get\_region()](locale.getregion.html) - Отримати регіон для локалі
--   [locale\_get\_all\_variants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetscript()](locale.getscript.html) - Отримати алфавіт для локалі
+-   [localegetregion()](locale.getregion.html) - Отримати регіон для локалі
+-   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі

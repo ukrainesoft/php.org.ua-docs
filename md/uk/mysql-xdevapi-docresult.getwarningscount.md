@@ -2,11 +2,11 @@
 
 -   [« DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.html)
     
--   [mysql\_xdevapi\\Exception »](class.mysql-xdevapi-exception.html)
+-   [mysqlxdevapiException »](class.mysql-xdevapi-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.html)
+-   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     
 -   Отримати кількість попереджень з останньої операції
     

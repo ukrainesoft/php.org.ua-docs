@@ -1,12 +1,12 @@
 Встановлює параметри потоку/обгортки/контексту
 
--   [« stream\_context\_set\_option](function.stream-context-set-option.html)
+-   [« streamcontextsetoption](function.stream-context-set-option.html)
     
--   [stream\_copy\_to\_stream »](function.stream-copy-to-stream.html)
+-   [streamcopyтоstream »](function.stream-copy-to-stream.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановлює параметри потоку/обгортки/контексту
     
@@ -48,4 +48,4 @@ stream_context_set_params(resource $context, array $params): bool
 
 ### Дивіться також
 
--   [stream\_notification\_callback()](function.stream-notification-callback.html) - Callback-функція для параметра контексту notification
+-   [streamnotificationcallback()](function.stream-notification-callback.html) - Callback-функція для параметра контексту notification

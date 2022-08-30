@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу Стьюдента за рештою
 
--   [« stats\_cdf\_poisson](function.stats-cdf-poisson.html)
+-   [« statscdfpoisson](function.stats-cdf-poisson.html)
     
--   [stats\_cdf\_uniform »](function.stats-cdf-uniform.html)
+-   [statscdfuniform »](function.stats-cdf-uniform.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу Стьюдента за рештою
     

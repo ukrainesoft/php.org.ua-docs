@@ -1,8 +1,8 @@
 Виділяє пам'ять під зазначену місткість
 
--   [« Ds\\Set::add](ds-set.add.html)
+-   [« DsSet::add](ds-set.add.html)
     
--   [Ds\\Set::capacity »](ds-set.capacity.html)
+-   [ДсSet::capacity »](ds-set.capacity.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Винятки
 
--   [« Ошибки в PHP 7](language.errors.php7.html)
+-   [« Помилки в PHP 7](language.errors.php7.html)
     
 -   [Наследование исключений »](language.exceptions.extending.html)
     
@@ -31,7 +31,7 @@
 
 Можна використовувати декілька блоків [`catch`](language.exceptions.html#language.exceptions.catch), що перехоплюють різні класи винятків. Нормальне виконання (коли не генеруються виключення у блоках [`try`](language.exceptions.html)) буде продовжено за останнім блоком [`catch`](language.exceptions.html#language.exceptions.catch). Винятки можуть бути згенеровані (або викликані ще раз) оператором [`throw`](language.exceptions.html) всередині блоку [`catch`](language.exceptions.html#language.exceptions.catch). Якщо ні, то виконання буде продовжено після відпрацювання блоку [`catch`](language.exceptions.html#language.exceptions.catch)
 
-При генерації виключення код, наступний після виразу, що описується, не буде виконаний, а PHP спробує знайти перший блок [`catch`](language.exceptions.html#language.exceptions.catch), що перехоплює виняток цього класу. Якщо виняток не буде перехоплений, PHP видасть фатальну помилку: "`Uncaught Exception ...`(Неперехоплений виняток), якщо не був визначений обробник помилок за допомогою функції [set\_exception\_handler()](function.set-exception-handler.html)
+При генерації виключення код, наступний після виразу, що описується, не буде виконаний, а PHP спробує знайти перший блок [`catch`](language.exceptions.html#language.exceptions.catch), що перехоплює виняток цього класу. Якщо виняток не буде перехоплений, PHP видасть фатальну помилку: "`Uncaught Exception ...`(Неперехоплений виняток), якщо не був визначений обробник помилок за допомогою функції [setexceptionhandler()](function.set-exception-handler.html)
 
 Починаючи з PHP 7.1.0 блок [`catch`](language.exceptions.html#language.exceptions.catch) може приймати кілька типів винятків за допомогою символу (`|`). Це корисно, коли різні винятки із різних ієрархій класів обробляються однаково.
 
@@ -45,13 +45,13 @@
 
 ### `Глобальный обработчик исключений`
 
-Якщо виняток дійшов стеку викликів до глобальної області видимості, може бути оброблено глобальним обробником винятків, якщо він заданий. За допомогою функції [set\_exception\_handler()](function.set-exception-handler.html) можна встановити функцію, яка буде виконана замість блоку [`catch`](language.exceptions.html#language.exceptions.catch)якщо не знайшлося відповідного. Ефект аналогічний тому, ніби ми всю нашу програму обернули на блок. [`try`](language.exceptions.html)[`catch`](language.exceptions.html#language.exceptions.catch), де за реалізацію блоку [`catch`](language.exceptions.html#language.exceptions.catch) відповідає встановлена ​​функція.
+Якщо виняток дійшов стеку викликів до глобальної області видимості, може бути оброблено глобальним обробником винятків, якщо він заданий. За допомогою функції [setexceptionhandler()](function.set-exception-handler.html) можна встановити функцію, яка буде виконана замість блоку [`catch`](language.exceptions.html#language.exceptions.catch)якщо не знайшлося відповідного. Ефект аналогічний тому, ніби ми всю нашу програму обернули на блок. [`try`](language.exceptions.html)[`catch`](language.exceptions.html#language.exceptions.catch), де за реалізацію блоку [`catch`](language.exceptions.html#language.exceptions.catch) відповідає встановлена ​​функція.
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Внутрішні функції PHP переважно використовують [сообщения об ошибках](errorfunc.configuration.html#ini.error-reporting), і тільки нові [объектно-ориентированные](language.oop5.html) модулі використовують винятки. Однак, помилки можна легко перетворити на винятки за допомогою класу [ErrorException](class.errorexception.html). Однак це не спрацює для фатальних помилок.
+> Внутрішні функції PHP переважно використовують [повідомлення про помилки](errorfunc.configuration.html#ini.error-reporting), і тільки нові [об'єктно-орієнтовані](language.oop5.html) модулі використовують винятки. Однак, помилки можна легко перетворити на винятки за допомогою класу [ErrorException](class.errorexception.html). Однак це не спрацює для фатальних помилок.
 > 
 > **Приклад #3 Перетворення повідомлення про помилки на виключення**
 > 
@@ -67,7 +67,7 @@
 
 **Підказка**
 
-[Стандартная библиотека PHP (SPL)](intro.spl.html) надає гарний набір [встроенных классов исключений](spl.exceptions.html)
+[Стандартная библиотека PHP (SPL)](intro.spl.html) надає гарний набір [вбудованих класів винятків](spl.exceptions.html)
 
 ### Приклади
 

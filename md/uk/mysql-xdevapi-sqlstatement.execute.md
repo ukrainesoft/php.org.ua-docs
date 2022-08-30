@@ -1,12 +1,12 @@
 Виконує операцію
 
--   [« SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.html)
+-   [« SqlStatement::construct](mysql-xdevapi-sqlstatement.construct.html)
     
 -   [SqlStatement::getNextResult »](mysql-xdevapi-sqlstatement.getnextresult.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+-   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
     
 -   Виконує операцію
     

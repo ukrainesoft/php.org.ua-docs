@@ -2,7 +2,7 @@
 
 -   [« POSIX Функции](ref.posix.html)
     
--   [posix\_ctermid »](function.posix-ctermid.html)
+-   [posixctermid »](function.posix-ctermid.html)
     
 -   [PHP Manual](index.html)
     
@@ -68,5 +68,5 @@ if (posix_access($file, POSIX_R_OK | POSIX_W_OK)) {
 
 ### Дивіться також
 
--   [posix\_get\_last\_error()](function.posix-get-last-error.html) - Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
--   [posix\_strerror()](function.posix-strerror.html) - Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки
+-   [posixgetlasterror()](function.posix-get-last-error.html) - Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
+-   [posixstrerror()](function.posix-strerror.html) - Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки

@@ -1,8 +1,8 @@
 Декодувати текст закодований BASE64
 
--   [« imap\_append](function.imap-append.html)
+-   [« imapappend](function.imap-append.html)
     
--   [imap\_binary »](function.imap-binary.html)
+-   [imapbinary »](function.imap-binary.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ imap_base64(string $string): string|false
 
 ### Дивіться також
 
--   [imap\_binary()](function.imap-binary.html) - Конвертує 8-бітовий рядок у рядок base64
--   [base64\_encode()](function.base64-encode.html) - Кодує дані у формат MIME base64
--   [base64\_decode()](function.base64-decode.html) - Декодує дані, закодовані MIME base64
+-   [imapbinary()](function.imap-binary.html) - Конвертує 8-бітовий рядок у рядок base64
+-   [base64encode()](function.base64-encode.html) - Кодує дані у формат MIME base64
+-   [base64decode()](function.base64-decode.html) - Декодує дані, закодовані MIME base64
 -   [» RFC2045](http://www.faqs.org/rfcs/rfc2045)секція 6.8

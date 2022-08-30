@@ -1,12 +1,12 @@
 Виконує вхід на FTP-сервер
 
--   [« ftp\_get](function.ftp-get.html)
+-   [« ftpget](function.ftp-get.html)
     
--   [ftp\_mdtm »](function.ftp-mdtm.html)
+-   [ftpmdtm »](function.ftp-mdtm.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Виконує вхід на FTP-сервер
     
@@ -29,7 +29,7 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `username`
 
@@ -45,9 +45,9 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

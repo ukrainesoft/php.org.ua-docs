@@ -1,8 +1,8 @@
 Синхронізує поточний стан файлу із фізичним пристроєм
 
--   [« eio\_fchown](function.eio-fchown.html)
+-   [« eiofchown](function.eio-fchown.html)
     
--   [eio\_fstat »](function.eio-fstat.html)
+-   [eiofstat »](function.eio-fstat.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ eio_fdatasync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    calla
 
 `fd`
 
-Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eio\_open()](function.eio-open.html)
+Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eioopen()](function.eio-open.html)
 
 `pri`
 
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

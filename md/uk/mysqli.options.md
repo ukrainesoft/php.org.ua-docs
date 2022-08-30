@@ -1,6 +1,6 @@
 Встановлення налаштувань
 
--   [« mysqli::next\_result](mysqli.next-result.html)
+-   [« mysqli::nextresult](mysqli.next-result.html)
     
 -   [mysqli::ping »](mysqli.ping.html)
     
@@ -37,13 +37,13 @@ mysqli_options(mysqli $mysql, int $option, string|int $value): bool
 
 Цю функцію можна викликати неодноразово, щоб встановити кілька налаштувань.
 
-**mysqlioptions()** потрібно викликати після [mysqli\_init()](mysqli.init.html) і перед [mysqli\_real\_connect()](mysqli.real-connect.html)
+**mysqlioptions()** потрібно викликати після [mysqliinit()](mysqli.init.html) і перед [mysqlirealconnect()](mysqli.real-connect.html)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `option`
 
@@ -76,7 +76,7 @@ mysqli_options(mysqli $mysql, int $option, string|int $value): bool
 
 ### Приклади
 
-Дивіться [mysqli\_real\_connect()](mysqli.real-connect.html)
+Дивіться [mysqlirealconnect()](mysqli.real-connect.html)
 
 ### Примітки
 
@@ -84,9 +84,9 @@ mysqli_options(mysqli $mysql, int $option, string|int $value): bool
 > 
 > MySQLnd завжди має на увазі кодування, яке використовує за умовчанням сервер. Це кодування передається під час встановлення з'єднання/авторизації, які використовує mysqlnd.
 > 
-> За замовчуванням Libmysqlclient використовує кодування, встановлене в my.cnf або спеціальним викликом **mysqlioptions()** до використання [mysqli\_real\_connect()](mysqli.real-connect.html), але після [mysqli\_init()](mysqli.init.html)
+> За замовчуванням Libmysqlclient використовує кодування, встановлене в my.cnf або спеціальним викликом **mysqlioptions()** до використання [mysqlirealconnect()](mysqli.real-connect.html), але після [mysqliinit()](mysqli.init.html)
 
 ### Дивіться також
 
--   [mysqli\_init()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqli\_real\_connect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqliinit()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+-   [mysqlirealconnect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql

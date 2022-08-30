@@ -1,12 +1,12 @@
 Конструктор
 
--   [« XMLDiff\\Base](class.xmldiff-base.html)
+-   [« XMLDiffBase](class.xmldiff-base.html)
     
--   [XMLDiff\\Base::diff »](xmldiff-base.diff.html)
+-   [XMLDiffBase::diff »](xmldiff-base.diff.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\Base](class.xmldiff-base.html)
+-   [XMLDiffBase](class.xmldiff-base.html)
     
 -   Конструктор
     

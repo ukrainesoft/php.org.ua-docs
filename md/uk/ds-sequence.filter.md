@@ -1,12 +1,12 @@
 Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
 
--   [« Ds\\Sequence::contains](ds-sequence.contains.html)
+-   [« DsSequence::contains](ds-sequence.contains.html)
     
--   [Ds\\Sequence::find »](ds-sequence.find.html)
+-   [ДсSequence::find »](ds-sequence.find.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
     

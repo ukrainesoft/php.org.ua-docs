@@ -2,7 +2,7 @@
 
 -   [« Imagick::compareImages](imagick.compareimages.html)
     
--   [Imagick::\_\_construct »](imagick.construct.html)
+-   [Imagick::construct »](imagick.construct.html)
     
 -   [PHP Manual](index.html)
     

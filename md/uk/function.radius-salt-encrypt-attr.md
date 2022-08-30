@@ -1,8 +1,8 @@
 Зашифровує значення за допомогою солі
 
--   [« radius\_request\_authenticator](function.radius-request-authenticator.html)
+-   [« radiusrequestauthenticator](function.radius-request-authenticator.html)
     
--   [radius\_send\_request »](function.radius-send-request.html)
+-   [radiussendrequest »](function.radius-send-request.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ radius_salt_encrypt_attr(resource $radius_handle, string $data): string|false
 
 ### Дивіться також
 
--   [radius\_put\_addr()](function.radius-put-addr.html) - Приєднує атрибут IP-адреси
--   [radius\_put\_attr()](function.radius-put-attr.html) - приєднує бінарний атрибут
--   [radius\_put\_int()](function.radius-put-int.html) - Приєднує цілісний атрибут
--   [radius\_put\_string()](function.radius-put-string.html) - Приєднує рядковий атрибут
+-   [radiusputaddr()](function.radius-put-addr.html) - Приєднує атрибут IP-адреси
+-   [radiusputattr()](function.radius-put-attr.html) - приєднує бінарний атрибут
+-   [radiusputint()](function.radius-put-int.html) - Приєднує цілісний атрибут
+-   [radiusputstring()](function.radius-put-string.html) - Приєднує рядковий атрибут

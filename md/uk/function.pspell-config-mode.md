@@ -1,8 +1,8 @@
 Змінює режим кількості варіантів виправлення, що повертаються.
 
--   [« pspell\_config\_ignore](function.pspell-config-ignore.html)
+-   [« pspellconfigignore](function.pspell-config-ignore.html)
     
--   [pspell\_config\_personal »](function.pspell-config-personal.html)
+-   [pspellconfigpersonal »](function.pspell-config-personal.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ pspellconfigmode — Змінює режим кількості варіанті
 pspell_config_mode(PSpell\Config $config, int $mode): bool
 ```
 
-**pspellconfigmode()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspell\_suggest()](function.pspell-suggest.html)
+**pspellconfigmode()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspellsuggest()](function.pspell-suggest.html)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpell\\Config](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.html)
 
 `mode`
 
@@ -45,9 +45,9 @@ pspell_config_mode(PSpell\Config $config, int $mode): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Генерує випадкове число
     
@@ -31,11 +31,11 @@ rand(int $min, int $max): int
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [random\_int()](function.random-int.html) [random\_bytes()](function.random-bytes.html) або [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
 
-> **Зауваження**: На деяких платформах (таких як Windows) [getrandmax()](function.getrandmax.html) лише 32767. Щоб розширити діапазон, використовуйте параметри `min` і `max`, або зверніться до функції [mt\_rand()](function.mt-rand.html)
+> **Зауваження**: На деяких платформах (таких як Windows) [getrandmax()](function.getrandmax.html) лише 32767. Щоб розширити діапазон, використовуйте параметри `min` і `max`, або зверніться до функції [мтrand()](function.mt-rand.html)
 
-> **Зауваження**: Починаючи з PHP 7.1.0, **rand()** використовує той же алгоритм отримання випадкових чисел, що й [mt\_rand()](function.mt-rand.html). Для збереження зворотної сумісності, функція **rand()** дозволяє задавати параметр `max` менше, ніж параметр `min`. Функція [mt\_rand()](function.mt-rand.html) у такій ситуації повертатиме **`false`**
+> **Зауваження**: Починаючи з PHP 7.1.0, **rand()** використовує той же алгоритм отримання випадкових чисел, що й [мтrand()](function.mt-rand.html). Для збереження зворотної сумісності, функція **rand()** дозволяє задавати параметр `max` менше, ніж параметр `min`. Функція [мтrand()](function.mt-rand.html) у такій ситуації повертатиме **`false`**
 
 ### Список параметрів
 
@@ -56,7 +56,7 @@ rand(int $min, int $max): int
 | Версия | Описание                                                                                                                                                                                                                                                                                   |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        | Для **rand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
-|        | [**rand()** стала синонимом функции](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) [mt\_rand()](function.mt-rand.html)                                                                                                                                        |
+|        | [**rand()** стала синонімом функції](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) [мтrand()](function.mt-rand.html)                                                                                                                                          |
 
 ### Приклади
 
@@ -89,7 +89,7 @@ echo rand(5, 15);
 
 -   [srand()](function.srand.html) - Змінює початкове число генератора псевдовипадкових чисел
 -   [getrandmax()](function.getrandmax.html) - Повертає максимально можливе випадкове число
--   [mt\_rand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
--   [random\_int()](function.random-int.html) - Генерує криптографічно безпечні псевдовипадкові цілі числа
--   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
--   [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт
+-   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [randomint()](function.random-int.html) - Генерує криптографічно безпечні псевдовипадкові цілі числа
+-   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт

@@ -1,8 +1,8 @@
 Приєднує рядковий атрибут
 
--   [« radius\_put\_int](function.radius-put-int.html)
+-   [« radiusputint](function.radius-put-int.html)
     
--   [radius\_put\_vendor\_addr »](function.radius-put-vendor-addr.html)
+-   [radiusputvendoraddr »](function.radius-put-vendor-addr.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,11 +23,11 @@ radiusputstring — Приєднує рядковий атрибут
 radius_put_string(    resource $radius_handle,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
-Приєднує строковий атрибут до поточного запиту RADIUS. В загальному, [radius\_put\_attr()](function.radius-put-attr.html) - корисніша функція для приєднання рядкових атрибутів, оскільки вона бінарно безпечна.
+Приєднує строковий атрибут до поточного запиту RADIUS. В загальному, [radiusputattr()](function.radius-put-attr.html) - корисніша функція для приєднання рядкових атрибутів, оскільки вона бінарно безпечна.
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 
@@ -76,6 +76,6 @@ if (!radius_put_string($res, RADIUS_USER_NAME, 'billy')) {
 
 ### Дивіться також
 
--   [radius\_put\_int()](function.radius-put-int.html) - Приєднує цілісний атрибут
--   [radius\_put\_vendor\_int()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника
--   [radius\_put\_vendor\_string()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника
+-   [radiusputint()](function.radius-put-int.html) - Приєднує цілісний атрибут
+-   [radiusputvendorint()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника
+-   [radiusputvendorstring()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника

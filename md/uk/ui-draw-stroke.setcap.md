@@ -1,12 +1,12 @@
 Встановити кінець лінії
 
--   [« UI\\Draw\\Stroke::getThickness](ui-draw-stroke.getthickness.html)
+-   [« UIDrawStroke::getThickness](ui-draw-stroke.getthickness.html)
     
--   [UI\\Draw\\Stroke::setJoin »](ui-draw-stroke.setjoin.html)
+-   [ОЙDrawStroke::setJoin »](ui-draw-stroke.setjoin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Встановити кінець лінії
     

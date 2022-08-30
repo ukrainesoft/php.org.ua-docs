@@ -1,8 +1,8 @@
 Отримати останнє повідомлення про помилку
 
--   [« swoole\_get\_local\_ip](function.swoole-get-local-ip.html)
+-   [« swoolegetlocalіп](function.swoole-get-local-ip.html)
     
--   [swoole\_load\_module »](function.swoole-load-module.html)
+-   [swooleloadmodule »](function.swoole-load-module.html)
     
 -   [PHP Manual](index.html)
     

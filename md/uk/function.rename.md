@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Перейменовує файл або директорію
     
@@ -43,7 +43,7 @@ rename(string $from, string $to, ?resource $context = null): bool
 
 `context`
 
-Ресурс (resource) з [контекстом потока](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.html)
 
 ### Значення, що повертаються
 
@@ -63,4 +63,4 @@ rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
 
 -   [copy()](function.copy.html) - Копіює файл
 -   [unlink()](function.unlink.html) - Видаляє файл
--   [move\_uploaded\_file()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце

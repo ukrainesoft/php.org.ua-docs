@@ -1,8 +1,8 @@
 Клас SwooleWebSocketFrame
 
--   [« Swoole\\Timer::tick](swoole-timer.tick.html)
+-   [« SwooleTimer::tick](swoole-timer.tick.html)
     
--   [Swoole\\WebSocket\\Server »](class.swoole-websocket-server.html)
+-   [SwooleWebSocketServer »](class.swoole-websocket-server.html)
     
 -   [PHP Manual](index.html)
     

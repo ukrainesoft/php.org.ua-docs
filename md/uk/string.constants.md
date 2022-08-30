@@ -2,11 +2,11 @@
 
 -   [« Типы ресурсов](strings.resources.html)
     
--   [Функции для работы со строками »](ref.strings.html)
+-   [Функції для роботи з рядками »](ref.strings.html)
     
 -   [PHP Manual](index.html)
     
--   [Строки](book.strings.html)
+-   [Рядки](book.strings.html)
     
 -   Обумовлені константи
     

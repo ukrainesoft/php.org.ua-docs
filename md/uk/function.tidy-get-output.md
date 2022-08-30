@@ -1,8 +1,8 @@
 Повертає рядок, який представляє розібрану tidy-розмітку
 
--   [« tidy\_error\_count](function.tidy-error-count.html)
+-   [« tidyerrorcount](function.tidy-error-count.html)
     
--   [tidy\_warning\_count »](function.tidy-warning-count.html)
+-   [tidywarningcount »](function.tidy-warning-count.html)
     
 -   [PHP Manual](index.html)
     

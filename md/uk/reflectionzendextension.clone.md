@@ -2,7 +2,7 @@
 
 -   [« ReflectionZendExtension](class.reflectionzendextension.html)
     
--   [ReflectionZendExtension::\_\_construct »](reflectionzendextension.construct.html)
+-   [ReflectionZendExtension::construct »](reflectionzendextension.construct.html)
     
 -   [PHP Manual](index.html)
     

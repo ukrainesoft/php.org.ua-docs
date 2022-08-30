@@ -1,12 +1,12 @@
 Повертає об'єкт із властивостями, що описують клієнта DB2
 
--   [« db2\_bind\_param](function.db2-bind-param.html)
+-   [« db2bindparam](function.db2-bind-param.html)
     
--   [db2\_close »](function.db2-close.html)
+-   [db2close »](function.db2-close.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає об'єкт із властивостями, що описують клієнта DB2
     
@@ -107,4 +107,4 @@ CONN_CODEPAGE: int(819)
 
 ### Дивіться також
 
--   [db2\_server\_info()](function.db2-server-info.html) - Повертає об'єкт із властивостями, що описують сервер бази даних DB2
+-   [db2serverinfo()](function.db2-server-info.html) - Повертає об'єкт із властивостями, що описують сервер бази даних DB2

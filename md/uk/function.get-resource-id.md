@@ -1,12 +1,12 @@
 Повертає цілий ідентифікатор для даного ресурсу
 
--   [« get\_defined\_vars](function.get-defined-vars.html)
+-   [« getdefinedvars](function.get-defined-vars.html)
     
--   [get\_resource\_type »](function.get-resource-type.html)
+-   [getresourcetype »](function.get-resource-type.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає цілий ідентифікатор для даного ресурсу
     
@@ -62,4 +62,4 @@ echo get_resource_id($handle);
 
 ### Дивіться також
 
--   [get\_resource\_type()](function.get-resource-type.html) - Повертає тип ресурсу
+-   [getresourcetype()](function.get-resource-type.html) - Повертає тип ресурсу

@@ -1,8 +1,8 @@
 Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
 
--   [« trader\_roc](function.trader-roc.html)
+-   [« traderroc](function.trader-roc.html)
     
--   [trader\_rocr100 »](function.trader-rocr100.html)
+-   [traderrocr100 »](function.trader-rocr100.html)
     
 -   [PHP Manual](index.html)
     

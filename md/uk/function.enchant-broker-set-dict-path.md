@@ -1,8 +1,8 @@
 Встановити шлях для заданого бекенду
 
--   [« enchant\_broker\_request\_pwl\_dict](function.enchant-broker-request-pwl-dict.html)
+-   [« enchantbrokerrequestpwldict](function.enchant-broker-request-pwl-dict.html)
     
--   [enchant\_broker\_set\_ordering »](function.enchant-broker-set-ordering.html)
+-   [enchantbrokersetordering »](function.enchant-broker-set-ordering.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ enchant_broker_set_dict_path(EnchantBroker $broker, int $type, string $path): bo
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 `type`
 
@@ -61,4 +61,4 @@ enchant_broker_set_dict_path(EnchantBroker $broker, int $type, string $path): bo
 
 ### Дивіться також
 
--   [enchant\_broker\_get\_dict\_path()](function.enchant-broker-get-dict-path.html) - Повертає шлях словника для заданого бекенду
+-   [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.html) - Повертає шлях словника для заданого бекенду

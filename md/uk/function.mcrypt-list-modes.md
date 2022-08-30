@@ -1,8 +1,8 @@
 Отримати список усіх підтримуваних режимів шифрування
 
--   [« mcrypt\_list\_algorithms](function.mcrypt-list-algorithms.html)
+-   [« mcryptlistalgorithms](function.mcrypt-list-algorithms.html)
     
--   [mcrypt\_module\_close »](function.mcrypt-module-close.html)
+-   [mcryptmoduleclose »](function.mcrypt-module-close.html)
     
 -   [PHP Manual](index.html)
     

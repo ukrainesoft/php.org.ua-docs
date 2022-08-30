@@ -1,8 +1,8 @@
 Конвертує 8-бітний рядок у рядок base64
 
--   [« imap\_base64](function.imap-base64.html)
+-   [« imapbase64](function.imap-base64.html)
     
--   [imap\_body »](function.imap-body.html)
+-   [imapbody »](function.imap-body.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ imap_binary(string $string): string|false
 
 ### Дивіться також
 
--   [imap\_base64()](function.imap-base64.html) - Декодувати текст закодований BASE64
+-   [imapbase64()](function.imap-base64.html) - Декодувати текст закодований BASE64

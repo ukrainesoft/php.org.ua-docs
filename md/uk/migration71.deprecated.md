@@ -1,8 +1,8 @@
 Функціонал, оголошений застарілим у PHP 7.1.x
 
--   [« Изменения, ломающие обратную совместимость](migration71.incompatible.html)
+-   [« Зміни, що ламають зворотну сумісність](migration71.incompatible.html)
     
--   [Изменённые функции »](migration71.changed-functions.html)
+-   [Змінені функції »](migration71.changed-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,6 +17,6 @@
 
 Модуль mcrypt не розвивався вже майже десять років, а також був украй складним у використанні. Він був оголошений застарілим на користь OpenSSL. Він буде видалений з ядра PHP і переміщений до PECL PHP 7.2.
 
-### Модифікатор "e" для функцій [mb\_ereg\_replace()](function.mb-ereg-replace.html) і [mb\_eregi\_replace()](function.mb-eregi-replace.html)
+### Модифікатор "e" для функцій [мбeregreplace()](function.mb-ereg-replace.html) і [мбeregireplace()](function.mb-eregi-replace.html)
 
-Модифікатор шаблону `e` був оголошений застарілим для функцій [mb\_ereg\_replace()](function.mb-ereg-replace.html) і [mb\_eregi\_replace()](function.mb-eregi-replace.html)
+Модифікатор шаблону `e` був оголошений застарілим для функцій [мбeregreplace()](function.mb-ereg-replace.html) і [мбeregireplace()](function.mb-eregi-replace.html)

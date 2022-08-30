@@ -1,12 +1,12 @@
 Підключається до віддаленого сервера MySQL
 
--   [« Swoole\\MySQL::close](swoole-mysql.close.html)
+-   [« SwooleMySQL::close](swoole-mysql.close.html)
     
--   [Swoole\\MySQL::\_\_construct »](swoole-mysql.construct.html)
+-   [SwooleMySQL::construct »](swoole-mysql.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\MySQL](class.swoole-mysql.html)
+-   [SwooleMySQL](class.swoole-mysql.html)
     
 -   Підключається до віддаленого сервера MySQL
     

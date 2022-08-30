@@ -2,11 +2,11 @@
 
 -   [« flush](function.flush.html)
     
--   [ob\_end\_clean »](function.ob-end-clean.html)
+-   [проendclean »](function.ob-end-clean.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Очистити (стерти) буфер виводу
     
@@ -25,9 +25,9 @@ ob_clean(): bool
 
 Ця функція очищає вміст вихідного буфера, не надсилаючи його до браузера.
 
-Ця функція не знищує буфер виводу, як це робить [ob\_end\_clean()](function.ob-end-clean.html)
+Ця функція не знищує буфер виводу, як це робить [проendclean()](function.ob-end-clean.html)
 
-Буфер виводу має запускатися функцією [ob\_start()](function.ob-start.html) з прапором [PHP\_OUTPUT\_HANDLER\_CLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable). Інакше **проclean()** не спрацює.
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.html) з прапором [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable). Інакше **проclean()** не спрацює.
 
 ### Список параметрів
 
@@ -39,6 +39,6 @@ ob_clean(): bool
 
 ### Дивіться також
 
--   [ob\_flush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
--   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
+-   [проflush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
+-   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу

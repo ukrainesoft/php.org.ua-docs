@@ -1,12 +1,12 @@
 Встановлює обробник для виконання під час виклику функції або методу
 
--   [« uopz\_restore](function.uopz-restore.html)
+-   [« uopzrestore](function.uopz-restore.html)
     
--   [uopz\_set\_mock »](function.uopz-set-mock.html)
+-   [uopzsetmock »](function.uopz-set-mock.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Встановлює обробник для виконання під час виклику функції або методу
     
@@ -69,5 +69,5 @@ barfoo
 
 ### Дивіться також
 
--   [uopz\_get\_hook()](function.uopz-get-hook.html) - отримує раніше встановлений обробник на функцію або метод
--   [uopz\_unset\_hook()](function.uopz-unset-hook.html) - Видаляє раніше встановлену функцію чи метод
+-   [uopzgethook()](function.uopz-get-hook.html) - отримує раніше встановлений обробник на функцію або метод
+-   [uopzunsethook()](function.uopz-unset-hook.html) - Видаляє раніше встановлену функцію чи метод

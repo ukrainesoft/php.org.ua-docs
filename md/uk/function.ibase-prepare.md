@@ -1,8 +1,8 @@
 Підготовляє запит для подальшого зв'язування псевдозмінних та виконання
 
--   [« ibase\_pconnect](function.ibase-pconnect.html)
+-   [« ibasepconnect](function.ibase-pconnect.html)
     
--   [ibase\_query »](function.ibase-query.html)
+-   [ibasequery »](function.ibase-query.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ ibase_prepare(resource $link_identifier, string $query): resource
 ibase_prepare(resource $link_identifier, string $trans, string $query): resource
 ```
 
-Підготовляє запит для подальшого зв'язування псевдозмінних та виконання (за допомогою [ibase\_execute()](function.ibase-execute.html)
+Підготовляє запит для подальшого зв'язування псевдозмінних та виконання (за допомогою [ibaseexecute()](function.ibase-execute.html)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ ibase_prepare(resource $link_identifier, string $trans, string $query): resource
 
 `link_identifier`
 
-Ідентифікатор посилання InterBase, який повертається функцією [ibase\_connect()](function.ibase-connect.html). Якщо не вказано, передбачається останнє відкрите посилання.
+Ідентифікатор посилання InterBase, який повертається функцією [ibaseconnect()](function.ibase-connect.html). Якщо не вказано, передбачається останнє відкрите посилання.
 
 `trans`
 

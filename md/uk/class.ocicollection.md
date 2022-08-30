@@ -1,6 +1,6 @@
 Клас OCICollection
 
--   [« oci\_unregister\_taf\_callback](function.oci-unregister-taf-callback.html)
+-   [« ociunregistertafcallback](function.oci-unregister-taf-callback.html)
     
 -   [OCICollection::append »](ocicollection.append.html)
     

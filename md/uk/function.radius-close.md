@@ -1,8 +1,8 @@
 Звільняє всі ресурси
 
--   [« radius\_auth\_open](function.radius-auth-open.html)
+-   [« radiusauthopen](function.radius-auth-open.html)
     
--   [radius\_config »](function.radius-config.html)
+-   [radiusconfig »](function.radius-config.html)
     
 -   [PHP Manual](index.html)
     

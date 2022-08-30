@@ -1,12 +1,12 @@
 Відстань Хеммінга
 
--   [« gmp\_gcdext](function.gmp-gcdext.html)
+-   [« gmpgcdext](function.gmp-gcdext.html)
     
--   [gmp\_import »](function.gmp-import.html)
+-   [gmpimport »](function.gmp-import.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Відстань Хеммінга
     
@@ -67,5 +67,5 @@ echo gmp_popcount(gmp_xor($ham1, $ham2)) . "\n";
 
 ### Дивіться також
 
--   [gmp\_popcount()](function.gmp-popcount.html) - Кількість одиниць у двійковому записі числа
--   [gmp\_xor()](function.gmp-xor.html) - Побітове що виключає АБО
+-   [gmppopcount()](function.gmp-popcount.html) - Кількість одиниць у двійковому записі числа
+-   [gmpxor()](function.gmp-xor.html) - Побітове що виключає АБО

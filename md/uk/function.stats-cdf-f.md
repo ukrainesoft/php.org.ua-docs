@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу Фішера за рештою
 
--   [« stats\_cdf\_exponential](function.stats-cdf-exponential.html)
+-   [« statscdfexponential](function.stats-cdf-exponential.html)
     
--   [stats\_cdf\_gamma »](function.stats-cdf-gamma.html)
+-   [statscdfgamma »](function.stats-cdf-gamma.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу Фішера за рештою
     

@@ -1,12 +1,12 @@
 Показати керуючий елемент
 
--   [« UI\\Control::setParent](ui-control.setparent.html)
+-   [« UIControl::setParent](ui-control.setparent.html)
     
--   [UI\\Menu »](class.ui-menu.html)
+-   [ОЙMenu »](class.ui-menu.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Показати керуючий елемент
     

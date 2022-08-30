@@ -1,12 +1,12 @@
 Дані, введені користувачем
 
--   [« Сообщения об ошибках](security.errors.html)
+-   [« Повідомлення про помилки](security.errors.html)
     
--   [Сокрытие PHP »](security.hiding.html)
+-   [Приховування PHP »](security.hiding.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](security.html)
+-   [Безпека](security.html)
     
 -   Дані, введені користувачем
     

@@ -1,12 +1,12 @@
 Видаляє та повертає значення з найвищим пріоритетом
 
--   [« Ds\\PriorityQueue::peek](ds-priorityqueue.peek.html)
+-   [« DsPriorityQueue::peek](ds-priorityqueue.peek.html)
     
--   [Ds\\PriorityQueue::push »](ds-priorityqueue.push.html)
+-   [ДсPriorityQueue::push »](ds-priorityqueue.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Видаляє та повертає значення з найвищим пріоритетом
     

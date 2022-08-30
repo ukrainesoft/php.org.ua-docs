@@ -1,12 +1,12 @@
 Повторює цю функцію у кожний заданий інтервал часу
 
--   [« Swoole\\Timer::exists](swoole-timer.exists.html)
+-   [« SwooleTimer::exists](swoole-timer.exists.html)
     
--   [Swoole\\WebSocket\\Frame »](class.swoole-websocket-frame.html)
+-   [SwooleWebSocketFrame »](class.swoole-websocket-frame.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Timer](class.swoole-timer.html)
+-   [SwooleTimer](class.swoole-timer.html)
     
 -   Повторює цю функцію у кожний заданий інтервал часу
     

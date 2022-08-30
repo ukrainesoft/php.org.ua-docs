@@ -1,12 +1,12 @@
 Малює шаблон
 
--   [« Yaf\_View\_Simple::\_\_isset](yaf-view-simple.isset.html)
+-   [« YafViewSimple::isset](yaf-view-simple.isset.html)
     
--   [Yaf\_View\_Simple::\_\_set »](yaf-view-simple.set.html)
+-   [YafViewSimple::set »](yaf-view-simple.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Малює шаблон
     

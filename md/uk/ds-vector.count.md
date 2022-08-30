@@ -1,8 +1,8 @@
 Повертає кількість елементів вектора
 
--   [« Ds\\Vector::copy](ds-vector.copy.html)
+-   [« DsVector::copy](ds-vector.copy.html)
     
--   [Ds\\Vector::filter »](ds-vector.filter.html)
+-   [ДсVector::filter »](ds-vector.filter.html)
     
 -   [PHP Manual](index.html)
     

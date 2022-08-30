@@ -29,7 +29,7 @@ public ReflectionFunction::invoke(mixed ...$args): mixed
 
 `args`
 
-Передані функції аргументи. Може приймати змінну кількість аргументів за аналогією до [call\_user\_func()](function.call-user-func.html)
+Передані функції аргументи. Може приймати змінну кількість аргументів за аналогією до [calluserfunc()](function.call-user-func.html)
 
 ### Значення, що повертаються
 
@@ -67,5 +67,5 @@ Dr. Phil
 ### Дивіться також
 
 -   [ReflectionFunction::export()](reflectionfunction.export.html) - Експортує функції
--   [\_\_invoke()](language.oop5.magic.html#object.invoke)
--   [call\_user\_func()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
+-   [invoke()](language.oop5.magic.html#object.invoke)
+-   [calluserfunc()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі

@@ -1,8 +1,8 @@
 Прочитати повідомлення
 
--   [« socket\_recvfrom](function.socket-recvfrom.html)
+-   [« socketrecvfrom](function.socket-recvfrom.html)
     
--   [socket\_select »](function.socket-select.html)
+-   [socketselect »](function.socket-select.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@ socket_recvmsg(Socket $socket, array &$message, int $flags = 0): int|false
 
 ### Дивіться також
 
--   [socket\_sendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення
--   [socket\_cmsg\_space()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення
+-   [socketsendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення
+-   [socketcmsgspace()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення

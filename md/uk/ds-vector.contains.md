@@ -1,8 +1,8 @@
 Перевіряє, чи міститься у векторі задані значення
 
--   [« Ds\\Vector::\_\_construct](ds-vector.construct.html)
+-   [« DsVector::construct](ds-vector.construct.html)
     
--   [Ds\\Vector::copy »](ds-vector.copy.html)
+-   [ДсVector::copy »](ds-vector.copy.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ public Ds\Vector::contains(mixed ...$values): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**якщо хоча б одне значення з `values` не знайдено у векторі та **`true`** в іншому випадку.
+Повертає \*\*`false`\*\*якщо хоча б одне значення з `values` не знайдено у векторі та **`true`** в іншому випадку.
 
 ### Приклади
 

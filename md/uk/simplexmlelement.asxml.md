@@ -106,5 +106,5 @@ foreach ($result as $node) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::\_\_toString()](simplexmlelement.tostring.html) - Повертає вміст рядка
+-   [SimpleXMLElement::toString()](simplexmlelement.tostring.html) - Повертає вміст рядка
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)

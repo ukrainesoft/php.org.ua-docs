@@ -1,12 +1,12 @@
 Повертає значення за індексом
 
--   [« Ds\\Sequence::first](ds-sequence.first.html)
+-   [« DsSequence::first](ds-sequence.first.html)
     
--   [Ds\\Sequence::insert »](ds-sequence.insert.html)
+-   [ДсSequence::insert »](ds-sequence.insert.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає значення за індексом
     

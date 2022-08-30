@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](lzf.constants.html)
     
--   [lzf\_compress »](function.lzf-compress.html)
+-   [lzfcompress »](function.lzf-compress.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [lzf\_compress](function.lzf-compress.html) - Стиснення LZF
--   [lzf\_decompress](function.lzf-decompress.html) - Розархівація LZF
--   [lzf\_optimized\_for](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF
+-   [lzfcompress](function.lzf-compress.html) - Стиснення LZF
+-   [lzfdecompress](function.lzf-decompress.html) - Розархівація LZF
+-   [lzfoptimizedfor](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF

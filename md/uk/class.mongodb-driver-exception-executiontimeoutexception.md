@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionExecutionTimeoutException
 
--   [« MongoDB\\Driver\\Exception\\Exception](class.mongodb-driver-exception-exception.html)
+-   [« MongoDBDriverExceptionException](class.mongodb-driver-exception-exception.html)
     
--   [MongoDB\\Driver\\Exception\\InvalidArgumentException »](class.mongodb-driver-exception-invalidargumentexception.html)
+-   [MongoDBDriverExceptionInvalidArgumentException »](class.mongodb-driver-exception-invalidargumentexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionExecutionTimeoutException
     
@@ -92,7 +92,7 @@ private Exception::__clone(): void
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                                  | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.5.0                                                                                                                                                                                                                      |          |
-| Тепер цей клас розширює [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
+| Версия                                                                                                                                                                                                                      | Описание |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.5.0                                                                                                                                                                                                          |          |
+| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |

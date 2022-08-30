@@ -1,12 +1,12 @@
 Перекладає символи з кодування ISO-8859 у t61
 
--   [« Функции LDAP](ref.ldap.html)
+-   [« Функції LDAP](ref.ldap.html)
     
--   [ldap\_add\_ext »](function.ldap-add-ext.html)
+-   [ldapaddext »](function.ldap-add-ext.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Перекладає символи з кодування ISO-8859 у t61
     
@@ -39,4 +39,4 @@ ldap_8859_to_t61(string $value): string|false
 
 ### Дивіться також
 
--   [ldap\_t61\_to\_8859()](function.ldap-t61-to-8859.html) - Перекладає символи з кодування t61 ISO-8859
+-   [ldapt61то](function.ldap-t61-to-8859.html) - Перекладає символи з кодування t61 ISO-8859

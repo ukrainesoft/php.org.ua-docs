@@ -1,8 +1,8 @@
 Три зовнішні дні вгору і три зовнішні дні вниз
 
--   [« trader\_cdl3linestrike](function.trader-cdl3linestrike.html)
+-   [« tradercdl3linestrike](function.trader-cdl3linestrike.html)
     
--   [trader\_cdl3starsinsouth »](function.trader-cdl3starsinsouth.html)
+-   [tradercdl3starsinsouth »](function.trader-cdl3starsinsouth.html)
     
 -   [PHP Manual](index.html)
     

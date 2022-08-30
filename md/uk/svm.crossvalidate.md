@@ -1,6 +1,6 @@
 Тестування навчальних параметрів на підмножинах навчальних даних
 
--   [« SVM::\_\_construct](svm.construct.html)
+-   [« SVM::construct](svm.construct.html)
     
 -   [SVM::getOptions »](svm.getoptions.html)
     

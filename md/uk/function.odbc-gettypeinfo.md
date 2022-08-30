@@ -1,8 +1,8 @@
 Повертає інформацію про типи даних, що підтримуються джерелом даних
 
--   [« odbc\_free\_result](function.odbc-free-result.html)
+-   [« odbcfreeresult](function.odbc-free-result.html)
     
--   [odbc\_longreadlen »](function.odbc-longreadlen.html)
+-   [odbclongreadlen »](function.odbc-longreadlen.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_gettypeinfo(resource $odbc, int $data_type = 0): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 `data_type`
 

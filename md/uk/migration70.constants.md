@@ -1,6 +1,6 @@
 Нові глобальні константи
 
--   [« Новые классы и интерфейсы](migration70.classes.html)
+-   [« Нові класи та інтерфейси](migration70.classes.html)
     
 -   [Изменения в модулях SAPI »](migration70.sapi-changes.html)
     
@@ -17,7 +17,7 @@
 
 -   **`PHP_INT_MIN`**
 
-### [GD](book.image.html)
+### [ДД](book.image.html)
 
 -   **`IMG_WEBP`** (з PHP 7.0.10)
 

@@ -1,8 +1,8 @@
 Скасує зареєстрований обробник події
 
--   [« ibase\_field\_info](function.ibase-field-info.html)
+-   [« ibasefieldinfo](function.ibase-field-info.html)
     
--   [ibase\_free\_query »](function.ibase-free-query.html)
+-   [ibasefreequery »](function.ibase-free-query.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ ibase_free_event_handler(resource $event): bool
 
 `event`
 
-Ресурс події, створений [ibase\_set\_event\_handler()](function.ibase-set-event-handler.html)
+Ресурс події, створений [ibaseseteventhandler()](function.ibase-set-event-handler.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ibase_free_event_handler(resource $event): bool
 
 ### Дивіться також
 
--   [ibase\_set\_event\_handler()](function.ibase-set-event-handler.html) - Реєструє callback-функцію, яка буде викликатись при публікації подій
+-   [ibaseseteventhandler()](function.ibase-set-event-handler.html) - Реєструє callback-функцію, яка буде викликатись при публікації подій

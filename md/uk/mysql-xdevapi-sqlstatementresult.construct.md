@@ -1,12 +1,12 @@
 Опис конструктора
 
--   [« mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+-   [« mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
     
 -   [SqlStatementResult::fetchAll »](mysql-xdevapi-sqlstatementresult.fetchall.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+-   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
     
 -   Опис конструктора
     

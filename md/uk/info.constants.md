@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](info.resources.html)
     
--   [Опции PHP/информационные функции »](ref.info.html)
+-   [Опції PHP/інформаційні функції »](ref.info.html)
     
 -   [PHP Manual](index.html)
     
@@ -34,11 +34,11 @@
 |--------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------|
 | **`INFO_GENERAL`**       |          | Рядок конфігурації, розташування php.ini, дата складання, веб-сервер, система та ін.                                              |
 | **`INFO_CREDITS`**       |          | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.html)                                                           |
-| **`INFO_CONFIGURATION`** |          | Поточні локальні та основні значення директив PHP. Дивіться також [ini\_get()](function.ini-get.html)                             |
+| **`INFO_CONFIGURATION`** |          | Поточні локальні та основні значення директив PHP. Дивіться також [iniget()](function.ini-get.html)                               |
 | **`INFO_MODULES`**       |          | Завантажені модулі та їх налаштування.                                                                                            |
-| **`INFO_ENVIRONMENT`**   |          | Інформація про змінні середовища, яка також доступна в [$\_ENV](reserved.variables.environment.html)                              |
+| **`INFO_ENVIRONMENT`**   |          | Інформація про змінні середовища, яка також доступна в [ENV](reserved.variables.environment.html)                                 |
 | **`INFO_VARIABLES`**     |          | Показує все [предопределённые переменные](language.variables.predefined.html) з `EGPCS` (Environment, GET, POST, Cookie, Server). |
-| **`INFO_LICENSE`**       |          | Інформація про ліцензію PHP. Дивіться також [» FAQ по лицензии](https://www.php.net/license/)                                     |
+| **`INFO_LICENSE`**       |          | Інформація про ліцензію PHP. Дивіться також [» FAQ за ліцензією](https://www.php.net/license/)                                    |
 | **`INFO_ALL`**           |          | Константа за замовчуванням. Показує всю інформацію, описану вище.                                                                 |
 
 **Константи INI**
@@ -50,7 +50,7 @@
 | `INI_SYSTEM` |          | Не використовується |
 | `INI_ALL`    |          | Не використовується |
 
-Константи перевірки тверджень. Ці значення використовуються для встановлення налаштувань [assert\_options()](function.assert-options.html)
+Константи перевірки тверджень. Ці значення використовуються для встановлення налаштувань [assertoptions()](function.assert-options.html)
 
 **[assert()](function.assert.html) константи**
 

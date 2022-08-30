@@ -1,12 +1,12 @@
 Закриває сесію
 
--   [« mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [« mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   [Session::commit »](mysql-xdevapi-session.commit.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Закриває сесію
     
@@ -31,7 +31,7 @@ public mysql_xdevapi\Session::close(): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо сесія закрита.
+\*\*`true`\*\*якщо сесія закрита.
 
 ### Приклади
 

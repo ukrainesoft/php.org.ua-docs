@@ -2,7 +2,7 @@
 
 -   [« Процедурный пример PECL/rrd](rrd.examples-procedural.html)
     
--   [Функции RRD »](ref.rrd.html)
+-   [Функції RRD »](ref.rrd.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Коди помилок
 
--   [« Приведение к одному регистру](xml.case-folding.html)
+-   [« Приведення до одного регістру](xml.case-folding.html)
     
--   [Кодировка символов »](xml.encoding.html)
+-   [Кодування символів »](xml.encoding.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@
 
 # Коди помилок
 
-Наступні константи визначені для кодів помилок XML (повертаються функцією) [xml\_parse()](function.xml-parse.html)
+Наступні константи визначені для кодів помилок XML (повертаються функцією) [xmlparse()](function.xml-parse.html)
 
 -   **`XML_ERROR_NONE`**
 -   **`XML_ERROR_NO_MEMORY`**

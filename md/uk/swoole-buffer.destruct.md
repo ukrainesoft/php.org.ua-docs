@@ -1,12 +1,12 @@
 Знищує буфер пам'яті Swoole
 
--   [« Swoole\\Buffer::\_\_construct](swoole-buffer.construct.html)
+-   [« SwooleBuffer::construct](swoole-buffer.construct.html)
     
--   [Swoole\\Buffer::expand »](swoole-buffer.expand.html)
+-   [SwooleBuffer::expand »](swoole-buffer.expand.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Знищує буфер пам'яті Swoole
     

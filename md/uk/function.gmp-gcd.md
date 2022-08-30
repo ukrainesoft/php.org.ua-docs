@@ -1,12 +1,12 @@
 Обчислення найбільшого спільного дільника
 
--   [« gmp\_fact](function.gmp-fact.html)
+-   [« gmpfact](function.gmp-fact.html)
     
--   [gmp\_gcdext »](function.gmp-gcdext.html)
+-   [gmpgcdext »](function.gmp-gcdext.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислення найбільшого спільного дільника
     
@@ -58,4 +58,4 @@ echo gmp_strval($gcd) . "\n";
 
 ### Дивіться також
 
--   [gmp\_lcm()](function.gmp-lcm.html) - обчислює найменше загальне кратне
+-   [gmplcm()](function.gmp-lcm.html) - обчислює найменше загальне кратне

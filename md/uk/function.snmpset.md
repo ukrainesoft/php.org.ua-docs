@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Встановлює значення об'єкта SNMP
     

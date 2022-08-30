@@ -1,12 +1,12 @@
 Виділяє пам'ять під зазначену місткість
 
--   [« Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
--   [Ds\\PriorityQueue::capacity »](ds-priorityqueue.capacity.html)
+-   [ДсPriorityQueue::capacity »](ds-priorityqueue.capacity.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Виділяє пам'ять під зазначену місткість
     

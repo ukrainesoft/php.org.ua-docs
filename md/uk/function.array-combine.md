@@ -1,12 +1,12 @@
 Створює новий масив, використовуючи один масив як ключі, а інший для його значень
 
--   [« array\_column](function.array-column.html)
+-   [« arraycolumn](function.array-column.html)
     
--   [array\_count\_values »](function.array-count-values.html)
+-   [arraycountvalues »](function.array-count-values.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Створює новий масив, використовуючи один масив як ключі, а інший для його значень
     
@@ -76,6 +76,6 @@ Array
 
 ### Дивіться також
 
--   [array\_merge()](function.array-merge.html) - Зливає один або більше масивів
--   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію до кожного елемента масиву
--   [array\_values()](function.array-values.html) - Вибирає всі значення масиву
+-   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
+-   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію до кожного елемента масиву
+-   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву

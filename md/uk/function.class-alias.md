@@ -1,12 +1,12 @@
 Створює псевдонім для вказаного класу
 
--   [« \_\_autoload](function.autoload.html)
+-   [autoload](function.autoload.html)
     
--   [class\_exists »](function.class-exists.html)
+-   [classexists »](function.class-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Створює псевдонім для вказаного класу
     
@@ -85,5 +85,5 @@ bool(true)
 
 ### Дивіться також
 
--   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

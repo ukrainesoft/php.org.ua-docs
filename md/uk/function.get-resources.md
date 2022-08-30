@@ -1,12 +1,12 @@
 Повертає активні ресурси
 
--   [« get\_required\_files](function.get-required-files.html)
+-   [« getrequiredfiles](function.get-required-files.html)
     
 -   [getenv »](function.getenv.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає активні ресурси
     
@@ -90,7 +90,7 @@ array(0) {
 
 ### Дивіться також
 
--   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [get\_defined\_constants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [get\_defined\_functions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [get\_defined\_vars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних
+-   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [getdefinedvars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних

@@ -35,4 +35,4 @@ public SessionIdInterface::create_sid(): string
 
 ### Дивіться також
 
--   [SessionHandler::create\_sid()](sessionhandler.create-sid.html) - Повертає новий ідентифікатор сесії
+-   [SessionHandler::createsid()](sessionhandler.create-sid.html) - Повертає новий ідентифікатор сесії

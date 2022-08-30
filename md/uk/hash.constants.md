@@ -17,4 +17,4 @@
 
 **`HASH_HMAC`** (int)
 
-Необов'язковий прапор для [hash\_init()](function.hash-init.html)
+Необов'язковий прапор для [hashinit()](function.hash-init.html)

@@ -1,8 +1,8 @@
 Клас SwooleLock
 
--   [« Swoole\\Http\\Server::start](swoole-http-server.start.html)
+-   [« SwooleHttpServer::start](swoole-http-server.start.html)
     
--   [Swoole\\Lock::\_\_construct »](swoole-lock.construct.html)
+-   [SwooleLock::construct »](swoole-lock.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,10 +44,10 @@ public unlock(): void
 
 ## Зміст
 
--   [Swoole\\Lock::\_\_construct](swoole-lock.construct.html) — Створює блокування пам'яті
--   [Swoole\\Lock::\_\_destruct](swoole-lock.destruct.html) — Знищує блокування пам'яті Swoole
--   [Swoole\\Lock::lock\_read](swoole-lock.lock-read.html) — Блокує читання-запис блокування для читання
--   [Swoole\\Lock::lock](swoole-lock.lock.html) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
--   [Swoole\\Lock::trylock\_read](swoole-lock.trylock-read.html) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
--   [Swoole\\Lock::trylock](swoole-lock.trylock.html) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
--   [Swoole\\Lock::unlock](swoole-lock.unlock.html) - Знімає блокування
+-   [SwooleLock::construct](swoole-lock.construct.html) — Створює блокування пам'яті
+-   [SwooleLock::destruct](swoole-lock.destruct.html) — Знищує блокування пам'яті Swoole
+-   [SwooleLock::lockread](swoole-lock.lock-read.html) — Блокує читання-запис блокування для читання
+-   [SwooleLock::lock](swoole-lock.lock.html) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
+-   [SwooleLock::trylockread](swoole-lock.trylock-read.html) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
+-   [SwooleLock::trylock](swoole-lock.trylock.html) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
+-   [SwooleLock::unlock](swoole-lock.unlock.html) - Знімає блокування

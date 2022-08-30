@@ -31,7 +31,7 @@ public **FilesystemIterator::construct**(string `$directory`, int `$flags` = Fil
 
 `flags`
 
-Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [предопределённых констант FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
+Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [визначених констант FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
 
 > **Зауваження**
 > 
@@ -73,4 +73,4 @@ example.php
 ### Дивіться також
 
 -   [FilesystemIterator::setFlags()](filesystemiterator.setflags.html) - Завдання прапорів обробки
--   [DirectoryIterator::\_\_construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом
+-   [DirectoryIterator::construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом

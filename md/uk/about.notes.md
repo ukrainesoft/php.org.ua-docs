@@ -2,11 +2,11 @@
 
 -   [« Форматы](about.formats.html)
     
--   [Как читать определения функции (прототип) »](about.prototypes.html)
+-   [Як читати визначення функції (прототип) »](about.prototypes.html)
     
 -   [PHP Manual](index.html)
     
--   [Об этом руководстве](about.html)
+-   [Про це керівництво](about.html)
     
 -   Про нотатки користувачів
     

@@ -1,8 +1,8 @@
 Повертає час світанку для заданого дня та місця розташування
 
--   [« date\_sun\_info](function.date-sun-info.html)
+-   [« datesuninfo](function.date-sun-info.html)
     
--   [date\_sunset »](function.date-sunset.html)
+-   [datesunset »](function.date-sunset.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,15 +47,15 @@ date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STR
 
 `latitude`
 
-За замовчуванням у Північній півкулі для Південної передається негативна величина. Дивіться також [date.default\_latitude](datetime.configuration.html#ini.date.default-latitude)
+За замовчуванням у Північній півкулі для Південної передається негативна величина. Дивіться також [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude)
 
 `longitude`
 
-За замовчуванням східна для вказівки західної довготи передається негативна величина. Дивіться також [date.default\_longitude](datetime.configuration.html#ini.date.default-longitude)
+За замовчуванням східна для вказівки західної довготи передається негативна величина. Дивіться також [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude)
 
 `zenith`
 
-`zenith` - це кут між центром Сонця та лінією, перпендикулярної поверхні Землі. За замовчуванням [date.sunrise\_zenith](datetime.configuration.html#ini.date.sunrise-zenith)
+`zenith` - це кут між центром Сонця та лінією, перпендикулярної поверхні Землі. За замовчуванням [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith)
 
 **Поширені кути `zenith` angles**
 
@@ -76,14 +76,14 @@ date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STR
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [date\_default\_timezone\_set()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
 
 ### список змін
 
-| Версия | Описание                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------|
-|        | Функція оголошена застарілою, використовуйте її разом [date\_sun\_info()](function.date-sun-info.html) |
-|        | `latitude` `longitude` `zenith` і `utcOffset` тепер допускають значення null.                          |
+| Версия | Описание                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------|
+|        | Функція оголошена застарілою, використовуйте її разом [datesuninfo()](function.date-sun-info.html) |
+|        | `latitude` `longitude` `zenith` і `utcOffset` тепер допускають значення null.                      |
 
 ### Приклади
 
@@ -127,5 +127,5 @@ bool(false)
 
 ### Дивіться також
 
--   [date\_sunset()](function.date-sunset.html) - Повертає час заходу сонця для заданого дня та місця розташування
--   [date\_sun\_info()](function.date-sun-info.html) - Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
+-   [datesunset()](function.date-sunset.html) - Повертає час заходу сонця для заданого дня та місця розташування
+-   [datesuninfo()](function.date-sun-info.html) - Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків

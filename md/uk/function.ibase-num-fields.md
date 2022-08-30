@@ -1,8 +1,8 @@
 Повертає кількість полів у результуючому наборі
 
--   [« ibase\_name\_result](function.ibase-name-result.html)
+-   [« ibasenameresult](function.ibase-name-result.html)
     
--   [ibase\_num\_params »](function.ibase-num-params.html)
+-   [ibasenumparams »](function.ibase-num-params.html)
     
 -   [PHP Manual](index.html)
     
@@ -56,4 +56,4 @@ for ($i = 0; $i < $coln; $i++) {
 
 ### Дивіться також
 
--   [ibase\_field\_info()](function.ibase-field-info.html) - Отримує інформацію про поле
+-   [ibasefieldinfo()](function.ibase-field-info.html) - Отримує інформацію про поле

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас RecursiveIteratorIterator
     
@@ -94,7 +94,7 @@ public valid(): bool
 -   [RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.html) - Початок ітерації
 -   [RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.html) — Отримання дочірніх елементів
 -   [RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.html) — Перевірка, чи має елемент дочірні елементи
--   [RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.html) - Конструктор класу RecursiveIteratorIterator
+-   [RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.html) - Конструктор класу RecursiveIteratorIterator
 -   [RecursiveIteratorIterator::current](recursiveiteratoriterator.current.html) — Отримує значення поточного елемента
 -   [RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.html) — Закінчення дочірніх елементів
 -   [RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.html) - Закінчення ітерації

@@ -2,7 +2,7 @@ FiberError
 
 -   [« UnhandledMatchError](class.unhandledmatcherror.html)
     
--   [Встроенные интерфейсы и классы »](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи »](reserved.interfaces.html)
     
 -   [PHP Manual](index.html)
     

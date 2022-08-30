@@ -1,12 +1,12 @@
 Додає властивість
 
--   [« Componere\\Definition::addConstant](componere-definition.addconstant.html)
+-   [« ComponereDefinition::addConstant](componere-definition.addconstant.html)
     
--   [Componere\\Definition::register »](componere-definition.register.html)
+-   [ComponereDefinition::register »](componere-definition.register.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Додає властивість
     

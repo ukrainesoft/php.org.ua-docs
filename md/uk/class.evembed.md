@@ -2,11 +2,11 @@
 
 -   [« EvChild::set](evchild.set.html)
     
--   [EvEmbed::\_\_construct »](evembed.construct.html)
+-   [EvEmbed::construct »](evembed.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvEmbed
     
@@ -129,7 +129,7 @@ embed
 
 ## Зміст
 
--   [EvEmbed::\_\_construct](evembed.construct.html) - Конструктор об'єкта EvEmbed
+-   [EvEmbed::construct](evembed.construct.html) - Конструктор об'єкта EvEmbed
 -   [EvEmbed::createStopped](evembed.createstopped.html) — Створює зупинений об'єкт спостерігач EvEmbed
 -   [EvEmbed::set](evembed.set.html) — Налаштування спостерігача
 -   [EvEmbed::sweep](evembed.sweep.html) — Робить одиночну, неблокуючу розгортку за вбудованим циклом

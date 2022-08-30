@@ -2,11 +2,11 @@
 
 -   [« EmptyIterator::valid](emptyiterator.valid.html)
     
--   [FilesystemIterator::\_\_construct »](filesystemiterator.construct.html)
+-   [FilesystemIterator::construct »](filesystemiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас FilesystemIterator
     
@@ -207,7 +207,7 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [FilesystemIterator::\_\_construct](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::construct](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
 -   [FilesystemIterator::current](filesystemiterator.current.html) - Поточний файл
 -   [FilesystemIterator::getFlags](filesystemiterator.getflags.html) — Отримання прапорів налаштувань об'єкта
 -   [FilesystemIterator::key](filesystemiterator.key.html) — Визначення ключа поточного файлу

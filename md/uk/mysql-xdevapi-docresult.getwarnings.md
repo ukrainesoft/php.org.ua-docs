@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.html)
+-   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
     
 -   Отримати попередження з останньої операції
     

@@ -246,7 +246,7 @@ contiguousspace
 -   [EventBuffer::add](eventbuffer.add.html) — Додає дані до кінця буфера подій
 -   [EventBuffer::addBuffer](eventbuffer.addbuffer.html) — Переміщує всі дані з буфера екземпляру EventBuffer
 -   [EventBuffer::appendFrom](eventbuffer.appendfrom.html) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
--   [EventBuffer::\_\_construct](eventbuffer.construct.html) - Створює об'єкт EventBuffer
+-   [EventBuffer::construct](eventbuffer.construct.html) - Створює об'єкт EventBuffer
 -   [EventBuffer::copyout](eventbuffer.copyout.html) — Копіює вказану кількість байтів з початку буфера
 -   [EventBuffer::drain](eventbuffer.drain.html) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
 -   [EventBuffer::enableLocking](eventbuffer.enablelocking.html) - Опис

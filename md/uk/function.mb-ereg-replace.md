@@ -1,12 +1,12 @@
 Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
 
--   [« mb\_ereg\_replace\_callback](function.mb-ereg-replace-callback.html)
+-   [« mberegreplacecallback](function.mb-ereg-replace-callback.html)
     
--   [mb\_ereg\_search\_getpos »](function.mb-ereg-search-getpos.html)
+-   [мбeregsearchgetpos »](function.mb-ereg-search-getpos.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
     
@@ -43,7 +43,7 @@ mb_ereg_replace(    string $pattern,    string $replacement,    stri
 
 `options`
 
-Опція пошуку. Детальніше дивіться [mb\_regex\_set\_options()](function.mb-regex-set-options.html)
+Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.html)
 
 ### Значення, що повертаються
 
@@ -61,13 +61,13 @@ mb_ereg_replace(    string $pattern,    string $replacement,    stri
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
 
 **Увага**
 
-Ніколи не використовуйте модифікатор `e` під час роботи з даними, отриманими з недостовірних джерел. Не виконується жодного автоматичного екранування цих даних (на відміну від [preg\_replace()](function.preg-replace.html)). Ігнорування цих вимог, швидше за все, створить вразливість виконання віддаленого коду у вашому додатку.
+Ніколи не використовуйте модифікатор `e` під час роботи з даними, отриманими з недостовірних джерел. Не виконується жодного автоматичного екранування цих даних (на відміну від [pregreplace()](function.preg-replace.html)). Ігнорування цих вимог, швидше за все, створить вразливість виконання віддаленого коду у вашому додатку.
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_eregi\_replace()](function.mb-eregi-replace.html) - Здійснює заміну за регулярним виразом за допомогою багатобайтових символів без урахування регістру
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregireplace()](function.mb-eregi-replace.html) - Здійснює заміну за регулярним виразом за допомогою багатобайтових символів без урахування регістру

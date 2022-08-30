@@ -1,8 +1,8 @@
 Одноразові підмаски
 
--   [« Утверждения](regexp.reference.assertions.html)
+-   [« Затвердження](regexp.reference.assertions.html)
     
--   [Условные подмаски »](regexp.reference.conditional.html)
+-   [Умовні підмаски »](regexp.reference.conditional.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Елемент управління "Кнопка з палітрою кольорів"
 
--   [« UI\\Controls\\Button::setText](ui-controls-button.settext.html)
+-   [« UIControlsButton::setText](ui-controls-button.settext.html)
     
--   [UI\\Controls\\ColorButton::getColor »](ui-controls-colorbutton.getcolor.html)
+-   [ОЙControlsColorButton::getColor »](ui-controls-colorbutton.getcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент управління "Кнопка з палітрою кольорів"
     
@@ -63,6 +63,6 @@ public UI\Control::show()
 
 ## Зміст
 
--   [UI\\Controls\\ColorButton::getColor](ui-controls-colorbutton.getcolor.html) — Отримати об'єкт Color
--   [UI\\Controls\\ColorButton::onChange](ui-controls-colorbutton.onchange.html) - Обробник зміни
--   [UI\\Controls\\ColorButton::setColor](ui-controls-colorbutton.setcolor.html) — Встановити об'єкт Color
+-   [ОЙControlsColorButton::getColor](ui-controls-colorbutton.getcolor.html) — Отримати об'єкт Color
+-   [ОЙControlsColorButton::onChange](ui-controls-colorbutton.onchange.html) - Обробник зміни
+-   [ОЙControlsColorButton::setColor](ui-controls-colorbutton.setcolor.html) — Встановити об'єкт Color

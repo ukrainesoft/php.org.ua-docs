@@ -1,8 +1,8 @@
 Виводить результат у вигляді HTML-таблиці
 
--   [« odbc\_procedures](function.odbc-procedures.html)
+-   [« odbcprocedures](function.odbc-procedures.html)
     
--   [odbc\_result »](function.odbc-result.html)
+-   [odbcresult »](function.odbc-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ odbcresultall — Виводить результат як HTML-таблиці
 odbc_result_all(resource $statement, string $format = ""): int|false
 ```
 
-Друкує всі рядки з ідентифікатора результату, створеного [odbc\_exec()](function.odbc-exec.html). Результат друкується у форматі HTML-таблиці. Дані *не* екрануються.
+Друкує всі рядки з ідентифікатора результату, створеного [odbcexec()](function.odbc-exec.html). Результат друкується у форматі HTML-таблиці. Дані *не* екрануються.
 
 Функція не призначена для використання у виробничому середовищі; вона повинна використовуватися для розробки для швидкого отримання результуючого набору.
 

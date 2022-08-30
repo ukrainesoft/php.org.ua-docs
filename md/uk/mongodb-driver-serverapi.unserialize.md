@@ -1,12 +1,12 @@
 Десеріалізує ServerApi
 
--   [« MongoDB\\Driver\\ServerApi::serialize](mongodb-driver-serverapi.serialize.html)
+-   [« MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.html)
     
--   [MongoDB\\Driver\\WriteConcern »](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern »](class.mongodb-driver-writeconcern.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+-   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
     
 -   Десеріалізує ServerApi
     
@@ -27,7 +27,7 @@ final public MongoDB\Driver\ServerApi::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+Серіалізований [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
 
 ### Значення, що повертаються
 
@@ -35,12 +35,12 @@ final public MongoDB\Driver\ServerApi::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Викидає [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` було некоректно сформовано).
--   Викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості некоректні (наприклад, відсутні поля або містяться неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Викидає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` було некоректно сформовано).
+-   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості некоректні (наприклад, відсутні поля або містяться неприпустимі значення).
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ServerApi::serialize()](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
+-   [MongoDBDriverServerApi::serialize()](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
 -   [Сериализация объектов](language.oop5.serialization.html)

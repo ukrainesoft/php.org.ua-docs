@@ -2,7 +2,7 @@
 
 -   [« Функции YAZ](ref.yaz.html)
     
--   [yaz\_ccl\_conf »](function.yaz-ccl-conf.html)
+-   [yazcclconf »](function.yaz-ccl-conf.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ yaz_addinfo(resource $id): string
 
 Повертає додаткову інформацію у разі виникнення помилки останнього запиту до сервера.
 
-З деякими серверами ця функція може повернути той самий рядок, що і функція [yaz\_error()](function.yaz-error.html)
+З деякими серверами ця функція може повернути той самий рядок, що і функція [yazerror()](function.yaz-error.html)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається функцією [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.html)
 
 ### Значення, що повертаються
 
@@ -39,5 +39,5 @@ yaz_addinfo(resource $id): string
 
 ### Дивіться також
 
--   [yaz\_error()](function.yaz-error.html) - Повертає опис помилки
--   [yaz\_errno()](function.yaz-errno.html) - Повертає номер помилки
+-   [yazerror()](function.yaz-error.html) - Повертає опис помилки
+-   [yazerrno()](function.yaz-errno.html) - Повертає номер помилки

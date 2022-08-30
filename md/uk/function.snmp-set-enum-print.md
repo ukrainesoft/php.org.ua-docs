@@ -1,12 +1,12 @@
 Повертає всі значення, які є перерахуваннями, із їх значенням перерахування замість необробленого цілого числа
 
--   [« snmp\_read\_mib](function.snmp-read-mib.html)
+-   [« snmpreadmib](function.snmp-read-mib.html)
     
--   [snmp\_set\_oid\_numeric\_print »](function.snmp-set-oid-numeric-print.html)
+-   [snmpsetoidnumericprint »](function.snmp-set-oid-numeric-print.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Повертає всі значення, які є перерахуваннями, із їх значенням перерахування замість необробленого цілого числа
     

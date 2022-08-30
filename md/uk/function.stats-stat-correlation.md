@@ -1,12 +1,12 @@
 Повертає коефіцієнт кореляції Пірсона двох наборів даних
 
--   [« stats\_stat\_binomial\_coef](function.stats-stat-binomial-coef.html)
+-   [« statsstatbinomialcoef](function.stats-stat-binomial-coef.html)
     
--   [stats\_stat\_factorial »](function.stats-stat-factorial.html)
+-   [statsstatfactorial »](function.stats-stat-factorial.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає коефіцієнт кореляції Пірсона двох наборів даних
     

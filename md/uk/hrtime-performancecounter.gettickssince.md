@@ -1,12 +1,12 @@
 Кількість тиків, що пройшли із заданого значення
 
--   [« HRTime\\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.html)
+-   [« HRTimePerformanceCounter::getTicks](hrtime-performancecounter.getticks.html)
     
--   [HRTime\\StopWatch »](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch »](class.hrtime-stopwatch.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html)
+-   [HRTimePerformanceCounter](class.hrtime-performancecounter.html)
     
 -   Кількість тиків, що пройшли із заданого значення
     

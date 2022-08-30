@@ -37,7 +37,7 @@ public static XMLReader::XML(string $source, ?string $encoding = null, int $flag
 
 `flags`
 
-Бітова маска констант [LIBXML\_\*](libxml.constants.html)
+Бітова маска констант [LIBXML](libxml.constants.html)
 
 ### Значення, що повертаються
 

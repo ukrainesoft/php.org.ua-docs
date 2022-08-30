@@ -1,12 +1,12 @@
 Завершує граматичні правила
 
--   [« Parle\\RParser::advance](parle-rparser.advance.html)
+-   [« ParleRParser::advance](parle-rparser.advance.html)
     
--   [Parle\\RParser::consume »](parle-rparser.consume.html)
+-   [ParleRParser::consume »](parle-rparser.consume.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Завершує граматичні правила
     

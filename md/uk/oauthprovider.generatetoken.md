@@ -74,5 +74,5 @@ b6a82c27
 
 ### Дивіться також
 
--   [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт
--   [mcrypt\_create\_iv()](function.mcrypt-create-iv.html) - Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
+-   [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт
+-   [mcryptcreateiv()](function.mcrypt-create-iv.html) - Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела

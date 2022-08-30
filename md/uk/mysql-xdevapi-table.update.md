@@ -2,11 +2,11 @@
 
 -   [« Table::select](mysql-xdevapi-table.select.html)
     
--   [mysql\_xdevapi\\TableDelete »](class.mysql-xdevapi-tabledelete.html)
+-   [mysqlxdevapiTableDelete »](class.mysql-xdevapi-tabledelete.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html)
+-   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     
 -   Оновити рядки у таблиці
     

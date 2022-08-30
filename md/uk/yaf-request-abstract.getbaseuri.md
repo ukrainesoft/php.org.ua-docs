@@ -1,12 +1,12 @@
 Призначення getBaseUri
 
--   [« Yaf\_Request\_Abstract::getActionName](yaf-request-abstract.getactionname.html)
+-   [« YafRequestAbstract::getActionName](yaf-request-abstract.getactionname.html)
     
--   [Yaf\_Request\_Abstract::getControllerName »](yaf-request-abstract.getcontrollername.html)
+-   [YafRequestAbstract::getControllerName »](yaf-request-abstract.getcontrollername.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Призначення getBaseUri
     

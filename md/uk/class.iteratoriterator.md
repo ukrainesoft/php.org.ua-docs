@@ -2,11 +2,11 @@
 
 -   [« InfiniteIterator::next](infiniteiterator.next.html)
     
--   [IteratorIterator::\_\_construct »](iteratoriterator.construct.html)
+-   [IteratorIterator::construct »](iteratoriterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас IteratorIterator
     
@@ -56,7 +56,7 @@ public valid(): bool
 
 ## Зміст
 
--   [IteratorIterator::\_\_construct](iteratoriterator.construct.html) — Створює ітератор із чогось, що є обхідним (traversable)
+-   [IteratorIterator::construct](iteratoriterator.construct.html) — Створює ітератор із чогось, що є обхідним (traversable)
 -   [IteratorIterator::current](iteratoriterator.current.html) — Отримує поточне значення
 -   [IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.html) — Отримує внутрішній ітератор
 -   [IteratorIterator::key](iteratoriterator.key.html) — Отримує ключ поточного елемента

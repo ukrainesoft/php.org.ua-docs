@@ -2,7 +2,7 @@
 
 -   [« ReflectionProperty](class.reflectionproperty.html)
     
--   [ReflectionProperty::\_\_construct »](reflectionproperty.construct.html)
+-   [ReflectionProperty::construct »](reflectionproperty.construct.html)
     
 -   [PHP Manual](index.html)
     

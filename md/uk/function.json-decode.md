@@ -2,7 +2,7 @@
 
 -   [« Функции JSON](ref.json.html)
     
--   [json\_encode »](function.json-encode.html)
+-   [jsonencode »](function.json-encode.html)
     
 -   [PHP Manual](index.html)
     
@@ -228,9 +228,9 @@ object(stdClass)#1 (1) {
 
 > **Зауваження**
 > 
-> У разі виникнення помилки декодування можна використовувати [json\_last\_error()](function.json-last-error.html) визначення її причини.
+> У разі виникнення помилки декодування можна використовувати [jsonlasterror()](function.json-last-error.html) визначення її причини.
 
 ### Дивіться також
 
--   [json\_encode()](function.json-encode.html) - Повертає JSON-подання даних
--   [json\_last\_error()](function.json-last-error.html) - Повертає останню помилку
+-   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних
+-   [jsonlasterror()](function.json-last-error.html) - Повертає останню помилку

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Отличительные особенности](features.html)
+-   [Відмітні особливості](features.html)
     
 -   Складання сміття
     
@@ -16,7 +16,7 @@
 ## Зміст
 
 -   [Основы подсчёта ссылок](features.gc.refcounting-basics.html)
--   [Сбор циклических ссылок](features.gc.collecting-cycles.html)
--   [Вопросы производительности](features.gc.performance-considerations.html)
+-   [Збір циклічних посилань](features.gc.collecting-cycles.html)
+-   [Питання продуктивності](features.gc.performance-considerations.html)
 
 У цьому розділі описуються переваги нового механізму складання сміття (також званого Garbage Collection або GC), що є частиною PHP 5.3.

@@ -1,12 +1,12 @@
 Передає дані для обробки
 
--   [« Parle\\RLexer::callout](parle-rlexer.callout.html)
+-   [« ParleRLexer::callout](parle-rlexer.callout.html)
     
--   [Parle\\RLexer::dump »](parle-rlexer.dump.html)
+-   [ParleRLexer::dump »](parle-rlexer.dump.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RLexer](class.parle-rlexer.html)
+-   [ParleRLexer](class.parle-rlexer.html)
     
 -   Передає дані для обробки
     

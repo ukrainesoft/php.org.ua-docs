@@ -1,12 +1,12 @@
 Конструктор класу Client
 
--   [« mysql\_xdevapi\\Client::close](mysql-xdevapi-client.close.html)
+-   [« mysqlxdevapiClient::close](mysql-xdevapi-client.close.html)
     
 -   [Client::getClient »](mysql-xdevapi-client.getsession.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html)
+-   [mysqlxdevapiClient](class.mysql-xdevapi-client.html)
     
 -   Конструктор класу Client
     

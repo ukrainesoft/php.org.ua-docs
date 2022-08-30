@@ -1,8 +1,8 @@
 Отримати хеш повідомлення
 
--   [« sodium\_crypto\_generichash\_update](function.sodium-crypto-generichash-update.html)
+-   [« sodiumcryptogenerichashupdate](function.sodium-crypto-generichash-update.html)
     
--   [sodium\_crypto\_kdf\_derive\_from\_key »](function.sodium-crypto-kdf-derive-from-key.html)
+-   [sodiumcryptokdfderivefromkey »](function.sodium-crypto-kdf-derive-from-key.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ sodium_crypto_generichash(string $message, string $key = "", int $length = SODIU
 
 ### Значення, що повертаються
 
-Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodium\_bin2hex()](function.sodium-bin2hex.html)
+Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodiumbin2hex()](function.sodium-bin2hex.html)

@@ -1,12 +1,12 @@
 Встановити розмір фрагмента даних потоку
 
--   [« stream\_set\_blocking](function.stream-set-blocking.html)
+-   [« streamsetblocking](function.stream-set-blocking.html)
     
--   [stream\_set\_read\_buffer »](function.stream-set-read-buffer.html)
+-   [streamsetreadbuffer »](function.stream-set-read-buffer.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановити розмір фрагмента даних потоку
     

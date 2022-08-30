@@ -31,7 +31,7 @@
 
 #### Стандартні функції
 
-Математичні функції [abs()](function.abs.html) [ceil()](function.ceil.html) [floor()](function.floor.html) і [round()](function.round.html) тепер правильно враховують [объявление `strict_type`](language.types.declarations.html#language.types.declarations.strict). Раніше вони наводили перший аргумент до числового значення навіть у режимі суворої типізації.
+Математичні функції [abs()](function.abs.html) [ceil()](function.ceil.html) [floor()](function.floor.html) і [round()](function.round.html) тепер правильно враховують [объявление`strict_type`](language.types.declarations.html#language.types.declarations.strict). Раніше вони наводили перший аргумент до числового значення навіть у режимі суворої типізації.
 
 #### Zip
 
@@ -53,7 +53,7 @@
 
 -   Для роботи модуля CURL тепер потрібно щонайменше libcurl 7.29.0.
     
--   Застарілий параметр `version` функції [curl\_version()](function.curl-version.html) був видалений.
+-   Застарілий параметр `version` функції [curlversion()](function.curl-version.html) був видалений.
     
 
 #### дата і час
@@ -99,7 +99,7 @@
 
 -   Якщо mysqlnd не використовується (це варіант за промовчанням і рекомендується), мінімальна підтримувана версія libmysqlclient тепер 5.5.
     
--   [mysqli\_result](class.mysqli-result.html) тепер реалізує [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.html)
+-   [mysqliresult](class.mysqli-result.html) тепер реалізує [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.html)
     
 
 #### PGSQL / PDO PGSQL
@@ -108,7 +108,7 @@
 
 #### Readline
 
-Виклик [readline\_completion\_function()](function.readline-completion-function.html) перед запуском інтерактивної підказки (наприклад, [auto\_prepend\_file](ini.core.html#ini.auto-prepend-file)) тепер скасовує функцію завершення інтерактивної підказки за замовчуванням. Раніше [readline\_completion\_function()](function.readline-completion-function.html) працювала лише під час виклику після запуску інтерактивної підказки.
+Виклик [readlinecompletionfunction()](function.readline-completion-function.html) перед запуском інтерактивної підказки (наприклад, [autoprependfile](ini.core.html#ini.auto-prepend-file)) тепер скасовує функцію завершення інтерактивної підказки за замовчуванням. Раніше [readlinecompletionfunction()](function.readline-completion-function.html) працювала лише під час виклику після запуску інтерактивної підказки.
 
 #### SimpleXML
 
@@ -129,6 +129,6 @@
 
 -   Компілятор Just-In-Time (JIT) був доданий у модуль opcache.
     
--   [array\_slice()](function.array-slice.html) в масиві без відстані між елементами більше не скануватиме весь масив, щоб знайти початкове зміщення. Це може значно скоротити час виконання функції з великими зсувами та малою довжиною.
+-   [arrayslice()](function.array-slice.html) в масиві без відстані між елементами більше не скануватиме весь масив, щоб знайти початкове зміщення. Це може значно скоротити час виконання функції з великими зсувами та малою довжиною.
     
 -   [strtolower()](function.strtolower.html) тепер використовує реалізацію SIMD у локалі `"C"` **`LC_CTYPE`** (яка використовується за замовчуванням).

@@ -47,6 +47,6 @@ msgfmt_get_error_code(MessageFormatter $formatter): int
 
 ### Дивіться також
 
--   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
--   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [msgfmtgeterrormessage()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
+-   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

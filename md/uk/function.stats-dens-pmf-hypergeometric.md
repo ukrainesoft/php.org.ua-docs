@@ -1,12 +1,12 @@
 Імовірнісний захід гіпергеометричного розподілу
 
--   [« stats\_dens\_pmf\_binomial](function.stats-dens-pmf-binomial.html)
+-   [« statsdenspmfbinomial](function.stats-dens-pmf-binomial.html)
     
--   [stats\_dens\_pmf\_negative\_binomial »](function.stats-dens-pmf-negative-binomial.html)
+-   [statsdenspmfnegativebinomial »](function.stats-dens-pmf-negative-binomial.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Імовірнісний захід гіпергеометричного розподілу
     

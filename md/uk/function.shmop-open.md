@@ -1,12 +1,12 @@
 Резервування або використання блоку пам'яті, що розділяється
 
--   [« shmop\_delete](function.shmop-delete.html)
+-   [« shmopdelete](function.shmop-delete.html)
     
--   [shmop\_read »](function.shmop-read.html)
+-   [shmopread »](function.shmop-read.html)
     
 -   [PHP Manual](index.html)
     
--   [Разделяемая (shared) память](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared)](ref.shmop.html)
     
 -   Резервування або використання блоку пам'яті, що розділяється
     
@@ -77,5 +77,5 @@ $shm_id = shmop_open($shm_key, "c", 0644, 100);
 
 ### Дивіться також
 
--   [shmop\_close()](function.shmop-close.html) - Закриття блоку пам'яті, що розділяється
--   [shmop\_delete()](function.shmop-delete.html) - Видалення блоку пам'яті, що розділяється
+-   [shmopclose()](function.shmop-close.html) - Закриття блоку пам'яті, що розділяється
+-   [shmopdelete()](function.shmop-delete.html) - Видалення блоку пам'яті, що розділяється

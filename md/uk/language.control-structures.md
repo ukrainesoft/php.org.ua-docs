@@ -1,6 +1,6 @@
 Керуючі конструкції
 
--   [« Оператор проверки типа](language.operators.type.html)
+-   [« Оператор перевірки типу](language.operators.type.html)
     
 -   [Введение »](control-structures.intro.html)
     
@@ -16,7 +16,7 @@
 ## Зміст
 
 -   [Введение](control-structures.intro.html)
--   [if](control-structures.if.html)
+-   [іф](control-structures.if.html)
 -   [else](control-structures.else.html)
 -   [elseif/else if](control-structures.elseif.html)
 -   [Альтернативный синтаксис управляющих структур](control-structures.alternative-syntax.html)
@@ -32,6 +32,6 @@
 -   [return](function.return.html)
 -   [require](function.require.html)
 -   [include](function.include.html)
--   [require\_once](function.require-once.html)
--   [include\_once](function.include-once.html)
+-   [requireonce](function.require-once.html)
+-   [includeonce](function.include-once.html)
 -   [goto](control-structures.goto.html)

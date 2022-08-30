@@ -1,12 +1,12 @@
 Встановлює режим звітування про помилки (errorreporting)
 
--   [« gnupg\_setarmor](function.gnupg-setarmor.html)
+-   [« gnupgsetarmor](function.gnupg-setarmor.html)
     
--   [gnupg\_setsignmode »](function.gnupg-setsignmode.html)
+-   [gnupgsetsignmode »](function.gnupg-setsignmode.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Встановлює режим звітування про помилки (errorreporting)
     
@@ -23,13 +23,13 @@ gnupgseterrormode — Встановлює режим звітування пр�
 gnupg_seterrormode(resource $identifier, int $errormode): void
 ```
 
-Встановлює режим [error\_reporting](errorfunc.configuration.html#ini.error-reporting)
+Встановлює режим [errorreporting](errorfunc.configuration.html#ini.error-reporting)
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `errormode`
 

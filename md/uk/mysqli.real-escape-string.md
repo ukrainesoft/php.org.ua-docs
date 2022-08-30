@@ -1,8 +1,8 @@
 Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
 
--   [« mysqli::real\_connect](mysqli.real-connect.html)
+-   [« mysqli::realconnect](mysqli.real-connect.html)
     
--   [mysqli::real\_query »](mysqli.real-query.html)
+-   [mysqli::realquery »](mysqli.real-query.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,13 +41,13 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 
 # Безпека: набір символів за промовчанням
 
-Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqli\_set\_charset()](mysqli.set-charset.html). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [наборы символов](mysqlinfo.concepts.charset.html)
+Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqlisetcharset()](mysqli.set-charset.html). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.html)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `string`
 
@@ -115,4 +115,4 @@ Fatal error: Uncaught mysqli_sql_exception: You have an error in your SQL syntax
 
 ### Дивіться також
 
--   [mysqli\_set\_charset()](mysqli.set-charset.html) - Встановлює набір символів
+-   [mysqlisetcharset()](mysqli.set-charset.html) - Встановлює набір символів

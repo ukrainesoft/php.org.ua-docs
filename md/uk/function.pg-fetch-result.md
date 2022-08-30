@@ -1,8 +1,8 @@
 Повертає запис із результату запиту
 
--   [« pg\_fetch\_object](function.pg-fetch-object.html)
+-   [« pgfetchobject](function.pg-fetch-object.html)
     
--   [pg\_fetch\_row »](function.pg-fetch-row.html)
+-   [пгfetchrow »](function.pg-fetch-row.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ pg_fetch_result(PgSql\Result $result, int $row, mixed $field): string|false|null
 pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 ```
 
-**пгfetchresult()** повертає значення комірки таблиці примірника [PgSql\\Result](class.pgsql-result.html)
+**пгfetchresult()** повертає значення комірки таблиці примірника [PgSqlResult](class.pgsql-result.html)
 
 > **Зауваження**
 > 
@@ -37,7 +37,7 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `row`
 
@@ -55,9 +55,9 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -83,5 +83,5 @@ echo "Первое поле во второй строчке резуль�
 
 ### Дивіться також
 
--   [pg\_query()](function.pg-query.html) - Виконує запит
--   [pg\_fetch\_array()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [пгquery()](function.pg-query.html) - Виконує запит
+-   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву

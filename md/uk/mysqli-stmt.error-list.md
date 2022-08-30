@@ -1,12 +1,12 @@
 Повертає список помилок виконання останнього запиту
 
--   [« mysqli\_stmt::$errno](mysqli-stmt.errno.html)
+-   [« mysqlistmt::$errno](mysqli-stmt.errno.html)
     
--   [mysqli\_stmt::$error »](mysqli-stmt.error.html)
+-   [mysqlistmt::$error »](mysqli-stmt.error.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Повертає список помилок виконання останнього запиту
     
@@ -23,7 +23,7 @@ mysqlistmt::$errorlist - mysqlistmterrorlist — Повертає список �
 
 Об'єктно-орієнтований стиль
 
-array [$mysqli\_stmt->error\_list](mysqli-stmt.error-list.html)
+array [$mysqlistmt->errorlist](mysqli-stmt.error-list.html)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_stmt_error_list(mysqli_stmt $statement): array
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -138,6 +138,6 @@ Array
 
 ### Дивіться також
 
--   [mysqli\_stmt\_error()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту
--   [mysqli\_stmt\_errno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
--   [mysqli\_stmt\_sqlstate()](mysqli-stmt.sqlstate.html) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+-   [mysqlistmterror()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmterrno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.html) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

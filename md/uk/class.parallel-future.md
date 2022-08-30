@@ -1,8 +1,8 @@
 Клас parallelFuture
 
--   [« parallel\\Runtime::kill](parallel-runtime.kill.html)
+-   [« parallelRuntime::kill](parallel-runtime.kill.html)
     
--   [parallel\\Future::cancel »](parallel-future.cancel.html)
+-   [parallelFuture::cancel »](parallel-future.cancel.html)
     
 -   [PHP Manual](index.html)
     
@@ -97,7 +97,7 @@ public done(): bool
 
 ## Зміст
 
--   [parallel\\Future::cancel](parallel-future.cancel.html) - Припинення
--   [parallel\\Future::cancelled](parallel-future.cancelled.html) — Визначення стану
--   [parallel\\Future::done](parallel-future.done.html) — Визначення стану
--   [parallel\\Future::value](parallel-future.value.html) - Розширення
+-   [parallelFuture::cancel](parallel-future.cancel.html) - Припинення
+-   [parallelFuture::cancelled](parallel-future.cancelled.html) — Визначення стану
+-   [parallelFuture::done](parallel-future.done.html) — Визначення стану
+-   [parallelFuture::value](parallel-future.value.html) - Розширення

@@ -1,12 +1,12 @@
 Повертає порт, який слухає сервер
 
--   [« MongoDB\\Driver\\Server::getLatency](mongodb-driver-server.getlatency.html)
+-   [« MongoDBDriverServer::getLatency](mongodb-driver-server.getlatency.html)
     
--   [MongoDB\\Driver\\Server::getServerDescription »](mongodb-driver-server.getserverdescription.html)
+-   [MongoDBDriverServer::getServerDescription »](mongodb-driver-server.getserverdescription.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Повертає порт, який слухає сервер
     
@@ -35,7 +35,7 @@ final public MongoDB\Driver\Server::getPort(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -62,5 +62,5 @@ int(27017)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
--   [MongoDB\\Driver\\ServerDescription::getPort()](mongodb-driver-serverdescription.getport.html) - Повертає порт, на якому прослуховується цей сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getPort()](mongodb-driver-serverdescription.getport.html) - Повертає порт, на якому прослуховується цей сервер

@@ -1,12 +1,12 @@
 Відновлює файл RRD із дампи XML
 
--   [« rrd\_lastupdate](function.rrd-lastupdate.html)
+-   [« rrdlastupdate](function.rrd-lastupdate.html)
     
--   [rrd\_tune »](function.rrd-tune.html)
+-   [rrdtune »](function.rrd-tune.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Відновлює файл RRD із дампи XML
     

@@ -1,12 +1,12 @@
 Виконує кілька завдань одночасно
 
--   [« Swoole\\Server::taskwait](swoole-server.taskwait.html)
+-   [« SwooleServer::taskwait](swoole-server.taskwait.html)
     
--   [Swoole\\Server::tick »](swoole-server.tick.html)
+-   [SwooleServer::tick »](swoole-server.tick.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Виконує кілька завдань одночасно
     

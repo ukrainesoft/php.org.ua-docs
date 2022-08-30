@@ -1,8 +1,8 @@
 Регулює налаштування ODBC
 
--   [« odbc\_rollback](function.odbc-rollback.html)
+-   [« odbcrollback](function.odbc-rollback.html)
     
--   [odbc\_specialcolumns »](function.odbc-specialcolumns.html)
+-   [odbcspecialcolumns »](function.odbc-specialcolumns.html)
     
 -   [PHP Manual](index.html)
     

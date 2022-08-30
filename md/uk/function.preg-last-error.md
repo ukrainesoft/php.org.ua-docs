@@ -1,8 +1,8 @@
 Повертає код помилки виконання останнього регулярного виразу PCRE
 
--   [« preg\_last\_error\_msg](function.preg-last-error-msg.html)
+-   [« preglasterrormsg](function.preg-last-error-msg.html)
     
--   [preg\_match\_all »](function.preg-match-all.html)
+-   [pregmatchall »](function.preg-match-all.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,16 +51,16 @@ if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
 
 ### Значення, що повертаються
 
-Повертає одну з наступних констант ([описанных на отдельной странице.](pcre.constants.html)
+Повертає одну з наступних констант ([описаних на окремій сторінці.](pcre.constants.html)
 
 -   **`PREG_NO_ERROR`**
 -   **`PREG_INTERNAL_ERROR`**
--   **`PREG_BACKTRACK_LIMIT_ERROR`** (Дивіться також [pcre.backtrack\_limit](pcre.configuration.html#ini.pcre.backtrack-limit)
--   **`PREG_RECURSION_LIMIT_ERROR`** (Дивіться також [pcre.recursion\_limit](pcre.configuration.html#ini.pcre.recursion-limit)
+-   **`PREG_BACKTRACK_LIMIT_ERROR`** (Дивіться також [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit)
+-   **`PREG_RECURSION_LIMIT_ERROR`** (Дивіться також [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit)
 -   **`PREG_BAD_UTF8_ERROR`**
 -   **`PREG_BAD_UTF8_OFFSET_ERROR`**
 -   **`PREG_JIT_STACKLIMIT_ERROR`**
 
 ### Дивіться також
 
--   [preg\_last\_error\_msg()](function.preg-last-error-msg.html) - Повертає повідомлення про помилку останньої запущеної функції PCRE
+-   [preglasterrormsg()](function.preg-last-error-msg.html) - Повертає повідомлення про помилку останньої запущеної функції PCRE

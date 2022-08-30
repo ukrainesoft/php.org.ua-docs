@@ -2,11 +2,11 @@
 
 -   [« floatval](function.floatval.html)
     
--   [get\_defined\_vars »](function.get-defined-vars.html)
+-   [getdefinedvars »](function.get-defined-vars.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає ім'я типу змінної у вигляді, що підходить для налагодження
     
@@ -92,4 +92,4 @@ class@anonymous
 ### Дивіться також
 
 -   [gettype()](function.gettype.html) - Повертає тип змінної
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт

@@ -1,12 +1,12 @@
 Читає вміст файлу в рядок
 
--   [« file\_exists](function.file-exists.html)
+-   [« fileexists](function.file-exists.html)
     
--   [file\_put\_contents »](function.file-put-contents.html)
+-   [fileputcontents »](function.file-put-contents.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Читає вміст файлу в рядок
     
@@ -45,7 +45,7 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 `context`
 
-Коректний ресурс контексту, створений за допомогою функції [stream\_context\_create()](function.stream-context-create.html). Якщо у використанні особливого контексту немає необхідності, можна пропустити цей параметр, передавши в нього значення **`null`**
+Коректний ресурс контексту, створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html). Якщо у використанні особливого контексту немає необхідності, можна пропустити цей параметр, передавши в нього значення **`null`**
 
 `offset`
 
@@ -63,7 +63,7 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
@@ -142,11 +142,11 @@ $file = file_get_contents('http://www.example.com/', false, $context);
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 **Увага**
 
-При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [error\_reporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.html) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
+При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.html) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
 
 ### Дивіться також
 
@@ -154,7 +154,7 @@ $file = file_get_contents('http://www.example.com/', false, $context);
 -   [fgets()](function.fgets.html) - Читає рядок із файлу
 -   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
 -   [readfile()](function.readfile.html) - Виводить файл
--   [file\_put\_contents()](function.file-put-contents.html) - Пише дані у файл
--   [stream\_get\_contents()](function.stream-get-contents.html) - Читає частину потоку, що залишилася, в рядок
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
--   [$http\_response\_header](reserved.variables.httpresponseheader.html)
+-   [fileputcontents()](function.file-put-contents.html) - Пише дані у файл
+-   [streamgetcontents()](function.stream-get-contents.html) - Читає частину потоку, що залишилася, в рядок
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [$httpresponseheader](reserved.variables.httpresponseheader.html)

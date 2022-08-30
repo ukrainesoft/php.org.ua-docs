@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+-   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
     
 -   Обмежує кількість рядків для оновлення
     

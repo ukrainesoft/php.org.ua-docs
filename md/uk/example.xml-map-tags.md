@@ -2,7 +2,7 @@
 
 -   [« Пример Структуры Элемента XML](example.xml-structure.html)
     
--   [Пример использования внешних сущностей XML »](example.xml-external-entity.html)
+-   [Приклад використання зовнішніх сутностей XML »](example.xml-external-entity.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Отримати конфігураційну інформацію кешу
 
--   [« opcache\_compile\_file](function.opcache-compile-file.html)
+-   [« opcachecompilefile](function.opcache-compile-file.html)
     
--   [opcache\_get\_status »](function.opcache-get-status.html)
+-   [opcachegetstatus »](function.opcache-get-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ opcache_get_configuration(): array|false
 
 ### Дивіться також
 
--   [opcache\_get\_status()](function.opcache-get-status.html) - Отримати інформацію про стан кешу
+-   [opcachegetstatus()](function.opcache-get-status.html) - Отримати інформацію про стан кешу

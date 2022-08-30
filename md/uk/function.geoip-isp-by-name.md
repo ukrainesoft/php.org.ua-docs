@@ -1,8 +1,8 @@
 Повертає ім'я інтернет-провайдера (ISP)
 
--   [« geoip\_id\_by\_name](function.geoip-id-by-name.html)
+-   [« geoipідбname](function.geoip-id-by-name.html)
     
--   [geoip\_netspeedcell\_by\_name »](function.geoip-netspeedcell-by-name.html)
+-   [geoipnetspeedcellбname »](function.geoip-netspeedcell-by-name.html)
     
 -   [PHP Manual](index.html)
     

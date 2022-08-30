@@ -1,12 +1,12 @@
 Встановлює базовий URI
 
--   [« Yaf\_Request\_Abstract::setActionName](yaf-request-abstract.setactionname.html)
+-   [« YafRequestAbstract::setActionName](yaf-request-abstract.setactionname.html)
     
--   [Yaf\_Request\_Abstract::setControllerName »](yaf-request-abstract.setcontrollername.html)
+-   [YafRequestAbstract::setControllerName »](yaf-request-abstract.setcontrollername.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Встановлює базовий URI
     

@@ -1,12 +1,12 @@
 Щільність ймовірності логістичного розподілу
 
--   [« stats\_dens\_laplace](function.stats-dens-laplace.html)
+-   [« statsdenslaplace](function.stats-dens-laplace.html)
     
--   [stats\_dens\_normal »](function.stats-dens-normal.html)
+-   [statsdensnormal »](function.stats-dens-normal.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності логістичного розподілу
     

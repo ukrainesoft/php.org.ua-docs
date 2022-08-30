@@ -1,12 +1,12 @@
 Отримує об'єкт SNMP
 
--   [« snmp3\_walk](function.snmp3-walk.html)
+-   [« snmpv3walk](function.snmp3-walk.html)
     
 -   [snmpgetnext »](function.snmpgetnext.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує об'єкт SNMP
     

@@ -1,6 +1,6 @@
 Отримати поточний елемент
 
--   [« APCUIterator::\_\_construct](apcuiterator.construct.html)
+-   [« APCUIterator::construct](apcuiterator.construct.html)
     
 -   [APCUIterator::getTotalCount »](apcuiterator.gettotalcount.html)
     

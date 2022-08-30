@@ -1,12 +1,12 @@
 Отримує ширину рядка
 
--   [« ps\_string\_geometry](function.ps-string-geometry.html)
+-   [«psstringgeometry](function.ps-string-geometry.html)
     
--   [ps\_stroke »](function.ps-stroke.html)
+-   [псstroke »](function.ps-stroke.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Отримує ширину рядка
     
@@ -29,7 +29,7 @@ ps_stringwidth(    resource $psdoc,    string $text,    int $fontid 
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `text`
 
@@ -49,4 +49,4 @@ ps_stringwidth(    resource $psdoc,    string $text,    int $fontid 
 
 ### Дивіться також
 
--   [ps\_string\_geometry()](function.ps-string-geometry.html) - Отримує геометрію рядка
+-   [псstringgeometry()](function.ps-string-geometry.html) - Отримує геометрію рядка

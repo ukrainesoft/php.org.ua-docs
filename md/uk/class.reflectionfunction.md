@@ -1,8 +1,8 @@
 Клас ReflectionFunction
 
--   [« ReflectionExtension::\_\_toString](reflectionextension.tostring.html)
+-   [« ReflectionExtension::toString](reflectionextension.tostring.html)
     
--   [ReflectionFunction::\_\_construct »](reflectionfunction.construct.html)
+-   [ReflectionFunction::construct »](reflectionfunction.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,10 +108,10 @@ abstract public ReflectionFunctionAbstract::__toString(): void
 
 ## Зміст
 
--   [ReflectionFunction::\_\_construct](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
+-   [ReflectionFunction::construct](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
 -   [ReflectionFunction::export](reflectionfunction.export.html) - Експортує функції
 -   [ReflectionFunction::getClosure](reflectionfunction.getclosure.html) — Повертає динамічно створене замикання функції
 -   [ReflectionFunction::invoke](reflectionfunction.invoke.html) - Викликає функцію
 -   [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.html) - Виклик функції з передачею аргументів
 -   [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.html) — Перевіряє, що функцію вимкнено
--   [ReflectionFunction::\_\_toString](reflectionfunction.tostring.html) — Подання у вигляді рядка
+-   [ReflectionFunction::toString](reflectionfunction.tostring.html) — Подання у вигляді рядка

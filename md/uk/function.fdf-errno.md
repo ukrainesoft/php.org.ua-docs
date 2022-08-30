@@ -1,8 +1,8 @@
 Повертає код помилки для останньої операції FDF
 
--   [« fdf\_enum\_values](function.fdf-enum-values.html)
+-   [« fdfenumvalues](function.fdf-enum-values.html)
     
--   [fdf\_error »](function.fdf-error.html)
+-   [fdferror »](function.fdf-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ fdf_errno(): int
 
 Отримує код помилки, встановлений останнім викликом функції FDF.
 
-Текстовий опис помилки можна отримати за допомогою [fdf\_error()](function.fdf-error.html)
+Текстовий опис помилки можна отримати за допомогою [fdferror()](function.fdf-error.html)
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ fdf_errno(): int
 
 ### Дивіться також
 
--   [fdf\_error()](function.fdf-error.html) - Повертає опис помилки для коду помилки FDF
+-   [fdferror()](function.fdf-error.html) - Повертає опис помилки для коду помилки FDF

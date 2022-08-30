@@ -1,8 +1,8 @@
 Індекс найменшого значення за певний період
 
--   [« trader\_min](function.trader-min.html)
+-   [« tradermin](function.trader-min.html)
     
--   [trader\_minmax »](function.trader-minmax.html)
+-   [traderminmax »](function.trader-minmax.html)
     
 -   [PHP Manual](index.html)
     

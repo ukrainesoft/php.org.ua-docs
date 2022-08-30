@@ -1,12 +1,12 @@
 Записує байти у файл, опціонально обрізаючи до вказаної довжини
 
--   [« dio\_truncate](function.dio-truncate.html)
+-   [« diotruncate](function.dio-truncate.html)
     
 -   [Каталоги »](book.dir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Записує байти у файл, опціонально обрізаючи до вказаної довжини
     
@@ -29,7 +29,7 @@ dio_write(resource $fd, string $data, int $len = 0): int
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 `data`
 
@@ -45,4 +45,4 @@ dio_write(resource $fd, string $data, int $len = 0): int
 
 ### Дивіться також
 
--   [dio\_read()](function.dio-read.html) - Прочитай байти із файлового дескриптора
+-   [dioread()](function.dio-read.html) - Прочитай байти із файлового дескриптора

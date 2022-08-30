@@ -1,12 +1,12 @@
 Повертає код помилки SQLSTATE
 
--   [« mysqli\_sql\_exception](class.mysqli-sql-exception.html)
+-   [« mysqlisqlexception](class.mysqli-sql-exception.html)
     
--   [Синонимы и устаревшие функции Mysqli »](ref.mysqli.html)
+-   [Синоніми та застарілі функції Mysqli »](ref.mysqli.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_sql\_exception](class.mysqli-sql-exception.html)
+-   [mysqlisqlexception](class.mysqli-sql-exception.html)
     
 -   Повертає код помилки SQLSTATE
     

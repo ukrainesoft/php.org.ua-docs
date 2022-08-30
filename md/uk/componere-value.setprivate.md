@@ -1,12 +1,12 @@
 Зміна доступності
 
--   [« Componere\\Value::\_\_construct](componere-value.construct.html)
+-   [« ComponereValue::construct](componere-value.construct.html)
     
--   [Componere\\Value::setProtected »](componere-value.setprotected.html)
+-   [ComponereValue::setProtected »](componere-value.setprotected.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Зміна доступності
     

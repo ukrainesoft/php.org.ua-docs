@@ -1,6 +1,6 @@
 Клас RarEntry
 
--   [« RarArchive::\_\_toString](rararchive.tostring.html)
+-   [« RarArchive::toString](rararchive.tostring.html)
     
 -   [RarEntry::extract »](rarentry.extract.html)
     
@@ -400,4 +400,4 @@ public __toString(): string
 -   [RarEntry::getVersion](rarentry.getversion.html) — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
 -   [RarEntry::isDirectory](rarentry.isdirectory.html) — Перевіряє, чи є запис директорією
 -   [RarEntry::isEncrypted](rarentry.isencrypted.html) — Перевіряє, чи зашифрований запис
--   [RarEntry::\_\_toString](rarentry.tostring.html) — Отримати текстове подання запису
+-   [RarEntry::toString](rarentry.tostring.html) — Отримати текстове подання запису

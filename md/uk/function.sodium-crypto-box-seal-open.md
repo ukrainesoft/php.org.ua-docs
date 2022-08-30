@@ -1,8 +1,8 @@
 Розшифровка відкритим ключем без автентифікації
 
--   [« sodium\_crypto\_box\_publickey](function.sodium-crypto-box-publickey.html)
+-   [« sodiumcryptoboxpublickey](function.sodium-crypto-box-publickey.html)
     
--   [sodium\_crypto\_box\_seal »](function.sodium-crypto-box-seal.html)
+-   [sodiumcryptoboxseal »](function.sodium-crypto-box-seal.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ sodiumcryptoboxsealopen — Розшифровка відкритим ключе
 sodium_crypto_box_seal_open(string $ciphertext, string $key_pair): string|false
 ```
 
-Розшифровує повідомлення, зашифроване за допомогою [sodium\_crypto\_box\_seal()](function.sodium-crypto-box-seal.html)
+Розшифровує повідомлення, зашифроване за допомогою [sodiumcryptoboxseal()](function.sodium-crypto-box-seal.html)
 
 ### Список параметрів
 

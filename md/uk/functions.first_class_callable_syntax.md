@@ -1,12 +1,12 @@
 Callback-функції як об'єкти першого класу
 
--   [« Стрелочные функции](functions.arrow.html)
+-   [« Стрілкові функції](functions.arrow.html)
     
 -   [Классы и объекты »](language.oop5.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](language.functions.html)
+-   [Функції](language.functions.html)
     
 -   Callback-функції як об'єкти першого класу
     

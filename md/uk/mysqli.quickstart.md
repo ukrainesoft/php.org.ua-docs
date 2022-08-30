@@ -2,7 +2,7 @@
 
 -   [« Краткий обзор](mysqli.overview.html)
     
--   [Процедурный и объектно-ориентированный интерфейс »](mysqli.quickstart.dual-interface.html)
+-   [Процедурний та об'єктно-орієнтований інтерфейс »](mysqli.quickstart.dual-interface.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,12 +15,12 @@
 
 ## Зміст
 
--   [Процедурный и объектно-ориентированный интерфейс](mysqli.quickstart.dual-interface.html)
+-   [Процедурний та об'єктно-орієнтований інтерфейс](mysqli.quickstart.dual-interface.html)
 -   [Соединения](mysqli.quickstart.connections.html)
 -   [Выполнение запросов](mysqli.quickstart.statements.html)
--   [Подготавливаемые запросы](mysqli.quickstart.prepared-statements.html)
+-   [Підготовлювані запити](mysqli.quickstart.prepared-statements.html)
 -   [Хранимые процедуры](mysqli.quickstart.stored-procedures.html)
--   [Множественные запросы](mysqli.quickstart.multiple-statement.html)
+-   [Множинні запити](mysqli.quickstart.multiple-statement.html)
 -   [API поддержка транзакций](mysqli.quickstart.transactions.html)
 -   [Метаданные](mysqli.quickstart.metadata.html)
 

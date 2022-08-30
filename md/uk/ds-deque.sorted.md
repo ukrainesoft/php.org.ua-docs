@@ -1,12 +1,12 @@
 Повертає відсортовану за значенням копію двосторонньої черги
 
--   [« Ds\\Deque::sort](ds-deque.sort.html)
+-   [« DsDeque::sort](ds-deque.sort.html)
     
--   [Ds\\Deque::sum »](ds-deque.sum.html)
+-   [ДсDeque::sum »](ds-deque.sum.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає відсортовану за значенням копію двосторонньої черги
     

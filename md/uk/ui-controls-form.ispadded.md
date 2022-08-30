@@ -1,12 +1,12 @@
 Визначення заповнення
 
--   [« UI\\Controls\\Form::delete](ui-controls-form.delete.html)
+-   [« UIControlsForm::delete](ui-controls-form.delete.html)
     
--   [UI\\Controls\\Form::setPadded »](ui-controls-form.setpadded.html)
+-   [ОЙControlsForm::setPadded »](ui-controls-form.setpadded.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Form](class.ui-controls-form.html)
+-   [ОЙControlsForm](class.ui-controls-form.html)
     
 -   Визначення заповнення
     

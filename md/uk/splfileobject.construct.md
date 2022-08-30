@@ -23,7 +23,7 @@ public **SplFileObject::construct**
 string `$filename`  
 string `$mode` = "r",  
 bool `$useIncludePath` **`false`**  
-?resource `$context` **`null`**  
+?resource `$context` **`null`**
 
 Створює новий файловий об'єкт.
 
@@ -35,7 +35,7 @@ bool `$useIncludePath` **`false`**
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 `mode`
 
@@ -43,11 +43,11 @@ bool `$useIncludePath` **`false`**
 
 `useIncludePath`
 
-Чи потрібно переглядати [include\_path](ini.core.html#ini.include-path) під час пошуку файлу `filename`
+Чи потрібно переглядати [includepath](ini.core.html#ini.include-path) під час пошуку файлу `filename`
 
 `context`
 
-Допустимий ресурс контексту, створений функцією [stream\_context\_create()](function.stream-context-create.html)
+Допустимий ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.html)
 
 ### Помилки
 

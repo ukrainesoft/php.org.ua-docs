@@ -29,4 +29,4 @@ private **Closure::construct**
 
 ### Дивіться також
 
--   [Анонимные функции](functions.anonymous.html)
+-   [Анонімні функції](functions.anonymous.html)

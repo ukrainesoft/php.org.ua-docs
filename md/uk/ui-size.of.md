@@ -1,12 +1,12 @@
 Приведення Point
 
--   [« UI\\Size::getWidth](ui-size.getwidth.html)
+-   [« UISize::getWidth](ui-size.getwidth.html)
     
--   [UI\\Size::setHeight »](ui-size.setheight.html)
+-   [ОЙSize::setHeight »](ui-size.setheight.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Size](class.ui-size.html)
+-   [ОЙSize](class.ui-size.html)
     
 -   Приведення Point
     

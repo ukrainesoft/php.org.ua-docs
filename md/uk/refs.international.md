@@ -1,6 +1,6 @@
 Підтримка мов та кодувань
 
--   [« xdiff\_string\_rabdiff](function.xdiff-string-rabdiff.html)
+-   [xdiffstringrabdiff](function.xdiff-string-rabdiff.html)
     
 -   [Enchant »](book.enchant.html)
     
@@ -25,7 +25,7 @@
     -   [Введение](intro.gender.html)
     -   [Установка и настройка](gender.setup.html)
     -   [Примеры](gender.examples.html)
-    -   [Gender\\Gender](class.gender.html) - Клас GenderGender
+    -   [GenderGender](class.gender.html) - Клас GenderGender
 -   [Gettext](book.gettext.html)
     -   [Введение](intro.gettext.html)
     -   [Установка и настройка](gettext.setup.html)
@@ -60,29 +60,29 @@
     -   [IntlPartsIterator](class.intlpartsiterator.html) - Клас IntlPartsIterator
     -   [UConverter](class.uconverter.html) - Клас UConverter
     -   [Функции Grapheme](ref.intl.grapheme.html)
-    -   [Функции IDN](ref.intl.idn.html)
+    -   [Функції IDN](ref.intl.idn.html)
     -   [IntlChar](class.intlchar.html)
     -   [IntlException](class.intlexception.html) — Клас винятків для помилок intl
     -   [IntlIterator](class.intliterator.html) - Клас IntlIterator
     -   [Функции intl](ref.intl.html)
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     -   [Введение](intro.mbstring.html)
     -   [Установка и настройка](mbstring.setup.html)
     -   [Предопределённые константы](mbstring.constants.html)
     -   [Краткий обзор поддерживаемых кодировок](mbstring.encodings.html)
     -   [Основы японских многобайтных кодировок](mbstring.ja-basic.html)
-    -   [Ввод и вывод HTTP](mbstring.http.html)
-    -   [Поддерживаемые кодировки символов](mbstring.supported-encodings.html)
+    -   [Введення та виведення HTTP](mbstring.http.html)
+    -   [Кодування символів, що підтримуються](mbstring.supported-encodings.html)
     -   [Механизм перегрузки функций](mbstring.overload.html)
-    -   [Требования, предъявляемые к кодировкам символов в PHP](mbstring.php4.req.html)
-    -   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+    -   [Вимоги до кодування символів у PHP](mbstring.php4.req.html)
+    -   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
 -   [Pspell](book.pspell.html)
     -   [Введение](intro.pspell.html)
     -   [Установка и настройка](pspell.setup.html)
     -   [Предопределённые константы](pspell.constants.html)
     -   [Функции Pspell](ref.pspell.html)
-    -   [PSpell\\Dictionary](class.pspell-dictionary.html) - Клас PSpellDictionary
-    -   [PSpell\\Config](class.pspell-config.html) - Клас PSpellConfig
+    -   [PSpellDictionary](class.pspell-dictionary.html) - Клас PSpellDictionary
+    -   [PSpellConfig](class.pspell-config.html) - Клас PSpellConfig
 -   [Recode](book.recode.html) - GNU Recode
     -   [Введение](intro.recode.html)
     -   [Установка и настройка](recode.setup.html)

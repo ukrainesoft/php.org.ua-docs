@@ -1,6 +1,6 @@
 Атрибути
 
--   [« Сравнение генераторов с объектами класса Iterator](language.generators.comparison.html)
+-   [« Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.html)
     
 -   [Введение в атрибуты »](language.attributes.overview.html)
     
@@ -16,6 +16,6 @@
 ## Зміст
 
 -   [Введение в атрибуты](language.attributes.overview.html)
--   [Синтаксис атрибутов](language.attributes.syntax.html)
+-   [Синтаксис атрибутів](language.attributes.syntax.html)
 -   [Чтение атрибутов с помощью Reflection API](language.attributes.reflection.html)
 -   [Объявление классов атрибутов](language.attributes.classes.html)

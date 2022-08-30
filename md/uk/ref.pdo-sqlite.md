@@ -2,11 +2,11 @@
 
 -   [« PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.html)
     
--   [PDO\_SQLITE DSN »](ref.pdo-sqlite.connection.html)
+-   [PDOSQLITE DSN »](ref.pdo-sqlite.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції SQLite (PDOSQLITE)
     
@@ -27,11 +27,11 @@ PDOSQLITE це драйвер, який реалізує [интерфейс Dat
 
 > **Зауваження** **Додаткове налаштування на Windows з PHP 7.4.0**
 > 
-> Для роботи цього модуля системної змінної Windows PATH повинні бути доступні DLLфайли. Щоб дізнатися, як цього досягти, зверніться до розділу FAQ "[Как добавить мою директорию с PHP в переменную Windows PATH](faq.installation.html#faq.installation.addtopath)". Хоча копіювання DLL-файлів з директорії PHP до системної папки Windows також вирішує проблему (бо системна директорія за умовчанням знаходиться в змінній PATH), це не рекомендується . *Цей модуль потребує наступних файлів у змінній PATH:* libsqlite3.dll.
+> Для роботи цього модуля системної змінної Windows PATH повинні бути доступні DLLфайли. Щоб дізнатися, як цього досягти, зверніться до розділу FAQ "[Як додати мою директорію з PHP до змінної Windows PATH](faq.installation.html#faq.installation.addtopath)". Хоча копіювання DLL-файлів з директорії PHP до системної папки Windows також вирішує проблему (бо системна директорія за умовчанням знаходиться в змінній PATH), це не рекомендується . *Цей модуль потребує наступних файлів у змінній PATH:* libsqlite3.dll.
 
 ## Зміст
 
--   [PDO\_SQLITE DSN](ref.pdo-sqlite.connection.html) — З'єднання з базою даних SQLite
+-   [PDOSQLITE DSN](ref.pdo-sqlite.connection.html) — З'єднання з базою даних SQLite
 -   [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.html) — Реєстрація агрегуючої функції користувача для використання в SQL-запитах
 -   [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.html) — Реєстрація функції сортування для використання в SQL-запитах
 -   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html) — Реєстрація функції користувача для використання в SQL-запитах

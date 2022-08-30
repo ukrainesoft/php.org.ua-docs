@@ -1,12 +1,12 @@
 Включає/вимикає перехоплення винятків
 
--   [« Yaf\_Dispatcher::autoRender](yaf-dispatcher.autorender.html)
+-   [« YafDispatcher::autoRender](yaf-dispatcher.autorender.html)
     
--   [Yaf\_Dispatcher::\_\_construct »](yaf-dispatcher.construct.html)
+-   [YafDispatcher::construct »](yaf-dispatcher.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Включає/вимикає перехоплення винятків
     
@@ -75,5 +75,5 @@ class ErrorController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [Yaf\_Dispatcher::throwException()](yaf-dispatcher.throwexception.html) - Вмикає/вимикає викидання винятків
--   [Yaf\_Dispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок
+-   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.html) - Вмикає/вимикає викидання винятків
+-   [YafDispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок

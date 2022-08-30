@@ -1,12 +1,12 @@
 Підтверджує транзакцію
 
--   [« db2\_columns](function.db2-columns.html)
+-   [« db2columns](function.db2-columns.html)
     
--   [db2\_conn\_error »](function.db2-conn-error.html)
+-   [db2connerror »](function.db2-conn-error.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Підтверджує транзакцію
     
@@ -29,7 +29,7 @@ db2_commit(resource $connection): bool
 
 `connection`
 
-Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2\_connect()](function.db2-connect.html) або [db2\_pconnect()](function.db2-pconnect.html)
+Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ db2_commit(resource $connection): bool
 
 ### Дивіться також
 
--   [db2\_autocommit()](function.db2-autocommit.html) - Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
--   [db2\_rollback()](function.db2-rollback.html) - Відкочує транзакцію
+-   [db2autocommit()](function.db2-autocommit.html) - Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
+-   [db2rollback()](function.db2-rollback.html) - Відкочує транзакцію

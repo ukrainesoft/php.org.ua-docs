@@ -29,7 +29,7 @@ public ReflectionFunction::invokeArgs(array $args): mixed
 
 `args`
 
-Передані функції аргументи як масиву. Поведінка функції аналогічна [call\_user\_func\_array()](function.call-user-func-array.html)
+Передані функції аргументи як масиву. Поведінка функції аналогічна [calluserfuncarray()](function.call-user-func-array.html)
 
 ### Значення, що повертаються
 
@@ -103,5 +103,5 @@ array(2) {
 
 -   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
 -   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
--   [\_\_invoke()](language.oop5.magic.html#object.invoke)
--   [call\_user\_func\_array()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
+-   [invoke()](language.oop5.magic.html#object.invoke)
+-   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів

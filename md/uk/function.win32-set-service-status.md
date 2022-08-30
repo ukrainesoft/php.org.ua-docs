@@ -1,8 +1,8 @@
 Оновлює статус служби
 
--   [« win32\_set\_service\_exit\_mode](function.win32-set-service-exit-mode.html)
+-   [« win32setserviceexitmode](function.win32-set-service-exit-mode.html)
     
--   [win32\_start\_service\_ctrl\_dispatcher »](function.win32-start-service-ctrl-dispatcher.html)
+-   [win32startservicectrldispatcher »](function.win32-start-service-ctrl-dispatcher.html)
     
 -   [PHP Manual](index.html)
     
@@ -64,8 +64,8 @@ win32_set_service_status(int $status, int $checkpoint = 0): void
 
 ### Дивіться також
 
--   [win32\_start\_service\_ctrl\_dispatcher()](function.win32-start-service-ctrl-dispatcher.html) - Додає до Диспетчера служб скрипт, який може бути використаний, як служба із заданим ім'ям
--   [win32\_get\_last\_control\_message()](function.win32-get-last-control-message.html) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
--   [win32\_set\_service\_exit\_mode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
--   [win32\_set\_service\_exit\_code()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
--   [Константы состояния службы Win32Service](win32service.constants.servicestatus.html)
+-   [win32startservicectrldispatcher()](function.win32-start-service-ctrl-dispatcher.html) - Додає до Диспетчера служб скрипт, який може бути використаний, як служба із заданим ім'ям
+-   [win32getlastcontrolmessage()](function.win32-get-last-control-message.html) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
+-   [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
+-   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
+-   [Константи стану служби Win32Service](win32service.constants.servicestatus.html)

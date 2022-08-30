@@ -1,12 +1,12 @@
 Callback-функція виконання
 
--   [« UI\\Executor::kill](ui-executor.kill.html)
+-   [« UIExecutor::kill](ui-executor.kill.html)
     
--   [UI\\Executor::setInterval »](ui-executor.setinterval.html)
+-   [ОЙExecutor::setInterval »](ui-executor.setinterval.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Executor](class.ui-executor.html)
+-   [ОЙExecutor](class.ui-executor.html)
     
 -   Callback-функція виконання
     

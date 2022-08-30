@@ -1,6 +1,6 @@
 Завантаження кількох файлів
 
--   [« Наиболее распространённые ошибки](features.file-upload.common-pitfalls.html)
+-   [« Найбільш поширені помилки](features.file-upload.common-pitfalls.html)
     
 -   [Поддержка метода PUT »](features.file-upload.put-method.html)
     
@@ -19,19 +19,17 @@
 
 **Приклад #1 Завантаження кількох файлів**
 
-Файли:  
-  
-  
+Файли:
 
-У разі, якщо така форма була відправлена, масиви [$\_FILES\['userfile'\]](reserved.variables.files.html) [$\_FILES\['userfile'\]\['name'\]](reserved.variables.files.html), і [$\_FILES\['userfile'\]\['size'\]](reserved.variables.files.html) будуть ініціалізовані.
+У разі, якщо така форма була відправлена, масиви [FILES\['userfile'\]](reserved.variables.files.html) [FILES\['userfile'\]\['name'\]](reserved.variables.files.html), і [FILES\['userfile'\]\['size'\]](reserved.variables.files.html) будуть ініціалізовані.
 
-Наприклад, припустимо, що були завантажені файли /home/test/review.html та /home/test/xwp.out. У такому разі змінна [$\_FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.html) буде встановлена ​​значенням review.html, а змінна [$\_FILES\['userfile'\]\['name'\]\[1\]](reserved.variables.files.html) - Значення xwp.out. Аналогічно, змінна [$\_FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.html) міститиме розмір файлу review.html і так далі.
+Наприклад, припустимо, що були завантажені файли /home/test/review.html та /home/test/xwp.out. У такому разі змінна [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.html) буде встановлена ​​значенням review.html, а змінна [FILES\['userfile'\]\['name'\]\[1\]](reserved.variables.files.html) - Значення xwp.out. Аналогічно, змінна [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.html) міститиме розмір файлу review.html і так далі.
 
-Змінні [$\_FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.html) [$\_FILES\['userfile'\]\['tmp\_name'\]\[0\]](reserved.variables.files.html) [$\_FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.html) і [$\_FILES\['userfile'\]\['type'\]\[0\]](reserved.variables.files.html) також будуть ініціалізовані.
+Змінні [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.html) [FILES\['userfile'\]\['tmpname'\]\[0\]](reserved.variables.files.html) [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.html) і [FILES\['userfile'\]\['type'\]\[0\]](reserved.variables.files.html) також будуть ініціалізовані.
 
 **Увага**
 
-Конфігураційна директива [max\_file\_uploads](ini.core.html#ini.max-file-uploads) регулює ліміт одночасно завантажуваних файлів протягом одного запиту. Вам необхідно буде переконатися, що ваша форма не намагається завантажити файли більше цього ліміту за один запит.
+Конфігураційна директива [maxfileuploads](ini.core.html#ini.max-file-uploads) регулює ліміт одночасно завантажуваних файлів протягом одного запиту. Вам необхідно буде переконатися, що ваша форма не намагається завантажити файли більше цього ліміту за один запит.
 
 **Приклад #2 Завантаження всього каталогу**
 
@@ -39,11 +37,10 @@
 
 За допомогою інформації `full_path` можна зберегти відносні шляхи або відновити той самий каталог на сервері.
 
-Завантаження каталогу:  
- 
+Завантаження каталогу:
 
 **Увага**
 
 Атрибут `webkitdirectory` нестандартний і не входить до стандартного постачання. Не використовуйте його на робочих сайтах: він не працює у всіх користувачів. Між реалізаціями може бути велика несумісність, також поведінка може змінитися у майбутньому.
 
-PHP аналізує тільки інформацію про відносний шлях, відправлену браузером/користувачем і передає цю інформацію в масив [$\_FILES](reserved.variables.files.html). Немає жодної гарантії, що значення в масиві `full_path` містять реальну структуру каталогів і програма PHP не повинна довіряти цій інформації.
+PHP аналізує тільки інформацію про відносний шлях, відправлену браузером/користувачем і передає цю інформацію в масив [FILES](reserved.variables.files.html). Немає жодної гарантії, що значення в масиві `full_path` містять реальну структуру каталогів і програма PHP не повинна довіряти цій інформації.

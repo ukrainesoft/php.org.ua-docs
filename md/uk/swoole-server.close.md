@@ -1,12 +1,12 @@
 Закриває з'єднання з клієнтом
 
--   [« Swoole\\Server::clearTimer](swoole-server.cleartimer.html)
+-   [« SwooleServer::clearTimer](swoole-server.cleartimer.html)
     
--   [Swoole\\Server::confirm »](swoole-server.confirm.html)
+-   [SwooleServer::confirm »](swoole-server.confirm.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Закриває з'єднання з клієнтом
     

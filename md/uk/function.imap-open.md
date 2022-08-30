@@ -1,8 +1,8 @@
 Відкриває потік IMAP до поштової скриньки
 
--   [« imap\_num\_recent](function.imap-num-recent.html)
+-   [« imapnumrecent](function.imap-num-recent.html)
     
--   [imap\_ping »](function.imap-ping.html)
+-   [imapping »](function.imap-ping.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,11 +31,11 @@ imap_open(    string $mailbox,    string $user,    string $password,
 
 `mailbox`
 
-Ім'я поштової скриньки складається з сервера та шляху до поштової скриньки на ньому. Спеціальне ім'я `INBOX` використовується для поштової скриньки поточного користувача. Імена поштових скриньок, що містять міжнародні символи, крім вхідних у друкований простір ASCII, повинні бути закодовані за допомогою [imap\_utf7\_encode()](function.imap-utf7-encode.html)
+Ім'я поштової скриньки складається з сервера та шляху до поштової скриньки на ньому. Спеціальне ім'я `INBOX` використовується для поштової скриньки поточного користувача. Імена поштових скриньок, що містять міжнародні символи, крім вхідних у друкований простір ASCII, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 Серверна частина, укладена у фігурні дужки '{' і '}', складається з імені або IP-адреси сервера, опціонального порту (попереднього двокрапкою) та опціональних специфікацій протоколу (попереджених слешем '/').
 
@@ -84,7 +84,7 @@ imap_open(    string $mailbox,    string $user,    string $password,
 -   **`OP_READONLY`** - відкрити поштову скриньку лише для читання
 -   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
 -   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imap\_delete()](function.imap-delete.html) і [imap\_expunge()](function.imap-expunge.html)
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.html)
 -   **`OP_DEBUG`** - домовленості щодо протоколу налагодження
 -   **`OP_SHORTCACHE`** - коротке кешування (тільки `elt`
 -   **`OP_SILENT`** - не передавати події (внутрішнє використання)
@@ -103,13 +103,13 @@ imap_open(    string $mailbox,    string $user,    string $password,
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає екземпляр [IMAP\\Connection](class.imap-connection.html) або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає екземпляр [IMAPConnection](class.imap-connection.html) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                            |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [IMAPConnection](class.imap-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -172,4 +172,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imap\_close()](function.imap-close.html) - Закрити потік IMAP
+-   [imapclose()](function.imap-close.html) - Закрити потік IMAP

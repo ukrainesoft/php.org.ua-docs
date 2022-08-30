@@ -2,7 +2,7 @@
 
 -   [« XSLTProcessor::transformToUri](xsltprocessor.transformtouri.html)
     
--   [Модули для работы с GUI »](refs.ui.html)
+-   [Модулі для роботи з GUI](refs.ui.html)
     
 -   [PHP Manual](index.html)
     

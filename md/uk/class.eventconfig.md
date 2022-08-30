@@ -98,7 +98,7 @@ public
 ## Зміст
 
 -   [EventConfig::avoidMethod](eventconfig.avoidmethod.html) — Попросити libevent не використати певний метод події
--   [EventConfig::\_\_construct](eventconfig.construct.html) — Створити об'єкт EventConfig
+-   [EventConfig::construct](eventconfig.construct.html) — Створити об'єкт EventConfig
 -   [EventConfig::requireFeatures](eventconfig.requirefeatures.html) — Ввести необхідні додатки властивості методу події
 -   [EventConfig::setFlags](eventconfig.setflags.html) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
 -   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.html) — Запобігти інверсії пріоритетів

@@ -1,8 +1,8 @@
 Декодує рядок із модифікованого кодування UTF-7
 
--   [« imap\_unsubscribe](function.imap-unsubscribe.html)
+-   [« imapunsubscribe](function.imap-unsubscribe.html)
     
--   [imap\_utf7\_encode »](function.imap-utf7-encode.html)
+-   [imaputf7encode »](function.imap-utf7-encode.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ imap_utf7_decode(string $string): string|false
 
 ### Дивіться також
 
--   [imap\_utf7\_encode()](function.imap-utf7-encode.html) - Перетворює рядок ISO-8859-1 на модифікований UTF-7
+-   [imaputf7encode()](function.imap-utf7-encode.html) - Перетворює рядок ISO-8859-1 на модифікований UTF-7

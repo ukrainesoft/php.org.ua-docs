@@ -1,8 +1,8 @@
 Експорт виклику, пов'язаного з підписаним ключем та викликом
 
--   [« openssl\_sign](function.openssl-sign.html)
+-   [« opensslsign](function.openssl-sign.html)
     
--   [openssl\_spki\_export »](function.openssl-spki-export.html)
+-   [opensslspkiexport »](function.openssl-spki-export.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,9 +53,9 @@ $challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $spk
 ?>
 ```
 
-**Приклад #2 Приклад використання **opensslspkiexportchallenge()** з** 
+**Приклад #2 Приклад використання **opensslspkiexportchallenge()** з**
 
-Вилучення рядка виклику, отриманого з елемента 
+Вилучення рядка виклику, отриманого з елемента
 
 ```php
 <?php
@@ -66,9 +66,9 @@ $challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $_PO
 
 ### Дивіться також
 
--   [openssl\_spki\_new()](function.openssl-spki-new.html) - Створення нового підписаного відкритого ключа із викликом
--   [openssl\_spki\_verify()](function.openssl-spki-verify.html) - Перевіряє підписаний відкритий ключ та виклик
--   [openssl\_spki\_export()](function.openssl-spki-export.html) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
--   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
--   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
--   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslspkinew()](function.openssl-spki-new.html) - Створення нового підписаного відкритого ключа із викликом
+-   [opensslspkiverify()](function.openssl-spki-verify.html) - Перевіряє підписаний відкритий ключ та виклик
+-   [opensslspkiexport()](function.openssl-spki-export.html) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

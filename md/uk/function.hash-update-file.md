@@ -1,8 +1,8 @@
 Додає дані з файлу до активного контексту хешування
 
--   [« hash\_pbkdf2](function.hash-pbkdf2.html)
+-   [« hashpbkdf2](function.hash-pbkdf2.html)
     
--   [hash\_update\_stream »](function.hash-update-stream.html)
+-   [hashupdatestream »](function.hash-update-stream.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 `context`
 
-Контекст хешування, повернутий [hash\_init()](function.hash-init.html)
+Контекст хешування, повернутий [hashinit()](function.hash-init.html)
 
 `filename`
 
@@ -35,7 +35,7 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 `stream_context`
 
-Контекст потоку, повернутий [stream\_context\_create()](function.stream-context-create.html)
+Контекст потоку, повернутий [streamcontextcreate()](function.stream-context-create.html)
 
 ### Значення, що повертаються
 
@@ -50,9 +50,9 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 ### Дивіться також
 
--   [hash\_init()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hash\_update()](function.hash-update.html) - Додає дані до активного контексту хешування
--   [hash\_update\_stream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
--   [hash\_final()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashupdate()](function.hash-update.html) - Додає дані до активного контексту хешування
+-   [hashupdatestream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
+-   [hashfinal()](function.hash-final.html) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
 -   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
--   [hash\_file()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу

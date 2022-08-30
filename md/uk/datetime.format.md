@@ -51,7 +51,7 @@ date_format(DateTimeInterface $object, string $format): string
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html)
 
 `format`
 
@@ -114,7 +114,7 @@ date_format(DateTimeInterface $object, string $format): string
 
 > **Зауваження**
 > 
-> Оскільки функція, що розглядається, приймає як параметр тимчасові мітки типу int, форматуючий символ `u` буде корисним лише при використанні функції [date\_format()](function.date-format.html) та користувацьких міток часу, створених за допомогою функції [date\_create()](function.date-create.html)
+> Оскільки функція, що розглядається, приймає як параметр тимчасові мітки типу int, форматуючий символ `u` буде корисним лише при використанні функції [dateformat()](function.date-format.html) та користувацьких міток часу, створених за допомогою функції [datecreate()](function.date-create.html)
 
 ### Значення, що повертаються
 

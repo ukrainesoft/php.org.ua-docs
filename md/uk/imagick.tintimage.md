@@ -2,7 +2,7 @@
 
 -   [« Imagick::thumbnailImage](imagick.thumbnailimage.html)
     
--   [Imagick::\_\_toString »](imagick.tostring.html)
+-   [Imagick::toString »](imagick.tostring.html)
     
 -   [PHP Manual](index.html)
     

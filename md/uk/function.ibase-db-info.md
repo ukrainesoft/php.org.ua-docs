@@ -1,8 +1,8 @@
 Запитує статистику бази даних
 
--   [« ibase\_connect](function.ibase-connect.html)
+-   [« ibaseconnect](function.ibase-connect.html)
     
--   [ibase\_delete\_user »](function.ibase-delete-user.html)
+-   [ibasedeleteuser »](function.ibase-delete-user.html)
     
 -   [PHP Manual](index.html)
     

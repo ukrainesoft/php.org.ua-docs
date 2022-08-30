@@ -1,12 +1,12 @@
 Десеріалізує Symbol
 
--   [« MongoDB\\BSON\\Symbol::\_\_toString](mongodb-bson-symbol.tostring.html)
+-   [« MongoDBBSONSymbol::toString](mongodb-bson-symbol.tostring.html)
     
--   [MongoDB\\BSON\\Undefined »](class.mongodb-bson-undefined.html)
+-   [MongoDBBSONUndefined »](class.mongodb-bson-undefined.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.html)
+-   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
     
 -   Десеріалізує Symbol
     
@@ -27,7 +27,7 @@ final public MongoDB\BSON\Symbol::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.html)
+Серіалізований [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
 
 ### Значення, що повертаються
 
@@ -35,10 +35,10 @@ final public MongoDB\BSON\Symbol::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Symbol::serialize()](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
+-   [MongoDBBSONSymbol::serialize()](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
 -   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
 -   [Сериализация объектов](language.oop5.serialization.html)

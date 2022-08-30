@@ -1,6 +1,6 @@
 Перевіряє, чи кінець файлу (EOF) досягнуто.
 
--   [« SplFileObject::\_\_toString](splfileobject.tostring.html)
+-   [« SplFileObject::toString](splfileobject.tostring.html)
     
 -   [SplTempFileObject »](class.spltempfileobject.html)
     

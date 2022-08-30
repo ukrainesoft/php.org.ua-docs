@@ -1,8 +1,8 @@
 Клас SodiumException
 
--   [« sodium\_unpad](function.sodium-unpad.html)
+-   [« sodiumunpad](function.sodium-unpad.html)
     
--   [Модули для работы с базами данных »](refs.database.html)
+-   [Модулі для роботи з базами даних](refs.database.html)
     
 -   [PHP Manual](index.html)
     

@@ -119,7 +119,7 @@ strftime(string $format, ?int $timestamp = null): string|false
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [date\_default\_timezone\_set()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
 
 Через те, що результат цієї функції залежить від C-бібліотеки, яка використовується в операційній системі, деякі модифікатори можуть не підтримуватися. Передача невідомого модифікатора в функцію Windows видасть 5 попереджень **`E_WARNING`** і поверне **`false`**. На інших операційних системах ви можете не отримати жодних попереджень **`E_WARNING`**, а висновок може містити модифікатори без змін.
 
@@ -371,4 +371,4 @@ foreach(array_diff_key($strftimeFormats, $strftimeValues) as $format => $de
 -   [mktime()](function.mktime.html) - Повертає позначку часу Unix для заданої дати
 -   [strptime()](function.strptime.html) - Розбирає рядок дати/часу, згенерований функцією strftime
 -   [gmstrftime()](function.gmstrftime.html) - Форматує дату/час за Грінвічем з урахуванням поточної локалі
--   [» Спецификация Open Group функции **strftime()**](http://www.opengroup.org/onlinepubs/007908799/xsh/strftime.html)
+-   [» Спецификация Open Group функции**strftime()**](http://www.opengroup.org/onlinepubs/007908799/xsh/strftime.html)

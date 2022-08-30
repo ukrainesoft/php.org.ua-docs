@@ -1,8 +1,8 @@
 Створює новий екземпляр
 
--   [« Ds\\Map::clear](ds-map.clear.html)
+-   [« DsMap::clear](ds-map.clear.html)
     
--   [Ds\\Map::copy »](ds-map.copy.html)
+-   [ДсMap::copy »](ds-map.copy.html)
     
 -   [PHP Manual](index.html)
     

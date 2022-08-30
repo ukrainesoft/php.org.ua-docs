@@ -1,12 +1,12 @@
 Кількість пам'яті
 
--   [« Vtiful\\Kernel\\Excel::autoFilter](vtiful-kernel-excel.autoFilter.html)
+-   [« VtifulKernelExcel::autoFilter](vtiful-kernel-excel.autoFilter.html)
     
--   [Vtiful\\Kernel\\Excel::\_\_construct »](vtiful-kernel-excel.construct.html)
+-   [VtifulKernelExcel::construct »](vtiful-kernel-excel.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Кількість пам'яті
     
@@ -37,7 +37,7 @@ public Vtiful\Kernel\Excel::constMemory(string $fileName, string $sheetName = ?)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

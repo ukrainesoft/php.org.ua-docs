@@ -1,6 +1,6 @@
 Підраховує кількість дочірніх елементів у поточного елемента
 
--   [« SimpleXMLElement::\_\_construct](simplexmlelement.construct.html)
+-   [« SimpleXMLElement::construct](simplexmlelement.construct.html)
     
 -   [SimpleXMLElement::getDocNamespaces »](simplexmlelement.getdocnamespaces.html)
     

@@ -1,6 +1,6 @@
 Отримує значення заголовка
 
--   [« EventHttpRequest::\_\_construct](eventhttprequest.construct.html)
+-   [« EventHttpRequest::construct](eventhttprequest.construct.html)
     
 -   [EventHttpRequest::free »](eventhttprequest.free.html)
     
@@ -44,7 +44,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`null`**якщо заголовок не знайдено.
+Повертає \*\*`null`\*\*якщо заголовок не знайдено.
 
 ### Дивіться також
 

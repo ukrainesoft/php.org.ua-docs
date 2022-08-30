@@ -1,12 +1,12 @@
 Запускає сервер Swoole
 
--   [« Swoole\\Server::shutdown](swoole-server.shutdown.html)
+-   [« SwooleServer::shutdown](swoole-server.shutdown.html)
     
--   [Swoole\\Server::stats »](swoole-server.stats.html)
+-   [SwooleServer::stats »](swoole-server.stats.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Запускає сервер Swoole
     

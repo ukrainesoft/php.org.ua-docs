@@ -1,8 +1,8 @@
 Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
 
--   [« wincache\_scache\_meminfo](function.wincache-scache-meminfo.html)
+-   [« wincachescachememinfo](function.wincache-scache-meminfo.html)
     
--   [wincache\_ucache\_cas »](function.wincache-ucache-cas.html)
+-   [wincacheucachecas »](function.wincache-ucache-cas.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,17 +27,17 @@ wincache_ucache_add(string $key, mixed $value, int $ttl = 0): bool
 wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 ```
 
-Додає змінну в кеш користувача, тільки якщо ця змінна ще не існує в кеші. Додана змінна залишається в кеші користувача, поки не закінчиться термін її дії або вона не буде видалена за допомогою функцій [wincache\_ucache\_delete()](function.wincache-ucache-delete.html) або [wincache\_ucache\_clear()](function.wincache-ucache-clear.html)
+Додає змінну в кеш користувача, тільки якщо ця змінна ще не існує в кеші. Додана змінна залишається в кеші користувача, поки не закінчиться термін її дії або вона не буде видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.html)
 
 ### Список параметрів
 
 `key`
 
-Зберігає змінну з використанням цього імені `key`. Якщо змінна з таким самим `key` вже існує, завершиться помилкою та поверне **`false`**. . `key` чутливий до регістру. Щоб перевизначити значення, навіть якщо `key` вже існує, використовуйте функцію [wincache\_ucache\_set()](function.wincache-ucache-set.html). . `key` також може приймати масив пар ім'я => значення, де імена будуть використовуватися як ключі. Це можна використовувати для додавання кількох значень до кешу за одну операцію, що дозволяє уникнути стану гонки.
+Зберігає змінну з використанням цього імені `key`. Якщо змінна з таким самим `key` вже існує, завершиться помилкою та поверне **`false`**. . `key` чутливий до регістру. Щоб перевизначити значення, навіть якщо `key` вже існує, використовуйте функцію [wincacheucacheset()](function.wincache-ucache-set.html). . `key` також може приймати масив пар ім'я => значення, де імена будуть використовуватися як ключі. Це можна використовувати для додавання кількох значень до кешу за одну операцію, що дозволяє уникнути стану гонки.
 
 `value`
 
-Значення змінної, яку потрібно зберегти . `Value` підтримує всі типи даних, крім таких ресурсів, як дескриптори файлів. Параметр ігнорується, якщо першим аргументом масив. Загальне керівництво – передати **`null`** в якості `value` при використанні масиву `key`. Якщо `value` є об'єктом або масивом, що містить об'єкти, об'єкти будуть серіалізовані. Докладніше про серіалізацію об'єктів дивіться в описі [\_\_sleep()](language.oop5.magic.html#object.sleep)
+Значення змінної, яку потрібно зберегти . `Value` підтримує всі типи даних, крім таких ресурсів, як дескриптори файлів. Параметр ігнорується, якщо першим аргументом масив. Загальне керівництво – передати **`null`** в якості `value` при використанні масиву `key`. Якщо `value` є об'єктом або масивом, що містить об'єкти, об'єкти будуть серіалізовані. Докладніше про серіалізацію об'єктів дивіться в описі [sleep()](language.oop5.magic.html#object.sleep)
 
 `values`
 
@@ -45,7 +45,7 @@ wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 `ttl`
 
-Час, протягом якого змінна знаходиться у кеші, за секунди. Після того, як значення, вказане в `ttl` буде передано, збережена змінна буде видалена з кеша. Параметр набуває значення за замовчуванням `0`, що означає, що змінна залишиться в кеші, доки вона не буде явно видалена за допомогою функцій [wincache\_ucache\_delete()](function.wincache-ucache-delete.html) або [wincache\_ucache\_clear()](function.wincache-ucache-clear.html)
+Час, протягом якого змінна знаходиться у кеші, за секунди. Після того, як значення, вказане в `ttl` буде передано, збережена змінна буде видалена з кеша. Параметр набуває значення за замовчуванням `0`, що означає, що змінна залишиться в кеші, доки вона не буде явно видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.html)
 
 ### Значення, що повертаються
 
@@ -104,11 +104,11 @@ string(1) "6"
 
 ### Дивіться також
 
--   [wincache\_ucache\_set()](function.wincache-ucache-set.html) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
--   [wincache\_ucache\_get()](function.wincache-ucache-get.html) - Отримує змінну, що зберігається в користувальницькому кеші
--   [wincache\_ucache\_delete()](function.wincache-ucache-delete.html) - Видаляє змінні з користувальницького кешу
--   [wincache\_ucache\_clear()](function.wincache-ucache-clear.html) - Видаляє весь вміст кешу користувача.
--   [wincache\_ucache\_exists()](function.wincache-ucache-exists.html) - Перевіряє, чи існує змінна в кеші користувача
--   [wincache\_ucache\_meminfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincache\_ucache\_info()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [\_\_sleep()](language.oop5.magic.html#object.sleep)
+-   [wincacheucacheset()](function.wincache-ucache-set.html) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincacheucacheget()](function.wincache-ucache-get.html) - Отримує змінну, що зберігається в користувальницькому кеші
+-   [wincacheucachedelete()](function.wincache-ucache-delete.html) - Видаляє змінні з користувальницького кешу
+-   [wincacheucacheclear()](function.wincache-ucache-clear.html) - Видаляє весь вміст кешу користувача.
+-   [wincacheucacheexists()](function.wincache-ucache-exists.html) - Перевіряє, чи існує змінна в кеші користувача
+-   [wincacheucachememinfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincacheucacheinfo()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [sleep()](language.oop5.magic.html#object.sleep)

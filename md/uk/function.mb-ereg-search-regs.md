@@ -1,12 +1,12 @@
 Повертає частину рядка, що збіглася з регулярним виразом.
 
--   [« mb\_ereg\_search\_pos](function.mb-ereg-search-pos.html)
+-   [« mberegsearchpos](function.mb-ereg-search-pos.html)
     
--   [mb\_ereg\_search\_setpos »](function.mb-ereg-search-setpos.html)
+-   [мбeregsearchsetpos »](function.mb-ereg-search-setpos.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Повертає частину рядка, що збіглася з регулярним виразом.
     
@@ -33,7 +33,7 @@ mb_ereg_search_regs(?string $pattern = null, ?string $options = null): array|fal
 
 `options`
 
-Опція пошуку. Детальніше дивіться [mb\_regex\_set\_options()](function.mb-regex-set-options.html)
+Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.html)
 
 ### Значення, що повертаються
 
@@ -49,9 +49,9 @@ mb_ereg_search_regs(?string $pattern = null, ?string $options = null): array|fal
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_ereg\_search\_init()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregsearchinit()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу

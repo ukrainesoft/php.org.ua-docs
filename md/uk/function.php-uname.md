@@ -1,12 +1,12 @@
 Повертає інформацію про операційну систему, на якій запущено PHP
 
--   [« php\_sapi\_name](function.php-sapi-name.html)
+-   [« phpsapiname](function.php-sapi-name.html)
     
 -   [phpcredits »](function.phpcredits.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає інформацію про операційну систему, на якій запущено PHP
     
@@ -94,5 +94,5 @@ echo PATH_SEPARATOR;      // ;
 ### Дивіться також
 
 -   [phpversion()](function.phpversion.html) - Отримує поточну версію PHP
--   [php\_sapi\_name()](function.php-sapi-name.html) - Повертає тип інтерфейсу між веб-сервером та PHP
+-   [phpsapiname()](function.php-sapi-name.html) - Повертає тип інтерфейсу між веб-сервером та PHP
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP

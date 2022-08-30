@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас SqlStatement
     
@@ -70,7 +70,7 @@ statement
 ## Зміст
 
 -   [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.html) — Зв'язує параметри затвердження
--   [SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.html) - Опис конструктора
+-   [SqlStatement::construct](mysql-xdevapi-sqlstatement.construct.html) - Опис конструктора
 -   [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.html) — Виконує операцію
 -   [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.html) — Отримує наступний результат
 -   [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.html) — Отримує результат

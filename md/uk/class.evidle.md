@@ -2,11 +2,11 @@
 
 -   [« EvFork::createStopped](evfork.createstopped.html)
     
--   [EvIdle::\_\_construct »](evidle.construct.html)
+-   [EvIdle::construct »](evidle.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvIdle
     
@@ -117,5 +117,5 @@ public
 
 ## Зміст
 
--   [EvIdle::\_\_construct](evidle.construct.html) - Конструктор спостерігача EvIdle
+-   [EvIdle::construct](evidle.construct.html) - Конструктор спостерігача EvIdle
 -   [EvIdle::createStopped](evidle.createstopped.html) — Створити об'єкт класу EvIdle, але не стартувати його

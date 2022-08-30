@@ -1,12 +1,12 @@
 Створює контекст потоку
 
--   [« stream\_bucket\_prepend](function.stream-bucket-prepend.html)
+-   [« streambucketprepend](function.stream-bucket-prepend.html)
     
--   [stream\_context\_get\_default »](function.stream-context-get-default.html)
+-   [streamcontextgetdefault »](function.stream-context-get-default.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Створює контекст потоку
     
@@ -73,6 +73,6 @@ fclose($fp);
 
 ### Дивіться також
 
--   [stream\_context\_set\_option()](function.stream-context-set-option.html) - Встановлює опцію для потоку/обгортки/контексту
--   Список підтримуваних обгорток ([Поддерживаемые протоколы и обёртки](wrappers.html)
+-   [streamcontextsetoption()](function.stream-context-set-option.html) - Встановлює опцію для потоку/обгортки/контексту
+-   Список підтримуваних обгорток ([Підтримувані протоколи та обгортки](wrappers.html)
 -   Опції контексту ([Контекстные опции и параметры](context.html)

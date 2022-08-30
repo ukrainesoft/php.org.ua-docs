@@ -1,12 +1,12 @@
 Отримує сімейство шрифтів
 
--   [« UI\\Draw\\Text\\Font\\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.html)
+-   [« UIDrawTextFontDescriptor::construct](ui-draw-text-font-descriptor.construct.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor::getItalic »](ui-draw-text-font-descriptor.getitalic.html)
+-   [ОЙDrawTextFontDescriptor::getItalic »](ui-draw-text-font-descriptor.getitalic.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+-   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     
 -   Отримує сімейство шрифтів
     

@@ -1,8 +1,8 @@
 Повертає статистику з'єднання з клієнтом
 
--   [« mysqli::$client\_version](mysqli.get-client-version.html)
+-   [« mysqli::$clientversion](mysqli.get-client-version.html)
     
--   [mysqli::$host\_info »](mysqli.get-host-info.html)
+-   [mysqli::$hostinfo »](mysqli.get-host-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 

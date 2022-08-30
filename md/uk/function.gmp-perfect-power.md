@@ -1,12 +1,12 @@
 Перевірити, чи є число "досконалим ступенем"
 
--   [« gmp\_or](function.gmp-or.html)
+-   [« gmpор](function.gmp-or.html)
     
--   [gmp\_perfect\_square »](function.gmp-perfect-square.html)
+-   [gmpperfectsquare »](function.gmp-perfect-square.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Перевірити, чи є число "досконалим ступенем"
     
@@ -37,4 +37,4 @@ gmp_perfect_power(GMP|int|string $num): bool
 
 ### Дивіться також
 
--   [gmp\_perfect\_square()](function.gmp-perfect-square.html) - Перевірка числа на точний квадрат
+-   [gmpperfectsquare()](function.gmp-perfect-square.html) - Перевірка числа на точний квадрат

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас TableSelect
     
@@ -53,7 +53,7 @@ public where(string $where_expr): mysql_xdevapi\TableSelect
 ## Зміст
 
 -   [TableSelect::bind](mysql-xdevapi-tableselect.bind.html) — Прив'язує параметри запиту вибірки
--   [TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.html) - Конструктор класу TableSelect
+-   [TableSelect::construct](mysql-xdevapi-tableselect.construct.html) - Конструктор класу TableSelect
 -   [TableSelect::execute](mysql-xdevapi-tableselect.execute.html) — Виконує оператор вибірки
 -   [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.html) — Встановлює критерії угруповання вибірки
 -   [TableSelect::having](mysql-xdevapi-tableselect.having.html) — Встановлює вибір із умовою

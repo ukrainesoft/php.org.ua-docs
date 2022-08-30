@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+-   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     
 -   Встановлює критерії угруповання вибірки
     

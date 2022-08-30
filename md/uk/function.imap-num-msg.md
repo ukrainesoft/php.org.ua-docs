@@ -1,8 +1,8 @@
 Отримати кількість повідомлень у поточній поштовій скриньці
 
--   [« imap\_mutf7\_to\_utf8](function.imap-mutf7-to-utf8.html)
+-   [« imapmutf7тоutf8](function.imap-mutf7-to-utf8.html)
     
--   [imap\_num\_recent »](function.imap-num-recent.html)
+-   [imapnumrecent »](function.imap-num-recent.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_num_msg(IMAP\Connection $imap): int|false
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,11 +37,11 @@ imap_num_msg(IMAP\Connection $imap): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_num\_recent()](function.imap-num-recent.html) - Отримати кількість нових повідомлень у поточній поштовій скриньці
--   [imap\_status()](function.imap-status.html) - Отримати інформацію про статус поштової скриньки
+-   [imapnumrecent()](function.imap-num-recent.html) - Отримати кількість нових повідомлень у поточній поштовій скриньці
+-   [imapstatus()](function.imap-status.html) - Отримати інформацію про статус поштової скриньки

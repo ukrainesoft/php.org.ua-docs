@@ -23,7 +23,7 @@ mysqli::$insertid - mysqliinsertid — Повертає значення, ств
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli->insert\_id](mysqli.insert-id.html)
+int|string [$mysqli->insertід](mysqli.insert-id.html)
 
 Процедурний стиль
 
@@ -41,7 +41,7 @@ mysqli_insert_id(mysqli $mysql): int|string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 

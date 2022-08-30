@@ -1,8 +1,8 @@
 Почати відтворення джерела
 
--   [« openal\_source\_pause](function.openal-source-pause.html)
+-   [« openalsourcepause](function.openal-source-pause.html)
     
--   [openal\_source\_rewind »](function.openal-source-rewind.html)
+-   [openalsourcerewind »](function.openal-source-rewind.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_source_play(resource $source): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
 
 ### Значення, що повертаються
 
@@ -35,6 +35,6 @@ openal_source_play(resource $source): bool
 
 ### Дивіться також
 
--   [openal\_source\_stop()](function.openal-source-stop.html) - Зупинити відтворення джерела
--   [openal\_source\_pause()](function.openal-source-pause.html) - Поставити джерело на паузу
--   [openal\_source\_rewind()](function.openal-source-rewind.html) - Перемотати джерело на початок
+-   [openalsourcestop()](function.openal-source-stop.html) - Зупинити відтворення джерела
+-   [openalsourcepause()](function.openal-source-pause.html) - Поставити джерело на паузу
+-   [openalsourcerewind()](function.openal-source-rewind.html) - Перемотати джерело на початок

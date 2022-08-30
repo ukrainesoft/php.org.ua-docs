@@ -1,8 +1,8 @@
 Повертає кількість запитів, які потрібно виконати
 
--   [« eio\_nready](function.eio-nready.html)
+-   [« eionready](function.eio-nready.html)
     
--   [eio\_nthreads »](function.eio-nthreads.html)
+-   [eionthreads »](function.eio-nthreads.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ eionreqs — Повертає кількість запитів, які потр
 eio_nreqs(): int
 ```
 
-**eionreqs()** може бути виконана у довільному циклі, викликаному [eio\_poll()](function.eio-poll.html)
+**eionreqs()** може бути виконана у довільному циклі, викликаному [eiopoll()](function.eio-poll.html)
 
 ### Список параметрів
 
@@ -67,5 +67,5 @@ int(0)
 
 ### Дивіться також
 
--   [eio\_poll()](function.eio-poll.html) - Може бути викликана коли є запити, що очікують на виконання
--   [eio\_nready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
+-   [eiopoll()](function.eio-poll.html) - Може бути викликана коли є запити, що очікують на виконання
+-   [eionready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів

@@ -1,12 +1,12 @@
 Перетворення числа GMP на ціле число
 
--   [« gmp\_init](function.gmp-init.html)
+-   [« gmpinit](function.gmp-init.html)
     
--   [gmp\_invert »](function.gmp-invert.html)
+-   [gmpinvert »](function.gmp-invert.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Перетворення числа GMP на ціле число
     
@@ -64,4 +64,4 @@ echo gmp_strval("2147483648") . "\n";
 
 **Увага**
 
-Ця функція повертає придатний для подальшого застосування результат тільки якщо число вписується в діапазон можливих чисел типу PHP integer (тобто, довге ціле зі знаком). Якщо потрібно просто вивести GMP на екран, використовуйте [gmp\_strval()](function.gmp-strval.html)
+Ця функція повертає придатний для подальшого застосування результат тільки якщо число вписується в діапазон можливих чисел типу PHP integer (тобто, довге ціле зі знаком). Якщо потрібно просто вивести GMP на екран, використовуйте [gmpstrval()](function.gmp-strval.html)

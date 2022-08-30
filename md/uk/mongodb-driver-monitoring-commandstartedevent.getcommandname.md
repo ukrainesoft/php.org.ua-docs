@@ -1,12 +1,12 @@
 Повертає ім'я команди
 
--   [« MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommand](mongodb-driver-monitoring-commandstartedevent.getcommand.html)
+-   [« MongoDBDriverMonitoringCommandStartedEvent::getCommand](mongodb-driver-monitoring-commandstartedevent.getcommand.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getDatabaseName »](mongodb-driver-monitoring-commandstartedevent.getdatabasename.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName »](mongodb-driver-monitoring-commandstartedevent.getdatabasename.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
     
 -   Повертає ім'я команди
     
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getCommandName(): st
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)

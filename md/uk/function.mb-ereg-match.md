@@ -1,12 +1,12 @@
 Збіг з регулярним виразом для багатобайтового рядка
 
--   [« mb\_encoding\_aliases](function.mb-encoding-aliases.html)
+-   [« mbencodingaliases](function.mb-encoding-aliases.html)
     
--   [mb\_ereg\_replace\_callback »](function.mb-ereg-replace-callback.html)
+-   [мбeregreplacecallback »](function.mb-ereg-replace-callback.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Збіг з регулярним виразом для багатобайтового рядка
     
@@ -39,7 +39,7 @@ mb_ereg_match(string $pattern, string $string, ?string $options = null): bool
 
 `options`
 
-Опція пошуку. Детальніше дивіться [mb\_regex\_set\_options()](function.mb-regex-set-options.html)
+Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.html)
 
 ### Значення, що повертаються
 
@@ -55,9 +55,9 @@ mb_ereg_match(string $pattern, string $string, ?string $options = null): bool
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_ereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань

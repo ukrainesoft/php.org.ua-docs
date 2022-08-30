@@ -1,12 +1,12 @@
 Повертає тривалість команди у мікросекундах
 
--   [« MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html)
+-   [« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getOperationId »](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html)
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
+-   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
     
 -   Повертає тривалість команди у мікросекундах
     
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros(
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)

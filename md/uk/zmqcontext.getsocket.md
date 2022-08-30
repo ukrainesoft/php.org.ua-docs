@@ -29,7 +29,7 @@ public ZMQContext::getSocket(int $type, string $persistent_id = null, callable $
 
 `type`
 
-Константа **`ZMQ::SOCKET_*`**задає тип сокету.
+Константа \*\*`ZMQ::SOCKET_*`\*\*задає тип сокету.
 
 `persistent_id`
 

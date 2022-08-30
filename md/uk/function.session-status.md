@@ -1,12 +1,12 @@
 Повертає стан поточної сесії
 
--   [« session\_start](function.session-start.html)
+-   [« sessionstart](function.session-start.html)
     
--   [session\_unset »](function.session-unset.html)
+-   [sessionunset »](function.session-unset.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Повертає стан поточної сесії
     
@@ -37,4 +37,4 @@ session_status(): int
 
 ### Дивіться також
 
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу

@@ -1,12 +1,12 @@
 Двійкове у десяткове
 
--   [« base\_convert](function.base-convert.html)
+-   [« baseconvert](function.base-convert.html)
     
 -   [ceil »](function.ceil.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Двійкове у десяткове
     
@@ -183,4 +183,4 @@ NOTE:         интерпретируется как самое большое 
 -   [decbin()](function.decbin.html) - Переводить число з десяткової системи числення до двійкової
 -   [octdec()](function.octdec.html) - Переводить число з вісімкової системи числення до десяткової
 -   [hexdec()](function.hexdec.html) - Переводить число з шістнадцяткової системи числення до десяткової
--   [base\_convert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення

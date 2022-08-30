@@ -33,4 +33,4 @@ public ReflectionNamedType::getName(): string
 
 ### Дивіться також
 
--   [ReflectionType::\_\_toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок

@@ -1,12 +1,12 @@
 Записує дані сесії та завершує її
 
--   [« session\_unset](function.session-unset.html)
+-   [« sessionunset](function.session-unset.html)
     
 -   [SessionHandler »](class.sessionhandler.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Записує дані сесії та завершує її
     
@@ -43,4 +43,4 @@ session_write_close(): bool
 
 ### Дивіться також
 
--   [session\_register\_shutdown()](function.session-register-shutdown.html) - функція завершення сесії
+-   [sessionregistershutdown()](function.session-register-shutdown.html) - функція завершення сесії

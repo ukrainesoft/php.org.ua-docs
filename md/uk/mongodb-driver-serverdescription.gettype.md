@@ -1,12 +1,12 @@
 Повертає рядок, який позначає тип сервера
 
--   [« MongoDB\\Driver\\ServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.html)
+-   [« MongoDBDriverServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.html)
     
--   [MongoDB\\Driver\\TopologyDescription »](class.mongodb-driver-topologydescription.html)
+-   [MongoDBDriverTopologyDescription »](class.mongodb-driver-topologydescription.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)
+-   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
     
 -   Повертає рядок, який позначає тип сервера
     
@@ -23,7 +23,7 @@ MongoDBDriverServerDescription::getType — Повертає рядок, яки�
 final public MongoDB\Driver\ServerDescription::getType(): string
 ```
 
-Повертає рядок (string), що позначає тип сервера. Значення співвідноситиметься з константою [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)
+Повертає рядок (string), що позначає тип сервера. Значення співвідноситиметься з константою [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
 
 ### Список параметрів
 
@@ -35,8 +35,8 @@ final public MongoDB\Driver\ServerDescription::getType(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getType()](mongodb-driver-server.gettype.html) - Повертає ціле число, що означає тип цього сервера
+-   [MongoDBDriverServer::getType()](mongodb-driver-server.gettype.html) - Повертає ціле число, що означає тип цього сервера

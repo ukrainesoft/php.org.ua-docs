@@ -2,11 +2,11 @@
 
 -   [« EvIdle::createStopped](evidle.createstopped.html)
     
--   [EvIo::\_\_construct »](evio.construct.html)
+-   [EvIo::construct »](evio.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvIo
     
@@ -153,6 +153,6 @@ events
 
 ## Зміст
 
--   [EvIo::\_\_construct](evio.construct.html) - Створює об'єкт спостерігач EvIo
+-   [EvIo::construct](evio.construct.html) - Створює об'єкт спостерігач EvIo
 -   [EvIo::createStopped](evio.createstopped.html) — Створює зупинений об'єкт спостерігача EvIo
 -   [EvIo::set](evio.set.html) - Конфігурування спостерігача

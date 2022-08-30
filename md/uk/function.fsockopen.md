@@ -1,12 +1,12 @@
 Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 
--   [« dns\_get\_record](function.dns-get-record.html)
+-   [« dnsgetrecord](function.dns-get-record.html)
     
 -   [gethostbyaddr »](function.gethostbyaddr.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
     
@@ -25,11 +25,11 @@ fsockopen(    string $hostname,    int $port = -1,    int &$error_co
 
 Встановлює з'єднання із сокетом ресурсу `hostname`
 
-PHP підтримує цільові ресурси в інтернеті та Unix-доменах у тому вигляді, як вони описані в [Список поддерживаемых транспортных протоколов](transports.html). Список підтримуваних транспортів можна отримати за допомогою функції [stream\_get\_transports()](function.stream-get-transports.html)
+PHP підтримує цільові ресурси в інтернеті та Unix-доменах у тому вигляді, як вони описані в [Список підтримуваних транспортних протоколів](transports.html). Список підтримуваних транспортів можна отримати за допомогою функції [streamgettransports()](function.stream-get-transports.html)
 
-За замовчуванням сокет буде відкритий у режимі блокування. Переключити його в неблокуючий режим можна функцією [stream\_set\_blocking()](function.stream-set-blocking.html)
+За замовчуванням сокет буде відкритий у режимі блокування. Переключити його в неблокуючий режим можна функцією [streamsetblocking()](function.stream-set-blocking.html)
 
-[stream\_socket\_client()](function.stream-socket-client.html) виконує аналогічну функцію, але надає ширший вибір налаштувань з'єднання, що включає встановлення неблокуючого режиму та можливість надання потокового контексту.
+[streamsocketclient()](function.stream-socket-client.html) виконує аналогічну функцію, але надає ширший вибір налаштувань з'єднання, що включає встановлення неблокуючого режиму та можливість надання потокового контексту.
 
 ### Список параметрів
 
@@ -53,11 +53,11 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 `timeout`
 
-Час очікування з'єднання за секунди. Якщо **`null`**, використовується налаштування php.ini [default\_socket\_timeout](filesystem.configuration.html#ini.default-socket-timeout)
+Час очікування з'єднання за секунди. Якщо **`null`**, використовується налаштування php.ini [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)
 
 > **Зауваження**
 > 
-> Якщо потрібно встановити час очікування/запису даних через сокет, використовуйте функцію [stream\_set\_timeout()](function.stream-set-timeout.html), т.к. параметр `timeout` функції **fsockopen()** обмежує лише час процесу встановлення з'єднання із сокетом.
+> Якщо потрібно встановити час очікування/запису даних через сокет, використовуйте функцію [streamsettimeout()](function.stream-set-timeout.html), т.к. параметр `timeout` функції **fsockopen()** обмежує лише час процесу встановлення з'єднання із сокетом.
 
 ### Значення, що повертаються
 
@@ -127,13 +127,13 @@ if (!$fp) {
 ### Дивіться також
 
 -   [pfsockopen()](function.pfsockopen.html) - Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [stream\_socket\_client()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
--   [stream\_set\_timeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
 -   [fgets()](function.fgets.html) - Читає рядок із файлу
 -   [fgetss()](function.fgetss.html) - Читає рядок з файлу та видаляє HTML-теги
 -   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
 -   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
 -   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
--   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
 -   [Модуль Curl](ref.curl.html)

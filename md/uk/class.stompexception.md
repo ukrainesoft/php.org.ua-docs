@@ -1,6 +1,6 @@
 Клас StompException
 
--   [« StompFrame::\_\_construct](stompframe.construct.html)
+-   [« StompFrame::construct](stompframe.construct.html)
     
 -   [StompException::getDetails »](stomp.getdetails.html)
     

@@ -1,12 +1,12 @@
 Встановлює поточний колір
 
--   [« ps\_set\_value](function.ps-set-value.html)
+-   [«pssetvalue](function.ps-set-value.html)
     
--   [ps\_setdash »](function.ps-setdash.html)
+-   [псsetdash »](function.ps-setdash.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює поточний колір
     
@@ -29,7 +29,7 @@ ps_setcolor(    resource $psdoc,    string $type,    string $colorsp
 
 `psdoc`
 
-Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.html)
 
 `type`
 

@@ -1,12 +1,12 @@
 Надсилає сигнал дочірнім процесам
 
--   [« Swoole\\Process::read](swoole-process.read.html)
+-   [« SwooleProcess::read](swoole-process.read.html)
     
--   [Swoole\\Process::start »](swoole-process.start.html)
+-   [SwooleProcess::start »](swoole-process.start.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Надсилає сигнал дочірнім процесам
     

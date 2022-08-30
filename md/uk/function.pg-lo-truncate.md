@@ -1,8 +1,8 @@
 Обрізає великий об'єкт
 
--   [« pg\_lo\_tell](function.pg-lo-tell.html)
+-   [« pgлоtell](function.pg-lo-tell.html)
     
--   [pg\_lo\_unlink »](function.pg-lo-unlink.html)
+-   [пглоunlink »](function.pg-lo-unlink.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 ```
 
-**пглоtruncate()** обрізає екземпляр [PgSql\\Lob](class.pgsql-lob.html)
+**пглоtruncate()** обрізає екземпляр [PgSqlLob](class.pgsql-lob.html)
 
 Для використання інтерфейсу великого об'єкта необхідно укласти його в блок транзакцій.
 
@@ -31,7 +31,7 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 `lob`
 
-Ан [PgSql\\Lob](class.pgsql-lob.html) instance, returned by [pg\_lo\_open()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
 
 `size`
 
@@ -43,9 +43,9 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                  |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -66,4 +66,4 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ### Дивіться також
 
--   [pg\_lo\_tell()](function.pg-lo-tell.html) - Повертає поточне положення внутрішнього покажчика великого об'єкта
+-   [пглоtell()](function.pg-lo-tell.html) - Повертає поточне положення внутрішнього покажчика великого об'єкта

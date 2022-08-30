@@ -1,12 +1,12 @@
 Пошук позиції першого входження одного рядка до іншого
 
--   [« mb\_strlen](function.mb-strlen.html)
+-   [« mbstrlen](function.mb-strlen.html)
     
--   [mb\_strrchr »](function.mb-strrchr.html)
+-   [мбstrrchr »](function.mb-strrchr.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Пошук позиції першого входження одного рядка до іншого
     
@@ -59,5 +59,5 @@ mb_strpos(    string $haystack,    string $needle,    int $offset = 
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
 -   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка

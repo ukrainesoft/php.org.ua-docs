@@ -1,12 +1,12 @@
 Повертає дані BinaryInterface
 
--   [« MongoDB\\BSON\\BinaryInterface](class.mongodb-bson-binaryinterface.html)
+-   [« MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html)
     
--   [MongoDB\\BSON\\BinaryInterface::getType »](mongodb-bson-binaryinterface.gettype.html)
+-   [MongoDBBSONBinaryInterface::getType »](mongodb-bson-binaryinterface.gettype.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\BinaryInterface](class.mongodb-bson-binaryinterface.html)
+-   [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html)
     
 -   Повертає дані BinaryInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\BinaryInterface::getData(): string
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Binary::getData()](mongodb-bson-binary.getdata.html) - Повертає дані Binary
+-   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.html) - Повертає дані Binary

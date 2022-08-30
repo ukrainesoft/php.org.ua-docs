@@ -1,12 +1,12 @@
 Змінює поточну директорію на FTP-сервері
 
--   [« ftp\_cdup](function.ftp-cdup.html)
+-   [« ftpcdup](function.ftp-cdup.html)
     
--   [ftp\_chmod »](function.ftp-chmod.html)
+-   [ftpchmod »](function.ftp-chmod.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Змінює поточну директорію на FTP-сервері
     
@@ -29,7 +29,7 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `directory`
 
@@ -41,9 +41,9 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -79,5 +79,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_cdup()](function.ftp-cdup.html) - Переходить до батьківської директорії
--   [ftp\_pwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії
+-   [ftpcdup()](function.ftp-cdup.html) - Переходить до батьківської директорії
+-   [ftppwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії

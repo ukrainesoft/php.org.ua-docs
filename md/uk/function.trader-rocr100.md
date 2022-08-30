@@ -1,8 +1,8 @@
 Коефіцієнт зміни курсу шкали: (ціна/попередня ціна)
 
--   [« trader\_rocp](function.trader-rocp.html)
+-   [« traderrocp](function.trader-rocp.html)
     
--   [trader\_rocr »](function.trader-rocr.html)
+-   [traderrocr »](function.trader-rocr.html)
     
 -   [PHP Manual](index.html)
     

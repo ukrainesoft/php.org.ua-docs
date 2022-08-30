@@ -1,8 +1,8 @@
 Клас ReflectionProperty
 
--   [« ReflectionParameter::\_\_toString](reflectionparameter.tostring.html)
+-   [« ReflectionParameter::toString](reflectionparameter.tostring.html)
     
--   [ReflectionProperty::\_\_clone »](reflectionproperty.clone.html)
+-   [ReflectionProperty::clone »](reflectionproperty.clone.html)
     
 -   [PHP Manual](index.html)
     
@@ -110,15 +110,15 @@ class
 
 **`ReflectionProperty::IS_STATIC`**
 
-Вказує, що властивість є [статическим](language.oop5.static.html). До PHP 7.4.0, значення було `1`
+Вказує, що властивість є [статичним](language.oop5.static.html). До PHP 7.4.0, значення було `1`
 
 **`ReflectionProperty::IS_PUBLIC`**
 
-Вказує, що властивість є [общедоступным](language.oop5.visibility.html). До PHP 7.4.0, значення було `256`
+Вказує, що властивість є [загальнодоступним](language.oop5.visibility.html). До PHP 7.4.0, значення було `256`
 
 **`ReflectionProperty::IS_PROTECTED`**
 
-Вказує, що властивість є [защищённым](language.oop5.visibility.html). До PHP 7.4.0, значення було `512`
+Вказує, що властивість є [захищеним](language.oop5.visibility.html). До PHP 7.4.0, значення було `512`
 
 **`ReflectionProperty::IS_PRIVATE`**
 
@@ -130,8 +130,8 @@ class
 
 ## Зміст
 
--   [ReflectionProperty::\_\_clone](reflectionproperty.clone.html) - Клонувати
--   [ReflectionProperty::\_\_construct](reflectionproperty.construct.html) - Конструктор класу ReflectionProperty
+-   [ReflectionProperty::clone](reflectionproperty.clone.html) - Клонувати
+-   [ReflectionProperty::construct](reflectionproperty.construct.html) - Конструктор класу ReflectionProperty
 -   [ReflectionProperty::export](reflectionproperty.export.html) - Експорт
 -   [ReflectionProperty::getAttributes](reflectionproperty.getattributes.html) — Отримує атрибути
 -   [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.html) — Отримання класу, що оголошує
@@ -153,4 +153,4 @@ class
 -   [ReflectionProperty::isStatic](reflectionproperty.isstatic.html) — Перевірка, чи властивість статична
 -   [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.html) — Робить властивість доступною
 -   [ReflectionProperty::setValue](reflectionproperty.setvalue.html) - Встановлення значення властивості
--   [ReflectionProperty::\_\_toString](reflectionproperty.tostring.html) — Перетворення на рядок
+-   [ReflectionProperty::toString](reflectionproperty.tostring.html) — Перетворення на рядок

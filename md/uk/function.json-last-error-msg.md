@@ -1,8 +1,8 @@
 Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
 
--   [« json\_encode](function.json-encode.html)
+-   [« jsonencode](function.json-encode.html)
     
--   [json\_last\_error »](function.json-last-error.html)
+-   [jsonlasterror »](function.json-last-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ jsonlasterrormsg — Повертає рядок з повідомленням �
 json_last_error_msg(): string
 ```
 
-Повертає текстовий опис останньої помилки, що сталася під час виконання [json\_encode()](function.json-encode.html) або [json\_decode()](function.json-decode.html) без прапора **`JSON_THROW_ON_ERROR`**
+Повертає текстовий опис останньої помилки, що сталася під час виконання [jsonencode()](function.json-encode.html) або [jsondecode()](function.json-decode.html) без прапора **`JSON_THROW_ON_ERROR`**
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ json_last_error_msg(): string
 
 ### Дивіться також
 
--   [json\_last\_error()](function.json-last-error.html) - Повертає останню помилку
+-   [jsonlasterror()](function.json-last-error.html) - Повертає останню помилку

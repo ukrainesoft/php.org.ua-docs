@@ -1,12 +1,12 @@
 Перевіряє, чи є змінна числом або рядком, що містить число
 
--   [« is\_null](function.is-null.html)
+-   [« isnull](function.is-null.html)
     
--   [is\_object »](function.is-object.html)
+-   [ісobject »](function.is-object.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи є змінна числом або рядком, що містить число
     
@@ -23,7 +23,7 @@
 is_numeric(mixed $value): bool
 ```
 
-Визначає, чи є ця змінна числом чи [строкой, содержащей число](language.types.numeric-strings.html)
+Визначає, чи є ця змінна числом чи [рядком, що містить число](language.types.numeric-strings.html)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ is_numeric(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є числом або [строкой, содержащей число](language.types.numeric-strings.html) або **`false`** в іншому випадку.
+Повертає **`true`**, якщо `value` є числом або [рядком, що містить число](language.types.numeric-strings.html) або **`false`** в іншому випадку.
 
 ### список змін
 
@@ -136,13 +136,13 @@ foreach ($tests as $element) {
 
 ### Дивіться також
 
--   [Строки, содержащие числа](language.types.numeric-strings.html)
--   [ctype\_digit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [is\_null()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
--   [filter\_var()](function.filter-var.html) - Фільтрує змінну за допомогою певного фільтра
+-   [Рядки, що містять числа](language.types.numeric-strings.html)
+-   [ctypedigit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісnull()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [filtervar()](function.filter-var.html) - Фільтрує змінну за допомогою певного фільтра

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас MultipleIterator
     
@@ -93,7 +93,7 @@ public valid(): bool
 ## Зміст
 
 -   [MultipleIterator::attachIterator](multipleiterator.attachiterator.html) - Приєднує ітератор
--   [MultipleIterator::\_\_construct](multipleiterator.construct.html) — Створює новий MultipleIterator
+-   [MultipleIterator::construct](multipleiterator.construct.html) — Створює новий MultipleIterator
 -   [MultipleIterator::containsIterator](multipleiterator.containsiterator.html) — Перевіряє, чи приєднано ітератора.
 -   [MultipleIterator::countIterators](multipleiterator.countiterators.html) — Отримує кількість приєднаних ітераторів
 -   [MultipleIterator::current](multipleiterator.current.html) — Отримує зареєстровані ітератори

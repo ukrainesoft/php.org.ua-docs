@@ -1,12 +1,12 @@
 Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
 
--   [« mysqli\_result::fetch\_object](mysqli-result.fetch-object.html)
+-   [« mysqliresult::fetchobject](mysqli-result.fetch-object.html)
     
--   [mysqli\_result::$field\_count »](mysqli-result.field-count.html)
+-   [mysqliresult::$fieldcount »](mysqli-result.field-count.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
     
@@ -33,7 +33,7 @@ public mysqli_result::fetch_row(): array|null|false
 mysqli_fetch_row(mysqli_result $result): array|null|false
 ```
 
-Вибирає один рядок даних із результуючого набору та повертає її у вигляді масиву, в якому індекси елементів відповідають номерам стовпців (починаючи з 0). Кожен наступний виклик функції повертатиме масив з даними наступного рядка набору або **`null`**якщо рядки закінчилися.
+Вибирає один рядок даних із результуючого набору та повертає її у вигляді масиву, в якому індекси елементів відповідають номерам стовпців (починаючи з 0). Кожен наступний виклик функції повертатиме масив з даними наступного рядка набору або \*\*`null`\*\*якщо рядки закінчилися.
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
@@ -41,11 +41,11 @@ mysqli_fetch_row(mysqli_result $result): array|null|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
-Повертає нумерований масив, що представляє обраний рядок, **`null`**якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
+Повертає нумерований масив, що представляє обраний рядок, \*\*`null`\*\*якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -99,9 +99,9 @@ Santa Clara (USA)
 
 ### Дивіться також
 
--   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqli\_fetch\_column()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqli\_fetch\_object()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_data\_seek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок
+-   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqlifetchobject()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок

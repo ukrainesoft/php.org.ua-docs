@@ -1,12 +1,12 @@
 Створити новий об'єкт Entry
 
--   [« UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [« UIControlsEntry](class.ui-controls-entry.html)
     
--   [UI\\Controls\\Entry::getText »](ui-controls-entry.gettext.html)
+-   [ОЙControlsEntry::getText »](ui-controls-entry.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [ОЙControlsEntry](class.ui-controls-entry.html)
     
 -   Створити новий об'єкт Entry
     

@@ -1,12 +1,12 @@
 Скасує раніше встановлене значення, що повертається для функції
 
--   [« uopz\_unset\_mock](function.uopz-unset-mock.html)
+-   [« uopzunsetmock](function.uopz-unset-mock.html)
     
 -   [WinCache »](book.wincache.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Скасує раніше встановлене значення, що повертається для функції
     
@@ -27,7 +27,7 @@ uopz_unset_return(string $function): bool
 uopz_unset_return(string $class, string $function): bool
 ```
 
-Скасує значення, що повертається `function`, раніше задане функцією [uopz\_set\_return()](function.uopz-set-return.html)
+Скасує значення, що повертається `function`, раніше задане функцією [uopzsetreturn()](function.uopz-set-return.html)
 
 ### Список параметрів
 

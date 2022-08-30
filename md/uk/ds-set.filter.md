@@ -1,8 +1,8 @@
 Створює новий список із елементів, вибраних за допомогою заданої callback-функції
 
--   [« Ds\\Set::diff](ds-set.diff.html)
+-   [« DsSet::diff](ds-set.diff.html)
     
--   [Ds\\Set::first »](ds-set.first.html)
+-   [ДсSet::first »](ds-set.first.html)
     
 -   [PHP Manual](index.html)
     

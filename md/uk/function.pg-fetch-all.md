@@ -1,8 +1,8 @@
 Вибирає всі дані з результату запиту та поміщає їх у масив
 
--   [« pg\_fetch\_all\_columns](function.pg-fetch-all-columns.html)
+-   [« pgfetchallcolumns](function.pg-fetch-all-columns.html)
     
--   [pg\_fetch\_array »](function.pg-fetch-array.html)
+-   [пгfetcharray »](function.pg-fetch-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 ```
 
-**пгfetchall()** повертає масив містить всі записи примірника [PgSql\\Result](class.pgsql-result.html)
+**пгfetchall()** повертає масив містить всі записи примірника [PgSqlResult](class.pgsql-result.html)
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
@@ -31,7 +31,7 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `mode`
 
@@ -43,11 +43,11 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків.                      |
-|        | Доданий параметр `mode`                                                                                                                              |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків.                    |
+|        | Доданий параметр `mode`                                                                                                                            |
 
 ### Приклади
 
@@ -96,7 +96,7 @@ Array
 
 ### Дивіться також
 
--   [pg\_fetch\_row()](function.pg-fetch-row.html) - Вибирає рядок результату запиту та поміщає дані до масиву
--   [pg\_fetch\_array()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
--   [pg\_fetch\_object()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [pg\_fetch\_result()](function.pg-fetch-result.html) - Повертає запис із результату запиту
+-   [пгfetchrow()](function.pg-fetch-row.html) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [пгfetchobject()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгfetchresult()](function.pg-fetch-result.html) - Повертає запис із результату запиту

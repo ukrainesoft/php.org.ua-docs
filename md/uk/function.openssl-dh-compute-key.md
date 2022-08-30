@@ -1,8 +1,8 @@
 Обчислює загальний секретний ключ значення видаленого відкритого ключа DH і локального ключа DH
 
--   [« openssl\_decrypt](function.openssl-decrypt.html)
+-   [« openssldecrypt](function.openssl-decrypt.html)
     
--   [openssl\_digest »](function.openssl-digest.html)
+-   [openssldigest »](function.openssl-digest.html)
     
 -   [PHP Manual](index.html)
     
@@ -134,7 +134,7 @@ PKCS#3 DH Parameters: (2048 bit)
         generator: 2 (0x2)
 ```
 
-Значення prime і generator передаються у вигляді параметрів p і g [openssl\_pkey\_new()](function.openssl-pkey-new.html)
+Значення prime і generator передаються у вигляді параметрів p і g [opensslpkeynew()](function.openssl-pkey-new.html)
 
 ```php
 <?php
@@ -157,7 +157,7 @@ echo bin2hex($shared_secret)."\n";
 
 ### Дивіться також
 
--   [openssl\_pkey\_new()](function.openssl-pkey-new.html) - Генерує новий закритий ключ
--   [openssl\_pkey\_get\_details()](function.openssl-pkey-get-details.html) - Отримує масив з детальною інформацією про ключ
--   [openssl\_pkey\_get\_private()](function.openssl-pkey-get-private.html) - Отримати закритий ключ
--   [openssl\_pkey\_get\_public()](function.openssl-pkey-get-public.html) - Витягує відкритий ключ із сертифіката та готує його до використання
+-   [opensslpkeynew()](function.openssl-pkey-new.html) - Генерує новий закритий ключ
+-   [opensslpkeygetdetails()](function.openssl-pkey-get-details.html) - Отримує масив з детальною інформацією про ключ
+-   [opensslpkeygetprivate()](function.openssl-pkey-get-private.html) - Отримати закритий ключ
+-   [opensslpkeygetpublic()](function.openssl-pkey-get-public.html) - Витягує відкритий ключ із сертифіката та готує його до використання

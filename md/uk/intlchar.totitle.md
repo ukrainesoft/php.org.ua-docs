@@ -69,4 +69,4 @@ int(65)
 
 -   [IntlChar::tolower()](intlchar.tolower.html) - Перетворення символу Unicode на нижній регістр
 -   [IntlChar::toupper()](intlchar.toupper.html) - Перетворення символу Unicode у верхній регістр
--   [mb\_convert\_case()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку
+-   [мбconvertcase()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку

@@ -1,12 +1,12 @@
 Збільшує значення $rowkey та $columnkey
 
--   [« Swoole\\Table::get](swoole-table.get.html)
+-   [« SwooleTable::get](swoole-table.get.html)
     
--   [Swoole\\Table::key »](swoole-table.key.html)
+-   [SwooleTable::key »](swoole-table.key.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Збільшує значення $rowkey та $columnkey
     

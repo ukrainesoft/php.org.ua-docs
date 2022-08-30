@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](class.ev.html)
+-   [Єв](class.ev.html)
     
 -   Передаємо подію сигналу в Ev
     

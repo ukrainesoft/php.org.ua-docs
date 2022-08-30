@@ -2,7 +2,7 @@
 
 -   [« ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.html)
     
--   [ReflectionClass::\_\_toString »](reflectionclass.tostring.html)
+-   [ReflectionClass::toString »](reflectionclass.tostring.html)
     
 -   [PHP Manual](index.html)
     

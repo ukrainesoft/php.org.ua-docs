@@ -1,8 +1,8 @@
 Скидає номер останньої помилки
 
--   [« fann\_read\_train\_from\_file](function.fann-read-train-from-file.html)
+-   [« fannreadtrainfromfile](function.fann-read-train-from-file.html)
     
--   [fann\_reset\_errstr »](function.fann-reset-errstr.html)
+-   [fannreseterrstr »](function.fann-reset-errstr.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,5 +37,5 @@ fann_reset_errno(resource $errdat): void
 
 ### Дивіться також
 
--   [fann\_get\_errno()](function.fann-get-errno.html) - Повертає останній номер помилки
--   [fann\_reset\_errstr()](function.fann-reset-errstr.html) - Скидає останній рядок помилки
+-   [fanngeterrno()](function.fann-get-errno.html) - Повертає останній номер помилки
+-   [fannreseterrstr()](function.fann-reset-errstr.html) - Скидає останній рядок помилки

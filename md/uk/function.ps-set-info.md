@@ -1,12 +1,12 @@
 Встановлює інформаційні поля документа
 
--   [« ps\_set\_border\_style](function.ps-set-border-style.html)
+-   [«pssetborderstyle](function.ps-set-border-style.html)
     
--   [ps\_set\_parameter »](function.ps-set-parameter.html)
+-   [псsetparameter »](function.ps-set-parameter.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює інформаційні поля документа
     
@@ -25,15 +25,15 @@ ps_set_info(resource $p, string $key, string $val): bool
 
 Встановлює певні інформаційні поля документа. Ці поля відображатимуться як коментар у заголовку файлу PostScript. Якщо документ конвертується у PDF, ці поля також будуть використовуватися для інформації про документ.
 
-Для `BoundingBox` зазвичай встановлюється значення, яке присвоєно першій сторінці. Це працює тільки якщо [ps\_findfont()](function.ps-findfont.html) не викликалася раніше. У таких випадках BoundingBox не буде встановлений, якщо ви не встановите його за допомогою цієї функції.
+Для `BoundingBox` зазвичай встановлюється значення, яке присвоєно першій сторінці. Це працює тільки якщо [псfindfont()](function.ps-findfont.html) не викликалася раніше. У таких випадках BoundingBox не буде встановлений, якщо ви не встановите його за допомогою цієї функції.
 
-Функція більше не працюватиме, якщо заголовок файлу postscript вже записаний. Вона повинна викликатись перед першою сторінкою або першим викликом [ps\_findfont()](function.ps-findfont.html)
+Функція більше не працюватиме, якщо заголовок файлу postscript вже записаний. Вона повинна викликатись перед першою сторінкою або першим викликом [псfindfont()](function.ps-findfont.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `key`
 
@@ -45,7 +45,7 @@ ps_set_info(resource $p, string $key, string $val): bool
 
 > **Зауваження**
 > 
-> До версії 0.2.6 pslib BoundingBox та Orientation будуть перезаписані функцією [ps\_begin\_page()](function.ps-begin-page.html), якщо функція [ps\_findfont()](function.ps-findfont.html) не була викликана раніше.
+> До версії 0.2.6 pslib BoundingBox та Orientation будуть перезаписані функцією [псbeginpage()](function.ps-begin-page.html), якщо функція [псfindfont()](function.ps-findfont.html) не була викликана раніше.
 
 ### Значення, що повертаються
 
@@ -53,5 +53,5 @@ ps_set_info(resource $p, string $key, string $val): bool
 
 ### Дивіться також
 
--   [ps\_findfont()](function.ps-findfont.html) - Завантажує шрифт
--   [ps\_begin\_page()](function.ps-begin-page.html) - Починає нову сторінку
+-   [псfindfont()](function.ps-findfont.html) - Завантажує шрифт
+-   [псbeginpage()](function.ps-begin-page.html) - Починає нову сторінку

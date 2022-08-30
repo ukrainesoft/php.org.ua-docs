@@ -35,5 +35,5 @@ public IteratorIterator::valid(): bool
 
 ### Дивіться також
 
--   [iterator\_count()](function.iterator-count.html) - Підраховує кількість елементів в ітераторі
+-   [iteratorcount()](function.iterator-count.html) - Підраховує кількість елементів в ітераторі
 -   [IteratorIterator::current()](iteratoriterator.current.html) - Отримує поточне значення

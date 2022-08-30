@@ -1,12 +1,12 @@
 Очищення інформації з останньої помилки
 
--   [« Yaf\_Application::bootstrap](yaf-application.bootstrap.html)
+-   [« YafApplication::bootstrap](yaf-application.bootstrap.html)
     
--   [Yaf\_Application::\_\_construct »](yaf-application.construct.html)
+-   [YafApplication::construct »](yaf-application.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Очищення інформації з останньої помилки
     

@@ -1,12 +1,12 @@
 Встановити розмір
 
--   [« UI\\Area::scrollTo](ui-area.scrollto.html)
+-   [« UIArea::scrollTo](ui-area.scrollto.html)
     
--   [UI\\Executor »](class.ui-executor.html)
+-   [ОЙExecutor »](class.ui-executor.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Area](class.ui-area.html)
+-   [ОЙArea](class.ui-area.html)
     
 -   Встановити розмір
     

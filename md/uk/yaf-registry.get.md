@@ -1,12 +1,12 @@
 Отримує елемент із реєстру
 
--   [« Yaf\_Registry::del](yaf-registry.del.html)
+-   [« YafRegistry::del](yaf-registry.del.html)
     
--   [Yaf\_Registry::has »](yaf-registry.has.html)
+-   [YafRegistry::has »](yaf-registry.has.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Registry](class.yaf-registry.html)
+-   [YafRegistry](class.yaf-registry.html)
     
 -   Отримує елемент із реєстру
     

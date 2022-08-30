@@ -1,8 +1,8 @@
 Дожі
 
--   [« trader\_cdldarkcloudcover](function.trader-cdldarkcloudcover.html)
+-   [« tradercdldarkcloudcover](function.trader-cdldarkcloudcover.html)
     
--   [trader\_cdldojistar »](function.trader-cdldojistar.html)
+-   [tradercdldojistar »](function.trader-cdldojistar.html)
     
 -   [PHP Manual](index.html)
     

@@ -16,7 +16,7 @@
 ## Зміст
 
 -   [Основы](language.errors.basics.html)
--   [Ошибки в PHP 7](language.errors.php7.html)
+-   [Помилки у PHP 7](language.errors.php7.html)
 
 ## Вступ
 

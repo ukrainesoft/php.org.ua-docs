@@ -96,5 +96,5 @@ array (
 ### Дивіться також
 
 -   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collator\_asort()](collator.asort.html) - Сортує масив із збереженням асоціації індексу
--   [collator\_sort\_with\_sort\_keys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [collatorasort()](collator.asort.html) - Сортує масив із збереженням асоціації індексу
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування

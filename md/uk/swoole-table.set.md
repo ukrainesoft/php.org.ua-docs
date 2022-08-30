@@ -1,12 +1,12 @@
 Оновлює рядок таблиці за $rowkey
 
--   [« Swoole\\Table::rewind](swoole-table.rewind.html)
+-   [« SwooleTable::rewind](swoole-table.rewind.html)
     
--   [Swoole\\Table::valid »](swoole-table.valid.html)
+-   [SwooleTable::valid »](swoole-table.valid.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Оновлює рядок таблиці за $rowkey
     

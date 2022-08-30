@@ -1,6 +1,6 @@
 Клас ReflectionNamedType
 
--   [« ReflectionMethod::\_\_toString](reflectionmethod.tostring.html)
+-   [« ReflectionMethod::toString](reflectionmethod.tostring.html)
     
 -   [ReflectionNamedType::getName »](reflectionnamedtype.getname.html)
     

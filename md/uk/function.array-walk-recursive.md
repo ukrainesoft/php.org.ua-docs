@@ -1,12 +1,12 @@
 Рекурсивно застосовує функцію користувача до кожного елементу масиву
 
--   [« array\_values](function.array-values.html)
+-   [« arrayvalues](function.array-values.html)
     
--   [array\_walk »](function.array-walk.html)
+-   [arraywalk »](function.array-walk.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Рекурсивно застосовує функцію користувача до кожного елементу масиву
     
@@ -77,4 +77,4 @@ sour содержит lemon
 
 ### Дивіться також
 
--   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву

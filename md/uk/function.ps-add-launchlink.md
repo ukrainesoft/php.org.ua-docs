@@ -1,12 +1,12 @@
 Додає посилання, яке запускає файл
 
--   [« ps\_add\_bookmark](function.ps-add-bookmark.html)
+-   [«psaddbookmark](function.ps-add-bookmark.html)
     
--   [ps\_add\_locallink »](function.ps-add-locallink.html)
+-   [псaddlocallink »](function.ps-add-locallink.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Додає посилання, яке запускає файл
     
@@ -31,7 +31,7 @@ ps_add_launchlink(    resource $psdoc,    float $llx,    float $lly,
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `llx`
 
@@ -59,6 +59,6 @@ ps_add_launchlink(    resource $psdoc,    float $llx,    float $lly,
 
 ### Дивіться також
 
--   [ps\_add\_locallink()](function.ps-add-locallink.html) - Додає посилання на сторінку того самого документа
--   [ps\_add\_pdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
--   [ps\_add\_weblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку
+-   [псaddlocallink()](function.ps-add-locallink.html) - Додає посилання на сторінку того самого документа
+-   [псaddpdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
+-   [псaddweblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку

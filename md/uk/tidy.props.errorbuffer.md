@@ -41,7 +41,7 @@ tidy_get_error_buffer(tidy $tidy): string|false
 
 ### Значення, що повертаються
 
-Повертає буфер помилки у вигляді рядка або **`false`**якщо буфер порожній.
+Повертає буфер помилки у вигляді рядка або \*\*`false`\*\*якщо буфер порожній.
 
 ### Приклади
 
@@ -68,6 +68,6 @@ line 1 column 1 - Warning: inserting missing 'title' element
 
 ### Дивіться також
 
--   [tidy\_access\_count()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
--   [tidy\_error\_count()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidy\_warning\_count()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінуті у зазначеному документі
+-   [tidyaccesscount()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidyerrorcount()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidywarningcount()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінуті у зазначеному документі

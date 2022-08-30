@@ -1,8 +1,8 @@
 Перетворення Гільберта - Phasor Components
 
--   [« trader\_ht\_dcphase](function.trader-ht-dcphase.html)
+-   [« traderхтdcphase](function.trader-ht-dcphase.html)
     
--   [trader\_ht\_sine »](function.trader-ht-sine.html)
+-   [traderхтsine »](function.trader-ht-sine.html)
     
 -   [PHP Manual](index.html)
     

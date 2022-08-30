@@ -1,6 +1,6 @@
 Ввести необхідні додатки властивості методу події
 
--   [« EventConfig::\_\_construct](eventconfig.construct.html)
+-   [« EventConfig::construct](eventconfig.construct.html)
     
 -   [EventConfig::setFlags »](eventconfig.setflags.html)
     
@@ -33,7 +33,7 @@ public
 
 `feature`
 
-Бітова маска потрібних властивостей. Дивіться [константы `EventConfig::FEATURE_*`](class.eventconfig.html#eventconfig.constants)
+Бітова маска потрібних властивостей. Дивіться [константы`EventConfig::FEATURE_*`](class.eventconfig.html#eventconfig.constants)
 
 ### Значення, що повертаються
 

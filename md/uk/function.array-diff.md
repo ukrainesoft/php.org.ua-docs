@@ -1,12 +1,12 @@
 Обчислити розбіжність масивів
 
--   [« array\_diff\_ukey](function.array-diff-ukey.html)
+-   [« arraydiffukey](function.array-diff-ukey.html)
     
--   [array\_fill\_keys »](function.array-fill-keys.html)
+-   [arrayfillkeys »](function.array-fill-keys.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Обчислити розбіжність масивів
     
@@ -101,7 +101,7 @@ $result = array_diff($source, $filter);
 ?>
 ```
 
-Щоб використати альтернативну функцію порівняння, дивіться [array\_udiff()](function.array-udiff.html)
+Щоб використати альтернативну функцію порівняння, дивіться [arrayudiff()](function.array-udiff.html)
 
 ### Примітки
 
@@ -111,7 +111,7 @@ $result = array_diff($source, $filter);
 
 ### Дивіться також
 
--   [array\_diff\_assoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
--   [array\_udiff()](function.array-udiff.html) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
--   [array\_intersect()](function.array-intersect.html) - обчислює сходження масивів
--   [array\_intersect\_assoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arrayudiff()](function.array-udiff.html) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
+-   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
+-   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу

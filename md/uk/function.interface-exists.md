@@ -1,12 +1,12 @@
 Перевіряє, чи визначено інтерфейс
 
--   [« get\_parent\_class](function.get-parent-class.html)
+-   [« getparentclass](function.get-parent-class.html)
     
--   [is\_a »](function.is-a.html)
+-   [ісa »](function.is-a.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи визначено інтерфейс
     
@@ -33,11 +33,11 @@ interface_exists(string $interface, bool $autoload = true): bool
 
 `autoload`
 
-Визначає, чи використовувати за промовчанням [\_\_autoload](language.oop5.autoload.html) чи ні
+Визначає, чи використовувати за промовчанням [autoload](language.oop5.autoload.html) чи ні
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо інтерфейс c заданим ім'ям `interface` був визначений або **`false`** в іншому випадку.
+Повертає \*\*`true`\*\*якщо інтерфейс c заданим ім'ям `interface` був визначений або **`false`** в іншому випадку.
 
 ### Приклади
 
@@ -58,7 +58,7 @@ if (interface_exists('MyInterface')) {
 
 ### Дивіться також
 
--   [get\_declared\_interfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
--   [class\_implements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
--   [class\_exists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [enum\_exists()](function.enum-exists.html) - Перевіряє, чи визначено перерахування
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
+-   [classimplements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [enumexists()](function.enum-exists.html) - Перевіряє, чи визначено перерахування

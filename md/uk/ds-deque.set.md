@@ -1,12 +1,12 @@
 Замінює значення за вказаним індексом
 
--   [« Ds\\Deque::rotate](ds-deque.rotate.html)
+-   [« DsDeque::rotate](ds-deque.rotate.html)
     
--   [Ds\\Deque::shift »](ds-deque.shift.html)
+-   [ДсDeque::shift »](ds-deque.shift.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Замінює значення за вказаним індексом
     

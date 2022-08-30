@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](xmlrpc.resources.html)
     
--   [Функции XML-RPC »](ref.xmlrpc.html)
+-   [Функції XML-RPC »](ref.xmlrpc.html)
     
 -   [PHP Manual](index.html)
     

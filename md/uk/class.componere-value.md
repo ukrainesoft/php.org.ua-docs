@@ -1,8 +1,8 @@
 Клас ComponereValue
 
--   [« Componere\\Method::getReflector](componere-method.getreflector.html)
+-   [« ComponereMethod::getReflector](componere-method.getreflector.html)
     
--   [Componere\\Value::\_\_construct »](componere-value.construct.html)
+-   [ComponereValue::construct »](componere-value.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -52,11 +52,11 @@ public hasDefault(): bool
 
 ## Зміст
 
--   [Componere\\Value::\_\_construct](componere-value.construct.html) - Конструктор класу Value
--   [Componere\\Value::setPrivate](componere-value.setprivate.html) — Зміна доступності
--   [Componere\\Value::setProtected](componere-value.setprotected.html) — Зміна доступності
--   [Componere\\Value::setStatic](componere-value.setstatic.html) — Зміна доступності
--   [Componere\\Value::isPrivate](componere-value.isprivate.html) — Визначення доступності
--   [Componere\\Value::isProtected](componere-value.isprotected.html) — Визначення доступності
--   [Componere\\Value::isStatic](componere-value.isstatic.html) — Визначення доступності
--   [Componere\\Value::hasDefault](componere-value.hasdefault.html) - Взаємодія з класом Value
+-   [ComponereValue::construct](componere-value.construct.html) - Конструктор класу Value
+-   [ComponereValue::setPrivate](componere-value.setprivate.html) — Зміна доступності
+-   [ComponereValue::setProtected](componere-value.setprotected.html) — Зміна доступності
+-   [ComponereValue::setStatic](componere-value.setstatic.html) — Зміна доступності
+-   [ComponereValue::isPrivate](componere-value.isprivate.html) — Визначення доступності
+-   [ComponereValue::isProtected](componere-value.isprotected.html) — Визначення доступності
+-   [ComponereValue::isStatic](componere-value.isstatic.html) — Визначення доступності
+-   [ComponereValue::hasDefault](componere-value.hasdefault.html) - Взаємодія з класом Value

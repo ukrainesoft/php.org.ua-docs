@@ -43,7 +43,7 @@ numfmt_get_text_attribute(NumberFormatter $formatter, int $attribute): string|fa
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [текстового атрибута](class.numberformatter.html#intl.numberformatter-constants.unumberformattextattribute)
+Специфікатор атрибуту - одна з констант [текстового атрибуту](class.numberformatter.html#intl.numberformatter-constants.unumberformattextattribute)
 
 ### Значення, що повертаються
 
@@ -88,6 +88,6 @@ MINUS1.234.567,891
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_get\_attribute()](numberformatter.getattribute.html) - Отримує атрибут
--   [numfmt\_set\_text\_attribute()](numberformatter.settextattribute.html) - Встановлює текстовий атрибут
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtgetattribute()](numberformatter.getattribute.html) - Отримує атрибут
+-   [numfmtsettextattribute()](numberformatter.settextattribute.html) - Встановлює текстовий атрибут

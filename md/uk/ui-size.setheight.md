@@ -1,12 +1,12 @@
 Встановити висоту
 
--   [« UI\\Size::of](ui-size.of.html)
+-   [« UISize::of](ui-size.of.html)
     
--   [UI\\Size::setWidth »](ui-size.setwidth.html)
+-   [ОЙSize::setWidth »](ui-size.setwidth.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Size](class.ui-size.html)
+-   [ОЙSize](class.ui-size.html)
     
 -   Встановити висоту
     

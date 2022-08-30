@@ -1,8 +1,8 @@
 Клас SwooleEvent
 
--   [« Swoole\\Coroutine::suspend](swoole-coroutine.suspend.html)
+-   [« SwooleCoroutine::suspend](swoole-coroutine.suspend.html)
     
--   [Swoole\\Event::add »](swoole-event.add.html)
+-   [SwooleEvent::add »](swoole-event.add.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,10 +45,10 @@ public static write(string $fd, string $data): void
 
 ## Зміст
 
--   [Swoole\\Event::add](swoole-event.add.html) — Додає нові callback функції сокету в EventLoop
--   [Swoole\\Event::defer](swoole-event.defer.html) — Додає callback-функцію до наступного циклу подій
--   [Swoole\\Event::del](swoole-event.del.html) - Видаляє всі callback-функції події сокету
--   [Swoole\\Event::exit](swoole-event.exit.html) — Виходить із циклу подій, доступно лише на стороні клієнта
--   [Swoole\\Event::set](swoole-event.set.html) - Оновлює callback-функції події сокету
--   [Swoole\\Event::wait](swoole-event.wait.html) - Опис
--   [Swoole\\Event::write](swoole-event.write.html) - Записує дані в сокет
+-   [SwooleEvent::add](swoole-event.add.html) — Додає нові callback функції сокету в EventLoop
+-   [SwooleEvent::defer](swoole-event.defer.html) — Додає callback-функцію до наступного циклу подій
+-   [SwooleEvent::del](swoole-event.del.html) - Видаляє всі callback-функції події сокету
+-   [SwooleEvent::exit](swoole-event.exit.html) — Виходить із циклу подій, доступно лише на стороні клієнта
+-   [SwooleEvent::set](swoole-event.set.html) - Оновлює callback-функції події сокету
+-   [SwooleEvent::wait](swoole-event.wait.html) - Опис
+-   [SwooleEvent::write](swoole-event.write.html) - Записує дані в сокет

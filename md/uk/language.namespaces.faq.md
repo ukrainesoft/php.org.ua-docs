@@ -19,21 +19,21 @@
 
 Спершу, спільні питання.
 
-1.  [Если я не использую пространства имён, следует ли считать что-либо из этого важным?](language.namespaces.faq.html#language.namespaces.faq.shouldicare)
-2.  [Как мне использовать внутренние или глобальные классы в пространстве имён?](language.namespaces.faq.html#language.namespaces.faq.globalclass)
-3.  [Как мне использовать функции классов в пространствах имён, или константы в их собственном пространстве имён?](language.namespaces.faq.html#language.namespaces.faq.innamespace)
-4.  [Как такое имя как `\my\name` или `\name` преобразуется?](language.namespaces.faq.html#language.namespaces.faq.full)
-5.  [Как такое имя, как `my\name` преобразуется?](language.namespaces.faq.html#language.namespaces.faq.qualified)
-6.  [Как неполное имя класса такое как `name` преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname1)
-7.  [Как неполное имя функции или неполное имя константы такое как `name` преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname2)
+1.  [Якщо я не використовую простору імен, чи слід вважати щось із цього важливим?](language.namespaces.faq.html#language.namespaces.faq.shouldicare)
+2.  [Як мені використовувати внутрішні чи глобальні класи у просторі імен?](language.namespaces.faq.html#language.namespaces.faq.globalclass)
+3.  [Як мені використовувати функції класів у просторах імен, чи константи у їхньому власному просторі імен?](language.namespaces.faq.html#language.namespaces.faq.innamespace)
+4.  [Как такое имя как`\my\name`или`\name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.full)
+5.  [Как такое имя, как`my\name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.qualified)
+6.  [Как неполное имя класса такое как`name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname1)
+7.  [Как неполное имя функции или неполное имя константы такое как`name`преобразуется?](language.namespaces.faq.html#language.namespaces.faq.shortname2)
 
 Деякі деталі реалізації просторів імен, які корисно розуміти.
 
-1.  [Импортируемые имена не должны конфликтовать с классами, определёнными в том же файле.](language.namespaces.faq.html#language.namespaces.faq.conflict)
-2.  [Вложенные пространства имён недопустимы.](language.namespaces.faq.html#language.namespaces.faq.nested)
-3.  [Динамические имена пространств имён (идентификаторы, взятые в кавычки) должны экранировать символ обратного слеша.](language.namespaces.faq.html#language.namespaces.faq.quote)
-4.  [Ссылаться на неопределённые константы, используя обратный слеш, нельзя. Выводится фатальная ошибка](language.namespaces.faq.html#language.namespaces.faq.constants)
-5.  [Невозможно переопределить специальные константы, такие как NULL, TRUE, FALSE, ZEND\_THREAD\_SAFE или ZEND\_DEBUG\_BUILD](language.namespaces.faq.html#language.namespaces.faq.builtinconst)
+1.  [Імпортовані імена не повинні конфліктувати з класами, визначеними в файлі.](language.namespaces.faq.html#language.namespaces.faq.conflict)
+2.  [Вкладені простори імен неприпустимі.](language.namespaces.faq.html#language.namespaces.faq.nested)
+3.  [Динамічні імена просторів імен (ідентифікатори, взяті в лапки) повинні екранувати символ зворотного слішу.](language.namespaces.faq.html#language.namespaces.faq.quote)
+4.  [Посилатися на невизначені константи, використовуючи зворотний сліш, не можна. Виводиться фатальна помилка](language.namespaces.faq.html#language.namespaces.faq.constants)
+5.  [Неможливо перевизначити спеціальні константи, такі як NULL, TRUE, FALSE, ZENDTHREADSAFE или ZENDDEBUGBUILD](language.namespaces.faq.html#language.namespaces.faq.builtinconst)
 
 ### Якщо я не використовую простору імен, чи слід вважати щось із цього важливим?
 

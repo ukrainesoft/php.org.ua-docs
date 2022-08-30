@@ -1,6 +1,6 @@
 Подає зазначені події у цикл подій
 
--   [« EvWatcher::\_\_construct](evwatcher.construct.html)
+-   [« EvWatcher::construct](evwatcher.construct.html)
     
 -   [EvWatcher::getLoop »](evwatcher.getloop.html)
     
@@ -33,7 +33,7 @@ public
 
 `revents`
 
-Бітова маска спостерігача [принятых событий](class.ev.html#ev.constants.watcher-revents)
+Бітова маска спостерігача [прийнятих подій](class.ev.html#ev.constants.watcher-revents)
 
 ### Значення, що повертаються
 

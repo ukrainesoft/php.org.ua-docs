@@ -2,7 +2,7 @@ Amazon EC2
 
 -   [« Azure App Services](install.cloud.azure.html)
     
--   [Менеджер процессов FastCGI (FPM) »](install.fpm.html)
+-   [Менеджер процесів FastCGI (FPM)](install.fpm.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Індикатор Aroon
 
--   [« trader\_apo](function.trader-apo.html)
+-   [« traderapo](function.trader-apo.html)
     
--   [trader\_aroonosc »](function.trader-aroonosc.html)
+-   [traderaroonosc »](function.trader-aroonosc.html)
     
 -   [PHP Manual](index.html)
     

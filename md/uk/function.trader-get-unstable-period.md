@@ -1,8 +1,8 @@
 Отримує нестабільний період
 
--   [« trader\_get\_compat](function.trader-get-compat.html)
+-   [« tradergetcompat](function.trader-get-compat.html)
     
--   [trader\_ht\_dcperiod »](function.trader-ht-dcperiod.html)
+-   [traderхтdcperiod »](function.trader-ht-dcperiod.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ trader_get_unstable_period(int $functionId): int
 
 `functionId`
 
-Ідентифікатор функції, для якого необхідно прочитати фактор. Слід використовувати серію констант [TRADER\_FUNC\_UNST\_\*](trader.constants.html)
+Ідентифікатор функції, для якого необхідно прочитати фактор. Слід використовувати серію констант [TRADERFUNCUNST](trader.constants.html)
 
 ### Значення, що повертаються
 

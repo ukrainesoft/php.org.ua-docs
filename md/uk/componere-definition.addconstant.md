@@ -1,12 +1,12 @@
 Додає константу
 
--   [« Componere\\Definition::\_\_construct](componere-definition.construct.html)
+-   [« ComponereDefinition::construct](componere-definition.construct.html)
     
--   [Componere\\Definition::addProperty »](componere-definition.addproperty.html)
+-   [ComponereDefinition::addProperty »](componere-definition.addproperty.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Додає константу
     

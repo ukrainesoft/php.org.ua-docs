@@ -1,12 +1,12 @@
 Сортує записи LDAP
 
--   [« ldap\_set\_rebind\_proc](function.ldap-set-rebind-proc.html)
+-   [« ldapsetrebindproc](function.ldap-set-rebind-proc.html)
     
--   [ldap\_start\_tls »](function.ldap-start-tls.html)
+-   [ldapstarttls »](function.ldap-start-tls.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Сортує записи LDAP
     
@@ -27,19 +27,19 @@ ldapsort — Сортування записів LDAP
 ldap_sort(resource $link, resource $result, string $sortfilter): bool
 ```
 
-Сортує результат запиту LDAP, який повертається функцією [ldap\_search()](function.ldap-search.html)
+Сортує результат запиту LDAP, який повертається функцією [ldapsearch()](function.ldap-search.html)
 
-Так як ця функція сортує результат на стороні клієнта, ви можете отримати не ті результати, які очікували у випадку, якщо був перевищений ліміт `sizelimit` на стороні сервера або вказаний у [ldap\_search()](function.ldap-search.html)
+Так як ця функція сортує результат на стороні клієнта, ви можете отримати не ті результати, які очікували у випадку, якщо був перевищений ліміт `sizelimit` на стороні сервера або вказаний у [ldapsearch()](function.ldap-search.html)
 
 ### Список параметрів
 
 `link`
 
-Ресурс LDAP, який повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `result`
 
-Дескриптор результату пошуку, що повертається функцією [ldap\_search()](function.ldap-search.html)
+Дескриптор результату пошуку, що повертається функцією [ldapsearch()](function.ldap-search.html)
 
 `sortfilter`
 

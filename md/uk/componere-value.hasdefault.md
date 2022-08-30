@@ -1,12 +1,12 @@
 Взаємодія з класом Value
 
--   [« Componere\\Value::isStatic](componere-value.isstatic.html)
+-   [« ComponereValue::isStatic](componere-value.isstatic.html)
     
 -   [Функции Componere »](reference.componere.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Взаємодія з класом Value
     

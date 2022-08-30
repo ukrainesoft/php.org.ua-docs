@@ -1,12 +1,12 @@
 Клас MongoDBDriverCursor
 
--   [« MongoDB\\Driver\\ReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html)
+-   [« MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html)
     
--   [MongoDB\\Driver\\Cursor::\_\_construct »](mongodb-driver-cursor.construct.html)
+-   [MongoDBDriverCursor::construct »](mongodb-driver-cursor.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverCursor
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **MongoDBDriverCursor** містить результати команди MongoDB command або запиту та може бути повернутий [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.html) або [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.html) відповідно.
+Клас **MongoDBDriverCursor** містить результати команди MongoDB command або запиту та може бути повернутий [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html) або [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html) відповідно.
 
 ## Огляд класів
 
@@ -54,16 +54,16 @@ public valid(): bool
 
 ## список змін
 
-| Версия             | Описание                                                                                                                                      |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.html)                                                                                                      |
-| PECL mongodb 1.6.0 | Реалізує [MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.html), який успадковує [Traversable](class.traversable.html) |
+| Версия             | Описание                                                                                                                                  |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.html)                                                                                                  |
+| PECL mongodb 1.6.0 | Реалізує [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html), який успадковує [Traversable](class.traversable.html) |
 
 ## Приклади
 
 **Приклад #1 Reading a result set**
 
-Як [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.html), так [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.html), повертають свої результати у вигляді об'єкту **MongoDBDriverCursor**
+Як [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html), так [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.html), повертають свої результати у вигляді об'єкту **MongoDBDriverCursor**
 
 Оскільки **MongoDBDriverCursor** реалізує інтерфейс [Traversable](class.traversable.html), ви можете ітерувати за набором результату за допомогою [`foreach`](control-structures.foreach.html)
 
@@ -122,7 +122,7 @@ stdClass Object
 
 **Приклад #2 Читання результатів для хвостового курсору**
 
-[» Хвостовые курсоры](https://www.mongodb.com/docs/manual/core/tailable-cursors) - - це особливий тип курсору MongoDB, який дозволяє клієнту читати деякі результати, а потім чекати, доки не з'являться додаткові документи. Ці курсори в основному використовуються з [» Capped Collections](https://www.mongodb.com/docs/manual/core/capped-collections) і [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams)
+[» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors) - - це особливий тип курсору MongoDB, який дозволяє клієнту читати деякі результати, а потім чекати, доки не з'являться додаткові документи. Ці курсори в основному використовуються з [» Capped Collections](https://www.mongodb.com/docs/manual/core/capped-collections) і [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams)
 
 Хоча звичайні курсори можна ітерувати один раз за допомогою `foreach`, цей підхід не працюватиме з хвостовими курсорами. Коли `foreach` використовується з хвостовим курсором, цикл зупиняється після досягнення кінця початкового набору результатів. Спроба продовжити ітерацію курсору з другим `foreach` викинути виняток, оскільки PHP намагається перемотати курсор. Подібно до об'єктів результатів в інших драйверах баз даних, курсори в MongoDB підтримують лише ітерацію вперед, що означає, що вони не можуть бути перемотані.
 
@@ -152,7 +152,7 @@ while (true) {
 ?>
 ```
 
-Коли скрипт продюсера (producer) все ще запущений, може бути виконаний другий скрипт для читання вставлених документів за допомогою хвостового (tailable) курсора, позначеного параметрами `tailable` і `awaitData` для [MongoDB\\Driver\\Query::\_\_construct()](mongodb-driver-query.construct.html)
+Коли скрипт продюсера (producer) все ще запущений, може бути виконаний другий скрипт для читання вставлених документів за допомогою хвостового (tailable) курсора, позначеного параметрами `tailable` і `awaitData` для [MongoDBDriverQuery::construct()](mongodb-driver-query.construct.html)
 
 ```php
 <?php
@@ -190,19 +190,19 @@ while (true) {
 
 При ітерації об'єктом курсору дані BSON перетворюються на змінні PHP. Ця ітерація може викликати такі винятки:
 
--   Викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо клас на карті типів не може бути створений або не реалізує [MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.html)
--   Виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
+-   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо клас на карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
+-   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ## Зміст
 
--   [MongoDB\\Driver\\Cursor::\_\_construct](mongodb-driver-cursor.construct.html) - Створює новий об'єкт Cursor (не використовується)
--   [MongoDB\\Driver\\Cursor::current](mongodb-driver-cursor.current.html) — Повертає поточний елемент
--   [MongoDB\\Driver\\Cursor::getId](mongodb-driver-cursor.getid.html) — Повертає ідентифікатор для курсору
--   [MongoDB\\Driver\\Cursor::getServer](mongodb-driver-cursor.getserver.html) — Повертає сервер, пов'язаний із курсором
--   [MongoDB\\Driver\\Cursor::isDead](mongodb-driver-cursor.isdead.html) — Перевіряє, чи курсор вичерпано, чи може містити додаткові результати.
--   [MongoDB\\Driver\\Cursor::key](mongodb-driver-cursor.key.html) — Повертає індекс поточного результату у курсорі
--   [MongoDB\\Driver\\Cursor::next](mongodb-driver-cursor.next.html) — Переміщує курсор на наступний результат
--   [MongoDB\\Driver\\Cursor::rewind](mongodb-driver-cursor.rewind.html) — Переміщує курсор до першого результату
--   [MongoDB\\Driver\\Cursor::setTypeMap](mongodb-driver-cursor.settypemap.html) — Встановлює карту типу для десеріалізації BSON
--   [MongoDB\\Driver\\Cursor::toArray](mongodb-driver-cursor.toarray.html) — Повертає масив, що містить усі результати курсору
--   [MongoDB\\Driver\\Cursor::valid](mongodb-driver-cursor.valid.html) — Перевіряє, чи поточна позиція курсору коректна.
+-   [MongoDBDriverCursor::construct](mongodb-driver-cursor.construct.html) - Створює новий об'єкт Cursor (не використовується)
+-   [MongoDBDriverCursor::current](mongodb-driver-cursor.current.html) — Повертає поточний елемент
+-   [MongoDBDriverCursor::getId](mongodb-driver-cursor.getid.html) — Повертає ідентифікатор для курсору
+-   [MongoDBDriverCursor::getServer](mongodb-driver-cursor.getserver.html) — Повертає сервер, пов'язаний із курсором
+-   [MongoDBDriverCursor::isDead](mongodb-driver-cursor.isdead.html) — Перевіряє, чи курсор вичерпано, чи може містити додаткові результати.
+-   [MongoDBDriverCursor::key](mongodb-driver-cursor.key.html) — Повертає індекс поточного результату у курсорі
+-   [MongoDBDriverCursor::next](mongodb-driver-cursor.next.html) — Переміщує курсор на наступний результат
+-   [MongoDBDriverCursor::rewind](mongodb-driver-cursor.rewind.html) — Переміщує курсор до першого результату
+-   [MongoDBDriverCursor::setTypeMap](mongodb-driver-cursor.settypemap.html) — Встановлює карту типу для десеріалізації BSON
+-   [MongoDBDriverCursor::toArray](mongodb-driver-cursor.toarray.html) — Повертає масив, що містить усі результати курсору
+-   [MongoDBDriverCursor::valid](mongodb-driver-cursor.valid.html) — Перевіряє, чи поточна позиція курсору коректна.

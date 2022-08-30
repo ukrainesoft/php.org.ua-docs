@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу Вейбулла за рештою
 
--   [« stats\_cdf\_uniform](function.stats-cdf-uniform.html)
+-   [« statscdfuniform](function.stats-cdf-uniform.html)
     
--   [stats\_covariance »](function.stats-covariance.html)
+-   [statscovariance »](function.stats-covariance.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу Вейбулла за рештою
     

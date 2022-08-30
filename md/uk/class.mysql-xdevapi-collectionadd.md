@@ -2,11 +2,11 @@
 
 -   [« Collection::replaceOne](mysql-xdevapi-collection.replaceone.html)
     
--   [CollectionAdd::\_\_construct »](mysql-xdevapi-collectionadd.construct.html)
+-   [CollectionAdd::construct »](mysql-xdevapi-collectionadd.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас CollectionAdd
     
@@ -41,5 +41,5 @@
 
 ## Зміст
 
--   [CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.html) - Конструктор класу CollectionAdd
+-   [CollectionAdd::construct](mysql-xdevapi-collectionadd.construct.html) - Конструктор класу CollectionAdd
 -   [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.html) - Виконує твердження

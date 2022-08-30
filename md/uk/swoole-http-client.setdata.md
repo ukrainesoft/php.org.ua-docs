@@ -1,12 +1,12 @@
 Встановлює дані тіла HTTP-запиту
 
--   [« Swoole\\Http\\Client::setCookies](swoole-http-client.setcookies.html)
+-   [« SwooleHttpClient::setCookies](swoole-http-client.setcookies.html)
     
--   [Swoole\\Http\\Client::setHeaders »](swoole-http-client.setheaders.html)
+-   [SwooleHttpClient::setHeaders »](swoole-http-client.setheaders.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Встановлює дані тіла HTTP-запиту
     

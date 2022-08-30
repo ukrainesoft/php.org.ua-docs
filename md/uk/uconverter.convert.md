@@ -1,6 +1,6 @@
 Конвертувати рядок з одного кодування в інше
 
--   [« UConverter::\_\_construct](uconverter.construct.html)
+-   [« UConverter::construct](uconverter.construct.html)
     
 -   [UConverter::fromUCallback »](uconverter.fromucallback.html)
     

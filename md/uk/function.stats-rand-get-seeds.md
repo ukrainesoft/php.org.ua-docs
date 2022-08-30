@@ -1,12 +1,12 @@
 Отримує початкові значення генератора випадкових чисел
 
--   [« stats\_rand\_gen\_t](function.stats-rand-gen-t.html)
+-   [« statsrandgenт](function.stats-rand-gen-t.html)
     
--   [stats\_rand\_phrase\_to\_seeds »](function.stats-rand-phrase-to-seeds.html)
+-   [statsrandphraseтоseeds »](function.stats-rand-phrase-to-seeds.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Отримує початкові значення генератора випадкових чисел
     

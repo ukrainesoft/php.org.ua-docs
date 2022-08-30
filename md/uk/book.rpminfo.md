@@ -1,12 +1,12 @@
 RpmInfo
 
--   [« ps\_translate](function.ps-translate.html)
+-   [«pstranslate](function.ps-translate.html)
     
 -   [Введение »](intro.rpminfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Генерация нетекстовых MIME-форматов](refs.utilspec.nontext.html)
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
     
 -   RpmInfo
     
@@ -20,7 +20,7 @@ RpmInfo
     -   [Настройка во время выполнения](rpminfo.configuration.html)
     -   [Типы ресурсов](rpminfo.resources.html)
 -   [Предопределённые константы](rpminfo.constants.html)
--   [Функции RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.html)
     -   [rpmaddtag](function.rpmaddtag.html) — Додає тег, отриманий у запиті
     -   [rpmdbinfo](function.rpmdbinfo.html) — Отримує інформацію від встановленого RPM
     -   [rpmdbsearch](function.rpmdbsearch.html) - Пошук RPM-пакетів

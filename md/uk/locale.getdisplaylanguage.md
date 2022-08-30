@@ -91,7 +91,7 @@ Slowenisch
 
 ### Дивіться також
 
--   [locale\_get\_display\_name()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
--   [locale\_get\_display\_script()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [locale\_get\_display\_region()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
--   [locale\_get\_display\_variant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [localegetdisplayname()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
+-   [localegetdisplayscript()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [localegetdisplayregion()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
+-   [localegetdisplayvariant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі

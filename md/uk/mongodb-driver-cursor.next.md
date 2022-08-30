@@ -1,12 +1,12 @@
 Переміщує курсор на наступний результат
 
--   [« MongoDB\\Driver\\Cursor::key](mongodb-driver-cursor.key.html)
+-   [« MongoDBDriverCursor::key](mongodb-driver-cursor.key.html)
     
--   [MongoDB\\Driver\\Cursor::rewind »](mongodb-driver-cursor.rewind.html)
+-   [MongoDBDriverCursor::rewind »](mongodb-driver-cursor.rewind.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Переміщує курсор на наступний результат
     
@@ -33,9 +33,9 @@ public MongoDB\Driver\Cursor::next(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.html)
--   У разі невдалої аутентифікації кидає виняток [MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.html)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
 
 ### Дивіться також
 

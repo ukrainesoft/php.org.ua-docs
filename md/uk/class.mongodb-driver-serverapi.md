@@ -1,12 +1,12 @@
 Клас MongoDBDriverServerApi
 
--   [« MongoDB\\Driver\\ClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.html)
+-   [« MongoDBDriverClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.html)
     
--   [MongoDB\\Driver\\ServerApi::bsonSerialize »](mongodb-driver-serverapi.bsonserialize.html)
+-   [MongoDBDriverServerApi::bsonSerialize »](mongodb-driver-serverapi.bsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverServerApi
     
@@ -130,7 +130,7 @@ Provided apiStrict:true, but the command buildInfo is not in API Version 1
 
 ## Зміст
 
--   [MongoDB\\Driver\\ServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
--   [MongoDB\\Driver\\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.html) — Створює новий примірник ServerApi
--   [MongoDB\\Driver\\ServerApi::serialize](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
--   [MongoDB\\Driver\\ServerApi::unserialize](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi
+-   [MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
+-   [MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.html) — Створює новий примірник ServerApi
+-   [MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.html) - Серіалізує ServerApi
+-   [MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi

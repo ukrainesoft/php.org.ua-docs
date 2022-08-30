@@ -1,12 +1,12 @@
 Отримує шлях зареєстрованого простору імен
 
--   [« Yaf\_Loader::getLocalNamespace](yaf-loader.getlocalnamespace.html)
+-   [« YafLoader::getLocalNamespace](yaf-loader.getlocalnamespace.html)
     
--   [Yaf\_Loader::getLocalNamespace »](yaf-loader.getnamespaces.html)
+-   [YafLoader::getLocalNamespace »](yaf-loader.getnamespaces.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Отримує шлях зареєстрованого простору імен
     
@@ -37,7 +37,7 @@ string шлях, якщо простір імен не зареєстрован�
 
 ### Приклади
 
-**Приклад #1 Приклад використання [Yaf\_Loader::registerNamespace()](yaf-loader.registernamespace.html)**
+**Приклад #1 Приклад використання [YafLoader::registerNamespace()](yaf-loader.registernamespace.html)**
 
 ```php
 <?php

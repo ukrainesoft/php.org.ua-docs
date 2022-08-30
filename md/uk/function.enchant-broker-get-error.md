@@ -1,8 +1,8 @@
 Повертає останню помилку брокера
 
--   [« enchant\_broker\_get\_dict\_path](function.enchant-broker-get-dict-path.html)
+-   [« enchantbrokergetdictpath](function.enchant-broker-get-dict-path.html)
     
--   [enchant\_broker\_init »](function.enchant-broker-init.html)
+-   [enchantbrokerinit »](function.enchant-broker-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_get_error(EnchantBroker $broker): string|false
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 

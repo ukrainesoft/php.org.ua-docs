@@ -1,8 +1,8 @@
 Витягує з кеша змінну змінну
 
--   [« apcu\_exists](function.apcu-exists.html)
+-   [« apcuexists](function.apcu-exists.html)
     
--   [apcu\_inc »](function.apcu-inc.html)
+-   [apcuinc »](function.apcu-inc.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ apcu_fetch(mixed $key, bool &$success = ?): mixed
 
 `key`
 
-Ключ `key`, під яким запис було збережено в кеш (за допомогою [apcu\_store()](function.apcu-store.html)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
+Ключ `key`, під яким запис було збережено в кеш (за допомогою [apcustore()](function.apcu-store.html)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
 
 `success`
 
@@ -65,6 +65,6 @@ string(3) "BAR"
 
 ### Дивіться також
 
--   [apcu\_store()](function.apcu-store.html) - Кешує змінну
--   [apcu\_delete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcustore()](function.apcu-store.html) - Кешує змінну
+-   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
 -   [APCUIterator](class.apcuiterator.html)

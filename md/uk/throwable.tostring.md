@@ -33,4 +33,4 @@ abstract public Throwable::__toString(): string
 
 ### Дивіться також
 
--   [Exception::\_\_toString()](exception.tostring.html) - Строкове подання виключення
+-   [Exception::toString()](exception.tostring.html) - Строкове подання виключення

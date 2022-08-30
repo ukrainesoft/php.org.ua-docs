@@ -1,8 +1,8 @@
 Порівняння рядків, нечутливе до атак за часом
 
--   [« hash\_copy](function.hash-copy.html)
+-   [« hashcopy](function.hash-copy.html)
     
--   [hash\_file »](function.hash-file.html)
+-   [hashfile »](function.hash-file.html)
     
 -   [PHP Manual](index.html)
     

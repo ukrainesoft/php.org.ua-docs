@@ -6,7 +6,7 @@ URL-кодування рядка
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   URL-кодування рядка
     

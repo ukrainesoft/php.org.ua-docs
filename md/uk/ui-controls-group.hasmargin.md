@@ -1,12 +1,12 @@
 Визначення поля
 
--   [« UI\\Controls\\Group::getTitle](ui-controls-group.gettitle.html)
+-   [« UIControlsGroup::getTitle](ui-controls-group.gettitle.html)
     
--   [UI\\Controls\\Group::setMargin »](ui-controls-group.setmargin.html)
+-   [ОЙControlsGroup::setMargin »](ui-controls-group.setmargin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Group](class.ui-controls-group.html)
+-   [ОЙControlsGroup](class.ui-controls-group.html)
     
 -   Визначення поля
     

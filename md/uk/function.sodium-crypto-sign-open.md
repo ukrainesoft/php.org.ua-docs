@@ -1,8 +1,8 @@
 Перевірити, що підписане повідомлення має коректний підпис
 
--   [« sodium\_crypto\_sign\_keypair](function.sodium-crypto-sign-keypair.html)
+-   [« sodiumcryptosignkeypair](function.sodium-crypto-sign-keypair.html)
     
--   [sodium\_crypto\_sign\_publickey\_from\_secretkey »](function.sodium-crypto-sign-publickey-from-secretkey.html)
+-   [sodiumcryptosignpublickeyfromsecretkey »](function.sodium-crypto-sign-publickey-from-secretkey.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_sign_open(string $signed_message, string $public_key): string|fals
 
 `signed_message`
 
-Повідомлення, підписане [sodium\_crypto\_sign()](function.sodium-crypto-sign.html)
+Повідомлення, підписане [sodiumcryptosign()](function.sodium-crypto-sign.html)
 
 `public_key`
 

@@ -1,12 +1,12 @@
 Отримати верхній рівень
 
--   [« UI\\Control::getParent](ui-control.getparent.html)
+-   [« UIControl::getParent](ui-control.getparent.html)
     
--   [UI\\Control::hide »](ui-control.hide.html)
+-   [ОЙControl::hide »](ui-control.hide.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Отримати верхній рівень
     

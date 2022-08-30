@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас CallbackFilterIterator
     
@@ -111,4 +111,4 @@ $files = new CallbackFilterIterator($dir, function ($current, $key, $iter
 ## Зміст
 
 -   [CallbackFilterIterator::accept](callbackfilteriterator.accept.html) — Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
--   [CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.html) — Створює ітератор, що фільтрує, на основі іншого ітератора.
+-   [CallbackFilterIterator::construct](callbackfilteriterator.construct.html) — Створює ітератор, що фільтрує, на основі іншого ітератора.

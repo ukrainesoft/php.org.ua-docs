@@ -1,12 +1,12 @@
 Повертає компонент позначки часу Timestamp
 
--   [« MongoDB\\BSON\\Timestamp::getIncrement](mongodb-bson-timestamp.getincrement.html)
+-   [« MongoDBBSONTimestamp::getIncrement](mongodb-bson-timestamp.getincrement.html)
     
--   [MongoDB\\BSON\\Timestamp::jsonSerialize »](mongodb-bson-timestamp.jsonserialize.html)
+-   [MongoDBBSONTimestamp::jsonSerialize »](mongodb-bson-timestamp.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
+-   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
 -   Повертає компонент позначки часу Timestamp
     
@@ -41,7 +41,7 @@ final public MongoDB\BSON\Timestamp::getTimestamp(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 

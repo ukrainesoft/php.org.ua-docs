@@ -1,8 +1,8 @@
 Виконує запит користувача як будь-який інший eio виклик
 
--   [« eio\_close](function.eio-close.html)
+-   [« eioclose](function.eio-close.html)
     
--   [eio\_dup2 »](function.eio-dup2.html)
+-   [eiodup2 »](function.eio-dup2.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

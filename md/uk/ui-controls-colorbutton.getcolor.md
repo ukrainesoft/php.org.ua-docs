@@ -1,12 +1,12 @@
 Отримати об'єкт Color
 
--   [« UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html)
+-   [« UIControlsColorButton](class.ui-controls-colorbutton.html)
     
--   [UI\\Controls\\ColorButton::onChange »](ui-controls-colorbutton.onchange.html)
+-   [ОЙControlsColorButton::onChange »](ui-controls-colorbutton.onchange.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html)
+-   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
     
 -   Отримати об'єкт Color
     

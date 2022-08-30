@@ -1,8 +1,8 @@
 Розташування файлів з мовними даними
 
--   [« pspell\_config\_create](function.pspell-config-create.html)
+-   [« pspellconfigcreate](function.pspell-config-create.html)
     
--   [pspell\_config\_dict\_dir »](function.pspell-config-dict-dir.html)
+-   [pspellconfigdictdir »](function.pspell-config-dict-dir.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,6 +33,6 @@ pspell_config_data_dir(PSpell\Config $config, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

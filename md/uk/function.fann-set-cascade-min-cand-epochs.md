@@ -1,8 +1,8 @@
 Встановлює найменший період кандидата
 
--   [« fann\_set\_cascade\_max\_out\_epochs](function.fann-set-cascade-max-out-epochs.html)
+-   [« fannsetcascademaxoutepochs](function.fann-set-cascade-max-out-epochs.html)
     
--   [fann\_set\_cascade\_min\_out\_epochs »](function.fann-set-cascade-min-out-epochs.html)
+-   [fannsetcascademinoutepochs »](function.fann-set-cascade-min-out-epochs.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,4 +47,4 @@ fann_set_cascade_min_cand_epochs(resource $ann, int $cascade_min_cand_epochs): b
 
 ### Дивіться також
 
--   [fann\_get\_cascade\_min\_cand\_epochs()](function.fann-get-cascade-min-cand-epochs.html) - отримує найменший період кандидата
+-   [fanngetcascademincandepochs()](function.fann-get-cascade-min-cand-epochs.html) - отримує найменший період кандидата

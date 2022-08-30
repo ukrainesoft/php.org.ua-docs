@@ -2,11 +2,11 @@
 
 -   [« Введение](intro.fpm.html)
     
--   [Наблюдаемость »](fpm.observability.html)
+-   [Спостережливість »](fpm.observability.html)
     
 -   [PHP Manual](index.html)
     
--   [Менеджер процессов FastCGI](book.fpm.html)
+-   [Менеджер процесів FastCGI](book.fpm.html)
     
 -   Встановлення та налаштування
     

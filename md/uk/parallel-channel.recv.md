@@ -1,12 +1,12 @@
 Спільне використання
 
--   [« parallel\\Channel::open](parallel-channel.open.html)
+-   [« parallelChannel::open](parallel-channel.open.html)
     
--   [parallel\\Channel::send »](parallel-channel.send.html)
+-   [parallelChannel::send »](parallel-channel.send.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Channel](class.parallel-channel.html)
+-   [parallelChannel](class.parallel-channel.html)
     
 -   Спільне використання
     

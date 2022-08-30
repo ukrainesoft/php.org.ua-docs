@@ -1,8 +1,8 @@
 Перетворює колекцію на array
 
--   [« Ds\\Map::sum](ds-map.sum.html)
+-   [« DsMap::sum](ds-map.sum.html)
     
--   [Ds\\Map::union »](ds-map.union.html)
+-   [ДсMap::union »](ds-map.union.html)
     
 -   [PHP Manual](index.html)
     

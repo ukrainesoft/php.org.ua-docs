@@ -2,7 +2,7 @@
 
 -   [« Подключения и управление подключениями](pdo.connections.html)
     
--   [Подготовленные запросы и хранимые процедуры »](pdo.prepared-statements.html)
+-   [Підготовлені запити та процедури, що зберігаються »](pdo.prepared-statements.html)
     
 -   [PHP Manual](index.html)
     

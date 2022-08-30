@@ -1,6 +1,6 @@
 Отримати текстове уявлення SoapFault
 
--   [« SoapFault::\_\_construct](soapfault.construct.html)
+-   [« SoapFault::construct](soapfault.construct.html)
     
 -   [SoapHeader »](class.soapheader.html)
     

@@ -1,12 +1,12 @@
 Встановлення/отримання стандартних значень для налаштувань функцій mbregex
 
--   [« mb\_regex\_encoding](function.mb-regex-encoding.html)
+-   [« mbregexencoding](function.mb-regex-encoding.html)
     
--   [mb\_scrub »](function.mb-scrub.html)
+-   [мбscrub »](function.mb-scrub.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Встановлення/отримання стандартних значень для налаштувань функцій mbregex
     
@@ -70,6 +70,6 @@ mb_regex_set_options(?string $options = null): string
 
 ### Дивіться також
 
--   [mb\_split()](function.mb-split.html) - Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
--   [mb\_ereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
--   [mb\_eregi()](function.mb-eregi.html) - Пошук відповідностей регулярному виразу за допомогою багатобайтових символів без урахування регістру
+-   [мбsplit()](function.mb-split.html) - Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
+-   [мбereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [мбeregi()](function.mb-eregi.html) - Пошук відповідностей регулярному виразу за допомогою багатобайтових символів без урахування регістру

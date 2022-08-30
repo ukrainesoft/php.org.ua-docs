@@ -1,12 +1,12 @@
 Призначення start
 
--   [« Yaf\_Session::\_\_set](yaf-session.set.html)
+-   [« YafSession::set](yaf-session.set.html)
     
--   [Yaf\_Session::\_\_unset »](yaf-session.unset.html)
+-   [YafSession::unset »](yaf-session.unset.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення start
     

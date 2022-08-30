@@ -1,6 +1,6 @@
 Отримати поточний рядок файлу
 
--   [« SplFileObject::\_\_construct](splfileobject.construct.html)
+-   [« SplFileObject::construct](splfileobject.construct.html)
     
 -   [SplFileObject::eof »](splfileobject.eof.html)
     
@@ -31,7 +31,7 @@ public SplFileObject::current(): string|array|false
 
 ### Значення, що повертаються
 
-Витягує поточний рядок файлу. Якщо встановлено прапор **`SplFileObject::READ_CSV`**Цей метод буде розбирати рядок, як дані CSV, і поверне масив. Якщо кінець файлу досягнуто, повертається **`false`**
+Витягує поточний рядок файлу. Якщо встановлено прапор \*\*`SplFileObject::READ_CSV`\*\*Цей метод буде розбирати рядок, як дані CSV, і поверне масив. Якщо кінець файлу досягнуто, повертається **`false`**
 
 ### Приклади
 

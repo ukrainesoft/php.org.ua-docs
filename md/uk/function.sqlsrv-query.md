@@ -1,12 +1,12 @@
 Готує та виконує запит
 
--   [« sqlsrv\_prepare](function.sqlsrv-prepare.html)
+-   [« sqlsrvprepare](function.sqlsrv-prepare.html)
     
--   [sqlsrv\_rollback »](function.sqlsrv-rollback.html)
+-   [sqlsrvrollback »](function.sqlsrv-rollback.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Готує та виконує запит
     
@@ -29,7 +29,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 
 `conn`
 
-Ресурс підключення, що повертається [sqlsrv\_connect()](function.sqlsrv-connect.html)
+Ресурс підключення, що повертається [sqlsrvconnect()](function.sqlsrv-connect.html)
 
 `sql`
 
@@ -60,11 +60,11 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 
 **Властивості запиту**
 
-| Ключ                   | Значения                                                                             | Описание                                                                                                                                                                                                                                                                                                         |
-|------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| QueryTimeout           | Позитивне ціле значення.                                                             | Встановлює час очікування в секундах. За замовчуванням драйвер чекатиме на результати нескінченно.                                                                                                                                                                                                               |
-| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`**                              | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrv\_send\_stream\_data()](function.sqlsrv-send-stream-data.html) |
-| Scrollable             | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Указание типа курсора и выбор строк](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.                                                                                                                                                                         |
+| Ключ                   | Значения                                                                             | Описание                                                                                                                                                                                                                                                                                                   |
+|------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| QueryTimeout           | Позитивне ціле значення.                                                             | Встановлює час очікування в секундах. За замовчуванням драйвер чекатиме на результати нескінченно.                                                                                                                                                                                                         |
+| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`**                              | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.html) |
+| Scrollable             | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Указание типа курсора и выбор строк](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.                                                                                                                                                                   |
 
 ### Значення, що повертаються
 
@@ -95,9 +95,9 @@ if( $stmt === false ) {
 
 ### Примітки
 
-Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrv\_prepare()](function.sqlsrv-prepare.html) і [sqlsrv\_execute()](function.sqlsrv-execute.html)
+Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrvprepare()](function.sqlsrv-prepare.html) і [sqlsrvexecute()](function.sqlsrv-execute.html)
 
 ### Дивіться також
 
--   [sqlsrv\_prepare()](function.sqlsrv-prepare.html) - готує запит до виконання
--   [sqlsrv\_execute()](function.sqlsrv-execute.html) - Виконує запит підготовлений за допомогою sqlsrvprepare
+-   [sqlsrvprepare()](function.sqlsrv-prepare.html) - готує запит до виконання
+-   [sqlsrvexecute()](function.sqlsrv-execute.html) - Виконує запит підготовлений за допомогою sqlsrvprepare

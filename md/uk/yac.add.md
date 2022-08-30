@@ -2,7 +2,7 @@
 
 -   [« Yac](class.yac.html)
     
--   [Yac::\_\_construct »](yac.construct.html)
+-   [Yac::construct »](yac.construct.html)
     
 -   [PHP Manual](index.html)
     

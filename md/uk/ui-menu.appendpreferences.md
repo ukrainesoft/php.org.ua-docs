@@ -1,12 +1,12 @@
 Додати пункт меню "Параметри" (Preferences)
 
--   [« UI\\Menu::appendCheck](ui-menu.appendcheck.html)
+-   [« UIMenu::appendCheck](ui-menu.appendcheck.html)
     
--   [UI\\Menu::appendQuit »](ui-menu.appendquit.html)
+-   [ОЙMenu::appendQuit »](ui-menu.appendquit.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Menu](class.ui-menu.html)
+-   [ОЙMenu](class.ui-menu.html)
     
 -   Додати пункт меню "Параметри" (Preferences)
     

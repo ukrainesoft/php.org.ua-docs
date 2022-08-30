@@ -1,8 +1,8 @@
 Запечатати (зашифрувати) дані
 
--   [« openssl\_random\_pseudo\_bytes](function.openssl-random-pseudo-bytes.html)
+-   [« opensslrandompseudobytes](function.openssl-random-pseudo-bytes.html)
     
--   [openssl\_sign »](function.openssl-sign.html)
+-   [opensslsign »](function.openssl-sign.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,4 +108,4 @@ openssl_free_key($pk2);
 
 ### Дивіться також
 
--   [openssl\_open()](function.openssl-open.html) - Відкрити запечатані дані
+-   [opensslopen()](function.openssl-open.html) - Відкрити запечатані дані

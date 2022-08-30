@@ -1,12 +1,12 @@
 Змінює місцями ключі зі своїми значеннями у масиві
 
--   [« array\_filter](function.array-filter.html)
+-   [« arrayfilter](function.array-filter.html)
     
--   [array\_intersect\_assoc »](function.array-intersect-assoc.html)
+-   [arrayintersectassoc »](function.array-intersect-assoc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Змінює місцями ключі зі своїми значеннями у масиві
     
@@ -86,6 +86,6 @@ Array
 
 ### Дивіться також
 
--   [array\_values()](function.array-values.html) - Вибирає всі значення масиву
--   [array\_keys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [array\_reverse()](function.array-reverse.html) - Повертає масив із елементами у зворотному порядку
+-   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
+-   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
+-   [arrayreverse()](function.array-reverse.html) - Повертає масив із елементами у зворотному порядку

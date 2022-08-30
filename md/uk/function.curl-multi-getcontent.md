@@ -1,8 +1,8 @@
 Повертає результат операції, якщо було встановлено опцію CURLOPTRETURNTRANSFER
 
--   [« curl\_multi\_exec](function.curl-multi-exec.html)
+-   [« curlmultiexec](function.curl-multi-exec.html)
     
--   [curl\_multi\_info\_read »](function.curl-multi-info-read.html)
+-   [curlmultiinforead »](function.curl-multi-info-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ curlmultigetcontent — Повернення результату операці
 curl_multi_getcontent(CurlHandle $handle): ?string
 ```
 
-Якщо для певного дескриптора було встановлено опцію **`CURLOPT_RETURNTRANSFER`**ця функція поверне вміст цього cURL-дескриптора у вигляді рядка.
+Якщо для певного дескриптора було встановлено опцію \*\*`CURLOPT_RETURNTRANSFER`\*\*ця функція поверне вміст цього cURL-дескриптора у вигляді рядка.
 
 ### Список параметрів
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 
@@ -43,4 +43,4 @@ curl_multi_getcontent(CurlHandle $handle): ?string
 
 ### Дивіться також
 
--   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів

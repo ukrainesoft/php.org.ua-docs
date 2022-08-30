@@ -1,8 +1,8 @@
 Клас YafDispatcher
 
--   [« Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
+-   [« YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
     
--   [Yaf\_Dispatcher::autoRender »](yaf-dispatcher.autorender.html)
+-   [YafDispatcher::autoRender »](yaf-dispatcher.autorender.html)
     
 -   [PHP Manual](index.html)
     
@@ -129,27 +129,27 @@ defaultaction
 
 ## Зміст
 
--   [Yaf\_Dispatcher::autoRender](yaf-dispatcher.autorender.html) — Включає/вимикає авторендеринг
--   [Yaf\_Dispatcher::catchException](yaf-dispatcher.catchexception.html) — Включає/вимикає перехоплення винятків
--   [Yaf\_Dispatcher::\_\_construct](yaf-dispatcher.construct.html) - Конструктор класу YafDispatcher
--   [Yaf\_Dispatcher::disableView](yaf-dispatcher.disableview.html) — Вимикає механізм перегляду
--   [Yaf\_Dispatcher::dispatch](yaf-dispatcher.dispatch.html) — Надсилає запит
--   [Yaf\_Dispatcher::enableView](yaf-dispatcher.enableview.html) - Включає механізм перегляду
--   [Yaf\_Dispatcher::flushInstantly](yaf-dispatcher.flushinstantly.html) — Вмикає/вимикає миттєве очищення
--   [Yaf\_Dispatcher::getApplication](yaf-dispatcher.getapplication.html) — Отримує програму
--   [Yaf\_Dispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.html) — Отримує ім'я стандартної дії
--   [Yaf\_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.html) — Отримує ім'я контролера за умовчанням
--   [Yaf\_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.html) — Отримує ім'я модуля за замовчуванням
--   [Yaf\_Dispatcher::getInstance](yaf-dispatcher.getinstance.html) — Отримує екземпляр диспетчера
--   [Yaf\_Dispatcher::getRequest](yaf-dispatcher.getrequest.html) — Отримує екземпляр запиту
--   [Yaf\_Dispatcher::getRouter](yaf-dispatcher.getrouter.html) — Отримує екземпляр маршрутизатора
--   [Yaf\_Dispatcher::initView](yaf-dispatcher.initview.html) — Ініціалізує виставу та повертає її
--   [Yaf\_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.html) - Реєструє плагін
--   [Yaf\_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.html) — Призначення returnResponse
--   [Yaf\_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.html) — Змінює ім'я стандартної дії
--   [Yaf\_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.html) - Змінює ім'я контролера за умовчанням
--   [Yaf\_Dispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.html) — Змінює стандартне ім'я модуля
--   [Yaf\_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок
--   [Yaf\_Dispatcher::setRequest](yaf-dispatcher.setrequest.html) - Призначення setRequest
--   [Yaf\_Dispatcher::setView](yaf-dispatcher.setview.html) — Встановлює користувальницький механізм відображення
--   [Yaf\_Dispatcher::throwException](yaf-dispatcher.throwexception.html) — Вмикає/вимикає викидання винятків
+-   [YafDispatcher::autoRender](yaf-dispatcher.autorender.html) — Включає/вимикає авторендеринг
+-   [YafDispatcher::catchException](yaf-dispatcher.catchexception.html) — Включає/вимикає перехоплення винятків
+-   [YafDispatcher::construct](yaf-dispatcher.construct.html) - Конструктор класу YafDispatcher
+-   [YafDispatcher::disableView](yaf-dispatcher.disableview.html) — Вимикає механізм перегляду
+-   [YafDispatcher::dispatch](yaf-dispatcher.dispatch.html) — Надсилає запит
+-   [YafDispatcher::enableView](yaf-dispatcher.enableview.html) - Включає механізм перегляду
+-   [YafDispatcher::flushInstantly](yaf-dispatcher.flushinstantly.html) — Вмикає/вимикає миттєве очищення
+-   [YafDispatcher::getApplication](yaf-dispatcher.getapplication.html) — Отримує програму
+-   [YafDispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.html) — Отримує ім'я стандартної дії
+-   [YafDispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.html) — Отримує ім'я контролера за умовчанням
+-   [YafDispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.html) — Отримує ім'я модуля за замовчуванням
+-   [YafDispatcher::getInstance](yaf-dispatcher.getinstance.html) — Отримує екземпляр диспетчера
+-   [YafDispatcher::getRequest](yaf-dispatcher.getrequest.html) — Отримує екземпляр запиту
+-   [YafDispatcher::getRouter](yaf-dispatcher.getrouter.html) — Отримує екземпляр маршрутизатора
+-   [YafDispatcher::initView](yaf-dispatcher.initview.html) — Ініціалізує виставу та повертає її
+-   [YafDispatcher::registerPlugin](yaf-dispatcher.registerplugin.html) - Реєструє плагін
+-   [YafDispatcher::returnResponse](yaf-dispatcher.returnresponse.html) — Призначення returnResponse
+-   [YafDispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.html) — Змінює ім'я стандартної дії
+-   [YafDispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.html) - Змінює ім'я контролера за умовчанням
+-   [YafDispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.html) — Змінює стандартне ім'я модуля
+-   [YafDispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок
+-   [YafDispatcher::setRequest](yaf-dispatcher.setrequest.html) - Призначення setRequest
+-   [YafDispatcher::setView](yaf-dispatcher.setview.html) — Встановлює користувальницький механізм відображення
+-   [YafDispatcher::throwException](yaf-dispatcher.throwexception.html) — Вмикає/вимикає викидання винятків

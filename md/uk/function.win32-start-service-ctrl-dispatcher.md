@@ -1,8 +1,8 @@
 Додає до Диспетчера служб скрипт, який може бути використаний як служба із заданим ім'ям
 
--   [« win32\_set\_service\_status](function.win32-set-service-status.html)
+-   [« win32setservicestatus](function.win32-set-service-status.html)
     
--   [win32\_start\_service »](function.win32-start-service.html)
+-   [win32startservice »](function.win32-start-service.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 При запуску за допомогою диспетчера служб, процесу служби необхідно звірятися з ним для моніторингу служби та зв'язку з нею. Ця функція виконує звіряння за допомогою створення потоку обробки низькорівневого зв'язку з диспетчером служб.
 
-Після запуску процес служби має здійснити дві дії. Перше – повідомити диспетчеру служб, що службу запущено. Це здійснюється шляхом виклику [win32\_set\_service\_status()](function.win32-set-service-status.html) з константою **`WIN32_SERVICE_RUNNING`**. Якщо вам необхідно виконати тривалий процес перед запуском служби, то ви можете використовувати константу **`WIN32_SERVICE_START_PENDING`**. Друге – продовжити звірку з диспетчером служб, щоб визначити необхідність відключення. Це здійснюється за допомогою періодичного виклику [win32\_get\_last\_control\_message()](function.win32-get-last-control-message.html) та обробки коду повернення відповідним чином.
+Після запуску процес служби має здійснити дві дії. Перше – повідомити диспетчеру служб, що службу запущено. Це здійснюється шляхом виклику [win32setservicestatus()](function.win32-set-service-status.html) з константою **`WIN32_SERVICE_RUNNING`**. Якщо вам необхідно виконати тривалий процес перед запуском служби, то ви можете використовувати константу **`WIN32_SERVICE_START_PENDING`**. Друге – продовжити звірку з диспетчером служб, щоб визначити необхідність відключення. Це здійснюється за допомогою періодичного виклику [win32getlastcontrolmessage()](function.win32-get-last-control-message.html) та обробки коду повернення відповідним чином.
 
 **Застереження**
 
@@ -35,11 +35,11 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 `name`
 
-Коротке ім'я служби, як при додаванні за допомогою [win32\_create\_service()](function.win32-create-service.html)
+Коротке ім'я служби, як при додаванні за допомогою [win32createservice()](function.win32-create-service.html)
 
 `gracefulMode`
 
-**`true`** для "елегантного" виходу . **`false`** для виходу із помилкою. Дивіться [win32\_set\_service\_exit\_mode()](function.win32-set-service-exit-mode.html) для отримання детальної інформації.
+**`true`** для "елегантного" виходу . **`false`** для виходу із помилкою. Дивіться [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) для отримання детальної інформації.
 
 ### Значення, що повертаються
 
@@ -91,8 +91,8 @@ while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
 
 ### Дивіться також
 
--   [win32\_set\_service\_status()](function.win32-set-service-status.html) - Оновлює статус служби
--   [win32\_get\_last\_control\_message()](function.win32-get-last-control-message.html) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
--   [win32\_set\_service\_exit\_mode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
--   [win32\_set\_service\_exit\_code()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
+-   [win32setservicestatus()](function.win32-set-service-status.html) - Оновлює статус служби
+-   [win32getlastcontrolmessage()](function.win32-get-last-control-message.html) - Повертає останнє керуюче повідомлення, яке було надіслано цій службі
+-   [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
+-   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
 -   [Коды Ошибок Win32](win32service.constants.errors.html)

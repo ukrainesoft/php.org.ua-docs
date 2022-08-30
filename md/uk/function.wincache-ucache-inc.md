@@ -1,8 +1,8 @@
 Збільшує значення, пов'язане з ключем
 
--   [« wincache\_ucache\_get](function.wincache-ucache-get.html)
+-   [« wincacheucacheget](function.wincache-ucache-get.html)
     
--   [wincache\_ucache\_info »](function.wincache-ucache-info.html)
+-   [wincacheucacheinfo »](function.wincache-ucache-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -64,5 +64,5 @@ bool(true)
 
 ### Дивіться також
 
--   [wincache\_ucache\_dec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем
--   [wincache\_ucache\_cas()](function.wincache-ucache-cas.html) - Порівнює змінну зі старим значенням та надає їй нове значення
+-   [wincacheucachedec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем
+-   [wincacheucachecas()](function.wincache-ucache-cas.html) - Порівнює змінну зі старим значенням та надає їй нове значення

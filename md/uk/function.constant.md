@@ -1,12 +1,12 @@
 Повертає значення константи
 
--   [« connection\_status](function.connection-status.html)
+-   [« connectionstatus](function.connection-status.html)
     
 -   [define »](function.define.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Повертає значення константи
     
@@ -27,7 +27,7 @@ constant(string $name): mixed
 
 Функція **constant()** корисна, якщо вам необхідно отримати значення константи, але невідомо її ім'я. Наприклад, якщо воно зберігається у змінній або повертається функцією.
 
-Ця функція також працює з [константами классов](language.oop5.constants.html)
+Ця функція також працює з [константами класів](language.oop5.constants.html)
 
 ### Список параметрів
 
@@ -82,5 +82,5 @@ var_dump(constant('foo::'. $const)); // string(7) "foobar!"
 
 -   [define()](function.define.html) - визначає іменовану константу
 -   [defined()](function.defined.html) - Перевіряє існування вказаної іменованої константи
--   [get\_defined\_constants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
 -   Дивіться розділ [Константы](language.constants.html)

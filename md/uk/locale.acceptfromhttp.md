@@ -45,7 +45,7 @@ locale_accept_from_http(string $header): string|false
 
 Ідентифікатор локалі.
 
-Повертає **`false`**якщо довжина `header` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`false`\*\*якщо довжина `header` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
@@ -75,4 +75,4 @@ en_US
 
 ### Дивіться також
 
--   [locale\_lookup()](locale.lookup.html) - Пошук мовних позначок найбільш відповідних заданої локалі
+-   [localelookup()](locale.lookup.html) - Пошук мовних позначок найбільш відповідних заданої локалі

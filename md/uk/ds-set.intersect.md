@@ -1,8 +1,8 @@
 Створює новий набір, створений перетином з іншим набором
 
--   [« Ds\\Set::get](ds-set.get.html)
+-   [« DsSet::get](ds-set.get.html)
     
--   [Ds\\Set::isEmpty »](ds-set.isempty.html)
+-   [ДсSet::isEmpty »](ds-set.isempty.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public Ds\Set::intersect(Ds\Set $set): Ds\Set
 
 ### Також дивіться
 
--   [» Пересечение](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
+-   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
 
 ### Приклади
 

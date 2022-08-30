@@ -1,6 +1,6 @@
 Отримати наступний рядок журналу
 
--   [« VarnishLog::\_\_construct](varnishlog.construct.html)
+-   [« VarnishLog::construct](varnishlog.construct.html)
     
 -   [VarnishLog::getTagName »](varnishlog.gettagname.html)
     

@@ -1,8 +1,8 @@
 Відображення
 
--   [« CommonMark\\Render\\Latex](function.commonmark-render-latex.html)
+-   [« CommonMarkRenderLatex](function.commonmark-render-latex.html)
     
--   [CommonMark\\Render\\XML »](function.commonmark-render-xml.html)
+-   [CommonMarkRenderXML »](function.commonmark-render-xml.html)
     
 -   [PHP Manual](index.html)
     

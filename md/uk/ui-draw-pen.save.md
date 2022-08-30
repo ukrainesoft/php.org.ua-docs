@@ -1,12 +1,12 @@
 Зберегти
 
--   [« UI\\Draw\\Pen::restore](ui-draw-pen.restore.html)
+-   [« UIDrawPen::restore](ui-draw-pen.restore.html)
     
--   [UI\\Draw\\Pen::stroke »](ui-draw-pen.stroke.html)
+-   [ОЙDrawPen::stroke »](ui-draw-pen.stroke.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Зберегти
     

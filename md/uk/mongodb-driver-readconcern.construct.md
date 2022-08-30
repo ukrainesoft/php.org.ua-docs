@@ -1,12 +1,12 @@
 Створює новий ReadConcern
 
--   [« MongoDB\\Driver\\ReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html)
+-   [« MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html)
     
--   [MongoDB\\Driver\\ReadConcern::getLevel »](mongodb-driver-readconcern.getlevel.html)
+-   [MongoDBDriverReadConcern::getLevel »](mongodb-driver-readconcern.getlevel.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
+-   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
     
 -   Створює новий ReadConcern
     
@@ -23,17 +23,17 @@ MongoDBDriverReadConcern::construct — Створює новий ReadConcern
 final public MongoDB\Driver\ReadConcern::__construct(?string $level = null)
 ```
 
-Створює новий [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)що є об'єктом незмінного значення.
+Створює новий [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)що є об'єктом незмінного значення.
 
 ### Список параметрів
 
 `level`
 
-[» Уровень гарантий чтения](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels). Ви можете використовувати, але не обмежуючись цим, одну з [констант класса](class.mongodb-driver-readconcern.html#mongodb-driver-readconcern.constants)
+[» Рівень гарантій читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels). Ви можете використовувати, але не обмежуючись цим, одну з [констант класса](class.mongodb-driver-readconcern.html#mongodb-driver-readconcern.constants)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

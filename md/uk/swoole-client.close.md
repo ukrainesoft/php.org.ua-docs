@@ -1,12 +1,12 @@
 Закриває встановлене з'єднання
 
--   [« Swoole\\Client](class.swoole-client.html)
+-   [« SwooleClient](class.swoole-client.html)
     
--   [Swoole\\Client::connect »](swoole-client.connect.html)
+-   [SwooleClient::connect »](swoole-client.connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Закриває встановлене з'єднання
     

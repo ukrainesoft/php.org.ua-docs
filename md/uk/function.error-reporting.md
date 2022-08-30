@@ -1,8 +1,8 @@
 Задає, які помилки PHP потраплять у звіт
 
--   [« error\_log](function.error-log.html)
+-   [« errorlog](function.error-log.html)
     
--   [restore\_error\_handler »](function.restore-error-handler.html)
+-   [restoreerrorhandler »](function.restore-error-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,19 +23,19 @@ errorreporting — Задає, які помилки PHP потраплять у
 error_reporting(?int $error_level = null): int
 ```
 
-Функція **errorreporting()** задає значення директиви [error\_reporting](errorfunc.configuration.html#ini.error-reporting) під час виконання. У PHP є багато рівнів помилок. Використовуючи цю функцію, можна встановити рівень помилок часу виконання скрипта, які попадуть у звіт. Якщо необов'язковий аргумент `error_level` не заданий, **errorreporting()** поверне поточне значення рівня протоколювання помилок.
+Функція **errorreporting()** задає значення директиви [errorreporting](errorfunc.configuration.html#ini.error-reporting) під час виконання. У PHP є багато рівнів помилок. Використовуючи цю функцію, можна встановити рівень помилок часу виконання скрипта, які попадуть у звіт. Якщо необов'язковий аргумент `error_level` не заданий, **errorreporting()** поверне поточне значення рівня протоколювання помилок.
 
 ### Список параметрів
 
 `error_level`
 
-Нове значення рівня [error\_reporting](errorfunc.configuration.html#ini.error-reporting). Це може бути бітова маска чи іменовані константи. При використанні іменованих констант потрібно буде стежити за сумісністю з новими версіями PHP. У нових версіях можуть додатись нові рівні помилок, збільшитися діапазон цілих типів. Все це може призвести до нестабільної роботи з використанням старих цілочисельних позначень рівнів помилок.
+Нове значення рівня [errorreporting](errorfunc.configuration.html#ini.error-reporting). Це може бути бітова маска чи іменовані константи. При використанні іменованих констант потрібно буде стежити за сумісністю з новими версіями PHP. У нових версіях можуть додатись нові рівні помилок, збільшитися діапазон цілих типів. Все це може призвести до нестабільної роботи з використанням старих цілочисельних позначень рівнів помилок.
 
 Доступні константи рівнів помилок та їх опис наведено в розділі [Предопределённые константы](errorfunc.constants.html)
 
 ### Значення, що повертаються
 
-Повертає старе значення рівня [error\_reporting](errorfunc.configuration.html#ini.error-reporting) або поточне значення, якщо аргумент `error_level` не заданий.
+Повертає старе значення рівня [errorreporting](errorfunc.configuration.html#ini.error-reporting) або поточне значення, якщо аргумент `error_level` не заданий.
 
 ### список змін
 
@@ -83,7 +83,7 @@ ini_set('error_reporting', E_ALL);
 
 ### Дивіться також
 
--   Директива [display\_errors](errorfunc.configuration.html#ini.display-errors)
--   Директива [html\_errors](errorfunc.configuration.html#ini.html-errors)
--   Директива [xmlrpc\_errors](errorfunc.configuration.html#ini.xmlrpc-errors)
--   [ini\_set()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   Директива [displayerrors](errorfunc.configuration.html#ini.display-errors)
+-   Директива [htmlerrors](errorfunc.configuration.html#ini.html-errors)
+-   Директива [xmlrpcerrors](errorfunc.configuration.html#ini.xmlrpc-errors)
+-   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації

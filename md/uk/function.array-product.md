@@ -1,12 +1,12 @@
 Обчислити добуток значень масиву
 
--   [« array\_pop](function.array-pop.html)
+-   [« arraypop](function.array-pop.html)
     
--   [array\_push »](function.array-push.html)
+-   [arraypush »](function.array-push.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Обчислити добуток значень масиву
     

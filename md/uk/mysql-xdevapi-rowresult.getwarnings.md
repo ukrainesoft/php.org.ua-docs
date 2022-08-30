@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+-   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     
 -   Отримує попередження останньої операції
     

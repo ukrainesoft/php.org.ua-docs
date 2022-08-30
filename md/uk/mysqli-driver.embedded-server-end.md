@@ -1,12 +1,12 @@
 Зупиняє вбудований сервер
 
--   [« mysqli\_driver](class.mysqli-driver.html)
+-   [« mysqlidriver](class.mysqli-driver.html)
     
--   [mysqli\_driver::embedded\_server\_start »](mysqli-driver.embedded-server-start.html)
+-   [mysqlidriver::embeddedserverstart »](mysqli-driver.embedded-server-start.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_driver](class.mysqli-driver.html)
+-   [mysqlidriver](class.mysqli-driver.html)
     
 -   Зупиняє вбудований сервер
     

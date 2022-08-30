@@ -1,12 +1,12 @@
 Встановлює користувальницький механізм відображення
 
--   [« Yaf\_Dispatcher::setRequest](yaf-dispatcher.setrequest.html)
+-   [« YafDispatcher::setRequest](yaf-dispatcher.setrequest.html)
     
--   [Yaf\_Dispatcher::throwException »](yaf-dispatcher.throwexception.html)
+-   [YafDispatcher::throwException »](yaf-dispatcher.throwexception.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Встановлює користувальницький механізм відображення
     
@@ -23,13 +23,13 @@ YafDispatcher::setView — Встановлює механізм відобра�
 public Yaf_Dispatcher::setView(Yaf_View_Interface $view): Yaf_Dispatcher
 ```
 
-Метод надає рішення, якщо ви хочете використовувати власний механізм відображення замість [Yaf\_View\_Simple](class.yaf-view-simple.html)
+Метод надає рішення, якщо ви хочете використовувати власний механізм відображення замість [YafViewSimple](class.yaf-view-simple.html)
 
 ### Список параметрів
 
 `view`
 
-Екземпляр [Yaf\_View\_Interface](class.yaf-view-interface.html)
+Екземпляр [YafViewInterface](class.yaf-view-interface.html)
 
 ### Значення, що повертаються
 
@@ -206,5 +206,5 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 
 ### Дивіться також
 
--   [Yaf\_View\_Interface](class.yaf-view-interface.html)
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewInterface](class.yaf-view-interface.html)
+-   [YafViewSimple](class.yaf-view-simple.html)

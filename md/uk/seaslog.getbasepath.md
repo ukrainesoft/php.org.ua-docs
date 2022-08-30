@@ -23,7 +23,7 @@ SeasLog::getBasePath — Отримує базовий шлях SeasLog
 public static Seaslog::getBasePath(): string
 ```
 
-Використовуйте функцію **SeasLog::getBasePath()**, щоб отримати значення [seaslog.default\_basepath](seaslog.configuration.html#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
+Використовуйте функцію **SeasLog::getBasePath()**, щоб отримати значення [seaslog.defaultbasepath](seaslog.configuration.html#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
 
 Якщо ви використовуєте [Seaslog::setBasePath()](seaslog.setbasepath.html)результат зміниться.
 
@@ -33,7 +33,7 @@ public static Seaslog::getBasePath(): string
 
 ### Значення, що повертаються
 
-Повертає значення [seaslog.default\_basepath](seaslog.configuration.html#ini.seaslog.default-basepath) у вигляді рядка.
+Повертає значення [seaslog.defaultbasepath](seaslog.configuration.html#ini.seaslog.default-basepath) у вигляді рядка.
 
 ### Приклади
 

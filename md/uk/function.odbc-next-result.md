@@ -1,8 +1,8 @@
 Перевіряє, чи є кілька результатів.
 
--   [« odbc\_longreadlen](function.odbc-longreadlen.html)
+-   [« odbclongreadlen](function.odbc-longreadlen.html)
     
--   [odbc\_num\_fields »](function.odbc-num-fields.html)
+-   [odbcnumfields »](function.odbc-num-fields.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ odbcnextresult — Перевіряє, чи є кілька результаті
 odbc_next_result(resource $statement): bool
 ```
 
-Перевіряє, чи доступні інші результуючі набори, а також дозволяє доступ до наступного результуючого набору за допомогою [odbc\_fetch\_array()](function.odbc-fetch-array.html) [odbc\_fetch\_row()](function.odbc-fetch-row.html) [odbc\_result()](function.odbc-result.html) і т.д.
+Перевіряє, чи доступні інші результуючі набори, а також дозволяє доступ до наступного результуючого набору за допомогою [odbcfetcharray()](function.odbc-fetch-array.html) [odbcfetchrow()](function.odbc-fetch-row.html) [odbcresult()](function.odbc-result.html) і т.д.
 
 ### Список параметрів
 

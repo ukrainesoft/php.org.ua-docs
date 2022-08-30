@@ -1,6 +1,6 @@
 Створює зупинений об'єкт спостерігача EvStat
 
--   [« EvStat::\_\_construct](evstat.construct.html)
+-   [« EvStat::construct](evstat.construct.html)
     
 -   [EvStat::prev »](evstat.prev.html)
     
@@ -43,7 +43,7 @@ final
    ): void
 ```
 
-Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::\_\_construct()](evstat.construct.html)
+Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::construct()](evstat.construct.html)
 
 ### Список параметрів
 
@@ -57,7 +57,7 @@ final
 
 `callback`
 
-Дивіться [Наблюдатели обратного вызова](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.html)
 
 `data`
 
@@ -73,5 +73,5 @@ final
 
 ### Дивіться також
 
--   [EvStat::\_\_construct()](evstat.construct.html) - Створює об'єкт спостерігача EvStat
+-   [EvStat::construct()](evstat.construct.html) - Створює об'єкт спостерігача EvStat
 -   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача

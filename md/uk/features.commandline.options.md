@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Использование PHP в командной строке](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.html)
     
 -   Список опцій командного рядка
     
@@ -60,10 +60,10 @@ Usage: php [options] [-f] <file> [--] [args...]
 
 **Опції, доступні з командного рядка**
 
-| Опция                                                                                                                                             | Полное название | Описание |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------|
-| а                                                                                                                                                 | \-interactive   |          |
-| Запустити PHP в режимі онлайн. Для отримання додаткової інформації дивіться розділ [Интерактивная консоль](features.commandline.interactive.html) |                 |          |
+| Опция                                                                                                                                            | Полное название | Описание |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------|
+| а                                                                                                                                                | \-interactive   |          |
+| Запустити PHP в режимі онлайн. Для отримання додаткової інформації дивіться розділ [Інтерактивна консоль](features.commandline.interactive.html) |                 |          |
 
 b | -bindpath |
 
@@ -215,7 +215,7 @@ r | -Run |
 
 > **Зауваження**
 > 
-> Ця опція призначена лише для найпростішого коду. Тому деякі конфігураційні директиви (наприклад, [auto\_prepend\_file](ini.core.html#ini.auto-prepend-file) і [auto\_append\_file](ini.core.html#ini.auto-append-file)) у цьому режимі будуть проігноровані.
+> Ця опція призначена лише для найпростішого коду. Тому деякі конфігураційні директиви (наприклад, [autoprependfile](ini.core.html#ini.auto-prepend-file) і [autoappendfile](ini.core.html#ini.auto-append-file)) у цьому режимі будуть проігноровані.
 
 B | -process-begin |
 
@@ -244,9 +244,9 @@ $ find my_proj | php -B '$l=0;' -R '$l += count(@file($argn));' -E 'echo "Все
 
 S | -server |
 
-Запускає [встроенный веб-сервер](features.commandline.webserver.html)
+Запускає [вбудований веб-сервер](features.commandline.webserver.html)
 
-t | -docroot | Вказує корінь документа для [встроенного веб-сервера](features.commandline.webserver.html). s | -syntax-highlight і --syntax-highlighting |
+t | -docroot | Вказує корінь документа для [вбудованого веб-сервера](features.commandline.webserver.html). s | -syntax-highlight і --syntax-highlighting |
 
 Показати вихідний код із підсвічуванням синтаксису.
 

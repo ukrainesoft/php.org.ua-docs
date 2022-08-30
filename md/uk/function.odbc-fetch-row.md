@@ -1,8 +1,8 @@
 Повертає рядок
 
--   [« odbc\_fetch\_object](function.odbc-fetch-object.html)
+-   [« odbcfetchobject](function.odbc-fetch-object.html)
     
--   [odbc\_field\_len »](function.odbc-field-len.html)
+-   [odbcfieldlen »](function.odbc-field-len.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ odbcfetchrow — Повертає рядок
 odbc_fetch_row(resource $statement, ?int $row = null): bool
 ```
 
-Вибирає рядок із даних, які були повернуті [odbc\_do()](function.odbc-do.html) або [odbc\_exec()](function.odbc-exec.html). Після виклику **odbcfetchrow()** до полів цього рядка можна отримати доступ за допомогою [odbc\_result()](function.odbc-result.html)
+Вибирає рядок із даних, які були повернуті [odbcdo()](function.odbc-do.html) або [odbcexec()](function.odbc-exec.html). Після виклику **odbcfetchrow()** до полів цього рядка можна отримати доступ за допомогою [odbcresult()](function.odbc-result.html)
 
 ### Список параметрів
 

@@ -1,12 +1,12 @@
 Обчислює випадкове відхилення від бета-розподілу
 
--   [« stats\_kurtosis](function.stats-kurtosis.html)
+-   [« statskurtosis](function.stats-kurtosis.html)
     
--   [stats\_rand\_gen\_chisquare »](function.stats-rand-gen-chisquare.html)
+-   [statsrandgenchisquare »](function.stats-rand-gen-chisquare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює випадкове відхилення від бета-розподілу
     

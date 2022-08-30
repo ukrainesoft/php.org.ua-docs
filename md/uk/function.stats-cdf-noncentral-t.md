@@ -1,12 +1,12 @@
 Обчислює один із параметрів нецентрального розподілу Стьюдента залежно від інших
 
--   [« stats\_cdf\_noncentral\_f](function.stats-cdf-noncentral-f.html)
+-   [« statscdfnoncentralф](function.stats-cdf-noncentral-f.html)
     
--   [stats\_cdf\_normal »](function.stats-cdf-normal.html)
+-   [statscdfnormal »](function.stats-cdf-normal.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів нецентрального розподілу Стьюдента залежно від інших
     

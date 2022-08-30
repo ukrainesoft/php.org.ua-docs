@@ -1,12 +1,12 @@
 Висновок
 
--   [« Vtiful\\Kernel\\Excel::mergeCells](vtiful-kernel-excel.mergeCells.html)
+-   [« VtifulKernelExcel::mergeCells](vtiful-kernel-excel.mergeCells.html)
     
--   [Vtiful\\Kernel\\Excel::setColumn »](vtiful-kernel-excel.setColumn.html)
+-   [VtifulKernelExcel::setColumn »](vtiful-kernel-excel.setColumn.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Висновок
     

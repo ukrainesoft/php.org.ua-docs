@@ -1,8 +1,8 @@
 Повертає кількість шаблонів у навчальних даних
 
--   [« fann\_init\_weights](function.fann-init-weights.html)
+-   [« fanninitweights](function.fann-init-weights.html)
     
--   [fann\_merge\_train\_data »](function.fann-merge-train-data.html)
+-   [fannmergetraindata »](function.fann-merge-train-data.html)
     
 -   [PHP Manual](index.html)
     

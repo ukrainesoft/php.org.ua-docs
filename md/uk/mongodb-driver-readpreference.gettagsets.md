@@ -1,12 +1,12 @@
 Повертає параметр "tagSets" ReadPreference
 
--   [« MongoDB\\Driver\\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.html)
+-   [« MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.html)
     
--   [MongoDB\\Driver\\ReadPreference::serialize »](mongodb-driver-readpreference.serialize.html)
+-   [MongoDBDriverReadPreference::serialize »](mongodb-driver-readpreference.serialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
 -   Повертає параметр "tagSets" ReadPreference
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::getTagSets(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

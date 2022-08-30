@@ -1,12 +1,12 @@
 Реініціалізує сесію оригінальними значеннями
 
--   [« session\_register\_shutdown](function.session-register-shutdown.html)
+-   [« sessionregistershutdown](function.session-register-shutdown.html)
     
--   [session\_save\_path »](function.session-save-path.html)
+-   [sessionsavepath »](function.session-save-path.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Реініціалізує сесію оригінальними значеннями
     
@@ -41,8 +41,8 @@ session_reset(): bool
 
 ### Дивіться також
 
--   [$\_SESSION](reserved.variables.session.html)
--   Опція конфігурації [session.auto\_start](session.configuration.html#ini.session.auto-start)
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [session\_abort()](function.session-abort.html) - Скасує зміни у масиві сесії та завершує її
--   [session\_commit()](function.session-commit.html) - Псевдонім sessionwriteclose
+-   [SESSION](reserved.variables.session.html)
+-   Опція конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionabort()](function.session-abort.html) - Скасує зміни у масиві сесії та завершує її
+-   [sessioncommit()](function.session-commit.html) - Псевдонім sessionwriteclose

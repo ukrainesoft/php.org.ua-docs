@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Отримує ім'я протоколу за номером
     

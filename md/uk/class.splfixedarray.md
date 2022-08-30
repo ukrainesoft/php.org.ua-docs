@@ -2,11 +2,11 @@
 
 -   [« SplPriorityQueue::valid](splpriorityqueue.valid.html)
     
--   [SplFixedArray::\_\_construct »](splfixedarray.construct.html)
+-   [SplFixedArray::construct »](splfixedarray.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.html)
     
 -   Клас SplFixedArray
     
@@ -123,7 +123,7 @@ RuntimeException: Index invalid or out of range
 
 ## Зміст
 
--   [SplFixedArray::\_\_construct](splfixedarray.construct.html) - Створює новий масив фіксованої довжини
+-   [SplFixedArray::construct](splfixedarray.construct.html) - Створює новий масив фіксованої довжини
 -   [SplFixedArray::count](splfixedarray.count.html) — Повертає розмір масиву
 -   [SplFixedArray::current](splfixedarray.current.html) — Повертає поточний елемент масиву
 -   [SplFixedArray::fromArray](splfixedarray.fromarray.html) - Імпортує PHP-масив в об'єкт класу SplFixedArray
@@ -138,4 +138,4 @@ RuntimeException: Index invalid or out of range
 -   [SplFixedArray::setSize](splfixedarray.setsize.html) - Змінює розмір масиву
 -   [SplFixedArray::toArray](splfixedarray.toarray.html) - Повертає звичайний PHP-масив зі значеннями фіксованого масиву
 -   [SplFixedArray::valid](splfixedarray.valid.html) - Перевіряє масив на наявність елементів
--   [SplFixedArray::\_\_wakeup](splfixedarray.wakeup.html) - Переініціалізація масиву після десеріалізації
+-   [SplFixedArray::wakeup](splfixedarray.wakeup.html) - Переініціалізація масиву після десеріалізації

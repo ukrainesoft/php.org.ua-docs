@@ -1,12 +1,12 @@
 Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
 
--   [« Swoole\\Lock::trylock\_read](swoole-lock.trylock-read.html)
+-   [« SwooleLock::trylockread](swoole-lock.trylock-read.html)
     
--   [Swoole\\Lock::unlock »](swoole-lock.unlock.html)
+-   [SwooleLock::unlock »](swoole-lock.unlock.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
     

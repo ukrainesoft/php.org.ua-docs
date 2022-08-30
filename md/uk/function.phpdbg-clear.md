@@ -1,8 +1,8 @@
 Прибрати всі точки переривання
 
--   [« phpdbg\_break\_next](function.phpdbg-break-next.html)
+-   [« phpdbgbreaknext](function.phpdbg-break-next.html)
     
--   [phpdbg\_color »](function.phpdbg-color.html)
+-   [phpdbgcolor »](function.phpdbg-color.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ phpdbg_clear(): void
 
 ### Дивіться також
 
--   [phpdbg\_break\_file()](function.phpdbg-break-file.html) - Додати точку переривання на конкретний рядок файлу
--   [phpdbg\_break\_function()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
--   [phpdbg\_break\_method()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
--   [phpdbg\_break\_next()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
+-   [phpdbgbreakfile()](function.phpdbg-break-file.html) - Додати точку переривання на конкретний рядок файлу
+-   [phpdbgbreakfunction()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
+-   [phpdbgbreakmethod()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
+-   [phpdbgbreaknext()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод

@@ -1,6 +1,6 @@
 Варіант 4: PHP поза деревом веб-документів
 
--   [« Вариант 3: использование опций doc\_root или user\_dir](security.cgi-bin.doc-root.html)
+-   [« Вариант 3: использование опций docroot или userdir](security.cgi-bin.doc-root.html)
     
 -   [Если PHP установлен как модуль Apache »](security.apache.html)
     
@@ -21,4 +21,4 @@
 
 Також необхідно зробити всі файли скриптів, що виконуються. Таким чином, скрипт буде розглядатися так само, як і будь-який інший CGI-додаток, написаний на Perl, sh або будь-якій іншій скриптовій мові, який використовує `#!` на початку файлу для запуску себе.
 
-Для коректної обробки PHP змінних PATHINFO та PATHTRANSLATED директива ini [cgi.discard\_path](ini.core.html#ini.cgi.discard-path) має бути включена.
+Для коректної обробки PHP змінних PATHINFO та PATHTRANSLATED директива ini [cgi.discardpath](ini.core.html#ini.cgi.discard-path) має бути включена.

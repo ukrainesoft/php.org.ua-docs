@@ -1,8 +1,8 @@
 Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
 
--   [« fann\_create\_sparse](function.fann-create-sparse.html)
+-   [« fanncreatesparse](function.fann-create-sparse.html)
     
--   [fann\_create\_standard »](function.fann-create-standard.html)
+-   [fanncreatestandard »](function.fann-create-standard.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ fann_create_standard_array(int $num_layers, array $layers): resource
 
 У кожному шарі буде зміщений нейрон (крім вихідного шару), і цей нейрон зміщення буде пов'язаний з усіма нейронами в наступному шарі. Працюючи в мережі вузли зміщення завжди випромінюють 1.
 
-Щоб знищити нейронну мережу, скористайтеся функцією [fann\_destroy()](function.fann-destroy.html)
+Щоб знищити нейронну мережу, скористайтеся функцією [fanndestroy()](function.fann-destroy.html)
 
 ### Список параметрів
 
@@ -45,6 +45,6 @@ fann_create_standard_array(int $num_layers, array $layers): resource
 
 ### Дивіться також
 
--   [fann\_create\_standard()](function.fann-create-standard.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
--   [fann\_create\_sparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
--   [fann\_create\_shortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
+-   [fanncreatestandard()](function.fann-create-standard.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+-   [fanncreatesparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
+-   [fanncreateshortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання

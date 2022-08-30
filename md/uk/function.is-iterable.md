@@ -1,12 +1,12 @@
 Перевіряє, чи змінна ітерується
 
--   [« is\_integer](function.is-integer.html)
+-   [« isinteger](function.is-integer.html)
     
--   [is\_long »](function.is-long.html)
+-   [ісlong »](function.is-long.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи змінна ітерується
     
@@ -53,4 +53,4 @@ var_dump(is_iterable(new stdClass()));  // bool(false)
 
 ### Дивіться також
 
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом

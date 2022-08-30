@@ -2,7 +2,7 @@
 
 -   [« Функции SOAP](ref.soap.html)
     
--   [use\_soap\_error\_handler »](function.use-soap-error-handler.html)
+-   [usesoaperrorhandler »](function.use-soap-error-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -66,5 +66,5 @@ try {
 
 ### Дивіться також
 
--   [SoapClient::\_\_construct()](soapclient.construct.html) - Конструктор класу SoapClient
--   [SoapFault::\_\_construct()](soapfault.construct.html) - Конструктор SoapFault
+-   [SoapClient::construct()](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapFault::construct()](soapfault.construct.html) - Конструктор SoapFault

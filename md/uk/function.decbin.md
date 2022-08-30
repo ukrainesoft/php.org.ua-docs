@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Переводить число з десяткової системи числення до двійкової
     
@@ -88,6 +88,6 @@ echo decbin(26);
 -   [bindec()](function.bindec.html) - Двійкове у десяткове
 -   [decoct()](function.decoct.html) - Переводить число з десяткової системи числення до восьмирічної
 -   [dechex()](function.dechex.html) - Переводить число з десяткової системи числення до шістнадцяткової
--   [base\_convert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення
 -   [printf()](function.printf.html) - Виводить відформатований рядок, використовуючи формати `%b` `%032b` або `%064b`
 -   [sprintf()](function.sprintf.html), використовуючи формати `%b` `%032b` або `%064b`

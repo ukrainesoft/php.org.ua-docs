@@ -1,8 +1,8 @@
 Перетворення відкритого ключа системи Ed25519 на відкритий ключ Curve25519
 
--   [« sodium\_crypto\_sign\_detached](function.sodium-crypto-sign-detached.html)
+-   [« sodiumcryptosigndetached](function.sodium-crypto-sign-detached.html)
     
--   [sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519 »](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
+-   [sodiumcryptosigned25519сктоcurve25519 »](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
     
 -   [PHP Manual](index.html)
     

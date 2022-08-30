@@ -1,12 +1,12 @@
 Запустити вимір часу
 
--   [« HRTime\\StopWatch::isRunning](hrtime-stopwatch.isrunning.html)
+-   [« HRTimeStopWatch::isRunning](hrtime-stopwatch.isrunning.html)
     
--   [HRTime\\StopWatch::stop »](hrtime-stopwatch.stop.html)
+-   [HRTimeStopWatch::stop »](hrtime-stopwatch.stop.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\StopWatch](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     
 -   Запустити вимір часу
     

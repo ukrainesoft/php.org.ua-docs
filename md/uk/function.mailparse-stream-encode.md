@@ -1,8 +1,8 @@
 Кодує потік з джерела файлу і пише у файл одержувач.
 
--   [« mailparse\_rfc822\_parse\_addresses](function.mailparse-rfc822-parse-addresses.html)
+-   [« mailparserfc822parseaddresses](function.mailparse-rfc822-parse-addresses.html)
     
--   [mailparse\_uudecode\_all »](function.mailparse-uudecode-all.html)
+-   [mailparseuudecodeall »](function.mailparse-uudecode-all.html)
     
 -   [PHP Manual](index.html)
     

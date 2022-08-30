@@ -1,12 +1,12 @@
 Перемотує послідовність на задану кількість значень
 
--   [« Ds\\Sequence::reversed](ds-sequence.reversed.html)
+-   [« DsSequence::reversed](ds-sequence.reversed.html)
     
--   [Ds\\Sequence::set »](ds-sequence.set.html)
+-   [ДсSequence::set »](ds-sequence.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Перемотує послідовність на задану кількість значень
     

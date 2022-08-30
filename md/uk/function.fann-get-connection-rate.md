@@ -1,8 +1,8 @@
 Отримує швидкість з'єднання, що використовується під час створення мережі
 
--   [« fann\_get\_connection\_array](function.fann-get-connection-array.html)
+-   [« fanngetconnectionarray](function.fann-get-connection-array.html)
     
--   [fann\_get\_errno »](function.fann-get-errno.html)
+-   [fanngeterrno »](function.fann-get-errno.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Обмеження часу виконання скрипту
 
--   [« set\_include\_path](function.set-include-path.html)
+-   [« setincludepath](function.set-include-path.html)
     
--   [sys\_get\_temp\_dir »](function.sys-get-temp-dir.html)
+-   [sysgettempdir »](function.sys-get-temp-dir.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Обмеження часу виконання скрипту
     
@@ -41,9 +41,9 @@ set_time_limit(int $seconds): bool
 
 > **Зауваження**
 > 
-> Функція **settimelimit()** та директива [max\_execution\_time](info.configuration.html#ini.max-execution-time) впливають тимчасово виконання лише самого скрипта. Час, витрачений на різні дії поза скриптом, такі як системні виклики функції [system()](function.system.html), Потокові операції, запити до баз даних і т.п. не включаються до розрахунку виконання скрипта. Це не стосується систем Windows, де розраховується абсолютний час виконання.
+> Функція **settimelimit()** та директива [maxexecutiontime](info.configuration.html#ini.max-execution-time) впливають тимчасово виконання лише самого скрипта. Час, витрачений на різні дії поза скриптом, такі як системні виклики функції [system()](function.system.html), Потокові операції, запити до баз даних і т.п. не включаються до розрахунку виконання скрипта. Це не стосується систем Windows, де розраховується абсолютний час виконання.
 
 ### Дивіться також
 
--   [max\_execution\_time](info.configuration.html#ini.max-execution-time)
--   [max\_input\_time](info.configuration.html#ini.max-input-time)
+-   [maxexecutiontime](info.configuration.html#ini.max-execution-time)
+-   [maxinputtime](info.configuration.html#ini.max-input-time)

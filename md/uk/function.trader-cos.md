@@ -1,8 +1,8 @@
 Тригонометричний вектор косинуса
 
--   [« trader\_correl](function.trader-correl.html)
+-   [« tradercorrel](function.trader-correl.html)
     
--   [trader\_cosh »](function.trader-cosh.html)
+-   [tradercosh »](function.trader-cosh.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Витягти вміст phar-архіву в директорію
 
--   [« Phar::\_\_destruct](phar.destruct.html)
+-   [« Phar::destruct](phar.destruct.html)
     
 -   [Phar::getAlias »](phar.getalias.html)
     

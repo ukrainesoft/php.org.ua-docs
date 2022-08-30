@@ -1,12 +1,12 @@
 Оголошує токен
 
--   [« Parle\\RParser::sigil](parle-rparser.sigil.html)
+-   [« ParleRParser::sigil](parle-rparser.sigil.html)
     
--   [Parle\\RParser::tokenId »](parle-rparser.tokenid.html)
+-   [ParleRParser::tokenId »](parle-rparser.tokenid.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Оголошує токен
     

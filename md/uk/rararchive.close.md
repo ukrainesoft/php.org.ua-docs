@@ -39,7 +39,7 @@ rar_close(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [rar\_open()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
 
 ### Значення, що повертаються
 

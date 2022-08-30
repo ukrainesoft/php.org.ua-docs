@@ -1,6 +1,6 @@
 Створює ітератор переривання меж комбінування послідовностей символів
 
--   [« IntlBreakIterator::\_\_construct](intlbreakiterator.construct.html)
+-   [« IntlBreakIterator::construct](intlbreakiterator.construct.html)
     
 -   [IntlBreakIterator::createCodePointInstance »](intlbreakiterator.createcodepointinstance.html)
     

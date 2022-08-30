@@ -99,7 +99,7 @@ public wait(): bool
 -   [GearmanClient::addTaskStatus](gearmanclient.addtaskstatus.html) — Додати завдання для набуття статусу
 -   [GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.html) — Очистити всі функції зворотного виклику цієї задачі
 -   [GearmanClient::clone](gearmanclient.clone.html) - Створити копію об'єкта GearmanClient
--   [GearmanClient::\_\_construct](gearmanclient.construct.html) - Створити екземпляр GearmanClient
+-   [GearmanClient::construct](gearmanclient.construct.html) - Створити екземпляр GearmanClient
 -   [GearmanClient::context](gearmanclient.context.html) — Повертає контекст програми
 -   [GearmanClient::data](gearmanclient.data.html) — Повертає дані програми (функція застаріла)
 -   [GearmanClient::do](gearmanclient.do.html) — Виконує одне завдання та повертає результат Застарілий метод

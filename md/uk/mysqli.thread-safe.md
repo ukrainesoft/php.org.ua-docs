@@ -1,8 +1,8 @@
 Показує, чи безпечна робота з процесами
 
--   [« mysqli::$thread\_id](mysqli.thread-id.html)
+-   [« mysqli::$threadід](mysqli.thread-id.html)
     
--   [mysqli::use\_result »](mysqli.use-result.html)
+-   [mysqli::useresult »](mysqli.use-result.html)
     
 -   [PHP Manual](index.html)
     

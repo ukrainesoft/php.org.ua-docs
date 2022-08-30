@@ -1,8 +1,8 @@
 Повертає поверхневу копію пари
 
--   [« Ds\\Pair::\_\_construct](ds-pair.construct.html)
+-   [« DsPair::construct](ds-pair.construct.html)
     
--   [Ds\\Pair::isEmpty »](ds-pair.isempty.html)
+-   [ДсPair::isEmpty »](ds-pair.isempty.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Зміна налаштувань потоку
 
--   [« streamWrapper::stream\_seek](streamwrapper.stream-seek.html)
+-   [« streamWrapper::streamseek](streamwrapper.stream-seek.html)
     
--   [streamWrapper::stream\_stat »](streamwrapper.stream-stat.html)
+-   [streamWrapper::streamstat »](streamwrapper.stream-stat.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,9 +31,9 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 Одне із значень:
 
--   **`STREAM_OPTION_BLOCKING`** (Метод викликаний у результаті виклику функції [stream\_set\_blocking()](function.stream-set-blocking.html)
--   **`STREAM_OPTION_READ_TIMEOUT`** (Метод викликаний у результаті виклику функції [stream\_set\_timeout()](function.stream-set-timeout.html)
--   **`STREAM_OPTION_WRITE_BUFFER`** (Метод викликаний у результаті виклику функції [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html)
+-   **`STREAM_OPTION_BLOCKING`** (Метод викликаний у результаті виклику функції [streamsetblocking()](function.stream-set-blocking.html)
+-   **`STREAM_OPTION_READ_TIMEOUT`** (Метод викликаний у результаті виклику функції [streamsettimeout()](function.stream-set-timeout.html)
+-   **`STREAM_OPTION_WRITE_BUFFER`** (Метод викликаний у результаті виклику функції [streamsetwritebuffer()](function.stream-set-write-buffer.html)
 
 `arg1`
 
@@ -57,6 +57,6 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 ### Дивіться також
 
--   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
--   [stream\_set\_timeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
--   [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік
+-   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [streamsetwritebuffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік

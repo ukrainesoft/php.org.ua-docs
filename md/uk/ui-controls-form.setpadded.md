@@ -1,12 +1,12 @@
 Встановити заповнення
 
--   [« UI\\Controls\\Form::isPadded](ui-controls-form.ispadded.html)
+-   [« UIControlsForm::isPadded](ui-controls-form.ispadded.html)
     
--   [UI\\Controls\\Grid »](class.ui-controls-grid.html)
+-   [ОЙControlsGrid »](class.ui-controls-grid.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Form](class.ui-controls-form.html)
+-   [ОЙControlsForm](class.ui-controls-form.html)
     
 -   Встановити заповнення
     

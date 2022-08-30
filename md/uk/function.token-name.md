@@ -1,6 +1,6 @@
 Отримати символьне ім'я для переданої PHP-лексеми
 
--   [« token\_get\_all](function.token-get-all.html)
+-   [« tokengetall](function.token-get-all.html)
     
 -   [URL »](book.url.html)
     

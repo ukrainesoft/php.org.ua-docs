@@ -1,6 +1,6 @@
 Отримує значення поточного елемента
 
--   [« RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.html)
+-   [« RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.html)
     
 -   [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.html)
     

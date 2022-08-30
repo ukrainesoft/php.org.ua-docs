@@ -1,8 +1,8 @@
 Повертає інформацію про словник
 
--   [« enchant\_dict\_check](function.enchant-dict-check.html)
+-   [« enchantdictcheck](function.enchant-dict-check.html)
     
--   [enchant\_dict\_get\_error »](function.enchant-dict-get-error.html)
+-   [enchantdictgeterror »](function.enchant-dict-get-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 ### Значення, що повертаються
 
@@ -46,7 +46,7 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 **Приклад #1 Приклад використання **enchantdictdescribe()****
 
-Перевіримо, що словник є за допомогою [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.html) та отримаємо інформацію про нього.
+Перевіримо, що словник є за допомогою [enchantbrokerdictexists()](function.enchant-broker-dict-exists.html) та отримаємо інформацію про нього.
 
 ```php
 <?php

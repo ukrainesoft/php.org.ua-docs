@@ -1,12 +1,12 @@
 Виділення пам'яті під зазначену місткість
 
--   [« Последовательность](class.ds-sequence.html)
+-   [« Послідовність](class.ds-sequence.html)
     
--   [Ds\\Sequence::apply »](ds-sequence.apply.html)
+-   [ДсSequence::apply »](ds-sequence.apply.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Виділення пам'яті під зазначену місткість
     

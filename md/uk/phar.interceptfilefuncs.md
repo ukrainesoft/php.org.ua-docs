@@ -23,7 +23,7 @@ Phar::interceptFileFuncs — Вказує phar перехоплювати fopen,
 final public static Phar::interceptFileFuncs(): void
 ```
 
-Вказує phar перехоплювати [fopen()](function.fopen.html) [readfile()](function.readfile.html) [file\_get\_contents()](function.file-get-contents.html) [opendir()](function.opendir.html) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
+Вказує phar перехоплювати [fopen()](function.fopen.html) [readfile()](function.readfile.html) [filegetcontents()](function.file-get-contents.html) [opendir()](function.opendir.html) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
 
 Ця функція дозволяє писати програми, які працюють не прив'язані до жорсткого диска.
 

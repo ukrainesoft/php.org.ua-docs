@@ -1,12 +1,12 @@
 Підраховує всі елементи в YafConfig.ini
 
--   [« Yaf\_Config\_Ini::\_\_construct](yaf-config-ini.construct.html)
+-   [« YafConfigIni::construct](yaf-config-ini.construct.html)
     
--   [Yaf\_Config\_Ini::current »](yaf-config-ini.current.html)
+-   [YafConfigIni::current »](yaf-config-ini.current.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Підраховує всі елементи в YafConfig.ini
     

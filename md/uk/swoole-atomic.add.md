@@ -1,12 +1,12 @@
 Додає число до значення атомарного об'єкта
 
--   [« Swoole\\Atomic](class.swoole-atomic.html)
+-   [« SwooleAtomic](class.swoole-atomic.html)
     
--   [Swoole\\Atomic::cmpset »](swoole-atomic.cmpset.html)
+-   [SwooleAtomic::cmpset »](swoole-atomic.cmpset.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Atomic](class.swoole-atomic.html)
+-   [SwooleAtomic](class.swoole-atomic.html)
     
 -   Додає число до значення атомарного об'єкта
     

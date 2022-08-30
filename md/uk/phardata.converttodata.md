@@ -1,6 +1,6 @@
 Конвертація phar-архіву в tar/zip-архів, що не запускається.
 
--   [« PharData::\_\_construct](phardata.construct.html)
+-   [« PharData::construct](phardata.construct.html)
     
 -   [PharData::convertToExecutable »](phardata.converttoexecutable.html)
     

@@ -1,12 +1,12 @@
 Задає та витягує список сигналів, що блокуються.
 
--   [« pcntl\_signal](function.pcntl-signal.html)
+-   [pcntlsignal](function.pcntl-signal.html)
     
--   [pcntl\_sigtimedwait »](function.pcntl-sigtimedwait.html)
+-   [pcntlsigtimedwait »](function.pcntl-sigtimedwait.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Задає та витягує список сигналів, що блокуються.
     
@@ -61,5 +61,5 @@ pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);
 
 ### Дивіться також
 
--   [pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
--   [pcntl\_sigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу
+-   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
+-   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу

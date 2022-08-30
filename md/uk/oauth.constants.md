@@ -67,11 +67,11 @@
 
 **`OAUTH_REQENGINE_STREAMS`** (int)
 
-Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.html) Для вибору [потоков PHP](book.stream.html) як двигун, на противагу константі **`OAUTH_REQENGINE_CURL`**, що використовується для вибору [Curl](book.curl.html)
+Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.html) Для вибору [потоків PHP](book.stream.html) як двигун, на противагу константі **`OAUTH_REQENGINE_CURL`**, що використовується для вибору [Curl](book.curl.html)
 
 **`OAUTH_REQENGINE_CURL`** (int)
 
-Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.html) Для вибору [Curl](book.curl.html) як двигун, на противагу константі **`OAUTH_REQENGINE_STREAMS`**, що використовується для вибору [потоков PHP](book.stream.html)
+Використовується методом [OAuth::setRequestEngine()](oauth.setrequestengine.html) Для вибору [Curl](book.curl.html) як двигун, на противагу константі **`OAUTH_REQENGINE_STREAMS`**, що використовується для вибору [потоків PHP](book.stream.html)
 
 **`OAUTH_OK`** (int)
 

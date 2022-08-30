@@ -6,7 +6,7 @@ Phar-архіви, засновані на tar
     
 -   [PHP Manual](index.html)
     
--   [Чем отличается phar от tar- или zip-архива?](phar.fileformat.html)
+-   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
     
 -   Phar-архіви, засновані на tar
     

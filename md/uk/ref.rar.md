@@ -2,7 +2,7 @@ Rar
 
 -   [« Примеры](rar.examples.html)
     
--   [rar\_wrapper\_cache\_stats »](function.rar-wrapper-cache-stats.html)
+-   [rarwrappercachestats »](function.rar-wrapper-cache-stats.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@ Rar
 
 ## Зміст
 
--   [rar\_wrapper\_cache\_stats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL
+-   [rarwrappercachestats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL

@@ -1,12 +1,12 @@
 Виконує команду бази даних, яка читає на сервері
 
--   [« MongoDB\\Driver\\Server::executeQuery](mongodb-driver-server.executequery.html)
+-   [« MongoDBDriverServer::executeQuery](mongodb-driver-server.executequery.html)
     
--   [MongoDB\\Driver\\Server::executeReadWriteCommand »](mongodb-driver-server.executereadwritecommand.html)
+-   [MongoDBDriverServer::executeReadWriteCommand »](mongodb-driver-server.executereadwritecommand.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Виконує команду бази даних, яка читає на сервері
     
@@ -35,7 +35,7 @@ final public MongoDB\Driver\Server::executeReadCommand(string $db, MongoDB\Drive
 
 Ім'я бази даних, у якій запускається команда.
 
-`command` [MongoDB\\Driver\\Command](class.mongodb-driver-command.html)
+`command` [MongoDBDriverCommand](class.mongodb-driver-command.html)
 
 Команда для виконання.
 
@@ -43,42 +43,42 @@ final public MongoDB\Driver\Server::executeReadCommand(string $db, MongoDB\Drive
 
 **options**
 
-| Опция                                  | Тип                                                                   | Описание |
-|----------------------------------------|-----------------------------------------------------------------------|----------|
-| readConcern                            | [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html) |          |
-| Гарантія для застосування до операції. |                                                                       |          |
+| Опция                                  | Тип                                                               | Описание |
+|----------------------------------------|-------------------------------------------------------------------|----------|
+| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
+| Гарантія для застосування до операції. |                                                                   |          |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 
-| | readPreference | [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+| | readPreference | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
 
 Перевага читання, що використовується для вибору сервера для виконання операції.
 
-| | session | [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+| | session | [MongoDBDriverSession](class.mongodb-driver-session.html)
 
 Сесія зв'язування з операцією.
 
 **Увага**
 
-При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDB\\Driver\\Session::startTransaction()](mongodb-driver-session.starttransaction.html)
+При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.html)
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+У разі успішного виконання повертає [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
 
 ### Помилки
 
--   Викидається [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо опція `"session"` використовується з відповідною транзакцією у поєднанні з опцією `"readConcern"` або `"writeConcern"`
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.html)
--   У разі невдалої аутентифікації кидає виняток [MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
--   Видає виняток [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html) інші помилки (наприклад, неправильна команда ).
+-   Викидається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо опція `"session"` використовується з відповідною транзакцією у поєднанні з опцією `"readConcern"` або `"writeConcern"`
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.html)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
+-   Видає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) інші помилки (наприклад, неправильна команда ).
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Command](class.mongodb-driver-command.html)
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
--   [MongoDB\\Driver\\Server::executeCommand()](mongodb-driver-server.executecommand.html) - Виконати команду бази даних на сервері
--   [MongoDB\\Driver\\Server::executeReadWriteCommand()](mongodb-driver-server.executereadwritecommand.html) - Виконує команду бази даних, яка читає та пише на сервері
--   [MongoDB\\Driver\\Server::executeWriteCommand()](mongodb-driver-server.executewritecommand.html) - Виконує команду бази даних, що пише на сервері
--   [MongoDB\\Driver\\Manager::executeReadCommand()](mongodb-driver-manager.executereadcommand.html) - Виконує команду бази даних, яка читає
+-   [MongoDBDriverCommand](class.mongodb-driver-command.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverServer::executeCommand()](mongodb-driver-server.executecommand.html) - Виконати команду бази даних на сервері
+-   [MongoDBDriverServer::executeReadWriteCommand()](mongodb-driver-server.executereadwritecommand.html) - Виконує команду бази даних, яка читає та пише на сервері
+-   [MongoDBDriverServer::executeWriteCommand()](mongodb-driver-server.executewritecommand.html) - Виконує команду бази даних, що пише на сервері
+-   [MongoDBDriverManager::executeReadCommand()](mongodb-driver-manager.executereadcommand.html) - Виконує команду бази даних, яка читає

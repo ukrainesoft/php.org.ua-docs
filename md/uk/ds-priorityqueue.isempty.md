@@ -1,12 +1,12 @@
 Перевіряє, чи порожня колекція
 
--   [« Ds\\PriorityQueue::count](ds-priorityqueue.count.html)
+-   [« DsPriorityQueue::count](ds-priorityqueue.count.html)
     
--   [Ds\\PriorityQueue::jsonSerialize »](ds-priorityqueue.jsonserialize.html)
+-   [ДсPriorityQueue::jsonSerialize »](ds-priorityqueue.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Перевіряє, чи порожня колекція
     

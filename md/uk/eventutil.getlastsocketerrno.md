@@ -1,6 +1,6 @@
 Отримати номер останньої помилки сокету, що виникла
 
--   [« EventUtil::\_\_construct](eventutil.construct.html)
+-   [« EventUtil::construct](eventutil.construct.html)
     
 -   [EventUtil::getLastSocketError »](eventutil.getlastsocketerror.html)
     

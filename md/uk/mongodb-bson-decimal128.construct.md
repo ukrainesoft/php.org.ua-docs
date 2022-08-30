@@ -1,12 +1,12 @@
 Створює новий Decimal128
 
--   [« MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html)
+-   [« MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
     
--   [MongoDB\\BSON\\Decimal128::jsonSerialize »](mongodb-bson-decimal128.jsonserialize.html)
+-   [MongoDBBSONDecimal128::jsonSerialize »](mongodb-bson-decimal128.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html)
+-   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
     
 -   Створює новий Decimal128
     
@@ -23,7 +23,7 @@ MongoDBBSONDecimal128::construct — Створює новий Decimal128
 final public MongoDB\BSON\Decimal128::__construct(string $value)
 ```
 
-> **Зауваження** [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html) сумісний лише з MongoDB 3.4+. При спробі використовувати тип BSON з попередніми версіями приведе до помилки.
+> **Зауваження** [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html) сумісний лише з MongoDB 3.4+. При спробі використовувати тип BSON з попередніми версіями приведе до помилки.
 
 ### Список параметрів
 
@@ -33,8 +33,8 @@ final public MongoDB\BSON\Decimal128::__construct(string $value)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `value` не є допустимим десятковим рядком.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `value` не є допустимим десятковим рядком.
 
 ### Приклади
 
@@ -69,5 +69,5 @@ object(MongoDB\BSON\Decimal128)#1 (1) {
 
 ### Дивіться також
 
--   [» Формат с плавающей точкой Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
+-   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
 -   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

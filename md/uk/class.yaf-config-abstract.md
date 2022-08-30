@@ -1,8 +1,8 @@
 Клас YafConfigAbstract
 
--   [« Yaf\_Dispatcher::throwException](yaf-dispatcher.throwexception.html)
+-   [« YafDispatcher::throwException](yaf-dispatcher.throwexception.html)
     
--   [Yaf\_Config\_Abstract::get »](yaf-config-abstract.get.html)
+-   [YafConfigAbstract::get »](yaf-config-abstract.get.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,7 +58,7 @@ readonly
 
 ## Зміст
 
--   [Yaf\_Config\_Abstract::get](yaf-config-abstract.get.html) - Геттер
--   [Yaf\_Config\_Abstract::readonly](yaf-config-abstract.readonly.html) — Знаходить конфігурацію лише для читання
--   [Yaf\_Config\_Abstract::set](yaf-config-abstract.set.html) - Сеттер
--   [Yaf\_Config\_Abstract::toArray](yaf-config-abstract.toarray.html) - Приведення до масиву
+-   [YafConfigAbstract::get](yaf-config-abstract.get.html) - Геттер
+-   [YafConfigAbstract::readonly](yaf-config-abstract.readonly.html) — Знаходить конфігурацію лише для читання
+-   [YafConfigAbstract::set](yaf-config-abstract.set.html) - Сеттер
+-   [YafConfigAbstract::toArray](yaf-config-abstract.toarray.html) - Приведення до масиву

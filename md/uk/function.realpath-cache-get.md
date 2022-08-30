@@ -2,11 +2,11 @@
 
 -   [« readlink](function.readlink.html)
     
--   [realpath\_cache\_size »](function.realpath-cache-size.html)
+-   [realpathcachesize »](function.realpath-cache-size.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Отримує записи з кеша realpath
     
@@ -64,4 +64,4 @@ array(2) {
 
 ### Дивіться також
 
--   [realpath\_cache\_size()](function.realpath-cache-size.html) - Отримує розмір кеша realpath
+-   [realpathcachesize()](function.realpath-cache-size.html) - Отримує розмір кеша realpath

@@ -1,8 +1,8 @@
 Запустити цикл подій
 
--   [« swoole\_event\_set](function.swoole-event-set.html)
+-   [« swooleeventset](function.swoole-event-set.html)
     
--   [swoole\_event\_write »](function.swoole-event-write.html)
+-   [swooleeventwrite »](function.swoole-event-write.html)
     
 -   [PHP Manual](index.html)
     

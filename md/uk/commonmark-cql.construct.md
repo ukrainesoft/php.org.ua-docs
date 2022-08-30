@@ -1,12 +1,12 @@
 Конструктор класу CQL
 
--   [« CommonMark\\CQL](class.commonmark-cql.html)
+-   [« CommonMarkCQL](class.commonmark-cql.html)
     
--   [CommonMark\\CQL::\_\_invoke »](commonmark-cql.invoke.html)
+-   [CommonMarkCQL::invoke »](commonmark-cql.invoke.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\CQL](class.commonmark-cql.html)
+-   [CommonMarkCQL](class.commonmark-cql.html)
     
 -   Конструктор класу CQL
     

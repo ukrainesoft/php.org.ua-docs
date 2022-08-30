@@ -1,8 +1,8 @@
 Перемотує вектор на задану кількість значень
 
--   [« Ds\\Vector::reversed](ds-vector.reversed.html)
+-   [« DsVector::reversed](ds-vector.reversed.html)
     
--   [Ds\\Vector::set »](ds-vector.set.html)
+-   [ДсVector::set »](ds-vector.set.html)
     
 -   [PHP Manual](index.html)
     

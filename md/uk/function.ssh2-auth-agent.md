@@ -1,12 +1,12 @@
 Аутентифікація через SSH за допомогою агента ssh
 
--   [« Функции SSH2](ref.ssh2.html)
+-   [« Функції SSH2](ref.ssh2.html)
     
--   [ssh2\_auth\_hostbased\_file »](function.ssh2-auth-hostbased-file.html)
+-   [ssh2authhostbasedfile »](function.ssh2-auth-hostbased-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Аутентифікація через SSH за допомогою агента ssh
     
@@ -31,7 +31,7 @@ ssh2_auth_agent(resource $session, string $username): bool
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `username`
 

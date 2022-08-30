@@ -1,12 +1,12 @@
 Повертає компонент позначки часу ObjectIdInterface
 
--   [« MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.html)
+-   [« MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
     
--   [MongoDB\\BSON\\ObjectIdInterface::\_\_toString »](mongodb-bson-objectidinterface.tostring.html)
+-   [MongoDBBSONObjectIdInterface::toString »](mongodb-bson-objectidinterface.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.html)
+-   [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
     
 -   Повертає компонент позначки часу ObjectIdInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\ObjectIdInterface::getTimestamp(): int
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\ObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.html) - Повертає мітку часу ObjectId
+-   [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.html) - Повертає мітку часу ObjectId

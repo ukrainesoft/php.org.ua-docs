@@ -1,8 +1,8 @@
 Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
 
--   [« Ds\\Vector::count](ds-vector.count.html)
+-   [« DsVector::count](ds-vector.count.html)
     
--   [Ds\\Vector::find »](ds-vector.find.html)
+-   [ДсVector::find »](ds-vector.find.html)
     
 -   [PHP Manual](index.html)
     

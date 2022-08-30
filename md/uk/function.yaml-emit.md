@@ -1,8 +1,8 @@
 Повертає YAML-подання значення
 
--   [« yaml\_emit\_file](function.yaml-emit-file.html)
+-   [« yamlemitfile](function.yaml-emit-file.html)
     
--   [yaml\_parse\_file »](function.yaml-parse-file.html)
+-   [yamlparsefile »](function.yaml-parse-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ yaml_emit(    mixed $data,    int $encoding = YAML_ANY_ENCODING,    
 
 `callbacks`
 
-Обробники контенту для створення вузлів YAML. Асоціативний масив (array), де як ключі використовуються імена класів, а як значення callback-функції ([callable](language.types.callable.html)), які створюватимуть вузли для цих класів. Більше подробиць можна дізнатись у розділі про [публикующие callback-функции](yaml.callbacks.emit.html)
+Обробники контенту для створення вузлів YAML. Асоціативний масив (array), де як ключі використовуються імена класів, а як значення callback-функції ([callable](language.types.callable.html)), які створюватимуть вузли для цих класів. Більше подробиць можна дізнатись у розділі про [публікуючі callback-функції](yaml.callbacks.emit.html)
 
 ### Значення, що повертаються
 
@@ -141,5 +141,5 @@ comments: Late afternoon is best. Backup contact is Nancy Billsmer @ 338-4338.
 
 ### Дивіться також
 
--   [yaml\_emit\_file()](function.yaml-emit-file.html) - Відправляє YAML-подання значення файлу
--   [yaml\_parse()](function.yaml-parse.html) - Розбирає потік YAML
+-   [yamlemitfile()](function.yaml-emit-file.html) - Відправляє YAML-подання значення файлу
+-   [yamlparse()](function.yaml-parse.html) - Розбирає потік YAML

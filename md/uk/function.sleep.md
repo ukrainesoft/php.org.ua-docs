@@ -1,12 +1,12 @@
 Затримка виконання
 
--   [« show\_source](function.show-source.html)
+-   [« showsource](function.show-source.html)
     
--   [sys\_getloadavg »](function.sys-getloadavg.html)
+-   [sysgetloadavg »](function.sys-getloadavg.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Затримка виконання
     
@@ -74,6 +74,6 @@ echo date('h:i:s') . "\n";
 ### Дивіться також
 
 -   [usleep()](function.usleep.html) - Затримка виконання у мікросекундах
--   [time\_nanosleep()](function.time-nanosleep.html) - Затримка на задане число секунд та наносекунд
--   [time\_sleep\_until()](function.time-sleep-until.html) - Відкладає виконання скрипту до заданого часу
--   [set\_time\_limit()](function.set-time-limit.html) - Обмеження часу виконання скрипту
+-   [timenanosleep()](function.time-nanosleep.html) - Затримка на задане число секунд та наносекунд
+-   [timesleepuntil()](function.time-sleep-until.html) - Відкладає виконання скрипту до заданого часу
+-   [settimelimit()](function.set-time-limit.html) - Обмеження часу виконання скрипту

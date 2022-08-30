@@ -1,8 +1,8 @@
 Асинхронне читання файлу
 
--   [« swoole\_async\_read](function.swoole-async-read.html)
+-   [« swooleasyncread](function.swoole-async-read.html)
     
--   [swoole\_async\_set »](function.swoole-async-set.html)
+-   [swooleasyncset »](function.swoole-async-set.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Конструктор YarServer
 
--   [« Yar\_Server](class.yar-server.html)
+-   [« YarServer](class.yar-server.html)
     
--   [Yar\_Server::handle »](yar-server.handle.html)
+-   [YarServer::handle »](yar-server.handle.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Server](class.yar-server.html)
+-   [YarServer](class.yar-server.html)
     
 -   Конструктор YarServer
     
@@ -33,7 +33,7 @@ final public Yar_Server::__construct(Object $obj)
 
 ### Значення, що повертаються
 
-Об'єкт класу [Yar\_Server](class.yar-server.html)
+Об'єкт класу [YarServer](class.yar-server.html)
 
 ### Приклади
 
@@ -64,4 +64,4 @@ $service->handle();
 
 ### Дивіться також
 
--   [Yar\_Server::handle()](yar-server.handle.html) - Запустити сервер RPC
+-   [YarServer::handle()](yar-server.handle.html) - Запустити сервер RPC

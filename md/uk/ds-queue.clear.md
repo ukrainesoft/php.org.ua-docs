@@ -1,12 +1,12 @@
 Видаляє всі значення
 
--   [« Ds\\Queue::capacity](ds-queue.capacity.html)
+-   [« DsQueue::capacity](ds-queue.capacity.html)
     
--   [Ds\\Queue::\_\_construct »](ds-queue.construct.html)
+-   [ДсQueue::construct »](ds-queue.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Видаляє всі значення
     

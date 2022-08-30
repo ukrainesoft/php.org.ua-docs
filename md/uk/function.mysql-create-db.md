@@ -1,8 +1,8 @@
 Створює базу даних MySQL
 
--   [« mysql\_connect](function.mysql-connect.html)
+-   [« mysqlconnect](function.mysql-connect.html)
     
--   [mysql\_data\_seek »](function.mysql-data-seek.html)
+-   [mysqldataseek »](function.mysql-data-seek.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlcreatedb — Створює базу даних MySQL
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_query()](mysqli.query.html)
+-   [mysqliquery()](mysqli.query.html)
 -   [PDO::query()](pdo.query.html)
 
 ### Опис
@@ -40,7 +40,7 @@ mysql_create_db(string $database_name, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -50,7 +50,7 @@ mysql_create_db(string $database_name, resource $link_identifier = NULL): bool
 
 **Приклад #1 Приклад створення бази даних MySQL**
 
-Функція **mysqlcreatedb()** не рекомендується використовувати. Переважно використовувати [mysql\_query()](function.mysql-query.html) із SQL-запитом створення бази даних `CREATE DATABASE`
+Функція **mysqlcreatedb()** не рекомендується використовувати. Переважно використовувати [mysqlquery()](function.mysql-query.html) із SQL-запитом створення бази даних `CREATE DATABASE`
 
 ```php
 <?php
@@ -86,5 +86,5 @@ if (mysql_query($sql, $link)) {
 
 ### Дивіться також
 
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
--   [mysql\_select\_db()](function.mysql-select-db.html) - Вибирає базу даних MySQL
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlselectdb()](function.mysql-select-db.html) - Вибирає базу даних MySQL

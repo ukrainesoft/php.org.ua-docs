@@ -1,12 +1,12 @@
 Створити назву файлу
 
--   [« Vtiful\\Kernel\\Excel::data](vtiful-kernel-excel.data.html)
+-   [« VtifulKernelExcel::data](vtiful-kernel-excel.data.html)
     
--   [Vtiful\\Kernel\\Excel::getHandle »](vtiful-kernel-excel.getHandle.html)
+-   [VtifulKernelExcel::getHandle »](vtiful-kernel-excel.getHandle.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Створити назву файлу
     
@@ -37,7 +37,7 @@ public Vtiful\Kernel\Excel::fileName(string $fileName, string $sheetName = ?)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

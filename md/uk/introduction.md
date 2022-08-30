@@ -1,12 +1,12 @@
 Вступ
 
--   [« Приступая к работе](getting-started.html)
+-   [« Приступаючи до роботи](getting-started.html)
     
--   [Что такое PHP? »](intro-whatis.html)
+-   [Що таке PHP? »](intro-whatis.html)
     
 -   [PHP Manual](index.html)
     
--   [Приступая к работе](getting-started.html)
+-   [Приступаючи до роботи](getting-started.html)
     
 -   Вступ
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [Что такое PHP?](intro-whatis.html)
--   [Возможности PHP](intro-whatcando.html)
+-   [Що таке PHP?](intro-whatis.html)
+-   [Можливості PHP](intro-whatcando.html)

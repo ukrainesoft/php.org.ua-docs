@@ -1,12 +1,12 @@
 Повертає сервер, на якому було виконано команду
 
--   [« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getRequestId](mongodb-driver-monitoring-commandfailedevent.getrequestid.html)
+-   [« MongoDBDriverMonitoringCommandFailedEvent::getRequestId](mongodb-driver-monitoring-commandfailedevent.getrequestid.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServerConnectionId »](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html)
+-   [MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId »](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
+-   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
     
 -   Повертає сервер, на якому було виконано команду
     
@@ -23,7 +23,7 @@ MongoDBDriverMonitoringCommandFailedEvent::getServer — Повертає сер
 final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), на якому було виконано команду.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), на якому було виконано команду.
 
 ### Список параметрів
 
@@ -31,13 +31,13 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServer(): MongoDB\
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), на якому було виконано команду.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), на якому було виконано команду.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getServer()](mongodb-driver-monitoring-commandstartedevent.getserver.html) - Повертає сервер, на якому було виконано команду
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent::getServer()](mongodb-driver-monitoring-commandstartedevent.getserver.html) - Повертає сервер, на якому було виконано команду
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)

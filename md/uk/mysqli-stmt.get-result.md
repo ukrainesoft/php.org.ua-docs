@@ -1,12 +1,12 @@
 Отримує результат підготовленого запиту у вигляді об'єкта mysqliresult
 
--   [« mysqli\_stmt::free\_result](mysqli-stmt.free-result.html)
+-   [« mysqlistmt::freeresult](mysqli-stmt.free-result.html)
     
--   [mysqli\_stmt::get\_warnings »](mysqli-stmt.get-warnings.html)
+-   [mysqlistmt::getwarnings »](mysqli-stmt.get-warnings.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Отримує результат підготовленого запиту у вигляді об'єкта mysqliresult
     
@@ -17,7 +17,7 @@
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-mysqlistmt::getresult -- mysqlistmtgetresult — Отримує результат із підготовленого запиту у вигляді об'єкта [mysqli\_result](class.mysqli-result.html)
+mysqlistmt::getresult -- mysqlistmtgetresult — Отримує результат із підготовленого запиту у вигляді об'єкта [mysqliresult](class.mysqli-result.html)
 
 ### Опис
 
@@ -33,7 +33,7 @@ public mysqli_stmt::get_result(): mysqli_result|false
 mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
 ```
 
-Отримує набір результатів з підготовленого запиту як об'єкта [mysqli\_result](class.mysqli-result.html). Дані будуть завантажені з сервера MySQL у PHP. Метод слід викликати лише для запитів, які виробляють набір результатів.
+Отримує набір результатів з підготовленого запиту як об'єкта [mysqliresult](class.mysqli-result.html). Дані будуть завантажені з сервера MySQL у PHP. Метод слід викликати лише для запитів, які виробляють набір результатів.
 
 > **Зауваження**
 > 
@@ -41,17 +41,17 @@ mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
 
 > **Зауваження**
 > 
-> Цю функцію не можна використовувати спільно з [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html). Обидві ці функції отримують повний набір результатів із сервера MySQL.
+> Цю функцію не можна використовувати спільно з [mysqlistmtstoreresult()](mysqli-stmt.store-result.html). Обидві ці функції отримують повний набір результатів із сервера MySQL.
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqli\_result](class.mysqli-result.html). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqli\_stmt\_errno()](mysqli-stmt.errno.html) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqli\_errno()](mysqli.errno.html)
+Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqliresult](class.mysqli-result.html). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqlistmterrno()](mysqli-stmt.errno.html) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqlierrno()](mysqli.errno.html)
 
 ### Приклади
 
@@ -120,8 +120,8 @@ Anguilla 8000 North America
 
 ### Дивіться також
 
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqli\_stmt\_result\_metadata()](mysqli-stmt.result-metadata.html) - Повертає метадані результуючої таблиці запиту, що готується.
--   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
--   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlistmtresultmetadata()](mysqli-stmt.result-metadata.html) - Повертає метадані результуючої таблиці запиту, що готується.
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері

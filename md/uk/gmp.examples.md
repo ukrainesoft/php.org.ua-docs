@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](gmp.constants.html)
     
--   [GMP Функции »](ref.gmp.html)
+-   [GMP Функції »](ref.gmp.html)
     
 -   [PHP Manual](index.html)
     

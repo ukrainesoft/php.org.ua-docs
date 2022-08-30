@@ -1,8 +1,8 @@
 Відкочує транзакцію
 
--   [« odbc\_result](function.odbc-result.html)
+-   [« odbcresult](function.odbc-result.html)
     
--   [odbc\_setoption »](function.odbc-setoption.html)
+-   [odbcsetoption »](function.odbc-setoption.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_rollback(resource $odbc): bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Додати значення атрибуту до поточних атрибутів
 
--   [« ldap\_list](function.ldap-list.html)
+-   [« ldaplist](function.ldap-list.html)
     
--   [ldap\_mod\_add »](function.ldap-mod-add.html)
+-   [ldapmodadd »](function.ldap-mod-add.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Додати значення атрибуту до поточних атрибутів
     
@@ -23,26 +23,26 @@ ldapmodaddext — Додати значення атрибуту до поточ
 ldap_mod_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldap\_mod\_add()](function.ldap-mod-add.html), але повертає екземпляр [LDAP\\Result](class.ldap-result.html) для розбору за допомогою [ldap\_parse\_result()](function.ldap-parse-result.html)
+Робить те саме, що й [ldapmodadd()](function.ldap-mod-add.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.html)
 
 ### Список параметрів
 
-Дивіться [ldap\_mod\_add()](function.ldap-mod-add.html)
+Дивіться [ldapmodadd()](function.ldap-mod-add.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\\Result](class.ldap-result.html) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAPResult](class.ldap-result.html) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                        |
-|        | Додано підтримку параметра `controls`                                                                                                                    |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                            |
+|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
+|        | Додано підтримку параметра `controls`                                                                                                                  |
 
 ### Дивіться також
 
--   [ldap\_mod\_add()](function.ldap-mod-add.html) - Додати значення атрибуту до поточних атрибутів
--   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату
+-   [ldapmodadd()](function.ldap-mod-add.html) - Додати значення атрибуту до поточних атрибутів
+-   [ldapparseresult()](function.ldap-parse-result.html) - Витягти інформацію з результату

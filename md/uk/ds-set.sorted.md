@@ -1,8 +1,8 @@
 Повертає відсортовану за значенням копію колекції
 
--   [« Ds\\Set::sort](ds-set.sort.html)
+-   [« DsSet::sort](ds-set.sort.html)
     
--   [Ds\\Set::sum »](ds-set.sum.html)
+-   [ДсSet::sum »](ds-set.sum.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Представляє макет тексту
 
--   [« UI\\Draw\\Brush\\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.html)
+-   [« UIDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.html)
     
--   [UI\\Draw\\Text\\Layout::\_\_construct »](ui-draw-text-layout.construct.html)
+-   [ОЙDrawTextLayout::construct »](ui-draw-text-layout.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Представляє макет тексту
     
@@ -47,6 +47,6 @@ public setWidth(float $width)
 
 ## Зміст
 
--   [UI\\Draw\\Text\\Layout::\_\_construct](ui-draw-text-layout.construct.html) — Створити новий об'єкт макету тексту
--   [UI\\Draw\\Text\\Layout::setColor](ui-draw-text-layout.setcolor.html) - Встановити колір
--   [UI\\Draw\\Text\\Layout::setWidth](ui-draw-text-layout.setwidth.html) - Встановити ширину
+-   [ОЙDrawTextLayout::construct](ui-draw-text-layout.construct.html) — Створити новий об'єкт макету тексту
+-   [ОЙDrawTextLayout::setColor](ui-draw-text-layout.setcolor.html) - Встановити колір
+-   [ОЙDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.html) - Встановити ширину

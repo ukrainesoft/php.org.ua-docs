@@ -1,12 +1,12 @@
 Приховування PHP
 
--   [« Данные, введённые пользователем](security.variables.html)
+-   [« Дані, введені користувачем](security.variables.html)
     
 -   [Необходимость обновлений »](security.current.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](security.html)
+-   [Безпека](security.html)
     
 -   Приховування PHP
     

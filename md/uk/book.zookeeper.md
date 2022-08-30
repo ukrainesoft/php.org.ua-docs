@@ -21,12 +21,12 @@ ZooKeeper
     -   [Типы ресурсов](zookeeper.resources.html)
 -   [Предопределённые константы](zookeeper.constants.html)
 -   [Функции ZooKeeper](ref.zookeeper.html)
-    -   [zookeeper\_dispatch](function.zookeeper-dispatch.html) — Викликати callback-функції для операцій, що очікують
+    -   [zookeeperdispatch](function.zookeeper-dispatch.html) — Викликати callback-функції для операцій, що очікують
 -   [Zookeeper](class.zookeeper.html) - Клас Zookeeper
     -   [Zookeeper::addAuth](zookeeper.addauth.html) — Вказує облікові дані програми
     -   [Zookeeper::close](zookeeper.close.html) — Закриває обробник zookeeper та звільняє будь-які ресурси
     -   [Zookeeper::connect](zookeeper.connect.html) — Створює дескриптор для спілкування із zookeeper
-    -   [Zookeeper::\_\_construct](zookeeper.construct.html) — Створює дескриптор для спілкування із zookeeper
+    -   [Zookeeper::construct](zookeeper.construct.html) — Створює дескриптор для спілкування із zookeeper
     -   [Zookeeper::create](zookeeper.create.html) - Створює синхронно вузол
     -   [Zookeeper::delete](zookeeper.delete.html) — Видаляє синхронно вузол у zookeeper
     -   [Zookeeper::exists](zookeeper.exists.html) — Синхронно перевіряє наявність вузла в zookeeper

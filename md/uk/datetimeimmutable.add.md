@@ -2,7 +2,7 @@
 
 -   [« DateTimeImmutable](class.datetimeimmutable.html)
     
--   [DateTimeImmutable::\_\_construct »](datetimeimmutable.construct.html)
+-   [DateTimeImmutable::construct »](datetimeimmutable.construct.html)
     
 -   [PHP Manual](index.html)
     

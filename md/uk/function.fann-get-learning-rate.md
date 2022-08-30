@@ -1,8 +1,8 @@
 Повертає швидкість навчання
 
--   [« fann\_get\_learning\_momentum](function.fann-get-learning-momentum.html)
+-   [« fanngetlearningmomentum](function.fann-get-learning-momentum.html)
     
--   [fann\_get\_MSE »](function.fann-get-mse.html)
+-   [fanngetMSE »](function.fann-get-mse.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,5 +39,5 @@ fann_get_learning_rate(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_set\_learning\_rate()](function.fann-set-learning-rate.html) - встановлює швидкість навчання
--   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fannsetlearningrate()](function.fann-set-learning-rate.html) - встановлює швидкість навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

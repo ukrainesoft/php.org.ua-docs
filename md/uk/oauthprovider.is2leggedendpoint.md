@@ -53,4 +53,4 @@ $provider->is2LeggedEndpoint(true);
 
 ### Дивіться також
 
--   [OAuthProvider::\_\_construct()](oauthprovider.construct.html) - Конструктор класу OAuthProvider
+-   [OAuthProvider::construct()](oauthprovider.construct.html) - Конструктор класу OAuthProvider

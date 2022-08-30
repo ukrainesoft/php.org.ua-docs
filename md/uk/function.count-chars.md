@@ -1,12 +1,12 @@
 Повертає інформацію про символи, що входять до рядка
 
--   [« convert\_uuencode](function.convert-uuencode.html)
+-   [« convertuuencode](function.convert-uuencode.html)
     
 -   [crc32 »](function.crc32.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає інформацію про символи, що входять до рядка
     
@@ -84,4 +84,4 @@ foreach (count_chars($data, 1) as $i => $val) {
 ### Дивіться також
 
 -   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
--   [substr\_count()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка

@@ -1,12 +1,12 @@
 Необхідність оновлень
 
--   [« Сокрытие PHP](security.hiding.html)
+-   [« Приховування PHP](security.hiding.html)
     
--   [Отличительные особенности »](features.html)
+-   [Відмітні особливості "](features.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](security.html)
+-   [Безпека](security.html)
     
 -   Необхідність оновлень
     

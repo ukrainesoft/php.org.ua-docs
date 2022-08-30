@@ -1,12 +1,12 @@
 Повторює цю функцію у кожний заданий інтервал часу
 
--   [« Swoole\\Server::taskWaitMulti](swoole-server.taskwaitmulti.html)
+-   [« SwooleServer::taskWaitMulti](swoole-server.taskwaitmulti.html)
     
--   [Swoole\\Table »](class.swoole-table.html)
+-   [SwooleTable »](class.swoole-table.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Повторює цю функцію у кожний заданий інтервал часу
     

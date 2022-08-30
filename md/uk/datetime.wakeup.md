@@ -35,7 +35,7 @@ public DateTimeImmutable::__wakeup(): void
 public DateTimeInterface::__wakeup(): void
 ```
 
-Обробник [\_\_wakeup()](language.oop5.magic.html#object.wakeup)
+Обробник [wakeup()](language.oop5.magic.html#object.wakeup)
 
 ### Список параметрів
 

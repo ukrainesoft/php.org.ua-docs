@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Клас Generator
     
@@ -56,7 +56,7 @@ public __wakeup(): void
 
 ## Дивіться також
 
-Дивіться також розділ [Итераторы объектов](language.oop5.iterations.html)
+Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.html)
 
 ## Зміст
 
@@ -68,4 +68,4 @@ public __wakeup(): void
 -   [Generator::send](generator.send.html) — Передати значення у генератор
 -   [Generator::throw](generator.throw.html) — Кинути виняток у генератор
 -   [Generator::valid](generator.valid.html) - Перевірка, чи закритий ітератор
--   [Generator::\_\_wakeup](generator.wakeup.html) - Callback-функція серіалізації
+-   [Generator::wakeup](generator.wakeup.html) - Callback-функція серіалізації

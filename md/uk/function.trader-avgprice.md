@@ -1,8 +1,8 @@
 Середня ціна
 
--   [« trader\_atr](function.trader-atr.html)
+-   [« traderatr](function.trader-atr.html)
     
--   [trader\_bbands »](function.trader-bbands.html)
+-   [traderbbands »](function.trader-bbands.html)
     
 -   [PHP Manual](index.html)
     

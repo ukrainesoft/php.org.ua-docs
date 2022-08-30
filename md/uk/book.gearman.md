@@ -1,6 +1,6 @@
 Gearman
 
--   [« FTP\\Connection](class.ftp-connection.html)
+-   [« FTPConnection](class.ftp-connection.html)
     
 -   [Введение »](intro.gearman.html)
     
@@ -37,7 +37,7 @@ Gearman
     -   [GearmanClient::addTaskStatus](gearmanclient.addtaskstatus.html) — Додати завдання для набуття статусу
     -   [GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.html) — Очистити всі функції зворотного виклику цієї задачі
     -   [GearmanClient::clone](gearmanclient.clone.html) - Створити копію об'єкта GearmanClient
-    -   [GearmanClient::\_\_construct](gearmanclient.construct.html) - Створити екземпляр GearmanClient
+    -   [GearmanClient::construct](gearmanclient.construct.html) - Створити екземпляр GearmanClient
     -   [GearmanClient::context](gearmanclient.context.html) — Повертає контекст програми
     -   [GearmanClient::data](gearmanclient.data.html) — Повертає дані програми (функція застаріла)
     -   [GearmanClient::do](gearmanclient.do.html) — Виконує одне завдання та повертає результат Застарілий метод
@@ -74,7 +74,7 @@ Gearman
     -   [GearmanClient::wait](gearmanclient.wait.html) — Чекає на активність введення-виводу для всіх підключень на клієнті
 -   [GearmanJob](class.gearmanjob.html) - Клас GearmanJob
     -   [GearmanJob::complete](gearmanjob.complete.html) — Надсилання результату та статусу завершення (застарілий метод)
-    -   [GearmanJob::\_\_construct](gearmanjob.construct.html) - Створення об'єкта GearmanJob
+    -   [GearmanJob::construct](gearmanjob.construct.html) - Створення об'єкта GearmanJob
     -   [GearmanJob::data](gearmanjob.data.html) — Надсилання даних (застарілий метод)
     -   [GearmanJob::exception](gearmanjob.exception.html) — Надсилання виключення (застарілий метод)
     -   [GearmanJob::fail](gearmanjob.fail.html) — Надсилання статусу невдалої операції (застарілий метод)
@@ -94,7 +94,7 @@ Gearman
     -   [GearmanJob::workload](gearmanjob.workload.html) — Отримання даних для обробки
     -   [GearmanJob::workloadSize](gearmanjob.workloadsize.html) — Отримання розміру даних, що оброблюються
 -   [GearmanTask](class.gearmantask.html) - Клас GearmanTask
-    -   [GearmanTask::\_\_construct](gearmantask.construct.html) — Створює об'єкт GearmanTask
+    -   [GearmanTask::construct](gearmantask.construct.html) — Створює об'єкт GearmanTask
     -   [GearmanTask::create](gearmantask.create.html) - Створює завдання (застарілий метод)
     -   [GearmanTask::data](gearmantask.data.html) — Отримати дані, повернені до завдання
     -   [GearmanTask::dataSize](gearmantask.datasize.html) — Отримати розмір даних, що повертаються
@@ -117,7 +117,7 @@ Gearman
     -   [GearmanWorker::addServer](gearmanworker.addserver.html) — Додавання сервера завдань
     -   [GearmanWorker::addServers](gearmanworker.addservers.html) — Додавання серверів завдань
     -   [GearmanWorker::clone](gearmanworker.clone.html) - Створення копії оброблювача
-    -   [GearmanWorker::\_\_construct](gearmanworker.construct.html) - Створення об'єкта GearmanWorker
+    -   [GearmanWorker::construct](gearmanworker.construct.html) - Створення об'єкта GearmanWorker
     -   [GearmanWorker::echo](gearmanworker.echo.html) - Перевірка відгуку серверів завдань
     -   [GearmanWorker::error](gearmanworker.error.html) — Отримання останньої виявленої помилки
     -   [GearmanWorker::getErrno](gearmanworker.geterrno.html) — Отримання номера помилки

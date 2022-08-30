@@ -2,7 +2,7 @@ LDAP Controls
 
 -   [« Базовое использование](ldap.examples-basic.html)
     
--   [Функции LDAP »](ref.ldap.html)
+-   [Функції LDAP »](ref.ldap.html)
     
 -   [PHP Manual](index.html)
     

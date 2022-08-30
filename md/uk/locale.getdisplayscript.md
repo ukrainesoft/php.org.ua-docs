@@ -91,7 +91,7 @@ Lateinisch
 
 ### Дивіться також
 
--   [locale\_get\_display\_name()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
--   [locale\_get\_display\_language()](locale.getdisplaylanguage.html) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
--   [locale\_get\_display\_region()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
--   [locale\_get\_display\_variant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [localegetdisplayname()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
+-   [localegetdisplaylanguage()](locale.getdisplaylanguage.html) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [localegetdisplayregion()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
+-   [localegetdisplayvariant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі

@@ -16,4 +16,4 @@
 ## Зміст
 
 -   [Функции обратного вызова для результирующего набора](memcached.callbacks.result.html)
--   [Функции обратного вызова сквозного чтения кеша](memcached.callbacks.read-through.html)
+-   [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.html)

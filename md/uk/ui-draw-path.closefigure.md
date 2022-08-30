@@ -1,12 +1,12 @@
 Закрити фігуру
 
--   [« UI\\Draw\\Path::bezierTo](ui-draw-path.bezierto.html)
+-   [« UIDrawPath::bezierTo](ui-draw-path.bezierto.html)
     
--   [UI\\Draw\\Path::\_\_construct »](ui-draw-path.construct.html)
+-   [ОЙDrawPath::construct »](ui-draw-path.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Закрити фігуру
     

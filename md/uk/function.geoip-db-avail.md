@@ -1,8 +1,8 @@
 Перевіряє доступність бази GeoIP
 
--   [« geoip\_database\_info](function.geoip-database-info.html)
+-   [« geoipdatabaseinfo](function.geoip-database-info.html)
     
--   [geoip\_db\_filename »](function.geoip-db-filename.html)
+-   [geoipдбfilename »](function.geoip-db-filename.html)
     
 -   [PHP Manual](index.html)
     

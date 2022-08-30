@@ -1,12 +1,12 @@
 Перевіряє наявність літерних символів
 
--   [« ctype\_alnum](function.ctype-alnum.html)
+-   [« ctypealnum](function.ctype-alnum.html)
     
--   [ctype\_cntrl »](function.ctype-cntrl.html)
+-   [ctypecntrl »](function.ctype-cntrl.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Ctype](ref.ctype.html)
+-   [Опції Ctype](ref.ctype.html)
     
 -   Перевіряє наявність літерних символів
     
@@ -69,6 +69,6 @@ foreach ($strings as $testcase) {
 
 ### Дивіться також
 
--   [ctype\_upper()](function.ctype-upper.html) - Перевіряє наявність символів у верхньому регістрі
--   [ctype\_lower()](function.ctype-lower.html) - Перевіряє наявність символів у нижньому регістрі
+-   [ctypeupper()](function.ctype-upper.html) - Перевіряє наявність символів у верхньому регістрі
+-   [ctypelower()](function.ctype-lower.html) - Перевіряє наявність символів у нижньому регістрі
 -   [setlocale()](function.setlocale.html) - Встановлює налаштування локалі

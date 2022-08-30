@@ -1,12 +1,12 @@
 Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
 
--   [« ob\_get\_contents](function.ob-get-contents.html)
+-   [« obgetcontents](function.ob-get-contents.html)
     
--   [ob\_get\_length »](function.ob-get-length.html)
+-   [проgetlength »](function.ob-get-length.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
     
@@ -25,9 +25,9 @@ ob_get_flush(): string|false
 
 **проgetflush()** скидає буфер виведення, повертаючи його вміст у вигляді рядка та відключає буферизацію виведення.
 
-Буфер виводу має запускатися функцією [ob\_start()](function.ob-start.html) з прапором [PHP\_OUTPUT\_HANDLER\_FLUSHABLE](outcontrol.constants.html#constant.php-output-handler-flushable). Інакше не спрацює **проgetflush()**
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.html) з прапором [PHPOUTPUTHANDLERFLUSHABLE](outcontrol.constants.html#constant.php-output-handler-flushable). Інакше не спрацює **проgetflush()**
 
-> **Зауваження**: Ця функція аналогічна [ob\_end\_flush()](function.ob-end-flush.html) крім того, що ця функція також повертає буфер у вигляді рядка.
+> **Зауваження**: Ця функція аналогічна [проendflush()](function.ob-end-flush.html) крім того, що ця функція також повертає буфер у вигляді рядка.
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ ob_get_flush(): string|false
 
 ### Значення, що повертаються
 
-Повертає буфер виводу або **`false`**якщо буферизація не активна.
+Повертає буфер виводу або \*\*`false`\*\*якщо буферизація не активна.
 
 ### Приклади
 
@@ -68,6 +68,6 @@ Array
 
 ### Дивіться також
 
--   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
--   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [ob\_list\_handlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
+-   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу

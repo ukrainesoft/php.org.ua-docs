@@ -1,12 +1,12 @@
 Розмноження чисел
 
--   [« gmp\_mod](function.gmp-mod.html)
+-   [« gmpmod](function.gmp-mod.html)
     
--   [gmp\_neg »](function.gmp-neg.html)
+-   [gmpneg »](function.gmp-neg.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Розмноження чисел
     

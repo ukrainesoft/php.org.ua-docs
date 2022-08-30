@@ -1,12 +1,12 @@
 Обчислює сходження масивів
 
--   [« array\_intersect\_ukey](function.array-intersect-ukey.html)
+-   [« arrayintersectukey](function.array-intersect-ukey.html)
     
--   [array\_is\_list »](function.array-is-list.html)
+-   [arrayісlist »](function.array-is-list.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Обчислює сходження масивів
     
@@ -74,6 +74,6 @@ Array
 
 ### Дивіться також
 
--   [array\_intersect\_assoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
--   [array\_diff()](function.array-diff.html) - Обчислити розбіжність масивів
--   [array\_diff\_assoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arraydiff()](function.array-diff.html) - Обчислити розбіжність масивів
+-   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу

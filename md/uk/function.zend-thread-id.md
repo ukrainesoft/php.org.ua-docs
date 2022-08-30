@@ -1,12 +1,12 @@
 Повертає унікальний ідентифікатор потоку поточного виконання
 
--   [« version\_compare](function.version-compare.html)
+-   [« versioncompare](function.version-compare.html)
     
--   [zend\_version »](function.zend-version.html)
+-   [zendversion »](function.zend-version.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає унікальний ідентифікатор потоку поточного виконання
     

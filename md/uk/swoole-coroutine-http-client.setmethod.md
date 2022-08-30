@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::setHeaders](swoole-coroutine-http-client.setheaders.html)
+-   [« SwooleCoroutineHttpClient::setHeaders](swoole-coroutine-http-client.setheaders.html)
     
--   [Swoole\\Coroutine\\MySQL::close »](swoole-coroutine-mysql.close.html)
+-   [SwooleCoroutineMySQL::close »](swoole-coroutine-mysql.close.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

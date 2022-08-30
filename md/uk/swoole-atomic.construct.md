@@ -1,12 +1,12 @@
 Створює атомарний об'єкт swoole
 
--   [« Swoole\\Atomic::cmpset](swoole-atomic.cmpset.html)
+-   [« SwooleAtomic::cmpset](swoole-atomic.cmpset.html)
     
--   [Swoole\\Atomic::get »](swoole-atomic.get.html)
+-   [SwooleAtomic::get »](swoole-atomic.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Atomic](class.swoole-atomic.html)
+-   [SwooleAtomic](class.swoole-atomic.html)
     
 -   Створює атомарний об'єкт swoole
     

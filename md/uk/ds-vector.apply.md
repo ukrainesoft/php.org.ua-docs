@@ -1,8 +1,8 @@
 Оновлює всі значення, застосовуючи до них передану callback-функцію
 
--   [« Ds\\Vector::allocate](ds-vector.allocate.html)
+-   [« DsVector::allocate](ds-vector.allocate.html)
     
--   [Ds\\Vector::capacity »](ds-vector.capacity.html)
+-   [ДсVector::capacity »](ds-vector.capacity.html)
     
 -   [PHP Manual](index.html)
     

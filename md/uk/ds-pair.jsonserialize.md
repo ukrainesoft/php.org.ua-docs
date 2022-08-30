@@ -1,8 +1,8 @@
 Повертає пару у виставі JSON
 
--   [« Ds\\Pair::isEmpty](ds-pair.isempty.html)
+-   [« DsPair::isEmpty](ds-pair.isempty.html)
     
--   [Ds\\Pair::toArray »](ds-pair.toarray.html)
+-   [ДсPair::toArray »](ds-pair.toarray.html)
     
 -   [PHP Manual](index.html)
     

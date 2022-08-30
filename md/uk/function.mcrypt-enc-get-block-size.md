@@ -1,8 +1,8 @@
 Повертає розмір блоку алгоритму
 
--   [« mcrypt\_enc\_get\_algorithms\_name](function.mcrypt-enc-get-algorithms-name.html)
+-   [« mcryptencgetalgorithmsname](function.mcrypt-enc-get-algorithms-name.html)
     
--   [mcrypt\_enc\_get\_iv\_size »](function.mcrypt-enc-get-iv-size.html)
+-   [mcryptencgetвербsize »](function.mcrypt-enc-get-iv-size.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Виконує пошук та заміну за регулярним виразом
 
--   [« preg\_replace\_callback](function.preg-replace-callback.html)
+-   [« pregreplacecallback](function.preg-replace-callback.html)
     
--   [preg\_split »](function.preg-split.html)
+-   [pregsplit »](function.preg-split.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ preg_replace(    string|array $pattern,    string|array $replacement, �
 
 Шуканий шаблон. Можливо як рядком, і масивом рядків.
 
-Також доступні деякі [модификаторы PCRE](reference.pcre.pattern.modifiers.html)
+Також доступні деякі [модифікатори PCRE](reference.pcre.pattern.modifiers.html)
 
 `replacement`
 
@@ -199,9 +199,9 @@ xp***to
 ### Дивіться також
 
 -   [Регулярные выражения PCRE](pcre.pattern.html)
--   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [preg\_filter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [preg\_replace\_callback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [preg\_last\_error()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [pregfilter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregreplacecallback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE

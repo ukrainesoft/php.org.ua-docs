@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](ssdeep.constants.html)
     
--   [ssdeep\_fuzzy\_compare »](function.ssdeep-fuzzy-compare.html)
+-   [ssdeepfuzzycompare »](function.ssdeep-fuzzy-compare.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [ssdeep\_fuzzy\_compare](function.ssdeep-fuzzy-compare.html) — Обчислює схожість двох сигнатур нечітких хешів
--   [ssdeep\_fuzzy\_hash\_filename](function.ssdeep-fuzzy-hash-filename.html) — Створення нечіткого хешу із файлу
--   [ssdeep\_fuzzy\_hash](function.ssdeep-fuzzy-hash.html) — Створює нечіткий хеш із рядка
+-   [ssdeepfuzzycompare](function.ssdeep-fuzzy-compare.html) — Обчислює схожість двох сигнатур нечітких хешів
+-   [ssdeepfuzzyhashfilename](function.ssdeep-fuzzy-hash-filename.html) — Створення нечіткого хешу із файлу
+-   [ssdeepfuzzyhash](function.ssdeep-fuzzy-hash.html) — Створює нечіткий хеш із рядка

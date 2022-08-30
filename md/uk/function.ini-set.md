@@ -1,12 +1,12 @@
 Встановлює налаштування конфігурації
 
--   [« ini\_restore](function.ini-restore.html)
+-   [« inirestore](function.ini-restore.html)
     
--   [memory\_get\_peak\_usage »](function.memory-get-peak-usage.html)
+-   [memorygetpeakusage »](function.memory-get-peak-usage.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Встановлює налаштування конфігурації
     
@@ -63,8 +63,8 @@ echo ini_get('display_errors');
 
 ### Дивіться також
 
--   [get\_cfg\_var()](function.get-cfg-var.html) - Витягує значення налаштування конфігурації PHP
--   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [ini\_get\_all()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
--   [ini\_restore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
--   [Как изменить настройки конфигурации](configuration.changes.html)
+-   [getcfgvar()](function.get-cfg-var.html) - Витягує значення налаштування конфігурації PHP
+-   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
+-   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
+-   [Як змінити налаштування конфігурації](configuration.changes.html)

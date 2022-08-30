@@ -1,8 +1,8 @@
 Завантажити файл у форматі wav у буфер
 
--   [« openal\_buffer\_get](function.openal-buffer-get.html)
+-   [« openalbufferget](function.openal-buffer-get.html)
     
--   [openal\_context\_create »](function.openal-context-create.html)
+-   [openalcontextcreate »](function.openal-context-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_buffer_loadwav(resource $buffer, string $wavfile): bool
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.html) (раніше створений за допомогою [openal\_buffer\_create()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.html) (раніше створений за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
 
 `wavfile`
 
@@ -39,5 +39,5 @@ openal_buffer_loadwav(resource $buffer, string $wavfile): bool
 
 ### Дивіться також
 
--   [openal\_buffer\_data()](function.openal-buffer-data.html) - Завантаження буфера з даними
--   [openal\_stream()](function.openal-stream.html) - Почати потокову передачу із джерела
+-   [openalbufferdata()](function.openal-buffer-data.html) - Завантаження буфера з даними
+-   [openalstream()](function.openal-stream.html) - Почати потокову передачу із джерела

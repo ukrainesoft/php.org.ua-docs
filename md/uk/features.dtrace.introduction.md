@@ -1,12 +1,12 @@
 Введення в PHP та DTrace
 
--   [« Динамическая трассировка DTrace](features.dtrace.html)
+-   [Динамічна трасування DTrace](features.dtrace.html)
     
 -   [Использование PHP и DTrace »](features.dtrace.dtrace.html)
     
 -   [PHP Manual](index.html)
     
--   [Динамическая трассировка DTrace](features.dtrace.html)
+-   [Динамічна трасування DTrace](features.dtrace.html)
     
 -   Введення в PHP та DTrace
     

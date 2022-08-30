@@ -1,8 +1,8 @@
 Створює порожню структуру даних для навчання
 
--   [« fann\_create\_train\_from\_callback](function.fann-create-train-from-callback.html)
+-   [« fanncreatetrainfromcallback](function.fann-create-train-from-callback.html)
     
--   [fann\_descale\_input »](function.fann-descale-input.html)
+-   [fanndescaleinput »](function.fann-descale-input.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,7 +51,7 @@ fann_create_train(int $num_data, int $num_input, int $num_output): resource
 
 ### Дивіться також
 
--   [fann\_read\_train\_from\_file()](function.fann-read-train-from-file.html) - Читає файл, у якому зберігаються дані навчання
--   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fann\_destroy\_train()](function.fann-destroy-train.html) - Знищує тренувальні дані
--   [fann\_save\_train()](function.fann-save-train.html) - Зберігає структуру навчання у файл
+-   [fannreadtrainfromfile()](function.fann-read-train-from-file.html) - Читає файл, у якому зберігаються дані навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanndestroytrain()](function.fann-destroy-train.html) - Знищує тренувальні дані
+-   [fannsavetrain()](function.fann-save-train.html) - Зберігає структуру навчання у файл

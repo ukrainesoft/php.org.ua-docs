@@ -1,8 +1,8 @@
 Повертає останнє керуюче повідомлення, яке було надіслано цій службі
 
--   [« win32\_delete\_service](function.win32-delete-service.html)
+-   [« win32deleteservice](function.win32-delete-service.html)
     
--   [win32\_pause\_service »](function.win32-pause-service.html)
+-   [win32pauseservice »](function.win32-pause-service.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,8 +55,8 @@ win32_get_last_control_message(): int
 
 ### Дивіться також
 
--   [win32\_start\_service\_ctrl\_dispatcher()](function.win32-start-service-ctrl-dispatcher.html) - Додає до Диспетчера служб скрипт, який може бути використаний, як служба із заданим ім'ям
--   [win32\_set\_service\_status()](function.win32-set-service-status.html) - Оновлює статус служби
--   [win32\_set\_service\_exit\_mode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
--   [win32\_set\_service\_exit\_code()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
+-   [win32startservicectrldispatcher()](function.win32-start-service-ctrl-dispatcher.html) - Додає до Диспетчера служб скрипт, який може бути використаний, як служба із заданим ім'ям
+-   [win32setservicestatus()](function.win32-set-service-status.html) - Оновлює статус служби
+-   [win32setserviceexitmode()](function.win32-set-service-exit-mode.html) - Визначає або повертає режим виходу для поточної запущеної служби
+-   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
 -   [Константы сообщений управления службой Win32Service](win32service.constants.servicecontrol.html)

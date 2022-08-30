@@ -1,12 +1,12 @@
 Додати керуючий елемент
 
--   [« UI\\Controls\\Group](class.ui-controls-group.html)
+-   [« UIControlsGroup](class.ui-controls-group.html)
     
--   [UI\\Controls\\Group::\_\_construct »](ui-controls-group.construct.html)
+-   [ОЙControlsGroup::construct »](ui-controls-group.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Group](class.ui-controls-group.html)
+-   [ОЙControlsGroup](class.ui-controls-group.html)
     
 -   Додати керуючий елемент
     

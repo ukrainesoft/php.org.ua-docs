@@ -2,7 +2,7 @@
 
 -   [« EvTimer](class.evtimer.html)
     
--   [EvTimer::\_\_construct »](evtimer.construct.html)
+-   [EvTimer::construct »](evtimer.construct.html)
     
 -   [PHP Manual](index.html)
     

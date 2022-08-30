@@ -2,7 +2,7 @@
 
 -   [« SyncSemaphore::unlock](syncsemaphore.unlock.html)
     
--   [SyncEvent::\_\_construct »](syncevent.construct.html)
+-   [SyncEvent::construct »](syncevent.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -46,7 +46,7 @@ public wait(int $wait = -1): bool
 
 ## Зміст
 
--   [SyncEvent::\_\_construct](syncevent.construct.html) — Створює новий об'єкт SyncEvent
+-   [SyncEvent::construct](syncevent.construct.html) — Створює новий об'єкт SyncEvent
 -   [SyncEvent::fire](syncevent.fire.html) — Запускає/встановлює подію
 -   [SyncEvent::reset](syncevent.reset.html) — скидає ручну подію
 -   [SyncEvent::wait](syncevent.wait.html) — Чекає на запуск/установку події

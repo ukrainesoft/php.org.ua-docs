@@ -1,12 +1,12 @@
 Виводить зображення у браузер або пише у файл
 
--   [« image\_type\_to\_mime\_type](function.image-type-to-mime-type.html)
+-   [« imagetypeтоmimetype](function.image-type-to-mime-type.html)
     
 -   [imageaffine »](function.imageaffine.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции GD и функции для работы с изображениями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     
 -   Виводить зображення у браузер або пише у файл
     

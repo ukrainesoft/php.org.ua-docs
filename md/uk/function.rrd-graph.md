@@ -1,12 +1,12 @@
 Створює зображення з даних
 
--   [« rrd\_first](function.rrd-first.html)
+-   [« rrdfirst](function.rrd-first.html)
     
--   [rrd\_info »](function.rrd-info.html)
+-   [rrdinfo »](function.rrd-info.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Створює зображення з даних
     

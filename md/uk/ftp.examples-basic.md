@@ -2,7 +2,7 @@
 
 -   [« Примеры](ftp.examples.html)
     
--   [Функции FTP »](ref.ftp.html)
+-   [Функції FTP »](ref.ftp.html)
     
 -   [PHP Manual](index.html)
     

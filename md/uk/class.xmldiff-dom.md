@@ -1,8 +1,8 @@
 Клас XMLDiffDOM
 
--   [« XMLDiff\\Base::merge](xmldiff-base.merge.html)
+-   [« XMLDiffBase::merge](xmldiff-base.merge.html)
     
--   [XMLDiff\\DOM::diff »](xmldiff-dom.diff.html)
+-   [XMLDiffDOM::diff »](xmldiff-dom.diff.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,5 +51,5 @@ abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiff\\DOM::diff](xmldiff-dom.diff.html) — Пошук відмінностей у двох об'єктах DOMDocument
--   [XMLDiff\\DOM::merge](xmldiff-dom.merge.html) — Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
+-   [XMLDiffDOM::diff](xmldiff-dom.diff.html) — Пошук відмінностей у двох об'єктах DOMDocument
+-   [XMLDiffDOM::merge](xmldiff-dom.merge.html) — Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff

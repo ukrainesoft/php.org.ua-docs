@@ -1,6 +1,6 @@
 Список значень
 
--   [« Отличия от объектов](language.enumerations.object-differences.html)
+-   [« Відмінності від об'єктів](language.enumerations.object-differences.html)
     
 -   [Сериализация »](language.enumerations.serialization.html)
     

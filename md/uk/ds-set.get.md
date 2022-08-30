@@ -1,8 +1,8 @@
 Повертає значення за індексом
 
--   [« Ds\\Set::first](ds-set.first.html)
+-   [« DsSet::first](ds-set.first.html)
     
--   [Ds\\Set::intersect »](ds-set.intersect.html)
+-   [ДсSet::intersect »](ds-set.intersect.html)
     
 -   [PHP Manual](index.html)
     

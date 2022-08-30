@@ -1,8 +1,8 @@
 Свічкова модель "Високий стрибок"
 
--   [« trader\_cdlinvertedhammer](function.trader-cdlinvertedhammer.html)
+-   [« tradercdlinvertedhammer](function.trader-cdlinvertedhammer.html)
     
--   [trader\_cdlkickingbylength »](function.trader-cdlkickingbylength.html)
+-   [tradercdlkickingbylength »](function.trader-cdlkickingbylength.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
--   [« CommonMark\\Node](class.commonmark-node.html)
+-   [« CommonMarkNode](class.commonmark-node.html)
     
--   [CommonMark\\Node::prependChild »](commonmark-node.prependchild.html)
+-   [CommonMarkNode::prependChild »](commonmark-node.prependchild.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node](class.commonmark-node.html)
+-   [CommonMarkNode](class.commonmark-node.html)
     
 -   Маніпуляції з AST (Абстрактне синтаксичне дерево)
     

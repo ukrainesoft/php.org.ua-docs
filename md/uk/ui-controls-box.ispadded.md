@@ -1,12 +1,12 @@
 Визначення заповнення
 
--   [« UI\\Controls\\Box::getOrientation](ui-controls-box.getorientation.html)
+-   [« UIControlsBox::getOrientation](ui-controls-box.getorientation.html)
     
--   [UI\\Controls\\Box::setPadded »](ui-controls-box.setpadded.html)
+-   [ОЙControlsBox::setPadded »](ui-controls-box.setpadded.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Box](class.ui-controls-box.html)
+-   [ОЙControlsBox](class.ui-controls-box.html)
     
 -   Визначення заповнення
     

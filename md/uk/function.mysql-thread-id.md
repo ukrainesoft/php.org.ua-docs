@@ -1,8 +1,8 @@
 Повертає ідентифікатор потоку
 
--   [« mysql\_tablename](function.mysql-tablename.html)
+-   [« mysqltablename](function.mysql-tablename.html)
     
--   [mysql\_unbuffered\_query »](function.mysql-unbuffered-query.html)
+-   [mysqlunbufferedquery »](function.mysql-unbuffered-query.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlthreadid — Повертає ідентифікатор потоку.
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_thread\_id()](mysqli.thread-id.html)
+-   [mysqlithreadid()](mysqli.thread-id.html)
 
 ### Опис
 
@@ -29,13 +29,13 @@ mysqlthreadid — Повертає ідентифікатор потоку.
 mysql_thread_id(resource $link_identifier = NULL): int|false
 ```
 
-**mysqlthreadid()** повертає ідентифікатор потоку. Якщо з'єднання втрачено і ви переєдналися за допомогою [mysql\_ping()](function.mysql-ping.html)то ідентифікатор потоку зміниться. Це означає, що вам не слід отримувати цей ідентифікатор та зберігати його для подальшого використання. Викликайте функцію тоді, коли вона вам потрібна.
+**mysqlthreadid()** повертає ідентифікатор потоку. Якщо з'єднання втрачено і ви переєдналися за допомогою [mysqlping()](function.mysql-ping.html)то ідентифікатор потоку зміниться. Це означає, що вам не слід отримувати цей ідентифікатор та зберігати його для подальшого використання. Викликайте функцію тоді, коли вона вам потрібна.
 
 ### Список параметрів
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -63,5 +63,5 @@ if ($thread_id){
 
 ### Дивіться також
 
--   [mysql\_ping()](function.mysql-ping.html) - Перевіряє з'єднання з сервером та переєднується за потреби
--   [mysql\_list\_processes()](function.mysql-list-processes.html) - Повертає список процесів MySQL
+-   [mysqlping()](function.mysql-ping.html) - Перевіряє з'єднання з сервером та переєднується за потреби
+-   [mysqllistprocesses()](function.mysql-list-processes.html) - Повертає список процесів MySQL

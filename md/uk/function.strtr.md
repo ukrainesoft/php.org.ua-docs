@@ -2,11 +2,11 @@
 
 -   [« strtoupper](function.strtoupper.html)
     
--   [substr\_compare »](function.substr-compare.html)
+-   [substrcompare »](function.substr-compare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює задані символи або замінює підрядки
     
@@ -112,5 +112,5 @@ ba01
 
 ### Дивіться також
 
--   [str\_replace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом

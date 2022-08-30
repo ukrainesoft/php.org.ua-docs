@@ -1,8 +1,8 @@
 Псевдонім ibaseдбinfo
 
--   [« fbird\_connect](function.fbird-connect.html)
+-   [« fbirdconnect](function.fbird-connect.html)
     
--   [fbird\_delete\_user »](function.fbird-delete-user.html)
+-   [fbirddeleteuser »](function.fbird-delete-user.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdдбinfo - Псевдонім [ibase\_db\_info()](function.ibase-db-info.html)
+fbirdдбinfo - Псевдонім [ibaseдбinfo()](function.ibase-db-info.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_db\_info()](function.ibase-db-info.html)
+Ця функція є псевдонімом: [ibaseдбinfo()](function.ibase-db-info.html)

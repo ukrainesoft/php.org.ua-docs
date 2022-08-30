@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableDelete](class.mysql-xdevapi-tabledelete.html)
+-   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     
 -   Конструктор класу TableDelete
     

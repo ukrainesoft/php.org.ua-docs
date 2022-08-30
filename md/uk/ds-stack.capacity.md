@@ -1,8 +1,8 @@
 Повертає поточну місткість
 
--   [« Ds\\Stack::allocate](ds-stack.allocate.html)
+-   [« DsStack::allocate](ds-stack.allocate.html)
     
--   [Ds\\Stack::clear »](ds-stack.clear.html)
+-   [ДсStack::clear »](ds-stack.clear.html)
     
 -   [PHP Manual](index.html)
     

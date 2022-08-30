@@ -1,8 +1,8 @@
 Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена
 
--   [« fann\_create\_sparse\_array](function.fann-create-sparse-array.html)
+-   [« fanncreatesparsearray](function.fann-create-sparse-array.html)
     
--   [fann\_create\_standard\_array »](function.fann-create-standard-array.html)
+-   [fanncreatestandardarray »](function.fann-create-standard-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fann_create_sparse(    float $connection_rate,    int $num_layers,   
 
 `connection_rate`
 
-Швидкість з'єднання визначає, скільки з'єднань буде в мережі. Якщо швидкість підключення встановлена ​​на 1, мережа буде повністю підключена, але якщо вона встановлена ​​на 0,5, буде встановлена ​​лише половина з'єднань. Швидкість з'єднання 1 дасть той же результат, що і [fann\_create\_standard()](function.fann-create-standard.html)
+Швидкість з'єднання визначає, скільки з'єднань буде в мережі. Якщо швидкість підключення встановлена ​​на 1, мережа буде повністю підключена, але якщо вона встановлена ​​на 0,5, буде встановлена ​​лише половина з'єднань. Швидкість з'єднання 1 дасть той же результат, що і [fanncreatestandard()](function.fann-create-standard.html)
 
 `num_layers`
 
@@ -53,6 +53,6 @@ fann_create_sparse(    float $connection_rate,    int $num_layers,   
 
 ### Дивіться також
 
--   [fann\_create\_sparse\_array()](function.fann-create-sparse-array.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
--   [fann\_create\_standard()](function.fann-create-standard.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
--   [fann\_create\_shortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
+-   [fanncreatesparsearray()](function.fann-create-sparse-array.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
+-   [fanncreatestandard()](function.fann-create-standard.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+-   [fanncreateshortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання

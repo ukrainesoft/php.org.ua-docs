@@ -2,11 +2,11 @@
 
 -   [« Session::sql](mysql-xdevapi-session.sql.html)
     
--   [mysql\_xdevapi\\SqlStatement »](class.mysql-xdevapi-sqlstatement.html)
+-   [mysqlxdevapiSqlStatement »](class.mysql-xdevapi-sqlstatement.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Починає транзакцію
     

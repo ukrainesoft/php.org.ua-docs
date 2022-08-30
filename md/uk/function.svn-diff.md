@@ -1,12 +1,12 @@
 Рекурсивно показує різницю двох файлів
 
--   [« svn\_delete](function.svn-delete.html)
+-   [« svndelete](function.svn-delete.html)
     
--   [svn\_export »](function.svn-export.html)
+-   [svnexport »](function.svn-export.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Рекурсивно показує різницю двох файлів
     
@@ -57,7 +57,7 @@ svn_diff(    string $path1,    int $rev1,    string $path2,    i
 
 Повертає список масивів, що складається з двох потоків: перша - відмінності файлів; друга – помилки. Потоки можуть бути прочитані функцією [fread()](function.fread.html). При помилці повертає **`false`** або **`null`**
 
-За промовчанням висновок відмінностей буде у стандартному форматі Subversion, але також може використовуватися [»  внешним инструментом показа различий](http://svnbook.red-bean.com/en/1.2/svn.advanced.externaldifftools.html), залежно від налаштування Subversion.
+За промовчанням висновок відмінностей буде у стандартному форматі Subversion, але також може використовуватися [»  зовнішнім інструментом показу відмінностей](http://svnbook.red-bean.com/en/1.2/svn.advanced.externaldifftools.html), залежно від налаштування Subversion.
 
 ### Приклади
 

@@ -1,8 +1,8 @@
 Увійти до циклу UI
 
--   [« UI\\quit](function.ui-quit.html)
+-   [« UIquit](function.ui-quit.html)
     
--   [UI\\Draw\\Text\\Font\\Weight »](class.ui-draw-text-font-weight.html)
+-   [ОЙDrawTextFontWeight »](class.ui-draw-text-font-weight.html)
     
 -   [PHP Manual](index.html)
     

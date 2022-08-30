@@ -1,12 +1,12 @@
 Надсилає дані на віддалену UDP-адресу
 
--   [« Swoole\\Server::sendMessage](swoole-server.sendmessage.html)
+-   [« SwooleServer::sendMessage](swoole-server.sendmessage.html)
     
--   [Swoole\\Server::sendwait »](swoole-server.sendwait.html)
+-   [SwooleServer::sendwait »](swoole-server.sendwait.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Надсилає дані на віддалену UDP-адресу
     

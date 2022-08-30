@@ -1,8 +1,8 @@
 Синтаксис генераторів
 
--   [« Знакомство с генераторами](language.generators.overview.html)
+-   [«Знайомство з генераторами](language.generators.overview.html)
     
--   [Сравнение генераторов с объектами класса Iterator »](language.generators.comparison.html)
+-   [Порівняння генераторів з об'єктами класу Iterator »](language.generators.comparison.html)
     
 -   [PHP Manual](index.html)
     
@@ -59,7 +59,7 @@ foreach ($generator as $value) {
 
 **Застереження**
 
-Значення, яке буде надано $data, - це значення, передане [Generator::send()](generator.send.html) або **`null`**якщо замість цього викликається [Generator::next()](generator.next.html)
+Значення, яке буде надано $data, - це значення, передане [Generator::send()](generator.send.html) або \*\*`null`\*\*якщо замість цього викликається [Generator::next()](generator.next.html)
 
 #### Отримання значень із ключами
 
@@ -188,13 +188,13 @@ foreach (gen_reference() as &$number) {
 
 **Застереження**
 
-# Збереження масиву (наприклад, за допомогою [iterator\_to\_array()](function.iterator-to-array.html)
+# Збереження масиву (наприклад, за допомогою [iteratorтоarray()](function.iterator-to-array.html)
 
 **yield from** не скидає ключі. Ключі, повернуті з об'єкту [Traversable](class.traversable.html) або масиву, збережуться. Таким чином, деякі значення можуть перетинатися по ключах з іншими **yield** або **yield from**, Що, при записі в масив, спричинить перезапис колишніх значень.
 
-Загальний випадок, коли це має значення, це коли [iterator\_to\_array()](function.iterator-to-array.html) повертає масив із ключами за замовчуванням. В цьому випадку можна отримати несподіваний результат . [iterator\_to\_array()](function.iterator-to-array.html) має другий параметр `use_keys`, який можна встановити в **`false`**, для генерації власних ключів та ігнорування ключів, переданих з об'єкта [Generator](class.generator.html)
+Загальний випадок, коли це має значення, це коли [iteratorтоarray()](function.iterator-to-array.html) повертає масив із ключами за замовчуванням. В цьому випадку можна отримати несподіваний результат . [iteratorтоarray()](function.iterator-to-array.html) має другий параметр `use_keys`, який можна встановити в **`false`**, для генерації власних ключів та ігнорування ключів, переданих з об'єкта [Generator](class.generator.html)
 
-**Приклад #5 **yield from** з [iterator\_to\_array()](function.iterator-to-array.html)**
+**Приклад #5 **yield from** з [iteratorтоarray()](function.iterator-to-array.html)**
 
 ```php
 <?php

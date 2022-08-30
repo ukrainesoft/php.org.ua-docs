@@ -1,8 +1,8 @@
 Фігура Підстилка
 
--   [« trader\_cdlmatchinglow](function.trader-cdlmatchinglow.html)
+-   [« tradercdlmatchinglow](function.trader-cdlmatchinglow.html)
     
--   [trader\_cdlmorningdojistar »](function.trader-cdlmorningdojistar.html)
+-   [tradercdlmorningdojistar »](function.trader-cdlmorningdojistar.html)
     
 -   [PHP Manual](index.html)
     

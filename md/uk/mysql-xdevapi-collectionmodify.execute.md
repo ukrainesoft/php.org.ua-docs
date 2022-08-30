@@ -1,12 +1,12 @@
 Виконує операцію зміни
 
--   [« CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.html)
+-   [« CollectionModify::construct](mysql-xdevapi-collectionmodify.construct.html)
     
 -   [CollectionModify::limit »](mysql-xdevapi-collectionmodify.limit.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+-   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
     
 -   Виконує операцію зміни
     

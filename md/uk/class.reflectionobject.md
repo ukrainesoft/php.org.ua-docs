@@ -2,7 +2,7 @@
 
 -   [« ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.html)
     
--   [ReflectionObject::\_\_construct »](reflectionobject.construct.html)
+-   [ReflectionObject::construct »](reflectionobject.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -120,5 +120,5 @@ public ReflectionClass::__toString(): string
 
 ## Зміст
 
--   [ReflectionObject::\_\_construct](reflectionobject.construct.html) - Конструктор класу ReflectionObject
+-   [ReflectionObject::construct](reflectionobject.construct.html) - Конструктор класу ReflectionObject
 -   [ReflectionObject::export](reflectionobject.export.html) - Експорт

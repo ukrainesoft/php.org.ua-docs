@@ -1,12 +1,12 @@
 Обчислення квадратного кореня
 
--   [« gmp\_sign](function.gmp-sign.html)
+-   [« gmpsign](function.gmp-sign.html)
     
--   [gmp\_sqrtrem »](function.gmp-sqrtrem.html)
+-   [gmpsqrtrem »](function.gmp-sqrtrem.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислення квадратного кореня
     

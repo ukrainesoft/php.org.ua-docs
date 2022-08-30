@@ -1,12 +1,12 @@
 Додає один або кілька елементів у кінець масиву
 
--   [« array\_product](function.array-product.html)
+-   [« arrayproduct](function.array-product.html)
     
--   [array\_rand »](function.array-rand.html)
+-   [arrayrand »](function.array-rand.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Додає один або кілька елементів у кінець масиву
     
@@ -83,6 +83,6 @@ Array
 
 ### Дивіться також
 
--   [array\_pop()](function.array-pop.html) - Витягує останній елемент масиву
--   [array\_shift()](function.array-shift.html) - Витягує перший елемент масиву
--   [array\_unshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
+-   [arraypop()](function.array-pop.html) - Витягує останній елемент масиву
+-   [arrayshift()](function.array-shift.html) - Витягує перший елемент масиву
+-   [arrayunshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву

@@ -23,7 +23,7 @@ public **V8Js::construct**
 string `$object_name` = "PHP",  
 array `$variables` = array(),  
 array `$extensions` = array(),  
-bool `$report_uncaught_exceptions` **`true`**  
+bool `$report_uncaught_exceptions` **`true`**
 
 Створює новий об'єкт [V8Js](class.v8js.html)
 

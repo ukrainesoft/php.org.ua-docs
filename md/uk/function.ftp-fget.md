@@ -1,12 +1,12 @@
 Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
 
--   [« ftp\_exec](function.ftp-exec.html)
+-   [« ftpexec](function.ftp-exec.html)
     
--   [ftp\_fput »](function.ftp-fput.html)
+-   [ftpfput »](function.ftp-fput.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
     
@@ -29,7 +29,7 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `stream`
 
@@ -53,10 +53,10 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
 
 ### Приклади
 
@@ -93,6 +93,6 @@ fclose($handle);
 
 ### Дивіться також
 
--   [ftp\_get()](function.ftp-get.html) - Завантажує файл із FTP-сервера
--   [ftp\_nb\_get()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
--   [ftp\_nb\_fget()](function.ftp-nb-fget.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftpget()](function.ftp-get.html) - Завантажує файл із FTP-сервера
+-   [ftpнбget()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftpнбfget()](function.ftp-nb-fget.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі

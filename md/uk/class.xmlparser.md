@@ -1,6 +1,6 @@
 Клас XmlParser
 
--   [« xml\_set\_unparsed\_entity\_decl\_handler](function.xml-set-unparsed-entity-decl-handler.html)
+-   [« xmlsetunparsedentitydeclhandler](function.xml-set-unparsed-entity-decl-handler.html)
     
 -   [XMLReader »](book.xmlreader.html)
     

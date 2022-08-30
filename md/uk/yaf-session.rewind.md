@@ -1,12 +1,12 @@
 Призначення rewind
 
--   [« Yaf\_Session::offsetUnset](yaf-session.offsetunset.html)
+-   [« YafSession::offsetUnset](yaf-session.offsetunset.html)
     
--   [Yaf\_Session::\_\_set »](yaf-session.set.html)
+-   [YafSession::set »](yaf-session.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення rewind
     

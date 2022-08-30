@@ -1,12 +1,12 @@
 Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив
 
--   [« mysqli\_result::fetch\_array](mysqli-result.fetch-array.html)
+-   [« mysqliresult::fetcharray](mysqli-result.fetch-array.html)
     
--   [mysqli\_result::fetch\_column »](mysqli-result.fetch-column.html)
+-   [mysqliresult::fetchcolumn »](mysqli-result.fetch-column.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив
     
@@ -33,9 +33,9 @@ public mysqli_result::fetch_assoc(): array|null|false
 mysqli_fetch_assoc(mysqli_result $result): array|null|false
 ```
 
-Вибирає один рядок даних із набору результатів та повертає її у вигляді асоціативного масиву. Кожен наступний виклик цієї функції повертатиме наступний рядок у наборі результатів або **`null`**якщо рядків більше немає.
+Вибирає один рядок даних із набору результатів та повертає її у вигляді асоціативного масиву. Кожен наступний виклик цієї функції повертатиме наступний рядок у наборі результатів або \*\*`null`\*\*якщо рядків більше немає.
 
-Якщо у двох і більше стовпців у наборі результатів однакове ім'я, останній стовпець матиме пріоритет і перезапише будь-які попередні дані. Для доступу до кількох стовпців з однаковим ім'ям можна використовувати функцію [mysqli\_fetch\_row()](mysqli-result.fetch-row.html) Для вибору масиву з числовим індексом або у списку вибору SQL-запиту можна використовувати псевдоніми, щоб задати стовпцям різні імена.
+Якщо у двох і більше стовпців у наборі результатів однакове ім'я, останній стовпець матиме пріоритет і перезапише будь-які попередні дані. Для доступу до кількох стовпців з однаковим ім'ям можна використовувати функцію [mysqlifetchrow()](mysqli-result.fetch-row.html) Для вибору масиву з числовим індексом або у списку вибору SQL-запиту можна використовувати псевдоніми, щоб задати стовпцям різні імена.
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
@@ -45,11 +45,11 @@ mysqli_fetch_assoc(mysqli_result $result): array|null|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, що представляє обраний рядок, де кожна властивість представляє ім'я стовпця набору результатів, **`null`**якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
+Повертає асоціативний масив, що представляє обраний рядок, де кожна властивість представляє ім'я стовпця набору результатів, \*\*`null`\*\*якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -101,9 +101,9 @@ Green Bay (USA)
 Santa Clara (USA)
 ```
 
-**Приклад #2 Порівняння використання [mysqli\_result](class.mysqli-result.html) [iterator](class.iterator.html) і **mysqliresult::fetchassoc()****
+**Приклад #2 Порівняння використання [mysqliresult](class.mysqli-result.html) [iterator](class.iterator.html) і **mysqliresult::fetchassoc()****
 
-[mysqli\_result](class.mysqli-result.html) можна повторити за допомогою [foreach](control-structures.foreach.html). Результуючий набір завжди повторюватиметься з першого рядка незалежно від поточної позиції.
+[mysqliresult](class.mysqli-result.html) можна повторити за допомогою [foreach](control-structures.foreach.html). Результуючий набір завжди повторюватиметься з першого рядка незалежно від поточної позиції.
 
 ```php
 <?php
@@ -147,9 +147,9 @@ Santa Clara (USA)
 
 ### Дивіться також
 
--   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_fetch\_column()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqli\_fetch\_row()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqli\_fetch\_object()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_data\_seek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок
+-   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqlifetchrow()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqlifetchobject()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок

@@ -2,7 +2,7 @@
 
 -   [« OCILob::writeToFile](ocilob.writetofile.html)
     
--   [oci\_internal\_debug »](function.oci-internal-debug.html)
+-   [ociinternaldebug »](function.oci-internal-debug.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [oci\_internal\_debug](function.oci-internal-debug.html) — Вмикає або вимикає внутрішній висновок налагодження
+-   [ociinternaldebug](function.oci-internal-debug.html) — Вмикає або вимикає внутрішній висновок налагодження
 -   [ocibindbyname](function.ocibindbyname.html) — Псевдонім ocibindбname
 -   [ocicancel](function.ocicancel.html) — Псевдонім ocicancel
 -   [ocicloselob](function.ocicloselob.html) - Псевдонім OCILob::close

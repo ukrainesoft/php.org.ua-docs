@@ -1,8 +1,8 @@
 Отримати закритий ключ
 
--   [« openssl\_pkey\_get\_details](function.openssl-pkey-get-details.html)
+-   [« opensslpkeygetdetails](function.openssl-pkey-get-details.html)
     
--   [openssl\_pkey\_get\_public »](function.openssl-pkey-get-public.html)
+-   [opensslpkeygetpublic »](function.openssl-pkey-get-public.html)
     
 -   [PHP Manual](index.html)
     

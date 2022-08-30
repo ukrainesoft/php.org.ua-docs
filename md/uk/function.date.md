@@ -1,6 +1,6 @@
 Форматує тимчасову мітку Unix
 
--   [« date\_timezone\_set](function.date-timezone-set.html)
+-   [« datetimezoneset](function.date-timezone-set.html)
     
 -   [getdate »](function.getdate.html)
     
@@ -43,7 +43,7 @@ date(string $format, ?int $timestamp = null): string
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [date\_default\_timezone\_set()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
 
 ### список змін
 
@@ -134,15 +134,15 @@ $today = date("Y-m-d H:i:s");                   // 2001-0
 
 > **Зауваження**
 > 
-> Для отримання мітки часу з строкового представлення дати можна скористатися функцією [strtotime()](function.strtotime.html). Крім того, деякі бази даних мають власні функції для перетворення внутрішнього подання дати на мітку часу (наприклад, функція MySQL [» UNIX\_TIMESTAMP](http://dev.mysql.com/doc/mysql/en/date-and-time-functions.html)
+> Для отримання мітки часу з строкового представлення дати можна скористатися функцією [strtotime()](function.strtotime.html). Крім того, деякі бази даних мають власні функції для перетворення внутрішнього подання дати на мітку часу (наприклад, функція MySQL [» UNIXTIMESTAMP](http://dev.mysql.com/doc/mysql/en/date-and-time-functions.html)
 
 **Підказка**
 
-Тимчасову позначку початку запиту можна отримати з поля [$\_SERVER\['REQUEST\_TIME'\]](reserved.variables.server.html)
+Тимчасову позначку початку запиту можна отримати з поля [SERVER\['REQUESTTIME'\]](reserved.variables.server.html)
 
 ### Дивіться також
 
--   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
 -   [DateTimeInterface::format()](datetime.format.html) - Повертає дату, відформатовану згідно з переданим форматом
 -   [gmdate()](function.gmdate.html) - Форматує дату/час за Грінвічем
 -   [idate()](function.idate.html) - Перетворює локальний час/дату на ціле число

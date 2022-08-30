@@ -1,12 +1,12 @@
 Оновлює параметри асинхронного введення-виводу
 
--   [« Swoole\\Async::readFile](swoole-async.readfile.html)
+-   [« SwooleAsync::readFile](swoole-async.readfile.html)
     
--   [Swoole\\Async::write »](swoole-async.write.html)
+-   [SwooleAsync::write »](swoole-async.write.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Async](class.swoole-async.html)
+-   [SwooleAsync](class.swoole-async.html)
     
 -   Оновлює параметри асинхронного введення-виводу
     

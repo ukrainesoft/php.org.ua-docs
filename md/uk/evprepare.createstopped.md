@@ -1,6 +1,6 @@
 Створити об'єкт класу EvPrepare, але не стартувати його
 
--   [« EvPrepare::\_\_construct](evprepare.construct.html)
+-   [« EvPrepare::construct](evprepare.construct.html)
     
 -   [EvSignal »](class.evsignal.html)
     
@@ -37,13 +37,13 @@ final
    ): EvPrepare
 ```
 
-Те саме, що й [EvPrepare::\_\_construct()](evprepare.construct.html) але не виробляє автоматичного старту спостерігача.
+Те саме, що й [EvPrepare::construct()](evprepare.construct.html) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
 `callback`
 
-Дивіться [функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -59,5 +59,5 @@ final
 
 ### Дивіться також
 
--   [EvPrepare::\_\_construct()](evprepare.construct.html) - Конструктор спостерігача EvPrepare
+-   [EvPrepare::construct()](evprepare.construct.html) - Конструктор спостерігача EvPrepare
 -   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача

@@ -1,12 +1,12 @@
 Перевіряє існування змінної вказаного типу
 
--   [« Функции фильтрации данных](ref.filter.html)
+-   [« Функції фільтрації даних](ref.filter.html)
     
--   [filter\_id »](function.filter-id.html)
+-   [filterid »](function.filter-id.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции фильтрации данных](ref.filter.html)
+-   [Функції фільтрації даних](ref.filter.html)
     
 -   Перевіряє існування змінної вказаного типу
     

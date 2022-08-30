@@ -2,11 +2,11 @@
 
 -   [« hypot](function.hypot.html)
     
--   [is\_finite »](function.is-finite.html)
+-   [ісfinite »](function.is-finite.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Цілочисельний поділ
     
@@ -74,6 +74,6 @@ Fatal error: Uncaught DivisionByZeroError: Division by zero in %s on line 9
 
 ### Дивіться також
 
--   [`/`](language.operators.arithmetic.html) - розподіл раціональних чисел
--   [`%`](language.operators.arithmetic.html) - остача від ділення
+-   [](language.operators.arithmetic.html)\- розподіл раціональних чисел
+-   [](language.operators.arithmetic.html)\- остача від ділення
 -   [fmod()](function.fmod.html) - залишок від поділу раціональних чисел

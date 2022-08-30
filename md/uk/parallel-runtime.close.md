@@ -1,12 +1,12 @@
 Витончене з'єднання під час виконання
 
--   [« parallel\\Runtime::run](parallel-runtime.run.html)
+-   [« parallelRuntime::run](parallel-runtime.run.html)
     
--   [parallel\\Runtime::kill »](parallel-runtime.kill.html)
+-   [parallelRuntime::kill »](parallel-runtime.kill.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Runtime](class.parallel-runtime.html)
+-   [parallelRuntime](class.parallel-runtime.html)
     
 -   Витончене з'єднання під час виконання
     

@@ -1,12 +1,12 @@
 Вибирає всі значення масиву
 
--   [« array\_unshift](function.array-unshift.html)
+-   [« arrayunshift](function.array-unshift.html)
     
--   [array\_walk\_recursive »](function.array-walk-recursive.html)
+-   [arraywalkrecursive »](function.array-walk-recursive.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Вибирає всі значення масиву
     
@@ -58,5 +58,5 @@ Array
 
 ### Дивіться також
 
--   [array\_keys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [array\_combine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
+-   [arraycombine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень

@@ -1,8 +1,8 @@
 Перевірити підпис для повідомлення
 
--   [« sodium\_crypto\_sign\_seed\_keypair](function.sodium-crypto-sign-seed-keypair.html)
+-   [« sodiumcryptosignseedkeypair](function.sodium-crypto-sign-seed-keypair.html)
     
--   [sodium\_crypto\_sign »](function.sodium-crypto-sign.html)
+-   [sodiumcryptosign »](function.sodium-crypto-sign.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_sign_verify_detached(string $signature, string $message, string $p
 
 `signature`
 
-Криптографічний підпис, отриманий за допомогою [sodium\_crypto\_sign\_detached()](function.sodium-crypto-sign-detached.html)
+Криптографічний підпис, отриманий за допомогою [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.html)
 
 `message`
 

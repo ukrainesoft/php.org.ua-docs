@@ -1,12 +1,12 @@
 Конструктор
 
--   [« mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+-   [« mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     
 -   [Schema::createCollection »](mysql-xdevapi-schema.createcollection.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+-   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     
 -   Конструктор
     

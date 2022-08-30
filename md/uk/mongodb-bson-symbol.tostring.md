@@ -1,12 +1,12 @@
 Повертає Symbol у вигляді рядка
 
--   [« MongoDB\\BSON\\Symbol::serialize](mongodb-bson-symbol.serialize.html)
+-   [« MongoDBBSONSymbol::serialize](mongodb-bson-symbol.serialize.html)
     
--   [MongoDB\\BSON\\Symbol::unserialize »](mongodb-bson-symbol.unserialize.html)
+-   [MongoDBBSONSymbol::unserialize »](mongodb-bson-symbol.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.html)
+-   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
     
 -   Повертає Symbol у вигляді рядка
     

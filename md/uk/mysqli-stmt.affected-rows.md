@@ -1,12 +1,12 @@
 Повертає загальну кількість рядків, змінених, віддалених, вставлених або зіставлених останнім виконаним виразом
 
--   [« mysqli\_stmt](class.mysqli-stmt.html)
+-   [« mysqlistmt](class.mysqli-stmt.html)
     
--   [mysqli\_stmt::attr\_get »](mysqli-stmt.attr-get.html)
+-   [mysqlistmt::attrget »](mysqli-stmt.attr-get.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Повертає загальну кількість рядків, змінених, віддалених, вставлених або зіставлених останнім виконаним виразом
     
@@ -23,7 +23,7 @@ mysqlistmt::$affectedrows - mysqlistmtaffectedrows - Повертає загал
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli\_stmt->affected\_rows](mysqli-stmt.affected-rows.html)
+int|string [$mysqlistmt->affectedrows](mysqli-stmt.affected-rows.html)
 
 Процедурний стиль
 
@@ -31,17 +31,17 @@ int|string [$mysqli\_stmt->affected\_rows](mysqli-stmt.affected-rows.html)
 mysqli_stmt_affected_rows(mysqli_stmt $statement): int|string
 ```
 
-Повертає кількість рядків, змінених запитом `INSERT` `UPDATE` або `DELETE`. Працює аналогічно [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html) для виразів `SELECT`
+Повертає кількість рядків, змінених запитом `INSERT` `UPDATE` або `DELETE`. Працює аналогічно [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) для виразів `SELECT`
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
-Ціле число більше за нуль вказує кількість порушених або вилучених рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або для запиту `SELECT` **mysqlistmtaffectedrows()** була викликана до виклику [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html)
+Ціле число більше за нуль вказує кількість порушених або вилучених рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або для запиту `SELECT` **mysqlistmtaffectedrows()** була викликана до виклику [mysqlistmtstoreresult()](mysqli-stmt.store-result.html)
 
 > **Зауваження**
 > 
@@ -113,5 +113,5 @@ printf("Добавлено строк: %d\n", mysqli_stmt_affected_rows($stmt
 
 ### Дивіться також
 
--   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
--   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
+-   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері

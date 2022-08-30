@@ -53,7 +53,7 @@ tidy_parse_file(    string $filename,    array|string|null $config = nul
 
 `useIncludePath`
 
-Пошук файлу в [include\_path](ini.core.html#ini.include-path)
+Пошук файлу в [includepath](ini.core.html#ini.include-path)
 
 ### Значення, що повертаються
 

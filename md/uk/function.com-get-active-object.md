@@ -1,8 +1,8 @@
 Повернути дескриптор на вже запущений екземпляр об'єкта COM
 
--   [« com\_event\_sink](function.com-event-sink.html)
+-   [« comeventsink](function.com-event-sink.html)
     
--   [com\_load\_typelib »](function.com-load-typelib.html)
+-   [comloadtypelib »](function.com-load-typelib.html)
     
 -   [PHP Manual](index.html)
     

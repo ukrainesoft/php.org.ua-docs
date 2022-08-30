@@ -63,7 +63,7 @@ public tokenHandler(callable $callback_function): void
 -   [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.html) — Викликати callback-функцію timestampNonceHandler
 -   [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.html) — Викликати callback-функцію tokenNonceHandler
 -   [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.html) - Перевірка запиту oauth
--   [OAuthProvider::\_\_construct](oauthprovider.construct.html) - Конструктор класу OAuthProvider
+-   [OAuthProvider::construct](oauthprovider.construct.html) - Конструктор класу OAuthProvider
 -   [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.html) — Встановити обробник consumerHandler
 -   [OAuthProvider::generateToken](oauthprovider.generatetoken.html) - Генерація випадкового токена
 -   [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.html) - is2LeggedEndpoint

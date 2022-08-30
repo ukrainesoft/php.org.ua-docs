@@ -1,12 +1,12 @@
 Надіслати серверу LDAP дані для використання посторінкового отримання результату
 
--   [« ldap\_control\_paged\_result\_response](function.ldap-control-paged-result-response.html)
+-   [« ldapcontrolpagedresultresponse](function.ldap-control-paged-result-response.html)
     
--   [ldap\_count\_entries »](function.ldap-count-entries.html)
+-   [ldapcountentries »](function.ldap-count-entries.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Надіслати серверу LDAP дані для використання посторінкового отримання результату
     
@@ -19,7 +19,7 @@ ldapcontrolpagedresult — Надіслати серверу LDAP дані дл�
 
 **Увага**
 
-Функція була оголошена *Застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldap\_search()](function.ldap-search.html). Дивіться також [Управляющие объекты LDAP](ldap.controls.html) для отримання додаткової інформації.
+Функція була оголошена *Застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.html). Дивіться також [Управляющие объекты LDAP](ldap.controls.html) для отримання додаткової інформації.
 
 ### Опис
 
@@ -33,7 +33,7 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 
 `link`
 
-Ресурс LDAP, який повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `pagesize`
 
@@ -45,7 +45,7 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 
 `cookie`
 
-Непрозора структура, що посилається сервером ([ldap\_control\_paged\_result\_response()](function.ldap-control-paged-result-response.html)
+Непрозора структура, що посилається сервером ([ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.html)
 
 ### Значення, що повертаються
 
@@ -123,5 +123,5 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 
 ### Дивіться також
 
--   [ldap\_control\_paged\_result\_response()](function.ldap-control-paged-result-response.html) - Отримати вказівник на поточну сторінку результуючого набору LDAP
+-   [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.html) - Отримати вказівник на поточну сторінку результуючого набору LDAP
 -   [» RFC2696 : Управляющий модуль LDAP для простых манипуляций постранично возвращаемым результатом](http://www.faqs.org/rfcs/rfc2696)

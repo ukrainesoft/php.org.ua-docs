@@ -1,8 +1,8 @@
 Повертає точну копію тренувальних даних
 
--   [« fann\_destroy](function.fann-destroy.html)
+-   [« fanndestroy](function.fann-destroy.html)
     
--   [fann\_get\_activation\_function »](function.fann-get-activation-function.html)
+-   [fanngetactivationfunction »](function.fann-get-activation-function.html)
     
 -   [PHP Manual](index.html)
     

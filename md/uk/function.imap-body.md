@@ -1,8 +1,8 @@
 Прочитати тіло повідомлення
 
--   [« imap\_binary](function.imap-binary.html)
+-   [« imapbinary](function.imap-binary.html)
     
--   [imap\_bodystruct »](function.imap-bodystruct.html)
+-   [imapbodystruct »](function.imap-bodystruct.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ imap_body(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 
 **imapbody()** повертає тіло повідомлення з номером `message_num` у поточній поштовій скриньці.
 
-**imapbody()** поверне точну копію тіла повідомлення. Для отримання однієї частини складеного MIME-повідомлення використовуйте [imap\_fetchstructure()](function.imap-fetchstructure.html) для аналізу структури та [imap\_fetchbody()](function.imap-fetchbody.html) для отримання копії однієї з частин тіла.
+**imapbody()** поверне точну копію тіла повідомлення. Для отримання однієї частини складеного MIME-повідомлення використовуйте [imapfetchstructure()](function.imap-fetchstructure.html) для аналізу структури та [imapfetchbody()](function.imap-fetchbody.html) для отримання копії однієї з частин тіла.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -51,6 +51,6 @@ imap_body(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

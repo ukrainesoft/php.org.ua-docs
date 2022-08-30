@@ -1,8 +1,8 @@
 Розшифрувати повідомлення, зашифроване S/MIME
 
--   [« openssl\_pkcs12\_read](function.openssl-pkcs12-read.html)
+-   [« opensslpkcs12read](function.openssl-pkcs12-read.html)
     
--   [openssl\_pkcs7\_encrypt »](function.openssl-pkcs7-encrypt.html)
+-   [opensslpkcs7encrypt »](function.openssl-pkcs7-encrypt.html)
     
 -   [PHP Manual](index.html)
     

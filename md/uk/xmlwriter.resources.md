@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-До PHP 8.0.0 процедурною версією модуля XMLWriter використовувався один тип ресурсу: повертається [xmlwriter\_open\_memory()](xmlwriter.openmemory.html) або [xmlwriter\_open\_uri()](xmlwriter.openuri.html)
+До PHP 8.0.0 процедурною версією модуля XMLWriter використовувався один тип ресурсу: повертається [xmlwriteropenmemory()](xmlwriter.openmemory.html) або [xmlwriteropenuri()](xmlwriter.openuri.html)

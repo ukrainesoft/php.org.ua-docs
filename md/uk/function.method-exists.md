@@ -1,12 +1,12 @@
 Перевіряє, чи існує метод у даному класі
 
--   [« is\_subclass\_of](function.is-subclass-of.html)
+-   [« issubclassоф](function.is-subclass-of.html)
     
--   [property\_exists »](function.property-exists.html)
+-   [propertyexists »](function.property-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи існує метод у даному класі
     
@@ -78,6 +78,6 @@ bool(true)
 
 ### Дивіться також
 
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [is\_callable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [class\_exists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас

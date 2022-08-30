@@ -1,12 +1,12 @@
 Виводить гліф
 
--   [« ps\_symbol\_width](function.ps-symbol-width.html)
+-   [«pssymbolwidth](function.ps-symbol-width.html)
     
--   [ps\_translate »](function.ps-translate.html)
+-   [псtranslate »](function.ps-translate.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Виводить гліф
     
@@ -23,13 +23,13 @@
 ps_symbol(resource $psdoc, int $ord): bool
 ```
 
-Виводить гліф у позиції `ord` у векторному кодування поточного шрифту. Кодування шрифту можна встановити під час завантаження шрифту за допомогою [ps\_findfont()](function.ps-findfont.html)
+Виводить гліф у позиції `ord` у векторному кодування поточного шрифту. Кодування шрифту можна встановити під час завантаження шрифту за допомогою [псfindfont()](function.ps-findfont.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `ord`
 
@@ -41,5 +41,5 @@ ps_symbol(resource $psdoc, int $ord): bool
 
 ### Дивіться також
 
--   [ps\_symbol\_name()](function.ps-symbol-name.html) - Отримує ім'я гліфа
--   [ps\_symbol\_width()](function.ps-symbol-width.html) - Отримує ширину гліфа
+-   [псsymbolname()](function.ps-symbol-name.html) - Отримує ім'я гліфа
+-   [псsymbolwidth()](function.ps-symbol-width.html) - Отримує ширину гліфа

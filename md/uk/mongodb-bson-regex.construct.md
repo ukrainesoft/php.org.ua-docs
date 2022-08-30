@@ -1,12 +1,12 @@
 Створює новий Regex
 
--   [« MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+-   [« MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
--   [MongoDB\\BSON\\Regex::getFlags »](mongodb-bson-regex.getflags.html)
+-   [MongoDBBSONRegex::getFlags »](mongodb-bson-regex.getflags.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+-   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
 -   Створює новий Regex
     
@@ -37,8 +37,8 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `pattern` або `flags` містять нульові байти.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `pattern` або `flags` містять нульові байти.
 
 ### список змін
 
@@ -49,7 +49,7 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 Символи в аргументі `flags` будуть відсортовані в алфавітному порядку під час побудови регулярного виразу. Раніше символи зберігалися у вказаному порядку.
 
-Видається [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `pattern` або `flags` містять нульові байти. Раніше значення були б обрізані у першому нульовому байті.
+Видається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `pattern` або `flags` містять нульові байти. Раніше значення були б обрізані у першому нульовому байті.
 
 ### Приклади
 
@@ -78,4 +78,4 @@ object(MongoDB\BSON\Regex)#1 (2) {
 ### Дивіться також
 
 -   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [» Поддерживаемые флаги регулярных выражений](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+-   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

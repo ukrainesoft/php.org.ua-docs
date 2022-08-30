@@ -1,12 +1,12 @@
 Видаляє та повертає перше значення
 
--   [« Ds\\Deque::set](ds-deque.set.html)
+-   [« DsDeque::set](ds-deque.set.html)
     
--   [Ds\\Deque::slice »](ds-deque.slice.html)
+-   [ДсDeque::slice »](ds-deque.slice.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Видаляє та повертає перше значення
     

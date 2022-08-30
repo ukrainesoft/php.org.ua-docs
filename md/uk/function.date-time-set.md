@@ -1,8 +1,8 @@
 Псевдонім DateTime::setTime
 
--   [« date\_sunset](function.date-sunset.html)
+-   [« datesunset](function.date-sunset.html)
     
--   [date\_timestamp\_get »](function.date-timestamp-get.html)
+-   [datetimestampget »](function.date-timestamp-get.html)
     
 -   [PHP Manual](index.html)
     

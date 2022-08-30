@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](mysql.constants.html)
     
--   [Обзорный пример модуля MySQL »](mysql.examples-basic.html)
+-   [Оглядовий приклад модуля MySQL](mysql.examples-basic.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [Обзорный пример модуля MySQL](mysql.examples-basic.html)
+-   [Оглядовий приклад модуля MySQL](mysql.examples-basic.html)

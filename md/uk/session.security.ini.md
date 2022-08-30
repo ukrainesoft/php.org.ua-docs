@@ -2,11 +2,11 @@ INI-налаштування безпеки сесій
 
 -   [« Базовые принципы управления сессиями](features.session.security.management.html)
     
--   [Функции для работы с сессиями »](ref.session.html)
+-   [Функції для роботи із сесіями »](ref.session.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность сессий](session.security.html)
+-   [Безпека сесій](session.security.html)
     
 -   INI-налаштування безпеки сесій
     
@@ -15,21 +15,21 @@ INI-налаштування безпеки сесій
 
 Надаючи INI-налаштування, пов'язані з сесіями, ви можете покращити безпеку сесій. Деякі важливі параметри безпеки не мають рекомендованих значень. Ви самі несете відповідальність за вибір необхідних значень.
 
--   [session.cookie\_lifetime](session.configuration.html#ini.session.cookie-lifetime)
+-   [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime)
     
     `0` має особливе значення. Він повідомляє браузеру не зберігати cookie у постійне сховище. Отже, коли браузер закривається, сесійні cookie відразу видаляються. Якщо встановити значення, відмінне від 0, це може дозволити іншим користувачам використовувати ці cookie. Найчастіше найкраще використовувати "`0`".
     
     Якщо потрібна функціональність автологіну, реалізовуйте його самостійно і ніколи не використовуйте для цього сесії. Докладніше викладено вище у відповідних розділах.
     
--   [session.use\_cookies](session.configuration.html#ini.session.use-cookies)Він
+-   [session.usecookies](session.configuration.html#ini.session.use-cookies)Він
     
-    [session.use\_only\_cookies](session.configuration.html#ini.session.use-only-cookies)Він
+    [session.useonlycookies](session.configuration.html#ini.session.use-only-cookies)Він
     
     Незважаючи на те, що HTTP-cookie мають деякі проблеми, все ж вони найкращі для зберігання ідентифікатора сесії. Коли це можливо, для керування ідентифікаторами сесій необхідно використовувати cookie. Більшість програм повинні використовувати cookie для ідентифікатора сесії.
     
     Якщо `session.use_only_cookies`Off, модуль сесії буде використовувати ідентифікатор, встановлений через GET/POST/URL, якщо cookie не була виставлена ​​заздалегідь.
     
--   [session.use\_strict\_mode](session.configuration.html#ini.session.use-strict-mode)Він
+-   [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)Він
     
     Вкрай рекомендується включати `session.use_strict_mode`. За промовчанням не увімкнено.
     
@@ -41,7 +41,7 @@ INI-налаштування безпеки сесій
     > 
     > Атакуючі можуть ініціалізувати ідентифікатор сесії на своєму пристрої та виставити його жертві. Вони мають підтримувати сесію в активному стані для зловживань. Атакуючим знадобиться вжити додаткових дій для проведення атаки за цим сценарієм. Тому `session.use_strict_mode` служить як запобігання цьому.
     
--   [session.cookie\_httponly](session.configuration.html#ini.session.cookie-httponly)Він
+-   [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)Він
     
     Забороняє доступ до сесійної cookie для JavaScript. Ця опція запобігає крадіжці cookie за допомогою JavaScript-ін'єкції.
     
@@ -51,31 +51,31 @@ INI-налаштування безпеки сесій
     > 
     > Захисний ключ CSRF має періодично оновлюватись, як і ідентифікатор сесії.
     
--   [session.cookie\_secure](session.configuration.html#ini.session.cookie-secure)Він
+-   [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)Він
     
     Дозволяє отримувати доступ до cookie ідентифікатора сесії лише за умови використання протоколу HTTPS. Якщо ваш сайт використовує лише протокол HTTPS, необхідно включити цю опцію.
     
     Для таких сайтів слід також розглядати використання HSTS.
     
--   [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite)"Lax" або [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite)"Strict"
+-   [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)"Lax" або [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)"Strict"
     
     Починаючи з PHP 7.3, можна встановити cookie-прапор `"SameSite"` для ідентифікатора cookie сесії. Цей прапор є способом пом'якшення атак CSRF (міжсайтова підробка запиту).
     
     Різниця між Lax і Strict полягає в доступності cookie в запитах, що виходять з іншого домену, що реєструється з використанням HTTP-методу GET. Cookie, що використовують Lax, будуть доступні в GET-запиті, що виходить з іншого домену, що реєструється, тоді як cookie, що використовують Strict, не будуть.
     
--   [session.gc\_maxlifetime](session.configuration.html#ini.session.gc-maxlifetime)вибрати найменший із можливих
+-   [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime)вибрати найменший із можливих
     
     `session.gc_maxlifetime` налаштування для видалення застарілих ідентифікаторів сесій. Покладатись на цю опцію категорично *не* рекомендується. Ви повинні керувати життєвим циклом сесії самостійно.
     
-    Сесійний збирач сміття GC (garbage collection) краще використовувати за допомогою [session\_gc()](function.session-gc.html). функцію [session\_gc()](function.session-gc.html) найкраще запускати через планувальник, наприклад, cron на nix-системах.
+    Сесійний збирач сміття GC (garbage collection) краще використовувати за допомогою [sessiongc()](function.session-gc.html). функцію [sessiongc()](function.session-gc.html) найкраще запускати через планувальник, наприклад, cron на nix-системах.
     
-    За замовчуванням GC працює на принципі імовірності. Це налаштування *не* гарантує видалення старих сесій. Розробнику не слід покладатися на це налаштування, але все одно рекомендується виставити його мінімально можливим значенням. Налаштовуйте [session.gc\_probability](session.configuration.html#ini.session.gc-probability) і [session.gc\_divisor](session.configuration.html#ini.session.gc-divisor) так, щоб застарілі сесії видалялися досить часто. Якщо потрібна функціональність автологіну, реалізуйте його самостійно і ніколи не використовуйте для цього довготривалі сесії.
+    За замовчуванням GC працює на принципі імовірності. Це налаштування *не* гарантує видалення старих сесій. Розробнику не слід покладатися на це налаштування, але все одно рекомендується виставити його мінімально можливим значенням. Налаштовуйте [session.gcprobability](session.configuration.html#ini.session.gc-probability) і [session.gcdivisor](session.configuration.html#ini.session.gc-divisor) так, щоб застарілі сесії видалялися досить часто. Якщо потрібна функціональність автологіну, реалізуйте його самостійно і ніколи не використовуйте для цього довготривалі сесії.
     
     > **Зауваження**
     > 
     > Деякі обробники сесій не використовують механізм старіння сесій на основі ймовірностей. Наприклад, memcached, memcache. Читайте відповідну документацію для більш повної інформації.
     
--   [session.use\_trans\_sid](session.configuration.html#ini.session.use-trans-sid)Off
+-   [session.usetranssid](session.configuration.html#ini.session.use-trans-sid)Off
     
     Використання прозорого керування сесійним ID не рекомендується. Ви можете використовувати його, якщо потрібно. Однак, відключення прозорого управління підвищує безпеку сесій загалом, прибираючи можливість ін'єкції сесійного ID та його крадіжки.
     
@@ -83,34 +83,34 @@ INI-налаштування безпеки сесій
     > 
     > Ідентифікатор сесії може витекти через закладку в браузері, URL надісланий поштою, збережений вихідний HTML.
     
--   [session.trans\_sid\_tags](session.configuration.html#ini.session.trans-sid-tags)ігноровані теги
+-   [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags)ігноровані теги
     
-    (PHP 7.1.0 >=) Ви не повинні перезаписувати непотрібні HTML-теги. Значення за умовчанням має бути достатньою для більшості випадків. Старі версії PHP для цього використовують [url\_rewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
+    (PHP 7.1.0 >=) Ви не повинні перезаписувати непотрібні HTML-теги. Значення за умовчанням має бути достатньою для більшості випадків. Старі версії PHP для цього використовують [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
     
--   [session.trans\_sid\_hosts](session.configuration.html#ini.session.trans-sid-hosts)список хостів
+-   [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts)список хостів
     
     (PHP 7.1.0 >=) Ця установка визначає білий список хостів, для яких дозволено прозоре керування ідентифікаторами сесій. Ніколи не додавайте недовірені хости. Якщо це налаштування порожнє, то буде дозволено лише $SERVER'HTTPHOST'
     
--   [session.referer\_check](session.configuration.html#ini.session.referer-check)ваш вихідний URL
+-   [session.referercheck](session.configuration.html#ini.session.referer-check)ваш вихідний URL
     
-    Якщо [session.use\_trans\_sid](session.configuration.html#ini.session.use-trans-sid) включено, то рекомендується використовувати цю опцію, якщо це можливо. Це зменшує ризик ін'єкції сесійного ID. Якщо ваш сайт знаходиться за адресою [http://example.com/](http://example.com/), то встановіть цю опцію значення [http://example.com/](http://example.com/). Зверніть увагу, що під час використання HTTPS, браузер не надсилає referrer заголовок. Таким чином, цей параметр не є достатньо надійним показником безпеки, але все ж таки рекомендується його використовувати.
+    Якщо [session.usetranssid](session.configuration.html#ini.session.use-trans-sid) включено, то рекомендується використовувати цю опцію, якщо це можливо. Це зменшує ризик ін'єкції сесійного ID. Якщо ваш сайт знаходиться за адресою [http://example.com/](http://example.com/), то встановіть цю опцію значення [http://example.com/](http://example.com/). Зверніть увагу, що під час використання HTTPS, браузер не надсилає referrer заголовок. Таким чином, цей параметр не є достатньо надійним показником безпеки, але все ж таки рекомендується його використовувати.
     
--   [session.cache\_limiter](session.configuration.html#ini.session.cache-limiter)nocache
+-   [session.cachelimiter](session.configuration.html#ini.session.cache-limiter)nocache
     
     Переконайтеся, що вміст HTTP не кешується для автентифікаційної сесії. Дозволяється кешувати лише неконфіденційний контент. Інакше може скористатися вмістом. Можна використовувати значення "private", якщо вміст HTTP не містить чутливих до безпеки даних. Зверніть увагу, що "private" може залишати конфіденційні дані в загальному кеші клієнтів. Значення "public" можна використовувати тільки якщо HTTP-контент взагалі не містить жодних конфіденційних даних.
     
--   [session.sid\_length](session.configuration.html#ini.session.sid-length)"48"
+-   [session.sidlength](session.configuration.html#ini.session.sid-length)"48"
     
-    (PHP 7.1.0 >=) Чим довше ідентифікатор сесії, тим він надійніший. Довжина, що рекомендується, - 32 символи і більше. У будь-якому випадку, не менше 26 символів потрібно для [session.sid\_bits\_per\_character](session.configuration.html#ini.session.sid-bits-per-character)"5".
+    (PHP 7.1.0 >=) Чим довше ідентифікатор сесії, тим він надійніший. Довжина, що рекомендується, - 32 символи і більше. У будь-якому випадку, не менше 26 символів потрібно для [session.sidbitspercharacter](session.configuration.html#ini.session.sid-bits-per-character)"5".
     
--   [session.sid\_bits\_per\_character](session.configuration.html#ini.session.sid-bits-per-character)"6"
+-   [session.sidbitspercharacter](session.configuration.html#ini.session.sid-bits-per-character)"6"
     
     (PHP 7.1.0 >=) Чим більше бітів використовується для символів ідентифікатора сесії, тим більше надійні ідентифікатори будуть створені для тієї ж довжини ідентифікатора сесії.
     
--   [session.hash\_function](session.configuration.html#ini.session.hash-function)"sha256"
+-   [session.hashfunction](session.configuration.html#ini.session.hash-function)"sha256"
     
-    (PHP 7.1.0 <) Більш складна хеш-функція буде створювати складніший сесійний ID. Хоча колізії з хеш майже не відбуваються і з MD5-хеш, проте розробнику краще використовувати функції SHA-2 або новіше. Розробники також можуть використовувати складні функції sha384 та sha512. Переконайтеся, що ви використовуєте достатньо [энтропии](session.configuration.html#ini.session.entropy-length) для цих функцій.
+    (PHP 7.1.0 <) Більш складна хеш-функція буде створювати складніший сесійний ID. Хоча колізії з хеш майже не відбуваються і з MD5-хеш, проте розробнику краще використовувати функції SHA-2 або новіше. Розробники також можуть використовувати складні функції sha384 та sha512. Переконайтеся, що ви використовуєте достатньо [ентропії](session.configuration.html#ini.session.entropy-length) для цих функцій.
     
--   [session.save\_path](session.configuration.html#ini.session.save-path)загальнодоступний каталог для читання
+-   [session.savepath](session.configuration.html#ini.session.save-path)загальнодоступний каталог для читання
     
     Якщо встановлено в загальнодоступний каталог для читання всім, наприклад /tmp (за замовчуванням), інші користувачі на сервері можуть захопити сеанси, отримавши список файлів у цьому каталозі.

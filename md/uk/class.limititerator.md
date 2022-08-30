@@ -2,11 +2,11 @@
 
 -   [« IteratorIterator::valid](iteratoriterator.valid.html)
     
--   [LimitIterator::\_\_construct »](limititerator.construct.html)
+-   [LimitIterator::construct »](limititerator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас LimitIterator
     
@@ -108,7 +108,7 @@ string(10) "elderberry"
 
 ## Зміст
 
--   [LimitIterator::\_\_construct](limititerator.construct.html) - Конструктор класу LimitIterator
+-   [LimitIterator::construct](limititerator.construct.html) - Конструктор класу LimitIterator
 -   [LimitIterator::current](limititerator.current.html) — Отримання поточного елемента
 -   [LimitIterator::getInnerIterator](limititerator.getinneriterator.html) — Отримання внутрішнього об'єкта-ітератора
 -   [LimitIterator::getPosition](limititerator.getposition.html) — Повертає поточну позицію

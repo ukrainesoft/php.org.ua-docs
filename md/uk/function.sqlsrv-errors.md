@@ -1,12 +1,12 @@
 Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
 
--   [« sqlsrv\_connect](function.sqlsrv-connect.html)
+-   [« sqlsrvconnect](function.sqlsrv-connect.html)
     
--   [sqlsrv\_execute »](function.sqlsrv-execute.html)
+-   [sqlsrvexecute »](function.sqlsrv-execute.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
     
@@ -75,8 +75,8 @@ if( $stmt === false ) {
 
 ### Примітки
 
-За промовчанням попередження, що генеруються під час виклику будь-якої функції SQLSRV, обробляються як помилки. Це означає, що якщо під час виклику функції SQLSRV виникає попередження, функція повертає **`false`**. Однак попередження, що відповідають значенням SQLSTATE 01000, 01001, 01003 та 01S02, ніколи не розглядаються як помилки. Для отримання інформації про зміну цієї поведінки дивіться опис функції [sqlsrv\_configure()](function.sqlsrv-configure.html) та параметр WarningsReturnAsErrors.
+За промовчанням попередження, що генеруються під час виклику будь-якої функції SQLSRV, обробляються як помилки. Це означає, що якщо під час виклику функції SQLSRV виникає попередження, функція повертає **`false`**. Однак попередження, що відповідають значенням SQLSTATE 01000, 01001, 01003 та 01S02, ніколи не розглядаються як помилки. Для отримання інформації про зміну цієї поведінки дивіться опис функції [sqlsrvconfigure()](function.sqlsrv-configure.html) та параметр WarningsReturnAsErrors.
 
 ### Дивіться також
 
--   [sqlsrv\_configure()](function.sqlsrv-configure.html) - Змінює конфігурацію обробки помилок драйвера та ведення журналу
+-   [sqlsrvconfigure()](function.sqlsrv-configure.html) - Змінює конфігурацію обробки помилок драйвера та ведення журналу

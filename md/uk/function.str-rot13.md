@@ -1,12 +1,12 @@
 Виконує перетворення ROT13 над рядком
 
--   [« str\_replace](function.str-replace.html)
+-   [« strreplace](function.str-replace.html)
     
--   [str\_shuffle »](function.str-shuffle.html)
+-   [strshuffle »](function.str-shuffle.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Виконує перетворення ROT13 над рядком
     

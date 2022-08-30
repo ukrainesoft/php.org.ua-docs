@@ -37,4 +37,4 @@ public static Locale::canonicalize(string $locale): ?string
 
 Канонізований рядок локалі.
 
-Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**

@@ -1,12 +1,12 @@
 Показники шрифту
 
--   [« UI\\Draw\\Text\\Font::getAscent](ui-draw-text-font.getascent.html)
+-   [« UIDrawTextFont::getAscent](ui-draw-text-font.getascent.html)
     
--   [UI\\Draw\\Text\\Font::getLeading »](ui-draw-text-font.getleading.html)
+-   [ОЙDrawTextFont::getLeading »](ui-draw-text-font.getleading.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html)
+-   [ОЙDrawTextFont](class.ui-draw-text-font.html)
     
 -   Показники шрифту
     

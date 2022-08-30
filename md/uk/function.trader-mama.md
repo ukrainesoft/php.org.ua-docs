@@ -1,8 +1,8 @@
 MESA Адаптивна ковзна середня
 
--   [« trader\_macdfix](function.trader-macdfix.html)
+-   [« tradermacdfix](function.trader-macdfix.html)
     
--   [trader\_mavp »](function.trader-mavp.html)
+-   [tradermavp »](function.trader-mavp.html)
     
 -   [PHP Manual](index.html)
     

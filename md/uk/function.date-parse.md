@@ -1,8 +1,8 @@
 Повертає асоціативний масив з детальною інформацією про задану дату/час
 
--   [« date\_parse\_from\_format](function.date-parse-from-format.html)
+-   [« dateparsefromformat](function.date-parse-from-format.html)
     
--   [date\_sub »](function.date-sub.html)
+-   [datesub »](function.date-sub.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ dateparse — Повертає асоціативний масив з детал
 date_parse(string $datetime): array
 ```
 
-Функція **dateparse()** розбирає вказану в параметрі `datetime` рядок за тими ж правилами, що й функції [strtotime()](function.strtotime.html) і [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html). Замість повертати тимчасову мітку Unix (при використанні функції [strtotime()](function.strtotime.html)) або об'єкт [DateTimeImmutable](class.datetimeimmutable.html) (при використанні функції [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html)), вона повертає асоціативний масив з інформацією, яку функція змогла виявити в даному рядку параметра `datetime`
+Функція **dateparse()** розбирає вказану в параметрі `datetime` рядок за тими ж правилами, що й функції [strtotime()](function.strtotime.html) і [DateTimeImmutable::construct()](datetimeimmutable.construct.html). Замість повертати тимчасову мітку Unix (при використанні функції [strtotime()](function.strtotime.html)) або об'єкт [DateTimeImmutable](class.datetimeimmutable.html) (при використанні функції [DateTimeImmutable::construct()](datetimeimmutable.construct.html)), вона повертає асоціативний масив з інформацією, яку функція змогла виявити в даному рядку параметра `datetime`
 
 Якщо інформація про певну групу елементів не знайдена, ці елементи масиву будуть встановлені у значення **`false`** або будуть відсутні. Якщо це необхідно для побудови тимчасової мітки або об'єкта [DateTimeImmutable](class.datetimeimmutable.html) з одного і того ж рядка параметра `datetime`, більша кількість полів може бути встановлена ​​в значення не **`false`**. Дивіться приклади, де це відбувається.
 
@@ -31,7 +31,7 @@ date_parse(string $datetime): array
 
 `datetime`
 
-Дата/час у форматі, що розпізнається функцією [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html)
+Дата/час у форматі, що розпізнається функцією [DateTimeImmutable::construct()](datetimeimmutable.construct.html)
 
 ### Значення, що повертаються
 
@@ -175,7 +175,7 @@ array(12) {
 }
 ```
 
-[Относительные форматы](datetime.formats.relative.html) не впливають на значення, що розбираються з абсолютних форматів, але розуміються на елементі "relative".
+[Відносні формати](datetime.formats.relative.html) не впливають на значення, що розбираються з абсолютних форматів, але розуміються на елементі "relative".
 
 **Приклад #5 Приклад використання **dateparse()** з відносними форматами**
 
@@ -215,7 +215,7 @@ array(13) {
 }
 ```
 
-Деякі рядки, такі як `Thursday`, встановлять тимчасову частину рядка на значення `0`. Якщо `Thursday` передати у функцію [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html), то це також призведе до того, що година, хвилина, секунда та дріб будуть встановлені у значення `0`. У наведеному нижче прикладі елемент year, однак, залишений як **`false`**
+Деякі рядки, такі як `Thursday`, встановлять тимчасову частину рядка на значення `0`. Якщо `Thursday` передати у функцію [DateTimeImmutable::construct()](datetimeimmutable.construct.html), то це також призведе до того, що година, хвилина, секунда та дріб будуть встановлені у значення `0`. У наведеному нижче прикладі елемент year, однак, залишений як **`false`**
 
 **Приклад #6 Приклад використання **dateparse()** з побічними ефектами**
 
@@ -258,6 +258,6 @@ array(13) {
 
 ### Дивіться також
 
--   [date\_parse\_from\_format()](function.date-parse-from-format.html) - Отримання інформації про задану у визначеному форматі дату для розбору параметра `datetime` з певним заданим форматом
+-   [dateparsefromformat()](function.date-parse-from-format.html) - Отримання інформації про задану у визначеному форматі дату для розбору параметра `datetime` з певним заданим форматом
 -   [checkdate()](function.checkdate.html) - Перевіряє коректність дати за григоріанським календарем
 -   [getdate()](function.getdate.html) - Повертає інформацію про дату/час

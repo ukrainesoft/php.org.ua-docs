@@ -16,4 +16,4 @@
 ## Зміст
 
 -   [Процедурный пример PECL/rrd](rrd.examples-procedural.html)
--   [Объектно-ориентированный пример PECL/rrd](rrd.examples-oop.html)
+-   [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.html)

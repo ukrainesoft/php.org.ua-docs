@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](class.ev.html)
+-   [Єв](class.ev.html)
     
 -   Повертає поточний час у секундах (мільйонне число) минуле з початку епохи Unix
     

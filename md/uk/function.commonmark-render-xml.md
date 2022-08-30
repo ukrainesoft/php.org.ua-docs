@@ -1,6 +1,6 @@
 Відображення
 
--   [« CommonMark\\Render\\Man](function.commonmark-render-man.html)
+-   [« CommonMarkRenderMan](function.commonmark-render-man.html)
     
 -   [Parle »](book.parle.html)
     

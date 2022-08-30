@@ -1,6 +1,6 @@
 Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
 
--   [« DOMXPath::\_\_construct](domxpath.construct.html)
+-   [« DOMXPath::construct](domxpath.construct.html)
     
 -   [DOMXPath::query »](domxpath.query.html)
     

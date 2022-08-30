@@ -1,12 +1,12 @@
 Повертає будь-яку помилку гарантій запису, що відбувся
 
--   [« MongoDB\\Driver\\WriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.html)
+-   [« MongoDBDriverWriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.html)
     
--   [MongoDB\\Driver\\WriteResult::getWriteErrors »](mongodb-driver-writeresult.getwriteerrors.html)
+-   [MongoDBDriverWriteResult::getWriteErrors »](mongodb-driver-writeresult.getwriteerrors.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     
 -   Повертає будь-яку помилку гарантій запису, що відбувся
     
@@ -29,11 +29,11 @@ final public MongoDB\Driver\WriteResult::getWriteConcernError(): ?MongoDB\Driver
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\WriteConcernError](class.mongodb-driver-writeconcernerror.html), якщо під час операції запису сталася помилка гарантій запису, та **`null`** в іншому випадку.
+Повертає [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html), якщо під час операції запису сталася помилка гарантій запису, та **`null`** в іншому випадку.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -76,5 +76,5 @@ object(MongoDB\Driver\WriteConcernError)#6 (3) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 -   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

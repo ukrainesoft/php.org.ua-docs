@@ -64,4 +64,4 @@ $db->commit();
 
 -   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html) - Відкриває потік для існуючого великого об'єкту
 -   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html) - Видалити великий об'єкт
--   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт

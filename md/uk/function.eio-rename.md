@@ -1,8 +1,8 @@
 Змінює ім'я або переміщує файл
 
--   [« eio\_realpath](function.eio-realpath.html)
+-   [« eiorealpath](function.eio-realpath.html)
     
--   [eio\_rmdir »](function.eio-rmdir.html)
+-   [eiormdir »](function.eio-rmdir.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

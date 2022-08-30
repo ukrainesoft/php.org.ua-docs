@@ -1,8 +1,8 @@
 Встановлює цільовий кадр для відображення форми
 
--   [« fdf\_set\_submit\_form\_action](function.fdf-set-submit-form-action.html)
+-   [« fdfsetsubmitformaction](function.fdf-set-submit-form-action.html)
     
--   [fdf\_set\_value »](function.fdf-set-value.html)
+-   [fdfsetvalue »](function.fdf-set-value.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_target_frame(resource $fdf_document, string $frame_name): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `frame_name`
 

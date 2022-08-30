@@ -1,8 +1,8 @@
 Звільняє дескриптор
 
--   [« oci\_field\_type](function.oci-field-type.html)
+-   [« ocifieldtype](function.oci-field-type.html)
     
--   [oci\_free\_statement »](function.oci-free-statement.html)
+-   [ocifreestatement »](function.oci-free-statement.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ ocifreedescriptor - Звільняє дескриптор
 oci_free_descriptor(OCILob $lob): bool
 ```
 
-Звільняє дескриптор, створений за допомогою [oci\_new\_descriptor()](function.oci-new-descriptor.html)
+Звільняє дескриптор, створений за допомогою [ocinewdescriptor()](function.oci-new-descriptor.html)
 
 ### Список параметрів
 
 `descriptor`
 
-Дескриптор, створений за допомогою [oci\_new\_descriptor()](function.oci-new-descriptor.html)
+Дескриптор, створений за допомогою [ocinewdescriptor()](function.oci-new-descriptor.html)
 
 ### Значення, що повертаються
 

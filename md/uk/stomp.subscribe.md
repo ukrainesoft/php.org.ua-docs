@@ -39,7 +39,7 @@ stomp_subscribe(resource $link, string $destination, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
 
 `destination`
 
@@ -55,7 +55,7 @@ stomp_subscribe(resource $link, string $destination, array $headers = ?): bool
 
 ### Приклади
 
-Дивіться [stomp\_ack()](stomp.ack.html)
+Дивіться [stompack()](stomp.ack.html)
 
 ### Примітки
 

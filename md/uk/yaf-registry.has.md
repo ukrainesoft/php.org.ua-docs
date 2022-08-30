@@ -1,12 +1,12 @@
 Перевіряє, чи існує елемент
 
--   [« Yaf\_Registry::get](yaf-registry.get.html)
+-   [« YafRegistry::get](yaf-registry.get.html)
     
--   [Yaf\_Registry::set »](yaf-registry.set.html)
+-   [YafRegistry::set »](yaf-registry.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Registry](class.yaf-registry.html)
+-   [YafRegistry](class.yaf-registry.html)
     
 -   Перевіряє, чи існує елемент
     

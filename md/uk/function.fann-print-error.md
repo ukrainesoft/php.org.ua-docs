@@ -1,8 +1,8 @@
 Виводить рядок помилки
 
--   [« fann\_num\_output\_train\_data](function.fann-num-output-train-data.html)
+-   [« fannnumoutputtraindata](function.fann-num-output-train-data.html)
     
--   [fann\_randomize\_weights »](function.fann-randomize-weights.html)
+-   [fannrandomizeweights »](function.fann-randomize-weights.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ fann_print_error(resource $errdat): void
 
 ### Дивіться також
 
--   [fann\_get\_errstr()](function.fann-get-errstr.html) - Повертає останній рядок помилки
+-   [fanngeterrstr()](function.fann-get-errstr.html) - Повертає останній рядок помилки

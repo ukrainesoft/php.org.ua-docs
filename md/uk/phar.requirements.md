@@ -15,4 +15,4 @@
 
 Крім того, ви можете підключити модулі [zlib](book.zlib.html) і [bzip2](book.bzip2.html), щоб скористатися підтримуваною компресією phar. Також, щоб мати можливість підписування OpenSSL, має бути підключений модуль [OpenSSL](book.openssl.html)
 
-Якщо [zend.multibyte](ini.core.html#ini.zend.multibyte) включений, то необхідно також увімкнути [zend.detect\_unicode](ini.core.html#ini.zend.detect-unicode)
+Якщо [zend.multibyte](ini.core.html#ini.zend.multibyte) включений, то необхідно також увімкнути [zend.detectunicode](ini.core.html#ini.zend.detect-unicode)

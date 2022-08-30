@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+-   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     
 -   Отримує ім'я зіставлення
     

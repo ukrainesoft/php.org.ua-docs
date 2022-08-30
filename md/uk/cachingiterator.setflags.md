@@ -2,7 +2,7 @@
 
 -   [« CachingIterator::rewind](cachingiterator.rewind.html)
     
--   [CachingIterator::\_\_toString »](cachingiterator.tostring.html)
+-   [CachingIterator::toString »](cachingiterator.tostring.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Встановлює опцію для потоку/обгортки/контексту
 
--   [« stream\_context\_set\_default](function.stream-context-set-default.html)
+-   [« streamcontextsetdefault](function.stream-context-set-default.html)
     
--   [stream\_context\_set\_params »](function.stream-context-set-params.html)
+-   [streamcontextsetparams »](function.stream-context-set-params.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановлює опцію для потоку/обгортки/контексту
     

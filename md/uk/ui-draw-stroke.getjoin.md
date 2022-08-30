@@ -1,12 +1,12 @@
 Отримати з'єднання лінії
 
--   [« UI\\Draw\\Stroke::getCap](ui-draw-stroke.getcap.html)
+-   [« UIDrawStroke::getCap](ui-draw-stroke.getcap.html)
     
--   [UI\\Draw\\Stroke::getMiterLimit »](ui-draw-stroke.getmiterlimit.html)
+-   [ОЙDrawStroke::getMiterLimit »](ui-draw-stroke.getmiterlimit.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Отримати з'єднання лінії
     

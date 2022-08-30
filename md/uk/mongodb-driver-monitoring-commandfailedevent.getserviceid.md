@@ -1,12 +1,12 @@
 Повертає ідентифікатор служби балансувальника навантаження для команди
 
--   [« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServerConnectionId](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html)
+-   [« MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent »](class.mongodb-driver-monitoring-commandstartedevent.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent »](class.mongodb-driver-monitoring-commandstartedevent.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
+-   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
     
 -   Повертає ідентифікатор служби балансувальника навантаження для команди
     
@@ -35,4 +35,4 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServiceId(): ?Mong
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

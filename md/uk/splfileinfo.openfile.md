@@ -33,7 +33,7 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 `useIncludePath`
 
-Якщо встановлено **`true`**, ім'я файлу також шукається в [include\_path](ini.core.html#ini.include-path)
+Якщо встановлено **`true`**, ім'я файлу також шукається в [includepath](ini.core.html#ini.include-path)
 
 `context`
 
@@ -73,5 +73,5 @@ if ($fileinfo->isWritable()) {
 ### Дивіться також
 
 -   [SplFileObject](class.splfileobject.html)
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
 -   [fopen()](function.fopen.html) - Відкриває файл або URL

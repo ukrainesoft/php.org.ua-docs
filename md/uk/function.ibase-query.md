@@ -1,8 +1,8 @@
 Виконує запит до бази даних InterBase
 
--   [« ibase\_prepare](function.ibase-prepare.html)
+-   [« ibaseprepare](function.ibase-prepare.html)
     
--   [ibase\_restore »](function.ibase-restore.html)
+-   [ibaserestore »](function.ibase-restore.html)
     
 -   [PHP Manual](index.html)
     
@@ -68,7 +68,7 @@ $sth = ibase_query($dbh, $stmt) or die(ibase_errmsg());
 
 ### Дивіться також
 
--   [ibase\_errmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку
--   [ibase\_fetch\_row()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
--   [ibase\_fetch\_object()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase
--   [ibase\_free\_result()](function.ibase-free-result.html) - Звільняє набір результатів
+-   [ibaseerrmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку
+-   [ibasefetchrow()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
+-   [ibasefetchobject()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase
+-   [ibasefreeresult()](function.ibase-free-result.html) - Звільняє набір результатів

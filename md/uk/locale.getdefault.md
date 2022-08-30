@@ -75,4 +75,4 @@ de-DE; fr
 
 ### Дивіться також
 
--   [locale\_set\_default()](locale.setdefault.html) - Встановити локаль за умовчанням під час виконання
+-   [localesetdefault()](locale.setdefault.html) - Встановити локаль за умовчанням під час виконання

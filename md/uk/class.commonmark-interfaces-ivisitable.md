@@ -1,8 +1,8 @@
 Інтерфейс CommonMarkInterfacesIVisitable
 
--   [« CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.html)
+-   [« CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.html)
     
--   [CommonMark\\Interfaces\\IVisitable::accept »](commonmark-interfaces-ivisitable.accept.html)
+-   [CommonMarkInterfacesIVisitable::accept »](commonmark-interfaces-ivisitable.accept.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@
 
 ## Зміст
 
--   [CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.html) - Visitation
+-   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html) - Visitation

@@ -1,12 +1,12 @@
 Отримує всі налаштування конфігурації
 
--   [« ini\_alter](function.ini-alter.html)
+-   [« inialter](function.ini-alter.html)
     
--   [ini\_get »](function.ini-get.html)
+-   [iniget »](function.ini-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримує всі налаштування конфігурації
     
@@ -39,7 +39,7 @@ ini_get_all(?string $extension = null, bool $details = true): array|false
 
 Повертає асоціативний масив з іменами директив як ключі. Повертає **`false`** і викликає помилку рівня **`E_WARNING`**, якщо `extension` не існує.
 
-Якщо `details` дорівнює **`true`** (за замовчуванням), у масиві будуть утримуватися `global_value` (значення налаштування php.ini), `local_value` (наприклад, задане за допомогою [ini\_set()](function.ini-set.html) або .htaccess) та `access` (рівень доступу).
+Якщо `details` дорівнює **`true`** (за замовчуванням), у масиві будуть утримуватися `global_value` (значення налаштування php.ini), `local_value` (наприклад, задане за допомогою [iniset()](function.ini-set.html) або .htaccess) та `access` (рівень доступу).
 
 Якщо `details` дорівнює **`false`**, значенням масиву буде відповідне поточне налаштування.
 
@@ -134,10 +134,10 @@ Array
 
 ### Дивіться також
 
--   [Как изменить настройки конфигурации](configuration.changes.html)
--   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [ini\_restore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
--   [ini\_set()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [Як змінити налаштування конфігурації](configuration.changes.html)
+-   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [inirestore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
+-   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
 -   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.html) - Отримання ini-налаштувань модуля

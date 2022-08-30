@@ -1,6 +1,6 @@
 Клас PDO
 
--   [« Большие объекты (LOB)](pdo.lobs.html)
+-   [« Великі об'єкти (LOB)](pdo.lobs.html)
     
 -   [PDO::beginTransaction »](pdo.begintransaction.html)
     
@@ -61,7 +61,7 @@ public setAttribute(int $attribute, mixed $value): bool
 
 -   [PDO::beginTransaction](pdo.begintransaction.html) - Ініціалізація транзакції
 -   [PDO::commit](pdo.commit.html) - Фіксує транзакцію
--   [PDO::\_\_construct](pdo.construct.html) — Створює екземпляр PDO, що надає з'єднання з базою даних
+-   [PDO::construct](pdo.construct.html) — Створює екземпляр PDO, що надає з'єднання з базою даних
 -   [PDO::errorCode](pdo.errorcode.html) — Повертає код SQLSTATE результату останньої операції з базою даних
 -   [PDO::errorInfo](pdo.errorinfo.html) — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
 -   [PDO::exec](pdo.exec.html) — Виконує SQL-запит та повертає кількість порушених рядків

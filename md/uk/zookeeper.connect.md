@@ -2,7 +2,7 @@
 
 -   [« Zookeeper::close](zookeeper.close.html)
     
--   [Zookeeper::\_\_construct »](zookeeper.construct.html)
+-   [Zookeeper::construct »](zookeeper.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,5 +54,5 @@ Callback – функція глобального спостерігача. К�
 
 ### Дивіться також
 
--   [Zookeeper::\_\_construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
 -   [ZookeeperException](class.zookeeperexception.html)

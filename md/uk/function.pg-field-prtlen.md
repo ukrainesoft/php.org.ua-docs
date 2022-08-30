@@ -1,8 +1,8 @@
 Повертає кількість друкованих символів
 
--   [« pg\_field\_num](function.pg-field-num.html)
+-   [« pgfieldnum](function.pg-field-num.html)
     
--   [pg\_field\_size »](function.pg-field-size.html)
+-   [пгfieldsize »](function.pg-field-size.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 `field_name_or_number` Номер чи ім'я вибраного поля. Може передаватися або як int або як string. Якщо передається значення типу int, PHP розпізнає його як номер, інакше як назву поля.
 
-Ознайомтеся з прикладами на сторінці з описом функції [pg\_field\_name()](function.pg-field-name.html)
+Ознайомтеся з прикладами на сторінці з описом функції [пгfieldname()](function.pg-field-name.html)
 
 > **Зауваження**
 > 
@@ -41,7 +41,7 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `row`
 
@@ -53,9 +53,9 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -102,4 +102,4 @@ field type: varchar
 
 ### Дивіться також
 
--   [pg\_field\_size()](function.pg-field-size.html) - Повертає розмір поля
+-   [пгfieldsize()](function.pg-field-size.html) - Повертає розмір поля

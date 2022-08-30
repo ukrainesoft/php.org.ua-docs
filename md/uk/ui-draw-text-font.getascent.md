@@ -1,12 +1,12 @@
 Показники шрифту
 
--   [« UI\\Draw\\Text\\Font::\_\_construct](ui-draw-text-font.construct.html)
+-   [« UIDrawTextFont::construct](ui-draw-text-font.construct.html)
     
--   [UI\\Draw\\Text\\Font::getDescent »](ui-draw-text-font.getdescent.html)
+-   [ОЙDrawTextFont::getDescent »](ui-draw-text-font.getdescent.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html)
+-   [ОЙDrawTextFont](class.ui-draw-text-font.html)
     
 -   Показники шрифту
     

@@ -1,8 +1,8 @@
 Повертає рядок, що описує помилку сокету
 
--   [« socket\_shutdown](function.socket-shutdown.html)
+-   [« socketshutdown](function.socket-shutdown.html)
     
--   [socket\_write »](function.socket-write.html)
+-   [socketwrite »](function.socket-write.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ socketstrerror — Повертає рядок, що описує помилку
 socket_strerror(int $error_code): string
 ```
 
-**socketstrerror()** отримує як параметр `error_code` код помилки сокета, що повертається функцією [socket\_last\_error()](function.socket-last-error.html) та повертає відповідний текст із роз'ясненням.
+**socketstrerror()** отримує як параметр `error_code` код помилки сокета, що повертається функцією [socketlasterror()](function.socket-last-error.html) та повертає відповідний текст із роз'ясненням.
 
 > **Зауваження**
 > 
@@ -33,7 +33,7 @@ socket_strerror(int $error_code): string
 
 `error_code`
 
-Допустимий код помилки сокету, швидше за все, повернутий функцією [socket\_last\_error()](function.socket-last-error.html)
+Допустимий код помилки сокету, швидше за все, повернутий функцією [socketlasterror()](function.socket-last-error.html)
 
 ### Значення, що повертаються
 
@@ -63,8 +63,8 @@ socket_bind() не выполнена: причина: Доступ запрещ
 
 ### Дивіться також
 
--   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketaccept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)

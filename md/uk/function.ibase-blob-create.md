@@ -1,8 +1,8 @@
 Створює новий BLOB-об'єкт для заповнення даними
 
--   [« ibase\_blob\_close](function.ibase-blob-close.html)
+-   [« ibaseblobclose](function.ibase-blob-close.html)
     
--   [ibase\_blob\_echo »](function.ibase-blob-echo.html)
+-   [ibaseblobecho »](function.ibase-blob-echo.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ ibase_blob_create(resource $link_identifier = null): resource|false
 
 ### Значення, що повертаються
 
-Повертає дескриптор BLOB-об'єкта для подальшого використання з [ibase\_blob\_add()](function.ibase-blob-add.html) або **`false`** у разі виникнення помилки.
+Повертає дескриптор BLOB-об'єкта для подальшого використання з [ibaseblobadd()](function.ibase-blob-add.html) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [ibase\_blob\_add()](function.ibase-blob-add.html) - Додає дані до новоствореного BLOB-об'єкту
--   [ibase\_blob\_cancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibase\_blob\_import()](function.ibase-blob-import.html) - Створює BLOB-об'єкт, копіює файл і закриває його.
+-   [ibaseblobadd()](function.ibase-blob-add.html) - Додає дані до новоствореного BLOB-об'єкту
+-   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibaseblobimport()](function.ibase-blob-import.html) - Створює BLOB-об'єкт, копіює файл і закриває його.

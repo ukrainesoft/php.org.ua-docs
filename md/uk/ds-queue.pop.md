@@ -1,12 +1,12 @@
 Видаляє та повертає значення з початку черги
 
--   [« Ds\\Queue::peek](ds-queue.peek.html)
+-   [« DsQueue::peek](ds-queue.peek.html)
     
--   [Ds\\Queue::push »](ds-queue.push.html)
+-   [ДсQueue::push »](ds-queue.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Видаляє та повертає значення з початку черги
     

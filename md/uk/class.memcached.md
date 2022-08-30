@@ -99,7 +99,7 @@ public touchByKey(string $server_key, string $key, int $expiration): bool
 -   [Memcached::appendByKey](memcached.appendbykey.html) — Додає дані до наявного запису на заданому сервері
 -   [Memcached::cas](memcached.cas.html) — Порівнює та встановлює значення для запису
 -   [Memcached::casByKey](memcached.casbykey.html) — Порівнює та встановлює значення для запису на конкретному сервері
--   [Memcached::\_\_construct](memcached.construct.html) - Створює екземпляр класу Memcached
+-   [Memcached::construct](memcached.construct.html) - Створює екземпляр класу Memcached
 -   [Memcached::decrement](memcached.decrement.html) — Зменшує числове значення запису
 -   [Memcached::decrementByKey](memcached.decrementbykey.html) — Зменшує числове значення запису, що зберігається на певному сервері
 -   [Memcached::delete](memcached.delete.html) - Видаляє запис

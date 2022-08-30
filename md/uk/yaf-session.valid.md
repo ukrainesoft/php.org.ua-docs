@@ -1,12 +1,12 @@
 Призначення valid
 
--   [« Yaf\_Session::\_\_unset](yaf-session.unset.html)
+-   [« YafSession::unset](yaf-session.unset.html)
     
--   [Yaf\_Exception »](class.yaf-exception.html)
+-   [YafException »](class.yaf-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення valid
     

@@ -1,12 +1,12 @@
 Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
 
--   [« Сетевые функции](ref.network.html)
+-   [« Мережеві функції](ref.network.html)
     
 -   [closelog »](function.closelog.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
     
@@ -37,17 +37,17 @@ checkdnsrr(string $hostname, string $type = "MX"): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо були знайдені записи; повертає **`false`**якщо записів не було знайдено або сталася помилка.
+Повертає \*\*`true`\*\*якщо були знайдені записи; повертає \*\*`false`\*\*якщо записів не було знайдено або сталася помилка.
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Для сумісності з попередніми версіями PHP під Windows, де не було реалізації цієї функції, використовуйте клас [» PEAR](https://pear.php.net/) [» Net\_DNS](https://pear.php.net/package/Net_DNS)
+> Для сумісності з попередніми версіями PHP під Windows, де не було реалізації цієї функції, використовуйте клас [» PEAR](https://pear.php.net/) [» NetDNS](https://pear.php.net/package/Net_DNS)
 
 ### Дивіться також
 
--   [dns\_get\_record()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
+-   [dnsgetrecord()](function.dns-get-record.html) - Отримання ресурсних записів DNS хоста
 -   [getmxrr()](function.getmxrr.html) - Отримує записи MX, що відповідають переданому доменному імені хоста
 -   [gethostbyaddr()](function.gethostbyaddr.html) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста

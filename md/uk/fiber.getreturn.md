@@ -29,4 +29,4 @@ public Fiber::getReturn(): mixed
 
 ### Значення, що повертаються
 
-Повертає значення, що повертається [callable](language.types.callable.html)функцією, наданою в [Fiber::\_\_construct()](fiber.construct.html). Якщо файбер не повернув значення, або тому, що він не був запущений, або не був завершений, або викинув виняток, буде викинуто виняток [FiberError](class.fibererror.html)
+Повертає значення, що повертається [callable](language.types.callable.html)функцією, наданою в [Fiber::construct()](fiber.construct.html). Якщо файбер не повернув значення, або тому, що він не був запущений, або не був завершений, або викинув виняток, буде викинуто виняток [FiberError](class.fibererror.html)

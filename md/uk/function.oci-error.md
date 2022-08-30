@@ -1,8 +1,8 @@
 Повертає останню помилку
 
--   [« oci\_define\_by\_name](function.oci-define-by-name.html)
+-   [« ocidefineбname](function.oci-define-by-name.html)
     
--   [oci\_execute »](function.oci-execute.html)
+-   [ociexecute »](function.oci-execute.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ oci_error(?resource $connection_or_statement = null): array|false
 
 `connection_or_statement`
 
-Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [oci\_connect()](function.oci-connect.html) [oci\_new\_connect()](function.oci-new-connect.html) або [oci\_pconnect()](function.oci-pconnect.html) слід передавати **`null`**
+Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [ociconnect()](function.oci-connect.html) [ocinewconnect()](function.oci-new-connect.html) або [ocipconnect()](function.oci-pconnect.html) слід передавати **`null`**
 
 ### Значення, що повертаються
 

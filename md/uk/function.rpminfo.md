@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.html)
     
 -   Вийняти інформацію з RPM-файлу
     

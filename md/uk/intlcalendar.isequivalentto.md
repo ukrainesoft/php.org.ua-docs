@@ -31,7 +31,7 @@ public IntlCalendar::isEquivalentTo(IntlCalendar $other): bool
 intlcal_is_equivalent_to(IntlCalendar $calendar, IntlCalendar $other): bool
 ```
 
-Повертає, чи дорівнює цей та даний об'єкт для всіх цілей, крім встановленого часу. Мовні стандарти можуть не збігатися, якщо через таку невідповідність немає жодних змін у поведінці. Сюди входить [часовой пояс](intlcalendar.gettimezone.html), чи встановлено [мягкий режим](intlcalendar.islenient.html) [повторяющиеся](intlcalendar.getrepeatedwalltimeoption.html) і [пропущенные](intlcalendar.getskippedwalltimeoption.html) налаштування часу процесора, [дни недели, когда выходные начинаются и заканчиваются](intlcalendar.getdayofweektype.html) і [время, когда происходят такие переходы](intlcalendar.getweekendtransition.html). Також може містити інші параметри, специфічні для календаря, наприклад, момент переходу між григоріанським та юліанським календарем.
+Повертає, чи дорівнює цей та даний об'єкт для всіх цілей, крім встановленого часу. Мовні стандарти можуть не збігатися, якщо через таку невідповідність немає жодних змін у поведінці. Сюди входить [часовой пояс](intlcalendar.gettimezone.html), чи встановлено [мягкий режим](intlcalendar.islenient.html) [повторяющиеся](intlcalendar.getrepeatedwalltimeoption.html) і [пропущені](intlcalendar.getskippedwalltimeoption.html) налаштування часу процесора, [дні тижня, коли вихідні починаються та закінчуються](intlcalendar.getdayofweektype.html) і [время, когда происходят такие переходы](intlcalendar.getweekendtransition.html). Також може містити інші параметри, специфічні для календаря, наприклад, момент переходу між григоріанським та юліанським календарем.
 
 ### Список параметрів
 

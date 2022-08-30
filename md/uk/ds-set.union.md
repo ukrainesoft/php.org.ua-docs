@@ -1,8 +1,8 @@
 Створює новий набір з елементів поточного та переданого наборів
 
--   [« Ds\\Set::toArray](ds-set.toarray.html)
+-   [« DsSet::toArray](ds-set.toarray.html)
     
--   [Ds\\Set::xor »](ds-set.xor.html)
+-   [ДсSet::xor »](ds-set.xor.html)
     
 -   [PHP Manual](index.html)
     

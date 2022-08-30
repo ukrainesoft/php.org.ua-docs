@@ -1,8 +1,8 @@
 BlockQuote успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Paragraph](class.commonmark-node-paragraph.html)
+-   [« CommonMarkNodeParagraph](class.commonmark-node-paragraph.html)
     
--   [CommonMark\\Node\\BulletList »](class.commonmark-node-bulletlist.html)
+-   [CommonMarkNodeBulletList »](class.commonmark-node-bulletlist.html)
     
 -   [PHP Manual](index.html)
     

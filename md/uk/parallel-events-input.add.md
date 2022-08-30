@@ -1,12 +1,12 @@
 Входи
 
--   [« parallel\\Events\\Input](class.parallel-events-input.html)
+-   [« parallelEventsInput](class.parallel-events-input.html)
     
--   [parallel\\Events\\Input::clear »](parallel-events-input.clear.html)
+-   [parallelEventsInput::clear »](parallel-events-input.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Events\\Input](class.parallel-events-input.html)
+-   [parallelEventsInput](class.parallel-events-input.html)
     
 -   Входи
     

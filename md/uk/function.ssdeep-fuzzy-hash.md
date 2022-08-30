@@ -1,12 +1,12 @@
 Створює нечіткий хеш із рядка
 
--   [« ssdeep\_fuzzy\_hash\_filename](function.ssdeep-fuzzy-hash-filename.html)
+-   [« ssdeepfuzzyhashfilename](function.ssdeep-fuzzy-hash-filename.html)
     
--   [Строки »](book.strings.html)
+-   [Рядки »](book.strings.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции ssdeep](ref.ssdeep.html)
+-   [Функції ssdeep](ref.ssdeep.html)
     
 -   Створює нечіткий хеш із рядка
     
@@ -23,7 +23,7 @@ ssdeepfuzzyhash — Створює нечіткий хеш із рядка
 ssdeep_fuzzy_hash(string $to_hash): string
 ```
 
-**ssdeepfuzzyhash()** обчислює хеш рядки `to_hash`, використовуючи [»  контекстно-переключаемое частичное хеширование](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) і повертає його.
+**ssdeepfuzzyhash()** обчислює хеш рядки `to_hash`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) і повертає його.
 
 ### Список параметрів
 

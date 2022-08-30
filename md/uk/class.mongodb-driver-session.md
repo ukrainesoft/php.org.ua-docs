@@ -1,12 +1,12 @@
 Клас MongoDBDriverSession
 
--   [« MongoDB\\Driver\\BulkWrite::update](mongodb-driver-bulkwrite.update.html)
+-   [« MongoDBDriverBulkWrite::update](mongodb-driver-bulkwrite.update.html)
     
--   [MongoDB\\Driver\\Session::abortTransaction »](mongodb-driver-session.aborttransaction.html)
+-   [MongoDBDriverSession::abortTransaction »](mongodb-driver-session.aborttransaction.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverSession
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **MongoDBDriverSession** представляє клієнтський сеанс та повертається [MongoDB\\Driver\\Manager::startSession()](mongodb-driver-manager.startsession.html). Команди, запити та операції запису можуть бути пов'язані з сеансом.
+Клас **MongoDBDriverSession** представляє клієнтський сеанс та повертається [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.html). Команди, запити та операції запису можуть бути пов'язані з сеансом.
 
 ## Огляд класів
 
@@ -101,18 +101,18 @@ final public startTransaction(?array $options = null): void
 
 ## Зміст
 
--   [MongoDB\\Driver\\Session::abortTransaction](mongodb-driver-session.aborttransaction.html) — Перериває транзакцію
--   [MongoDB\\Driver\\Session::advanceClusterTime](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
--   [MongoDB\\Driver\\Session::advanceOperationTime](mongodb-driver-session.advanceoperationtime.html) - Збільшує час операції для сеансу
--   [MongoDB\\Driver\\Session::commitTransaction](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
--   [MongoDB\\Driver\\Session::\_\_construct](mongodb-driver-session.construct.html) — Створює новий сеанс (не використовується)
--   [MongoDB\\Driver\\Session::endSession](mongodb-driver-session.endsession.html) - Завершує сеанс
--   [MongoDB\\Driver\\Session::getClusterTime](mongodb-driver-session.getclustertime.html) — Повертає час кластера для цього сеансу
--   [MongoDB\\Driver\\Session::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.html) — Повертає логічний ідентифікатор сеансу для цього сеансу
--   [MongoDB\\Driver\\Session::getOperationTime](mongodb-driver-session.getoperationtime.html) — Повертає час операції для цього сеансу
--   [MongoDB\\Driver\\Session::getServer](mongodb-driver-session.getserver.html) — Повертає сервер, до якого прив'язана поточна сесія.
--   [MongoDB\\Driver\\Session::getTransactionOptions](mongodb-driver-session.gettransactionoptions.html) — Повертає налаштування поточної транзакції
--   [MongoDB\\Driver\\Session::getTransactionState](mongodb-driver-session.gettransactionstate.html) — Повертає статус транзакції для поточної сесії
--   [MongoDB\\Driver\\Session::isDirty](mongodb-driver-session.isdirty.html) — Повертає, чи сесія була позначена як брудна
--   [MongoDB\\Driver\\Session::isInTransaction](mongodb-driver-session.isintransaction.html) — Визначає, чи відбувається зараз багатодокументна транзакція.
--   [MongoDB\\Driver\\Session::startTransaction](mongodb-driver-session.starttransaction.html) - Запускає транзакцію
+-   [MongoDBDriverSession::abortTransaction](mongodb-driver-session.aborttransaction.html) — Перериває транзакцію
+-   [MongoDBDriverSession::advanceClusterTime](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
+-   [MongoDBDriverSession::advanceOperationTime](mongodb-driver-session.advanceoperationtime.html) - Збільшує час операції для сеансу
+-   [MongoDBDriverSession::commitTransaction](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
+-   [MongoDBDriverSession::construct](mongodb-driver-session.construct.html) — Створює новий сеанс (не використовується)
+-   [MongoDBDriverSession::endSession](mongodb-driver-session.endsession.html) - Завершує сеанс
+-   [MongoDBDriverSession::getClusterTime](mongodb-driver-session.getclustertime.html) — Повертає час кластера для цього сеансу
+-   [MongoDBDriverSession::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.html) — Повертає логічний ідентифікатор сеансу для цього сеансу
+-   [MongoDBDriverSession::getOperationTime](mongodb-driver-session.getoperationtime.html) — Повертає час операції для цього сеансу
+-   [MongoDBDriverSession::getServer](mongodb-driver-session.getserver.html) — Повертає сервер, до якого прив'язана поточна сесія.
+-   [MongoDBDriverSession::getTransactionOptions](mongodb-driver-session.gettransactionoptions.html) — Повертає налаштування поточної транзакції
+-   [MongoDBDriverSession::getTransactionState](mongodb-driver-session.gettransactionstate.html) — Повертає статус транзакції для поточної сесії
+-   [MongoDBDriverSession::isDirty](mongodb-driver-session.isdirty.html) — Повертає, чи сесія була позначена як брудна
+-   [MongoDBDriverSession::isInTransaction](mongodb-driver-session.isintransaction.html) — Визначає, чи відбувається зараз багатодокументна транзакція.
+-   [MongoDBDriverSession::startTransaction](mongodb-driver-session.starttransaction.html) - Запускає транзакцію

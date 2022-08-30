@@ -2,7 +2,7 @@
 
 -   [« Объявление классов атрибутов](language.attributes.classes.html)
     
--   [Что такое ссылки »](language.references.whatare.html)
+-   [Що таке посилання »](language.references.whatare.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,9 +15,9 @@
 
 ## Зміст
 
--   [Что такое ссылки](language.references.whatare.html)
--   [Что делают ссылки](language.references.whatdo.html)
--   [Чем ссылки не являются](language.references.arent.html)
+-   [Що таке посилання](language.references.whatare.html)
+-   [Що роблять посилання](language.references.whatdo.html)
+-   [Чим посилання не є](language.references.arent.html)
 -   [Передача по ссылке](language.references.pass.html)
 -   [Возврат по ссылке](language.references.return.html)
 -   [Сброс переменных-ссылок](language.references.unset.html)

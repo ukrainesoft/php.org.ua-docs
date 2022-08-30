@@ -1,12 +1,12 @@
 Встановлює заголовок відповіді
 
--   [« Yaf\_Response\_Abstract::setBody](yaf-response-abstract.setbody.html)
+-   [« YafResponseAbstract::setBody](yaf-response-abstract.setbody.html)
     
--   [Yaf\_Response\_Abstract::setRedirect »](yaf-response-abstract.setredirect.html)
+-   [YafResponseAbstract::setRedirect »](yaf-response-abstract.setredirect.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Встановлює заголовок відповіді
     
@@ -33,5 +33,5 @@ public Yaf_Response_Abstract::setHeader(string $name, string $value, bool $repla
 
 ### Дивіться також
 
--   [Yaf\_Response\_Abstract::getHeader()](yaf-response-abstract.getheader.html) - Призначення getHeader
+-   [YafResponseAbstract::getHeader()](yaf-response-abstract.getheader.html) - Призначення getHeader
 -   **YafResponseAbstract::cleanHeaders()**

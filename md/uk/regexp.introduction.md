@@ -2,7 +2,7 @@
 
 -   [« Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html)
     
--   [Разделители »](regexp.reference.delimiters.html)
+-   [Розділювачі »](regexp.reference.delimiters.html)
     
 -   [PHP Manual](index.html)
     

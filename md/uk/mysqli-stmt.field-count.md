@@ -1,12 +1,12 @@
 Повертає кількість стовпців у заданому виразі
 
--   [« mysqli\_stmt::fetch](mysqli-stmt.fetch.html)
+-   [« mysqlistmt::fetch](mysqli-stmt.fetch.html)
     
--   [mysqli\_stmt::free\_result »](mysqli-stmt.free-result.html)
+-   [mysqlistmt::freeresult »](mysqli-stmt.free-result.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Повертає кількість стовпців у заданому виразі
     
@@ -23,7 +23,7 @@ mysqlistmt::$fieldcount - mysqlistmtfieldcount — Повертає кількі
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli\_stmt->field\_count](mysqli-stmt.field-count.html)
+int [$mysqlistmt->fieldcount](mysqli-stmt.field-count.html)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_stmt_field_count(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -92,4 +92,4 @@ for ($i = 0; $i < mysqli_stmt_field_count($stmt); $i++) {
 
 ### Дивіться також
 
--   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера

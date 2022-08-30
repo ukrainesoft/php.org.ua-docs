@@ -1,8 +1,8 @@
 Видаляє збережене значення з кешу
 
--   [« apcu\_dec](function.apcu-dec.html)
+-   [« apcudec](function.apcu-dec.html)
     
--   [apcu\_enabled »](function.apcu-enabled.html)
+-   [apcuenabled »](function.apcu-enabled.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ apcu_delete(new APCUIterator('#^myprefix_#'));
 
 ### Дивіться також
 
--   [apcu\_store()](function.apcu-store.html) - Кешує змінну
--   [apcu\_fetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcu\_clear\_cache()](function.apcu-clear-cache.html) - Очистити кеш APCu
+-   [apcustore()](function.apcu-store.html) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+-   [apcuclearcache()](function.apcu-clear-cache.html) - Очистити кеш APCu
 -   [APCUIterator](class.apcuiterator.html)

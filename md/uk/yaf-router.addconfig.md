@@ -1,12 +1,12 @@
 Додає налаштовані маршрути до маршрутизатора
 
--   [« Yaf\_Router](class.yaf-router.html)
+-   [« YafRouter](class.yaf-router.html)
     
--   [Yaf\_Router::addRoute »](yaf-router.addroute.html)
+-   [YafRouter::addRoute »](yaf-router.addroute.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Router](class.yaf-router.html)
+-   [YafRouter](class.yaf-router.html)
     
 -   Додає налаштовані маршрути до маршрутизатора
     
@@ -23,7 +23,7 @@ YafRouter::addConfig — Додає налаштовані маршрути до
 public Yaf_Router::addConfig(Yaf_Config_Abstract $config): bool
 ```
 
-Додає маршрути, визначені конфігураціями, у стек маршрутів [Yaf\_Router](class.yaf-router.html)
+Додає маршрути, визначені конфігураціями, у стек маршрутів [YafRouter](class.yaf-router.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public Yaf_Router::addConfig(Yaf_Config_Abstract $config): bool
 
 ### Значення, що повертаються
 
-Екземпляр [Yaf\_Config\_Abstract](class.yaf-config-abstract.html), який повинен містити одну або кілька допустимих конфігурацій маршруту
+Екземпляр [YafConfigAbstract](class.yaf-config-abstract.html), який повинен містити одну або кілька допустимих конфігурацій маршруту
 
 ### Приклади
 
@@ -71,10 +71,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 
 ### Дивіться також
 
--   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [Yaf\_Route\_Static](class.yaf-route-static.html)
--   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
--   [Yaf\_Route\_Simple](class.yaf-route-simple.html)
--   [Yaf\_Route\_Regex](class.yaf-route-regex.html)
--   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
--   [Yaf\_Route\_Map](class.yaf-route-map.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.html)
+-   [YafRouteSupervar](class.yaf-route-supervar.html)
+-   [YafRouteSimple](class.yaf-route-simple.html)
+-   [YafRouteRegex](class.yaf-route-regex.html)
+-   [YafRouteRewrite](class.yaf-route-rewrite.html)
+-   [YafRouteMap](class.yaf-route-map.html)

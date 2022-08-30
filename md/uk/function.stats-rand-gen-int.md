@@ -1,12 +1,12 @@
 Генерує випадкове число в діапазоні від 1 до 2147483562
 
--   [« stats\_rand\_gen\_ibinomial](function.stats-rand-gen-ibinomial.html)
+-   [« statsrandgenibinomial](function.stats-rand-gen-ibinomial.html)
     
--   [stats\_rand\_gen\_ipoisson »](function.stats-rand-gen-ipoisson.html)
+-   [statsrandgenipoisson »](function.stats-rand-gen-ipoisson.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує випадкове число в діапазоні від 1 до 2147483562
     

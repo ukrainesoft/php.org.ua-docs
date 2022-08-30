@@ -1,12 +1,12 @@
 Псевдонім isfloat
 
--   [« is\_countable](function.is-countable.html)
+-   [« iscountable](function.is-countable.html)
     
--   [is\_float »](function.is-float.html)
+-   [ісfloat »](function.is-float.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Псевдонім isfloat
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісdouble - Псевдонім [is\_float()](function.is-float.html)
+ісdouble - Псевдонім [ісfloat()](function.is-float.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [is\_float()](function.is-float.html)
+Ця функція є псевдонімом: [ісfloat()](function.is-float.html)

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Список/классификация модулей](extensions.html)
+-   [Список/класифікація модулів](extensions.html)
     
 -   Станом
     
@@ -25,12 +25,12 @@
 
 -   [ImageMagick](book.imagick.html)
     
--   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html)
+-   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
     
 -   [Firebird (PDO)](ref.pdo-firebird.html)
     
 -   [Oracle (PDO)](ref.pdo-oci.html)
     
--   [PS](book.ps.html)
+-   [ПС](book.ps.html)
     
 -   [XML-RPC](book.xmlrpc.html)

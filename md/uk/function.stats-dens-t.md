@@ -1,12 +1,12 @@
 Щільність ймовірності розподілу Стьюдента
 
--   [« stats\_dens\_pmf\_poisson](function.stats-dens-pmf-poisson.html)
+-   [« statsdenspmfpoisson](function.stats-dens-pmf-poisson.html)
     
--   [stats\_dens\_uniform »](function.stats-dens-uniform.html)
+-   [statsdensuniform »](function.stats-dens-uniform.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності розподілу Стьюдента
     

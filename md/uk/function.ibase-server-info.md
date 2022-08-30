@@ -1,8 +1,8 @@
 Запитує інформацію про сервер бази даних
 
--   [« ibase\_rollback](function.ibase-rollback.html)
+-   [« ibaserollback](function.ibase-rollback.html)
     
--   [ibase\_service\_attach »](function.ibase-service-attach.html)
+-   [ibaseserviceattach »](function.ibase-service-attach.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ ibase_server_info(resource $service_handle, int $action): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ibase\_service\_attach()](function.ibase-service-attach.html)**
+**Приклад #1 Приклад використання [ibaseserviceattach()](function.ibase-service-attach.html)**
 
 ```php
 <?php

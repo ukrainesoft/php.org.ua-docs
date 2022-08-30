@@ -1,12 +1,12 @@
 Повернути номер помилки LDAP останньої команди
 
--   [« ldap\_err2str](function.ldap-err2str.html)
+-   [« ldaperr2str](function.ldap-err2str.html)
     
--   [ldap\_error »](function.ldap-error.html)
+-   [ldaperror »](function.ldap-error.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Повернути номер помилки LDAP останньої команди
     
@@ -23,13 +23,13 @@ ldaperrno — Повернути номер помилки LDAP останньо
 ldap_errno(LDAP\Connection $ldap): int
 ```
 
-Повертає стандартизований код помилки, повернутий останньою командою LDAP. Це число може бути перетворено на текстове повідомлення про помилку, використовуючи [ldap\_err2str()](function.ldap-err2str.html)
+Повертає стандартизований код помилки, повернутий останньою командою LDAP. Це число може бути перетворено на текстове повідомлення про помилку, використовуючи [ldaperr2str()](function.ldap-err2str.html)
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ ldap_errno(LDAP\Connection $ldap): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -67,5 +67,5 @@ echo $info["count"] . " подходящих записей.<br />\n";
 
 ### Дивіться також
 
--   [ldap\_err2str()](function.ldap-err2str.html) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
--   [ldap\_error()](function.ldap-error.html) - Повернути повідомлення про помилку LDAP останньої команди
+-   [ldaperr2str()](function.ldap-err2str.html) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
+-   [ldaperror()](function.ldap-error.html) - Повернути повідомлення про помилку LDAP останньої команди

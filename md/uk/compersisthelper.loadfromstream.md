@@ -37,4 +37,4 @@ public COMPersistHelper::LoadFromStream(resource $stream): bool
 
 ### Помилки
 
-Викидає виняток [com\_exception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Load()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Load()** завершився помилкою.

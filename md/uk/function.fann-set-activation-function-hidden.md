@@ -1,8 +1,8 @@
 Встановлює функцію активації для всіх прихованих шарів
 
--   [« fann\_scale\_train](function.fann-scale-train.html)
+-   [« fannscaletrain](function.fann-scale-train.html)
     
--   [fann\_set\_activation\_function\_layer »](function.fann-set-activation-function-layer.html)
+-   [fannsetactivationfunctionlayer »](function.fann-set-activation-function-layer.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ fann_set_activation_function_hidden(resource $ann, int $activation_function): bo
 
 `activation_function`
 
-Константа [функций активации](fann.constants.html#constants.fann-activation-funcs)
+Константа [функцій активації](fann.constants.html#constants.fann-activation-funcs)
 
 ### Значення, що повертаються
 
@@ -41,7 +41,7 @@ fann_set_activation_function_hidden(resource $ann, int $activation_function): bo
 
 ### Дивіться також
 
--   [fann\_set\_activation\_function()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару
--   [fann\_set\_activation\_function\_layer()](function.fann-set-activation-function-layer.html) - Встановлює функцію активації для всіх нейронів у наданому шарі
--   [fann\_set\_activation\_function\_output()](function.fann-set-activation-function-output.html) - Встановлює функцію активації для вихідного шару
--   [fann\_set\_activation\_steepness()](function.fann-set-activation-steepness.html) - Встановлює крутість активації для вказаного нейрона та номера шару
+-   [fannsetactivationfunction()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару
+-   [fannsetactivationfunctionlayer()](function.fann-set-activation-function-layer.html) - Встановлює функцію активації для всіх нейронів у наданому шарі
+-   [fannsetactivationfunctionoutput()](function.fann-set-activation-function-output.html) - Встановлює функцію активації для вихідного шару
+-   [fannsetactivationsteepness()](function.fann-set-activation-steepness.html) - Встановлює крутість активації для вказаного нейрона та номера шару

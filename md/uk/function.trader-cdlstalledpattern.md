@@ -1,8 +1,8 @@
 Гальмування
 
--   [« trader\_cdlspinningtop](function.trader-cdlspinningtop.html)
+-   [« tradercdlspinningtop](function.trader-cdlspinningtop.html)
     
--   [trader\_cdlsticksandwich »](function.trader-cdlsticksandwich.html)
+-   [tradercdlsticksandwich »](function.trader-cdlsticksandwich.html)
     
 -   [PHP Manual](index.html)
     

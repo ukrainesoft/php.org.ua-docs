@@ -1,12 +1,12 @@
 Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 
--   [« libxml\_set\_streams\_context](function.libxml-set-streams-context.html)
+-   [« libxmlsetstreamscontext](function.libxml-set-streams-context.html)
     
 -   [SimpleXML »](book.simplexml.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.html)
     
 -   Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
     
@@ -75,5 +75,5 @@ bool(false)
 
 ### Дивіться також
 
--   [libxml\_clear\_errors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml
--   [libxml\_get\_errors()](function.libxml-get-errors.html) - Отримання масиву помилок, що відбулися.
+-   [libxmlclearerrors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml
+-   [libxmlgeterrors()](function.libxml-get-errors.html) - Отримання масиву помилок, що відбулися.

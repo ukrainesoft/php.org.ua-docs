@@ -1,12 +1,12 @@
 Отримання рядка, обрізаного до заданого розміру
 
--   [« mb\_strcut](function.mb-strcut.html)
+-   [« mbstrcut](function.mb-strcut.html)
     
--   [mb\_stripos »](function.mb-stripos.html)
+-   [мбstripos »](function.mb-stripos.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Отримання рядка, обрізаного до заданого розміру
     
@@ -71,5 +71,5 @@ echo mb_strimwidth("Hello World", 0, 10, "...");
 
 ### Дивіться також
 
--   [mb\_strwidth()](function.mb-strwidth.html) - Повертає ширину рядка
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrwidth()](function.mb-strwidth.html) - Повертає ширину рядка
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту

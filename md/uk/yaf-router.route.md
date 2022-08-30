@@ -1,12 +1,12 @@
 Призначення route
 
--   [« Yaf\_Router::getRoutes](yaf-router.getroutes.html)
+-   [« YafRouter::getRoutes](yaf-router.getroutes.html)
     
--   [Yaf\_Route\_Simple »](class.yaf-route-simple.html)
+-   [YafRouteSimple »](class.yaf-route-simple.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Router](class.yaf-router.html)
+-   [YafRouter](class.yaf-router.html)
     
 -   Призначення route
     

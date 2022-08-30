@@ -1,12 +1,12 @@
 Конструктор класу YafRequestHttp
 
--   [« Yaf\_Request\_Http](class.yaf-request-http.html)
+-   [« YafRequestHttp](class.yaf-request-http.html)
     
--   [Yaf\_Request\_Http::get »](yaf-request-http.get.html)
+-   [YafRequestHttp::get »](yaf-request-http.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Http](class.yaf-request-http.html)
+-   [YafRequestHttp](class.yaf-request-http.html)
     
 -   Конструктор класу YafRequestHttp
     

@@ -36,4 +36,4 @@ public ReflectionFunctionAbstract::getNumberOfParameters(): int
 ### Дивіться також
 
 -   [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.html) - Отримує кількість обов'язкових параметрів
--   [func\_num\_args()](function.func-num-args.html) - Повертає кількість аргументів, переданих функції
+-   [funcnumargs()](function.func-num-args.html) - Повертає кількість аргументів, переданих функції

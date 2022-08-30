@@ -1,12 +1,12 @@
 Підключається до віддаленого порту TCP або UDP
 
--   [« Swoole\\Client::close](swoole-client.close.html)
+-   [« SwooleClient::close](swoole-client.close.html)
     
--   [Swoole\\Client::\_\_construct »](swoole-client.construct.html)
+-   [SwooleClient::construct »](swoole-client.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Підключається до віддаленого порту TCP або UDP
     

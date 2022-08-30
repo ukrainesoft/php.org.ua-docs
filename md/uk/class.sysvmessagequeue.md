@@ -1,6 +1,6 @@
 Клас SysvMessageQueue
 
--   [« shm\_remove](function.shm-remove.html)
+-   [« shmremove](function.shm-remove.html)
     
 -   [SysvSemaphore »](class.sysvsemaphore.html)
     

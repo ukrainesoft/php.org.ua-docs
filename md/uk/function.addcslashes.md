@@ -1,12 +1,12 @@
 Екранує рядок слішами у стилі мови C
 
--   [« Функции для работы со строками](ref.strings.html)
+-   [« Функції для роботи з рядками](ref.strings.html)
     
 -   [addslashes »](function.addslashes.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Екранує рядок слішами у стилі мови C
     

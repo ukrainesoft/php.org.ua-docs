@@ -1,8 +1,8 @@
 Повертає найменування поля
 
--   [« pg\_field\_is\_null](function.pg-field-is-null.html)
+-   [« pgfieldісnull](function.pg-field-is-null.html)
     
--   [pg\_field\_num »](function.pg-field-num.html)
+-   [пгfieldnum »](function.pg-field-num.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ pg_field_name(PgSql\Result $result, int $field): string
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `field`
 
@@ -45,9 +45,9 @@ pg_field_name(PgSql\Result $result, int $field): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -94,4 +94,4 @@ field type: varchar
 
 ### Дивіться також
 
--   [pg\_field\_num()](function.pg-field-num.html) - Повертає порядковий номер іменованого поля
+-   [пгfieldnum()](function.pg-field-num.html) - Повертає порядковий номер іменованого поля

@@ -1,6 +1,6 @@
 Перевірка збирання
 
--   [« Компиляция и сборка](wincache.win32build.building.html)
+-   [« Компіляція та складання](wincache.win32build.building.html)
     
 -   [Xhprof »](book.xhprof.html)
     

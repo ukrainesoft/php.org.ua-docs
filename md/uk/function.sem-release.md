@@ -1,12 +1,12 @@
 Звільнення семафору
 
--   [« sem\_get](function.sem-get.html)
+-   [« semget](function.sem-get.html)
     
--   [sem\_remove »](function.sem-remove.html)
+-   [semremove »](function.sem-remove.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Звільнення семафору
     
@@ -25,13 +25,13 @@ sem_release(SysvSemaphore $semaphore): bool
 
 **semrelease()** звільняє семафор, якщо він був захоплений зухвалим процесом, інакше генерується попередження.
 
-Після звільнення семафор може бути захоплений повторно через виклик [sem\_acquire()](function.sem-acquire.html)
+Після звільнення семафор може бути захоплений повторно через виклик [semacquire()](function.sem-acquire.html)
 
 ### Список параметрів
 
 `semaphore`
 
-Семафор, повернутий [sem\_get()](function.sem-get.html)
+Семафор, повернутий [semget()](function.sem-get.html)
 
 ### Значення, що повертаються
 
@@ -45,5 +45,5 @@ sem_release(SysvSemaphore $semaphore): bool
 
 ### Дивіться також
 
--   [sem\_get()](function.sem-get.html) - Отримання ідентифікатора семафору
--   [sem\_acquire()](function.sem-acquire.html) - Захоплення семафору
+-   [semget()](function.sem-get.html) - Отримання ідентифікатора семафору
+-   [semacquire()](function.sem-acquire.html) - Захоплення семафору

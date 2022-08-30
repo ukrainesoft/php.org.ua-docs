@@ -2,11 +2,11 @@
 
 -   [« EvEmbed::sweep](evembed.sweep.html)
     
--   [EvFork::\_\_construct »](evfork.construct.html)
+-   [EvFork::construct »](evfork.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvFork
     
@@ -113,5 +113,5 @@ public
 
 ## Зміст
 
--   [EvFork::\_\_construct](evfork.construct.html) - Конструктор спостерігача EvFork
+-   [EvFork::construct](evfork.construct.html) - Конструктор спостерігача EvFork
 -   [EvFork::createStopped](evfork.createstopped.html) - Створити об'єкт класу EvFork, але не стартувати його

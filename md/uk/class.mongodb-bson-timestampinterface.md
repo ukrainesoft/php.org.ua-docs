@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONTimestampInterface
 
--   [« MongoDB\\BSON\\RegexInterface::\_\_toString](mongodb-bson-regexinterface.tostring.html)
+-   [« MongoDBBSONRegexInterface::toString](mongodb-bson-regexinterface.tostring.html)
     
--   [MongoDB\\BSON\\TimestampInterface::getIncrement »](mongodb-bson-timestampinterface.getincrement.html)
+-   [MongoDBBSONTimestampInterface::getIncrement »](mongodb-bson-timestampinterface.getincrement.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONTimestampInterface
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей інтерфейс реалізований за допомогою [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізований за допомогою [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -45,6 +45,6 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDB\\BSON\\TimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.html) - Повертає інкрементний компонент TimestampInterface
--   [MongoDB\\BSON\\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html) — Повертає компонент позначки часу TimestampInterface
--   [MongoDB\\BSON\\TimestampInterface::\_\_toString](mongodb-bson-timestampinterface.tostring.html) — Повертає строкову виставу TimestampInterface
+-   [MongoDBBSONTimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.html) - Повертає інкрементний компонент TimestampInterface
+-   [MongoDBBSONTimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html) — Повертає компонент позначки часу TimestampInterface
+-   [MongoDBBSONTimestampInterface::toString](mongodb-bson-timestampinterface.tostring.html) — Повертає строкову виставу TimestampInterface

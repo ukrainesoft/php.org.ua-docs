@@ -1,8 +1,8 @@
 Створює спеціальний або звичайний файл
 
--   [« eio\_mkdir](function.eio-mkdir.html)
+-   [« eiomkdir](function.eio-mkdir.html)
     
--   [eio\_nop »](function.eio-nop.html)
+-   [eionop »](function.eio-nop.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -164,4 +164,4 @@ eio_mknod_ok
 
 ### Дивіться також
 
--   [eio\_open()](function.eio-open.html) - Відкриває файл
+-   [eioopen()](function.eio-open.html) - Відкриває файл

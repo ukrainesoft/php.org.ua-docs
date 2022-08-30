@@ -1,6 +1,6 @@
 Quickhash
 
--   [« unregister\_tick\_function](function.unregister-tick-function.html)
+-   [« unregistertickfunction](function.unregister-tick-function.html)
     
 -   [Введение »](intro.quickhash.html)
     
@@ -22,7 +22,7 @@ Quickhash
 -   [Примеры](quickhash.examples.html)
 -   [QuickHashIntSet](class.quickhashintset.html) - Клас QuickHashIntSet
     -   [QuickHashIntSet::add](quickhashintset.add.html) — Метод додає новий запис до набору
-    -   [QuickHashIntSet::\_\_construct](quickhashintset.construct.html) — Створює новий об'єкт QuickHashIntSet
+    -   [QuickHashIntSet::construct](quickhashintset.construct.html) — Створює новий об'єкт QuickHashIntSet
     -   [QuickHashIntSet::delete](quickhashintset.delete.html) — Метод видаляє запис із набору
     -   [QuickHashIntSet::exists](quickhashintset.exists.html) — Метод перевіряє, чи є ключем частиною набору
     -   [QuickHashIntSet::getSize](quickhashintset.getsize.html) — Повертає кількість елементів у наборі
@@ -32,7 +32,7 @@ Quickhash
     -   [QuickHashIntSet::saveToString](quickhashintset.savetostring.html) — Метод повертає серіалізовану версію набору
 -   [QuickHashIntHash](class.quickhashinthash.html) - Клас QuickHashIntHash
     -   [QuickHashIntHash::add](quickhashinthash.add.html) — Додати елемент у хеш
-    -   [QuickHashIntHash::\_\_construct](quickhashinthash.construct.html) — Створює об'єкт QuickHashIntHash
+    -   [QuickHashIntHash::construct](quickhashinthash.construct.html) — Створює об'єкт QuickHashIntHash
     -   [QuickHashIntHash::delete](quickhashinthash.delete.html) — Метод видаляє запис із хешу
     -   [QuickHashIntHash::exists](quickhashinthash.exists.html) — Метод перевіряє, чи є ключ частиною хешу
     -   [QuickHashIntHash::get](quickhashinthash.get.html) — Метод отримує значення з хеша за його ключем.
@@ -45,7 +45,7 @@ Quickhash
     -   [QuickHashIntHash::update](quickhashinthash.update.html) — Метод оновлює запис у хеші новим значенням
 -   [QuickHashStringIntHash](class.quickhashstringinthash.html) - Клас QuickHashStringIntHash
     -   [QuickHashStringIntHash::add](quickhashstringinthash.add.html) — Метод додає новий запис у хеш
-    -   [QuickHashStringIntHash::\_\_construct](quickhashstringinthash.construct.html) — Створює новий об'єкт QuickHashStringIntHash
+    -   [QuickHashStringIntHash::construct](quickhashstringinthash.construct.html) — Створює новий об'єкт QuickHashStringIntHash
     -   [QuickHashStringIntHash::delete](quickhashstringinthash.delete.html) — Метод видаляє запис із хешу
     -   [QuickHashStringIntHash::exists](quickhashstringinthash.exists.html) — Метод перевіряє, чи є ключ частиною хешу
     -   [QuickHashStringIntHash::get](quickhashstringinthash.get.html) — Метод отримує значення з хеша за його ключем.
@@ -58,7 +58,7 @@ Quickhash
     -   [QuickHashStringIntHash::update](quickhashstringinthash.update.html) — Метод оновлює запис у хеші новим значенням
 -   [QuickHashIntStringHash](class.quickhashintstringhash.html) - Клас QuickHashIntStringHash
     -   [QuickHashIntStringHash::add](quickhashintstringhash.add.html) — Метод додає новий запис у хеш
-    -   [QuickHashIntStringHash::\_\_construct](quickhashintstringhash.construct.html) — Створює новий об'єкт QuickHashIntStringHash
+    -   [QuickHashIntStringHash::construct](quickhashintstringhash.construct.html) — Створює новий об'єкт QuickHashIntStringHash
     -   [QuickHashIntStringHash::delete](quickhashintstringhash.delete.html) — Метод видаляє запис із хешу
     -   [QuickHashIntStringHash::exists](quickhashintstringhash.exists.html) — Метод перевіряє, чи є ключ частиною хешу
     -   [QuickHashIntStringHash::get](quickhashintstringhash.get.html) — Метод отримує значення з хеша за його ключем.

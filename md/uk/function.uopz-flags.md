@@ -1,12 +1,12 @@
 Отримати або встановити прапори для функції або класу
 
--   [« uopz\_extend](function.uopz-extend.html)
+-   [« uopzextend](function.uopz-extend.html)
     
--   [uopz\_function »](function.uopz-function.html)
+-   [uopzfunction »](function.uopz-function.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Отримати або встановити прапори для функції або класу
     

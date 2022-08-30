@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-[expect\_popen()](function.expect-popen.html) повертає відкритий потік PTY використовуваний [expect\_expectl()](function.expect-expectl.html)
+[expectpopen()](function.expect-popen.html) повертає відкритий потік PTY використовуваний [expectexpectl()](function.expect-expectl.html)

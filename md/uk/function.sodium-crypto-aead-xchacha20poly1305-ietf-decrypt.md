@@ -1,8 +1,8 @@
 (Переважно) Перевіряє, потім розшифровує за допомогою XChaCha20-Poly1305
 
--   [« sodium\_crypto\_aead\_chacha20poly1305\_keygen](function.sodium-crypto-aead-chacha20poly1305-keygen.html)
+-   [« sodiumcryptoaeadchacha20poly1305keygen](function.sodium-crypto-aead-chacha20poly1305-keygen.html)
     
--   [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt »](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html)
+-   [sodiumcryptoaeadxchacha20poly1305ietfencrypt »](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext, �
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 
@@ -39,7 +39,7 @@ sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext, �
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key`
 

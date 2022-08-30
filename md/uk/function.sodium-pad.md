@@ -1,8 +1,8 @@
 Доповнює рядок відступами
 
--   [« sodium\_memzero](function.sodium-memzero.html)
+-   [« sodiummemzero](function.sodium-memzero.html)
     
--   [sodium\_unpad »](function.sodium-unpad.html)
+-   [sodiumunpad »](function.sodium-unpad.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Клас SimpleXMLElement
 
--   [« Работа с ошибками XML](simplexml.examples-errors.html)
+-   [« Робота з помилками XML](simplexml.examples-errors.html)
     
 -   [SimpleXMLElement::addAttribute »](simplexmlelement.addattribute.html)
     
@@ -67,12 +67,12 @@ public xpath(string $expression): array|null|false
 -   [SimpleXMLElement::asXML](simplexmlelement.asxml.html) — Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
 -   [SimpleXMLElement::attributes](simplexmlelement.attributes.html) — Повертає атрибути елемента
 -   [SimpleXMLElement::children](simplexmlelement.children.html) — Знаходить дочірні елементи цього вузла
--   [SimpleXMLElement::\_\_construct](simplexmlelement.construct.html) — Створення нового об'єкта SimpleXMLElement
+-   [SimpleXMLElement::construct](simplexmlelement.construct.html) — Створення нового об'єкта SimpleXMLElement
 -   [SimpleXMLElement::count](simplexmlelement.count.html) — Підраховує кількість дочірніх елементів у поточного елемента
 -   [SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.html) — Повертає простір імен, оголошених у документі
 -   [SimpleXMLElement::getName](simplexmlelement.getname.html) — Отримує ім'я елемента XML
 -   [SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.html) — Повертає простір імен, які використовуються в документі
 -   [SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.html) — Створює префікс/простір імен контексту для наступного запиту XPath
 -   [SimpleXMLElement::saveXML](simplexmlelement.savexml.html) - Псевдонім SimpleXMLElement::asXML
--   [SimpleXMLElement::\_\_toString](simplexmlelement.tostring.html) — Повертає вміст рядка
+-   [SimpleXMLElement::toString](simplexmlelement.tostring.html) — Повертає вміст рядка
 -   [SimpleXMLElement::xpath](simplexmlelement.xpath.html) — Запускає запит XPath до XML-даних

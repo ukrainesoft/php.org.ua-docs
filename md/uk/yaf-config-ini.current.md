@@ -1,12 +1,12 @@
 Отримує поточне значення
 
--   [« Yaf\_Config\_Ini::count](yaf-config-ini.count.html)
+-   [« YafConfigIni::count](yaf-config-ini.count.html)
     
--   [Yaf\_Config\_Ini::\_\_get »](yaf-config-ini.get.html)
+-   [YafConfigIni::get »](yaf-config-ini.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Отримує поточне значення
     

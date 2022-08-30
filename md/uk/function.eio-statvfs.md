@@ -1,8 +1,8 @@
 Повертає статистику файлової системи
 
--   [« eio\_stat](function.eio-stat.html)
+-   [« eiostat](function.eio-stat.html)
     
--   [eio\_symlink »](function.eio-symlink.html)
+-   [eiosymlink »](function.eio-symlink.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-[eio\_stat()](function.eio-stat.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки. У разі успішного виконання параметр `result` функції `callback` є масивом.
+[eiostat()](function.eio-stat.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки. У разі успішного виконання параметр `result` функції `callback` є масивом.
 
 ### Приклади
 

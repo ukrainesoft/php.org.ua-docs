@@ -1,12 +1,12 @@
 Перекласти матрицю
 
--   [« UI\\Draw\\Matrix::skew](ui-draw-matrix.skew.html)
+-   [« UIDrawMatrix::skew](ui-draw-matrix.skew.html)
     
--   [UI\\Draw\\Color »](class.ui-draw-color.html)
+-   [ОЙDrawColor »](class.ui-draw-color.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Перекласти матрицю
     

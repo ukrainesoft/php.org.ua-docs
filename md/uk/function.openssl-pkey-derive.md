@@ -1,8 +1,8 @@
 Обчислює загальний секрет для відкритого значення віддаленого та локального ключа DH або ECDH
 
--   [« openssl\_pkcs7\_verify](function.openssl-pkcs7-verify.html)
+-   [« opensslpkcs7verify](function.openssl-pkcs7-verify.html)
     
--   [openssl\_pkey\_export\_to\_file »](function.openssl-pkey-export-to-file.html)
+-   [opensslpkeyexportтоfile »](function.openssl-pkey-export-to-file.html)
     
 -   [PHP Manual](index.html)
     

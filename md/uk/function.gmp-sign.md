@@ -1,12 +1,12 @@
 Знак числа
 
--   [« gmp\_setbit](function.gmp-setbit.html)
+-   [« gmpsetbit](function.gmp-setbit.html)
     
--   [gmp\_sqrt »](function.gmp-sqrt.html)
+-   [gmpsqrt »](function.gmp-sqrt.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Знак числа
     
@@ -62,5 +62,5 @@ echo gmp_sign("0") . "\n";
 
 ### Дивіться також
 
--   [gmp\_abs()](function.gmp-abs.html) - Абсолютна величина
+-   [gmpabs()](function.gmp-abs.html) - Абсолютна величина
 -   [abs()](function.abs.html) - Абсолютне значення (модуль числа)

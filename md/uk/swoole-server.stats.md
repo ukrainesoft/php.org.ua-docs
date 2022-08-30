@@ -1,12 +1,12 @@
 Отримує статистику сервера Swoole
 
--   [« Swoole\\Server::start](swoole-server.start.html)
+-   [« SwooleServer::start](swoole-server.start.html)
     
--   [Swoole\\Server::stop »](swoole-server.stop.html)
+-   [SwooleServer::stop »](swoole-server.stop.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Отримує статистику сервера Swoole
     

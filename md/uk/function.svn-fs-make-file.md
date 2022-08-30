@@ -1,12 +1,12 @@
 Створює новий пустий файл
 
--   [« svn\_fs\_make\_dir](function.svn-fs-make-dir.html)
+-   [« svnфсmakedir](function.svn-fs-make-dir.html)
     
--   [svn\_fs\_node\_created\_rev »](function.svn-fs-node-created-rev.html)
+-   [svnфсnodecreatedrev »](function.svn-fs-node-created-rev.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює новий пустий файл
     

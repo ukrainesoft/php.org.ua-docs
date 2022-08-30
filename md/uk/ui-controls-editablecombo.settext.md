@@ -1,12 +1,12 @@
 Встановити текст
 
--   [« UI\\Controls\\EditableCombo::onChange](ui-controls-editablecombo.onchange.html)
+-   [« UIControlsEditableCombo::onChange](ui-controls-editablecombo.onchange.html)
     
--   [UI\\Controls\\Radio »](class.ui-controls-radio.html)
+-   [ОЙControlsRadio »](class.ui-controls-radio.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+-   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
     
 -   Встановити текст
     

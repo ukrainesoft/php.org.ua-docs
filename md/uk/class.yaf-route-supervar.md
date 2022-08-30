@@ -1,8 +1,8 @@
 Клас YafRouteSupervar
 
--   [« Yaf\_Route\_Static::route](yaf-route-static.route.html)
+-   [« YafRouteStatic::route](yaf-route-static.route.html)
     
--   [Yaf\_Route\_Supervar::assemble »](yaf-route-supervar.assemble.html)
+-   [YafRouteSupervar::assemble »](yaf-route-supervar.assemble.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,6 +54,6 @@ varname
 
 ## Зміст
 
--   [Yaf\_Route\_Supervar::assemble](yaf-route-supervar.assemble.html) - Збирає URL
--   [Yaf\_Route\_Supervar::\_\_construct](yaf-route-supervar.construct.html) - Призначення construct
--   [Yaf\_Route\_Supervar::route](yaf-route-supervar.route.html) - Призначення route
+-   [YafRouteSupervar::assemble](yaf-route-supervar.assemble.html) - Збирає URL
+-   [YafRouteSupervar::construct](yaf-route-supervar.construct.html) - Призначення construct
+-   [YafRouteSupervar::route](yaf-route-supervar.route.html) - Призначення route

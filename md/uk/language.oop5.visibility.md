@@ -1,6 +1,6 @@
 Область видимості
 
--   [« Конструкторы и деструкторы](language.oop5.decon.html)
+-   [« Конструктори та деструктори](language.oop5.decon.html)
     
 -   [Наследование »](language.oop5.inheritance.html)
     

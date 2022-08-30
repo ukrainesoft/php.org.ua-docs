@@ -1,8 +1,8 @@
 Встановлює час очікування у мілісекундах для викликів бази даних
 
--   [« oci\_set\_action](function.oci-set-action.html)
+-   [« ocisetaction](function.oci-set-action.html)
     
--   [oci\_set\_client\_identifier »](function.oci-set-client-identifier.html)
+-   [ocisetclientidentifier »](function.oci-set-client-identifier.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ oci_set_call_timeout(resource $connection, int $timeout): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html), або [oci\_new\_connect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
 
 `timeout`
 

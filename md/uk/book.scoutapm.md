@@ -20,5 +20,5 @@ ScoutAPM
     -   [Настройка во время выполнения](scoutapm.configuration.html)
 -   [Предопределённые константы](scoutapm.constants.html)
 -   [Функции Scoutapm](ref.scoutapm.html)
-    -   [scoutapm\_get\_calls](function.scoutapm-get-calls.html) — Повертає список дзвінків, що відбулися
-    -   [scoutapm\_list\_instrumented\_functions](function.scoutapm-list-instrumented-functions.html) - Список функцій, які scoutapm буде використовувати
+    -   [scoutapmgetcalls](function.scoutapm-get-calls.html) — Повертає список дзвінків, що відбулися
+    -   [scoutapmlistinstrumentedfunctions](function.scoutapm-list-instrumented-functions.html) - Список функцій, які scoutapm буде використовувати

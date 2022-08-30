@@ -1,12 +1,12 @@
 Знаходить перше входження підрядка у рядку
 
--   [« mb\_strrpos](function.mb-strrpos.html)
+-   [« mbstrrpos](function.mb-strrpos.html)
     
--   [mb\_strtolower »](function.mb-strtolower.html)
+-   [мбstrtolower »](function.mb-strtolower.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Знаходить перше входження підрядка у рядку
     
@@ -58,4 +58,4 @@ mb_strstr(    string $haystack,    string $needle,    bool $before_n
 
 -   [stristr()](function.stristr.html) - Реєстронезалежний варіант функції strstr
 -   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [mb\_stristr()](function.mb-stristr.html) - Знаходить перше входження підрядки у рядку без урахування регістру
+-   [мбstristr()](function.mb-stristr.html) - Знаходить перше входження підрядки у рядку без урахування регістру

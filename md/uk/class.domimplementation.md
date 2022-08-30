@@ -2,7 +2,7 @@
 
 -   [« DOMException](class.domexception.html)
     
--   [DOMImplementation::\_\_construct »](domimplementation.construct.html)
+-   [DOMImplementation::construct »](domimplementation.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ public hasFeature(string $feature, string $version): bool
 
 ## Зміст
 
--   [DOMImplementation::\_\_construct](domimplementation.construct.html) — Створює новий об'єкт класу DOMImplementation
+-   [DOMImplementation::construct](domimplementation.construct.html) — Створює новий об'єкт класу DOMImplementation
 -   [DOMImplementation::createDocument](domimplementation.createdocument.html) — Створює об'єкт класу DOMDocument заданого типу з його елементом.
 -   [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.html) — Створює порожній об'єкт класу DOMDocumentType
 -   [DOMImplementation::hasFeature](domimplementation.hasfeature.html) — Перевірка, чи реалізована певна можливість у реалізації DOM

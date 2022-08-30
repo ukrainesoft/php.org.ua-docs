@@ -1,8 +1,8 @@
 Читає вступні дані на з'єднанні
 
--   [« pg\_connection\_status](function.pg-connection-status.html)
+-   [« pgconnectionstatus](function.pg-connection-status.html)
     
--   [pg\_convert »](function.pg-convert.html)
+-   [пгconvert »](function.pg-convert.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,14 +29,14 @@ pg_consume_input(PgSql\Connection $connection): bool
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
-**`true`**якщо помилки не виникло, або **`false`**, якщо сталася помилка. Зверніть увагу, що **`true`** не обов'язково вказує, що вхідні дані очікували на читання.
+\*\*`true`\*\*якщо помилки не виникло, або **`false`**, якщо сталася помилка. Зверніть увагу, що **`true`** не обов'язково вказує, що вхідні дані очікували на читання.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

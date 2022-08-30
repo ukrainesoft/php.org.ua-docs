@@ -2,7 +2,7 @@
 
 -   [« OAuth](class.oauth.html)
     
--   [OAuth::\_\_destruct »](oauth.destruct.html)
+-   [OAuth::destruct »](oauth.destruct.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ public **OAuth::construct**
 string `$consumer_key`  
 string `$consumer_secret`  
 string `$signature_method` **`OAUTH_SIG_METHOD_HMACSHA1`**  
-int `$auth_type`  
+int `$auth_type`
 
 Створює новий об'єкт OAuth
 

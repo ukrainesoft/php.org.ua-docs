@@ -1,12 +1,12 @@
 Обвести шлях
 
--   [« UI\\Draw\\Pen::save](ui-draw-pen.save.html)
+-   [« UIDrawPen::save](ui-draw-pen.save.html)
     
--   [UI\\Draw\\Pen::transform »](ui-draw-pen.transform.html)
+-   [ОЙDrawPen::transform »](ui-draw-pen.transform.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Обвести шлях
     

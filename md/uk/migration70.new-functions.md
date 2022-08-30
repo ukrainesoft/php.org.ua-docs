@@ -1,8 +1,8 @@
 Нові функції
 
--   [« Изменённые функции](migration70.changed-functions.html)
+-   [« Змінені функції](migration70.changed-functions.html)
     
--   [Новые классы и интерфейсы »](migration70.classes.html)
+-   [Нові класи та інтерфейси »](migration70.classes.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,20 +19,20 @@
 
 ### [CSPRNG](book.csprng.html)
 
--   [random\_bytes()](function.random-bytes.html)
--   [random\_int()](function.random-int.html)
+-   [randombytes()](function.random-bytes.html)
+-   [randomint()](function.random-int.html)
 
 ### [Обработка и логирование ошибок](book.errorfunc.html)
 
--   [error\_clear\_last()](function.error-clear-last.html)
+-   [errorclearlast()](function.error-clear-last.html)
 
 ### [Генераторы](class.generator.html)
 
 -   [Generator::getReturn()](generator.getreturn.html)
 
-### [Вычисления над целыми числами с произвольной точностью (GNU Multiple Precision)](book.gmp.html)
+### [Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)](book.gmp.html)
 
--   [gmp\_random\_seed()](function.gmp-random-seed.html)
+-   [gmprandomseed()](function.gmp-random-seed.html)
 
 ### [Математика](book.math.html)
 
@@ -40,16 +40,16 @@
 
 ### [PCRE](book.pcre.html)
 
--   [preg\_replace\_callback\_array()](function.preg-replace-callback-array.html)
+-   [pregreplacecallbackarray()](function.preg-replace-callback-array.html)
 
 ### [Опции/информация PHP](book.info.html)
 
--   [gc\_mem\_caches()](function.gc-mem-caches.html)
--   [get\_resources()](function.get-resources.html)
+-   [гкmemcaches()](function.gc-mem-caches.html)
+-   [getresources()](function.get-resources.html)
 
 ### [POSIX](book.posix.html)
 
--   [posix\_setrlimit()](function.posix-setrlimit.html)
+-   [posixsetrlimit()](function.posix-setrlimit.html)
 
 ### [Reflection](book.reflection.html)
 
@@ -65,7 +65,7 @@
 
 ### [Компрессия Zlib](book.zlib.html)
 
--   [inflate\_add()](function.inflate-add.html)
--   [deflate\_add()](function.deflate-add.html)
--   [inflate\_init()](function.inflate-init.html)
--   [deflate\_init()](function.deflate-init.html)
+-   [inflateadd()](function.inflate-add.html)
+-   [deflateadd()](function.deflate-add.html)
+-   [inflateinit()](function.inflate-init.html)
+-   [deflateinit()](function.deflate-init.html)

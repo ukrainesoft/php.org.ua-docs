@@ -1,12 +1,12 @@
 Виконання CQL
 
--   [« CommonMark\\CQL::\_\_construct](commonmark-cql.construct.html)
+-   [« CommonMarkCQL::construct](commonmark-cql.construct.html)
     
 -   [Функции CommonMark »](ref.cmark.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\CQL](class.commonmark-cql.html)
+-   [CommonMarkCQL](class.commonmark-cql.html)
     
 -   Виконання CQL
     
@@ -23,7 +23,7 @@ CommonMarkCQL::invoke — Виконання CQL
 public CommonMark\CQL::__invoke(CommonMark\Node $root, callable $handler)
 ```
 
-Повинен викликати поточну функцію CQL у зазначеному `root`, виконуючи вказаний `handler` при вході в [CommonMark\\Node](class.commonmark-node.html)
+Повинен викликати поточну функцію CQL у зазначеному `root`, виконуючи вказаний `handler` при вході в [CommonMarkNode](class.commonmark-node.html)
 
 ### Список параметрів
 

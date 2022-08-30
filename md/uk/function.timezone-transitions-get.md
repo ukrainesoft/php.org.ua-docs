@@ -1,8 +1,8 @@
 Псевдонім DateTimeZone::getTransitions
 
--   [« timezone\_open](function.timezone-open.html)
+-   [« timezoneopen](function.timezone-open.html)
     
--   [timezone\_version\_get »](function.timezone-version-get.html)
+-   [timezoneversionget »](function.timezone-version-get.html)
     
 -   [PHP Manual](index.html)
     

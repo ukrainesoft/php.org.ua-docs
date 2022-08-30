@@ -1,12 +1,12 @@
 Закриває http-з'єднання
 
--   [« Swoole\\Http\\Client::addFile](swoole-http-client.addfile.html)
+-   [« SwooleHttpClient::addFile](swoole-http-client.addfile.html)
     
--   [Swoole\\Http\\Client::\_\_construct »](swoole-http-client.construct.html)
+-   [SwooleHttpClient::construct »](swoole-http-client.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Закриває http-з'єднання
     

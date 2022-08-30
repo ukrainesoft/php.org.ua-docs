@@ -24,7 +24,7 @@ string `$path`
 float `$interval`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`  
+int `$priority`
 
 Створює об'єкт спостерігача EvStat та автоматично запускає спостерігача.
 
@@ -40,7 +40,7 @@ int `$priority`
 
 `callback`
 
-Дивіться [Наблюдатели обратного вызова](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.html)
 
 `data`
 

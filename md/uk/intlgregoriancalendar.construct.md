@@ -29,7 +29,7 @@ int `$localeOrMonth`
 int `$dayOfMonth`  
 int `$hour`  
 int `$minute`  
-int `$second`  
+int `$second`
 
 **Увага**
 

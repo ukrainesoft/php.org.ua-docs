@@ -1,12 +1,12 @@
 Отримує результат від SHOW WARNINGS
 
--   [« mysqli\_stmt::get\_result](mysqli-stmt.get-result.html)
+-   [« mysqlistmt::getresult](mysqli-stmt.get-result.html)
     
--   [mysqli\_stmt::$insert\_id »](mysqli-stmt.insert-id.html)
+-   [mysqlistmt::$insertid »](mysqli-stmt.insert-id.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Отримує результат від SHOW WARNINGS
     

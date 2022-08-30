@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::\_\_destruct](swoole-coroutine-client.destruct.html)
+-   [« SwooleCoroutineClient::destruct](swoole-coroutine-client.destruct.html)
     
--   [Swoole\\Coroutine\\Client::getsockname »](swoole-coroutine-client.getsockname.html)
+-   [SwooleCoroutineClient::getsockname »](swoole-coroutine-client.getsockname.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

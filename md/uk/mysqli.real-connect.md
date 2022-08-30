@@ -2,7 +2,7 @@
 
 -   [« mysqli::query](mysqli.query.html)
     
--   [mysqli::real\_escape\_string »](mysqli.real-escape-string.html)
+-   [mysqli::realescapestring »](mysqli.real-escape-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,11 +35,11 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 Встановлює з'єднання із СУБД MySQL.
 
-Ця функція відрізняється від [mysqli\_connect()](function.mysqli-connect.html)
+Ця функція відрізняється від [mysqliconnect()](function.mysqli-connect.html)
 
--   Для роботи **mysqlirealconnect()** необхідний дійсний об'єкт, створений функцією [mysqli\_init()](mysqli.init.html)
+-   Для роботи **mysqlirealconnect()** необхідний дійсний об'єкт, створений функцією [mysqliinit()](mysqli.init.html)
     
--   За допомогою функції [mysqli\_options()](mysqli.options.html) можна встановити різні налаштування підключення.
+-   За допомогою функції [mysqlioptions()](mysqli.options.html) можна встановити різні налаштування підключення.
     
 -   Параметр `flags`
     
@@ -48,7 +48,7 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `host`
 
@@ -95,7 +95,7 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 > **Зауваження**
 > 
-> З причин безпеки, прапор **`MULTI_STATEMENT`** не підтримується у PHP. Якщо потрібно виконувати мультизапити, використовуйте функцію [mysqli\_multi\_query()](mysqli.multi-query.html)
+> З причин безпеки, прапор **`MULTI_STATEMENT`** не підтримується у PHP. Якщо потрібно виконувати мультизапити, використовуйте функцію [mysqlimultiquery()](mysqli.multi-query.html)
 
 ### Значення, що повертаються
 
@@ -207,12 +207,12 @@ mysqli_close($link);
 > 
 > MySQLnd завжди має на увазі кодування, яке використовує за умовчанням сервер. Це кодування передається під час встановлення з'єднання/авторизації, які використовує mysqlnd.
 > 
-> Libmysqlclient за умовчанням використовує кодування, встановлене в my.cnf або спеціальним викликом [mysqli\_options()](mysqli.options.html) до використання **mysqlirealconnect()**, але після [mysqli\_init()](mysqli.init.html)
+> Libmysqlclient за умовчанням використовує кодування, встановлене в my.cnf або спеціальним викликом [mysqlioptions()](mysqli.options.html) до використання **mysqlirealconnect()**, але після [mysqliinit()](mysqli.init.html)
 
 ### Дивіться також
 
--   [mysqli\_connect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqli\_init()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqli\_options()](mysqli.options.html) - Встановлення налаштувань
--   [mysqli\_ssl\_set()](mysqli.ssl-set.html) - Використовується для встановлення безпечних з'єднань за допомогою SSL
--   [mysqli\_close()](mysqli.close.html) - Закриває раніше відкрите з'єднання з базою даних
+-   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqliinit()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+-   [mysqlioptions()](mysqli.options.html) - Встановлення налаштувань
+-   [mysqlisslset()](mysqli.ssl-set.html) - Використовується для встановлення безпечних з'єднань за допомогою SSL
+-   [mysqliclose()](mysqli.close.html) - Закриває раніше відкрите з'єднання з базою даних

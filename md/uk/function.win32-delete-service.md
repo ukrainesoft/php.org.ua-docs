@@ -1,8 +1,8 @@
 Видаляє запис служби з бази даних SCM
 
--   [« win32\_create\_service](function.win32-create-service.html)
+-   [« win32createservice](function.win32-create-service.html)
     
--   [win32\_get\_last\_control\_message »](function.win32-get-last-control-message.html)
+-   [win32getlastcontrolmessage »](function.win32-get-last-control-message.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,5 +71,5 @@ win32_delete_service('dummyphp');
 
 ### Дивіться також
 
--   [win32\_create\_service()](function.win32-create-service.html) - Створює новий запис служби у базі даних SCM
+-   [win32createservice()](function.win32-create-service.html) - Створює новий запис служби у базі даних SCM
 -   [Коды ошибок Win32](win32service.constants.errors.html)

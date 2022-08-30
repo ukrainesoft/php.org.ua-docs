@@ -2,7 +2,7 @@
 
 -   [« PDO::beginTransaction](pdo.begintransaction.html)
     
--   [PDO::\_\_construct »](pdo.construct.html)
+-   [PDO::construct »](pdo.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -93,4 +93,4 @@ $dbh->commit();
 
 -   [PDO::beginTransaction()](pdo.begintransaction.html) - Ініціалізація транзакції
 -   [PDO::rollBack()](pdo.rollback.html) - Відкат транзакції
--   [Транзакции и автоматическая фиксация](pdo.transactions.html)
+-   [Транзакції та автоматична фіксація](pdo.transactions.html)

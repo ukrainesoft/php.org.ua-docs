@@ -1,12 +1,12 @@
 Завантажує файл із FTP-сервера
 
--   [« ftp\_get\_option](function.ftp-get-option.html)
+-   [« ftpgetoption](function.ftp-get-option.html)
     
--   [ftp\_login »](function.ftp-login.html)
+-   [ftplogin »](function.ftp-login.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Завантажує файл із FTP-сервера
     
@@ -29,7 +29,7 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    strin
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `local_filename`
 
@@ -53,10 +53,10 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
 
 ### Приклади
 
@@ -90,7 +90,7 @@ ftp_close($conn_id);
 
 ### Дивіться також
 
--   [ftp\_pasv()](function.ftp-pasv.html) - Вмикає або вимикає пасивний режим
--   [ftp\_fget()](function.ftp-fget.html) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
--   [ftp\_nb\_get()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
--   [ftp\_nb\_fget()](function.ftp-nb-fget.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftppasv()](function.ftp-pasv.html) - Вмикає або вимикає пасивний режим
+-   [ftpfget()](function.ftp-fget.html) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
+-   [ftpнбget()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftpнбfget()](function.ftp-nb-fget.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі

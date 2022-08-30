@@ -1,12 +1,12 @@
 Ім'я класу, отримане за допомогою пізнього статичного зв'язування
 
--   [« enum\_exists](function.enum-exists.html)
+-   [« enumexists](function.enum-exists.html)
     
--   [get\_class\_methods »](function.get-class-methods.html)
+-   [getclassmethods »](function.get-class-methods.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Ім'я класу, отримане за допомогою пізнього статичного зв'язування
     
@@ -31,7 +31,7 @@ get_called_class(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я класу. Повертає **`false`**якщо було викликано поза класом.
+Повертає ім'я класу. Повертає \*\*`false`\*\*якщо було викликано поза класом.
 
 ### Приклади
 
@@ -64,6 +64,6 @@ string(3) "bar"
 
 ### Дивіться також
 
--   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

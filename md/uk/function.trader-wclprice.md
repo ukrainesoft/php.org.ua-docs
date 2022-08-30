@@ -1,8 +1,8 @@
 Зважена ціна закриття
 
--   [« trader\_var](function.trader-var.html)
+-   [« tradervar](function.trader-var.html)
     
--   [trader\_willr »](function.trader-willr.html)
+-   [traderwillr »](function.trader-willr.html)
     
 -   [PHP Manual](index.html)
     

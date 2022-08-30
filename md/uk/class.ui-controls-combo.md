@@ -1,12 +1,12 @@
 Елемент управління "Комбо"
 
--   [« UI\\Controls\\Separator::\_\_construct](ui-controls-separator.construct.html)
+-   [« UIControlsSeparator::construct](ui-controls-separator.construct.html)
     
--   [UI\\Controls\\Combo::append »](ui-controls-combo.append.html)
+-   [ОЙControlsCombo::append »](ui-controls-combo.append.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент управління "Комбо"
     
@@ -63,7 +63,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [UI\\Controls\\Combo::append](ui-controls-combo.append.html) - Додати опцію
--   [UI\\Controls\\Combo::getSelected](ui-controls-combo.getselected.html) — Отримати вибрану опцію
--   [UI\\Controls\\Combo::onSelected](ui-controls-combo.onselected.html) - Обробник обраної опції
--   [UI\\Controls\\Combo::setSelected](ui-controls-combo.setselected.html) — Встановлює вибрану опцію
+-   [ОЙControlsCombo::append](ui-controls-combo.append.html) - Додати опцію
+-   [ОЙControlsCombo::getSelected](ui-controls-combo.getselected.html) — Отримати вибрану опцію
+-   [ОЙControlsCombo::onSelected](ui-controls-combo.onselected.html) - Обробник обраної опції
+-   [ОЙControlsCombo::setSelected](ui-controls-combo.setselected.html) — Встановлює вибрану опцію

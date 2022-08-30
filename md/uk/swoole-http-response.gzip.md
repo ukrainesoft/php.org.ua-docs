@@ -1,12 +1,12 @@
 Включає gzip-стиснення відповіді.
 
--   [« Swoole\\Http\\Response::end](swoole-http-response.end.html)
+-   [« SwooleHttpResponse::end](swoole-http-response.end.html)
     
--   [Swoole\\Http\\Response::header »](swoole-http-response.header.html)
+-   [SwooleHttpResponse::header »](swoole-http-response.header.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Включає gzip-стиснення відповіді.
     

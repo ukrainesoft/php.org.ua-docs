@@ -1,12 +1,12 @@
 Повертає розмір блоку в пам'яті, що розділяється
 
--   [« shmop\_read](function.shmop-read.html)
+-   [« shmopread](function.shmop-read.html)
     
--   [shmop\_write »](function.shmop-write.html)
+-   [shmopwrite »](function.shmop-write.html)
     
 -   [PHP Manual](index.html)
     
--   [Разделяемая (shared) память](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared)](ref.shmop.html)
     
 -   Повертає розмір блоку в пам'яті, що розділяється
     
@@ -29,7 +29,7 @@ shmop_size(Shmop $shmop): int
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmop\_open()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
 
 ### Значення, що повертаються
 

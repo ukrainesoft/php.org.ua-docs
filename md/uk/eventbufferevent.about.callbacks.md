@@ -35,7 +35,7 @@ callback(
 
 `arg`
 
-Дані користувача прив'язані до всіх callback-функцій через [EventBufferEvent::\_\_construct()](eventbufferevent.construct.html) або [EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.html)
+Дані користувача прив'язані до всіх callback-функцій через [EventBufferEvent::construct()](eventbufferevent.construct.html) або [EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.html)
 
 Callback-функції подій повинні відповідати наступному прототипу:
 
@@ -65,4 +65,4 @@ callback(
 
 `arg`
 
-Дані користувача прив'язані до всіх callback-функцій через [EventBufferEvent::\_\_construct()](eventbufferevent.construct.html) або [EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.html)
+Дані користувача прив'язані до всіх callback-функцій через [EventBufferEvent::construct()](eventbufferevent.construct.html) або [EventBufferEvent::setCallbacks()](eventbufferevent.setcallbacks.html)

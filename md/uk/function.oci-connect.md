@@ -1,8 +1,8 @@
 Встановлює з'єднання з базою даних Oracle
 
--   [« oci\_commit](function.oci-commit.html)
+-   [« ocicommit](function.oci-commit.html)
     
--   [oci\_define\_by\_name »](function.oci-define-by-name.html)
+-   [ocidefineбname »](function.oci-define-by-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,11 +25,11 @@ oci_connect(    string $username,    string $password,    ?string $c
 
 Повертає ідентифікатор з'єднання, який використовується більшістю функцій модуля.
 
-Для підвищення продуктивності більшість програм повинні використовувати постійні з'єднання за допомогою [oci\_pconnect()](function.oci-pconnect.html) замість **ociconnect()**. Дивіться [Управление соединением](oci8.connection.html) для більш детальної інформації з управління з'єднаннями та створення пулів підключень.
+Для підвищення продуктивності більшість програм повинні використовувати постійні з'єднання за допомогою [ocipconnect()](function.oci-pconnect.html) замість **ociconnect()**. Дивіться [Управление соединением](oci8.connection.html) для більш детальної інформації з управління з'єднаннями та створення пулів підключень.
 
-Починаючи з PHP 5.1.2 (PECL OCI8 1.1) функція [oci\_close()](function.oci-close.html) може використовуватись для завершення з'єднання.
+Починаючи з PHP 5.1.2 (PECL OCI8 1.1) функція [ociclose()](function.oci-close.html) може використовуватись для завершення з'єднання.
 
-Другий та наступні виклики функції **ociconnect()** з тими ж параметрами повернуть ідентифікатор відкритого з'єднання. Це означає, що транзакції використовують *одне і теж* базове з'єднання із базою даних. При необхідності поділу транзакцій рекомендується використовувати функцію [oci\_new\_connect()](function.oci-new-connect.html)
+Другий та наступні виклики функції **ociconnect()** з тими ж параметрами повернуть ідентифікатор відкритого з'єднання. Це означає, що транзакції використовують *одне і теж* базове з'єднання із базою даних. При необхідності поділу транзакцій рекомендується використовувати функцію [ocinewconnect()](function.oci-new-connect.html)
 
 ### Список параметрів
 
@@ -61,9 +61,9 @@ oci_connect(    string $username,    string $password,    ?string $c
 
 `session_mode`
 
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
 
-У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
+У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
 
 **`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
 
@@ -283,6 +283,6 @@ echo "c2 is $c2<br>\n";
 
 ### Дивіться також
 
--   [oci\_pconnect()](function.oci-pconnect.html) - Встановлює постійне з'єднання із сервером Oracle
--   [oci\_new\_connect()](function.oci-new-connect.html) - Встановлює нове з'єднання із сервером Oracle
--   [oci\_close()](function.oci-close.html) - Закриває з'єднання із сервером Oracle
+-   [ocipconnect()](function.oci-pconnect.html) - Встановлює постійне з'єднання із сервером Oracle
+-   [ocinewconnect()](function.oci-new-connect.html) - Встановлює нове з'єднання із сервером Oracle
+-   [ociclose()](function.oci-close.html) - Закриває з'єднання із сервером Oracle

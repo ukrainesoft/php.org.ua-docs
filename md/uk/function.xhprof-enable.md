@@ -1,8 +1,8 @@
 Запуск профілювання xhprof
 
--   [« xhprof\_disable](function.xhprof-disable.html)
+-   [« xhprofdisable](function.xhprof-disable.html)
     
--   [xhprof\_sample\_disable »](function.xhprof-sample-disable.html)
+-   [xhprofsampledisable »](function.xhprof-sample-disable.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,7 +70,7 @@ xhprof_enable(
 
 ### Дивіться також
 
--   [xhprof\_disable()](function.xhprof-disable.html) - Зупиняє профіль xhprof
--   [xhprof\_sample\_enable()](function.xhprof-sample-enable.html) - Запуск семплюючого режиму профілювання XHProf
--   [memory\_get\_usage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
+-   [xhprofdisable()](function.xhprof-disable.html) - Зупиняє профіль xhprof
+-   [xhprofsampleenable()](function.xhprof-sample-enable.html) - Запуск семплюючого режиму профілювання XHProf
+-   [memorygetusage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
 -   [getrusage()](function.getrusage.html) - Отримує інформацію про використання поточного ресурсу

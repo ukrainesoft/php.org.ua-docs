@@ -1,8 +1,8 @@
 Шифрує повідомлення, використовуючи одноразовий номер та секретний ключ (без автентифікації)
 
--   [« sodium\_crypto\_stream\_xchacha20\_keygen](function.sodium-crypto-stream-xchacha20-keygen.html)
+-   [« sodiumcryptostreamxchacha20keygen](function.sodium-crypto-stream-xchacha20-keygen.html)
     
--   [sodium\_crypto\_stream\_xchacha20 »](function.sodium-crypto-stream-xchacha20.html)
+-   [sodiumcryptostreamxchacha20 »](function.sodium-crypto-stream-xchacha20.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ sodium_crypto_stream_xchacha20_xor(string $message, string $nonce, string $key):
 
 **Застереження**
 
-Це шифрування не автентифікується і не запобігає атакам з вибраним зашифрованим текстом. Обов'язково об'єднайте зашифрований текст із кодом автентифікації повідомлення (Message Authentication Code), наприклад, за допомогою функції [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) або [sodium\_crypto\_auth()](function.sodium-crypto-auth.html)
+Це шифрування не автентифікується і не запобігає атакам з вибраним зашифрованим текстом. Обов'язково об'єднайте зашифрований текст із кодом автентифікації повідомлення (Message Authentication Code), наприклад, за допомогою функції [sodiumcryptoaeadxchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) або [sodiumcryptoauth()](function.sodium-crypto-auth.html)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ sodium_crypto_stream_xchacha20_xor(string $message, string $nonce, string $key):
 
 `key`
 
-Ключ, можливо, згенерований за допомогою функції [sodium\_crypto\_stream\_xchacha20\_keygen()](function.sodium-crypto-stream-xchacha20-keygen.html)
+Ключ, можливо, згенерований за допомогою функції [sodiumcryptostreamxchacha20keygen()](function.sodium-crypto-stream-xchacha20-keygen.html)
 
 ### Значення, що повертаються
 

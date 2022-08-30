@@ -1,8 +1,8 @@
 Параболічний SAR
 
--   [« trader\_rsi](function.trader-rsi.html)
+-   [« traderrsi](function.trader-rsi.html)
     
--   [trader\_sarext »](function.trader-sarext.html)
+-   [tradersarext »](function.trader-sarext.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,11 +35,11 @@ trader_sar(    array $high,    array $low,    float $acceleration = 
 
 `acceleration`
 
-Коефіцієнт прискорення використовується максимального значення. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.html#constant.trader-real-max)
+Коефіцієнт прискорення використовується максимального значення. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.html#constant.trader-real-max)
 
 `maximum`
 
-Коефіцієнт прискорення Максимальне значення. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.html#constant.trader-real-max)
+Коефіцієнт прискорення Максимальне значення. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.html#constant.trader-real-max)
 
 ### Значення, що повертаються
 

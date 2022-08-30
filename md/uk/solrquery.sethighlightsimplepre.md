@@ -27,8 +27,6 @@ public SolrQuery::setHighlightSimplePre(string $simplePre, string $field_overrid
 
 За замовчуванням
 
-*
-
 ### Список параметрів
 
 `simplePre`
@@ -42,5 +40,3 @@ public SolrQuery::setHighlightSimplePre(string $simplePre, string $field_overrid
 ### Значення, що повертаються
 
 Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.
-
-*

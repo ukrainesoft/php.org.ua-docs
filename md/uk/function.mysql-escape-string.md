@@ -1,8 +1,8 @@
 Екранує рядок для використання в mysqlquery
 
--   [« mysql\_error](function.mysql-error.html)
+-   [« mysqlerror](function.mysql-error.html)
     
--   [mysql\_fetch\_array »](function.mysql-fetch-array.html)
+-   [mysqlfetcharray »](function.mysql-fetch-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlescapestring — Екранує рядок для використання 
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_escape\_string()](function.mysqli-escape-string.html)
+-   [mysqliescapestring()](function.mysqli-escape-string.html)
 -   [PDO::quote()](pdo.quote.html)
 
 ### Опис
@@ -30,9 +30,9 @@ mysqlescapestring — Екранує рядок для використання 
 mysql_escape_string(string $unescaped_string): string
 ```
 
-Функція екранує `unescaped_string` таким чином, після чого її можна безпечно використовувати в [mysql\_query()](function.mysql-query.html). Ця функція застаріла.
+Функція екранує `unescaped_string` таким чином, після чого її можна безпечно використовувати в [mysqlquery()](function.mysql-query.html). Ця функція застаріла.
 
-Функція ідентична [mysql\_real\_escape\_string()](function.mysql-real-escape-string.html), виключаючи той факт, що [mysql\_real\_escape\_string()](function.mysql-real-escape-string.html) приймає параметром ще й ідентифікатор з'єднання та екранує рядок з урахуванням поточного кодування . **mysqlescapestring()** не робить цього і результат роботи не залежить від кодування, в якому ви працюєте з БД.
+Функція ідентична [mysqlrealescapestring()](function.mysql-real-escape-string.html), виключаючи той факт, що [mysqlrealescapestring()](function.mysql-real-escape-string.html) приймає параметром ще й ідентифікатор з'єднання та екранує рядок з урахуванням поточного кодування . **mysqlescapestring()** не робить цього і результат роботи не залежить від кодування, в якому ви працюєте з БД.
 
 ### Список параметрів
 
@@ -70,6 +70,6 @@ Escaped string: Zak\'s Laptop
 
 ### Дивіться також
 
--   [mysql\_real\_escape\_string()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
+-   [mysqlrealescapestring()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
 -   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
--   Директиву [magic\_quotes\_gpc](info.configuration.html#ini.magic-quotes-gpc)
+-   Директиву [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)

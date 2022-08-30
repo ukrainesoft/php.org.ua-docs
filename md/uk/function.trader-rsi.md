@@ -1,8 +1,8 @@
 Індекс відносної сили
 
--   [« trader\_rocr](function.trader-rocr.html)
+-   [« traderrocr](function.trader-rocr.html)
     
--   [trader\_sar »](function.trader-sar.html)
+-   [tradersar »](function.trader-sar.html)
     
 -   [PHP Manual](index.html)
     

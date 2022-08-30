@@ -1,8 +1,8 @@
 Клас ReflectionEnum
 
--   [« ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.html)
+-   [« ReflectionClassConstant::toString](reflectionclassconstant.tostring.html)
     
--   [ReflectionEnum::\_\_construct »](reflectionenum.construct.html)
+-   [ReflectionEnum::construct »](reflectionenum.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -131,7 +131,7 @@ public ReflectionClass::__toString(): string
 
 ## Зміст
 
--   [ReflectionEnum::\_\_construct](reflectionenum.construct.html) — Створює об'єкт ReflectionEnum
+-   [ReflectionEnum::construct](reflectionenum.construct.html) — Створює об'єкт ReflectionEnum
 -   [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.html) — Отримує тип перерахування, якщо є
 -   [ReflectionEnum::getCase](reflectionenum.getcase.html) — Повертає певний варіант перерахування
 -   [ReflectionEnum::getCases](reflectionenum.getcases.html) — Повертає список усіх варіантів перерахування

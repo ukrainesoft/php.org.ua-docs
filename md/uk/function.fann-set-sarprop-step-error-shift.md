@@ -1,8 +1,8 @@
 Встановлює зрушення помилки кроку sarprop
 
--   [« fann\_set\_rprop\_increase\_factor](function.fann-set-rprop-increase-factor.html)
+-   [« fannsetrpropincreasefactor](function.fann-set-rprop-increase-factor.html)
     
--   [fann\_set\_sarprop\_step\_error\_threshold\_factor »](function.fann-set-sarprop-step-error-threshold-factor.html)
+-   [fannsetsarpropsteperrorthresholdfactor »](function.fann-set-sarprop-step-error-threshold-factor.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,4 +47,4 @@ fann_set_sarprop_step_error_shift(resource $ann, float $sarprop_step_error_shift
 
 ### Дивіться також
 
--   [fann\_get\_sarprop\_step\_error\_shift()](function.fann-get-sarprop-step-error-shift.html) - Повертає зрушення помилки кроку sarprop
+-   [fanngetsarpropsteperrorshift()](function.fann-get-sarprop-step-error-shift.html) - Повертає зрушення помилки кроку sarprop

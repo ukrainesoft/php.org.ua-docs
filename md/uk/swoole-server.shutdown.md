@@ -1,12 +1,12 @@
 Завершує процес головного сервера, функцію можна викликати у робочих процесах
 
--   [« Swoole\\Server::set](swoole-server.set.html)
+-   [« SwooleServer::set](swoole-server.set.html)
     
--   [Swoole\\Server::start »](swoole-server.start.html)
+-   [SwooleServer::start »](swoole-server.start.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Завершує процес головного сервера, функцію можна викликати у робочих процесах
     

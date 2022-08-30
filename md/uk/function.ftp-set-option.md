@@ -1,12 +1,12 @@
 Встановлює параметри з'єднання з сервером FTP
 
--   [« ftp\_rmdir](function.ftp-rmdir.html)
+-   [« ftprmdir](function.ftp-rmdir.html)
     
--   [ftp\_site »](function.ftp-site.html)
+-   [ftpsite »](function.ftp-site.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Встановлює параметри з'єднання з сервером FTP
     
@@ -29,7 +29,7 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `option`
 
@@ -47,9 +47,9 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -64,4 +64,4 @@ ftp_set_option($ftp, FTP_TIMEOUT_SEC, 10);
 
 ### Дивіться також
 
--   [ftp\_get\_option()](function.ftp-get-option.html) - Отримує поточні параметри FTP-з'єднання
+-   [ftpgetoption()](function.ftp-get-option.html) - Отримує поточні параметри FTP-з'єднання

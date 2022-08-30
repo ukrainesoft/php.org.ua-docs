@@ -1,6 +1,6 @@
 Створює новий екземпляр Collator
 
--   [« Collator::\_\_construct](collator.construct.html)
+-   [« Collator::construct](collator.construct.html)
     
 -   [Collator::getAttribute »](collator.getattribute.html)
     
@@ -62,4 +62,4 @@ if( !isset( $coll ) ) {
 
 ### Дивіться також
 
--   [Collator::\_\_construct()](collator.construct.html) - Створює новий екземпляр Collator
+-   [Collator::construct()](collator.construct.html) - Створює новий екземпляр Collator

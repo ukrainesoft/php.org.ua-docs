@@ -1,8 +1,8 @@
 Знищує контекст
 
--   [« openal\_context\_current](function.openal-context-current.html)
+-   [« openalcontextcurrent](function.openal-context-current.html)
     
--   [openal\_context\_process »](function.openal-context-process.html)
+-   [openalcontextprocess »](function.openal-context-process.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_context_destroy(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openal\_context\_create()](function.openal-context-create.html)
+Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
 
 ### Значення, що повертаються
 
@@ -35,4 +35,4 @@ openal_context_destroy(resource $context): bool
 
 ### Дивіться також
 
--   [openal\_context\_create()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку

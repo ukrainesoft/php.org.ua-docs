@@ -1,12 +1,12 @@
 Кодує дані у формат MIME base64
 
--   [« base64\_decode](function.base64-decode.html)
+-   [« base64decode](function.base64-decode.html)
     
--   [get\_headers »](function.get-headers.html)
+-   [getheaders »](function.get-headers.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   Кодує дані у формат MIME base64
     
@@ -58,7 +58,7 @@ echo base64_encode($str);
 
 ### Дивіться також
 
--   [base64\_decode()](function.base64-decode.html) - Декодує дані, закодовані MIME base64
--   [chunk\_split()](function.chunk-split.html) - Розбиває рядок на фрагменти
--   [convert\_uuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode
+-   [base64decode()](function.base64-decode.html) - Декодує дані, закодовані MIME base64
+-   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти
+-   [convertuuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode
 -   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8

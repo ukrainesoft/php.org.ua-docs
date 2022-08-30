@@ -1,8 +1,8 @@
 Детерміноване виведення пари ключів з одного ключа
 
--   [« sodium\_crypto\_sign\_secretkey](function.sodium-crypto-sign-secretkey.html)
+-   [« sodiumcryptosignsecretkey](function.sodium-crypto-sign-secretkey.html)
     
--   [sodium\_crypto\_sign\_verify\_detached »](function.sodium-crypto-sign-verify-detached.html)
+-   [sodiumcryptosignverifydetached »](function.sodium-crypto-sign-verify-detached.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Видаляє елемент із стовпця заданого типу, використовуючи OID
 
--   [« cubrid\_set\_db\_parameter](function.cubrid-set-db-parameter.html)
+-   [« cubridsetдбparameter](function.cubrid-set-db-parameter.html)
     
--   [cubrid\_set\_query\_timeout »](function.cubrid-set-query-timeout.html)
+-   [cubridsetquerytimeout »](function.cubrid-set-query-timeout.html)
     
 -   [PHP Manual](index.html)
     
@@ -98,4 +98,4 @@ array(2) {
 
 ### Дивіться також
 
--   [cubrid\_set\_add()](function.cubrid-set-add.html) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubridsetadd()](function.cubrid-set-add.html) - Вставляє один елемент для встановлення стовпця типу за допомогою OID

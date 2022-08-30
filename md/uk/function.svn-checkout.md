@@ -1,12 +1,12 @@
 Отримує робочу копію з репозиторію
 
--   [« svn\_cat](function.svn-cat.html)
+-   [« svncat](function.svn-cat.html)
     
--   [svn\_cleanup »](function.svn-cleanup.html)
+-   [svncleanup »](function.svn-cleanup.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Отримує робочу копію з репозиторію
     
@@ -71,8 +71,8 @@ svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) .�
 
 ### Дивіться також
 
--   [svn\_add()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
--   [svn\_commit()](function.svn-commit.html) - Відправляє зміни з робочої директорії до репозиторію
--   [svn\_status()](function.svn-status.html) - Повертає SVN-статус файлів та директорій робочої копії
--   [svn\_update()](function.svn-update.html) - Оновлює робочу копію
+-   [svnadd()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
+-   [svncommit()](function.svn-commit.html) - Відправляє зміни з робочої директорії до репозиторію
+-   [svnstatus()](function.svn-status.html) - Повертає SVN-статус файлів та директорій робочої копії
+-   [svnupdate()](function.svn-update.html) - Оновлює робочу копію
 -   [» SVN-документация о команде svn checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.html)

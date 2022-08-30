@@ -1,8 +1,8 @@
 Визначає або повертає режим виходу для поточної запущеної служби
 
--   [« win32\_set\_service\_exit\_code](function.win32-set-service-exit-code.html)
+-   [« win32setserviceexitcode](function.win32-set-service-exit-code.html)
     
--   [win32\_set\_service\_status »](function.win32-set-service-status.html)
+-   [win32setservicestatus »](function.win32-set-service-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ win32setserviceexitmode — Визначає або повертає вихід�
 win32_set_service_exit_mode(bool $gracefulMode = true): bool
 ```
 
-Якщо вказано параметр `gracefulMode`, режим виходу змінюється. Коли режим виходу не є коректним, код виходу, що використовується, може бути встановлений за допомогою функції [win32\_set\_service\_exit\_code()](function.win32-set-service-exit-code.html)
+Якщо вказано параметр `gracefulMode`, режим виходу змінюється. Коли режим виходу не є коректним, код виходу, що використовується, може бути встановлений за допомогою функції [win32setserviceexitcode()](function.win32-set-service-exit-code.html)
 
 **Застереження**
 
@@ -54,6 +54,6 @@ win32_set_service_exit_mode(bool $gracefulMode = true): bool
 
 ### Дивіться також
 
--   [win32\_start\_service\_ctrl\_dispatcher()](function.win32-start-service-ctrl-dispatcher.html) - Додає до Диспетчера служб скрипт, який може бути використаний, як служба із заданим ім'ям
--   [win32\_set\_service\_status()](function.win32-set-service-status.html) - Оновлює статус служби
--   [win32\_set\_service\_exit\_code()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби
+-   [win32startservicectrldispatcher()](function.win32-start-service-ctrl-dispatcher.html) - Додає до Диспетчера служб скрипт, який може бути використаний, як служба із заданим ім'ям
+-   [win32setservicestatus()](function.win32-set-service-status.html) - Оновлює статус служби
+-   [win32setserviceexitcode()](function.win32-set-service-exit-code.html) - Визначає чи повертає код виходу для поточної запущеної служби

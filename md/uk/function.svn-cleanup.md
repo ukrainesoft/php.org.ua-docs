@@ -1,12 +1,12 @@
 Рекурсивно очищає робочу копію директорії, завершує незакінчені операції та знімає блокування.
 
--   [« svn\_checkout](function.svn-checkout.html)
+-   [« svncheckout](function.svn-checkout.html)
     
--   [svn\_client\_version »](function.svn-client-version.html)
+-   [svnclientversion »](function.svn-client-version.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Рекурсивно очищає робочу копію директорії, завершує незакінчені операції та знімає блокування.
     

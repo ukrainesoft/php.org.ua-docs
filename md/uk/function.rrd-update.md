@@ -1,12 +1,12 @@
 Оновлює базу даних RRD
 
--   [« rrd\_tune](function.rrd-tune.html)
+-   [« rrdtune](function.rrd-tune.html)
     
--   [rrd\_version »](function.rrd-version.html)
+-   [rrdversion »](function.rrd-version.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Оновлює базу даних RRD
     

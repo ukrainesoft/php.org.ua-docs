@@ -1,6 +1,6 @@
 Запускає запит XPath до XML-даних
 
--   [« SimpleXMLElement::\_\_toString](simplexmlelement.tostring.html)
+-   [« SimpleXMLElement::toString](simplexmlelement.tostring.html)
     
 -   [SimpleXMLIterator »](class.simplexmliterator.html)
     

@@ -6,7 +6,7 @@ Throwable
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Throwable
     
@@ -71,4 +71,4 @@ abstract public __toString(): string
 -   [Throwable::getTrace](throwable.gettrace.html) — Повертає трасування стека
 -   [Throwable::getTraceAsString](throwable.gettraceasstring.html) — Отримує результати трасування стека у вигляді рядка
 -   [Throwable::getPrevious](throwable.getprevious.html) — Повертає попередній Throwable
--   [Throwable::\_\_toString](throwable.tostring.html) — Отримує рядкову виставу викинутого об'єкта
+-   [Throwable::toString](throwable.tostring.html) — Отримує рядкову виставу викинутого об'єкта

@@ -1,8 +1,8 @@
 Отримує стовпець, використовуючи OID
 
--   [« cubrid\_get\_server\_info](function.cubrid-get-server-info.html)
+-   [« cubridgetserverinfo](function.cubrid-get-server-info.html)
     
--   [cubrid\_insert\_id »](function.cubrid-insert-id.html)
+-   [cubridinsertid »](function.cubrid-insert-id.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ OID екземпляра, який ви хочете прочитати.
 
 вміст запитаного атрибуту, коли процес успішний; Коли `attr` встановлений з рядковим типом даних, результат повертається у вигляді рядка; якщо для `attr` заданий тип даних масиву (числовий масив, що починається з 0), результат повертається в асоціативному масиві. Коли `attr` опущений, всі атрибути приймаються як масиву.
 
-**`false`**якщо процес завершився з помилкою або результат NULL (якщо виникає помилка, щоб відрізнити порожній рядок від NULL, друкується попереджувальне повідомлення. Ви можете перевірити помилку, використовуючи [cubrid\_error\_code()](function.cubrid-error-code.html)
+\*\*`false`\*\*якщо процес завершився з помилкою або результат NULL (якщо виникає помилка, щоб відрізнити порожній рядок від NULL, друкується попереджувальне повідомлення. Ви можете перевірити помилку, використовуючи [cubriderrorcode()](function.cubrid-error-code.html)
 
 ### Приклади
 
@@ -108,4 +108,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubrid\_put()](function.cubrid-put.html) - Оновлює стовпець за допомогою OID
+-   [cubridput()](function.cubrid-put.html) - Оновлює стовпець за допомогою OID

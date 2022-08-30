@@ -1,12 +1,12 @@
 Порівнює два "стандартизовані" рядки з номером версії PHP
 
--   [« sys\_get\_temp\_dir](function.sys-get-temp-dir.html)
+-   [« sysgettempdir](function.sys-get-temp-dir.html)
     
--   [zend\_thread\_id »](function.zend-thread-id.html)
+-   [zendthreadid »](function.zend-thread-id.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Порівнює два "стандартизовані" рядки з номером версії PHP
     
@@ -51,7 +51,7 @@ version_compare(string $version1, string $version2, ?string $operator = null): i
 
 ### Приклади
 
-У прикладі нижче використовується константа **`PHP_VERSION`**Вона містить номер версії PHP, який виконує код.
+У прикладі нижче використовується константа \*\*`PHP_VERSION`\*\*Вона містить номер версії PHP, який виконує код.
 
 **Приклад #1 Приклад використання **versioncompare()****
 
@@ -92,5 +92,5 @@ if (version_compare(PHP_VERSION, '5.0.0', '<')) {
 ### Дивіться також
 
 -   [phpversion()](function.phpversion.html) - Отримує поточну версію PHP
--   [php\_uname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [phpuname()](function.php-uname.html) - Повертає інформацію про операційну систему, на якій запущено PHP
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена

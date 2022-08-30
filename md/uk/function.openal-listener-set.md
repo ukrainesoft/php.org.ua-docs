@@ -1,8 +1,8 @@
 Встановлення якості прослуховувача
 
--   [« openal\_listener\_get](function.openal-listener-get.html)
+-   [« openallistenerget](function.openal-listener-get.html)
     
--   [openal\_source\_create »](function.openal-source-create.html)
+-   [openalsourcecreate »](function.openal-source-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ openal_listener_set(int $property, mixed $setting): bool
 
 ### Дивіться також
 
--   [openal\_listener\_get()](function.openal-listener-get.html) - Отримати властивість прослуховувача
+-   [openallistenerget()](function.openal-listener-get.html) - Отримати властивість прослуховувача

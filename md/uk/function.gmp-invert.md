@@ -1,12 +1,12 @@
 Інверсія залишку від розподілу
 
--   [« gmp\_intval](function.gmp-intval.html)
+-   [« gmpintval](function.gmp-intval.html)
     
--   [gmp\_jacobi »](function.gmp-jacobi.html)
+-   [gmpjacobi »](function.gmp-jacobi.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Інверсія залишку від розподілу
     
@@ -37,7 +37,7 @@ gmp_invert(GMP|int|string $num1, GMP|int|string $num2): GMP|false
 
 ### Значення, що повертаються
 
-GMP число у разі успішного виконання або **`false`**якщо інверсія не існує.
+GMP число у разі успішного виконання або \*\*`false`\*\*якщо інверсія не існує.
 
 ### Приклади
 

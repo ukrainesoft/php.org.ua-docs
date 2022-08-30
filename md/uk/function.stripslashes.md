@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Видаляє екранування символів
     
@@ -95,4 +95,4 @@ Array
 ### Дивіться також
 
 -   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
--   [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

@@ -1,6 +1,6 @@
 Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
 
--   [« RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.html)
+-   [« RecursiveCallbackFilterIterator::construct](recursivecallbackfilteriterator.construct.html)
     
 -   [RecursiveCallbackFilterIterator::hasChildren »](recursivecallbackfilteriterator.haschildren.html)
     
@@ -38,5 +38,5 @@ public RecursiveCallbackFilterIterator::getChildren(): RecursiveCallbackFilterIt
 ### Дивіться також
 
 -   [Примеры использования RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
--   [RecursiveCallbackFilterIterator::\_\_construct()](recursivecallbackfilteriterator.construct.html) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilterIterator::construct()](recursivecallbackfilteriterator.construct.html) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
 -   [RecursiveCallbackFilteriterator::hasChildren()](recursivecallbackfilteriterator.haschildren.html) - Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи

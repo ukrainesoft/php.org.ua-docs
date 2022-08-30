@@ -66,4 +66,4 @@ fpassthru($stream);
 
 -   [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.html) - Створити новий великий об'єкт (LOB)
 -   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html) - Видалити великий об'єкт
--   [pg\_lo\_open()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
+-   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних

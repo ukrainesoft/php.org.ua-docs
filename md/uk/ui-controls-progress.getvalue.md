@@ -1,12 +1,12 @@
 Отримати значення
 
--   [« UI\\Controls\\Progress](class.ui-controls-progress.html)
+-   [« UIControlsProgress](class.ui-controls-progress.html)
     
--   [UI\\Controls\\Progress::setValue »](ui-controls-progress.setvalue.html)
+-   [ОЙControlsProgress::setValue »](ui-controls-progress.setvalue.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Progress](class.ui-controls-progress.html)
+-   [ОЙControlsProgress](class.ui-controls-progress.html)
     
 -   Отримати значення
     

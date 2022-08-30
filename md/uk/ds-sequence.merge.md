@@ -1,12 +1,12 @@
 Повертає результат додавання всіх заданих значень до колекції
 
--   [« Ds\\Sequence::map](ds-sequence.map.html)
+-   [« DsSequence::map](ds-sequence.map.html)
     
--   [Ds\\Sequence::pop »](ds-sequence.pop.html)
+-   [ДсSequence::pop »](ds-sequence.pop.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає результат додавання всіх заданих значень до колекції
     

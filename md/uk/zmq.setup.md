@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Обмен сообщениями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   Встановлення та налаштування
     

@@ -1,12 +1,12 @@
 Повертає статус транзакції для поточної сесії
 
--   [« MongoDB\\Driver\\Session::getTransactionOptions](mongodb-driver-session.gettransactionoptions.html)
+-   [« MongoDBDriverSession::getTransactionOptions](mongodb-driver-session.gettransactionoptions.html)
     
--   [MongoDB\\Driver\\Session::isDirty »](mongodb-driver-session.isdirty.html)
+-   [MongoDBDriverSession::isDirty »](mongodb-driver-session.isdirty.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Повертає статус транзакції для поточної сесії
     
@@ -35,9 +35,9 @@ final public MongoDB\Driver\Session::getTransactionState(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Session::isInTransaction()](mongodb-driver-session.isintransaction.html) - Визначає, чи відбувається зараз багатодокументна транзакція
--   [MongoDB\\Driver\\Session::getTransactionOptions()](mongodb-driver-session.gettransactionoptions.html) - Повертає налаштування поточної транзакції
+-   [MongoDBDriverSession::isInTransaction()](mongodb-driver-session.isintransaction.html) - Визначає, чи відбувається зараз багатодокументна транзакція
+-   [MongoDBDriverSession::getTransactionOptions()](mongodb-driver-session.gettransactionoptions.html) - Повертає налаштування поточної транзакції

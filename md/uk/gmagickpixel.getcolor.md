@@ -1,6 +1,6 @@
 Повертає колір
 
--   [« GmagickPixel::\_\_construct](gmagickpixel.construct.html)
+-   [« GmagickPixel::construct](gmagickpixel.construct.html)
     
 -   [GmagickPixel::getcolorcount »](gmagickpixel.getcolorcount.html)
     

@@ -1,12 +1,12 @@
 Створити новий об'єкт Path
 
--   [« UI\\Draw\\Path::closeFigure](ui-draw-path.closefigure.html)
+-   [« UIDrawPath::closeFigure](ui-draw-path.closefigure.html)
     
--   [UI\\Draw\\Path::end »](ui-draw-path.end.html)
+-   [ОЙDrawPath::end »](ui-draw-path.end.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Створити новий об'єкт Path
     

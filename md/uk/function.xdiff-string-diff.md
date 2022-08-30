@@ -1,12 +1,12 @@
 Створити звичайний патч для двох рядків
 
--   [« xdiff\_string\_diff\_binary](function.xdiff-string-diff-binary.html)
+-   [xdiffstringdiffbinary](function.xdiff-string-diff-binary.html)
     
--   [xdiff\_string\_merge3 »](function.xdiff-string-merge3.html)
+-   [xdiffstringmerge3 »](function.xdiff-string-merge3.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Створити звичайний патч для двох рядків
     
@@ -71,8 +71,8 @@ if (is_string($diff)) {
 
 > **Зауваження**
 > 
-> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html) і [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html)
+> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiffstringbdiff()](function.xdiff-string-bdiff.html) і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html)
 
 ### Дивіться також
 
--   [xdiff\_string\_patch()](function.xdiff-string-patch.html) - Застосувати звичайний патч до рядка
+-   [xdiffstringpatch()](function.xdiff-string-patch.html) - Застосувати звичайний патч до рядка

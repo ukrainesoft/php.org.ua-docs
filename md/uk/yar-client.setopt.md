@@ -1,12 +1,12 @@
 Задати контекст дзвінка
 
--   [« Yar\_Client::\_\_construct](yar-client.construct.html)
+-   [« YarClient::construct](yar-client.construct.html)
     
--   [Yar\_Concurrent\_Client »](class.yar-concurrent-client.html)
+-   [YarConcurrentClient »](class.yar-concurrent-client.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Client](class.yar-client.html)
+-   [YarClient](class.yar-client.html)
     
 -   Задати контекст дзвінка
     
@@ -62,4 +62,4 @@ $result = $client->some_method("parameter");
 
 ### Дивіться також
 
--   [Yar\_Client::\_\_call()](yar-client.call.html) - Виклик сервісу
+-   [YarClient::call()](yar-client.call.html) - Виклик сервісу

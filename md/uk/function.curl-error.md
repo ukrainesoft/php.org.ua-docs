@@ -1,8 +1,8 @@
 Повертає рядок із описом останньої помилки поточного сеансу
 
--   [« curl\_errno](function.curl-errno.html)
+-   [« curlerrno](function.curl-errno.html)
     
--   [curl\_escape »](function.curl-escape.html)
+-   [curlescape »](function.curl-escape.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_error(CurlHandle $handle): string
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 
@@ -67,5 +67,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curl\_errno()](function.curl-errno.html) - Повертає код останньої помилки
+-   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
 -   [» Коды ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

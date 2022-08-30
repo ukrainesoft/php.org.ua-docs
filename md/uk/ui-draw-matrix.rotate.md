@@ -1,12 +1,12 @@
 Перевернути матрицю
 
--   [« UI\\Draw\\Matrix::multiply](ui-draw-matrix.multiply.html)
+-   [« UIDrawMatrix::multiply](ui-draw-matrix.multiply.html)
     
--   [UI\\Draw\\Matrix::scale »](ui-draw-matrix.scale.html)
+-   [ОЙDrawMatrix::scale »](ui-draw-matrix.scale.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Перевернути матрицю
     

@@ -1,12 +1,12 @@
 Надсилає дані в робочі процеси завдання
 
--   [« Swoole\\Server::stop](swoole-server.stop.html)
+-   [« SwooleServer::stop](swoole-server.stop.html)
     
--   [Swoole\\Server::taskwait »](swoole-server.taskwait.html)
+-   [SwooleServer::taskwait »](swoole-server.taskwait.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Надсилає дані в робочі процеси завдання
     

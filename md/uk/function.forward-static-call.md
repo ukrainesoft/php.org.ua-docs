@@ -1,8 +1,8 @@
 Виклик статичного методу
 
--   [« forward\_static\_call\_array](function.forward-static-call-array.html)
+-   [« forwardstaticcallarray](function.forward-static-call-array.html)
     
--   [func\_get\_arg »](function.func-get-arg.html)
+-   [funcgetarg »](function.func-get-arg.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ forwardstaticcall — Виклик статичного методу
 forward_static_call(callable $callback, mixed ...$args): mixed
 ```
 
-Виклик функції або методу, задані у параметрі `callback` із наступними аргументами. Ця функція повинна викликатись у контексті методу і не може бути викликана поза класом. Вона використовує [позднее статическое связывание](language.oop5.late-static-bindings.html)
+Виклик функції або методу, задані у параметрі `callback` із наступними аргументами. Ця функція повинна викликатись у контексті методу і не може бути викликана поза класом. Вона використовує [пізніше статичне зв'язування](language.oop5.late-static-bindings.html)
 
 ### Список параметрів
 
@@ -86,7 +86,7 @@ C other,args
 
 ### Дивіться також
 
--   [forward\_static\_call\_array()](function.forward-static-call-array.html) - Виклик статичного методу та передача параметрів у вигляді масиву
--   [call\_user\_func\_array()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
--   [call\_user\_func()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
--   [is\_callable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [forwardstaticcallarray()](function.forward-static-call-array.html) - Виклик статичного методу та передача параметрів у вигляді масиву
+-   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
+-   [calluserfunc()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
+-   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості

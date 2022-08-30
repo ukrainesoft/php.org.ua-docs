@@ -2,11 +2,11 @@
 
 -   [« Выбор библиотеки](mysqlinfo.library.choosing.html)
     
--   [Буферизированные и небуферизированные запросы »](mysqlinfo.concepts.buffering.html)
+-   [Буферизовані та небуферизовані запити »](mysqlinfo.concepts.buffering.html)
     
 -   [PHP Manual](index.html)
     
--   [Обзор PHP драйверов MySQL](mysql.html)
+-   [Огляд PHP драйверів MySQL](mysql.html)
     
 -   Основні поняття
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Буферизированные и небуферизированные запросы](mysqlinfo.concepts.buffering.html)
--   [Кодировки символов](mysqlinfo.concepts.charset.html)
+-   [Буферизовані та небуферизовані запити](mysqlinfo.concepts.buffering.html)
+-   [Кодування символів](mysqlinfo.concepts.charset.html)
 
 Ці основні поняття пов'язані з драйвером MySQL для PHP.

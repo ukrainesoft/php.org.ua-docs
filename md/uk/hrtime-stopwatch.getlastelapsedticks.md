@@ -1,12 +1,12 @@
 Отримати кількість минулих тиків за останній інтервал
 
--   [« HRTime\\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html)
+-   [« HRTimeStopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html)
     
--   [HRTime\\StopWatch::getLastElapsedTime »](hrtime-stopwatch.getlastelapsedtime.html)
+-   [HRTimeStopWatch::getLastElapsedTime »](hrtime-stopwatch.getlastelapsedtime.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\StopWatch](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     
 -   Отримати кількість минулих тиків за останній інтервал
     

@@ -2,7 +2,7 @@
 
 -   [« streamWrapper::rename](streamwrapper.rename.html)
     
--   [streamWrapper::stream\_cast »](streamwrapper.stream-cast.html)
+-   [streamWrapper::streamcast »](streamwrapper.stream-cast.html)
     
 -   [PHP Manual](index.html)
     

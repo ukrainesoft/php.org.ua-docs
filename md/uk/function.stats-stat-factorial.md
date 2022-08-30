@@ -1,12 +1,12 @@
 Факторіал цілого числа
 
--   [« stats\_stat\_correlation](function.stats-stat-correlation.html)
+-   [« statsstatcorrelation](function.stats-stat-correlation.html)
     
--   [stats\_stat\_independent\_t »](function.stats-stat-independent-t.html)
+-   [statsstatindependentt »](function.stats-stat-independent-t.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Факторіал цілого числа
     

@@ -1,12 +1,12 @@
 Отримати заголовок
 
--   [« UI\\Controls\\Group::\_\_construct](ui-controls-group.construct.html)
+-   [« UIControlsGroup::construct](ui-controls-group.construct.html)
     
--   [UI\\Controls\\Group::hasMargin »](ui-controls-group.hasmargin.html)
+-   [ОЙControlsGroup::hasMargin »](ui-controls-group.hasmargin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Group](class.ui-controls-group.html)
+-   [ОЙControlsGroup](class.ui-controls-group.html)
     
 -   Отримати заголовок
     

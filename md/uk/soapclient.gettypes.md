@@ -1,8 +1,8 @@
 Повертає список типів SOAP
 
--   [« SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.html)
+-   [« SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.html)
     
--   [SoapClient::\_\_setCookie »](soapclient.setcookie.html)
+-   [SoapClient::setCookie »](soapclient.setcookie.html)
     
 -   [PHP Manual](index.html)
     
@@ -87,4 +87,4 @@ array(88) {
 
 ### Дивіться також
 
--   [SoapClient::\_\_construct()](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapClient::construct()](soapclient.construct.html) - Конструктор класу SoapClient

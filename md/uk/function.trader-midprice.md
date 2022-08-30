@@ -1,8 +1,8 @@
 Середня ціна за період
 
--   [« trader\_midpoint](function.trader-midpoint.html)
+-   [« tradermidpoint](function.trader-midpoint.html)
     
--   [trader\_min »](function.trader-min.html)
+-   [tradermin »](function.trader-min.html)
     
 -   [PHP Manual](index.html)
     

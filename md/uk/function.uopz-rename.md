@@ -1,12 +1,12 @@
 Перейменувати функцію під час виконання
 
--   [« uopz\_redefine](function.uopz-redefine.html)
+-   [« uopzredefine](function.uopz-redefine.html)
     
--   [uopz\_restore »](function.uopz-restore.html)
+-   [uopzrestore »](function.uopz-restore.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Перейменувати функцію під час виконання
     

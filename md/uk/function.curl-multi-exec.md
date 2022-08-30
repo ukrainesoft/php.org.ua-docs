@@ -1,8 +1,8 @@
 Запускає приєднання поточного дескриптора cURL
 
--   [« curl\_multi\_errno](function.curl-multi-errno.html)
+-   [« curlmultierrno](function.curl-multi-errno.html)
     
--   [curl\_multi\_getcontent »](function.curl-multi-getcontent.html)
+-   [curlmultigetcontent »](function.curl-multi-getcontent.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
 
 `still_running`
 
@@ -37,7 +37,7 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 ### Значення, що повертаються
 
-Код cURL, вказаний у [предопределённых константах](curl.constants.html) CURL.
+Код cURL, вказаний у [визначених константах](curl.constants.html) CURL.
 
 > **Зауваження**
 > 
@@ -93,6 +93,6 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
--   [curl\_multi\_select()](function.curl-multi-select.html) - Чекає активності на будь-якому curlmulti з'єднанні
--   [curl\_exec()](function.curl-exec.html) - Виконує запит cURL
+-   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlmultiselect()](function.curl-multi-select.html) - Чекає активності на будь-якому curlmulti з'єднанні
+-   [curlexec()](function.curl-exec.html) - Виконує запит cURL

@@ -2,7 +2,7 @@
 
 -   [« RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.html)
     
--   [RecursiveIteratorIterator::\_\_construct »](recursiveiteratoriterator.construct.html)
+-   [RecursiveIteratorIterator::construct »](recursiveiteratoriterator.construct.html)
     
 -   [PHP Manual](index.html)
     

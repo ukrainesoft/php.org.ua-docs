@@ -1,12 +1,12 @@
 Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
 
--   [« mysqli\_stmt::send\_long\_data](mysqli-stmt.send-long-data.html)
+-   [« mysqlistmt::sendlongdata](mysqli-stmt.send-long-data.html)
     
--   [mysqli\_stmt::store\_result »](mysqli-stmt.store-result.html)
+-   [mysqlistmt::storeresult »](mysqli-stmt.store-result.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
     
@@ -23,7 +23,7 @@ mysqlistmt::$sqlstate -- mysqlistmtsqlstate — Повернення коду п
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli\_stmt->sqlstate](mysqli-stmt.sqlstate.html)
+string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.html)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_stmt_sqlstate(mysqli_stmt $statement): string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -133,5 +133,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_stmt\_errno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
--   [mysqli\_stmt\_error()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmterrno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmterror()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту

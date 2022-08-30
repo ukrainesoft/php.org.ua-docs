@@ -1,8 +1,8 @@
 Видаляє та повертає значення з вершини стека
 
--   [« Ds\\Stack::peek](ds-stack.peek.html)
+-   [« DsStack::peek](ds-stack.peek.html)
     
--   [Ds\\Stack::push »](ds-stack.push.html)
+-   [ДсStack::push »](ds-stack.push.html)
     
 -   [PHP Manual](index.html)
     

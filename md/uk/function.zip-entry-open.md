@@ -1,8 +1,8 @@
 Відкриває директорію для читання
 
--   [« zip\_entry\_name](function.zip-entry-name.html)
+-   [« zipentryname](function.zip-entry-name.html)
     
--   [zip\_entry\_read »](function.zip-entry-read.html)
+-   [zipentryread »](function.zip-entry-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ zip_entry_open(resource $zip_dp, resource $zip_entry, string $mode = "rb"): bool
 
 `zip_dp`
 
-Дескриптор, що повертається функцією [zip\_open()](function.zip-open.html)
+Дескриптор, що повертається функцією [zipopen()](function.zip-open.html)
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zip\_read()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
 
 `mode`
 
@@ -63,5 +63,5 @@ zip_entry_open(resource $zip_dp, resource $zip_entry, string $mode = "rb"): bool
 
 ### Дивіться також
 
--   [zip\_entry\_close()](function.zip-entry-close.html) - закриває дескриптор директорії
--   [zip\_entry\_read()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії
+-   [zipentryclose()](function.zip-entry-close.html) - закриває дескриптор директорії
+-   [zipentryread()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії

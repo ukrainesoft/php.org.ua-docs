@@ -18,4 +18,4 @@
 -   [Требования](stream.requirements.html)
 -   [Установка](stream.installation.html)
 -   [Настройка во время выполнения](stream.configuration.html)
--   [Классы для работы с потоками](stream.resources.html)
+-   [Класи для роботи з потоками](stream.resources.html)

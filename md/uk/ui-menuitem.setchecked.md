@@ -1,12 +1,12 @@
 Вибрати пункт меню
 
--   [« UI\\MenuItem::onClick](ui-menuitem.onclick.html)
+-   [« UIMenuItem::onClick](ui-menuitem.onclick.html)
     
--   [UI\\Area »](class.ui-area.html)
+-   [ОЙArea »](class.ui-area.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\MenuItem](class.ui-menuitem.html)
+-   [ОЙMenuItem](class.ui-menuitem.html)
     
 -   Вибрати пункт меню
     

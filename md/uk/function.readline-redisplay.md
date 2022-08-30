@@ -1,8 +1,8 @@
 Перемалювати екран
 
--   [« readline\_read\_history](function.readline-read-history.html)
+-   [« readlinereadhistory](function.readline-read-history.html)
     
--   [readline\_write\_history »](function.readline-write-history.html)
+-   [readlinewritehistory »](function.readline-write-history.html)
     
 -   [PHP Manual](index.html)
     

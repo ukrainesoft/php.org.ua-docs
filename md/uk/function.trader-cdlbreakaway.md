@@ -1,8 +1,8 @@
 Відрив
 
--   [« trader\_cdlbelthold](function.trader-cdlbelthold.html)
+-   [« tradercdlbelthold](function.trader-cdlbelthold.html)
     
--   [trader\_cdlclosingmarubozu »](function.trader-cdlclosingmarubozu.html)
+-   [tradercdlclosingmarubozu »](function.trader-cdlclosingmarubozu.html)
     
 -   [PHP Manual](index.html)
     

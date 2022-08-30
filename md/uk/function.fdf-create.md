@@ -1,8 +1,8 @@
 Створює новий документ FDF
 
--   [« fdf\_close](function.fdf-close.html)
+-   [« fdfclose](function.fdf-close.html)
     
--   [fdf\_enum\_values »](function.fdf-enum-values.html)
+-   [fdfenumvalues »](function.fdf-enum-values.html)
     
 -   [PHP Manual](index.html)
     
@@ -56,6 +56,6 @@ unlink("outtest.fdf");
 
 ### Дивіться також
 
--   [fdf\_close()](function.fdf-close.html) - Закриває FDF-документ
--   [fdf\_save()](function.fdf-save.html) - Зберігає документ FDF
--   [fdf\_open()](function.fdf-open.html) - Відкриває документ FDF
+-   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
+-   [fdfsave()](function.fdf-save.html) - Зберігає документ FDF
+-   [fdfopen()](function.fdf-open.html) - Відкриває документ FDF

@@ -1,8 +1,8 @@
 MQSeries MQCONNX
 
--   [« mqseries\_conn](function.mqseries-conn.html)
+-   [« mqseriesconn](function.mqseries-conn.html)
     
--   [mqseries\_disc »](function.mqseries-disc.html)
+-   [mqseriesdisc »](function.mqseries-disc.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    
 
 Функція **mqseriesconnx()** (MQCONNX) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
 
-Виклик функції **mqseriesconnx()** аналогічний виклику [mqseries\_conn()](function.mqseries-conn.html) (MQCONN), за винятком того, що MQCONNX дозволяє встановити опції, що визначають режим роботи з менеджером.
+Виклик функції **mqseriesconnx()** аналогічний виклику [mqseriesconn()](function.mqseries-conn.html) (MQCONN), за винятком того, що MQCONNX дозволяє встановити опції, що визначають режим роботи з менеджером.
 
 ### Список параметрів
 
@@ -117,4 +117,4 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    
 
 ### Дивіться також
 
--   [mqseries\_disc()](function.mqseries-disc.html) - MQSeries MQDISC
+-   [mqseriesdisc()](function.mqseries-disc.html) - MQSeries MQDISC

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+-   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
     
 -   Отримує наступний результат
     

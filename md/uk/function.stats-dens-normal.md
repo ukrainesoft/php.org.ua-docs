@@ -1,12 +1,12 @@
 Повертає щільність ймовірності нормального розподілу
 
--   [« stats\_dens\_logistic](function.stats-dens-logistic.html)
+-   [« statsdenslogistic](function.stats-dens-logistic.html)
     
--   [stats\_dens\_pmf\_binomial »](function.stats-dens-pmf-binomial.html)
+-   [statsdenspmfbinomial »](function.stats-dens-pmf-binomial.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає щільність ймовірності нормального розподілу
     

@@ -1,8 +1,8 @@
 Встановлює значення поля
 
--   [« fdf\_set\_target\_frame](function.fdf-set-target-frame.html)
+-   [« fdfsettargetframe](function.fdf-set-target-frame.html)
     
--   [fdf\_set\_version »](function.fdf-set-version.html)
+-   [fdfsetversion »](function.fdf-set-version.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    m
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 
@@ -53,5 +53,5 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    m
 
 ### Дивіться також
 
--   [fdf\_get\_value()](function.fdf-get-value.html) - Отримує значення поля
--   [fdf\_remove\_item()](function.fdf-remove-item.html) - Встановлює цільовий кадр для форми
+-   [fdfgetvalue()](function.fdf-get-value.html) - Отримує значення поля
+-   [fdfremoveitem()](function.fdf-remove-item.html) - Встановлює цільовий кадр для форми

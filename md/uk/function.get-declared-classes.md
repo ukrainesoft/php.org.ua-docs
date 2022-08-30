@@ -1,12 +1,12 @@
 Повертає масив із іменами оголошених класів
 
--   [« get\_class](function.get-class.html)
+-   [« getclass](function.get-class.html)
     
--   [get\_declared\_interfaces »](function.get-declared-interfaces.html)
+-   [getdeclaredinterfaces »](function.get-declared-interfaces.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає масив із іменами оголошених класів
     
@@ -66,6 +66,6 @@ Array
 
 ### Дивіться також
 
--   [class\_exists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [get\_declared\_interfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
--   [get\_defined\_functions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
+-   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій

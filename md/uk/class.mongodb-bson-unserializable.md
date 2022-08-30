@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONUnserializable
 
--   [« MongoDB\\BSON\\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html)
+-   [« MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html)
     
--   [MongoDB\\BSON\\Unserializable::bsonUnserialize »](mongodb-bson-unserializable.bsonunserialize.html)
+-   [MongoDBBSONUnserializable::bsonUnserialize »](mongodb-bson-unserializable.bsonunserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONUnserializable
     
@@ -47,4 +47,4 @@
 
 ## Зміст
 
--   [MongoDB\\BSON\\Unserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html) — Створює об'єкт із масиву BSON або документа
+-   [MongoDBBSONUnserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html) — Створює об'єкт із масиву BSON або документа

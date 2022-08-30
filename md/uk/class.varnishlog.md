@@ -2,7 +2,7 @@
 
 -   [« VarnishStat::getSnapshot](varnishstat.getsnapshot.html)
     
--   [VarnishLog::\_\_construct »](varnishlog.construct.html)
+-   [VarnishLog::construct »](varnishlog.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -357,6 +357,6 @@ public static getTagName(int $index): string
 
 ## Зміст
 
--   [VarnishLog::\_\_construct](varnishlog.construct.html) - Конструктор Varnishlog
+-   [VarnishLog::construct](varnishlog.construct.html) - Конструктор Varnishlog
 -   [VarnishLog::getLine](varnishlog.getline.html) — Отримати наступний рядок журналу
 -   [VarnishLog::getTagName](varnishlog.gettagname.html) — Отримати строкове подання тега журналу за його індексом

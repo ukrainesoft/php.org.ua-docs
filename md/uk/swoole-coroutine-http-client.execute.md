@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::\_\_destruct](swoole-coroutine-http-client.destruct.html)
+-   [« SwooleCoroutineHttpClient::destruct](swoole-coroutine-http-client.destruct.html)
     
--   [Swoole\\Coroutine\\Http\\Client::get »](swoole-coroutine-http-client.get.html)
+-   [SwooleCoroutineHttpClient::get »](swoole-coroutine-http-client.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

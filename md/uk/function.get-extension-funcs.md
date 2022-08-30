@@ -1,12 +1,12 @@
 Повертає масив імен функцій модуля
 
--   [« get\_defined\_constants](function.get-defined-constants.html)
+-   [« getdefinedconstants](function.get-defined-constants.html)
     
--   [get\_include\_path »](function.get-include-path.html)
+-   [getincludepath »](function.get-include-path.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає масив імен функцій модуля
     
@@ -81,5 +81,5 @@ Array
 
 ### Дивіться також
 
--   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [ReflectionExtension::getFunctions()](reflectionextension.getfunctions.html) - Отримання функцій модуля

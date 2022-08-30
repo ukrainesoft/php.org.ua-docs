@@ -1,12 +1,12 @@
 Клас DirectoryIterator
 
--   [« CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.html)
+-   [« CallbackFilterIterator::construct](callbackfilteriterator.construct.html)
     
--   [DirectoryIterator::\_\_construct »](directoryiterator.construct.html)
+-   [DirectoryIterator::construct »](directoryiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас DirectoryIterator
     
@@ -109,7 +109,7 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [DirectoryIterator::\_\_construct](directoryiterator.construct.html) — Створює новий ітератор директорій на шляху
+-   [DirectoryIterator::construct](directoryiterator.construct.html) — Створює новий ітератор директорій на шляху
 -   [DirectoryIterator::current](directoryiterator.current.html) — Повертає поточний елемент DirectoryIterator
 -   [DirectoryIterator::getATime](directoryiterator.getatime.html) — Повертає час останнього доступу до поточного елементу DirectoryIterator
 -   [DirectoryIterator::getBasename](directoryiterator.getbasename.html) — Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
@@ -136,5 +136,5 @@ public SplFileInfo::__toString(): string
 -   [DirectoryIterator::next](directoryiterator.next.html) — Переміщує покажчик на наступний елемент DirectoryIterator
 -   [DirectoryIterator::rewind](directoryiterator.rewind.html) — Встановлює покажчик на перший елемент DirectoryIterator
 -   [DirectoryIterator::seek](directoryiterator.seek.html) — Переміщує вказівник DirectoryIterator на певну позицію
--   [DirectoryIterator::\_\_toString](directoryiterator.tostring.html) — Повертає ім'я файлу у вигляді рядка
+-   [DirectoryIterator::toString](directoryiterator.tostring.html) — Повертає ім'я файлу у вигляді рядка
 -   [DirectoryIterator::valid](directoryiterator.valid.html) — Перевіряє, чи поточний елемент DirectoryIterator є допустимим файлом

@@ -1,12 +1,12 @@
 Клас MongoDBDriverBulkWrite
 
--   [« MongoDB\\Driver\\Query::\_\_construct](mongodb-driver-query.construct.html)
+-   [« MongoDBDriverQuery::construct](mongodb-driver-query.construct.html)
     
--   [MongoDB\\Driver\\BulkWrite::\_\_construct »](mongodb-driver-bulkwrite.construct.html)
+-   [MongoDBDriverBulkWrite::construct »](mongodb-driver-bulkwrite.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverBulkWrite
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **MongoDBDriverBulkWrite** збирає одну або кілька операцій запису, які мають бути надіслані на сервер. Після додавання будь-якої кількості операцій вставки, оновлення або видалення колекція може бути виконана за допомогою [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
+Клас **MongoDBDriverBulkWrite** збирає одну або кілька операцій запису, які мають бути надіслані на сервер. Після додавання будь-якої кількості операцій вставки, оновлення або видалення колекція може бути виконана за допомогою [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
 
 Операції запису можуть бути відсортовані (за замовчуванням) або відсортовані. Відсортовані операції запису надсилаються на сервер у вказаному порядку для послідовного виконання. У разі виникнення помилки запису, будь-які операції, що залишилися, будуть перервані. Невідсортовані операції надсилаються на сервер у довільному порядку, де вони можуть виконуватися паралельно. Повідомлення про помилки, які виникають, будуть надіслані після виконання всіх операцій.
 
@@ -163,16 +163,16 @@ Updated  2 document(s)
 
 ## Дивіться також
 
--   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
--   [MongoDB\\Driver\\WriteConcernError](class.mongodb-driver-writeconcernerror.html)
--   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html)
+-   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html)
+-   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
 
 ## Зміст
 
--   [MongoDB\\Driver\\BulkWrite::\_\_construct](mongodb-driver-bulkwrite.construct.html) — Створює новий об'єкт BulkWrite
--   [MongoDB\\Driver\\BulkWrite::count](mongodb-driver-bulkwrite.count.html) - Підраховує кількість операцій запису в порції
--   [MongoDB\\Driver\\BulkWrite::delete](mongodb-driver-bulkwrite.delete.html) — Додавання операції видалення порції
--   [MongoDB\\Driver\\BulkWrite::insert](mongodb-driver-bulkwrite.insert.html) - Додати операцію вставки в порцію
--   [MongoDB\\Driver\\BulkWrite::update](mongodb-driver-bulkwrite.update.html) — Додати операцію оновлення до порції
+-   [MongoDBDriverBulkWrite::construct](mongodb-driver-bulkwrite.construct.html) — Створює новий об'єкт BulkWrite
+-   [MongoDBDriverBulkWrite::count](mongodb-driver-bulkwrite.count.html) - Підраховує кількість операцій запису в порції
+-   [MongoDBDriverBulkWrite::delete](mongodb-driver-bulkwrite.delete.html) — Додавання операції видалення порції
+-   [MongoDBDriverBulkWrite::insert](mongodb-driver-bulkwrite.insert.html) - Додати операцію вставки в порцію
+-   [MongoDBDriverBulkWrite::update](mongodb-driver-bulkwrite.update.html) — Додати операцію оновлення до порції

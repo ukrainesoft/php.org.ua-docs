@@ -1,8 +1,8 @@
 Зменшити збережене число
 
--   [« apcu\_clear\_cache](function.apcu-clear-cache.html)
+-   [« apcuclearcache](function.apcu-clear-cache.html)
     
--   [apcu\_delete »](function.apcu-delete.html)
+-   [apcudelete »](function.apcu-delete.html)
     
 -   [PHP Manual](index.html)
     
@@ -93,4 +93,4 @@ bool(false)
 
 ### Дивіться також
 
--   [apcu\_inc()](function.apcu-inc.html) - Збільшити збережене число
+-   [apcuinc()](function.apcu-inc.html) - Збільшити збережене число

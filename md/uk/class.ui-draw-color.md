@@ -1,12 +1,12 @@
 Подання кольору
 
--   [« UI\\Draw\\Matrix::translate](ui-draw-matrix.translate.html)
+-   [« UIDrawMatrix::translate](ui-draw-matrix.translate.html)
     
--   [UI\\Draw\\Color::\_\_construct »](ui-draw-color.construct.html)
+-   [ОЙDrawColor::construct »](ui-draw-color.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Подання кольору
     
@@ -115,6 +115,6 @@ public setChannel(int $channel, float $value): void
 
 ## Зміст
 
--   [UI\\Draw\\Color::\_\_construct](ui-draw-color.construct.html) — Створити новий об'єкт Color
--   [UI\\Draw\\Color::getChannel](ui-draw-color.getchannel.html) - Управління кольором
--   [UI\\Draw\\Color::setChannel](ui-draw-color.setchannel.html) - Управління кольором
+-   [ОЙDrawColor::construct](ui-draw-color.construct.html) — Створити новий об'єкт Color
+-   [ОЙDrawColor::getChannel](ui-draw-color.getchannel.html) - Управління кольором
+-   [ОЙDrawColor::setChannel](ui-draw-color.setchannel.html) - Управління кольором

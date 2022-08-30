@@ -1,6 +1,6 @@
 Деструктор
 
--   [« SolrQueryResponse::\_\_construct](solrqueryresponse.construct.html)
+-   [« SolrQueryResponse::construct](solrqueryresponse.construct.html)
     
 -   [SolrUpdateResponse »](class.solrupdateresponse.html)
     

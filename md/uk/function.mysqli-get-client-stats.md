@@ -1,12 +1,12 @@
 Отримати клієнтську попроцесну статистику
 
--   [« mysqli\_execute](function.mysqli-execute.html)
+-   [« mysqliexecute](function.mysqli-execute.html)
     
--   [mysqli\_get\_links\_stats »](function.mysqli-get-links-stats.html)
+-   [mysqligetlinksstats »](function.mysqli-get-links-stats.html)
     
 -   [PHP Manual](index.html)
     
--   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+-   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
     
 -   Отримати клієнтську попроцесну статистику
     

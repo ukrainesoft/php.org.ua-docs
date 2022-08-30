@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](csprng.constants.html)
     
--   [random\_bytes »](function.random-bytes.html)
+-   [randombytes »](function.random-bytes.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [random\_bytes](function.random-bytes.html) — Генерує криптографічно безпечні псевдовипадкові байти
--   [random\_int](function.random-int.html) — Генерує криптографічно безпечні псевдовипадкові цілі числа
+-   [randombytes](function.random-bytes.html) — Генерує криптографічно безпечні псевдовипадкові байти
+-   [randomint](function.random-int.html) — Генерує криптографічно безпечні псевдовипадкові цілі числа

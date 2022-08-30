@@ -43,11 +43,11 @@ rar_comment_get(RarArchive $rarfile): string
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [rar\_open()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
 
 ### Значення, що повертаються
 
-Повертає коментар або **`null`**якщо його немає.
+Повертає коментар або \*\*`null`\*\*якщо його немає.
 
 > **Зауваження**
 > 

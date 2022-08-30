@@ -1,8 +1,8 @@
 Генерує псевдовипадкову послідовність байт
 
--   [« openssl\_public\_encrypt](function.openssl-public-encrypt.html)
+-   [« opensslpublicencrypt](function.openssl-public-encrypt.html)
     
--   [openssl\_seal »](function.openssl-seal.html)
+-   [opensslseal »](function.openssl-seal.html)
     
 -   [PHP Manual](index.html)
     
@@ -91,8 +91,8 @@ bool(true)
 
 ### Дивіться також
 
--   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
 -   [bin2hex()](function.bin2hex.html) - Перетворює бінарні дані на шістнадцяткове подання
 -   [crypt()](function.crypt.html) - Необоротне хешування рядка
--   [mt\_rand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
 -   [uniqid()](function.uniqid.html) - Згенерувати унікальний ID

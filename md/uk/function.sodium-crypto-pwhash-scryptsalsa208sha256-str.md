@@ -1,8 +1,8 @@
 Отримати закодований в ASCII хеш
 
--   [« sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
+-   [« sodiumcryptopwhashscryptsalsa208sha256strverify](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
     
--   [sodium\_crypto\_pwhash\_scryptsalsa208sha256 »](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
+-   [sodiumcryptopwhashscryptsalsa208sha256 »](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
     
 -   [PHP Manual](index.html)
     

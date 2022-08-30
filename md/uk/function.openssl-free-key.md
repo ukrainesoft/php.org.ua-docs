@@ -1,8 +1,8 @@
 Вивільнення ресурсу ключа
 
--   [« openssl\_error\_string](function.openssl-error-string.html)
+-   [« opensslerrorstring](function.openssl-error-string.html)
     
--   [openssl\_get\_cert\_locations »](function.openssl-get-cert-locations.html)
+-   [opensslgetcertlocations »](function.openssl-get-cert-locations.html)
     
 -   [PHP Manual](index.html)
     

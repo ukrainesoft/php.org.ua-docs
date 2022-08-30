@@ -1,12 +1,12 @@
 Оновлення всіх значень застосуванням до них переданої callback-функції
 
--   [« Ds\\Sequence::allocate](ds-sequence.allocate.html)
+-   [« DsSequence::allocate](ds-sequence.allocate.html)
     
--   [Ds\\Sequence::capacity »](ds-sequence.capacity.html)
+-   [ДсSequence::capacity »](ds-sequence.capacity.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Оновлення всіх значень застосуванням до них переданої callback-функції
     

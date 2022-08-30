@@ -1,8 +1,8 @@
 Отримати інформацію про схему
 
--   [« PDO\_CUBRID DSN](ref.pdo-cubrid.connection.html)
+-   [« PDOCUBRID DSN](ref.pdo-cubrid.connection.html)
     
--   [MS SQL Server (PDO\_DBLIB) »](ref.pdo-dblib.html)
+-   [MS SQL Server (PDODBLIB) »](ref.pdo-dblib.html)
     
 -   [PHP Manual](index.html)
     

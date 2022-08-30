@@ -2,7 +2,7 @@
 
 -   [« DOMDocumentType](class.domdocumenttype.html)
     
--   [DOMElement::\_\_construct »](domelement.construct.html)
+-   [DOMElement::construct »](domelement.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -224,11 +224,11 @@ tagName
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
 
 ## Зміст
 
--   [DOMElement::\_\_construct](domelement.construct.html) — Створює новий екземпляр класу DOMElement
+-   [DOMElement::construct](domelement.construct.html) — Створює новий екземпляр класу DOMElement
 -   [DOMElement::getAttribute](domelement.getattribute.html) — Повертає значення атрибуту
 -   [DOMElement::getAttributeNode](domelement.getattributenode.html) - Повертає вузол атрибуту
 -   [DOMElement::getAttributeNodeNS](domelement.getattributenodens.html) - Повертає вузол атрибуту

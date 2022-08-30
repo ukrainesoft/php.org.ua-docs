@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](var.resources.html)
     
--   [Функции для работы с переменными »](ref.var.html)
+-   [Функції для роботи зі змінними »](ref.var.html)
     
 -   [PHP Manual](index.html)
     

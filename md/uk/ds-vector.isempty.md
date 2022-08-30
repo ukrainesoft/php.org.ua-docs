@@ -1,8 +1,8 @@
 Перевіряє, чи порожній вектор
 
--   [« Ds\\Vector::insert](ds-vector.insert.html)
+-   [« DsVector::insert](ds-vector.insert.html)
     
--   [Ds\\Vector::join »](ds-vector.join.html)
+-   [ДсVector::join »](ds-vector.join.html)
     
 -   [PHP Manual](index.html)
     

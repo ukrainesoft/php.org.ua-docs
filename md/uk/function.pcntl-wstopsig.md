@@ -1,12 +1,12 @@
 Отримати сигнал, через який було зупинено дочірній процес
 
--   [« pcntl\_wifstopped](function.pcntl-wifstopped.html)
+-   [pcntlwifstopped](function.pcntl-wifstopped.html)
     
--   [pcntl\_wtermsig »](function.pcntl-wtermsig.html)
+-   [pcntlwtermsig »](function.pcntl-wtermsig.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Отримати сигнал, через який було зупинено дочірній процес
     
@@ -23,13 +23,13 @@ pcntlwstopsig — Отримати сигнал, через який було з
 pcntl_wstopsig(int $status): int|false
 ```
 
-Повертає сигнал, через який було зупинено дочірній процес. Функція має сенс лише якщо [pcntl\_wifstopped()](function.pcntl-wifstopped.html) повернула **`true`**
+Повертає сигнал, через який було зупинено дочірній процес. Функція має сенс лише якщо [pcntlwifstopped()](function.pcntl-wifstopped.html) повернула **`true`**
 
 ### Список параметрів
 
 `status`
 
-Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.html)
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ pcntl_wstopsig(int $status): int|false
 
 ### Дивіться також
 
--   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntl\_wifstopped()](function.pcntl-wifstopped.html) - Перевірити, чи зупинено дочірній процес
+-   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlwifstopped()](function.pcntl-wifstopped.html) - Перевірити, чи зупинено дочірній процес

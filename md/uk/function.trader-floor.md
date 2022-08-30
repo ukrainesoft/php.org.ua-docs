@@ -1,8 +1,8 @@
 Вектор найменшого числа
 
--   [« trader\_exp](function.trader-exp.html)
+-   [« traderexp](function.trader-exp.html)
     
--   [trader\_get\_compat »](function.trader-get-compat.html)
+-   [tradergetcompat »](function.trader-get-compat.html)
     
 -   [PHP Manual](index.html)
     

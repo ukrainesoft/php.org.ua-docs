@@ -1,12 +1,12 @@
 Видаляє та повертає перше значення
 
--   [« Ds\\Sequence::set](ds-sequence.set.html)
+-   [« DsSequence::set](ds-sequence.set.html)
     
--   [Ds\\Sequence::slice »](ds-sequence.slice.html)
+-   [ДсSequence::slice »](ds-sequence.slice.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Видаляє та повертає перше значення
     

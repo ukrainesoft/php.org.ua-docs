@@ -1,8 +1,8 @@
 Просте ковзне середнє
 
--   [« trader\_sinh](function.trader-sinh.html)
+-   [« tradersinh](function.trader-sinh.html)
     
--   [trader\_sqrt »](function.trader-sqrt.html)
+-   [tradersqrt »](function.trader-sqrt.html)
     
 -   [PHP Manual](index.html)
     

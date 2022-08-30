@@ -1,12 +1,12 @@
 Відправляє відповідь
 
--   [« Yaf\_Response\_Abstract::prependBody](yaf-response-abstract.prependbody.html)
+-   [« YafResponseAbstract::prependBody](yaf-response-abstract.prependbody.html)
     
--   [Yaf\_Response\_Abstract::setAllHeaders »](yaf-response-abstract.setallheaders.html)
+-   [YafResponseAbstract::setAllHeaders »](yaf-response-abstract.setallheaders.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Відправляє відповідь
     
@@ -53,5 +53,5 @@ $response->response();
 
 ### Дивіться також
 
--   [Yaf\_Response\_Abstract::setBody()](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
--   [Yaf\_Response\_Abstract::clearBody()](yaf-response-abstract.clearbody.html) - скидає все існуюче тіло відповіді
+-   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
+-   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.html) - скидає все існуюче тіло відповіді

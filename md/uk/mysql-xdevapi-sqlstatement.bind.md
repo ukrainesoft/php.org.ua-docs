@@ -1,12 +1,12 @@
 Зв'язує параметри затвердження
 
--   [« mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+-   [« mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
     
--   [SqlStatement::\_\_construct »](mysql-xdevapi-sqlstatement.construct.html)
+-   [SqlStatement::construct »](mysql-xdevapi-sqlstatement.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+-   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
     
 -   Зв'язує параметри затвердження
     

@@ -2,7 +2,7 @@
 
 -   [« SolrDocument::current](solrdocument.current.html)
     
--   [SolrDocument::\_\_destruct »](solrdocument.destruct.html)
+-   [SolrDocument::destruct »](solrdocument.destruct.html)
     
 -   [PHP Manual](index.html)
     

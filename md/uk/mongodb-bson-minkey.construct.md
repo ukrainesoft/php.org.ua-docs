@@ -1,12 +1,12 @@
 Конструктор MinKey
 
--   [« MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+-   [« MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
     
--   [MongoDB\\BSON\\MinKey::jsonSerialize »](mongodb-bson-minkey.jsonserialize.html)
+-   [MongoDBBSONMinKey::jsonSerialize »](mongodb-bson-minkey.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+-   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
     
 -   Конструктор MinKey
     
@@ -29,7 +29,7 @@ final public MongoDB\BSON\MinKey::__construct()
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

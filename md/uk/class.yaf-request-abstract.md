@@ -1,8 +1,8 @@
 Клас YafRequestAbstract
 
--   [« Yaf\_Registry::set](yaf-registry.set.html)
+-   [« YafRegistry::set](yaf-registry.set.html)
     
--   [Yaf\_Request\_Abstract::clearParams »](yaf-request-abstract.clearparams.html)
+-   [YafRequestAbstract::clearParams »](yaf-request-abstract.clearparams.html)
     
 -   [PHP Manual](index.html)
     
@@ -144,33 +144,33 @@ routed
 
 ## Зміст
 
--   [Yaf\_Request\_Abstract::clearParams](yaf-request-abstract.clearparams.html) — Видаляє всі параметри
--   [Yaf\_Request\_Abstract::getActionName](yaf-request-abstract.getactionname.html) — Призначення getActionName
--   [Yaf\_Request\_Abstract::getBaseUri](yaf-request-abstract.getbaseuri.html) - Призначення getBaseUri
--   [Yaf\_Request\_Abstract::getControllerName](yaf-request-abstract.getcontrollername.html) — Призначення getControllerName
--   [Yaf\_Request\_Abstract::getEnv](yaf-request-abstract.getenv.html) — Отримує змінну ENV
--   [Yaf\_Request\_Abstract::getException](yaf-request-abstract.getexception.html) - Призначення getException
--   [Yaf\_Request\_Abstract::getLanguage](yaf-request-abstract.getlanguage.html) — Отримує кращу мову клієнта
--   [Yaf\_Request\_Abstract::getMethod](yaf-request-abstract.getmethod.html) — Отримує метод запиту
--   [Yaf\_Request\_Abstract::getModuleName](yaf-request-abstract.getmodulename.html) — Призначення getModuleName
--   [Yaf\_Request\_Abstract::getParam](yaf-request-abstract.getparam.html) — Отримує параметр дзвінка
--   [Yaf\_Request\_Abstract::getParams](yaf-request-abstract.getparams.html) — Отримує всі параметри дзвінка
--   [Yaf\_Request\_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.html) - Призначення getRequestUri
--   [Yaf\_Request\_Abstract::getServer](yaf-request-abstract.getserver.html) — Отримує змінну SERVER
--   [Yaf\_Request\_Abstract::isCli](yaf-request-abstract.iscli.html) — Визначає, чи є запит CLI-запитом
--   [Yaf\_Request\_Abstract::isDispatched](yaf-request-abstract.isdispatched.html) — Визначає, чи надіслано запит.
--   [Yaf\_Request\_Abstract::isGet](yaf-request-abstract.isget.html) - Визначає, чи є запит GET-запитом
--   [Yaf\_Request\_Abstract::isHead](yaf-request-abstract.ishead.html) - Визначає, чи є запит HEAD-запитом
--   [Yaf\_Request\_Abstract::isOptions](yaf-request-abstract.isoptions.html) — Визначає, чи є запит OPTIONS-запитом
--   [Yaf\_Request\_Abstract::isPost](yaf-request-abstract.ispost.html) — Визначає, чи запит POST-запитом.
--   [Yaf\_Request\_Abstract::isPut](yaf-request-abstract.isput.html) - Визначає, чи є запит PUT-запитом
--   [Yaf\_Request\_Abstract::isRouted](yaf-request-abstract.isrouted.html) — Визначає, чи запит надіслано
--   [Yaf\_Request\_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом
--   [Yaf\_Request\_Abstract::setActionName](yaf-request-abstract.setactionname.html) - Встановлює ім'я дії
--   [Yaf\_Request\_Abstract::setBaseUri](yaf-request-abstract.setbaseuri.html) - Встановлює базовий URI
--   [Yaf\_Request\_Abstract::setControllerName](yaf-request-abstract.setcontrollername.html) - Встановлює ім'я контролера
--   [Yaf\_Request\_Abstract::setDispatched](yaf-request-abstract.setdispatched.html) - Призначення setDispatched
--   [Yaf\_Request\_Abstract::setModuleName](yaf-request-abstract.setmodulename.html) - Встановлює ім'я модуля
--   [Yaf\_Request\_Abstract::setParam](yaf-request-abstract.setparam.html) — Встановлює дзвінок для запиту
--   [Yaf\_Request\_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.html) - Призначення setRequestUri
--   [Yaf\_Request\_Abstract::setRouted](yaf-request-abstract.setrouted.html) — Призначення setRouted
+-   [YafRequestAbstract::clearParams](yaf-request-abstract.clearparams.html) — Видаляє всі параметри
+-   [YafRequestAbstract::getActionName](yaf-request-abstract.getactionname.html) — Призначення getActionName
+-   [YafRequestAbstract::getBaseUri](yaf-request-abstract.getbaseuri.html) - Призначення getBaseUri
+-   [YafRequestAbstract::getControllerName](yaf-request-abstract.getcontrollername.html) — Призначення getControllerName
+-   [YafRequestAbstract::getEnv](yaf-request-abstract.getenv.html) — Отримує змінну ENV
+-   [YafRequestAbstract::getException](yaf-request-abstract.getexception.html) - Призначення getException
+-   [YafRequestAbstract::getLanguage](yaf-request-abstract.getlanguage.html) — Отримує кращу мову клієнта
+-   [YafRequestAbstract::getMethod](yaf-request-abstract.getmethod.html) — Отримує метод запиту
+-   [YafRequestAbstract::getModuleName](yaf-request-abstract.getmodulename.html) — Призначення getModuleName
+-   [YafRequestAbstract::getParam](yaf-request-abstract.getparam.html) — Отримує параметр дзвінка
+-   [YafRequestAbstract::getParams](yaf-request-abstract.getparams.html) — Отримує всі параметри дзвінка
+-   [YafRequestAbstract::getRequestUri](yaf-request-abstract.getrequesturi.html) - Призначення getRequestUri
+-   [YafRequestAbstract::getServer](yaf-request-abstract.getserver.html) — Отримує змінну SERVER
+-   [YafRequestAbstract::isCli](yaf-request-abstract.iscli.html) — Визначає, чи є запит CLI-запитом
+-   [YafRequestAbstract::isDispatched](yaf-request-abstract.isdispatched.html) — Визначає, чи надіслано запит.
+-   [YafRequestAbstract::isGet](yaf-request-abstract.isget.html) - Визначає, чи є запит GET-запитом
+-   [YafRequestAbstract::isHead](yaf-request-abstract.ishead.html) - Визначає, чи є запит HEAD-запитом
+-   [YafRequestAbstract::isOptions](yaf-request-abstract.isoptions.html) — Визначає, чи є запит OPTIONS-запитом
+-   [YafRequestAbstract::isPost](yaf-request-abstract.ispost.html) — Визначає, чи запит POST-запитом.
+-   [YafRequestAbstract::isPut](yaf-request-abstract.isput.html) - Визначає, чи є запит PUT-запитом
+-   [YafRequestAbstract::isRouted](yaf-request-abstract.isrouted.html) — Визначає, чи запит надіслано
+-   [YafRequestAbstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом
+-   [YafRequestAbstract::setActionName](yaf-request-abstract.setactionname.html) - Встановлює ім'я дії
+-   [YafRequestAbstract::setBaseUri](yaf-request-abstract.setbaseuri.html) - Встановлює базовий URI
+-   [YafRequestAbstract::setControllerName](yaf-request-abstract.setcontrollername.html) - Встановлює ім'я контролера
+-   [YafRequestAbstract::setDispatched](yaf-request-abstract.setdispatched.html) - Призначення setDispatched
+-   [YafRequestAbstract::setModuleName](yaf-request-abstract.setmodulename.html) - Встановлює ім'я модуля
+-   [YafRequestAbstract::setParam](yaf-request-abstract.setparam.html) — Встановлює дзвінок для запиту
+-   [YafRequestAbstract::setRequestUri](yaf-request-abstract.setrequesturi.html) - Призначення setRequestUri
+-   [YafRequestAbstract::setRouted](yaf-request-abstract.setrouted.html) — Призначення setRouted

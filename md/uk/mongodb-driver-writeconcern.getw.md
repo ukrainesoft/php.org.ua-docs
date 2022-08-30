@@ -1,12 +1,12 @@
 Повертає опцію "w" WriteConcern
 
--   [« MongoDB\\Driver\\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.html)
+-   [« MongoDBDriverWriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.html)
     
--   [MongoDB\\Driver\\WriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.html)
+-   [MongoDBDriverWriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
 -   Повертає опцію "w" WriteConcern
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::getW(): string|int|null
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

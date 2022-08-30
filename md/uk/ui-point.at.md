@@ -1,12 +1,12 @@
 Приведення Size
 
--   [« UI\\Point](class.ui-point.html)
+-   [« UIPoint](class.ui-point.html)
     
--   [UI\\Point::\_\_construct »](ui-point.construct.html)
+-   [ОЙPoint::construct »](ui-point.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Point](class.ui-point.html)
+-   [ОЙPoint](class.ui-point.html)
     
 -   Приведення Size
     

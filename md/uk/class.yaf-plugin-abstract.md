@@ -1,8 +1,8 @@
 Клас YafPluginAbstract
 
--   [« Yaf\_Loader::setLibraryPath](yaf-loader.setlibrarypath.html)
+-   [« YafLoader::setLibraryPath](yaf-loader.setlibrarypath.html)
     
--   [Yaf\_Plugin\_Abstract::dispatchLoopShutdown »](yaf-plugin-abstract.dispatchloopshutdown.html)
+-   [YafPluginAbstract::dispatchLoopShutdown »](yaf-plugin-abstract.dispatchloopshutdown.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,7 +21,7 @@
 
 Плагіни є класами. Визначення класу змінюватиметься в залежності від компонента - вам може знадобитися реалізувати цей інтерфейс, але факт залишається фактом, плагін сам є класом.
 
-Плагін повинен бути завантажений у Yaf з використанням [Yaf\_Dispatcher::registerPlugin()](yaf-dispatcher.registerplugin.html). Після реєстрації всі методи, реалізовані плагіном відповідно до цього інтерфейсу, будуть викликатися вчасно.
+Плагін повинен бути завантажений у Yaf з використанням [YafDispatcher::registerPlugin()](yaf-dispatcher.registerplugin.html). Після реєстрації всі методи, реалізовані плагіном відповідно до цього інтерфейсу, будуть викликатися вчасно.
 
 ## Приклади
 
@@ -119,10 +119,10 @@ public routerStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $respo
 
 ## Зміст
 
--   [Yaf\_Plugin\_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.html) — Призначення dispatchLoopShutdown
--   [Yaf\_Plugin\_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.html) - Хук перед відправкою циклу
--   [Yaf\_Plugin\_Abstract::postDispatch](yaf-plugin-abstract.postdispatch.html) - Призначення postDispatch
--   [Yaf\_Plugin\_Abstract::preDispatch](yaf-plugin-abstract.predispatch.html) - Призначення preDispatch
--   [Yaf\_Plugin\_Abstract::preResponse](yaf-plugin-abstract.preresponse.html) - Призначення preResponse
--   [Yaf\_Plugin\_Abstract::routerShutdown](yaf-plugin-abstract.routershutdown.html) - Призначення routerShutdown
--   [Yaf\_Plugin\_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.html) - Перехоплювач RouterStartup
+-   [YafPluginAbstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.html) — Призначення dispatchLoopShutdown
+-   [YafPluginAbstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.html) - Хук перед відправкою циклу
+-   [YafPluginAbstract::postDispatch](yaf-plugin-abstract.postdispatch.html) - Призначення postDispatch
+-   [YafPluginAbstract::preDispatch](yaf-plugin-abstract.predispatch.html) - Призначення preDispatch
+-   [YafPluginAbstract::preResponse](yaf-plugin-abstract.preresponse.html) - Призначення preResponse
+-   [YafPluginAbstract::routerShutdown](yaf-plugin-abstract.routershutdown.html) - Призначення routerShutdown
+-   [YafPluginAbstract::routerStartup](yaf-plugin-abstract.routerstartup.html) - Перехоплювач RouterStartup

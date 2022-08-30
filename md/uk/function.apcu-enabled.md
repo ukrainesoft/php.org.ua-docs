@@ -1,8 +1,8 @@
 Чи можливо використовувати APCu у поточному оточенні
 
--   [« apcu\_delete](function.apcu-delete.html)
+-   [« apcudelete](function.apcu-delete.html)
     
--   [apcu\_entry »](function.apcu-entry.html)
+-   [apcuentry »](function.apcu-entry.html)
     
 -   [PHP Manual](index.html)
     

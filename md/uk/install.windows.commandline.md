@@ -31,7 +31,7 @@ C:\php\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3
 > 
 > І PATH, і PATHEXT є важливими змінними, які спочатку існували у Windows, і слід подбати про те, щоб не перезаписувати жодну зі змінних, а лише додавати до них.
 
--   Додайте розташування файлу PHP (php.exe, php-win.exe або php-cli.exe залежно від вашої версії PHP і переваг відображення) в змінну оточення PATH. Докладніше про те, як додати каталог PHP до PATH, читайте в [соответствующей записи часто задаваемых вопросов](faq.installation.html#faq.installation.addtopath)
+-   Додайте розташування файлу PHP (php.exe, php-win.exe або php-cli.exe залежно від вашої версії PHP і переваг відображення) в змінну оточення PATH. Докладніше про те, як додати каталог PHP до PATH, читайте в [відповідного запису часто задаваних питань](faq.installation.html#faq.installation.addtopath)
     
 -   Додати розширення `.PHP` до змінної оточення PATHEXT. Це можна зробити одночасно із зміною змінної оточення PATH. Виконайте ті ж дії, що і в [ЧАВО](faq.installation.html#faq.installation.addtopath), але змініть змінну оточення PATHEXT, а не PATH.
     
@@ -119,4 +119,4 @@ script -arg1 -arg2 -arg3
 > "InheritConsoleHandles"=dword:00000001
 > ```
 > 
-> Додаткову інформацію щодо цієї проблеми можна знайти в цій [»  статье базы знаний Microsoft : 321788](http://support.microsoft.com/default.aspx?scid=kb;en-us;321788). У Windows 10 цей параметр змінено на протилежний, і стандартне встановлення Windows 10 підтримує успадковані дескриптори консолі. Це [»  сообщение на форуме Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console?forum=windowssdk) надає пояснення.
+> Додаткову інформацію щодо цієї проблеми можна знайти в цій [» статті бази знань Microsoft : 321788](http://support.microsoft.com/default.aspx?scid=kb;en-us;321788). У Windows 10 цей параметр змінено на протилежний, і стандартне встановлення Windows 10 підтримує успадковані дескриптори консолі. Це [»  сообщение на форуме Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console?forum=windowssdk) надає пояснення.

@@ -2,7 +2,7 @@
 
 -   [« Перегрузка](language.oop5.overloading.html)
     
--   [Магические методы »](language.oop5.magic.html)
+-   [Магічні методи »](language.oop5.magic.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@
 
 ## Ітератори об'єктів
 
-PHP надає такий спосіб оголошення об'єктів, який дає можливість пройти за списком елементів даного об'єкта, наприклад, за допомогою оператора [foreach](control-structures.foreach.html). За умовчанням, у цьому обході (ітерації) братимуть участь усі [видимые](language.oop5.visibility.html) характеристики об'єкта.
+PHP надає такий спосіб оголошення об'єктів, який дає можливість пройти за списком елементів даного об'єкта, наприклад, за допомогою оператора [foreach](control-structures.foreach.html). За умовчанням, у цьому обході (ітерації) братимуть участь усі [видимі](language.oop5.visibility.html) характеристики об'єкта.
 
 **Приклад #1 Ітерація простого об'єкта**
 
@@ -64,11 +64,11 @@ protected => защищённая переменная
 private => закрытая переменная
 ```
 
-Як показує результат, [foreach](control-structures.foreach.html) проітерував усі доступні та належать об'єкту [видимые](language.oop5.visibility.html) властивості.
+Як показує результат, [foreach](control-structures.foreach.html) проітерував усі доступні та належать об'єкту [видимі](language.oop5.visibility.html) властивості.
 
 ### Дивіться також
 
 -   [Генераторы](language.generators.html)
 -   [Iterator](class.iterator.html)
 -   [IteratorAggregate](class.iteratoraggregate.html)
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)

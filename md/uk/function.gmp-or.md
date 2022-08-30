@@ -1,12 +1,12 @@
 Побітове АБО
 
--   [« gmp\_nextprime](function.gmp-nextprime.html)
+-   [« gmpnextprime](function.gmp-nextprime.html)
     
--   [gmp\_perfect\_power »](function.gmp-perfect-power.html)
+-   [gmpperfectpower »](function.gmp-perfect-power.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Побітове АБО
     

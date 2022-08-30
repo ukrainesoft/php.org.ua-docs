@@ -1,12 +1,12 @@
 Знищити керуючий елемент
 
--   [« UI\\Control](class.ui-control.html)
+-   [« UIControl](class.ui-control.html)
     
--   [UI\\Control::disable »](ui-control.disable.html)
+-   [ОЙControl::disable »](ui-control.disable.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Знищити керуючий елемент
     

@@ -1,12 +1,12 @@
 Передає дані клієнту websocket
 
--   [« Swoole\\Http\\Client::post](swoole-http-client.post.html)
+-   [« SwooleHttpClient::post](swoole-http-client.post.html)
     
--   [Swoole\\Http\\Client::set »](swoole-http-client.set.html)
+-   [SwooleHttpClient::set »](swoole-http-client.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Передає дані клієнту websocket
     

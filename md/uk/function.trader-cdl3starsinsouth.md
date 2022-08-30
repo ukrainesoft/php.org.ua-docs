@@ -1,8 +1,8 @@
 Три південні зірки
 
--   [« trader\_cdl3outside](function.trader-cdl3outside.html)
+-   [« tradercdl3outside](function.trader-cdl3outside.html)
     
--   [trader\_cdl3whitesoldiers »](function.trader-cdl3whitesoldiers.html)
+-   [tradercdl3whitesoldiers »](function.trader-cdl3whitesoldiers.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Каталоги
 
--   [« dio\_write](function.dio-write.html)
+-   [« diowrite](function.dio-write.html)
     
 -   [Установка и настройка »](dir.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с файловой системой](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
     
 -   Каталоги
     
@@ -23,7 +23,7 @@
     -   [Directory::close](directory.close.html) — Закриває дескриптор каталогу
     -   [Directory::read](directory.read.html) — Отримує елемент із дескриптора каталогу
     -   [Directory::rewind](directory.rewind.html) — Переміщує дескриптор каталогу на початок каталогу
--   [Функции для работы с каталогами](ref.dir.html)
+-   [Функції для роботи з каталогами](ref.dir.html)
     -   [chdir](function.chdir.html) - Змінює каталог
     -   [chroot](function.chroot.html) - Змінює кореневий каталог
     -   [closedir](function.closedir.html) — Закриває дескриптор каталогу

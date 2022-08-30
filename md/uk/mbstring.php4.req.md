@@ -2,11 +2,11 @@
 
 -   [« Механизм перегрузки функций](mbstring.overload.html)
     
--   [Функции для работы с многобайтовыми строками »](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками.](ref.mbstring.html)
     
 -   [PHP Manual](index.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   Вимоги до кодування символів у PHP
     

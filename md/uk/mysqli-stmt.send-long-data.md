@@ -1,12 +1,12 @@
 Надсилання даних блоками
 
--   [« mysqli\_stmt::result\_metadata](mysqli-stmt.result-metadata.html)
+-   [« mysqlistmt::resultmetadata](mysqli-stmt.result-metadata.html)
     
--   [mysqli\_stmt::$sqlstate »](mysqli-stmt.sqlstate.html)
+-   [mysqlistmt::$sqlstate »](mysqli-stmt.sqlstate.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Надсилання даних блоками
     
@@ -39,7 +39,7 @@ mysqli_stmt_send_long_data(mysqli_stmt $statement, int $param_num, string $data)
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 `param_num`
 
@@ -73,5 +73,5 @@ $stmt->execute();
 
 ### Дивіться також
 
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.

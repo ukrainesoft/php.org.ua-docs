@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Виводить інформацію про поточну конфігурацію PHP
     
@@ -25,7 +25,7 @@ phpinfo(int $flags = INFO_ALL): bool
 
 Виводить велику кількість інформації про поточний стан PHP. Сюди входить інформація про налаштування компіляції PHP, про модулі, про версію, інформація про сервер та середовище виконання (якщо PHP компілювався як модуль), оточення PHP, версії ОС, про шляхи, про основні та локальні значення налаштувань конфігурації, про HTTP-заголовки та ліцензії PHP.
 
-Так як кожна система має свої особливості, **phpinfo()** використовується в основному для перевірки [настроек конфигурации](configuration.html) та для перегляду доступних [предопределённых констант](language.variables.predefined.html) у цій системі.
+Так як кожна система має свої особливості, **phpinfo()** використовується в основному для перевірки [налаштувань конфігурації](configuration.html) та для перегляду доступних [предопределённых констант](language.variables.predefined.html) у цій системі.
 
 **phpinfo()** також використовується з метою налагодження, оскільки містить усі дані EGPCS (Environment, GET, POST, Cookie, Server).
 
@@ -33,7 +33,7 @@ phpinfo(int $flags = INFO_ALL): bool
 
 `flags`
 
-Виведення функції можна налаштовувати, передаючи бітову маску з однієї або більше наведених нижче констант (*constants*). Ця маска передається як необов'язковий аргумент `flags`. Окремі константи або бітові значення можна комбінувати за допомогою оператора [побитового оператора ИЛИ](language.operators.bitwise.html)
+Виведення функції можна налаштовувати, передаючи бітову маску з однієї або більше наведених нижче констант (*constants*). Ця маска передається як необов'язковий аргумент `flags`. Окремі константи або бітові значення можна комбінувати за допомогою оператора [побітового оператора АБО](language.operators.bitwise.html)
 
 **Налаштування **phpinfo()****
 
@@ -41,9 +41,9 @@ phpinfo(int $flags = INFO_ALL): bool
 |-------------------|----------|----------------------------------------------------------------------------------------------------------------------------------|
 | INFOGENERAL       |          | Рядок конфігурації, розташування php.ini, дата складання, сервер, система та ін.                                                 |
 | INFOCREDITS       |          | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.html)                                                          |
-| INFOCONFIGURATION |          | Поточні значення основних та локальних PHP директив. Дивіться також [ini\_get()](function.ini-get.html)                          |
-| INFOMODULES       |          | Завантажені модулі та їх налаштування. Дивіться також [get\_loaded\_extensions()](function.get-loaded-extensions.html)           |
-| INFOENVIRONMENT   |          | Інформація про змінні оточення, яка також доступна в [$\_ENV](reserved.variables.environment.html)                               |
+| INFOCONFIGURATION |          | Поточні значення основних та локальних PHP директив. Дивіться також [iniget()](function.ini-get.html)                            |
+| INFOMODULES       |          | Завантажені модулі та їх налаштування. Дивіться також [getloadedextensions()](function.get-loaded-extensions.html)               |
+| INFOENVIRONMENT   |          | Інформація про змінні оточення, яка також доступна в [ENV](reserved.variables.environment.html)                                  |
 | INFOVARIABLES     |          | Виводить все [предопределённые переменные](language.variables.predefined.html) з EGPCS (Environment, GET, POST, Cookie, Server). |
 | INFOLICENSE       |          | Інформація про ліцензію PHP. Дивіться також [» license FAQ](https://www.php.net/license/)                                        |
 | INFOALL           |          | Виводить все наведене вище.                                                                                                      |
@@ -73,7 +73,7 @@ phpinfo(INFO_MODULES);
 
 > **Зауваження**
 > 
-> У версіях PHP до 5.5 частина інформації не виводиться, якщо налаштування [expose\_php](ini.core.html#ini.expose-php) встановлена ​​в `off`. Це PHP та Zend логотипи та інформація про розробників.
+> У версіях PHP до 5.5 частина інформації не виводиться, якщо налаштування [exposephp](ini.core.html#ini.expose-php) встановлена ​​в `off`. Це PHP та Zend логотипи та інформація про розробників.
 
 > **Зауваження**
 > 
@@ -83,7 +83,7 @@ phpinfo(INFO_MODULES);
 
 -   [phpversion()](function.phpversion.html) - Отримує поточну версію PHP
 -   [phpcredits()](function.phpcredits.html) - Виводить список розробників PHP
--   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [ini\_set()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
 -   [Предопределённые переменные](language.variables.predefined.html)

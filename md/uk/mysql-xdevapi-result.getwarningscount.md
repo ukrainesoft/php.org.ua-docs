@@ -2,11 +2,11 @@
 
 -   [« Result::getWarnings](mysql-xdevapi-result.getwarnings.html)
     
--   [mysql\_xdevapi\\RowResult »](class.mysql-xdevapi-rowresult.html)
+-   [mysqlxdevapiRowResult »](class.mysql-xdevapi-rowresult.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Result](class.mysql-xdevapi-result.html)
+-   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
     
 -   Отримує кількість попереджень останньої операції
     

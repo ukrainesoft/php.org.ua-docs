@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumntyperaw - Псевдонім [oci\_field\_type\_raw()](function.oci-field-type-raw.html)
+ocicolumntyperaw - Псевдонім [ocifieldtyperaw()](function.oci-field-type-raw.html)
 
 ### Опис
 
-Псевдонім [oci\_field\_type\_raw()](function.oci-field-type-raw.html)
+Псевдонім [ocifieldtyperaw()](function.oci-field-type-raw.html)
 
 **Увага**
 

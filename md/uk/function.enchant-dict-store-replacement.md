@@ -1,8 +1,8 @@
 Додати виправлення для слова
 
--   [« enchant\_dict\_quick\_check](function.enchant-dict-quick-check.html)
+-   [« enchantdictquickcheck](function.enchant-dict-quick-check.html)
     
--   [enchant\_dict\_suggest »](function.enchant-dict-suggest.html)
+-   [enchantdictsuggest »](function.enchant-dict-suggest.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_dict_store_replacement(EnchantDictionary $dictionary, string $misspelled
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 `misspelled`
 

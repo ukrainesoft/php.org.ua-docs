@@ -1,12 +1,12 @@
 Отримати текст
 
--   [« UI\\Controls\\MultilineEntry::\_\_construct](ui-controls-multilineentry.construct.html)
+-   [« UIControlsMultilineEntry::construct](ui-controls-multilineentry.construct.html)
     
--   [UI\\Controls\\MultilineEntry::isReadOnly »](ui-controls-multilineentry.isreadonly.html)
+-   [ОЙControlsMultilineEntry::isReadOnly »](ui-controls-multilineentry.isreadonly.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html)
+-   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     
 -   Отримати текст
     

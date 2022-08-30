@@ -2,7 +2,7 @@
 
 -   [« Функции Scoutapm](ref.scoutapm.html)
     
--   [scoutapm\_list\_instrumented\_functions »](function.scoutapm-list-instrumented-functions.html)
+-   [scoutapmlistinstrumentedfunctions »](function.scoutapm-list-instrumented-functions.html)
     
 -   [PHP Manual](index.html)
     

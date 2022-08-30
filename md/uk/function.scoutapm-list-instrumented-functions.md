@@ -1,6 +1,6 @@
 Список функцій, які scoutapm буде використовувати
 
--   [« scoutapm\_get\_calls](function.scoutapm-get-calls.html)
+-   [« scoutapmgetcalls](function.scoutapm-get-calls.html)
     
 -   [SNMP »](book.snmp.html)
     

@@ -1,6 +1,6 @@
 Змінює контраст зображення
 
--   [« Imagick::\_\_construct](imagick.construct.html)
+-   [« Imagick::construct](imagick.construct.html)
     
 -   [Imagick::contrastStretchImage »](imagick.contraststretchimage.html)
     

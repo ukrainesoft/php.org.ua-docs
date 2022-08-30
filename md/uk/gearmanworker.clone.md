@@ -2,7 +2,7 @@
 
 -   [« GearmanWorker::addServers](gearmanworker.addservers.html)
     
--   [GearmanWorker::\_\_construct »](gearmanworker.construct.html)
+-   [GearmanWorker::construct »](gearmanworker.construct.html)
     
 -   [PHP Manual](index.html)
     

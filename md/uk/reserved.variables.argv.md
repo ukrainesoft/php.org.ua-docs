@@ -19,11 +19,11 @@ $argv — Масив переданих скрипту аргументів
 
 ### Опис
 
-Містить масив (array) всіх аргументів, переданих скрипту при запуску з [командной строки](features.commandline.html)
+Містить масив (array) всіх аргументів, переданих скрипту при запуску з [командного рядка](features.commandline.html)
 
 > **Зауваження**: Перший аргумент $argv завжди містить ім'я запущеного файлу скрипта.
 
-> **Зауваження**: Ця змінна недоступна, якщо [register\_argc\_argv](ini.core.html#ini.register-argc-argv) вимкнено.
+> **Зауваження**: Ця змінна недоступна, якщо [registerargcargv](ini.core.html#ini.register-argc-argv) вимкнено.
 
 ### Приклади
 
@@ -56,7 +56,7 @@ array(4) {
 
 > **Зауваження**
 > 
-> Також доступно як [$\_SERVER\['argv'\]](reserved.variables.server.html)
+> Також доступно як [SERVER\['argv'\]](reserved.variables.server.html)
 
 ### Дивіться також
 

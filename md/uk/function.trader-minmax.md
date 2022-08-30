@@ -1,8 +1,8 @@
 Найнижчі та найвищі значення за вказаний період
 
--   [« trader\_minindex](function.trader-minindex.html)
+-   [« traderminindex](function.trader-minindex.html)
     
--   [trader\_minmaxindex »](function.trader-minmaxindex.html)
+-   [traderminmaxindex »](function.trader-minmaxindex.html)
     
 -   [PHP Manual](index.html)
     

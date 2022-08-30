@@ -1,12 +1,12 @@
 Отримує один стовпець з наступного рядка набору результатів
 
--   [« mysqli\_result::fetch\_assoc](mysqli-result.fetch-assoc.html)
+-   [« mysqliresult::fetchassoc](mysqli-result.fetch-assoc.html)
     
--   [mysqli\_result::fetch\_field\_direct »](mysqli-result.fetch-field-direct.html)
+-   [mysqliresult::fetchfielddirect »](mysqli-result.fetch-field-direct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Отримує один стовпець з наступного рядка набору результатів
     
@@ -33,7 +33,7 @@ public mysqli_result::fetch_column(int $column = 0): null|int|float|string|false
 mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|string|false
 ```
 
-Вибирає один рядок даних із набору результатів і повертає стовпець із зазначеним індексом, починаючи з 0. Кожен наступний виклик цієї функції повертатиме значення з наступного рядка у наборі результатів або **`false`**якщо рядків більше немає.
+Вибирає один рядок даних із набору результатів і повертає стовпець із зазначеним індексом, починаючи з 0. Кожен наступний виклик цієї функції повертатиме значення з наступного рядка у наборі результатів або \*\*`false`\*\*якщо рядків більше немає.
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
@@ -41,7 +41,7 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `column`
 
@@ -49,7 +49,7 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 ### Значення, що повертаються
 
-Повертає один стовпець з наступного рядка набору результатів або **`false`**якщо рядків більше немає.
+Повертає один стовпець з наступного рядка набору результатів або \*\*`false`\*\*якщо рядків більше немає.
 
 **Увага**
 
@@ -99,9 +99,9 @@ Khan Yunis
 
 ### Дивіться також
 
--   [mysqli\_fetch\_all()](mysqli-result.fetch-all.html) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqli\_fetch\_object()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqli\_fetch\_row()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqli\_data\_seek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок
+-   [mysqlifetchall()](mysqli-result.fetch-all.html) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqlifetchobject()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqlifetchrow()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок

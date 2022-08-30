@@ -33,4 +33,4 @@ public Stringable::__toString(): string
 
 ### Дивіться також
 
--   [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.html#object.tostring)

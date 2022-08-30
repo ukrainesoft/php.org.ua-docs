@@ -1,8 +1,8 @@
 Отримання інформації про поточний стан системи
 
--   [« mysqli::ssl\_set](mysqli.ssl-set.html)
+-   [« mysqli::sslset](mysqli.ssl-set.html)
     
--   [mysqli::stmt\_init »](mysqli.stmt-init.html)
+-   [mysqli::stmtinit »](mysqli.stmt-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ mysqli_stat(mysqli $mysql): string|false
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -95,4 +95,4 @@ Memory in use: 8496K  Max memory used: 8560K
 
 ### Дивіться також
 
--   [mysqli\_get\_server\_info()](mysqli.get-server-info.html) - Повертає версію MySQL сервера
+-   [mysqligetserverinfo()](mysqli.get-server-info.html) - Повертає версію MySQL сервера

@@ -1,12 +1,12 @@
 Знищує порт сервера
 
--   [« Swoole\\Server\\Port::\_\_construct](swoole-server-port.construct.html)
+-   [« SwooleServerPort::construct](swoole-server-port.construct.html)
     
--   [Swoole\\Server\\Port::on »](swoole-server-port.on.html)
+-   [SwooleServerPort::on »](swoole-server-port.on.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Знищує порт сервера
     

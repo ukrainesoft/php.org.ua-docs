@@ -1,12 +1,12 @@
 Дозволяє керувати вимкненим опкодом exit
 
--   [« uopz\_add\_function](function.uopz-add-function.html)
+-   [« uopzaddfunction](function.uopz-add-function.html)
     
--   [uopz\_backup »](function.uopz-backup.html)
+-   [uopzbackup »](function.uopz-backup.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Дозволяє керувати вимкненим опкодом exit
     
@@ -63,4 +63,4 @@ echo 2;
 
 ### Дивіться також
 
--   [uopz\_get\_exit\_status()](function.uopz-get-exit-status.html) - Отримати останній встановлений статус виходу
+-   [uopzgetexitstatus()](function.uopz-get-exit-status.html) - Отримати останній встановлений статус виходу

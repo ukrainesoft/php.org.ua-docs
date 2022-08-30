@@ -1,8 +1,8 @@
 Кодує необроблений двійковий рядок за допомогою base64
 
--   [« sodium\_base642bin](function.sodium-base642bin.html)
+-   [« sodiumbase642bin](function.sodium-base642bin.html)
     
--   [sodium\_bin2hex »](function.sodium-bin2hex.html)
+-   [sodiumbin2hex »](function.sodium-bin2hex.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ sodiumbin2base64 — Кодує необроблений двійковий ря
 sodium_bin2base64(string $string, int $id): string
 ```
 
-Перетворює необроблений двійковий рядок у рядок у кодуванні base64. На відміну від [base64\_encode()](function.base64-encode.html) **sodiumbin2base64()** є постійною за часом (властивість, яка важлива для будь-якого коду, що стосується криптографічних вхідних даних, таких як прості тексти або ключі), і підтримує кілька наборів символів.
+Перетворює необроблений двійковий рядок у рядок у кодуванні base64. На відміну від [base64encode()](function.base64-encode.html) **sodiumbin2base64()** є постійною за часом (властивість, яка важлива для будь-якого коду, що стосується криптографічних вхідних даних, таких як прості тексти або ключі), і підтримує кілька наборів символів.
 
 ### Список параметрів
 

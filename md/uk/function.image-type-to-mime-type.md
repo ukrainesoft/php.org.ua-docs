@@ -1,12 +1,12 @@
 Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
 
--   [« image\_type\_to\_extension](function.image-type-to-extension.html)
+-   [« imagetypeтоextension](function.image-type-to-extension.html)
     
 -   [image2wbmp »](function.image2wbmp.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции GD и функции для работы с изображениями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     
 -   Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
     
@@ -77,6 +77,6 @@ header("Content-type: " . image_type_to_mime_type(IMAGETYPE_PNG));
 ### Дивіться також
 
 -   [getimagesize()](function.getimagesize.html) - Отримання розміру зображення
--   [exif\_imagetype()](function.exif-imagetype.html) - Визначте тип зображення.
--   [exif\_read\_data()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
--   [exif\_thumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
+-   [exifimagetype()](function.exif-imagetype.html) - Визначте тип зображення.
+-   [exifreaddata()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
+-   [exifthumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення

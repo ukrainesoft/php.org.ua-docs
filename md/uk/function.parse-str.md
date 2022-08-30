@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Розбирає рядок на змінні
     
@@ -94,11 +94,11 @@ echo $output['My_Value']; // Something
 
 > **Зауваження**
 > 
-> Для отримання поточної `QUERY_STRING`, можна використовувати змінну [$\_SERVER\['QUERY\_STRING'\]](reserved.variables.server.html). Крім того, можливо ви захочете прочитати розділ про [переменных вне PHP](language.variables.external.html)
+> Для отримання поточної `QUERY_STRING`, можна використовувати змінну [SERVER\['QUERYSTRING'\]](reserved.variables.server.html). Крім того, можливо ви захочете прочитати розділ про [переменных вне PHP](language.variables.external.html)
 
 ### Дивіться також
 
--   [parse\_url()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
 -   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
--   [http\_build\_query()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
+-   [httpbuildquery()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
 -   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка

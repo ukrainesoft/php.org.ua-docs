@@ -1,12 +1,12 @@
 Повертає колекцію в JSON-представництві
 
--   [« Ds\\Queue::isEmpty](ds-queue.isempty.html)
+-   [« DsQueue::isEmpty](ds-queue.isempty.html)
     
--   [Ds\\Queue::peek »](ds-queue.peek.html)
+-   [ДсQueue::peek »](ds-queue.peek.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Повертає колекцію в JSON-представництві
     

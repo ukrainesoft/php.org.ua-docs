@@ -1,12 +1,12 @@
 Встановити колір
 
--   [« UI\\Draw\\Text\\Layout::\_\_construct](ui-draw-text-layout.construct.html)
+-   [« UIDrawTextLayout::construct](ui-draw-text-layout.construct.html)
     
--   [UI\\Draw\\Text\\Layout::setWidth »](ui-draw-text-layout.setwidth.html)
+-   [ОЙDrawTextLayout::setWidth »](ui-draw-text-layout.setwidth.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Layout](class.ui-draw-text-layout.html)
+-   [ОЙDrawTextLayout](class.ui-draw-text-layout.html)
     
 -   Встановити колір
     

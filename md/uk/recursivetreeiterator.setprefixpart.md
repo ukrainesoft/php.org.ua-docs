@@ -33,7 +33,7 @@ public RecursiveTreeIterator::setPrefixPart(int $part, string $value): void
 
 `part`
 
-Одна з констант [RecursiveTreeIterator::PREFIX\_\*](class.recursivetreeiterator.html#recursivetreeiterator.constants)
+Одна з констант [RecursiveTreeIterator::PREFIX](class.recursivetreeiterator.html#recursivetreeiterator.constants)
 
 `value`
 

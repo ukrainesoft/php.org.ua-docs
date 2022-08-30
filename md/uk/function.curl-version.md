@@ -1,6 +1,6 @@
 Повертає версію cURL
 
--   [« curl\_unescape](function.curl-unescape.html)
+-   [« curlunescape](function.curl-unescape.html)
     
 -   [CurlHandle »](class.curlhandle.html)
     

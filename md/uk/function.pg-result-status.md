@@ -1,8 +1,8 @@
 Повертає стан результату запиту
 
--   [« pg\_result\_seek](function.pg-result-seek.html)
+-   [« pgresultseek](function.pg-result-seek.html)
     
--   [pg\_select »](function.pg-select.html)
+-   [пгselect »](function.pg-select.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@
 pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|int
 ```
 
-**пгresultstatus()** повертає поточний стан екземпляра [PgSql\\Result](class.pgsql-result.html), або тег завершення сервером роботи з цим ресурсом.
+**пгresultstatus()** повертає поточний стан екземпляра [PgSqlResult](class.pgsql-result.html), або тег завершення сервером роботи з цим ресурсом.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `mode`
 
@@ -41,9 +41,9 @@ pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|in
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -78,4 +78,4 @@ Copy began.
 
 ### Дивіться також
 
--   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення
+-   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення

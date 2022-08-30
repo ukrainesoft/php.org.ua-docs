@@ -1,8 +1,8 @@
 Оновлення всіх значень застосуванням до них переданої callback-функції
 
--   [« Ds\\Map::allocate](ds-map.allocate.html)
+-   [« DsMap::allocate](ds-map.allocate.html)
     
--   [Ds\\Map::capacity »](ds-map.capacity.html)
+-   [ДсMap::capacity »](ds-map.capacity.html)
     
 -   [PHP Manual](index.html)
     

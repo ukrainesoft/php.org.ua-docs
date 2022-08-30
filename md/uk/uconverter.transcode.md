@@ -126,5 +126,5 @@ echo bin2hex($iso8859_1_string), "\n";
 
 ### Дивіться також
 
--   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

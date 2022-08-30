@@ -45,7 +45,7 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html) відкритий за допомогою [rar\_open()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.html) відкритий за допомогою [raropen()](rararchive.open.html)
 
 `entryname`
 
@@ -103,4 +103,4 @@ rar_close($rar_arch);
 ### Дивіться також
 
 -   [RarArchive::getEntries()](rararchive.getentries.html) - Повертає повний список елементів із RAR архіву
--   [`rar://` обработчик (wrapper)](wrappers.rar.html)
+-   [`rar://`обработчик (wrapper)](wrappers.rar.html)

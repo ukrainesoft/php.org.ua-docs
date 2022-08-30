@@ -1,6 +1,6 @@
 Десеріалізує параметр data у об'єкт HashContext
 
--   [« HashContext::\_\_serialize](hashcontext.serialize.html)
+-   [« HashContext::serialize](hashcontext.serialize.html)
     
 -   [Функции Hash »](ref.hash.html)
     

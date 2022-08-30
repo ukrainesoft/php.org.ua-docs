@@ -1,6 +1,6 @@
 Varnish
 
--   [« tcpwrap\_check](function.tcpwrap-check.html)
+-   [« tcpwrapcheck](function.tcpwrap-check.html)
     
 -   [Введение »](intro.varnish.html)
     
@@ -30,7 +30,7 @@ Varnish
     -   [VarnishAdmin::banUrl](varnishadmin.banurl.html) — Заборонити URL-адресу, використовуючи вираз VCL
     -   [VarnishAdmin::clearPanic](varnishadmin.clearpanic.html) — Очистити критичні повідомлення екземпляра varnish
     -   [VarnishAdmin::connect](varnishadmin.connect.html) — Підключення до інтерфейсу адміністрування екземпляра varnish
-    -   [VarnishAdmin::\_\_construct](varnishadmin.construct.html) — VarnishAdmin constructor
+    -   [VarnishAdmin::construct](varnishadmin.construct.html) — VarnishAdmin constructor
     -   [VarnishAdmin::disconnect](varnishadmin.disconnect.html) — Відключення від інтерфейсу адміністрування екземпляра varnish
     -   [VarnishAdmin::getPanic](varnishadmin.getpanic.html) — Отримати останнє критичне повідомлення на екземплярі varnish
     -   [VarnishAdmin::getParams](varnishadmin.getparams.html) — Отримати параметри конфігурації поточного екземпляра varnish
@@ -45,9 +45,9 @@ Varnish
     -   [VarnishAdmin::start](varnishadmin.start.html) — Запустити робочий процес varnish
     -   [VarnishAdmin::stop](varnishadmin.stop.html) — Зупинити робочий процес varnish
 -   [VarnishStat](class.varnishstat.html) - Клас VarnishStat
-    -   [VarnishStat::\_\_construct](varnishstat.construct.html) - Конструктор VarnishStat
+    -   [VarnishStat::construct](varnishstat.construct.html) - Конструктор VarnishStat
     -   [VarnishStat::getSnapshot](varnishstat.getsnapshot.html) — Отримати фотографію статистики поточного екземпляра varnish
 -   [VarnishLog](class.varnishlog.html) - Клас VarnishLog
-    -   [VarnishLog::\_\_construct](varnishlog.construct.html) - Конструктор Varnishlog
+    -   [VarnishLog::construct](varnishlog.construct.html) - Конструктор Varnishlog
     -   [VarnishLog::getLine](varnishlog.getline.html) — Отримати наступний рядок журналу
     -   [VarnishLog::getTagName](varnishlog.gettagname.html) — Отримати строкове представлення тега журналу за його індексом

@@ -1,12 +1,12 @@
 Скидає все існуюче тіло відповіді
 
--   [« Yaf\_Response\_Abstract::appendBody](yaf-response-abstract.appendbody.html)
+-   [« YafResponseAbstract::appendBody](yaf-response-abstract.appendbody.html)
     
--   [Yaf\_Response\_Abstract::clearHeaders »](yaf-response-abstract.clearheaders.html)
+-   [YafResponseAbstract::clearHeaders »](yaf-response-abstract.clearheaders.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Скидає все існуюче тіло відповіді
     
@@ -39,7 +39,7 @@ public Yaf_Response_Abstract::clearBody(string $key = ?): bool
 
 ### Дивіться також
 
--   [Yaf\_Response\_Abstract::setBody()](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
--   [Yaf\_Response\_Abstract::appendBody()](yaf-response-abstract.appendbody.html) - Додає вміст до тіла відповіді
--   [Yaf\_Response\_Abstract::prependBody()](yaf-response-abstract.prependbody.html) - Призначення prependBody
--   [Yaf\_Response\_Abstract::getBody()](yaf-response-abstract.getbody.html) - Отримує наявний вміст
+-   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
+-   [YafResponseAbstract::appendBody()](yaf-response-abstract.appendbody.html) - Додає вміст до тіла відповіді
+-   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.html) - Призначення prependBody
+-   [YafResponseAbstract::getBody()](yaf-response-abstract.getbody.html) - Отримує наявний вміст

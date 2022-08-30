@@ -1,6 +1,6 @@
 Отримання частини рядка
 
--   [« iconv\_strrpos](function.iconv-strrpos.html)
+-   [« iconvstrrpos](function.iconv-strrpos.html)
     
 -   [iconv »](function.iconv.html)
     
@@ -45,7 +45,7 @@ iconv_substr(    string $string,    int $offset,    ?int $length = n
 
 `encoding`
 
-Якщо параметр `encoding` не вказано, передбачається, що рядок `string` має кодування [iconv.internal\_encoding](iconv.configuration.html)
+Якщо параметр `encoding` не вказано, передбачається, що рядок `string` має кодування [iconv.internalencoding](iconv.configuration.html)
 
 Зверніть увагу, що і `offset`, і `length` ґрунтуються на розмірі символу, розрахованого виходячи з кодування тексту (`encoding`), у той час як схожа функція [substr()](function.substr.html) завжди розглядає їх побайтове усунення.
 
@@ -65,5 +65,5 @@ iconv_substr(    string $string,    int $offset,    ?int $length = n
 ### Дивіться також
 
 -   [substr()](function.substr.html) - Повертає підрядок
--   [mb\_substr()](function.mb-substr.html) - Повертає частину рядка
--   [mb\_strcut()](function.mb-strcut.html) - Отримання частини рядка
+-   [мбsubstr()](function.mb-substr.html) - Повертає частину рядка
+-   [мбstrcut()](function.mb-strcut.html) - Отримання частини рядка

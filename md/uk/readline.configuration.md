@@ -30,4 +30,4 @@
 
 `cli.prompt` string
 
-Підказка [командной строки](features.commandline.html)
+Підказка [командного рядка](features.commandline.html)

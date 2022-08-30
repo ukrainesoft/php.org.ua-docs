@@ -1,12 +1,12 @@
 Визначення стану
 
--   [« Componere\\Patch::revert](componere-patch.revert.html)
+-   [« ComponerePatch::revert](componere-patch.revert.html)
     
--   [Componere\\Patch::derive »](componere-patch.derive.html)
+-   [ComponerePatch::derive »](componere-patch.derive.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Patch](class.componere-patch.html)
+-   [ComponerePatch](class.componere-patch.html)
     
 -   Визначення стану
     

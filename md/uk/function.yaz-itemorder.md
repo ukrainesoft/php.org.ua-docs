@@ -1,8 +1,8 @@
 Підготовка запиту до Z39.50 Item Order з пакетом ILL-Request
 
--   [« yaz\_hits](function.yaz-hits.html)
+-   [« yazhits](function.yaz-hits.html)
     
--   [yaz\_present »](function.yaz-present.html)
+-   [yazpresent »](function.yaz-present.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ yazitemorder — Підготовка запиту до Z39.50 Item Order з п�
 yaz_itemorder(resource $id, array $args): void
 ```
 
-Функція готує запит Extended Services за допомогою профілю для використання Item Order Extended Service для Transport ILL (Profile/1). Дивіться [» это](http://www.collectionscanada.ca/iso/ill/stanprf.htm) і [» спецификацию](http://www.collectionscanada.ca/iso/ill/document/standard/z-ill-1a.pdf)
+Функція готує запит Extended Services за допомогою профілю для використання Item Order Extended Service для Transport ILL (Profile/1). Дивіться [» це](http://www.collectionscanada.ca/iso/ill/stanprf.htm) і [» спецификацию](http://www.collectionscanada.ca/iso/ill/document/standard/z-ill-1a.pdf)
 
 ### Список параметрів
 
 `id`
 
-Ресурс підключення, що повертається [yaz\_connect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
 
 `args`
 

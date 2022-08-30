@@ -1,8 +1,8 @@
 Стандартне відхилення
 
--   [« trader\_sqrt](function.trader-sqrt.html)
+-   [« tradersqrt](function.trader-sqrt.html)
     
--   [trader\_stoch »](function.trader-stoch.html)
+-   [traderstoch »](function.trader-stoch.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Отримує або встановлює код відповіді HTTP
 
--   [« headers\_sent](function.headers-sent.html)
+-   [« headerssent](function.headers-sent.html)
     
--   [inet\_ntop »](function.inet-ntop.html)
+-   [inetntop »](function.inet-ntop.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Отримує або встановлює код відповіді HTTP
     
@@ -86,4 +86,4 @@ int(201)
 ### Дивіться також
 
 -   [header()](function.header.html) - Надсилання HTTP-заголовка
--   [headers\_list()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
+-   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)

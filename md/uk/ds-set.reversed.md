@@ -1,8 +1,8 @@
 Повертає перегорнуту копію колекції
 
--   [« Ds\\Set::reverse](ds-set.reverse.html)
+-   [« DsSet::reverse](ds-set.reverse.html)
     
--   [Ds\\Set::slice »](ds-set.slice.html)
+-   [ДсSet::slice »](ds-set.slice.html)
     
 -   [PHP Manual](index.html)
     

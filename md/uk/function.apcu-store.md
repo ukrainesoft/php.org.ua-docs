@@ -1,6 +1,6 @@
 Кешує змінну
 
--   [« apcu\_sma\_info](function.apcu-sma-info.html)
+-   [« apcusmainfo](function.apcu-sma-info.html)
     
 -   [APCUIterator »](class.apcuiterator.html)
     
@@ -73,6 +73,6 @@ string(3) "BAR"
 
 ### Дивіться також
 
--   [apcu\_add()](function.apcu-add.html) - Додати змінну до кешу
--   [apcu\_fetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcu\_delete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcuadd()](function.apcu-add.html) - Додати змінну до кешу
+-   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу

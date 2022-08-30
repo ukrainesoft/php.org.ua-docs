@@ -1,12 +1,12 @@
 Пише дані у файл
 
--   [« file\_get\_contents](function.file-get-contents.html)
+-   [« filegetcontents](function.file-get-contents.html)
     
 -   [file »](function.file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Пише дані у файл
     
@@ -37,7 +37,7 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 Дані, що записуються. Може бути типу string, array або ресурсом потоку.
 
-Якщо `data` є потоковим ресурсом (stream), буфер цього потоку, що залишився, буде скопійований у зазначений файл. Це схоже на використання функції [stream\_copy\_to\_stream()](function.stream-copy-to-stream.html)
+Якщо `data` є потоковим ресурсом (stream), буфер цього потоку, що залишився, буде скопійований у зазначений файл. Це схоже на використання функції [streamcopyтоstream()](function.stream-copy-to-stream.html)
 
 Також ви можете передати одновимірний масив як параметр `data`. Це буде еквівалентно виклику `file_put_contents($filename, implode('', $array))`
 
@@ -49,13 +49,13 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 | Флаг                        | Описание                                                                                                                                                                                                                                                                                        |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`FILE_USE_INCLUDE_PATH`** | Шукає `filename` в директоріях, що підключаються. Детальніше дивіться директиву [include\_path](ini.core.html#ini.include-path)                                                                                                                                                                 |
+| **`FILE_USE_INCLUDE_PATH`** | Шукає `filename` в директоріях, що підключаються. Детальніше дивіться директиву [includepath](ini.core.html#ini.include-path)                                                                                                                                                                   |
 | **`FILE_APPEND`**           | Якщо файл `filename` вже існує, дані будуть дописані в кінець файлу замість його перезаписати.                                                                                                                                                                                                  |
 | **`LOCK_EX`**               | Отримати ексклюзивне блокування файлу під час запису. Іншими словами, між викликами [fopen()](function.fopen.html) і [fwrite()](function.fwrite.html) відбудеться виклик функції [flock()](function.flock.html). Це не одне й те саме, що виклик [fopen()](function.fopen.html) з прапором "х". |
 
 `context`
 
-Коректний ресурс контексту, створений за допомогою функції [stream\_context\_create()](function.stream-context-create.html)
+Коректний ресурс контексту, створений за допомогою функції [streamcontextcreate()](function.stream-context-create.html)
 
 ### Значення, що повертаються
 
@@ -63,7 +63,7 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -101,11 +101,11 @@ file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 ### Дивіться також
 
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
 -   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
--   [file\_get\_contents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
+-   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку

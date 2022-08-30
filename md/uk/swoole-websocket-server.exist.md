@@ -1,12 +1,12 @@
 Перевіряє, чи існує опис файлу
 
--   [« Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+-   [« SwooleWebSocketServer](class.swoole-websocket-server.html)
     
--   [Swoole\\WebSocket\\Server::on »](swoole-websocket-server.on.html)
+-   [SwooleWebSocketServer::on »](swoole-websocket-server.on.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+-   [SwooleWebSocketServer](class.swoole-websocket-server.html)
     
 -   Перевіряє, чи існує опис файлу
     

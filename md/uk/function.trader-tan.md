@@ -1,8 +1,8 @@
 Векторний тригонометричний тангенс
 
--   [« trader\_t3](function.trader-t3.html)
+-   [« traderтз](function.trader-t3.html)
     
--   [trader\_tanh »](function.trader-tanh.html)
+-   [tradertanh »](function.trader-tanh.html)
     
 -   [PHP Manual](index.html)
     

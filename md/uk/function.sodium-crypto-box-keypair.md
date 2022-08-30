@@ -1,8 +1,8 @@
 Згенерувати випадковим чином секретний ключ та відповідний йому відкритий ключ
 
--   [« sodium\_crypto\_box\_keypair\_from\_secretkey\_and\_publickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html)
+-   [« sodiumcryptoboxkeypairfromsecretkeyandpublickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html)
     
--   [sodium\_crypto\_box\_open »](function.sodium-crypto-box-open.html)
+-   [sodiumcryptoboxopen »](function.sodium-crypto-box-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ sodium_crypto_box_keypair(): string
 
 Створює секретний та відкритий ключі як один рядок.
 
-Щоб отримати секретний ключ із цього уніфікованого рядка ключової пари, дивіться [sodium\_crypto\_box\_secretkey()](function.sodium-crypto-box-secretkey.html). Щоб отримати відкритий ключ із цього уніфікованого рядка ключової пари, дивіться [sodium\_crypto\_box\_publickey()](function.sodium-crypto-box-publickey.html)
+Щоб отримати секретний ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxsecretkey()](function.sodium-crypto-box-secretkey.html). Щоб отримати відкритий ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxpublickey()](function.sodium-crypto-box-publickey.html)
 
 ### Список параметрів
 

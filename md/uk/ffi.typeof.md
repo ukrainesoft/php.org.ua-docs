@@ -2,7 +2,7 @@
 
 -   [« FFI::type](ffi.type.html)
     
--   [FFI\\CData »](class.ffi-cdata.html)
+-   [FFICData »](class.ffi-cdata.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ FFI::typeof — Отримує FFICType для FFICData
 public static FFI::typeof(FFI\CData &$ptr): FFI\CType
 ```
 
-Повертає об'єкт [FFI\\CType](class.ffi-ctype.html), що представляє тип об'єкта [FFI\\CData](class.ffi-cdata.html)
+Повертає об'єкт [FFICType](class.ffi-ctype.html), що представляє тип об'єкта [FFICData](class.ffi-cdata.html)
 
 ### Список параметрів
 
@@ -33,4 +33,4 @@ public static FFI::typeof(FFI\CData &$ptr): FFI\CType
 
 ### Значення, що повертаються
 
-Повертає об'єкт [FFI\\CType](class.ffi-ctype.html), що представляє тип об'єкта [FFI\\CData](class.ffi-cdata.html)
+Повертає об'єкт [FFICType](class.ffi-ctype.html), що представляє тип об'єкта [FFICData](class.ffi-cdata.html)

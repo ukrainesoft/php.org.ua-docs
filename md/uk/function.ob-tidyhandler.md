@@ -2,7 +2,7 @@
 
 -   [« Tidy](ref.tidy.html)
     
--   [tidy\_access\_count »](function.tidy-access-count.html)
+-   [tidyaccesscount »](function.tidy-access-count.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 ob_tidyhandler(string $input, int $mode = ?): string
 ```
 
-Функція зворотного дзвінка [ob\_start()](function.ob-start.html) на відновлення буфера.
+Функція зворотного дзвінка [проstart()](function.ob-start.html) на відновлення буфера.
 
 ### Список параметрів
 
@@ -67,4 +67,4 @@ echo '<p>test</i>';
 
 ### Дивіться також
 
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу

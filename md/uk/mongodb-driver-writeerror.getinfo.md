@@ -1,12 +1,12 @@
 Повертає документ метаданих для WriteError
 
--   [« MongoDB\\Driver\\WriteError::getIndex](mongodb-driver-writeerror.getindex.html)
+-   [« MongoDBDriverWriteError::getIndex](mongodb-driver-writeerror.getindex.html)
     
--   [MongoDB\\Driver\\WriteError::getMessage »](mongodb-driver-writeerror.getmessage.html)
+-   [MongoDBDriverWriteError::getMessage »](mongodb-driver-writeerror.getmessage.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html)
+-   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
     
 -   Повертає документ метаданих для WriteError
     
@@ -33,4 +33,4 @@ final public MongoDB\Driver\WriteError::getInfo(): ?object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

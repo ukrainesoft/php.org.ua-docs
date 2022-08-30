@@ -1,8 +1,8 @@
 Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
 
--   [« pg\_update](function.pg-update.html)
+-   [« pgupdate](function.pg-update.html)
     
--   [PgSql\\Connection »](class.pgsql-connection.html)
+-   [PgSqlConnection »](class.pgsql-connection.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ pg_version(?PgSql\Connection $connection = null): array
 
 **пгversion()** повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера. Версії протоколу та сервера доступні, тільки якщо модуль PHP скомпільовано для PostgreSQL версії 7.4 або вище.
 
-Для отримання детальної інформації про сервер використовуйте функцію [pg\_parameter\_status()](function.pg-parameter-status.html)
+Для отримання детальної інформації про сервер використовуйте функцію [пгparameterstatus()](function.pg-parameter-status.html)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -43,10 +43,10 @@ pg_version(?PgSql\Connection $connection = null): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 
@@ -71,4 +71,4 @@ pg_version(?PgSql\Connection $connection = null): array
 
 ### Дивіться також
 
--   [pg\_parameter\_status()](function.pg-parameter-status.html) - Перегляд поточних значень параметрів сервера
+-   [пгparameterstatus()](function.pg-parameter-status.html) - Перегляд поточних значень параметрів сервера

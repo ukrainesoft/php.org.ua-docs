@@ -2,7 +2,7 @@
 
 -   [« GmagickDraw::settextencoding](gmagickdraw.settextencoding.html)
     
--   [GmagickPixel::\_\_construct »](gmagickpixel.construct.html)
+-   [GmagickPixel::construct »](gmagickpixel.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ public setcolorvalue(int $color, float $value): GmagickPixel
 
 ## Зміст
 
--   [GmagickPixel::\_\_construct](gmagickpixel.construct.html) - Конструктора класу GmagickPixel
+-   [GmagickPixel::construct](gmagickpixel.construct.html) - Конструктора класу GmagickPixel
 -   [GmagickPixel::getcolor](gmagickpixel.getcolor.html) - Повертає колір
 -   [GmagickPixel::getcolorcount](gmagickpixel.getcolorcount.html) — Отримати кількість пікселів зображення, які мають заданий колір
 -   [GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.html) — Повертає нормалізоване значення для заданого каналу кольорів

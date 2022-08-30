@@ -1,12 +1,12 @@
 Отримати товщину
 
--   [« UI\\Draw\\Stroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html)
+-   [« UIDrawStroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html)
     
--   [UI\\Draw\\Stroke::setCap »](ui-draw-stroke.setcap.html)
+-   [ОЙDrawStroke::setCap »](ui-draw-stroke.setcap.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Отримати товщину
     

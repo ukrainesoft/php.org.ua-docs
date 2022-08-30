@@ -1,12 +1,12 @@
 Конструктор класу ExecutionStatus
 
--   [« mysql\_xdevapi\\ExecutionStatus](class.mysql-xdevapi-executionstatus.html)
+-   [« mysqlxdevapiExecutionStatus](class.mysql-xdevapi-executionstatus.html)
     
--   [mysql\_xdevapi\\Expression »](class.mysql-xdevapi-expression.html)
+-   [mysqlxdevapiExpression »](class.mysql-xdevapi-expression.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\ExecutionStatus](class.mysql-xdevapi-executionstatus.html)
+-   [mysqlxdevapiExecutionStatus](class.mysql-xdevapi-executionstatus.html)
     
 -   Конструктор класу ExecutionStatus
     

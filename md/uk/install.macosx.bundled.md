@@ -77,4 +77,4 @@ PHP поставлявся разом з macOS, починаючи з macOS X (1
     Для перезапуску виконайте `sudo apachectl graceful` у терміналі або виконайте stop/start для "Personal Web Server" у системних налаштуваннях macOS. За промовчанням локальні файли можна завантажити, ввівши в рядок браузера URL, наприклад: [http://localhost/info.php](http://localhost/info.php), або використовуючи DocumentRoot в локальній директорії користувача, таким чином: [http://localhost/~yourusername/info.php](http://localhost/~yourusername/info.php)
     
 
-CLI (або більш старих версіях CGI) називається як php і міститься в /usr/bin/php. Відкрийте термінал, прочитайте розділ документації PHP [командная строка](features.commandline.html), і запустіть `php -v` для перевірки встановленої версії PHP. Виклик функції [phpinfo()](function.phpinfo.html) також покаже цю інформацію.
+CLI (або більш старих версіях CGI) називається як php і міститься в /usr/bin/php. Відкрийте термінал, прочитайте розділ документації PHP [командний рядок](features.commandline.html), і запустіть `php -v` для перевірки встановленої версії PHP. Виклик функції [phpinfo()](function.phpinfo.html) також покаже цю інформацію.

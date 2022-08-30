@@ -1,8 +1,8 @@
 Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
 
--   [« swoole\_event\_write](function.swoole-event-write.html)
+-   [« swooleeventwrite](function.swoole-event-write.html)
     
--   [swoole\_last\_error »](function.swoole-last-error.html)
+-   [swoolelasterror »](function.swoole-last-error.html)
     
 -   [PHP Manual](index.html)
     

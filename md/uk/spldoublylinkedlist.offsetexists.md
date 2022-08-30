@@ -31,4 +31,4 @@ public SplDoublyLinkedList::offsetExists(int $index): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо запитуваний індекс `index` існує, в іншому випадку **`false`**
+\*\*`true`\*\*якщо запитуваний індекс `index` існує, в іншому випадку **`false`**

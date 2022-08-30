@@ -1,8 +1,8 @@
 Обчислює відкритий ключ із секретного ключа
 
--   [« sodium\_crypto\_box\_open](function.sodium-crypto-box-open.html)
+-   [« sodiumcryptoboxopen](function.sodium-crypto-box-open.html)
     
--   [sodium\_crypto\_box\_publickey »](function.sodium-crypto-box-publickey.html)
+-   [sodiumcryptoboxpublickey »](function.sodium-crypto-box-publickey.html)
     
 -   [PHP Manual](index.html)
     

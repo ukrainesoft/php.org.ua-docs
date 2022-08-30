@@ -17,11 +17,11 @@
 
 **Опції настроювання Iconv**
 
-| Имя                                                                              | По умолчанию | Место изменения | Список изменений       |
-|----------------------------------------------------------------------------------|--------------|-----------------|------------------------|
-| [iconv.input\_encoding](iconv.configuration.html#ini.iconv.input-encoding)       | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
-| [iconv.output\_encoding](iconv.configuration.html#ini.iconv.output-encoding)     | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
-| [iconv.internal\_encoding](iconv.configuration.html#ini.iconv.internal-encoding) | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
+| Имя                                                                            | По умолчанию | Место изменения | Список изменений       |
+|--------------------------------------------------------------------------------|--------------|-----------------|------------------------|
+| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding)       | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
+| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding)     | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
+| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
 
 Коротке пояснення конфігураційних директив.
 
@@ -35,7 +35,7 @@
 
 Ця можливість була оголошена *застарілої*починаючи з PHP 5.6.0. Вкрай не рекомендується покладатися на цю можливість у майбутньому.
 
-У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [input\_encoding](ini.core.html#ini.input-encoding)
+У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [inputencoding](ini.core.html#ini.input-encoding)
 
 `iconv.output_encoding` string
 
@@ -43,7 +43,7 @@
 
 Ця можливість була оголошена *застарілої*починаючи з PHP 5.6.0. Вкрай не рекомендується покладатися на цю можливість у майбутньому.
 
-У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [output\_encoding](ini.core.html#ini.output-encoding)
+У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [outputencoding](ini.core.html#ini.output-encoding)
 
 `iconv.internal_encoding` string
 

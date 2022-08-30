@@ -1,8 +1,8 @@
 Клас ReflectionMethod
 
--   [« ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.html)
+-   [« ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.html)
     
--   [ReflectionMethod::\_\_construct »](reflectionmethod.construct.html)
+-   [ReflectionMethod::construct »](reflectionmethod.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -180,7 +180,7 @@ class
 
 ## Зміст
 
--   [ReflectionMethod::\_\_construct](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::construct](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
 -   [ReflectionMethod::export](reflectionmethod.export.html) - Експорт відбитого методу
 -   [ReflectionMethod::getClosure](reflectionmethod.getclosure.html) — Повертає динамічно створене замикання для методу
 -   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.html) — Отримує клас, що оголошує відбитий метод
@@ -197,4 +197,4 @@ class
 -   [ReflectionMethod::isPublic](reflectionmethod.ispublic.html) — Перевіряє, чи є метод загальнодоступним
 -   [ReflectionMethod::isStatic](reflectionmethod.isstatic.html) — Перевіряє, чи метод статичний
 -   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.html) — Робить метод доступним
--   [ReflectionMethod::\_\_toString](reflectionmethod.tostring.html) — Повертає рядкову виставу об'єкта ReflectionMethod
+-   [ReflectionMethod::toString](reflectionmethod.tostring.html) — Повертає рядкову виставу об'єкта ReflectionMethod

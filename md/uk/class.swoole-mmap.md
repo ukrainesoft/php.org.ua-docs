@@ -1,8 +1,8 @@
 Клас SwooleMmap
 
--   [« Swoole\\Lock::unlock](swoole-lock.unlock.html)
+-   [« SwooleLock::unlock](swoole-lock.unlock.html)
     
--   [Swoole\\Mmap::open »](swoole-mmap.open.html)
+-   [SwooleMmap::open »](swoole-mmap.open.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@
 
 ## Зміст
 
--   [Swoole\\Mmap::open](swoole-mmap.open.html) — Відобразити файл у пам'ять і повернути ресурс потоку, який можна використовувати операціями потоку PHP
+-   [SwooleMmap::open](swoole-mmap.open.html) — Відобразити файл у пам'ять і повернути ресурс потоку, який можна використовувати операціями потоку PHP

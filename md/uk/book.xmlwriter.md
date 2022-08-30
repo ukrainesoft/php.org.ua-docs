@@ -21,8 +21,8 @@ XMLWriter
     -   [Типы ресурсов](xmlwriter.resources.html)
 -   [Предопределённые константы](xmlwriter.constants.html)
 -   [Примеры](xmlwriter.examples.html)
-    -   [Создание простого XML-документа](example.xmlwriter-simple.html)
-    -   [Работа с пространствами имён XML](example.xmlwriter-namespace.html)
+    -   [Створення простого XML-документа](example.xmlwriter-simple.html)
+    -   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
     -   [Работа с объектно-ориентированным API](example.xmlwriter-oop.html)
 -   [XMLWriter](class.xmlwriter.html) - Клас XMLWriter
     -   [XMLWriter::endAttribute](xmlwriter.endattribute.html) - Завершити атрибут

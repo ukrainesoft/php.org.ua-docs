@@ -1,8 +1,8 @@
 Створює дескриптор Radius для автентифікації
 
--   [« radius\_add\_server](function.radius-add-server.html)
+-   [« radiusaddserver](function.radius-add-server.html)
     
--   [radius\_close »](function.radius-close.html)
+-   [radiusclose »](function.radius-close.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Створює новий екземпляр
 
--   [« Ds\\Vector::clear](ds-vector.clear.html)
+-   [« DsVector::clear](ds-vector.clear.html)
     
--   [Ds\\Vector::contains »](ds-vector.contains.html)
+-   [ДсVector::contains »](ds-vector.contains.html)
     
 -   [PHP Manual](index.html)
     

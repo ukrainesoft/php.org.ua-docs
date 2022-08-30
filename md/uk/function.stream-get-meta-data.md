@@ -1,12 +1,12 @@
 Витягує заголовок/метадані з потоків/файлових покажчиків
 
--   [« stream\_get\_line](function.stream-get-line.html)
+-   [« streamgetline](function.stream-get-line.html)
     
--   [stream\_get\_transports »](function.stream-get-transports.html)
+-   [streamgettransports »](function.stream-get-transports.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Витягує заголовок/метадані з потоків/файлових покажчиків
     
@@ -29,7 +29,7 @@ stream_get_meta_data(resource $stream): array
 
 `stream`
 
-Параметр stream може бути будь-яким потоком, створеним за допомогою функцій [fopen()](function.fopen.html) [fsockopen()](function.fsockopen.html) [pfsockopen()](function.pfsockopen.html) і [stream\_socket\_client()](function.stream-socket-client.html)
+Параметр stream може бути будь-яким потоком, створеним за допомогою функцій [fopen()](function.fopen.html) [fsockopen()](function.fsockopen.html) [pfsockopen()](function.pfsockopen.html) і [streamsocketclient()](function.stream-socket-client.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ stream_get_meta_data(resource $stream): array
 
 -   `timed_out` (bool) - **`true`**, якщо потік перевищив час очікування даних під час останнього виклику функції [fread()](function.fread.html) або [fgets()](function.fgets.html)
     
--   `blocked` (bool) - **`true`**якщо потік знаходиться в режимі блокуючого введення-виводу. Дивіться функцію [stream\_set\_blocking()](function.stream-set-blocking.html)
+-   `blocked` (bool) - \*\*`true`\*\*якщо потік знаходиться в режимі блокуючого введення-виводу. Дивіться функцію [streamsetblocking()](function.stream-set-blocking.html)
     
--   `eof` (bool) - **`true`**якщо потік досяг кінця файлу. Зауважте, що для потоків типу socket цей член може дорівнювати **`true`**, навіть коли `unread_bytes` не дорівнює нулю. Для того, щоб визначити, чи є ще дані для читання, використовуйте [feof()](function.feof.html) замість читання цього елемента.
+-   `eof` (bool) - \*\*`true`\*\*якщо потік досяг кінця файлу. Зауважте, що для потоків типу socket цей член може дорівнювати **`true`**, навіть коли `unread_bytes` не дорівнює нулю. Для того, щоб визначити, чи є ще дані для читання, використовуйте [feof()](function.feof.html) замість читання цього елемента.
     
 -   `unread_bytes` (int) - кількість байт, що знаходяться зараз у своєму внутрішньому буфері PHP.
     
@@ -47,9 +47,9 @@ stream_get_meta_data(resource $stream): array
     
 -   `stream_type` (string) - Мітка, що описує внутрішню реалізацію потоку.
     
--   `wrapper_type` (string) - Мітка, що описує реалізацію обгортки протоколу, накладеного на потік. Дивіться розділ [Поддерживаемые протоколы и обёртки](wrappers.html) для детальної інформації про обгортки.
+-   `wrapper_type` (string) - Мітка, що описує реалізацію обгортки протоколу, накладеного на потік. Дивіться розділ [Підтримувані протоколи та обгортки](wrappers.html) для детальної інформації про обгортки.
     
--   `wrapper_data` (mixed) – специфічні для обгортки дані, прикріплені до цього потоку. Дивіться розділ [Поддерживаемые протоколы и обёртки](wrappers.html) для детальної інформації про обгортки та їх дані.
+-   `wrapper_data` (mixed) – специфічні для обгортки дані, прикріплені до цього потоку. Дивіться розділ [Підтримувані протоколи та обгортки](wrappers.html) для детальної інформації про обгортки та їх дані.
     
 -   `mode` (string) - тип доступу, необхідний цього потоку (див. таблицю 1 у описі функції [fopen()](function.fopen.html)
     
@@ -134,7 +134,7 @@ array(10) {
 }
 ```
 
-**Приклад #2 Приклад використання **streamgetmetadata()** з використанням [stream\_socket\_client()](function.stream-socket-client.html) з https**
+**Приклад #2 Приклад використання **streamgetmetadata()** з використанням [streamsocketclient()](function.stream-socket-client.html) з https**
 
 ```php
 <?php
@@ -200,5 +200,5 @@ array(8) {
 
 ### Дивіться також
 
--   [get\_headers()](function.get-headers.html) - Повертає всі заголовки з відповіді сервера на запит HTTP
--   [$http\_response\_header](reserved.variables.httpresponseheader.html)
+-   [getheaders()](function.get-headers.html) - Повертає всі заголовки з відповіді сервера на запит HTTP
+-   [$httpresponseheader](reserved.variables.httpresponseheader.html)

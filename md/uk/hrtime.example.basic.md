@@ -2,7 +2,7 @@
 
 -   [« Примеры](hrtime.examples.html)
     
--   [HRTime\\PerformanceCounter »](class.hrtime-performancecounter.html)
+-   [HRTimePerformanceCounter »](class.hrtime-performancecounter.html)
     
 -   [PHP Manual](index.html)
     

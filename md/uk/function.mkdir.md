@@ -2,11 +2,11 @@
 
 -   [« lstat](function.lstat.html)
     
--   [move\_uploaded\_file »](function.move-uploaded-file.html)
+-   [moveuploadedfile »](function.move-uploaded-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Створює директорію
     
@@ -33,7 +33,7 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 `permissions`
 
@@ -51,7 +51,7 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 `context`
 
-Ресурс (resource) з [контекстом потока](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.html)
 
 ### Значення, що повертаються
 
@@ -59,13 +59,13 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 > **Зауваження**
 > 
-> Якщо каталог, що створюється, вже існує, це вважається помилкою і буде повернено значення **`false`**. Використовуйте функцію [is\_dir()](function.is-dir.html) або [file\_exists()](function.file-exists.html), щоб перевірити, чи існує каталог, перш ніж намагатися його створити.
+> Якщо каталог, що створюється, вже існує, це вважається помилкою і буде повернено значення **`false`**. Використовуйте функцію [ісdir()](function.is-dir.html) або [fileexists()](function.file-exists.html), щоб перевірити, чи існує каталог, перш ніж намагатися його створити.
 
 ### Помилки
 
-Видає помилку рівня **`E_WARNING`**якщо директорія вже існує.
+Видає помилку рівня \*\*`E_WARNING`\*\*якщо директорія вже існує.
 
-Видає помилку рівня **`E_WARNING`**якщо відповідні права доступу блокують створення директорії.
+Видає помилку рівня \*\*`E_WARNING`\*\*якщо відповідні права доступу блокують створення директорії.
 
 ### Приклади
 
@@ -97,6 +97,6 @@ if (!mkdir($structure, 0777, true)) {
 
 ### Дивіться також
 
--   [is\_dir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
+-   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
 -   [rmdir()](function.rmdir.html) - видаляє директорію
 -   [umask()](function.umask.html) - Змінює поточну umask

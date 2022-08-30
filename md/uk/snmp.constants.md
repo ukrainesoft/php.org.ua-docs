@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](snmp.resources.html)
     
--   [Функции SNMP »](ref.snmp.html)
+-   [Функції SNMP »](ref.snmp.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-**Для [snmp\_set\_oid\_output\_format()](function.snmp-set-oid-output-format.html)**
+**Для [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.html)**
 
 **`SNMP_OID_OUTPUT_SUFFIX`** (int)
 
@@ -29,7 +29,7 @@
 
 **`SNMP_OID_OUTPUT_NONE`** (int)
 
-**Для [snmp\_set\_valueretrieval()](function.snmp-set-valueretrieval.html)**
+**Для [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.html)**
 
 **`SNMP_VALUE_LIBRARY`** (int)
 
@@ -37,7 +37,7 @@
 
 **`SNMP_VALUE_OBJECT`** (int)
 
-**Типи SNMP, що повертаються, якщо SNMPVALUEOBJECT використовується в [snmp\_set\_valueretrieval()](function.snmp-set-valueretrieval.html)**
+**Типи SNMP, що повертаються, якщо SNMPVALUEOBJECT використовується в [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.html)**
 
 **`SNMP_BIT_STR`** (int)
 

@@ -2,11 +2,11 @@
 
 -   [« localeconv](function.localeconv.html)
     
--   [md5\_file »](function.md5-file.html)
+-   [md5file »](function.md5-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Видаляє прогалини (або інші символи) з початку рядка
     

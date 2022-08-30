@@ -1,8 +1,8 @@
 Урізує розмір файлу
 
--   [« eio\_fsync](function.eio-fsync.html)
+-   [« eiofsync](function.eio-fsync.html)
     
--   [eio\_futime »](function.eio-futime.html)
+-   [eiofutime »](function.eio-futime.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -69,4 +69,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_truncate()](function.eio-truncate.html) - Урізує розмір файлу
+-   [eiotruncate()](function.eio-truncate.html) - Урізує розмір файлу

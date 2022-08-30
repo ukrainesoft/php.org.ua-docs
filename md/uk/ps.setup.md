@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [PS](book.ps.html)
+-   [ПС](book.ps.html)
     
 -   Встановлення та налаштування
     

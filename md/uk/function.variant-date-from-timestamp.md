@@ -1,8 +1,8 @@
 Отримати подання дати для варіанта з тимчасової мітки Unix
 
--   [« variant\_cmp](function.variant-cmp.html)
+-   [« variantcmp](function.variant-cmp.html)
     
--   [variant\_date\_to\_timestamp »](function.variant-date-to-timestamp.html)
+-   [variantdateтоtimestamp »](function.variant-date-to-timestamp.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,6 +37,6 @@ variant_date_from_timestamp(int $timestamp): variant
 
 ### Дивіться також
 
--   [variant\_date\_to\_timestamp()](function.variant-date-to-timestamp.html) - Перетворює варіант типу дата/час у часову мітку Unix
+-   [variantdateтоtimestamp()](function.variant-date-to-timestamp.html) - Перетворює варіант типу дата/час у часову мітку Unix
 -   [mktime()](function.mktime.html) - Повертає позначку часу Unix для заданої дати
 -   [time()](function.time.html) - Повертає поточну мітку системного часу Unix

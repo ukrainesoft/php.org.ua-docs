@@ -1,12 +1,12 @@
 Оновлює callback-функції події сокету
 
--   [« Swoole\\Event::exit](swoole-event.exit.html)
+-   [« SwooleEvent::exit](swoole-event.exit.html)
     
--   [Swoole\\Event::wait »](swoole-event.wait.html)
+-   [SwooleEvent::wait »](swoole-event.wait.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Оновлює callback-функції події сокету
     

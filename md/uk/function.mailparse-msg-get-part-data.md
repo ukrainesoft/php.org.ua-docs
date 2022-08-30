@@ -1,8 +1,8 @@
 Повернути асоціативний масив з інформацією про повідомлення
 
--   [« mailparse\_msg\_free](function.mailparse-msg-free.html)
+-   [« mailparsemsgfree](function.mailparse-msg-free.html)
     
--   [mailparse\_msg\_get\_part »](function.mailparse-msg-get-part.html)
+-   [mailparsemsggetpart »](function.mailparse-msg-get-part.html)
     
 -   [PHP Manual](index.html)
     

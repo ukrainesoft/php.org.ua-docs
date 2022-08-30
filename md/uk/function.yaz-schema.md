@@ -1,8 +1,8 @@
 Встановлює схему для значень, що повертаються
 
--   [« yaz\_scan](function.yaz-scan.html)
+-   [« yazscan](function.yaz-scan.html)
     
--   [yaz\_search »](function.yaz-search.html)
+-   [yazsearch »](function.yaz-search.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ yaz_schema(resource $id, string $schema): void
 
 **yazschema()** встановлює схему для значень, що повертаються.
 
-Функція має бути викликана до [yaz\_search()](function.yaz-search.html) або [yaz\_present()](function.yaz-present.html)
+Функція має бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, повернутий [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
 
 `schema`
 

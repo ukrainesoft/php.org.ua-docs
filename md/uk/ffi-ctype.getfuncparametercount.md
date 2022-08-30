@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getFuncABI](ffi-ctype.getfuncabi.html)
+-   [« FFICType::getFuncABI](ffi-ctype.getfuncabi.html)
     
--   [FFI\\CType::getFuncParameterType »](ffi-ctype.getfuncparametertype.html)
+-   [FFICType::getFuncParameterType »](ffi-ctype.getfuncparametertype.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

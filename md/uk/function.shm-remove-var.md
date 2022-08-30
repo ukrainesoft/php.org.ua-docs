@@ -1,12 +1,12 @@
 Видаляє змінну з пам'яті, що розділяється
 
--   [« shm\_put\_var](function.shm-put-var.html)
+-   [« shmputvar](function.shm-put-var.html)
     
--   [shm\_remove »](function.shm-remove.html)
+-   [shmremove »](function.shm-remove.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Видаляє змінну з пам'яті, що розділяється
     
@@ -29,7 +29,7 @@ shm_remove_var(SysvSharedMemory $shm, int $key): bool
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
 
 `key`
 
@@ -47,4 +47,4 @@ shm_remove_var(SysvSharedMemory $shm, int $key): bool
 
 ### Дивіться також
 
--   [shm\_remove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix
+-   [shmremove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix

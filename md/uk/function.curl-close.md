@@ -2,7 +2,7 @@
 
 -   [« Функции cURL](ref.curl.html)
     
--   [curl\_copy\_handle »](function.curl-copy-handle.html)
+-   [curlcopyhandle »](function.curl-copy-handle.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ curl_close(CurlHandle $handle): void
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 
@@ -68,5 +68,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curl\_init()](function.curl-init.html) - Ініціалізує сеанс cURL
--   [curl\_multi\_close()](function.curl-multi-close.html) - Закриває набір cURL-дескрипторів
+-   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL
+-   [curlmulticlose()](function.curl-multi-close.html) - Закриває набір cURL-дескрипторів

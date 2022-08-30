@@ -2,7 +2,7 @@
 
 -   [« Reflector](class.reflector.html)
     
--   [Reflector::\_\_toString »](reflector.tostring.html)
+-   [Reflector::toString »](reflector.tostring.html)
     
 -   [PHP Manual](index.html)
     

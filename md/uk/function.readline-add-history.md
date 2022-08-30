@@ -2,7 +2,7 @@
 
 -   [« Функции Readline](ref.readline.html)
     
--   [readline\_callback\_handler\_install »](function.readline-callback-handler-install.html)
+-   [readlinecallbackhandlerinstall »](function.readline-callback-handler-install.html)
     
 -   [PHP Manual](index.html)
     

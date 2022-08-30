@@ -1,12 +1,12 @@
 Перевіряє стан з'єднання
 
--   [« Swoole\\Server::close](swoole-server.close.html)
+-   [« SwooleServer::close](swoole-server.close.html)
     
--   [Swoole\\Server::connection\_info »](swoole-server.connection-info.html)
+-   [SwooleServer::connectioninfo »](swoole-server.connection-info.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Перевіряє стан з'єднання
     

@@ -1,6 +1,6 @@
 Отримання поточного елемента
 
--   [« LimitIterator::\_\_construct](limititerator.construct.html)
+-   [« LimitIterator::construct](limititerator.construct.html)
     
 -   [LimitIterator::getInnerIterator »](limititerator.getinneriterator.html)
     
@@ -31,7 +31,7 @@ public LimitIterator::current(): mixed
 
 ### Значення, що повертаються
 
-Повертає поточний елемент або **`null`**якщо такого немає.
+Повертає поточний елемент або \*\*`null`\*\*якщо такого немає.
 
 ### Дивіться також
 

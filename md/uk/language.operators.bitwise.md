@@ -2,11 +2,11 @@
 
 -   [« Оператор присваивания](language.operators.assignment.html)
     
--   [Операторы сравнения »](language.operators.comparison.html)
+-   [Оператори порівняння »](language.operators.comparison.html)
     
 -   [PHP Manual](index.html)
     
--   [Операторы](language.operators.html)
+-   [Оператори](language.operators.html)
     
 -   Побітові оператори
     
@@ -563,8 +563,8 @@ function p($res, $val, $op, $places, $note = '') {
 
 -   [pack()](function.pack.html)
 -   [unpack()](function.unpack.html)
--   [gmp\_and()](function.gmp-and.html)
--   [gmp\_or()](function.gmp-or.html)
--   [gmp\_xor()](function.gmp-xor.html)
--   [gmp\_testbit()](function.gmp-testbit.html)
--   [gmp\_clrbit()](function.gmp-clrbit.html)
+-   [gmpand()](function.gmp-and.html)
+-   [gmpor()](function.gmp-or.html)
+-   [gmpxor()](function.gmp-xor.html)
+-   [gmptestbit()](function.gmp-testbit.html)
+-   [gmpclrbit()](function.gmp-clrbit.html)

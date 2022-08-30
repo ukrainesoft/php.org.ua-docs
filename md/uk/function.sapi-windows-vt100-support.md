@@ -1,12 +1,12 @@
 Отримати або встановити підтримку VT100 для заданого потоку, пов'язаного з буфером виведення консолі Windows
 
--   [« sapi\_windows\_set\_ctrl\_handler](function.sapi-windows-set-ctrl-handler.html)
+-   [« sapiwindowssetctrlhandler](function.sapi-windows-set-ctrl-handler.html)
     
--   [show\_source »](function.show-source.html)
+-   [showsource »](function.show-source.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Отримати або встановити підтримку VT100 для заданого потоку, пов'язаного з буфером виведення консолі Windows
     

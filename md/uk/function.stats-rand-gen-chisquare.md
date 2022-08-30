@@ -1,12 +1,12 @@
 Обчислює випадкове відхилення від розподілу хі-квадрат
 
--   [« stats\_rand\_gen\_beta](function.stats-rand-gen-beta.html)
+-   [« statsrandgenbeta](function.stats-rand-gen-beta.html)
     
--   [stats\_rand\_gen\_exponential »](function.stats-rand-gen-exponential.html)
+-   [statsrandgenexponential »](function.stats-rand-gen-exponential.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює випадкове відхилення від розподілу хі-квадрат
     

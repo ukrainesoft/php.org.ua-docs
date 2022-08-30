@@ -1,12 +1,12 @@
 Щільність ймовірності бета-розподілу
 
--   [« stats\_covariance](function.stats-covariance.html)
+-   [« statscovariance](function.stats-covariance.html)
     
--   [stats\_dens\_cauchy »](function.stats-dens-cauchy.html)
+-   [statsdenscauchy »](function.stats-dens-cauchy.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності бета-розподілу
     

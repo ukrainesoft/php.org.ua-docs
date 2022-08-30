@@ -82,7 +82,7 @@ public update(int $key, string $value): bool
 
 **`QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC`**
 
-Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memory\_limit](ini.core.html#ini.memory-limit)
+Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memorylimit](ini.core.html#ini.memory-limit)
 
 **`QuickHashIntHash::HASHER_NO_HASH`**
 
@@ -99,7 +99,7 @@ public update(int $key, string $value): bool
 ## Зміст
 
 -   [QuickHashIntStringHash::add](quickhashintstringhash.add.html) — Метод додає новий запис у хеш
--   [QuickHashIntStringHash::\_\_construct](quickhashintstringhash.construct.html) — Створює новий об'єкт QuickHashIntStringHash
+-   [QuickHashIntStringHash::construct](quickhashintstringhash.construct.html) — Створює новий об'єкт QuickHashIntStringHash
 -   [QuickHashIntStringHash::delete](quickhashintstringhash.delete.html) — Метод видаляє запис із хешу
 -   [QuickHashIntStringHash::exists](quickhashintstringhash.exists.html) — Метод перевіряє, чи є ключ частиною хешу
 -   [QuickHashIntStringHash::get](quickhashintstringhash.get.html) — Метод отримує значення з хеша за його ключем.

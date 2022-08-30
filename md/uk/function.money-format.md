@@ -2,11 +2,11 @@
 
 -   [« metaphone](function.metaphone.html)
     
--   [nl\_langinfo »](function.nl-langinfo.html)
+-   [нлlanginfo »](function.nl-langinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Форматує число як грошову величину
     
@@ -189,4 +189,4 @@ echo money_format($fmt, 1234.56) . "\n";
 -   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату
 -   [sprintf()](function.sprintf.html) - Повертає відформатований рядок
 -   [printf()](function.printf.html) - Виводить відформатований рядок
--   [number\_format()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.html) - Форматує число з поділом груп

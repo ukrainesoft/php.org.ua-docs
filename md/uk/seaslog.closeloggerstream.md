@@ -2,7 +2,7 @@
 
 -   [« SeasLog::analyzerDetail](seaslog.analyzerdetail.html)
     
--   [SeasLog::\_\_construct »](seaslog.construct.html)
+-   [SeasLog::construct »](seaslog.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,8 +31,8 @@ public static SeasLog::closeLoggerStream(int $model, string $logger): bool
 
 Ціла кількість, одна з констант:
 
--   [SEASLOG\_CLOSE\_LOGGER\_STREAM\_MOD\_ALL](seaslog.constants.html#constant.seaslog-close-logger-stream-mod-all)
--   [SEASLOG\_CLOSE\_LOGGER\_STREAM\_MOD\_ASSIGN](seaslog.constants.html#constant.seaslog-close-logger-stream-mod-assign)
+-   [SEASLOGCLOSELOGGERSTREAMMODALL](seaslog.constants.html#constant.seaslog-close-logger-stream-mod-all)
+-   [SEASLOGCLOSELOGGERSTREAMMODASSIGN](seaslog.constants.html#constant.seaslog-close-logger-stream-mod-assign)
 
 `logger`
 

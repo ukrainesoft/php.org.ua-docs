@@ -2,7 +2,7 @@
 
 -   [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.html)
     
--   [ReflectionZendExtension::\_\_toString »](reflectionzendextension.tostring.html)
+-   [ReflectionZendExtension::toString »](reflectionzendextension.tostring.html)
     
 -   [PHP Manual](index.html)
     

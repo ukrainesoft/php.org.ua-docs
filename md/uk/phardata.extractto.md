@@ -1,6 +1,6 @@
 Витягти вміст tar/zip-архіву в директорію
 
--   [« PharData::\_\_destruct](phardata.destruct.html)
+-   [« PharData::destruct](phardata.destruct.html)
     
 -   [PharData::isWritable »](phardata.iswritable.html)
     

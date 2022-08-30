@@ -1,6 +1,6 @@
 Константи posixsetrlimit
 
--   [« Константы posix\_mknod](posix.constants.mknod.html)
+-   [« Константы posixmknod](posix.constants.mknod.html)
     
 -   [POSIX Функции »](ref.posix.html)
     
@@ -11,7 +11,7 @@
 -   Константи posixsetrlimit
     
 
-## Константи [posix\_setrlimit()](function.posix-setrlimit.html)
+## Константи [posixsetrlimit()](function.posix-setrlimit.html)
 
 > **Зауваження**
 > 
@@ -23,7 +23,7 @@
 
 **`POSIX_RLIMIT_AS`** (int)
 
-Максимальний розмір адресного простору процесу у байтах. Також дивіться конфігураційну директиву [memory\_limit](ini.core.html#ini.memory-limit)
+Максимальний розмір адресного простору процесу у байтах. Також дивіться конфігураційну директиву [memorylimit](ini.core.html#ini.memory-limit)
 
 **`POSIX_RLIMIT_CORE`** (int)
 
@@ -31,7 +31,7 @@
 
 **`POSIX_RLIMIT_CPU`** (int)
 
-Максимальна кількість процесорного часу, яка може бути використана процесом, у секундах. Коли досягається м'яке обмеження, процесу буде надіслано сигнал `SIGXCPU`, який може бути оброблений за допомогою функції [pcntl\_signal()](function.pcntl-signal.html). Залежно від операційної системи, може щомиті посилатися додатковий сигнал `SIGXCPU`, поки не буде досягнуто жорсткої межі, досягнення якої не можна обробити. Процесу буде надіслано сигнал `SIGKILL`. Дивіться також [set\_time\_limit()](function.set-time-limit.html)
+Максимальна кількість процесорного часу, яка може бути використана процесом, у секундах. Коли досягається м'яке обмеження, процесу буде надіслано сигнал `SIGXCPU`, який може бути оброблений за допомогою функції [pcntlsignal()](function.pcntl-signal.html). Залежно від операційної системи, може щомиті посилатися додатковий сигнал `SIGXCPU`, поки не буде досягнуто жорсткої межі, досягнення якої не можна обробити. Процесу буде надіслано сигнал `SIGKILL`. Дивіться також [settimelimit()](function.set-time-limit.html)
 
 **`POSIX_RLIMIT_DATA`** (int)
 

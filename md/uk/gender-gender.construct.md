@@ -1,12 +1,12 @@
 Конструктор об'єкта класу Gender
 
--   [« Gender\\Gender::connect](gender-gender.connect.html)
+-   [« GenderGender::connect](gender-gender.connect.html)
     
--   [Gender\\Gender::country »](gender-gender.country.html)
+-   [GenderGender::country »](gender-gender.country.html)
     
 -   [PHP Manual](index.html)
     
--   [Gender\\Gender](class.gender.html)
+-   [GenderGender](class.gender.html)
     
 -   Конструктор об'єкта класу Gender
     

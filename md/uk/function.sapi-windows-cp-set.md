@@ -1,12 +1,12 @@
 Встановити кодову сторінку процесу
 
--   [« sapi\_windows\_cp\_is\_utf8](function.sapi-windows-cp-is-utf8.html)
+-   [« sapiwindowsспісutf8](function.sapi-windows-cp-is-utf8.html)
     
--   [sapi\_windows\_generate\_ctrl\_event »](function.sapi-windows-generate-ctrl-event.html)
+-   [sapiwindowsgeneratectrlevent »](function.sapi-windows-generate-ctrl-event.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Встановити кодову сторінку процесу
     
@@ -37,4 +37,4 @@ sapi_windows_cp_set(int $codepage): bool
 
 ### Дивіться також
 
--   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку

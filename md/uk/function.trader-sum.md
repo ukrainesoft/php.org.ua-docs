@@ -1,8 +1,8 @@
 Підсумовування
 
--   [« trader\_sub](function.trader-sub.html)
+-   [« tradersub](function.trader-sub.html)
     
--   [trader\_t3 »](function.trader-t3.html)
+-   [tradert3 »](function.trader-t3.html)
     
 -   [PHP Manual](index.html)
     

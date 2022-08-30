@@ -139,7 +139,7 @@
 
 **\-disable-cli**
 
-Вимикає складання CLI-версії PHP (опція також викликає [\--without-pear](configure.about.html#configure.without-pear)). Більше інформації можна отримати у розділі [Использование PHP в командной строке](features.commandline.html)
+Вимикає складання CLI-версії PHP (опція також викликає [\-without-pear](configure.about.html#configure.without-pear)). Більше інформації можна отримати у розділі [Використання PHP у командному рядку](features.commandline.html)
 
 **\-enable-phpdbg**
 

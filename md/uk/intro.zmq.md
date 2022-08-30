@@ -1,12 +1,12 @@
 Вступ
 
--   [« Обмен сообщениями 0MQ](book.zmq.html)
+-   [« Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   [Установка и настройка »](zmq.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Обмен сообщениями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   Вступ
     

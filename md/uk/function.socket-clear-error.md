@@ -1,8 +1,8 @@
 Очищує помилку на сокеті або останній код помилки
 
--   [« socket\_bind](function.socket-bind.html)
+-   [« socketbind](function.socket-bind.html)
     
--   [socket\_close »](function.socket-close.html)
+-   [socketclose »](function.socket-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ socket_clear_error(?Socket $socket = null): void
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
 
 ### Значення, що повертаються
 
@@ -46,5 +46,5 @@ socket_clear_error(?Socket $socket = null): void
 
 ### Дивіться також
 
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

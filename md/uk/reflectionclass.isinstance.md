@@ -71,6 +71,6 @@ Yes
 ### Дивіться також
 
 -   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
--   [Операторы проверки типа (instanceof)](language.operators.type.html)
--   [Интерфейсы объектов](language.oop5.interfaces.html)
--   [is\_a()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
+-   [Оператори перевірки типу (instanceof)](language.operators.type.html)
+-   [Інтерфейси об'єктів](language.oop5.interfaces.html)
+-   [ісa()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків

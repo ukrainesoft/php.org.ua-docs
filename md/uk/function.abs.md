@@ -1,12 +1,12 @@
 Абсолютне значення (модуль числа)
 
--   [« Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   [acos »](function.acos.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Абсолютне значення (модуль числа)
     
@@ -55,5 +55,5 @@ echo abs(-5);   // 5 (integer)
 
 ### Дивіться також
 
--   [gmp\_abs()](function.gmp-abs.html) - Абсолютна величина
--   [gmp\_sign()](function.gmp-sign.html) - Знак числа
+-   [gmpabs()](function.gmp-abs.html) - Абсолютна величина
+-   [gmpsign()](function.gmp-sign.html) - Знак числа

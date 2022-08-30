@@ -1,8 +1,8 @@
 Перемістити вказані повідомлення до вказаної поштової скриньки
 
--   [« imap\_mail\_copy](function.imap-mail-copy.html)
+-   [« imapmailcopy](function.imap-mail-copy.html)
     
--   [imap\_mail »](function.imap-mail.html)
+-   [imapmail »](function.imap-mail.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_mail_move(    IMAP\Connection $imap,    string $message_nums,   
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_nums`
 
@@ -37,11 +37,11 @@ imap_mail_move(    IMAP\Connection $imap,    string $message_nums,   
 
 `mailbox`
 
-Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imap\_open()](function.imap-open.html)
+Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `flags`
 
@@ -55,16 +55,16 @@ imap_mail_move(    IMAP\Connection $imap,    string $message_nums,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Функція **imapmailmove()** позначає оригінальне повідомлення прапором видалення, тому не забудьте після неї викликати функцію [imap\_expunge()](function.imap-expunge.html)
+> Функція **imapmailmove()** позначає оригінальне повідомлення прапором видалення, тому не забудьте після неї викликати функцію [imapexpunge()](function.imap-expunge.html)
 
 ### Дивіться також
 
--   [imap\_mail\_copy()](function.imap-mail-copy.html) - Скопіювати повідомлення у вказану поштову скриньку
+-   [imapmailcopy()](function.imap-mail-copy.html) - Скопіювати повідомлення у вказану поштову скриньку

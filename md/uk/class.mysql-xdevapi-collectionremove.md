@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас CollectionRemove
     
@@ -45,7 +45,7 @@ public sort(string $sort_expr): mysql_xdevapi\CollectionRemove
 ## Зміст
 
 -   [CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.html) — Прив'язує значення до заповнювача
--   [CollectionRemove::\_\_construct](mysql-xdevapi-collectionremove.construct.html) - Конструктор класу CollectionRemove
+-   [CollectionRemove::construct](mysql-xdevapi-collectionremove.construct.html) - Конструктор класу CollectionRemove
 -   [CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.html) - Виконує операцію видалення
 -   [CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.html) — Обмежує кількість документів для видалення
 -   [CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.html) - Встановлює критерії сортування

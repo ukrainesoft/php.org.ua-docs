@@ -1,12 +1,12 @@
 Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
 
--   [« gnupg\_init](function.gnupg-init.html)
+-   [« gnupginit](function.gnupg-init.html)
     
--   [gnupg\_listsignatures »](function.gnupg-listsignatures.html)
+-   [gnupglistsignatures »](function.gnupg-listsignatures.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
     
@@ -27,7 +27,7 @@ gnupg_keyinfo(resource $identifier, string $pattern): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `pattern`
 

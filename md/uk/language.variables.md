@@ -1,6 +1,6 @@
 Змінні
 
--   [« Манипуляции с типами](language.types.type-juggling.html)
+-   [Маніпуляції з типами](language.types.type-juggling.html)
     
 -   [Основы »](language.variables.basics.html)
     
@@ -17,6 +17,6 @@
 
 -   [Основы](language.variables.basics.html)
 -   [Предопределённые переменные](language.variables.predefined.html)
--   [Область видимости переменной](language.variables.scope.html)
+-   [Область видимості змінної](language.variables.scope.html)
 -   [Переменные переменных](language.variables.variable.html)
 -   [Переменные извне PHP](language.variables.external.html)

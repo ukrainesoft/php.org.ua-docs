@@ -1,12 +1,12 @@
 Налаштування товщини шрифту
 
--   [« UI\\Draw\\Text\\Font\\Italic](class.ui-draw-text-font-italic.html)
+-   [« UIDrawTextFontItalic](class.ui-draw-text-font-italic.html)
     
--   [UI\\Draw\\Line\\Cap »](class.ui-draw-line-cap.html)
+-   [ОЙDrawLineCap »](class.ui-draw-line-cap.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Налаштування товщини шрифту
     

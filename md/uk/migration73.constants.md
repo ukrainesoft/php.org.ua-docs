@@ -1,8 +1,8 @@
 Нові глобальні константи
 
--   [« Новые функции](migration73.new-functions.html)
+-   [« Нові функції](migration73.new-functions.html)
     
--   [Изменения, ломающие обратную совместимость »](migration73.incompatible.html)
+-   [Зміни, що ламають зворотну сумісність »](migration73.incompatible.html)
     
 -   [PHP Manual](index.html)
     

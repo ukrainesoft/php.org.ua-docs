@@ -29,7 +29,7 @@ public static PDO::getAvailableDrivers(): array
 pdo_drivers(): array
 ```
 
-Ця функція повертає всі наявні в даний час драйвери PDO, які можна використовувати в `DSN`параметрі [PDO::\_\_construct()](pdo.construct.html)
+Ця функція повертає всі наявні в даний час драйвери PDO, які можна використовувати в `DSN`параметрі [PDO::construct()](pdo.construct.html)
 
 ### Список параметрів
 

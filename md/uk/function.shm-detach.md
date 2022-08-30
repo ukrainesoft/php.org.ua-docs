@@ -1,12 +1,12 @@
 Відключається від сегмента пам'яті, що розділяється
 
--   [« shm\_attach](function.shm-attach.html)
+-   [« shmattach](function.shm-attach.html)
     
--   [shm\_get\_var »](function.shm-get-var.html)
+-   [shmgetvar »](function.shm-get-var.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Відключається від сегмента пам'яті, що розділяється
     
@@ -23,13 +23,13 @@ shmdetach — Вимикається від сегмента пам'яті, що
 shm_detach(SysvSharedMemory $shm): bool
 ```
 
-**shmdetach()** відключається від сегмента пам'яті, зазначеного в `shm`, створеного [shm\_attach()](function.shm-attach.html). Пам'ятайте, що пам'ять, що розділяється, все ще існує в системі Unix і дані все ще присутні.
+**shmdetach()** відключається від сегмента пам'яті, зазначеного в `shm`, створеного [shmattach()](function.shm-attach.html). Пам'ятайте, що пам'ять, що розділяється, все ще існує в системі Unix і дані все ще присутні.
 
 ### Список параметрів
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
 
 ### Значення, що повертаються
 
@@ -43,6 +43,6 @@ shm_detach(SysvSharedMemory $shm): bool
 
 ### Дивіться також
 
--   [shm\_attach()](function.shm-attach.html) - Створює або відкриває сегмент пам'яті, що розділяється
--   [shm\_remove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix
--   [shm\_remove\_var()](function.shm-remove-var.html) - Видаляє змінну з пам'яті, що розділяється.
+-   [shmattach()](function.shm-attach.html) - Створює або відкриває сегмент пам'яті, що розділяється
+-   [shmremove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix
+-   [shmremovevar()](function.shm-remove-var.html) - Видаляє змінну з пам'яті, що розділяється.

@@ -1,12 +1,12 @@
 Повертає код JavascriptInterface
 
--   [« MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)
+-   [« MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
     
--   [MongoDB\\BSON\\JavascriptInterface::getScope »](mongodb-bson-javascriptinterface.getscope.html)
+-   [MongoDBBSONJavascriptInterface::getScope »](mongodb-bson-javascriptinterface.getscope.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)
+-   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
     
 -   Повертає код JavascriptInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\JavascriptInterface::getCode(): string
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Javascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
+-   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript

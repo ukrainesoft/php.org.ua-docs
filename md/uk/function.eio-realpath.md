@@ -1,8 +1,8 @@
 Отримує абсолютний приведений до канонічного виду шлях
 
--   [« eio\_readlink](function.eio-readlink.html)
+-   [« eioreadlink](function.eio-readlink.html)
     
--   [eio\_rename »](function.eio-rename.html)
+-   [eiorename »](function.eio-rename.html)
     
 -   [PHP Manual](index.html)
     

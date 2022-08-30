@@ -1,12 +1,12 @@
 Конструктор класу
 
--   [« parallel\\Sync](class.parallel-sync.html)
+-   [« parallelSync](class.parallel-sync.html)
     
--   [parallel\\Sync::get »](parallel-sync.get.html)
+-   [parallelSync::get »](parallel-sync.get.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Sync](class.parallel-sync.html)
+-   [parallelSync](class.parallel-sync.html)
     
 -   Конструктор класу
     

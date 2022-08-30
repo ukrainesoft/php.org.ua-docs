@@ -1,8 +1,8 @@
 Завершує роботу сокету на отримання та/або відправлення даних
 
--   [« socket\_setopt](function.socket-setopt.html)
+-   [« socketsetopt](function.socket-setopt.html)
     
--   [socket\_strerror »](function.socket-strerror.html)
+-   [socketstrerror »](function.socket-strerror.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ socket_shutdown(Socket $socket, int $mode = 2): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
 
 `mode`
 

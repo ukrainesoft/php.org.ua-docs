@@ -1,6 +1,6 @@
 Виконати зовнішню програму та відобразити висновок
 
--   [« shell\_exec](function.shell-exec.html)
+-   [« shellexec](function.shell-exec.html)
     
 -   [parallel »](book.parallel.html)
     
@@ -80,5 +80,5 @@ echo '
 -   [passthru()](function.passthru.html) - Виконати зовнішню програму та відобразити необроблений висновок
 -   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
 -   [escapeshellcmd()](function.escapeshellcmd.html) - Екранувати метасимволи командного рядка
--   [pcntl\_exec()](function.pcntl-exec.html) - Запустити вказану програму в галузі поточного процесу
+-   [pcntlexec()](function.pcntl-exec.html) - Запустити вказану програму в галузі поточного процесу
 -   [Оператор исполнения](language.operators.execution.html)

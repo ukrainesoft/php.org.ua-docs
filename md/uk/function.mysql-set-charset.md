@@ -1,8 +1,8 @@
 Встановлює кодування клієнта
 
--   [« mysql\_select\_db](function.mysql-select-db.html)
+-   [« mysqlselectдб](function.mysql-select-db.html)
     
--   [mysql\_stat »](function.mysql-stat.html)
+-   [mysqlstat »](function.mysql-stat.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlsetcharset — Встановлює кодування клієнта
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_set\_charset()](mysqli.set-charset.html)
+-   [mysqlisetcharset()](mysqli.set-charset.html)
 -   PDO: Додаванням `charset` у рядок з'єднання, наприклад `charset=utf8`
 
 ### Опис
@@ -40,7 +40,7 @@ mysql_set_charset(string $charset, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -54,10 +54,10 @@ mysql_set_charset(string $charset, resource $link_identifier = NULL): bool
 
 > **Зауваження**
 > 
-> Це найбільш вподобаний спосіб зміни кодування. Використання [mysql\_query()](function.mysql-query.html) з цією метою (наприклад `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодировка символов в MySQL](mysqlinfo.concepts.charset.html) для детальної інформації.
+> Це найбільш вподобаний спосіб зміни кодування. Використання [mysqlquery()](function.mysql-query.html) з цією метою (наприклад `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування символів у MySQL](mysqlinfo.concepts.charset.html) для детальної інформації.
 
 ### Дивіться також
 
--   [Настройка кодировок символов в MySQL](mysqlinfo.concepts.charset.html)
--   [» Список поддерживаемых MySQL кодировок](http://dev.mysql.com/doc/mysql/en/charset-charsets.html)
--   [mysql\_client\_encoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання
+-   [Налаштування коду символів у MySQL](mysqlinfo.concepts.charset.html)
+-   [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.html)
+-   [mysqlclientencoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання

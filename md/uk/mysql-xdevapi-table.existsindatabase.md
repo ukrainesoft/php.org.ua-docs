@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html)
+-   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     
 -   Перевірити, чи існує таблиця у базі даних
     
@@ -31,7 +31,7 @@ public mysql_xdevapi\Table::existsInDatabase(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо таблиця існує в базі даних, інакше **`false`**якщо таблиці немає.
+Повертає \*\*`true`\*\*якщо таблиця існує в базі даних, інакше \*\*`false`\*\*якщо таблиці немає.
 
 ### Приклади
 

@@ -1,8 +1,8 @@
 Приєднує атрибут IP-адреси конкретного постачальника
 
--   [« radius\_put\_string](function.radius-put-string.html)
+-   [« radiusputstring](function.radius-put-string.html)
     
--   [radius\_put\_vendor\_attr »](function.radius-put-vendor-attr.html)
+-   [radiusputvendorattr »](function.radius-put-vendor-attr.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ radius_put_vendor_addr(    resource $radius_handle,    int $vendor,  �
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 

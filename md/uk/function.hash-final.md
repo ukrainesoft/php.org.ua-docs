@@ -1,8 +1,8 @@
 Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
 
--   [« hash\_file](function.hash-file.html)
+-   [« hashfile](function.hash-file.html)
     
--   [hash\_hkdf »](function.hash-hkdf.html)
+-   [hashhkdf »](function.hash-hkdf.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ hash_final(HashContext $context, bool $binary = false): string
 
 `context`
 
-Контекст хешування, повернутий [hash\_init()](function.hash-init.html)
+Контекст хешування, повернутий [hashinit()](function.hash-init.html)
 
 `binary`
 
@@ -63,7 +63,7 @@ dc495843a3a90b46c12e254102599571fa83a737
 
 ### Дивіться також
 
--   [hash\_init()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hash\_update()](function.hash-update.html) - Додає дані до активного контексту хешування
--   [hash\_update\_stream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
--   [hash\_update\_file()](function.hash-update-file.html) - Додає дані з файлу до активного контексту хешування
+-   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashupdate()](function.hash-update.html) - Додає дані до активного контексту хешування
+-   [hashupdatestream()](function.hash-update-stream.html) - Додає дані з відкритого потоку до активного контексту хешування
+-   [hashupdatefile()](function.hash-update-file.html) - Додає дані з файлу до активного контексту хешування

@@ -1,12 +1,12 @@
 Розбір
 
--   [« CommonMark\\Parser](class.commonmark-parser.html)
+-   [« CommonMarkParser](class.commonmark-parser.html)
     
--   [CommonMark\\Parser::parse »](commonmark-parser.parse.html)
+-   [CommonMarkParser::parse »](commonmark-parser.parse.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Parser](class.commonmark-parser.html)
+-   [CommonMarkParser](class.commonmark-parser.html)
     
 -   Розбір
     

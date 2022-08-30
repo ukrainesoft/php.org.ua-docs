@@ -1,8 +1,8 @@
 Псевдонім DateTimeZone::getName
 
--   [« timezone\_name\_from\_abbr](function.timezone-name-from-abbr.html)
+-   [« timezonenamefromabbr](function.timezone-name-from-abbr.html)
     
--   [timezone\_offset\_get »](function.timezone-offset-get.html)
+-   [timezoneoffsetget »](function.timezone-offset-get.html)
     
 -   [PHP Manual](index.html)
     

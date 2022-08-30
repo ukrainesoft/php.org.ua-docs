@@ -22,20 +22,20 @@
 Суперглобальними змінними є:
 
 -   [$GLOBALS](reserved.variables.globals.html)
--   [$\_SERVER](reserved.variables.server.html)
--   [$\_GET](reserved.variables.get.html)
--   [$\_POST](reserved.variables.post.html)
--   [$\_FILES](reserved.variables.files.html)
--   [$\_COOKIE](reserved.variables.cookies.html)
--   [$\_SESSION](reserved.variables.session.html)
--   [$\_REQUEST](reserved.variables.request.html)
--   [$\_ENV](reserved.variables.environment.html)
+-   [SERVER](reserved.variables.server.html)
+-   [GET](reserved.variables.get.html)
+-   [POST](reserved.variables.post.html)
+-   [FILES](reserved.variables.files.html)
+-   [COOKIE](reserved.variables.cookies.html)
+-   [SESSION](reserved.variables.session.html)
+-   [REQUEST](reserved.variables.request.html)
+-   [ENV](reserved.variables.environment.html)
 
 ### Примітки
 
 > **Зауваження** **Доступність змінних**
 > 
-> За замовчуванням усі суперглобальні змінні доступні завжди, проте існують налаштування, які можуть впливати на це. За подальшою інформацією звертайтесь до опису директиви [variables\_order](ini.core.html#ini.variables-order)
+> За замовчуванням усі суперглобальні змінні доступні завжди, проте існують налаштування, які можуть впливати на це. За подальшою інформацією звертайтесь до опису директиви [variablesorder](ini.core.html#ini.variables-order)
 
 > **Зауваження** **Змінні змінних**
 > 
@@ -43,6 +43,6 @@
 
 ### Дивіться також
 
--   [Область видимости переменной](language.variables.scope.html)
--   Директива [variables\_order](ini.core.html#ini.variables-order)
--   "[Фильтрация данных](book.filter.html)"
+-   [Область видимості змінної](language.variables.scope.html)
+-   Директива [variablesorder](ini.core.html#ini.variables-order)
+-   "[Фільтрування даних](book.filter.html)"

@@ -1,12 +1,12 @@
 Створює масив
 
--   [« array\_walk](function.array-walk.html)
+-   [« arraywalk](function.array-walk.html)
     
 -   [arsort »](function.arsort.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Створює масив
     
@@ -122,7 +122,7 @@ echo "Hello {$foo['bar']}!"; // Hello baz!
 
 ### Дивіться також
 
--   [array\_pad()](function.array-pad.html) - Доповнити масив певним значенням до вказаної довжини
+-   [arraypad()](function.array-pad.html) - Доповнити масив певним значенням до вказаної довжини
 -   [list()](function.list.html) - Надає змінним зі списку значення подібно до масиву
 -   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
 -   [range()](function.range.html) - Створює масив, що містить діапазон елементів

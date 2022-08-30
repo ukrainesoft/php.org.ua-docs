@@ -198,8 +198,8 @@ echo "После изменения часового пояса:\n\t",
 
 ### Дивіться також
 
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
--   [datefmt\_parse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
--   [datefmt\_get\_error\_code()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmt\_get\_error\_message()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
--   [datefmt\_format\_object()](intldateformatter.formatobject.html) - Форматує об'єкт
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtparse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
+-   [datefmtformatobject()](intldateformatter.formatobject.html) - Форматує об'єкт

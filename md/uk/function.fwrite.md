@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Бінарно-безпечний запис у файл
     
@@ -138,5 +138,5 @@ if (is_writable($filename)) {
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
 -   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
--   [file\_get\_contents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
 -   [pack()](function.pack.html) - Упакувати дані у бінарний рядок

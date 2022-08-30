@@ -2,7 +2,7 @@
 
 -   [« SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.html)
     
--   [SolrDisMaxQuery::\_\_construct »](solrdismaxquery.construct.html)
+-   [SolrDisMaxQuery::construct »](solrdismaxquery.construct.html)
     
 -   [PHP Manual](index.html)
     

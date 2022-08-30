@@ -1,12 +1,12 @@
 Порівняє два документи XML
 
--   [« XMLDiff\\Base::\_\_construct](xmldiff-base.construct.html)
+-   [« XMLDiffBase::construct](xmldiff-base.construct.html)
     
--   [XMLDiff\\Base::merge »](xmldiff-base.merge.html)
+-   [XMLDiffBase::merge »](xmldiff-base.merge.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\Base](class.xmldiff-base.html)
+-   [XMLDiffBase](class.xmldiff-base.html)
     
 -   Порівняє два документи XML
     

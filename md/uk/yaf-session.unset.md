@@ -1,12 +1,12 @@
 Призначення unset
 
--   [« Yaf\_Session::start](yaf-session.start.html)
+-   [« YafSession::start](yaf-session.start.html)
     
--   [Yaf\_Session::valid »](yaf-session.valid.html)
+-   [YafSession::valid »](yaf-session.valid.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення unset
     

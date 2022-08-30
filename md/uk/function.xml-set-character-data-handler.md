@@ -1,8 +1,8 @@
 Встановлення обробника символьних даних
 
--   [« xml\_parser\_set\_option](function.xml-parser-set-option.html)
+-   [« xmlparsersetoption](function.xml-parser-set-option.html)
     
--   [xml\_set\_default\_handler »](function.xml-set-default-handler.html)
+-   [xmlsetdefaulthandler »](function.xml-set-default-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ xml_set_character_data_handler(XMLParser $parser, callable $handler): bool
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати два аргументи:
 

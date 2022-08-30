@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\MySQL::getDefer](swoole-coroutine-mysql.getdefer.html)
+-   [« SwooleCoroutineMySQL::getDefer](swoole-coroutine-mysql.getdefer.html)
     
--   [Swoole\\Coroutine\\MySQL::recv »](swoole-coroutine-mysql.recv.html)
+-   [SwooleCoroutineMySQL::recv »](swoole-coroutine-mysql.recv.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

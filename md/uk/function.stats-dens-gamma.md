@@ -1,12 +1,12 @@
 Щільність ймовірності гамма-розподілу
 
--   [« stats\_dens\_f](function.stats-dens-f.html)
+-   [« statsdensф](function.stats-dens-f.html)
     
--   [stats\_dens\_laplace »](function.stats-dens-laplace.html)
+-   [statsdenslaplace »](function.stats-dens-laplace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності гамма-розподілу
     

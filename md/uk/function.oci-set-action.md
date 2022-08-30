@@ -1,8 +1,8 @@
 Вказує ім'я для дії
 
--   [« oci\_server\_version](function.oci-server-version.html)
+-   [« ociserverversion](function.oci-server-version.html)
     
--   [oci\_set\_call\_timeout »](function.oci-set-call-timout.html)
+-   [ocisetcalltimeout »](function.oci-set-call-timout.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ oci_set_action(resource $connection, string $action): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html), або [oci\_new\_connect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
 
 `action`
 
@@ -84,7 +84,7 @@ SQL> select action from v$session;
 
 # Продуктивність
 
-У старих версіях OCI8 або бази даних Oracle можна було встановити інформацію про клієнта за допомогою пакета `DBMS_APPLICATION_INFO`. Для цієї мети ефективніше використання функції [oci\_set\_client\_info()](function.oci-set-client-info.html)
+У старих версіях OCI8 або бази даних Oracle можна було встановити інформацію про клієнта за допомогою пакета `DBMS_APPLICATION_INFO`. Для цієї мети ефективніше використання функції [ocisetclientinfo()](function.oci-set-client-info.html)
 
 **Застереження**
 
@@ -94,7 +94,7 @@ SQL> select action from v$session;
 
 ### Дивіться також
 
--   [oci\_set\_module\_name()](function.oci-set-module-name.html) - Задає ім'я модулю
--   [oci\_set\_client\_info()](function.oci-set-client-info.html) - Задає інформацію про клієнта
--   [oci\_set\_client\_identifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта
--   [oci\_set\_db\_operation()](function.oci-set-db-operation.html) - Задає операцію бази даних
+-   [ocisetmodulename()](function.oci-set-module-name.html) - Задає ім'я модулю
+-   [ocisetclientinfo()](function.oci-set-client-info.html) - Задає інформацію про клієнта
+-   [ocisetclientidentifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта
+-   [ocisetдбoperation()](function.oci-set-db-operation.html) - Задає операцію бази даних

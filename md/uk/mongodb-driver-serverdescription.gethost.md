@@ -1,12 +1,12 @@
 Повертає ім'я сервера хоста
 
--   [« MongoDB\\Driver\\ServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.html)
+-   [« MongoDBDriverServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.html)
     
--   [MongoDB\\Driver\\ServerDescription::getLastUpdateTime »](mongodb-driver-serverdescription.getlastupdatetime.html)
+-   [MongoDBDriverServerDescription::getLastUpdateTime »](mongodb-driver-serverdescription.getlastupdatetime.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)
+-   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
     
 -   Повертає ім'я сервера хоста
     
@@ -35,8 +35,8 @@ final public MongoDB\Driver\ServerDescription::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getHost()](mongodb-driver-server.gethost.html) - Повертає ім'я сервера хоста
+-   [MongoDBDriverServer::getHost()](mongodb-driver-server.gethost.html) - Повертає ім'я сервера хоста

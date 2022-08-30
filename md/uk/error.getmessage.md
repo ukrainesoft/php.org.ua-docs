@@ -1,6 +1,6 @@
 Отримує повідомлення про помилку
 
--   [« Error::\_\_construct](error.construct.html)
+-   [« Error::construct](error.construct.html)
     
 -   [Error::getPrevious »](error.getprevious.html)
     

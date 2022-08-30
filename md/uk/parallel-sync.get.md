@@ -1,12 +1,12 @@
 Доступ
 
--   [« parallel\\Sync::\_\_construct](parallel-sync.construct.html)
+-   [« parallelSync::construct](parallel-sync.construct.html)
     
--   [parallel\\Sync::set »](parallel-sync.set.html)
+-   [parallelSync::set »](parallel-sync.set.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Sync](class.parallel-sync.html)
+-   [parallelSync](class.parallel-sync.html)
     
 -   Доступ
     

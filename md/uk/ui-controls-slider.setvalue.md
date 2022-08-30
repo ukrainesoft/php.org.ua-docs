@@ -1,12 +1,12 @@
 Встановити значення
 
--   [« UI\\Controls\\Slider::onChange](ui-controls-slider.onchange.html)
+-   [« UIControlsSlider::onChange](ui-controls-slider.onchange.html)
     
--   [UI\\Controls\\Progress »](class.ui-controls-progress.html)
+-   [ОЙControlsProgress »](class.ui-controls-progress.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+-   [ОЙControlsSlider](class.ui-controls-slider.html)
     
 -   Встановити значення
     

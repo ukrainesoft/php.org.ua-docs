@@ -1,8 +1,8 @@
 Повертає код помилки останнього виклику функції
 
--   [« mysqli::dump\_debug\_info](mysqli.dump-debug-info.html)
+-   [« mysqli::dumpdebuginfo](mysqli.dump-debug-info.html)
     
--   [mysqli::$error\_list »](mysqli.error-list.html)
+-   [mysqli::$errorlist »](mysqli.error-list.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ mysqli_errno(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -97,7 +97,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_connect\_errno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
--   [mysqli\_connect\_error()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
--   [mysqli\_error()](mysqli.error.html) - Повертає рядок із описом останньої помилки
--   [mysqli\_sqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqliconnecterrno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
+-   [mysqliconnecterror()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
+-   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції

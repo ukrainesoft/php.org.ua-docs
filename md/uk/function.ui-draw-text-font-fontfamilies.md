@@ -2,7 +2,7 @@
 
 -   [« Функции UI](ref.ui.html)
     
--   [UI\\quit »](function.ui-quit.html)
+-   [ОЙquit »](function.ui-quit.html)
     
 -   [PHP Manual](index.html)
     

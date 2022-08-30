@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocisetprefetch - Псевдонім [oci\_set\_prefetch()](function.oci-set-prefetch.html)
+ocisetprefetch - Псевдонім [ocisetprefetch()](function.oci-set-prefetch.html)
 
 ### Опис
 
-Псевдонім [oci\_set\_prefetch()](function.oci-set-prefetch.html)
+Псевдонім [ocisetprefetch()](function.oci-set-prefetch.html)
 
 **Увага**
 

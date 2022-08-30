@@ -1,12 +1,12 @@
 Розбір результуючого об'єкта виконання розширеної операції LDAP
 
--   [« ldap\_next\_reference](function.ldap-next-reference.html)
+-   [« ldapnextreference](function.ldap-next-reference.html)
     
--   [ldap\_parse\_reference »](function.ldap-parse-reference.html)
+-   [ldapparsereference »](function.ldap-parse-reference.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Розбір результуючого об'єкта виконання розширеної операції LDAP
     
@@ -29,11 +29,11 @@ ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,   
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `result`
 
-Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
+Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.html)
 
 `response_data`
 
@@ -49,11 +49,11 @@ ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
 
 ### Дивіться також
 
--   [ldap\_exop()](function.ldap-exop.html) - Виконує розширену операцію
+-   [ldapexop()](function.ldap-exop.html) - Виконує розширену операцію

@@ -1,12 +1,12 @@
 Серіалізує одне значення всередині пакету WDDX
 
--   [« wddx\_packet\_start](function.wddx-packet-start.html)
+-   [« wddxpacketstart](function.wddx-packet-start.html)
     
--   [wddx\_serialize\_vars »](function.wddx-serialize-vars.html)
+-   [wddxserializevars »](function.wddx-serialize-vars.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.html)
     
 -   Серіалізує одне значення всередині пакету WDDX
     

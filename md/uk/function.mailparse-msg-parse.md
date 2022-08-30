@@ -1,8 +1,8 @@
 Інкрементальне розбирає дані у буфер
 
--   [« mailparse\_msg\_parse\_file](function.mailparse-msg-parse-file.html)
+-   [« mailparsemsgparsefile](function.mailparse-msg-parse-file.html)
     
--   [mailparse\_rfc822\_parse\_addresses »](function.mailparse-rfc822-parse-addresses.html)
+-   [mailparserfc822parseaddresses »](function.mailparse-rfc822-parse-addresses.html)
     
 -   [PHP Manual](index.html)
     

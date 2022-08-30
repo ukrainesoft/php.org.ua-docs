@@ -1,8 +1,8 @@
 Ініціалізує сеанс cURL
 
--   [« curl\_getinfo](function.curl-getinfo.html)
+-   [« curlgetinfo](function.curl-getinfo.html)
     
--   [curl\_multi\_add\_handle »](function.curl-multi-add-handle.html)
+-   [curlmultiaddhandle »](function.curl-multi-add-handle.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,17 +23,17 @@ curlinit - Ініціалізує сеанс cURL
 curl_init(?string $url = null): CurlHandle|false
 ```
 
-Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curl\_setopt()](function.curl-setopt.html) [curl\_exec()](function.curl-exec.html) і [curl\_close()](function.curl-close.html)
+Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curlsetopt()](function.curl-setopt.html) [curlexec()](function.curl-exec.html) і [curlclose()](function.curl-close.html)
 
 ### Список параметрів
 
 `url`
 
-Якщо вказано, опція **`CURLOPT_URL`** буде автоматично встановлено значення цього аргументу. Ви можете вручну встановити цю опцію за допомогою функції [curl\_setopt()](function.curl-setopt.html)
+Якщо вказано, опція **`CURLOPT_URL`** буде автоматично встановлено значення цього аргументу. Ви можете вручну встановити цю опцію за допомогою функції [curlsetopt()](function.curl-setopt.html)
 
 > **Зауваження**
 > 
-> Протокол `file` стає недоступним у cURL, якщо задана опція [open\_basedir](ini.core.html#ini.open-basedir)
+> Протокол `file` стає недоступним у cURL, якщо задана опція [openbasedir](ini.core.html#ini.open-basedir)
 
 ### Значення, що повертаються
 
@@ -69,5 +69,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curl\_close()](function.curl-close.html) - Завершує сеанс cURL
--   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlclose()](function.curl-close.html) - Завершує сеанс cURL
+-   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів

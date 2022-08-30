@@ -2,7 +2,7 @@
 
 -   [« Обзор перечислений](language.enumerations.overview.html)
     
--   [Типизированные перечисления »](language.enumerations.backed.html)
+-   [Типізовані перерахування »](language.enumerations.backed.html)
     
 -   [PHP Manual](index.html)
     

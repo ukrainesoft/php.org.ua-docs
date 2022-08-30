@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](math.resources.html)
     
--   [Математические функции »](ref.math.html)
+-   [Математичні функції »](ref.math.html)
     
 -   [PHP Manual](index.html)
     

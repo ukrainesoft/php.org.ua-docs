@@ -43,7 +43,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvSignal::\_\_construct()](evsignal.construct.html)
+Усі параметри, що й для [EvSignal::construct()](evsignal.construct.html)
 
 ### Значення, що повертаються
 
@@ -51,4 +51,4 @@ final
 
 ### Дивіться також
 
--   [EvSignal::\_\_construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal

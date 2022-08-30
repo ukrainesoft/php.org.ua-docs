@@ -1,12 +1,12 @@
 Встановити функцію зворотного дзвінка для повторного зв'язування під час посилального пошуку
 
--   [« ldap\_set\_option](function.ldap-set-option.html)
+-   [« ldapsetoption](function.ldap-set-option.html)
     
--   [ldap\_sort »](function.ldap-sort.html)
+-   [ldapsort »](function.ldap-sort.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Встановити функцію зворотного дзвінка для повторного зв'язування під час посилального пошуку
     
@@ -29,7 +29,7 @@ ldap_set_rebind_proc(LDAP\Connection $ldap, ?callable $callback): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `callback` тепер допускає значення null.                                                                                                                 |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `callback` тепер допускає значення null.                                                                                                               |

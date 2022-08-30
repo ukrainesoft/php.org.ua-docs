@@ -2,7 +2,7 @@
 
 -   [« EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.html)
     
--   [EventListener::\_\_construct »](eventlistener.construct.html)
+-   [EventListener::construct »](eventlistener.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -146,7 +146,7 @@ public
 
 ## Зміст
 
--   [EventListener::\_\_construct](eventlistener.construct.html) — Створити новий слухач з'єднання, пов'язаний із базою подій
+-   [EventListener::construct](eventlistener.construct.html) — Створити новий слухач з'єднання, пов'язаний із базою подій
 -   [EventListener::disable](eventlistener.disable.html) — Вимикає подію підключення до об'єкта слухача
 -   [EventListener::enable](eventlistener.enable.html) — Включає подію підключення до об'єкта слухача
 -   [EventListener::getBase](eventlistener.getbase.html) — Повертає базу подій, пов'язану із слухачем подій

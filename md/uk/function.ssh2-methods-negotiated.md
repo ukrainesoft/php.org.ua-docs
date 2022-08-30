@@ -1,12 +1,12 @@
 Повертає список узгоджених методів
 
--   [« ssh2\_forward\_listen](function.ssh2-forward-listen.html)
+-   [« ssh2forwardlisten](function.ssh2-forward-listen.html)
     
--   [ssh2\_poll »](function.ssh2-poll.html)
+-   [ssh2poll »](function.ssh2-poll.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Повертає список узгоджених методів
     
@@ -29,7 +29,7 @@ ssh2_methods_negotiated(resource $session): array
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 ### Значення, що повертаються
 
@@ -61,4 +61,4 @@ echo "\tMAC: {$methods['server_to_client']['mac']}\n";
 
 ### Дивіться також
 
--   [ssh2\_connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера

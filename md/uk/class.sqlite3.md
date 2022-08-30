@@ -67,7 +67,7 @@ public static version(): array
 -   [SQLite3::busyTimeout](sqlite3.busytimeout.html) - Встановити обробник "зайнято" на з'єднання
 -   [SQLite3::changes](sqlite3.changes.html) — Отримати кількість рядків, які були змінені/віддалені/вставлені останнім запитом
 -   [SQLite3::close](sqlite3.close.html) — Закрити з'єднання з базою даних
--   [SQLite3::\_\_construct](sqlite3.construct.html) — Створює екземпляр SQLite3 і відкриває з'єднання з базою
+-   [SQLite3::construct](sqlite3.construct.html) — Створює екземпляр SQLite3 і відкриває з'єднання з базою
 -   [SQLite3::createAggregate](sqlite3.createaggregate.html) — Зареєструвати функцію PHP як агрегуючу функцію SQL
 -   [SQLite3::createCollation](sqlite3.createcollation.html) — Реєструє функцію PHP для використання як функцію сортування SQL
 -   [SQLite3::createFunction](sqlite3.createfunction.html) — Реєструє функцію PHP для використання як скалярну функцію SQL

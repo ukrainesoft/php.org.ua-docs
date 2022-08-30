@@ -1,12 +1,12 @@
 Отримати значення пріоритету процесу
 
--   [« pcntl\_get\_last\_error](function.pcntl-get-last-error.html)
+-   [pcntlgetlasterror](function.pcntl-get-last-error.html)
     
--   [pcntl\_rfork »](function.pcntl-rfork.html)
+-   [pcntlrfork »](function.pcntl-rfork.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Отримати значення пріоритету процесу
     
@@ -41,7 +41,7 @@ pcntl_getpriority(?int $process_id = null, int $mode = PRIO_PROCESS): int|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
@@ -51,4 +51,4 @@ pcntl_getpriority(?int $process_id = null, int $mode = PRIO_PROCESS): int|false
 
 ### Дивіться також
 
--   [pcntl\_setpriority()](function.pcntl-setpriority.html) - Змінити пріоритет процесу
+-   [pcntlsetpriority()](function.pcntl-setpriority.html) - Змінити пріоритет процесу

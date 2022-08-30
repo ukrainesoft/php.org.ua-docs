@@ -1,12 +1,12 @@
 Повертає інформацію про помилку
 
--   [« gnupg\_geterror](function.gnupg-geterror.html)
+-   [« gnupggeterror](function.gnupg-geterror.html)
     
--   [gnupg\_getprotocol »](function.gnupg-getprotocol.html)
+-   [gnupggetprotocol »](function.gnupg-getprotocol.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Повертає інформацію про помилку
     
@@ -27,7 +27,7 @@ gnupg_geterrorinfo(resource $identifier): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 ### Значення, що повертаються
 

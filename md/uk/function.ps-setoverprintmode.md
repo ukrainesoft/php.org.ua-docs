@@ -1,12 +1,12 @@
 Встановлює режим накладання
 
--   [« ps\_setmiterlimit](function.ps-setmiterlimit.html)
+-   [«pssetmiterlimit](function.ps-setmiterlimit.html)
     
--   [ps\_setpolydash »](function.ps-setpolydash.html)
+-   [псsetpolydash »](function.ps-setpolydash.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює режим накладання
     
@@ -31,7 +31,7 @@ ps_setoverprintmode(resource $psdoc, int $mode): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `mode`
 

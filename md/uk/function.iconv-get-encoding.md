@@ -2,7 +2,7 @@
 
 -   [« Функции iconv](ref.iconv.html)
     
--   [iconv\_mime\_decode\_headers »](function.iconv-mime-decode-headers.html)
+-   [iconvmimedecodeheaders »](function.iconv-mime-decode-headers.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,5 +70,5 @@ Array
 
 ### Дивіться також
 
--   [iconv\_set\_encoding()](function.iconv-set-encoding.html) - Встановлює поточні налаштування для перетворення символів кодування
--   [ob\_iconv\_handler()](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера
+-   [iconvsetencoding()](function.iconv-set-encoding.html) - Встановлює поточні налаштування для перетворення символів кодування
+-   [проiconvhandler()](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера

@@ -1,12 +1,12 @@
 Розірвати прив'язку до директорії LDAP
 
--   [« ldap\_t61\_to\_8859](function.ldap-t61-to-8859.html)
+-   [« ldapt61то](function.ldap-t61-to-8859.html)
     
--   [LDAP\\Connection »](class.ldap-connection.html)
+-   [LDAPConnection »](class.ldap-connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Розірвати прив'язку до директорії LDAP
     
@@ -29,7 +29,7 @@ ldap_unbind(LDAP\Connection $ldap): bool
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,10 +37,10 @@ ldap_unbind(LDAP\Connection $ldap): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [ldap\_bind()](function.ldap-bind.html) - Прив'язати до LDAP директорії
+-   [ldapbind()](function.ldap-bind.html) - Прив'язати до LDAP директорії

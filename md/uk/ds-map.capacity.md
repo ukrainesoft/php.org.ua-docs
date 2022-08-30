@@ -1,8 +1,8 @@
 Повертає поточну місткість
 
--   [« Ds\\Map::apply](ds-map.apply.html)
+-   [« DsMap::apply](ds-map.apply.html)
     
--   [Ds\\Map::clear »](ds-map.clear.html)
+-   [ДсMap::clear »](ds-map.clear.html)
     
 -   [PHP Manual](index.html)
     

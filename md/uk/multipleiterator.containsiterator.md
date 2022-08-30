@@ -1,6 +1,6 @@
 Перевіряє, чи приєднано ітератора.
 
--   [« MultipleIterator::\_\_construct](multipleiterator.construct.html)
+-   [« MultipleIterator::construct](multipleiterator.construct.html)
     
 -   [MultipleIterator::countIterators »](multipleiterator.countiterators.html)
     

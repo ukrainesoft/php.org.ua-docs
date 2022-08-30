@@ -1,12 +1,12 @@
 Встановлює ім'я дії
 
--   [« Yaf\_Request\_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.html)
+-   [« YafRequestAbstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.html)
     
--   [Yaf\_Request\_Abstract::setBaseUri »](yaf-request-abstract.setbaseuri.html)
+-   [YafRequestAbstract::setBaseUri »](yaf-request-abstract.setbaseuri.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Встановлює ім'я дії
     

@@ -1,8 +1,8 @@
 Середня ціна
 
--   [« trader\_maxindex](function.trader-maxindex.html)
+-   [« tradermaxindex](function.trader-maxindex.html)
     
--   [trader\_mfi »](function.trader-mfi.html)
+-   [tradermfi »](function.trader-mfi.html)
     
 -   [PHP Manual](index.html)
     

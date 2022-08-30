@@ -1,8 +1,8 @@
 Відкриває базу даних
 
--   [« dbase\_numrecords](function.dbase-numrecords.html)
+-   [« dbasenumrecords](function.dbase-numrecords.html)
     
--   [dbase\_pack »](function.dbase-pack.html)
+-   [dbasepack »](function.dbase-pack.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ dbase_open(string $path, int $mode): resource|false
 
 > **Зауваження**
 > 
-> На поведінку цієї функції впливає значення директиви [open\_basedir](ini.core.html#ini.open-basedir)
+> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.html#ini.open-basedir)
 
 ### Список параметрів
 
@@ -76,5 +76,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbase\_create()](function.dbase-create.html) - Створює базу даних
--   [dbase\_close()](function.dbase-close.html) - Закриває базу даних
+-   [dbasecreate()](function.dbase-create.html) - Створює базу даних
+-   [dbaseclose()](function.dbase-close.html) - Закриває базу даних

@@ -2,11 +2,11 @@
 
 -   [« sscanf](function.sscanf.html)
     
--   [str\_ends\_with »](function.str-ends-with.html)
+-   [strendswith »](function.str-ends-with.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Визначає, чи містить рядок заданий підрядок
     
@@ -89,12 +89,12 @@ if (str_contains($string, 'Ленивая')) {
 
 ### Дивіться також
 
--   [str\_ends\_with()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [str\_starts\_with()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
+-   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strstartswith()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
 -   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
 -   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
 -   [strripos()](function.strripos.html) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
 -   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
 -   [substr()](function.substr.html) - Повертає підрядок
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

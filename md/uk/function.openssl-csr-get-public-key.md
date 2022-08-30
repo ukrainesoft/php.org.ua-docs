@@ -1,8 +1,8 @@
 Повертає відкритий ключ CSR
 
--   [« openssl\_csr\_export](function.openssl-csr-export.html)
+-   [« opensslcsrexport](function.openssl-csr-export.html)
     
--   [openssl\_csr\_get\_subject »](function.openssl-csr-get-subject.html)
+-   [opensslcsrgetsubject »](function.openssl-csr-get-subject.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,8 +70,8 @@ echo $info['key'];
 
 ### Дивіться також
 
--   [openssl\_csr\_get\_subject()](function.openssl-csr-get-subject.html) - Повертає суб'єкт CSR
--   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
--   [openssl\_pkey\_get\_details()](function.openssl-pkey-get-details.html) - Отримує масив з детальною інформацією про ключ
--   [openssl\_pkey\_export\_to\_file()](function.openssl-pkey-export-to-file.html) - Записує у файл ключ у форматі PEM
--   [openssl\_pkey\_export()](function.openssl-pkey-export.html) - Отримує рядок із ключем у форматі PEM
+-   [opensslcsrgetsubject()](function.openssl-csr-get-subject.html) - Повертає суб'єкт CSR
+-   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
+-   [opensslpkeygetdetails()](function.openssl-pkey-get-details.html) - Отримує масив з детальною інформацією про ключ
+-   [opensslpkeyexportтоfile()](function.openssl-pkey-export-to-file.html) - Записує у файл ключ у форматі PEM
+-   [opensslpkeyexport()](function.openssl-pkey-export.html) - Отримує рядок із ключем у форматі PEM

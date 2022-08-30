@@ -2,7 +2,7 @@
 
 -   [« SolrInputDocument::clear](solrinputdocument.clear.html)
     
--   [SolrInputDocument::\_\_construct »](solrinputdocument.construct.html)
+-   [SolrInputDocument::construct »](solrinputdocument.construct.html)
     
 -   [PHP Manual](index.html)
     

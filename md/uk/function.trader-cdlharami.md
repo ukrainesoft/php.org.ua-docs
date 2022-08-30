@@ -1,8 +1,8 @@
 Паттерн Харамі
 
--   [« trader\_cdlhangingman](function.trader-cdlhangingman.html)
+-   [« tradercdlhangingman](function.trader-cdlhangingman.html)
     
--   [trader\_cdlharamicross »](function.trader-cdlharamicross.html)
+-   [tradercdlharamicross »](function.trader-cdlharamicross.html)
     
 -   [PHP Manual](index.html)
     

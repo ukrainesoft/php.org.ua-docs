@@ -1,6 +1,6 @@
 Створює ReflectionReference з елемента масиву
 
--   [« ReflectionReference::\_\_construct](reflectionreference.construct.html)
+-   [« ReflectionReference::construct](reflectionreference.construct.html)
     
 -   [ReflectionReference::getId »](reflectionreference.getid.html)
     

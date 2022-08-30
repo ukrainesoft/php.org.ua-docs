@@ -1,12 +1,12 @@
 Вмикає або вимикає шифрування на вже підключеному сокеті
 
--   [« stream\_socket\_client](function.stream-socket-client.html)
+-   [« streamsocketclient](function.stream-socket-client.html)
     
--   [stream\_socket\_get\_name »](function.stream-socket-get-name.html)
+-   [streamsocketgetname »](function.stream-socket-get-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Вмикає або вимикає шифрування на вже підключеному сокеті
     
@@ -106,4 +106,4 @@ fclose($fp);
 ### Дивіться також
 
 -   [Функции OpenSSL](ref.openssl.html)
--   [Список поддерживаемых транспортных протоколов](transports.html)
+-   [Список підтримуваних транспортних протоколів](transports.html)

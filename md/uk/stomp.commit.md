@@ -2,7 +2,7 @@
 
 -   [« Stomp::begin](stomp.begin.html)
     
--   [Stomp::\_\_construct »](stomp.construct.html)
+-   [Stomp::construct »](stomp.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ stomp_commit(resource $link, string $transaction_id, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
 
 `transaction_id`
 

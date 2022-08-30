@@ -29,7 +29,7 @@
 
 Максимальний пріоритет запиту
 
-Аргумент `whence` функції [eio\_seek()](function.eio-seek.html)
+Аргумент `whence` функції [eioseek()](function.eio-seek.html)
 
 **`EIO_SEEK_SET`** (int)
 
@@ -43,11 +43,11 @@
 
 Зміщення `offset`, заданий у байтах від розміру файлу.
 
-Прапори, що використовуються в [eio\_readdir()](function.eio-readdir.html)
+Прапори, що використовуються в [eioreaddir()](function.eio-readdir.html)
 
 **`EIO_READDIR_DENTS`** (int)
 
-Прапор [eio\_readdir()](function.eio-readdir.html). Якщо вказано, аргумент для виконання callback-функції стає масивом із такими ключами: `'names'` - масив імен директорії `'dents'` - масив масивів виду `struct eio_dirent`, кожен з яких має ключі: `'name'` - Ім'я директорії; `'type'` - одна з констант *EIOДП* `'inode'` - Номер inode, якщо він доступний, інакше значення не вказується;
+Прапор [eioreaddir()](function.eio-readdir.html). Якщо вказано, аргумент для виконання callback-функції стає масивом із такими ключами: `'names'` - масив імен директорії `'dents'` - масив масивів виду `struct eio_dirent`, кожен з яких має ключі: `'name'` - Ім'я директорії; `'type'` - одна з констант *EIOДП* `'inode'` - Номер inode, якщо він доступний, інакше значення не вказується;
 
 **`EIO_READDIR_DIRS_FIRST`** (int)
 
@@ -121,7 +121,7 @@
 
 Найбільше значення типу вузла
 
-Режими доступу для [eio\_open()](function.eio-open.html) аргумент `flags`
+Режими доступу для [eioopen()](function.eio-open.html) аргумент `flags`
 
 **`EIO_O_RDONLY`** (int)
 
@@ -141,7 +141,7 @@
 
 **`EIO_O_FSYNC`** (int)
 
-Прапори аргументу `mode` функції [eio\_open()](function.eio-open.html)
+Прапори аргументу `mode` функції [eioopen()](function.eio-open.html)
 
 **`EIO_S_IRUSR`** (int)
 
@@ -171,7 +171,7 @@
 
 **`EIO_S_IFSOCK`** (int)
 
-Прапори функції [eio\_sync\_file\_range()](function.eio-sync-file-range.html)
+Прапори функції [eiosyncfilerange()](function.eio-sync-file-range.html)
 
 **`EIO_SYNC_FILE_RANGE_WAIT_BEFORE`** (int)
 
@@ -179,7 +179,7 @@
 
 **`EIO_SYNC_FILE_RANGE_WAIT_AFTER`** (int)
 
-Прапори функції [eio\_fallocate()](function.eio-fallocate.html)
+Прапори функції [eiofallocate()](function.eio-fallocate.html)
 
 **`EIO_FALLOC_FL_KEEP_SIZE`** (int)
 

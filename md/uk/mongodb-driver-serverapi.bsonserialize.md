@@ -1,12 +1,12 @@
 Повертає об'єкт для серіалізації BSON
 
--   [« MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+-   [« MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
     
--   [MongoDB\\Driver\\ServerApi::\_\_construct »](mongodb-driver-serverapi.construct.html)
+-   [MongoDBDriverServerApi::construct »](mongodb-driver-serverapi.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+-   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
     
 -   Повертає об'єкт для серіалізації BSON
     
@@ -33,8 +33,8 @@ final public MongoDB\Driver\ServerApi::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON

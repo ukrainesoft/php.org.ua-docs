@@ -1,12 +1,12 @@
 Запит файлу через SCP
 
--   [« ssh2\_publickey\_remove](function.ssh2-publickey-remove.html)
+-   [« ssh2publickeyremove](function.ssh2-publickey-remove.html)
     
--   [ssh2\_scp\_send »](function.ssh2-scp-send.html)
+-   [ssh2scpsend »](function.ssh2-scp-send.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Запит файлу через SCP
     
@@ -29,7 +29,7 @@ ssh2_scp_recv(resource $session, string $remote_file, string $local_file): bool
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `remote_file`
 
@@ -58,5 +58,5 @@ ssh2_scp_recv($connection, '/remote/filename', '/local/filename');
 
 ### Дивіться також
 
--   [ssh2\_scp\_send()](function.ssh2-scp-send.html) - Надсилання файлу через SCP
+-   [ssh2scpsend()](function.ssh2-scp-send.html) - Надсилання файлу через SCP
 -   [copy()](function.copy.html) - Копіює файл

@@ -1,8 +1,8 @@
 Середній індекс спрямованого руху
 
--   [« trader\_adosc](function.trader-adosc.html)
+-   [« traderadosc](function.trader-adosc.html)
     
--   [trader\_adxr »](function.trader-adxr.html)
+-   [traderadxr »](function.trader-adxr.html)
     
 -   [PHP Manual](index.html)
     

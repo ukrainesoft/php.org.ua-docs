@@ -1,6 +1,6 @@
 Звільняє всі пов'язані ресурси
 
--   [« ImagickDraw::\_\_construct](imagickdraw.construct.html)
+-   [« ImagickDraw::construct](imagickdraw.construct.html)
     
 -   [ImagickDraw::ellipse »](imagickdraw.ellipse.html)
     

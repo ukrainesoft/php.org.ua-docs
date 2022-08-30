@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](rpminfo.resources.html)
     
--   [Функции RpmInfo »](ref.rpminfo.html)
+-   [Функції RpmInfo »](ref.rpminfo.html)
     
 -   [PHP Manual](index.html)
     

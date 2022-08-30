@@ -1,12 +1,12 @@
 Скасує реєстрацію обгортки URL
 
--   [« stream\_wrapper\_restore](function.stream-wrapper-restore.html)
+-   [« streamwrapperrestore](function.stream-wrapper-restore.html)
     
 -   [Swoole »](book.swoole.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Скасує реєстрацію обгортки URL
     
@@ -23,7 +23,7 @@ streamwrapperunregister — Скасує реєстрацію обгортки U
 stream_wrapper_unregister(string $protocol): bool
 ```
 
-Дозволяє вам вимкнути вже певну обгортку потоку. Як тільки обгортка буде вимкнена, ви можете перезаписати її обгорткою користувача, використовуючи [stream\_wrapper\_register()](function.stream-wrapper-register.html) або включити її повторно, використовуючи [stream\_wrapper\_restore()](function.stream-wrapper-restore.html)
+Дозволяє вам вимкнути вже певну обгортку потоку. Як тільки обгортка буде вимкнена, ви можете перезаписати її обгорткою користувача, використовуючи [streamwrapperregister()](function.stream-wrapper-register.html) або включити її повторно, використовуючи [streamwrapperrestore()](function.stream-wrapper-restore.html)
 
 ### Список параметрів
 

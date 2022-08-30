@@ -1,12 +1,12 @@
 Повертає поточну місткість
 
--   [« Ds\\Queue::allocate](ds-queue.allocate.html)
+-   [« DsQueue::allocate](ds-queue.allocate.html)
     
--   [Ds\\Queue::clear »](ds-queue.clear.html)
+-   [ДсQueue::clear »](ds-queue.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Повертає поточну місткість
     

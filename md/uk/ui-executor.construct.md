@@ -1,12 +1,12 @@
 Створити новий об'єкт Executor
 
--   [« UI\\Executor](class.ui-executor.html)
+-   [« UIExecutor](class.ui-executor.html)
     
--   [UI\\Executor::kill »](ui-executor.kill.html)
+-   [ОЙExecutor::kill »](ui-executor.kill.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Executor](class.ui-executor.html)
+-   [ОЙExecutor](class.ui-executor.html)
     
 -   Створити новий об'єкт Executor
     

@@ -2,7 +2,7 @@
 
 -   [« SolrDocument::toArray](solrdocument.toarray.html)
     
--   [SolrDocument::\_\_unset »](solrdocument.unset.html)
+-   [SolrDocument::unset »](solrdocument.unset.html)
     
 -   [PHP Manual](index.html)
     

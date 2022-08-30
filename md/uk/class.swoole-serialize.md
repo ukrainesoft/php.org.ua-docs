@@ -1,8 +1,8 @@
 Клас SwooleSerialize
 
--   [« Swoole\\Redis\\Server::start](swoole-redis-server.start.html)
+-   [« SwooleRedisServer::start](swoole-redis-server.start.html)
     
--   [Swoole\\Serialize::pack »](swoole-serialize.pack.html)
+-   [SwooleSerialize::pack »](swoole-serialize.pack.html)
     
 -   [PHP Manual](index.html)
     
@@ -40,5 +40,5 @@ public static unpack(string $data, string $args = ?): ReturnType
 
 ## Зміст
 
--   [Swoole\\Serialize::pack](swoole-serialize.pack.html) - Серіалізувати дані
--   [Swoole\\Serialize::unpack](swoole-serialize.unpack.html) - Десеріалізувати дані
+-   [SwooleSerialize::pack](swoole-serialize.pack.html) - Серіалізувати дані
+-   [SwooleSerialize::unpack](swoole-serialize.unpack.html) - Десеріалізувати дані

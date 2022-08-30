@@ -1,12 +1,12 @@
 Повертає список батьківських класів заданого класу
 
--   [« class\_implements](function.class-implements.html)
+-   [« classimplements](function.class-implements.html)
     
--   [class\_uses »](function.class-uses.html)
+-   [classuses »](function.class-uses.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Повертає список батьківських класів заданого класу
     
@@ -33,7 +33,7 @@ class_parents(object|string $object_or_class, bool $autoload = true): array|fals
 
 `autoload`
 
-Чи викликати за замовчуванням [\_\_autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
 
 ### Значення, що повертаються
 
@@ -82,4 +82,4 @@ Array
 
 ### Дивіться також
 
--   [class\_implements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [classimplements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

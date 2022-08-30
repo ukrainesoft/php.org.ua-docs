@@ -1,8 +1,8 @@
 Виконати команду та відкрити покажчик на файл для введення/виводу
 
--   [« proc\_nice](function.proc-nice.html)
+-   [« procnice](function.proc-nice.html)
     
--   [proc\_terminate »](function.proc-terminate.html)
+-   [procterminate »](function.proc-terminate.html)
     
 -   [PHP Manual](index.html)
     
@@ -74,7 +74,7 @@ proc_open(    array|string $command,    array $descriptor_spec,    a
 
 ### Значення, що повертаються
 
-Повертає ресурс, який представляє процес. Цей ресурс необхідно звільняти функцією [proc\_close()](function.proc-close.html) після завершення роботи з ним. У разі виникнення помилки повертає **`false`**
+Повертає ресурс, який представляє процес. Цей ресурс необхідно звільняти функцією [procclose()](function.proc-close.html) після завершення роботи з ним. У разі виникнення помилки повертає **`false`**
 
 ### список змін
 
@@ -177,5 +177,5 @@ $cmd = '""findstr" "search" "filename.txt""';
 -   [exec()](function.exec.html) - Виконати зовнішню програму
 -   [system()](function.system.html) - Виконати зовнішню програму та відобразити висновок
 -   [passthru()](function.passthru.html) - Виконати зовнішню програму та відобразити необроблений висновок
--   [stream\_select()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [streamselect()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
 -   [Оператор обратный апостроф](language.operators.execution.html)

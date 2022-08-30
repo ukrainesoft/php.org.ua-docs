@@ -1,12 +1,12 @@
 Розділити DN на його складові
 
--   [« ldap\_exop](function.ldap-exop.html)
+-   [« ldapexop](function.ldap-exop.html)
     
--   [ldap\_first\_attribute »](function.ldap-first-attribute.html)
+-   [ldapfirstattribute »](function.ldap-first-attribute.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Розділити DN на його складові
     
@@ -23,7 +23,7 @@ ldapexplodedn — Розділити DN на його складові
 ldap_explode_dn(string $dn, int $with_attrib): array|false
 ```
 
-Поділяє DN, повернутий функцією [ldap\_get\_dn()](function.ldap-get-dn.html)і розбиває його на складові. Кожна частина відома як відносне ім'я або RDN.
+Поділяє DN, повернутий функцією [ldapgetdn()](function.ldap-get-dn.html)і розбиває його на складові. Кожна частина відома як відносне ім'я або RDN.
 
 ### Список параметрів
 

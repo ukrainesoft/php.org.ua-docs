@@ -2,7 +2,7 @@
 
 -   [« Функции phpdbg](ref.phpdbg.html)
     
--   [phpdbg\_break\_function »](function.phpdbg-break-function.html)
+-   [phpdbgbreakfunction »](function.phpdbg-break-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ phpdbg_break_file(string $file, int $line): void
 
 ### Дивіться також
 
--   [phpdbg\_break\_function()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
--   [phpdbg\_break\_method()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
--   [phpdbg\_break\_next()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
--   [phpdbg\_clear()](function.phpdbg-clear.html) - Прибрати всі точки переривання
+-   [phpdbgbreakfunction()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
+-   [phpdbgbreakmethod()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
+-   [phpdbgbreaknext()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
+-   [phpdbgclear()](function.phpdbg-clear.html) - Прибрати всі точки переривання

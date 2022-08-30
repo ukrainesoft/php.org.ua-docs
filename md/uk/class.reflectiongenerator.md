@@ -2,7 +2,7 @@
 
 -   [« ReflectionUnionType::getTypes](reflectionuniontype.gettypes.html)
     
--   [ReflectionGenerator::\_\_construct »](reflectiongenerator.construct.html)
+-   [ReflectionGenerator::construct »](reflectiongenerator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,7 +55,7 @@ public getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT): array
 
 ## Зміст
 
--   [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.html) - Конструктор ReflectionGenerator
+-   [ReflectionGenerator::construct](reflectiongenerator.construct.html) - Конструктор ReflectionGenerator
 -   [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.html) — Отримати ім'я файлу, з якого запущено генератор
 -   [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.html) — Отримати запущений об'єкт Generator
 -   [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.html) — Отримати поточний рядок генератора, що виконується.

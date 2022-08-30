@@ -1,12 +1,12 @@
 Показники шрифту
 
--   [« UI\\Draw\\Text\\Font::getDescent](ui-draw-text-font.getdescent.html)
+-   [« UIDrawTextFont::getDescent](ui-draw-text-font.getdescent.html)
     
--   [UI\\Draw\\Text\\Font::getUnderlinePosition »](ui-draw-text-font.getunderlineposition.html)
+-   [ОЙDrawTextFont::getUnderlinePosition »](ui-draw-text-font.getunderlineposition.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html)
+-   [ОЙDrawTextFont](class.ui-draw-text-font.html)
     
 -   Показники шрифту
     

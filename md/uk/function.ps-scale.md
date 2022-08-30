@@ -1,12 +1,12 @@
 Встановлює коефіцієнт масштабування
 
--   [« ps\_save](function.ps-save.html)
+-   [«pssave](function.ps-save.html)
     
--   [ps\_set\_border\_color »](function.ps-set-border-color.html)
+-   [псsetbordercolor »](function.ps-set-border-color.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює коефіцієнт масштабування
     
@@ -29,7 +29,7 @@ ps_scale(resource $psdoc, float $x, float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `x`
 
@@ -45,5 +45,5 @@ ps_scale(resource $psdoc, float $x, float $y): bool
 
 ### Дивіться також
 
--   [ps\_rotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання
--   [ps\_translate()](function.ps-translate.html) - Змінює систему координат
+-   [псrotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання
+-   [псtranslate()](function.ps-translate.html) - Змінює систему координат

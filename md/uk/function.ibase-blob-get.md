@@ -1,8 +1,8 @@
 Отримує кількість байтів від відкритого BLOB-об'єкта
 
--   [« ibase\_blob\_echo](function.ibase-blob-echo.html)
+-   [« ibaseblobecho](function.ibase-blob-echo.html)
     
--   [ibase\_blob\_import »](function.ibase-blob-import.html)
+-   [ibaseblobimport »](function.ibase-blob-import.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,17 +23,17 @@ ibaseblobget — Отримує кількість байтів від відк�
 ibase_blob_get(resource $blob_handle, int $len): string
 ```
 
-Функція повертає не більше `len` байт із BLOB-об'єкта, який був відкритий для читання за допомогою [ibase\_blob\_open()](function.ibase-blob-open.html)
+Функція повертає не більше `len` байт із BLOB-об'єкта, який був відкритий для читання за допомогою [ibaseblobopen()](function.ibase-blob-open.html)
 
 > **Зауваження**
 > 
-> Неможливо прочитати з BLOB-об'єкта, який був відкритий для запису за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html)
+> Неможливо прочитати з BLOB-об'єкта, який був відкритий для запису за допомогою [ibaseblobcreate()](function.ibase-blob-create.html)
 
 ### Список параметрів
 
 `blob_handle`
 
-BLOB-об'єкт, відкритий за допомогою [ibase\_blob\_open()](function.ibase-blob-open.html)
+BLOB-об'єкт, відкритий за допомогою [ibaseblobopen()](function.ibase-blob-open.html)
 
 `len`
 
@@ -61,6 +61,6 @@ echo         ibase_blob_get($blob_hndl, $blob_data[0]);
 
 ### Дивіться також
 
--   [ibase\_blob\_open()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
--   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibase\_blob\_echo()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер
+-   [ibaseblobopen()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
+-   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibaseblobecho()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер

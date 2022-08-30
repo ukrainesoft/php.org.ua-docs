@@ -1,8 +1,8 @@
 Повертає довжину BLOB-об'єкта та іншу корисну інформацію
 
--   [« ibase\_blob\_import](function.ibase-blob-import.html)
+-   [« ibaseblobimport](function.ibase-blob-import.html)
     
--   [ibase\_blob\_open »](function.ibase-blob-open.html)
+-   [ibaseblobopen »](function.ibase-blob-open.html)
     
 -   [PHP Manual](index.html)
     

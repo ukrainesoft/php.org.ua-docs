@@ -1,8 +1,8 @@
 Псевдонім DateTimeZone::getOffset
 
--   [« timezone\_name\_get](function.timezone-name-get.html)
+-   [« timezonenameget](function.timezone-name-get.html)
     
--   [timezone\_open »](function.timezone-open.html)
+-   [timezoneopen »](function.timezone-open.html)
     
 -   [PHP Manual](index.html)
     

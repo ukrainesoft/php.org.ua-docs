@@ -1,12 +1,12 @@
 Залити шлях
 
--   [« UI\\Draw\\Pen::clip](ui-draw-pen.clip.html)
+-   [« UIDrawPen::clip](ui-draw-pen.clip.html)
     
--   [UI\\Draw\\Pen::restore »](ui-draw-pen.restore.html)
+-   [ОЙDrawPen::restore »](ui-draw-pen.restore.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Залити шлях
     

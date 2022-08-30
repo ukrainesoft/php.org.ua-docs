@@ -1,8 +1,8 @@
 Отримання результату асинхронного запиту
 
--   [« pg\_get\_pid](function.pg-get-pid.html)
+-   [« pggetpid](function.pg-get-pid.html)
     
--   [pg\_host »](function.pg-host.html)
+-   [пгhost »](function.pg-host.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,26 +23,26 @@
 pg_get_result(PgSql\Connection $connection): PgSql\Result|false
 ```
 
-**пгgetresult()** отримує екземпляр [PgSql\\Result](class.pgsql-result.html) з асинхронного запиту, запущеного функціями [pg\_send\_query()](function.pg-send-query.html) [pg\_send\_query\_params()](function.pg-send-query-params.html) або [pg\_send\_execute()](function.pg-send-execute.html)
+**пгgetresult()** отримує екземпляр [PgSqlResult](class.pgsql-result.html) з асинхронного запиту, запущеного функціями [пгsendquery()](function.pg-send-query.html) [пгsendqueryparams()](function.pg-send-query-params.html) або [пгsendexecute()](function.pg-send-execute.html)
 
-[pg\_send\_query()](function.pg-send-query.html) та інші функції, що посилають асинхронні запити, може надсилати відразу кілька запитів на сервер. Функція **пгgetresult()** отримає результати всіх запитів по черзі.
+[пгsendquery()](function.pg-send-query.html) та інші функції, що посилають асинхронні запити, може надсилати відразу кілька запитів на сервер. Функція **пгgetresult()** отримає результати всіх запитів по черзі.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), або **`false`**коли доступних результатів більше немає.
+Екземпляр [PgSqlResult](class.pgsql-result.html), або \*\*`false`\*\*коли доступних результатів більше немає.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -80,4 +80,4 @@ Resource id #4 имеет 1 записей
 
 ### Дивіться також
 
--   [pg\_send\_query()](function.pg-send-query.html) - Надсилає асинхронний запит
+-   [пгsendquery()](function.pg-send-query.html) - Надсилає асинхронний запит

@@ -92,5 +92,5 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_get\_symbol()](numberformatter.getsymbol.html) - Отримує значення символу
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtgetsymbol()](numberformatter.getsymbol.html) - Отримує значення символу

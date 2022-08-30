@@ -1,12 +1,12 @@
 Отримує програму
 
--   [« Yaf\_Dispatcher::flushInstantly](yaf-dispatcher.flushinstantly.html)
+-   [« YafDispatcher::flushInstantly](yaf-dispatcher.flushinstantly.html)
     
--   [Yaf\_Dispatcher::getDefaultAction »](yaf-dispatcher.getdefaultaction.html)
+-   [YafDispatcher::getDefaultAction »](yaf-dispatcher.getdefaultaction.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує програму
     
@@ -23,7 +23,7 @@ YafDispatcher::getApplication — Отримує програму
 public Yaf_Dispatcher::getApplication(): Yaf_Application
 ```
 
-Отримує екземпляр [Yaf\_Application](class.yaf-application.html). Те саме, що і [Yaf\_Application::app()](yaf-application.app.html)
+Отримує екземпляр [YafApplication](class.yaf-application.html). Те саме, що і [YafApplication::app()](yaf-application.app.html)
 
 ### Список параметрів
 
@@ -33,4 +33,4 @@ public Yaf_Dispatcher::getApplication(): Yaf_Application
 
 ### Дивіться також
 
--   [Yaf\_Application::app()](yaf-application.app.html) - Витягти екземпляр програми
+-   [YafApplication::app()](yaf-application.app.html) - Витягти екземпляр програми

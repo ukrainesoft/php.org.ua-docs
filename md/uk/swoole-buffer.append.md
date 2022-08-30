@@ -1,12 +1,12 @@
 Додає рядок або двійкові дані до кінця буфера пам'яті та повертає новий розмір виділеної пам'яті
 
--   [« Swoole\\Buffer](class.swoole-buffer.html)
+-   [« SwooleBuffer](class.swoole-buffer.html)
     
--   [Swoole\\Buffer::clear »](swoole-buffer.clear.html)
+-   [SwooleBuffer::clear »](swoole-buffer.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Додає рядок або двійкові дані до кінця буфера пам'яті та повертає новий розмір виділеної пам'яті
     

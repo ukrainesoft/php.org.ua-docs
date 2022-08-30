@@ -1,12 +1,12 @@
 Конвертує рядок, що містить IPv4-адресу в ціле число
 
--   [« inet\_pton](function.inet-pton.html)
+-   [« inetpton](function.inet-pton.html)
     
 -   [long2ip »](function.long2ip.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Конвертує рядок, що містить IPv4-адресу в ціле число
     
@@ -25,7 +25,7 @@ ip2long(string $ip): int|false
 
 Функція **ip2long()** перетворює IPv4-адресу мережі Інтернет зі стандартного формату (рядок з точками) на ціле число.
 
-Функція **ip2long()** також працюватиме з неповними IP-адресами. Дивіться [» http://publibn.boulder.ibm.com/doc\_link/en\_US/a\_doc\_lib/libs/commtrf2/inet\_addr.htm](http://publibn.boulder.ibm.com/doc_link/en_US/a_doc_lib/libs/commtrf2/inet_addr.htm) для більш детальної інформації.
+Функція **ip2long()** також працюватиме з неповними IP-адресами. Дивіться [» http://publibn.boulder.ibm.com/doclink/enUS/adoclib/libs/commtrf2/inetaddr.htm](http://publibn.boulder.ibm.com/doc_link/en_US/a_doc_lib/libs/commtrf2/inet_addr.htm) для більш детальної інформації.
 
 ### Список параметрів
 

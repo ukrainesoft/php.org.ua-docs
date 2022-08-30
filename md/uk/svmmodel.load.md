@@ -2,7 +2,7 @@
 
 -   [« SVMModel::getSvrProbability](svmmodel.getsvrprobability.html)
     
--   [SVMModel::predict\_probability »](svmmodel.predict-probability.html)
+-   [SVMModel::predictprobability »](svmmodel.predict-probability.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Декодувати елементи заголовка
 
--   [« imap\_mailboxmsginfo](function.imap-mailboxmsginfo.html)
+-   [« imapmailboxmsginfo](function.imap-mailboxmsginfo.html)
     
--   [imap\_msgno »](function.imap-msgno.html)
+-   [imapmsgno »](function.imap-msgno.html)
     
 -   [PHP Manual](index.html)
     
@@ -69,4 +69,4 @@ Text:  <keld@example.com>
 
 ### Дивіться також
 
--   [imap\_utf8()](function.imap-utf8.html) - Перетворює MIME-кодований текст на UTF-8
+-   [imaputf8()](function.imap-utf8.html) - Перетворює MIME-кодований текст на UTF-8

@@ -1,6 +1,6 @@
 Чекає на ексклюзивне блокування
 
--   [« SyncMutex::\_\_construct](syncmutex.construct.html)
+-   [« SyncMutex::construct](syncmutex.construct.html)
     
 -   [SyncMutex::unlock »](syncmutex.unlock.html)
     

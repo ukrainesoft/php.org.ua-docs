@@ -1,8 +1,8 @@
 Опис вбудованих директив php.ini
 
--   [« Список разделов php.ini](ini.sections.html)
+-   [« Список розділів php.ini](ini.sections.html)
     
--   [Список/классификация модулей »](extensions.html)
+-   [Список/класифікація модулів »](extensions.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,23 +23,23 @@
 
 **Опції мови та інших налаштувань**
 
-| Имя                                                                                              | По умолчанию | Место изменения         | Список изменений                                             |
-|--------------------------------------------------------------------------------------------------|--------------|-------------------------|--------------------------------------------------------------|
-| [short\_open\_tag](ini.core.html#ini.short-open-tag)                                             | "1"          | PHPINIPERDIR            |                                                              |
-| [precision](ini.core.html#ini.precision)                                                         | "14"         | PHPINIALL               |                                                              |
-| [serialize\_precision](ini.core.html#ini.serialize-precision)                                    | "-1"         | PHPINIALL               | До версії PHP 7.1.0 значення за промовчанням дорівнювало 17. |
-| [disable\_functions](ini.core.html#ini.disable-functions)                                        | ""           | Тільки PHPINISYSTEM     |                                                              |
-| [disable\_classes](ini.core.html#ini.disable-classes)                                            | ""           | Тільки php.ini          |                                                              |
-| [exit\_on\_timeout](ini.core.html#ini.exit-on-timeout)                                           | ""           | PHPINIALL               |                                                              |
-| [expose\_php](ini.core.html#ini.expose-php)                                                      | "1"          | Тільки php.ini          |                                                              |
-| [hard\_timeout](ini.core.html#ini.hard-timeout)                                                  | "2"          | PHPINISYSTEM            | Доступна з версії PHP 7.1.0.                                 |
-| [zend.exception\_ignore\_args](ini.core.html#ini.zend.exception-ignore-args)                     | "0"          | PHPINIALL               | Доступна з версії PHP 7.4.0                                  |
-| [zend.multibyte](ini.core.html#ini.zend.multibyte)                                               | "0"          | PHPINIALL               |                                                              |
-| [zend.script\_encoding](ini.core.html#ini.zend.script-encoding)                                  | NULL         | PHPINIALL               |                                                              |
-| [zend.detect\_unicode](ini.core.html#ini.zend.detect-unicode)                                    | NULL         | PHPINIALL               |                                                              |
-| [zend.signal\_check](ini.core.html#ini.zend.signal-check)                                        | "0"          | PHPINISYSTEM            |                                                              |
-| [zend.assertions](ini.core.html#ini.zend.assertions)                                             | "1"          | PHPINIALL з обмеженнями |                                                              |
-| [zend.exception\_string\_param\_max\_len](ini.core.html#ini.zend.exception-string-param-max-len) | "15"         | PHPINIALL               | Доступно з PHP 8.0.0.                                        |
+| Имя                                                                                      | По умолчанию | Место изменения         | Список изменений                                             |
+|------------------------------------------------------------------------------------------|--------------|-------------------------|--------------------------------------------------------------|
+| [shortopentag](ini.core.html#ini.short-open-tag)                                         | "1"          | PHPINIPERDIR            |                                                              |
+| [precision](ini.core.html#ini.precision)                                                 | "14"         | PHPINIALL               |                                                              |
+| [serializeprecision](ini.core.html#ini.serialize-precision)                              | "-1"         | PHPINIALL               | До версії PHP 7.1.0 значення за промовчанням дорівнювало 17. |
+| [disablefunctions](ini.core.html#ini.disable-functions)                                  | ""           | Тільки PHPINISYSTEM     |                                                              |
+| [disableclasses](ini.core.html#ini.disable-classes)                                      | ""           | Тільки php.ini          |                                                              |
+| [exitвінtimeout](ini.core.html#ini.exit-on-timeout)                                      | ""           | PHPINIALL               |                                                              |
+| [exposephp](ini.core.html#ini.expose-php)                                                | "1"          | Тільки php.ini          |                                                              |
+| [hardtimeout](ini.core.html#ini.hard-timeout)                                            | "2"          | PHPINISYSTEM            | Доступна з версії PHP 7.1.0.                                 |
+| [zend.exceptionignoreargs](ini.core.html#ini.zend.exception-ignore-args)                 | "0"          | PHPINIALL               | Доступна з версії PHP 7.4.0                                  |
+| [zend.multibyte](ini.core.html#ini.zend.multibyte)                                       | "0"          | PHPINIALL               |                                                              |
+| [zend.scriptencoding](ini.core.html#ini.zend.script-encoding)                            | NULL         | PHPINIALL               |                                                              |
+| [zend.detectunicode](ini.core.html#ini.zend.detect-unicode)                              | NULL         | PHPINIALL               |                                                              |
+| [zend.signalcheck](ini.core.html#ini.zend.signal-check)                                  | "0"          | PHPINISYSTEM            |                                                              |
+| [zend.assertions](ini.core.html#ini.zend.assertions)                                     | "1"          | PHPINIALL з обмеженнями |                                                              |
+| [zend.exceptionstringparammaxlen](ini.core.html#ini.zend.exception-string-param-max-len) | "15"         | PHPINIALL               | Доступно з PHP 8.0.0.                                        |
 
 Коротке пояснення конфігураційних директив.
 
@@ -67,7 +67,7 @@
 
 Ця директива дозволяє вимкнути деякі функції. Вона приймає список імен функцій, розділений комами.
 
-Тільки [внутренние функции](functions.internal.html) можуть бути відключені за допомогою цієї директиви . [Пользовательские функции](functions.user-defined.html) їй не схильні.
+Тільки [внутрішні функції](functions.internal.html) можуть бути відключені за допомогою цієї директиви . [Функції користувача](functions.user-defined.html) їй не схильні.
 
 Ця директива має бути встановлена ​​у php.ini. Наприклад, її не можна використовувати в httpd.conf.
 
@@ -91,7 +91,7 @@
 
 `hard_timeout` int
 
-Коли закінчується час очікування, встановлений у [max\_execution\_time](info.configuration.html#ini.max-execution-time), середовище виконання PHP акуратно відключить ресурси. Якщо під час цього щось застрягне, час очікування буде встановлено на вказану кількість секунд. Коли закінчиться жорсткий час очікування, PHP завершить роботу з помилкою. Якщо встановлено значення 0, жорсткий час очікування ніколи не активується.
+Коли закінчується час очікування, встановлений у [maxexecutiontime](info.configuration.html#ini.max-execution-time), середовище виконання PHP акуратно відключить ресурси. Якщо під час цього щось застрягне, час очікування буде встановлено на вказану кількість секунд. Коли закінчиться жорсткий час очікування, PHP завершить роботу з помилкою. Якщо встановлено значення 0, жорсткий час очікування ніколи не активується.
 
 Коли PHP зупиняється після жорсткого часу очікування, це буде виглядати приблизно так:
 
@@ -113,11 +113,11 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 Це значення буде використано лише за відсутності директиви [declare(encoding=...)](control-structures.declare.html#control-structures.declare.encoding) на початку скрипту. При використанні несумісних кодувань з ISO-8859-1, потрібно використовувати опції і zend.multibyte і zend.scriptencoding.
 
-Літеральні рядки мають бути транслітеровані із zend.scriptencoding у mbstring.internalencoding, якби викликали [mb\_convert\_encoding()](function.mb-convert-encoding.html)
+Літеральні рядки мають бути транслітеровані із zend.scriptencoding у mbstring.internalencoding, якби викликали [мбconvertencoding()](function.mb-convert-encoding.html)
 
 `zend.detect_unicode` bool
 
-Визначає, чи потрібно перевіряти BOM (Byte Order Mark, мітка порядку байт) та коректність багатобайтних символів у файлі. Ця перевірка здійснюється до дзвінка [\_\_halt\_compiler()](function.halt-compiler.html). Доступна лише у режимі Zend Multibyte.
+Визначає, чи потрібно перевіряти BOM (Byte Order Mark, мітка порядку байт) та коректність багатобайтних символів у файлі. Ця перевірка здійснюється до дзвінка [haltcompiler()](function.halt-compiler.html). Доступна лише у режимі Zend Multibyte.
 
 `zend.signal_check` bool
 
@@ -131,9 +131,9 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 **Обмеження ресурсів**
 
-| Имя                                             | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------|--------------|-----------------|------------------|
-| [memory\_limit](ini.core.html#ini.memory-limit) | "128M"       | PHPINIALL       |                  |
+| Имя                                           | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------|--------------|-----------------|------------------|
+| [memorylimit](ini.core.html#ini.memory-limit) | "128M"       | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -141,22 +141,22 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 Ця директива визначає максимальний обсяг пам'яті в байтах, який дозволяється використовувати скрипту. Це допомагає запобігти ситуації, коли погано написаний скрипт з'їдає всю доступну пам'ять сервера. Для того, щоб усунути обмеження, встановіть значення цієї директиви в `-1`
 
-Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [этом разделе FAQ](faq.using.html#faq.using.shorthandbytes)
+Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes)
 
-Дивіться також: [max\_execution\_time](info.configuration.html#ini.max-execution-time)
+Дивіться також: [maxexecutiontime](info.configuration.html#ini.max-execution-time)
 
 ## Налаштування продуктивності
 
 **Налаштування продуктивності**
 
-| Имя                                                            | По умолчанию | Место изменения | Список изменений                                   |
-|----------------------------------------------------------------|--------------|-----------------|----------------------------------------------------|
-| [realpath\_cache\_size](ini.core.html#ini.realpath-cache-size) | "ЧМ"         | PHPINISYSTEM    | До PHP 7.0.16 та 7.1.2, за умовчанням було `"16K"` |
-| [realpath\_cache\_ttl](ini.core.html#ini.realpath-cache-ttl)   | "120"        | PHPINISYSTEM    |                                                    |
+| Имя                                                        | По умолчанию | Место изменения | Список изменений                                   |
+|------------------------------------------------------------|--------------|-----------------|----------------------------------------------------|
+| [realpathcachesize](ini.core.html#ini.realpath-cache-size) | "ЧМ"         | PHPINISYSTEM    | До PHP 7.0.16 та 7.1.2, за умовчанням було `"16K"` |
+| [realpathcachettl](ini.core.html#ini.realpath-cache-ttl)   | "120"        | PHPINISYSTEM    |                                                    |
 
 > **Зауваження**
 > 
-> Використання [open\_basedir](ini.core.html#ini.open-basedir) *відключить* кеш realpath.
+> Використання [openbasedir](ini.core.html#ini.open-basedir) *відключить* кеш realpath.
 
 Коротке пояснення конфігураційних директив.
 
@@ -176,23 +176,23 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 **Конфігураційні опції обробки даних**
 
-| Имя                                                                       | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [arg\_separator.output](ini.core.html#ini.arg-separator.output)           | "&"          | PHPINIALL       |                  |
-| [arg\_separator.input](ini.core.html#ini.arg-separator.input)             | "&"          | PHPINIPERDIR    |                  |
-| [variables\_order](ini.core.html#ini.variables-order)                     | "EGPCS"      | PHPINIPERDIR    |                  |
-| [request\_order](ini.core.html#ini.request-order)                         | ""           | PHPINIPERDIR    |                  |
-| [auto\_globals\_jit](ini.core.html#ini.auto-globals-jit)                  | "1"          | PHPINIPERDIR    |                  |
-| [register\_argc\_argv](ini.core.html#ini.register-argc-argv)              | "1"          | PHPINIPERDIR    |                  |
-| [enable\_post\_data\_reading](ini.core.html#ini.enable-post-data-reading) | "1"          | PHPINIPERDIR    |                  |
-| [post\_max\_size](ini.core.html#ini.post-max-size)                        | "8M"         | PHPINIPERDIR    |                  |
-| [auto\_prepend\_file](ini.core.html#ini.auto-prepend-file)                | NULL         | PHPINIPERDIR    |                  |
-| [auto\_append\_file](ini.core.html#ini.auto-append-file)                  | NULL         | PHPINIPERDIR    |                  |
-| [default\_mimetype](ini.core.html#ini.default-mimetype)                   | "text/html"  | PHPINIALL       |                  |
-| [default\_charset](ini.core.html#ini.default-charset)                     | "UTF-8"      | PHPINIALL       |                  |
-| [input\_encoding](ini.core.html#ini.input-encoding)                       | ""           | PHPINIALL       |                  |
-| [output\_encoding](ini.core.html#ini.output-encoding)                     | ""           | PHPINIALL       |                  |
-| [internal\_encoding](ini.core.html#ini.internal-encoding)                 | ""           | PHPINIALL       |                  |
+| Имя                                                                 | По умолчанию | Место изменения | Список изменений |
+|---------------------------------------------------------------------|--------------|-----------------|------------------|
+| [argseparator.output](ini.core.html#ini.arg-separator.output)       | "&"          | PHPINIALL       |                  |
+| [argseparator.input](ini.core.html#ini.arg-separator.input)         | "&"          | PHPINIPERDIR    |                  |
+| [variablesorder](ini.core.html#ini.variables-order)                 | "EGPCS"      | PHPINIPERDIR    |                  |
+| [requestorder](ini.core.html#ini.request-order)                     | ""           | PHPINIPERDIR    |                  |
+| [autoglobalsjit](ini.core.html#ini.auto-globals-jit)                | "1"          | PHPINIPERDIR    |                  |
+| [registerargcargv](ini.core.html#ini.register-argc-argv)            | "1"          | PHPINIPERDIR    |                  |
+| [enablepostdatareading](ini.core.html#ini.enable-post-data-reading) | "1"          | PHPINIPERDIR    |                  |
+| [postmaxsize](ini.core.html#ini.post-max-size)                      | "8M"         | PHPINIPERDIR    |                  |
+| [autoprependfile](ini.core.html#ini.auto-prepend-file)              | NULL         | PHPINIPERDIR    |                  |
+| [autoappendfile](ini.core.html#ini.auto-append-file)                | NULL         | PHPINIPERDIR    |                  |
+| [defaultmimetype](ini.core.html#ini.default-mimetype)               | "text/html"  | PHPINIALL       |                  |
+| [defaultcharset](ini.core.html#ini.default-charset)                 | "UTF-8"      | PHPINIALL       |                  |
+| [inputencoding](ini.core.html#ini.input-encoding)                   | ""           | PHPINIALL       |                  |
+| [outputencoding](ini.core.html#ini.output-encoding)                 | ""           | PHPINIALL       |                  |
+| [internalencoding](ini.core.html#ini.internal-encoding)             | ""           | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -210,21 +210,21 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `variables_order` string
 
-Встановлює порядок обробки змінних EGPCS (`E`nvironment, `G`et, `P`ost, `C`ookie, та `S`server). Наприклад, якщо variablesorder встановлена ​​в `"SP"`, то PHP створить [superglobals](language.variables.predefined.html) [$\_SERVER](reserved.variables.server.html) і [$\_POST](reserved.variables.post.html), але не буде створювати [$\_ENV](reserved.variables.environment.html) [$\_GET](reserved.variables.get.html) і [$\_COOKIE](reserved.variables.cookies.html). Установка в "" означає, що жодна [superglobals](language.variables.predefined.html) не буде встановлено.
+Встановлює порядок обробки змінних EGPCS (`E`nvironment, `G`et, `P`ost, `C`ookie, та `S`server). Наприклад, якщо variablesorder встановлена ​​в `"SP"`, то PHP створить [superglobals](language.variables.predefined.html) [SERVER](reserved.variables.server.html) і [POST](reserved.variables.post.html), але не буде створювати [ENV](reserved.variables.environment.html) [GET](reserved.variables.get.html) і [COOKIE](reserved.variables.cookies.html). Установка в "" означає, що жодна [superglobals](language.variables.predefined.html) не буде встановлено.
 
 **Увага**
 
-У CGI та FastCGI SAPI, [$\_SERVER](reserved.variables.server.html) також додаються значення змінних оточення; `S` завжди еквівалентна `ES` незалежно від положення `E` у цій директиві.
+У CGI та FastCGI SAPI, [SERVER](reserved.variables.server.html) також додаються значення змінних оточення; `S` завжди еквівалентна `ES` незалежно від положення `E` у цій директиві.
 
 > **Зауваження**
 > 
-> Ця директива також впливає на вміст та порядок змінної [$\_REQUEST](reserved.variables.request.html)
+> Ця директива також впливає на вміст та порядок змінної [REQUEST](reserved.variables.request.html)
 
 `request_order` string
 
 Ця директива регулює порядок, в якому PHP додає змінні GET, POST та Cookie до масиву. REQUEST. Додавання проводиться ліворуч, нові значення перезаписують старі.
 
-Якщо значення цієї директиви не встановлено, використовується значення директиви [variables\_order](ini.core.html#ini.variables-order) для вмісту змінної [$\_REQUEST](reserved.variables.request.html)
+Якщо значення цієї директиви не встановлено, використовується значення директиви [variablesorder](ini.core.html#ini.variables-order) для вмісту змінної [REQUEST](reserved.variables.request.html)
 
 Врахуйте, що файли php.ini, що постачаються з дистрибутивом, з міркувань безпеки не містять значення `'C'` (Cookies).
 
@@ -238,15 +238,15 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `register_argc_argv` bool
 
-Повідомляє PHP, чи слід оголошувати змінні argv та argc (які міститимуть GET-інформацію). Дивіться також [Использование PHP в командной строке](features.commandline.html)
+Повідомляє PHP, чи слід оголошувати змінні argv та argc (які міститимуть GET-інформацію). Дивіться також [Використання PHP у командному рядку](features.commandline.html)
 
 `enable_post_data_reading` bool
 
-При відключенні цієї опції суперглобальні змінні [$\_POST](reserved.variables.post.html) і [$\_FILES](reserved.variables.files.html) *не будуть* заповнюватись. Єдиним способом прочитати POST-дані буде читання обгортки потоку [php://input](wrappers.php.html). Це може бути корисним при проксуванні запитів або обробки POST-даних способом, що більш ефективно використовує пам'ять.
+При відключенні цієї опції суперглобальні змінні [POST](reserved.variables.post.html) і [FILES](reserved.variables.files.html) *не будуть* заповнюватись. Єдиним способом прочитати POST-дані буде читання обгортки потоку [php://input](wrappers.php.html). Це може бути корисним при проксуванні запитів або обробки POST-даних способом, що більш ефективно використовує пам'ять.
 
 `post_max_size` int
 
-Встановлює максимально допустимий розмір даних, які надсилаються методом POST. Це також впливає на завантаження файлів. Для завантаження великих файлів це значення має бути більшим за значення директиви [upload\_max\_filesize](ini.core.html#ini.upload-max-filesize). В сутності, [memory\_limit](ini.core.html#ini.memory-limit) має бути більше ніж `post_max_size`. Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [этом разделе FAQ](faq.using.html#faq.using.shorthandbytes). Якщо розмір POST даних більше ніж postmaxsize, [суперглобальные переменные](language.variables.superglobals.html) [$\_POST](reserved.variables.post.html) і [$\_FILES](reserved.variables.files.html) будуть порожніми. Це можна відстежити у різний спосіб, наприклад передавши [$\_GET](reserved.variables.get.html) змінну скрипт, який обробляє дані, тобто . `<form action="edit.php?processed=1">`, а потім перевірити, чи встановлена ​​змінна [$\_GET\['processed'\]](reserved.variables.get.html)
+Встановлює максимально допустимий розмір даних, які надсилаються методом POST. Це також впливає на завантаження файлів. Для завантаження великих файлів це значення має бути більшим за значення директиви [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize). В сутності, [memorylimit](ini.core.html#ini.memory-limit) має бути більше ніж `post_max_size`. Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes). Якщо розмір POST даних більше ніж postmaxsize, [суперглобальные переменные](language.variables.superglobals.html) [POST](reserved.variables.post.html) і [FILES](reserved.variables.files.html) будуть порожніми. Це можна відстежити у різний спосіб, наприклад передавши [GET](reserved.variables.get.html) змінну скрипт, який обробляє дані, тобто . `<form action="edit.php?processed=1">`, а потім перевірити, чи встановлена ​​змінна [GET\['processed'\]](reserved.variables.get.html)
 
 > **Зауваження**
 > 
@@ -261,13 +261,13 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `auto_prepend_file` string
 
-Визначає ім'я файлу, який автоматично оброблятиметься перед основним файлом. Файл викликається так, ніби він був підключений за допомогою функції [require](function.require.html), так що [include\_path](ini.core.html#ini.include-path) також використовується.
+Визначає ім'я файлу, який автоматично оброблятиметься перед основним файлом. Файл викликається так, ніби він був підключений за допомогою функції [require](function.require.html), так що [includepath](ini.core.html#ini.include-path) також використовується.
 
 Спеціальне значення `none` відключає цю директиву.
 
 `auto_append_file` string
 
-Визначає ім'я файлу, який автоматично оброблятиметься після основного файлу. Файл викликається так, ніби він був підключений за допомогою функції [require](function.require.html), так що [include\_path](ini.core.html#ini.include-path) також використовується.
+Визначає ім'я файлу, який автоматично оброблятиметься після основного файлу. Файл викликається так, ніби він був підключений за допомогою функції [require](function.require.html), так що [includepath](ini.core.html#ini.include-path) також використовується.
 
 Спеціальне значення `none` відключає цю директиву.
 
@@ -281,7 +281,7 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `default_charset` string
 
-"UTF-8" є значенням за промовчанням і використовується як кодування за промовчанням для функцій [htmlentities()](function.htmlentities.html) [html\_entity\_decode()](function.html-entity-decode.html) і [htmlspecialchars()](function.htmlspecialchars.html), якщо параметр `encoding` не вказано. Значення `default_charset` також використовується для вказівки кодування за промовчанням для функцій [iconv](book.iconv.html), якщо конфігураційні опції [`iconv.input_encoding`](iconv.configuration.html#ini.iconv.input-encoding) [`iconv.output_encoding`](iconv.configuration.html#ini.iconv.output-encoding) і [`iconv.internal_encoding`](iconv.configuration.html#ini.iconv.internal-encoding) не встановлені, і для функцій [mbstring](book.mbstring.html), якщо не встановлено [`mbstring.http_input`](mbstring.configuration.html#ini.mbstring.http-input) [`mbstring.http_output`](mbstring.configuration.html#ini.mbstring.http-output) [`mbstring.internal_encoding`](mbstring.configuration.html#ini.mbstring.internal-encoding)
+"UTF-8" є значенням за промовчанням і використовується як кодування за промовчанням для функцій [htmlentities()](function.htmlentities.html) [htmlentitydecode()](function.html-entity-decode.html) і [htmlspecialchars()](function.htmlspecialchars.html), якщо параметр `encoding` не вказано. Значення `default_charset` також використовується для вказівки кодування за промовчанням для функцій [iconv](book.iconv.html), якщо конфігураційні опції [`iconv.input_encoding`](iconv.configuration.html#ini.iconv.input-encoding) [`iconv.output_encoding`](iconv.configuration.html#ini.iconv.output-encoding) і [`iconv.internal_encoding`](iconv.configuration.html#ini.iconv.internal-encoding) не встановлені, і для функцій [mbstring](book.mbstring.html), якщо не встановлено [`mbstring.http_input`](mbstring.configuration.html#ini.mbstring.http-input) [`mbstring.http_output`](mbstring.configuration.html#ini.mbstring.http-output) [`mbstring.internal_encoding`](mbstring.configuration.html#ini.mbstring.internal-encoding)
 
 Усі версії PHP використовують це значення як кодування для стандартного заголовка Content-Type, що надсилається PHP, якщо цей заголовок не перевизначений викликом функції [header()](function.header.html)
 
@@ -297,40 +297,40 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
 
 `internal_encoding` string
 
-Ця опція використовується для багатобайтних модулів, таких як mbstring та iconv. За промовчанням порожньо. У цьому випадку використовується [default\_charset](ini.core.html#ini.default-charset)
+Ця опція використовується для багатобайтних модулів, таких як mbstring та iconv. За промовчанням порожньо. У цьому випадку використовується [defaultcharset](ini.core.html#ini.default-charset)
 
 ## Шляхи та Директорії
 
 **Конфігураційні Опції Шляхів та Директорій**
 
-| Имя                                                                    | По умолчанию          | Место изменения | Список изменений |
-|------------------------------------------------------------------------|-----------------------|-----------------|------------------|
-| [include\_path](ini.core.html#ini.include-path)                        | ".;/path/to/php/pear" | PHPINIALL       |                  |
-| [open\_basedir](ini.core.html#ini.open-basedir)                        | NULL                  | PHPINIALL       |                  |
-| [doc\_root](ini.core.html#ini.doc-root)                                | NULL                  | PHPINISYSTEM    |                  |
-| [user\_dir](ini.core.html#ini.user-dir)                                | NULL                  | PHPINISYSTEM    |                  |
-| [user\_ini.cache\_ttl](ini.core.html#ini.user-ini.cache-ttl)           | "300"                 | PHPINISYSTEM    |                  |
-| [user\_ini.filename](ini.core.html#ini.user-ini.filename)              | ".user.ini"           | PHPINISYSTEM    |                  |
-| [extension\_dir](ini.core.html#ini.extension-dir)                      | "/path/to/php"        | PHPINISYSTEM    |                  |
-| [extension](ini.core.html#ini.extension)                               | NULL                  | Тільки php.ini  |                  |
-| [zend\_extension](ini.core.html#ini.zend-extension)                    | NULL                  | Тільки php.ini  |                  |
-| [cgi.check\_shebang\_line](ini.core.html#ini.cgi.check-shebang-line)   | "1"                   | PHPINISYSTEM    |                  |
-| [cgi.discard\_path](ini.core.html#ini.cgi.discard-path)                | "0"                   | PHPINISYSTEM    |                  |
-| [cgi.fix\_pathinfo](ini.core.html#ini.cgi.fix-pathinfo)                | "1"                   | PHPINISYSTEM    |                  |
-| [cgi.force\_redirect](ini.core.html#ini.cgi.force-redirect)            | "1"                   | PHPINISYSTEM    |                  |
-| [cgi.nph](ini.core.html#ini.cgi.nph)                                   | "0"                   | PHPINISYSTEM    |                  |
-| [cgi.redirect\_status\_env](ini.core.html#ini.cgi.redirect-status-env) | NULL                  | PHPINISYSTEM    |                  |
-| [cgi.rfc2616\_headers](ini.core.html#ini.cgi.rfc2616-headers)          | "0"                   | PHPINIALL       |                  |
-| [fastcgi.impersonate](ini.core.html#ini.fastcgi.impersonate)           | "0"                   | PHPINISYSTEM    |                  |
-| [fastcgi.logging](ini.core.html#ini.fastcgi.logging)                   | "1"                   | PHPINISYSTEM    |                  |
+| Имя                                                                | По умолчанию          | Место изменения | Список изменений |
+|--------------------------------------------------------------------|-----------------------|-----------------|------------------|
+| [includepath](ini.core.html#ini.include-path)                      | ".;/path/to/php/pear" | PHPINIALL       |                  |
+| [openbasedir](ini.core.html#ini.open-basedir)                      | NULL                  | PHPINIALL       |                  |
+| [docroot](ini.core.html#ini.doc-root)                              | NULL                  | PHPINISYSTEM    |                  |
+| [userdir](ini.core.html#ini.user-dir)                              | NULL                  | PHPINISYSTEM    |                  |
+| [userini.cachettl](ini.core.html#ini.user-ini.cache-ttl)           | "300"                 | PHPINISYSTEM    |                  |
+| [userini.filename](ini.core.html#ini.user-ini.filename)            | ".user.ini"           | PHPINISYSTEM    |                  |
+| [extensiondir](ini.core.html#ini.extension-dir)                    | "/path/to/php"        | PHPINISYSTEM    |                  |
+| [extension](ini.core.html#ini.extension)                           | NULL                  | Тільки php.ini  |                  |
+| [zendextension](ini.core.html#ini.zend-extension)                  | NULL                  | Тільки php.ini  |                  |
+| [cgi.checkshebangline](ini.core.html#ini.cgi.check-shebang-line)   | "1"                   | PHPINISYSTEM    |                  |
+| [cgi.discardpath](ini.core.html#ini.cgi.discard-path)              | "0"                   | PHPINISYSTEM    |                  |
+| [cgi.fixpathinfo](ini.core.html#ini.cgi.fix-pathinfo)              | "1"                   | PHPINISYSTEM    |                  |
+| [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect)          | "1"                   | PHPINISYSTEM    |                  |
+| [cgi.nph](ini.core.html#ini.cgi.nph)                               | "0"                   | PHPINISYSTEM    |                  |
+| [cgi.redirectstatusenv](ini.core.html#ini.cgi.redirect-status-env) | NULL                  | PHPINISYSTEM    |                  |
+| [cgi.rfc2616headers](ini.core.html#ini.cgi.rfc2616-headers)        | "0"                   | PHPINIALL       |                  |
+| [fastcgi.impersonate](ini.core.html#ini.fastcgi.impersonate)       | "0"                   | PHPINISYSTEM    |                  |
+| [fastcgi.logging](ini.core.html#ini.fastcgi.logging)               | "1"                   | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 
 `include_path` string
 
-Вказує список директорій, у яких функції [require](function.require.html) [include](function.include.html) [fopen()](function.fopen.html) [file()](function.file.html) [readfile()](function.readfile.html) і [file\_get\_contents()](function.file-get-contents.html) шукають файли Формат відповідає формату системної змінної оточення PATH: список директорій, розділених двокрапкою в Unix або крапкою з комою у Windows.
+Вказує список директорій, у яких функції [require](function.require.html) [include](function.include.html) [fopen()](function.fopen.html) [file()](function.file.html) [readfile()](function.readfile.html) і [filegetcontents()](function.file-get-contents.html) шукають файли Формат відповідає формату системної змінної оточення PATH: список директорій, розділених двокрапкою в Unix або крапкою з комою у Windows.
 
-При пошуку файлів, що підключаються, PHP окремо розглядає кожне значення в includepath. Він перевіряє перший шлях, якщо файл в ньому не знайдений, то він переходить до наступного, і так до тих пір, поки не знайде файл, що підключається, або поверне **`E_WARNING`** або **`E_ERROR`**. Ви можете змінити ваш includepath під час виконання скрипту за допомогою функції [set\_include\_path()](function.set-include-path.html)
+При пошуку файлів, що підключаються, PHP окремо розглядає кожне значення в includepath. Він перевіряє перший шлях, якщо файл в ньому не знайдений, то він переходить до наступного, і так до тих пір, поки не знайде файл, що підключається, або поверне **`E_WARNING`** або **`E_ERROR`**. Ви можете змінити ваш includepath під час виконання скрипту за допомогою функції [setincludepath()](function.set-include-path.html)
 
 **Приклад #1 includepath в Unix**
 
@@ -362,7 +362,7 @@ includepath = ".:${USER}/pear/php"
 
 Спеціальне значення `.` позначає, що робоча директорія скрипта буде використана як базова директорія. Однак це трохи небезпечно, так як поточна директорія скрипту може бути легко змінена за допомогою [chdir()](function.chdir.html)
 
-У httpd.conf, **openbasedir** може бути вимкнена (наприклад, для деяких віртуальних хостів) [тем же способом](configuration.changes.html#configuration.changes.apache), як і будь-яка інша конфігураційна директива: "`php_admin_value open_basedir none`".
+У httpd.conf, **openbasedir** може бути вимкнена (наприклад, для деяких віртуальних хостів) [тим же способом](configuration.changes.html#configuration.changes.apache), як і будь-яка інша конфігураційна директива: "`php_admin_value open_basedir none`".
 
 У Windows розділяйте каталоги крапкою з комою. На всіх інших системах, розділяйте директорії двокрапкою. При роботі в якості модуля Apache, шляхи **openbasedir** автоматично успадковуються від батьківських директорій.
 
@@ -372,11 +372,11 @@ includepath = ".:${USER}/pear/php"
 
 > **Зауваження**
 > 
-> Значення openBasedir можна зробити суворішим під час виконання скрипта. Це означає, що якщо openbasedir була встановлена ​​в `/www/` в php.ini, то скрипт може утиснути конфігурацію до `/www/tmp/` під час виконання за допомогою [ini\_set()](function.ini-set.html). При вказівці кількох директорій можна використовувати константу **`PATH_SEPARATOR`** як роздільник шляхів, який залежить від операційної системи.
+> Значення openBasedir можна зробити суворішим під час виконання скрипта. Це означає, що якщо openbasedir була встановлена ​​в `/www/` в php.ini, то скрипт може утиснути конфігурацію до `/www/tmp/` під час виконання за допомогою [iniset()](function.ini-set.html). При вказівці кількох директорій можна використовувати константу **`PATH_SEPARATOR`** як роздільник шляхів, який залежить від операційної системи.
 
 > **Зауваження**
 > 
-> Використання опції openbasedir встановить [realpath\_cache\_size](ini.core.html#ini.realpath-cache-size) на значення `0` і таким чином *відключить* кеш realpath.
+> Використання опції openbasedir встановить [realpathcachesize](ini.core.html#ini.realpath-cache-size) на значення `0` і таким чином *відключить* кеш realpath.
 
 **Застереження**
 
@@ -384,7 +384,7 @@ includepath = ".:${USER}/pear/php"
 
 `doc_root` string
 
-Коренева директорія PHP на цьому сервері. Використовується лише у випадку, якщо не пуста. Якщо PHP не був скомпільований з FORCEREDIRECT, вам *слід* встановити docroot, якщо ви використовуєте PHP як CGI під будь-яким веб-сервером (крім IIS). Альтернативою є використання конфігураційної директиви [cgi.force\_redirect](ini.core.html#ini.cgi.force-redirect), Мова про яку йде нижче.
+Коренева директорія PHP на цьому сервері. Використовується лише у випадку, якщо не пуста. Якщо PHP не був скомпільований з FORCEREDIRECT, вам *слід* встановити docroot, якщо ви використовуєте PHP як CGI під будь-яким веб-сервером (крім IIS). Альтернативою є використання конфігураційної директиви [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect), Мова про яку йде нижче.
 
 `user_ini.cache_ttl` int
 
@@ -396,7 +396,7 @@ includepath = ".:${USER}/pear/php"
 
 `extension_dir` string
 
-У якій директорії PHP повинен шукати модулі, що динамічно завантажуються. Рекомендується вказувати абсолютний шлях. Дивіться також: [enable\_dl](info.configuration.html#ini.enable-dl) і [dl()](function.dl.html)
+У якій директорії PHP повинен шукати модулі, що динамічно завантажуються. Рекомендується вказувати абсолютний шлях. Дивіться також: [enableдл](info.configuration.html#ini.enable-dl) і [dl()](function.dl.html)
 
 `extension` string
 
@@ -458,34 +458,34 @@ FastCGI під IIS (в ОС на базі WINNT) підтримує можлив
 
 **Конфігураційні Опції Закачування файлів**
 
-| Имя                                                                               | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [file\_uploads](ini.core.html#ini.file-uploads)                                   | "1"          | PHPINISYSTEM    |                  |
-| [upload\_tmp\_dir](ini.core.html#ini.upload-tmp-dir)                              | NULL         | PHPINISYSTEM    |                  |
-| [max\_input\_nesting\_level](info.configuration.html#ini.max-input-nesting-level) |              | PHPINIPERDIR    |                  |
-| [max\_input\_vars](info.configuration.html#ini.max-input-vars)                    |              | PHPINIPERDIR    |                  |
-| [upload\_max\_filesize](ini.core.html#ini.upload-max-filesize)                    | "2M"         | PHPINIPERDIR    |                  |
-| [max\_file\_uploads](ini.core.html#ini.max-file-uploads)                          |              | PHPINIPERDIR    |                  |
+| Имя                                                                         | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [fileuploads](ini.core.html#ini.file-uploads)                               | "1"          | PHPINISYSTEM    |                  |
+| [uploadtmpdir](ini.core.html#ini.upload-tmp-dir)                            | NULL         | PHPINISYSTEM    |                  |
+| [maxinputnestinglevel](info.configuration.html#ini.max-input-nesting-level) |              | PHPINIPERDIR    |                  |
+| [maxinputvars](info.configuration.html#ini.max-input-vars)                  |              | PHPINIPERDIR    |                  |
+| [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize)                  | "2M"         | PHPINIPERDIR    |                  |
+| [maxfileuploads](ini.core.html#ini.max-file-uploads)                        |              | PHPINIPERDIR    |                  |
 
 Коротке пояснення конфігураційних директив.
 
 `file_uploads` bool
 
-Дозволяти чи не дозволяти [закачивание файлов](features.file-upload.html). Дивіться також директиви [upload\_max\_filesize](ini.core.html#ini.upload-max-filesize) [upload\_tmp\_dir](ini.core.html#ini.upload-tmp-dir) і [post\_max\_size](ini.core.html#ini.post-max-size)
+Дозволяти чи не дозволяти [закачивание файлов](features.file-upload.html). Дивіться також директиви [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) [uploadtmpdir](ini.core.html#ini.upload-tmp-dir) і [postmaxsize](ini.core.html#ini.post-max-size)
 
 `upload_tmp_dir` string
 
 Тимчасова директорія, що використовується для зберігання файлів під час закачування. Має бути доступною для запису користувачеві, від імені якого запущено PHP. Якщо не вказано, використовується каталог за промовчанням для вашої системи.
 
-Якщо до зазначеної директорії немає прав на запис, PHP відкотиться назад до системної тимчасової директорії, яка використовується за умовчанням. Якщо увімкнено директиву [open\_basedir](ini.core.html#ini.open-basedir), то для успішного завантаження файлів системна директорія за умовчанням має бути дозволена.
+Якщо до зазначеної директорії немає прав на запис, PHP відкотиться назад до системної тимчасової директорії, яка використовується за умовчанням. Якщо увімкнено директиву [openbasedir](ini.core.html#ini.open-basedir), то для успішного завантаження файлів системна директорія за умовчанням має бути дозволена.
 
 `upload_max_filesize` int
 
 Максимальний розмір файлу, що закачується.
 
-[post\_max\_size](ini.core.html#ini.post-max-size) має бути більше, ніж це значення.
+[postmaxsize](ini.core.html#ini.post-max-size) має бути більше, ніж це значення.
 
-Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [этом разделе FAQ](faq.using.html#faq.using.shorthandbytes)
+Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes)
 
 `max_file_uploads` int
 
@@ -495,9 +495,9 @@ FastCGI під IIS (в ОС на базі WINNT) підтримує можлив
 
 **Конфігураційні Опції Загального SQL**
 
-| Имя                                               | По умолчанию | Место изменения | Список изменений     |
-|---------------------------------------------------|--------------|-----------------|----------------------|
-| [sql.safe\_mode](ini.core.html#ini.sql.safe-mode) | "0"          | PHPINISYSTEM    | Видалено в PHP 7.2.0 |
+| Имя                                             | По умолчанию | Место изменения | Список изменений     |
+|-------------------------------------------------|--------------|-----------------|----------------------|
+| [sql.safemode](ini.core.html#ini.sql.safe-mode) | "0"          | PHPINISYSTEM    | Видалено в PHP 7.2.0 |
 
 Коротке пояснення конфігураційних директив.
 
@@ -513,9 +513,9 @@ FastCGI під IIS (в ОС на базі WINNT) підтримує можлив
 
 **Особливі опції конфігурації для Windows**
 
-| Имя                                                                      | По умолчанию | Место изменения | Список изменений |
-|--------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [windows.show\_crt\_warning](ini.core.html#ini.windows-show-crt-warning) | "0"          | PHPINIALL       |                  |
+| Имя                                                                  | По умолчанию | Место изменения | Список изменений |
+|----------------------------------------------------------------------|--------------|-----------------|------------------|
+| [windows.showcrtwarning](ini.core.html#ini.windows-show-crt-warning) | "0"          | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

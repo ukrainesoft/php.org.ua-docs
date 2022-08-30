@@ -2,7 +2,7 @@
 
 -   [« ReflectionProperty::setAccessible](reflectionproperty.setaccessible.html)
     
--   [ReflectionProperty::\_\_toString »](reflectionproperty.tostring.html)
+-   [ReflectionProperty::toString »](reflectionproperty.tostring.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Генерація ключа
 
--   [« mhash\_get\_hash\_name](function.mhash-get-hash-name.html)
+-   [« mhashgethashname](function.mhash-get-hash-name.html)
     
 -   [mhash »](function.mhash.html)
     
@@ -59,4 +59,4 @@ mhash_keygen_s2k(    int $algo,    string $password,    string $salt
 
 | Версия | Описание                                                                                     |
 |--------|----------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функции `hash_*()`](ref.hash.html) |
+|        | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.html) |

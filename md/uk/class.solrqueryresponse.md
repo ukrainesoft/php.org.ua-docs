@@ -2,7 +2,7 @@
 
 -   [« SolrResponse::success](solrresponse.success.html)
     
--   [SolrQueryResponse::\_\_construct »](solrqueryresponse.construct.html)
+-   [SolrQueryResponse::construct »](solrqueryresponse.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -125,5 +125,5 @@ public SolrResponse::success(): bool
 
 ## Зміст
 
--   [SolrQueryResponse::\_\_construct](solrqueryresponse.construct.html) - Конструктор
--   [SolrQueryResponse::\_\_destruct](solrqueryresponse.destruct.html) - Деструктор
+-   [SolrQueryResponse::construct](solrqueryresponse.construct.html) - Конструктор
+-   [SolrQueryResponse::destruct](solrqueryresponse.destruct.html) - Деструктор

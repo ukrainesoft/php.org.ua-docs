@@ -1,12 +1,12 @@
 Отримує ідентифікатор токена
 
--   [« Parle\\Parser::token](parle-parser.token.html)
+-   [« ParleParser::token](parle-parser.token.html)
     
--   [Parle\\Parser::trace »](parle-parser.trace.html)
+-   [ParleParser::trace »](parle-parser.trace.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Отримує ідентифікатор токена
     
@@ -29,7 +29,7 @@ public Parle\Parser::tokenId(string $tok): int
 
 `tok`
 
-Ім'я токена, що використовується в [Parle\\Parser::token()](parle-parser.token.html)
+Ім'я токена, що використовується в [ParleParser::token()](parle-parser.token.html)
 
 ### Значення, що повертаються
 

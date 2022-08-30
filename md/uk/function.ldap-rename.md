@@ -1,12 +1,12 @@
 Змінити ім'я запису
 
--   [« ldap\_rename\_ext](function.ldap-rename-ext.html)
+-   [« ldaprenameext](function.ldap-rename-ext.html)
     
--   [ldap\_sasl\_bind »](function.ldap-sasl-bind.html)
+-   [ldapsaslbind »](function.ldap-sasl-bind.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Змінити ім'я запису
     
@@ -29,7 +29,7 @@ ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `dn`
 
@@ -57,19 +57,19 @@ ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                        |
-|        | Додано підтримку параметра `controls`                                                                                                                    |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
+|        | Додано підтримку параметра `controls`                                                                                                                  |
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Ця функція працює лише з LDAPv3. Можливо, вам доведеться використати [ldap\_set\_option()](function.ldap-set-option.html) перед прив'язкою за допомогою LDAPv3. Ця функція доступна лише під час використання OpenLDAP 2.xx або Netscape Directory SDK x.x.
+> Ця функція працює лише з LDAPv3. Можливо, вам доведеться використати [ldapsetoption()](function.ldap-set-option.html) перед прив'язкою за допомогою LDAPv3. Ця функція доступна лише під час використання OpenLDAP 2.xx або Netscape Directory SDK x.x.
 
 ### Дивіться також
 
--   [ldap\_rename\_ext()](function.ldap-rename-ext.html) - Модифікувати назву запису
--   [ldap\_modify()](function.ldap-modify.html) - Псевдонім ldapmodreplace
+-   [ldaprenameext()](function.ldap-rename-ext.html) - Модифікувати назву запису
+-   [ldapmodify()](function.ldap-modify.html) - Псевдонім ldapmodreplace

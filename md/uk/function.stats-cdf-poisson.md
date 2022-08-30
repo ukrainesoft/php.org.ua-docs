@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу Пуассона за рештою
 
--   [« stats\_cdf\_normal](function.stats-cdf-normal.html)
+-   [« statscdfnormal](function.stats-cdf-normal.html)
     
--   [stats\_cdf\_t »](function.stats-cdf-t.html)
+-   [statscdft »](function.stats-cdf-t.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу Пуассона за рештою
     

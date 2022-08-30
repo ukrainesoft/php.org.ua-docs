@@ -37,7 +37,7 @@ public PDOStatement::bindValue(string|int $param, mixed $value, int $type = PDO:
 
 `type`
 
-Явно заданий тип даних параметра. Тип задається однією з [констант `PDO::PARAM_*`](pdo.constants.html)
+Явно заданий тип даних параметра. Тип задається однією з [констант`PDO::PARAM_*`](pdo.constants.html)
 
 ### Значення, що повертаються
 

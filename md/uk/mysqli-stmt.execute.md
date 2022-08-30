@@ -1,12 +1,12 @@
 Виконує підготовлене затвердження
 
--   [« mysqli\_stmt::$error](mysqli-stmt.error.html)
+-   [« mysqlistmt::$error](mysqli-stmt.error.html)
     
--   [mysqli\_stmt::fetch »](mysqli-stmt.fetch.html)
+-   [mysqlistmt::fetch »](mysqli-stmt.fetch.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Виконує підготовлене затвердження
     
@@ -33,15 +33,15 @@ public mysqli_stmt::execute(?array $params = null): bool
 mysqli_stmt_execute(mysqli_stmt $statement, ?array $params = null): bool
 ```
 
-Виконує заздалегідь підготовлене твердження. Твердження має бути успішно підготовлене перед виконанням з використанням функції [mysqli\_prepare()](mysqli.prepare.html) або [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.html), або шляхом передачі другого аргументу в [mysqli\_stmt::\_\_construct()](mysqli-stmt.construct.html)
+Виконує заздалегідь підготовлене твердження. Твердження має бути успішно підготовлене перед виконанням з використанням функції [mysqliprepare()](mysqli.prepare.html) або [mysqlistmtprepare()](mysqli-stmt.prepare.html), або шляхом передачі другого аргументу в [mysqlistmt::construct()](mysqli-stmt.construct.html)
 
-Якщо виконуються запити `UPDATE` `DELETE`, або `INSERT`, то кількість змінених рядків можна визначити функцією [mysqli\_stmt\_affected\_rows()](mysqli-stmt.affected-rows.html). Якщо запит повертає набір результатів, його можна отримати за допомогою функції [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html) або шляхом отримання построчно безпосередньо з оператора за допомогою функції [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html)
+Якщо виконуються запити `UPDATE` `DELETE`, або `INSERT`, то кількість змінених рядків можна визначити функцією [mysqlistmtaffectedrows()](mysqli-stmt.affected-rows.html). Якщо запит повертає набір результатів, його можна отримати за допомогою функції [mysqlistmtgetresult()](mysqli-stmt.get-result.html) або шляхом отримання построчно безпосередньо з оператора за допомогою функції [mysqlistmtfetch()](mysqli-stmt.fetch.html)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 `params`
 
@@ -202,6 +202,6 @@ Stuttgart (DEU,Baden-Wuerttemberg)
 
 ### Дивіться також
 
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
--   [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqlistmtgetresult()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult

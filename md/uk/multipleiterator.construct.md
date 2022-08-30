@@ -32,7 +32,7 @@ public **MultipleIterator::construct**(int `$flags` = MultipleIterator::MITNEEDA
 -   **`MultipleIterator::MIT_NEED_ALL`** або **`MultipleIterator::MIT_NEED_ANY`**
 -   **`MultipleIterator::MIT_KEYS_NUMERIC`** або **`MultipleIterator::MIT_KEYS_ASSOC`**
 
-За замовчуванням **`MultipleIterator::MIT_NEED_ALL`****`MultipleIterator::MIT_KEYS_NUMERIC`**
+За замовчуванням **`MultipleIterator::MIT_NEED_ALL`\*\*\*\*`MultipleIterator::MIT_KEYS_NUMERIC`**
 
 ### Приклади
 

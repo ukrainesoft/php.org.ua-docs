@@ -23,13 +23,13 @@ public **DatePeriod::construct**
 [DateTimeInterface](class.datetimeinterface.html) `$start`  
 [DateInterval](class.dateinterval.html) `$interval`  
 int `$recurrences`  
-int `$options`  
+int `$options`
 
 public **DatePeriod::construct**  
 [DateTimeInterface](class.datetimeinterface.html) `$start`  
 [DateInterval](class.dateinterval.html) `$interval`  
 [DateTimeInterface](class.datetimeinterface.html) `$end`  
-int `$options`  
+int `$options`
 
 public **DatePeriod::construct**(string `$isostr`, int `$options`
 
@@ -55,7 +55,7 @@ public **DatePeriod::construct**(string `$isostr`, int `$options`
 
 `isostr`
 
-Рядок, що містить інтервал згідно [» спецификации ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові входження (`R0/`) не підтримуються.
+Рядок, що містить інтервал згідно [» спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові входження (`R0/`) не підтримуються.
 
 `options`
 

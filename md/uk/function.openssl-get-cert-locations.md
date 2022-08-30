@@ -1,8 +1,8 @@
 Отримати доступні місця розташування сертифікатів
 
--   [« openssl\_free\_key](function.openssl-free-key.html)
+-   [« opensslfreekey](function.openssl-free-key.html)
     
--   [openssl\_get\_cipher\_methods »](function.openssl-get-cipher-methods.html)
+-   [opensslgetciphermethods »](function.openssl-get-cipher-methods.html)
     
 -   [PHP Manual](index.html)
     

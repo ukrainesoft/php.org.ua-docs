@@ -1,8 +1,8 @@
 Повертає ім'я курсору
 
--   [« odbc\_connect](function.odbc-connect.html)
+-   [« odbcconnect](function.odbc-connect.html)
     
--   [odbc\_data\_source »](function.odbc-data-source.html)
+-   [odbcdatasource »](function.odbc-data-source.html)
     
 -   [PHP Manual](index.html)
     

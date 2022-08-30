@@ -1,12 +1,12 @@
 Замінює значення за вказаним індексом
 
--   [« Ds\\Sequence::rotate](ds-sequence.rotate.html)
+-   [« DsSequence::rotate](ds-sequence.rotate.html)
     
--   [Ds\\Sequence::shift »](ds-sequence.shift.html)
+-   [ДсSequence::shift »](ds-sequence.shift.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Замінює значення за вказаним індексом
     

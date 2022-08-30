@@ -1,8 +1,8 @@
 Повертає ідентифікатор створеного курсору
 
--   [« oci\_new\_connect](function.oci-new-connect.html)
+-   [« ocinewconnect](function.oci-new-connect.html)
     
--   [oci\_new\_descriptor »](function.oci-new-descriptor.html)
+-   [ocinewdescriptor »](function.oci-new-descriptor.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ oci_new_cursor(resource $connection): resource|false
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [oci\_connect()](function.oci-connect.html) або [oci\_pconnect()](function.oci-pconnect.html)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html)
 
 ### Значення, що повертаються
 
@@ -75,4 +75,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcursor()](function.ocinewcursor.html). У PHP 5.0.0 і вище [ocinewcursor()](function.ocinewcursor.html) є аліасом **ocinewcursor()**Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcursor()](function.ocinewcursor.html). У PHP 5.0.0 і вище [ocinewcursor()](function.ocinewcursor.html) є аліасом \*\*ocinewcursor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

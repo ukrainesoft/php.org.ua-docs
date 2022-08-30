@@ -1,12 +1,12 @@
 Перевірити, що вміст змінної є лічильним значенням
 
--   [« is\_callable](function.is-callable.html)
+-   [« iscallable](function.is-callable.html)
     
--   [is\_double »](function.is-double.html)
+-   [ісdouble »](function.is-double.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевірити, що вміст змінної є лічильним значенням
     
@@ -55,7 +55,7 @@ var_dump(is_countable(new stdClass())); // bool(false)
 
 ### Дивіться також
 
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [is\_iterable()](function.is-iterable.html) - Перевіряє, чи є змінна, що ітерується.
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісiterable()](function.is-iterable.html) - Перевіряє, чи є змінна, що ітерується.
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою

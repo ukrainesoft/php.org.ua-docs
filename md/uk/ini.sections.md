@@ -2,7 +2,7 @@
 
 -   [« Список директив php.ini](ini.list.html)
     
--   [Описание встроенных директив php.ini »](ini.core.html)
+-   [Опис вбудованих директив php.ini »](ini.core.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,7 +17,7 @@
 
 Ці розділи не мають прямого впливу на PHP. Вони потрібні для угрупування інших директив php.ini разом та для можливості діяти залежно від певного хоста чи шляху.
 
-Дані розділи використовуються лише в режимі CGI/FastCGI і в них не можуть бути використані директиви [extension](ini.core.html#ini.extension) і [zend\_extension](ini.core.html#ini.zend-extension)
+Дані розділи використовуються лише в режимі CGI/FastCGI і в них не можуть бути використані директиви [extension](ini.core.html#ini.extension) і [zendextension](ini.core.html#ini.zend-extension)
 
 **Розділи**
 

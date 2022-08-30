@@ -1,8 +1,8 @@
 Повертає піднабір із заданого діапазону
 
--   [« Ds\\Set::reversed](ds-set.reversed.html)
+-   [« DsSet::reversed](ds-set.reversed.html)
     
--   [Ds\\Set::sort »](ds-set.sort.html)
+-   [ДсSet::sort »](ds-set.sort.html)
     
 -   [PHP Manual](index.html)
     

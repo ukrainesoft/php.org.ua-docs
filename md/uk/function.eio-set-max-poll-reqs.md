@@ -1,8 +1,8 @@
 Встановлює максимальну кількість запитів, що обробляються.
 
--   [« eio\_set\_max\_parallel](function.eio-set-max-parallel.html)
+-   [« eiosetmaxparallel](function.eio-set-max-parallel.html)
     
--   [eio\_set\_max\_poll\_time »](function.eio-set-max-poll-time.html)
+-   [eiosetmaxpolltime »](function.eio-set-max-poll-time.html)
     
 -   [PHP Manual](index.html)
     

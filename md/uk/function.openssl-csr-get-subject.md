@@ -1,8 +1,8 @@
 Повертає суб'єкт CSR
 
--   [« openssl\_csr\_get\_public\_key](function.openssl-csr-get-public-key.html)
+-   [« opensslcsrgetpublickey](function.openssl-csr-get-public-key.html)
     
--   [openssl\_csr\_new »](function.openssl-csr-new.html)
+-   [opensslcsrnew »](function.openssl-csr-new.html)
     
 -   [PHP Manual](index.html)
     
@@ -89,6 +89,6 @@ Array
 
 ### Дивіться також
 
--   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
--   [openssl\_csr\_get\_public\_key()](function.openssl-csr-get-public-key.html) - Повертає відкритий ключ CSR
--   [openssl\_x509\_parse()](function.openssl-x509-parse.html) - Розібрати сертифікат X509 та отримати масив з даними про нього
+-   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
+-   [opensslcsrgetpublickey()](function.openssl-csr-get-public-key.html) - Повертає відкритий ключ CSR
+-   [opensslx509parse()](function.openssl-x509-parse.html) - Розібрати сертифікат X509 та отримати масив з даними про нього

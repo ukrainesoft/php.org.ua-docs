@@ -1,6 +1,6 @@
 Звільняє ресурси, пов'язані з PixelIterator
 
--   [« ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.html)
+-   [« ImagickPixelIterator::construct](imagickpixeliterator.construct.html)
     
 -   [ImagickPixelIterator::getCurrentIteratorRow »](imagickpixeliterator.getcurrentiteratorrow.html)
     

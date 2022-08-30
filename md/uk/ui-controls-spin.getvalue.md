@@ -1,12 +1,12 @@
 Отримати значення
 
--   [« UI\\Controls\\Spin::\_\_construct](ui-controls-spin.construct.html)
+-   [« UIControlsSpin::construct](ui-controls-spin.construct.html)
     
--   [UI\\Controls\\Spin::onChange »](ui-controls-spin.onchange.html)
+-   [ОЙControlsSpin::onChange »](ui-controls-spin.onchange.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Spin](class.ui-controls-spin.html)
+-   [ОЙControlsSpin](class.ui-controls-spin.html)
     
 -   Отримати значення
     

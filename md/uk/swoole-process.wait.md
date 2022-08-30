@@ -1,12 +1,12 @@
 Чекає на події дочірніх процесів
 
--   [« Swoole\\Process::useQueue](swoole-process.usequeue.html)
+-   [« SwooleProcess::useQueue](swoole-process.usequeue.html)
     
--   [Swoole\\Process::write »](swoole-process.write.html)
+-   [SwooleProcess::write »](swoole-process.write.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Чекає на події дочірніх процесів
     

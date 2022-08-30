@@ -1,8 +1,8 @@
 Повертає поточну місткість
 
--   [« Ds\\Set::allocate](ds-set.allocate.html)
+-   [« DsSet::allocate](ds-set.allocate.html)
     
--   [Ds\\Set::clear »](ds-set.clear.html)
+-   [ДсSet::clear »](ds-set.clear.html)
     
 -   [PHP Manual](index.html)
     

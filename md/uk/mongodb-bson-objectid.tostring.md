@@ -1,12 +1,12 @@
 Повертає шістнадцяткову виставу ObjectId
 
--   [« MongoDB\\BSON\\ObjectId::serialize](mongodb-bson-objectid.serialize.html)
+-   [« MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.html)
     
--   [MongoDB\\BSON\\ObjectId::unserialize »](mongodb-bson-objectid.unserialize.html)
+-   [MongoDBBSONObjectId::unserialize »](mongodb-bson-objectid.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+-   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
 -   Повертає шістнадцяткову виставу ObjectId
     

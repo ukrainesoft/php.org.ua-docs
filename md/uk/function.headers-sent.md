@@ -1,12 +1,12 @@
 Перевіряє, чи були надіслані заголовки
 
--   [« headers\_list](function.headers-list.html)
+-   [« headerslist](function.headers-list.html)
     
--   [http\_response\_code »](function.http-response-code.html)
+-   [httpresponsecode »](function.http-response-code.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Перевіряє, чи були надіслані заголовки
     
@@ -81,7 +81,7 @@ if (!headers_sent($filename, $linenum)) {
 
 ### Дивіться також
 
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
--   [trigger\_error()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
--   [headers\_list()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [triggererror()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
+-   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
 -   Дивіться інформацію щодо функції [header()](function.header.html) - Надсилання HTTP-заголовка для більш детальної інформації.

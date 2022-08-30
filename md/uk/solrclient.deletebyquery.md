@@ -2,7 +2,7 @@
 
 -   [« SolrClient::deleteByQueries](solrclient.deletebyqueries.html)
     
--   [SolrClient::\_\_destruct »](solrclient.destruct.html)
+-   [SolrClient::destruct »](solrclient.destruct.html)
     
 -   [PHP Manual](index.html)
     

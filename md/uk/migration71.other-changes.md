@@ -1,6 +1,6 @@
 Інші зміни
 
--   [« Изменённые функции](migration71.changed-functions.html)
+-   [« Змінені функції](migration71.changed-functions.html)
     
 -   [Поддержка Windows »](migration71.windows-support.html)
     

@@ -1,8 +1,8 @@
 Складання з вихідних кодів
 
--   [« Самостоятельная установка PHP в Windows](install.windows.manual.html)
+-   [« Самостійне встановлення PHP у Windows](install.windows.manual.html)
     
--   [Командная строка PHP в Microsoft Windows »](install.windows.commandline.html)
+-   [Командний рядок PHP у Microsoft Windows »](install.windows.commandline.html)
     
 -   [PHP Manual](index.html)
     

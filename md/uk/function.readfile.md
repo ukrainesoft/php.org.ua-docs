@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Виводить файл
     
@@ -33,11 +33,11 @@ readfile(string $filename, bool $use_include_path = false, ?resource $context = 
 
 `use_include_path`
 
-Якщо ви хочете, щоб використовувався пошук файлу в [include\_path](ini.core.html#ini.include-path), встановіть цей параметр у **`true`**
+Якщо ви хочете, щоб використовувався пошук файлу в [includepath](ini.core.html#ini.include-path), встановіть цей параметр у **`true`**
 
 `context`
 
-Ресурс (resource) з [контекстом потока](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.html)
 
 ### Значення, що повертаються
 
@@ -77,11 +77,11 @@ if (file_exists($file)) {
 
 > **Зауваження**
 > 
-> **readfile()** сама по собі не призводить до будь-яких проблем з пам'яттю, навіть при надсиланні великих файлів. У разі помилки перевищення пам'яті переконайтеся, що буферизація виводу вимкнена за допомогою [ob\_get\_level()](function.ob-get-level.html)
+> **readfile()** сама по собі не призводить до будь-яких проблем з пам'яттю, навіть при надсиланні великих файлів. У разі помилки перевищення пам'яті переконайтеся, що буферизація виводу вимкнена за допомогою [проgetlevel()](function.ob-get-level.html)
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 ### Дивіться також
 
@@ -91,5 +91,5 @@ if (file_exists($file)) {
 -   [include](function.include.html) - include
 -   [require](function.require.html) - require
 -   [virtual()](function.virtual.html) - Виконує підзапит Apache
--   [file\_get\_contents()](function.file-get-contents.html) - Читає вміст файлу в рядок
--   [Поддерживаемые протоколы и обёртки](wrappers.html)
+-   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [Підтримувані протоколи та обгортки](wrappers.html)

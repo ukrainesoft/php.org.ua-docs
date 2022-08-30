@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionServerException
 
--   [« MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.html)
+-   [« MongoDBDriverExceptionRuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.html)
     
--   [MongoDB\\Driver\\Exception\\SSLConnectionException »](class.mongodb-driver-exception-sslconnectionexception.html)
+-   [MongoDBDriverExceptionSSLConnectionException »](class.mongodb-driver-exception-sslconnectionexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionServerException
     

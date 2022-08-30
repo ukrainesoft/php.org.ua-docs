@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Async::write](swoole-async.write.html)
+-   [« SwooleAsync::write](swoole-async.write.html)
     
--   [Swoole\\Atomic »](class.swoole-atomic.html)
+-   [SwooleAtomic »](class.swoole-atomic.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Async](class.swoole-async.html)
+-   [SwooleAsync](class.swoole-async.html)
     
 -   Опис
     

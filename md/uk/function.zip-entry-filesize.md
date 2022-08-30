@@ -1,8 +1,8 @@
 Повертає реальний розмір файлу для дескриптора директорії
 
--   [« zip\_entry\_compressionmethod](function.zip-entry-compressionmethod.html)
+-   [« zipentrycompressionmethod](function.zip-entry-compressionmethod.html)
     
--   [zip\_entry\_name »](function.zip-entry-name.html)
+-   [zipentryname »](function.zip-entry-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ zip_entry_filesize(resource $zip_entry): int|false
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zip\_read()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
 
 ### Значення, що повертаються
 
@@ -47,5 +47,5 @@ zip_entry_filesize(resource $zip_entry): int|false
 
 ### Дивіться також
 
--   [zip\_open()](function.zip-open.html) - Відкриває ZIP-архів
--   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві

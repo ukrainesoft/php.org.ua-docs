@@ -2,11 +2,11 @@
 
 -   [« TableDelete::where](mysql-xdevapi-tabledelete.where.html)
     
--   [TableInsert::\_\_construct »](mysql-xdevapi-tableinsert.construct.html)
+-   [TableInsert::construct »](mysql-xdevapi-tableinsert.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас TableInsert
     
@@ -44,6 +44,6 @@ public values(array $row_values): mysql_xdevapi\TableInsert
 
 ## Зміст
 
--   [TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.html) - Конструктор класу TableInsert
+-   [TableInsert::construct](mysql-xdevapi-tableinsert.construct.html) - Конструктор класу TableInsert
 -   [TableInsert::execute](mysql-xdevapi-tableinsert.execute.html) — Виконує запит на вставку
 -   [TableInsert::values](mysql-xdevapi-tableinsert.values.html) — Додає значення вставки рядка

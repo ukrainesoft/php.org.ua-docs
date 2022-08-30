@@ -1,12 +1,12 @@
 Повертає вміст буфера виводу
 
--   [« ob\_get\_clean](function.ob-get-clean.html)
+-   [« obgetclean](function.ob-get-clean.html)
     
--   [ob\_get\_flush »](function.ob-get-flush.html)
+-   [проgetflush »](function.ob-get-flush.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Повертає вміст буфера виводу
     
@@ -65,5 +65,5 @@ string(11) "Привет Мир"
 
 ### Дивіться також
 
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
--   [ob\_get\_length()](function.ob-get-length.html) - Повертає розмір буфера виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проgetlength()](function.ob-get-length.html) - Повертає розмір буфера виводу

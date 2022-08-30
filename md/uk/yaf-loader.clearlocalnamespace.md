@@ -1,12 +1,12 @@
 Призначення clearLocalNamespace
 
--   [« Yaf\_Loader::autoload](yaf-loader.autoload.html)
+-   [« YafLoader::autoload](yaf-loader.autoload.html)
     
--   [Yaf\_Loader::\_\_construct »](yaf-loader.construct.html)
+-   [YafLoader::construct »](yaf-loader.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Призначення clearLocalNamespace
     

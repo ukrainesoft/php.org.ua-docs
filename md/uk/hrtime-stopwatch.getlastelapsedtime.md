@@ -1,12 +1,12 @@
 Отримати минулий час для останнього інтервалу
 
--   [« HRTime\\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html)
+-   [« HRTimeStopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html)
     
--   [HRTime\\StopWatch::isRunning »](hrtime-stopwatch.isrunning.html)
+-   [HRTimeStopWatch::isRunning »](hrtime-stopwatch.isrunning.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\StopWatch](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     
 -   Отримати минулий час для останнього інтервалу
     

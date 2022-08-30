@@ -1,12 +1,12 @@
 Декодує XML у типові типи PHP
 
--   [« xmlrpc\_decode\_request](function.xmlrpc-decode-request.html)
+-   [« xmlrpcdecoderequest](function.xmlrpc-decode-request.html)
     
--   [xmlrpc\_encode\_request »](function.xmlrpc-encode-request.html)
+-   [xmlrpcencoderequest »](function.xmlrpc-encode-request.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Декодує XML у типові типи PHP
     
@@ -43,9 +43,9 @@ XML-відповідь, що повертається методом XMLRPC.
 
 ### Приклади
 
-Дивіться приклад [xmlrpc\_encode\_request()](function.xmlrpc-encode-request.html)
+Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.html)
 
 ### Дивіться також
 
--   [xmlrpc\_encode\_request()](function.xmlrpc-encode-request.html) - Генерує XML для методу запиту
--   [xmlrpc\_is\_fault()](function.xmlrpc-is-fault.html) - Визначає, чи є масив значень уявленням помилки XMLRPC
+-   [xmlrpcencoderequest()](function.xmlrpc-encode-request.html) - Генерує XML для методу запиту
+-   [xmlrpcісfault()](function.xmlrpc-is-fault.html) - Визначає, чи є масив значень уявленням помилки XMLRPC

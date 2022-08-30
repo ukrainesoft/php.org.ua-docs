@@ -1,12 +1,12 @@
 Отримує ім'я стандартної дії
 
--   [« Yaf\_Dispatcher::getApplication](yaf-dispatcher.getapplication.html)
+-   [« YafDispatcher::getApplication](yaf-dispatcher.getapplication.html)
     
--   [Yaf\_Dispatcher::getDefaultController »](yaf-dispatcher.getdefaultcontroller.html)
+-   [YafDispatcher::getDefaultController »](yaf-dispatcher.getdefaultcontroller.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує ім'я стандартної дії
     

@@ -1,12 +1,12 @@
 Визначення доступності
 
--   [« Componere\\Value::setStatic](componere-value.setstatic.html)
+-   [« ComponereValue::setStatic](componere-value.setstatic.html)
     
--   [Componere\\Value::isProtected »](componere-value.isprotected.html)
+-   [ComponereValue::isProtected »](componere-value.isprotected.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Value](class.componere-value.html)
+-   [ComponereValue](class.componere-value.html)
     
 -   Визначення доступності
     

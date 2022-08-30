@@ -1,12 +1,12 @@
 Стежить за роботою парсера
 
--   [« Parle\\RParser::tokenId](parle-rparser.tokenid.html)
+-   [« ParleRParser::tokenId](parle-rparser.tokenid.html)
     
--   [Parle\\RParser::validate »](parle-rparser.validate.html)
+-   [ParleRParser::validate »](parle-rparser.validate.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Стежить за роботою парсера
     

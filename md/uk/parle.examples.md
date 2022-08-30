@@ -1,6 +1,6 @@
 Приклади
 
--   [« Группировка](parle.regex.grouping.html)
+-   [« Угруповання](parle.regex.grouping.html)
     
 -   [Примеры использования лексера »](parle.examples.lexer.html)
     

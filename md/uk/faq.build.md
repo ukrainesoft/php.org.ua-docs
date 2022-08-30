@@ -15,23 +15,23 @@
 
 У цьому розділі зібрані найбільш загальні помилки, що виникають на етапі збирання.
 
-1.  [Я получил последнюю версию PHP, используя анонимный доступ к Git, но в нём нет конфигурационного скрипта!](#faq.build.configure)
-2.  [У меня возникают проблемы при конфигурировании PHP для работы с Apache. Он говорит, что не может найти httpd.h, хотя файл находится точно там, где я сказал!](#faq.build.configuring)
+1.  [Я отримав останню версію PHP, використовуючи анонімний доступ до Git, але немає конфігураційного скрипта!](#faq.build.configure)
+2.  [У мене виникають проблеми з конфігурацією PHP для роботи з Apache. Він каже, що не може знайти httpd.h, хоча файл знаходиться саме там, де я сказав!](#faq.build.configuring)
 3.  [Во время конфигурации PHP (./configure) вы наталкиваетесь на ошибку, схожую со следующей: checking lex output file root... ./configure: lex: command not found configure: error: cannot find output from lex; giving up](#faq.build.lex)
-4.  [Когда я пытаюсь запустить Apache, я получаю следующее сообщение: fatal: relocation error: file /path/to/libphp4.so: symbol ap\_block\_alarms: referenced symbol not found](#faq.build.apache-sharedcore)
+4.  [Когда я пытаюсь запустить Apache, я получаю следующее сообщение: fatal: relocation error: file /path/to/libphp4.so: symbol apblockalarms: referenced symbol not found](#faq.build.apache-sharedcore)
 5.  [Когда я запускаю configure, он говорит, что не может найти файлы include или библиотеку для GD, gdbm или какого-либо другого пакета!](#faq.build.not-found)
 6.  [При компиляции файла language-parser.tab.c мне выдаются ошибки, говорящие yytname undeclared.](#faq.build.yytname)
-7.  [Когда я запускаю make, похоже, он выполняется нормально, но на конечной линковке жалуется, что не может найти некоторые файлы.](#faq.build.link)
-8.  [При компоновке PHP, он жалуется на некоторые неопределённые ссылки.](#faq.build.undefined)
-9.  [Я следовал всем шагам по установке модульной версии для Apache на Unix, но мои PHP-скрипты выводятся в браузере или я получаю запрос сохранить файл.](#faq.build.not-running)
-10.  [В документации рекомендуется использовать: --activate-module=src/modules/php4/libphp4.a, но такой файл не существует, поэтому я заменил это на --activate-module=src/modules/php4/libmodphp4.a и оно не работает!? Что происходит?](#faq.build.activate-module)
-11.  [Когда я пытаюсь собрать Apache c PHP в виде статического модуля, используя --activate-module=src/modules/php4/libphp4.a он говорит, что мой компилятор не ANSI-совместимый.](#faq.build.ansi)
-12.  [Когда я пытаюсь собрать PHP с помощью --with-apxs, я получаю странное сообщение об ошибке.](#faq.build.apxs)
-13.  [Во время выполнения make я очень быстро получаю ошибки и множество всяких RUSAGE\_.](#faq.build.microtime)
-14.  [При компиляции PHP с MySQL, configure выполняется нормально, но во время make я получаю ошибку типа следующей: ext/mysql/libmysqlclient/my\_tempnam.o(.text+0x46): In function my\_tempnam': /php4/ext/mysql/libmysqlclient/my\_tempnam.c:103: the use of tempnam' is dangerous, better use mkstemp', в чём дело?](#faq.build.mysql.tempnam)
-15.  [Я хочу обновить мой PHP. Где я могу найти строку ./configure, которая была использована для моей текущей PHP установки?](#faq.build.upgrade)
-16.  [При сборке PHP с библиотекой GD, либо выдаются странные ошибки компиляции, либо ошибки сегментации (segfaults) при выполнении.](#faq.build.gdlibs)
-17.  [При компиляции PHP я, кажется, получаю случайные ошибки, например она зависает. Я использую Solaris, если это имеет значение.](#faq.installation.needgnu)
+7.  [Коли я запускаю make, схоже, він виконується нормально, але на кінцевому лінку скаржиться, що не може знайти деякі файли.](#faq.build.link)
+8.  [При компонуванні PHP він скаржиться на деякі невизначені посилання.](#faq.build.undefined)
+9.  [Я дотримувався всіх кроків для встановлення модульної версії для Apache на Unix, але мої PHP-скрипти виводяться в браузері або я отримую запит зберегти файл.](#faq.build.not-running)
+10.  [У документації рекомендується використовувати: --activate-module=src/modules/php4/libphp4.a, але такий файл не існує, тому я замінив це на --activate-module=src/modules/php4/libmodphp4.a і він не працює!? Що відбувається?](#faq.build.activate-module)
+11.  [Коли я намагаюся зібрати Apache з PHP у вигляді статичного модуля, використовуючи --activate-module=src/modules/php4/libphp4.a він каже, що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
+12.  [Коли я намагаюся зібрати PHP за допомогою --with-apxs, я отримую дивне повідомлення про помилку.](#faq.build.apxs)
+13.  [Во время выполнения make я очень быстро получаю ошибки и множество всяких RUSAGE](#faq.build.microtime)
+14.  [При PHP компіляції з MySQL, configure виконується нормально, але під час make я отримую помилку типу наступної: ext/mysql/libmysqlclient/mytempnam.o(.text+0x46): In function mytempnam': /php4/ext/mysql/libmysqlclient/mytempnam.c:103: the use of tempnam' is dangerous, better use mkstemp', в чём дело?](#faq.build.mysql.tempnam)
+15.  [Я хочу оновити мій PHP. Де я можу знайти рядок ./configure, який був використаний для моєї поточної PHP установки?](#faq.build.upgrade)
+16.  [При складанні PHP з бібліотекою GD або видаються дивні помилки компіляції або помилки сегментації (segfaults) при виконанні.](#faq.build.gdlibs)
+17.  [При компіляції PHP я, здається, отримую випадкові помилки, наприклад, вона зависає. Я використовую Solaris якщо це має значення.](#faq.installation.needgnu)
 
 **Я отримав останню версію PHP, використовуючи анонімний доступ до Git, але немає конфігураційного скрипта!**
 

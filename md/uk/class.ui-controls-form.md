@@ -1,12 +1,12 @@
 Елемент управління "Форма" (розташування)
 
--   [« UI\\Controls\\Picker::\_\_construct](ui-controls-picker.construct.html)
+-   [« UIControlsPicker::construct](ui-controls-picker.construct.html)
     
--   [UI\\Controls\\Form::append »](ui-controls-form.append.html)
+-   [ОЙControlsForm::append »](ui-controls-form.append.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент управління "Форма" (розташування)
     
@@ -75,7 +75,7 @@ controls
 
 ## Зміст
 
--   [UI\\Controls\\Form::append](ui-controls-form.append.html) — Додати елемент керування
--   [UI\\Controls\\Form::delete](ui-controls-form.delete.html) — Видалити елемент керування
--   [UI\\Controls\\Form::isPadded](ui-controls-form.ispadded.html) - Визначення заповнення
--   [UI\\Controls\\Form::setPadded](ui-controls-form.setpadded.html) - Встановити заповнення
+-   [ОЙControlsForm::append](ui-controls-form.append.html) — Додати елемент керування
+-   [ОЙControlsForm::delete](ui-controls-form.delete.html) — Видалити елемент керування
+-   [ОЙControlsForm::isPadded](ui-controls-form.ispadded.html) - Визначення заповнення
+-   [ОЙControlsForm::setPadded](ui-controls-form.setpadded.html) - Встановити заповнення

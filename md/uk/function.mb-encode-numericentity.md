@@ -1,12 +1,12 @@
 Кодує символ у числове HTML-посилання
 
--   [« mb\_encode\_mimeheader](function.mb-encode-mimeheader.html)
+-   [« mbencodemimeheader](function.mb-encode-mimeheader.html)
     
--   [mb\_encoding\_aliases »](function.mb-encoding-aliases.html)
+-   [мбencodingaliases »](function.mb-encoding-aliases.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Кодує символ у числове HTML-посилання
     
@@ -96,4 +96,4 @@ $str = mb_encode_numericentity($str, $convmap, "sjis-win");
 
 ### Дивіться також
 
--   [mb\_decode\_numericentity()](function.mb-decode-numericentity.html) - Декодує посилання на числовий рядок HTML на символ
+-   [мбdecodenumericentity()](function.mb-decode-numericentity.html) - Декодує посилання на числовий рядок HTML на символ

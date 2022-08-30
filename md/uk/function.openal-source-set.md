@@ -1,8 +1,8 @@
 Встановити властивість джерела
 
--   [« openal\_source\_rewind](function.openal-source-rewind.html)
+-   [« openalsourcerewind](function.openal-source-rewind.html)
     
--   [openal\_source\_stop »](function.openal-source-stop.html)
+-   [openalsourcestop »](function.openal-source-stop.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_source_set(resource $source, int $property, mixed $setting): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
 
 `property`
 
@@ -43,6 +43,6 @@ openal_source_set(resource $source, int $property, mixed $setting): bool
 
 ### Дивіться також
 
--   [openal\_source\_create()](function.openal-source-create.html) - Згенерувати джерело ресурсу
--   [openal\_source\_get()](function.openal-source-get.html) - Отримати властивість джерела OpenAL
--   [openal\_source\_play()](function.openal-source-play.html) - Почати відтворення джерела
+-   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openalsourceget()](function.openal-source-get.html) - Отримати властивість джерела OpenAL
+-   [openalsourceplay()](function.openal-source-play.html) - Почати відтворення джерела

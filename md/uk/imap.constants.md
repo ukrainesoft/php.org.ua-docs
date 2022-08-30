@@ -45,7 +45,7 @@
 
 **`CL_EXPUNGE`** (int)
 
-Не надаючи жодних попереджень прати повідомлення перед тим, як закрити під час виклику [imap\_close()](function.imap-close.html)
+Не надаючи жодних попереджень прати повідомлення перед тим, як закрити під час виклику [imapclose()](function.imap-close.html)
 
 **`FT_UID`** (int)
 
@@ -77,7 +77,7 @@
 
 **`CP_MOVE`** (int)
 
-Видалити повідомлення з поточної поштової скриньки після копіювання за допомогою [imap\_mail\_copy()](function.imap-mail-copy.html)
+Видалити повідомлення з поточної поштової скриньки після копіювання за допомогою [imapmailcopy()](function.imap-mail-copy.html)
 
 **`SE_UID`** (int)
 
@@ -135,31 +135,31 @@
 
 **`SORTDATE`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): дата написання
+Критерій сортування для [imapsort()](function.imap-sort.html): дата написання
 
 **`SORTARRIVAL`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): дата доставки
+Критерій сортування для [imapsort()](function.imap-sort.html): дата доставки
 
 **`SORTFROM`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): поштова скринька перша у полі "від кого" (поле `from`
+Критерій сортування для [imapsort()](function.imap-sort.html): поштова скринька перша у полі "від кого" (поле `from`
 
 **`SORTSUBJECT`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): Тема листа
+Критерій сортування для [imapsort()](function.imap-sort.html): Тема листа
 
 **`SORTTO`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): поштова скринька перша у полі "кому" (поле `to`
+Критерій сортування для [imapsort()](function.imap-sort.html): поштова скринька перша у полі "кому" (поле `to`
 
 **`SORTCC`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): поштова скринька перша у полі "копія" (поле `cc`
+Критерій сортування для [imapsort()](function.imap-sort.html): поштова скринька перша у полі "копія" (поле `cc`
 
 **`SORTSIZE`** (int)
 
-Критерій сортування для [imap\_sort()](function.imap-sort.html): розмір повідомлення в байтах
+Критерій сортування для [imapsort()](function.imap-sort.html): розмір повідомлення в байтах
 
 **`TYPETEXT`** (int)
 

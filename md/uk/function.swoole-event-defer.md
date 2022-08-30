@@ -1,8 +1,8 @@
 Додати callback-функцію до наступного циклу подій
 
--   [« swoole\_event\_add](function.swoole-event-add.html)
+-   [« swooleeventadd](function.swoole-event-add.html)
     
--   [swoole\_event\_del »](function.swoole-event-del.html)
+-   [swooleeventdel »](function.swoole-event-del.html)
     
 -   [PHP Manual](index.html)
     

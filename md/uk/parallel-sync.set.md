@@ -1,12 +1,12 @@
 Доступ
 
--   [« parallel\\Sync::get](parallel-sync.get.html)
+-   [« parallelSync::get](parallel-sync.get.html)
     
--   [parallel\\Sync::wait »](parallel-sync.wait.html)
+-   [parallelSync::wait »](parallel-sync.wait.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Sync](class.parallel-sync.html)
+-   [parallelSync](class.parallel-sync.html)
     
 -   Доступ
     

@@ -1,8 +1,8 @@
 Клас parallelEventsEventType
 
--   [« parallel\\Events\\Event](class.parallel-events-event.html)
+-   [« parallelEventsEvent](class.parallel-events-event.html)
     
--   [parallel\\Sync »](class.parallel-sync.html)
+-   [parallelSync »](class.parallel-sync.html)
     
 -   [PHP Manual](index.html)
     

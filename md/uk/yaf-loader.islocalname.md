@@ -1,12 +1,12 @@
 Призначення isLocalName
 
--   [« Yaf\_Loader::import](yaf-loader.import.html)
+-   [« YafLoader::import](yaf-loader.import.html)
     
--   [Yaf\_Loader::registerLocalNamespace »](yaf-loader.registerlocalnamespace.html)
+-   [YafLoader::registerLocalNamespace »](yaf-loader.registerlocalnamespace.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Призначення isLocalName
     

@@ -1,12 +1,12 @@
 Розширення
 
--   [« parallel\\Future::done](parallel-future.done.html)
+-   [« parallelFuture::done](parallel-future.done.html)
     
--   [parallel\\Channel »](class.parallel-channel.html)
+-   [parallelChannel »](class.parallel-channel.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Future](class.parallel-future.html)
+-   [parallelFuture](class.parallel-future.html)
     
 -   Розширення
     
@@ -31,7 +31,7 @@ public parallel\Future::value(): mixed
 
 **Увага**
 
-Викидає parallelFutureErrorKilled, якщо [parallel\\Runtime](class.parallel-runtime.html) виконання завдання було перервано.
+Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.html) виконання завдання було перервано.
 
 **Увага**
 

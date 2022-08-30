@@ -35,6 +35,6 @@ public ReflectionMethod::isConstructor(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::\_\_construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
 -   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.html) - Перевіряє, чи є метод абстрактним
 -   [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.html) - Перевіряє, чи є метод деструктором

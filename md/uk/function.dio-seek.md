@@ -1,12 +1,12 @@
 Перемістити вказівник у файловому дескрипторі
 
--   [« dio\_read](function.dio-read.html)
+-   [« dioread](function.dio-read.html)
     
--   [dio\_stat »](function.dio-stat.html)
+-   [diostat »](function.dio-stat.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Перемістити вказівник у файловому дескрипторі
     
@@ -29,7 +29,7 @@ dio_seek(resource $fd, int $pos, int $whence = SEEK_SET): int
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 `pos`
 

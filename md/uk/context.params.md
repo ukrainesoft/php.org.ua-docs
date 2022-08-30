@@ -1,6 +1,6 @@
 Список параметрів контексту
 
--   [« Контекстные опции Phar](context.phar.html)
+-   [« Контекстні опції Phar](context.phar.html)
     
 -   [Опции контекста Zip »](context.zip.html)
     
@@ -17,7 +17,7 @@
 
 ### Опис
 
-Ці параметри можуть бути задані для контексту за допомогою функції [stream\_context\_set\_params()](function.stream-context-set-params.html)
+Ці параметри можуть бути задані для контексту за допомогою функції [streamcontextsetparams()](function.stream-context-set-params.html)
 
 ### Список параметрів
 
@@ -25,4 +25,4 @@
 
 Функція типу [callable](language.types.callable.html), що викликається при настанні події у потоці.
 
-За подробицями звертайтесь до документації функції [stream\_notification\_callback](function.stream-notification-callback.html)
+За подробицями звертайтесь до документації функції [streamnotificationcallback](function.stream-notification-callback.html)

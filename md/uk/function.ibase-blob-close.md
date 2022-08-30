@@ -1,8 +1,8 @@
 Закриває BLOB-об'єкт
 
--   [« ibase\_blob\_cancel](function.ibase-blob-cancel.html)
+-   [« ibaseblobcancel](function.ibase-blob-cancel.html)
     
--   [ibase\_blob\_create »](function.ibase-blob-create.html)
+-   [ibaseblobcreate »](function.ibase-blob-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ ibaseblobclose — Закриває BLOB-об'єкт
 ibase_blob_close(resource $blob_handle): mixed
 ```
 
-Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibase\_blob\_open()](function.ibase-blob-open.html) або [ibase\_blob\_create()](function.ibase-blob-create.html)
+Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibaseblobopen()](function.ibase-blob-open.html) або [ibaseblobcreate()](function.ibase-blob-create.html)
 
 ### Список параметрів
 
 `blob_handle`
 
-BLOB-об'єкт, відкритий за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html) або [ibase\_blob\_open()](function.ibase-blob-open.html)
+BLOB-об'єкт, відкритий за допомогою [ibaseblobcreate()](function.ibase-blob-create.html) або [ibaseblobopen()](function.ibase-blob-open.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ BLOB-об'єкт, відкритий за допомогою [ibase\_blob\_creat
 
 ### Дивіться також
 
--   [ibase\_blob\_cancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibase\_blob\_open()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
+-   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
+-   [ibaseblobopen()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних

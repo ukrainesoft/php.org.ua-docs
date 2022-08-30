@@ -60,4 +60,4 @@ bool(true)
 ### Дивіться також
 
 -   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
--   [Абстрактные классы](language.oop5.abstract.html)
+-   [Абстрактні класи](language.oop5.abstract.html)

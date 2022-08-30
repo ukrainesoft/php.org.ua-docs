@@ -1,12 +1,12 @@
 Витягує перший елемент масиву
 
--   [« array\_search](function.array-search.html)
+-   [« arraysearch](function.array-search.html)
     
--   [array\_slice »](function.array-slice.html)
+-   [arrayslice »](function.array-slice.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Витягує перший елемент масиву
     
@@ -25,7 +25,7 @@ array_shift(array &$array): mixed
 
 **arrayshift()** здобуває перше значення масиву `array` і повертає його, скорочуючи розмір `array` на один елемент. Усі числові ключі будуть змінені таким чином, що нумерація масиву розпочнеться з нуля, тоді як рядкові ключі залишаться незмінними.
 
-> **Зауваження**: Ця функція під час виклику [сбрасывает](function.reset.html) вказівник масиву, переданого параметром.
+> **Зауваження**: Ця функція під час виклику [скидає](function.reset.html) вказівник масиву, переданого параметром.
 
 ### Список параметрів
 
@@ -64,6 +64,6 @@ Array
 
 ### Дивіться також
 
--   [array\_unshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
--   [array\_push()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
--   [array\_pop()](function.array-pop.html) - Витягує останній елемент масиву
+-   [arrayunshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
+-   [arraypush()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
+-   [arraypop()](function.array-pop.html) - Витягує останній елемент масиву

@@ -1,12 +1,12 @@
 Вибір API
 
--   [« Обзор терминологии](mysqlinfo.terminology.html)
+-   [« Огляд термінології](mysqlinfo.terminology.html)
     
 -   [Выбор библиотеки »](mysqlinfo.library.choosing.html)
     
 -   [PHP Manual](index.html)
     
--   [Обзор PHP драйверов MySQL](mysql.html)
+-   [Огляд PHP драйверів MySQL](mysql.html)
     
 -   Вибір API
     

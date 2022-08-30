@@ -1,12 +1,12 @@
 Запитує наступний набір результатів із процедури, що зберігається.
 
--   [« db2\_lob\_read](function.db2-lob-read.html)
+-   [« db2lobread](function.db2-lob-read.html)
     
--   [db2\_num\_fields »](function.db2-num-fields.html)
+-   [db2numfields »](function.db2-num-fields.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Запитує наступний набір результатів із процедури, що зберігається.
     
@@ -29,7 +29,7 @@ db2_next_result(resource $stmt): resource
 
 `stmt`
 
-Підготовлений оператор, який повертається функцією [db2\_exec()](function.db2-exec.html) або [db2\_execute()](function.db2-execute.html)
+Підготовлений оператор, який повертається функцією [db2exec()](function.db2-exec.html) або [db2execute()](function.db2-execute.html)
 
 ### Значення, що повертаються
 

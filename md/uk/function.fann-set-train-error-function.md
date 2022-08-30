@@ -1,8 +1,8 @@
 Встановлює функцію помилки під час тренування.
 
--   [« fann\_set\_scaling\_params](function.fann-set-scaling-params.html)
+-   [« fannsetscalingparams](function.fann-set-scaling-params.html)
     
--   [fann\_set\_train\_stop\_function »](function.fann-set-train-stop-function.html)
+-   [fannsettrainstopfunction »](function.fann-set-train-stop-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,4 +43,4 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 ### Дивіться також
 
--   [fann\_get\_train\_error\_function()](function.fann-get-train-error-function.html) - Повертає функцію обробки помилок, що використовується під час навчання
+-   [fanngettrainerrorfunction()](function.fann-get-train-error-function.html) - Повертає функцію обробки помилок, що використовується під час навчання

@@ -1,6 +1,6 @@
 Правила
 
--   [« Глобальное пространство имён](userlandnaming.globalnamespace.html)
+-   [« Глобальний простір імен](userlandnaming.globalnamespace.html)
     
 -   [Советы »](userlandnaming.tips.html)
     
@@ -21,9 +21,9 @@
     
 -   PHP додає префікс до глобальних імен, що належать до модуля з ім'ям цього модуля. У минулому було безліч винятків із цього правила, наприклад:
     
-    -   [curl\_close()](function.curl-close.html)
+    -   [curlclose()](function.curl-close.html)
         
-    -   [mysql\_query()](function.mysql-query.html)
+    -   [mysqlquery()](function.mysql-query.html)
         
     -   PREGSPLITДІЛИМОCAPTURE
         
@@ -41,6 +41,6 @@
         
 -   PHP резервує всі ідентифікатори, що починаються з `__` як магічні. Рекомендується не створювати ідентифікатори, що починаються з `__`крім як з метою використовувати документовану магічну функціональність. Приклади:
     
-    -   [\_\_get()](language.oop5.overloading.html#object.get)
+    -   [get()](language.oop5.overloading.html#object.get)
         
-    -   [\_\_autoload()](function.autoload.html)
+    -   [autoload()](function.autoload.html)

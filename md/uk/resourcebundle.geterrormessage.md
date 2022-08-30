@@ -73,6 +73,6 @@ if(intl_is_failure(ResourceBundle::getErrorCode($r))) {
 
 ### Дивіться також
 
--   [resourcebundle\_get\_error\_code()](resourcebundle.geterrorcode.html) - Отримати останній код помилки пакета
--   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [resourcebundlegeterrorcode()](resourcebundle.geterrorcode.html) - Отримати останній код помилки пакета
+-   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

@@ -17,18 +17,18 @@
 
 **Опції налаштування Yaf**
 
-| Имя                                                                       | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [yaf.library](yaf.configuration.html#ini.yaf.library)                     |              | PHPINIALL       |                  |
-| [yaf.action\_prefer](yaf.configuration.html#ini.yaf.action-prefer)        |              | PHPINIALL       |                  |
-| [yaf.lowcase\_path](yaf.configuration.html#ini.yaf.lowcase-path)          |              | PHPINIALL       |                  |
-| [yaf.use\_spl\_autoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |              | PHPINIALL       |                  |
-| [yaf.forward\_limit](yaf.configuration.html#ini.yaf.forward-limit)        |              | PHPINIALL       |                  |
-| [yaf.name\_suffix](yaf.configuration.html#ini.yaf.name-suffix)            |              | PHPINIALL       |                  |
-| [yaf.name\_separator](yaf.configuration.html#ini.yaf.name-separator)      |              | PHPINIALL       |                  |
-| [yaf.cache\_config](yaf.configuration.html#ini.yaf.cache-config)          |              | PHPINISYSTEM    |                  |
-| [yaf.environ](yaf.configuration.html#ini.yaf.environ)                     | product      | PHPINISYSTEM    |                  |
-| [yaf.use\_namespace](yaf.configuration.html#ini.yaf.use-namespace)        |              | PHPINISYSTEM    |                  |
+| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------------------------------|--------------|-----------------|------------------|
+| [yaf.library](yaf.configuration.html#ini.yaf.library)                 |              | PHPINIALL       |                  |
+| [yaf.actionprefer](yaf.configuration.html#ini.yaf.action-prefer)      |              | PHPINIALL       |                  |
+| [yaf.lowcasepath](yaf.configuration.html#ini.yaf.lowcase-path)        |              | PHPINIALL       |                  |
+| [yaf.usesplautoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |              | PHPINIALL       |                  |
+| [yaf.forwardlimit](yaf.configuration.html#ini.yaf.forward-limit)      |              | PHPINIALL       |                  |
+| [yaf.namesuffix](yaf.configuration.html#ini.yaf.name-suffix)          |              | PHPINIALL       |                  |
+| [yaf.nameseparator](yaf.configuration.html#ini.yaf.name-separator)    |              | PHPINIALL       |                  |
+| [yaf.cacheconfig](yaf.configuration.html#ini.yaf.cache-config)        |              | PHPINISYSTEM    |                  |
+| [yaf.environ](yaf.configuration.html#ini.yaf.environ)                 | product      | PHPINISYSTEM    |                  |
+| [yaf.usenamespace](yaf.configuration.html#ini.yaf.use-namespace)      |              | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -48,21 +48,21 @@
 
 `yaf.use_spl_autoload` int
 
-Якщо поставлено як On, то якщо [Yaf\_Loader](class.yaf-loader.html) не може знайти клас, він поверне **`false`**, тим самим надаючи можливість виклику іншої функції автозавантаження.
+Якщо поставлено як On, то якщо [YafLoader](class.yaf-loader.html) не може знайти клас, він поверне **`false`**, тим самим надаючи можливість виклику іншої функції автозавантаження.
 
-Якщо поставлено як Off, то якщо [Yaf\_Loader](class.yaf-loader.html) не знайде клас, він поверне **`true`** і перерве подальші дії з автозавантаження.
+Якщо поставлено як Off, то якщо [YafLoader](class.yaf-loader.html) не знайде клас, він поверне **`true`** і перерве подальші дії з автозавантаження.
 
 > **Зауваження**
 > 
-> Yaf реєструє завантажувач класів під час створення екземпляра класу [Yaf\_Application](class.yaf-application.html), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [Yaf\_Loader::autoload()](yaf-loader.autoload.html)
+> Yaf реєструє завантажувач класів під час створення екземпляра класу [YafApplication](class.yaf-application.html), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [YafLoader::autoload()](yaf-loader.autoload.html)
 
-Якщо встановлено як Off(за замовчуванням), [Yaf\_Loader::autoload()](yaf-loader.autoload.html) завжди повертатиме **`true`**
+Якщо встановлено як Off(за замовчуванням), [YafLoader::autoload()](yaf-loader.autoload.html) завжди повертатиме **`true`**
 
 `yaf.forward_limit` int
 
 Максимальна кількість перенаправлень, за замовчуванням 5. Це означає, що стек перенаправлень не може бути глибшим за 5.
 
-Це зроблено для запобігання рекурсії у [Yaf\_Controller\_Abstract::forward()](yaf-controller-abstract.forward.html)
+Це зроблено для запобігання рекурсії у [YafControllerAbstract::forward()](yaf-controller-abstract.forward.html)
 
 `yaf.name_suffix` int
 
@@ -92,7 +92,7 @@ Yaf використовує шлях до ini-файлу як ключ заке
 
 За замовчуванням одно "product" і використовується Yaf для отримання потрібної секції з ini-файлу.
 
-Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [Yaf\_Application](class.yaf-application.html)) як конфігурація [Yaf\_Application](class.yaf-application.html)
+Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [YafApplication](class.yaf-application.html)) як конфігурація [YafApplication](class.yaf-application.html)
 
 `yaf.use_namespace` int
 
@@ -105,7 +105,7 @@ Yaf_Route_Rewrite => \Yaf\Route\Rewrite
 Yaf_Request_Http  => \Yaf\Request\Http
 ```
 
-Є винятки для класів типу [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html). Останній компонент імені є ключовим словом PHP і не може використовуватися як ім'я класу, так що він виглядатиме так:
+Є винятки для класів типу [YafControllerAbstract](class.yaf-controller-abstract.html). Останній компонент імені є ключовим словом PHP і не може використовуватися як ім'я класу, так що він виглядатиме так:
 
 ```
 Yaf_Controller_Abstract => \Yaf\Controller_Abstract

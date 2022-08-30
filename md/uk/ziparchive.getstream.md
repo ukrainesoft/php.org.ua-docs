@@ -89,4 +89,4 @@ imagepng($im, 'a.png');
 
 -   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.html) - Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
 -   [ZipArchive::getStreamName()](ziparchive.getstreamname.html) - Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
--   [Сжатые потоки](wrappers.compression.html)
+-   [Стислі потоки](wrappers.compression.html)

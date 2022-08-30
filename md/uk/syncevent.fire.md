@@ -1,6 +1,6 @@
 Запускає/встановлює подію
 
--   [« SyncEvent::\_\_construct](syncevent.construct.html)
+-   [« SyncEvent::construct](syncevent.construct.html)
     
 -   [SyncEvent::reset »](syncevent.reset.html)
     

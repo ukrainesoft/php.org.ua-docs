@@ -1,12 +1,12 @@
 Отримати розмір файлу, створеного після застосування бінарного патча
 
--   [« xdiff\_file\_rabdiff](function.xdiff-file-rabdiff.html)
+-   [xdifffilerabdiff](function.xdiff-file-rabdiff.html)
     
--   [xdiff\_string\_bdiff »](function.xdiff-string-bdiff.html)
+-   [xdiffstringbdiff »](function.xdiff-string-bdiff.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Отримати розмір файлу, створеного після застосування бінарного патча
     
@@ -29,7 +29,7 @@ xdiff_string_bdiff_size(string $patch): int
 
 `patch`
 
-Бінарний патч, створений функціями [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html) або [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html)
+Бінарний патч, створений функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.html) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html)
 
 ### Значення, що повертаються
 
@@ -51,6 +51,6 @@ echo "Результирующий файл будет занимать $le
 
 ### Дивіться також
 
--   [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html) - Створити бінарний патч для двох рядків
--   [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
--   [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.html) - Застосування бінарного патча до рядка
+-   [xdiffstringbdiff()](function.xdiff-string-bdiff.html) - Створити бінарний патч для двох рядків
+-   [xdiffstringrabdiff()](function.xdiff-string-rabdiff.html) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
+-   [xdiffstringbpatch()](function.xdiff-string-bpatch.html) - Застосування бінарного патча до рядка

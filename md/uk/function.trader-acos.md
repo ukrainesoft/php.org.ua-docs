@@ -2,7 +2,7 @@
 
 -   [« Функции Trader](ref.trader.html)
     
--   [trader\_ad »](function.trader-ad.html)
+-   [traderad »](function.trader-ad.html)
     
 -   [PHP Manual](index.html)
     

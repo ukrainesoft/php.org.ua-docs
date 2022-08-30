@@ -1,8 +1,8 @@
 Клас YafExceptionStartupError
 
--   [« Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html)
+-   [« YafExceptionTypeError](class.yaf-exception-typeerror.html)
     
--   [Yaf\_Exception\_DispatchFailed »](class.yaf-exception-dispatchfailed.html)
+-   [YafExceptionDispatchFailed »](class.yaf-exception-dispatchfailed.html)
     
 -   [PHP Manual](index.html)
     

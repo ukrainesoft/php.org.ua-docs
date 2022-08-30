@@ -2,7 +2,7 @@
 
 -   [« Новая функциональность](migration70.new-features.html)
     
--   [Изменённые функции »](migration70.changed-functions.html)
+-   [Змінені функції »](migration70.changed-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ Deprecated: Methods with the same name as their class will not be constructors i
 
 ### Статичні виклики нестатичних методів
 
-[Статические](language.oop5.static.html) виклики методів, не визначених як **static**, оголошені застарілими та можуть бути в майбутньому заборонені.
+[Статичні](language.oop5.static.html) виклики методів, не визначених як **static**, оголошені застарілими та можуть бути в майбутньому заборонені.
 
 ```php
 <?php
@@ -56,16 +56,16 @@ Deprecated: Non-static method foo::bar() should not be called statically in - on
 Я не статический!
 ```
 
-### Опція salt функції [password\_hash()](function.password-hash.html)
+### Опція salt функції [passwordhash()](function.password-hash.html)
 
-Опція salt функції [password\_hash()](function.password-hash.html) була оголошена застарілою для запобігання використанню розробниками своїх власних salt (часто небезпечних). Функція самостійно генерує криптографічно безпечний salt, якщо він не заданий розробником, отже більше немає потреби в генераторах користувача salt.
+Опція salt функції [passwordhash()](function.password-hash.html) була оголошена застарілою для запобігання використанню розробниками своїх власних salt (часто небезпечних). Функція самостійно генерує криптографічно безпечний salt, якщо він не заданий розробником, отже більше немає потреби в генераторах користувача salt.
 
 ### Опція контексту SSL `capture_session_meta`
 
-Опція контексту SSL `capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [stream\_get\_meta\_data()](function.stream-get-meta-data.html)
+Опція контексту SSL `capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [streamgetmetadata()](function.stream-get-meta-data.html)
 
 ### Застарілі функції [LDAP](book.ldap.html)
 
 Наступні функції були оголошені застарілими:
 
--   [ldap\_sort()](function.ldap-sort.html)
+-   [ldapsort()](function.ldap-sort.html)

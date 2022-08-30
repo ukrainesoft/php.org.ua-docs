@@ -1,12 +1,12 @@
 Повертає затримку сервера у мілісекундах
 
--   [« MongoDB\\Driver\\Server::getInfo](mongodb-driver-server.getinfo.html)
+-   [« MongoDBDriverServer::getInfo](mongodb-driver-server.getinfo.html)
     
--   [MongoDB\\Driver\\Server::getPort »](mongodb-driver-server.getport.html)
+-   [MongoDBDriverServer::getPort »](mongodb-driver-server.getport.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Повертає затримку сервера у мілісекундах
     
@@ -35,13 +35,13 @@ final public MongoDB\Driver\Server::getLatency(): ?integer
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
-| Версия              | Описание                                                                                                                                                         |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.11.0 | Метод поверне **`null`**якщо затримка не була виміряна. У попередніх версіях завжди поверталося ціле число, а невстановлене значення могло відображатися як `-1` |
+| Версия              | Описание                                                                                                                                                             |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.11.0 | Метод поверне \*\*`null`\*\*якщо затримка не була виміряна. У попередніх версіях завжди поверталося ціле число, а невстановлене значення могло відображатися як `-1` |
 
 ### Приклади
 
@@ -68,6 +68,6 @@ int(592)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
--   [MongoDB\\Driver\\ServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.html) - Повертає час обходу сервера у мілісекундах
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.html) - Повертає час обходу сервера у мілісекундах
 -   [» Спецификация обнаружения и мониторинга сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

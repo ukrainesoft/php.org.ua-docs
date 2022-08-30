@@ -1,12 +1,12 @@
 З'єднання з базами даних Microsoft SQL Server та Sybase
 
--   [« MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html)
+-   [« MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
     
 -   [Firebird (PDO) »](ref.pdo-firebird.html)
     
 -   [PHP Manual](index.html)
     
--   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html)
+-   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
     
 -   З'єднання з базами даних Microsoft SQL Server та Sybase
     
@@ -23,7 +23,7 @@ PDODBLIB DSN — З'єднання з базами даних Microsoft SQL Serv
 
 Префікс DSN
 
-Використовуйте префікс DSN **`sybase:`** у випадку, якщо PDODBLIB зібраний із бібліотеками Sybase ct-lib, **`mssql:`**якщо PDODBLIB зібрано з бібліотеками Microsoft SQL Server, або **`dblib:`**якщо PDODBLIB зібраний із бібліотеками FreeTDS.
+Використовуйте префікс DSN **`sybase:`** у випадку, якщо PDODBLIB зібраний із бібліотеками Sybase ct-lib, \*\*`mssql:`\*\*якщо PDODBLIB зібрано з бібліотеками Microsoft SQL Server, або \*\*`dblib:`\*\*якщо PDODBLIB зібраний із бібліотеками FreeTDS.
 
 `host`
 

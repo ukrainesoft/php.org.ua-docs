@@ -1,12 +1,12 @@
 Набір символів MIME
 
--   [« mb\_parse\_str](function.mb-parse-str.html)
+-   [« mbparsestr](function.mb-parse-str.html)
     
--   [mb\_regex\_encoding »](function.mb-regex-encoding.html)
+-   [мбregexencoding »](function.mb-regex-encoding.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Набір символів MIME
     

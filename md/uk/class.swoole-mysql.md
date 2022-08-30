@@ -1,8 +1,8 @@
 Клас SwooleMySQL
 
--   [« Swoole\\Mmap::open](swoole-mmap.open.html)
+-   [« SwooleMmap::open](swoole-mmap.open.html)
     
--   [Swoole\\MySQL::close »](swoole-mysql.close.html)
+-   [SwooleMySQL::close »](swoole-mysql.close.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,10 +44,10 @@ public query(string $sql, callable $callback): ReturnType
 
 ## Зміст
 
--   [Swoole\\MySQL::close](swoole-mysql.close.html) — Закриває асинхронне з'єднання MySQL
--   [Swoole\\MySQL::connect](swoole-mysql.connect.html) — Підключається до віддаленого сервера MySQL
--   [Swoole\\MySQL::\_\_construct](swoole-mysql.construct.html) - Створює асинхронний клієнт MySQL
--   [Swoole\\MySQL::\_\_destruct](swoole-mysql.destruct.html) - Знищує асинхронний клієнт MySQL
--   [Swoole\\MySQL::getBuffer](swoole-mysql.getbuffer.html) - Опис
--   [Swoole\\MySQL::on](swoole-mysql.on.html) - Реєструє callback-функцію на основі імені події
--   [Swoole\\MySQL::query](swoole-mysql.query.html) — Виконує запит SQL
+-   [SwooleMySQL::close](swoole-mysql.close.html) — Закриває асинхронне з'єднання MySQL
+-   [SwooleMySQL::connect](swoole-mysql.connect.html) — Підключається до віддаленого сервера MySQL
+-   [SwooleMySQL::construct](swoole-mysql.construct.html) - Створює асинхронний клієнт MySQL
+-   [SwooleMySQL::destruct](swoole-mysql.destruct.html) - Знищує асинхронний клієнт MySQL
+-   [SwooleMySQL::getBuffer](swoole-mysql.getbuffer.html) - Опис
+-   [SwooleMySQL::on](swoole-mysql.on.html) - Реєструє callback-функцію на основі імені події
+-   [SwooleMySQL::query](swoole-mysql.query.html) — Виконує запит SQL

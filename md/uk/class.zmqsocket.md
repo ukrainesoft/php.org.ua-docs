@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Обмен сообщениями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   Клас ZMQSocket
     
@@ -55,7 +55,7 @@ public unbind(string $dsn): ZMQSocket
 
 -   [ZMQSocket::bind](zmqsocket.bind.html) - Прив'язка сокету
 -   [ZMQSocket::connect](zmqsocket.connect.html) — Підключення до сокету
--   [ZMQSocket::\_\_construct](zmqsocket.construct.html) - Конструктор класу ZMQSocket
+-   [ZMQSocket::construct](zmqsocket.construct.html) - Конструктор класу ZMQSocket
 -   [ZMQSocket::disconnect](zmqsocket.disconnect.html) - Вимкнути сокет
 -   [ZMQSocket::getEndpoints](zmqsocket.getendpoints.html) — Отримати список кінцевих точок
 -   [ZMQSocket::getPersistentId](zmqsocket.getpersistentid.html) - Отримати ідентифікатор постійного сокету

@@ -1,12 +1,12 @@
 Зміщення для вилучення
 
--   [« Swoole\\Connection\\Iterator::offsetExists](swoole-connection-iterator.offsetexists.html)
+-   [« SwooleConnectionIterator::offsetExists](swoole-connection-iterator.offsetexists.html)
     
--   [Swoole\\Connection\\Iterator::offsetSet »](swoole-connection-iterator.offsetset.html)
+-   [SwooleConnectionIterator::offsetSet »](swoole-connection-iterator.offsetset.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Зміщення для вилучення
     

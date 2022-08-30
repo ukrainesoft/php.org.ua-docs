@@ -1,8 +1,8 @@
 Перевіряє результат Extended Service
 
--   [« yaz\_error](function.yaz-error.html)
+-   [« yazerror](function.yaz-error.html)
     
--   [yaz\_es »](function.yaz-es.html)
+-   [yazes »](function.yaz-es.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ yazесresult — Перевіряє результат Extended Service
 yaz_es_result(resource $id): array
 ```
 
-Функція перевіряє останній повернутий сервером результат Extended Service. Extended Service ініціюється або за допомогою **yazitemorder()**, або за допомогою [yaz\_es()](function.yaz-es.html)
+Функція перевіряє останній повернутий сервером результат Extended Service. Extended Service ініціюється або за допомогою **yazitemorder()**, або за допомогою [yazes()](function.yaz-es.html)
 
 ### Список параметрів
 
 `id`
 
-Ідентифікатор підключення, що повертається [yaz\_connect()](function.yaz-connect.html)
+Ідентифікатор підключення, що повертається [yazconnect()](function.yaz-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ yaz_es_result(resource $id): array
 
 ### Дивіться також
 
--   [yaz\_es()](function.yaz-es.html) - готує Extended Service Request
+-   [yazes()](function.yaz-es.html) - готує Extended Service Request

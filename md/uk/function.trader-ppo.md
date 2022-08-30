@@ -1,8 +1,8 @@
 Відсотковий ціновий осцилятор
 
--   [« trader\_plus\_dm](function.trader-plus-dm.html)
+-   [« traderplusдм](function.trader-plus-dm.html)
     
--   [trader\_roc »](function.trader-roc.html)
+-   [traderroc »](function.trader-roc.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ trader_ppo(    array $real,    int $fastPeriod = ?,    int $slowPeri
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 ### Значення, що повертаються
 

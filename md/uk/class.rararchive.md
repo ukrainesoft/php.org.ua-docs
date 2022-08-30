@@ -1,6 +1,6 @@
 Клас RarArchive
 
--   [« rar\_wrapper\_cache\_stats](function.rar-wrapper-cache-stats.html)
+-   [« rarwrappercachestats](function.rar-wrapper-cache-stats.html)
     
 -   [RarArchive::close »](rararchive.close.html)
     
@@ -62,4 +62,4 @@ public __toString(): string
 -   [RarArchive::isSolid](rararchive.issolid.html) — Перевірити, чи є архів суцільним
 -   [RarArchive::open](rararchive.open.html) — Відкриває архів RAR
 -   [RarArchive::setAllowBroken](rararchive.setallowbroken.html) — Чи відкривати пошкоджені архіви
--   [RarArchive::\_\_toString](rararchive.tostring.html) — Отримати текстову виставу
+-   [RarArchive::toString](rararchive.tostring.html) — Отримати текстову виставу

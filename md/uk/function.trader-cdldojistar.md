@@ -1,8 +1,8 @@
 Дожі-зірка
 
--   [« trader\_cdldoji](function.trader-cdldoji.html)
+-   [« tradercdldoji](function.trader-cdldoji.html)
     
--   [trader\_cdldragonflydoji »](function.trader-cdldragonflydoji.html)
+-   [tradercdldragonflydoji »](function.trader-cdldragonflydoji.html)
     
 -   [PHP Manual](index.html)
     

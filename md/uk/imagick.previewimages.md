@@ -29,7 +29,7 @@ public Imagick::previewImages(int $preview): bool
 
 `preview`
 
-Тип попереднього перегляду. Дивіться [константы типа предварительного просмотра](imagick.constants.html#imagick.constants.preview)
+Тип попереднього перегляду. Дивіться [константи типу попереднього перегляду](imagick.constants.html#imagick.constants.preview)
 
 ### Значення, що повертаються
 

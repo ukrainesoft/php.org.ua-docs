@@ -1,8 +1,8 @@
 Прочитати структуру вказаної секції тіла заданого повідомлення
 
--   [« imap\_body](function.imap-body.html)
+-   [« imapbody](function.imap-body.html)
     
--   [imap\_check »](function.imap-check.html)
+-   [imapcheck »](function.imap-check.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_bodystruct(IMAP\Connection $imap, int $message_num, string $section): stdCl
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -41,14 +41,14 @@ imap_bodystruct(IMAP\Connection $imap, int $message_num, string $section): stdCl
 
 ### Значення, що повертаються
 
-Повертає інформацію у вигляді об'єкта або **`false`** у разі виникнення помилки. Опис структури та властивостей об'єкта читайте у розділі, присвяченому функції [imap\_fetchstructure()](function.imap-fetchstructure.html)
+Повертає інформацію у вигляді об'єкта або **`false`** у разі виникнення помилки. Опис структури та властивостей об'єкта читайте у розділі, присвяченому функції [imapfetchstructure()](function.imap-fetchstructure.html)
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_fetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення
+-   [imapfetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення

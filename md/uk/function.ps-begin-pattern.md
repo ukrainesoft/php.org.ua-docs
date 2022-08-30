@@ -1,12 +1,12 @@
 Починає новий візерунок
 
--   [« ps\_begin\_page](function.ps-begin-page.html)
+-   [«psbeginpage](function.ps-begin-page.html)
     
--   [ps\_begin\_template »](function.ps-begin-template.html)
+-   [псbegintemplate »](function.ps-begin-template.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Починає новий візерунок
     
@@ -23,13 +23,13 @@
 ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    float $xstep,    float $ystep,    int $painttype): int|false
 ```
 
-Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [ps\_setcolor()](function.ps-setcolor.html) і встановлюючи колірний простір у `pattern`
+Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [псsetcolor()](function.ps-setcolor.html) і встановлюючи колірний простір у `pattern`
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `width`
 
@@ -98,6 +98,6 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [ps\_end\_pattern()](function.ps-end-pattern.html) - Завершує шаблон
--   [ps\_setcolor()](function.ps-setcolor.html) - Встановлює поточний колір
--   [ps\_shading\_pattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
+-   [псendpattern()](function.ps-end-pattern.html) - Завершує шаблон
+-   [псsetcolor()](function.ps-setcolor.html) - Встановлює поточний колір
+-   [псshadingpattern()](function.ps-shading-pattern.html) - Створює візерунок на основі затінення

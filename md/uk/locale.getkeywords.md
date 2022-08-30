@@ -45,7 +45,7 @@ locale_get_keywords(string $locale): array|false|null
 
 Асоціативний масив (array) з парами ключ-значення для заданої локалі
 
-Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
@@ -84,4 +84,4 @@ currency = EUR
 
 ### Дивіться також
 
--   [locale\_get\_all\_variants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі

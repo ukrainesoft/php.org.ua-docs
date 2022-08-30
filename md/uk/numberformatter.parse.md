@@ -90,6 +90,6 @@ echo $fmt->parse($num, NumberFormatter::TYPE_INT32)."\n";
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_format()](numberformatter.format.html) - Форматує число
--   [numfmt\_parse\_currency()](numberformatter.parsecurrency.html) - Розбирає номер валюти
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtformat()](numberformatter.format.html) - Форматує число
+-   [numfmtparsecurrency()](numberformatter.parsecurrency.html) - Розбирає номер валюти

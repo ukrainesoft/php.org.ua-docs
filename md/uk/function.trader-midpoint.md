@@ -1,8 +1,8 @@
 Середина відрізка за період
 
--   [« trader\_mfi](function.trader-mfi.html)
+-   [« tradermfi](function.trader-mfi.html)
     
--   [trader\_midprice »](function.trader-midprice.html)
+-   [tradermidprice »](function.trader-midprice.html)
     
 -   [PHP Manual](index.html)
     

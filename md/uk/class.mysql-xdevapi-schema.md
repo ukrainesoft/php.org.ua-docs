@@ -2,11 +2,11 @@
 
 -   [« RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.html)
     
--   [Schema::\_\_construct »](mysql-xdevapi-schema.construct.html)
+-   [Schema::construct »](mysql-xdevapi-schema.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Schema
     
@@ -60,7 +60,7 @@ name
 
 ## Зміст
 
--   [Schema::\_\_construct](mysql-xdevapi-schema.construct.html) - Конструктор
+-   [Schema::construct](mysql-xdevapi-schema.construct.html) - Конструктор
 -   [Schema::createCollection](mysql-xdevapi-schema.createcollection.html) — Додати колекцію до схеми
 -   [Schema::dropCollection](mysql-xdevapi-schema.dropcollection.html) — Видалити колекції зі схеми
 -   [Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.html) — Перевірити, чи існує у базі даних

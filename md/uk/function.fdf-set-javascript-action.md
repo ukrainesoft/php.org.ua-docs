@@ -1,8 +1,8 @@
 Встановлює дію JavaScript для поля
 
--   [« fdf\_set\_flags](function.fdf-set-flags.html)
+-   [« fdfsetflags](function.fdf-set-flags.html)
     
--   [fdf\_set\_on\_import\_javascript »](function.fdf-set-on-import-javascript.html)
+-   [fdfsetвінimportjavascript »](function.fdf-set-on-import-javascript.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_javascript_action(    resource $fdf_document,    string $fieldna
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 
@@ -45,4 +45,4 @@ fdf_set_javascript_action(    resource $fdf_document,    string $fieldna
 
 ### Дивіться також
 
--   [fdf\_set\_submit\_form\_action()](function.fdf-set-submit-form-action.html) - Встановлює дію форми надсилання поля
+-   [fdfsetsubmitformaction()](function.fdf-set-submit-form-action.html) - Встановлює дію форми надсилання поля

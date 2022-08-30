@@ -23,7 +23,7 @@ public **RecursiveTreeIterator::construct**
 [RecursiveIterator](class.recursiveiterator.html)[IteratorAggregate](class.iteratoraggregate.html) `$iterator`  
 int `$flags` = RecursiveTreeIterator::BYPASSKEY,  
 int `$cachingIteratorFlags` = CachingIterator::CATCHGETCHILD,  
-int `$mode` = RecursiveTreeIterator::SELFFIRST  
+int `$mode` = RecursiveTreeIterator::SELFFIRST
 
 Створює новий об'єкт класу [RecursiveTreeIterator](class.recursivetreeiterator.html) на основі рекурсивного об'єкта-ітератора.
 

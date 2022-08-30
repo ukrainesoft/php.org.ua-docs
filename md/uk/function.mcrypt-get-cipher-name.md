@@ -1,8 +1,8 @@
 Отримує ім'я вказаного шифру
 
--   [« mcrypt\_get\_block\_size](function.mcrypt-get-block-size.html)
+-   [« mcryptgetblocksize](function.mcrypt-get-block-size.html)
     
--   [mcrypt\_get\_iv\_size »](function.mcrypt-get-iv-size.html)
+-   [mcryptgetвербsize »](function.mcrypt-get-iv-size.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ mcrypt_get_cipher_name(string $cipher): string
 
 Функція **mcryptgetciphername()** використовується для отримання вказаного шифру.
 
-**mcryptgetciphername()** бере номер шифру як аргумент (libmcrypt 2.2.x) або ім'я шифру (libmcrypt 2.4.x або вище) і повертає ім'я шифру або **`false`**якщо шифр відсутній.
+**mcryptgetciphername()** бере номер шифру як аргумент (libmcrypt 2.2.x) або ім'я шифру (libmcrypt 2.4.x або вище) і повертає ім'я шифру або \*\*`false`\*\*якщо шифр відсутній.
 
 ### Список параметрів
 
@@ -43,7 +43,7 @@ mcrypt_get_cipher_name(string $cipher): string
 
 ### Значення, що повертаються
 
-Функція повертає ім'я шифру або **`false`**якщо такого шифру немає.
+Функція повертає ім'я шифру або \*\*`false`\*\*якщо такого шифру немає.
 
 ### Приклади
 

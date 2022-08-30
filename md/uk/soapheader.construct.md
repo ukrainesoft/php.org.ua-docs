@@ -24,7 +24,7 @@ string `$namespace`
 string `$name`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
 bool `$mustunderstand`  
-string `$actor`  
+string `$actor`
 
 Створює новий об'єкт SoapHeader.
 
@@ -67,7 +67,7 @@ $client->__soapCall("echoVoid", null, null,
 
 ### Дивіться також
 
--   [SoapClient::\_\_soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
+-   [SoapClient::soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
 -   **SoapVar::SoapVar()**
 -   **SoapParam::SoapParam()**
 -   [SoapServer::addSoapHeader()](soapserver.addsoapheader.html) - Додати заголовок SOAP у відповідь

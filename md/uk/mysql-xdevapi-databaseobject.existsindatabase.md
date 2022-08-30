@@ -1,12 +1,12 @@
 Перевіряє, чи існує об'єкт у базі даних
 
--   [« mysql\_xdevapi\\DatabaseObject](class.mysql-xdevapi-databaseobject.html)
+-   [« mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
     
 -   [DatabaseObject::getName »](mysql-xdevapi-databaseobject.getname.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\DatabaseObject](class.mysql-xdevapi-databaseobject.html)
+-   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
     
 -   Перевіряє, чи існує об'єкт у базі даних
     
@@ -31,7 +31,7 @@ abstract public mysql_xdevapi\DatabaseObject::existsInDatabase(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо об'єкт існує в базі даних, інакше **`false`**, якщо це не так.
+Повертає \*\*`true`\*\*якщо об'єкт існує в базі даних, інакше **`false`**, якщо це не так.
 
 ### Приклади
 

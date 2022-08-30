@@ -1,12 +1,12 @@
 Отримує доступні ідентифікатори алгоритму хешування пароля
 
--   [« Функции хеширования паролей](ref.password.html)
+-   [« Функції хешування паролів](ref.password.html)
     
--   [password\_get\_info »](function.password-get-info.html)
+-   [passwordgetinfo »](function.password-get-info.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции хеширования паролей](ref.password.html)
+-   [Функції хешування паролів](ref.password.html)
     
 -   Отримує доступні ідентифікатори алгоритму хешування пароля
     

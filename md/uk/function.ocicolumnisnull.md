@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnisnull - Псевдонім [oci\_field\_is\_null()](function.oci-field-is-null.html)
+ocicolumnisnull - Псевдонім [ocifieldісnull()](function.oci-field-is-null.html)
 
 ### Опис
 
-Псевдонім [oci\_field\_is\_null()](function.oci-field-is-null.html)
+Псевдонім [ocifieldісnull()](function.oci-field-is-null.html)
 
 **Увага**
 

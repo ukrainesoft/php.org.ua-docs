@@ -1,12 +1,12 @@
 Зменшує колекцію до одного значення, використовуючи callback-функцію
 
--   [« Ds\\Deque::push](ds-deque.push.html)
+-   [« DsDeque::push](ds-deque.push.html)
     
--   [Ds\\Deque::remove »](ds-deque.remove.html)
+-   [ДсDeque::remove »](ds-deque.remove.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Зменшує колекцію до одного значення, використовуючи callback-функцію
     

@@ -1,12 +1,12 @@
 Календар
 
--   [« Модули для работы с датой и временем](refs.calendar.html)
+-   [« Модулі для роботи з датою та часом](refs.calendar.html)
     
 -   [Введение »](intro.calendar.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с датой и временем](refs.calendar.html)
+-   [Модулі для роботи з датою та часом](refs.calendar.html)
     
 -   Календар
     
@@ -21,12 +21,12 @@
     -   [Типы ресурсов](calendar.resources.html)
 -   [Предопределённые константы](calendar.constants.html)
 -   [Календарь](ref.calendar.html)
-    -   [cal\_days\_in\_month](function.cal-days-in-month.html) — Повертає кількість днів на місяць для заданого року та календаря
-    -   [cal\_from\_jd](function.cal-from-jd.html) — Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
-    -   [cal\_info](function.cal-info.html) — Повертає інформацію про заданий календар
-    -   [cal\_to\_jd](function.cal-to-jd.html) — Перетворює задану дату на юліанську
-    -   [easter\_date](function.easter-date.html) — Отримати мітку часу Unix, що відповідає півночі на Великдень у цьому році
-    -   [easter\_days](function.easter-days.html) — Отримати кількість днів між 21 березня та Великоднем у заданому році
+    -   [caldaysінmonth](function.cal-days-in-month.html) — Повертає кількість днів на місяць для заданого року та календаря
+    -   [calfromжд](function.cal-from-jd.html) — Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+    -   [calinfo](function.cal-info.html) — Повертає інформацію про заданий календар
+    -   [calтожд](function.cal-to-jd.html) — Перетворює задану дату на юліанську
+    -   [easterdate](function.easter-date.html) — Отримати мітку часу Unix, що відповідає півночі на Великдень у цьому році
+    -   [easterdays](function.easter-days.html) — Отримати кількість днів між 21 березня та Великоднем у заданому році
     -   [frenchtojd](function.frenchtojd.html) — Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
     -   [gregoriantojd](function.gregoriantojd.html) — Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
     -   [jddayofweek](function.jddayofweek.html) — Повертає день тижня

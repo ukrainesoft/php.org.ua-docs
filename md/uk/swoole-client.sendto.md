@@ -1,12 +1,12 @@
 Надсилає дані на віддалену UDP-адресу
 
--   [« Swoole\\Client::sendfile](swoole-client.sendfile.html)
+-   [« SwooleClient::sendfile](swoole-client.sendfile.html)
     
--   [Swoole\\Client::set »](swoole-client.set.html)
+-   [SwooleClient::set »](swoole-client.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Надсилає дані на віддалену UDP-адресу
     

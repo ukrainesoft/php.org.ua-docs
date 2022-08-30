@@ -1,12 +1,12 @@
 Повертає масив усіх підтримуваних кодувань
 
--   [« mb\_language](function.mb-language.html)
+-   [« mblanguage](function.mb-language.html)
     
--   [mb\_ord »](function.mb-ord.html)
+-   [мбord »](function.mb-ord.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Повертає масив усіх підтримуваних кодувань
     
@@ -119,4 +119,4 @@ Array
 
 ### Дивіться також
 
--   [mb\_encoding\_aliases()](function.mb-encoding-aliases.html) - Отримує псевдоніми відомого типу кодування
+-   [мбencodingaliases()](function.mb-encoding-aliases.html) - Отримує псевдоніми відомого типу кодування

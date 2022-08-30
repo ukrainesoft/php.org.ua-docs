@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас ParentIterator
     
@@ -73,7 +73,7 @@ public IteratorIterator::valid(): bool
 ## Зміст
 
 -   [ParentIterator::accept](parentiterator.accept.html) — Визначення доступності
--   [ParentIterator::\_\_construct](parentiterator.construct.html) - Конструктор класу ParentIterator
+-   [ParentIterator::construct](parentiterator.construct.html) - Конструктор класу ParentIterator
 -   [ParentIterator::getChildren](parentiterator.getchildren.html) — Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
 -   [ParentIterator::hasChildren](parentiterator.haschildren.html) — Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
 -   [ParentIterator::next](parentiterator.next.html) — Переміщує вказівник на одну позицію вперед

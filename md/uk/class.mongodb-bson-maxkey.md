@@ -1,12 +1,12 @@
 Клас MongoDBBSONMaxKey
 
--   [« MongoDB\\BSON\\Javascript::unserialize](mongodb-bson-javascript.unserialize.html)
+-   [« MongoDBBSONJavascript::unserialize](mongodb-bson-javascript.unserialize.html)
     
--   [MongoDB\\BSON\\MaxKey::\_\_construct »](mongodb-bson-maxkey.construct.html)
+-   [MongoDBBSONMaxKey::construct »](mongodb-bson-maxkey.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONMaxKey
     
@@ -51,12 +51,12 @@ final public unserialize(string $serialized): void
 
 | Версия             | Описание                                                                                                      |
 |--------------------|---------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\\BSON\\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.html)                  |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.html)                      |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 
--   [MongoDB\\BSON\\MaxKey::\_\_construct](mongodb-bson-maxkey.construct.html) - Конструктор MaxKey
--   [MongoDB\\BSON\\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\MaxKey::serialize](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
--   [MongoDB\\BSON\\MaxKey::unserialize](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
+-   [MongoDBBSONMaxKey::construct](mongodb-bson-maxkey.construct.html) - Конструктор MaxKey
+-   [MongoDBBSONMaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONMaxKey::serialize](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
+-   [MongoDBBSONMaxKey::unserialize](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey

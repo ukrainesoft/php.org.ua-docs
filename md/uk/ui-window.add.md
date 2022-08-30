@@ -1,12 +1,12 @@
 Додати елемент керування
 
--   [« UI\\Window](class.ui-window.html)
+-   [« UIWindow](class.ui-window.html)
     
--   [UI\\Window::\_\_construct »](ui-window.construct.html)
+-   [ОЙWindow::construct »](ui-window.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Додати елемент керування
     

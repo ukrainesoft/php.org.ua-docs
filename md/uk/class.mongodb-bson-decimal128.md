@@ -1,12 +1,12 @@
 Клас MongoDBBSONDecimal128
 
--   [« MongoDB\\BSON\\Binary::unserialize](mongodb-bson-binary.unserialize.html)
+-   [« MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.html)
     
--   [MongoDB\\BSON\\Decimal128::\_\_construct »](mongodb-bson-decimal128.construct.html)
+-   [MongoDBBSONDecimal128::construct »](mongodb-bson-decimal128.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONDecimal128
     
@@ -55,13 +55,13 @@ final public unserialize(string $serialized): void
 | Версия              | Описание                                                                                                      |
 |---------------------|---------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+.                                          |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDB\\BSON\\Decimal128Interface](class.mongodb-bson-decimal128interface.html)          |
+| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.html)              |
 | PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 
--   [MongoDB\\BSON\\Decimal128::\_\_construct](mongodb-bson-decimal128.construct.html) - Створює новий Decimal128
--   [MongoDB\\BSON\\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\Decimal128::serialize](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
--   [MongoDB\\BSON\\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.html) — Повертає рядкову виставу Decimal128
--   [MongoDB\\BSON\\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128
+-   [MongoDBBSONDecimal128::construct](mongodb-bson-decimal128.construct.html) - Створює новий Decimal128
+-   [MongoDBBSONDecimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONDecimal128::serialize](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
+-   [MongoDBBSONDecimal128::toString](mongodb-bson-decimal128.tostring.html) — Повертає рядкову виставу Decimal128
+-   [MongoDBBSONDecimal128::unserialize](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128

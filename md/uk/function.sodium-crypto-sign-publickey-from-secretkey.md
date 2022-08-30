@@ -1,8 +1,8 @@
 Витягує відкритий ключ Ed25519 із секретного ключа
 
--   [« sodium\_crypto\_sign\_open](function.sodium-crypto-sign-open.html)
+-   [« sodiumcryptosignopen](function.sodium-crypto-sign-open.html)
     
--   [sodium\_crypto\_sign\_publickey »](function.sodium-crypto-sign-publickey.html)
+-   [sodiumcryptosignpublickey »](function.sodium-crypto-sign-publickey.html)
     
 -   [PHP Manual](index.html)
     

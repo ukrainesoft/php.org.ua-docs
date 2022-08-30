@@ -1,12 +1,12 @@
 Встановлює площинність
 
--   [« ps\_setdash](function.ps-setdash.html)
+-   [«pssetdash](function.ps-setdash.html)
     
--   [ps\_setfont »](function.ps-setfont.html)
+-   [псsetfont »](function.ps-setfont.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює площинність
     
@@ -31,7 +31,7 @@ ps_setflat(resource $psdoc, float $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `value`
 

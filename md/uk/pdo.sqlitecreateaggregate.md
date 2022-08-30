@@ -1,6 +1,6 @@
 Реєстрація агрегуючої функції користувача для використання в SQL-запитах
 
--   [« PDO\_SQLITE DSN](ref.pdo-sqlite.connection.html)
+-   [« PDOSQLITE DSN](ref.pdo-sqlite.connection.html)
     
 -   [PDO::sqliteCreateCollation »](pdo.sqlitecreatecollation.html)
     

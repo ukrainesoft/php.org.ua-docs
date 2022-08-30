@@ -2,11 +2,11 @@
 
 -   [« RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.html)
     
--   [RecursiveFilterIterator::\_\_construct »](recursivefilteriterator.construct.html)
+-   [RecursiveFilterIterator::construct »](recursivefilteriterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас RecursiveFilterIterator
     
@@ -69,6 +69,6 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveFilterIterator::\_\_construct](recursivefilteriterator.construct.html) — Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
+-   [RecursiveFilterIterator::construct](recursivefilteriterator.construct.html) — Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
 -   [RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.html) — Повертає дочірні елементи внутрішнього ітератора як об'єкт RecursiveFilterIterator
 -   [RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.html) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи.

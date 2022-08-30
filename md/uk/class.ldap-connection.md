@@ -1,8 +1,8 @@
 Клас LDAPConnection
 
--   [« ldap\_unbind](function.ldap-unbind.html)
+-   [« ldapunbind](function.ldap-unbind.html)
     
--   [LDAP\\Result »](class.ldap-result.html)
+-   [LDAPResult »](class.ldap-result.html)
     
 -   [PHP Manual](index.html)
     

@@ -58,7 +58,7 @@ public registerCallback(string $name, callable $function): mixed
 
 -   [Lua::assign](lua.assign.html) - Присвоїти PHP-змінної Lua
 -   [Lua::call](lua.call.html) — Викликати функції Lua
--   [Lua::\_\_construct](lua.construct.html) - Конструктор Lua
+-   [Lua::construct](lua.construct.html) - Конструктор Lua
 -   [Lua::eval](lua.eval.html) - Розбирає рядок як код Lua
 -   [Lua::getVersion](lua.getversion.html) — Повертає версію
 -   [Lua::include](lua.include.html) — Розбирає файл, що містить скрипт Lua

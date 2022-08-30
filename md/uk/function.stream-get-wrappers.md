@@ -1,12 +1,12 @@
 Отримати список зареєстрованих потоків
 
--   [« stream\_get\_transports](function.stream-get-transports.html)
+-   [« streamgettransports](function.stream-get-transports.html)
     
--   [stream\_is\_local »](function.stream-is-local.html)
+-   [streamісlocal »](function.stream-is-local.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримати список зареєстрованих потоків
     
@@ -72,4 +72,4 @@ if (in_array('compress.bzip2', stream_get_wrappers())) {
 
 ### Дивіться також
 
--   [stream\_wrapper\_register()](function.stream-wrapper-register.html) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
+-   [streamwrapperregister()](function.stream-wrapper-register.html) - реєструє обгортку URL, реалізовану у вигляді PHP-класу

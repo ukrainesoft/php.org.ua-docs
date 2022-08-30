@@ -1,12 +1,12 @@
 Отримує параметри з контексту
 
--   [« stream\_context\_get\_options](function.stream-context-get-options.html)
+-   [« streamcontextgetoptions](function.stream-context-get-options.html)
     
--   [stream\_context\_set\_default »](function.stream-context-set-default.html)
+-   [streamcontextsetdefault »](function.stream-context-set-default.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримує параметри з контексту
     
@@ -65,5 +65,5 @@ array(2) {
 
 ### Дивіться також
 
--   [stream\_context\_set\_option()](function.stream-context-set-option.html) - Встановлює опцію для потоку/обгортки/контексту
--   [stream\_context\_set\_params()](function.stream-context-set-params.html) - Встановлює параметри потоку/обгортки/контексту
+-   [streamcontextsetoption()](function.stream-context-set-option.html) - Встановлює опцію для потоку/обгортки/контексту
+-   [streamcontextsetparams()](function.stream-context-set-params.html) - Встановлює параметри потоку/обгортки/контексту

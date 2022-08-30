@@ -1,12 +1,12 @@
 Створює або відкриває сегмент пам'яті, що розділяється
 
--   [« sem\_remove](function.sem-remove.html)
+-   [« semremove](function.sem-remove.html)
     
--   [shm\_detach »](function.shm-detach.html)
+-   [shmdetach »](function.shm-detach.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Створює або відкриває сегмент пам'яті, що розділяється
     
@@ -54,5 +54,5 @@ shm_attach(int $key, ?int $size = null, int $permissions = 0666): SysvSharedMemo
 
 ### Дивіться також
 
--   [shm\_detach()](function.shm-detach.html) - Вимикається від сегмента пам'яті, що розділяється
+-   [shmdetach()](function.shm-detach.html) - Вимикається від сегмента пам'яті, що розділяється
 -   [ftok()](function.ftok.html) - Перетворення шляху та ідентифікатора проекту на ключ System V IPC

@@ -1,12 +1,12 @@
 Надсилає сигнал дочірньому процесу
 
--   [« Swoole\\Process::freeQueue](swoole-process.freequeue.html)
+-   [« SwooleProcess::freeQueue](swoole-process.freequeue.html)
     
--   [Swoole\\Process::name »](swoole-process.name.html)
+-   [SwooleProcess::name »](swoole-process.name.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Надсилає сигнал дочірньому процесу
     

@@ -1,8 +1,8 @@
 Визволяє ресурс словника
 
--   [« enchant\_broker\_dict\_exists](function.enchant-broker-dict-exists.html)
+-   [« enchantbrokerdictexists](function.enchant-broker-dict-exists.html)
     
--   [enchant\_broker\_free »](function.enchant-broker-free.html)
+-   [enchantbrokerfree »](function.enchant-broker-free.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 ### Значення, що повертаються
 
@@ -47,5 +47,5 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 ### Дивіться також
 
--   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
--   [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
+-   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL

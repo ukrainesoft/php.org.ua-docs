@@ -1,12 +1,12 @@
 Mhash
 
--   [« mdecrypt\_generic](function.mdecrypt-generic.html)
+-   [« mdecryptgeneric](function.mdecrypt-generic.html)
     
 -   [Введение »](intro.mhash.html)
     
 -   [PHP Manual](index.html)
     
--   [Криптографические модули](refs.crypto.html)
+-   [Криптографічні модулі](refs.crypto.html)
     
 -   Mhash
     
@@ -22,8 +22,8 @@ Mhash
 -   [Предопределённые константы](mhash.constants.html)
 -   [Примеры](mhash.examples.html)
 -   [Функции Mhash](ref.mhash.html)
-    -   [mhash\_count](function.mhash-count.html) — Отримати найбільш доступний ідентифікатор хешу
-    -   [mhash\_get\_block\_size](function.mhash-get-block-size.html) — Отримати розмір блоку для заданого хеша
-    -   [mhash\_get\_hash\_name](function.mhash-get-hash-name.html) — Отримати ім'я вказаного хеша
-    -   [mhash\_keygen\_s2k](function.mhash-keygen-s2k.html) - Генерація ключа
+    -   [mhashcount](function.mhash-count.html) — Отримати найбільш доступний ідентифікатор хешу
+    -   [mhashgetblocksize](function.mhash-get-block-size.html) — Отримати розмір блоку для заданого хеша
+    -   [mhashgethashname](function.mhash-get-hash-name.html) — Отримати ім'я вказаного хеша
+    -   [mhashkeygens2k](function.mhash-keygen-s2k.html) - Генерація ключа
     -   [mhash](function.mhash.html) - Обчислює хеш

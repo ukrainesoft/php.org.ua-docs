@@ -1,12 +1,12 @@
 Зміна доступності
 
--   [« Componere\\Method::\_\_construct](componere-method.construct.html)
+-   [« ComponereMethod::construct](componere-method.construct.html)
     
--   [Componere\\Method::setProtected »](componere-method.setprotected.html)
+-   [ComponereMethod::setProtected »](componere-method.setprotected.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Method](class.componere-method.html)
+-   [ComponereMethod](class.componere-method.html)
     
 -   Зміна доступності
     

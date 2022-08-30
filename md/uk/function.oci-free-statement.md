@@ -1,8 +1,8 @@
 Звільняє ресурси, які займає курсор або SQL-вираз.
 
--   [« oci\_free\_descriptor](function.oci-free-descriptor.html)
+-   [« ocifreedescriptor](function.oci-free-descriptor.html)
     
--   [oci\_get\_implicit\_resultset »](function.oci-get-implicit-resultset.html)
+-   [ocigetimplicitresultset »](function.oci-get-implicit-resultset.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ ocifreestatement — Звільняє ресурси, які займає кур
 oci_free_statement(resource $statement): bool
 ```
 
-Звільняє всі ресурси, що займаються курсором або SQL-виразом, яке повернуто функцією [oci\_parse()](function.oci-parse.html) або отримано від сервера Oracle.
+Звільняє всі ресурси, що займаються курсором або SQL-виразом, яке повернуто функцією [ociparse()](function.oci-parse.html) або отримано від сервера Oracle.
 
 ### Список параметрів
 

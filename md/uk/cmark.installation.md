@@ -2,7 +2,7 @@
 
 -   [« Требования](cmark.requirements.html)
     
--   [CommonMark\\Node\\Document »](class.commonmark-node-document.html)
+-   [CommonMarkNodeDocument »](class.commonmark-node-document.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Генерує два початкові числа для генератора випадкових чисел RGN
 
--   [« stats\_rand\_get\_seeds](function.stats-rand-get-seeds.html)
+-   [« statsrandgetseeds](function.stats-rand-get-seeds.html)
     
--   [stats\_rand\_ranf »](function.stats-rand-ranf.html)
+-   [statsrandranf »](function.stats-rand-ranf.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує два початкові числа для генератора випадкових чисел RGN
     

@@ -1,12 +1,12 @@
 Виконання PHP-файлів
 
--   [« Опции](features.commandline.options.html)
+-   [« Опції](features.commandline.options.html)
     
 -   [Потоки ввода/вывода »](features.commandline.io-streams.html)
     
 -   [PHP Manual](index.html)
     
--   [Использование PHP в командной строке](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.html)
     
 -   Виконання PHP-файлів
     
@@ -141,7 +141,7 @@ if ($argc != 2 || in_array($argv[1], array('--help', '-help', '-h', '-?
 
 Також можна ознайомитись із модулем [Readline](ref.readline.html) для отримання додаткових функцій, які можна використовувати для покращення консольного PHP-скрипту.
 
-У Windows запуск PHP можна налаштувати без необхідності вказувати C:phpphp.exe або розширення `.php`. Докладніше цю тему описано в розділі [Запуск PHP из командной строки в Microsoft Windows](install.windows.commandline.html)
+У Windows запуск PHP можна налаштувати без необхідності вказувати C:phpphp.exe або розширення `.php`. Докладніше цю тему описано в розділі [Запуск PHP з командного рядка у Microsoft Windows](install.windows.commandline.html)
 
 > **Зауваження**
 > 

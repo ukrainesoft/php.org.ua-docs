@@ -1,12 +1,12 @@
 Повертає відсортовану за значенням копію колекції
 
--   [« Ds\\Sequence::sort](ds-sequence.sort.html)
+-   [« DsSequence::sort](ds-sequence.sort.html)
     
--   [Ds\\Sequence::sum »](ds-sequence.sum.html)
+-   [ДсSequence::sum »](ds-sequence.sum.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає відсортовану за значенням копію колекції
     

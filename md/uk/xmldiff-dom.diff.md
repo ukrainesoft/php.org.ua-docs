@@ -1,12 +1,12 @@
 Пошук відмінностей у двох об'єктах DOMDocument
 
--   [« XMLDiff\\DOM](class.xmldiff-dom.html)
+-   [« XMLDiffDOM](class.xmldiff-dom.html)
     
--   [XMLDiff\\DOM::merge »](xmldiff-dom.merge.html)
+-   [XMLDiffDOM::merge »](xmldiff-dom.merge.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\DOM](class.xmldiff-dom.html)
+-   [XMLDiffDOM](class.xmldiff-dom.html)
     
 -   Пошук відмінностей у двох об'єктах DOMDocument
     

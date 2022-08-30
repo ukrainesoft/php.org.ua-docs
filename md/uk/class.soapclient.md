@@ -1,8 +1,8 @@
 Клас SoapClient
 
--   [« use\_soap\_error\_handler](function.use-soap-error-handler.html)
+-   [« usesoaperrorhandler](function.use-soap-error-handler.html)
     
--   [SoapClient::\_\_call »](soapclient.call.html)
+-   [SoapClient::call »](soapclient.call.html)
     
 -   [PHP Manual](index.html)
     
@@ -276,17 +276,17 @@ use
 
 ## Зміст
 
--   [SoapClient::\_\_call](soapclient.call.html) - Викликає SOAP-функцію (застарілий метод)
--   [SoapClient::\_\_construct](soapclient.construct.html) - Конструктор класу SoapClient
--   [SoapClient::\_\_doRequest](soapclient.dorequest.html) - Виконує SOAP-запит
--   [SoapClient::\_\_getCookies](soapclient.getcookies.html) — Отримати список cookies
--   [SoapClient::\_\_getFunctions](soapclient.getfunctions.html) — Повертає список доступних SOAP-функцій
--   [SoapClient::\_\_getLastRequest](soapclient.getlastrequest.html) - Повертає останній SOAP-запит
--   [SoapClient::\_\_getLastRequestHeaders](soapclient.getlastrequestheaders.html) — Повертає SOAP-заголовки останнього запиту
--   [SoapClient::\_\_getLastResponse](soapclient.getlastresponse.html) — Повертає останню SOAP-відповідь
--   [SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.html) — Повертає SOAP-заголовки останньої відповіді
--   [SoapClient::\_\_getTypes](soapclient.gettypes.html) — Повертає список типів SOAP
--   [SoapClient::\_\_setCookie](soapclient.setcookie.html) — Встановлює cookie для запитів SOAP
--   [SoapClient::\_\_setLocation](soapclient.setlocation.html) — Встановлює адресу веб-служби, що використовується.
--   [SoapClient::\_\_setSoapHeaders](soapclient.setsoapheaders.html) — Встановлює заголовки SOAP для наступних дзвінків
--   [SoapClient::\_\_soapCall](soapclient.soapcall.html) - Викликає SOAP-функцію
+-   [SoapClient::call](soapclient.call.html) - Викликає SOAP-функцію (застарілий метод)
+-   [SoapClient::construct](soapclient.construct.html) - Конструктор класу SoapClient
+-   [SoapClient::doRequest](soapclient.dorequest.html) - Виконує SOAP-запит
+-   [SoapClient::getCookies](soapclient.getcookies.html) — Отримати список cookies
+-   [SoapClient::getFunctions](soapclient.getfunctions.html) — Повертає список доступних SOAP-функцій
+-   [SoapClient::getLastRequest](soapclient.getlastrequest.html) - Повертає останній SOAP-запит
+-   [SoapClient::getLastRequestHeaders](soapclient.getlastrequestheaders.html) — Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::getLastResponse](soapclient.getlastresponse.html) — Повертає останню SOAP-відповідь
+-   [SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.html) — Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::getTypes](soapclient.gettypes.html) — Повертає список типів SOAP
+-   [SoapClient::setCookie](soapclient.setcookie.html) — Встановлює cookie для запитів SOAP
+-   [SoapClient::setLocation](soapclient.setlocation.html) — Встановлює адресу веб-служби, що використовується.
+-   [SoapClient::setSoapHeaders](soapclient.setsoapheaders.html) — Встановлює заголовки SOAP для наступних дзвінків
+-   [SoapClient::soapCall](soapclient.soapcall.html) - Викликає SOAP-функцію

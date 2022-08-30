@@ -1,12 +1,12 @@
 Серіалізує Int64
 
--   [« MongoDB\\BSON\\Int64::jsonSerialize](mongodb-bson-int64.jsonserialize.html)
+-   [« MongoDBBSONInt64::jsonSerialize](mongodb-bson-int64.jsonserialize.html)
     
--   [MongoDB\\BSON\\Int64::\_\_toString »](mongodb-bson-int64.tostring.html)
+-   [MongoDBBSONInt64::toString »](mongodb-bson-int64.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html)
+-   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
     
 -   Серіалізує Int64
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\Int64::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html)
+Повертає серіалізовану виставу [MongoDBBSONInt64](class.mongodb-bson-int64.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Int64::unserialize()](mongodb-bson-int64.unserialize.html) - Десеріалізує Int64
+-   [MongoDBBSONInt64::unserialize()](mongodb-bson-int64.unserialize.html) - Десеріалізує Int64
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

@@ -1,6 +1,6 @@
 Псевдонім recodestring
 
--   [« recode\_string](function.recode-string.html)
+-   [« recodestring](function.recode-string.html)
     
 -   [Обработка и генерация изображений »](refs.utilspec.image.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7 < 7.4.0)
 
-recode - Псевдонім [recode\_string()](function.recode-string.html)
+recode - Псевдонім [recodestring()](function.recode-string.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [recode\_string()](function.recode-string.html)
+Ця функція є псевдонімом: [recodestring()](function.recode-string.html)

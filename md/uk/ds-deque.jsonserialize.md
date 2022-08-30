@@ -1,12 +1,12 @@
 Повертає колекцію в JSON-представництві
 
--   [« Ds\\Deque::join](ds-deque.join.html)
+-   [« DsDeque::join](ds-deque.join.html)
     
--   [Ds\\Deque::last »](ds-deque.last.html)
+-   [ДсDeque::last »](ds-deque.last.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає колекцію в JSON-представництві
     

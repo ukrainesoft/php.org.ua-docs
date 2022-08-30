@@ -1,12 +1,12 @@
 Додати опцію
 
--   [« UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+-   [« UIControlsEditableCombo](class.ui-controls-editablecombo.html)
     
--   [UI\\Controls\\EditableCombo::getText »](ui-controls-editablecombo.gettext.html)
+-   [ОЙControlsEditableCombo::getText »](ui-controls-editablecombo.gettext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+-   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
     
 -   Додати опцію
     

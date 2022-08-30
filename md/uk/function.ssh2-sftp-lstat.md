@@ -1,12 +1,12 @@
 Інформація про символічне посилання
 
--   [« ssh2\_sftp\_chmod](function.ssh2-sftp-chmod.html)
+-   [« ssh2sftpchmod](function.ssh2-sftp-chmod.html)
     
--   [ssh2\_sftp\_mkdir »](function.ssh2-sftp-mkdir.html)
+-   [ssh2sftpmkdir »](function.ssh2-sftp-mkdir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Інформація про символічне посилання
     
@@ -31,7 +31,7 @@ ssh2_sftp_lstat(resource $sftp, string $path): array
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `path`
 
@@ -64,6 +64,6 @@ $mode = $statinfo['mode'];
 
 ### Дивіться також
 
--   [ssh2\_sftp\_stat()](function.ssh2-sftp-stat.html) - Інформація про файл
+-   [ssh2sftpstat()](function.ssh2-sftp-stat.html) - Інформація про файл
 -   [lstat()](function.lstat.html) - Повертає інформацію про файл або символічне посилання
 -   [stat()](function.stat.html) - Повертає інформацію про файл

@@ -1,8 +1,8 @@
 Вектор квадратний корінь
 
--   [« trader\_sma](function.trader-sma.html)
+-   [« tradersma](function.trader-sma.html)
     
--   [trader\_stddev »](function.trader-stddev.html)
+-   [traderstddev »](function.trader-stddev.html)
     
 -   [PHP Manual](index.html)
     

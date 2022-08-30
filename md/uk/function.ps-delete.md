@@ -1,12 +1,12 @@
 Видаляє всі ресурси документа PostScript
 
--   [« ps\_curveto](function.ps-curveto.html)
+-   [«pscurveto](function.ps-curveto.html)
     
--   [ps\_end\_page »](function.ps-end-page.html)
+-   [псendpage »](function.ps-end-page.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Видаляє всі ресурси документа PostScript
     
@@ -23,13 +23,13 @@
 ps_delete(resource $psdoc): bool
 ```
 
-В основному звільняє пам'ять, що використовується документом. Також закриває файл, якщо він не був раніше закритий за допомогою [ps\_close()](function.ps-close.html). У будь-якому випадку вам слід закрити файл за допомогою [ps\_close()](function.ps-close.html) раніше, тому що [ps\_close()](function.ps-close.html) не лише закриває файл, але й виводить дані, що містять коментарі PostScript, такі як кількість сторінок у документі та додавання ієрархії закладок.
+В основному звільняє пам'ять, що використовується документом. Також закриває файл, якщо він не був раніше закритий за допомогою [псclose()](function.ps-close.html). У будь-якому випадку вам слід закрити файл за допомогою [псclose()](function.ps-close.html) раніше, тому що [псclose()](function.ps-close.html) не лише закриває файл, але й виводить дані, що містять коментарі PostScript, такі як кількість сторінок у документі та додавання ієрархії закладок.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_delete(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_close()](function.ps-close.html) - Закриває документ PostScript
+-   [псclose()](function.ps-close.html) - Закриває документ PostScript

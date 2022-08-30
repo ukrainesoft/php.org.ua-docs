@@ -1,6 +1,6 @@
 Змінює розмір пулу
 
--   [« Pool::\_\_construct](pool.construct.html)
+-   [« Pool::construct](pool.construct.html)
     
 -   [Pool::shutdown »](pool.shutdown.html)
     

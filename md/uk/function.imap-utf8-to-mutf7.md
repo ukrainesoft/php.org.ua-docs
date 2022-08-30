@@ -1,8 +1,8 @@
 Кодувати рядок UTF-8 у змінений UTF-7
 
--   [« imap\_utf7\_encode](function.imap-utf7-encode.html)
+-   [« imaputf7encode](function.imap-utf7-encode.html)
     
--   [imap\_utf8 »](function.imap-utf8.html)
+-   [imaputf8 »](function.imap-utf8.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ imap_utf8_to_mutf7(string $string): string|false
 
 ### Дивіться також
 
--   [imap\_mutf7\_to\_utf8()](function.imap-mutf7-to-utf8.html) - Декодувати змінений рядок UTF-7 у UTF-8
+-   [imapmutf7тоutf8()](function.imap-mutf7-to-utf8.html) - Декодувати змінений рядок UTF-7 у UTF-8

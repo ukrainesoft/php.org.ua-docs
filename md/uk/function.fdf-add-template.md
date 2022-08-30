@@ -1,8 +1,8 @@
 Додає шаблон до FDF-документу
 
--   [« fdf\_add\_doc\_javascript](function.fdf-add-doc-javascript.html)
+-   [« fdfadddocjavascript](function.fdf-add-doc-javascript.html)
     
--   [fdf\_close »](function.fdf-close.html)
+-   [fdfclose »](function.fdf-close.html)
     
 -   [PHP Manual](index.html)
     

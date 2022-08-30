@@ -1,12 +1,12 @@
 Зберегти діалогове вікно
 
--   [« UI\\Window::open](ui-window.open.html)
+-   [« UIWindow::open](ui-window.open.html)
     
--   [UI\\Window::setBorders »](ui-window.setborders.html)
+-   [ОЙWindow::setBorders »](ui-window.setborders.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Зберегти діалогове вікно
     

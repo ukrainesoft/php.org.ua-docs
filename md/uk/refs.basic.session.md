@@ -1,6 +1,6 @@
 Модулі для роботи із сесіями
 
--   [« fpm\_get\_status](function.fpm-get-status.html)
+-   [« fpmgetstatus](function.fpm-get-status.html)
     
 -   [Сессии »](book.session.html)
     
@@ -19,8 +19,8 @@
     -   [Предопределённые константы](session.constants.html)
     -   [Примеры](session.examples.html)
     -   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.html)
-    -   [Безопасность сессий](session.security.html)
-    -   [Функции для работы с сессиями](ref.session.html)
+    -   [Безпека сесій](session.security.html)
+    -   [Функції для роботи із сесіями](ref.session.html)
     -   [SessionHandler](class.sessionhandler.html) - Клас SessionHandler
     -   [SessionHandlerInterface](class.sessionhandlerinterface.html) - Клас SessionHandlerInterface
     -   [SessionIdInterface](class.sessionidinterface.html) - Інтерфейс SessionIdInterface

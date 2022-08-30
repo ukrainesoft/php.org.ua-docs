@@ -1,12 +1,12 @@
 Кодує рядок для MIME-заголовка
 
--   [« mb\_detect\_order](function.mb-detect-order.html)
+-   [« mbdetectorder](function.mb-detect-order.html)
     
--   [mb\_encode\_numericentity »](function.mb-encode-numericentity.html)
+-   [мбencodenumericentity »](function.mb-encode-numericentity.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Кодує рядок для MIME-заголовка
     
@@ -29,7 +29,7 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 `string`
 
-Кодований рядок типу string. Її кодування має відповідати [mb\_internal\_encoding()](function.mb-internal-encoding.html)
+Кодований рядок типу string. Її кодування має відповідати [мбinternalencoding()](function.mb-internal-encoding.html)
 
 `charset`
 
@@ -85,4 +85,4 @@ echo $addr;
 
 ### Дивіться також
 
--   [mb\_decode\_mimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
+-   [мбdecodemimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку

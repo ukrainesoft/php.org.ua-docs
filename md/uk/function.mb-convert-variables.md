@@ -1,12 +1,12 @@
 Перетворює символи на змінну з одного кодування на інше
 
--   [« mb\_convert\_kana](function.mb-convert-kana.html)
+-   [« mbconvertkana](function.mb-convert-kana.html)
     
--   [mb\_decode\_mimeheader »](function.mb-decode-mimeheader.html)
+-   [мбdecodemimeheader »](function.mb-decode-mimeheader.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Перетворює символи на змінну з одного кодування на інше
     

@@ -1,12 +1,12 @@
 Отримує локальне ім'я сокета з'єднання
 
--   [« Swoole\\Client::getpeername](swoole-client.getpeername.html)
+-   [« SwooleClient::getpeername](swoole-client.getpeername.html)
     
--   [Swoole\\Client::isConnected »](swoole-client.isconnected.html)
+-   [SwooleClient::isConnected »](swoole-client.isconnected.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Отримує локальне ім'я сокета з'єднання
     

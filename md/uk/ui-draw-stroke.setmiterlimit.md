@@ -1,12 +1,12 @@
 Встановити межу зрізу
 
--   [« UI\\Draw\\Stroke::setJoin](ui-draw-stroke.setjoin.html)
+-   [« UIDrawStroke::setJoin](ui-draw-stroke.setjoin.html)
     
--   [UI\\Draw\\Stroke::setThickness »](ui-draw-stroke.setthickness.html)
+-   [ОЙDrawStroke::setThickness »](ui-draw-stroke.setthickness.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke](class.ui-draw-stroke.html)
     
 -   Встановити межу зрізу
     

@@ -1,8 +1,8 @@
 Визначає, чи потрібно повторно використовувати пароль
 
--   [« sodium\_crypto\_pwhash\_scryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
+-   [« sodiumcryptopwhashscryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
     
--   [sodium\_crypto\_pwhash\_str\_verify »](function.sodium-crypto-pwhash-str-verify.html)
+-   [sodiumcryptopwhashstrverify »](function.sodium-crypto-pwhash-str-verify.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,12 +33,12 @@ sodium_crypto_pwhash_str_needs_rehash(string $password, int $opslimit, int $meml
 
 `opslimit`
 
-Налаштований opslimit; дивіться [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html)
+Налаштований opslimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html)
 
 `memlimit`
 
-Налаштований memlimit; дивіться [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html)
+Налаштований memlimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо наданий memlimit/opslimit не відповідає тому, що зберігається в хеші. Повертає **`false`**якщо вони збігаються.
+Повертає \*\*`true`\*\*якщо наданий memlimit/opslimit не відповідає тому, що зберігається в хеші. Повертає \*\*`false`\*\*якщо вони збігаються.

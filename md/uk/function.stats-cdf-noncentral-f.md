@@ -1,12 +1,12 @@
 Обчислює один із параметрів нецентрального розподілу Фішера за рештою
 
--   [« stats\_cdf\_noncentral\_chisquare](function.stats-cdf-noncentral-chisquare.html)
+-   [« statscdfnoncentralchisquare](function.stats-cdf-noncentral-chisquare.html)
     
--   [stats\_cdf\_noncentral\_t »](function.stats-cdf-noncentral-t.html)
+-   [statscdfnoncentralt »](function.stats-cdf-noncentral-t.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів нецентрального розподілу Фішера за рештою
     

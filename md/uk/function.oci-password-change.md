@@ -1,8 +1,8 @@
 Змінює пароль користувача Oracle
 
--   [« oci\_parse](function.oci-parse.html)
+-   [« ociparse](function.oci-parse.html)
     
--   [oci\_pconnect »](function.oci-pconnect.html)
+-   [ocipconnect »](function.oci-pconnect.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ oci_password_change(    string $database_name,    string $username,  �
 
 `connection`
 
-Ідентифікатор з'єднання, що повертається функцією [oci\_connect()](function.oci-connect.html) або [oci\_pconnect()](function.oci-pconnect.html)
+Ідентифікатор з'єднання, що повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.html)
 
 `username`
 

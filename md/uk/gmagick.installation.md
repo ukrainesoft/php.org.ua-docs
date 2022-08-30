@@ -17,4 +17,4 @@
 
 > **Зауваження**: Офіційне ім'я модуля - *gmagick*
 
-Складання модуля для Windows доступне [» тут](http://valokuva.org/magick/)
+Складання модуля для Windows доступне [»тут](http://valokuva.org/magick/)

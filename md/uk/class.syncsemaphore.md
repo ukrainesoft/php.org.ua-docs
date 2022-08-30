@@ -2,7 +2,7 @@
 
 -   [« SyncMutex::unlock](syncmutex.unlock.html)
     
--   [SyncSemaphore::\_\_construct »](syncsemaphore.construct.html)
+-   [SyncSemaphore::construct »](syncsemaphore.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,6 +45,6 @@ public unlock(int &$prevcount = ?): bool
 
 ## Зміст
 
--   [SyncSemaphore::\_\_construct](syncsemaphore.construct.html) — Створює новий об'єкт SyncSemaphore
+-   [SyncSemaphore::construct](syncsemaphore.construct.html) — Створює новий об'єкт SyncSemaphore
 -   [SyncSemaphore::lock](syncsemaphore.lock.html) — Зменшує рахунок семафора чи чекає
 -   [SyncSemaphore::unlock](syncsemaphore.unlock.html) - Збільшує рахунок семафору

@@ -2,7 +2,7 @@
 
 -   [« RarArchive::open](rararchive.open.html)
     
--   [RarArchive::\_\_toString »](rararchive.tostring.html)
+-   [RarArchive::toString »](rararchive.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ rar_allow_broken_set(RarArchive $rarfile, bool $allow_broken): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [rar\_open()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
 
 `allow_broken`
 

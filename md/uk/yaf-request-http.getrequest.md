@@ -1,12 +1,12 @@
 Призначення getRequest
 
--   [« Yaf\_Request\_Http::getRaw](yaf-request-http.getraw.html)
+-   [« YafRequestHttp::getRaw](yaf-request-http.getraw.html)
     
--   [Yaf\_Request\_Http::isXmlHttpRequest »](yaf-request-http.isxmlhttprequest.html)
+-   [YafRequestHttp::isXmlHttpRequest »](yaf-request-http.isxmlhttprequest.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Http](class.yaf-request-http.html)
+-   [YafRequestHttp](class.yaf-request-http.html)
     
 -   Призначення getRequest
     

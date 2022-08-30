@@ -1,12 +1,12 @@
 Функція зворотного виклику під час малювання
 
--   [« UI\\Area](class.ui-area.html)
+-   [« UIArea](class.ui-area.html)
     
--   [UI\\Area::onKey »](ui-area.onkey.html)
+-   [ОЙArea::onKey »](ui-area.onkey.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Area](class.ui-area.html)
+-   [ОЙArea](class.ui-area.html)
     
 -   Функція зворотного виклику під час малювання
     

@@ -1,12 +1,12 @@
 Серіалізувати дані
 
--   [« Swoole\\Serialize](class.swoole-serialize.html)
+-   [« SwooleSerialize](class.swoole-serialize.html)
     
--   [Swoole\\Serialize::unpack »](swoole-serialize.unpack.html)
+-   [SwooleSerialize::unpack »](swoole-serialize.unpack.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Serialize](class.swoole-serialize.html)
+-   [SwooleSerialize](class.swoole-serialize.html)
     
 -   Серіалізувати дані
     

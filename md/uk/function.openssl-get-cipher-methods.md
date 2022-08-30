@@ -1,8 +1,8 @@
 Отримати список доступних алгоритмів шифрування
 
--   [« openssl\_get\_cert\_locations](function.openssl-get-cert-locations.html)
+-   [« opensslgetcertlocations](function.openssl-get-cert-locations.html)
     
--   [openssl\_get\_curve\_names »](function.openssl-get-curve-names.html)
+-   [opensslgetcurvenames »](function.openssl-get-curve-names.html)
     
 -   [PHP Manual](index.html)
     
@@ -200,4 +200,4 @@ Array
 
 ### Дивіться також
 
--   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування

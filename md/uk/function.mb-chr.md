@@ -1,12 +1,12 @@
 Повертає символ за значенням кодової точки Unicode
 
--   [« mb\_check\_encoding](function.mb-check-encoding.html)
+-   [« mbcheckencoding](function.mb-check-encoding.html)
     
--   [mb\_convert\_case »](function.mb-convert-case.html)
+-   [мбconvertcase »](function.mb-convert-case.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Повертає символ за значенням кодової точки Unicode
     
@@ -25,7 +25,7 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 Повертає рядок, що містить символ, вказаний значенням кодової точки Unicode, закодований у вказаному кодуванні.
 
-Функція доповнює [mb\_ord()](function.mb-ord.html)
+Функція доповнює [мбord()](function.mb-ord.html)
 
 ### Список параметрів
 
@@ -76,7 +76,7 @@ bool(false)
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [mb\_ord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
 -   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
 -   [chr()](function.chr.html) - Генерує односимвольний рядок за заданим числом

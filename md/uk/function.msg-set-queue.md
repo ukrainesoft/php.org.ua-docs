@@ -1,12 +1,12 @@
 Встановлення інформації у структурі даних черги повідомлень
 
--   [« msg\_send](function.msg-send.html)
+-   [« msgsend](function.msg-send.html)
     
--   [msg\_stat\_queue »](function.msg-stat-queue.html)
+-   [msgstatqueue »](function.msg-stat-queue.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Встановлення інформації у структурі даних черги повідомлень
     
@@ -49,7 +49,7 @@ msg_set_queue(SysvMessageQueue $queue, array $data): bool
 
 ### Дивіться також
 
--   [msg\_remove\_queue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msg\_receive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
--   [msg\_stat\_queue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
--   [msg\_get\_queue()](function.msg-get-queue.html) - Створення або підключення до черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
+-   [msggetqueue()](function.msg-get-queue.html) - Створення або підключення до черги повідомлень

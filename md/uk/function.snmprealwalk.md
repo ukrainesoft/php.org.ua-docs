@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Повертає всі об'єкти, включаючи їхній ідентифікатор
     

@@ -2,7 +2,7 @@
 
 -   [« IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.html)
     
--   [UConverter::\_\_construct »](uconverter.construct.html)
+-   [UConverter::construct »](uconverter.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -309,7 +309,7 @@ public static transcode(    string $str,    string $toEncoding,    s
 
 ## Зміст
 
--   [UConverter::\_\_construct](uconverter.construct.html) — Створити об'єкт UConverter
+-   [UConverter::construct](uconverter.construct.html) — Створити об'єкт UConverter
 -   [UConverter::convert](uconverter.convert.html) — Конвертувати рядок з одного кодування в інше
 -   [UConverter::fromUCallback](uconverter.fromucallback.html) — Callback-функція за промовчанням для "from"
 -   [UConverter::getAliases](uconverter.getaliases.html) — Отримати псевдоніми для цього імені

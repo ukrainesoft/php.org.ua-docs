@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getAlignment](ffi-ctype.getalignment.html)
+-   [« FFICType::getAlignment](ffi-ctype.getalignment.html)
     
--   [FFI\\CType::getArrayLength »](ffi-ctype.getarraylength.html)
+-   [FFICType::getArrayLength »](ffi-ctype.getarraylength.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

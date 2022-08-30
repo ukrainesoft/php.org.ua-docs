@@ -1,8 +1,8 @@
 Повертає перший елемент колекції
 
--   [« Ds\\Set::filter](ds-set.filter.html)
+-   [« DsSet::filter](ds-set.filter.html)
     
--   [Ds\\Set::get »](ds-set.get.html)
+-   [ДсSet::get »](ds-set.get.html)
     
 -   [PHP Manual](index.html)
     

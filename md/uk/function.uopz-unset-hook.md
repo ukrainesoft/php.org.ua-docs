@@ -1,12 +1,12 @@
 Видаляє раніше встановлену функцію або метод
 
--   [« uopz\_undefine](function.uopz-undefine.html)
+-   [« uopzundefine](function.uopz-undefine.html)
     
--   [uopz\_unset\_mock »](function.uopz-unset-mock.html)
+-   [uopzunsetmock »](function.uopz-unset-mock.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Видаляє раніше встановлену функцію або метод
     
@@ -69,5 +69,5 @@ foo
 
 ### Дивіться також
 
--   [uopz\_set\_hook()](function.uopz-set-hook.html) - Встановлює обробник для виконання під час виклику функції або методу
--   [uopz\_get\_hook()](function.uopz-get-hook.html) - отримує раніше встановлений обробник на функцію або метод
+-   [uopzsethook()](function.uopz-set-hook.html) - Встановлює обробник для виконання під час виклику функції або методу
+-   [uopzgethook()](function.uopz-get-hook.html) - отримує раніше встановлений обробник на функцію або метод

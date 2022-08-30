@@ -1,12 +1,12 @@
 Реєструє callback-функції події
 
--   [« Swoole\\Server\\Port::\_\_destruct](swoole-server-port.destruct.html)
+-   [« SwooleServerPort::destruct](swoole-server-port.destruct.html)
     
--   [Swoole\\Server\\Port::set »](swoole-server-port.set.html)
+-   [SwooleServerPort::set »](swoole-server-port.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Реєструє callback-функції події
     

@@ -1,12 +1,12 @@
 Встановлює код стану HTTP-відповіді
 
--   [« Swoole\\Http\\Response::sendfile](swoole-http-response.sendfile.html)
+-   [« SwooleHttpResponse::sendfile](swoole-http-response.sendfile.html)
     
--   [Swoole\\Http\\Response::write »](swoole-http-response.write.html)
+-   [SwooleHttpResponse::write »](swoole-http-response.write.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Встановлює код стану HTTP-відповіді
     

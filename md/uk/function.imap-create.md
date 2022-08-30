@@ -1,8 +1,8 @@
 Псевдонім imapcreatemailbox
 
--   [« imap\_close](function.imap-close.html)
+-   [« imapclose](function.imap-close.html)
     
--   [imap\_createmailbox »](function.imap-createmailbox.html)
+-   [imapcreatemailbox »](function.imap-createmailbox.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapcreate - Псевдонім [imap\_createmailbox()](function.imap-createmailbox.html)
+imapcreate - Псевдонім [imapcreatemailbox()](function.imap-createmailbox.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [imap\_createmailbox()](function.imap-createmailbox.html)
+Ця функція є псевдонімом: [imapcreatemailbox()](function.imap-createmailbox.html)

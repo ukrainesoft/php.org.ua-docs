@@ -1,12 +1,12 @@
 Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
 
--   [« is\_a](function.is-a.html)
+-   [« isа](function.is-a.html)
     
--   [method\_exists »](function.method-exists.html)
+-   [methodexists »](function.method-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
     
@@ -149,7 +149,7 @@ if (is_subclass_of('MyClass', 'MyInterface')) {
 
 ### Дивіться також
 
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [is\_a()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
--   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ісa()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
+-   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу

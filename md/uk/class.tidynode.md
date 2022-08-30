@@ -2,7 +2,7 @@
 
 -   [« tidy::root](tidy.root.html)
     
--   [tidyNode::\_\_construct »](tidynode.construct.html)
+-   [tidyNode::construct »](tidynode.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -138,7 +138,7 @@ child
 
 ## Зміст
 
--   [tidyNode::\_\_construct](tidynode.construct.html) — Приватний конструктор, який унеможливлює пряме створення об'єкта
+-   [tidyNode::construct](tidynode.construct.html) — Приватний конструктор, який унеможливлює пряме створення об'єкта
 -   [tidyNode::getParent](tidynode.getparent.html) - Повертає батьківський вузол поточного вузла
 -   [tidyNode::hasChildren](tidynode.haschildren.html) - Перевіряє існування нащадків біля вузла
 -   [tidyNode::hasSiblings](tidynode.hassiblings.html) - Перевіряє існування сусідніх вузлів

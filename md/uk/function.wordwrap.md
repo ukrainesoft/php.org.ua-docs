@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Переносить рядок за вказаною кількістю символів
     
@@ -112,4 +112,4 @@ something
 ### Дивіться також
 
 -   [nl2br()](function.nl2br.html) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
--   [chunk\_split()](function.chunk-split.html) - Розбиває рядок на фрагменти
+-   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти

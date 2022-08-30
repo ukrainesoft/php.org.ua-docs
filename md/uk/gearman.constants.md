@@ -63,7 +63,7 @@
 
 **`GEARMAN_WORK_WARNING`** (int)
 
-Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Оновлює клієнт із відправкою попередженням. Поведінка ті ж, що і у випадку **`GEARMAN_WORK_DATA`**Однак цей код слід інтерпретувати як попередження замість звичайних даних відповіді.
+Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Оновлює клієнт із відправкою попередженням. Поведінка ті ж, що і у випадку \*\*`GEARMAN_WORK_DATA`\*\*Однак цей код слід інтерпретувати як попередження замість звичайних даних відповіді.
 
 **`GEARMAN_WORK_STATUS`** (int)
 

@@ -37,7 +37,7 @@ public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
 
 ### Значення, що повертаються
 
-Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.html), або **`null`**якщо цей індекс неприпустимий.
+Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.html), або \*\*`null`\*\*якщо цей індекс неприпустимий.
 
 ### Приклади
 

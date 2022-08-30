@@ -1,12 +1,12 @@
 Повертає рядкову виставу RegexInterface
 
--   [« MongoDB\\BSON\\RegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.html)
+-   [« MongoDBBSONRegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.html)
     
--   [MongoDB\\BSON\\TimestampInterface »](class.mongodb-bson-timestampinterface.html)
+-   [MongoDBBSONTimestampInterface »](class.mongodb-bson-timestampinterface.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\RegexInterface](class.mongodb-bson-regexinterface.html)
+-   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
     
 -   Повертає рядкову виставу RegexInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\RegexInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Regex::\_\_toString()](mongodb-bson-regex.tostring.html) - Повертає рядкову виставу Regex
+-   [MongoDBBSONRegex::toString()](mongodb-bson-regex.tostring.html) - Повертає рядкову виставу Regex

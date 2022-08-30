@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Округлює кількість типу float
     
@@ -206,4 +206,4 @@ float(-1.5)
 
 -   [ceil()](function.ceil.html) - Округлює дріб у велику сторону
 -   [floor()](function.floor.html) - Округлює дріб у менший бік
--   [number\_format()](function.number-format.html) - Форматує число з поділом груп
+-   [numberformat()](function.number-format.html) - Форматує число з поділом груп

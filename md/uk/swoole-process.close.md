@@ -1,12 +1,12 @@
 Закриває канал для дочірнього процесу
 
--   [« Swoole\\Process::alarm](swoole-process.alarm.html)
+-   [« SwooleProcess::alarm](swoole-process.alarm.html)
     
--   [Swoole\\Process::\_\_construct »](swoole-process.construct.html)
+-   [SwooleProcess::construct »](swoole-process.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Закриває канал для дочірнього процесу
     

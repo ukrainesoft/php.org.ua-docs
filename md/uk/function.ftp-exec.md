@@ -1,12 +1,12 @@
 Запитує виконання команди на FTP-сервері
 
--   [« ftp\_delete](function.ftp-delete.html)
+-   [« ftpdelete](function.ftp-delete.html)
     
--   [ftp\_fget »](function.ftp-fget.html)
+-   [ftpfget »](function.ftp-fget.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Запитує виконання команди на FTP-сервері
     
@@ -29,7 +29,7 @@ ftp_exec(FTP\Connection $ftp, string $command): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `command`
 
@@ -41,9 +41,9 @@ ftp_exec(FTP\Connection $ftp, string $command): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -75,4 +75,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_raw()](function.ftp-raw.html) - Надсилає довільну команду FTP-серверу
+-   [ftpraw()](function.ftp-raw.html) - Надсилає довільну команду FTP-серверу

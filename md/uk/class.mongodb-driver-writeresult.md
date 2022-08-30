@@ -1,12 +1,12 @@
 Клас MongoDBDriverWriteResult
 
--   [« MongoDB\\Driver\\WriteError::getMessage](mongodb-driver-writeerror.getmessage.html)
+-   [« MongoDBDriverWriteError::getMessage](mongodb-driver-writeerror.getmessage.html)
     
--   [MongoDB\\Driver\\WriteResult::getDeletedCount »](mongodb-driver-writeresult.getdeletedcount.html)
+-   [MongoDBDriverWriteResult::getDeletedCount »](mongodb-driver-writeresult.getdeletedcount.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverWriteResult
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас **MongoDBDriverWriteResult** інкапсулює інформацію про виконане [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html) і може бути повернутий [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
+Клас **MongoDBDriverWriteResult** інкапсулює інформацію про виконане [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html) і може бути повернутий [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
 
 ## Огляд класів
 
@@ -51,13 +51,13 @@ final public isAcknowledged(): bool
 
 ## Зміст
 
--   [MongoDB\\Driver\\WriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.html) — Повертає кількість видалених документів
--   [MongoDB\\Driver\\WriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.html) — Повертає кількість вставлених документів (за винятком злиття)
--   [MongoDB\\Driver\\WriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.html) — Повертає кількість вибраних документів для оновлення
--   [MongoDB\\Driver\\WriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.html) — Повертає кількість існуючих оновлених документів
--   [MongoDB\\Driver\\WriteResult::getServer](mongodb-driver-writeresult.getserver.html) — Повертає сервер, пов'язаний із цим результатом запису
--   [MongoDB\\Driver\\WriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.html) — Повертає кількість документів, вставлених злиттям
--   [MongoDB\\Driver\\WriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.html) — Повертає масив ідентифікаторів для об'єднаних документів
--   [MongoDB\\Driver\\WriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.html) — Повертає будь-яку помилку гарантій запису, що відбувся
--   [MongoDB\\Driver\\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html) — Повертає будь-які помилки запису, що сталися
--   [MongoDB\\Driver\\WriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html) — Повертає, чи був запис підтверджений
+-   [MongoDBDriverWriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.html) — Повертає кількість видалених документів
+-   [MongoDBDriverWriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.html) — Повертає кількість вставлених документів (за винятком злиття)
+-   [MongoDBDriverWriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.html) — Повертає кількість вибраних документів для оновлення
+-   [MongoDBDriverWriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.html) — Повертає кількість існуючих оновлених документів
+-   [MongoDBDriverWriteResult::getServer](mongodb-driver-writeresult.getserver.html) — Повертає сервер, пов'язаний із цим результатом запису
+-   [MongoDBDriverWriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.html) — Повертає кількість документів, вставлених злиттям
+-   [MongoDBDriverWriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.html) — Повертає масив ідентифікаторів для об'єднаних документів
+-   [MongoDBDriverWriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.html) — Повертає будь-яку помилку гарантій запису, що відбувся
+-   [MongoDBDriverWriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html) — Повертає будь-які помилки запису, що сталися
+-   [MongoDBDriverWriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html) — Повертає, чи був запис підтверджений

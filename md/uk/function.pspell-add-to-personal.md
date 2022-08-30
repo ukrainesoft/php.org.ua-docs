@@ -2,7 +2,7 @@
 
 -   [« Функции Pspell](ref.pspell.html)
     
--   [pspell\_add\_to\_session »](function.pspell-add-to-session.html)
+-   [pspelladdтоsession »](function.pspell-add-to-session.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ pspelladdтоpersonal — Додає слово до персонального 
 pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspell\_new\_config()](function.pspell-new-config.html) разом з [pspell\_config\_personal()](function.pspell-config-personal.html) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspell\_save\_wordlist()](function.pspell-save-wordlist.html)
+**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspellnewconfig()](function.pspell-new-config.html) разом з [pspellconfigpersonal()](function.pspell-config-personal.html) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.html)
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
 
 `word`
 
@@ -41,9 +41,9 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

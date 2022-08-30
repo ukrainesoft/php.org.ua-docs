@@ -1,6 +1,6 @@
 Запис у файл
 
--   [« eio\_utime](function.eio-utime.html)
+-   [« eioutime](function.eio-utime.html)
     
 -   [Ev »](book.ev.html)
     
@@ -29,7 +29,7 @@ eio_write(    mixed $fd,    string $str,    int $length = 0,    
 
 `fd`
 
-Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eio\_open()](function.eio-open.html)
+Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eioopen()](function.eio-open.html)
 
 `str`
 
@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -77,4 +77,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_open()](function.eio-open.html) - Відкриває файл
+-   [eioopen()](function.eio-open.html) - Відкриває файл

@@ -58,5 +58,5 @@ try {
 
 ### Дивіться також
 
--   [Phar::\_\_construct()](phar.construct.html) - Створює об'єкт Phar-архіву
+-   [Phar::construct()](phar.construct.html) - Створює об'єкт Phar-архіву
 -   [Phar::interceptFileFuncs()](phar.interceptfilefuncs.html) - Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції

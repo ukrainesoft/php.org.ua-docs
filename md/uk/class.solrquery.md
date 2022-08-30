@@ -1,6 +1,6 @@
 Клас SolrQuery
 
--   [« SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.html)
+-   [« SolrModifiableParams::destruct](solrmodifiableparams.destruct.html)
     
 -   [SolrQuery::addExpandFilterQuery »](solrquery.addexpandfilterquery.html)
     
@@ -323,8 +323,8 @@ public setTimeAllowed(int $timeAllowed): SolrQuery
 -   [SolrQuery::addStatsFacet](solrquery.addstatsfacet.html) — Запитує повернення допоміжних результатів для значень у цьому фасеті
 -   [SolrQuery::addStatsField](solrquery.addstatsfield.html) - Відповідає параметру stats.field
 -   [SolrQuery::collapse](solrquery.collapse.html) — Згортає набір результатів до одного документа на групу
--   [SolrQuery::\_\_construct](solrquery.construct.html) - Конструктор
--   [SolrQuery::\_\_destruct](solrquery.destruct.html) - Деструктор
+-   [SolrQuery::construct](solrquery.construct.html) - Конструктор
+-   [SolrQuery::destruct](solrquery.destruct.html) - Деструктор
 -   [SolrQuery::getExpand](solrquery.getexpand.html) — Повертає true, якщо увімкнено розширення групи
 -   [SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.html) — Повертає запити на розширений фільтр
 -   [SolrQuery::getExpandQuery](solrquery.getexpandquery.html) — Повертає параметр розширеного запиту expand.q

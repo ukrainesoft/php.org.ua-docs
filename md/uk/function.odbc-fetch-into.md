@@ -1,8 +1,8 @@
 Повертає один рядок результату до масиву
 
--   [« odbc\_fetch\_array](function.odbc-fetch-array.html)
+-   [« odbcfetcharray](function.odbc-fetch-array.html)
     
--   [odbc\_fetch\_object »](function.odbc-fetch-object.html)
+-   [odbcfetchobject »](function.odbc-fetch-object.html)
     
 -   [PHP Manual](index.html)
     

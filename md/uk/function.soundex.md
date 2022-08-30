@@ -1,12 +1,12 @@
 Повертає ключ soundex для рядка
 
--   [« similar\_text](function.similar-text.html)
+-   [« similartext](function.similar-text.html)
     
 -   [sprintf »](function.sprintf.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає ключ soundex для рядка
     
@@ -64,4 +64,4 @@ soundex("Lukasiewicz") == soundex("Lissajous"); // L222
 
 -   [levenshtein()](function.levenshtein.html) - обчислює відстань Левенштейна між двома рядками
 -   [metaphone()](function.metaphone.html) - Повертає ключ metaphone для рядка
--   [similar\_text()](function.similar-text.html) - обчислює ступінь схожості двох рядків
+-   [similartext()](function.similar-text.html) - обчислює ступінь схожості двох рядків

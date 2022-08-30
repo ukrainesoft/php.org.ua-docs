@@ -1,12 +1,12 @@
 Точка входу для Action-класів
 
--   [« Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+-   [« YafActionAbstract](class.yaf-action-abstract.html)
     
--   [Yaf\_Action\_Abstract::getController »](yaf-action-abstract.getcontroller.html)
+-   [YafActionAbstract::getController »](yaf-action-abstract.getcontroller.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+-   [YafActionAbstract](class.yaf-action-abstract.html)
     
 -   Точка входу для Action-класів
     

@@ -1,12 +1,12 @@
 Встановити текст
 
--   [« UI\\Controls\\Entry::setReadOnly](ui-controls-entry.setreadonly.html)
+-   [« UIControlsEntry::setReadOnly](ui-controls-entry.setreadonly.html)
     
--   [UI\\Controls\\MultilineEntry »](class.ui-controls-multilineentry.html)
+-   [ОЙControlsMultilineEntry »](class.ui-controls-multilineentry.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [ОЙControlsEntry](class.ui-controls-entry.html)
     
 -   Встановити текст
     

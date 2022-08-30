@@ -1,12 +1,12 @@
 Виконує складання сміття даних сесії
 
--   [« session\_encode](function.session-encode.html)
+-   [« sessionencode](function.session-encode.html)
     
--   [session\_get\_cookie\_params »](function.session-get-cookie-params.html)
+-   [sessiongetcookieparams »](function.session-get-cookie-params.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Виконує складання сміття даних сесії
     
@@ -27,7 +27,7 @@ session_gc(): int|false
 
 Складання сміття, засноване на ймовірності в цілому працює, але має кілька проблем. 1) На низькозавантажених сайтах ці сесії можуть бути не видалені протягом бажаного часу. 2) На високозавантажених сайтах складання сміття може виконуватися надто часто. 3) Складання сміття виконується під час обробки запиту користувача, що призводить до додаткової затримки користувача.
 
-Тому рекомендується виконувати складання сміття на робочих системах періодично, наприклад, використовувати завдання cron у UNIX-подібних системах. При цьому переконайтесь, що вимкнули складання сміття на основі ймовірності, встановивши [session.gc\_probability](session.configuration.html#ini.session.gc-probability) 0.
+Тому рекомендується виконувати складання сміття на робочих системах періодично, наприклад, використовувати завдання cron у UNIX-подібних системах. При цьому переконайтесь, що вимкнули складання сміття на основі ймовірності, встановивши [session.gcprobability](session.configuration.html#ini.session.gc-probability) 0.
 
 ### Список параметрів
 
@@ -85,6 +85,6 @@ if (file_exists($gc_time)) {
 
 ### Дивіться також
 
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [session\_destroy()](function.session-destroy.html) - Знищує всі дані сесії
--   [session.gc\_probability](session.configuration.html#ini.session.gc-probability)
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessiondestroy()](function.session-destroy.html) - Знищує всі дані сесії
+-   [session.gcprobability](session.configuration.html#ini.session.gc-probability)

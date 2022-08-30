@@ -1,6 +1,6 @@
 Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
 
--   [« RecursiveFilterIterator::\_\_construct](recursivefilteriterator.construct.html)
+-   [« RecursiveFilterIterator::construct](recursivefilteriterator.construct.html)
     
 -   [RecursiveFilterIterator::hasChildren »](recursivefilteriterator.haschildren.html)
     

@@ -1,12 +1,12 @@
 Обчислює один із параметрів рівномірного розподілу за рештою
 
--   [« stats\_cdf\_t](function.stats-cdf-t.html)
+-   [« statscdfт](function.stats-cdf-t.html)
     
--   [stats\_cdf\_weibull »](function.stats-cdf-weibull.html)
+-   [statscdfweibull »](function.stats-cdf-weibull.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів рівномірного розподілу за рештою
     

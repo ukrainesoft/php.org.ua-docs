@@ -2,7 +2,7 @@
 
 -   [« Примеры](stream.examples.html)
     
--   [php\_user\_filter »](class.php-user-filter.html)
+-   [phpuserfilter »](class.php-user-filter.html)
     
 -   [PHP Manual](index.html)
     

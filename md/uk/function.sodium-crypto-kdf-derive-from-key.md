@@ -1,8 +1,8 @@
 Витягти підрозділ
 
--   [« sodium\_crypto\_generichash](function.sodium-crypto-generichash.html)
+-   [« sodiumcryptogenerichash](function.sodium-crypto-generichash.html)
     
--   [sodium\_crypto\_kdf\_keygen »](function.sodium-crypto-kdf-keygen.html)
+-   [sodiumcryptokdfkeygen »](function.sodium-crypto-kdf-keygen.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ sodium_crypto_kdf_derive_from_key(    int $subkey_length,    int $subkey
 
 Отримує підрозділ із кореневого ключа та додаткового контексту.
 
-Схожа на[hash\_hkdf()](function.hash-hkdf.html)
+Схожа на[hashhkdf()](function.hash-hkdf.html)
 
 ### Список параметрів
 

@@ -1,8 +1,8 @@
 Створює спеціальний fifo файл (іменований канал-pipe)
 
--   [« posix\_kill](function.posix-kill.html)
+-   [« posixkill](function.posix-kill.html)
     
--   [posix\_mknod »](function.posix-mknod.html)
+-   [posixmknod »](function.posix-mknod.html)
     
 -   [PHP Manual](index.html)
     

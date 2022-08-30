@@ -1,12 +1,12 @@
 Отримує статистику каналу Swoole
 
--   [« Swoole\\Channel::push](swoole-channel.push.html)
+-   [« SwooleChannel::push](swoole-channel.push.html)
     
--   [Swoole\\Client »](class.swoole-client.html)
+-   [SwooleClient »](class.swoole-client.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Channel](class.swoole-channel.html)
+-   [SwooleChannel](class.swoole-channel.html)
     
 -   Отримує статистику каналу Swoole
     

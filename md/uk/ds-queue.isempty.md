@@ -1,12 +1,12 @@
 Перевіряє, чи порожня колекція
 
--   [« Ds\\Queue::count](ds-queue.count.html)
+-   [« DsQueue::count](ds-queue.count.html)
     
--   [Ds\\Queue::jsonSerialize »](ds-queue.jsonserialize.html)
+-   [ДсQueue::jsonSerialize »](ds-queue.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь](class.ds-queue.html)
+-   [Черга](class.ds-queue.html)
     
 -   Перевіряє, чи порожня колекція
     

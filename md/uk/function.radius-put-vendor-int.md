@@ -1,8 +1,8 @@
 Приєднує цілий атрибут, що залежить від постачальника
 
--   [« radius\_put\_vendor\_attr](function.radius-put-vendor-attr.html)
+-   [« radiusputvendorattr](function.radius-put-vendor-attr.html)
     
--   [radius\_put\_vendor\_string »](function.radius-put-vendor-string.html)
+-   [radiusputvendorstring »](function.radius-put-vendor-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ radius_put_vendor_int(    resource $radius_handle,    int $vendor,   
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 
@@ -67,4 +67,4 @@ ID виробника (Vendor).
 
 ### Дивіться також
 
--   [radius\_put\_vendor\_string()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника
+-   [radiusputvendorstring()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника

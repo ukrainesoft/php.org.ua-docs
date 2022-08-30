@@ -1,12 +1,12 @@
 Визначає повний шлях по даному рядку зі шляхом
 
--   [« ssh2\_sftp\_readlink](function.ssh2-sftp-readlink.html)
+-   [« ssh2sftpreadlink](function.ssh2-sftp-readlink.html)
     
--   [ssh2\_sftp\_rename »](function.ssh2-sftp-rename.html)
+-   [ssh2sftprename »](function.ssh2-sftp-rename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Визначає повний шлях по даному рядку зі шляхом
     
@@ -29,7 +29,7 @@ ssh2_sftp_realpath(resource $sftp, string $filename): string
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `filename`
 
@@ -55,5 +55,5 @@ $realpath = ssh2_sftp_realpath($sftp, '/home/username/../../../..//./usr/../e
 ### Дивіться також
 
 -   [realpath()](function.realpath.html) - Повертає абсолютний канонізований шлях до файлу
--   [ssh2\_sftp\_symlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання
--   [ssh2\_sftp\_readlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням
+-   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання
+-   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням

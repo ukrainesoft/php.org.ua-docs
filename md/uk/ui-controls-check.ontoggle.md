@@ -1,12 +1,12 @@
 Функція зворотного дзвінка перемикання
 
--   [« UI\\Controls\\Check::isChecked](ui-controls-check.ischecked.html)
+-   [« UIControlsCheck::isChecked](ui-controls-check.ischecked.html)
     
--   [UI\\Controls\\Check::setChecked »](ui-controls-check.setchecked.html)
+-   [ОЙControlsCheck::setChecked »](ui-controls-check.setchecked.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Check](class.ui-controls-check.html)
+-   [ОЙControlsCheck](class.ui-controls-check.html)
     
 -   Функція зворотного дзвінка перемикання
     

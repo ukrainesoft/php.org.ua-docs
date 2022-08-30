@@ -1,12 +1,12 @@
 Повертає виняток, пов'язаний з невдалим виконанням heartbeat
 
--   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html)
+-   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html)
+-   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+-   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
     
 -   Повертає виняток, пов'язаний з невдалим виконанням heartbeat
     
@@ -33,4 +33,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError(): E
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

@@ -1,12 +1,12 @@
 Обробляє конфігураційний файл
 
--   [« move\_uploaded\_file](function.move-uploaded-file.html)
+-   [« moveuploadedfile](function.move-uploaded-file.html)
     
--   [parse\_ini\_string »](function.parse-ini-string.html)
+-   [parseinistring »](function.parse-ini-string.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Обробляє конфігураційний файл
     
@@ -31,7 +31,7 @@ parse_ini_file(string $filename, bool $process_sections = false, int $scanner_mo
 
 `filename`
 
-Ім'я ini-файлу, що обробляється. Якщо використовується відносний шлях, він оцінюється щодо поточного робочого каталогу, а потім [include\_path](ini.core.html#ini.include-path)
+Ім'я ini-файлу, що обробляється. Якщо використовується відносний шлях, він оцінюється щодо поточного робочого каталогу, а потім [includepath](ini.core.html#ini.include-path)
 
 `process_sections`
 
@@ -39,7 +39,7 @@ parse_ini_file(string $filename, bool $process_sections = false, int $scanner_mo
 
 `scanner_mode`
 
-Може приймати такі значення: **`INI_SCANNER_NORMAL`** (за замовчуванням) або **`INI_SCANNER_RAW`**. Якщо вказано значення **`INI_SCANNER_RAW`**то значення опцій не будуть оброблятися.
+Може приймати такі значення: **`INI_SCANNER_NORMAL`** (за замовчуванням) або **`INI_SCANNER_RAW`**. Якщо вказано значення \*\*`INI_SCANNER_RAW`\*\*то значення опцій не будуть оброблятися.
 
 З версії PHP 5.6.1 можна також задати **`INI_SCANNER_TYPED`**. У цьому режимі типи boolean, null і integer, по можливості, зберігатимуться. Строкові значення `"true"` `"on"` і `"yes"` будуть перетворені на **`true`**. . `"false"` `"off"` `"no"` і `"none"` в **`false`**. . `"null"` перетворюється на **`null`**. Крім цього, усі числові рядки будуть, по можливості, перетворені до цілих чисел.
 
@@ -187,7 +187,7 @@ echo '(loaded) magic_quotes_gpc = ' . yesno(get_cfg_var('magic_quotes_gpc'
 
 **Приклад #4 Інтерполяція значень**
 
-Крім оцінки констант, деякі символи мають особливе значення у значенні ini-файлів. Крім того, змінні середовища та раніше визначені параметри конфігурації (див. [get\_cfg\_var()](function.get-cfg-var.html)) можуть бути прочитані з використанням синтаксису `${}`
+Крім оцінки констант, деякі символи мають особливе значення у значенні ini-файлів. Крім того, змінні середовища та раніше визначені параметри конфігурації (див. [getcfgvar()](function.get-cfg-var.html)) можуть бути прочитані з використанням синтаксису `${}`
 
 ```
 ; | используется для побитового ИЛИ
@@ -263,4 +263,4 @@ code = "\${test}"
 
 ### Дивіться також
 
--   [parse\_ini\_string()](function.parse-ini-string.html) - Розбирає рядок конфігурації
+-   [parseinistring()](function.parse-ini-string.html) - Розбирає рядок конфігурації

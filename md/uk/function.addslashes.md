@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Екранує рядок за допомогою слішів
     
@@ -71,4 +71,4 @@ echo addslashes($str);
 -   [addcslashes()](function.addcslashes.html) - Екранує рядок слішами у стилі мови C
 -   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
 -   [quotemeta()](function.quotemeta.html) - Екранує спеціальні символи
--   [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

@@ -1,6 +1,6 @@
 Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
 
--   [« ParentIterator::\_\_construct](parentiterator.construct.html)
+-   [« ParentIterator::construct](parentiterator.construct.html)
     
 -   [ParentIterator::hasChildren »](parentiterator.haschildren.html)
     

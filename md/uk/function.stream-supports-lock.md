@@ -1,12 +1,12 @@
 Визначає, чи підтримує потік блокування
 
--   [« stream\_socket\_shutdown](function.stream-socket-shutdown.html)
+-   [« streamsocketshutdown](function.stream-socket-shutdown.html)
     
--   [stream\_wrapper\_register »](function.stream-wrapper-register.html)
+-   [streamwrapperregister »](function.stream-wrapper-register.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Визначає, чи підтримує потік блокування
     

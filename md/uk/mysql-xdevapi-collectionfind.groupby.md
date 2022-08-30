@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionFind](class.mysql-xdevapi-collectionfind.html)
+-   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     
 -   Встановлює критерії угруповання
     

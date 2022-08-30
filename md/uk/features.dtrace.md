@@ -1,12 +1,12 @@
 Динамічна трасування DTrace
 
--   [« Вопросы производительности](features.gc.performance-considerations.html)
+-   [« Питання продуктивності](features.gc.performance-considerations.html)
     
 -   [Введение в PHP и DTrace »](features.dtrace.introduction.html)
     
 -   [PHP Manual](index.html)
     
--   [Отличительные особенности](features.html)
+-   [Відмітні особливості](features.html)
     
 -   Динамічна трасування DTrace
     
@@ -17,4 +17,4 @@
 
 -   [Введение в PHP и DTrace](features.dtrace.introduction.html)
 -   [Использование PHP и DTrace](features.dtrace.dtrace.html)
--   [Использование SystemTap со статическими зондами PHP DTrace](features.dtrace.systemtap.html)
+-   [Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.html)

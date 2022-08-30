@@ -1,12 +1,12 @@
 Обчислення НОД та множників
 
--   [« gmp\_gcd](function.gmp-gcd.html)
+-   [« gmpgcd](function.gmp-gcd.html)
     
--   [gmp\_hamdist »](function.gmp-hamdist.html)
+-   [gmphamdist »](function.gmp-hamdist.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислення НОД та множників
     
@@ -25,7 +25,7 @@ gmp_gcdext(GMP|int|string $num1, GMP|int|string $num2): array
 
 Обчислює величини g, s та t, у вираженні `a*s + b*t = g = gcd(a,b)`, де gcd – найбільший спільний дільник. Повертає масив, значення якого відповідають значенням величин g, s та t.
 
-Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» страницу "Диофантово уравнение" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.html)
+Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» сторінку "Діофантове рівняння" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.html)
 
 ### Список параметрів
 

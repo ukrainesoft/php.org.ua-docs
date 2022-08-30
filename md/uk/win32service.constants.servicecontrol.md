@@ -2,7 +2,7 @@
 
 -   [« Константы статуса службы Win32Service](win32service.constants.servicestatus.html)
     
--   [Принимаемые битовые маски обработки сообщений службой Win32Service »](win32service.constants.controlsaccepted.html)
+-   [Приймаються бітові маски обробки повідомлень службою Win32Service »](win32service.constants.controlsaccepted.html)
     
 -   [PHP Manual](index.html)
     

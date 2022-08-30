@@ -1,12 +1,12 @@
 Функції GD та функції для роботи із зображеннями
 
--   [« Использование imagecopymerge создать полупрозрачный водяной знак](image.examples.merged-watermark.html)
+-   [« Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.html)
     
--   [gd\_info »](function.gd-info.html)
+-   [гдinfo »](function.gd-info.html)
     
 -   [PHP Manual](index.html)
     
--   [GD](book.image.html)
+-   [ДД](book.image.html)
     
 -   Функції GD та функції для роботи із зображеннями
     
@@ -15,11 +15,11 @@
 
 ## Зміст
 
--   [gd\_info](function.gd-info.html) — Виведення інформації про поточну встановлену GD бібліотеку
+-   [гдinfo](function.gd-info.html) — Виведення інформації про поточну встановлену GD бібліотеку
 -   [getimagesize](function.getimagesize.html) — Отримання розміру зображення
 -   [getimagesizefromstring](function.getimagesizefromstring.html) — Отримання розміру зображення з рядка даних
--   [image\_type\_to\_extension](function.image-type-to-extension.html) — Розширення файлу для типу зображення
--   [image\_type\_to\_mime\_type](function.image-type-to-mime-type.html) — Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [imagetypeтоextension](function.image-type-to-extension.html) — Розширення файлу для типу зображення
+-   [imagetypeтоmimetype](function.image-type-to-mime-type.html) — Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
 -   [image2wbmp](function.image2wbmp.html) — Виводить зображення до браузера або пише у файл
 -   [imageaffine](function.imageaffine.html) — Повернути зображення, яке містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
 -   [imageaffinematrixconcat](function.imageaffinematrixconcat.html) — Конкатенує дві афінні матриці перетворення

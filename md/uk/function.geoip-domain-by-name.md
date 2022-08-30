@@ -1,8 +1,8 @@
 Отримати ім'я домену другого рівня
 
--   [« geoip\_db\_get\_all\_info](function.geoip-db-get-all-info.html)
+-   [« geoipдбgetallinfo](function.geoip-db-get-all-info.html)
     
--   [geoip\_id\_by\_name »](function.geoip-id-by-name.html)
+-   [geoipідбname »](function.geoip-id-by-name.html)
     
 -   [PHP Manual](index.html)
     

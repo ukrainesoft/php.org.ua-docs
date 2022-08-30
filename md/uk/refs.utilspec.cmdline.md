@@ -1,6 +1,6 @@
 Модулі для роботи з командним рядком
 
--   [« radius\_strerror](function.radius-strerror.html)
+-   [« radiusstrerror](function.radius-strerror.html)
     
 -   [Readline »](book.readline.html)
     

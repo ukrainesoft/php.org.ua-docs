@@ -1,12 +1,12 @@
 Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
 
--   [« cubrid\_fetch\_assoc](function.cubrid-fetch-assoc.html)
+-   [« cubridfetchassoc](function.cubrid-fetch-assoc.html)
     
--   [cubrid\_fetch\_lengths »](function.cubrid-fetch-lengths.html)
+-   [cubridfetchlengths »](function.cubrid-fetch-lengths.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
     
@@ -81,7 +81,7 @@ cubrid_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 

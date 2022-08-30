@@ -1,8 +1,8 @@
 Шифрує повідомлення S/MIME
 
--   [« openssl\_pkcs7\_decrypt](function.openssl-pkcs7-decrypt.html)
+-   [« opensslpkcs7decrypt](function.openssl-pkcs7-decrypt.html)
     
--   [openssl\_pkcs7\_read »](function.openssl-pkcs7-read.html)
+-   [opensslpkcs7read »](function.openssl-pkcs7-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,7 +47,7 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 `cipher_algo`
 
-Одна з [констант шифров](openssl.ciphers.html)
+Одна з [констант шифрів](openssl.ciphers.html)
 
 ### Значення, що повертаються
 

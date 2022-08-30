@@ -1,12 +1,12 @@
 З'єднання під час виконання
 
--   [« parallel\\Runtime::close](parallel-runtime.close.html)
+-   [« parallelRuntime::close](parallel-runtime.close.html)
     
--   [parallel\\Future »](class.parallel-future.html)
+-   [parallelFuture »](class.parallel-future.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Runtime](class.parallel-runtime.html)
+-   [parallelRuntime](class.parallel-runtime.html)
     
 -   З'єднання під час виконання
     

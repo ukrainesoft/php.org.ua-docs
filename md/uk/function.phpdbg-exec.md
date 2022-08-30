@@ -1,8 +1,8 @@
 Спробувати задати контекст виконання
 
--   [« phpdbg\_end\_oplog](function.phpdbg-end-oplog.html)
+-   [« phpdbgendoplog](function.phpdbg-end-oplog.html)
     
--   [phpdbg\_get\_executable »](function.phpdbg-get-executable.html)
+-   [phpdbggetexecutable »](function.phpdbg-get-executable.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,4 +33,4 @@ phpdbg_exec(string $context): string|bool
 
 ### Значення, що повертаються
 
-Попередній контекст виконання, якщо він був заданий . **`true`**якщо контекст виконання раніше не був заданий. Якщо запит на встановлення контексту завершиться з помилкою, то буде повернено **`false`** та викликана помилка рівня **`E_WARNING`**
+Попередній контекст виконання, якщо він був заданий . \*\*`true`\*\*якщо контекст виконання раніше не був заданий. Якщо запит на встановлення контексту завершиться з помилкою, то буде повернено **`false`** та викликана помилка рівня **`E_WARNING`**

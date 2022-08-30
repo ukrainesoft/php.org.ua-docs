@@ -2,7 +2,7 @@
 
 -   [« exec](function.exec.html)
     
--   [proc\_close »](function.proc-close.html)
+-   [procclose »](function.proc-close.html)
     
 -   [PHP Manual](index.html)
     

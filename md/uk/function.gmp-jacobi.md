@@ -1,12 +1,12 @@
 Символ Якобі
 
--   [« gmp\_invert](function.gmp-invert.html)
+-   [« gmpinvert](function.gmp-invert.html)
     
--   [gmp\_kronecker »](function.gmp-kronecker.html)
+-   [gmpkronecker »](function.gmp-kronecker.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Символ Якобі
     
@@ -61,5 +61,5 @@ echo gmp_jacobi("2", "3") . "\n";
 
 ### Дивіться також
 
--   [gmp\_kronecker()](function.gmp-kronecker.html) - Символ Кронекера - Якобі
--   [gmp\_legendre()](function.gmp-legendre.html) - Символ Лежандра
+-   [gmpkronecker()](function.gmp-kronecker.html) - Символ Кронекера - Якобі
+-   [gmplegendre()](function.gmp-legendre.html) - Символ Лежандра

@@ -1,6 +1,6 @@
 Створення директорії
 
--   [« streamWrapper::dir\_rewinddir](streamwrapper.dir-rewinddir.html)
+-   [« streamWrapper::dirrewinddir](streamwrapper.dir-rewinddir.html)
     
 -   [streamWrapper::rename »](streamwrapper.rename.html)
     

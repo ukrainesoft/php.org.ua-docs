@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Перевіряє існування вказаної іменованої константи
     
@@ -27,7 +27,7 @@ defined(string $constant_name): bool
 
 > **Зауваження**
 > 
-> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.html), так як **defined()** застосовна лише для [констант](language.constants.html). Якщо вам необхідно дізнатися про існування функції, використовуйте [function\_exists()](function.function-exists.html)
+> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.html), так як **defined()** застосовна лише для [констант](language.constants.html). Якщо вам необхідно дізнатися про існування функції, використовуйте [functionexists()](function.function-exists.html)
 
 ### Список параметрів
 
@@ -57,6 +57,6 @@ if (defined('TEST')) {
 
 -   [define()](function.define.html) - визначає іменовану константу
 -   [constant()](function.constant.html) - Повертає значення константи
--   [get\_defined\_constants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
 -   Дивіться розділ [Константы](language.constants.html)

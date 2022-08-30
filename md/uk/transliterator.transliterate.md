@@ -89,4 +89,4 @@ echo transliterator_transliterate("Hex-Any/Java", $encSupplChar), "\n";
 ### Дивіться також
 
 -   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::\_\_construct()](transliterator.construct.html) - Приватний конструктор
+-   [Transliterator::construct()](transliterator.construct.html) - Приватний конструктор

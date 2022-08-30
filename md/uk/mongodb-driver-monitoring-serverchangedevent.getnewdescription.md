@@ -1,12 +1,12 @@
 Повертає новий опис сервера
 
--   [« MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.html)
+-   [« MongoDBDriverMonitoringServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPort »](mongodb-driver-monitoring-serverchangedevent.getport.html)
+-   [MongoDBDriverMonitoringServerChangedEvent::getPort »](mongodb-driver-monitoring-serverchangedevent.getport.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
+-   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
     
 -   Повертає новий опис сервера
     
@@ -29,8 +29,8 @@ final public MongoDB\Driver\Monitoring\ServerChangedEvent::getNewDescription(): 
 
 ### Значення, що повертаються
 
-Повертає новий опис ([MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)) сервера.
+Повертає новий опис ([MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)) сервера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

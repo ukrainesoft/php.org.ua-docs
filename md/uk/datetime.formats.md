@@ -1,6 +1,6 @@
 Допустимі формати дати/часу
 
--   [« timezone\_version\_get](function.timezone-version-get.html)
+-   [« timezoneversionget](function.timezone-version-get.html)
     
 -   [Форматы времени »](datetime.formats.time.html)
     
@@ -17,10 +17,10 @@
 
 -   [Форматы времени](datetime.formats.time.html)
 -   [Форматы даты](datetime.formats.date.html)
--   [Составные форматов](datetime.formats.compound.html)
--   [Относительные форматы](datetime.formats.relative.html)
+-   [Складові форматів](datetime.formats.compound.html)
+-   [Відносні формати](datetime.formats.relative.html)
 
-У цьому розділі описуються всі різні формати, які приймає парсер: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [date\_create\_immutable()](function.date-create-immutable.html) [date\_create()](function.date-create.html) [date\_parse()](function.date-parse.html) і [strtotime()](function.strtotime.html). Формати згруповані за розділами. У більшості випадків формати з різних розділів, розділені пробілом, комою або точкою, можуть використовуватися в одному і тому ж рядку дати/часу. Для кожного з підтримуваних форматів наведено один або кілька прикладів та опис формату. Символи в одинарних лапках нечутливі до регістру (`'t'` еквівалентно як `t`, так і `T`), символи в подвійних лапках чутливі до регістру (`"T"` означає тільки `T`
+У цьому розділі описуються всі різні формати, які приймає парсер: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [datecreateimmutable()](function.date-create-immutable.html) [datecreate()](function.date-create.html) [dateparse()](function.date-parse.html) і [strtotime()](function.strtotime.html). Формати згруповані за розділами. У більшості випадків формати з різних розділів, розділені пробілом, комою або точкою, можуть використовуватися в одному і тому ж рядку дати/часу. Для кожного з підтримуваних форматів наведено один або кілька прикладів та опис формату. Символи в одинарних лапках нечутливі до регістру (`'t'` еквівалентно як `t`, так і `T`), символи в подвійних лапках чутливі до регістру (`"T"` означає тільки `T`
 
 Слід взяти до уваги загальне склепіння правил.
 
@@ -28,7 +28,7 @@
     
 2.  Для секунд допускається значення 60, оскільки іноді рядки дати з цією секундою, що стрибає, дійсно з'являються. Але PHP реалізує час Unix, де "60" не є допустимим числом секунд і тому відбувається переповнення.
     
-3.  Функція [strtotime()](function.strtotime.html) повертає **`false`**, якщо якесь число знаходиться поза діапазонами, а конструктор [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html) викидає виняток.
+3.  Функція [strtotime()](function.strtotime.html) повертає **`false`**, якщо якесь число знаходиться поза діапазонами, а конструктор [DateTimeImmutable::construct()](datetimeimmutable.construct.html) викидає виняток.
     
 4.  Якщо рядок містить дату, то всі елементи часу обнулюються до 0.
     

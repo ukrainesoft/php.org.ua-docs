@@ -1,12 +1,12 @@
 Серіалізує MaxKey
 
--   [« MongoDB\\BSON\\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html)
+-   [« MongoDBBSONMaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html)
     
--   [MongoDB\\BSON\\MaxKey::unserialize »](mongodb-bson-maxkey.unserialize.html)
+-   [MongoDBBSONMaxKey::unserialize »](mongodb-bson-maxkey.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
+-   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
     
 -   Серіалізує MaxKey
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\MaxKey::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
+Повертає серіалізовану виставу [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\MaxKey::unserialize()](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
+-   [MongoDBBSONMaxKey::unserialize()](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

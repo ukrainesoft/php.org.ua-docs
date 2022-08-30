@@ -1,12 +1,12 @@
 Розбиває масив на частини
 
--   [« array\_change\_key\_case](function.array-change-key-case.html)
+-   [« arraychangekeycase](function.array-change-key-case.html)
     
--   [array\_column »](function.array-column.html)
+-   [arraycolumn »](function.array-column.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Розбиває масив на частини
     
@@ -112,4 +112,4 @@ Array
 
 ### Дивіться також
 
--   [array\_slice()](function.array-slice.html) - Вибирає зріз масиву
+-   [arrayslice()](function.array-slice.html) - Вибирає зріз масиву

@@ -2,7 +2,7 @@
 
 -   [« Списки рассылки](faq.mailinglist.html)
     
--   [Вопросы по базам данных »](faq.databases.html)
+-   [Питання щодо баз даних »](faq.databases.html)
     
 -   [PHP Manual](index.html)
     
@@ -16,12 +16,12 @@
 Цей розділ містить інформацію про те, де отримати PHP та питання, що стосуються OC.
 
 1.  [Где я могу взять PHP?](#faq.obtaining.where)
-2.  [Доступны ли прекомпилированная бинарная версия?](#faq.obtaining.precompiled)
-3.  [Где я могу достать библиотеки, необходимые для компиляции некоторых дополнительных модулей PHP?](#faq.obtaining.optional)
-4.  [Как подключить эти библиотеки?](#faq.obtaining.how)
-5.  [Я скачал последнюю версию исходных кодов PHP из Git-репозитория на мою машину Windows, как мне их скомпилировать?](#faq.obtaining.compilent)
-6.  [Где найти файл совместимости браузеров ?](#faq.obtaining.browscap)
-7.  [Что означает потокобезопасность при загрузке PHP?](#faq.obtaining.threadsafety)
+2.  [Чи доступна прекомпільована бінарна версія?](#faq.obtaining.precompiled)
+3.  [Де я можу отримати бібліотеки, необхідні для компіляції деяких додаткових модулів PHP?](#faq.obtaining.optional)
+4.  [Як підключити ці бібліотеки?](#faq.obtaining.how)
+5.  [Я скачав останню версію вихідних кодів PHP з Git-репозиторію на мою машину Windows, як мені їх скомпілювати?](#faq.obtaining.compilent)
+6.  [Де знайти файл сумісності браузерів?](#faq.obtaining.browscap)
+7.  [Що означає потокобезпека під час завантаження PHP?](#faq.obtaining.threadsafety)
 
 **Де я можу взяти PHP?**
 
@@ -37,14 +37,14 @@
 
 -   [» LDAP (Unix)](https://www.openldap.org/software/download/)
 -   [» LDAP (Unix/Win)](https://wiki.mozilla.org/LDAP_C_SDK) : Mozilla Directory (LDAP) SDK
--   [» бесплатный LDAP сервер](http://www.bind9.net/download-openldap/)
+-   [» безкоштовний LDAP сервер](http://www.bind9.net/download-openldap/)
 -   [» Berkeley DB2 (Unix/Win)](http://www.sleepycat.com/) [http://www.sleepycat.com/](http://www.sleepycat.com/)
--   [» SNMP\* (Unix):](http://www.net-snmp.org/)
+-   [» SNMP(Unix):](http://www.net-snmp.org/)
 -   [» GD (Unix/Win)](http://www.libgd.org/)
--   [» mSQL\* (Unix)](https://hughestech.com.au/products/msql/)
+-   [» mSQL(Unix)](https://hughestech.com.au/products/msql/)
 -   [» PostgreSQL (Unix)](http://www.postgresql.org/)
--   [» IMAP\* (Win/Unix)](https://github.com/uw-imap/imap)
--   [» Sybase-CT\* (Linux, libc5)](http://www.sybase.com/) : Available locally.
+-   [» IMAP(Win/Unix)](https://github.com/uw-imap/imap)
+-   [» Sybase-CT(Linux, libc5)](http://www.sybase.com/) : Available locally.
 -   [» FreeType (libttf):](http://www.freetype.org/)
 -   [» ZLib (Unix/Win32)](http://www.zlib.net/)
 -   [» expat XML parser (Unix/Win32)](http://www.jclark.com/xml/expat.html)

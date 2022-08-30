@@ -1,12 +1,12 @@
 dBase
 
--   [« cubrid\_send\_glo](function.cubrid-send-glo.html)
+-   [« cubridsendglo](function.cubrid-send-glo.html)
     
 -   [Введение »](intro.dbase.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с базами данных отдельных производителей](refs.database.vendors.html)
+-   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
     
 -   dBase
     
@@ -21,15 +21,15 @@ dBase
     -   [Типы ресурсов](dbase.resources.html)
 -   [Предопределённые константы](dbase.constants.html)
 -   [dBase](ref.dbase.html)
-    -   [dbase\_add\_record](function.dbase-add-record.html) — Додає запис до бази даних
-    -   [dbase\_close](function.dbase-close.html) — Закриває базу даних
-    -   [dbase\_create](function.dbase-create.html) - Створює базу даних
-    -   [dbase\_delete\_record](function.dbase-delete-record.html) — Видалення записів із бази даних
-    -   [dbase\_get\_header\_info](function.dbase-get-header-info.html) — Отримує інформацію про властивості полів бази даних
-    -   [dbase\_get\_record\_with\_names](function.dbase-get-record-with-names.html) — Отримує запис із бази даних у вигляді асоціативного масиву
-    -   [dbase\_get\_record](function.dbase-get-record.html) — Отримує записи з бази даних, як із індексованого масиву
-    -   [dbase\_numfields](function.dbase-numfields.html) — Отримує кількість полів бази даних
-    -   [dbase\_numrecords](function.dbase-numrecords.html) — Отримує кількість записів у базі даних
-    -   [dbase\_open](function.dbase-open.html) — Відкриває базу даних
-    -   [dbase\_pack](function.dbase-pack.html) - Фіксує видалення з бази даних
-    -   [dbase\_replace\_record](function.dbase-replace-record.html) — Замінює запис у базі даних
+    -   [dbaseaddrecord](function.dbase-add-record.html) — Додає запис до бази даних
+    -   [dbaseclose](function.dbase-close.html) — Закриває базу даних
+    -   [dbasecreate](function.dbase-create.html) - Створює базу даних
+    -   [dbasedeleterecord](function.dbase-delete-record.html) — Видалення записів із бази даних
+    -   [dbasegetheaderinfo](function.dbase-get-header-info.html) — Отримує інформацію про властивості полів бази даних
+    -   [dbasegetrecordwithnames](function.dbase-get-record-with-names.html) — Отримує запис із бази даних у вигляді асоціативного масиву
+    -   [dbasegetrecord](function.dbase-get-record.html) — Отримує записи з бази даних, як із індексованого масиву
+    -   [dbasenumfields](function.dbase-numfields.html) — Отримує кількість полів бази даних
+    -   [dbasenumrecords](function.dbase-numrecords.html) — Отримує кількість записів у базі даних
+    -   [dbaseopen](function.dbase-open.html) — Відкриває базу даних
+    -   [dbasepack](function.dbase-pack.html) - Фіксує видалення з бази даних
+    -   [dbasereplacerecord](function.dbase-replace-record.html) — Замінює запис у базі даних

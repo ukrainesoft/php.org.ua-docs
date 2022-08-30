@@ -1,12 +1,12 @@
 Реєструє функцію PHP для створення документації
 
--   [« xmlrpc\_server\_destroy](function.xmlrpc-server-destroy.html)
+-   [« xmlrpcserverdestroy](function.xmlrpc-server-destroy.html)
     
--   [xmlrpc\_server\_register\_method »](function.xmlrpc-server-register-method.html)
+-   [xmlrpcserverregistermethod »](function.xmlrpc-server-register-method.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Реєструє функцію PHP для створення документації
     

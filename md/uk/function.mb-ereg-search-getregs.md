@@ -1,12 +1,12 @@
 Виводить результат останнього порівняння з регулярним виразом
 
--   [« mb\_ereg\_search\_getpos](function.mb-ereg-search-getpos.html)
+-   [« mberegsearchgetpos](function.mb-ereg-search-getpos.html)
     
--   [mb\_ereg\_search\_init »](function.mb-ereg-search-init.html)
+-   [мбeregsearchinit »](function.mb-ereg-search-init.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Виводить результат останнього порівняння з регулярним виразом
     
@@ -31,15 +31,15 @@ mb_ereg_search_getregs(): array|false
 
 ### Значення, що повертаються
 
-Масив (array) містить підрядки, що збіглися з регулярним виразом, в результаті виконання функцій [mb\_ereg\_search()](function.mb-ereg-search.html) [mb\_ereg\_search\_pos()](function.mb-ereg-search-pos.html) [mb\_ereg\_search\_regs()](function.mb-ereg-search-regs.html). Якщо збігів кілька, то перший елемент міститиме співпадаючий підрядок, другий міститиме першу частину в квадратних дужках, третій елемент міститиме другу частину в квадратних дужках і так далі. Функція поверне **`false`** у разі виникнення помилки.
+Масив (array) містить підрядки, що збіглися з регулярним виразом, в результаті виконання функцій [мбeregsearch()](function.mb-ereg-search.html) [мбeregsearchpos()](function.mb-ereg-search-pos.html) [мбeregsearchregs()](function.mb-ereg-search-regs.html). Якщо збігів кілька, то перший елемент міститиме співпадаючий підрядок, другий міститиме першу частину в квадратних дужках, третій елемент міститиме другу частину в квадратних дужках і так далі. Функція поверне **`false`** у разі виникнення помилки.
 
 ### Примітки
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_ereg\_search\_init()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregsearchinit()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу

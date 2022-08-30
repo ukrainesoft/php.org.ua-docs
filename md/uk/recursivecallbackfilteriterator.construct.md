@@ -31,7 +31,7 @@ public **RecursiveCallbackFilterIterator::construct**[RecursiveIterator](class.r
 
 `callback`
 
-Callback-функція, яка має повертати **`true`**, якщо поточний елемент підходить під умови фільтра, та **`false`**якщо елемент потрібно виключити з перебору. Дивіться [Примеры](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
+Callback-функція, яка має повертати **`true`**, якщо поточний елемент підходить під умови фільтра, та \*\*`false`\*\*якщо елемент потрібно виключити з перебору. Дивіться [Примеры](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
 
 Може бути будь-яким допустимим [callable](language.types.callable.html) значенням.
 

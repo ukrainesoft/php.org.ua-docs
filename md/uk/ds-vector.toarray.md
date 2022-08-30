@@ -1,8 +1,8 @@
 Перетворює колекцію на масив (array)
 
--   [« Ds\\Vector::sum](ds-vector.sum.html)
+-   [« DsVector::sum](ds-vector.sum.html)
     
--   [Ds\\Vector::unshift »](ds-vector.unshift.html)
+-   [ДсVector::unshift »](ds-vector.unshift.html)
     
 -   [PHP Manual](index.html)
     

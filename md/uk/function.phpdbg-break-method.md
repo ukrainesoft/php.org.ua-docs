@@ -1,8 +1,8 @@
 Додати точку переривання на виклик методу класу
 
--   [« phpdbg\_break\_function](function.phpdbg-break-function.html)
+-   [« phpdbgbreakfunction](function.phpdbg-break-function.html)
     
--   [phpdbg\_break\_next »](function.phpdbg-break-next.html)
+-   [phpdbgbreaknext »](function.phpdbg-break-next.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ phpdbg_break_method(string $class, string $method): void
 
 ### Дивіться також
 
--   [phpdbg\_break\_file()](function.phpdbg-break-file.html) - Додати точку переривання на конкретний рядок файлу
--   [phpdbg\_break\_function()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
--   [phpdbg\_break\_next()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
--   [phpdbg\_clear()](function.phpdbg-clear.html) - Прибрати всі точки переривання
+-   [phpdbgbreakfile()](function.phpdbg-break-file.html) - Додати точку переривання на конкретний рядок файлу
+-   [phpdbgbreakfunction()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
+-   [phpdbgbreaknext()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
+-   [phpdbgclear()](function.phpdbg-clear.html) - Прибрати всі точки переривання

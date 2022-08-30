@@ -2,7 +2,7 @@
 
 -   [« EventBuffer::addBuffer](eventbuffer.addbuffer.html)
     
--   [EventBuffer::\_\_construct »](eventbuffer.construct.html)
+-   [EventBuffer::construct »](eventbuffer.construct.html)
     
 -   [PHP Manual](index.html)
     

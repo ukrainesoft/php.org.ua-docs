@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає позицію першого входження підрядка без урахування регістру
     
@@ -51,7 +51,7 @@ stripos(string $haystack, string $needle, int $offset = 0): int|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
@@ -93,13 +93,13 @@ if ($pos2 !== false) {
 
 ### Дивіться також
 
--   [mb\_stripos()](function.mb-stripos.html) - Реєстронезалежний пошук позиції першого входження одного рядка в інший
--   [str\_contains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
--   [str\_ends\_with()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
--   [str\_starts\_with()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
+-   [мбstripos()](function.mb-stripos.html) - Реєстронезалежний пошук позиції першого входження одного рядка в інший
+-   [strcontains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
+-   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strstartswith()](function.str-starts-with.html) - Перевіряє, чи починається рядок із заданого підрядка
 -   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
 -   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
 -   [strripos()](function.strripos.html) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [stristr()](function.stristr.html) - Реєстронезалежний варіант функції strstr
 -   [substr()](function.substr.html) - Повертає підрядок
--   [str\_ireplace()](function.str-ireplace.html) - Реєстронезалежний варіант функції strreplace
+-   [strireplace()](function.str-ireplace.html) - Реєстронезалежний варіант функції strreplace

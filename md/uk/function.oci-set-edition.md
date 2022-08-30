@@ -1,8 +1,8 @@
 Задає випуск бази даних
 
--   [« oci\_set\_db\_operation](function.oci-set-db-operation.html)
+-   [« ocisetдбoperation](function.oci-set-db-operation.html)
     
--   [oci\_set\_module\_name »](function.oci-set-module-name.html)
+-   [ocisetmodulename »](function.oci-set-module-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ oci_set_edition(string $edition): bool
 
 Подібні "випуски" Oracle дозволяють запускати програми, що використовують однакові схеми та імена об'єктів у конкурентному режимі. Це може бути корисним при модернізації працюючих систем без їх відключення.
 
-Викликайте **ocisetedition()** до виклику [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html) або [oci\_new\_connect()](function.oci-new-connect.html)
+Викликайте **ocisetedition()** до виклику [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.html)
 
 Якщо заданий випуск неприпустимий у базі даних, з'єднання не встановлюватиметься, навіть якщо функція **ocisetedition()** успішно виконається.
 
@@ -99,4 +99,4 @@ echo "Результат: $r\n";
 
 # DRCP об'єднання з'єднань у пул
 
-Щоб уникнути несумісності та випадкових помилок при використанні серій та [DRCP](oci8.connection.html) в Oracle 11.2.0.1 дотримуйтесь однозначної відповідності між [oci8.connection\_class](oci8.configuration.html#ini.oci8.connection-class) та ім'ям "випуску", яким користуються додатки. Кожен сервер, що входить до складу пулу із заданим класом з'єднань, повинен використовуватися лише з одним "випуском". Це обмеження усунуто у версії Oracle 11.2.0.2.
+Щоб уникнути несумісності та випадкових помилок при використанні серій та [DRCP](oci8.connection.html) в Oracle 11.2.0.1 дотримуйтесь однозначної відповідності між [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class) та ім'ям "випуску", яким користуються додатки. Кожен сервер, що входить до складу пулу із заданим класом з'єднань, повинен використовуватися лише з одним "випуском". Це обмеження усунуто у версії Oracle 11.2.0.2.

@@ -1,8 +1,8 @@
 Змінює власника файлу
 
--   [« eio\_fchmod](function.eio-fchmod.html)
+-   [« eiofchmod](function.eio-fchmod.html)
     
--   [eio\_fdatasync »](function.eio-fdatasync.html)
+-   [eiofdatasync »](function.eio-fdatasync.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -69,8 +69,8 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-[eio\_chmod()](function.eio-chmod.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+[eiochmod()](function.eio-chmod.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [eio\_fchmod()](function.eio-fchmod.html) - Змінює права доступу до файлу
+-   [eiofchmod()](function.eio-fchmod.html) - Змінює права доступу до файлу

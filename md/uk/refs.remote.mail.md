@@ -18,7 +18,7 @@
     -   [Установка и настройка](imap.setup.html)
     -   [Предопределённые константы](imap.constants.html)
     -   [Функции IMAP](ref.imap.html)
-    -   [IMAP\\Connection](class.imap-connection.html) - Клас IMAPConnection
+    -   [IMAPConnection](class.imap-connection.html) - Клас IMAPConnection
 -   [Mail](book.mail.html)
     -   [Введение](intro.mail.html)
     -   [Установка и настройка](mail.setup.html)

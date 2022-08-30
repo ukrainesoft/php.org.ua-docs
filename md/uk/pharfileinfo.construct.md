@@ -31,7 +31,7 @@ public **PharFileInfo::construct**(string `$filename`
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо [\_\_construct()](language.oop5.decon.html#object.construct) викликаний двічі. Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо запитаний URL некоректний, phar-архів неможливо відкрити або якщо вказаний файл відсутній в архіві.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо [construct()](language.oop5.decon.html#object.construct) викликаний двічі. Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо запитаний URL некоректний, phar-архів неможливо відкрити або якщо вказаний файл відсутній в архіві.
 
 ### Приклади
 

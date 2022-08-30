@@ -2,11 +2,11 @@
 
 -   [« closelog](function.closelog.html)
     
--   [dns\_get\_mx »](function.dns-get-mx.html)
+-   [dnsgetmx »](function.dns-get-mx.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Псевдонім checkdnsrr
     

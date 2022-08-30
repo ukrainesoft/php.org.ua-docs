@@ -2,11 +2,11 @@
 
 -   [« Операторы исполнения](language.operators.execution.html)
     
--   [Логические операторы »](language.operators.logical.html)
+-   [Логічні оператори »](language.operators.logical.html)
     
 -   [PHP Manual](index.html)
     
--   [Операторы](language.operators.html)
+-   [Оператори](language.operators.html)
     
 -   Оператори інкременту та декременту
     

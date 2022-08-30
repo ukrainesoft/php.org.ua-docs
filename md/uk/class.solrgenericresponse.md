@@ -2,7 +2,7 @@
 
 -   [« SolrPingResponse::getResponse](solrpingresponse.getresponse.html)
     
--   [SolrGenericResponse::\_\_construct »](solrgenericresponse.construct.html)
+-   [SolrGenericResponse::construct »](solrgenericresponse.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -125,5 +125,5 @@ public SolrResponse::success(): bool
 
 ## Зміст
 
--   [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.html) - Конструктор
--   [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.html) - Деструктор
+-   [SolrGenericResponse::construct](solrgenericresponse.construct.html) - Конструктор
+-   [SolrGenericResponse::destruct](solrgenericresponse.destruct.html) - Деструктор

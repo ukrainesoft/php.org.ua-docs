@@ -1,8 +1,8 @@
 Мінус-спрямований індикатор
 
--   [« trader\_minmaxindex](function.trader-minmaxindex.html)
+-   [« traderminmaxindex](function.trader-minmaxindex.html)
     
--   [trader\_minus\_dm »](function.trader-minus-dm.html)
+-   [traderminusdm »](function.trader-minus-dm.html)
     
 -   [PHP Manual](index.html)
     

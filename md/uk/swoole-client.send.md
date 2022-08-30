@@ -1,12 +1,12 @@
 Надсилає дані у віддалений TCP-сокет
 
--   [« Swoole\\Client::resume](swoole-client.resume.html)
+-   [« SwooleClient::resume](swoole-client.resume.html)
     
--   [Swoole\\Client::sendfile »](swoole-client.sendfile.html)
+-   [SwooleClient::sendfile »](swoole-client.sendfile.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Надсилає дані у віддалений TCP-сокет
     

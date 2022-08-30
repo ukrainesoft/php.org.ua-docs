@@ -2,7 +2,7 @@
 
 -   [« IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.html)
     
--   [IntlTimeZone::\_\_construct »](intltimezone.construct.html)
+-   [IntlTimeZone::construct »](intltimezone.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -81,7 +81,7 @@ public useDaylightTime(): bool
 
 ## Зміст
 
--   [IntlTimeZone::\_\_construct](intltimezone.construct.html) - Конструктор класу, який забороняє пряме створення екземпляра
+-   [IntlTimeZone::construct](intltimezone.construct.html) - Конструктор класу, який забороняє пряме створення екземпляра
 -   [IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.html) — Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
 -   [IntlTimeZone::createDefault](intltimezone.createdefault.html) — Створити нову копію часового поясу за промовчанням для поточного хоста
 -   [IntlTimeZone::createEnumeration](intltimezone.createenumeration.html) — Отримати перерахування з ідентифікаторів часових поясів за вказаною країною чи усунення

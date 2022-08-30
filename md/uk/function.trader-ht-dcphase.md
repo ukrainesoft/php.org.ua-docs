@@ -1,8 +1,8 @@
 Перетворення Гільберта - Фаза домінуючого циклу
 
--   [« trader\_ht\_dcperiod](function.trader-ht-dcperiod.html)
+-   [« traderхтdcperiod](function.trader-ht-dcperiod.html)
     
--   [trader\_ht\_phasor »](function.trader-ht-phasor.html)
+-   [traderхтphasor »](function.trader-ht-phasor.html)
     
 -   [PHP Manual](index.html)
     

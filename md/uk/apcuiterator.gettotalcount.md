@@ -41,4 +41,4 @@ public APCUIterator::getTotalCount(): int
 
 -   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.html) - Отримати загальну кількість влучень у кеш
 -   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.html) - Загальний розмір кешу
--   [apcu\_cache\_info()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu

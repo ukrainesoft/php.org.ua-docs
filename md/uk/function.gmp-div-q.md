@@ -1,12 +1,12 @@
 Розподіл чисел
 
--   [« gmp\_com](function.gmp-com.html)
+-   [« gmpcom](function.gmp-com.html)
     
--   [gmp\_div\_qr »](function.gmp-div-qr.html)
+-   [gmpdivqr »](function.gmp-div-qr.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Розподіл чисел
     
@@ -90,9 +90,9 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 > **Зауваження**
 > 
-> Ця функція має псевдонім [gmp\_div()](function.gmp-div.html)
+> Ця функція має псевдонім [gmpdiv()](function.gmp-div.html)
 
 ### Дивіться також
 
--   [gmp\_div\_r()](function.gmp-div-r.html) - Залишок від розподілу чисел
--   [gmp\_div\_qr()](function.gmp-div-qr.html) - Поділ чисел та отримання приватного та залишку
+-   [gmpdivr()](function.gmp-div-r.html) - Залишок від розподілу чисел
+-   [gmpdivqr()](function.gmp-div-qr.html) - Поділ чисел та отримання приватного та залишку

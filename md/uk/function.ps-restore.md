@@ -1,12 +1,12 @@
 Відновлює раніше збережений контекст
 
--   [« ps\_rect](function.ps-rect.html)
+-   [«psrect](function.ps-rect.html)
     
--   [ps\_rotate »](function.ps-rotate.html)
+-   [псrotate »](function.ps-rotate.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Відновлює раніше збережений контекст
     
@@ -23,13 +23,13 @@
 ps_restore(resource $psdoc): bool
 ```
 
-Відновлює раніше збережений графічний контекст. Будь-який виклик [ps\_save()](function.ps-save.html) повинен супроводжуватись викликом **псrestore()**. Усі перетворення координат, налаштування стилю ліній, налаштування кольору тощо. відновлюються до стану до дзвінка [ps\_save()](function.ps-save.html)
+Відновлює раніше збережений графічний контекст. Будь-який виклик [псsave()](function.ps-save.html) повинен супроводжуватись викликом **псrestore()**. Усі перетворення координат, налаштування стилю ліній, налаштування кольору тощо. відновлюються до стану до дзвінка [псsave()](function.ps-save.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_restore(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_save()](function.ps-save.html) - Зберігає поточний контекст
+-   [псsave()](function.ps-save.html) - Зберігає поточний контекст

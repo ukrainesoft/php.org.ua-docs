@@ -1,12 +1,12 @@
 Намалювати прямокутник
 
--   [« UI\\Draw\\Path](class.ui-draw-path.html)
+-   [« UIDrawPath](class.ui-draw-path.html)
     
--   [UI\\Draw\\Path::arcTo »](ui-draw-path.arcto.html)
+-   [ОЙDrawPath::arcTo »](ui-draw-path.arcto.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Намалювати прямокутник
     

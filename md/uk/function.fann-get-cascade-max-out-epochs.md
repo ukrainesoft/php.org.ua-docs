@@ -1,8 +1,8 @@
 Повертає максимальну кількість періодів
 
--   [« fann\_get\_cascade\_max\_cand\_epochs](function.fann-get-cascade-max-cand-epochs.html)
+-   [« fanngetcascademaxcandepochs](function.fann-get-cascade-max-cand-epochs.html)
     
--   [fann\_get\_cascade\_min\_cand\_epochs »](function.fann-get-cascade-min-cand-epochs.html)
+-   [fanngetcascademincandepochs »](function.fann-get-cascade-min-cand-epochs.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ fann_get_cascade_max_out_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_set\_cascade\_max\_out\_epochs()](function.fann-set-cascade-max-out-epochs.html) - Встановлює максимальну кількість епох
+-   [fannsetcascademaxoutepochs()](function.fann-set-cascade-max-out-epochs.html) - Встановлює максимальну кількість епох

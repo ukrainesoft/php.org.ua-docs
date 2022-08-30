@@ -1,8 +1,8 @@
 Арифметичний вектор зведення в ступінь
 
--   [« trader\_errno](function.trader-errno.html)
+-   [« tradererrno](function.trader-errno.html)
     
--   [trader\_floor »](function.trader-floor.html)
+-   [traderfloor »](function.trader-floor.html)
     
 -   [PHP Manual](index.html)
     

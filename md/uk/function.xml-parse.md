@@ -1,8 +1,8 @@
 Запускає аналіз XML-документа
 
--   [« xml\_parse\_into\_struct](function.xml-parse-into-struct.html)
+-   [« xmlparseintostruct](function.xml-parse-into-struct.html)
     
--   [xml\_parser\_create\_ns »](function.xml-parser-create-ns.html)
+-   [xmlparsercreatens »](function.xml-parser-create-ns.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 Повертає 1 при успішному завершенні, 0 інакше.
 
-У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xml\_get\_error\_code()](function.xml-get-error-code.html) [xml\_error\_string()](function.xml-error-string.html) [xml\_get\_current\_line\_number()](function.xml-get-current-line-number.html) [xml\_get\_current\_column\_number()](function.xml-get-current-column-number.html) і [xml\_get\_current\_byte\_index()](function.xml-get-current-byte-index.html)
+У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xmlgeterrorcode()](function.xml-get-error-code.html) [xmlerrorstring()](function.xml-error-string.html) [xmlgetcurrentlinenumber()](function.xml-get-current-line-number.html) [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.html) і [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.html)
 
 > **Зауваження**
 > 

@@ -1,8 +1,8 @@
 Повертає довжину вказаного поля
 
--   [« mysql\_field\_flags](function.mysql-field-flags.html)
+-   [« mysqlfieldflags](function.mysql-field-flags.html)
     
--   [mysql\_field\_name »](function.mysql-field-name.html)
+-   [mysqlfieldname »](function.mysql-field-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlfieldlen — Повертає довжину вказаного поля
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.html) length
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) length
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) len
 
 ### Опис
@@ -36,7 +36,7 @@ mysql_field_len(resource $result, int $field_offset): int|false
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 
@@ -72,5 +72,5 @@ echo $length;
 
 ### Дивіться також
 
--   [mysql\_fetch\_lengths()](function.mysql-fetch-lengths.html) - Повертає довжину кожного поля в результаті
+-   [mysqlfetchlengths()](function.mysql-fetch-lengths.html) - Повертає довжину кожного поля в результаті
 -   [strlen()](function.strlen.html) - Повертає довжину рядка

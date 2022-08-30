@@ -1,8 +1,8 @@
 Тригонометричний вектор Тан
 
--   [« trader\_tan](function.trader-tan.html)
+-   [« tradertan](function.trader-tan.html)
     
--   [trader\_tema »](function.trader-tema.html)
+-   [tradertema »](function.trader-tema.html)
     
 -   [PHP Manual](index.html)
     

@@ -31,7 +31,7 @@ public IntlCalendar::getType(): string
 intlcal_get_type(IntlCalendar $calendar): string
 ```
 
-Рядок, що описує тип календаря. Одне з [допустимых значений](intlcalendar.getkeywordvaluesforlocale.html) для значення ключового слова календаря `'calendar'`
+Рядок, що описує тип календаря. Одне з [допустимих значень](intlcalendar.getkeywordvaluesforlocale.html) для значення ключового слова календаря `'calendar'`
 
 ### Список параметрів
 

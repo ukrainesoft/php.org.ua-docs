@@ -1,8 +1,8 @@
 Свічкова модель "На лінії шиї"
 
--   [« trader\_cdlidentical3crows](function.trader-cdlidentical3crows.html)
+-   [« tradercdlidentical3crows](function.trader-cdlidentical3crows.html)
     
--   [trader\_cdlinvertedhammer »](function.trader-cdlinvertedhammer.html)
+-   [tradercdlinvertedhammer »](function.trader-cdlinvertedhammer.html)
     
 -   [PHP Manual](index.html)
     

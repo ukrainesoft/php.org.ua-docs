@@ -1,12 +1,12 @@
 Повертає кількість рядків, отриманих із сервера
 
--   [« mysqli\_stmt::next\_result](mysqli-stmt.next-result.html)
+-   [« mysqlistmt::nextresult](mysqli-stmt.next-result.html)
     
--   [mysqli\_stmt::$param\_count »](mysqli-stmt.param-count.html)
+-   [mysqlistmt::$paramcount »](mysqli-stmt.param-count.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Повертає кількість рядків, отриманих із сервера
     
@@ -25,7 +25,7 @@ mysqlistmt::$numrows - mysqlistmt::numrows - mysqlistmtnumrows — Поверт�
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli\_stmt->num\_rows](mysqli-stmt.num-rows.html)
+int|string [$mysqlistmt->numrows](mysqli-stmt.num-rows.html)
 
 ```methodsynopsis
 public mysqli_stmt::num_rows(): int|string
@@ -37,7 +37,7 @@ public mysqli_stmt::num_rows(): int|string
 mysqli_stmt_num_rows(mysqli_stmt $statement): int|string
 ```
 
-Повертає кількість рядків, поміщених у буфер у виразі. Функція працюватиме лише після виклику [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) для буферизації всього набору результатів у дескрипторі оператора.
+Повертає кількість рядків, поміщених у буфер у виразі. Функція працюватиме лише після виклику [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) для буферизації всього набору результатів у дескрипторі оператора.
 
 Функція повертає `0`, якщо з сервера не було отримано всі рядки.
 
@@ -45,7 +45,7 @@ mysqli_stmt_num_rows(mysqli_stmt $statement): int|string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -101,6 +101,6 @@ printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 
 ### Дивіться також
 
--   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
--   [mysqli\_stmt\_affected\_rows()](mysqli-stmt.affected-rows.html) - Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlistmtstoreresult()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqlistmtaffectedrows()](mysqli-stmt.affected-rows.html) - Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання

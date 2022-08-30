@@ -1,8 +1,8 @@
 Повертає інформацію про використання процесорного часу
 
--   [« posix\_strerror](function.posix-strerror.html)
+-   [« posixstrerror](function.posix-strerror.html)
     
--   [posix\_ttyname »](function.posix-ttyname.html)
+-   [posixttyname »](function.posix-ttyname.html)
     
 -   [PHP Manual](index.html)
     

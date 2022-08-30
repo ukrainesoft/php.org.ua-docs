@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getArrayElementType](ffi-ctype.getarrayelementtype.html)
+-   [« FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.html)
     
--   [FFI\\CType::getAttributes »](ffi-ctype.getattributes.html)
+-   [FFICType::getAttributes »](ffi-ctype.getattributes.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

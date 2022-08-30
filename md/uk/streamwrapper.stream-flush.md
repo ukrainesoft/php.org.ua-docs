@@ -1,8 +1,8 @@
 Скидає висновок
 
--   [« streamWrapper::stream\_eof](streamwrapper.stream-eof.html)
+-   [« streamWrapper::streameof](streamwrapper.stream-eof.html)
     
--   [streamWrapper::stream\_lock »](streamwrapper.stream-lock.html)
+-   [streamWrapper::streamlock »](streamwrapper.stream-lock.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ public streamWrapper::stream_flush(): bool
 
 ### Значення, що повертаються
 
-Повинен повертати **`true`**, якщо кешовані дані успішно збережені (або їх взагалі немає), або **`false`**якщо дані не можуть бути збережені.
+Повинен повертати **`true`**, якщо кешовані дані успішно збережені (або їх взагалі немає), або \*\*`false`\*\*якщо дані не можуть бути збережені.
 
 ### Примітки
 

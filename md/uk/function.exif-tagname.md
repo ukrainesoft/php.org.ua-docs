@@ -1,12 +1,12 @@
 Отримання імені заголовка за його індексом
 
--   [« exif\_read\_data](function.exif-read-data.html)
+-   [« exifreaddata](function.exif-read-data.html)
     
--   [exif\_thumbnail »](function.exif-thumbnail.html)
+-   [exifthumbnail »](function.exif-thumbnail.html)
     
 -   [PHP Manual](index.html)
     
--   [Exif Функции](ref.exif.html)
+-   [Exif Функції](ref.exif.html)
     
 -   Отримання імені заголовка за його індексом
     
@@ -53,6 +53,6 @@ echo "257: ".exif_tagname(257).PHP_EOL;
 
 ### Дивіться також
 
--   [exif\_imagetype()](function.exif-imagetype.html) - Визначте тип зображення.
+-   [exifimagetype()](function.exif-imagetype.html) - Визначте тип зображення.
 -   [» EXIF спецификация](http://exif.org/Exif2-2.PDF)
 -   [» EXIF теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.html)

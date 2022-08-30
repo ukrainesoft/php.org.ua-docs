@@ -1,12 +1,12 @@
 Перемотує двосторонню чергу на задану кількість значень
 
--   [« Ds\\Deque::reversed](ds-deque.reversed.html)
+-   [« DsDeque::reversed](ds-deque.reversed.html)
     
--   [Ds\\Deque::set »](ds-deque.set.html)
+-   [ДсDeque::set »](ds-deque.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Перемотує двосторонню чергу на задану кількість значень
     

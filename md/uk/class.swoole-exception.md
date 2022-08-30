@@ -1,8 +1,8 @@
 Клас SwooleException
 
--   [« Swoole\\Event::write](swoole-event.write.html)
+-   [« SwooleEvent::write](swoole-event.write.html)
     
--   [Swoole\\Http\\Client »](class.swoole-http-client.html)
+-   [SwooleHttpClient »](class.swoole-http-client.html)
     
 -   [PHP Manual](index.html)
     

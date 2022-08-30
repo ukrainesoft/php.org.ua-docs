@@ -1,12 +1,12 @@
 Обрізати шлях
 
--   [« UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [« UIDrawPen](class.ui-draw-pen.html)
     
--   [UI\\Draw\\Pen::fill »](ui-draw-pen.fill.html)
+-   [ОЙDrawPen::fill »](ui-draw-pen.fill.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+-   [ОЙDrawPen](class.ui-draw-pen.html)
     
 -   Обрізати шлях
     

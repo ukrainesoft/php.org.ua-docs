@@ -1,12 +1,12 @@
 Повертає подання BSON значення JSON
 
--   [« Функции](ref.bson.functions.html)
+-   [« Функції](ref.bson.functions.html)
     
--   [MongoDB\\BSON\\fromPHP »](function.mongodb.bson-fromphp.html)
+-   [MongoDBBSONfromPHP »](function.mongodb.bson-fromphp.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.html)
     
 -   Повертає подання BSON значення JSON
     
@@ -37,7 +37,7 @@ MongoDB\BSON\fromJSON(string $json): string
 
 ### Помилки
 
--   Видає [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення JSON не може бути перетворено на BSON (наприклад, через синтаксичну помилку).
+-   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення JSON не може бути перетворено на BSON (наприклад, через синтаксичну помилку).
 
 ### Приклади
 
@@ -68,6 +68,6 @@ object(stdClass)#2 (1) {
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\toJSON()](function.mongodb.bson-tojson.html) - Повертає Legacy Extended JSON подання значення BSON
+-   [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.html) - Повертає Legacy Extended JSON подання значення BSON
 -   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -1,12 +1,12 @@
 Використання поля
 
--   [« UI\\Window::setFullScreen](ui-window.setfullscreen.html)
+-   [« UIWindow::setFullScreen](ui-window.setfullscreen.html)
     
--   [UI\\Window::setSize »](ui-window.setsize.html)
+-   [ОЙWindow::setSize »](ui-window.setsize.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Використання поля
     

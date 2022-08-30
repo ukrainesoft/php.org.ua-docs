@@ -35,6 +35,6 @@ public ReflectionExtension::__toString(): string
 
 ### Дивіться також
 
--   [ReflectionExtension::\_\_construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
+-   [ReflectionExtension::construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
 -   [ReflectionExtension::export()](reflectionextension.export.html) - Експортує модуль
--   [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.html#object.tostring)

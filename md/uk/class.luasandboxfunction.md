@@ -45,5 +45,5 @@ public dump(): string
 ## Зміст
 
 -   [LuaSandboxFunction::call](luasandboxfunction.call.html) - Викликає Lua-функцію
--   [LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.html) - Не використовується
+-   [LuaSandboxFunction::construct](luasandboxfunction.construct.html) - Не використовується
 -   [LuaSandboxFunction::dump](luasandboxfunction.dump.html) — Вивантажує функцію у вигляді BLOB

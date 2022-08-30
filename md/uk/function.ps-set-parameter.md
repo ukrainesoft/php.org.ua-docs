@@ -1,12 +1,12 @@
 Встановлює певні параметри
 
--   [« ps\_set\_info](function.ps-set-info.html)
+-   [«pssetinfo](function.ps-set-info.html)
     
--   [ps\_set\_text\_pos »](function.ps-set-text-pos.html)
+-   [псsettextpos »](function.ps-set-text-pos.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює певні параметри
     
@@ -29,11 +29,11 @@ ps_set_parameter(resource $psdoc, string $name, string $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `name`
 
-Список можливих імен дивіться [ps\_get\_parameter()](function.ps-get-parameter.html)
+Список можливих імен дивіться [псgetparameter()](function.ps-get-parameter.html)
 
 `value`
 
@@ -46,4 +46,4 @@ ps_set_parameter(resource $psdoc, string $name, string $value): bool
 ### Дивіться також
 
 -   **псgetparameters()**
--   [ps\_set\_value()](function.ps-set-value.html) - Встановлює певні значення
+-   [псsetvalue()](function.ps-set-value.html) - Встановлює певні значення

@@ -1,12 +1,12 @@
 Додати операцію оновлення до порції
 
--   [« MongoDB\\Driver\\BulkWrite::insert](mongodb-driver-bulkwrite.insert.html)
+-   [« MongoDBDriverBulkWrite::insert](mongodb-driver-bulkwrite.insert.html)
     
--   [MongoDB\\Driver\\Session »](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession »](class.mongodb-driver-session.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+-   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
     
 -   Додати операцію оновлення до порції
     
@@ -23,7 +23,7 @@ MongoDBDriverBulkWrite::update — Додати операцію оновлен�
 public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newObj, ?array $updateOptions = null): void
 ```
 
-Додає операцію поновлення в [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+Додає операцію поновлення в [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами сравнения типов BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `newObj` (array | об'єкт)
 
@@ -70,7 +70,7 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
@@ -104,5 +104,5 @@ $result = $manager->executeBulkWrite('db.collection', $bulk);
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)

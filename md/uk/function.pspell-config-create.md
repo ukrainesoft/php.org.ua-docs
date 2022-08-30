@@ -1,8 +1,8 @@
 Створює конфігурацію для відкриття словника
 
--   [« pspell\_clear\_session](function.pspell-clear-session.html)
+-   [« pspellclearsession](function.pspell-clear-session.html)
     
--   [pspell\_config\_data\_dir »](function.pspell-config-data-dir.html)
+-   [pspellconfigdatadir »](function.pspell-config-data-dir.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 Створює конфігурацію для відкриття словника.
 
-**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspell\_new()](function.pspell-new.html). Фактично використання **pspellconfigcreate()** відразу після [pspell\_new\_config()](function.pspell-new-config.html) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspell\_new\_config()](function.pspell-new-config.html) для здобуття переваг від деякої додаткової функціональності.
+**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspellnew()](function.pspell-new.html). Фактично використання **pspellconfigcreate()** відразу після [pspellnewconfig()](function.pspell-new-config.html) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspellnewconfig()](function.pspell-new-config.html) для здобуття переваг від деякої додаткової функціональності.
 
 Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
@@ -49,13 +49,13 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PSpell\\Config](class.pspell-config.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [PSpellConfig](class.pspell-config.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PSpell\\Config](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                        |
+|--------|---------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

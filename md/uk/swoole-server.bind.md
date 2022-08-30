@@ -1,12 +1,12 @@
 Прив'язує з'єднання до вказаного ідентифікатора користувача
 
--   [« Swoole\\Server::after](swoole-server.after.html)
+-   [« SwooleServer::after](swoole-server.after.html)
     
--   [Swoole\\Server::clearTimer »](swoole-server.cleartimer.html)
+-   [SwooleServer::clearTimer »](swoole-server.cleartimer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Прив'язує з'єднання до вказаного ідентифікатора користувача
     

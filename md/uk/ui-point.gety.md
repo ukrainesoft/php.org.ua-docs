@@ -1,12 +1,12 @@
 Отримати Y
 
--   [« UI\\Point::getX](ui-point.getx.html)
+-   [« UIPoint::getX](ui-point.getx.html)
     
--   [UI\\Point::setX »](ui-point.setx.html)
+-   [ОЙPoint::setX »](ui-point.setx.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Point](class.ui-point.html)
+-   [ОЙPoint](class.ui-point.html)
     
 -   Отримати Y
     

@@ -1,8 +1,8 @@
 Дзига
 
--   [« trader\_cdlshortline](function.trader-cdlshortline.html)
+-   [« tradercdlshortline](function.trader-cdlshortline.html)
     
--   [trader\_cdlstalledpattern »](function.trader-cdlstalledpattern.html)
+-   [tradercdlstalledpattern »](function.trader-cdlstalledpattern.html)
     
 -   [PHP Manual](index.html)
     

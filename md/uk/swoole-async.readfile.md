@@ -1,12 +1,12 @@
 Асинхронне читання файлу
 
--   [« Swoole\\Async::read](swoole-async.read.html)
+-   [« SwooleAsync::read](swoole-async.read.html)
     
--   [Swoole\\Async::set »](swoole-async.set.html)
+-   [SwooleAsync::set »](swoole-async.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Async](class.swoole-async.html)
+-   [SwooleAsync](class.swoole-async.html)
     
 -   Асинхронне читання файлу
     

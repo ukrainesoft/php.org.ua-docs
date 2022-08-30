@@ -1,12 +1,12 @@
 Копіює дані з одного потоку до іншого
 
--   [« stream\_context\_set\_params](function.stream-context-set-params.html)
+-   [« streamcontextsetparams](function.stream-context-set-params.html)
     
--   [stream\_filter\_append »](function.stream-filter-append.html)
+-   [streamfilterappend »](function.stream-filter-append.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Копіює дані з одного потоку до іншого
     

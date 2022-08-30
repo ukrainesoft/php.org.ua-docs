@@ -1,6 +1,6 @@
 Ключове слово final
 
--   [« Магические методы](language.oop5.magic.html)
+-   [Магічні методи](language.oop5.magic.html)
     
 -   [Клонирование объектов »](language.oop5.cloning.html)
     

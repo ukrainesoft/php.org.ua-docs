@@ -1,12 +1,12 @@
 Знищує клієнт Swoole
 
--   [« Swoole\\Client::\_\_construct](swoole-client.construct.html)
+-   [« SwooleClient::construct](swoole-client.construct.html)
     
--   [Swoole\\Client::getpeername »](swoole-client.getpeername.html)
+-   [SwooleClient::getpeername »](swoole-client.getpeername.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Знищує клієнт Swoole
     

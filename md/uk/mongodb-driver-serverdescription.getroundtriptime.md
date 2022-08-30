@@ -1,12 +1,12 @@
 Повертає час обходу сервера у мілісекундах
 
--   [« MongoDB\\Driver\\ServerDescription::getPort](mongodb-driver-serverdescription.getport.html)
+-   [« MongoDBDriverServerDescription::getPort](mongodb-driver-serverdescription.getport.html)
     
--   [MongoDB\\Driver\\ServerDescription::getType »](mongodb-driver-serverdescription.gettype.html)
+-   [MongoDBDriverServerDescription::getType »](mongodb-driver-serverdescription.gettype.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)
+-   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
     
 -   Повертає час обходу сервера у мілісекундах
     
@@ -35,8 +35,8 @@ final public MongoDB\Driver\ServerDescription::getRoundTripTime(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getLatency()](mongodb-driver-server.getlatency.html) - Повертає затримку сервера у мілісекундах
+-   [MongoDBDriverServer::getLatency()](mongodb-driver-server.getlatency.html) - Повертає затримку сервера у мілісекундах

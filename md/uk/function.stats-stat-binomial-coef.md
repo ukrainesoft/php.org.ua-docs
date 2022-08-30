@@ -1,12 +1,12 @@
 Отримати біномінальний коефіцієнт
 
--   [« stats\_standard\_deviation](function.stats-standard-deviation.html)
+-   [« statsstandarddeviation](function.stats-standard-deviation.html)
     
--   [stats\_stat\_correlation »](function.stats-stat-correlation.html)
+-   [statsstatcorrelation »](function.stats-stat-correlation.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Отримати біномінальний коефіцієнт
     

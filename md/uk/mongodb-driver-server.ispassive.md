@@ -1,12 +1,12 @@
 Перевіряє, чи є сервер пасивним членом набору реплік.
 
--   [« MongoDB\\Driver\\Server::isHidden](mongodb-driver-server.ishidden.html)
+-   [« MongoDBDriverServer::isHidden](mongodb-driver-server.ishidden.html)
     
--   [MongoDB\\Driver\\Server::isPrimary »](mongodb-driver-server.isprimary.html)
+-   [MongoDBDriverServer::isPrimary »](mongodb-driver-server.isprimary.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Перевіряє, чи є сервер пасивним членом набору реплік.
     
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Server::isPassive(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

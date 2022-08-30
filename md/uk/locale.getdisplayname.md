@@ -91,7 +91,7 @@ Slowenisch (Lateinisch, Italien, NEDIS)
 
 ### Дивіться також
 
--   [locale\_get\_display\_language()](locale.getdisplaylanguage.html) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
--   [locale\_get\_display\_script()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [locale\_get\_display\_region()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
--   [locale\_get\_display\_variant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [localegetdisplaylanguage()](locale.getdisplaylanguage.html) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [localegetdisplayscript()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [localegetdisplayregion()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
+-   [localegetdisplayvariant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі

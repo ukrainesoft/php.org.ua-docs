@@ -1,12 +1,12 @@
 Повертає прапори RegexInterface
 
--   [« MongoDB\\BSON\\RegexInterface](class.mongodb-bson-regexinterface.html)
+-   [« MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
     
--   [MongoDB\\BSON\\RegexInterface::getPattern »](mongodb-bson-regexinterface.getpattern.html)
+-   [MongoDBBSONRegexInterface::getPattern »](mongodb-bson-regexinterface.getpattern.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\RegexInterface](class.mongodb-bson-regexinterface.html)
+-   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
     
 -   Повертає прапори RegexInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\RegexInterface::getFlags(): string
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Regex::getFlags()](mongodb-bson-regex.getflags.html) - Повертає прапори Regex
+-   [MongoDBBSONRegex::getFlags()](mongodb-bson-regex.getflags.html) - Повертає прапори Regex

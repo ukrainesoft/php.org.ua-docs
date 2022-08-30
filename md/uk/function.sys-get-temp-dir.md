@@ -1,12 +1,12 @@
 Повертає шлях до директорії тимчасових файлів
 
--   [« set\_time\_limit](function.set-time-limit.html)
+-   [« settimelimit](function.set-time-limit.html)
     
--   [version\_compare »](function.version-compare.html)
+-   [versioncompare »](function.version-compare.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає шлях до директорії тимчасових файлів
     

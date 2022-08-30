@@ -1,8 +1,8 @@
 Клас SwooleAsync
 
--   [« swoole\_version](function.swoole-version.html)
+-   [« swooleversion](function.swoole-version.html)
     
--   [Swoole\\Async::dnsLookup »](swoole-async.dnslookup.html)
+-   [SwooleAsync::dnsLookup »](swoole-async.dnslookup.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,9 +44,9 @@ public static writeFile(    string $filename,    string $content,   �
 
 ## Зміст
 
--   [Swoole\\Async::dnsLookup](swoole-async.dnslookup.html) — Асинхронний та неблокуючий пошук IP на ім'я хоста
--   [Swoole\\Async::read](swoole-async.read.html) - Асинхронне читання файлового потоку
--   [Swoole\\Async::readFile](swoole-async.readfile.html) - Асинхронне читання файлу
--   [Swoole\\Async::set](swoole-async.set.html) — Оновлює параметри асинхронного вводу-виводу
--   [Swoole\\Async::write](swoole-async.write.html) — Асинхронно записує дані у файловий потік
--   [Swoole\\Async::writeFile](swoole-async.writefile.html) - Опис
+-   [SwooleAsync::dnsLookup](swoole-async.dnslookup.html) — Асинхронний та неблокуючий пошук IP на ім'я хоста
+-   [SwooleAsync::read](swoole-async.read.html) - Асинхронне читання файлового потоку
+-   [SwooleAsync::readFile](swoole-async.readfile.html) - Асинхронне читання файлу
+-   [SwooleAsync::set](swoole-async.set.html) — Оновлює параметри асинхронного вводу-виводу
+-   [SwooleAsync::write](swoole-async.write.html) — Асинхронно записує дані у файловий потік
+-   [SwooleAsync::writeFile](swoole-async.writefile.html) - Опис

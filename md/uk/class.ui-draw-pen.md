@@ -1,12 +1,12 @@
 Малювання за допомогою "Перо"
 
--   [« UI\\Controls\\Box::setPadded](ui-controls-box.setpadded.html)
+-   [« UIControlsBox::setPadded](ui-controls-box.setpadded.html)
     
--   [UI\\Draw\\Pen::clip »](ui-draw-pen.clip.html)
+-   [ОЙDrawPen::clip »](ui-draw-pen.clip.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Малювання за допомогою "Перо"
     
@@ -52,10 +52,10 @@ public write(UI\Point $point, UI\Draw\Text\Layout $layout)
 
 ## Зміст
 
--   [UI\\Draw\\Pen::clip](ui-draw-pen.clip.html) - Обрізати шлях
--   [UI\\Draw\\Pen::fill](ui-draw-pen.fill.html) - Залити шлях
--   [UI\\Draw\\Pen::restore](ui-draw-pen.restore.html) - Відновити
--   [UI\\Draw\\Pen::save](ui-draw-pen.save.html) - Зберегти
--   [UI\\Draw\\Pen::stroke](ui-draw-pen.stroke.html) - Обвести шлях
--   [UI\\Draw\\Pen::transform](ui-draw-pen.transform.html) - Перетворити матрицю
--   [UI\\Draw\\Pen::write](ui-draw-pen.write.html) — Намалювати текст у точці
+-   [ОЙDrawPen::clip](ui-draw-pen.clip.html) - Обрізати шлях
+-   [ОЙDrawPen::fill](ui-draw-pen.fill.html) - Залити шлях
+-   [ОЙDrawPen::restore](ui-draw-pen.restore.html) - Відновити
+-   [ОЙDrawPen::save](ui-draw-pen.save.html) - Зберегти
+-   [ОЙDrawPen::stroke](ui-draw-pen.stroke.html) - Обвести шлях
+-   [ОЙDrawPen::transform](ui-draw-pen.transform.html) - Перетворити матрицю
+-   [ОЙDrawPen::write](ui-draw-pen.write.html) — Намалювати текст у точці

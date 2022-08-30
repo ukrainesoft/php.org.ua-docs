@@ -1,12 +1,12 @@
 Додає метод
 
--   [« Componere\\Abstract\\Definition::addInterface](componere-abstract-definition.addinterface.html)
+-   [« ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.html)
     
--   [Componere\\Abstract\\Definition::addTrait »](componere-abstract-definition.addtrait.html)
+-   [ComponereAbstractDefinition::addTrait »](componere-abstract-definition.addtrait.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+-   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
     
 -   Додає метод
     
@@ -33,7 +33,7 @@ public Componere\Abstract\Definition::addMethod(string $name, Componere\Method $
 
 `method`
 
-[Componere\\Method](class.componere-method.html) раніше не доданий до іншого Definition
+[ComponereMethod](class.componere-method.html) раніше не доданий до іншого Definition
 
 ### Значення, що повертаються
 

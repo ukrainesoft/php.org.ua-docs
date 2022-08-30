@@ -1,8 +1,8 @@
 MQSeries MQDISC
 
--   [« mqseries\_connx](function.mqseries-connx.html)
+-   [« mqseriesconnx](function.mqseries-connx.html)
     
--   [mqseries\_get »](function.mqseries-get.html)
+-   [mqseriesget »](function.mqseries-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ mqseriesdisc — MQSeries MQDISC
 mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 ```
 
-Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseries\_conn()](function.mqseries-conn.html) (MQCONN) та [mqseries\_connx()](function.mqseries-connx.html) (MQCONNX).
+Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseriesconn()](function.mqseries-conn.html) (MQCONN) та [mqseriesconnx()](function.mqseries-connx.html) (MQCONNX).
 
 ### Список параметрів
 
@@ -60,5 +60,5 @@ mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 
 ### Дивіться також
 
--   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX

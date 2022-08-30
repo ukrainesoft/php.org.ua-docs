@@ -1,12 +1,12 @@
 Лексер (Tokenizer)
 
--   [« tidy\_warning\_count](function.tidy-warning-count.html)
+-   [« tidywarningcount](function.tidy-warning-count.html)
     
 -   [Введение »](intro.tokenizer.html)
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Лексер (Tokenizer)
     
@@ -22,12 +22,12 @@
 -   [Предопределённые константы](tokenizer.constants.html)
 -   [Примеры](tokenizer.examples.html)
 -   [PhpToken](class.phptoken.html) - Клас PhpToken
-    -   [PhpToken::\_\_construct](phptoken.construct.html) - Створює об'єкт PhpToken
+    -   [PhpToken::construct](phptoken.construct.html) - Створює об'єкт PhpToken
     -   [PhpToken::getTokenName](phptoken.gettokenname.html) - Повертає ім'я токена
     -   [PhpToken::is](phptoken.is.html) — Перевіряє, чи відповідає токен зазначеному типу
     -   [PhpToken::isIgnorable](phptoken.isignorable.html) — Повідомляє, чи токен ігноруватиметься парсером PHP
-    -   [PhpToken::\_\_toString](phptoken.tostring.html) — Повертає текстовий вміст токена
+    -   [PhpToken::toString](phptoken.tostring.html) — Повертає текстовий вміст токена
     -   [PhpToken::tokenize](phptoken.tokenize.html) — Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
 -   [Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
-    -   [token\_get\_all](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
-    -   [token\_name](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми
+    -   [tokengetall](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
+    -   [tokenname](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми

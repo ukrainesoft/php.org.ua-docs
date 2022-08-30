@@ -55,7 +55,7 @@ public reset(): bool
 -   [SQLite3Stmt::bindValue](sqlite3stmt.bindvalue.html) — Зв'язує значення параметра зі змінною підготовленого запиту
 -   [SQLite3Stmt::clear](sqlite3stmt.clear.html) — Видаляє всі поточні параметри.
 -   [SQLite3Stmt::close](sqlite3stmt.close.html) - Закриває підготовлений запит
--   [SQLite3Stmt::\_\_construct](sqlite3stmt.construct.html) - Конструктор класу SQLite3Stmt
+-   [SQLite3Stmt::construct](sqlite3stmt.construct.html) - Конструктор класу SQLite3Stmt
 -   [SQLite3Stmt::execute](sqlite3stmt.execute.html) — Виконує підготовлений запит та повертає об'єкт із результуючим набором
 -   [SQLite3Stmt::getSQL](sqlite3stmt.getsql.html) — Отримати SQL-запит у вигляді рядка із запиту
 -   [SQLite3Stmt::paramCount](sqlite3stmt.paramcount.html) — Повертає кількість параметрів у підготовленому запиті

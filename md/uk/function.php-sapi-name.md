@@ -1,12 +1,12 @@
 Повертає тип інтерфейсу між веб-сервером та PHP
 
--   [« php\_ini\_scanned\_files](function.php-ini-scanned-files.html)
+-   [« phpiniscannedfiles](function.php-ini-scanned-files.html)
     
--   [php\_uname »](function.php-uname.html)
+-   [phpuname »](function.php-uname.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає тип інтерфейсу між веб-сервером та PHP
     
@@ -66,4 +66,4 @@ if (substr($sapi_type, 0, 3) == 'cgi') {
 
 ### Дивіться також
 
--   [PHP\_SAPI](reserved.constants.html#reserved.constants.core)
+-   [PHPSAPI](reserved.constants.html#reserved.constants.core)

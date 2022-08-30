@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Collection
     
@@ -67,7 +67,7 @@ name
 
 -   [Collection::add](mysql-xdevapi-collection.add.html) — Додає документ у колекцію
 -   [Collection::addOrReplaceOne](mysql-xdevapi-collection.addorreplaceone.html) — Додає або замінює документ колекції
--   [Collection::\_\_construct](mysql-xdevapi-collection.construct.html) - Конструктор класу Collection
+-   [Collection::construct](mysql-xdevapi-collection.construct.html) - Конструктор класу Collection
 -   [Collection::count](mysql-xdevapi-collection.count.html) — Отримує кількість документів
 -   [Collection::createIndex](mysql-xdevapi-collection.createindex.html) — Створює індекс для колекції
 -   [Collection::dropIndex](mysql-xdevapi-collection.dropindex.html) — Видаляє індекс колекції

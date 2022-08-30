@@ -1,8 +1,8 @@
 Отримує статус декомпресії
 
--   [« inflate\_get\_read\_len](function.inflate-get-read-len.html)
+-   [« inflategetreadlen](function.inflate-get-read-len.html)
     
--   [inflate\_init »](function.inflate-init.html)
+-   [inflateinit »](function.inflate-init.html)
     
 -   [PHP Manual](index.html)
     

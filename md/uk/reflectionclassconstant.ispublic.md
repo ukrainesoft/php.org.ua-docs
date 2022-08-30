@@ -2,7 +2,7 @@
 
 -   [« ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.html)
     
--   [ReflectionClassConstant::\_\_toString »](reflectionclassconstant.tostring.html)
+-   [ReflectionClassConstant::toString »](reflectionclassconstant.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ public ReflectionClassConstant::isPublic(): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо константа класу є загальнодоступною, **`false`** в іншому випадку
+\*\*`true`\*\*якщо константа класу є загальнодоступною, **`false`** в іншому випадку
 
 ### Дивіться також
 

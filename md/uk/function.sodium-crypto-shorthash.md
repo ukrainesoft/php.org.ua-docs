@@ -1,8 +1,8 @@
 Обчислює короткий хеш повідомлення та ключ
 
--   [« sodium\_crypto\_shorthash\_keygen](function.sodium-crypto-shorthash-keygen.html)
+-   [« sodiumcryptoshorthashkeygen](function.sodium-crypto-shorthash-keygen.html)
     
--   [sodium\_crypto\_sign\_detached »](function.sodium-crypto-sign-detached.html)
+-   [sodiumcryptosigndetached »](function.sodium-crypto-sign-detached.html)
     
 -   [PHP Manual](index.html)
     

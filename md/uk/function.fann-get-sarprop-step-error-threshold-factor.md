@@ -1,8 +1,8 @@
 Повертає пороговий коефіцієнт помилки кроку sarprop
 
--   [« fann\_get\_sarprop\_step\_error\_shift](function.fann-get-sarprop-step-error-shift.html)
+-   [« fanngetsarpropsteperrorshift](function.fann-get-sarprop-step-error-shift.html)
     
--   [fann\_get\_sarprop\_temperature »](function.fann-get-sarprop-temperature.html)
+-   [fanngetsarproptemperature »](function.fann-get-sarprop-temperature.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,4 +45,4 @@ fann_get_sarprop_step_error_threshold_factor(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_set\_sarprop\_step\_error\_threshold\_factor()](function.fann-set-sarprop-step-error-threshold-factor.html) - Встановлює пороговий коефіцієнт помилки кроку sarprop
+-   [fannsetsarpropsteperrorthresholdfactor()](function.fann-set-sarprop-step-error-threshold-factor.html) - Встановлює пороговий коефіцієнт помилки кроку sarprop

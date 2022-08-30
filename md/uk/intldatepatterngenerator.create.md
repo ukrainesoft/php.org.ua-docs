@@ -33,7 +33,7 @@ public **IntlDatePatternGenerator::construct**(string `$locale` **`null`**
 
 `locale`
 
-Локаль. Якщо передано значення **`null`**, використовується ini-параметр [intl.default\_locale](intl.configuration.html#ini.intl.default-locale)
+Локаль. Якщо передано значення **`null`**, використовується ini-параметр [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale)
 
 ### Значення, що повертаються
 

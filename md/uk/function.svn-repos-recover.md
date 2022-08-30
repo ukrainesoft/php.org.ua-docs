@@ -1,12 +1,12 @@
 Запускає процедури відновлення репозиторію
 
--   [« svn\_repos\_open](function.svn-repos-open.html)
+-   [« svnreposopen](function.svn-repos-open.html)
     
--   [svn\_revert »](function.svn-revert.html)
+-   [svnrevert »](function.svn-revert.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Запускає процедури відновлення репозиторію
     

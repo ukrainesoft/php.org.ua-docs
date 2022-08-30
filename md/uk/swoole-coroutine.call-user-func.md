@@ -1,12 +1,12 @@
 Викликає callback-функцію, задану першим параметром
 
--   [« Swoole\\Coroutine::call\_user\_func\_array](swoole-coroutine.call-user-func-array.html)
+-   [« SwooleCoroutine::calluserfuncarray](swoole-coroutine.call-user-func-array.html)
     
--   [Swoole\\Coroutine::cli\_wait »](swoole-coroutine.cli-wait.html)
+-   [SwooleCoroutine::cliwait »](swoole-coroutine.cli-wait.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Викликає callback-функцію, задану першим параметром
     

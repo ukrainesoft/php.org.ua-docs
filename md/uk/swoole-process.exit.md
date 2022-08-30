@@ -1,12 +1,12 @@
 Зупиняє дочірні процеси
 
--   [« Swoole\\Process::exec](swoole-process.exec.html)
+-   [« SwooleProcess::exec](swoole-process.exec.html)
     
--   [Swoole\\Process::freeQueue »](swoole-process.freequeue.html)
+-   [SwooleProcess::freeQueue »](swoole-process.freequeue.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Зупиняє дочірні процеси
     

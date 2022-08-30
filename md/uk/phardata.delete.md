@@ -2,7 +2,7 @@
 
 -   [« PharData::delMetadata](phardata.delmetadata.html)
     
--   [PharData::\_\_destruct »](phardata.destruct.html)
+-   [PharData::destruct »](phardata.destruct.html)
     
 -   [PHP Manual](index.html)
     

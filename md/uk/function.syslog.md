@@ -1,12 +1,12 @@
 Генерує повідомлення для системного журналу
 
--   [« socket\_set\_timeout](function.socket-set-timeout.html)
+-   [« socketsettimeout](function.socket-set-timeout.html)
     
 -   [RRD »](book.rrd.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Генерує повідомлення для системного журналу
     

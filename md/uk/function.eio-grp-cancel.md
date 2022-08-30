@@ -1,8 +1,8 @@
 Скасує групу запитів
 
--   [« eio\_grp\_add](function.eio-grp-add.html)
+-   [« eiogrpadd](function.eio-grp-add.html)
     
--   [eio\_grp\_limit »](function.eio-grp-limit.html)
+-   [eiogrplimit »](function.eio-grp-limit.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ eio_grp_cancel(resource $grp): void
 
 `grp`
 
-Вказівник на групу запитів, повернутий [eio\_grp()](function.eio-grp.html)
+Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ eio_grp_cancel(resource $grp): void
 
 ### Дивіться також
 
--   [eio\_grp()](function.eio-grp.html) - Створює групу запитів
--   [eio\_grp\_add()](function.eio-grp-add.html) - Додає запит до групи запитів
+-   [eiogrp()](function.eio-grp.html) - Створює групу запитів
+-   [eiogrpadd()](function.eio-grp-add.html) - Додає запит до групи запитів

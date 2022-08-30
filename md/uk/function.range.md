@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Створює масив, що містить діапазон елементів
     
@@ -88,5 +88,5 @@ foreach (range('c', 'a') as $letter) {
 ### Дивіться також
 
 -   [shuffle()](function.shuffle.html) - перемішує масив
--   [array\_fill()](function.array-fill.html) - Заповнює масив значеннями
+-   [arrayfill()](function.array-fill.html) - Заповнює масив значеннями
 -   [foreach](control-structures.foreach.html)

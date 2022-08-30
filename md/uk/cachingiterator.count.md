@@ -1,6 +1,6 @@
 Повертає кількість елементів в ітераторі
 
--   [« CachingIterator::\_\_construct](cachingiterator.construct.html)
+-   [« CachingIterator::construct](cachingiterator.construct.html)
     
 -   [CachingIterator::current »](cachingiterator.current.html)
     

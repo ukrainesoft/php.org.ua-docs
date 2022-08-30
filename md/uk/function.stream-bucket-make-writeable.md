@@ -1,12 +1,12 @@
 Повертає об'єкт кошика із бригади для подальшої роботи з ним
 
--   [« stream\_bucket\_append](function.stream-bucket-append.html)
+-   [« streambucketappend](function.stream-bucket-append.html)
     
--   [stream\_bucket\_new »](function.stream-bucket-new.html)
+-   [streambucketnew »](function.stream-bucket-new.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Повертає об'єкт кошика із бригади для подальшої роботи з ним
     
@@ -23,7 +23,7 @@ streambucketmakewriteable — Повертає об'єкт кошика із б�
 stream_bucket_make_writeable(resource $brigade): ?object
 ```
 
-Функція викликається щоразу, коли виникає необхідність у доступі до вмісту, що міститься в бригаді та роботі з ним. Зазвичай функція викликається з [php\_user\_filter::filter()](php-user-filter.filter.html)
+Функція викликається щоразу, коли виникає необхідність у доступі до вмісту, що міститься в бригаді та роботі з ним. Зазвичай функція викликається з [phpuserfilter::filter()](php-user-filter.filter.html)
 
 ### Список параметрів
 
@@ -45,5 +45,5 @@ datalen (integer)
 
 ### Дивіться також
 
--   [stream\_bucket\_append()](function.stream-bucket-append.html) - Додати відро (bucket) до бригади (brigade)
--   [stream\_bucket\_prepend()](function.stream-bucket-prepend.html) - Додати відро на початок бригади
+-   [streambucketappend()](function.stream-bucket-append.html) - Додати відро (bucket) до бригади (brigade)
+-   [streambucketprepend()](function.stream-bucket-prepend.html) - Додати відро на початок бригади

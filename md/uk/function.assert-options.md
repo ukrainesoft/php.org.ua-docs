@@ -1,12 +1,12 @@
 Встановлення та отримання налаштувань механізму перевірки тверджень
 
--   [« Опции PHP/информационные функции](ref.info.html)
+-   [« Опції PHP/інформаційні функції](ref.info.html)
     
 -   [assert »](function.assert.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Встановлення та отримання налаштувань механізму перевірки тверджень
     
@@ -25,7 +25,7 @@ assert_options(int $what, mixed $value = ?): mixed
 
 Завдання значень параметрів механізму перевірки тверджень [assert()](function.assert.html) або одержання їх поточних значень.
 
-> **Зауваження**: Починаючи з PHP 7.0.0, використання **assertoptions()** не рекомендується на користь встановлення та отримання php.ini директив [zend.assertions](ini.core.html#ini.zend.assertions) і [assert.exception](info.configuration.html#ini.assert.exception) за допомогою [ini\_set()](function.ini-set.html) і [ini\_get()](function.ini-get.html) відповідно.
+> **Зауваження**: Починаючи з PHP 7.0.0, використання **assertoptions()** не рекомендується на користь встановлення та отримання php.ini директив [zend.assertions](ini.core.html#ini.zend.assertions) і [assert.exception](info.configuration.html#ini.assert.exception) за допомогою [iniset()](function.ini-set.html) і [iniget()](function.ini-get.html) відповідно.
 
 ### Список параметрів
 

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с каталогами](ref.dir.html)
+-   [Функції для роботи з каталогами](ref.dir.html)
     
 -   Відкриває дескриптор каталогу
     
@@ -83,6 +83,6 @@ if (is_dir($dir)) {
 
 ### Дивіться також
 
--   [is\_dir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
+-   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
 -   [readdir()](function.readdir.html) - Отримує елемент каталогу за його дескриптором
 -   [dir()](function.dir.html) - Повертає екземпляр класу Directory

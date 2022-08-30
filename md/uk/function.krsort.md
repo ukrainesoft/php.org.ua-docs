@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Сортує масив за ключом у порядку зменшення
     
@@ -45,7 +45,7 @@ krsort(array &$array, int $flags = SORT_REGULAR): bool
 
 Прапори типу сортування:
 
--   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [операторы сравнения](language.operators.comparison.html)
+-   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [оператори порівняння](language.operators.comparison.html)
 -   **`SORT_NUMERIC`** - числове порівняння елементів
 -   **`SORT_STRING`** - рядкове порівняння елементів
 -   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядки на основі поточного мовного стандарту. Використовується мовний стандарт, який можна змінити за допомогою [setlocale()](function.setlocale.html)
@@ -83,4 +83,4 @@ a = orange
 
 -   [sort()](function.sort.html) - Сортує масив за зростанням
 -   [ksort()](function.ksort.html) - Сортує масив за ключом у порядку зростання
--   [Сравнение функций сортировки массивов](array.sorting.html)
+-   [Порівняння функцій сортування масивів](array.sorting.html)

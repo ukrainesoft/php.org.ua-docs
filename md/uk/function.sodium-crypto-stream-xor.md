@@ -1,8 +1,8 @@
 Шифрує повідомлення без автентифікації
 
--   [« sodium\_crypto\_stream\_xchacha20](function.sodium-crypto-stream-xchacha20.html)
+-   [« sodiumcryptostreamxchacha20](function.sodium-crypto-stream-xchacha20.html)
     
--   [sodium\_crypto\_stream »](function.sodium-crypto-stream.html)
+-   [sodiumcryptostream »](function.sodium-crypto-stream.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ sodium_crypto_stream_xor(string $message, string $nonce, string $key): string
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key`
 

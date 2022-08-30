@@ -1,6 +1,6 @@
 Перекодує рядок відповідно до заданих параметрів
 
--   [« recode\_file](function.recode-file.html)
+-   [« recodefile](function.recode-file.html)
     
 -   [recode »](function.recode.html)
     
@@ -56,6 +56,6 @@ echo recode_string("us..flat", "The following character has a diacritical
 ### Дивіться також
 
 -   Докладніше про запити на перекодування читайте у документації, яка входить до дистрибутиву GNU Recode.
--   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
 -   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

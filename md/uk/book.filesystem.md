@@ -1,12 +1,12 @@
 Файлова система
 
--   [« finfo::set\_flags](finfo.set-flags.html)
+-   [« finfo::setflags](finfo.set-flags.html)
     
 -   [Введение »](intro.filesystem.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с файловой системой](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
     
 -   Файлова система
     
@@ -20,7 +20,7 @@
     -   [Настройка во время выполнения](filesystem.configuration.html)
     -   [Типы ресурсов](filesystem.resources.html)
 -   [Предопределённые константы](filesystem.constants.html)
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     -   [basename](function.basename.html) — Повертає останній компонент імені із зазначеного шляху
     -   [chgrp](function.chgrp.html) — Змінює групу файлу
     -   [chmod](function.chmod.html) — Змінює режим доступу до файлу
@@ -29,8 +29,8 @@
     -   [copy](function.copy.html) - Копіює файл
     -   [delete](function.delete.html) — Дивіться опис функції unlink або unset
     -   [dirname](function.dirname.html) — Повертає ім'я батьківського каталогу із зазначеного шляху
-    -   [disk\_free\_space](function.disk-free-space.html) — Повертає розмір доступного простору в каталозі чи файловій системі
-    -   [disk\_total\_space](function.disk-total-space.html) — Повертає загальний розмір файлової системи або розділу диска
+    -   [diskfreespace](function.disk-free-space.html) — Повертає розмір доступного простору в каталозі чи файловій системі
+    -   [disktotalspace](function.disk-total-space.html) — Повертає загальний розмір файлової системи або розділу диска
     -   [diskfreespace](function.diskfreespace.html) - Псевдонім diskfreespace
     -   [fclose](function.fclose.html) — Закриває відкритий дескриптор файлу
     -   [fdatasync](function.fdatasync.html) — Синхронізує дані (але не метадані) із файлом
@@ -40,9 +40,9 @@
     -   [fgetcsv](function.fgetcsv.html) — Читає рядок з файлу та проводить розбір даних CSV
     -   [fgets](function.fgets.html) — Читає рядок із файлу
     -   [fgetss](function.fgetss.html) — Читає рядок із файлу та видаляє HTML-теги
-    -   [file\_exists](function.file-exists.html) — Перевіряє існування вказаного файлу чи каталогу
-    -   [file\_get\_contents](function.file-get-contents.html) — Читає вміст файлу в рядок
-    -   [file\_put\_contents](function.file-put-contents.html) - Пише дані у файл
+    -   [fileexists](function.file-exists.html) — Перевіряє існування вказаного файлу чи каталогу
+    -   [filegetcontents](function.file-get-contents.html) — Читає вміст файлу в рядок
+    -   [fileputcontents](function.file-put-contents.html) - Пише дані у файл
     -   [file](function.file.html) — Читає вміст файлу та поміщає його у масив
     -   [fileatime](function.fileatime.html) — Повертає час останнього доступу до файлу
     -   [filectime](function.filectime.html) — Повертає час зміни індексного дескриптора файлу
@@ -68,35 +68,35 @@
     -   [ftruncate](function.ftruncate.html) — Урізує файл до вказаної довжини
     -   [fwrite](function.fwrite.html) - Бінарно-безпечний запис у файл
     -   [glob](function.glob.html) — Знаходить файлові шляхи, що збігаються із шаблоном
-    -   [is\_dir](function.is-dir.html) — Визначає, чи ім'я файлу є директорією
-    -   [is\_executable](function.is-executable.html) — Визначає, чи файл виконуваний.
-    -   [is\_file](function.is-file.html) — Визначає, чи файл є звичайним файлом
-    -   [is\_link](function.is-link.html) — Визначає, чи є файл символічним посиланням
-    -   [is\_readable](function.is-readable.html) — Визначає існування файлу і чи він доступний для читання
-    -   [is\_uploaded\_file](function.is-uploaded-file.html) — Визначає, чи файл завантажений за допомогою HTTP POST
-    -   [is\_writable](function.is-writable.html) — Визначає, чи є файл для запису.
-    -   [is\_writeable](function.is-writeable.html) - Псевдонім iswritable
+    -   [ісdir](function.is-dir.html) — Визначає, чи ім'я файлу є директорією
+    -   [ісexecutable](function.is-executable.html) — Визначає, чи файл виконуваний.
+    -   [ісfile](function.is-file.html) — Визначає, чи файл є звичайним файлом
+    -   [ісlink](function.is-link.html) — Визначає, чи є файл символічним посиланням
+    -   [ісreadable](function.is-readable.html) — Визначає існування файлу і чи він доступний для читання
+    -   [ісuploadedfile](function.is-uploaded-file.html) — Визначає, чи файл завантажений за допомогою HTTP POST
+    -   [ісwritable](function.is-writable.html) — Визначає, чи є файл для запису.
+    -   [ісwriteable](function.is-writeable.html) - Псевдонім iswritable
     -   [lchgrp](function.lchgrp.html) — Змінює групу, якій належить символічне посилання
     -   [lchown](function.lchown.html) - Змінює власника символічного посилання
     -   [link](function.link.html) - Створює жорстке посилання
     -   [linkinfo](function.linkinfo.html) — Повертає інформацію про посилання
     -   [lstat](function.lstat.html) — Повертає інформацію про файл або символічне посилання
     -   [mkdir](function.mkdir.html) - Створює директорію
-    -   [move\_uploaded\_file](function.move-uploaded-file.html) — Переміщує завантажений файл у нове місце
-    -   [parse\_ini\_file](function.parse-ini-file.html) - Обробляє конфігураційний файл
-    -   [parse\_ini\_string](function.parse-ini-string.html) — Розбирає рядок конфігурації
+    -   [moveuploadedfile](function.move-uploaded-file.html) — Переміщує завантажений файл у нове місце
+    -   [parseinifile](function.parse-ini-file.html) - Обробляє конфігураційний файл
+    -   [parseinistring](function.parse-ini-string.html) — Розбирає рядок конфігурації
     -   [pathinfo](function.pathinfo.html) — Повертає інформацію про шлях до файлу
     -   [pclose](function.pclose.html) — Закриває файловий покажчик процесу
     -   [popen](function.popen.html) — Відкриває файловий покажчик процесу
     -   [readfile](function.readfile.html) - Виводить файл
     -   [readlink](function.readlink.html) — Повертає файл, на який вказує символічне посилання
-    -   [realpath\_cache\_get](function.realpath-cache-get.html) — Отримує записи з кеша realpath
-    -   [realpath\_cache\_size](function.realpath-cache-size.html) — Отримує розмір кеша realpath
+    -   [realpathcacheget](function.realpath-cache-get.html) — Отримує записи з кеша realpath
+    -   [realpathcachesize](function.realpath-cache-size.html) — Отримує розмір кеша realpath
     -   [realpath](function.realpath.html) — Повертає абсолютний канонізований шлях до файлу
     -   [rename](function.rename.html) — Перейменовує файл чи директорію
     -   [rewind](function.rewind.html) - Скидає курсор файлового покажчика
     -   [rmdir](function.rmdir.html) - Видаляє директорію
-    -   [set\_file\_buffer](function.set-file-buffer.html) - Псевдонім streamsetwritebuffer
+    -   [setfilebuffer](function.set-file-buffer.html) - Псевдонім streamsetwritebuffer
     -   [stat](function.stat.html) — Повертає інформацію про файл
     -   [symlink](function.symlink.html) - Створює символічне посилання
     -   [tempnam](function.tempnam.html) — Створює файл із унікальним ім'ям

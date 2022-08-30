@@ -1,8 +1,8 @@
 Клас XMLDiffFile
 
--   [« XMLDiff\\Memory::merge](xmldiff-memory.merge.html)
+-   [« XMLDiffMemory::merge](xmldiff-memory.merge.html)
     
--   [XMLDiff\\File::diff »](xmldiff-file.diff.html)
+-   [XMLDiffFile::diff »](xmldiff-file.diff.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,5 +51,5 @@ abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiff\\File::diff](xmldiff-file.diff.html) — Порівняння двох файлів XML
--   [XMLDiff\\File::merge](xmldiff-file.merge.html) — Застосувати зміни до документа XML
+-   [XMLDiffFile::diff](xmldiff-file.diff.html) — Порівняння двох файлів XML
+-   [XMLDiffFile::merge](xmldiff-file.merge.html) — Застосувати зміни до документа XML

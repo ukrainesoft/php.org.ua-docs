@@ -1,6 +1,6 @@
 Починає виконання волокна
 
--   [« Fiber::\_\_construct](fiber.construct.html)
+-   [« Fiber::construct](fiber.construct.html)
     
 -   [Fiber::resume »](fiber.resume.html)
     

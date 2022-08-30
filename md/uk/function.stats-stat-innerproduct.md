@@ -1,12 +1,12 @@
 Повертає скалярний твір двох векторів
 
--   [« stats\_stat\_independent\_t](function.stats-stat-independent-t.html)
+-   [« statsstatindependentт](function.stats-stat-independent-t.html)
     
--   [stats\_stat\_paired\_t »](function.stats-stat-paired-t.html)
+-   [statsstatpairedt »](function.stats-stat-paired-t.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає скалярний твір двох векторів
     

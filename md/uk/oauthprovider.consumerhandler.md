@@ -1,6 +1,6 @@
 Встановити обробник consumerHandler
 
--   [« OAuthProvider::\_\_construct](oauthprovider.construct.html)
+-   [« OAuthProvider::construct](oauthprovider.construct.html)
     
 -   [OAuthProvider::generateToken »](oauthprovider.generatetoken.html)
     

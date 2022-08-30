@@ -2,11 +2,11 @@
 
 -   [« md5](function.md5.html)
     
--   [money\_format »](function.money-format.html)
+-   [moneyformat »](function.money-format.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає ключ metaphone для рядка
     

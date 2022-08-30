@@ -1,12 +1,12 @@
 Встановлює зовнішній вигляд пунктирної лінії
 
--   [« ps\_setoverprintmode](function.ps-setoverprintmode.html)
+-   [«pssetoverprintmode](function.ps-setoverprintmode.html)
     
--   [ps\_shading\_pattern »](function.ps-shading-pattern.html)
+-   [псshadingpattern »](function.ps-shading-pattern.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює зовнішній вигляд пунктирної лінії
     
@@ -29,7 +29,7 @@ ps_setpolydash(resource $psdoc, float $arr): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `arr`
 
@@ -70,4 +70,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [ps\_setdash()](function.ps-setdash.html) - Встановлює зовнішній вигляд пунктирної лінії
+-   [псsetdash()](function.ps-setdash.html) - Встановлює зовнішній вигляд пунктирної лінії

@@ -1,8 +1,8 @@
 Вектор натуральний логарифм
 
--   [« trader\_linearreg](function.trader-linearreg.html)
+-   [« traderlinearreg](function.trader-linearreg.html)
     
--   [trader\_log10 »](function.trader-log10.html)
+-   [traderlog10 »](function.trader-log10.html)
     
 -   [PHP Manual](index.html)
     

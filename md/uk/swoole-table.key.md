@@ -1,12 +1,12 @@
 Отримує ключ поточного рядка
 
--   [« Swoole\\Table::incr](swoole-table.incr.html)
+-   [« SwooleTable::incr](swoole-table.incr.html)
     
--   [Swoole\\Table::next »](swoole-table.next.html)
+-   [SwooleTable::next »](swoole-table.next.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Отримує ключ поточного рядка
     

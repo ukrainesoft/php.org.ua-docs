@@ -1,12 +1,12 @@
 Отримати DN результуючого запису
 
--   [« ldap\_get\_attributes](function.ldap-get-attributes.html)
+-   [« ldapgetattributes](function.ldap-get-attributes.html)
     
--   [ldap\_get\_entries »](function.ldap-get-entries.html)
+-   [ldapgetentries »](function.ldap-get-entries.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Отримати DN результуючого запису
     
@@ -29,11 +29,11 @@ ldap_get_dn(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `entry`
 
-Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
 
 ### Значення, що повертаються
 
@@ -41,7 +41,7 @@ ldap_get_dn(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                   |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html)     |
+|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

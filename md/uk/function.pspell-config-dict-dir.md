@@ -1,8 +1,8 @@
 Розташування основного списку слів
 
--   [« pspell\_config\_data\_dir](function.pspell-config-data-dir.html)
+-   [« pspellconfigdatadir](function.pspell-config-data-dir.html)
     
--   [pspell\_config\_ignore »](function.pspell-config-ignore.html)
+-   [pspellconfigignore »](function.pspell-config-ignore.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,6 +33,6 @@ pspell_config_dict_dir(PSpell\Config $config, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

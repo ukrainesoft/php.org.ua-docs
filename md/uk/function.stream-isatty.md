@@ -1,12 +1,12 @@
 Перевіряє, чи є потік TTY
 
--   [« stream\_is\_local](function.stream-is-local.html)
+-   [« streamісlocal](function.stream-is-local.html)
     
--   [stream\_notification\_callback »](function.stream-notification-callback.html)
+-   [streamnotificationcallback »](function.stream-notification-callback.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Перевіряє, чи є потік TTY
     
@@ -23,7 +23,7 @@ streamisatty — Перевіряє, чи є потік TTY
 stream_isatty(resource $stream): bool
 ```
 
-Визначає, чи належить потік `stream` до дійсного пристрою термінального типу Це більш переносима версія [posix\_isatty()](function.posix-isatty.html)оскільки вона працює і в системах Windows.
+Визначає, чи належить потік `stream` до дійсного пристрою термінального типу Це більш переносима версія [posixisatty()](function.posix-isatty.html)оскільки вона працює і в системах Windows.
 
 ### Список параметрів
 

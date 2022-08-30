@@ -33,7 +33,7 @@ public Collator::sortWithSortKeys(array &$array): bool
 collator_sort_with_sort_keys(Collator $object, array &$array): bool
 ```
 
-Те саме, що і [collator\_sort()](collator.sort.html), але використовує ключі сортування ICU, створені ucolgetSortKey() збільшення швидкості роботи з великими масивами.
+Те саме, що і [collatorsort()](collator.sort.html), але використовує ключі сортування ICU, створені ucolgetSortKey() збільшення швидкості роботи з великими масивами.
 
 ### Список параметрів
 
@@ -76,5 +76,5 @@ array (
 ### Дивіться також
 
 -   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collator\_sort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
--   [collator\_asort()](collator.asort.html) - Сортує масив із збереженням асоціації індексу
+-   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorasort()](collator.asort.html) - Сортує масив із збереженням асоціації індексу

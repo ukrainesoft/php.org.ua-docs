@@ -1,12 +1,12 @@
 Повертає ідентифікатор, що належить іменованому фільтру
 
--   [« filter\_has\_var](function.filter-has-var.html)
+-   [« filterhasvar](function.filter-has-var.html)
     
--   [filter\_input\_array »](function.filter-input-array.html)
+-   [filterinputarray »](function.filter-input-array.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции фильтрации данных](ref.filter.html)
+-   [Функції фільтрації даних](ref.filter.html)
     
 -   Повертає ідентифікатор, що належить іменованому фільтру
     
@@ -31,8 +31,8 @@ filter_id(string $name): int|false
 
 ### Значення, що повертаються
 
-Ідентифікатор фільтра у разі успішного виконання або **`false`**якщо фільтр не існує.
+Ідентифікатор фільтра у разі успішного виконання або \*\*`false`\*\*якщо фільтр не існує.
 
 ### Дивіться також
 
--   [filter\_list()](function.filter-list.html) - Повертає список усіх підтримуваних фільтрів
+-   [filterlist()](function.filter-list.html) - Повертає список усіх підтримуваних фільтрів

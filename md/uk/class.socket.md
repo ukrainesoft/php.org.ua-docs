@@ -1,6 +1,6 @@
 Клас Socket
 
--   [« socket\_wsaprotocol\_info\_release](function.socket-wsaprotocol-info-release.html)
+-   [« socketwsaprotocolinforelease](function.socket-wsaprotocol-info-release.html)
     
 -   [AddressInfo »](class.addressinfo.html)
     

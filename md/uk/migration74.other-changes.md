@@ -1,6 +1,6 @@
 Інші зміни
 
--   [« Удалённые модули](migration74.removed-extensions.html)
+-   [« Видалені модулі](migration74.removed-extensions.html)
     
 -   [Поддержка Windows »](migration74.windows-support.html)
     
@@ -17,17 +17,17 @@
 
 #### Ядро PHP
 
-Додано спеціальний опкод віртуальної машини для функції [array\_key\_exists()](function.array-key-exists.html), що покращує продуктивність цієї функції, якщо значення параметра може бути статично дозволено. У коді, який використовує простір імен, можливо буде потрібно використання абсолютного імені (`\array_key_exists()`) або ж явний імпорт функції.
+Додано спеціальний опкод віртуальної машини для функції [arraykeyexists()](function.array-key-exists.html), що покращує продуктивність цієї функції, якщо значення параметра може бути статично дозволено. У коді, який використовує простір імен, можливо буде потрібно використання абсолютного імені (`\array_key_exists()`) або ж явний імпорт функції.
 
 #### Регулярні вирази (сумісні з Perl)
 
-Коли функція [preg\_match()](function.preg-match.html) у режимі UTF-8 (модифікатор `"u"`) неодноразово викликається для одного і того ж рядка (можливо, на різних позиціях), перевірка правильності UTF-8 буде виконана лише один раз.
+Коли функція [pregmatch()](function.preg-match.html) у режимі UTF-8 (модифікатор `"u"`) неодноразово викликається для одного і того ж рядка (можливо, на різних позиціях), перевірка правильності UTF-8 буде виконана лише один раз.
 
 ### Зміни обробки INI-файлів
 
-[zend.exception\_ignore\_args](ini.core.html#ini.zend.exception-ignore-args) - нова INI-директива для включення або виключення аргументів з трасування стека, отриманих у винятках.
+[zend.exceptionignoreargs](ini.core.html#ini.zend.exception-ignore-args) - нова INI-директива для включення або виключення аргументів з трасування стека, отриманих у винятках.
 
-[opcache.preload\_user](opcache.configuration.html#ini.opcache.preload-user) - нова INI-директива для встановлення користувача, з-під якого має виконуватися код попереднього завантаження, інакше це буде root (не допускається з міркувань безпеки).
+[opcache.preloaduser](opcache.configuration.html#ini.opcache.preload-user) - нова INI-директива для встановлення користувача, з-під якого має виконуватися код попереднього завантаження, інакше це буде root (не допускається з міркувань безпеки).
 
 ### Міграція на pkg-config
 
@@ -88,7 +88,7 @@
 
 [fputcsv()](function.fputcsv.html) [fgetcsv()](function.fgetcsv.html) [SplFileObject::fputcsv()](splfileobject.fputcsv.html) [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html) і [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html) тепер приймаємо порожній рядок у аргументі `$escape`. Це відключить пропрієтарний механізм екранування PHP.
 
-Поведінка функції [str\_getcsv()](function.str-getcsv.html) було відповідним чином скориговано (раніше порожній рядок був ідентичний використанню значення за умовчанням).
+Поведінка функції [strgetcsv()](function.str-getcsv.html) було відповідним чином скориговано (раніше порожній рядок був ідентичний використанню значення за умовчанням).
 
 Метод [SplFileObject::getCsvControl()](splfileobject.getcsvcontrol.html) тепер може повертати порожній рядок для третього елемента масиву, відповідно.
 
@@ -131,11 +131,11 @@
 
 ### OPcache
 
-Конфігураційні опції **\-disable-opcache-file** і **\-enable-opcache-file** видалені на користь використання INI-директиви [opcache.file\_cache](opcache.configuration.html#ini.opcache.file-cache)
+Конфігураційні опції **\-disable-opcache-file** і **\-enable-opcache-file** видалені на користь використання INI-директиви [opcache.filecache](opcache.configuration.html#ini.opcache.file-cache)
 
 ### Хешування паролів
 
-Функції [password\_hash()](function.password-hash.html) і [password\_needs\_rehash()](function.password-needs-rehash.html) тепер приймають рядок, що обнулюється, (string) і ціле число (int) в аргументі `$algo`
+Функції [passwordhash()](function.password-hash.html) і [passwordneedsrehash()](function.password-needs-rehash.html) тепер приймають рядок, що обнулюється, (string) і ціле число (int) в аргументі `$algo`
 
 ### PEAR
 
@@ -151,7 +151,7 @@
 
 ### SQLite3
 
-Вбудована бібліотека libsqlite у збірці видалена. Для складання модуля [SQLite3](book.sqlite3.html) тепер потрібно libsqlite3 ≥ 3.7.4. Щоб зібрати модуль [PDO\_SQLite](ref.pdo-sqlite.html) обов'язково потрібний libsqlite3 ≥ 3.5.0.
+Вбудована бібліотека libsqlite у збірці видалена. Для складання модуля [SQLite3](book.sqlite3.html) тепер потрібно libsqlite3 ≥ 3.7.4. Щоб зібрати модуль [PDOSQLite](ref.pdo-sqlite.html) обов'язково потрібний libsqlite3 ≥ 3.5.0.
 
 Серіалізація та десеріалізація [SQLite3](class.sqlite3.html) [SQLite3Stmt](class.sqlite3stmt.html) і [SQLite3Result](class.sqlite3result.html) тепер явно заборонено. Раніше серіалізація екземплярів цих класів була можливою, але десеріалізація робила об'єкти невикористовуваними для подальшої роботи.
 

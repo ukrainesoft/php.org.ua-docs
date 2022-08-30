@@ -2,7 +2,7 @@
 
 -   [« ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.html)
     
--   [ReflectionZendExtension::\_\_clone »](reflectionzendextension.clone.html)
+-   [ReflectionZendExtension::clone »](reflectionzendextension.clone.html)
     
 -   [PHP Manual](index.html)
     
@@ -63,12 +63,12 @@ name
 
 ## Зміст
 
--   [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.html) - Обробник клонування
--   [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.html) - Конструктор
+-   [ReflectionZendExtension::clone](reflectionzendextension.clone.html) - Обробник клонування
+-   [ReflectionZendExtension::construct](reflectionzendextension.construct.html) - Конструктор
 -   [ReflectionZendExtension::export](reflectionzendextension.export.html) - Експорт
 -   [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.html) — Отримує автора
 -   [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.html) — Отримує авторські права
 -   [ReflectionZendExtension::getName](reflectionzendextension.getname.html) — Отримує ім'я
 -   [ReflectionZendExtension::getURL](reflectionzendextension.geturl.html) — Отримує URL
 -   [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.html) — Отримує версію
--   [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.html) - Обробник перетворення в рядок
+-   [ReflectionZendExtension::toString](reflectionzendextension.tostring.html) - Обробник перетворення в рядок

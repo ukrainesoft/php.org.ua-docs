@@ -2,7 +2,7 @@
 
 -   [« Определение пространств имён](language.namespaces.definition.html)
     
--   [Описание нескольких пространств имён в одном файле »](language.namespaces.definitionmultiple.html)
+-   [Опис кількох просторів імен в одному файлі »](language.namespaces.definitionmultiple.html)
     
 -   [PHP Manual](index.html)
     

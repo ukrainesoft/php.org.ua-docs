@@ -1,8 +1,8 @@
 Примушує бібліотеку читати цей файл конфігурації
 
--   [« radius\_close](function.radius-close.html)
+-   [« radiusclose](function.radius-close.html)
     
--   [radius\_create\_request »](function.radius-create-request.html)
+-   [radiuscreaterequest »](function.radius-create-request.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ radius_config(resource $radius_handle, string $file): bool
 
 `file`
 
-Шлях до файлу конфігурації передається як аргумент файлу в **radiusconfig()**. Бібліотека також може бути налаштована програмно за допомогою дзвінка [radius\_add\_server()](function.radius-add-server.html)
+Шлях до файлу конфігурації передається як аргумент файлу в **radiusconfig()**. Бібліотека також може бути налаштована програмно за допомогою дзвінка [radiusaddserver()](function.radius-add-server.html)
 
 ### Значення, що повертаються
 
@@ -39,4 +39,4 @@ radius_config(resource $radius_handle, string $file): bool
 
 ### Дивіться також
 
--   [radius\_add\_server()](function.radius-add-server.html) - Додає сервер
+-   [radiusaddserver()](function.radius-add-server.html) - Додає сервер

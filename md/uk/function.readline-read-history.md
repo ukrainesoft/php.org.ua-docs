@@ -1,8 +1,8 @@
 Прочитати історію команд із файлу
 
--   [« readline\_on\_new\_line](function.readline-on-new-line.html)
+-   [« readlineвінnewline](function.readline-on-new-line.html)
     
--   [readline\_redisplay »](function.readline-redisplay.html)
+-   [readlineredisplay »](function.readline-redisplay.html)
     
 -   [PHP Manual](index.html)
     

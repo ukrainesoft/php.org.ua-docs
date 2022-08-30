@@ -2,7 +2,7 @@
 
 -   [« Lua::registerCallback](lua.registercallback.html)
     
--   [LuaClosure::\_\_invoke »](luaclosure.invoke.html)
+-   [LuaClosure::invoke »](luaclosure.invoke.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ Lua Closure – це клас обгортка для LUATFUNCTION, яка мо�
 
 ## Зміст
 
--   [LuaClosure::\_\_invoke](luaclosure.invoke.html) — Виклик замикання Lua
+-   [LuaClosure::invoke](luaclosure.invoke.html) — Виклик замикання Lua

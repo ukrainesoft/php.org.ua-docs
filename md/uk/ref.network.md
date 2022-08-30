@@ -17,9 +17,9 @@
 
 -   [checkdnsrr](function.checkdnsrr.html) — Перевіряє записи DNS, які відповідають переданому імені вузла Інтернету або IP-адресі
 -   [closelog](function.closelog.html) — Закриває з'єднання із системним журналом
--   [dns\_check\_record](function.dns-check-record.html) - Псевдонім checkdnsrr
--   [dns\_get\_mx](function.dns-get-mx.html) - Псевдонім getmxrr
--   [dns\_get\_record](function.dns-get-record.html) — Отримання ресурсних записів DNS хоста
+-   [dnscheckrecord](function.dns-check-record.html) - Псевдонім checkdnsrr
+-   [dnsgetмкс](function.dns-get-mx.html) - Псевдонім getmxrr
+-   [dnsgetrecord](function.dns-get-record.html) — Отримання ресурсних записів DNS хоста
 -   [fsockopen](function.fsockopen.html) — Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [gethostbyaddr](function.gethostbyaddr.html) — Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
 -   [gethostbyname](function.gethostbyname.html) — Отримує IPv4-адресу, що відповідає переданому імені хоста
@@ -30,22 +30,22 @@
 -   [getprotobynumber](function.getprotobynumber.html) — Отримує ім'я протоколу за номером
 -   [getservbyname](function.getservbyname.html) — Отримує номер порту, пов'язаного з інтернет-службою та протоколом
 -   [getservbyport](function.getservbyport.html) — Отримує інтернет-службу, що відповідає заданому порту та протоколу
--   [header\_register\_callback](function.header-register-callback.html) - Викликає функцію заголовка
--   [header\_remove](function.header-remove.html) — Видаляє раніше встановлені заголовки
+-   [headerregistercallback](function.header-register-callback.html) - Викликає функцію заголовка
+-   [headerremove](function.header-remove.html) — Видаляє раніше встановлені заголовки
 -   [header](function.header.html) — Надсилання HTTP-заголовка
--   [headers\_list](function.headers-list.html) — Повертає список переданих заголовків (або готових до відправлення)
--   [headers\_sent](function.headers-sent.html) — Перевіряє, чи надіслано заголовки.
--   [http\_response\_code](function.http-response-code.html) — Отримує або встановлює код відповіді HTTP
--   [inet\_ntop](function.inet-ntop.html) — Конвертує упаковану інтернет-адресу в формат, що читається.
--   [inet\_pton](function.inet-pton.html) — Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+-   [headerslist](function.headers-list.html) — Повертає список переданих заголовків (або готових до відправлення)
+-   [headerssent](function.headers-sent.html) — Перевіряє, чи надіслано заголовки.
+-   [httpresponsecode](function.http-response-code.html) — Отримує або встановлює код відповіді HTTP
+-   [inetntop](function.inet-ntop.html) — Конвертує упаковану інтернет-адресу в формат, що читається.
+-   [inetpton](function.inet-pton.html) — Конвертує IP-адресу, що читається, в її упаковане подання inaddr
 -   [ip2long](function.ip2long.html) — Конвертує рядок, що містить IPv4-адресу в ціле число
 -   [long2ip](function.long2ip.html) — Конвертує ціле число в IPv4-адресу
--   [net\_get\_interfaces](function.net-get-interfaces.html) — Отримує мережні інтерфейси
+-   [netgetinterfaces](function.net-get-interfaces.html) — Отримує мережні інтерфейси
 -   [openlog](function.openlog.html) — Відкриває підключення до системного журналу
 -   [pfsockopen](function.pfsockopen.html) — Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [setcookie](function.setcookie.html) — Надсилає cookie
 -   [setrawcookie](function.setrawcookie.html) — Надсилає cookie без URL-кодування значення
--   [socket\_get\_status](function.socket-get-status.html) - Псевдонім streamgetmetadata
--   [socket\_set\_blocking](function.socket-set-blocking.html) - Псевдонім streamsetblocking
--   [socket\_set\_timeout](function.socket-set-timeout.html) - Псевдонім streamsettimeout
+-   [socketgetstatus](function.socket-get-status.html) - Псевдонім streamgetmetadata
+-   [socketsetblocking](function.socket-set-blocking.html) - Псевдонім streamsetblocking
+-   [socketsettimeout](function.socket-set-timeout.html) - Псевдонім streamsettimeout
 -   [syslog](function.syslog.html) - Генерує повідомлення для системного журналу

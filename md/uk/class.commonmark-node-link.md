@@ -1,8 +1,8 @@
 Link успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Image::\_\_construct](commonmark-node-image.construct.html)
+-   [« CommonMarkNodeImage::construct](commonmark-node-image.construct.html)
     
--   [CommonMark\\Node\\Link::\_\_construct »](commonmark-node-link.construct.html)
+-   [CommonMarkNodeLink::construct »](commonmark-node-link.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,4 +108,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\Link::\_\_construct](commonmark-node-link.construct.html) - Конструктор класу Link
+-   [CommonMarkNodeLink::construct](commonmark-node-link.construct.html) - Конструктор класу Link

@@ -1,12 +1,12 @@
 Встановити статус обраності
 
--   [« UI\\Controls\\Check::onToggle](ui-controls-check.ontoggle.html)
+-   [« UIControlsCheck::onToggle](ui-controls-check.ontoggle.html)
     
--   [UI\\Controls\\Check::setText »](ui-controls-check.settext.html)
+-   [ОЙControlsCheck::setText »](ui-controls-check.settext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Check](class.ui-controls-check.html)
+-   [ОЙControlsCheck](class.ui-controls-check.html)
     
 -   Встановити статус обраності
     

@@ -1,12 +1,12 @@
 Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
--   [« CommonMark\\Node::replace](commonmark-node.replace.html)
+-   [« CommonMarkNode::replace](commonmark-node.replace.html)
     
--   [CommonMark\\Node::accept »](commonmark-node.accept.html)
+-   [CommonMarkNode::accept »](commonmark-node.accept.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node](class.commonmark-node.html)
+-   [CommonMarkNode](class.commonmark-node.html)
     
 -   Маніпуляції з AST (Абстрактне синтаксичне дерево)
     

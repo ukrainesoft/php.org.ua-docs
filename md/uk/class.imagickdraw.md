@@ -163,7 +163,7 @@ public translate(float $x, float $y): bool
 -   [ImagickDraw::color](imagickdraw.color.html) — Малює колір на зображенні
 -   [ImagickDraw::comment](imagickdraw.comment.html) — Додає коментар
 -   [ImagickDraw::composite](imagickdraw.composite.html) — Накладає зображення на поточне зображення
--   [ImagickDraw::\_\_construct](imagickdraw.construct.html) - Конструктор класу ImagickDraw
+-   [ImagickDraw::construct](imagickdraw.construct.html) - Конструктор класу ImagickDraw
 -   [ImagickDraw::destroy](imagickdraw.destroy.html) — Звільняє усі пов'язані ресурси
 -   [ImagickDraw::ellipse](imagickdraw.ellipse.html) — Малює на зображенні еліпс
 -   [ImagickDraw::getClipPath](imagickdraw.getclippath.html) — Повертає ідентифікатор поточного відсічного контуру

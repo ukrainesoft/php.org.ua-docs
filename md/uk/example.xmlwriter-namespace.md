@@ -1,6 +1,6 @@
 Робота з просторами імен XML
 
--   [« Создание простого XML-документа](example.xmlwriter-simple.html)
+-   [« Створення простого XML-документу](example.xmlwriter-simple.html)
     
 -   [Работа с объектно-ориентированным API »](example.xmlwriter-oop.html)
     

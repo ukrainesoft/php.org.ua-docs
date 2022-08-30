@@ -1,8 +1,8 @@
 Модифікована модель свічка "Крюк"
 
--   [« trader\_cdlhikkake](function.trader-cdlhikkake.html)
+-   [« tradercdlhikkake](function.trader-cdlhikkake.html)
     
--   [trader\_cdlhomingpigeon »](function.trader-cdlhomingpigeon.html)
+-   [tradercdlhomingpigeon »](function.trader-cdlhomingpigeon.html)
     
 -   [PHP Manual](index.html)
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [GD](book.image.html)
+-   [ДД](book.image.html)
     
 -   Клас GdFont
     

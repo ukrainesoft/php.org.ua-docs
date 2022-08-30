@@ -1,12 +1,12 @@
 Замінює елементи масиву елементами інших переданих масивів
 
--   [« array\_replace\_recursive](function.array-replace-recursive.html)
+-   [« arrayreplacerecursive](function.array-replace-recursive.html)
     
--   [array\_reverse »](function.array-reverse.html)
+-   [arrayreverse »](function.array-reverse.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Замінює елементи масиву елементами інших переданих масивів
     
@@ -71,5 +71,5 @@ Array
 
 ### Дивіться також
 
--   [array\_replace\_recursive()](function.array-replace-recursive.html) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
--   [array\_merge()](function.array-merge.html) - Зливає один або більше масивів
+-   [arrayreplacerecursive()](function.array-replace-recursive.html) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
+-   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів

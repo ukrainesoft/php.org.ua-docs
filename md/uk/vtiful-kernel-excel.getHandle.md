@@ -1,12 +1,12 @@
 Отримати дескриптор
 
--   [« Vtiful\\Kernel\\Excel::fileName](vtiful-kernel-excel.filename.html)
+-   [« VtifulKernelExcel::fileName](vtiful-kernel-excel.filename.html)
     
--   [Vtiful\\Kernel\\Excel::header »](vtiful-kernel-excel.header.html)
+-   [VtifulKernelExcel::header »](vtiful-kernel-excel.header.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Отримати дескриптор
     

@@ -2,11 +2,11 @@
 
 -   [« hebrevc](function.hebrevc.html)
     
--   [html\_entity\_decode »](function.html-entity-decode.html)
+-   [htmlentitydecode »](function.html-entity-decode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює шістнадцяткові дані на двійкові
     
@@ -27,7 +27,7 @@ hex2bin(string $string): string|false
 
 **Застереження**
 
-Ця функція *НЕ* конвертує шістнадцяткові числа у двійкові. Якщо саме це потрібно, використовуйте функцію [base\_convert()](function.base-convert.html)
+Ця функція *НЕ* конвертує шістнадцяткові числа у двійкові. Якщо саме це потрібно, використовуйте функцію [baseconvert()](function.base-convert.html)
 
 ### Список параметрів
 

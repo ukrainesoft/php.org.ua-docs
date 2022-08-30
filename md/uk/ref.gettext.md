@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](gettext.constants.html)
     
--   [bind\_textdomain\_codeset »](function.bind-textdomain-codeset.html)
+-   [bindtextdomaincodeset »](function.bind-textdomain-codeset.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [bind\_textdomain\_codeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
+-   [bindtextdomaincodeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
 -   [bindtextdomain](function.bindtextdomain.html) — Встановлює чи отримує шлях для домену
 -   [dcgettext](function.dcgettext.html) — Перевизначає одне повідомлення в домені
 -   [dcngettext](function.dcngettext.html) — Версія dcgettext для множини

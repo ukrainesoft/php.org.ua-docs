@@ -1,12 +1,12 @@
 Вважає з'єднання
 
--   [« Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [« SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
--   [Swoole\\Connection\\Iterator::current »](swoole-connection-iterator.current.html)
+-   [SwooleConnectionIterator::current »](swoole-connection-iterator.current.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Вважає з'єднання
     

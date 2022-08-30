@@ -1,8 +1,8 @@
 Замінює старе значення на нове
 
--   [« apcu\_cache\_info](function.apcu-cache-info.html)
+-   [« apcucacheinfo](function.apcu-cache-info.html)
     
--   [apcu\_clear\_cache »](function.apcu-clear-cache.html)
+-   [apcuclearcache »](function.apcu-clear-cache.html)
     
 -   [PHP Manual](index.html)
     
@@ -79,5 +79,5 @@ $foobar = 1
 
 ### Дивіться також
 
--   [apcu\_dec()](function.apcu-dec.html) - Зменшити збережене число
--   [apcu\_store()](function.apcu-store.html) - Кешує змінну
+-   [apcudec()](function.apcu-dec.html) - Зменшити збережене число
+-   [apcustore()](function.apcu-store.html) - Кешує змінну

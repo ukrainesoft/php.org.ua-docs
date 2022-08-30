@@ -2,7 +2,7 @@
 
 -   [« readgzfile](function.readgzfile.html)
     
--   [zlib\_encode »](function.zlib-encode.html)
+-   [zlibencode »](function.zlib-encode.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ zlib_decode(string $data, int $max_length = 0): string|false
 
 ### Дивіться також
 
--   [zlib\_encode()](function.zlib-encode.html) - Стиснення даних із зазначеним кодуванням
+-   [zlibencode()](function.zlib-encode.html) - Стиснення даних із зазначеним кодуванням

@@ -1,6 +1,6 @@
 Робота з об'єктно-орієнтованим API
 
--   [« Работа с пространствами имён XML](example.xmlwriter-namespace.html)
+-   [« Робота з просторами імен XML](example.xmlwriter-namespace.html)
     
 -   [XMLWriter »](class.xmlwriter.html)
     

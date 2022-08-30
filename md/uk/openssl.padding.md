@@ -1,8 +1,8 @@
 Прапори заповнення для асиметричного шифрування
 
--   [« Флаги проверки](openssl.purpose-check.html)
+-   [« Прапори перевірки](openssl.purpose-check.html)
     
--   [Типы ключей »](openssl.key-types.html)
+-   [Типи ключів »](openssl.key-types.html)
     
 -   [PHP Manual](index.html)
     

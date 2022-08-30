@@ -1,8 +1,8 @@
 Призначення sodiumcryptocoreristretto255scalarcomplement
 
--   [« sodium\_crypto\_core\_ristretto255\_scalar\_add](function.sodium-crypto-core-ristretto255-scalar-add.html)
+-   [« sodiumcryptocoreristretto255scalaradd](function.sodium-crypto-core-ristretto255-scalar-add.html)
     
--   [sodium\_crypto\_core\_ristretto255\_scalar\_invert »](function.sodium-crypto-core-ristretto255-scalar-invert.html)
+-   [sodiumcryptocoreristretto255scalarinvert »](function.sodium-crypto-core-ristretto255-scalar-invert.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ sodium_crypto_core_ristretto255_scalar_complement(string $s): string
 
 ### Дивіться також
 
--   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ

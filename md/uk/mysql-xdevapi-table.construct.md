@@ -1,12 +1,12 @@
 Конструктор Table
 
--   [« mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html)
+-   [« mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     
 -   [Table::count »](mysql-xdevapi-table.count.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html)
+-   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     
 -   Конструктор Table
     

@@ -1,8 +1,8 @@
 Запускає попередньо підготовлений SQL-запит і передає параметри; не чекає результату, що повертається
 
--   [« pg\_select](function.pg-select.html)
+-   [« pgselect](function.pg-select.html)
     
--   [pg\_send\_prepare »](function.pg-send-prepare.html)
+-   [пгsendprepare »](function.pg-send-prepare.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,17 +25,17 @@ pg_send_execute(PgSql\Connection $connection, string $statement_name, array $par
 
 Запускає попередньо підготовлений SQL-запит і передає параметри; не чекає результату, що повертається.
 
-Працює аналогічно до функцій [pg\_send\_query\_params()](function.pg-send-query-params.html), тільки замість рядка із запитом приймає ім'я попередньо підготовленого SQL-запиту. Аргументи функції обробляються так само, як і функції [pg\_execute()](function.pg-execute.html). Як і [pg\_execute()](function.pg-execute.html) ця функція не працюватиме на з'єднаннях з серверами PostgreSQL версій нижче 7.4.
+Працює аналогічно до функцій [пгsendqueryparams()](function.pg-send-query-params.html), тільки замість рядка із запитом приймає ім'я попередньо підготовленого SQL-запиту. Аргументи функції обробляються так само, як і функції [пгexecute()](function.pg-execute.html). Як і [пгexecute()](function.pg-execute.html) ця функція не працюватиме на з'єднаннях з серверами PostgreSQL версій нижче 7.4.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `statement_name`
 
-Ім'я підготовленого до виконання запиту. Якщо передано порожній рядок "", буде виконано безіменний запит. Ім'я та вміст запиту мають бути підготовлені функцією [pg\_prepare()](function.pg-prepare.html) [pg\_send\_prepare()](function.pg-send-prepare.html) або за допомогою SQL-команди `PREPARE`
+Ім'я підготовленого до виконання запиту. Якщо передано порожній рядок "", буде виконано безіменний запит. Ім'я та вміст запиту мають бути підготовлені функцією [пгprepare()](function.pg-prepare.html) [пгsendprepare()](function.pg-send-prepare.html) або за допомогою SQL-команди `PREPARE`
 
 `params`
 
@@ -43,13 +43,13 @@ pg_send_execute(PgSql\Connection $connection, string $statement_name, array $par
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [pg\_get\_result()](function.pg-get-result.html)
+Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.html)
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -83,6 +83,6 @@ pg_send_execute(PgSql\Connection $connection, string $statement_name, array $par
 
 ### Дивіться також
 
--   [pg\_prepare()](function.pg-prepare.html) - Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
--   [pg\_send\_prepare()](function.pg-send-prepare.html) - Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
--   [pg\_execute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгprepare()](function.pg-prepare.html) - Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
+-   [пгsendprepare()](function.pg-send-prepare.html) - Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
+-   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату

@@ -1,12 +1,12 @@
 Включає збирач циклічних посилань
 
--   [« gc\_disable](function.gc-disable.html)
+-   [« gcdisable](function.gc-disable.html)
     
--   [gc\_enabled »](function.gc-enabled.html)
+-   [гкenabled »](function.gc-enabled.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Включає збирач циклічних посилань
     
@@ -23,7 +23,7 @@
 gc_enable(): void
 ```
 
-Включає збирач циклічних посилань, встановлюючи [zend.enable\_gc](info.configuration.html#ini.zend.enable-gc) в `1`
+Включає збирач циклічних посилань, встановлюючи [zend.enableгк](info.configuration.html#ini.zend.enable-gc) в `1`
 
 ### Список параметрів
 

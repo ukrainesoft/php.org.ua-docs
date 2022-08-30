@@ -1,8 +1,8 @@
 Декодує поле MIME-заголовка
 
--   [« iconv\_mime\_decode\_headers](function.iconv-mime-decode-headers.html)
+-   [« iconvmimedecodeheaders](function.iconv-mime-decode-headers.html)
     
--   [iconv\_mime\_encode »](function.iconv-mime-encode.html)
+-   [iconvmimeencode »](function.iconv-mime-encode.html)
     
 -   [PHP Manual](index.html)
     
@@ -40,11 +40,11 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 | Значение | Константа                       | Описание                                                                                                                                                                                                                                                                                         |
 |----------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |          | ICONVMIMEDECODESTRICT           | Якщо задано, заголовок декодується у повній відповідності до стандарту [» RFC2047](http://www.faqs.org/rfcs/rfc2047). Ця опція відключена за замовчуванням, оскільки існує безліч поштових програм, які не дотримуються специфікацій та формують некоректні з погляду стандарту `MIME`заголовки. |
-|          | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconv\_mime\_decode\_headers()](function.iconv-mime-decode-headers.html) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка.                                                                                                                       |
+|          | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.html) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка.                                                                                                                             |
 
 `encoding`
 
-Необов'язковий аргумент `encoding` задає набір символів, у якому буде представлено результат. Якщо аргумент опущено, використовуватиметься [iconv.internal\_encoding](iconv.configuration.html)
+Необов'язковий аргумент `encoding` задає набір символів, у якому буде представлено результат. Якщо аргумент опущено, використовуватиметься [iconv.internalencoding](iconv.configuration.html)
 
 ### Значення, що повертаються
 
@@ -70,8 +70,8 @@ echo iconv_mime_decode("Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=",
 
 ### Дивіться також
 
--   [iconv\_mime\_decode\_headers()](function.iconv-mime-decode-headers.html) - Декодує кілька полів заголовка MIME
--   [mb\_decode\_mimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
--   [imap\_mime\_header\_decode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
--   [imap\_base64()](function.imap-base64.html) - Декодувати текст закодований BASE64
--   [imap\_qprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+-   [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.html) - Декодує кілька полів заголовка MIME
+-   [мбdecodemimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
+-   [imapmimeheaderdecode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
+-   [imapbase64()](function.imap-base64.html) - Декодувати текст закодований BASE64
+-   [imapqprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок

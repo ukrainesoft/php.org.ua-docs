@@ -1,12 +1,12 @@
 Створює та повертає потік, який буде використаний для заміни
 
--   [« svn\_fs\_abort\_txn](function.svn-fs-abort-txn.html)
+-   [« svnфсaborttxn](function.svn-fs-abort-txn.html)
     
--   [svn\_fs\_begin\_txn2 »](function.svn-fs-begin-txn2.html)
+-   [svnфсbegintxn2 »](function.svn-fs-begin-txn2.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює та повертає потік, який буде використаний для заміни
     

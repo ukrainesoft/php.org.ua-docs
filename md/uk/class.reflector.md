@@ -56,4 +56,4 @@ public __toString(): string
 ## Зміст
 
 -   [Reflector::export](reflector.export.html) - Експорт
--   [Reflector::\_\_toString](reflector.tostring.html) — Подання у вигляді рядка
+-   [Reflector::toString](reflector.tostring.html) — Подання у вигляді рядка

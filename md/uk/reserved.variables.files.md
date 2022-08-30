@@ -1,8 +1,8 @@
 Змінні файли, завантажені за HTTP
 
--   [« $\_POST](reserved.variables.post.html)
+-   [POST](reserved.variables.post.html)
     
--   [$\_REQUEST »](reserved.variables.request.html)
+-   [REQUEST »](reserved.variables.request.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,7 +19,7 @@ FILES — Змінні файли, завантажені за HTTP
 
 ### Опис
 
-Асоціативний масив (array) елементів, завантажених у поточний скрипт через метод HTTP POST. Структура цього масиву описана у розділі [Загрузка файлов методом POST](features.file-upload.post-method.html)
+Асоціативний масив (array) елементів, завантажених у поточний скрипт через метод HTTP POST. Структура цього масиву описана у розділі [Завантаження файлів методом POST](features.file-upload.post-method.html)
 
 ### Примітки
 
@@ -29,5 +29,5 @@ FILES — Змінні файли, завантажені за HTTP
 
 ### Дивіться також
 
--   [move\_uploaded\_file()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [moveuploadedfile()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
 -   [Загрузка файлов на сервер](features.file-upload.html)

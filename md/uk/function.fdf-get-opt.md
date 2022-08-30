@@ -1,8 +1,8 @@
 Отримує значення з масиву opt поля
 
--   [« fdf\_get\_flags](function.fdf-get-flags.html)
+-   [« fdfgetflags](function.fdf-get-flags.html)
     
--   [fdf\_get\_status »](function.fdf-get-status.html)
+-   [fdfgetstatus »](function.fdf-get-status.html)
     
 -   [PHP Manual](index.html)
     

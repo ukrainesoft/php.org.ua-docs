@@ -1,12 +1,12 @@
 Викликає функцію бібліотеки C fcntl для файлового дескриптора
 
--   [« dio\_close](function.dio-close.html)
+-   [« dioclose](function.dio-close.html)
     
--   [dio\_open »](function.dio-open.html)
+-   [dioopen »](function.dio-open.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Викликає функцію бібліотеки C fcntl для файлового дескриптора
     
@@ -29,7 +29,7 @@ dio_fcntl(resource $fd, int $cmd, mixed $args = ?): mixed
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 `cmd`
 

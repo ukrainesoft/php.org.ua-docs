@@ -1,8 +1,8 @@
 Екранує спеціальні символи в рядках для використання у виразах SQL
 
--   [« mysql\_query](function.mysql-query.html)
+-   [« mysqlquery](function.mysql-query.html)
     
--   [mysql\_result »](function.mysql-result.html)
+-   [mysqlresult »](function.mysql-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlrealescapestring — Екран спеціальних символів у 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html)
+-   [mysqlirealescapestring()](mysqli.real-escape-string.html)
 -   [PDO::quote()](pdo.quote.html)
 
 ### Опис
@@ -30,7 +30,7 @@ mysqlrealescapestring — Екран спеціальних символів у 
 mysql_real_escape_string(string $unescaped_string, resource $link_identifier = NULL): string
 ```
 
-Екранує спеціальні символи в `unescaped_string`, беручи до уваги кодування з'єднання, таким чином, що результат можна безпечно використовувати в SQL-запиті у функції [mysql\_query()](function.mysql-query.html). Якщо вставляються бінарні дані, то до них необхідно застосовувати цю функцію.
+Екранує спеціальні символи в `unescaped_string`, беручи до уваги кодування з'єднання, таким чином, що результат можна безпечно використовувати в SQL-запиті у функції [mysqlquery()](function.mysql-query.html). Якщо вставляються бінарні дані, то до них необхідно застосовувати цю функцію.
 
 **mysqlrealescapestring()** викликає бібліотечну функцію MySQL mysqlrealescapestring, яка додає зворотну косу рису до наступних символів: `\x00` `\n` `\r` `\` `'` `"` і `\x1a`
 
@@ -40,7 +40,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 # Безпека: кодування символів за промовчанням
 
-Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysql\_set\_charset()](function.mysql-set-charset.html), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодировка символов](mysqlinfo.concepts.charset.html)
+Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysqlsetcharset()](function.mysql-set-charset.html), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.html)
 
 ### Список параметрів
 
@@ -50,7 +50,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -139,7 +139,7 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 > **Зауваження**
 > 
-> Якщо [magic\_quotes\_gpc](info.configuration.html#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.html). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
+> Якщо [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.html). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
 
 > **Зауваження**
 > 
@@ -149,9 +149,9 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 ### Дивіться також
 
--   [mysql\_set\_charset()](function.mysql-set-charset.html) - Встановлює кодування клієнта
--   [mysql\_client\_encoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання
+-   [mysqlsetcharset()](function.mysql-set-charset.html) - Встановлює кодування клієнта
+-   [mysqlclientencoding()](function.mysql-client-encoding.html) - Повертає кодування з'єднання
 -   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
 -   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
--   Директива [magic\_quotes\_gpc](info.configuration.html#ini.magic-quotes-gpc)
--   Директива [magic\_quotes\_runtime](info.configuration.html#ini.magic-quotes-runtime)
+-   Директива [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)
+-   Директива [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime)

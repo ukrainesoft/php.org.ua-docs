@@ -1,6 +1,6 @@
 Заголовки відповідей HTTP
 
--   [« $php\_errormsg](reserved.variables.phperrormsg.html)
+-   [« $phperrormsg](reserved.variables.phperrormsg.html)
     
 -   [$argc »](reserved.variables.argc.html)
     
@@ -19,7 +19,7 @@ $httpresponseheader — Заголовки відповідей HTTP
 
 ### Опис
 
-Масив (array) $httpresponseheader схожий на функцію [get\_headers()](function.get-headers.html). При використанні [обёртки HTTP](wrappers.http.html), $httpresponseheader буде заповнюватись заголовками відповіді HTTP. $httpresponseheader буде створено в [локальной области видимости](language.variables.scope.html)
+Масив (array) $httpresponseheader схожий на функцію [getheaders()](function.get-headers.html). При використанні [обёртки HTTP](wrappers.http.html), $httpresponseheader буде заповнюватись заголовками відповіді HTTP. $httpresponseheader буде створено в [локальної області видимості](language.variables.scope.html)
 
 ### Приклади
 

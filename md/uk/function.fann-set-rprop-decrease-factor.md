@@ -1,8 +1,8 @@
 Встановлює коефіцієнт зменшення під час навчання RPROP
 
--   [« fann\_set\_quickprop\_mu](function.fann-set-quickprop-mu.html)
+-   [« fannsetquickpropму](function.fann-set-quickprop-mu.html)
     
--   [fann\_set\_rprop\_delta\_max »](function.fann-set-rprop-delta-max.html)
+-   [fannsetrpropdeltamax »](function.fann-set-rprop-delta-max.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ fann_set_rprop_decrease_factor(resource $ann, float $rprop_decrease_factor): boo
 
 ### Дивіться також
 
--   [fann\_get\_rprop\_decrease\_factor()](function.fann-get-rprop-decrease-factor.html) - Повертає коефіцієнт зменшення під час навчання RPROP
+-   [fanngetrpropdecreasefactor()](function.fann-get-rprop-decrease-factor.html) - Повертає коефіцієнт зменшення під час навчання RPROP

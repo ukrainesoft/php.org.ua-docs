@@ -1,12 +1,12 @@
 Синхронізація
 
--   [« parallel\\Sync::notify](parallel-sync.notify.html)
+-   [« parallelSync::notify](parallel-sync.notify.html)
     
 -   [pthreads »](book.pthreads.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Sync](class.parallel-sync.html)
+-   [parallelSync](class.parallel-sync.html)
     
 -   Синхронізація
     

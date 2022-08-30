@@ -1,6 +1,6 @@
 Клас LDAPResultEntry
 
--   [« LDAP\\Result](class.ldap-result.html)
+-   [« LDAPResult](class.ldap-result.html)
     
 -   [Memcache »](book.memcache.html)
     

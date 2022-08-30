@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvWatcher
     
@@ -106,7 +106,7 @@ priority
 ## Зміст
 
 -   [EvWatcher::clear](evwatcher.clear.html) — Очистити статус очікування спостерігача
--   [EvWatcher::\_\_construct](evwatcher.construct.html) - Абстрактний конструктор об'єкта спостерігача
+-   [EvWatcher::construct](evwatcher.construct.html) - Абстрактний конструктор об'єкта спостерігача
 -   [EvWatcher::feed](evwatcher.feed.html) — Подає зазначені події у цикл подій
 -   [EvWatcher::getLoop](evwatcher.getloop.html) — Повертає цикл, який відповідає за спостерігача
 -   [EvWatcher::invoke](evwatcher.invoke.html) - Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій

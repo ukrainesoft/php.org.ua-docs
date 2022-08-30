@@ -1,12 +1,12 @@
 Призначення isset
 
--   [« Yaf\_Config\_Simple::\_\_get](yaf-config-simple.get.html)
+-   [« YafConfigSimple::get](yaf-config-simple.get.html)
     
--   [Yaf\_Config\_Simple::key »](yaf-config-simple.key.html)
+-   [YafConfigSimple::key »](yaf-config-simple.key.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення isset
     

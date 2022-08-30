@@ -1,12 +1,12 @@
 Закрити будь-які незавершені підключення до демона кешування rrd
 
--   [« rrd\_xport](function.rrd-xport.html)
+-   [« rrdxport](function.rrd-xport.html)
     
 -   [RRDCreator »](class.rrdcreator.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Закрити будь-які незавершені підключення до демона кешування rrd
     

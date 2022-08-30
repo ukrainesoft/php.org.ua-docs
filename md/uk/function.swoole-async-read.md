@@ -1,8 +1,8 @@
 Асинхронне читання потоку файлу
 
--   [« swoole\_async\_dns\_lookup](function.swoole-async-dns-lookup.html)
+-   [« swooleasyncdnslookup](function.swoole-async-dns-lookup.html)
     
--   [swoole\_async\_readfile »](function.swoole-async-readfile.html)
+-   [swooleasyncreadfile »](function.swoole-async-readfile.html)
     
 -   [PHP Manual](index.html)
     

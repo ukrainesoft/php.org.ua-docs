@@ -30,7 +30,7 @@
 
 **Інші константи `iconv`**
 
-| Имя                                       | Тип | Описание                                                                                     |
-|-------------------------------------------|-----|----------------------------------------------------------------------------------------------|
-| **`ICONV_MIME_DECODE_STRICT`**            | int | Бітова маска, що використовується в [iconv\_mime\_decode()](function.iconv-mime-decode.html) |
-| **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconv\_mime\_decode()](function.iconv-mime-decode.html) |
+| Имя                                       | Тип | Описание                                                                                 |
+|-------------------------------------------|-----|------------------------------------------------------------------------------------------|
+| **`ICONV_MIME_DECODE_STRICT`**            | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |
+| **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.html) |

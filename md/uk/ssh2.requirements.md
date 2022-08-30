@@ -17,8 +17,8 @@
 
 Необхідна версія libssh2 1.2 або новіша. Однак можливо, що нові релізи pecl/ssh2 вимагатимуть нові версії (дивіться примітки до релізу).
 
-Функція [ssh2\_auth\_agent()](function.ssh2-auth-agent.html) доступна лише з версією libssh >= 1.2.3.
+Функція [ssh2authagent()](function.ssh2-auth-agent.html) доступна лише з версією libssh >= 1.2.3.
 
-Підтримка канальних потоків у [stream\_set\_timeout()](function.stream-set-timeout.html) доступна лише з версією libssh >= 1.2.9.
+Підтримка канальних потоків у [streamsettimeout()](function.stream-set-timeout.html) доступна лише з версією libssh >= 1.2.9.
 
 Libssh2 поставляється у двох варіантах: gcrypt або openssl. Деякі Linux-дистрибутиви збирають libssh2 з бібліотекою gcrypt, деякі з openssl. Libssh2 має деякі проблеми при компіляції з gcrypt, тому використовуйте версію з openssl.

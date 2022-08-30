@@ -2,11 +2,11 @@
 
 -   [« Установка](ui.installation.html)
     
--   [UI\\Point::at »](ui-point.at.html)
+-   [ОЙPoint::at »](ui-point.at.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Представляє позицію (x, y)
     
@@ -69,9 +69,9 @@ public setY(float $point)
 
 ## Зміст
 
--   [UI\\Point::at](ui-point.at.html) - Приведення Size
--   [UI\\Point::\_\_construct](ui-point.construct.html) — Створити новий об'єкт Point
--   [UI\\Point::getX](ui-point.getx.html) — Отримує X
--   [UI\\Point::getY](ui-point.gety.html) - Отримати Y
--   [UI\\Point::setX](ui-point.setx.html) - Встановити X
--   [UI\\Point::setY](ui-point.sety.html) - Встановити Y
+-   [ОЙPoint::at](ui-point.at.html) - Приведення Size
+-   [ОЙPoint::construct](ui-point.construct.html) — Створити новий об'єкт Point
+-   [ОЙPoint::getX](ui-point.getx.html) — Отримує X
+-   [ОЙPoint::getY](ui-point.gety.html) - Отримати Y
+-   [ОЙPoint::setX](ui-point.setx.html) - Встановити X
+-   [ОЙPoint::setY](ui-point.sety.html) - Встановити Y

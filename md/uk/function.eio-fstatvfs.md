@@ -1,8 +1,8 @@
 Повертає статистику файлової системи
 
--   [« eio\_fstat](function.eio-fstat.html)
+-   [« eiofstat](function.eio-fstat.html)
     
--   [eio\_fsync »](function.eio-fsync.html)
+-   [eiofsync »](function.eio-fsync.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -65,4 +65,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_statvfs()](function.eio-statvfs.html) - Повертає статистику файлової системи
+-   [eiostatvfs()](function.eio-statvfs.html) - Повертає статистику файлової системи

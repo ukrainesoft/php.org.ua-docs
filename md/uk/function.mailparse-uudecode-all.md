@@ -1,8 +1,8 @@
 Сканує дані із вказаного файлу та витягує всі вкладені файли, кодовані в uuencode
 
--   [« mailparse\_stream\_encode](function.mailparse-stream-encode.html)
+-   [« mailparsestreamencode](function.mailparse-stream-encode.html)
     
--   [Математические модули »](refs.math.html)
+-   [Математичні модулі »](refs.math.html)
     
 -   [PHP Manual](index.html)
     

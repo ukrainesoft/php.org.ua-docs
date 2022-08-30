@@ -1,12 +1,12 @@
 Перетворює рядок з ISO-8859-1 на UTF-8
 
--   [« utf8\_decode](function.utf8-decode.html)
+-   [« utf8decode](function.utf8-decode.html)
     
 -   [vfprintf »](function.vfprintf.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює рядок з ISO-8859-1 на UTF-8
     
@@ -73,7 +73,7 @@ echo bin2hex($utf8_string), "\n";
 
 ### Дивіться також
 
--   [utf8\_decode()](function.utf8-decode.html) - Перетворює рядок з UTF-8 на ISO-8859-1, замінюючи неприпустимі або непредставлені символи
--   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [utf8decode()](function.utf8-decode.html) - Перетворює рядок з UTF-8 на ISO-8859-1, замінюючи неприпустимі або непредставлені символи
+-   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
 -   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

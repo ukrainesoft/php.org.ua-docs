@@ -1,12 +1,12 @@
 Використовувати імітатор замість класу для нових об'єктів
 
--   [« uopz\_set\_hook](function.uopz-set-hook.html)
+-   [« uopzsethook](function.uopz-set-hook.html)
     
--   [uopz\_set\_property »](function.uopz-set-property.html)
+-   [uopzsetproperty »](function.uopz-set-property.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Використовувати імітатор замість класу для нових об'єктів
     
@@ -45,9 +45,9 @@ uopz_set_mock(string $class, mixed $mock): void
 
 ### список змін
 
-| Версия     | Описание                                                                                                                                                                                                                                     |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopz\_redefine()](function.uopz-redefine.html) і [uopz\_set\_return()](function.uopz-set-return.html), або [Componere](book.componere.html) |
+| Версия     | Описание                                                                                                                                                                                                                               |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.html) і [uopzsetreturn()](function.uopz-set-return.html), або [Componere](book.componere.html) |
 
 ### Приклади
 
@@ -141,5 +141,5 @@ mockA
 
 ### Дивіться також
 
--   [uopz\_get\_mock()](function.uopz-get-mock.html) - отримати поточний імітатор (mock) для класу
--   [uopz\_unset\_mock()](function.uopz-unset-mock.html) - Видалити раніше встановлений імітатор
+-   [uopzgetmock()](function.uopz-get-mock.html) - отримати поточний імітатор (mock) для класу
+-   [uopzunsetmock()](function.uopz-unset-mock.html) - Видалити раніше встановлений імітатор

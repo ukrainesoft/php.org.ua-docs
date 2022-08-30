@@ -1,12 +1,12 @@
 Отримує кількість порушених рядків
 
--   [« Result::\_\_construct](mysql-xdevapi-result.construct.html)
+-   [« Result::construct](mysql-xdevapi-result.construct.html)
     
 -   [Result::getAutoIncrementValue »](mysql-xdevapi-result.getautoincrementvalue.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Result](class.mysql-xdevapi-result.html)
+-   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
     
 -   Отримує кількість порушених рядків
     

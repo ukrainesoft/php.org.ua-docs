@@ -1,12 +1,12 @@
 Отримує поточний токен
 
--   [« Parle\\Lexer::dump](parle-lexer.dump.html)
+-   [« ParleLexer::dump](parle-lexer.dump.html)
     
--   [Parle\\Lexer::insertMacro »](parle-lexer.insertmacro.html)
+-   [ParleLexer::insertMacro »](parle-lexer.insertmacro.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Lexer](class.parle-lexer.html)
+-   [ParleLexer](class.parle-lexer.html)
     
 -   Отримує поточний токен
     
@@ -31,4 +31,4 @@ public Parle\Lexer::getToken(): Parle\Token
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Parle\\Token](class.parle-token.html)
+Повертає екземпляр [ParleToken](class.parle-token.html)

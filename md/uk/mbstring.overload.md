@@ -1,12 +1,12 @@
 Механізм навантаження функцій
 
--   [« Поддерживаемые кодировки символов](mbstring.supported-encodings.html)
+-   [« Підтримувані кодування символів](mbstring.supported-encodings.html)
     
--   [Требования, предъявляемые к кодировкам символов в PHP »](mbstring.php4.req.html)
+-   [Вимоги до кодування символів у PHP »](mbstring.php4.req.html)
     
 -   [PHP Manual](index.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   Механізм навантаження функцій
     
@@ -19,27 +19,27 @@
 
 Найчастіше змусити працювати існуючий PHP-додаток у багатобайтовому оточенні виявляється досить важким завданням. Це відбувається тому, що більшість PHP-додатків написано з використанням стандартних функцій обробки рядків, таких як [substr()](function.substr.html), які не вміють працювати з рядками у багатобайтових кодуваннях
 
-mbstring підтримує механізм 'перевантаження функцій', який дозволяє повідомити додаток про те, що використовується багатобайтове кодування без модифікації коду, що відповідає за роботу з рядками. Наприклад, якщо увімкнено навантаження функцій, то функція [mb\_substr()](function.mb-substr.html) буде викликатися замість [substr()](function.substr.html). Цей механізм у багатьох випадках дозволяє портувати додатки, що підтримують лише однобайтові кодування, багатобайтне оточення.
+mbstring підтримує механізм 'перевантаження функцій', який дозволяє повідомити додаток про те, що використовується багатобайтове кодування без модифікації коду, що відповідає за роботу з рядками. Наприклад, якщо увімкнено навантаження функцій, то функція [мбsubstr()](function.mb-substr.html) буде викликатися замість [substr()](function.substr.html). Цей механізм у багатьох випадках дозволяє портувати додатки, що підтримують лише однобайтові кодування, багатобайтне оточення.
 
 Для використання механізму перевантаження функцій потрібно встановити налаштування `mbstring.func_overload` у php.ini позитивне значення, яке є комбінацією бітових масок, що визначають категорії функцій, які потрібно перевантажувати. Це буде число 1 для навантаження функції [mail()](function.mail.html). 2 для рядкових функцій; 4 для функцій регулярних виразів. Наприклад, якщо значення налаштування дорівнює 7, то поштові, рядкові та функції регулярних виразів перевантажуватимуться. Список перевантажуваних функцій наведено нижче.
 
 **Функції, які будуть перевантажені**
 
-| значение настройки mbstring.func\_overload | исходная функция                              | перегруженная функция                                |
-|--------------------------------------------|-----------------------------------------------|------------------------------------------------------|
-|                                            | [mail()](function.mail.html)                  | [mb\_send\_mail()](function.mb-send-mail.html)       |
-|                                            | [strlen()](function.strlen.html)              | [mb\_strlen()](function.mb-strlen.html)              |
-|                                            | [strpos()](function.strpos.html)              | [mb\_strpos()](function.mb-strpos.html)              |
-|                                            | [strrpos()](function.strrpos.html)            | [mb\_strrpos()](function.mb-strrpos.html)            |
-|                                            | [substr()](function.substr.html)              | [mb\_substr()](function.mb-substr.html)              |
-|                                            | [strtolower()](function.strtolower.html)      | [mb\_strtolower()](function.mb-strtolower.html)      |
-|                                            | [strtoupper()](function.strtoupper.html)      | [mb\_strtoupper()](function.mb-strtoupper.html)      |
-|                                            | [stripos()](function.stripos.html)            | [mb\_stripos()](function.mb-stripos.html)            |
-|                                            | [strripos()](function.strripos.html)          | [mb\_strripos()](function.mb-strripos.html)          |
-|                                            | [strstr()](function.strstr.html)              | [mb\_strstr()](function.mb-strstr.html)              |
-|                                            | [stristr()](function.stristr.html)            | [mb\_stristr()](function.mb-stristr.html)            |
-|                                            | [strrchr()](function.strrchr.html)            | [mb\_strrchr()](function.mb-strrchr.html)            |
-|                                            | [substr\_count()](function.substr-count.html) | [mb\_substr\_count()](function.mb-substr-count.html) |
+| значение настройки mbstring.func\_overload | исходная функция                            | перегруженная функция                            |
+|--------------------------------------------|---------------------------------------------|--------------------------------------------------|
+|                                            | [mail()](function.mail.html)                | [мбsendmail()](function.mb-send-mail.html)       |
+|                                            | [strlen()](function.strlen.html)            | [мбstrlen()](function.mb-strlen.html)            |
+|                                            | [strpos()](function.strpos.html)            | [мбstrpos()](function.mb-strpos.html)            |
+|                                            | [strrpos()](function.strrpos.html)          | [мбstrrpos()](function.mb-strrpos.html)          |
+|                                            | [substr()](function.substr.html)            | [мбsubstr()](function.mb-substr.html)            |
+|                                            | [strtolower()](function.strtolower.html)    | [мбstrtolower()](function.mb-strtolower.html)    |
+|                                            | [strtoupper()](function.strtoupper.html)    | [мбstrtoupper()](function.mb-strtoupper.html)    |
+|                                            | [stripos()](function.stripos.html)          | [мбstripos()](function.mb-stripos.html)          |
+|                                            | [strripos()](function.strripos.html)        | [мбstrripos()](function.mb-strripos.html)        |
+|                                            | [strstr()](function.strstr.html)            | [мбstrstr()](function.mb-strstr.html)            |
+|                                            | [stristr()](function.stristr.html)          | [мбstristr()](function.mb-stristr.html)          |
+|                                            | [strrchr()](function.strrchr.html)          | [мбstrrchr()](function.mb-strrchr.html)          |
+|                                            | [substrcount()](function.substr-count.html) | [мбsubstrcount()](function.mb-substr-count.html) |
 
 > **Зауваження**
 > 

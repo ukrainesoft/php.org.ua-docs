@@ -1,12 +1,12 @@
 Атака за допомогою ін'єкцій у запиті
 
--   [« Безопасность](mongodb.security.html)
+-   [« Безпека](mongodb.security.html)
     
 -   [Атака с помощью инъекций в скриптах »](mongodb.security.script_injection.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](mongodb.security.html)
+-   [Безпека](mongodb.security.html)
     
 -   Атака за допомогою ін'єкцій у запиті
     
@@ -17,9 +17,9 @@
 
 Досить нешкідливий приклад. Припустимо, ви шукаєте інформацію про користувача за запитом *[http://www.example.com?username=bob](http://www.example.com?username=bob)*. Ваша програма створює запит `$q = new \MongoDB\Driver\Query( [ 'username' => $_GET['username'] ])`
 
-Хтось може підірвати це, отримавши *[http://www.example.com?username\\\[$ne\\\]=foo](http://www.example.com?username%5C%5B$ne%5C%5D=foo)*, який PHP чарівним чином перетворить на асоціативний масив, перетворивши ваш запит на `$q = new \MongoDB\Driver\Query( [ 'username' => [ '$ne' => 'foo' ] ] )`, який поверне всіх користувачів, які не мають імені "foo" (ймовірно, всіх користувачів).
+Хтось може підірвати це, отримавши *[http://www.example.com?username\[$ne\]=foo](http://www.example.com?username%5C%5B$ne%5C%5D=foo)*, який PHP чарівним чином перетворить на асоціативний масив, перетворивши ваш запит на `$q = new \MongoDB\Driver\Query( [ 'username' => [ '$ne' => 'foo' ] ] )`, який поверне всіх користувачів, які не мають імені "foo" (ймовірно, всіх користувачів).
 
-Від цієї атаки досить легко захиститись: переконайтеся, що параметри $GET та $POST відповідають очікуваному типу, перш ніж надсилати в базу даних. PHP має функцію [filter\_var()](function.filter-var.html), щоб допомогти з цим.
+Від цієї атаки досить легко захиститись: переконайтеся, що параметри $GET та $POST відповідають очікуваному типу, перш ніж надсилати в базу даних. PHP має функцію [filtervar()](function.filter-var.html), щоб допомогти з цим.
 
 Зверніть увагу, що цей тип атаки може використовуватися з будь-якою взаємодією з базою даних, яка знаходить документ, включаючи команди update, upserts, delete та findAndModify.
 

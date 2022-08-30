@@ -1,12 +1,12 @@
 Метод повідомлення про запущену команду
 
--   [« MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.html)
+-   [« MongoDBDriverMonitoringCommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandSucceeded »](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html)
+-   [MongoDBDriverMonitoringCommandSubscriber::commandSucceeded »](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
+-   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
     
 -   Метод повідомлення про запущену команду
     
@@ -27,7 +27,7 @@ abstract public MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted(Mong
 
 ### Список параметрів
 
-`event` [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
+`event` [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
 
 Об'єкт події, що містить інформацію про запущену команду.
 
@@ -37,11 +37,11 @@ abstract public MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted(Mong
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
--   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
+-   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)

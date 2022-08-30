@@ -1,12 +1,12 @@
 Отримує кращу мову клієнта
 
--   [« Yaf\_Request\_Abstract::getException](yaf-request-abstract.getexception.html)
+-   [« YafRequestAbstract::getException](yaf-request-abstract.getexception.html)
     
--   [Yaf\_Request\_Abstract::getMethod »](yaf-request-abstract.getmethod.html)
+-   [YafRequestAbstract::getMethod »](yaf-request-abstract.getmethod.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Отримує кращу мову клієнта
     

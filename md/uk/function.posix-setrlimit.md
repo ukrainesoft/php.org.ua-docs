@@ -1,8 +1,8 @@
 Встановлює межі системних ресурсів
 
--   [« posix\_setpgid](function.posix-setpgid.html)
+-   [« posixsetpgid](function.posix-setpgid.html)
     
--   [posix\_setsid »](function.posix-setsid.html)
+-   [posixsetsid »](function.posix-setsid.html)
     
 -   [PHP Manual](index.html)
     
@@ -48,4 +48,4 @@ posix_setrlimit(int $resource, int $soft_limit, int $hard_limit): bool
 ### Дивіться також
 
 -   man page SETRLIMIT(2)
--   [posix\_getrlimit()](function.posix-getrlimit.html) - Повертає інформацію про обмеження системних ресурсів
+-   [posixgetrlimit()](function.posix-getrlimit.html) - Повертає інформацію про обмеження системних ресурсів

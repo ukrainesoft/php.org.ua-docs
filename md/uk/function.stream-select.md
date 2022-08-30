@@ -1,12 +1,12 @@
 Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
 
--   [« stream\_resolve\_include\_path](function.stream-resolve-include-path.html)
+-   [« streamresolveincludepath](function.stream-resolve-include-path.html)
     
--   [stream\_set\_blocking »](function.stream-set-blocking.html)
+-   [streamsetblocking »](function.stream-set-blocking.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
     
@@ -23,7 +23,7 @@ streamselect — Запускає еквівалент системного ви
 stream_select(    ?array &$read,    ?array &$write,    ?array &$except,    ?int $seconds,    ?int $microseconds = null): int|false
 ```
 
-Функція **streamselect()** отримує масиви потоків і чекає зміни їхнього статусу. Її робота еквівалентна роботі функції [socket\_select()](function.socket-select.html), За винятком того, що вона працює з потоками.
+Функція **streamselect()** отримує масиви потоків і чекає зміни їхнього статусу. Її робота еквівалентна роботі функції [socketselect()](function.socket-select.html), За винятком того, що вона працює з потоками.
 
 ### Список параметрів
 
@@ -127,10 +127,10 @@ if (false === ($num_changed_streams = stream_select($read, $write, $excep
 
 > **Зауваження** **Сумісність із Windows**
 > 
-> Використання функції **streamselect()** на файлових дескрипторах, повернутих функцією [proc\_open()](function.proc-open.html) не вдасться і поверне **`false`** під Windows.
+> Використання функції **streamselect()** на файлових дескрипторах, повернутих функцією [procopen()](function.proc-open.html) не вдасться і поверне **`false`** під Windows.
 > 
 > **`STDIN`** з консолі змінює статус, як тільки стають доступними *будь-які* вхідні події, але читання потоку все ще може блокуватися.
 
 ### Дивіться також
 
--   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці

@@ -1,12 +1,12 @@
 Отримує контекст потоку за промовчанням
 
--   [« stream\_context\_create](function.stream-context-create.html)
+-   [« streamcontextcreate](function.stream-context-create.html)
     
--   [stream\_context\_get\_options »](function.stream-context-get-options.html)
+-   [streamcontextgetoptions »](function.stream-context-get-options.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримує контекст потоку за промовчанням
     
@@ -23,7 +23,7 @@ streamcontextgetdefault — Отримує контекст потоку за п
 stream_context_get_default(?array $options = null): resource
 ```
 
-Повертає контекст потоку за умовчанням, який використовується у будь-яких файлових операціях ([fopen()](function.fopen.html) [file\_get\_contents()](function.file-get-contents.html) і т.д.), викликаних без параметра контексту. Опції для контексту за умовчанням можуть бути опціонально вказані за допомогою цієї функції використовуючи той же синтаксис, що і для [stream\_context\_create()](function.stream-context-create.html)
+Повертає контекст потоку за умовчанням, який використовується у будь-яких файлових операціях ([fopen()](function.fopen.html) [filegetcontents()](function.file-get-contents.html) і т.д.), викликаних без параметра контексту. Опції для контексту за умовчанням можуть бути опціонально вказані за допомогою цієї функції використовуючи той же синтаксис, що і для [streamcontextcreate()](function.stream-context-create.html)
 
 ### Список параметрів
 
@@ -84,6 +84,6 @@ readfile('http://www.example.com', false, $alternate);
 
 ### Дивіться також
 
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
--   [stream\_context\_set\_default()](function.stream-context-set-default.html) - Встановити контекст потоку за промовчанням
--   Список підтримуваних обгорток з опціями контексту ([Поддерживаемые протоколы и обёртки](wrappers.html)
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextsetdefault()](function.stream-context-set-default.html) - Встановити контекст потоку за промовчанням
+-   Список підтримуваних обгорток з опціями контексту ([Підтримувані протоколи та обгортки](wrappers.html)

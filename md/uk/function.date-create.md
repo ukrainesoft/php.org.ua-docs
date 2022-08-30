@@ -1,8 +1,8 @@
 Створює новий об'єкт DateTime
 
--   [« date\_create\_immutable](function.date-create-immutable.html)
+-   [« datecreateimmutable](function.date-create-immutable.html)
     
--   [date\_date\_set »](function.date-date-set.html)
+-   [datedateset »](function.date-date-set.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ datecreate — Створює новий об'єкт [DateTime](class.datetime.h
 date_create(string $datetime = "now", ?DateTimeZone $timezone = null): DateTime|false
 ```
 
-Це процедурна версія методу [DateTime::\_\_construct()](datetime.construct.html)
+Це процедурна версія методу [DateTime::construct()](datetime.construct.html)
 
 На відміну від конструктора [DateTime](class.datetime.html), функція повертає **`false`** замість виключення, якщо передано до параметра `datetime` рядок неприпустимий.
 
 ### Список параметрів
 
-Дивіться [DateTimeImmutable::\_\_construct](datetimeimmutable.construct.html)
+Дивіться [DateTimeImmutable::construct](datetimeimmutable.construct.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ date_create(string $datetime = "now", ?DateTimeZone $timezone = null): DateTime|
 
 ### Дивіться також
 
--   [DateTime::\_\_construct()](datetime.construct.html) - Конструктор класу DateTime
--   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTime::construct()](datetime.construct.html) - Конструктор класу DateTime
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable

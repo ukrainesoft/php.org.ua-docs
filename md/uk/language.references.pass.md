@@ -1,6 +1,6 @@
 Передача за посиланням
 
--   [« Чем ссылки не являются](language.references.arent.html)
+-   [« Чим посилання не є](language.references.arent.html)
     
 -   [Возврат по ссылке »](language.references.return.html)
     

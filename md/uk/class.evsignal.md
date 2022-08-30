@@ -2,11 +2,11 @@
 
 -   [« EvPrepare::createStopped](evprepare.createstopped.html)
     
--   [EvSignal::\_\_construct »](evsignal.construct.html)
+-   [EvSignal::construct »](evsignal.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvSignal
     
@@ -139,6 +139,6 @@ signum
 
 ## Зміст
 
--   [EvSignal::\_\_construct](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::construct](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
 -   [EvSignal::createStopped](evsignal.createstopped.html) — Create stopped EvSignal watcher object
 -   [EvSignal::set](evsignal.set.html) — Налаштування спостерігача

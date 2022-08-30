@@ -1,8 +1,8 @@
 Перегляд списку розширених атрибутів файлу
 
--   [« xattr\_get](function.xattr-get.html)
+-   [« xattrget](function.xattr-get.html)
     
--   [xattr\_remove »](function.xattr-remove.html)
+-   [xattrremove »](function.xattr-remove.html)
     
 -   [PHP Manual](index.html)
     
@@ -66,4 +66,4 @@ foreach ($attributes as $attr_name) {
 
 ### Дивіться також
 
--   [xattr\_get()](function.xattr-get.html) - Отримання розширених атрибутів файлу
+-   [xattrget()](function.xattr-get.html) - Отримання розширених атрибутів файлу

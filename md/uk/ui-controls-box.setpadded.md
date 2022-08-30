@@ -1,12 +1,12 @@
 Встановити заповнення
 
--   [« UI\\Controls\\Box::isPadded](ui-controls-box.ispadded.html)
+-   [« UIControlsBox::isPadded](ui-controls-box.ispadded.html)
     
--   [UI\\Draw\\Pen »](class.ui-draw-pen.html)
+-   [ОЙDrawPen »](class.ui-draw-pen.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Box](class.ui-controls-box.html)
+-   [ОЙControlsBox](class.ui-controls-box.html)
     
 -   Встановити заповнення
     

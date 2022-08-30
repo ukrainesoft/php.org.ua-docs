@@ -1,12 +1,12 @@
 Призначення getInstance
 
--   [« Yaf\_Loader::\_\_construct](yaf-loader.construct.html)
+-   [« YafLoader::construct](yaf-loader.construct.html)
     
--   [Yaf\_Loader::getLibraryPath »](yaf-loader.getlibrarypath.html)
+-   [YafLoader::getLibraryPath »](yaf-loader.getlibrarypath.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Призначення getInstance
     

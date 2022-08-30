@@ -1,12 +1,12 @@
 Малює прямокутник
 
--   [« ps\_place\_image](function.ps-place-image.html)
+-   [«psplaceimage](function.ps-place-image.html)
     
--   [ps\_restore »](function.ps-restore.html)
+-   [псrestore »](function.ps-restore.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Малює прямокутник
     
@@ -29,7 +29,7 @@ ps_rect(    resource $psdoc,    float $x,    float $y,    float 
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `x`
 
@@ -53,6 +53,6 @@ ps_rect(    resource $psdoc,    float $x,    float $y,    float 
 
 ### Дивіться також
 
--   [ps\_arc()](function.ps-arc.html) - Малює дугу проти годинникової стрілки
+-   [псarc()](function.ps-arc.html) - Малює дугу проти годинникової стрілки
 -   **псcirle()**
--   [ps\_lineto()](function.ps-lineto.html) - Малює лінію
+-   [псlineto()](function.ps-lineto.html) - Малює лінію

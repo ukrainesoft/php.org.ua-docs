@@ -1,12 +1,12 @@
 Функції інтернаціоналізації
 
--   [« ob\_iconv\_handler](function.ob-iconv-handler.html)
+-   [« obiconvhandler](function.ob-iconv-handler.html)
     
 -   [Введение »](intro.intl.html)
     
 -   [PHP Manual](index.html)
     
--   [Поддержка языков и кодировок](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.html)
     
 -   Функції інтернаціоналізації
     
@@ -25,7 +25,7 @@
 -   [Collator](class.collator.html) - Клас Collator
     -   [Collator::asort](collator.asort.html) — Сортує масив із збереженням асоціації індексу
     -   [Collator::compare](collator.compare.html) — Порівнює два рядки Unicode
-    -   [Collator::\_\_construct](collator.construct.html) - Створює новий екземпляр Collator
+    -   [Collator::construct](collator.construct.html) - Створює новий екземпляр Collator
     -   [Collator::create](collator.create.html) - Створює новий екземпляр Collator
     -   [Collator::getAttribute](collator.getattribute.html) — Отримує значення атрибуту зіставлення
     -   [Collator::getErrorCode](collator.geterrorcode.html) — Отримує останній код помилки Collator
@@ -93,7 +93,7 @@
     -   [IntlCalendar::after](intlcalendar.after.html) - Визначає, час цього об'єкта пізніше часу переданого об'єкта
     -   [IntlCalendar::before](intlcalendar.before.html) — Визначає, час цього об'єкта раніше переданого об'єкта
     -   [IntlCalendar::clear](intlcalendar.clear.html) — Очищає поле чи всі поля
-    -   [IntlCalendar::\_\_construct](intlcalendar.construct.html) — Закритий конструктор для заборони створення екземплярів
+    -   [IntlCalendar::construct](intlcalendar.construct.html) — Закритий конструктор для заборони створення екземплярів
     -   [IntlCalendar::createInstance](intlcalendar.createinstance.html) — Створює новий об'єкт IntlCalendar
     -   [IntlCalendar::equals](intlcalendar.equals.html) — Порівнює час двох об'єктів IntlCalendar щодо рівності
     -   [IntlCalendar::fieldDifference](intlcalendar.fielddifference.html) — Обчислює різницю між заданим часом та часом об'єкта
@@ -136,12 +136,12 @@
     -   [IntlCalendar::setTimeZone](intlcalendar.settimezone.html) — Встановлює часовий пояс, який використовується календарем.
     -   [IntlCalendar::toDateTime](intlcalendar.todatetime.html) — Перетворює IntlCalendar на об'єкт DateTime
 -   [IntlGregorianCalendar](class.intlgregoriancalendar.html) - Клас IntlGregorianCalendar
-    -   [IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря
+    -   [IntlGregorianCalendar::construct](intlgregoriancalendar.construct.html) - Конструктор класу григоріанського календаря
     -   [IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.html) — Отримує дату зміни григоріанського календаря
     -   [IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.html) — Визначає, чи цей рік є високосним.
     -   [IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.html) — Встановлює дату зміни у григоріанському календарі
 -   [IntlTimeZone](class.intltimezone.html) - Клас IntlTimeZone
-    -   [IntlTimeZone::\_\_construct](intltimezone.construct.html) - Конструктор класу, який забороняє пряме створення екземпляра
+    -   [IntlTimeZone::construct](intltimezone.construct.html) - Конструктор класу, який забороняє пряме створення екземпляра
     -   [IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.html) — Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
     -   [IntlTimeZone::createDefault](intltimezone.createdefault.html) — Створити нову копію часового поясу за промовчанням для поточного хоста
     -   [IntlTimeZone::createEnumeration](intltimezone.createenumeration.html) — Отримати перерахування з ідентифікаторів часових поясів за вказаною країною чи усунення
@@ -196,12 +196,12 @@
     -   [ResourceBundle::getLocales](resourcebundle.locales.html) — Отримати підтримувані локалі
 -   [Spoofchecker](class.spoofchecker.html) - Клас Spoofchecker
     -   [Spoofchecker::areConfusable](spoofchecker.areconfusable.html) — Перевірити, чи є рядки підозрілими
-    -   [Spoofchecker::\_\_construct](spoofchecker.construct.html) - Конструктор класу
+    -   [Spoofchecker::construct](spoofchecker.construct.html) - Конструктор класу
     -   [Spoofchecker::isSuspicious](spoofchecker.issuspicious.html) — Перевіряє, чи текст містить підозрілі символи
     -   [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.html) — Локаль для використання у перевірках
     -   [Spoofchecker::setChecks](spoofchecker.setchecks.html) — Встановити набір перевірок
 -   [Transliterator](class.transliterator.html) - Клас Transliterator
-    -   [Transliterator::\_\_construct](transliterator.construct.html) - Приватний конструктор
+    -   [Transliterator::construct](transliterator.construct.html) - Приватний конструктор
     -   [Transliterator::create](transliterator.create.html) - Створити транслітератор
     -   [Transliterator::createFromRules](transliterator.createfromrules.html) - Створити транслітератор на основі правил
     -   [Transliterator::createInverse](transliterator.createinverse.html) - Створити інвертований транслітератор
@@ -210,7 +210,7 @@
     -   [Transliterator::listIDs](transliterator.listids.html) — Отримати ідентифікатори транслітератора
     -   [Transliterator::transliterate](transliterator.transliterate.html) — Транслітерувати рядок
 -   [IntlBreakIterator](class.intlbreakiterator.html) - Клас IntlBreakIterator
-    -   [IntlBreakIterator::\_\_construct](intlbreakiterator.construct.html) — Закритий конструктор, який забороняє створення екземплярів об'єкту
+    -   [IntlBreakIterator::construct](intlbreakiterator.construct.html) — Закритий конструктор, який забороняє створення екземплярів об'єкту
     -   [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.html) — Створює ітератор переривання меж комбінування послідовностей символів.
     -   [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.html) — Створює ітератор переривання меж кодових точок.
     -   [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.html) — Створює ітератор переривання для логічно можливих розривів рядків
@@ -232,7 +232,7 @@
     -   [IntlBreakIterator::previous](intlbreakiterator.previous.html) — Встановлює позицію ітератора на кордоні безпосередньо перед поточною
     -   [IntlBreakIterator::setText](intlbreakiterator.settext.html) — Встановлює сканований текст
 -   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.html) — Клас IntlRuleBasedBreakIterator
-    -   [IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.html) - Створює ітератор на основі набору правил
+    -   [IntlRuleBasedBreakIterator::construct](intlrulebasedbreakiterator.construct.html) - Створює ітератор на основі набору правил
     -   [IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.html) — Отримати бінарні дані зі скомпілованих правил
     -   [IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.html) — Отримати набір правил, які використовуються під час створення цього об'єкта
     -   [IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.html) — Отримати найбільше значення статусу правил зупинки, що визначило поточну позицію зупинки
@@ -245,7 +245,7 @@
 -   [IntlPartsIterator](class.intlpartsiterator.html) - Клас IntlPartsIterator
     -   [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.html) — Отримати IntlBreakIterator, зберігаючи ітератор цієї частини
 -   [UConverter](class.uconverter.html) - Клас UConverter
-    -   [UConverter::\_\_construct](uconverter.construct.html) — Створити об'єкт UConverter
+    -   [UConverter::construct](uconverter.construct.html) — Створити об'єкт UConverter
     -   [UConverter::convert](uconverter.convert.html) — Конвертувати рядок з одного кодування в інше
     -   [UConverter::fromUCallback](uconverter.fromucallback.html) — Callback-функція за промовчанням для "from"
     -   [UConverter::getAliases](uconverter.getaliases.html) — Отримати псевдоніми для цього імені
@@ -265,18 +265,18 @@
     -   [UConverter::toUCallback](uconverter.toucallback.html) - Callback-функція за промовчанням для "to"
     -   [UConverter::transcode](uconverter.transcode.html) — Перетворює рядок з одного кодування символів на інший
 -   [Функции Grapheme](ref.intl.grapheme.html)
-    -   [grapheme\_extract](function.grapheme-extract.html) — Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8
-    -   [grapheme\_stripos](function.grapheme-stripos.html) — Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
-    -   [grapheme\_stristr](function.grapheme-stristr.html) — Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
-    -   [grapheme\_strlen](function.grapheme-strlen.html) — Отримує довжину рядка в одиницях графеми
-    -   [grapheme\_strpos](function.grapheme-strpos.html) - Знаходить позицію (в одиницях графеми) першого входження рядка
-    -   [grapheme\_strripos](function.grapheme-strripos.html) — Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
-    -   [grapheme\_strrpos](function.grapheme-strrpos.html) — Знаходить позицію (в одиницях графеми) останнього входження рядка
-    -   [grapheme\_strstr](function.grapheme-strstr.html) — Повертає частину рядка haystack від першої появи needle до кінця haystack
-    -   [grapheme\_substr](function.grapheme-substr.html) — Повертає частину рядка
--   [Функции IDN](ref.intl.idn.html)
-    -   [idn\_to\_ascii](function.idn-to-ascii.html) — Перетворити доменне ім'я на формат IDNA ASCII
-    -   [idn\_to\_utf8](function.idn-to-utf8.html) — Перетворення доменного імені з IDNA ASCII на Unicode
+    -   [graphemeextract](function.grapheme-extract.html) — Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8
+    -   [graphemestripos](function.grapheme-stripos.html) — Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+    -   [graphemestristr](function.grapheme-stristr.html) — Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
+    -   [graphemestrlen](function.grapheme-strlen.html) — Отримує довжину рядка в одиницях графеми
+    -   [graphemestrpos](function.grapheme-strpos.html) - Знаходить позицію (в одиницях графеми) першого входження рядка
+    -   [graphemestrripos](function.grapheme-strripos.html) — Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
+    -   [graphemestrrpos](function.grapheme-strrpos.html) — Знаходить позицію (в одиницях графеми) останнього входження рядка
+    -   [graphemestrstr](function.grapheme-strstr.html) — Повертає частину рядка haystack від першої появи needle до кінця haystack
+    -   [graphemesubstr](function.grapheme-substr.html) — Повертає частину рядка
+-   [Функції IDN](ref.intl.idn.html)
+    -   [idnтоascii](function.idn-to-ascii.html) — Перетворити доменне ім'я на формат IDNA ASCII
+    -   [idnтоutf8](function.idn-to-utf8.html) — Перетворення доменного імені з IDNA ASCII на Unicode
 -   [IntlChar](class.intlchar.html)
     -   [IntlChar::charAge](intlchar.charage.html) — Отримати "вік" символьного коду
     -   [IntlChar::charDigitValue](intlchar.chardigitvalue.html) — Отримати десяткову цифру із символу десяткової цифри
@@ -294,7 +294,7 @@
     -   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.html) — Отримати парну дужку для символу
     -   [IntlChar::getBlockCode](intlchar.getblockcode.html) — Отримати блок розміщення символу Unicode
     -   [IntlChar::getCombiningClass](intlchar.getcombiningclass.html) — Отримати комбінуючий клас для символу
-    -   [IntlChar::getFC\_NFKC\_Closure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
+    -   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
     -   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.html) — Отримати мінімальне значення для властивості Unicode
     -   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.html) — Отримати мінімальне значення для властивості Unicode
     -   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.html) — Отримати значення властивості Unicode для символу
@@ -345,7 +345,7 @@
     -   [IntlIterator::rewind](intliterator.rewind.html) — Перейти до першого елементу
     -   [IntlIterator::valid](intliterator.valid.html) — Перевірити, чи поточна позиція коректна
 -   [Функции intl](ref.intl.html)
-    -   [intl\_error\_name](function.intl-error-name.html) — Отримати ім'я помилки за її кодом
-    -   [intl\_get\_error\_code](function.intl-get-error-code.html) — Отримати код останньої помилки
-    -   [intl\_get\_error\_message](function.intl-get-error-message.html) — Отримати опис помилки
-    -   [intl\_is\_failure](function.intl-is-failure.html) — Перевірити, чи є код помилки ознакою збою
+    -   [intlerrorname](function.intl-error-name.html) — Отримати ім'я помилки за її кодом
+    -   [intlgeterrorcode](function.intl-get-error-code.html) — Отримати код останньої помилки
+    -   [intlgeterrormessage](function.intl-get-error-message.html) — Отримати опис помилки
+    -   [intlісfailure](function.intl-is-failure.html) — Перевірити, чи є код помилки ознакою збою

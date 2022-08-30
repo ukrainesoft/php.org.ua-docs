@@ -1,6 +1,6 @@
 Надсилання даних (застарілий метод)
 
--   [« GearmanJob::\_\_construct](gearmanjob.construct.html)
+-   [« GearmanJob::construct](gearmanjob.construct.html)
     
 -   [GearmanJob::exception »](gearmanjob.exception.html)
     

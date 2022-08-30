@@ -1,8 +1,8 @@
 Повертає кількість символів у рядку
 
--   [« iconv\_set\_encoding](function.iconv-set-encoding.html)
+-   [« iconvsetencoding](function.iconv-set-encoding.html)
     
--   [iconv\_strpos »](function.iconv-strpos.html)
+-   [iconvstrpos »](function.iconv-strpos.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ iconv_strlen(string $string, ?string $encoding = null): int|false
 
 `encoding`
 
-Якщо параметр `encoding` опущено, передбачається, що кодування рядка `string` еквівалентна значенню [iconv.internal\_encoding](iconv.configuration.html)
+Якщо параметр `encoding` опущено, передбачається, що кодування рядка `string` еквівалентна значенню [iconv.internalencoding](iconv.configuration.html)
 
 ### Значення, що повертаються
 
@@ -47,6 +47,6 @@ iconv_strlen(string $string, ?string $encoding = null): int|false
 
 ### Дивіться також
 
--   [grapheme\_strlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
--   [mb\_strlen()](function.mb-strlen.html) - Отримує довжину рядка
+-   [graphemestrlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
+-   [мбstrlen()](function.mb-strlen.html) - Отримує довжину рядка
 -   [strlen()](function.strlen.html) - Повертає довжину рядка

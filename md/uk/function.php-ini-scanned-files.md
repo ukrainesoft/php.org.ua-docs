@@ -1,12 +1,12 @@
 Повертає список .ini-файлів, знайдених у додатковій ini-директорії
 
--   [« php\_ini\_loaded\_file](function.php-ini-loaded-file.html)
+-   [« phpiniloadedfile](function.php-ini-loaded-file.html)
     
--   [php\_sapi\_name »](function.php-sapi-name.html)
+-   [phpsapiname »](function.php-sapi-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає список .ini-файлів, знайдених у додатковій ini-директорії
     
@@ -55,6 +55,6 @@ if ($filelist = php_ini_scanned_files()) {
 
 ### Дивіться також
 
--   [ini\_set()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [php\_ini\_loaded\_file()](function.php-ini-loaded-file.html) - Отримати шлях до завантаженого файлу php.ini
+-   [phpiniloadedfile()](function.php-ini-loaded-file.html) - Отримати шлях до завантаженого файлу php.ini

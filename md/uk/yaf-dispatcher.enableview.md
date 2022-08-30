@@ -1,12 +1,12 @@
 Включає механізм перегляду
 
--   [« Yaf\_Dispatcher::dispatch](yaf-dispatcher.dispatch.html)
+-   [« YafDispatcher::dispatch](yaf-dispatcher.dispatch.html)
     
--   [Yaf\_Dispatcher::flushInstantly »](yaf-dispatcher.flushinstantly.html)
+-   [YafDispatcher::flushInstantly »](yaf-dispatcher.flushinstantly.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Включає механізм перегляду
     

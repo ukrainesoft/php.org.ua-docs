@@ -2,11 +2,11 @@
 
 -   [« delete](function.delete.html)
     
--   [disk\_free\_space »](function.disk-free-space.html)
+-   [diskfreespace »](function.disk-free-space.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає ім'я батьківського каталогу із зазначеного шляху
     

@@ -35,4 +35,4 @@ public **FilterIterator::construct**[Iterator](class.iterator.html) `$iterator`
 
 ### Дивіться також
 
--   [LimitIterator::\_\_construct()](limititerator.construct.html) - Конструктор класу LimitIterator
+-   [LimitIterator::construct()](limititerator.construct.html) - Конструктор класу LimitIterator

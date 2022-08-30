@@ -1,8 +1,8 @@
 Читає символ та інформує callback-функцію readline, що отримано рядок
 
--   [« readline\_callback\_handler\_remove](function.readline-callback-handler-remove.html)
+-   [« readlinecallbackhandlerremove](function.readline-callback-handler-remove.html)
     
--   [readline\_clear\_history »](function.readline-clear-history.html)
+-   [readlineclearhistory »](function.readline-clear-history.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ readlinecallbackreadchar — Читає символ та інформує callb
 readline_callback_read_char(): void
 ```
 
-Читає введений користувачем символ. Коли рядок отримано, ця функція інформує callback-функцію інтерфейсу readline, задану за допомогою [readline\_callback\_handler\_install()](function.readline-callback-handler-install.html), що рядок готовий до введення.
+Читає введений користувачем символ. Коли рядок отримано, ця функція інформує callback-функцію інтерфейсу readline, задану за допомогою [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html), що рядок готовий до введення.
 
 ### Список параметрів
 
@@ -35,9 +35,9 @@ readline_callback_read_char(): void
 
 ### Приклади
 
-Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readline\_callback\_handler\_install()](function.readline-callback-handler-install.html)
+Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html)
 
 ### Дивіться також
 
--   [readline\_callback\_handler\_install()](function.readline-callback-handler-install.html) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
--   [readline\_callback\_handler\_remove()](function.readline-callback-handler-remove.html) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал
+-   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
+-   [readlinecallbackhandlerremove()](function.readline-callback-handler-remove.html) - Видаляє раніше зареєстровану callback-функцію та відновлює термінал

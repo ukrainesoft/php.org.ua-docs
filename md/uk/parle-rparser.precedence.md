@@ -1,12 +1,12 @@
 Оголошує правило пріоритету
 
--   [« Parle\\RParser::nonassoc](parle-rparser.nonassoc.html)
+-   [« ParleRParser::nonassoc](parle-rparser.nonassoc.html)
     
--   [Parle\\RParser::push »](parle-rparser.push.html)
+-   [ParleRParser::push »](parle-rparser.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Оголошує правило пріоритету
     

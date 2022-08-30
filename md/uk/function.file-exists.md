@@ -2,11 +2,11 @@
 
 -   [« fgetss](function.fgetss.html)
     
--   [file\_get\_contents »](function.file-get-contents.html)
+-   [filegetcontents »](function.file-get-contents.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Перевіряє існування вказаного файлу чи каталогу
     
@@ -73,12 +73,12 @@ if (file_exists($filename)) {
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 ### Дивіться також
 
--   [is\_readable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
--   [is\_writable()](function.is-writable.html) - Визначає, чи доступний файл для запису
--   [is\_file()](function.is-file.html) - Визначає, чи файл є звичайним файлом
+-   [ісreadable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
+-   [ісwritable()](function.is-writable.html) - Визначає, чи доступний файл для запису
+-   [ісfile()](function.is-file.html) - Визначає, чи файл є звичайним файлом
 -   [file()](function.file.html) - Читає вміст файлу та поміщає його в масив
 -   [SplFileInfo](class.splfileinfo.html)

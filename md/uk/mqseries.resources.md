@@ -15,6 +15,6 @@
 
 Цей модуль оперує такими ресурсами: connection та objecthandle.
 
-Функції [mqseries\_conn()](function.mqseries-conn.html) і [mqseries\_connx()](function.mqseries-connx.html) повертають обробники з'єднання.
+Функції [mqseriesconn()](function.mqseries-conn.html) і [mqseriesconnx()](function.mqseries-connx.html) повертають обробники з'єднання.
 
-Функція [mqseries\_open()](function.mqseries-open.html) повертає оброблювач об'єкта.
+Функція [mqseriesopen()](function.mqseries-open.html) повертає оброблювач об'єкта.

@@ -1,8 +1,8 @@
 Додати слово у поточну сесію перевірки
 
--   [« enchant\_dict\_add\_to\_personal](function.enchant-dict-add-to-personal.html)
+-   [« enchantdictaddтоpersonal](function.enchant-dict-add-to-personal.html)
     
--   [enchant\_dict\_add »](function.enchant-dict-add.html)
+-   [enchantdictadd »](function.enchant-dict-add.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_dict_add_to_session(EnchantDictionary $dictionary, string $word): void
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
 
@@ -47,4 +47,4 @@ enchant_dict_add_to_session(EnchantDictionary $dictionary, string $word): void
 
 ### Дивіться також
 
--   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег

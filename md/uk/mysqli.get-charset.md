@@ -1,8 +1,8 @@
 Повертає об'єкт, що описує кодування
 
--   [« mysqli::$field\_count](mysqli.field-count.html)
+-   [« mysqli::$fieldcount](mysqli.field-count.html)
     
--   [mysqli::$client\_info »](mysqli.get-client-info.html)
+-   [mysqli::$clientinfo »](mysqli.get-client-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ mysqli_get_charset(mysqli $mysql): ?object
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -120,5 +120,5 @@ object(stdClass)#2 (7) {
 
 ### Дивіться також
 
--   [mysqli\_character\_set\_name()](mysqli.character-set-name.html) - Повертає поточне кодування, встановлене для з'єднання з БД
--   [mysqli\_set\_charset()](mysqli.set-charset.html) - Встановлює набір символів
+-   [mysqlicharactersetname()](mysqli.character-set-name.html) - Повертає поточне кодування, встановлене для з'єднання з БД
+-   [mysqlisetcharset()](mysqli.set-charset.html) - Встановлює набір символів

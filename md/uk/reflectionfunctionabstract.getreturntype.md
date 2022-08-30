@@ -75,4 +75,4 @@ null
 ### Дивіться також
 
 -   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.html) - Перевіряє, чи має функція оголошений тип значення, що повертається
--   [ReflectionType::\_\_toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок

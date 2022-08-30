@@ -1,12 +1,12 @@
 Підсвічування синтаксису файлу
 
--   [« \_\_halt\_compiler](function.halt-compiler.html)
+-   [haltcompiler](function.halt-compiler.html)
     
--   [highlight\_string »](function.highlight-string.html)
+-   [highlightstring »](function.highlight-string.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Підсвічування синтаксису файлу
     
@@ -51,9 +51,9 @@ AddType application/x-httpd-php-source .phps
 
 > **Зауваження**
 > 
-> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [ob\_start()](function.ob-start.html)
+> При використанні параметра `return` дана функція використовує внутрішню буферизацію виводу, тому вона не може бути використана всередині callback-функції [проstart()](function.ob-start.html)
 
 ### Дивіться також
 
--   [highlight\_string()](function.highlight-string.html) - Підсвічування синтаксису рядка
+-   [highlightstring()](function.highlight-string.html) - Підсвічування синтаксису рядка
 -   [Подсвечивание директив INI](misc.configuration.html#ini.syntax-highlighting)

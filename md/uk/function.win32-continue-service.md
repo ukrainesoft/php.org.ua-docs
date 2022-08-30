@@ -2,7 +2,7 @@
 
 -   [« win32service](ref.win32service.html)
     
--   [win32\_create\_service »](function.win32-create-service.html)
+-   [win32createservice »](function.win32-create-service.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,8 +58,8 @@ win32_continue_service(string $servicename, string $machine = ?): void
 
 ### Дивіться також
 
--   [win32\_start\_service()](function.win32-start-service.html) - Запускає службу
--   [win32\_stop\_service()](function.win32-stop-service.html) - зупиняє службу
--   [win32\_pause\_service()](function.win32-pause-service.html) - зупиняє службу
--   [win32\_send\_custom\_control()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
+-   [win32startservice()](function.win32-start-service.html) - Запускає службу
+-   [win32stopservice()](function.win32-stop-service.html) - зупиняє службу
+-   [win32pauseservice()](function.win32-pause-service.html) - зупиняє службу
+-   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
 -   [Коды Ошибок Win32](win32service.constants.errors.html)

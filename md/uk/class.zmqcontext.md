@@ -1,12 +1,12 @@
 Клас ZMQContext
 
--   [« ZMQ::\_\_construct](zmq.construct.html)
+-   [« ZMQ::construct](zmq.construct.html)
     
--   [ZMQContext::\_\_construct »](zmqcontext.construct.html)
+-   [ZMQContext::construct »](zmqcontext.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Обмен сообщениями 0MQ](book.zmq.html)
+-   [Обмін повідомленнями 0MQ](book.zmq.html)
     
 -   Клас ZMQContext
     
@@ -43,7 +43,7 @@ public setOpt(int $key, mixed $value): ZMQContext
 
 ## Зміст
 
--   [ZMQContext::\_\_construct](zmqcontext.construct.html) - Конструктор ZMQContext
+-   [ZMQContext::construct](zmqcontext.construct.html) - Конструктор ZMQContext
 -   [ZMQContext::getOpt](zmqcontext.getopt.html) — Отримати опцію контексту
 -   [ZMQContext::getSocket](zmqcontext.getsocket.html) - Створює новий сокет
 -   [ZMQContext::isPersistent](zmqcontext.ispersistent.html) — Чи контекст є постійним

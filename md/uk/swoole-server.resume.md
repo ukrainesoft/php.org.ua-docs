@@ -1,12 +1,12 @@
 Починає отримувати дані із з'єднання
 
--   [« Swoole\\Server::reload](swoole-server.reload.html)
+-   [« SwooleServer::reload](swoole-server.reload.html)
     
--   [Swoole\\Server::send »](swoole-server.send.html)
+-   [SwooleServer::send »](swoole-server.send.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Починає отримувати дані із з'єднання
     

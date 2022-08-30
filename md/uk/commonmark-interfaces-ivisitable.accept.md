@@ -1,12 +1,12 @@
 Visitation
 
--   [« CommonMark\\Interfaces\\IVisitable](class.commonmark-interfaces-ivisitable.html)
+-   [« CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
     
--   [CommonMark\\Parser »](class.commonmark-parser.html)
+-   [CommonMarkParser »](class.commonmark-parser.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Interfaces\\IVisitable](class.commonmark-interfaces-ivisitable.html)
+-   [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
     
 -   Visitation
     
@@ -27,9 +27,9 @@ abstract public CommonMark\Interfaces\IVisitable::accept(CommonMark\Interfaces\I
 
 `visitor`
 
-Об'єкт, що реалізує [CommonMark\\Interfaces\\IVisitor](class.commonmark-interfaces-ivisitor.html)
+Об'єкт, що реалізує [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
 
 ### Дивіться також
 
--   [CommonMark\\Interfaces\\IVisitor::enter](commonmark-interfaces-ivisitor.enter.html)
--   [CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.html)
+-   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.html)
+-   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.html)

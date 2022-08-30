@@ -1,12 +1,12 @@
 Порахувати кількість записів у результатах пошуку
 
--   [« ldap\_control\_paged\_result](function.ldap-control-paged-result.html)
+-   [« ldapcontrolpagedresult](function.ldap-control-paged-result.html)
     
--   [ldap\_count\_references »](function.ldap-count-references.html)
+-   [ldapcountreferences »](function.ldap-count-references.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Порахувати кількість записів у результатах пошуку
     
@@ -29,11 +29,11 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `result`
 
-Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
+Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.html)
 
 ### Значення, що повертаються
 
@@ -41,10 +41,10 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
 
 ### Приклади
 

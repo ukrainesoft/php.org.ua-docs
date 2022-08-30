@@ -17,18 +17,18 @@
 
 **Установки конфігурації Unified ODBC**
 
-| Имя                                                                             | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [odbc.default\_db](odbc.configuration.html#ini.uodbc.default-db)                | NULL         | PHPINIALL       |                  |
-| [odbc.default\_user](odbc.configuration.html#ini.uodbc.default-user)            | NULL         | PHPINIALL       |                  |
-| [odbc.default\_pw](odbc.configuration.html#ini.uodbc.default-pw)                | NULL         | PHPINIALL       |                  |
-| [odbc.allow\_persistent](odbc.configuration.html#ini.uodbc.allow-persistent)    | "1"          | PHPINISYSTEM    |                  |
-| [odbc.check\_persistent](odbc.configuration.html#ini.uodbc.check-persistent)    | "1"          | PHPINISYSTEM    |                  |
-| [odbc.max\_persistent](odbc.configuration.html#ini.uodbc.max-persistent)        | "-1"         | PHPINISYSTEM    |                  |
-| [odbc.max\_links](odbc.configuration.html#ini.uodbc.max-links)                  | "-1"         | PHPINISYSTEM    |                  |
-| [odbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl)                 | "4096"       | PHPINIALL       |                  |
-| [odbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode)         | "1"          | PHPINIALL       |                  |
-| [odbc.default\_cursortype](odbc.configuration.html#ini.uodbc.defaultcursortype) | "3"          | PHPINIALL       |                  |
+| Имя                                                                           | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [odbc.defaultдб](odbc.configuration.html#ini.uodbc.default-db)                | NULL         | PHPINIALL       |                  |
+| [odbc.defaultuser](odbc.configuration.html#ini.uodbc.default-user)            | NULL         | PHPINIALL       |                  |
+| [odbc.defaultпв](odbc.configuration.html#ini.uodbc.default-pw)                | NULL         | PHPINIALL       |                  |
+| [odbc.allowpersistent](odbc.configuration.html#ini.uodbc.allow-persistent)    | "1"          | PHPINISYSTEM    |                  |
+| [odbc.checkpersistent](odbc.configuration.html#ini.uodbc.check-persistent)    | "1"          | PHPINISYSTEM    |                  |
+| [odbc.maxpersistent](odbc.configuration.html#ini.uodbc.max-persistent)        | "-1"         | PHPINISYSTEM    |                  |
+| [odbc.maxlinks](odbc.configuration.html#ini.uodbc.max-links)                  | "-1"         | PHPINISYSTEM    |                  |
+| [odbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl)               | "4096"       | PHPINIALL       |                  |
+| [odbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode)       | "1"          | PHPINIALL       |                  |
+| [odbc.defaultcursortype](odbc.configuration.html#ini.uodbc.defaultcursortype) | "3"          | PHPINIALL       |                  |
 
 > **Зауваження**: Записи, позначені ще не реалізовані.
 
@@ -38,15 +38,15 @@
 
 `odbc.default_db` string
 
-Джерело даних ODBC для використання, якщо жоден не вказаний у [odbc\_connect()](function.odbc-connect.html) або [odbc\_pconnect()](function.odbc-pconnect.html)
+Джерело даних ODBC для використання, якщо жоден не вказаний у [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.html)
 
 `odbc.default_user` string
 
-Ім'я користувача для використання, якщо жоден не вказано [odbc\_connect()](function.odbc-connect.html) або [odbc\_pconnect()](function.odbc-pconnect.html)
+Ім'я користувача для використання, якщо жоден не вказано [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.html)
 
 `odbc.default_pw` string
 
-Пароль для використання, якщо жоден не вказано в [odbc\_connect()](function.odbc-connect.html) або [odbc\_pconnect()](function.odbc-pconnect.html)
+Пароль для використання, якщо жоден не вказано в [odbcconnect()](function.odbc-connect.html) або [odbcpconnect()](function.odbc-pconnect.html)
 
 `odbc.allow_persistent` bool
 
@@ -66,13 +66,13 @@
 
 `odbc.defaultlrl` int
 
-Обробка довгих (LONG) полів. Визначає кількість байтів, що повертаються змінним. Дивіться [odbc\_longreadlen()](function.odbc-longreadlen.html) для подробиць.
+Обробка довгих (LONG) полів. Визначає кількість байтів, що повертаються змінним. Дивіться [odbclongreadlen()](function.odbc-longreadlen.html) для подробиць.
 
-Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [этом разделе FAQ](faq.using.html#faq.using.shorthandbytes)
+Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes)
 
 `odbc.defaultbinmode` int
 
-Обробка двійкових даних. Дивіться [odbc\_binmode()](function.odbc-binmode.html) для подробиць.
+Обробка двійкових даних. Дивіться [odbcbinmode()](function.odbc-binmode.html) для подробиць.
 
 `odbc.default_cursortype` int
 

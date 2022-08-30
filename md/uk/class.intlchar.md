@@ -1,6 +1,6 @@
 IntlChar
 
--   [« idn\_to\_utf8](function.idn-to-utf8.html)
+-   [« idnтоutf8](function.idn-to-utf8.html)
     
 -   [IntlChar::charAge »](intlchar.charage.html)
     
@@ -3740,7 +3740,7 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 -   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.html) — Отримати парну дужку для символу
 -   [IntlChar::getBlockCode](intlchar.getblockcode.html) — Отримати блок розміщення символу Unicode
 -   [IntlChar::getCombiningClass](intlchar.getcombiningclass.html) — Отримати комбінуючий клас для символу
--   [IntlChar::getFC\_NFKC\_Closure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
+-   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html) - Отримати властивість FCNFKCClosure для символу
 -   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.html) — Отримати мінімальне значення для властивості Unicode
 -   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.html) — Отримати мінімальне значення для властивості Unicode
 -   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.html) — Отримати значення властивості Unicode для символу

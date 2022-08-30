@@ -1,12 +1,12 @@
 Повертає дані Binary
 
--   [« MongoDB\\BSON\\Binary::\_\_construct](mongodb-bson-binary.construct.html)
+-   [« MongoDBBSONBinary::construct](mongodb-bson-binary.construct.html)
     
--   [MongoDB\\BSON\\Binary::getType »](mongodb-bson-binary.gettype.html)
+-   [MongoDBBSONBinary::getType »](mongodb-bson-binary.gettype.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+-   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
 -   Повертає дані Binary
     
@@ -33,7 +33,7 @@ final public MongoDB\BSON\Binary::getData(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

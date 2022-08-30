@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Інтеграція V8 Javascript Engine
     
@@ -21,7 +21,7 @@
     -   [Типы ресурсов](v8js.resources.html)
 -   [Примеры](v8js.examples.html)
 -   [V8Js](class.v8js.html) - Клас V8Js
-    -   [V8Js::\_\_construct](v8js.construct.html) - Створює новий об'єкт V8Js
+    -   [V8Js::construct](v8js.construct.html) - Створює новий об'єкт V8Js
     -   [V8Js::executeString](v8js.executestring.html) — Виконати рядок як код Javascript
     -   [V8Js::getExtensions](v8js.getextensions.html) — Повертає масив зареєстрованих модулів
     -   [V8Js::getPendingException](v8js.getpendingexception.html) — Повертає очікуваний непойманий виняток Javascript

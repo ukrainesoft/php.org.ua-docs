@@ -1,12 +1,12 @@
 Малює криву
 
--   [« ps\_continue\_text](function.ps-continue-text.html)
+-   [«pscontinuetext](function.ps-continue-text.html)
     
--   [ps\_delete »](function.ps-delete.html)
+-   [псdelete »](function.ps-delete.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Малює криву
     
@@ -29,7 +29,7 @@ ps_curveto(    resource $psdoc,    float $x1,    float $y1,    f
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `x1`
 
@@ -61,4 +61,4 @@ ps_curveto(    resource $psdoc,    float $x1,    float $y1,    f
 
 ### Дивіться також
 
--   [ps\_lineto()](function.ps-lineto.html) - Малює лінію
+-   [псlineto()](function.ps-lineto.html) - Малює лінію

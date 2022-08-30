@@ -1,8 +1,8 @@
 Повертає підвектор із заданого діапазону
 
--   [« Ds\\Vector::shift](ds-vector.shift.html)
+-   [« DsVector::shift](ds-vector.shift.html)
     
--   [Ds\\Vector::sort »](ds-vector.sort.html)
+-   [ДсVector::sort »](ds-vector.sort.html)
     
 -   [PHP Manual](index.html)
     

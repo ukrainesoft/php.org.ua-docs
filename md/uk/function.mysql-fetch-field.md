@@ -1,8 +1,8 @@
 Повертає інформацію про колонку з результату запиту як об'єкта
 
--   [« mysql\_fetch\_assoc](function.mysql-fetch-assoc.html)
+-   [« mysqlfetchassoc](function.mysql-fetch-assoc.html)
     
--   [mysql\_fetch\_lengths »](function.mysql-fetch-lengths.html)
+-   [mysqlfetchlengths »](function.mysql-fetch-lengths.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlfetchfield — Повертає інформацію про колонку 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html)
+-   [mysqlifetchfield()](mysqli-result.fetch-field.html)
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html)
 
 ### Опис
@@ -36,7 +36,7 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 
@@ -108,8 +108,8 @@ mysql_free_result($result);
 
 > **Зауваження**
 > 
-> Якщо поля або таблиці мають додаткові імена у запиті SQL, буде повернено ці додаткові імена. Вихідне ім'я може бути отримано, наприклад, за допомогою [mysqli\_result::fetch\_field()](mysqli-result.fetch-field.html)
+> Якщо поля або таблиці мають додаткові імена у запиті SQL, буде повернено ці додаткові імена. Вихідне ім'я може бути отримано, наприклад, за допомогою [mysqliresult::fetchfield()](mysqli-result.fetch-field.html)
 
 ### Дивіться також
 
--   [mysql\_field\_seek()](function.mysql-field-seek.html) - Встановлює внутрішній покажчик результату на передане усунення поля
+-   [mysqlfieldseek()](function.mysql-field-seek.html) - Встановлює внутрішній покажчик результату на передане усунення поля

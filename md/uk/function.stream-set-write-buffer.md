@@ -1,12 +1,12 @@
 Встановлює буферизацію файлу під час запису у вказаний потік
 
--   [« stream\_set\_timeout](function.stream-set-timeout.html)
+-   [« streamsettimeout](function.stream-set-timeout.html)
     
--   [stream\_socket\_accept »](function.stream-socket-accept.html)
+-   [streamsocketaccept »](function.stream-socket-accept.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановлює буферизацію файлу під час запису у вказаний потік
     

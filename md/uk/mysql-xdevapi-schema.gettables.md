@@ -2,11 +2,11 @@
 
 -   [« Schema::getTable](mysql-xdevapi-schema.gettable.html)
     
--   [mysql\_xdevapi\\SchemaObject »](class.mysql-xdevapi-schemaobject.html)
+-   [mysqlxdevapiSchemaObject »](class.mysql-xdevapi-schemaobject.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+-   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     
 -   Отримати таблиці схеми
     

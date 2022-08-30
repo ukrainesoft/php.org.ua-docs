@@ -1,8 +1,8 @@
 Витягує закешовану інформацію зі сховища APCu
 
--   [« apcu\_add](function.apcu-add.html)
+-   [« apcuadd](function.apcu-add.html)
     
--   [apcu\_cas »](function.apcu-cas.html)
+-   [apcucas »](function.apcu-cas.html)
     
 -   [PHP Manual](index.html)
     
@@ -86,7 +86,7 @@ Array
 
 ### Дивіться також
 
--   [Директивы конфигурации APCu](apcu.configuration.html)
+-   [Директиви конфігурації APCu](apcu.configuration.html)
 -   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.html) - Загальний розмір кешу
 -   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.html) - Отримати загальну кількість влучень у кеш
 -   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.html) - Отримати загальну кількість записів

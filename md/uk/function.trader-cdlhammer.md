@@ -1,8 +1,8 @@
 Молот
 
--   [« trader\_cdlgravestonedoji](function.trader-cdlgravestonedoji.html)
+-   [« tradercdlgravestonedoji](function.trader-cdlgravestonedoji.html)
     
--   [trader\_cdlhangingman »](function.trader-cdlhangingman.html)
+-   [tradercdlhangingman »](function.trader-cdlhangingman.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Повертає інформацію про параметр у підготовленому запиті
 
--   [« ibase\_num\_params](function.ibase-num-params.html)
+-   [« ibasenumparams](function.ibase-num-params.html)
     
--   [ibase\_pconnect »](function.ibase-pconnect.html)
+-   [ibasepconnect »](function.ibase-pconnect.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,5 +41,5 @@ ibase_param_info(resource $query, int $param_number): array
 
 ### Дивіться також
 
--   [ibase\_field\_info()](function.ibase-field-info.html) - Отримує інформацію про поле
--   [ibase\_num\_params()](function.ibase-num-params.html) - Повертає кількість параметрів у підготовленому запиті
+-   [ibasefieldinfo()](function.ibase-field-info.html) - Отримує інформацію про поле
+-   [ibasenumparams()](function.ibase-num-params.html) - Повертає кількість параметрів у підготовленому запиті

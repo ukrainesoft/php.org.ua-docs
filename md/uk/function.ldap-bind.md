@@ -1,12 +1,12 @@
 Прив'язати до LDAP директорії
 
--   [« ldap\_bind\_ext](function.ldap-bind-ext.html)
+-   [« ldapbindext](function.ldap-bind-ext.html)
     
--   [ldap\_close »](function.ldap-close.html)
+-   [ldapclose »](function.ldap-close.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Прив'язати до LDAP директорії
     
@@ -29,7 +29,7 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `dn`
 
@@ -43,9 +43,9 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -108,5 +108,5 @@ if ($ldapconn) {
 
 ### Дивіться також
 
--   [ldap\_bind\_ext()](function.ldap-bind-ext.html) - Прив'язати до директорії LDAP
--   [ldap\_unbind()](function.ldap-unbind.html) - Розірвати прив'язку до директорії LDAP
+-   [ldapbindext()](function.ldap-bind-ext.html) - Прив'язати до директорії LDAP
+-   [ldapunbind()](function.ldap-unbind.html) - Розірвати прив'язку до директорії LDAP

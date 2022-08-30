@@ -1,8 +1,8 @@
 Повертає суму всіх значень колекції
 
--   [« Ds\\Map::sorted](ds-map.sorted.html)
+-   [« DsMap::sorted](ds-map.sorted.html)
     
--   [Ds\\Map::toArray »](ds-map.toarray.html)
+-   [ДсMap::toArray »](ds-map.toarray.html)
     
 -   [PHP Manual](index.html)
     

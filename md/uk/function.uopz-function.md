@@ -1,12 +1,12 @@
 Створює функцію під час виконання
 
--   [« uopz\_flags](function.uopz-flags.html)
+-   [« uopzflags](function.uopz-flags.html)
     
--   [uopz\_get\_exit\_status »](function.uopz-get-exit-status.html)
+-   [uopzgetexitstatus »](function.uopz-get-exit-status.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Створює функцію під час виконання
     

@@ -1,12 +1,12 @@
 Скидає зміщення
 
--   [« Swoole\\Connection\\Iterator::offsetSet](swoole-connection-iterator.offsetset.html)
+-   [« SwooleConnectionIterator::offsetSet](swoole-connection-iterator.offsetset.html)
     
--   [Swoole\\Connection\\Iterator::rewind »](swoole-connection-iterator.rewind.html)
+-   [SwooleConnectionIterator::rewind »](swoole-connection-iterator.rewind.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Скидає зміщення
     

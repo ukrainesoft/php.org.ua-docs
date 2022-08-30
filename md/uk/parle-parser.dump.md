@@ -1,12 +1,12 @@
 Виводить граматику
 
--   [« Parle\\Parser::consume](parle-parser.consume.html)
+-   [« ParleParser::consume](parle-parser.consume.html)
     
--   [Parle\\Parser::errorInfo »](parle-parser.errorinfo.html)
+-   [ParleParser::errorInfo »](parle-parser.errorinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Виводить граматику
     

@@ -1,8 +1,8 @@
 Повертає рядок, що описує помилку
 
--   [« curl\_multi\_setopt](function.curl-multi-setopt.html)
+-   [« curlmultisetopt](function.curl-multi-setopt.html)
     
--   [curl\_pause »](function.curl-pause.html)
+-   [curlpause »](function.curl-pause.html)
     
 -   [PHP Manual](index.html)
     
@@ -70,5 +70,5 @@ if ($status != CURLM_OK) {
 
 ### Дивіться також
 
--   [curl\_strerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки
+-   [curlstrerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки
 -   [» коды ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)

@@ -1,12 +1,12 @@
 Повертає опцію "wtimeout" WriteConcern
 
--   [« MongoDB\\Driver\\WriteConcern::getW](mongodb-driver-writeconcern.getw.html)
+-   [« MongoDBDriverWriteConcern::getW](mongodb-driver-writeconcern.getw.html)
     
--   [MongoDB\\Driver\\WriteConcern::isDefault »](mongodb-driver-writeconcern.isdefault.html)
+-   [MongoDBDriverWriteConcern::isDefault »](mongodb-driver-writeconcern.isdefault.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
 -   Повертає опцію "wtimeout" WriteConcern
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::getWtimeout(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 

@@ -1,12 +1,12 @@
 Інтерфейс UnitEnum
 
--   [« Stringable::\_\_toString](stringable.tostring.html)
+-   [« Stringable::toString](stringable.tostring.html)
     
 -   [UnitEnum::cases »](unitenum.cases.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Інтерфейс UnitEnum
     

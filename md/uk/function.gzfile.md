@@ -33,7 +33,7 @@ gzfile(string $filename, int $use_include_path = 0): array|false
 
 `use_include_path`
 
-Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [include\_path](ini.core.html#ini.include-path), встановіть значення цього параметра в `1`
+Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [includepath](ini.core.html#ini.include-path), встановіть значення цього параметра в `1`
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Повертає документ відповіді heartbeat
 
--   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html)
+-   [« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html)
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
     
 -   Повертає документ відповіді heartbeat
     
@@ -35,9 +35,9 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply()
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
--   [Постоянные данные](mongodb.persistence.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Постійні дані](mongodb.persistence.html)

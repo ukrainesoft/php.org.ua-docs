@@ -1,12 +1,12 @@
 Обчислює доповнення до одиниці числа
 
--   [« gmp\_cmp](function.gmp-cmp.html)
+-   [« gmpcmp](function.gmp-cmp.html)
     
--   [gmp\_div\_q »](function.gmp-div-q.html)
+-   [gmpdivq »](function.gmp-div-q.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислює доповнення до одиниці числа
     

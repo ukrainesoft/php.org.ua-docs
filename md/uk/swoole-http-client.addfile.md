@@ -1,12 +1,12 @@
 Додає файл до форми повідомлення
 
--   [« Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [« SwooleHttpClient](class.swoole-http-client.html)
     
--   [Swoole\\Http\\Client::close »](swoole-http-client.close.html)
+-   [SwooleHttpClient::close »](swoole-http-client.close.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Додає файл до форми повідомлення
     

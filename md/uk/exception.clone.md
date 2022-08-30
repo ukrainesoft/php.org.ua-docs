@@ -1,6 +1,6 @@
 Клонувати виняток
 
--   [« Exception::\_\_toString](exception.tostring.html)
+-   [« Exception::toString](exception.tostring.html)
     
 -   [ErrorException »](class.errorexception.html)
     

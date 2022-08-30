@@ -92,5 +92,5 @@ timezone_id средства форматирования: America/Los_Angeles
 
 ### Дивіться також
 
--   [datefmt\_set\_timezone()](intldateformatter.settimezone.html) - Встановлює часовий пояс засобу форматування
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtsettimezone()](intldateformatter.settimezone.html) - Встановлює часовий пояс засобу форматування
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

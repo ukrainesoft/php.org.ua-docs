@@ -1,8 +1,8 @@
 Встановлює режим сумісності
 
--   [« trader\_sarext](function.trader-sarext.html)
+-   [« tradersarext](function.trader-sarext.html)
     
--   [trader\_set\_unstable\_period »](function.trader-set-unstable-period.html)
+-   [tradersetunstableperiod »](function.trader-set-unstable-period.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ trader_set_compat(int $compatId): void
 
 `compatId`
 
-Ідентифікатор сумісності. Використовується серія констант [TRADER\_COMPATIBILITY\_\*](trader.constants.html)
+Ідентифікатор сумісності. Використовується серія констант [TRADERCOMPATIBILITY](trader.constants.html)
 
 ### Значення, що повертаються
 

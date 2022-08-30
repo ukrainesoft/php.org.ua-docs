@@ -1,12 +1,12 @@
 Додає вміст тіла HTTP до HTTP-відповіді
 
--   [« Swoole\\Http\\Response::status](swoole-http-response.status.html)
+-   [« SwooleHttpResponse::status](swoole-http-response.status.html)
     
--   [Swoole\\Http\\Server »](class.swoole-http-server.html)
+-   [SwooleHttpServer »](class.swoole-http-server.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Додає вміст тіла HTTP до HTTP-відповіді
     

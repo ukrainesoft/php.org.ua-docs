@@ -1,12 +1,12 @@
 Клас MongoDBBSONDBPointer (застарілий)
 
--   [« MongoDB\\BSON\\UTCDateTimeInterface::\_\_toString](mongodb-bson-utcdatetimeinterface.tostring.html)
+-   [« MongoDBBSONUTCDateTimeInterface::toString](mongodb-bson-utcdatetimeinterface.tostring.html)
     
--   [MongoDB\\BSON\\DBPointer::\_\_construct »](mongodb-bson-dbpointer.construct.html)
+-   [MongoDBBSONDBPointer::construct »](mongodb-bson-dbpointer.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONDBPointer (застарілий)
     
@@ -53,8 +53,8 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDB\\BSON\\DBPointer::\_\_construct](mongodb-bson-dbpointer.construct.html) — Створює новий DBPointer (не використовується)
--   [MongoDB\\BSON\\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\DBPointer::serialize](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
--   [MongoDB\\BSON\\DBPointer::\_\_toString](mongodb-bson-dbpointer.tostring.html) — Повертає порожній рядок
--   [MongoDB\\BSON\\DBPointer::unserialize](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer
+-   [MongoDBBSONDBPointer::construct](mongodb-bson-dbpointer.construct.html) — Створює новий DBPointer (не використовується)
+-   [MongoDBBSONDBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.html) - Серіалізує DBPointer
+-   [MongoDBBSONDBPointer::toString](mongodb-bson-dbpointer.tostring.html) — Повертає порожній рядок
+-   [MongoDBBSONDBPointer::unserialize](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer

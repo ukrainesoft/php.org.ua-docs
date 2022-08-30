@@ -1,12 +1,12 @@
 Фільтри валідації даних
 
--   [« Типы фильтров](filter.filters.html)
+-   [« Типи фільтрів](filter.filters.html)
     
--   [Очищающие фильтры »](filter.filters.sanitize.html)
+-   [Очищувальні фільтри »](filter.filters.sanitize.html)
     
 -   [PHP Manual](index.html)
     
--   [Типы фильтров](filter.filters.html)
+-   [Типи фільтрів](filter.filters.html)
     
 -   Фільтри валідації даних
     
@@ -48,7 +48,7 @@
 
 Перед порівнянням строкові значення обрізаються за допомогою функції [trim()](function.trim.html)
 
-**`FILTER_VALIDATE_IP`** | "validateip" | `default` **`FILTER_FLAG_IPV4`** **`FILTER_FLAG_IPV6`** **`FILTER_FLAG_NO_PRIV_RANGE`** **`FILTER_FLAG_NO_RES_RANGE`** **`FILTER_NULL_ON_FAILURE`** | Перевіряє, що значення є коректною IP-адресою, при необхідності лише для протоколів IPv4 або IPv6, а також відсутність входження до приватних або зарезервованих діапазонів. | | **`FILTER_VALIDATE_MAC`** | "validatemacaddress" | `default` **`FILTER_NULL_ON_FAILURE`** | Перевіряє, що значення - це коректна MAC-адреса. | | **`FILTER_VALIDATE_REGEXP`** | "validateregexp" | `default` `regexp` **`FILTER_NULL_ON_FAILURE`** | Перевіряє значення на відповідність `regexp` [Perl-совместимому](book.pcre.html) регулярного вираження. | | **`FILTER_VALIDATE_URL`** | "validateurl" | `default` **`FILTER_FLAG_SCHEME_REQUIRED`** **`FILTER_FLAG_HOST_REQUIRED`** **`FILTER_FLAG_PATH_REQUIRED`** **`FILTER_FLAG_QUERY_REQUIRED`** **`FILTER_NULL_ON_FAILURE`** | Перевіряє значення як URL (відповідно до [» http://www.faqs.org/rfcs/rfc2396](http://www.faqs.org/rfcs/rfc2396)), опціонально з необхідними компонентами. Пам'ятайте, що URL не містить ім'я протоколу `http://` є коректним, так що може знадобитися додаткова перевірка того, що URL-адреса використовує необхідний протокол, наприклад `ssh://` або `mailto:`. Зверніть увагу, що ця функція вважає коректними тільки URL-адреси, що складаються з символів ASCII; Міжнародні доменні імена не пройдуть перевірку. |
+**`FILTER_VALIDATE_IP`** | "validateip" | `default` **`FILTER_FLAG_IPV4`** **`FILTER_FLAG_IPV6`** **`FILTER_FLAG_NO_PRIV_RANGE`** **`FILTER_FLAG_NO_RES_RANGE`** **`FILTER_NULL_ON_FAILURE`** | Перевіряє, що значення є коректною IP-адресою, при необхідності лише для протоколів IPv4 або IPv6, а також відсутність входження до приватних або зарезервованих діапазонів. | | **`FILTER_VALIDATE_MAC`** | "validatemacaddress" | `default` **`FILTER_NULL_ON_FAILURE`** | Перевіряє, що значення - це коректна MAC-адреса. | | **`FILTER_VALIDATE_REGEXP`** | "validateregexp" | `default` `regexp` **`FILTER_NULL_ON_FAILURE`** | Перевіряє значення на відповідність `regexp` [Perl-сумісному](book.pcre.html) регулярного вираження. | | **`FILTER_VALIDATE_URL`** | "validateurl" | `default` **`FILTER_FLAG_SCHEME_REQUIRED`** **`FILTER_FLAG_HOST_REQUIRED`** **`FILTER_FLAG_PATH_REQUIRED`** **`FILTER_FLAG_QUERY_REQUIRED`** **`FILTER_NULL_ON_FAILURE`** | Перевіряє значення як URL (відповідно до [» http://www.faqs.org/rfcs/rfc2396](http://www.faqs.org/rfcs/rfc2396)), опціонально з необхідними компонентами. Пам'ятайте, що URL не містить ім'я протоколу `http://` є коректним, так що може знадобитися додаткова перевірка того, що URL-адреса використовує необхідний протокол, наприклад `ssh://` або `mailto:`. Зверніть увагу, що ця функція вважає коректними тільки URL-адреси, що складаються з символів ASCII; Міжнародні доменні імена не пройдуть перевірку. |
 
 > **Зауваження**
 > 

@@ -1,8 +1,8 @@
 Ранкова зірка дожі
 
--   [« trader\_cdlmathold](function.trader-cdlmathold.html)
+-   [« tradercdlmathold](function.trader-cdlmathold.html)
     
--   [trader\_cdlmorningstar »](function.trader-cdlmorningstar.html)
+-   [tradercdlmorningstar »](function.trader-cdlmorningstar.html)
     
 -   [PHP Manual](index.html)
     

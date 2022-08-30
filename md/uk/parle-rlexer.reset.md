@@ -1,12 +1,12 @@
 Скидає лексер
 
--   [« Parle\\RLexer::pushState](parle-rlexer.pushstate.html)
+-   [« ParleRLexer::pushState](parle-rlexer.pushstate.html)
     
--   [Parle\\Parser »](class.parle-parser.html)
+-   [ParleParser »](class.parle-parser.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RLexer](class.parle-rlexer.html)
+-   [ParleRLexer](class.parle-rlexer.html)
     
 -   Скидає лексер
     

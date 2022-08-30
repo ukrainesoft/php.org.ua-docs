@@ -1,12 +1,12 @@
 Перевіряє, чи є name0 псевдонімом для name1
 
--   [« Gender\\Gender::get](gender-gender.get.html)
+-   [« GenderGender::get](gender-gender.get.html)
     
--   [Gender\\Gender::similarNames »](gender-gender.similarnames.html)
+-   [GenderGender::similarNames »](gender-gender.similarnames.html)
     
 -   [PHP Manual](index.html)
     
--   [Gender\\Gender](class.gender.html)
+-   [GenderGender](class.gender.html)
     
 -   Перевіряє, чи є name0 псевдонімом для name1
     

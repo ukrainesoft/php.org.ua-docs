@@ -1,12 +1,12 @@
 Перезапускає всі робочі процеси
 
--   [« Swoole\\Server::protect](swoole-server.protect.html)
+-   [« SwooleServer::protect](swoole-server.protect.html)
     
--   [Swoole\\Server::resume »](swoole-server.resume.html)
+-   [SwooleServer::resume »](swoole-server.resume.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Перезапускає всі робочі процеси
     

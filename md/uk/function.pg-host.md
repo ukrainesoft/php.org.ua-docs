@@ -1,8 +1,8 @@
 Повертає ім'я хоста, що відповідає підключенню
 
--   [« pg\_get\_result](function.pg-get-result.html)
+-   [« pggetresult](function.pg-get-result.html)
     
--   [pg\_insert »](function.pg-insert.html)
+-   [пгinsert »](function.pg-insert.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_host(?PgSql\Connection $connection = null): string
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -41,10 +41,10 @@ pg_host(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 
@@ -65,5 +65,5 @@ if ($pgsql_conn) {
 
 ### Дивіться також
 
--   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [pg\_pconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL

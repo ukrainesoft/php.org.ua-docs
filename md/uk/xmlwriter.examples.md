@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](xmlwriter.constants.html)
     
--   [Создание простого XML-документа »](example.xmlwriter-simple.html)
+-   [Створення простого XML-документу](example.xmlwriter-simple.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [Создание простого XML-документа](example.xmlwriter-simple.html)
--   [Работа с пространствами имён XML](example.xmlwriter-namespace.html)
+-   [Створення простого XML-документа](example.xmlwriter-simple.html)
+-   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
 -   [Работа с объектно-ориентированным API](example.xmlwriter-oop.html)

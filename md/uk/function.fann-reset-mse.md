@@ -1,8 +1,8 @@
 Скидає середньоквадратичну помилку з мережі
 
--   [« fann\_reset\_errstr](function.fann-reset-errstr.html)
+-   [« fannreseterrstr](function.fann-reset-errstr.html)
     
--   [fann\_run »](function.fann-run.html)
+-   [fannrun »](function.fann-run.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,6 +39,6 @@ fann_reset_MSE(string $ann): bool
 
 ### Дивіться також
 
--   [fann\_get\_MSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fann\_get\_bit\_fail()](function.fann-get-bit-fail.html) - Кількість бітів збою
--   [fann\_get\_bit\_fail\_limit()](function.fann-get-bit-fail-limit.html) - Повертає межу збою бітів, використану під час навчання
+-   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
+-   [fanngetbitfail()](function.fann-get-bit-fail.html) - Кількість бітів збою
+-   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.html) - Повертає межу збою бітів, використану під час навчання

@@ -1,12 +1,12 @@
 Об'єднати комірки
 
--   [« Vtiful\\Kernel\\Excel::insertText](vtiful-kernel-excel.insertText.html)
+-   [« VtifulKernelExcel::insertText](vtiful-kernel-excel.insertText.html)
     
--   [Vtiful\\Kernel\\Excel::output »](vtiful-kernel-excel.output.html)
+-   [VtifulKernelExcel::output »](vtiful-kernel-excel.output.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Об'єднати комірки
     
@@ -37,7 +37,7 @@ public Vtiful\Kernel\Excel::mergeCells(string $scope, string $data)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

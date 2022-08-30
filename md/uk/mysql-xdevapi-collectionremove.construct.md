@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html)
+-   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
     
 -   Конструктор класу CollectionRemove
     

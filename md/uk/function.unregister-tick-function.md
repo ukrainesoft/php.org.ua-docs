@@ -1,6 +1,6 @@
 Видаляє функцію зі списку зареєстрованих для виконання на кожному тику
 
--   [« register\_tick\_function](function.register-tick-function.html)
+-   [« registertickfunction](function.register-tick-function.html)
     
 -   [Quickhash »](book.quickhash.html)
     
@@ -37,4 +37,4 @@ unregister_tick_function(callable $callback): void
 
 ### Дивіться також
 
--   [register\_tick\_function()](function.register-tick-function.html) - Реєструє функцію для виконання при кожному тику
+-   [registertickfunction()](function.register-tick-function.html) - Реєструє функцію для виконання при кожному тику

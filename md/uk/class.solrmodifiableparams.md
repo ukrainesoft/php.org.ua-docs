@@ -2,7 +2,7 @@
 
 -   [« SolrParams::unserialize](solrparams.unserialize.html)
     
--   [SolrModifiableParams::\_\_construct »](solrmodifiableparams.construct.html)
+-   [SolrModifiableParams::construct »](solrmodifiableparams.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,5 +65,5 @@ final public SolrParams::unserialize(string $serialized): void
 
 ## Зміст
 
--   [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.html) - Конструктор
--   [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.html) - Деструктор
+-   [SolrModifiableParams::construct](solrmodifiableparams.construct.html) - Конструктор
+-   [SolrModifiableParams::destruct](solrmodifiableparams.destruct.html) - Деструктор

@@ -1,8 +1,8 @@
 Починає з'єднання із сокетом
 
--   [« socket\_cmsg\_space](function.socket-cmsg-space.html)
+-   [« socketcmsgspace](function.socket-cmsg-space.html)
     
--   [socket\_create\_listen »](function.socket-create-listen.html)
+-   [socketcreatelisten »](function.socket-create-listen.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ socketconnect — Починає з'єднання з сокетом
 socket_connect(Socket $socket, string $address, ?int $port = null): bool
 ```
 
-Ініціалізує з'єднання з адресою `address`, використовуючи екземпляр [Socket](class.socket.html) `socket`, який має бути екземпляром [Socket](class.socket.html), створеним за допомогою функції [socket\_create()](function.socket-create.html)
+Ініціалізує з'єднання з адресою `address`, використовуючи екземпляр [Socket](class.socket.html) `socket`, який має бути екземпляром [Socket](class.socket.html), створеним за допомогою функції [socketcreate()](function.socket-create.html)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою [socket\_create()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою [socketcreate()](function.socket-create.html)
 
 `address`
 
@@ -41,7 +41,7 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код може бути потім переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути потім переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 > **Зауваження**
 > 
@@ -56,8 +56,8 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### Дивіться також
 
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

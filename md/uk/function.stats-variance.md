@@ -1,12 +1,12 @@
 Повертає дисперсію
 
--   [« stats\_stat\_powersum](function.stats-stat-powersum.html)
+-   [« statsstatpowersum](function.stats-stat-powersum.html)
     
 -   [Trader »](book.trader.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає дисперсію
     

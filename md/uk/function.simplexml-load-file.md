@@ -1,8 +1,8 @@
 Інтерпретує файл XML в об'єкт
 
--   [« simplexml\_import\_dom](function.simplexml-import-dom.html)
+-   [« simplexmlimportdom](function.simplexml-import-dom.html)
     
--   [simplexml\_load\_string »](function.simplexml-load-string.html)
+-   [simplexmlloadstring »](function.simplexml-load-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ simplexml_load_file(    string $filename,    ?string $class_name = Simpl
 
 `is_prefix`
 
-**`true`**, якщо `namespace_or_prefix` є префіксом, та **`false`**якщо URI; за умовчанням дорівнює **`false`**
+**`true`**, якщо `namespace_or_prefix` є префіксом, та \*\*`false`\*\*якщо URI; за умовчанням дорівнює **`false`**
 
 ### Значення, що повертаються
 
@@ -53,7 +53,7 @@ simplexml_load_file(    string $filename,    ?string $class_name = Simpl
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
@@ -61,7 +61,7 @@ simplexml_load_file(    string $filename,    ?string $class_name = Simpl
 
 **Підказка**
 
-Використовуйте функцію [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.html) для того, щоб придушити всі помилки XML, та функцію [libxml\_get\_errors()](function.libxml-get-errors.html) для проходу ними згодом.
+Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.html) для проходу ними згодом.
 
 ### Приклади
 
@@ -96,9 +96,9 @@ SimpleXMLElement Object
 
 ### Дивіться також
 
--   [simplexml\_load\_string()](function.simplexml-load-string.html) - Інтерпретує рядок з XML в об'єкт
--   [SimpleXMLElement::\_\_construct()](simplexmlelement.construct.html) - Створення нового об'єкта SimpleXMLElement
--   [Работа с ошибками XML](simplexml.examples-errors.html)
--   [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [simplexmlloadstring()](function.simplexml-load-string.html) - Інтерпретує рядок з XML в об'єкт
+-   [SimpleXMLElement::construct()](simplexmlelement.construct.html) - Створення нового об'єкта SimpleXMLElement
+-   [Робота з помилками XML](simplexml.examples-errors.html)
+-   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)
--   [libxml\_set\_streams\_context()](function.libxml-set-streams-context.html) - Встановлення контексту потоків для наступного завантаження або запису документа за допомогою libxml
+-   [libxmlsetstreamscontext()](function.libxml-set-streams-context.html) - Встановлення контексту потоків для наступного завантаження або запису документа за допомогою libxml

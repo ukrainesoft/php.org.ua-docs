@@ -1,12 +1,12 @@
 Отримує шлях до бібліотеки
 
--   [« Yaf\_Loader::getInstance](yaf-loader.getinstance.html)
+-   [« YafLoader::getInstance](yaf-loader.getinstance.html)
     
--   [Yaf\_Loader::getLocalNamespace »](yaf-loader.getlocalnamespace.html)
+-   [YafLoader::getLocalNamespace »](yaf-loader.getlocalnamespace.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Loader](class.yaf-loader.html)
+-   [YafLoader](class.yaf-loader.html)
     
 -   Отримує шлях до бібліотеки
     

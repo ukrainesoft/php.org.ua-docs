@@ -1,8 +1,8 @@
 Виконує процедури налагодження
 
--   [« mysqli::\_\_construct](mysqli.construct.html)
+-   [« mysqli::construct](mysqli.construct.html)
     
--   [mysqli::dump\_debug\_info »](mysqli.dump-debug-info.html)
+-   [mysqli::dumpdebuginfo »](mysqli.dump-debug-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -90,5 +90,5 @@ mysqli_debug("d:t:o,/tmp/client.trace");
 
 ### Дивіться також
 
--   [mysqli\_dump\_debug\_info()](mysqli.dump-debug-info.html) - Журналування налагоджувальної інформації
--   [mysqli\_report()](function.mysqli-report.html) - Псевдонім mysqlidriver->reportmode
+-   [mysqlidumpdebuginfo()](mysqli.dump-debug-info.html) - Журналування налагоджувальної інформації
+-   [mysqlireport()](function.mysqli-report.html) - Псевдонім mysqlidriver->reportmode

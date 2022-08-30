@@ -1,8 +1,8 @@
 Повертає рядок, що містить тип використовуваної сполуки
 
--   [« mysqli::get\_connection\_stats](mysqli.get-connection-stats.html)
+-   [« mysqli::getconnectionstats](mysqli.get-connection-stats.html)
     
--   [mysqli::$protocol\_version »](mysqli.get-proto-info.html)
+-   [mysqli::$protocolversion »](mysqli.get-proto-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ mysqli::$hostinfo -- mysqligethostinfo — Повертає рядок, що м�
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->host\_info](mysqli.get-host-info.html)
+string [$mysqli->hostinfo](mysqli.get-host-info.html)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_get_host_info(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -95,4 +95,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_get\_proto\_info()](mysqli.get-proto-info.html) - Повертає версію використовуваного MySQL протоколу
+-   [mysqligetprotoinfo()](mysqli.get-proto-info.html) - Повертає версію використовуваного MySQL протоколу

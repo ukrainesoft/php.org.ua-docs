@@ -1,8 +1,8 @@
 Встановлення обробника інструкцій препроцесора (PI)
 
--   [« xml\_set\_object](function.xml-set-object.html)
+-   [« xmlsetobject](function.xml-set-object.html)
     
--   [xml\_set\_start\_namespace\_decl\_handler »](function.xml-set-start-namespace-decl-handler.html)
+-   [xmlsetstartnamespacedeclhandler »](function.xml-set-start-namespace-decl-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,7 +47,7 @@ target data
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати три аргументи:
 

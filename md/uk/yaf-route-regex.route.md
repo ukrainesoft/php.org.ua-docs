@@ -1,12 +1,12 @@
 Мета маршруту
 
--   [« Yaf\_Route\_Regex::\_\_construct](yaf-route-regex.construct.html)
+-   [« YafRouteRegex::construct](yaf-route-regex.construct.html)
     
--   [Yaf\_Route\_Rewrite »](class.yaf-route-rewrite.html)
+-   [YafRouteRewrite »](class.yaf-route-rewrite.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Regex](class.yaf-route-regex.html)
+-   [YafRouteRegex](class.yaf-route-regex.html)
     
 -   Мета маршруту
     

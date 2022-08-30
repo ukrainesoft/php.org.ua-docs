@@ -1,12 +1,12 @@
 Обчислює випадкове відхилення від біномінального розподілу
 
--   [« stats\_rand\_gen\_ibinomial\_negative](function.stats-rand-gen-ibinomial-negative.html)
+-   [« statsrandgenibinomialnegative](function.stats-rand-gen-ibinomial-negative.html)
     
--   [stats\_rand\_gen\_int »](function.stats-rand-gen-int.html)
+-   [statsrandgenint »](function.stats-rand-gen-int.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює випадкове відхилення від біномінального розподілу
     

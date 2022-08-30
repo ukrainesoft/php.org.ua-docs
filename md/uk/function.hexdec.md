@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Переводить число з шістнадцяткової системи числення до десяткової
     
@@ -69,4 +69,4 @@ var_dump(hexdec("a0")); // выведет "int(160)"
 -   [dechex()](function.dechex.html) - Переводить число з десяткової системи числення до шістнадцяткової
 -   [bindec()](function.bindec.html) - Двійкове у десяткове
 -   [octdec()](function.octdec.html) - Переводить число з вісімкової системи числення до десяткової
--   [base\_convert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення

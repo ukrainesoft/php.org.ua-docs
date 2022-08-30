@@ -1,12 +1,12 @@
 Фільтрує елементи масиву за допомогою callback-функції
 
--   [« array\_fill](function.array-fill.html)
+-   [« arrayfill](function.array-fill.html)
     
--   [array\_flip »](function.array-flip.html)
+-   [arrayflip »](function.array-flip.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Фільтрує елементи масиву за допомогою callback-функції
     
@@ -25,7 +25,7 @@ array_filter(array $array, ?callable $callback = null, int $mode = 0): array
 
 Обходить кожне значення масиву `array`, передаючи його в `callback`функцію. Якщо `callback`функція повертає **`true`**, це значення з `array` повертається в результуючий array.
 
-Ключі масиву зберігаються і можуть призвести до перепусток, якщо `array` був проіндексований. Результат масиву (array) можна переіндексувати за допомогою функції [array\_values()](function.array-values.html)
+Ключі масиву зберігаються і можуть призвести до перепусток, якщо `array` був проіндексований. Результат масиву (array) можна переіндексувати за допомогою функції [arrayvalues()](function.array-values.html)
 
 ### Список параметрів
 
@@ -176,7 +176,7 @@ array(2) {
 
 ### Дивіться також
 
--   [array\_intersect()](function.array-intersect.html) - обчислює сходження масивів
--   [array\_map()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
--   [array\_reduce()](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
--   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
+-   [arraymap()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [arrayreduce()](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
+-   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву

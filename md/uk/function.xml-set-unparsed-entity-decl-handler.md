@@ -1,6 +1,6 @@
 Встановлення оброблювача нерозібраних оголошень сутностей
 
--   [« xml\_set\_start\_namespace\_decl\_handler](function.xml-set-start-namespace-decl-handler.html)
+-   [« xmlsetstartnamespacedeclhandler](function.xml-set-start-namespace-decl-handler.html)
     
 -   [XmlParser »](class.xmlparser.html)
     
@@ -29,7 +29,7 @@ xml_set_unparsed_entity_decl_handler(XMLParser $parser, callable $handler): bool
 
 name publicId systemId} NDATA notationName
 
-Дивіться [» раздел 4.2.2 XML 1.0 спецификации](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent)щоб отримати точне визначення позначень зовнішніх сутностей.
+Дивіться [» розділ 4.2.2 XML 1.0 специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent)щоб отримати точне визначення позначень зовнішніх сутностей.
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ name publicId systemId} NDATA notationName
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xml\_parse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати шість аргументів:
 
@@ -69,7 +69,7 @@ handler(    XMLParser $parser,    string $entity_name,    string $ba
 
 `notation_name`
 
-Ім'я позначення цієї сутності (дивіться [xml\_set\_notation\_decl\_handler()](function.xml-set-notation-decl-handler.html)
+Ім'я позначення цієї сутності (дивіться [xmlsetnotationdeclhandler()](function.xml-set-notation-decl-handler.html)
 
 Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
 

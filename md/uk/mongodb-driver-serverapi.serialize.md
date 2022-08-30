@@ -1,12 +1,12 @@
 Серіалізує ServerApi
 
--   [« MongoDB\\Driver\\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.html)
+-   [« MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.html)
     
--   [MongoDB\\Driver\\ServerApi::unserialize »](mongodb-driver-serverapi.unserialize.html)
+-   [MongoDBDriverServerApi::unserialize »](mongodb-driver-serverapi.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+-   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
     
 -   Серіалізує ServerApi
     
@@ -29,14 +29,14 @@ final public MongoDB\Driver\ServerApi::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+Повертає серіалізовану виставу [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ServerApi::unserialize()](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi
+-   [MongoDBDriverServerApi::unserialize()](mongodb-driver-serverapi.unserialize.html) - Десеріалізує ServerApi
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

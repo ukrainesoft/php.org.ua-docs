@@ -1,8 +1,8 @@
 Отримати всі помилки IMAP
 
--   [« imap\_deletemailbox](function.imap-deletemailbox.html)
+-   [« imapdeletemailbox](function.imap-deletemailbox.html)
     
--   [imap\_expunge »](function.imap-expunge.html)
+-   [imapexpunge »](function.imap-expunge.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,5 +37,5 @@ imap_errors(): array|false
 
 ### Дивіться також
 
--   [imap\_last\_error()](function.imap-last-error.html) - Отримати останню помилку IMAP у поточному запиті
--   [imap\_alerts()](function.imap-alerts.html) - Повертає всі попереджувальні повідомлення IMAP.
+-   [imaplasterror()](function.imap-last-error.html) - Отримати останню помилку IMAP у поточному запиті
+-   [imapalerts()](function.imap-alerts.html) - Повертає всі попереджувальні повідомлення IMAP.

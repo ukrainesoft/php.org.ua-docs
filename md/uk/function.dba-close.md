@@ -1,12 +1,12 @@
 Закриває базу даних DBA
 
--   [« Функции DBA](ref.dba.html)
+-   [« Функції DBA](ref.dba.html)
     
--   [dba\_delete »](function.dba-delete.html)
+-   [dbadelete »](function.dba-delete.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Закриває базу даних DBA
     
@@ -29,7 +29,7 @@ dba_close(resource $dba): void
 
 `dba`
 
-Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ dba_close(resource $dba): void
 
 ### Дивіться також
 
--   [dba\_open()](function.dba-open.html) - Відкриває базу даних
--   [dba\_popen()](function.dba-popen.html) - встановити постійний екземпляр бази даних
+-   [dbaopen()](function.dba-open.html) - Відкриває базу даних
+-   [dbapopen()](function.dba-popen.html) - встановити постійний екземпляр бази даних

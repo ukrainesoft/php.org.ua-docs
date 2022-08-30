@@ -1,12 +1,12 @@
 Закриття
 
--   [« parallel\\Channel::send](parallel-channel.send.html)
+-   [« parallelChannel::send](parallel-channel.send.html)
     
--   [parallel\\Events »](class.parallel-events.html)
+-   [parallelEvents »](class.parallel-events.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Channel](class.parallel-channel.html)
+-   [parallelChannel](class.parallel-channel.html)
     
 -   Закриття
     

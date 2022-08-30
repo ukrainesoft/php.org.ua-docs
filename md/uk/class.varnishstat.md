@@ -2,7 +2,7 @@
 
 -   [« VarnishAdmin::stop](varnishadmin.stop.html)
     
--   [VarnishStat::\_\_construct »](varnishstat.construct.html)
+-   [VarnishStat::construct »](varnishstat.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -40,5 +40,5 @@ public getSnapshot(): array
 
 ## Зміст
 
--   [VarnishStat::\_\_construct](varnishstat.construct.html) - Конструктор VarnishStat
+-   [VarnishStat::construct](varnishstat.construct.html) - Конструктор VarnishStat
 -   [VarnishStat::getSnapshot](varnishstat.getsnapshot.html) — Отримати фотографію статистики поточного екземпляра varnish

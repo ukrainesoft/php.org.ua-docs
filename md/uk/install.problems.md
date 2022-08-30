@@ -1,6 +1,6 @@
 Проблеми?
 
--   [« Компиляция модулей PECL статически в PHP](install.pecl.static.html)
+-   [Компіляція модулів PECL статично в PHP](install.pecl.static.html)
     
 -   [Читайте FAQ »](install.problems.faq.html)
     
@@ -16,5 +16,5 @@
 ## Зміст
 
 -   [Читайте FAQ](install.problems.faq.html)
--   [Другие проблемы](install.problems.support.html)
--   [Сообщения о багах](install.problems.bugs.html)
+-   [Інші проблеми](install.problems.support.html)
+-   [Повідомлення про баги](install.problems.bugs.html)

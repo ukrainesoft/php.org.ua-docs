@@ -1,12 +1,12 @@
 Поміщає елемент у стек
 
--   [« Parle\\Stack::pop](parle-stack.pop.html)
+-   [« ParleStack::pop](parle-stack.pop.html)
     
--   [Parle\\Token »](class.parle-token.html)
+-   [ParleToken »](class.parle-token.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Stack](class.parle-stack.html)
+-   [ParleStack](class.parle-stack.html)
     
 -   Поміщає елемент у стек
     

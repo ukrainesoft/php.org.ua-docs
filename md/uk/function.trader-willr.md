@@ -1,8 +1,8 @@
 Відсотковий діапазон Вільямса
 
--   [« trader\_wclprice](function.trader-wclprice.html)
+-   [« traderwclprice](function.trader-wclprice.html)
     
--   [trader\_wma »](function.trader-wma.html)
+-   [traderwma »](function.trader-wma.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Синхронізація
 
--   [« parallel\\Sync::wait](parallel-sync.wait.html)
+-   [« parallelSync::wait](parallel-sync.wait.html)
     
--   [parallel\\Sync::\_\_invoke »](parallel-sync.invoke.html)
+-   [parallelSync::invoke »](parallel-sync.invoke.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Sync](class.parallel-sync.html)
+-   [parallelSync](class.parallel-sync.html)
     
 -   Синхронізація
     

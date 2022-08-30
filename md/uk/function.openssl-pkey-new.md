@@ -1,8 +1,8 @@
 Генерує новий закритий ключ
 
--   [« openssl\_pkey\_get\_public](function.openssl-pkey-get-public.html)
+-   [« opensslpkeygetpublic](function.openssl-pkey-get-public.html)
     
--   [openssl\_private\_decrypt »](function.openssl-private-decrypt.html)
+-   [opensslprivatedecrypt »](function.openssl-private-decrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 `options`
 
-Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`. Дивіться опис функції [openssl\_csr\_new()](function.openssl-csr-new.html) для детальної інформації про `options`
+Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`. Дивіться опис функції [opensslcsrnew()](function.openssl-csr-new.html) для детальної інформації про `options`
 
 ### Значення, що повертаються
 

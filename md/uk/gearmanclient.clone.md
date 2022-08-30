@@ -2,7 +2,7 @@
 
 -   [« GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.html)
     
--   [GearmanClient::\_\_construct »](gearmanclient.construct.html)
+-   [GearmanClient::construct »](gearmanclient.construct.html)
     
 -   [PHP Manual](index.html)
     

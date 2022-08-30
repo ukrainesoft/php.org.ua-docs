@@ -1,8 +1,8 @@
 Очищення результату запиту та звільнення пам'яті
 
--   [« pg\_flush](function.pg-flush.html)
+-   [« pgflush](function.pg-flush.html)
     
--   [pg\_get\_notify »](function.pg-get-notify.html)
+-   [пгgetnotify »](function.pg-get-notify.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 pg_free_result(PgSql\Result $result): bool
 ```
 
-**пгfreeresult()** звільняє пам'ять, зайняту екземпляром [PgSql\\Result](class.pgsql-result.html)
+**пгfreeresult()** звільняє пам'ять, зайняту екземпляром [PgSqlResult](class.pgsql-result.html)
 
 Викликати цю функцію слід лише у разі нестачі пам'яті під час виконання скрипта. У будь-якому випадку пам'ять буде звільнено автоматично після закінчення роботи скрипту.
 
@@ -35,7 +35,7 @@ pg_free_result(PgSql\Result $result): bool
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 ### Значення, що повертаються
 
@@ -43,9 +43,9 @@ pg_free_result(PgSql\Result $result): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -73,6 +73,6 @@ pg_free_result($res);
 
 ### Дивіться також
 
--   [pg\_query()](function.pg-query.html) - Виконує запит
--   [pg\_query\_params()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
--   [pg\_execute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгquery()](function.pg-query.html) - Виконує запит
+-   [пгqueryparams()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату

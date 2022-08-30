@@ -1,8 +1,8 @@
 Кількість бітів збою
 
--   [« fann\_get\_bit\_fail\_limit](function.fann-get-bit-fail-limit.html)
+-   [« fanngetbitfaillimit](function.fann-get-bit-fail-limit.html)
     
--   [fann\_get\_cascade\_activation\_functions\_count »](function.fann-get-cascade-activation-functions-count.html)
+-   [fanngetcascadeactivationfunctionscount »](function.fann-get-cascade-activation-functions-count.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,9 +23,9 @@ fanngetbitfail - Кількість бітів збою
 fann_get_bit_fail(resource $ann): int
 ```
 
-Кількість бітів збою; означає число вихідних нейронів, які відрізняються більше, ніж межа збою бітів (див. [fann\_get\_bit\_fail\_limit()](function.fann-get-bit-fail-limit.html) [fann\_set\_bit\_fail\_limit()](function.fann-set-bit-fail-limit.html)). Біти враховуються у всіх навчальних даних, тому це число може бути більше за кількість навчальних даних.
+Кількість бітів збою; означає число вихідних нейронів, які відрізняються більше, ніж межа збою бітів (див. [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.html) [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.html)). Біти враховуються у всіх навчальних даних, тому це число може бути більше за кількість навчальних даних.
 
-Це значення скидається [fann\_reset\_MSE()](function.fann-reset-mse.html) і оновлюється всіма тими самими функціями, які також оновлюють значення MSE (наприклад, [fann\_test\_data()](function.fann-test-data.html) [fann\_train\_epoch()](function.fann-train-epoch.html)
+Це значення скидається [fannresetMSE()](function.fann-reset-mse.html) і оновлюється всіма тими самими функціями, які також оновлюють значення MSE (наприклад, [fanntestdata()](function.fann-test-data.html) [fanntrainepoch()](function.fann-train-epoch.html)
 
 ### Список параметрів
 
@@ -39,9 +39,9 @@ fann_get_bit_fail(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_get\_MSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fann\_reset\_MSE()](function.fann-reset-mse.html) - скидає середньоквадратичну помилку з мережі
--   [fann\_test\_data()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього
--   [fann\_train\_epoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
--   [fann\_get\_bit\_fail\_limit()](function.fann-get-bit-fail-limit.html) - Повертає межу збою бітів, використану під час навчання
--   [fann\_set\_bit\_fail\_limit()](function.fann-set-bit-fail-limit.html) - Встановлює межу помилок, що використовується під час навчання
+-   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
+-   [fannresetMSE()](function.fann-reset-mse.html) - скидає середньоквадратичну помилку з мережі
+-   [fanntestdata()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього
+-   [fanntrainepoch()](function.fann-train-epoch.html) - Навчання протягом однієї епохи
+-   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.html) - Повертає межу збою бітів, використану під час навчання
+-   [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.html) - Встановлює межу помилок, що використовується під час навчання

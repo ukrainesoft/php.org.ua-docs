@@ -1,12 +1,12 @@
 Повертає кількість входжень підрядка
 
--   [« substr\_compare](function.substr-compare.html)
+-   [« substrcompare](function.substr-compare.html)
     
--   [substr\_replace »](function.substr-replace.html)
+-   [substrreplace »](function.substr-replace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає кількість входжень підрядка
     
@@ -87,7 +87,7 @@ echo substr_count($text2, 'gcdgcd');
 
 ### Дивіться також
 
--   [count\_chars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
+-   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
 -   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
 -   [substr()](function.substr.html) - Повертає підрядок
 -   [strstr()](function.strstr.html) - Знаходить перше входження підрядка

@@ -1,12 +1,12 @@
 Малює лінію
 
--   [« ps\_include\_file](function.ps-include-file.html)
+-   [«psincludefile](function.ps-include-file.html)
     
--   [ps\_makespotcolor »](function.ps-makespotcolor.html)
+-   [псmakespotcolor »](function.ps-makespotcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Малює лінію
     
@@ -23,13 +23,13 @@
 ps_lineto(resource $psdoc, float $x, float $y): bool
 ```
 
-Додає до поточного шляху пряму лінію від точки до заданих координат. Використовуйте [ps\_moveto()](function.ps-moveto.html), щоб встановити початкову точку лінії.
+Додає до поточного шляху пряму лінію від точки до заданих координат. Використовуйте [псmoveto()](function.ps-moveto.html), щоб встановити початкову точку лінії.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `x`
 
@@ -74,4 +74,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [ps\_moveto()](function.ps-moveto.html) - Встановлює поточну точку
+-   [псmoveto()](function.ps-moveto.html) - Встановлює поточну точку

@@ -1,8 +1,8 @@
 Відкат транзакції
 
--   [« cubrid\_put](function.cubrid-put.html)
+-   [« cubridput](function.cubrid-put.html)
     
--   [cubrid\_schema »](function.cubrid-schema.html)
+-   [cubridschema »](function.cubrid-schema.html)
     
 -   [PHP Manual](index.html)
     
@@ -112,5 +112,5 @@ P04 Tenterhooks Press    Berkeley        CA  USA
 
 ### Дивіться також
 
--   [cubrid\_commit()](function.cubrid-commit.html) - підтвердження транзакції
--   [cubrid\_disconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
+-   [cubridcommit()](function.cubrid-commit.html) - підтвердження транзакції
+-   [cubriddisconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних

@@ -1,8 +1,8 @@
 Псевдонім DateInterval::createFromDateString
 
--   [« date\_get\_last\_errors](function.date-get-last-errors.html)
+-   [« dategetlasterrors](function.date-get-last-errors.html)
     
--   [date\_interval\_format »](function.date-interval-format.html)
+-   [dateintervalformat »](function.date-interval-format.html)
     
 -   [PHP Manual](index.html)
     

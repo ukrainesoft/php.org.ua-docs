@@ -1,12 +1,12 @@
 Налаштовує деякі опції заголовка файлу бази даних RRD
 
--   [« rrd\_restore](function.rrd-restore.html)
+-   [« rrdrestore](function.rrd-restore.html)
     
--   [rrd\_update »](function.rrd-update.html)
+-   [rrdupdate »](function.rrd-update.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Налаштовує деякі опції заголовка файлу бази даних RRD
     

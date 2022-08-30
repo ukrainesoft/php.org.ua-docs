@@ -1,8 +1,8 @@
 Повертає покажчик на задану секцію у mime-повідомленні
 
--   [« mailparse\_msg\_get\_part\_data](function.mailparse-msg-get-part-data.html)
+-   [« mailparsemsggetpartdata](function.mailparse-msg-get-part-data.html)
     
--   [mailparse\_msg\_get\_structure »](function.mailparse-msg-get-structure.html)
+-   [mailparsemsggetstructure »](function.mailparse-msg-get-structure.html)
     
 -   [PHP Manual](index.html)
     

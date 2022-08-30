@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Поддерживаемые протоколы и обёртки](wrappers.html)
+-   [Підтримувані протоколи та обгортки](wrappers.html)
     
 -   Схема Data (RFC 2397)
     
@@ -27,19 +27,19 @@ data: ([» RFC 2397](http://www.faqs.org/rfcs/rfc2397)) - це обгортка
 
 **Основна інформація**
 
-| Атрибут                                                                                 | Поддержка |
-|-----------------------------------------------------------------------------------------|-----------|
-| Обмеження по [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen)     | Так       |
-| Обмеження по [allow\_url\_include](filesystem.configuration.html#ini.allow-url-include) | Так       |
-| Читання                                                                                 | Так       |
-| Запис                                                                                   | Ні        |
-| Додавання                                                                               | Ні        |
-| Читання та запис одночасно                                                              | Ні        |
-| Підтримка [stat()](function.stat.html)                                                  | Ні        |
-| Підтримка [unlink()](function.unlink.html)                                              | Ні        |
-| Підтримка [rename()](function.rename.html)                                              | Ні        |
-| Підтримка [mkdir()](function.mkdir.html)                                                | Ні        |
-| Підтримка [rmdir()](function.rmdir.html)                                                | Ні        |
+| Атрибут                                                                             | Поддержка |
+|-------------------------------------------------------------------------------------|-----------|
+| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen)     | Так       |
+| Обмеження по [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | Так       |
+| Читання                                                                             | Так       |
+| Запис                                                                               | Ні        |
+| Додавання                                                                           | Ні        |
+| Читання та запис одночасно                                                          | Ні        |
+| Підтримка [stat()](function.stat.html)                                              | Ні        |
+| Підтримка [unlink()](function.unlink.html)                                          | Ні        |
+| Підтримка [rename()](function.rename.html)                                          | Ні        |
+| Підтримка [mkdir()](function.mkdir.html)                                            | Ні        |
+| Підтримка [rmdir()](function.rmdir.html)                                            | Ні        |
 
 ### Приклади
 

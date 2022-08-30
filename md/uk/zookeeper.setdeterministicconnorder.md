@@ -47,6 +47,6 @@ public
 
 ### Дивіться також
 
--   [Zookeeper::\_\_construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
 -   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
 -   [ZookeeperException](class.zookeeperexception.html)

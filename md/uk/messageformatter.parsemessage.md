@@ -100,6 +100,6 @@ array (
 
 ### Дивіться також
 
--   [msgfmt\_create()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmt\_format\_message()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
--   [msgfmt\_parse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmtformatmessage()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
+-   [msgfmtparse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону

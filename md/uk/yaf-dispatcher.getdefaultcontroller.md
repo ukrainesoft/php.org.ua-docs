@@ -1,12 +1,12 @@
 Отримує ім'я контролера за умовчанням
 
--   [« Yaf\_Dispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.html)
+-   [« YafDispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.html)
     
--   [Yaf\_Dispatcher::getDefaultModule »](yaf-dispatcher.getdefaultmodule.html)
+-   [YafDispatcher::getDefaultModule »](yaf-dispatcher.getdefaultmodule.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує ім'я контролера за умовчанням
     

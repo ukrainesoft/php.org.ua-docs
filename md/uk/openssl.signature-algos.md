@@ -17,7 +17,7 @@
 
 **`OPENSSL_ALGO_SHA1`** (int)
 
-Використовується як алгоритм за замовчуванням для функцій [openssl\_sign()](function.openssl-sign.html) і [openssl\_verify()](function.openssl-verify.html)
+Використовується як алгоритм за замовчуванням для функцій [opensslsign()](function.openssl-sign.html) і [opensslverify()](function.openssl-verify.html)
 
 **`OPENSSL_ALGO_SHA224`** (int)
 

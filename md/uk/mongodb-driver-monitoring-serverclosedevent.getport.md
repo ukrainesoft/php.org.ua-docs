@@ -1,12 +1,12 @@
 Повертає порт, на якому прослуховується сервер
 
--   [« MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.html)
+-   [« MongoDBDriverMonitoringServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getTopologyId »](mongodb-driver-monitoring-serverclosedevent.gettopologyid.html)
+-   [MongoDBDriverMonitoringServerClosedEvent::getTopologyId »](mongodb-driver-monitoring-serverclosedevent.gettopologyid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+-   [MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
     
 -   Повертає порт, на якому прослуховується сервер
     
@@ -33,4 +33,4 @@ final public MongoDB\Driver\Monitoring\ServerClosedEvent::getPort(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

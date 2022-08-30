@@ -1,6 +1,6 @@
 Створює об'єкт класу DateInterval із дати у відносному форматі
 
--   [« DateInterval::\_\_construct](dateinterval.construct.html)
+-   [« DateInterval::construct](dateinterval.construct.html)
     
 -   [DateInterval::format »](dateinterval.format.html)
     
@@ -29,7 +29,7 @@ public static DateInterval::createFromDateString(string $datetime): DateInterval
 
 `datetime`
 
-Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [относительном формате](datetime.formats.relative.html), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) і [strtotime()](function.strtotime.html)
+Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [відносному форматі](datetime.formats.relative.html), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) і [strtotime()](function.strtotime.html)
 
 ### Значення, що повертаються
 

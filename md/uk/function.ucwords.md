@@ -2,11 +2,11 @@
 
 -   [« ucfirst](function.ucfirst.html)
     
--   [utf8\_decode »](function.utf8-decode.html)
+-   [utf8decode »](function.utf8-decode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює на верхній регістр перший символ кожного слова в рядку
     
@@ -89,4 +89,4 @@ $baz = ucwords($foo, " \t\r\n\f\v'"); // Mike O'Hara
 -   [strtoupper()](function.strtoupper.html) - Перетворює рядок у верхній регістр
 -   [strtolower()](function.strtolower.html) - Перетворює рядок на нижній регістр
 -   [ucfirst()](function.ucfirst.html) - Перетворює перший символ рядка у верхній регістр
--   [mb\_convert\_case()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку
+-   [мбconvertcase()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку

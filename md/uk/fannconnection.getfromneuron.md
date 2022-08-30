@@ -1,6 +1,6 @@
 Повертає позицію стартового нейрона
 
--   [« FANNConnection::\_\_construct](fannconnection.construct.html)
+-   [« FANNConnection::construct](fannconnection.construct.html)
     
 -   [FANNConnection::getToNeuron »](fannconnection.gettoneuron.html)
     

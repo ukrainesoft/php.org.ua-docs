@@ -1,8 +1,8 @@
 Ковзна середня
 
--   [« trader\_log10](function.trader-log10.html)
+-   [« traderlog10](function.trader-log10.html)
     
--   [trader\_macd »](function.trader-macd.html)
+-   [tradermacd »](function.trader-macd.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ trader_ma(array $real, int $timePeriod = ?, int $mAType = ?): array
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 ### Значення, що повертаються
 

@@ -2,7 +2,7 @@
 
 -   [« SolrClient::addDocuments](solrclient.adddocuments.html)
     
--   [SolrClient::\_\_construct »](solrclient.construct.html)
+-   [SolrClient::construct »](solrclient.construct.html)
     
 -   [PHP Manual](index.html)
     

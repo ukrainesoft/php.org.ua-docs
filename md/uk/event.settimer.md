@@ -43,7 +43,7 @@ public
 
 `cb`
 
-Функція зворотного дзвінка події таймера. Дивіться [Функции обратного вызова для событий](event.callbacks.html)
+Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного дзвінка для подій](event.callbacks.html)
 
 `arg`
 
@@ -55,5 +55,5 @@ public
 
 ### Дивіться також
 
--   [Event::\_\_construct()](event.construct.html) - Конструктор об'єкту Event
+-   [Event::construct()](event.construct.html) - Конструктор об'єкту Event
 -   [Event::timer()](event.timer.html) - Створити об'єкт події таймера

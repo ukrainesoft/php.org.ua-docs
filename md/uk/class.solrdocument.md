@@ -132,13 +132,13 @@ public valid(): bool
 
 -   [SolrDocument::addField](solrdocument.addfield.html) — Додає поле до документа
 -   [SolrDocument::clear](solrdocument.clear.html) — Видаляє всі поля у документі
--   [SolrDocument::\_\_clone](solrdocument.clone.html) — Створює копію об'єкта SolrDocument
--   [SolrDocument::\_\_construct](solrdocument.construct.html) - Конструктор
+-   [SolrDocument::clone](solrdocument.clone.html) — Створює копію об'єкта SolrDocument
+-   [SolrDocument::construct](solrdocument.construct.html) - Конструктор
 -   [SolrDocument::current](solrdocument.current.html) — Отримує поточне поле
 -   [SolrDocument::deleteField](solrdocument.deletefield.html) — Видаляє поле із документа
--   [SolrDocument::\_\_destruct](solrdocument.destruct.html) - Деструктор
+-   [SolrDocument::destruct](solrdocument.destruct.html) - Деструктор
 -   [SolrDocument::fieldExists](solrdocument.fieldexists.html) — Перевіряє, чи є поле у ​​документі
--   [SolrDocument::\_\_get](solrdocument.get.html) — Доступ до поля як властивості
+-   [SolrDocument::get](solrdocument.get.html) — Доступ до поля як властивості
 -   [SolrDocument::getChildDocuments](solrdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrDocument)
 -   [SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.html) — Повертає кількість дочірніх документів
 -   [SolrDocument::getField](solrdocument.getfield.html) — Отримує поле на ім'я
@@ -146,7 +146,7 @@ public valid(): bool
 -   [SolrDocument::getFieldNames](solrdocument.getfieldnames.html) — Повертає масив імен полів у документі
 -   [SolrDocument::getInputDocument](solrdocument.getinputdocument.html) — Повертає SolrInputDocument еквівалент об'єкту
 -   [SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.html) — Перевіряє, чи документ має дочірні документи.
--   [SolrDocument::\_\_isset](solrdocument.isset.html) — Перевіряє, чи є поле
+-   [SolrDocument::isset](solrdocument.isset.html) — Перевіряє, чи є поле
 -   [SolrDocument::key](solrdocument.key.html) — Отримує поточний ключ
 -   [SolrDocument::merge](solrdocument.merge.html) — Зливає джерело у поточний SolrDocument
 -   [SolrDocument::next](solrdocument.next.html) — Переміщує внутрішній покажчик на наступне поле
@@ -157,9 +157,9 @@ public valid(): bool
 -   [SolrDocument::reset](solrdocument.reset.html) - Псевдонім SolrDocument::clear()
 -   [SolrDocument::rewind](solrdocument.rewind.html) — скидає внутрішній покажчик на початок
 -   [SolrDocument::serialize](solrdocument.serialize.html) — Використовується для серіалізації користувача
--   [SolrDocument::\_\_set](solrdocument.set.html) — Додає ще одне поле до документа
+-   [SolrDocument::set](solrdocument.set.html) — Додає ще одне поле до документа
 -   [SolrDocument::sort](solrdocument.sort.html) — Сортує поля у документі
 -   [SolrDocument::toArray](solrdocument.toarray.html) — Повертає подання масиву документа
 -   [SolrDocument::unserialize](solrdocument.unserialize.html) — Серіалізація об'єктів користувача SolrDocument
--   [SolrDocument::\_\_unset](solrdocument.unset.html) — Видаляє поле із документа
+-   [SolrDocument::unset](solrdocument.unset.html) — Видаляє поле із документа
 -   [SolrDocument::valid](solrdocument.valid.html) — Перевіряє, чи поточна позиція є внутрішньо коректною.

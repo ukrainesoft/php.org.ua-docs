@@ -1,8 +1,8 @@
 Повертає результат застосування callback-функції до всіх значень вектора
 
--   [« Ds\\Vector::last](ds-vector.last.html)
+-   [« DsVector::last](ds-vector.last.html)
     
--   [Ds\\Vector::merge »](ds-vector.merge.html)
+-   [ДсVector::merge »](ds-vector.merge.html)
     
 -   [PHP Manual](index.html)
     

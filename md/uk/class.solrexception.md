@@ -1,6 +1,6 @@
 Клас SolrException
 
--   [« SolrCollapseFunction::\_\_toString](solrcollapsefunction.tostring.html)
+-   [« SolrCollapseFunction::toString](solrcollapsefunction.tostring.html)
     
 -   [SolrException::getInternalInfo »](solrexception.getinternalinfo.html)
     

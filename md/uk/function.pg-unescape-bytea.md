@@ -1,8 +1,8 @@
 Забирає екранування двійкових даних типу bytea
 
--   [« pg\_tty](function.pg-tty.html)
+-   [« pgtty](function.pg-tty.html)
     
--   [pg\_untrace »](function.pg-untrace.html)
+-   [пгuntrace »](function.pg-untrace.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,5 +62,5 @@ pg_unescape_bytea(string $string): string
 
 ### Дивіться також
 
--   [pg\_escape\_bytea()](function.pg-escape-bytea.html) - Екранує спецсимволи у рядку для вставки у поле типу bytea
--   [pg\_escape\_string()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту
+-   [пгescapebytea()](function.pg-escape-bytea.html) - Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [пгescapestring()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту

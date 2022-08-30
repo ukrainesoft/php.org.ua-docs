@@ -1,6 +1,6 @@
 Нові класи та інтерфейси
 
--   [« Новые функции](migration70.new-functions.html)
+-   [« Нові функції](migration70.new-functions.html)
     
 -   [Новые глобальные константы »](migration70.constants.html)
     
@@ -13,7 +13,7 @@
 
 ## Нові класи та інтерфейси
 
-### [Интернационализация](book.intl.html)
+### [Інтернаціоналізація](book.intl.html)
 
 -   [IntlChar](class.intlchar.html)
 

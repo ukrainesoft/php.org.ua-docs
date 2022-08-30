@@ -1,12 +1,12 @@
 Повертає масив, що містить усі результати курсору
 
--   [« MongoDB\\Driver\\Cursor::setTypeMap](mongodb-driver-cursor.settypemap.html)
+-   [« MongoDBDriverCursor::setTypeMap](mongodb-driver-cursor.settypemap.html)
     
--   [MongoDB\\Driver\\Cursor::valid »](mongodb-driver-cursor.valid.html)
+-   [MongoDBDriverCursor::valid »](mongodb-driver-cursor.valid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Повертає масив, що містить усі результати курсору
     
@@ -23,7 +23,7 @@ MongoDBDriverCursor::toArray — Повертає масив, що містит�
 final public MongoDB\Driver\Cursor::toArray(): array
 ```
 
-Ітерує курсор та повертає його результати у вигляді масиву . [MongoDB\\Driver\\Cursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) може використовуватися для керування тим, як документи десеріалізовані до значення PHP.
+Ітерує курсор та повертає його результати у вигляді масиву . [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) може використовуватися для керування тим, як документи десеріалізовані до значення PHP.
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ final public MongoDB\Driver\Cursor::toArray(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -99,4 +99,4 @@ array(3) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Cursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) - Встановлює карту типу для десеріалізації BSON
+-   [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) - Встановлює карту типу для десеріалізації BSON

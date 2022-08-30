@@ -1,12 +1,12 @@
 Повертає масив усіх оголошених інтерфейсів
 
--   [« get\_declared\_classes](function.get-declared-classes.html)
+-   [« getdeclaredclasses](function.get-declared-classes.html)
     
--   [get\_declared\_traits »](function.get-declared-traits.html)
+-   [getdeclaredtraits »](function.get-declared-traits.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає масив усіх оголошених інтерфейсів
     
@@ -60,6 +60,6 @@ Array
 
 ### Дивіться також
 
--   [interface\_exists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
--   [get\_declared\_classes()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
--   [class\_implements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [interfaceexists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
+-   [getdeclaredclasses()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [classimplements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

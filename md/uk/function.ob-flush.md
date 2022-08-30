@@ -1,12 +1,12 @@
 Скинути (надіслати) буфер виводу
 
--   [« ob\_end\_flush](function.ob-end-flush.html)
+-   [« obendflush](function.ob-end-flush.html)
     
--   [ob\_get\_clean »](function.ob-get-clean.html)
+-   [проgetclean »](function.ob-get-clean.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Скинути (надіслати) буфер виводу
     
@@ -23,9 +23,9 @@
 ob_flush(): bool
 ```
 
-Ця функція надішле вміст буфера виводу (якщо є). Якщо необхідна подальша обробка буфера виводу, слід викликати [ob\_get\_contents()](function.ob-get-contents.html) перед **проflush()**, оскільки вміст буфера буде видалено після виклику **проflush()**
+Ця функція надішле вміст буфера виводу (якщо є). Якщо необхідна подальша обробка буфера виводу, слід викликати [проgetcontents()](function.ob-get-contents.html) перед **проflush()**, оскільки вміст буфера буде видалено після виклику **проflush()**
 
-Ця функція не знищує буфер виводу, як це робить [ob\_end\_flush()](function.ob-end-flush.html)
+Ця функція не знищує буфер виводу, як це робить [проendflush()](function.ob-end-flush.html)
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ ob_flush(): bool
 
 ### Дивіться також
 
--   [ob\_get\_contents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
--   [ob\_clean()](function.ob-clean.html) - Очистити (стерти) буфер виводу
--   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
+-   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
+-   [проclean()](function.ob-clean.html) - Очистити (стерти) буфер виводу
+-   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу

@@ -1,8 +1,8 @@
 Вимикається від диспетчера служб
 
--   [« ibase\_service\_attach](function.ibase-service-attach.html)
+-   [« ibaseserviceattach](function.ibase-service-attach.html)
     
--   [ibase\_set\_event\_handler »](function.ibase-set-event-handler.html)
+-   [ibaseseteventhandler »](function.ibase-set-event-handler.html)
     
 -   [PHP Manual](index.html)
     

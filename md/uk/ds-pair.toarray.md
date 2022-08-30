@@ -1,6 +1,6 @@
 Перетворює пару на масив (array)
 
--   [« Ds\\Pair::jsonSerialize](ds-pair.jsonserialize.html)
+-   [« DsPair::jsonSerialize](ds-pair.jsonserialize.html)
     
 -   [Набор »](class.ds-set.html)
     

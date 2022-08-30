@@ -1,12 +1,12 @@
 Перетворити повне ім'я файлу, використовуючи шляхи включення
 
--   [« stream\_register\_wrapper](function.stream-register-wrapper.html)
+-   [« streamregisterwrapper](function.stream-register-wrapper.html)
     
--   [stream\_select »](function.stream-select.html)
+-   [streamselect »](function.stream-select.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Перетворити повне ім'я файлу, використовуючи шляхи включення
     

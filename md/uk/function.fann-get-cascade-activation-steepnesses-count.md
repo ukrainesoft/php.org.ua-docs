@@ -1,8 +1,8 @@
 Кількість крутості активації
 
--   [« fann\_get\_cascade\_activation\_functions](function.fann-get-cascade-activation-functions.html)
+-   [« fanngetcascadeactivationfunctions](function.fann-get-cascade-activation-functions.html)
     
--   [fann\_get\_cascade\_activation\_steepnesses »](function.fann-get-cascade-activation-steepnesses.html)
+-   [fanngetcascadeactivationsteepnesses »](function.fann-get-cascade-activation-steepnesses.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ fanngetcascadeactivationsteepnessescount — Кількість крутості
 fann_get_cascade_activation_steepnesses_count(resource $ann): int
 ```
 
-Кількість крутості активації в масиві [fann\_get\_cascade\_activation\_functions()](function.fann-get-cascade-activation-functions.html)
+Кількість крутості активації в масиві [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.html)
 
 Кількість крутизни за замовчуванням активації - 4.
 
@@ -39,5 +39,5 @@ fann_get_cascade_activation_steepnesses_count(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_get\_cascade\_activation\_steepnesses()](function.fann-get-cascade-activation-steepnesses.html) - Повертає крутість каскадної активації
--   [fann\_set\_cascade\_activation\_functions()](function.fann-set-cascade-activation-functions.html) - встановлює масив каскадних функцій активації кандидатів
+-   [fanngetcascadeactivationsteepnesses()](function.fann-get-cascade-activation-steepnesses.html) - Повертає крутість каскадної активації
+-   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.html) - встановлює масив каскадних функцій активації кандидатів

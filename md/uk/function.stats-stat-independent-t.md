@@ -1,12 +1,12 @@
 Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
 
--   [« stats\_stat\_factorial](function.stats-stat-factorial.html)
+-   [« statsstatfactorial](function.stats-stat-factorial.html)
     
--   [stats\_stat\_innerproduct »](function.stats-stat-innerproduct.html)
+-   [statsstatinnerproduct »](function.stats-stat-innerproduct.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
     

@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](ssdeep.resources.html)
     
--   [Функции ssdeep »](ref.ssdeep.html)
+-   [Функції ssdeep »](ref.ssdeep.html)
     
 -   [PHP Manual](index.html)
     

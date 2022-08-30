@@ -2,7 +2,7 @@ For Each
 
 -   [« Примеры](com.examples.html)
     
--   [Массивы и свойства COM в стиле массивов »](com.examples.arrays.html)
+-   [Масиви та властивості COM у стилі масивів »](com.examples.arrays.html)
     
 -   [PHP Manual](index.html)
     

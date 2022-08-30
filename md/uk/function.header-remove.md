@@ -1,12 +1,12 @@
 Видаляє раніше встановлені заголовки
 
--   [« header\_register\_callback](function.header-register-callback.html)
+-   [« headerregistercallback](function.header-register-callback.html)
     
 -   [header »](function.header.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Видаляє раніше встановлені заголовки
     
@@ -29,7 +29,7 @@ header_remove(?string $name = null): void
 
 `name`
 
-Ім'я заголовка, що видаляється. Якщо **`null`**видаляються всі раніше встановлені заголовки.
+Ім'я заголовка, що видаляється. Якщо \*\*`null`\*\*видаляються всі раніше встановлені заголовки.
 
 > **Зауваження**: Це реєстронезалежний параметр.
 
@@ -86,4 +86,4 @@ header_remove();
 ### Дивіться також
 
 -   [header()](function.header.html) - Надсилання HTTP-заголовка
--   [headers\_sent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
+-   [headerssent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки

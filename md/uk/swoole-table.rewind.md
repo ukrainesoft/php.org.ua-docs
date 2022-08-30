@@ -1,12 +1,12 @@
 Перемотує ітератор
 
--   [« Swoole\\Table::next](swoole-table.next.html)
+-   [« SwooleTable::next](swoole-table.next.html)
     
--   [Swoole\\Table::set »](swoole-table.set.html)
+-   [SwooleTable::set »](swoole-table.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Перемотує ітератор
     

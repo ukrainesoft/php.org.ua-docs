@@ -1,8 +1,8 @@
 Повертає послідовність, що містить усі пари колекції
 
--   [« Ds\\Map::merge](ds-map.merge.html)
+-   [« DsMap::merge](ds-map.merge.html)
     
--   [Ds\\Map::put »](ds-map.put.html)
+-   [ДсMap::put »](ds-map.put.html)
     
 -   [PHP Manual](index.html)
     

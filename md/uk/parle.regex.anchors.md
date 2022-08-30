@@ -2,7 +2,7 @@
 
 -   [« Чередование и повторение](parle.regex.alternation.html)
     
--   [Группировка »](parle.regex.grouping.html)
+-   [Угруповання »](parle.regex.grouping.html)
     
 -   [PHP Manual](index.html)
     

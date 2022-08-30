@@ -1,12 +1,12 @@
 Відобразити файл у пам'ять та повернути ресурс потоку, який може використовуватись операціями потоку PHP
 
--   [« Swoole\\Mmap](class.swoole-mmap.html)
+-   [« SwooleMmap](class.swoole-mmap.html)
     
--   [Swoole\\MySQL »](class.swoole-mysql.html)
+-   [SwooleMySQL »](class.swoole-mysql.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Mmap](class.swoole-mmap.html)
+-   [SwooleMmap](class.swoole-mmap.html)
     
 -   Відобразити файл у пам'ять та повернути ресурс потоку, який може використовуватись операціями потоку PHP
     

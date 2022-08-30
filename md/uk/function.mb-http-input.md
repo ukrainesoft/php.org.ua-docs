@@ -1,12 +1,12 @@
 Визначення кодування символів вхідних даних HTTP-запиту
 
--   [« mb\_get\_info](function.mb-get-info.html)
+-   [« mbgetinfo](function.mb-get-info.html)
     
--   [mb\_http\_output »](function.mb-http-output.html)
+-   [мбhttpoutput »](function.mb-http-output.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Визначення кодування символів вхідних даних HTTP-запиту
     
@@ -43,6 +43,6 @@ mb_http_input(?string $type = null): array|string|false
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [mb\_http\_output()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
--   [mb\_detect\_order()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбhttpoutput()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
+-   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування

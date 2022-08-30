@@ -1,12 +1,12 @@
 Вставити зображення
 
--   [« Vtiful\\Kernel\\Excel::insertFormula](vtiful-kernel-excel.insertFormula.html)
+-   [« VtifulKernelExcel::insertFormula](vtiful-kernel-excel.insertFormula.html)
     
--   [Vtiful\\Kernel\\Excel::insertText »](vtiful-kernel-excel.insertText.html)
+-   [VtifulKernelExcel::insertText »](vtiful-kernel-excel.insertText.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Вставити зображення
     
@@ -41,7 +41,7 @@ public Vtiful\Kernel\Excel::insertImage(int $row, int $column, string $localImag
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

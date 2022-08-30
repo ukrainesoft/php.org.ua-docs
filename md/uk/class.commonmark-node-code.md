@@ -1,8 +1,8 @@
 Code успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\LineBreak](class.commonmark-node-linebreak.html)
+-   [« CommonMarkNodeLineBreak](class.commonmark-node-linebreak.html)
     
--   [CommonMark\\Node\\CodeBlock »](class.commonmark-node-codeblock.html)
+-   [CommonMarkNodeCodeBlock »](class.commonmark-node-codeblock.html)
     
 -   [PHP Manual](index.html)
     

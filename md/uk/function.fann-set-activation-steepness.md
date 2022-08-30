@@ -1,8 +1,8 @@
 Встановлює крутість активації для вказаного нейрона та номера шару
 
--   [« fann\_set\_activation\_steepness\_output](function.fann-set-activation-steepness-output.html)
+-   [« fannsetactivationsteepnessoutput](function.fann-set-activation-steepness-output.html)
     
--   [fann\_set\_bit\_fail\_limit »](function.fann-set-bit-fail-limit.html)
+-   [fannsetbitfaillimit »](function.fann-set-bit-fail-limit.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,8 +57,8 @@ fann_set_activation_steepness(    resource $ann,    float $activation_st
 
 ### Дивіться також
 
--   [fann\_set\_activation\_steepness\_layer()](function.fann-set-activation-steepness-layer.html) - Встановлює крутість активації для всіх нейронів у вказаному номері шару
--   [fann\_set\_activation\_steepness\_hidden()](function.fann-set-activation-steepness-hidden.html) - Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
--   [fann\_set\_activation\_steepness\_output()](function.fann-set-activation-steepness-output.html) - Встановлює крутість активації у вихідному шарі
--   [fann\_get\_activation\_steepness()](function.fann-get-activation-steepness.html) - Повертає крутість активації для нейрона, що поставляється, і номери шару
--   [fann\_set\_activation\_function()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару
+-   [fannsetactivationsteepnesslayer()](function.fann-set-activation-steepness-layer.html) - Встановлює крутість активації для всіх нейронів у вказаному номері шару
+-   [fannsetactivationsteepnesshidden()](function.fann-set-activation-steepness-hidden.html) - Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
+-   [fannsetactivationsteepnessoutput()](function.fann-set-activation-steepness-output.html) - Встановлює крутість активації у вихідному шарі
+-   [fanngetactivationsteepness()](function.fann-get-activation-steepness.html) - Повертає крутість активації для нейрона, що поставляється, і номери шару
+-   [fannsetactivationfunction()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару

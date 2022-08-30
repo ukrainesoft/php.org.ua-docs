@@ -1,12 +1,12 @@
 Призначення returnResponse
 
--   [« Yaf\_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.html)
+-   [« YafDispatcher::registerPlugin](yaf-dispatcher.registerplugin.html)
     
--   [Yaf\_Dispatcher::setDefaultAction »](yaf-dispatcher.setdefaultaction.html)
+-   [YafDispatcher::setDefaultAction »](yaf-dispatcher.setdefaultaction.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Призначення returnResponse
     

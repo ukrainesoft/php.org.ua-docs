@@ -1,8 +1,8 @@
 Отримання кодування клієнта.
 
--   [« pg\_cancel\_query](function.pg-cancel-query.html)
+-   [« pgcancelquery](function.pg-cancel-query.html)
     
--   [pg\_close »](function.pg-close.html)
+-   [пгclose »](function.pg-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ PostgreSQL підтримує автоматичне перетворення н
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -47,10 +47,10 @@ PostgreSQL підтримує автоматичне перетворення н
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 
@@ -73,4 +73,4 @@ echo "Кодировка клиента: ", $encoding, "\n";
 
 ### Дивіться також
 
--   [pg\_set\_client\_encoding()](function.pg-set-client-encoding.html) - Встановлює клієнтське кодування
+-   [пгsetclientencoding()](function.pg-set-client-encoding.html) - Встановлює клієнтське кодування

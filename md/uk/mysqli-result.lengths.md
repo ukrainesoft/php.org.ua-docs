@@ -1,12 +1,12 @@
 Повертає довжини полів поточного рядка результуючого набору
 
--   [« mysqli\_result::getIterator](mysqli-result.getiterator.html)
+-   [« mysqliresult::getIterator](mysqli-result.getiterator.html)
     
--   [mysqli\_result::$num\_rows »](mysqli-result.num-rows.html)
+-   [mysqliresult::$numrows »](mysqli-result.num-rows.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Повертає довжини полів поточного рядка результуючого набору
     
@@ -23,7 +23,7 @@ mysqliresult::$lengths -- mysqlifetchlengths — Повертає довжини
 
 Об'єктно-орієнтований стиль
 
-?array [$mysqli\_result->lengths](mysqli-result.lengths.html)
+?array [$mysqliresult->lengths](mysqli-result.lengths.html)
 
 Процедурний стиль
 
@@ -37,7 +37,7 @@ mysqli_fetch_lengths(mysqli_result $result): array|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 

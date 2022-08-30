@@ -16,5 +16,5 @@
 ## Зміст
 
 -   [Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html)
--   [Описывает возможные модификаторы шаблонов Perl-совместимых регулярных выражений (PCRE)](reference.pcre.pattern.modifiers.html)
+-   [Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.html)
 -   [Отличия от Perl](reference.pcre.pattern.differences.html)

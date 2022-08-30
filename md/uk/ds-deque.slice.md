@@ -1,12 +1,12 @@
 Повертає почергово із заданого діапазону
 
--   [« Ds\\Deque::shift](ds-deque.shift.html)
+-   [« DsDeque::shift](ds-deque.shift.html)
     
--   [Ds\\Deque::sort »](ds-deque.sort.html)
+-   [ДсDeque::sort »](ds-deque.sort.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає почергово із заданого діапазону
     

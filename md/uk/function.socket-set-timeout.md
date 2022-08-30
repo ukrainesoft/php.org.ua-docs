@@ -1,12 +1,12 @@
 Псевдонім streamsettimeout
 
--   [« socket\_set\_blocking](function.socket-set-blocking.html)
+-   [« socketsetblocking](function.socket-set-blocking.html)
     
 -   [syslog »](function.syslog.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Псевдонім streamsettimeout
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-socketsettimeout - Псевдонім [stream\_set\_timeout()](function.stream-set-timeout.html)
+socketsettimeout - Псевдонім [streamsettimeout()](function.stream-set-timeout.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [stream\_set\_timeout()](function.stream-set-timeout.html)
+Ця функція є псевдонімом: [streamsettimeout()](function.stream-set-timeout.html)

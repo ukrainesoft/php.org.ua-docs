@@ -1,8 +1,8 @@
 Псевдонім DateTimeZone::listIdentifiers
 
--   [« timezone\_abbreviations\_list](function.timezone-abbreviations-list.html)
+-   [« timezoneabbreviationslist](function.timezone-abbreviations-list.html)
     
--   [timezone\_location\_get »](function.timezone-location-get.html)
+-   [timezonelocationget »](function.timezone-location-get.html)
     
 -   [PHP Manual](index.html)
     

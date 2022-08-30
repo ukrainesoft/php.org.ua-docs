@@ -1,12 +1,12 @@
 Повертає ім'я батьківського класу для об'єкта чи класу
 
--   [« get\_object\_vars](function.get-object-vars.html)
+-   [« getobjectvars](function.get-object-vars.html)
     
--   [interface\_exists »](function.interface-exists.html)
+-   [interfaceexists »](function.interface-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає ім'я батьківського класу для об'єкта чи класу
     
@@ -90,6 +90,6 @@ I'm Dad's son too
 
 ### Дивіться також
 
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
--   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу

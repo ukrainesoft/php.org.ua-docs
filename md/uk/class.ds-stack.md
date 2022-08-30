@@ -1,12 +1,12 @@
 Клас Stack
 
--   [« Ds\\Set::xor](ds-set.xor.html)
+-   [« DsSet::xor](ds-set.xor.html)
     
--   [Ds\\Stack::allocate »](ds-stack.allocate.html)
+-   [ДсStack::allocate »](ds-stack.allocate.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Клас Stack
     
@@ -59,15 +59,15 @@ public toArray(): array
 
 ## Зміст
 
--   [Ds\\Stack::allocate](ds-stack.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [Ds\\Stack::capacity](ds-stack.capacity.html) — Повертає поточну місткість
--   [Ds\\Stack::clear](ds-stack.clear.html) — Видаляє всі значення з колекції
--   [Ds\\Stack::\_\_construct](ds-stack.construct.html) - Створює новий екземпляр класу
--   [Ds\\Stack::copy](ds-stack.copy.html) — Повертає поверхневу копію колекції
--   [Ds\\Stack::count](ds-stack.count.html) — Повертає кількість елементів колекції
--   [Ds\\Stack::isEmpty](ds-stack.isempty.html) — Перевіряє, чи колекція порожня.
--   [Ds\\Stack::jsonSerialize](ds-stack.jsonserialize.html) — Повертає колекцію в JSON-представництві
--   [Ds\\Stack::peek](ds-stack.peek.html) — Повертає значення з вершини стека
--   [Ds\\Stack::pop](ds-stack.pop.html) — Видаляє та повертає значення з вершини стека
--   [Ds\\Stack::push](ds-stack.push.html) — Додає значення у стек
--   [Ds\\Stack::toArray](ds-stack.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсStack::allocate](ds-stack.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [ДсStack::capacity](ds-stack.capacity.html) — Повертає поточну місткість
+-   [ДсStack::clear](ds-stack.clear.html) — Видаляє всі значення з колекції
+-   [ДсStack::construct](ds-stack.construct.html) - Створює новий екземпляр класу
+-   [ДсStack::copy](ds-stack.copy.html) — Повертає поверхневу копію колекції
+-   [ДсStack::count](ds-stack.count.html) — Повертає кількість елементів колекції
+-   [ДсStack::isEmpty](ds-stack.isempty.html) — Перевіряє, чи колекція порожня.
+-   [ДсStack::jsonSerialize](ds-stack.jsonserialize.html) — Повертає колекцію в JSON-представництві
+-   [ДсStack::peek](ds-stack.peek.html) — Повертає значення з вершини стека
+-   [ДсStack::pop](ds-stack.pop.html) — Видаляє та повертає значення з вершини стека
+-   [ДсStack::push](ds-stack.push.html) — Додає значення у стек
+-   [ДсStack::toArray](ds-stack.toarray.html) — Перетворює колекцію на масив (array)

@@ -1,12 +1,12 @@
 Перевіряє, чи є потік локальним потоком
 
--   [« stream\_get\_wrappers](function.stream-get-wrappers.html)
+-   [« streamgetwrappers](function.stream-get-wrappers.html)
     
--   [stream\_isatty »](function.stream-isatty.html)
+-   [streamisatty »](function.stream-isatty.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Перевіряє, чи є потік локальним потоком
     

@@ -2,7 +2,7 @@ MQSeries MQBACK
 
 -   [« Функции mqseries](ref.mqseries.html)
     
--   [mqseries\_begin »](function.mqseries-begin.html)
+-   [mqseriesbegin »](function.mqseries-begin.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ mqseries_back(resource $hconn, resource &$compCode, resource &$reason): void
 
 Функція **mqseriesback()** (MQBACK) здійснює відкат транзакції. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, видаляються з неї. Всі повідомлення, прочитані з черги з останньої точки синхронізації, відновлюються (стають доступними).
 
-Using **mqseriesback()** працює тільки спільно з [mqseries\_begin()](function.mqseries-begin.html) і тільки якщо використовується пряме з'єднання з менеджером черг, а не через інтерфейс mqclient.
+Using **mqseriesback()** працює тільки спільно з [mqseriesbegin()](function.mqseries-begin.html) і тільки якщо використовується пряме з'єднання з менеджером черг, а не через інтерфейс mqclient.
 
 ### Список параметрів
 
@@ -69,6 +69,6 @@ Using **mqseriesback()** працює тільки спільно з [mqseries\_
 
 ### Дивіться також
 
--   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseries\_begin()](function.mqseries-begin.html) - MQseries MQBEGIN
+-   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesbegin()](function.mqseries-begin.html) - MQseries MQBEGIN

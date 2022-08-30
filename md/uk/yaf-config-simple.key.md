@@ -1,12 +1,12 @@
 Призначення key
 
--   [« Yaf\_Config\_Simple::\_\_isset](yaf-config-simple.isset.html)
+-   [« YafConfigSimple::isset](yaf-config-simple.isset.html)
     
--   [Yaf\_Config\_Simple::next »](yaf-config-simple.next.html)
+-   [YafConfigSimple::next »](yaf-config-simple.next.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення key
     

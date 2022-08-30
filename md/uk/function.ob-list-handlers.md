@@ -1,12 +1,12 @@
 Список всіх обробників виводу, що використовуються
 
--   [« ob\_implicit\_flush](function.ob-implicit-flush.html)
+-   [« obimplicitflush](function.ob-implicit-flush.html)
     
--   [ob\_start »](function.ob-start.html)
+-   [проstart »](function.ob-start.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Список всіх обробників виводу, що використовуються
     
@@ -31,7 +31,7 @@ ob_list_handlers(): array
 
 ### Значення, що повертаються
 
-Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [output\_buffering](outcontrol.configuration.html#ini.output-buffering) або використовувалася анонімна функція разом з [ob\_start()](function.ob-start.html), то **проlisthandlers()** поверне "default output handler".
+Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [outputbuffering](outcontrol.configuration.html#ini.output-buffering) або використовувалася анонімна функція разом з [проstart()](function.ob-start.html), то **проlisthandlers()** поверне "default output handler".
 
 ### Приклади
 
@@ -75,7 +75,7 @@ Array
 
 ### Дивіться також
 
--   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
--   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [ob\_get\_flush()](function.ob-get-flush.html) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
+-   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
+-   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проgetflush()](function.ob-get-flush.html) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу

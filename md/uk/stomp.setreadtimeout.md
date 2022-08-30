@@ -39,7 +39,7 @@ stomp_set_read_timeout(resource $link, int $seconds, int $microseconds = ?): voi
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.html)
 
 `seconds`
 

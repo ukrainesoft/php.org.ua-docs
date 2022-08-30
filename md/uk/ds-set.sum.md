@@ -1,8 +1,8 @@
 Повертає суму всіх значень колекції
 
--   [« Ds\\Set::sorted](ds-set.sorted.html)
+-   [« DsSet::sorted](ds-set.sorted.html)
     
--   [Ds\\Set::toArray »](ds-set.toarray.html)
+-   [ДсSet::toArray »](ds-set.toarray.html)
     
 -   [PHP Manual](index.html)
     

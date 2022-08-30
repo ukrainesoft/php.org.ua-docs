@@ -1,12 +1,12 @@
 Напівжирний
 
--   [« Vtiful\\Kernel\\Format::align](vtiful-kernel-format.align.html)
+-   [« VtifulKernelFormat::align](vtiful-kernel-format.align.html)
     
--   [Vtiful\\Kernel\\Format::italic »](vtiful-kernel-format.italic.html)
+-   [VtifulKernelFormat::italic »](vtiful-kernel-format.italic.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+-   [VtifulKernelFormat](class.vtiful-kernel-format.html)
     
 -   Напівжирний
     
@@ -23,7 +23,7 @@ VtifulKernelFormat::bold — Напівжирний
 public Vtiful\Kernel\Format::bold(resource $handle)
 ```
 
-Напівжирний формат [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+Напівжирний формат [VtifulKernelFormat](class.vtiful-kernel-format.html)
 
 ### Список параметрів
 

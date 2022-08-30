@@ -1,8 +1,8 @@
 Отримує значення поля
 
--   [« fdf\_get\_status](function.fdf-get-status.html)
+-   [« fdfgetstatus](function.fdf-get-status.html)
     
--   [fdf\_get\_version »](function.fdf-get-version.html)
+-   [fdfgetversion »](function.fdf-get-version.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 
@@ -51,4 +51,4 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 ### Дивіться також
 
--   [fdf\_set\_value()](function.fdf-set-value.html) - Встановлює значення поля
+-   [fdfsetvalue()](function.fdf-set-value.html) - Встановлює значення поля

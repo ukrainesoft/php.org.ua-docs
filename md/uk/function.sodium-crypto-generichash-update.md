@@ -1,8 +1,8 @@
 Додати повідомлення до хешу
 
--   [« sodium\_crypto\_generichash\_keygen](function.sodium-crypto-generichash-keygen.html)
+-   [« sodiumcryptogenerichashkeygen](function.sodium-crypto-generichash-keygen.html)
     
--   [sodium\_crypto\_generichash »](function.sodium-crypto-generichash.html)
+-   [sodiumcryptogenerichash »](function.sodium-crypto-generichash.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_generichash_update(string &$state, string $message): bool
 
 `state`
 
-Значення, що повертається [sodium\_crypto\_generichash\_init()](function.sodium-crypto-generichash-init.html)
+Значення, що повертається [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.html)
 
 `message`
 

@@ -1,8 +1,8 @@
 Зменшує вектор до одного значення, використовуючи callback-функцію
 
--   [« Ds\\Vector::push](ds-vector.push.html)
+-   [« DsVector::push](ds-vector.push.html)
     
--   [Ds\\Vector::remove »](ds-vector.remove.html)
+-   [ДсVector::remove »](ds-vector.remove.html)
     
 -   [PHP Manual](index.html)
     

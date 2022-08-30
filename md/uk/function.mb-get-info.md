@@ -1,12 +1,12 @@
 Отримує внутрішні налаштування mbstring
 
--   [« mb\_eregi](function.mb-eregi.html)
+-   [« mberegi](function.mb-eregi.html)
     
--   [mb\_http\_input »](function.mb-http-input.html)
+-   [мбhttpinput »](function.mb-http-input.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Отримує внутрішні налаштування mbstring
     
@@ -45,5 +45,5 @@ mb_get_info(string $type = "all"): array|string|int|false
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_http\_output()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбhttpoutput()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP

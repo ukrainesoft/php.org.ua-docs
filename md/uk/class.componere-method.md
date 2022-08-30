@@ -1,8 +1,8 @@
 Клас ComponereMethod
 
--   [« Componere\\Patch::getClosures](componere-patch.getclosures.html)
+-   [« ComponerePatch::getClosures](componere-patch.getclosures.html)
     
--   [Componere\\Method::\_\_construct »](componere-method.construct.html)
+-   [ComponereMethod::construct »](componere-method.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,8 +49,8 @@ public getReflector(): ReflectionMethod
 
 ## Зміст
 
--   [Componere\\Method::\_\_construct](componere-method.construct.html) - Конструктор класу Method
--   [Componere\\Method::setPrivate](componere-method.setprivate.html) — Зміна доступності
--   [Componere\\Method::setProtected](componere-method.setprotected.html) — Зміна доступності
--   [Componere\\Method::setStatic](componere-method.setstatic.html) — Зміна доступності
--   [Componere\\Method::getReflector](componere-method.getreflector.html) - Reflection
+-   [ComponereMethod::construct](componere-method.construct.html) - Конструктор класу Method
+-   [ComponereMethod::setPrivate](componere-method.setprivate.html) — Зміна доступності
+-   [ComponereMethod::setProtected](componere-method.setprotected.html) — Зміна доступності
+-   [ComponereMethod::setStatic](componere-method.setstatic.html) — Зміна доступності
+-   [ComponereMethod::getReflector](componere-method.getreflector.html) - Reflection

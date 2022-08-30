@@ -1,8 +1,8 @@
 Встановлює опції для сокету
 
--   [« socket\_set\_nonblock](function.socket-set-nonblock.html)
+-   [« socketsetnonblock](function.socket-set-nonblock.html)
     
--   [socket\_setopt »](function.socket-setopt.html)
+-   [socketsetopt »](function.socket-setopt.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 `level`
 
@@ -37,7 +37,7 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 `option`
 
-Можливі опції для сокету ті самі, як і для функції [socket\_get\_option()](function.socket-get-option.html)
+Можливі опції для сокету ті самі, як і для функції [socketgetoption()](function.socket-get-option.html)
 
 `value`
 
@@ -85,8 +85,8 @@ if ($rval === false) {
 
 ### Дивіться також
 
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_get\_option()](function.socket-get-option.html) - Отримує опції потоку для сокету
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketgetoption()](function.socket-get-option.html) - Отримує опції потоку для сокету

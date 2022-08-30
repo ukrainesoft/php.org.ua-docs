@@ -38,4 +38,4 @@ public Reflector::__toString(): string
 ### Дивіться також
 
 -   [ReflectionProperty::export()](reflectionproperty.export.html) - Експорт
--   [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.html#object.tostring)

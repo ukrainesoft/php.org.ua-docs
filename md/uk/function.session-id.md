@@ -1,12 +1,12 @@
 Отримує та/або встановлює ідентифікатор поточної сесії
 
--   [« session\_get\_cookie\_params](function.session-get-cookie-params.html)
+-   [« sessiongetcookieparams](function.session-get-cookie-params.html)
     
--   [session\_module\_name »](function.session-module-name.html)
+-   [sessionmodulename »](function.session-module-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Отримує та/або встановлює ідентифікатор поточної сесії
     
@@ -31,9 +31,9 @@ session_id(?string $id = null): string|false
 
 `id`
 
-Якщо вказано параметр `id` і він не дорівнює **`null`**, то він замінить ідентифікатор поточної сесії. Для цього **sessionid()** слід викликати до [session\_start()](function.session-start.html). Залежно від обробника сесії, не всі символи можна використовувати в ідентифікаторі сесії. Наприклад, файловий обробник сесії підтримує лише символи з діапазону `a-z A-Z 0-9 , (запятая)` і `- (минус)`
+Якщо вказано параметр `id` і він не дорівнює **`null`**, то він замінить ідентифікатор поточної сесії. Для цього **sessionid()** слід викликати до [sessionstart()](function.session-start.html). Залежно від обробника сесії, не всі символи можна використовувати в ідентифікаторі сесії. Наприклад, файловий обробник сесії підтримує лише символи з діапазону `a-z A-Z 0-9 , (запятая)` і `- (минус)`
 
-> **Зауваження**: При використанні сесійних cookie, вказівка `id` для **sessionid()** призводить до того, що під час виклику [session\_start()](function.session-start.html) завжди будуть надіслані нові cookie, незалежно від того, чи ідентифікатор поточної сесії збігається з нововстановленим.
+> **Зауваження**: При використанні сесійних cookie, вказівка `id` для **sessionid()** призводить до того, що під час виклику [sessionstart()](function.session-start.html) завжди будуть надіслані нові cookie, незалежно від того, чи ідентифікатор поточної сесії збігається з нововстановленим.
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ session_id(?string $id = null): string|false
 
 ### Дивіться також
 
--   [session\_regenerate\_id()](function.session-regenerate-id.html) - Генерує та оновлює ідентифікатор поточної сесії
--   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [session\_set\_save\_handler()](function.session-set-save-handler.html) - встановлює користувальницькі обробники зберігання сесії
--   [session.save\_handler](session.configuration.html#ini.session.save-handler)
+-   [sessionregenerateid()](function.session-regenerate-id.html) - Генерує та оновлює ідентифікатор поточної сесії
+-   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionsetsavehandler()](function.session-set-save-handler.html) - встановлює користувальницькі обробники зберігання сесії
+-   [session.savehandler](session.configuration.html#ini.session.save-handler)

@@ -1,12 +1,12 @@
 Видалити сторінку
 
--   [« UI\\Controls\\Tab::append](ui-controls-tab.append.html)
+-   [« UIControlsTab::append](ui-controls-tab.append.html)
     
--   [UI\\Controls\\Tab::hasMargin »](ui-controls-tab.hasmargin.html)
+-   [ОЙControlsTab::hasMargin »](ui-controls-tab.hasmargin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Tab](class.ui-controls-tab.html)
+-   [ОЙControlsTab](class.ui-controls-tab.html)
     
 -   Видалити сторінку
     

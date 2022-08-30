@@ -1,8 +1,8 @@
 Повертає рядок результату у вигляді асоціативного масиву
 
--   [« odbc\_execute](function.odbc-execute.html)
+-   [« odbcexecute](function.odbc-execute.html)
     
--   [odbc\_fetch\_into »](function.odbc-fetch-into.html)
+-   [odbcfetchinto »](function.odbc-fetch-into.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_fetch_array(resource $statement, int $row = -1): array|false
 
 `statement`
 
-Ресурс результату з [odbc\_exec()](function.odbc-exec.html)
+Ресурс результату з [odbcexec()](function.odbc-exec.html)
 
 `row`
 
@@ -45,6 +45,6 @@ odbc_fetch_array(resource $statement, int $row = -1): array|false
 
 ### Дивіться також
 
--   [odbc\_fetch\_row()](function.odbc-fetch-row.html) - Повертає рядок
--   [odbc\_fetch\_object()](function.odbc-fetch-object.html) - Повертає рядок результату у вигляді об'єкту
--   [odbc\_num\_rows()](function.odbc-num-rows.html) - Повертає кількість рядків у результаті
+-   [odbcfetchrow()](function.odbc-fetch-row.html) - Повертає рядок
+-   [odbcfetchobject()](function.odbc-fetch-object.html) - Повертає рядок результату у вигляді об'єкту
+-   [odbcnumrows()](function.odbc-num-rows.html) - Повертає кількість рядків у результаті

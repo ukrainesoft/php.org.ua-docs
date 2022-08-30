@@ -2,11 +2,11 @@
 
 -   [« sleep](function.sleep.html)
     
--   [time\_nanosleep »](function.time-nanosleep.html)
+-   [timenanosleep »](function.time-nanosleep.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Отримує середнє завантаження системи
     

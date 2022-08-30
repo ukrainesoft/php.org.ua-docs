@@ -2,7 +2,7 @@
 
 -   [« DOMText::splitText](domtext.splittext.html)
     
--   [DOMXPath::\_\_construct »](domxpath.construct.html)
+-   [DOMXPath::construct »](domxpath.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -73,7 +73,7 @@ registerNodeNamespaces
 
 ## Зміст
 
--   [DOMXPath::\_\_construct](domxpath.construct.html) — Створює новий об'єкт класу DOMXPath
+-   [DOMXPath::construct](domxpath.construct.html) — Створює новий об'єкт класу DOMXPath
 -   [DOMXPath::evaluate](domxpath.evaluate.html) — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
 -   [DOMXPath::query](domxpath.query.html) — Виконує заданий вираз XPath
 -   [DOMXPath::registerNamespace](domxpath.registernamespace.html) — Реєструє простір імен з об'єктом DOMXPath

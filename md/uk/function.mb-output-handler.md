@@ -1,12 +1,12 @@
 Callback-функція, що перетворює кодування символів у вихідному буфері
 
--   [« mb\_ord](function.mb-ord.html)
+-   [« mbord](function.mb-ord.html)
     
--   [mb\_parse\_str »](function.mb-parse-str.html)
+-   [мбparsestr »](function.mb-parse-str.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Callback-функція, що перетворює кодування символів у вихідному буфері
     
@@ -23,7 +23,7 @@ Callback-функція, що перетворює кодування симво
 mb_output_handler(string $string, int $status): string
 ```
 
-**мбoutputhandler()** є callback-функцією функції [ob\_start()](function.ob-start.html). . **мбoutputhandler()** перетворює символи у вихідному буфері з внутрішнього кодування на кодування HTTP-виводу.
+**мбoutputhandler()** є callback-функцією функції [проstart()](function.ob-start.html). . **мбoutputhandler()** перетворює символи у вихідному буфері з внутрішнього кодування на кодування HTTP-виводу.
 
 ### Список параметрів
 
@@ -60,4 +60,4 @@ ob_start("mb_output_handler");
 
 ### Дивіться також
 
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу

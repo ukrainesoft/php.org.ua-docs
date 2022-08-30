@@ -18,24 +18,24 @@ Mysqlxdevapi
     -   [Требования](mysql-xdevapi.requirements.html)
     -   [Установка](mysql-xdevapi.installation.html)
     -   [Настройка во время выполнения](mysql-xdevapi.configuration.html)
-    -   [Сборка / Компиляция из исходного кода](mysql-xdevapi.build.html)
+    -   [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)
 -   [Предопределённые константы](mysql-xdevapi.constants.html)
 -   [Список изменений](changelog.mysql_xdevapi.html)
 -   [Примеры](mysql-xdevapi.examples.html)
--   [Функции Mysql\_xdevapi](ref.mysql-xdevapi.html)
+-   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     -   [expression](function.mysql-xdevapi-expression.html) — Зв'язує підготовлені змінні твердження як параметри
     -   [getSession](function.mysql-xdevapi-getsession.html) — Підключається до сервера MySQL
--   [mysql\_xdevapi\\BaseResult](class.mysql-xdevapi-baseresult.html) - Інтерфейс BaseResult
+-   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html) - Інтерфейс BaseResult
     -   [BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.html) — Отримує попередження останньої операції
     -   [BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.html) — Отримує кількість попереджень останньої операції
--   [mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html) - Клас Client
-    -   [mysql\_xdevapi\\Client::close](mysql-xdevapi-client.close.html) - Закриття клієнта
-    -   [Client::\_\_construct](mysql-xdevapi-client.construct.html) - Конструктор класу Client
+-   [mysqlxdevapiClient](class.mysql-xdevapi-client.html) - Клас Client
+    -   [mysqlxdevapiClient::close](mysql-xdevapi-client.close.html) - Закриття клієнта
+    -   [Client::construct](mysql-xdevapi-client.construct.html) - Конструктор класу Client
     -   [Client::getClient](mysql-xdevapi-client.getsession.html) — Отримує сеанс клієнта
--   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html) - Клас Collection
+-   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html) - Клас Collection
     -   [Collection::add](mysql-xdevapi-collection.add.html) — Додає документ у колекцію
     -   [Collection::addOrReplaceOne](mysql-xdevapi-collection.addorreplaceone.html) — Додає або замінює документ колекції
-    -   [Collection::\_\_construct](mysql-xdevapi-collection.construct.html) - Конструктор класу Collection
+    -   [Collection::construct](mysql-xdevapi-collection.construct.html) - Конструктор класу Collection
     -   [Collection::count](mysql-xdevapi-collection.count.html) — Отримує кількість документів
     -   [Collection::createIndex](mysql-xdevapi-collection.createindex.html) — Створює індекс для колекції
     -   [Collection::dropIndex](mysql-xdevapi-collection.dropindex.html) — Видаляє індекс колекції
@@ -49,12 +49,12 @@ Mysqlxdevapi
     -   [Collection::remove](mysql-xdevapi-collection.remove.html) — Видаляє документи колекції
     -   [Collection::removeOne](mysql-xdevapi-collection.removeone.html) — Видаляє один документ із колекції
     -   [Collection::replaceOne](mysql-xdevapi-collection.replaceone.html) — Замінює один документ колекції
--   [mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html) - Клас CollectionAdd
-    -   [CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.html) - Конструктор класу CollectionAdd
+-   [mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html) - Клас CollectionAdd
+    -   [CollectionAdd::construct](mysql-xdevapi-collectionadd.construct.html) - Конструктор класу CollectionAdd
     -   [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.html) - Виконує твердження
--   [mysql\_xdevapi\\CollectionFind](class.mysql-xdevapi-collectionfind.html) - Клас CollectionFind
+-   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html) - Клас CollectionFind
     -   [CollectionFind::bind](mysql-xdevapi-collectionfind.bind.html) — Прив'язує значення до заповнювача запиту
-    -   [CollectionFind::\_\_construct](mysql-xdevapi-collectionfind.construct.html) - Конструктор класу CollectionFind
+    -   [CollectionFind::construct](mysql-xdevapi-collectionfind.construct.html) - Конструктор класу CollectionFind
     -   [CollectionFind::execute](mysql-xdevapi-collectionfind.execute.html) - Виконує твердження
     -   [CollectionFind::fields](mysql-xdevapi-collectionfind.fields.html) — Встановлює фільтр поля документа
     -   [CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.html) - Встановлює критерії угруповання
@@ -64,11 +64,11 @@ Mysqlxdevapi
     -   [CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.html) - Виконує операцію з SHARED LOCK
     -   [CollectionFind::offset](mysql-xdevapi-collectionfind.offset.html) — Пропускає вказану кількість елементів, що повертаються.
     -   [CollectionFind::sort](mysql-xdevapi-collectionfind.sort.html) - Встановлює критерії сортування
--   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html) - Клас CollectionModify
+-   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html) - Клас CollectionModify
     -   [CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.html) — Додає елемент у поле масиву
     -   [CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.html) — Додає елемент у поле масиву
     -   [CollectionModify::bind](mysql-xdevapi-collectionmodify.bind.html) — Прив'язує значення до заповнювача запиту
-    -   [CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.html) - Конструктор класу CollectionModify
+    -   [CollectionModify::construct](mysql-xdevapi-collectionmodify.construct.html) - Конструктор класу CollectionModify
     -   [CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.html) - Виконує операцію зміни
     -   [CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.html) — Обмежує кількість документів, що змінюються.
     -   [CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.html) - Виправляє документ
@@ -77,14 +77,14 @@ Mysqlxdevapi
     -   [CollectionModify::skip](mysql-xdevapi-collectionmodify.skip.html) - Пропускає елементи
     -   [CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.html) - Встановлює критерії сортування
     -   [CollectionModify::unset](mysql-xdevapi-collectionmodify.unset.html) — скидає значення полів документа
--   [mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html) - Клас CollectionRemove
+-   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html) - Клас CollectionRemove
     -   [CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.html) — Прив'язує значення до заповнювача
-    -   [CollectionRemove::\_\_construct](mysql-xdevapi-collectionremove.construct.html) - Конструктор класу CollectionRemove
+    -   [CollectionRemove::construct](mysql-xdevapi-collectionremove.construct.html) - Конструктор класу CollectionRemove
     -   [CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.html) - Виконує операцію видалення
     -   [CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.html) — Обмежує кількість документів для видалення
     -   [CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.html) - Встановлює критерії сортування
--   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html) - Клас ColumnResult
-    -   [ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.html) - Конструктор класу ColumnResult
+-   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html) - Клас ColumnResult
+    -   [ColumnResult::construct](mysql-xdevapi-columnresult.construct.html) - Конструктор класу ColumnResult
     -   [ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.html) — Отримує набір символів
     -   [ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.html) — Отримує ім'я зіставлення
     -   [ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.html) — Отримує мітку стовпця
@@ -97,40 +97,40 @@ Mysqlxdevapi
     -   [ColumnResult::getType](mysql-xdevapi-columnresult.gettype.html) — Отримує тип стовпця
     -   [ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.html) — Перевіряє, чи є тип підписаним
     -   [ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.html) — Перевіряє, чи доповнюється
--   [mysql\_xdevapi\\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html) - Інтерфейс CrudOperationBindable
+-   [mysqlxdevapiCrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html) - Інтерфейс CrudOperationBindable
     -   [CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.html) — Прив'язує значення до заповнювача
--   [mysql\_xdevapi\\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html) - Інтерфейс CrudOperationLimitable
+-   [mysqlxdevapiCrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html) - Інтерфейс CrudOperationLimitable
     -   [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.html) - Встановлює ліміт результату
--   [mysql\_xdevapi\\CrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html) - Інтерфейс CrudOperationSkippable
+-   [mysqlxdevapiCrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html) - Інтерфейс CrudOperationSkippable
     -   [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.html) - Кількість операцій для пропуску
--   [mysql\_xdevapi\\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html) - Інтерфейс CrudOperationSortable
+-   [mysqlxdevapiCrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html) - Інтерфейс CrudOperationSortable
     -   [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.html) - Сортує результати
--   [mysql\_xdevapi\\DatabaseObject](class.mysql-xdevapi-databaseobject.html) - Інтерфейс DatabaseObject
+-   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html) - Інтерфейс DatabaseObject
     -   [DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.html) — Перевіряє, чи існує об'єкт у базі даних
     -   [DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.html) — Отримує ім'я об'єкта
     -   [DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.html) — Отримує ім'я сесії
--   [mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.html) - Клас DocResult
-    -   [DocResult::\_\_construct](mysql-xdevapi-docresult.construct.html) - Конструктор DocResult
+-   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html) - Клас DocResult
+    -   [DocResult::construct](mysql-xdevapi-docresult.construct.html) - Конструктор DocResult
     -   [DocResult::fetchAll](mysql-xdevapi-docresult.fetchall.html) — Отримати всі рядки
     -   [DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.html) — Отримати один рядок
     -   [DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.html) — Отримати попередження з останньої операції
     -   [DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.html) — Отримати кількість попереджень із останньої операції
--   [mysql\_xdevapi\\Exception](class.mysql-xdevapi-exception.html) - Клас Exception
--   [mysql\_xdevapi\\Executable](class.mysql-xdevapi-executable.html) - Інтерфейс Executable
+-   [mysqlxdevapiException](class.mysql-xdevapi-exception.html) - Клас Exception
+-   [mysqlxdevapiExecutable](class.mysql-xdevapi-executable.html) - Інтерфейс Executable
     -   [Executable::execute](mysql-xdevapi-executable.execute.html) - Виконує твердження
--   [mysql\_xdevapi\\ExecutionStatus](class.mysql-xdevapi-executionstatus.html) - Клас ExecutionStatus
-    -   [ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.html) - Конструктор класу ExecutionStatus
--   [mysql\_xdevapi\\Expression](class.mysql-xdevapi-expression.html) - Клас Expression
-    -   [Expression::\_\_construct](mysql-xdevapi-expression.construct.html) - Конструктор класу Expression
--   [mysql\_xdevapi\\Result](class.mysql-xdevapi-result.html) - Клас Result
-    -   [Result::\_\_construct](mysql-xdevapi-result.construct.html) - Конструктор класу Result
+-   [mysqlxdevapiExecutionStatus](class.mysql-xdevapi-executionstatus.html) - Клас ExecutionStatus
+    -   [ExecutionStatus::construct](mysql-xdevapi-executionstatus.construct.html) - Конструктор класу ExecutionStatus
+-   [mysqlxdevapiExpression](class.mysql-xdevapi-expression.html) - Клас Expression
+    -   [Expression::construct](mysql-xdevapi-expression.construct.html) - Конструктор класу Expression
+-   [mysqlxdevapiResult](class.mysql-xdevapi-result.html) - Клас Result
+    -   [Result::construct](mysql-xdevapi-result.construct.html) - Конструктор класу Result
     -   [Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.html) — Отримує кількість порушених рядків
     -   [Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.html) — Отримує значення автоінкремента
     -   [Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.html) — Отримує згенеровані ідентифікатори
     -   [Result::getWarnings](mysql-xdevapi-result.getwarnings.html) — Отримує попередження останньої операції
     -   [Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.html) — Отримує кількість попереджень останньої операції
--   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html) - Клас RowResult
-    -   [RowResult::\_\_construct](mysql-xdevapi-rowresult.construct.html) - Конструктор класу RowResult
+-   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html) - Клас RowResult
+    -   [RowResult::construct](mysql-xdevapi-rowresult.construct.html) - Конструктор класу RowResult
     -   [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.html) — Отримує всі рядки з результату
     -   [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.html) — Отримує рядок із результату
     -   [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.html) — Отримує кількість стовпців
@@ -138,8 +138,8 @@ Mysqlxdevapi
     -   [RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.html) — Отримує метадані стовпця
     -   [RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.html) — Отримує попередження останньої операції
     -   [RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.html) — Отримує кількість попереджень останньої операції
--   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html) - Клас Schema
-    -   [Schema::\_\_construct](mysql-xdevapi-schema.construct.html) - Конструктор
+-   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html) - Клас Schema
+    -   [Schema::construct](mysql-xdevapi-schema.construct.html) - Конструктор
     -   [Schema::createCollection](mysql-xdevapi-schema.createcollection.html) — Додати колекцію до схеми
     -   [Schema::dropCollection](mysql-xdevapi-schema.dropcollection.html) — Видалити колекції зі схеми
     -   [Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.html) — Перевірити, чи існує у базі даних
@@ -150,12 +150,12 @@ Mysqlxdevapi
     -   [Schema::getSession](mysql-xdevapi-schema.getsession.html) — Здобути сесію схеми
     -   [Schema::getTable](mysql-xdevapi-schema.gettable.html) — Отримати таблицю схеми
     -   [Schema::getTables](mysql-xdevapi-schema.gettables.html) - Отримати таблиці схеми
--   [mysql\_xdevapi\\SchemaObject](class.mysql-xdevapi-schemaobject.html) - Інтерфейс SchemaObject
+-   [mysqlxdevapiSchemaObject](class.mysql-xdevapi-schemaobject.html) - Інтерфейс SchemaObject
     -   [SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.html) — Отримує об'єкт схеми
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html) - Клас Session
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html) - Клас Session
     -   [Session::close](mysql-xdevapi-session.close.html) - Закриває сесію
     -   [Session::commit](mysql-xdevapi-session.commit.html) - Фіксує транзакцію
-    -   [Session::\_\_construct](mysql-xdevapi-session.construct.html) - Опис конструктора
+    -   [Session::construct](mysql-xdevapi-session.construct.html) - Опис конструктора
     -   [Session::createSchema](mysql-xdevapi-session.createschema.html) - Створює нову схему
     -   [Session::dropSchema](mysql-xdevapi-session.dropschema.html) - Видаляє схему
     -   [Session::generateUUID](mysql-xdevapi-session.generateuuid.html) — Отримує новий UUID
@@ -171,15 +171,15 @@ Mysqlxdevapi
     -   [Session::setSavepoint](mysql-xdevapi-session.setsavepoint.html) — Створює точку збереження
     -   [Session::sql](mysql-xdevapi-session.sql.html) - Виконує SQL запит
     -   [Session::startTransaction](mysql-xdevapi-session.starttransaction.html) - Починає транзакцію
--   [mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html) - Клас SqlStatement
+-   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html) - Клас SqlStatement
     -   [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.html) — Зв'язує параметри затвердження
-    -   [SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.html) - Опис конструктора
+    -   [SqlStatement::construct](mysql-xdevapi-sqlstatement.construct.html) - Опис конструктора
     -   [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.html) — Виконує операцію
     -   [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.html) — Отримує наступний результат
     -   [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.html) — Отримує результат
     -   [SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.html) — Перевіряє, чи є ще результати
--   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html) - Клас SqlStatementResult
-    -   [SqlStatementResult::\_\_construct](mysql-xdevapi-sqlstatementresult.construct.html) - Опис конструктора
+-   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html) - Клас SqlStatementResult
+    -   [SqlStatementResult::construct](mysql-xdevapi-sqlstatementresult.construct.html) - Опис конструктора
     -   [SqlStatementResult::fetchAll](mysql-xdevapi-sqlstatementresult.fetchall.html) — Отримує всі рядки з результату
     -   [SqlStatementResult::fetchOne](mysql-xdevapi-sqlstatementresult.fetchone.html) — Отримує один рядок
     -   [SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html) — Отримує порушену кількість рядків
@@ -192,13 +192,13 @@ Mysqlxdevapi
     -   [SqlStatementResult::getWarningsCount](mysql-xdevapi-sqlstatementresult.getwarningcount.html) — Отримує кількість попереджень від останньої операції
     -   [SqlStatementResult::hasData](mysql-xdevapi-sqlstatementresult.hasdata.html) — Перевіряє, чи є результати дані
     -   [SqlStatementResult::nextResult](mysql-xdevapi-sqlstatementresult.nextresult.html) — Отримує наступний результат
--   [mysql\_xdevapi\\Statement](class.mysql-xdevapi-statement.html) - Клас Statement
-    -   [Statement::\_\_construct](mysql-xdevapi-statement.construct.html) - Опис конструктора
+-   [mysqlxdevapiStatement](class.mysql-xdevapi-statement.html) - Клас Statement
+    -   [Statement::construct](mysql-xdevapi-statement.construct.html) - Опис конструктора
     -   [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.html) — Отримує наступний результат
     -   [Statement::getResult](mysql-xdevapi-statement.getresult.html) — Отримує результат
     -   [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.html) — Перевіряє, чи є ще результати
--   [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html) - Клас Table
-    -   [Table::\_\_construct](mysql-xdevapi-table.construct.html) - Конструктор Table
+-   [mysqlxdevapiTable](class.mysql-xdevapi-table.html) - Клас Table
+    -   [Table::construct](mysql-xdevapi-table.construct.html) - Конструктор Table
     -   [Table::count](mysql-xdevapi-table.count.html) — Отримати кількість рядків
     -   [Table::delete](mysql-xdevapi-table.delete.html) — Видалити рядки з таблиці
     -   [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.html) — Перевірити, чи існує таблиця у базі даних
@@ -209,20 +209,20 @@ Mysqlxdevapi
     -   [Table::isView](mysql-xdevapi-table.isview.html) — Перевірити, чи таблиця є поданням
     -   [Table::select](mysql-xdevapi-table.select.html) - Вибрати рядки з таблиці
     -   [Table::update](mysql-xdevapi-table.update.html) — Оновити рядки у таблиці
--   [mysql\_xdevapi\\TableDelete](class.mysql-xdevapi-tabledelete.html) - Клас TableDelete
+-   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html) - Клас TableDelete
     -   [TableDelete::bind](mysql-xdevapi-tabledelete.bind.html) — Зв'язує параметри запиту на видалення
-    -   [TableDelete::\_\_construct](mysql-xdevapi-tabledelete.construct.html) - Конструктор класу TableDelete
+    -   [TableDelete::construct](mysql-xdevapi-tabledelete.construct.html) - Конструктор класу TableDelete
     -   [TableDelete::execute](mysql-xdevapi-tabledelete.execute.html) — Виконує запит на видалення
     -   [TableDelete::limit](mysql-xdevapi-tabledelete.limit.html) — Обмежує рядки видалення
     -   [TableDelete::orderby](mysql-xdevapi-tabledelete.orderby.html) — Встановлює критерії сортування видалення
     -   [TableDelete::where](mysql-xdevapi-tabledelete.where.html) — Встановлює умову пошуку для видалення
--   [mysql\_xdevapi\\TableInsert](class.mysql-xdevapi-tableinsert.html) - Клас TableInsert
-    -   [TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.html) - Конструктор класу TableInsert
+-   [mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html) - Клас TableInsert
+    -   [TableInsert::construct](mysql-xdevapi-tableinsert.construct.html) - Конструктор класу TableInsert
     -   [TableInsert::execute](mysql-xdevapi-tableinsert.execute.html) — Виконує запит на вставку
     -   [TableInsert::values](mysql-xdevapi-tableinsert.values.html) — Додає значення вставки рядка
--   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html) - Клас TableSelect
+-   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html) - Клас TableSelect
     -   [TableSelect::bind](mysql-xdevapi-tableselect.bind.html) — Прив'язує параметри запиту вибірки
-    -   [TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.html) - Конструктор класу TableSelect
+    -   [TableSelect::construct](mysql-xdevapi-tableselect.construct.html) - Конструктор класу TableSelect
     -   [TableSelect::execute](mysql-xdevapi-tableselect.execute.html) — Виконує оператор вибірки
     -   [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.html) — Встановлює критерії угруповання вибірки
     -   [TableSelect::having](mysql-xdevapi-tableselect.having.html) — Встановлює вибір із умовою
@@ -232,13 +232,13 @@ Mysqlxdevapi
     -   [TableSelect::offset](mysql-xdevapi-tableselect.offset.html) - Встановлює межу зміщення
     -   [TableSelect::orderby](mysql-xdevapi-tableselect.orderby.html) — Встановлює критерії сортування вибірки
     -   [TableSelect::where](mysql-xdevapi-tableselect.where.html) — Встановлює умову пошуку вибірки
--   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html) - Клас TableUpdate
+-   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html) - Клас TableUpdate
     -   [TableUpdate::bind](mysql-xdevapi-tableupdate.bind.html) — Прив'язує параметри запиту на оновлення
-    -   [TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.html) - Конструктор класу TableUpdate
+    -   [TableUpdate::construct](mysql-xdevapi-tableupdate.construct.html) - Конструктор класу TableUpdate
     -   [TableUpdate::execute](mysql-xdevapi-tableupdate.execute.html) — Виконує запит на оновлення
     -   [TableUpdate::limit](mysql-xdevapi-tableupdate.limit.html) - Обмежує кількість рядків для оновлення
     -   [TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.html) - Встановлює критерії сортування
     -   [TableUpdate::set](mysql-xdevapi-tableupdate.set.html) — Додає поле для оновлення
     -   [TableUpdate::where](mysql-xdevapi-tableupdate.where.html) - Встановлює фільтр пошуку
--   [mysql\_xdevapi\\Warning](class.mysql-xdevapi-warning.html) - Клас Warning
-    -   [Warning::\_\_construct](mysql-xdevapi-warning.construct.html) - Конструктор класу Warning
+-   [mysqlxdevapiWarning](class.mysql-xdevapi-warning.html) - Клас Warning
+    -   [Warning::construct](mysql-xdevapi-warning.construct.html) - Конструктор класу Warning

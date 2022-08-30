@@ -1,12 +1,12 @@
 Повертає під-колекцію із заданого діапазону
 
--   [« Ds\\Sequence::shift](ds-sequence.shift.html)
+-   [« DsSequence::shift](ds-sequence.shift.html)
     
--   [Ds\\Sequence::sort »](ds-sequence.sort.html)
+-   [ДсSequence::sort »](ds-sequence.sort.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає під-колекцію із заданого діапазону
     

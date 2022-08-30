@@ -1,12 +1,12 @@
 Додати змінні в пакет WDDX із зазначеним ідентифікатором
 
--   [« Функции WDDX](ref.wddx.html)
+-   [« Функції WDDX](ref.wddx.html)
     
--   [wddx\_deserialize »](function.wddx-deserialize.html)
+-   [wddxdeserialize »](function.wddx-deserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.html)
     
 -   Додати змінні в пакет WDDX із зазначеним ідентифікатором
     
@@ -35,7 +35,7 @@ wddx_add_vars(resource $packet_id, mixed $var_name, mixed ...$var_names): bool
 
 `packet_id`
 
-Пакет WDDX, що повертається [wddx\_packet\_start()](function.wddx-packet-start.html)
+Пакет WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.html)
 
 `var_name`
 

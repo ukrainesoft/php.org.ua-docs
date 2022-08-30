@@ -1,12 +1,12 @@
 Обчислює один із параметрів біномінального розподілу за рештою
 
--   [« stats\_cdf\_beta](function.stats-cdf-beta.html)
+-   [« statscdfbeta](function.stats-cdf-beta.html)
     
--   [stats\_cdf\_cauchy »](function.stats-cdf-cauchy.html)
+-   [statscdfcauchy »](function.stats-cdf-cauchy.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів біномінального розподілу за рештою
     

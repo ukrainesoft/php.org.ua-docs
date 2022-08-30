@@ -1,12 +1,12 @@
 Підкреслений
 
--   [« Vtiful\\Kernel\\Format::italic](vtiful-kernel-format.italic.html)
+-   [« VtifulKernelFormat::italic](vtiful-kernel-format.italic.html)
     
 -   [Модули для управления процессами программ »](refs.fileprocess.process.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+-   [VtifulKernelFormat](class.vtiful-kernel-format.html)
     
 -   Підкреслений
     
@@ -23,7 +23,7 @@ VtifulKernelFormat::underline — Підкреслений
 public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 ```
 
-Підкреслений формат [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+Підкреслений формат [VtifulKernelFormat](class.vtiful-kernel-format.html)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 
 `style`
 
-Константа [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+Константа [VtifulKernelFormat](class.vtiful-kernel-format.html)
 
 ### Значення, що повертаються
 

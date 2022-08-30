@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Модули для сжатия и архивации](refs.compression.html)
+-   [Модулі для стиснення та архівації](refs.compression.html)
     
 -   Архівування Rar
     
@@ -22,7 +22,7 @@
 -   [Предопределённые константы](rar.constants.html)
 -   [Примеры](rar.examples.html)
 -   [Rar](ref.rar.html)
-    -   [rar\_wrapper\_cache\_stats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL
+    -   [rarwrappercachestats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL
 -   [RarArchive](class.rararchive.html) - Клас RarArchive
     -   [RarArchive::close](rararchive.close.html) — Закриває RAR архів та звільняє всі ресурси
     -   [RarArchive::getComment](rararchive.getcomment.html) — Отримати текст коментаря з архіву RAR
@@ -32,7 +32,7 @@
     -   [RarArchive::isSolid](rararchive.issolid.html) — Перевірити, чи є архів суцільним
     -   [RarArchive::open](rararchive.open.html) - Відкриває архів RAR
     -   [RarArchive::setAllowBroken](rararchive.setallowbroken.html) — Чи відкривати пошкоджені архіви
-    -   [RarArchive::\_\_toString](rararchive.tostring.html) — Отримати текстову виставу
+    -   [RarArchive::toString](rararchive.tostring.html) — Отримати текстову виставу
 -   [RarEntry](class.rarentry.html) - Клас RarEntry
     -   [RarEntry::extract](rarentry.extract.html) — Витягує елемент із архіву
     -   [RarEntry::getAttr](rarentry.getattr.html) — Повертає атрибути елемента архіву
@@ -47,7 +47,7 @@
     -   [RarEntry::getVersion](rarentry.getversion.html) — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
     -   [RarEntry::isDirectory](rarentry.isdirectory.html) — Перевіряє, чи є запис директорією
     -   [RarEntry::isEncrypted](rarentry.isencrypted.html) — Перевіряє, чи зашифрований запис
-    -   [RarEntry::\_\_toString](rarentry.tostring.html) — Отримати текстове подання запису
+    -   [RarEntry::toString](rarentry.tostring.html) — Отримати текстове подання запису
 -   [RarException](class.rarexception.html) - Клас RarException
     -   [RarException::isUsingExceptions](rarexception.isusingexceptions.html) — Перевірити, чи будуть функції повертати помилки чи викидати винятки
     -   [RarException::setUsingExceptions](rarexception.setusingexceptions.html) — Включити або вимкнути генерацію винятків замість повернення помилок

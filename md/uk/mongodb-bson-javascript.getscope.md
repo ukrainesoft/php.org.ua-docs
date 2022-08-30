@@ -1,12 +1,12 @@
 Повертає область документа JavaScript
 
--   [« MongoDB\\BSON\\Javascript::getCode](mongodb-bson-javascript.getcode.html)
+-   [« MongoDBBSONJavascript::getCode](mongodb-bson-javascript.getcode.html)
     
--   [MongoDB\\BSON\\Javascript::jsonSerialize »](mongodb-bson-javascript.jsonserialize.html)
+-   [MongoDBBSONJavascript::jsonSerialize »](mongodb-bson-javascript.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+-   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
 -   Повертає область документа JavaScript
     
@@ -33,7 +33,7 @@ final public MongoDB\BSON\Javascript::getScope(): ?object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Повертає перший елемент колекції
 
--   [« Ds\\Sequence::find](ds-sequence.find.html)
+-   [« DsSequence::find](ds-sequence.find.html)
     
--   [Ds\\Sequence::get »](ds-sequence.get.html)
+-   [ДсSequence::get »](ds-sequence.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає перший елемент колекції
     

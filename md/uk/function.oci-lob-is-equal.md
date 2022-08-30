@@ -1,8 +1,8 @@
 Порівнює два об'єкти LOB/FILE
 
--   [« oci\_lob\_copy](function.oci-lob-copy.html)
+-   [« ocilobcopy](function.oci-lob-copy.html)
     
--   [oci\_new\_collection »](function.oci-new-collection.html)
+-   [ocinewcollection »](function.oci-new-collection.html)
     
 -   [PHP Manual](index.html)
     

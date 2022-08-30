@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](solr.constants.html)
     
--   [solr\_get\_version »](function.solr-get-version.html)
+-   [solrgetversion »](function.solr-get-version.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,4 +15,4 @@
 
 ## Зміст
 
--   [solr\_get\_version](function.solr-get-version.html) — Повертає поточну версію Apache Solr
+-   [solrgetversion](function.solr-get-version.html) — Повертає поточну версію Apache Solr

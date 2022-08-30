@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](posix.constants.html)
     
--   [Константы posix\_mknod »](posix.constants.mknod.html)
+-   [Константы posixmknod »](posix.constants.mknod.html)
     
 -   [PHP Manual](index.html)
     
@@ -11,7 +11,7 @@
 -   Константи posixaccess
     
 
-## Константи [posix\_access()](function.posix-access.html)
+## Константи [posixaccess()](function.posix-access.html)
 
 > **Зауваження**
 > 

@@ -31,7 +31,7 @@ Gmagick
     -   [Gmagick::clear](gmagick.clear.html) — Зачищає всі ресурси, пов'язані з об'єктом Gmagick
     -   [Gmagick::commentimage](gmagick.commentimage.html) — Додати коментар до зображення
     -   [Gmagick::compositeimage](gmagick.compositeimage.html) — Накладає одне зображення на інше
-    -   [Gmagick::\_\_construct](gmagick.construct.html) - Конструктор об'єкта Gmagick
+    -   [Gmagick::construct](gmagick.construct.html) - Конструктор об'єкта Gmagick
     -   [Gmagick::cropimage](gmagick.cropimage.html) — Обрізає зображення
     -   [Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.html) — Створення обрізаного зменшеного зображення
     -   [Gmagick::current](gmagick.current.html) - Повернути самого себе
@@ -198,7 +198,7 @@ Gmagick
     -   [GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.html) - Визначає оформлення
     -   [GmagickDraw::settextencoding](gmagickdraw.settextencoding.html) — Задає кодовий набір тексту
 -   [GmagickPixel](class.gmagickpixel.html) - Клас GmagickPixel
-    -   [GmagickPixel::\_\_construct](gmagickpixel.construct.html) - Конструктора класу GmagickPixel
+    -   [GmagickPixel::construct](gmagickpixel.construct.html) - Конструктора класу GmagickPixel
     -   [GmagickPixel::getcolor](gmagickpixel.getcolor.html) - Повертає колір
     -   [GmagickPixel::getcolorcount](gmagickpixel.getcolorcount.html) — Отримати кількість пікселів зображення, які мають заданий колір
     -   [GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.html) — Повертає нормалізоване значення для заданого каналу кольорів

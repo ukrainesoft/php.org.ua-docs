@@ -1,6 +1,6 @@
 Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
 
--   [« Ds\\Map::values](ds-map.values.html)
+-   [« DsMap::values](ds-map.values.html)
     
 -   [Пара »](class.ds-pair.html)
     
@@ -39,7 +39,7 @@ public Ds\Map::xor(Ds\Map $map): Ds\Map
 
 ### Також дивіться
 
--   [» Симметрическая разность](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
+-   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
 
 ### Приклади
 

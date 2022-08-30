@@ -1,6 +1,6 @@
 Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
 
--   [« expect\_expectl](function.expect-expectl.html)
+-   [« expectexpectl](function.expect-expectl.html)
     
 -   [PCNTL »](book.pcntl.html)
     

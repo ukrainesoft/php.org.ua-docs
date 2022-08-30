@@ -1,8 +1,8 @@
 Виконує запит cURL
 
--   [« curl\_escape](function.curl-escape.html)
+-   [« curlescape](function.curl-escape.html)
     
--   [curl\_file\_create »](function.curl-file-create.html)
+-   [curlfilecreate »](function.curl-file-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ curl_exec(CurlHandle $handle): string|bool
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 
@@ -39,11 +39,11 @@ curl_exec(CurlHandle $handle): string|bool
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 > **Зауваження**
 > 
-> Зверніть увагу, що коди стану відповіді, що вказують на помилки (наприклад, `404 Not found`), не розглядаються як невдача. Функція [curl\_getinfo()](function.curl-getinfo.html) може використовуватись для перевірки таких помилок.
+> Зверніть увагу, що коди стану відповіді, що вказують на помилки (наприклад, `404 Not found`), не розглядаються як невдача. Функція [curlgetinfo()](function.curl-getinfo.html) може використовуватись для перевірки таких помилок.
 
 ### список змін
 
@@ -74,4 +74,4 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curl\_multi\_exec()](function.curl-multi-exec.html) - Запускає приєднання поточного дескриптора cURL
+-   [curlmultiexec()](function.curl-multi-exec.html) - Запускає приєднання поточного дескриптора cURL

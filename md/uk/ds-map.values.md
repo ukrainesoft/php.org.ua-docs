@@ -1,8 +1,8 @@
 Повертає послідовність значень колекції
 
--   [« Ds\\Map::union](ds-map.union.html)
+-   [« DsMap::union](ds-map.union.html)
     
--   [Ds\\Map::xor »](ds-map.xor.html)
+-   [ДсMap::xor »](ds-map.xor.html)
     
 -   [PHP Manual](index.html)
     

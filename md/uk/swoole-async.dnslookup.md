@@ -1,12 +1,12 @@
 Асинхронний та неблокуючий пошук IP на ім'я хоста
 
--   [« Swoole\\Async](class.swoole-async.html)
+-   [« SwooleAsync](class.swoole-async.html)
     
--   [Swoole\\Async::read »](swoole-async.read.html)
+-   [SwooleAsync::read »](swoole-async.read.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Async](class.swoole-async.html)
+-   [SwooleAsync](class.swoole-async.html)
     
 -   Асинхронний та неблокуючий пошук IP на ім'я хоста
     

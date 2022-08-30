@@ -24,7 +24,7 @@ public **RegexIterator::construct**
 string `$pattern`  
 int `$mode` = RegexIterator::MATCH,  
 int `$flags`  
-int `$pregFlags`  
+int `$pregFlags`
 
 Створює новий об'єкт класу [RegexIterator](class.regexiterator.html), який фільтрує елементи ітератора [Iterator](class.iterator.html) ґрунтуючись на регулярному вираженні.
 
@@ -52,13 +52,13 @@ int `$pregFlags`
 
 **[RegexIterator](class.regexiterator.html) pregflags**
 
-| режим работы              | доступные флаги                                             |
-|---------------------------|-------------------------------------------------------------|
-| RegexIterator::ALLMATCHES | Дивіться [preg\_match\_all()](function.preg-match-all.html) |
-| RegexIterator::GETMATCH   | Дивіться [preg\_match()](function.preg-match.html)          |
-| RegexIterator::MATCH      | Дивіться [preg\_match()](function.preg-match.html)          |
-| RegexIterator::REPLACE    | ні                                                          |
-| RegexIterator::SPLIT      | Дивіться [preg\_split()](function.preg-split.html)          |
+| режим работы              | доступные флаги                                         |
+|---------------------------|---------------------------------------------------------|
+| RegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
+| RegexIterator::GETMATCH   | Дивіться [pregmatch()](function.preg-match.html)        |
+| RegexIterator::MATCH      | Дивіться [pregmatch()](function.preg-match.html)        |
+| RegexIterator::REPLACE    | ні                                                      |
+| RegexIterator::SPLIT      | Дивіться [pregsplit()](function.preg-split.html)        |
 
 ### Помилки
 
@@ -90,7 +90,7 @@ test 123
 
 ### Дивіться також
 
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [preg\_match\_all()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом

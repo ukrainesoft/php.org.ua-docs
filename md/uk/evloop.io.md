@@ -46,7 +46,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvIo::\_\_construct()](evio.construct.html)
+Усі параметри, що й для [EvIo::construct()](evio.construct.html)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ final
 
 ### Дивіться також
 
--   [EvIo::\_\_construct()](evio.construct.html) - Створює об'єкт спостерігач EvIo
+-   [EvIo::construct()](evio.construct.html) - Створює об'єкт спостерігач EvIo

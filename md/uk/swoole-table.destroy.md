@@ -1,12 +1,12 @@
 Знищує таблицю Swoole
 
--   [« Swoole\\Table::del](swoole-table.del.html)
+-   [« SwooleTable::del](swoole-table.del.html)
     
--   [Swoole\\Table::exist »](swoole-table.exist.html)
+-   [SwooleTable::exist »](swoole-table.exist.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Знищує таблицю Swoole
     

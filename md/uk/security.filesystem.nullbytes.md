@@ -1,12 +1,12 @@
 Проблеми безпеки, пов'язані з нульовим байтом
 
--   [« Безопасность файловой системы](security.filesystem.html)
+-   [« Безпека файлової системи](security.filesystem.html)
     
--   [Безопасность баз данных »](security.database.html)
+-   [Безпека баз даних »](security.database.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность файловой системы](security.filesystem.html)
+-   [Безпека файлової системи](security.filesystem.html)
     
 -   Проблеми безпеки, пов'язані з нульовим байтом
     

@@ -1,8 +1,8 @@
 Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
 
--   [« fann\_set\_sarprop\_weight\_decay\_shift](function.fann-set-sarprop-weight-decay-shift.html)
+-   [« fannsetsarpropweightdecayshift](function.fann-set-sarprop-weight-decay-shift.html)
     
--   [fann\_set\_train\_error\_function »](function.fann-set-train-error-function.html)
+-   [fannsettrainerrorfunction »](function.fann-set-train-error-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,5 +57,5 @@ fann_set_scaling_params(    resource $ann,    resource $train_data,  �
 
 ### Дивіться також
 
--   [fann\_set\_input\_scaling\_params()](function.fann-set-input-scaling-params.html) - розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
--   [fann\_set\_output\_scaling\_params()](function.fann-set-output-scaling-params.html) - розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fannsetinputscalingparams()](function.fann-set-input-scaling-params.html) - розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fannsetoutputscalingparams()](function.fann-set-output-scaling-params.html) - розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання

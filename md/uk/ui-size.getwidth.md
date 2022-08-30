@@ -1,12 +1,12 @@
 Отримує ширину
 
--   [« UI\\Size::getHeight](ui-size.getheight.html)
+-   [« UISize::getHeight](ui-size.getheight.html)
     
--   [UI\\Size::of »](ui-size.of.html)
+-   [ОЙSize::of »](ui-size.of.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Size](class.ui-size.html)
+-   [ОЙSize](class.ui-size.html)
     
 -   Отримує ширину
     

@@ -1,8 +1,8 @@
 Список історії команд
 
--   [« readline\_info](function.readline-info.html)
+-   [« readlineinfo](function.readline-info.html)
     
--   [readline\_on\_new\_line »](function.readline-on-new-line.html)
+-   [readlineвінnewline »](function.readline-on-new-line.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Повертає кількість помилок конфігурації Tidy, що зустрілися під час розгляду документа
 
--   [« tidy\_access\_count](function.tidy-access-count.html)
+-   [« tidyaccesscount](function.tidy-access-count.html)
     
--   [tidy\_error\_count »](function.tidy-error-count.html)
+-   [tidyerrorcount »](function.tidy-error-count.html)
     
 -   [PHP Manual](index.html)
     

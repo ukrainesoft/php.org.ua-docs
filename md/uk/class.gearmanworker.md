@@ -64,7 +64,7 @@ public work(): bool
 -   [GearmanWorker::addServer](gearmanworker.addserver.html) — Додавання сервера завдань
 -   [GearmanWorker::addServers](gearmanworker.addservers.html) — Додавання серверів завдань
 -   [GearmanWorker::clone](gearmanworker.clone.html) - Створення копії оброблювача
--   [GearmanWorker::\_\_construct](gearmanworker.construct.html) - Створення об'єкта GearmanWorker
+-   [GearmanWorker::construct](gearmanworker.construct.html) - Створення об'єкта GearmanWorker
 -   [GearmanWorker::echo](gearmanworker.echo.html) - Перевірка відгуку серверів завдань
 -   [GearmanWorker::error](gearmanworker.error.html) — Отримання останньої виявленої помилки
 -   [GearmanWorker::getErrno](gearmanworker.geterrno.html) — Отримання номера помилки

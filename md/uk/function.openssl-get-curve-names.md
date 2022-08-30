@@ -1,8 +1,8 @@
 Список доступних кривих імен для ECC
 
--   [« openssl\_get\_cipher\_methods](function.openssl-get-cipher-methods.html)
+-   [« opensslgetciphermethods](function.openssl-get-cipher-methods.html)
     
--   [openssl\_get\_md\_methods »](function.openssl-get-md-methods.html)
+-   [opensslgetмдmethods »](function.openssl-get-md-methods.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ openssl_get_curve_names(): array|false
 |                                       |                               |                         |
 |                                       |                               |                         |
 
-[» NIST рекомендует использовать кривые ECC как минимум в 256 бит](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4)
+[» NIST рекомендує використовувати криві ECC як мінімум у 256 біт](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4)
 
 ### Список параметрів
 

@@ -95,10 +95,10 @@ public SplFileInfo::__toString(): string
 
 -   [PharFileInfo::chmod](pharfileinfo.chmod.html) — Встановлення прав доступу
 -   [PharFileInfo::compress](pharfileinfo.compress.html) — Стиснути поточний файл за допомогою zlib або bzip2
--   [PharFileInfo::\_\_construct](pharfileinfo.construct.html) - Конструктор об'єкта PharFileInfo
+-   [PharFileInfo::construct](pharfileinfo.construct.html) - Конструктор об'єкта PharFileInfo
 -   [PharFileInfo::decompress](pharfileinfo.decompress.html) — Розтискає поточний файл
 -   [PharFileInfo::delMetadata](pharfileinfo.delmetadata.html) — Видалити метадані файлу
--   [PharFileInfo::\_\_destruct](pharfileinfo.destruct.html) - Знищує вхідний об'єкт Phar
+-   [PharFileInfo::destruct](pharfileinfo.destruct.html) - Знищує вхідний об'єкт Phar
 -   [PharFileInfo::getCRC32](pharfileinfo.getcrc32.html) — Отримати контрольну суму CRC32
 -   [PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.html) — Отримати реальний розмір, що займає файл, на диску з урахуванням стиснення
 -   [PharFileInfo::getContent](pharfileinfo.getcontent.html) — Отримати повний вміст файлу запису

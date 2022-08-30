@@ -1,8 +1,8 @@
 Прослуховує вхідні з'єднання на сокеті
 
--   [« socket\_last\_error](function.socket-last-error.html)
+-   [« socketlasterror](function.socket-last-error.html)
     
--   [socket\_read »](function.socket-read.html)
+-   [socketread »](function.socket-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ socketlisten — Прослуховує вхідні з'єднання на со
 socket_listen(Socket $socket, int $backlog = 0): bool
 ```
 
-Після того, як сокет `socket` був створений за допомогою функції [socket\_create()](function.socket-create.html) та прив'язаний до імені за допомогою функції [socket\_bind()](function.socket-bind.html), йому можна вказати слухати вхідні з'єднання на сокеті `socket`
+Після того, як сокет `socket` був створений за допомогою функції [socketcreate()](function.socket-create.html) та прив'язаний до імені за допомогою функції [socketbind()](function.socket-bind.html), йому можна вказати слухати вхідні з'єднання на сокеті `socket`
 
 Функція **socketlisten()** застосовна тільки до сокетів типу **`SOCK_STREAM`** або **`SOCK_SEQPACKET`**
 
@@ -31,7 +31,7 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html)
+Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaddrinfobind()](function.socket-addrinfo-bind.html)
 
 `backlog`
 
@@ -43,7 +43,7 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки може бути отриманий за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 ### список змін
 
@@ -53,9 +53,9 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 ### Дивіться також
 
--   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
--   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із зазначеного addrinfo
+-   [socketaccept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketaddrinfobind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із зазначеного addrinfo

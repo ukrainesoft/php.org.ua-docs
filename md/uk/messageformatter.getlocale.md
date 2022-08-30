@@ -73,4 +73,4 @@ en_US
 
 ### Дивіться також
 
--   [msgfmt\_create()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень

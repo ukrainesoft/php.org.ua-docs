@@ -1,8 +1,8 @@
 Створює набір cURL-дескрипторів
 
--   [« curl\_multi\_info\_read](function.curl-multi-info-read.html)
+-   [« curlmultiinforead](function.curl-multi-info-read.html)
     
--   [curl\_multi\_remove\_handle »](function.curl-multi-remove-handle.html)
+-   [curlmultiremovehandle »](function.curl-multi-remove-handle.html)
     
 -   [PHP Manual](index.html)
     
@@ -82,5 +82,5 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curl\_init()](function.curl-init.html) - Ініціалізує сеанс cURL
--   [curl\_multi\_close()](function.curl-multi-close.html) - Закриває набір cURL-дескрипторів
+-   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL
+-   [curlmulticlose()](function.curl-multi-close.html) - Закриває набір cURL-дескрипторів

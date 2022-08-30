@@ -1,12 +1,12 @@
 Повертає поверхневу копію колекції
 
--   [« Ds\\Deque::contains](ds-deque.contains.html)
+-   [« DsDeque::contains](ds-deque.contains.html)
     
--   [Ds\\Deque::count »](ds-deque.count.html)
+-   [ДсDeque::count »](ds-deque.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає поверхневу копію колекції
     

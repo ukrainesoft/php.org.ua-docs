@@ -1,8 +1,8 @@
 Перевіряє, чи правильно задано слово
 
--   [« enchant\_dict\_add](function.enchant-dict-add.html)
+-   [« enchantdictadd](function.enchant-dict-add.html)
     
--   [enchant\_dict\_describe »](function.enchant-dict-describe.html)
+-   [enchantdictdescribe »](function.enchant-dict-describe.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ enchantdictcheck — Перевіряє, чи правильно задано с
 enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 ```
 
-Повертає **`true`**, якщо слово написано без помилок або **`false`**якщо з помилками.
+Повертає **`true`**, якщо слово написано без помилок або \*\*`false`\*\*якщо з помилками.
 
 ### Список параметрів
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
 
@@ -37,7 +37,7 @@ enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо слово написано без помилок або **`false`**якщо з помилками.
+Повертає **`true`**, якщо слово написано без помилок або \*\*`false`\*\*якщо з помилками.
 
 ### список змін
 

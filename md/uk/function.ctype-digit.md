@@ -1,12 +1,12 @@
 Перевіряє наявність цифрових символів у рядку
 
--   [« ctype\_cntrl](function.ctype-cntrl.html)
+-   [« ctypecntrl](function.ctype-cntrl.html)
     
--   [ctype\_graph »](function.ctype-graph.html)
+-   [ctypegraph »](function.ctype-graph.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Ctype](ref.ctype.html)
+-   [Опції Ctype](ref.ctype.html)
     
 -   Перевіряє наявність цифрових символів у рядку
     
@@ -41,7 +41,7 @@ ctype_digit(mixed $text): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо кожен символ рядка `text` є десятковою цифрою, або **`false`** в іншому випадку. При виклику з порожнім рядком результатом завжди буде **`false`**
+Повертає \*\*`true`\*\*якщо кожен символ рядка `text` є десятковою цифрою, або **`false`** в іншому випадку. При виклику з порожнім рядком результатом завжди буде **`false`**
 
 ### Приклади
 
@@ -86,8 +86,8 @@ is_numeric($integer);          // true
 
 ### Дивіться також
 
--   [ctype\_alnum()](function.ctype-alnum.html) - Перевіряє наявність літерно-цифрових символів
--   [ctype\_xdigit()](function.ctype-xdigit.html) - Перевіряє наявність шістнадцяткових цифр
--   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ctypealnum()](function.ctype-alnum.html) - Перевіряє наявність літерно-цифрових символів
+-   [ctypexdigit()](function.ctype-xdigit.html) - Перевіряє наявність шістнадцяткових цифр
+-   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком

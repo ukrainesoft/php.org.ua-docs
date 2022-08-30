@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONBinaryInterface
 
--   [« MongoDB\\BSON\\Unserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html)
+-   [« MongoDBBSONUnserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html)
     
--   [MongoDB\\BSON\\BinaryInterface::getData »](mongodb-bson-binaryinterface.getdata.html)
+-   [MongoDBBSONBinaryInterface::getData »](mongodb-bson-binaryinterface.getdata.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONBinaryInterface
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONBinary](class.mongodb-bson-binary.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -45,6 +45,6 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDB\\BSON\\BinaryInterface::getData](mongodb-bson-binaryinterface.getdata.html) — Повертає дані BinaryInterface
--   [MongoDB\\BSON\\BinaryInterface::getType](mongodb-bson-binaryinterface.gettype.html) — Повертає тип BinaryInterface
--   [MongoDB\\BSON\\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.html) — Повертає дані BinaryInterface
+-   [MongoDBBSONBinaryInterface::getData](mongodb-bson-binaryinterface.getdata.html) — Повертає дані BinaryInterface
+-   [MongoDBBSONBinaryInterface::getType](mongodb-bson-binaryinterface.gettype.html) — Повертає тип BinaryInterface
+-   [MongoDBBSONBinaryInterface::toString](mongodb-bson-binaryinterface.tostring.html) — Повертає дані BinaryInterface

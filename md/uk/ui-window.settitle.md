@@ -1,12 +1,12 @@
 Заголовок вікна
 
--   [« UI\\Window::setSize](ui-window.setsize.html)
+-   [« UIWindow::setSize](ui-window.setsize.html)
     
--   [UI\\Control »](class.ui-control.html)
+-   [ОЙControl »](class.ui-control.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Заголовок вікна
     

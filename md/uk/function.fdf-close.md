@@ -1,8 +1,8 @@
 Закриває FDF-документ
 
--   [« fdf\_add\_template](function.fdf-add-template.html)
+-   [« fdfaddtemplate](function.fdf-add-template.html)
     
--   [fdf\_create »](function.fdf-create.html)
+-   [fdfcreate »](function.fdf-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_close(resource $fdf_document): void
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ fdf_close(resource $fdf_document): void
 
 ### Дивіться також
 
--   [fdf\_open()](function.fdf-open.html) - Відкриває документ FDF
+-   [fdfopen()](function.fdf-open.html) - Відкриває документ FDF

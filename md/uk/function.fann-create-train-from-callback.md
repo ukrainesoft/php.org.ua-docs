@@ -1,8 +1,8 @@
 Створює структуру даних навчання із наданої користувачем функції
 
--   [« fann\_create\_standard](function.fann-create-standard.html)
+-   [« fanncreatestandard](function.fann-create-standard.html)
     
--   [fann\_create\_train »](function.fann-create-train.html)
+-   [fanncreatetrain »](function.fann-create-train.html)
     
 -   [PHP Manual](index.html)
     
@@ -84,7 +84,7 @@ if ($train_data) {
 
 ### Дивіться також
 
--   [fann\_read\_train\_from\_file()](function.fann-read-train-from-file.html) - Читає файл, у якому зберігаються дані навчання
--   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fann\_destroy\_train()](function.fann-destroy-train.html) - Знищує тренувальні дані
--   [fann\_save\_train()](function.fann-save-train.html) - Зберігає структуру навчання у файл
+-   [fannreadtrainfromfile()](function.fann-read-train-from-file.html) - Читає файл, у якому зберігаються дані навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanndestroytrain()](function.fann-destroy-train.html) - Знищує тренувальні дані
+-   [fannsavetrain()](function.fann-save-train.html) - Зберігає структуру навчання у файл

@@ -1,6 +1,6 @@
 Отримує дату зміни григоріанського календаря
 
--   [« IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.html)
+-   [« IntlGregorianCalendar::construct](intlgregoriancalendar.construct.html)
     
 -   [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.html)
     

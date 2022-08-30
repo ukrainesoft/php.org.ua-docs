@@ -1,8 +1,8 @@
 Повертає повідомлення про помилку
 
--   [« radius\_server\_secret](function.radius-server-secret.html)
+-   [« radiusserversecret](function.radius-server-secret.html)
     
--   [Модули для работы с командной строкой »](refs.utilspec.cmdline.html)
+-   [Модулі для роботи з командним рядком »](refs.utilspec.cmdline.html)
     
 -   [PHP Manual](index.html)
     

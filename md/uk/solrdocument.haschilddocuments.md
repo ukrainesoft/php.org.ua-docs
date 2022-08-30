@@ -2,7 +2,7 @@
 
 -   [« SolrDocument::getInputDocument](solrdocument.getinputdocument.html)
     
--   [SolrDocument::\_\_isset »](solrdocument.isset.html)
+-   [SolrDocument::isset »](solrdocument.isset.html)
     
 -   [PHP Manual](index.html)
     

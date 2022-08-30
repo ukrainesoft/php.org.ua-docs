@@ -1,8 +1,8 @@
 Отримує дані з приєднаного сокету
 
--   [« socket\_read](function.socket-read.html)
+-   [« socketread](function.socket-read.html)
     
--   [socket\_recvfrom »](function.socket-recvfrom.html)
+-   [socketrecvfrom »](function.socket-recvfrom.html)
     
 -   [PHP Manual](index.html)
     
@@ -56,7 +56,7 @@ socket_recv(    Socket $socket,    ?string &$data,    int $length, 
 
 ### Значення, що повертаються
 
-**socketrecv()** повертає кількість отриманих байтів або **`false`** у разі виникнення помилки. Фактичний код помилки може бути отриманий за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+**socketrecv()** повертає кількість отриманих байтів або **`false`** у разі виникнення помилки. Фактичний код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 ### список змін
 

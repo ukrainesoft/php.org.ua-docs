@@ -2,7 +2,7 @@
 
 -   [« Установка PHP на Lighttpd 1.4 на Unix-системах](install.unix.lighttpd-14.html)
     
--   [Установка с интерфейсами CGI и командной строки »](install.unix.commandline.html)
+-   [Установка з інтерфейсами CGI та командного рядка »](install.unix.commandline.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Розібрати адреси відповідно до RFC 822
 
--   [« mailparse\_msg\_parse](function.mailparse-msg-parse.html)
+-   [« mailparsemsgparse](function.mailparse-msg-parse.html)
     
--   [mailparse\_stream\_encode »](function.mailparse-stream-encode.html)
+-   [mailparsestreamencode »](function.mailparse-stream-encode.html)
     
 -   [PHP Manual](index.html)
     

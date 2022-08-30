@@ -1,6 +1,6 @@
 Клас ReflectionType
 
--   [« ReflectionProperty::\_\_toString](reflectionproperty.tostring.html)
+-   [« ReflectionProperty::toString](reflectionproperty.tostring.html)
     
 -   [ReflectionType::allowsNull »](reflectiontype.allowsnull.html)
     
@@ -56,4 +56,4 @@ public __toString(): string
 ## Зміст
 
 -   [ReflectionType::allowsNull](reflectiontype.allowsnull.html) — Перевіряє, чи допустимо NULL
--   [ReflectionType::\_\_toString](reflectiontype.tostring.html) — Перетворення на рядок
+-   [ReflectionType::toString](reflectiontype.tostring.html) — Перетворення на рядок

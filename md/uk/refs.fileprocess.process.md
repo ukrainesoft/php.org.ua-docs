@@ -1,6 +1,6 @@
 Модулі для керування процесами програм
 
--   [« Vtiful\\Kernel\\Format::underline](vtiful-kernel-format.underline.html)
+-   [« VtifulKernelFormat::underline](vtiful-kernel-format.underline.html)
     
 -   [Eio »](book.eio.html)
     
@@ -19,15 +19,15 @@
     -   [Предопределённые константы](eio.constants.html)
     -   [Примеры](eio.examples.html)
     -   [Eio Функции](ref.eio.html)
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     -   [Введение](intro.ev.html)
     -   [Установка и настройка](ev.setup.html)
     -   [Предопределённые константы](ev.global.constants.html)
     -   [Примеры](ev.examples.html)
-    -   [Наблюдатели](ev.watchers.html)
+    -   [Спостерігачі](ev.watchers.html)
     -   [Watcher callbacks](ev.watcher-callbacks.html)
-    -   [Режимы работы периодических наблюдателей](ev.periodic-modes.html)
-    -   [Ev](class.ev.html) - Клас Ev
+    -   [Режими роботи періодичних спостерігачів](ev.periodic-modes.html)
+    -   [Єв](class.ev.html) - Клас Ev
     -   [EvCheck](class.evcheck.html) - Клас EvCheck
     -   [EvChild](class.evchild.html) - Клас EvChild
     -   [EvEmbed](class.evembed.html) - Клас EvEmbed
@@ -52,7 +52,7 @@
     -   [Установка и настройка](pcntl.setup.html)
     -   [Предопределённые константы](pcntl.constants.html)
     -   [Примеры](pcntl.examples.html)
-    -   [Функции PCNTL](ref.pcntl.html)
+    -   [Функції PCNTL](ref.pcntl.html)
 -   [POSIX](book.posix.html)
     -   [Введение](intro.posix.html)
     -   [Установка и настройка](posix.setup.html)
@@ -68,14 +68,14 @@
     -   [Установка](parallel.setup.html)
     -   [Философия](philosophy.parallel.html)
     -   [Функциональный API](functional.parallel.html)
-    -   [parallel\\Runtime](class.parallel-runtime.html) - Клас parallelRuntime
-    -   [parallel\\Future](class.parallel-future.html) - Клас parallelFuture
-    -   [parallel\\Channel](class.parallel-channel.html) - Клас parallelChannel
-    -   [parallel\\Events](class.parallel-events.html) - Клас parallelEvents
-    -   [parallel\\Events\\Input](class.parallel-events-input.html) - Клас parallelEventsInput
-    -   [parallel\\Events\\Event](class.parallel-events-event.html) - Клас parallelEventsEvent
-    -   [parallel\\Events\\Event\\Type](class.parallel-events-event-type.html) - Клас parallelEventsEventType
-    -   [parallel\\Sync](class.parallel-sync.html) - Клас parallelSync
+    -   [parallelRuntime](class.parallel-runtime.html) - Клас parallelRuntime
+    -   [parallelFuture](class.parallel-future.html) - Клас parallelFuture
+    -   [parallelChannel](class.parallel-channel.html) - Клас parallelChannel
+    -   [parallelEvents](class.parallel-events.html) - Клас parallelEvents
+    -   [parallelEventsInput](class.parallel-events-input.html) - Клас parallelEventsInput
+    -   [parallelEventsEvent](class.parallel-events-event.html) - Клас parallelEventsEvent
+    -   [parallelEventsEventType](class.parallel-events-event-type.html) - Клас parallelEventsEventType
+    -   [parallelSync](class.parallel-sync.html) - Клас parallelSync
 -   [pthreads](book.pthreads.html)
     -   [Введение](intro.pthreads.html)
     -   [Установка и настройка](pthreads.setup.html)
@@ -90,7 +90,7 @@
     -   [Введение](intro.sem.html)
     -   [Установка и настройка](sem.setup.html)
     -   [Предопределённые константы](sem.constants.html)
-    -   [Функции семафоров](ref.sem.html)
+    -   [Функції семафорів](ref.sem.html)
     -   [SysvMessageQueue](class.sysvmessagequeue.html) - Клас SysvMessageQueue
     -   [SysvSemaphore](class.sysvsemaphore.html) - Клас SysvSemaphore
     -   [SysvSharedMemory](class.sysvsharedmemory.html) - Клас SysvSharedMemory
@@ -99,7 +99,7 @@
     -   [Установка и настройка](shmop.setup.html)
     -   [Предопределённые константы](shmop.constants.html)
     -   [Примеры](shmop.examples.html)
-    -   [Разделяемая (shared) память](ref.shmop.html)
+    -   [Пам'ять, що розділяється (shared)](ref.shmop.html)
     -   [Shmop](class.shmop.html) - Клас Shmop
 -   [Sync](book.sync.html)
     -   [Введение](intro.sync.html)

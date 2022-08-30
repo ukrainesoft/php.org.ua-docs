@@ -1,12 +1,12 @@
 Повертає доступні класи SPL
 
--   [« spl\_autoload](function.spl-autoload.html)
+-   [« splautoload](function.spl-autoload.html)
     
--   [spl\_object\_hash »](function.spl-object-hash.html)
+-   [splobjecthash »](function.spl-object-hash.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Повертає доступні класи SPL
     

@@ -1,12 +1,12 @@
 Визначення заповнення
 
--   [« UI\\Controls\\Grid::append](ui-controls-grid.append.html)
+-   [« UIControlsGrid::append](ui-controls-grid.append.html)
     
--   [UI\\Controls\\Grid::setPadded »](ui-controls-grid.setpadded.html)
+-   [ОЙControlsGrid::setPadded »](ui-controls-grid.setpadded.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Grid](class.ui-controls-grid.html)
+-   [ОЙControlsGrid](class.ui-controls-grid.html)
     
 -   Визначення заповнення
     

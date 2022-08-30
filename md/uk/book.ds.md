@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Структури даних
     
@@ -20,223 +20,223 @@
 -   [Предопределённые константы](ds.constants.html)
 -   [Примеры](ds.examples.html)
 -   [Коллекция](class.ds-collection.html) - Інтерфейс Collection
-    -   [Ds\\Collection::clear](ds-collection.clear.html) - Видаляє всі значення
-    -   [Ds\\Collection::copy](ds-collection.copy.html) — Повертає копію колекції
-    -   [Ds\\Collection::isEmpty](ds-collection.isempty.html) — Перевіряє, чи колекція порожня.
-    -   [Ds\\Collection::toArray](ds-collection.toarray.html) — Перетворює колекцію на масив (array)
+    -   [ДсCollection::clear](ds-collection.clear.html) - Видаляє всі значення
+    -   [ДсCollection::copy](ds-collection.copy.html) — Повертає копію колекції
+    -   [ДсCollection::isEmpty](ds-collection.isempty.html) — Перевіряє, чи колекція порожня.
+    -   [ДсCollection::toArray](ds-collection.toarray.html) — Перетворює колекцію на масив (array)
 -   [Хешируемое](class.ds-hashable.html) - Інтерфейс Hashable
-    -   [Ds\\Hashable::equals](ds-hashable.equals.html) — Визначає, чи дорівнює поточний екземпляр переданому об'єкту
-    -   [Ds\\Hashable::hash](ds-hashable.hash.html) — Повертає скалярне значення для використання як значення хешу
--   [Последовательность](class.ds-sequence.html) - Інтерфейс Sequence
-    -   [Ds\\Sequence::allocate](ds-sequence.allocate.html) — Виділення пам'яті під зазначену місткість
-    -   [Ds\\Sequence::apply](ds-sequence.apply.html) — Оновлення всіх значень застосуванням переданої callback-функції до них
-    -   [Ds\\Sequence::capacity](ds-sequence.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Sequence::contains](ds-sequence.contains.html) — Перевіряє, чи містяться в колекції задані значення
-    -   [Ds\\Sequence::filter](ds-sequence.filter.html) — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
-    -   [Ds\\Sequence::find](ds-sequence.find.html) - Пошук індексу за значенням
-    -   [Ds\\Sequence::first](ds-sequence.first.html) — Повертає перший елемент колекції
-    -   [Ds\\Sequence::get](ds-sequence.get.html) — Повертає значення за індексом
-    -   [Ds\\Sequence::insert](ds-sequence.insert.html) — Вставляє значення за вказаним індексом
-    -   [Ds\\Sequence::join](ds-sequence.join.html) - Склеює всі значення в рядок
-    -   [Ds\\Sequence::last](ds-sequence.last.html) — Повертає останнє значення колекції
-    -   [Ds\\Sequence::map](ds-sequence.map.html) — Повертає результат застосування callback-функції до всіх значень колекції
-    -   [Ds\\Sequence::merge](ds-sequence.merge.html) — Повертає результат додавання всіх заданих значень до колекції
-    -   [Ds\\Sequence::pop](ds-sequence.pop.html) — Видаляє та повертає останнє значення
-    -   [Ds\\Sequence::push](ds-sequence.push.html) — Додає значення до кінця послідовності
-    -   [Ds\\Sequence::reduce](ds-sequence.reduce.html) - Сплескує колекцію до одного значення використовуючи callback-функцію
-    -   [Ds\\Sequence::remove](ds-sequence.remove.html) — Видаляє та повертає значення за індексом
-    -   [Ds\\Sequence::reverse](ds-sequence.reverse.html) — Перевертає поточну колекцію
-    -   [Ds\\Sequence::reversed](ds-sequence.reversed.html) — Повертає перегорнуту копію колекції
-    -   [Ds\\Sequence::rotate](ds-sequence.rotate.html) — Перемотує послідовність на задану кількість значень
-    -   [Ds\\Sequence::set](ds-sequence.set.html) — Замінює значення за вказаним індексом
-    -   [Ds\\Sequence::shift](ds-sequence.shift.html) — Видаляє та повертає перше значення
-    -   [Ds\\Sequence::slice](ds-sequence.slice.html) — Повертає під-колекцію із заданого діапазону
-    -   [Ds\\Sequence::sort](ds-sequence.sort.html) — Сортує колекцію
-    -   [Ds\\Sequence::sorted](ds-sequence.sorted.html) — Повертає копію колекції, відсортовану за значенням.
-    -   [Ds\\Sequence::sum](ds-sequence.sum.html) — Повертає суму всіх значень колекції
-    -   [Ds\\Sequence::unshift](ds-sequence.unshift.html) — Додає значення на початок послідовності
+    -   [ДсHashable::equals](ds-hashable.equals.html) — Визначає, чи дорівнює поточний екземпляр переданому об'єкту
+    -   [ДсHashable::hash](ds-hashable.hash.html) — Повертає скалярне значення для використання як значення хешу
+-   [Послідовність](class.ds-sequence.html) - Інтерфейс Sequence
+    -   [ДсSequence::allocate](ds-sequence.allocate.html) — Виділення пам'яті під зазначену місткість
+    -   [ДсSequence::apply](ds-sequence.apply.html) — Оновлення всіх значень застосуванням переданої callback-функції до них
+    -   [ДсSequence::capacity](ds-sequence.capacity.html) — Повертає поточну місткість
+    -   [ДсSequence::contains](ds-sequence.contains.html) — Перевіряє, чи містяться в колекції задані значення
+    -   [ДсSequence::filter](ds-sequence.filter.html) — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
+    -   [ДсSequence::find](ds-sequence.find.html) - Пошук індексу за значенням
+    -   [ДсSequence::first](ds-sequence.first.html) — Повертає перший елемент колекції
+    -   [ДсSequence::get](ds-sequence.get.html) — Повертає значення за індексом
+    -   [ДсSequence::insert](ds-sequence.insert.html) — Вставляє значення за вказаним індексом
+    -   [ДсSequence::join](ds-sequence.join.html) - Склеює всі значення в рядок
+    -   [ДсSequence::last](ds-sequence.last.html) — Повертає останнє значення колекції
+    -   [ДсSequence::map](ds-sequence.map.html) — Повертає результат застосування callback-функції до всіх значень колекції
+    -   [ДсSequence::merge](ds-sequence.merge.html) — Повертає результат додавання всіх заданих значень до колекції
+    -   [ДсSequence::pop](ds-sequence.pop.html) — Видаляє та повертає останнє значення
+    -   [ДсSequence::push](ds-sequence.push.html) — Додає значення до кінця послідовності
+    -   [ДсSequence::reduce](ds-sequence.reduce.html) - Сплескує колекцію до одного значення використовуючи callback-функцію
+    -   [ДсSequence::remove](ds-sequence.remove.html) — Видаляє та повертає значення за індексом
+    -   [ДсSequence::reverse](ds-sequence.reverse.html) — Перевертає поточну колекцію
+    -   [ДсSequence::reversed](ds-sequence.reversed.html) — Повертає перегорнуту копію колекції
+    -   [ДсSequence::rotate](ds-sequence.rotate.html) — Перемотує послідовність на задану кількість значень
+    -   [ДсSequence::set](ds-sequence.set.html) — Замінює значення за вказаним індексом
+    -   [ДсSequence::shift](ds-sequence.shift.html) — Видаляє та повертає перше значення
+    -   [ДсSequence::slice](ds-sequence.slice.html) — Повертає під-колекцію із заданого діапазону
+    -   [ДсSequence::sort](ds-sequence.sort.html) — Сортує колекцію
+    -   [ДсSequence::sorted](ds-sequence.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+    -   [ДсSequence::sum](ds-sequence.sum.html) — Повертає суму всіх значень колекції
+    -   [ДсSequence::unshift](ds-sequence.unshift.html) — Додає значення на початок послідовності
 -   [Вектор](class.ds-vector.html) - Клас Vector
-    -   [Ds\\Vector::allocate](ds-vector.allocate.html) — Виділяє пам'ять під зазначену місткість
-    -   [Ds\\Vector::apply](ds-vector.apply.html) — Оновлює всі значення, застосовуючи передану callback-функцію до них.
-    -   [Ds\\Vector::capacity](ds-vector.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Vector::clear](ds-vector.clear.html) - Видаляє всі значення
-    -   [Ds\\Vector::\_\_construct](ds-vector.construct.html) - Створює новий екземпляр
-    -   [Ds\\Vector::contains](ds-vector.contains.html) — Перевіряє, чи є у векторі задані значення
-    -   [Ds\\Vector::copy](ds-vector.copy.html) — Повертає поверхневу копію вектора
-    -   [Ds\\Vector::count](ds-vector.count.html) — Повертає кількість елементів вектора
-    -   [Ds\\Vector::filter](ds-vector.filter.html) — Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
-    -   [Ds\\Vector::find](ds-vector.find.html) - Пошук індексу за значенням
-    -   [Ds\\Vector::first](ds-vector.first.html) — Повертає перший елемент вектора
-    -   [Ds\\Vector::get](ds-vector.get.html) — Повертає значення за індексом
-    -   [Ds\\Vector::insert](ds-vector.insert.html) — Вставляє значення за вказаним індексом
-    -   [Ds\\Vector::isEmpty](ds-vector.isempty.html) — Перевіряє, чи вектор порожній.
-    -   [Ds\\Vector::join](ds-vector.join.html) - Склеює всі значення в рядок
-    -   [Ds\\Vector::jsonSerialize](ds-vector.jsonserialize.html) — Повертає вектор у JSON-представництві
-    -   [Ds\\Vector::last](ds-vector.last.html) — Повертає останнє значення вектора
-    -   [Ds\\Vector::map](ds-vector.map.html) — Повертає результат застосування callback-функції до всіх значень вектора
-    -   [Ds\\Vector::merge](ds-vector.merge.html) — Повертає результат додавання всіх заданих значень у вектор.
-    -   [Ds\\Vector::pop](ds-vector.pop.html) — Видаляє та повертає останнє значення
-    -   [Ds\\Vector::push](ds-vector.push.html) — Додає значення до кінця вектора
-    -   [Ds\\Vector::reduce](ds-vector.reduce.html) - Зменшує вектор до одного значення, використовуючи callback-функцію
-    -   [Ds\\Vector::remove](ds-vector.remove.html) — Видаляє та повертає значення за індексом
-    -   [Ds\\Vector::reverse](ds-vector.reverse.html) — Перевертає поточний вектор
-    -   [Ds\\Vector::reversed](ds-vector.reversed.html) — Повертає перегорнуту копію вектора
-    -   [Ds\\Vector::rotate](ds-vector.rotate.html) — Перемотує вектор на задану кількість значень
-    -   [Ds\\Vector::set](ds-vector.set.html) — Замінює значення за вказаним індексом
-    -   [Ds\\Vector::shift](ds-vector.shift.html) — Видаляє та повертає перше значення
-    -   [Ds\\Vector::slice](ds-vector.slice.html) — Повертає підвектор із заданого діапазону
-    -   [Ds\\Vector::sort](ds-vector.sort.html) — Сортує вектор
-    -   [Ds\\Vector::sorted](ds-vector.sorted.html) — Повертає копію колекції, відсортовану за значенням.
-    -   [Ds\\Vector::sum](ds-vector.sum.html) — Повертає суму всіх значень колекції
-    -   [Ds\\Vector::toArray](ds-vector.toarray.html) — Перетворює колекцію на масив (array)
-    -   [Ds\\Vector::unshift](ds-vector.unshift.html) — Додає значення на початок вектора
--   [Двухсторонняя очередь](class.ds-deque.html) - Клас Deque
-    -   [Ds\\Deque::allocate](ds-deque.allocate.html) — Виділяє пам'ять під зазначену місткість
-    -   [Ds\\Deque::apply](ds-deque.apply.html) - Оновлює всі значення, застосовуючи callback-функцію до кожного значення
-    -   [Ds\\Deque::capacity](ds-deque.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Deque::clear](ds-deque.clear.html) — Видаляє всі значення із двосторонньої черги
-    -   [Ds\\Deque::\_\_construct](ds-deque.construct.html) - Створює новий екземпляр
-    -   [Ds\\Deque::contains](ds-deque.contains.html) — Перевіряє, чи є у двосторонній черзі задані значення
-    -   [Ds\\Deque::copy](ds-deque.copy.html) — Повертає поверхневу копію колекції
-    -   [Ds\\Deque::count](ds-deque.count.html) — Повертає кількість елементів двосторонньої черги
-    -   [Ds\\Deque::filter](ds-deque.filter.html) — Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
-    -   [Ds\\Deque::find](ds-deque.find.html) - Пошук індексу за значенням
-    -   [Ds\\Deque::first](ds-deque.first.html) — Повертає перший елемент двосторонньої черги
-    -   [Ds\\Deque::get](ds-deque.get.html) — Повертає значення за індексом
-    -   [Ds\\Deque::insert](ds-deque.insert.html) — Вставляє значення за вказаним індексом
-    -   [Ds\\Deque::isEmpty](ds-deque.isempty.html) — Перевіряє, чи порожня двостороння черга
-    -   [Ds\\Deque::join](ds-deque.join.html) - Склеює всі значення в рядок
-    -   [Ds\\Deque::jsonSerialize](ds-deque.jsonserialize.html) — Повертає колекцію в JSON-представництві
-    -   [Ds\\Deque::last](ds-deque.last.html) — Повертає останнє значення двосторонньої черги
-    -   [Ds\\Deque::map](ds-deque.map.html) — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
-    -   [Ds\\Deque::merge](ds-deque.merge.html) — Повертає результат додавання всіх заданих значень у двосторонню чергу
-    -   [Ds\\Deque::pop](ds-deque.pop.html) — Видаляє та повертає останнє значення
-    -   [Ds\\Deque::push](ds-deque.push.html) — Додає значення наприкінці двосторонньої черги
-    -   [Ds\\Deque::reduce](ds-deque.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
-    -   [Ds\\Deque::remove](ds-deque.remove.html) — Видаляє та повертає значення за індексом
-    -   [Ds\\Deque::reverse](ds-deque.reverse.html) — Перевертає поточну двосторонню чергу
-    -   [Ds\\Deque::reversed](ds-deque.reversed.html) — Повертає перегорнуту копію двосторонньої черги
-    -   [Ds\\Deque::rotate](ds-deque.rotate.html) — Перемотує двосторонню чергу на задану кількість значень
-    -   [Ds\\Deque::set](ds-deque.set.html) — Замінює значення за вказаним індексом
-    -   [Ds\\Deque::shift](ds-deque.shift.html) — Видаляє та повертає перше значення
-    -   [Ds\\Deque::slice](ds-deque.slice.html) — Повертає почергово із заданого діапазону
-    -   [Ds\\Deque::sort](ds-deque.sort.html) — Сортує двосторонню чергу
-    -   [Ds\\Deque::sorted](ds-deque.sorted.html) — Повертає відсортовану за значенням копію двосторонньої черги
-    -   [Ds\\Deque::sum](ds-deque.sum.html) — Повертає суму всіх значень двосторонньої черги
-    -   [Ds\\Deque::toArray](ds-deque.toarray.html) - Перетворює двосторонню чергу на масив (array)
-    -   [Ds\\Deque::unshift](ds-deque.unshift.html) — Додає значення на початок двосторонньої черги
+    -   [ДсVector::allocate](ds-vector.allocate.html) — Виділяє пам'ять під зазначену місткість
+    -   [ДсVector::apply](ds-vector.apply.html) — Оновлює всі значення, застосовуючи передану callback-функцію до них.
+    -   [ДсVector::capacity](ds-vector.capacity.html) — Повертає поточну місткість
+    -   [ДсVector::clear](ds-vector.clear.html) - Видаляє всі значення
+    -   [ДсVector::construct](ds-vector.construct.html) - Створює новий екземпляр
+    -   [ДсVector::contains](ds-vector.contains.html) — Перевіряє, чи є у векторі задані значення
+    -   [ДсVector::copy](ds-vector.copy.html) — Повертає поверхневу копію вектора
+    -   [ДсVector::count](ds-vector.count.html) — Повертає кількість елементів вектора
+    -   [ДсVector::filter](ds-vector.filter.html) — Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
+    -   [ДсVector::find](ds-vector.find.html) - Пошук індексу за значенням
+    -   [ДсVector::first](ds-vector.first.html) — Повертає перший елемент вектора
+    -   [ДсVector::get](ds-vector.get.html) — Повертає значення за індексом
+    -   [ДсVector::insert](ds-vector.insert.html) — Вставляє значення за вказаним індексом
+    -   [ДсVector::isEmpty](ds-vector.isempty.html) — Перевіряє, чи вектор порожній.
+    -   [ДсVector::join](ds-vector.join.html) - Склеює всі значення в рядок
+    -   [ДсVector::jsonSerialize](ds-vector.jsonserialize.html) — Повертає вектор у JSON-представництві
+    -   [ДсVector::last](ds-vector.last.html) — Повертає останнє значення вектора
+    -   [ДсVector::map](ds-vector.map.html) — Повертає результат застосування callback-функції до всіх значень вектора
+    -   [ДсVector::merge](ds-vector.merge.html) — Повертає результат додавання всіх заданих значень у вектор.
+    -   [ДсVector::pop](ds-vector.pop.html) — Видаляє та повертає останнє значення
+    -   [ДсVector::push](ds-vector.push.html) — Додає значення до кінця вектора
+    -   [ДсVector::reduce](ds-vector.reduce.html) - Зменшує вектор до одного значення, використовуючи callback-функцію
+    -   [ДсVector::remove](ds-vector.remove.html) — Видаляє та повертає значення за індексом
+    -   [ДсVector::reverse](ds-vector.reverse.html) — Перевертає поточний вектор
+    -   [ДсVector::reversed](ds-vector.reversed.html) — Повертає перегорнуту копію вектора
+    -   [ДсVector::rotate](ds-vector.rotate.html) — Перемотує вектор на задану кількість значень
+    -   [ДсVector::set](ds-vector.set.html) — Замінює значення за вказаним індексом
+    -   [ДсVector::shift](ds-vector.shift.html) — Видаляє та повертає перше значення
+    -   [ДсVector::slice](ds-vector.slice.html) — Повертає підвектор із заданого діапазону
+    -   [ДсVector::sort](ds-vector.sort.html) — Сортує вектор
+    -   [ДсVector::sorted](ds-vector.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+    -   [ДсVector::sum](ds-vector.sum.html) — Повертає суму всіх значень колекції
+    -   [ДсVector::toArray](ds-vector.toarray.html) — Перетворює колекцію на масив (array)
+    -   [ДсVector::unshift](ds-vector.unshift.html) — Додає значення на початок вектора
+-   [Двостороння черга](class.ds-deque.html) - Клас Deque
+    -   [ДсDeque::allocate](ds-deque.allocate.html) — Виділяє пам'ять під зазначену місткість
+    -   [ДсDeque::apply](ds-deque.apply.html) - Оновлює всі значення, застосовуючи callback-функцію до кожного значення
+    -   [ДсDeque::capacity](ds-deque.capacity.html) — Повертає поточну місткість
+    -   [ДсDeque::clear](ds-deque.clear.html) — Видаляє всі значення із двосторонньої черги
+    -   [ДсDeque::construct](ds-deque.construct.html) - Створює новий екземпляр
+    -   [ДсDeque::contains](ds-deque.contains.html) — Перевіряє, чи є у двосторонній черзі задані значення
+    -   [ДсDeque::copy](ds-deque.copy.html) — Повертає поверхневу копію колекції
+    -   [ДсDeque::count](ds-deque.count.html) — Повертає кількість елементів двосторонньої черги
+    -   [ДсDeque::filter](ds-deque.filter.html) — Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
+    -   [ДсDeque::find](ds-deque.find.html) - Пошук індексу за значенням
+    -   [ДсDeque::first](ds-deque.first.html) — Повертає перший елемент двосторонньої черги
+    -   [ДсDeque::get](ds-deque.get.html) — Повертає значення за індексом
+    -   [ДсDeque::insert](ds-deque.insert.html) — Вставляє значення за вказаним індексом
+    -   [ДсDeque::isEmpty](ds-deque.isempty.html) — Перевіряє, чи порожня двостороння черга
+    -   [ДсDeque::join](ds-deque.join.html) - Склеює всі значення в рядок
+    -   [ДсDeque::jsonSerialize](ds-deque.jsonserialize.html) — Повертає колекцію в JSON-представництві
+    -   [ДсDeque::last](ds-deque.last.html) — Повертає останнє значення двосторонньої черги
+    -   [ДсDeque::map](ds-deque.map.html) — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
+    -   [ДсDeque::merge](ds-deque.merge.html) — Повертає результат додавання всіх заданих значень у двосторонню чергу
+    -   [ДсDeque::pop](ds-deque.pop.html) — Видаляє та повертає останнє значення
+    -   [ДсDeque::push](ds-deque.push.html) — Додає значення наприкінці двосторонньої черги
+    -   [ДсDeque::reduce](ds-deque.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
+    -   [ДсDeque::remove](ds-deque.remove.html) — Видаляє та повертає значення за індексом
+    -   [ДсDeque::reverse](ds-deque.reverse.html) — Перевертає поточну двосторонню чергу
+    -   [ДсDeque::reversed](ds-deque.reversed.html) — Повертає перегорнуту копію двосторонньої черги
+    -   [ДсDeque::rotate](ds-deque.rotate.html) — Перемотує двосторонню чергу на задану кількість значень
+    -   [ДсDeque::set](ds-deque.set.html) — Замінює значення за вказаним індексом
+    -   [ДсDeque::shift](ds-deque.shift.html) — Видаляє та повертає перше значення
+    -   [ДсDeque::slice](ds-deque.slice.html) — Повертає почергово із заданого діапазону
+    -   [ДсDeque::sort](ds-deque.sort.html) — Сортує двосторонню чергу
+    -   [ДсDeque::sorted](ds-deque.sorted.html) — Повертає відсортовану за значенням копію двосторонньої черги
+    -   [ДсDeque::sum](ds-deque.sum.html) — Повертає суму всіх значень двосторонньої черги
+    -   [ДсDeque::toArray](ds-deque.toarray.html) - Перетворює двосторонню чергу на масив (array)
+    -   [ДсDeque::unshift](ds-deque.unshift.html) — Додає значення на початок двосторонньої черги
 -   [Коллекция пар ключ-значение](class.ds-map.html) - Клас Map
-    -   [Ds\\Map::allocate](ds-map.allocate.html) — Виділяє необхідну кількість пам'яті під потрібну місткість
-    -   [Ds\\Map::apply](ds-map.apply.html) — Оновлення всіх значень застосуванням переданої callback-функції до них
-    -   [Ds\\Map::capacity](ds-map.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Map::clear](ds-map.clear.html) — Видаляє всі значення з колекції
-    -   [Ds\\Map::\_\_construct](ds-map.construct.html) - Створює новий екземпляр
-    -   [Ds\\Map::copy](ds-map.copy.html) — Повертає поверхневу копію колекції
-    -   [Ds\\Map::count](ds-map.count.html) — Повертає кількість елементів колекції
-    -   [Ds\\Map::diff](ds-map.diff.html) — Створює нову колекцію пар із елементами, ключів яких немає в іншій колекції пар
-    -   [Ds\\Map::filter](ds-map.filter.html) — Створює нову колекцію пар із елементів, вибраних за допомогою заданої callback-функції
-    -   [Ds\\Map::first](ds-map.first.html) — Повертає перший елемент колекції
-    -   [Ds\\Map::get](ds-map.get.html) — Повертає значення за ключом
-    -   [Ds\\Map::hasKey](ds-map.haskey.html) — Перевіряє, чи колекція містить заданий ключ
-    -   [Ds\\Map::hasValue](ds-map.hasvalue.html) — Перевіряє, чи колекція містить задане значення
-    -   [Ds\\Map::intersect](ds-map.intersect.html) — Створює нову колекцію пар, створену перетином з іншою колекцією пар
-    -   [Ds\\Map::isEmpty](ds-map.isempty.html) — Перевіряє, чи колекція порожня.
-    -   [Ds\\Map::jsonSerialize](ds-map.jsonserialize.html) — Повертає колекцію в JSON-представництві
-    -   [Ds\\Map::keys](ds-map.keys.html) — Повертає набір ключів колекції
-    -   [Ds\\Map::ksort](ds-map.ksort.html) — Сортує поточну колекцію за ключами
-    -   [Ds\\Map::ksorted](ds-map.ksorted.html) — Повертає копію колекції, відсортованої за ключами
-    -   [Ds\\Map::last](ds-map.last.html) — Повертає останню пару колекції
-    -   [Ds\\Map::map](ds-map.map.html) — Повертає результат застосування callback-функції до всіх значень колекції
-    -   [Ds\\Map::merge](ds-map.merge.html) — Повертає результат додавання всіх заданих елементів до колекції
-    -   [Ds\\Map::pairs](ds-map.pairs.html) — Повертає послідовність, яка містить усі пари колекції.
-    -   [Ds\\Map::put](ds-map.put.html) — Встановлення значення за заданим ключем
-    -   [Ds\\Map::putAll](ds-map.putall.html) — Зв'язує з колекцією всі пари ключ-значення з об'єкту класу traversable чи масиву
-    -   [Ds\\Map::reduce](ds-map.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
-    -   [Ds\\Map::remove](ds-map.remove.html) — Видаляє та повертає значення за ключом
-    -   [Ds\\Map::reverse](ds-map.reverse.html) — Перевертає поточну колекцію
-    -   [Ds\\Map::reversed](ds-map.reversed.html) — Повертає перегорнуту копію колекції
-    -   [Ds\\Map::skip](ds-map.skip.html) — Повертає пару за індексом позиції
-    -   [Ds\\Map::slice](ds-map.slice.html) — Повертає підмножину колекції із заданого діапазону
-    -   [Ds\\Map::sort](ds-map.sort.html) — Сортує колекцію за значеннями
-    -   [Ds\\Map::sorted](ds-map.sorted.html) — Повертає копію колекції, відсортовану за значенням.
-    -   [Ds\\Map::sum](ds-map.sum.html) — Повертає суму всіх значень колекції
-    -   [Ds\\Map::toArray](ds-map.toarray.html) — Перетворює колекцію на array
-    -   [Ds\\Map::union](ds-map.union.html) — Створює нову колекцію пар із елементів двох колекцій
-    -   [Ds\\Map::values](ds-map.values.html) — Повертає послідовність значень колекції
-    -   [Ds\\Map::xor](ds-map.xor.html) — Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
+    -   [ДсMap::allocate](ds-map.allocate.html) — Виділяє необхідну кількість пам'яті під потрібну місткість
+    -   [ДсMap::apply](ds-map.apply.html) — Оновлення всіх значень застосуванням переданої callback-функції до них
+    -   [ДсMap::capacity](ds-map.capacity.html) — Повертає поточну місткість
+    -   [ДсMap::clear](ds-map.clear.html) — Видаляє всі значення з колекції
+    -   [ДсMap::construct](ds-map.construct.html) - Створює новий екземпляр
+    -   [ДсMap::copy](ds-map.copy.html) — Повертає поверхневу копію колекції
+    -   [ДсMap::count](ds-map.count.html) — Повертає кількість елементів колекції
+    -   [ДсMap::diff](ds-map.diff.html) — Створює нову колекцію пар із елементами, ключів яких немає в іншій колекції пар
+    -   [ДсMap::filter](ds-map.filter.html) — Створює нову колекцію пар із елементів, вибраних за допомогою заданої callback-функції
+    -   [ДсMap::first](ds-map.first.html) — Повертає перший елемент колекції
+    -   [ДсMap::get](ds-map.get.html) — Повертає значення за ключом
+    -   [ДсMap::hasKey](ds-map.haskey.html) — Перевіряє, чи колекція містить заданий ключ
+    -   [ДсMap::hasValue](ds-map.hasvalue.html) — Перевіряє, чи колекція містить задане значення
+    -   [ДсMap::intersect](ds-map.intersect.html) — Створює нову колекцію пар, створену перетином з іншою колекцією пар
+    -   [ДсMap::isEmpty](ds-map.isempty.html) — Перевіряє, чи колекція порожня.
+    -   [ДсMap::jsonSerialize](ds-map.jsonserialize.html) — Повертає колекцію в JSON-представництві
+    -   [ДсMap::keys](ds-map.keys.html) — Повертає набір ключів колекції
+    -   [ДсMap::ksort](ds-map.ksort.html) — Сортує поточну колекцію за ключами
+    -   [ДсMap::ksorted](ds-map.ksorted.html) — Повертає копію колекції, відсортованої за ключами
+    -   [ДсMap::last](ds-map.last.html) — Повертає останню пару колекції
+    -   [ДсMap::map](ds-map.map.html) — Повертає результат застосування callback-функції до всіх значень колекції
+    -   [ДсMap::merge](ds-map.merge.html) — Повертає результат додавання всіх заданих елементів до колекції
+    -   [ДсMap::pairs](ds-map.pairs.html) — Повертає послідовність, яка містить усі пари колекції.
+    -   [ДсMap::put](ds-map.put.html) — Встановлення значення за заданим ключем
+    -   [ДсMap::putAll](ds-map.putall.html) — Зв'язує з колекцією всі пари ключ-значення з об'єкту класу traversable чи масиву
+    -   [ДсMap::reduce](ds-map.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
+    -   [ДсMap::remove](ds-map.remove.html) — Видаляє та повертає значення за ключом
+    -   [ДсMap::reverse](ds-map.reverse.html) — Перевертає поточну колекцію
+    -   [ДсMap::reversed](ds-map.reversed.html) — Повертає перегорнуту копію колекції
+    -   [ДсMap::skip](ds-map.skip.html) — Повертає пару за індексом позиції
+    -   [ДсMap::slice](ds-map.slice.html) — Повертає підмножину колекції із заданого діапазону
+    -   [ДсMap::sort](ds-map.sort.html) — Сортує колекцію за значеннями
+    -   [ДсMap::sorted](ds-map.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+    -   [ДсMap::sum](ds-map.sum.html) — Повертає суму всіх значень колекції
+    -   [ДсMap::toArray](ds-map.toarray.html) — Перетворює колекцію на array
+    -   [ДсMap::union](ds-map.union.html) — Створює нову колекцію пар із елементів двох колекцій
+    -   [ДсMap::values](ds-map.values.html) — Повертає послідовність значень колекції
+    -   [ДсMap::xor](ds-map.xor.html) — Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
 -   [Пара](class.ds-pair.html) - Клас Pair
-    -   [Ds\\Pair::clear](ds-pair.clear.html) - Видаляє всі значення
-    -   [Ds\\Pair::\_\_construct](ds-pair.construct.html) - Створює екземпляр класу
-    -   [Ds\\Pair::copy](ds-pair.copy.html) — Повертає поверхневу копію пари
-    -   [Ds\\Pair::isEmpty](ds-pair.isempty.html) — Перевіряє, чи пара порожня.
-    -   [Ds\\Pair::jsonSerialize](ds-pair.jsonserialize.html) — Повертає пару у виставі JSON
-    -   [Ds\\Pair::toArray](ds-pair.toarray.html) - Перетворює пару в масив (array)
+    -   [ДсPair::clear](ds-pair.clear.html) - Видаляє всі значення
+    -   [ДсPair::construct](ds-pair.construct.html) - Створює екземпляр класу
+    -   [ДсPair::copy](ds-pair.copy.html) — Повертає поверхневу копію пари
+    -   [ДсPair::isEmpty](ds-pair.isempty.html) — Перевіряє, чи пара порожня.
+    -   [ДсPair::jsonSerialize](ds-pair.jsonserialize.html) — Повертає пару у виставі JSON
+    -   [ДсPair::toArray](ds-pair.toarray.html) - Перетворює пару в масив (array)
 -   [Набор](class.ds-set.html) - Клас Set
-    -   [Ds\\Set::add](ds-set.add.html) — Додає значення до набору
-    -   [Ds\\Set::allocate](ds-set.allocate.html) — Виділяє пам'ять під зазначену місткість
-    -   [Ds\\Set::capacity](ds-set.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Set::clear](ds-set.clear.html) — Видаляє всі значення з колекції
-    -   [Ds\\Set::\_\_construct](ds-set.construct.html) - Створює новий екземпляр класу
-    -   [Ds\\Set::contains](ds-set.contains.html) — Перевіряє, чи міститься в колекції задані значення
-    -   [Ds\\Set::copy](ds-set.copy.html) — Повертає поверхневу копію колекції
-    -   [Ds\\Set::count](ds-set.count.html) — Повертає кількість елементів колекції
-    -   [Ds\\Set::diff](ds-set.diff.html) — Створює новий набір із елементами, яких немає в іншому наборі
-    -   [Ds\\Set::filter](ds-set.filter.html) — Створює новий список із елементів, вибраних за допомогою заданої callback-функції
-    -   [Ds\\Set::first](ds-set.first.html) — Повертає перший елемент колекції
-    -   [Ds\\Set::get](ds-set.get.html) — Повертає значення за індексом
-    -   [Ds\\Set::intersect](ds-set.intersect.html) — Створює новий набір, створений перетином з іншим набором
-    -   [Ds\\Set::isEmpty](ds-set.isempty.html) — Перевіряє, чи колекція порожня.
-    -   [Ds\\Set::join](ds-set.join.html) - Склеює всі значення в рядок
-    -   [Ds\\Set::jsonSerialize](ds-set.jsonserialize.html) — Повертає колекцію в JSON-представництві
-    -   [Ds\\Set::last](ds-set.last.html) — Повертає останнє значення колекції
-    -   [Ds\\Set::merge](ds-set.merge.html) — Повертає результат додавання всіх заданих значень до набору
-    -   [Ds\\Set::reduce](ds-set.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
-    -   [Ds\\Set::remove](ds-set.remove.html) — Видаляє всі задані значення набору
-    -   [Ds\\Set::reverse](ds-set.reverse.html) — Перевертає поточну колекцію
-    -   [Ds\\Set::reversed](ds-set.reversed.html) — Повертає перегорнуту копію колекції
-    -   [Ds\\Set::slice](ds-set.slice.html) — Повертає піднабір із заданого діапазону
-    -   [Ds\\Set::sort](ds-set.sort.html) — Сортує колекцію
-    -   [Ds\\Set::sorted](ds-set.sorted.html) — Повертає копію колекції, відсортовану за значенням.
-    -   [Ds\\Set::sum](ds-set.sum.html) — Повертає суму всіх значень колекції
-    -   [Ds\\Set::toArray](ds-set.toarray.html) — Перетворює колекцію на масив (array)
-    -   [Ds\\Set::union](ds-set.union.html) — Створює новий набір з елементів поточного та переданого наборів
-    -   [Ds\\Set::xor](ds-set.xor.html) — Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно
+    -   [ДсSet::add](ds-set.add.html) — Додає значення до набору
+    -   [ДсSet::allocate](ds-set.allocate.html) — Виділяє пам'ять під зазначену місткість
+    -   [ДсSet::capacity](ds-set.capacity.html) — Повертає поточну місткість
+    -   [ДсSet::clear](ds-set.clear.html) — Видаляє всі значення з колекції
+    -   [ДсSet::construct](ds-set.construct.html) - Створює новий екземпляр класу
+    -   [ДсSet::contains](ds-set.contains.html) — Перевіряє, чи міститься в колекції задані значення
+    -   [ДсSet::copy](ds-set.copy.html) — Повертає поверхневу копію колекції
+    -   [ДсSet::count](ds-set.count.html) — Повертає кількість елементів колекції
+    -   [ДсSet::diff](ds-set.diff.html) — Створює новий набір із елементами, яких немає в іншому наборі
+    -   [ДсSet::filter](ds-set.filter.html) — Створює новий список із елементів, вибраних за допомогою заданої callback-функції
+    -   [ДсSet::first](ds-set.first.html) — Повертає перший елемент колекції
+    -   [ДсSet::get](ds-set.get.html) — Повертає значення за індексом
+    -   [ДсSet::intersect](ds-set.intersect.html) — Створює новий набір, створений перетином з іншим набором
+    -   [ДсSet::isEmpty](ds-set.isempty.html) — Перевіряє, чи колекція порожня.
+    -   [ДсSet::join](ds-set.join.html) - Склеює всі значення в рядок
+    -   [ДсSet::jsonSerialize](ds-set.jsonserialize.html) — Повертає колекцію в JSON-представництві
+    -   [ДсSet::last](ds-set.last.html) — Повертає останнє значення колекції
+    -   [ДсSet::merge](ds-set.merge.html) — Повертає результат додавання всіх заданих значень до набору
+    -   [ДсSet::reduce](ds-set.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
+    -   [ДсSet::remove](ds-set.remove.html) — Видаляє всі задані значення набору
+    -   [ДсSet::reverse](ds-set.reverse.html) — Перевертає поточну колекцію
+    -   [ДсSet::reversed](ds-set.reversed.html) — Повертає перегорнуту копію колекції
+    -   [ДсSet::slice](ds-set.slice.html) — Повертає піднабір із заданого діапазону
+    -   [ДсSet::sort](ds-set.sort.html) — Сортує колекцію
+    -   [ДсSet::sorted](ds-set.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+    -   [ДсSet::sum](ds-set.sum.html) — Повертає суму всіх значень колекції
+    -   [ДсSet::toArray](ds-set.toarray.html) — Перетворює колекцію на масив (array)
+    -   [ДсSet::union](ds-set.union.html) — Створює новий набір з елементів поточного та переданого наборів
+    -   [ДсSet::xor](ds-set.xor.html) — Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно
 -   [Стек](class.ds-stack.html) - Клас Stack
-    -   [Ds\\Stack::allocate](ds-stack.allocate.html) — Виділяє пам'ять під зазначену місткість
-    -   [Ds\\Stack::capacity](ds-stack.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Stack::clear](ds-stack.clear.html) — Видаляє всі значення з колекції
-    -   [Ds\\Stack::\_\_construct](ds-stack.construct.html) - Створює новий екземпляр класу
-    -   [Ds\\Stack::copy](ds-stack.copy.html) — Повертає поверхневу копію колекції
-    -   [Ds\\Stack::count](ds-stack.count.html) — Повертає кількість елементів колекції
-    -   [Ds\\Stack::isEmpty](ds-stack.isempty.html) — Перевіряє, чи колекція порожня.
-    -   [Ds\\Stack::jsonSerialize](ds-stack.jsonserialize.html) — Повертає колекцію в JSON-представництві
-    -   [Ds\\Stack::peek](ds-stack.peek.html) — Повертає значення з вершини стека
-    -   [Ds\\Stack::pop](ds-stack.pop.html) — Видаляє та повертає значення з вершини стека
-    -   [Ds\\Stack::push](ds-stack.push.html) — Додає значення у стек
-    -   [Ds\\Stack::toArray](ds-stack.toarray.html) — Перетворює колекцію на масив (array)
--   [Очередь](class.ds-queue.html) - Клас Queue
-    -   [Ds\\Queue::allocate](ds-queue.allocate.html) — Виділяє пам'ять під зазначену місткість
-    -   [Ds\\Queue::capacity](ds-queue.capacity.html) — Повертає поточну місткість
-    -   [Ds\\Queue::clear](ds-queue.clear.html) - Видаляє всі значення
-    -   [Ds\\Queue::\_\_construct](ds-queue.construct.html) - Створює новий екземпляр
-    -   [Ds\\Queue::copy](ds-queue.copy.html) — Повертає поверхневу копію черги
-    -   [Ds\\Queue::count](ds-queue.count.html) — Повертає кількість елементів черги
-    -   [Ds\\Queue::isEmpty](ds-queue.isempty.html) — Перевіряє, чи колекція порожня.
-    -   [Ds\\Queue::jsonSerialize](ds-queue.jsonserialize.html) — Повертає колекцію в JSON-представництві
-    -   [Ds\\Queue::peek](ds-queue.peek.html) — Повертає значення з початку черги
-    -   [Ds\\Queue::pop](ds-queue.pop.html) — Видаляє та повертає значення з початку черги
-    -   [Ds\\Queue::push](ds-queue.push.html) — Додає значення у чергу
-    -   [Ds\\Queue::toArray](ds-queue.toarray.html) — Перетворює колекцію на масив (array)
--   [Очередь с приоритетом](class.ds-priorityqueue.html) - Клас PriorityQueue
-    -   [Ds\\PriorityQueue::allocate](ds-priorityqueue.allocate.html) — Виділяє пам'ять під зазначену місткість
-    -   [Ds\\PriorityQueue::capacity](ds-priorityqueue.capacity.html) — Повертає поточну місткість
-    -   [Ds\\PriorityQueue::clear](ds-priorityqueue.clear.html) - Видаляє всі значення
-    -   [Ds\\PriorityQueue::\_\_construct](ds-priorityqueue.construct.html) - Створює новий екземпляр
-    -   [Ds\\PriorityQueue::copy](ds-priorityqueue.copy.html) — Повертає поверхневу копію черги
-    -   [Ds\\PriorityQueue::count](ds-priorityqueue.count.html) — Повертає кількість елементів у черзі
-    -   [Ds\\PriorityQueue::isEmpty](ds-priorityqueue.isempty.html) — Перевіряє, чи колекція порожня.
-    -   [Ds\\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html) — Повертає колекцію в JSON-виставу
-    -   [Ds\\PriorityQueue::peek](ds-priorityqueue.peek.html) — Повертає значення з початку черги
-    -   [Ds\\PriorityQueue::pop](ds-priorityqueue.pop.html) — Видаляє та повертає значення з найвищим пріоритетом
-    -   [Ds\\PriorityQueue::push](ds-priorityqueue.push.html) — Додає значення у чергу
-    -   [Ds\\PriorityQueue::toArray](ds-priorityqueue.toarray.html) - Перетворює чергу на масив (array)
+    -   [ДсStack::allocate](ds-stack.allocate.html) — Виділяє пам'ять під зазначену місткість
+    -   [ДсStack::capacity](ds-stack.capacity.html) — Повертає поточну місткість
+    -   [ДсStack::clear](ds-stack.clear.html) — Видаляє всі значення з колекції
+    -   [ДсStack::construct](ds-stack.construct.html) - Створює новий екземпляр класу
+    -   [ДсStack::copy](ds-stack.copy.html) — Повертає поверхневу копію колекції
+    -   [ДсStack::count](ds-stack.count.html) — Повертає кількість елементів колекції
+    -   [ДсStack::isEmpty](ds-stack.isempty.html) — Перевіряє, чи колекція порожня.
+    -   [ДсStack::jsonSerialize](ds-stack.jsonserialize.html) — Повертає колекцію в JSON-представництві
+    -   [ДсStack::peek](ds-stack.peek.html) — Повертає значення з вершини стека
+    -   [ДсStack::pop](ds-stack.pop.html) — Видаляє та повертає значення з вершини стека
+    -   [ДсStack::push](ds-stack.push.html) — Додає значення у стек
+    -   [ДсStack::toArray](ds-stack.toarray.html) — Перетворює колекцію на масив (array)
+-   [Черга](class.ds-queue.html) - Клас Queue
+    -   [ДсQueue::allocate](ds-queue.allocate.html) — Виділяє пам'ять під зазначену місткість
+    -   [ДсQueue::capacity](ds-queue.capacity.html) — Повертає поточну місткість
+    -   [ДсQueue::clear](ds-queue.clear.html) - Видаляє всі значення
+    -   [ДсQueue::construct](ds-queue.construct.html) - Створює новий екземпляр
+    -   [ДсQueue::copy](ds-queue.copy.html) — Повертає поверхневу копію черги
+    -   [ДсQueue::count](ds-queue.count.html) — Повертає кількість елементів черги
+    -   [ДсQueue::isEmpty](ds-queue.isempty.html) — Перевіряє, чи колекція порожня.
+    -   [ДсQueue::jsonSerialize](ds-queue.jsonserialize.html) — Повертає колекцію в JSON-представництві
+    -   [ДсQueue::peek](ds-queue.peek.html) — Повертає значення з початку черги
+    -   [ДсQueue::pop](ds-queue.pop.html) — Видаляє та повертає значення з початку черги
+    -   [ДсQueue::push](ds-queue.push.html) — Додає значення у чергу
+    -   [ДсQueue::toArray](ds-queue.toarray.html) — Перетворює колекцію на масив (array)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html) - Клас PriorityQueue
+    -   [ДсPriorityQueue::allocate](ds-priorityqueue.allocate.html) — Виділяє пам'ять під зазначену місткість
+    -   [ДсPriorityQueue::capacity](ds-priorityqueue.capacity.html) — Повертає поточну місткість
+    -   [ДсPriorityQueue::clear](ds-priorityqueue.clear.html) - Видаляє всі значення
+    -   [ДсPriorityQueue::construct](ds-priorityqueue.construct.html) - Створює новий екземпляр
+    -   [ДсPriorityQueue::copy](ds-priorityqueue.copy.html) — Повертає поверхневу копію черги
+    -   [ДсPriorityQueue::count](ds-priorityqueue.count.html) — Повертає кількість елементів у черзі
+    -   [ДсPriorityQueue::isEmpty](ds-priorityqueue.isempty.html) — Перевіряє, чи колекція порожня.
+    -   [ДсPriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html) — Повертає колекцію в JSON-виставу
+    -   [ДсPriorityQueue::peek](ds-priorityqueue.peek.html) — Повертає значення з початку черги
+    -   [ДсPriorityQueue::pop](ds-priorityqueue.pop.html) — Видаляє та повертає значення з найвищим пріоритетом
+    -   [ДсPriorityQueue::push](ds-priorityqueue.push.html) — Додає значення у чергу
+    -   [ДсPriorityQueue::toArray](ds-priorityqueue.toarray.html) - Перетворює чергу на масив (array)

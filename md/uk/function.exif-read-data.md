@@ -1,12 +1,12 @@
 Читає заголовки EXIF ​​із файлів зображень
 
--   [« exif\_imagetype](function.exif-imagetype.html)
+-   [« exifimagetype](function.exif-imagetype.html)
     
--   [exif\_tagname »](function.exif-tagname.html)
+-   [exiftagname »](function.exif-tagname.html)
     
 -   [PHP Manual](index.html)
     
--   [Exif Функции](ref.exif.html)
+-   [Exif Функції](ref.exif.html)
     
 -   Читає заголовки EXIF ​​із файлів зображень
     
@@ -189,7 +189,7 @@ EXIF Headers:
 
 > **Зауваження**
 > 
-> Якщо дозволено [mbstring](ref.mbstring.html), то exif буде намагатися обробляти юнікод і брати кодування як зазначено в [exif.decode\_unicode\_motorola](exif.configuration.html#ini.exif.decode-unicode-motorola) і [exif.decode\_unicode\_intel](exif.configuration.html#ini.exif.decode-unicode-intel). Модуль exif не намагатиметься самостійно визначити кодування та вказівка ​​правильного кодування залишається на совісті користувача шляхом встановлення однієї з двох INI-директив перед викликом **exifreaddata()**
+> Якщо дозволено [mbstring](ref.mbstring.html), то exif буде намагатися обробляти юнікод і брати кодування як зазначено в [exif.decodeunicodemotorola](exif.configuration.html#ini.exif.decode-unicode-motorola) і [exif.decodeunicodeintel](exif.configuration.html#ini.exif.decode-unicode-intel). Модуль exif не намагатиметься самостійно визначити кодування та вказівка ​​правильного кодування залишається на совісті користувача шляхом встановлення однієї з двох INI-директив перед викликом **exifreaddata()**
 
 > **Зауваження**
 > 
@@ -197,6 +197,6 @@ EXIF Headers:
 
 ### Дивіться також
 
--   [exif\_thumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
+-   [exifthumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
 -   [getimagesize()](function.getimagesize.html) - Отримання розміру зображення
--   [Поддерживаемые протоколы и обёртки](wrappers.html)
+-   [Підтримувані протоколи та обгортки](wrappers.html)

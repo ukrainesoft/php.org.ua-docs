@@ -1,6 +1,6 @@
 Перетворює колекцію на масив (array)
 
--   [« Ds\\Collection::isEmpty](ds-collection.isempty.html)
+-   [« DsCollection::isEmpty](ds-collection.isempty.html)
     
 -   [Хешируемое »](class.ds-hashable.html)
     

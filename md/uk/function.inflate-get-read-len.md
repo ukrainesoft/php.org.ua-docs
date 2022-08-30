@@ -1,8 +1,8 @@
 Отримує кількість прочитаних байт
 
--   [« inflate\_add](function.inflate-add.html)
+-   [« inflateadd](function.inflate-add.html)
     
--   [inflate\_get\_status »](function.inflate-get-status.html)
+-   [inflategetstatus »](function.inflate-get-status.html)
     
 -   [PHP Manual](index.html)
     

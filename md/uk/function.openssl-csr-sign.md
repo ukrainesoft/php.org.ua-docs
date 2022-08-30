@@ -1,8 +1,8 @@
 Підписати CSR за допомогою іншого сертифіката (або ним же) і створити сертифікат
 
--   [« openssl\_csr\_new](function.openssl-csr-new.html)
+-   [« opensslcsrnew](function.openssl-csr-new.html)
     
--   [openssl\_decrypt »](function.openssl-decrypt.html)
+-   [openssldecrypt »](function.openssl-decrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 `csr`
 
-Створений за допомогою [openssl\_csr\_new()](function.openssl-csr-new.html) CSR. Також може бути шляхом кодованого в PEM CSR, якщо задано як file://path/to/csr або експортованим рядком, створеним за допомогою [openssl\_csr\_export()](function.openssl-csr-export.html)
+Створений за допомогою [opensslcsrnew()](function.openssl-csr-new.html) CSR. Також може бути шляхом кодованого в PEM CSR, якщо задано як file://path/to/csr або експортованим рядком, створеним за допомогою [opensslcsrexport()](function.openssl-csr-export.html)
 
 `ca_certificate`
 
@@ -47,7 +47,7 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 `options`
 
-Можна тонко налаштувати підпис CSR за допомогою `options`. Подробиці дивіться в описі функції [openssl\_csr\_new()](function.openssl-csr-new.html), у розділі присвяченому параметру `options`
+Можна тонко налаштувати підпис CSR за допомогою `options`. Подробиці дивіться в описі функції [opensslcsrnew()](function.openssl-csr-new.html), у розділі присвяченому параметру `options`
 
 `serial`
 

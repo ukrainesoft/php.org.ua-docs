@@ -1,8 +1,8 @@
 Повертає всі попереджувальні повідомлення IMAP.
 
--   [« imap\_8bit](function.imap-8bit.html)
+-   [« imap8bit](function.imap-8bit.html)
     
--   [imap\_append »](function.imap-append.html)
+-   [imapappend »](function.imap-append.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ imap_alerts(): array|false
 
 ### Дивіться також
 
--   [imap\_errors()](function.imap-errors.html) - Отримати всі помилки, що відбулися IMAP
+-   [imaperrors()](function.imap-errors.html) - Отримати всі помилки, що відбулися IMAP

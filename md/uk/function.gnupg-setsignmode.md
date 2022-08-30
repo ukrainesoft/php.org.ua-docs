@@ -1,12 +1,12 @@
 Встановлює режим підписування
 
--   [« gnupg\_seterrormode](function.gnupg-seterrormode.html)
+-   [« gnupgseterrormode](function.gnupg-seterrormode.html)
     
--   [gnupg\_sign »](function.gnupg-sign.html)
+-   [gnupgsign »](function.gnupg-sign.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Встановлює режим підписування
     
@@ -29,7 +29,7 @@ gnupg_setsignmode(resource $identifier, int $signmode): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `sigmode`
 

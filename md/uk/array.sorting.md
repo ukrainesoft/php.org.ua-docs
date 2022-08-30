@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](array.constants.html)
     
--   [Функции для работы с массивами »](ref.array.html)
+-   [Функції для роботи з масивами »](ref.array.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,18 +25,18 @@
 
 **Властивості функцій сортування**
 
-| Имя функции                                         | Сортирует по | Сохраняет связь ключ - значение                | Порядок сортировки                       | Похожие функции                            |
-|-----------------------------------------------------|--------------|------------------------------------------------|------------------------------------------|--------------------------------------------|
-| [array\_multisort()](function.array-multisort.html) | значенням    | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [array\_walk()](function.array-walk.html)  |
-| [asort()](function.asort.html)                      | значенням    | так                                            | за зростанням                            | [arsort()](function.arsort.html)           |
-| [arsort()](function.arsort.html)                    | значенням    | так                                            | по спаданню                              | [asort()](function.asort.html)             |
-| [krsort()](function.krsort.html)                    | ключу        | так                                            | по спаданню                              | [ksort()](function.ksort.html)             |
-| [ksort()](function.ksort.html)                      | ключу        | так                                            | за зростанням                            | [krsort()](function.krsort.html)           |
-| [natcasesort()](function.natcasesort.html)          | значенням    | так                                            | природний, нечутливий до регістру        | [natsort()](function.natsort.html)         |
-| [natsort()](function.natsort.html)                  | значенням    | так                                            | природний                                | [natcasesort()](function.natcasesort.html) |
-| [rsort()](function.rsort.html)                      | значенням    | ні                                             | по спаданню                              | [sort()](function.sort.html)               |
-| [shuffle()](function.shuffle.html)                  | значенням    | ні                                             | випадковий                               | [array\_rand()](function.array-rand.html)  |
-| [sort()](function.sort.html)                        | значенням    | ні                                             | за зростанням                            | [rsort()](function.rsort.html)             |
-| [uasort()](function.uasort.html)                    | значенням    | так                                            | визначається користувачем                | [uksort()](function.uksort.html)           |
-| [uksort()](function.uksort.html)                    | ключу        | так                                            | визначається користувачем                | [uasort()](function.uasort.html)           |
-| [usort()](function.usort.html)                      | значенням    | ні                                             | визначається користувачем                | [uasort()](function.uasort.html)           |
+| Имя функции                                       | Сортирует по | Сохраняет связь ключ - значение                | Порядок сортировки                       | Похожие функции                            |
+|---------------------------------------------------|--------------|------------------------------------------------|------------------------------------------|--------------------------------------------|
+| [arraymultisort()](function.array-multisort.html) | значенням    | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [arraywalk()](function.array-walk.html)    |
+| [asort()](function.asort.html)                    | значенням    | так                                            | за зростанням                            | [arsort()](function.arsort.html)           |
+| [arsort()](function.arsort.html)                  | значенням    | так                                            | по спаданню                              | [asort()](function.asort.html)             |
+| [krsort()](function.krsort.html)                  | ключу        | так                                            | по спаданню                              | [ksort()](function.ksort.html)             |
+| [ksort()](function.ksort.html)                    | ключу        | так                                            | за зростанням                            | [krsort()](function.krsort.html)           |
+| [natcasesort()](function.natcasesort.html)        | значенням    | так                                            | природний, нечутливий до регістру        | [natsort()](function.natsort.html)         |
+| [natsort()](function.natsort.html)                | значенням    | так                                            | природний                                | [natcasesort()](function.natcasesort.html) |
+| [rsort()](function.rsort.html)                    | значенням    | ні                                             | по спаданню                              | [sort()](function.sort.html)               |
+| [shuffle()](function.shuffle.html)                | значенням    | ні                                             | випадковий                               | [arrayrand()](function.array-rand.html)    |
+| [sort()](function.sort.html)                      | значенням    | ні                                             | за зростанням                            | [rsort()](function.rsort.html)             |
+| [uasort()](function.uasort.html)                  | значенням    | так                                            | визначається користувачем                | [uksort()](function.uksort.html)           |
+| [uksort()](function.uksort.html)                  | ключу        | так                                            | визначається користувачем                | [uasort()](function.uasort.html)           |
+| [usort()](function.usort.html)                    | значенням    | ні                                             | визначається користувачем                | [uasort()](function.uasort.html)           |

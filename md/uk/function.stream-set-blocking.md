@@ -1,12 +1,12 @@
 Встановити блокуючий/неблокуючий режим у потоці
 
--   [« stream\_select](function.stream-select.html)
+-   [« streamselect](function.stream-select.html)
     
--   [stream\_set\_chunk\_size »](function.stream-set-chunk-size.html)
+-   [streamsetchunksize »](function.stream-set-chunk-size.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановити блокуючий/неблокуючий режим у потоці
     
@@ -49,4 +49,4 @@ stream_set_blocking(resource $stream, bool $enable): bool
 
 ### Дивіться також
 
--   [stream\_select()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [streamselect()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds

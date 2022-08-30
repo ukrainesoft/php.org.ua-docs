@@ -1,8 +1,8 @@
 Повертає колекцію в JSON-представництві
 
--   [« Ds\\Set::join](ds-set.join.html)
+-   [« DsSet::join](ds-set.join.html)
     
--   [Ds\\Set::last »](ds-set.last.html)
+-   [ДсSet::last »](ds-set.last.html)
     
 -   [PHP Manual](index.html)
     

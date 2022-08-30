@@ -2,7 +2,7 @@
 
 -   [« SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.html)
     
--   [SyncSharedMemory::\_\_construct »](syncsharedmemory.construct.html)
+-   [SyncSharedMemory::construct »](syncsharedmemory.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,7 +49,7 @@ public write(string $string = ?, int $start = 0)
 
 ## Зміст
 
--   [SyncSharedMemory::\_\_construct](syncsharedmemory.construct.html) — Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::construct](syncsharedmemory.construct.html) — Створює новий об'єкт SyncSharedMemory
 -   [SyncSharedMemory::first](syncsharedmemory.first.html) — Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
 -   [SyncSharedMemory::read](syncsharedmemory.read.html) — Копіює дані з іменованої пам'яті, що розділяється
 -   [SyncSharedMemory::size](syncsharedmemory.size.html) — Повертає розмір іменованої пам'яті, що розділяється.

@@ -1,8 +1,8 @@
 Отримує записи з бази даних як з індексованого масиву
 
--   [« dbase\_get\_record\_with\_names](function.dbase-get-record-with-names.html)
+-   [« dbasegetrecordwithnames](function.dbase-get-record-with-names.html)
     
--   [dbase\_numfields »](function.dbase-numfields.html)
+-   [dbasenumfields »](function.dbase-numfields.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ dbase_get_record(resource $database, int $number): array
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 `number`
 
@@ -37,13 +37,13 @@ dbase_get_record(resource $database, int $number): array
 
 ### Значення, що повертаються
 
-Повертає запис як масиву. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbase\_delete\_record()](function.dbase-delete-record.html)
+Повертає запис як масиву. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.html)
 
 Кожне поле перетворюється на відповідний тип PHP, за винятком:
 
 -   Date перетворюється на рядок.
 -   DateTime перетворюється на рядок.
--   Цілі, що виходять із діапазону **`PHP_INT_MIN`****`PHP_INT_MAX`** перетворюються на рядки.
+-   Цілі, що виходять із діапазону **`PHP_INT_MIN`\*\*\*\*`PHP_INT_MAX`** перетворюються на рядки.
 -   До dbase 7.0.0, логічні значення (`L`) перетворюються на `1` або `0`
 
 У разі виникнення помилки, **dbasegetrecord()** повертає **`false`**
@@ -56,4 +56,4 @@ dbase_get_record(resource $database, int $number): array
 
 ### Дивіться також
 
--   [dbase\_get\_record\_with\_names()](function.dbase-get-record-with-names.html) - Отримує запис із бази даних у вигляді асоціативного масиву
+-   [dbasegetrecordwithnames()](function.dbase-get-record-with-names.html) - Отримує запис із бази даних у вигляді асоціативного масиву

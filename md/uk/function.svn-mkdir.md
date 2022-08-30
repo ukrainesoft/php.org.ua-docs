@@ -1,12 +1,12 @@
 Створює директорію в робочій копії чи репозиторії
 
--   [« svn\_ls](function.svn-ls.html)
+-   [« svnлс](function.svn-ls.html)
     
--   [svn\_repos\_create »](function.svn-repos-create.html)
+-   [svnreposcreate »](function.svn-repos-create.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює директорію в робочій копії чи репозиторії
     
@@ -37,5 +37,5 @@ svn_mkdir(string $path, string $log_message = ?): bool
 
 ### Дивіться також
 
--   [svn\_add()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
+-   [svnadd()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
 -   **svncopy()**

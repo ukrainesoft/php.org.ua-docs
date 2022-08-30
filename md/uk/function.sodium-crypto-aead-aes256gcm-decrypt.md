@@ -1,8 +1,8 @@
 Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM
 
--   [« sodium\_compare](function.sodium-compare.html)
+-   [« sodiumcompare](function.sodium-compare.html)
     
--   [sodium\_crypto\_aead\_aes256gcm\_encrypt »](function.sodium-crypto-aead-aes256gcm-encrypt.html)
+-   [sodiumcryptoaeadaes256gcmencrypt »](function.sodium-crypto-aead-aes256gcm-encrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ sodiumcryptoaeadaes256gcmdecrypt — Перевірка та розшифрув�
 sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
-Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodium\_crypto\_aead\_aes256gcm\_is\_available()](function.sodium-crypto-aead-aes256gcm-is-available.html) повертає **`true`**
+Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.html) повертає **`true`**
 
 ### Список параметрів
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodium\_crypto\_aead\_aes256gcm\_encrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.html) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 

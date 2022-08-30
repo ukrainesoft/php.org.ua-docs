@@ -1,8 +1,8 @@
 Повертає статус файлу
 
--   [« eio\_link](function.eio-link.html)
+-   [« eiolink](function.eio-link.html)
     
--   [eio\_mkdir »](function.eio-mkdir.html)
+-   [eiomkdir »](function.eio-mkdir.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -125,5 +125,5 @@ array(12) {
 
 ### Дивіться також
 
--   [eio\_stat()](function.eio-stat.html) - Повертає статус файлу
--   [eio\_fstat()](function.eio-fstat.html) - Повертає статус файлу
+-   [eiostat()](function.eio-stat.html) - Повертає статус файлу
+-   [eiofstat()](function.eio-fstat.html) - Повертає статус файлу

@@ -1,12 +1,12 @@
 Частота таймера в тиках за секунду
 
--   [« HRTime\\PerformanceCounter](class.hrtime-performancecounter.html)
+-   [« HRTimePerformanceCounter](class.hrtime-performancecounter.html)
     
--   [HRTime\\PerformanceCounter::getTicks »](hrtime-performancecounter.getticks.html)
+-   [HRTimePerformanceCounter::getTicks »](hrtime-performancecounter.getticks.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html)
+-   [HRTimePerformanceCounter](class.hrtime-performancecounter.html)
     
 -   Частота таймера в тиках за секунду
     

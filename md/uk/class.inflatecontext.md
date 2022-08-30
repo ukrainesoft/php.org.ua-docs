@@ -2,7 +2,7 @@
 
 -   [« DeflateContext](class.deflatecontext.html)
     
--   [Криптографические модули »](refs.crypto.html)
+-   [Криптографічні модулі »](refs.crypto.html)
     
 -   [PHP Manual](index.html)
     

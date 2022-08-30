@@ -1,8 +1,8 @@
 Клас SolrPingResponse
 
--   [« SolrUpdateResponse::\_\_destruct](solrupdateresponse.destruct.html)
+-   [« SolrUpdateResponse::destruct](solrupdateresponse.destruct.html)
     
--   [SolrPingResponse::\_\_construct »](solrpingresponse.construct.html)
+-   [SolrPingResponse::construct »](solrpingresponse.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -133,6 +133,6 @@ httpdigestedresponse
 
 ## Зміст
 
--   [SolrPingResponse::\_\_construct](solrpingresponse.construct.html) - Конструктор
--   [SolrPingResponse::\_\_destruct](solrpingresponse.destruct.html) - Деструктор
+-   [SolrPingResponse::construct](solrpingresponse.construct.html) - Конструктор
+-   [SolrPingResponse::destruct](solrpingresponse.destruct.html) - Деструктор
 -   [SolrPingResponse::getResponse](solrpingresponse.getresponse.html) — Повертає відповідь від сервера

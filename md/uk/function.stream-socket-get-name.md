@@ -1,12 +1,12 @@
 Отримати назву локального або віддаленого сокету
 
--   [« stream\_socket\_enable\_crypto](function.stream-socket-enable-crypto.html)
+-   [« streamsocketenablecrypto](function.stream-socket-enable-crypto.html)
     
--   [stream\_socket\_pair »](function.stream-socket-pair.html)
+-   [streamsocketpair »](function.stream-socket-pair.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Отримати назву локального або віддаленого сокету
     
@@ -41,4 +41,4 @@ stream_socket_get_name(resource $socket, bool $remote): string|false
 
 ### Дивіться також
 
--   [stream\_socket\_accept()](function.stream-socket-accept.html) - Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
+-   [streamsocketaccept()](function.stream-socket-accept.html) - Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver

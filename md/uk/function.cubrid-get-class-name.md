@@ -1,8 +1,8 @@
 Отримує ім'я класу за допомогою OID
 
--   [« cubrid\_get\_charset](function.cubrid-get-charset.html)
+-   [« cubridgetcharset](function.cubrid-get-charset.html)
     
--   [cubrid\_get\_client\_info »](function.cubrid-get-client-info.html)
+-   [cubridgetclientinfo »](function.cubrid-get-client-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,5 +65,5 @@ code
 
 ### Дивіться також
 
--   [cubrid\_is\_instance()](function.cubrid-is-instance.html) - Перевіряє, чи існує екземпляр, на який вказує OID
--   [cubrid\_drop()](function.cubrid-drop.html) - Видалення екземпляра за OID
+-   [cubridісinstance()](function.cubrid-is-instance.html) - Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubriddrop()](function.cubrid-drop.html) - Видалення екземпляра за OID

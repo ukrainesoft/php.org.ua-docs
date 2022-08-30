@@ -1,8 +1,8 @@
 Повертає останню помилку поточної сесії перевірки
 
--   [« enchant\_dict\_describe](function.enchant-dict-describe.html)
+-   [« enchantdictdescribe](function.enchant-dict-describe.html)
     
--   [enchant\_dict\_is\_added »](function.enchant-dict-is-added.html)
+-   [enchantdictісadded »](function.enchant-dict-is-added.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,11 +29,11 @@ enchant_dict_get_error(EnchantDictionary $dictionary): string|false
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 ### Значення, що повертаються
 
-Повертає рядок з помилкою або **`false`**якщо такої немає.
+Повертає рядок з помилкою або \*\*`false`\*\*якщо такої немає.
 
 ### список змін
 

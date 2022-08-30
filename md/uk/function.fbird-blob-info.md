@@ -1,8 +1,8 @@
 Псевдонім ibaseblobinfo
 
--   [« fbird\_blob\_import](function.fbird-blob-import.html)
+-   [« fbirdblobimport](function.fbird-blob-import.html)
     
--   [fbird\_blob\_open »](function.fbird-blob-open.html)
+-   [fbirdblobopen »](function.fbird-blob-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobinfo - Псевдонім [ibase\_blob\_info()](function.ibase-blob-info.html)
+fbirdblobinfo - Псевдонім [ibaseblobinfo()](function.ibase-blob-info.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_blob\_info()](function.ibase-blob-info.html)
+Ця функція є псевдонімом: [ibaseblobinfo()](function.ibase-blob-info.html)

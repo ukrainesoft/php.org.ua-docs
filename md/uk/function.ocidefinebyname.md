@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocidefinebyname - Псевдонім [oci\_define\_by\_name()](function.oci-define-by-name.html)
+ocidefinebyname - Псевдонім [ocidefineбname()](function.oci-define-by-name.html)
 
 ### Опис
 
-Псевдонім [oci\_define\_by\_name()](function.oci-define-by-name.html)
+Псевдонім [ocidefineбname()](function.oci-define-by-name.html)
 
 **Увага**
 

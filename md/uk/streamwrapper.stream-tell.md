@@ -1,8 +1,8 @@
 Визначення поточної позиції потоку
 
--   [« streamWrapper::stream\_stat](streamwrapper.stream-stat.html)
+-   [« streamWrapper::streamstat](streamwrapper.stream-stat.html)
     
--   [streamWrapper::stream\_truncate »](streamwrapper.stream-truncate.html)
+-   [streamWrapper::streamtruncate »](streamwrapper.stream-truncate.html)
     
 -   [PHP Manual](index.html)
     

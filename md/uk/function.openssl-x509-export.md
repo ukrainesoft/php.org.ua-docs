@@ -1,8 +1,8 @@
 Експортує сертифікат у рядок
 
--   [« openssl\_x509\_export\_to\_file](function.openssl-x509-export-to-file.html)
+-   [« opensslx509exportтоfile](function.openssl-x509-export-to-file.html)
     
--   [openssl\_x509\_fingerprint »](function.openssl-x509-fingerprint.html)
+-   [opensslx509fingerprint »](function.openssl-x509-fingerprint.html)
     
 -   [PHP Manual](index.html)
     

@@ -99,7 +99,7 @@ echo $interval->format('%R%a дней');
 
 > **Зауваження**
 > 
-> Об'єкти [DateTimeImmutable](class.datetimeimmutable.html) і [DateTime](class.datetime.html) можуть порівнюватися за допомогою [операторов сравнения](language.operators.comparison.html)
+> Об'єкти [DateTimeImmutable](class.datetimeimmutable.html) і [DateTime](class.datetime.html) можуть порівнюватися за допомогою [операторів порівняння](language.operators.comparison.html)
 
 ```php
 <?php

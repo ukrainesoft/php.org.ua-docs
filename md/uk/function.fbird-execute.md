@@ -1,8 +1,8 @@
 Псевдонім ibaseexecute
 
--   [« fbird\_errmsg](function.fbird-errmsg.html)
+-   [« fbirderrmsg](function.fbird-errmsg.html)
     
--   [fbird\_fetch\_assoc »](function.fbird-fetch-assoc.html)
+-   [fbirdfetchassoc »](function.fbird-fetch-assoc.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,12 +15,12 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdexecute - Псевдонім [ibase\_execute()](function.ibase-execute.html)
+fbirdexecute - Псевдонім [ibaseexecute()](function.ibase-execute.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_execute()](function.ibase-execute.html)
+Ця функція є псевдонімом: [ibaseexecute()](function.ibase-execute.html)
 
 ### Дивіться також
 
--   [fbird\_query()](function.fbird-query.html) - Псевдонім ibasequery
+-   [fbirdquery()](function.fbird-query.html) - Псевдонім ibasequery

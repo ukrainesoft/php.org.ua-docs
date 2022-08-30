@@ -1,8 +1,8 @@
 Встановлює режим авто-комміту для з'єднання
 
--   [« cubrid\_set\_add](function.cubrid-set-add.html)
+-   [« cubridsetadd](function.cubrid-set-add.html)
     
--   [cubrid\_set\_db\_parameter »](function.cubrid-set-db-parameter.html)
+-   [cubridsetдбparameter »](function.cubrid-set-db-parameter.html)
     
 -   [PHP Manual](index.html)
     
@@ -46,5 +46,5 @@ cubrid_set_autocommit(resource $conn_identifier, bool $mode): bool
 
 ### Дивіться також
 
--   [cubrid\_get\_autocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання
--   [cubrid\_commit()](function.cubrid-commit.html) - підтвердження транзакції
+-   [cubridgetautocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання
+-   [cubridcommit()](function.cubrid-commit.html) - підтвердження транзакції

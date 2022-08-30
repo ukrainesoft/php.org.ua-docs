@@ -1,8 +1,8 @@
 Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
 
--   [« curl\_init](function.curl-init.html)
+-   [« curlinit](function.curl-init.html)
     
--   [curl\_multi\_close »](function.curl-multi-close.html)
+-   [curlmulticlose »](function.curl-multi-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,11 +29,11 @@ curl_multi_add_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 
@@ -88,6 +88,6 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curl\_multi\_remove\_handle()](function.curl-multi-remove-handle.html) - Видаляє cURL дескриптор з набору cURL дескрипторів
--   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
--   [curl\_init()](function.curl-init.html) - Ініціалізує сеанс cURL
+-   [curlmultiremovehandle()](function.curl-multi-remove-handle.html) - Видаляє cURL дескриптор з набору cURL дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
+-   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL

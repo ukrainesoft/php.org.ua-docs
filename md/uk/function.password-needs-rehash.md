@@ -1,12 +1,12 @@
 Перевіряє, що зазначений хеш відповідає заданим опціям
 
--   [« password\_hash](function.password-hash.html)
+-   [« passwordhash](function.password-hash.html)
     
--   [password\_verify »](function.password-verify.html)
+-   [passwordverify »](function.password-verify.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции хеширования паролей](ref.password.html)
+-   [Функції хешування паролів](ref.password.html)
     
 -   Перевіряє, що зазначений хеш відповідає заданим опціям
     
@@ -29,7 +29,7 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 `hash`
 
-Хеш, створений функцією [password\_hash()](function.password-hash.html)
+Хеш, створений функцією [passwordhash()](function.password-hash.html)
 
 `algo`
 
@@ -41,7 +41,7 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо пароль повинен бути перехешований з використанням алгоритму `algo` та опцій `options`, або **`false`**, якщо ні.
+Повертає \*\*`true`\*\*якщо пароль повинен бути перехешований з використанням алгоритму `algo` та опцій `options`, або **`false`**, якщо ні.
 
 ### список змін
 

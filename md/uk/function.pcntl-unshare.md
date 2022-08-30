@@ -1,12 +1,12 @@
 Поділяє частини контексту виконання процесу
 
--   [« pcntl\_strerror](function.pcntl-strerror.html)
+-   [pcntlstrerror](function.pcntl-strerror.html)
     
--   [pcntl\_wait »](function.pcntl-wait.html)
+-   [pcntlwait »](function.pcntl-wait.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Поділяє частини контексту виконання процесу
     
@@ -41,9 +41,9 @@ pcntl_unshare(int $flags): bool
 
 ### Значення, що повертаються
 
-Повертає `0` у разі успішного виконання, `-1` в іншому випадку. У разі виникнення помилки встановлюється код помилки, який можна отримати за допомогою функції [pcntl\_get\_last\_error()](function.pcntl-get-last-error.html)
+Повертає `0` у разі успішного виконання, `-1` в іншому випадку. У разі виникнення помилки встановлюється код помилки, який можна отримати за допомогою функції [pcntlgetlasterror()](function.pcntl-get-last-error.html)
 
 ### Дивіться також
 
 -   [Константы PCNTL](pcntl.constants.html#pcntl.constants.clone)
--   [pcntl\_get\_last\_error()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції
+-   [pcntlgetlasterror()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції

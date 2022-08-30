@@ -1,12 +1,12 @@
 Анонімні функції
 
--   [« Встроенные функции](functions.internal.html)
+-   [« Вбудовані функції](functions.internal.html)
     
--   [Стрелочные функции »](functions.arrow.html)
+-   [Стрілкові функції »](functions.arrow.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](language.functions.html)
+-   [Функції](language.functions.html)
     
 -   Анонімні функції
     
@@ -200,7 +200,7 @@ object(Test)#1 (0) {
 }
 ```
 
-При оголошенні в контексті класу, поточний клас буде автоматично пов'язаний з ним, роблячи `$this` доступним усередині функцій класу. Якщо ви не бажаєте автоматичного зв'язування з поточним класом, використовуйте [статические анонимные функции](functions.anonymous.html#functions.anonymous-functions.static)
+При оголошенні в контексті класу, поточний клас буде автоматично пов'язаний з ним, роблячи `$this` доступним усередині функцій класу. Якщо ви не бажаєте автоматичного зв'язування з поточним класом, використовуйте [статичні анонімні функції](functions.anonymous.html#functions.anonymous-functions.static)
 
 ### Статичні анонімні функції
 
@@ -261,4 +261,4 @@ Warning: Cannot bind an instance to a static closure in %s on line %d
 
 ### Примітки
 
-> **Зауваження**: Спільно із замиканнями можна використовувати функції [func\_num\_args()](function.func-num-args.html) [func\_get\_arg()](function.func-get-arg.html) і [func\_get\_args()](function.func-get-args.html)
+> **Зауваження**: Спільно із замиканнями можна використовувати функції [funcnumargs()](function.func-num-args.html) [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.html)

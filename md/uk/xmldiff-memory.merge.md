@@ -1,12 +1,12 @@
 Застосувати зміни до документа XML
 
--   [« XMLDiff\\Memory::diff](xmldiff-memory.diff.html)
+-   [« XMLDiffMemory::diff](xmldiff-memory.diff.html)
     
--   [XMLDiff\\File »](class.xmldiff-file.html)
+-   [XMLDiffFile »](class.xmldiff-file.html)
     
 -   [PHP Manual](index.html)
     
--   [XMLDiff\\Memory](class.xmldiff-memory.html)
+-   [XMLDiffMemory](class.xmldiff-memory.html)
     
 -   Застосувати зміни до документа XML
     

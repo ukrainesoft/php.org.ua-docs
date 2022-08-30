@@ -1,12 +1,12 @@
 Отримує замикання
 
--   [« Componere\\Patch::derive](componere-patch.derive.html)
+-   [« ComponerePatch::derive](componere-patch.derive.html)
     
--   [Componere\\Patch::getClosures »](componere-patch.getclosures.html)
+-   [ComponerePatch::getClosures »](componere-patch.getclosures.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Patch](class.componere-patch.html)
+-   [ComponerePatch](class.componere-patch.html)
     
 -   Отримує замикання
     

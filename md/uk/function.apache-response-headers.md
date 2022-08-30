@@ -1,8 +1,8 @@
 Повертає список усіх HTTP-заголовків відповіді Apache
 
--   [« apache\_request\_headers](function.apache-request-headers.html)
+-   [« apacherequestheaders](function.apache-request-headers.html)
     
--   [apache\_setenv »](function.apache-setenv.html)
+-   [apachesetenv »](function.apache-setenv.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,6 +55,6 @@ Array
 
 ### Дивіться також
 
--   [apache\_request\_headers()](function.apache-request-headers.html) - Отримує список усіх заголовків HTTP-запиту
--   [headers\_sent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
--   [headers\_list()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
+-   [apacherequestheaders()](function.apache-request-headers.html) - Отримує список усіх заголовків HTTP-запиту
+-   [headerssent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
+-   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)

@@ -1,12 +1,12 @@
 Повертає кількість елементів двосторонньої черги
 
--   [« Ds\\Deque::copy](ds-deque.copy.html)
+-   [« DsDeque::copy](ds-deque.copy.html)
     
--   [Ds\\Deque::filter »](ds-deque.filter.html)
+-   [ДсDeque::filter »](ds-deque.filter.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає кількість елементів двосторонньої черги
     

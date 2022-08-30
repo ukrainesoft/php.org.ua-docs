@@ -1,12 +1,12 @@
 Порівняння чисел
 
--   [« gmp\_clrbit](function.gmp-clrbit.html)
+-   [« gmpclrbit](function.gmp-clrbit.html)
     
--   [gmp\_com »](function.gmp-com.html)
+-   [gmpcom »](function.gmp-com.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Порівняння чисел
     

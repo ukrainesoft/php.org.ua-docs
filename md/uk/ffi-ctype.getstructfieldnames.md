@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getSize](ffi-ctype.getsize.html)
+-   [« FFICType::getSize](ffi-ctype.getsize.html)
     
--   [FFI\\CType::getStructFieldOffset »](ffi-ctype.getstructfieldoffset.html)
+-   [FFICType::getStructFieldOffset »](ffi-ctype.getstructfieldoffset.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

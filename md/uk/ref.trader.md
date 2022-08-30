@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](trader.constants.html)
     
--   [trader\_acos »](function.trader-acos.html)
+-   [traderacos »](function.trader-acos.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,166 +15,166 @@
 
 ## Зміст
 
--   [trader\_acos](function.trader-acos.html) - Векторний тригонометричний арккосинус
--   [trader\_ad](function.trader-ad.html) - Індикатор Чайкіна Накопичення/Розпродаж
--   [trader\_add](function.trader-add.html) — Арифметичне складання вектора
--   [trader\_adosc](function.trader-adosc.html) - Осцилятор Чайкіна
--   [trader\_adx](function.trader-adx.html) - Середній індекс спрямованого руху
--   [trader\_adxr](function.trader-adxr.html) - Середній рейтинг індексу спрямованого руху
--   [trader\_apo](function.trader-apo.html) - Абсолютний ціновий осцилятор
--   [trader\_aroon](function.trader-aroon.html) - Індикатор Aroon
--   [trader\_aroonosc](function.trader-aroonosc.html) - Осцилятор індикатора Aroon
--   [trader\_asin](function.trader-asin.html) — Векторний тригонометричний арксинус
--   [trader\_atan](function.trader-atan.html) — Векторний тригонометричний арктангенс
--   [trader\_atr](function.trader-atr.html) — Середній дійсний діапазон
--   [trader\_avgprice](function.trader-avgprice.html) - Середня ціна
--   [trader\_bbands](function.trader-bbands.html) - Смуги Боллінджера
--   [trader\_beta](function.trader-beta.html) - Бета
--   [trader\_bop](function.trader-bop.html) - Баланс сил
--   [trader\_cci](function.trader-cci.html) - Індекс товарного каналу
--   [trader\_cdl2crows](function.trader-cdl2crows.html) - Дві ворони
--   [trader\_cdl3blackcrows](function.trader-cdl3blackcrows.html) — Три чорні ворони
--   [trader\_cdl3inside](function.trader-cdl3inside.html) - Три дні зсередини вгору і три дні зсередини вниз
--   [trader\_cdl3linestrike](function.trader-cdl3linestrike.html) - Потрійний удар
--   [trader\_cdl3outside](function.trader-cdl3outside.html) — Три зовнішні дні вгору і три зовнішні дні вниз
--   [trader\_cdl3starsinsouth](function.trader-cdl3starsinsouth.html) — Три південні зірки
--   [trader\_cdl3whitesoldiers](function.trader-cdl3whitesoldiers.html) — Три наступаючі білі солдати
--   [trader\_cdlabandonedbaby](function.trader-cdlabandonedbaby.html) — Покинута дитина
--   [trader\_cdladvanceblock](function.trader-cdladvanceblock.html) - Відбитий наступ
--   [trader\_cdlbelthold](function.trader-cdlbelthold.html) - Захоплення за пояс
--   [trader\_cdlbreakaway](function.trader-cdlbreakaway.html) - Відрив
--   [trader\_cdlclosingmarubozu](function.trader-cdlclosingmarubozu.html) - Закриття марубозу
--   [trader\_cdlconcealbabyswall](function.trader-cdlconcealbabyswall.html) — Ластівка, що ховається.
--   [trader\_cdlcounterattack](function.trader-cdlcounterattack.html) - Контратака
--   [trader\_cdldarkcloudcover](function.trader-cdldarkcloudcover.html) - Завіса з темних хмар
--   [trader\_cdldoji](function.trader-cdldoji.html) - Дожі
--   [trader\_cdldojistar](function.trader-cdldojistar.html) - Дожі-зірка
--   [trader\_cdldragonflydoji](function.trader-cdldragonflydoji.html) — Бабка дожі
--   [trader\_cdlengulfing](function.trader-cdlengulfing.html) - Модель поглинання
--   [trader\_cdleveningdojistar](function.trader-cdleveningdojistar.html) - Вечірня дожі-зірка
--   [trader\_cdleveningstar](function.trader-cdleveningstar.html) - Вечірня зірка
--   [trader\_cdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.html) - Свічкова модель "Суміжні білі свічки"
--   [trader\_cdlgravestonedoji](function.trader-cdlgravestonedoji.html) - Дожі-надгробки
--   [trader\_cdlhammer](function.trader-cdlhammer.html) - Молот
--   [trader\_cdlhangingman](function.trader-cdlhangingman.html) - Вісельник
--   [trader\_cdlharami](function.trader-cdlharami.html) - Паттерн Харамі
--   [trader\_cdlharamicross](function.trader-cdlharamicross.html) - Паттерн "Хрест Харамі"
--   [trader\_cdlhighwave](function.trader-cdlhighwave.html) - Свічкова модель "Висока хвиля"
--   [trader\_cdlhikkake](function.trader-cdlhikkake.html) - Свічкова модель "Крюк"
--   [trader\_cdlhikkakemod](function.trader-cdlhikkakemod.html) - Модифікована свічкова модель "Крюк"
--   [trader\_cdlhomingpigeon](function.trader-cdlhomingpigeon.html) - Свічкова модель "Поштовий голуб"
--   [trader\_cdlidentical3crows](function.trader-cdlidentical3crows.html) - Свічкова модель "Три однакові ворони"
--   [trader\_cdlinneck](function.trader-cdlinneck.html) - Свічкова модель "На лінії шиї"
--   [trader\_cdlinvertedhammer](function.trader-cdlinvertedhammer.html) - Свічкова модель "Перевернутий молоток"
--   [trader\_cdlkicking](function.trader-cdlkicking.html) - Свічкова модель "Високий стрибок"
--   [trader\_cdlkickingbylength](function.trader-cdlkickingbylength.html) - Високий стрибок - бик/ведмідь визначається за довгим марубозом
--   [trader\_cdlladderbottom](function.trader-cdlladderbottom.html) - Свічкова модель "Східчасте дно"
--   [trader\_cdllongleggeddoji](function.trader-cdllongleggeddoji.html) - Свічкова модель "Довгоногі доджі"
--   [trader\_cdllongline](function.trader-cdllongline.html) - Свічкова модель "Довга свічка"
--   [trader\_cdlmarubozu](function.trader-cdlmarubozu.html) - Марубозу
--   [trader\_cdlmatchinglow](function.trader-cdlmatchinglow.html) - Свічкова модель "Збіг за нижнім рівнем"
--   [trader\_cdlmathold](function.trader-cdlmathold.html) - Фігура Підстилка
--   [trader\_cdlmorningdojistar](function.trader-cdlmorningdojistar.html) - Ранкова зірка дожі
--   [trader\_cdlmorningstar](function.trader-cdlmorningstar.html) - Ранкова зірка
--   [trader\_cdlonneck](function.trader-cdlonneck.html) - Паттерн "У лінії шиї"
--   [trader\_cdlpiercing](function.trader-cdlpiercing.html) - Паттерн "Просвіт у хмарах"
--   [trader\_cdlrickshawman](function.trader-cdlrickshawman.html) — Довгоногій дожі
--   [trader\_cdlrisefall3methods](function.trader-cdlrisefall3methods.html) — Бича/ведмежа модель "Три методи"
--   [trader\_cdlseparatinglines](function.trader-cdlseparatinglines.html) - Поділ
--   [trader\_cdlshootingstar](function.trader-cdlshootingstar.html) - Падаюча зірка
--   [trader\_cdlshortline](function.trader-cdlshortline.html) - Свічкова модель "Свічка короткої лінії"
--   [trader\_cdlspinningtop](function.trader-cdlspinningtop.html) — Вовчок
--   [trader\_cdlstalledpattern](function.trader-cdlstalledpattern.html) - Гальмування
--   [trader\_cdlsticksandwich](function.trader-cdlsticksandwich.html) - Прилиплий сендвіч
--   [trader\_cdltakuri](function.trader-cdltakuri.html) - Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
--   [trader\_cdltasukigap](function.trader-cdltasukigap.html) - Розрив Тасукі
--   [trader\_cdlthrusting](function.trader-cdlthrusting.html) - Свічкова модель "Поштовх"
--   [trader\_cdltristar](function.trader-cdltristar.html) - Свічкова модель "Трістар"
--   [trader\_cdlunique3river](function.trader-cdlunique3river.html) - Свічкова модель "Особлива западина три річки"
--   [trader\_cdlupsidegap2crows](function.trader-cdlupsidegap2crows.html) - Свічкова модель "Перевернуті дві ворони"
--   [trader\_cdlxsidegap3methods](function.trader-cdlxsidegap3methods.html) - Верх/вниз - три методи
--   [trader\_ceil](function.trader-ceil.html) - Вектор найбільшого цілого числа
--   [trader\_cmo](function.trader-cmo.html) - Осцилятор цінових моментів Чанде
--   [trader\_correl](function.trader-correl.html) - Лінійний коефіцієнт кореляції r-пірсона
--   [trader\_cos](function.trader-cos.html) — Тригонометричний вектор косинуса.
--   [trader\_cosh](function.trader-cosh.html) — Тригонометричний вектор гіперболічного косинуса.
--   [trader\_dema](function.trader-dema.html) — Подвійна експоненційна ковзна середня
--   [trader\_div](function.trader-div.html) - Арифметичний вектор поділу
--   [trader\_dx](function.trader-dx.html) - Індекс спрямованого руху
--   [trader\_ema](function.trader-ema.html) — Експоненційна ковзна середня
--   [trader\_errno](function.trader-errno.html) — Отримати код помилки
--   [trader\_exp](function.trader-exp.html) - Арифметичний вектор зведення в ступінь
--   [trader\_floor](function.trader-floor.html) — Вектор найменшої кількості
--   [trader\_get\_compat](function.trader-get-compat.html) — Отримує режим сумісності
--   [trader\_get\_unstable\_period](function.trader-get-unstable-period.html) — Отримує нестабільний період
--   [trader\_ht\_dcperiod](function.trader-ht-dcperiod.html) - Перетворення Гільберта - період домінуючого циклу
--   [trader\_ht\_dcphase](function.trader-ht-dcphase.html) - Перетворення Гільберта - Фаза домінуючого циклу
--   [trader\_ht\_phasor](function.trader-ht-phasor.html) - Перетворення Гільберта - Phasor Components
--   [trader\_ht\_sine](function.trader-ht-sine.html) - Перетворення Гільберта - SineWave
--   [trader\_ht\_trendline](function.trader-ht-trendline.html) - Перетворення Гільберта - миттєва лінія тренду
--   [trader\_ht\_trendmode](function.trader-ht-trendmode.html) - Перетворення Гільберта - тренд проти циклу
--   [trader\_kama](function.trader-kama.html) — Адаптивна ковзна середня Кауфмана
--   [trader\_linearreg\_angle](function.trader-linearreg-angle.html) - Лінійний регресійний кут
--   [trader\_linearreg\_intercept](function.trader-linearreg-intercept.html) - Перехоплення лінійної регресії
--   [trader\_linearreg\_slope](function.trader-linearreg-slope.html) - Лінійний регресійний нахил
--   [trader\_linearreg](function.trader-linearreg.html) - Лінійна регресія
--   [trader\_ln](function.trader-ln.html) - Вектор натурального логарифму
--   [trader\_log10](function.trader-log10.html) — Вектор логарифму з основи-10
--   [trader\_ma](function.trader-ma.html) — Ковзна середня
--   [trader\_macd](function.trader-macd.html) — Слизька середня збіжність/дивергенція
--   [trader\_macdext](function.trader-macdext.html) - MACD з керованим типом MA
--   [trader\_macdfix](function.trader-macdfix.html) — Виправлення сходження/розходження ковзної середньої 12/26
--   [trader\_mama](function.trader-mama.html) — MESA Адаптивна ковзна середня
--   [trader\_mavp](function.trader-mavp.html) — Ковзна середня зі змінним періодом
--   [trader\_max](function.trader-max.html) — Найбільше значення за вказаний період
--   [trader\_maxindex](function.trader-maxindex.html) - Індекс найбільшого значення за вказаний період
--   [trader\_medprice](function.trader-medprice.html) - Середня ціна
--   [trader\_mfi](function.trader-mfi.html) - Індекс грошових потоків
--   [trader\_midpoint](function.trader-midpoint.html) - Середина відрізка за період
--   [trader\_midprice](function.trader-midprice.html) - Середня ціна за період
--   [trader\_min](function.trader-min.html) — Найменше значення за вказаний період
--   [trader\_minindex](function.trader-minindex.html) - Індекс найменшого значення за певний період
--   [trader\_minmax](function.trader-minmax.html) — Найнижчі та найвищі значення за вказаний період
--   [trader\_minmaxindex](function.trader-minmaxindex.html) — Індекси найнижчих та найвищих значень за вказаний період
--   [trader\_minus\_di](function.trader-minus-di.html) - Мінус-спрямований індикатор
--   [trader\_minus\_dm](function.trader-minus-dm.html) - Мінус-спрямований рух
--   [trader\_mom](function.trader-mom.html) - Моментум
--   [trader\_mult](function.trader-mult.html) - Арифметичний вектор твору
--   [trader\_natr](function.trader-natr.html) — Нормалізований середній дійсний діапазон
--   [trader\_obv](function.trader-obv.html) - Індикатор Балансового об'єму
--   [trader\_plus\_di](function.trader-plus-di.html) - Плюс-спрямований індикатор
--   [trader\_plus\_dm](function.trader-plus-dm.html) - Плюс-спрямований рух
--   [trader\_ppo](function.trader-ppo.html) - Відсотковий ціновий осцилятор
--   [trader\_roc](function.trader-roc.html) - Швидкість зміни: ((ціна/попередня ціна)-1)
--   [trader\_rocp](function.trader-rocp.html) - Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
--   [trader\_rocr100](function.trader-rocr100.html) - Коефіцієнт зміни курсу шкали: (ціна/попередня ціна)
--   [trader\_rocr](function.trader-rocr.html) - Коефіцієнт зміни курсу: (ціна/попередня ціна)
--   [trader\_rsi](function.trader-rsi.html) - Індекс відносної сили
--   [trader\_sar](function.trader-sar.html) - Параболічний SAR
--   [trader\_sarext](function.trader-sarext.html) - Параболічний SAR - розширений
--   [trader\_set\_compat](function.trader-set-compat.html) — Встановлює режим сумісності
--   [trader\_set\_unstable\_period](function.trader-set-unstable-period.html) - Встановлює нестабільний період
--   [trader\_sin](function.trader-sin.html) - Векторний тригонометричний синус
--   [trader\_sinh](function.trader-sinh.html) - Векторний тригонометричний гіперболічний синус
--   [trader\_sma](function.trader-sma.html) — Просте ковзне середнє
--   [trader\_sqrt](function.trader-sqrt.html) - Векторний квадратний корінь
--   [trader\_stddev](function.trader-stddev.html) - Стандартне відхилення
--   [trader\_stoch](function.trader-stoch.html) - Стохастичний осцилятор
--   [trader\_stochf](function.trader-stochf.html) - Швидкий стохастичний осцилятор
--   [trader\_stochrsi](function.trader-stochrsi.html) - Стохастичний відносний індекс сили
--   [trader\_sub](function.trader-sub.html) — Векторне арифметичне віднімання
--   [trader\_sum](function.trader-sum.html) - Підсумовування
--   [trader\_t3](function.trader-t3.html) — Потрійна експоненційна ковзна середня
--   [trader\_tan](function.trader-tan.html) — Векторний тригонометричний тангенс
--   [trader\_tanh](function.trader-tanh.html) — Тригонометричний вектор Тан
--   [trader\_tema](function.trader-tema.html) — Потрійна експоненційна ковзна середня
--   [trader\_trange](function.trader-trange.html) - Справжній діапазон
--   [trader\_trima](function.trader-trima.html) — Трикутна ковзна середня
--   [trader\_trix](function.trader-trix.html) - 1-денна швидкість зміни (ROC) потрійний гладкий EMA
--   [trader\_tsf](function.trader-tsf.html) - Прогноз тимчасового ряду
--   [trader\_typprice](function.trader-typprice.html) - Типова ціна
--   [trader\_ultosc](function.trader-ultosc.html) - Остаточний, граничний осцилятор
--   [trader\_var](function.trader-var.html) - Варіація
--   [trader\_wclprice](function.trader-wclprice.html) - Зважена ціна закриття
--   [trader\_willr](function.trader-willr.html) - Відсотковий діапазон Вільямса
--   [trader\_wma](function.trader-wma.html) — Зважена ковзна середня
+-   [traderacos](function.trader-acos.html) - Векторний тригонометричний арккосинус
+-   [traderпекло](function.trader-ad.html) - Індикатор Чайкіна Накопичення/Розпродаж
+-   [traderadd](function.trader-add.html) — Арифметичне складання вектора
+-   [traderadosc](function.trader-adosc.html) - Осцилятор Чайкіна
+-   [traderadx](function.trader-adx.html) - Середній індекс спрямованого руху
+-   [traderadxr](function.trader-adxr.html) - Середній рейтинг індексу спрямованого руху
+-   [traderapo](function.trader-apo.html) - Абсолютний ціновий осцилятор
+-   [traderaroon](function.trader-aroon.html) - Індикатор Aroon
+-   [traderaroonosc](function.trader-aroonosc.html) - Осцилятор індикатора Aroon
+-   [traderasin](function.trader-asin.html) — Векторний тригонометричний арксинус
+-   [traderatan](function.trader-atan.html) — Векторний тригонометричний арктангенс
+-   [traderatr](function.trader-atr.html) — Середній дійсний діапазон
+-   [traderavgprice](function.trader-avgprice.html) - Середня ціна
+-   [traderbbands](function.trader-bbands.html) - Смуги Боллінджера
+-   [traderbeta](function.trader-beta.html) - Бета
+-   [traderbop](function.trader-bop.html) - Баланс сил
+-   [tradercci](function.trader-cci.html) - Індекс товарного каналу
+-   [tradercdl2crows](function.trader-cdl2crows.html) - Дві ворони
+-   [tradercdl3blackcrows](function.trader-cdl3blackcrows.html) — Три чорні ворони
+-   [tradercdl3inside](function.trader-cdl3inside.html) - Три дні зсередини вгору і три дні зсередини вниз
+-   [tradercdl3linestrike](function.trader-cdl3linestrike.html) - Потрійний удар
+-   [tradercdl3outside](function.trader-cdl3outside.html) — Три зовнішні дні вгору і три зовнішні дні вниз
+-   [tradercdl3starsinsouth](function.trader-cdl3starsinsouth.html) — Три південні зірки
+-   [tradercdl3whitesoldiers](function.trader-cdl3whitesoldiers.html) — Три наступаючі білі солдати
+-   [tradercdlabandonedbaby](function.trader-cdlabandonedbaby.html) — Покинута дитина
+-   [tradercdladvanceblock](function.trader-cdladvanceblock.html) - Відбитий наступ
+-   [tradercdlbelthold](function.trader-cdlbelthold.html) - Захоплення за пояс
+-   [tradercdlbreakaway](function.trader-cdlbreakaway.html) - Відрив
+-   [tradercdlclosingmarubozu](function.trader-cdlclosingmarubozu.html) - Закриття марубозу
+-   [tradercdlconcealbabyswall](function.trader-cdlconcealbabyswall.html) — Ластівка, що ховається.
+-   [tradercdlcounterattack](function.trader-cdlcounterattack.html) - Контратака
+-   [tradercdldarkcloudcover](function.trader-cdldarkcloudcover.html) - Завіса з темних хмар
+-   [tradercdldoji](function.trader-cdldoji.html) - Дожі
+-   [tradercdldojistar](function.trader-cdldojistar.html) - Дожі-зірка
+-   [tradercdldragonflydoji](function.trader-cdldragonflydoji.html) — Бабка дожі
+-   [tradercdlengulfing](function.trader-cdlengulfing.html) - Модель поглинання
+-   [tradercdleveningdojistar](function.trader-cdleveningdojistar.html) - Вечірня дожі-зірка
+-   [tradercdleveningstar](function.trader-cdleveningstar.html) - Вечірня зірка
+-   [tradercdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.html) - Свічкова модель "Суміжні білі свічки"
+-   [tradercdlgravestonedoji](function.trader-cdlgravestonedoji.html) - Дожі-надгробки
+-   [tradercdlhammer](function.trader-cdlhammer.html) - Молот
+-   [tradercdlhangingman](function.trader-cdlhangingman.html) - Вісельник
+-   [tradercdlharami](function.trader-cdlharami.html) - Паттерн Харамі
+-   [tradercdlharamicross](function.trader-cdlharamicross.html) - Паттерн "Хрест Харамі"
+-   [tradercdlhighwave](function.trader-cdlhighwave.html) - Свічкова модель "Висока хвиля"
+-   [tradercdlhikkake](function.trader-cdlhikkake.html) - Свічкова модель "Крюк"
+-   [tradercdlhikkakemod](function.trader-cdlhikkakemod.html) - Модифікована свічкова модель "Крюк"
+-   [tradercdlhomingpigeon](function.trader-cdlhomingpigeon.html) - Свічкова модель "Поштовий голуб"
+-   [tradercdlidentical3crows](function.trader-cdlidentical3crows.html) - Свічкова модель "Три однакові ворони"
+-   [tradercdlinneck](function.trader-cdlinneck.html) - Свічкова модель "На лінії шиї"
+-   [tradercdlinvertedhammer](function.trader-cdlinvertedhammer.html) - Свічкова модель "Перевернутий молоток"
+-   [tradercdlkicking](function.trader-cdlkicking.html) - Свічкова модель "Високий стрибок"
+-   [tradercdlkickingbylength](function.trader-cdlkickingbylength.html) - Високий стрибок - бик/ведмідь визначається за довгим марубозом
+-   [tradercdlladderbottom](function.trader-cdlladderbottom.html) - Свічкова модель "Східчасте дно"
+-   [tradercdllongleggeddoji](function.trader-cdllongleggeddoji.html) - Свічкова модель "Довгоногі доджі"
+-   [tradercdllongline](function.trader-cdllongline.html) - Свічкова модель "Довга свічка"
+-   [tradercdlmarubozu](function.trader-cdlmarubozu.html) - Марубозу
+-   [tradercdlmatchinglow](function.trader-cdlmatchinglow.html) - Свічкова модель "Збіг за нижнім рівнем"
+-   [tradercdlmathold](function.trader-cdlmathold.html) - Фігура Підстилка
+-   [tradercdlmorningdojistar](function.trader-cdlmorningdojistar.html) - Ранкова зірка дожі
+-   [tradercdlmorningstar](function.trader-cdlmorningstar.html) - Ранкова зірка
+-   [tradercdlonneck](function.trader-cdlonneck.html) - Паттерн "У лінії шиї"
+-   [tradercdlpiercing](function.trader-cdlpiercing.html) - Паттерн "Просвіт у хмарах"
+-   [tradercdlrickshawman](function.trader-cdlrickshawman.html) — Довгоногій дожі
+-   [tradercdlrisefall3methods](function.trader-cdlrisefall3methods.html) — Бича/ведмежа модель "Три методи"
+-   [tradercdlseparatinglines](function.trader-cdlseparatinglines.html) - Поділ
+-   [tradercdlshootingstar](function.trader-cdlshootingstar.html) - Падаюча зірка
+-   [tradercdlshortline](function.trader-cdlshortline.html) - Свічкова модель "Свічка короткої лінії"
+-   [tradercdlspinningtop](function.trader-cdlspinningtop.html) — Вовчок
+-   [tradercdlstalledpattern](function.trader-cdlstalledpattern.html) - Гальмування
+-   [tradercdlsticksandwich](function.trader-cdlsticksandwich.html) - Прилиплий сендвіч
+-   [tradercdltakuri](function.trader-cdltakuri.html) - Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
+-   [tradercdltasukigap](function.trader-cdltasukigap.html) - Розрив Тасукі
+-   [tradercdlthrusting](function.trader-cdlthrusting.html) - Свічкова модель "Поштовх"
+-   [tradercdltristar](function.trader-cdltristar.html) - Свічкова модель "Трістар"
+-   [tradercdlunique3river](function.trader-cdlunique3river.html) - Свічкова модель "Особлива западина три річки"
+-   [tradercdlupsidegap2crows](function.trader-cdlupsidegap2crows.html) - Свічкова модель "Перевернуті дві ворони"
+-   [tradercdlxsidegap3methods](function.trader-cdlxsidegap3methods.html) - Верх/вниз - три методи
+-   [traderceil](function.trader-ceil.html) - Вектор найбільшого цілого числа
+-   [tradercmo](function.trader-cmo.html) - Осцилятор цінових моментів Чанде
+-   [tradercorrel](function.trader-correl.html) - Лінійний коефіцієнт кореляції r-пірсона
+-   [tradercos](function.trader-cos.html) — Тригонометричний вектор косинуса.
+-   [tradercosh](function.trader-cosh.html) — Тригонометричний вектор гіперболічного косинуса.
+-   [traderdema](function.trader-dema.html) — Подвійна експоненційна ковзна середня
+-   [traderdiv](function.trader-div.html) - Арифметичний вектор поділу
+-   [traderдкс](function.trader-dx.html) - Індекс спрямованого руху
+-   [traderema](function.trader-ema.html) — Експоненційна ковзна середня
+-   [tradererrno](function.trader-errno.html) — Отримати код помилки
+-   [traderexp](function.trader-exp.html) - Арифметичний вектор зведення в ступінь
+-   [traderfloor](function.trader-floor.html) — Вектор найменшої кількості
+-   [tradergetcompat](function.trader-get-compat.html) — Отримує режим сумісності
+-   [tradergetunstableperiod](function.trader-get-unstable-period.html) — Отримує нестабільний період
+-   [traderхтdcperiod](function.trader-ht-dcperiod.html) - Перетворення Гільберта - період домінуючого циклу
+-   [traderхтdcphase](function.trader-ht-dcphase.html) - Перетворення Гільберта - Фаза домінуючого циклу
+-   [traderхтphasor](function.trader-ht-phasor.html) - Перетворення Гільберта - Phasor Components
+-   [traderхтsine](function.trader-ht-sine.html) - Перетворення Гільберта - SineWave
+-   [traderхтtrendline](function.trader-ht-trendline.html) - Перетворення Гільберта - миттєва лінія тренду
+-   [traderхтtrendmode](function.trader-ht-trendmode.html) - Перетворення Гільберта - тренд проти циклу
+-   [traderkama](function.trader-kama.html) — Адаптивна ковзна середня Кауфмана
+-   [traderlinearregangle](function.trader-linearreg-angle.html) - Лінійний регресійний кут
+-   [traderlinearregintercept](function.trader-linearreg-intercept.html) - Перехоплення лінійної регресії
+-   [traderlinearregslope](function.trader-linearreg-slope.html) - Лінійний регресійний нахил
+-   [traderlinearreg](function.trader-linearreg.html) - Лінійна регресія
+-   [traderлн](function.trader-ln.html) - Вектор натурального логарифму
+-   [traderlog10](function.trader-log10.html) — Вектор логарифму з основи-10
+-   [traderма](function.trader-ma.html) — Ковзна середня
+-   [tradermacd](function.trader-macd.html) — Слизька середня збіжність/дивергенція
+-   [tradermacdext](function.trader-macdext.html) - MACD з керованим типом MA
+-   [tradermacdfix](function.trader-macdfix.html) — Виправлення сходження/розходження ковзної середньої 12/26
+-   [tradermama](function.trader-mama.html) — MESA Адаптивна ковзна середня
+-   [tradermavp](function.trader-mavp.html) — Ковзна середня зі змінним періодом
+-   [tradermax](function.trader-max.html) — Найбільше значення за вказаний період
+-   [tradermaxindex](function.trader-maxindex.html) - Індекс найбільшого значення за вказаний період
+-   [tradermedprice](function.trader-medprice.html) - Середня ціна
+-   [tradermfi](function.trader-mfi.html) - Індекс грошових потоків
+-   [tradermidpoint](function.trader-midpoint.html) - Середина відрізка за період
+-   [tradermidprice](function.trader-midprice.html) - Середня ціна за період
+-   [tradermin](function.trader-min.html) — Найменше значення за вказаний період
+-   [traderminindex](function.trader-minindex.html) - Індекс найменшого значення за певний період
+-   [traderminmax](function.trader-minmax.html) — Найнижчі та найвищі значення за вказаний період
+-   [traderminmaxindex](function.trader-minmaxindex.html) — Індекси найнижчих та найвищих значень за вказаний період
+-   [traderminusді](function.trader-minus-di.html) - Мінус-спрямований індикатор
+-   [traderminusдм](function.trader-minus-dm.html) - Мінус-спрямований рух
+-   [tradermom](function.trader-mom.html) - Моментум
+-   [tradermult](function.trader-mult.html) - Арифметичний вектор твору
+-   [tradernatr](function.trader-natr.html) — Нормалізований середній дійсний діапазон
+-   [traderobv](function.trader-obv.html) - Індикатор Балансового об'єму
+-   [traderplusді](function.trader-plus-di.html) - Плюс-спрямований індикатор
+-   [traderplusдм](function.trader-plus-dm.html) - Плюс-спрямований рух
+-   [traderppo](function.trader-ppo.html) - Відсотковий ціновий осцилятор
+-   [traderroc](function.trader-roc.html) - Швидкість зміни: ((ціна/попередня ціна)-1)
+-   [traderrocp](function.trader-rocp.html) - Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
+-   [traderrocr100](function.trader-rocr100.html) - Коефіцієнт зміни курсу шкали: (ціна/попередня ціна)
+-   [traderrocr](function.trader-rocr.html) - Коефіцієнт зміни курсу: (ціна/попередня ціна)
+-   [traderrsi](function.trader-rsi.html) - Індекс відносної сили
+-   [tradersar](function.trader-sar.html) - Параболічний SAR
+-   [tradersarext](function.trader-sarext.html) - Параболічний SAR - розширений
+-   [tradersetcompat](function.trader-set-compat.html) — Встановлює режим сумісності
+-   [tradersetunstableperiod](function.trader-set-unstable-period.html) - Встановлює нестабільний період
+-   [tradersin](function.trader-sin.html) - Векторний тригонометричний синус
+-   [tradersinh](function.trader-sinh.html) - Векторний тригонометричний гіперболічний синус
+-   [tradersma](function.trader-sma.html) — Просте ковзне середнє
+-   [tradersqrt](function.trader-sqrt.html) - Векторний квадратний корінь
+-   [traderstddev](function.trader-stddev.html) - Стандартне відхилення
+-   [traderstoch](function.trader-stoch.html) - Стохастичний осцилятор
+-   [traderstochf](function.trader-stochf.html) - Швидкий стохастичний осцилятор
+-   [traderstochrsi](function.trader-stochrsi.html) - Стохастичний відносний індекс сили
+-   [tradersub](function.trader-sub.html) — Векторне арифметичне віднімання
+-   [tradersum](function.trader-sum.html) - Підсумовування
+-   [traderтз](function.trader-t3.html) — Потрійна експоненційна ковзна середня
+-   [tradertan](function.trader-tan.html) — Векторний тригонометричний тангенс
+-   [tradertanh](function.trader-tanh.html) — Тригонометричний вектор Тан
+-   [tradertema](function.trader-tema.html) — Потрійна експоненційна ковзна середня
+-   [tradertrange](function.trader-trange.html) - Справжній діапазон
+-   [tradertrima](function.trader-trima.html) — Трикутна ковзна середня
+-   [tradertrix](function.trader-trix.html) - 1-денна швидкість зміни (ROC) потрійний гладкий EMA
+-   [tradertsf](function.trader-tsf.html) - Прогноз тимчасового ряду
+-   [tradertypprice](function.trader-typprice.html) - Типова ціна
+-   [traderultosc](function.trader-ultosc.html) - Остаточний, граничний осцилятор
+-   [tradervar](function.trader-var.html) - Варіація
+-   [traderwclprice](function.trader-wclprice.html) - Зважена ціна закриття
+-   [traderwillr](function.trader-willr.html) - Відсотковий діапазон Вільямса
+-   [traderwma](function.trader-wma.html) — Зважена ковзна середня

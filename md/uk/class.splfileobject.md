@@ -1,8 +1,8 @@
 Клас SplFileObject
 
--   [« SplFileInfo::\_\_toString](splfileinfo.tostring.html)
+-   [« SplFileInfo::toString](splfileinfo.tostring.html)
     
--   [SplFileObject::\_\_construct »](splfileobject.construct.html)
+-   [SplFileObject::construct »](splfileobject.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -146,7 +146,7 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [SplFileObject::\_\_construct](splfileobject.construct.html) — Створює об'єкт SplFileObject
+-   [SplFileObject::construct](splfileobject.construct.html) — Створює об'єкт SplFileObject
 -   [SplFileObject::current](splfileobject.current.html) — Отримати поточний рядок файлу
 -   [SplFileObject::eof](splfileobject.eof.html) — Перевіряє, чи кінець файлу досягнуто.
 -   [SplFileObject::fflush](splfileobject.fflush.html) — Скидає буфер виводу у файл
@@ -177,5 +177,5 @@ public SplFileInfo::__toString(): string
 -   [SplFileObject::setCsvControl](splfileobject.setcsvcontrol.html) — Встановлює символи роздільника, обгортання та екранування для CSV
 -   [SplFileObject::setFlags](splfileobject.setflags.html) — Встановлює прапори SplFileObject
 -   [SplFileObject::setMaxLineLen](splfileobject.setmaxlinelen.html) — Встановити максимальну довжину рядка
--   [SplFileObject::\_\_toString](splfileobject.tostring.html) - Псевдонім SplFileObject::fgets
+-   [SplFileObject::toString](splfileobject.tostring.html) - Псевдонім SplFileObject::fgets
 -   [SplFileObject::valid](splfileobject.valid.html) — Перевіряє, чи кінець файлу (EOF) досягнуто.

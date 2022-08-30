@@ -1,6 +1,6 @@
 Повертає поточне значення
 
--   [« AppendIterator::\_\_construct](appenditerator.construct.html)
+-   [« AppendIterator::construct](appenditerator.construct.html)
     
 -   [AppendIterator::getArrayIterator »](appenditerator.getarrayiterator.html)
     

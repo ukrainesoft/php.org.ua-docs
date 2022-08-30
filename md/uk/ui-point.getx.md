@@ -1,12 +1,12 @@
 Отримує X
 
--   [« UI\\Point::\_\_construct](ui-point.construct.html)
+-   [« UIPoint::construct](ui-point.construct.html)
     
--   [UI\\Point::getY »](ui-point.gety.html)
+-   [ОЙPoint::getY »](ui-point.gety.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Point](class.ui-point.html)
+-   [ОЙPoint](class.ui-point.html)
     
 -   Отримує X
     

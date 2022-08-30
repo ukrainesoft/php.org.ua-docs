@@ -1,12 +1,12 @@
 Вмикає/вимикає миттєве очищення
 
--   [« Yaf\_Dispatcher::enableView](yaf-dispatcher.enableview.html)
+-   [« YafDispatcher::enableView](yaf-dispatcher.enableview.html)
     
--   [Yaf\_Dispatcher::getApplication »](yaf-dispatcher.getapplication.html)
+-   [YafDispatcher::getApplication »](yaf-dispatcher.getapplication.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Вмикає/вимикає миттєве очищення
     

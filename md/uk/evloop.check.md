@@ -38,7 +38,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvCheck::\_\_construct()](evcheck.construct.html)
+Усі параметри, що й для [EvCheck::construct()](evcheck.construct.html)
 
 ### Значення, що повертаються
 
@@ -46,4 +46,4 @@ final
 
 ### Дивіться також
 
--   [EvCheck::\_\_construct()](evcheck.construct.html) - Конструктор об'єкту EvCheck
+-   [EvCheck::construct()](evcheck.construct.html) - Конструктор об'єкту EvCheck

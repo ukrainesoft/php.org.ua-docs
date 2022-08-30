@@ -1,8 +1,8 @@
 Видалити всі позначені для видалення повідомлення
 
--   [« imap\_errors](function.imap-errors.html)
+-   [« imaperrors](function.imap-errors.html)
     
--   [imap\_fetch\_overview »](function.imap-fetch-overview.html)
+-   [imapfetchoverview »](function.imap-fetch-overview.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ imapexpunge — Видалити всі позначені для видален
 imap_expunge(IMAP\Connection $imap): bool
 ```
 
-Видаляє всі позначені для видалення повідомлення. Позначити для видалення можна за допомогою функцій [imap\_delete()](function.imap-delete.html) [imap\_mail\_move()](function.imap-mail-move.html) або [imap\_setflag\_full()](function.imap-setflag-full.html)
+Видаляє всі позначені для видалення повідомлення. Позначити для видалення можна за допомогою функцій [imapdelete()](function.imap-delete.html) [imapmailmove()](function.imap-mail-move.html) або [imapsetflagfull()](function.imap-setflag-full.html)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ imap_expunge(IMAP\Connection $imap): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

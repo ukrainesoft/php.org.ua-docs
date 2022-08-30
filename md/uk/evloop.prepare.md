@@ -48,4 +48,4 @@ final
 
 ### Дивіться також
 
--   [EvPrepare::\_\_construct()](evprepare.construct.html) - Конструктор спостерігача EvPrepare
+-   [EvPrepare::construct()](evprepare.construct.html) - Конструктор спостерігача EvPrepare

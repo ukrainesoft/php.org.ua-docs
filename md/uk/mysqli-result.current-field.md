@@ -1,12 +1,12 @@
 Отримує зміщення вказівника по відношенню до поточного поля
 
--   [« mysqli\_result::\_\_construct](mysqli-result.construct.html)
+-   [« mysqliresult::construct](mysqli-result.construct.html)
     
--   [mysqli\_result::data\_seek »](mysqli-result.data-seek.html)
+-   [mysqliresult::dataseek »](mysqli-result.data-seek.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Отримує зміщення вказівника по відношенню до поточного поля
     
@@ -23,7 +23,7 @@ mysqliresult::$currentfield - mysqlifieldtell — Отримує зміщенн�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli\_result->current\_field](mysqli-result.current-field.html)
+int [$mysqliresult->currentfield](mysqli-result.current-field.html)
 
 Процедурний стиль
 
@@ -31,13 +31,13 @@ int [$mysqli\_result->current\_field](mysqli-result.current-field.html)
 mysqli_field_tell(mysqli_result $result): int
 ```
 
-Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqli\_fetch\_field()](mysqli-result.fetch-field.html). Це значення може бути використане як аргумент для [mysqli\_field\_seek()](mysqli-result.field-seek.html)
+Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqlifetchfield()](mysqli-result.fetch-field.html). Це значення може бути використане як аргумент для [mysqlifieldseek()](mysqli-result.field-seek.html)
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -139,5 +139,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
--   [mysqli\_field\_seek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення
+-   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlifieldseek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення

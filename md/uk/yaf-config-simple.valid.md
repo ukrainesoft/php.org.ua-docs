@@ -1,12 +1,12 @@
 Призначення valid
 
--   [« Yaf\_Config\_Simple::toArray](yaf-config-simple.toarray.html)
+-   [« YafConfigSimple::toArray](yaf-config-simple.toarray.html)
     
--   [Yaf\_Controller\_Abstract »](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract »](class.yaf-controller-abstract.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення valid
     

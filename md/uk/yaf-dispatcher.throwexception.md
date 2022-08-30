@@ -1,12 +1,12 @@
 Вмикає/вимикає викидання винятків
 
--   [« Yaf\_Dispatcher::setView](yaf-dispatcher.setview.html)
+-   [« YafDispatcher::setView](yaf-dispatcher.setview.html)
     
--   [Yaf\_Config\_Abstract »](class.yaf-config-abstract.html)
+-   [YafConfigAbstract »](class.yaf-config-abstract.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Вмикає/вимикає викидання винятків
     
@@ -91,5 +91,5 @@ PHP Catchable fatal error:  Yaf_Application::run(): Could not find controller sc
 
 ### Дивіться також
 
--   [Yaf\_Dispatcher::catchException()](yaf-dispatcher.catchexception.html) - Включає/вимикає перехоплення винятків
--   [Yaf\_Exception](class.yaf-exception.html)
+-   [YafDispatcher::catchException()](yaf-dispatcher.catchexception.html) - Включає/вимикає перехоплення винятків
+-   [YafException](class.yaf-exception.html)

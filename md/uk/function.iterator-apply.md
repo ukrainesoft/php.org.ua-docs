@@ -1,12 +1,12 @@
 Викликає функцію кожного елемента в итераторе
 
--   [« class\_uses](function.class-uses.html)
+-   [« classuses](function.class-uses.html)
     
--   [iterator\_count »](function.iterator-count.html)
+-   [iteratorcount »](function.iterator-count.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Викликає функцію кожного елемента в итераторе
     
@@ -71,4 +71,4 @@ CHERRIES
 
 ### Дивіться також
 
--   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву

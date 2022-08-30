@@ -1,12 +1,12 @@
 Клас Ev
 
--   [« Режимы работы периодических наблюдателей](ev.periodic-modes.html)
+-   [« Режими роботи періодичних спостерігачів](ev.periodic-modes.html)
     
 -   [Ev::backend »](ev.backend.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас Ev
     
@@ -280,11 +280,11 @@ final
 
 **`Ev::FLAG_NOINOTIFY`**
 
-Якщо цей прапор вказано, то `libev` не намагатиметься використовувати API `inotify` для своїх спостерігачів [» ev\_stat](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_stat_code_did_the_file_attri) Прапор може бути корисним для збереження файлових дескрипторів inotify, інакше кожен цикл, що використовує спостерігачів `ev_stat`, споживатиме один дескриптор `inotify`
+Якщо цей прапор вказано, то `libev` не намагатиметься використовувати API `inotify` для своїх спостерігачів [» evstat](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_stat_code_did_the_file_attri) Прапор може бути корисним для збереження файлових дескрипторів inotify, інакше кожен цикл, що використовує спостерігачів `ev_stat`, споживатиме один дескриптор `inotify`
 
 **`Ev::FLAG_SIGNALFD`**
 
-Якщо прапор вказано, то `libev` намагатиметься використовувати API `signalfd` для своїх спостерігачів [» ev\_signal](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_signal_code_signal_me_when_a) (і [» ev\_child](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_child_code_watch_out_for_pro)). API передає сигнали синхронно, що робить його швидшим і, можливо, дозволить отримати дані з черги сигналів, а також дозволяє спростити обробку сигналів за допомогою потоків, оскільки сигнали коректно блокуються в потоках . `Signalfd` не використовується за замовчуванням.
+Якщо прапор вказано, то `libev` намагатиметься використовувати API `signalfd` для своїх спостерігачів [» evsignal](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_signal_code_signal_me_when_a) (і [» evchild](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_child_code_watch_out_for_pro)). API передає сигнали синхронно, що робить його швидшим і, можливо, дозволить отримати дані з черги сигналів, а також дозволяє спростити обробку сигналів за допомогою потоків, оскільки сигнали коректно блокуються в потоках . `Signalfd` не використовується за замовчуванням.
 
 **`Ev::FLAG_NOSIGMASK`**
 
@@ -346,11 +346,11 @@ final
 
 **`Ev::SIGNAL`**
 
-Вказаний у [EvSignal::\_\_construct()](evsignal.construct.html) сигнал отримано.
+Вказаний у [EvSignal::construct()](evsignal.construct.html) сигнал отримано.
 
 **`Ev::CHILD`**
 
-`pid` Вказаний у [EvChild::\_\_construct()](evchild.construct.html) отримано і статус змінено.
+`pid` Вказаний у [EvChild::construct()](evchild.construct.html) отримано і статус змінено.
 
 **`Ev::STAT`**
 
@@ -416,7 +416,7 @@ final
 
 > **Зауваження**
 > 
-> Для циклу за замовчуванням, під час фази ініціалізації модуля `Ev`, реєструється виклик [» ev\_loop\_fork](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS_CO) за допомогою `pthread_atfork` (якщо такий є).
+> Для циклу за замовчуванням, під час фази ініціалізації модуля `Ev`, реєструється виклик [» evloopfork](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS_CO) за допомогою `pthread_atfork` (якщо такий є).
 
 > **Зауваження**
 > 

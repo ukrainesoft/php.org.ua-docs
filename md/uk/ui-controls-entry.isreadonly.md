@@ -1,12 +1,12 @@
 Визначити, чи є елемент лише для читання
 
--   [« UI\\Controls\\Entry::getText](ui-controls-entry.gettext.html)
+-   [« UIControlsEntry::getText](ui-controls-entry.gettext.html)
     
--   [UI\\Controls\\Entry::onChange »](ui-controls-entry.onchange.html)
+-   [ОЙControlsEntry::onChange »](ui-controls-entry.onchange.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [ОЙControlsEntry](class.ui-controls-entry.html)
     
 -   Визначити, чи є елемент лише для читання
     

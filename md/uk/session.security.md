@@ -16,7 +16,7 @@
 ## Зміст
 
 -   [Базовые принципы управления сессиями](features.session.security.management.html)
--   [INI-настройки безопасности сессий](session.security.ini.html)
+-   [INI-налаштування безпеки сесій](session.security.ini.html)
 
 Зовнішні посилання: [» Атака "Фиксация сессии"](http://www.acros.si/papers/session_fixation.pdf)
 

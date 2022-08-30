@@ -1,8 +1,8 @@
 Повертає версію клієнтської бібліотеки
 
--   [« cubrid\_get\_class\_name](function.cubrid-get-class-name.html)
+-   [« cubridgetclassname](function.cubrid-get-class-name.html)
     
--   [cubrid\_get\_db\_parameter »](function.cubrid-get-db-parameter.html)
+-   [cubridgetдбparameter »](function.cubrid-get-db-parameter.html)
     
 -   [PHP Manual](index.html)
     

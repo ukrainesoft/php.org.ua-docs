@@ -1,8 +1,8 @@
 Зберігає документ FDF
 
--   [« fdf\_save\_string](function.fdf-save-string.html)
+-   [« fdfsavestring](function.fdf-save-string.html)
     
--   [fdf\_set\_ap »](function.fdf-set-ap.html)
+-   [fdfsetap »](function.fdf-set-ap.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `filename`
 
@@ -41,6 +41,6 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 ### Дивіться також
 
--   [fdf\_close()](function.fdf-close.html) - Закриває FDF-документ
--   [fdf\_create()](function.fdf-create.html) - Створює новий документ FDF
--   [fdf\_save\_string()](function.fdf-save-string.html) - Повертає документ FDF у вигляді рядка
+-   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
+-   [fdfsavestring()](function.fdf-save-string.html) - Повертає документ FDF у вигляді рядка

@@ -1,12 +1,12 @@
 Повертає колекцію в JSON-виставу
 
--   [« Ds\\PriorityQueue::isEmpty](ds-priorityqueue.isempty.html)
+-   [« DsPriorityQueue::isEmpty](ds-priorityqueue.isempty.html)
     
--   [Ds\\PriorityQueue::peek »](ds-priorityqueue.peek.html)
+-   [ДсPriorityQueue::peek »](ds-priorityqueue.peek.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Повертає колекцію в JSON-виставу
     

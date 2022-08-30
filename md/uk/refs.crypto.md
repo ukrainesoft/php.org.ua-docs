@@ -50,7 +50,7 @@
     -   [Введение](intro.password.html)
     -   [Установка и настройка](password.setup.html)
     -   [Предопределённые константы](password.constants.html)
-    -   [Функции хеширования паролей](ref.password.html)
+    -   [Функції хешування паролів](ref.password.html)
 -   [Sodium](book.sodium.html)
     -   [Введение](intro.sodium.html)
     -   [Установка и настройка](sodium.setup.html)

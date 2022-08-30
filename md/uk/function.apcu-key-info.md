@@ -1,8 +1,8 @@
 Отримати детальну інформацію про ключ у кеші
 
--   [« apcu\_inc](function.apcu-inc.html)
+-   [« apcuinc](function.apcu-inc.html)
     
--   [apcu\_sma\_info »](function.apcu-sma-info.html)
+-   [apcusmainfo »](function.apcu-sma-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ apcu_key_info(string $key): ?array
 
 ### Значення, що повертаються
 
-Масив, що містить докладну інформацію про ключ кеша або **`null`**якщо ключ не існує.
+Масив, що містить докладну інформацію про ключ кеша або \*\*`null`\*\*якщо ключ не існує.
 
 ### Приклади
 
@@ -69,6 +69,6 @@ array(7) {
 
 ### Дивіться також
 
--   [apcu\_store()](function.apcu-store.html) - Кешує змінну
--   [apcu\_fetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcu\_delete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
+-   [apcustore()](function.apcu-store.html) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+-   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу

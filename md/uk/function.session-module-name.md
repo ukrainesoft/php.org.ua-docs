@@ -1,12 +1,12 @@
 Повертає та/або встановлює модуль поточної сесії
 
--   [« session\_id](function.session-id.html)
+-   [« sessionід](function.session-id.html)
     
--   [session\_name »](function.session-name.html)
+-   [sessionname »](function.session-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Повертає та/або встановлює модуль поточної сесії
     
@@ -23,13 +23,13 @@ sessionmodulename — Повертає та/або встановлює моду
 session_module_name(?string $module = null): string|false
 ```
 
-**sessionmodulename()** повертає назву поточного модуля сесії, яка також відома як [session.save\_handler](session.configuration.html#ini.session.save-handler)
+**sessionmodulename()** повертає назву поточного модуля сесії, яка також відома як [session.savehandler](session.configuration.html#ini.session.save-handler)
 
 ### Список параметрів
 
 `module`
 
-Якщо вказано параметр `module` і не дорівнює **`null`**, даний модуль буде використаний замість поточного. Передача значення `"user"` у цей параметр заборонено. Натомість має викликатися функція [session\_set\_save\_handler()](function.session-set-save-handler.html) для встановлення користувальницького оброблювача.
+Якщо вказано параметр `module` і не дорівнює **`null`**, даний модуль буде використаний замість поточного. Передача значення `"user"` у цей параметр заборонено. Натомість має викликатися функція [sessionsetsavehandler()](function.session-set-save-handler.html) для встановлення користувальницького оброблювача.
 
 ### Значення, що повертаються
 

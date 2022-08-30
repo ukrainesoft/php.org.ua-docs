@@ -1,12 +1,12 @@
 Цілі
 
--   [« parallel\\Events::addFuture](parallel-events.addfuture.html)
+-   [« parallelEvents::addFuture](parallel-events.addfuture.html)
     
--   [parallel\\Events::poll »](parallel-events.poll.html)
+-   [parallelEvents::poll »](parallel-events.poll.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Events](class.parallel-events.html)
+-   [parallelEvents](class.parallel-events.html)
     
 -   Цілі
     

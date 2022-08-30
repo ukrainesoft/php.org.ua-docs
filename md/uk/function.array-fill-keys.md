@@ -1,12 +1,12 @@
 Створює масив та заповнює його значеннями з певними ключами
 
--   [« array\_diff](function.array-diff.html)
+-   [« arraydiff](function.array-diff.html)
     
--   [array\_fill »](function.array-fill.html)
+-   [arrayfill »](function.array-fill.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Створює масив та заповнює його значеннями з певними ключами
     
@@ -65,5 +65,5 @@ Array
 
 ### Дивіться також
 
--   [array\_fill()](function.array-fill.html) - Заповнює масив значеннями
--   [array\_combine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [arrayfill()](function.array-fill.html) - Заповнює масив значеннями
+-   [arraycombine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень

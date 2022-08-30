@@ -1,12 +1,12 @@
 Встановлення оброблювача сигналу
 
--   [« pcntl\_signal\_get\_handler](function.pcntl-signal-get-handler.html)
+-   [pcntlsignalgethandler](function.pcntl-signal-get-handler.html)
     
--   [pcntl\_sigprocmask »](function.pcntl-sigprocmask.html)
+-   [pcntlsigprocmask »](function.pcntl-sigprocmask.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Встановлення оброблювача сигналу
     
@@ -124,5 +124,5 @@ echo "Завершено\n";
 
 ### Дивіться також
 
--   [pcntl\_fork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
--   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlfork()](function.pcntl-fork.html) - Розгалужити (fork) поточний запущений процес
+-   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу

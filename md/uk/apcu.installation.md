@@ -31,4 +31,4 @@
 
 > **Зауваження**: Вкрай докладна, в технічному плані, документація про реалізацію цього модуля доступна в [» предоставленном разработчиком файле TECHNOTES](https://github.com/php/pecl-caching-apc/blob/master/TECHNOTES.txt)
 
-Вихідні коди APCu можна знайти [» тут](https://github.com/krakjoe/apcu)
+Вихідні коди APCu можна знайти [»тут](https://github.com/krakjoe/apcu)

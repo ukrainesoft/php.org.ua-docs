@@ -1,12 +1,12 @@
 Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
 
--   [« dio\_fcntl](function.dio-fcntl.html)
+-   [« diofcntl](function.dio-fcntl.html)
     
--   [dio\_read »](function.dio-read.html)
+-   [dioread »](function.dio-read.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
     
@@ -79,4 +79,4 @@ dio_close($fd);
 
 ### Дивіться також
 
--   [dio\_close()](function.dio-close.html) - Закрити файловий дескриптор
+-   [dioclose()](function.dio-close.html) - Закрити файловий дескриптор

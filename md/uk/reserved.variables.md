@@ -19,15 +19,15 @@ PHP надає всім скриптам велику кількість пев�
 
 -   [Суперглобальные переменные](language.variables.superglobals.html) — Вбудовані змінні, які завжди доступні у всіх областях
 -   [$GLOBALS](reserved.variables.globals.html) — Посилання на всі змінні глобальної сфери видимості
--   [$\_SERVER](reserved.variables.server.html) — Інформація про сервер та середовище виконання
--   [$\_GET](reserved.variables.get.html) - Змінні HTTP GET
--   [$\_POST](reserved.variables.post.html) — Змінні HTTP POST
--   [$\_FILES](reserved.variables.files.html) — Змінні файли, завантажені за HTTP
--   [$\_REQUEST](reserved.variables.request.html) - Змінні HTTP-запиту
--   [$\_SESSION](reserved.variables.session.html) - Змінні сесії
--   [$\_ENV](reserved.variables.environment.html) - Змінні оточення
--   [$\_COOKIE](reserved.variables.cookies.html) - HTTP Cookies
--   [$php\_errormsg](reserved.variables.phperrormsg.html) — Попереднє повідомлення про помилку
--   [$http\_response\_header](reserved.variables.httpresponseheader.html) - Заголовки відповідей HTTP
+-   [SERVER](reserved.variables.server.html) — Інформація про сервер та середовище виконання
+-   [GET](reserved.variables.get.html) - Змінні HTTP GET
+-   [POST](reserved.variables.post.html) — Змінні HTTP POST
+-   [FILES](reserved.variables.files.html) — Змінні файли, завантажені за HTTP
+-   [REQUEST](reserved.variables.request.html) - Змінні HTTP-запиту
+-   [SESSION](reserved.variables.session.html) - Змінні сесії
+-   [ENV](reserved.variables.environment.html) - Змінні оточення
+-   [COOKIE](reserved.variables.cookies.html) - HTTP Cookies
+-   [$phperrormsg](reserved.variables.phperrormsg.html) — Попереднє повідомлення про помилку
+-   [$httpresponseheader](reserved.variables.httpresponseheader.html) - Заголовки відповідей HTTP
 -   [$argc](reserved.variables.argc.html) - Кількість аргументів, переданих скрипту
 -   [$argv](reserved.variables.argv.html) — Масив переданих скрипту аргументів

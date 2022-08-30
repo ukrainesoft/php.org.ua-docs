@@ -1,8 +1,8 @@
 Читає дані BLOB/CLOB
 
--   [« cubrid\_lob2\_new](function.cubrid-lob2-new.html)
+-   [« cubridlob2new](function.cubrid-lob2-new.html)
     
--   [cubrid\_lob2\_seek64 »](function.cubrid-lob2-seek64.html)
+-   [cubridlob2seek64 »](function.cubrid-lob2-seek64.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ cubrid_lob2_read(resource $lob_identifier, int $len): string
 
 `lob_identifier`
 
-Ідентифікатор LOB, повернутий функцією [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) або отриманий із результуючого набору.
+Ідентифікатор LOB, повернутий функцією [cubridlob2new()](function.cubrid-lob2-new.html) або отриманий із результуючого набору.
 
 `len`
 
@@ -37,7 +37,7 @@ cubrid_lob2_read(resource $lob_identifier, int $len): string
 
 ### Значення, що повертаються
 
-Повертає вміст у вигляді рядка, **`false`**якщо даних більше немає, або **`null`** у разі виникнення помилки.
+Повертає вміст у вигляді рядка, \*\*`false`\*\*якщо даних більше немає, або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -108,10 +108,10 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubrid\_lob2\_write()](function.cubrid-lob2-write.html) - Записує до LOB-об'єкту
--   [cubrid\_lob2\_seek()](function.cubrid-lob2-seek.html) - Переміщує курсор LOB-об'єкта
--   [cubrid\_lob2\_seek64()](function.cubrid-lob2-seek64.html) - Переміщує курсор LOB-об'єкта
--   [cubrid\_lob2\_tell()](function.cubrid-lob2-tell.html) - Повідомляє положення курсору LOB-об'єкта
--   [cubrid\_lob2\_tell64()](function.cubrid-lob2-tell64.html) - Повідомляє положення курсору LOB-об'єкта
--   [cubrid\_lob2\_size()](function.cubrid-lob2-size.html) - Отримує розмір LOB-об'єкта
--   [cubrid\_lob2\_size64()](function.cubrid-lob2-size64.html) - Отримує розмір LOB-об'єкта
+-   [cubridlob2write()](function.cubrid-lob2-write.html) - Записує до LOB-об'єкту
+-   [cubridlob2seek()](function.cubrid-lob2-seek.html) - Переміщує курсор LOB-об'єкта
+-   [cubridlob2seek64()](function.cubrid-lob2-seek64.html) - Переміщує курсор LOB-об'єкта
+-   [cubridlob2tell()](function.cubrid-lob2-tell.html) - Повідомляє положення курсору LOB-об'єкта
+-   [cubridlob2tell64()](function.cubrid-lob2-tell64.html) - Повідомляє положення курсору LOB-об'єкта
+-   [cubridlob2size()](function.cubrid-lob2-size.html) - Отримує розмір LOB-об'єкта
+-   [cubridlob2size64()](function.cubrid-lob2-size64.html) - Отримує розмір LOB-об'єкта

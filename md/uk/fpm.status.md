@@ -1,23 +1,23 @@
 Сторінка стану
 
--   [« Наблюдаемость](fpm.observability.html)
+-   [« Спостережуваність](fpm.observability.html)
     
--   [Функции FPM »](ref.fpm.html)
+-   [Функції FPM »](ref.fpm.html)
     
 -   [PHP Manual](index.html)
     
--   [Наблюдаемость](fpm.observability.html)
+-   [Спостережуваність](fpm.observability.html)
     
 -   Сторінка стану
     
 
 ## Сторінка стану
 
-На цій сторінці представлена ​​інформація про налаштування та зміст сторінки стану FPM. Дивіться також опис функції [fpm\_get\_status()](function.fpm-get-status.html)
+На цій сторінці представлена ​​інформація про налаштування та зміст сторінки стану FPM. Дивіться також опис функції [fpmgetstatus()](function.fpm-get-status.html)
 
 ### Налаштування
 
-Сторінку стану FPM можна увімкнути шляхом встановлення параметра конфігурації [pm.status\_path](install.fpm.configuration.html#pm.status-path) у пулі FPM конфігурації.
+Сторінку стану FPM можна увімкнути шляхом встановлення параметра конфігурації [pm.statuspath](install.fpm.configuration.html#pm.status-path) у пулі FPM конфігурації.
 
 **Застереження**
 

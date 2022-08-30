@@ -1,12 +1,12 @@
 Повертає новий опис топології
 
--   [« MongoDB\\Driver\\Monitoring\\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
+-   [« MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
     
--   [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getPreviousDescription »](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html)
+-   [MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription »](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
+-   [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
     
 -   Повертає новий опис топології
     
@@ -29,8 +29,8 @@ final public MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription()
 
 ### Значення, що повертаються
 
-Повертає новий опис ([MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.html)) топології.
+Повертає новий опис ([MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)) топології.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

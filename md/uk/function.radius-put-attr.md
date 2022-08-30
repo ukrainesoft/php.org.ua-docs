@@ -1,8 +1,8 @@
 Приєднує бінарний атрибут
 
--   [« radius\_put\_addr](function.radius-put-addr.html)
+-   [« radiusputaddr](function.radius-put-addr.html)
     
--   [radius\_put\_int »](function.radius-put-int.html)
+-   [radiusputint »](function.radius-put-int.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ radius_put_attr(    resource $radius_handle,    int $type,    string
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 
@@ -80,6 +80,6 @@ if (!radius_put_attr($res, RADIUS_CHAP_PASSWORD, $pass)) {
 
 ### Дивіться також
 
--   [radius\_get\_attr()](function.radius-get-attr.html) - Витягує атрибут
--   [radius\_get\_vendor\_attr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника
--   [radius\_put\_vendor\_attr()](function.radius-put-vendor-attr.html) - Приєднує бінарний атрибут, що залежить від постачальника
+-   [radiusgetattr()](function.radius-get-attr.html) - Витягує атрибут
+-   [radiusgetvendorattr()](function.radius-get-vendor-attr.html) - Витягує атрибут, що залежить від постачальника
+-   [radiusputvendorattr()](function.radius-put-vendor-attr.html) - Приєднує бінарний атрибут, що залежить від постачальника

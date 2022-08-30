@@ -1,12 +1,12 @@
 Установка біта
 
--   [« gmp\_scan1](function.gmp-scan1.html)
+-   [« gmpscan1](function.gmp-scan1.html)
     
--   [gmp\_sign »](function.gmp-sign.html)
+-   [gmpsign »](function.gmp-sign.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Установка біта
     
@@ -105,9 +105,9 @@ echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 
 > **Зауваження**
 > 
-> На відміну від більшості GMP функцій, **gmpsetbit()** має викликатися для вже існуючого об'єкта GMP (наприклад, створеного функцією [gmp\_init()](function.gmp-init.html)). Число не створюватиметься автоматично.
+> На відміну від більшості GMP функцій, **gmpsetbit()** має викликатися для вже існуючого об'єкта GMP (наприклад, створеного функцією [gmpinit()](function.gmp-init.html)). Число не створюватиметься автоматично.
 
 ### Дивіться також
 
--   [gmp\_clrbit()](function.gmp-clrbit.html) - Скидання біта
--   [gmp\_testbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1
+-   [gmpclrbit()](function.gmp-clrbit.html) - Скидання біта
+-   [gmptestbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1

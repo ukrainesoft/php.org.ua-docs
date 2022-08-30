@@ -1,12 +1,12 @@
 Створює ключ шифрування
 
--   [« MongoDB\\Driver\\ClientEncryption::\_\_construct](mongodb-driver-clientencryption.construct.html)
+-   [« MongoDBDriverClientEncryption::construct](mongodb-driver-clientencryption.construct.html)
     
--   [MongoDB\\Driver\\ClientEncryption::decrypt »](mongodb-driver-clientencryption.decrypt.html)
+-   [MongoDBDriverClientEncryption::decrypt »](mongodb-driver-clientencryption.decrypt.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html)
+-   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html)
     
 -   Створює ключ шифрування
     
@@ -79,12 +79,12 @@ final public MongoDB\Driver\ClientEncryption::createDataKey(string $kmsProvider,
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор нового ключа як об'єкт [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html) із підтипом 4 (UUID).
+Повертає ідентифікатор нового ключа як об'єкт [MongoDBBSONBinary](class.mongodb-bson-binary.html) із підтипом 4 (UUID).
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Кидає виняток [MongoDB\\Driver\\Exception\\EncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо в процесі створення ключа сталася помилка
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Кидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо в процесі створення ключа сталася помилка
 
 ### список змін
 

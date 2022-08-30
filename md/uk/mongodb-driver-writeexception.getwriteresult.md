@@ -1,12 +1,12 @@
 Повертає WriteResult для операції запису помилкою, що закінчилася.
 
--   [« MongoDB\\Driver\\Exception\\WriteException](class.mongodb-driver-exception-writeexception.html)
+-   [« MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html)
     
 -   [Class Tree »](mongodb.exceptions.tree.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception\\WriteException](class.mongodb-driver-exception-writeexception.html)
+-   [MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html)
     
 -   Повертає WriteResult для операції запису помилкою, що закінчилася.
     
@@ -23,7 +23,7 @@ MongoDBDriverExceptionWriteException::getWriteResult — Повертає WriteR
 final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\Driver\WriteResult
 ```
 
-Повертає об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html) для операції запису, що закінчилася помилкою. Більш детальну інформацію про помилку можна отримати за допомогою методів [MongoDB\\Driver\\WriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.html) і [MongoDB\\Driver\\WriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.html)
+Повертає об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) для операції запису, що закінчилася помилкою. Більш детальну інформацію про помилку можна отримати за допомогою методів [MongoDBDriverWriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.html) і [MongoDBDriverWriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\
 
 ### Значення, що повертаються
 
-Об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html) для операції запису помилкою, що закінчилася.
+Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html) для операції запису помилкою, що закінчилася.
 
 ### Приклади
 
@@ -82,5 +82,5 @@ array(1) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
--   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису

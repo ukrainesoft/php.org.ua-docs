@@ -1,12 +1,12 @@
 Включити керуючий елемент
 
--   [« UI\\Control::disable](ui-control.disable.html)
+-   [« UIControl::disable](ui-control.disable.html)
     
--   [UI\\Control::getParent »](ui-control.getparent.html)
+-   [ОЙControl::getParent »](ui-control.getparent.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Включити керуючий елемент
     

@@ -1,12 +1,12 @@
 Отримує все тіло у вигляді рядка
 
--   [« Yaf\_Response\_Abstract::setRedirect](yaf-response-abstract.setredirect.html)
+-   [« YafResponseAbstract::setRedirect](yaf-response-abstract.setredirect.html)
     
--   [Yaf\_Route\_Interface »](class.yaf-route-interface.html)
+-   [YafRouteInterface »](class.yaf-route-interface.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Отримує все тіло у вигляді рядка
     

@@ -1,12 +1,12 @@
 Призначити значення
 
--   [« Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [« YafViewSimple](class.yaf-view-simple.html)
     
--   [Yaf\_View\_Simple::assignRef »](yaf-view-simple.assignref.html)
+-   [YafViewSimple::assignRef »](yaf-view-simple.assignref.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Призначити значення
     
@@ -74,6 +74,6 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [Yaf\_View\_Simple::assignRef()](yaf-view-simple.assignref.html) - Призначення assignRef
+-   [YafViewSimple::assignRef()](yaf-view-simple.assignref.html) - Призначення assignRef
 -   **YafViewInterface::clear()**
--   [Yaf\_View\_Simple::\_\_set()](yaf-view-simple.set.html) - Встановлює значення для двигуна
+-   [YafViewSimple::set()](yaf-view-simple.set.html) - Встановлює значення для двигуна

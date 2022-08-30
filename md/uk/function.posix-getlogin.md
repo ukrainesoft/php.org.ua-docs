@@ -1,8 +1,8 @@
 Повертає логін власника процесу
 
--   [« posix\_getgroups](function.posix-getgroups.html)
+-   [« posixgetgroups](function.posix-getgroups.html)
     
--   [posix\_getpgid »](function.posix-getpgid.html)
+-   [posixgetpgid »](function.posix-getpgid.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@ echo posix_getlogin(); //apache
 
 ### Дивіться також
 
--   [posix\_getpwnam()](function.posix-getpwnam.html) - Повертає інформацію про користувача на його ім'я
+-   [posixgetpwnam()](function.posix-getpwnam.html) - Повертає інформацію про користувача на його ім'я
 -   POSIX керівництво GETLOGIN(3)

@@ -33,7 +33,7 @@ public **Collator::construct**(string `$locale`
 
 ### Помилки
 
-Повертає "порожній" об'єкт у разі помилки. Використовуйте [intl\_get\_error\_code()](function.intl-get-error-code.html) та/або [intl\_get\_error\_message()](function.intl-get-error-message.html), щоб дізнатися, що сталося.
+Повертає "порожній" об'єкт у разі помилки. Використовуйте [intlgeterrorcode()](function.intl-get-error-code.html) та/або [intlgeterrormessage()](function.intl-get-error-message.html), щоб дізнатися, що сталося.
 
 ### Приклади
 
@@ -48,4 +48,4 @@ $coll = new Collator('en_CA');
 ### Дивіться також
 
 -   [Collator::create()](collator.create.html) - Створює новий екземпляр Collator
--   [collator\_create()](collator.create.html) - Створює новий екземпляр Collator
+-   [collatorcreate()](collator.create.html) - Створює новий екземпляр Collator

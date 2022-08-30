@@ -1,8 +1,8 @@
 Викликає системний syncfs у Linux, якщо це доступно
 
--   [« eio\_sync](function.eio-sync.html)
+-   [« eiosync](function.eio-sync.html)
     
--   [eio\_truncate »](function.eio-truncate.html)
+-   [eiotruncate »](function.eio-truncate.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,7 +51,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

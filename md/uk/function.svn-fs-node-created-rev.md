@@ -1,12 +1,12 @@
 Повертає номер ревізії, коли було створено шлях у файловій системі
 
--   [« svn\_fs\_make\_file](function.svn-fs-make-file.html)
+-   [« svnфсmakefile](function.svn-fs-make-file.html)
     
--   [svn\_fs\_node\_prop »](function.svn-fs-node-prop.html)
+-   [svnфсnodeprop »](function.svn-fs-node-prop.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає номер ревізії, коли було створено шлях у файловій системі
     

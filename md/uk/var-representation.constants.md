@@ -2,11 +2,11 @@
 
 -   [« Установка](var-representation.installation.html)
     
--   [Функции var\_representation »](ref.var-representation.html)
+-   [Функции varrepresentation »](ref.var-representation.html)
     
 -   [PHP Manual](index.html)
     
--   [var\_representation](book.var_representation.html)
+-   [varrepresentation](book.var_representation.html)
     
 -   Обумовлені константи
     
@@ -17,8 +17,8 @@
 
 **`VAR_REPRESENTATION_SINGLE_LINE`** (int)
 
-[var\_representation()](function.var-representation.html) - прапор, що вказує на те, що символи нового рядка не повинні використовуватися для пробілів у поданнях змінних.
+[varrepresentation()](function.var-representation.html) - прапор, що вказує на те, що символи нового рядка не повинні використовуватися для пробілів у поданнях змінних.
 
 **`VAR_REPRESENTATION_UNESCAPED`** (int)
 
-[var\_representation()](function.var-representation.html) - прапор, що вказує, що рядки мають бути закодовані як рядки в одинарних лапках з неекранованими символами, що управляють.
+[varrepresentation()](function.var-representation.html) - прапор, що вказує, що рядки мають бути закодовані як рядки в одинарних лапках з неекранованими символами, що управляють.

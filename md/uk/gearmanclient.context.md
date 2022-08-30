@@ -1,6 +1,6 @@
 Повертає контекст програми
 
--   [« GearmanClient::\_\_construct](gearmanclient.construct.html)
+-   [« GearmanClient::construct](gearmanclient.construct.html)
     
 -   [GearmanClient::data »](gearmanclient.data.html)
     

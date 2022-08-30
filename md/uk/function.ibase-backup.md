@@ -1,8 +1,8 @@
 Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
 
--   [« ibase\_affected\_rows](function.ibase-affected-rows.html)
+-   [« ibaseaffectedrows](function.ibase-affected-rows.html)
     
--   [ibase\_blob\_add »](function.ibase-blob-add.html)
+-   [ibaseblobadd »](function.ibase-blob-add.html)
     
 -   [PHP Manual](index.html)
     
@@ -93,4 +93,4 @@ ibase_service_detach ($service);
 
 ### Дивіться також
 
--   [ibase\_restore()](function.ibase-restore.html) - Запускає завдання відновлення у диспетчері служб та негайно повертається
+-   [ibaserestore()](function.ibase-restore.html) - Запускає завдання відновлення у диспетчері служб та негайно повертається

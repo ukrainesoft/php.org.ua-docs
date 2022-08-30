@@ -1,12 +1,12 @@
 Створити новий ReadPreference
 
--   [« MongoDB\\Driver\\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.html)
+-   [« MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.html)
     
--   [MongoDB\\Driver\\ReadPreference::getHedge »](mongodb-driver-readpreference.gethedge.html)
+-   [MongoDBDriverReadPreference::getHedge »](mongodb-driver-readpreference.gethedge.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
 -   Створити новий ReadPreference
     
@@ -23,7 +23,7 @@ MongoDBDriverReadPreference::construct — Створити новий ReadPrefe
 final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array $tagSets = null, ?array $options = null)
 ```
 
-Створює новий [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)що є незмінним об'єктом значення.
+Створює новий [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)що є незмінним об'єктом значення.
 
 ### Список параметрів
 
@@ -62,10 +62,10 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 **options**
 
-| Опция                                                                                                                                                                                                | Тип    | Описание |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|
-| hedge                                                                                                                                                                                                | object | array    |
-| Вказує, чи використовувати [» хеджированные чтения](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |        |          |
+| Опция                                                                                                                                                                                             | Тип    | Описание |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|
+| hedge                                                                                                                                                                                             | object | array    |
+| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |        |          |
 
 Хеджовані читання з сервера доступні для всіх неосновних переваг читання та включаються за умовчанням під час використання режиму `"nearest"`. Цей параметр дозволяє явно дозволити читання з хеджування на сервері для неосновних переваг читання, вказавши `['enabled' => true]`, або явно відключивши серверне читання з хеджуванням для переваг читання `"nearest"`, вказавши `['enabled' => false]`
 
@@ -81,18 +81,18 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При некоректному `mode` викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Якщо `tagSets` надається як первинна перевага читання або має неправильний формат (тобто не масив з нуля або більше документів) викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Якщо опція `"maxStalenessSeconds"` надається для первинної переваги читання або знаходиться поза діапазоном, викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При некоректному `mode` викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Якщо `tagSets` надається як первинна перевага читання або має неправильний формат (тобто не масив з нуля або більше документів) викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Якщо опція `"maxStalenessSeconds"` надається для первинної переваги читання або знаходиться поза діапазоном, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
-| Версия                                                                                                                                                                               | Описание                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| PECL mongodb 1.8.0                                                                                                                                                                   | Доданий параметр `"hedge"` |
-| PECL mongodb 1.3.0                                                                                                                                                                   |                            |
-| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.html) |                            |
+| Версия                                                                                                                                                                       | Описание                   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| PECL mongodb 1.8.0                                                                                                                                                           | Доданий параметр `"hedge"` |
+| PECL mongodb 1.3.0                                                                                                                                                           |                            |
+| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) |                            |
 
 | | PECL mongodb 1.2.0
 

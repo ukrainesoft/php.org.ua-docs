@@ -1,6 +1,6 @@
 Експортує модуль
 
--   [« ReflectionExtension::\_\_construct](reflectionextension.construct.html)
+-   [« ReflectionExtension::construct](reflectionextension.construct.html)
     
 -   [ReflectionExtension::getClasses »](reflectionextension.getclasses.html)
     
@@ -46,4 +46,4 @@ public static ReflectionExtension::export(string $name, string $return = false):
 ### Дивіться також
 
 -   [ReflectionExtension::info()](reflectionextension.info.html) - Виведення інформації про модуль
--   [ReflectionExtension::\_\_toString()](reflectionextension.tostring.html) - Перетворення на рядок
+-   [ReflectionExtension::toString()](reflectionextension.tostring.html) - Перетворення на рядок

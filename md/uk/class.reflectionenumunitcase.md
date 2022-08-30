@@ -2,7 +2,7 @@
 
 -   [« ReflectionEnum::isBacked](reflectionenum.isbacked.html)
     
--   [ReflectionEnumUnitCase::\_\_construct »](reflectionenumunitcase.construct.html)
+-   [ReflectionEnumUnitCase::construct »](reflectionenumunitcase.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -92,6 +92,6 @@ public ReflectionClassConstant::__toString(): string
 
 ## Зміст
 
--   [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.html) — Створює екземпляр об'єкту ReflectionEnumUnitCase
+-   [ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.html) — Створює екземпляр об'єкту ReflectionEnumUnitCase
 -   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.html) — Отримує Reflection-об'єкт перерахування цього варіанта
 -   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.html) — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом

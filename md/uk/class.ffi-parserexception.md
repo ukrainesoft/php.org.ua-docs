@@ -1,6 +1,6 @@
 Виключення парсера FFI
 
--   [« FFI\\Exception](class.ffi-exception.html)
+-   [« FFIException](class.ffi-exception.html)
     
 -   [OPcache »](book.opcache.html)
     

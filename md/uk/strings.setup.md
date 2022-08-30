@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Строки](book.strings.html)
+-   [Рядки](book.strings.html)
     
 -   Встановлення та налаштування
     

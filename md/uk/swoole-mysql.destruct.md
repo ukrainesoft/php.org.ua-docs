@@ -1,12 +1,12 @@
 Знищує асинхронний клієнт MySQL
 
--   [« Swoole\\MySQL::\_\_construct](swoole-mysql.construct.html)
+-   [« SwooleMySQL::construct](swoole-mysql.construct.html)
     
--   [Swoole\\MySQL::getBuffer »](swoole-mysql.getbuffer.html)
+-   [SwooleMySQL::getBuffer »](swoole-mysql.getbuffer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\MySQL](class.swoole-mysql.html)
+-   [SwooleMySQL](class.swoole-mysql.html)
     
 -   Знищує асинхронний клієнт MySQL
     

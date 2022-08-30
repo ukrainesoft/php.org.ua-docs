@@ -1,12 +1,12 @@
 Поділяє ключ, заданий у вигляді рядка і створює масив отриманих частин
 
--   [« dba\_insert](function.dba-insert.html)
+-   [« dbainsert](function.dba-insert.html)
     
--   [dba\_list »](function.dba-list.html)
+-   [dbalist »](function.dba-list.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Поділяє ключ, заданий у вигляді рядка і створює масив отриманих частин
     
@@ -37,6 +37,6 @@ dba_key_split(string|false|null $key): array|false
 
 ### Дивіться також
 
--   [dba\_firstkey()](function.dba-firstkey.html) - Витягує перший ключ
--   [dba\_nextkey()](function.dba-nextkey.html) - Витягує наступний ключ
--   [dba\_fetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
+-   [dbafirstkey()](function.dba-firstkey.html) - Витягує перший ключ
+-   [dbanextkey()](function.dba-nextkey.html) - Витягує наступний ключ
+-   [dbafetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем

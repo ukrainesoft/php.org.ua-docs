@@ -1,12 +1,12 @@
 Отримує об'єкт SNMP
 
--   [« snmp2\_walk](function.snmp2-walk.html)
+-   [« snmp2walk](function.snmp2-walk.html)
     
--   [snmp3\_getnext »](function.snmp3-getnext.html)
+-   [snmpv3getnext »](function.snmp3-getnext.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує об'єкт SNMP
     
@@ -89,4 +89,4 @@ $nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA',
 
 ### Дивіться також
 
--   [snmp3\_set()](function.snmp3-set.html) - Встановлює значення об'єкта SNMP
+-   [snmpv3set()](function.snmp3-set.html) - Встановлює значення об'єкта SNMP

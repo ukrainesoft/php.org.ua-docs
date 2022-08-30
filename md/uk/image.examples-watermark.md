@@ -1,8 +1,8 @@
 Додавання водяних знаків на зображення за допомогою альфа-каналів
 
--   [« Создание PNG средствами PHP](image.examples-png.html)
+-   [« Створення PNG засобами PHP](image.examples-png.html)
     
--   [Использование imagecopymerge создать полупрозрачный водяной знак »](image.examples.merged-watermark.html)
+-   [Використання imagecopymerge створити напівпрозорий водяний знак »](image.examples.merged-watermark.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Визначає ім'я термінального пристрою
 
--   [« posix\_times](function.posix-times.html)
+-   [« posixtimes](function.posix-times.html)
     
--   [posix\_uname »](function.posix-uname.html)
+-   [posixuname »](function.posix-uname.html)
     
 -   [PHP Manual](index.html)
     

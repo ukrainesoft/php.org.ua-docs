@@ -1,8 +1,8 @@
 Розібрати сертифікат X.509 та повернути для нього об'єкт
 
--   [« openssl\_x509\_parse](function.openssl-x509-parse.html)
+-   [« opensslx509parse](function.openssl-x509-parse.html)
     
--   [openssl\_x509\_verify »](function.openssl-x509-verify.html)
+-   [opensslx509verify »](function.openssl-x509-verify.html)
     
 -   [PHP Manual](index.html)
     

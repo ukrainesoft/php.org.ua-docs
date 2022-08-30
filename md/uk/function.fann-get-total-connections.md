@@ -1,8 +1,8 @@
 Отримує загальну кількість з'єднань у всій мережі
 
--   [« fann\_get\_sarprop\_weight\_decay\_shift](function.fann-get-sarprop-weight-decay-shift.html)
+-   [« fanngetsarpropweightdecayshift](function.fann-get-sarprop-weight-decay-shift.html)
     
--   [fann\_get\_total\_neurons »](function.fann-get-total-neurons.html)
+-   [fanngettotalneurons »](function.fann-get-total-neurons.html)
     
 -   [PHP Manual](index.html)
     

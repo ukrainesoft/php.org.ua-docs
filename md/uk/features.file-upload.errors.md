@@ -1,8 +1,8 @@
 Пояснення повідомлень про помилки
 
--   [« Загрузка файлов методом POST](features.file-upload.post-method.html)
+-   [« Завантаження файлів методом POST](features.file-upload.post-method.html)
     
--   [Наиболее распространённые ошибки »](features.file-upload.common-pitfalls.html)
+-   [Найпоширеніші помилки »](features.file-upload.common-pitfalls.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@
 
 ## Пояснення повідомлень про помилки
 
-PHP повертає код помилки поряд з іншими атрибутами прийнятого файлу. Він розташований у масиві, що створюється PHP при завантаженні файлу, і може бути отриманий при зверненні по ключу `error`. Іншими словами, код помилки можна знайти в [$\_FILES\['userfile'\]\['error'\]](reserved.variables.files.html)
+PHP повертає код помилки поряд з іншими атрибутами прийнятого файлу. Він розташований у масиві, що створюється PHP при завантаженні файлу, і може бути отриманий при зверненні по ключу `error`. Іншими словами, код помилки можна знайти в [FILES\['userfile'\]\['error'\]](reserved.variables.files.html)
 
 **`UPLOAD_ERR_OK`**
 
@@ -21,7 +21,7 @@ PHP повертає код помилки поряд з іншими атриб
 
 **`UPLOAD_ERR_INI_SIZE`**
 
-Значення: 1; Розмір прийнятого файлу перевищив максимально допустимий розмір, заданий директивою [upload\_max\_filesize](ini.core.html#ini.upload-max-filesize) конфігураційний файл php.ini.
+Значення: 1; Розмір прийнятого файлу перевищив максимально допустимий розмір, заданий директивою [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) конфігураційний файл php.ini.
 
 **`UPLOAD_ERR_FORM_SIZE`**
 

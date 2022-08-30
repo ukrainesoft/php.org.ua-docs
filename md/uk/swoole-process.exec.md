@@ -1,12 +1,12 @@
 Виконує системні команди
 
--   [« Swoole\\Process::\_\_destruct](swoole-process.destruct.html)
+-   [« SwooleProcess::destruct](swoole-process.destruct.html)
     
--   [Swoole\\Process::exit »](swoole-process.exit.html)
+-   [SwooleProcess::exit »](swoole-process.exit.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Виконує системні команди
     

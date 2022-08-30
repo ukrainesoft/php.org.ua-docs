@@ -1,8 +1,8 @@
 Перевіряє, чи поточний режим повертає блоки
 
--   [« mcrypt\_enc\_is\_block\_algorithm](function.mcrypt-enc-is-block-algorithm.html)
+-   [« mcryptencісblockalgorithm](function.mcrypt-enc-is-block-algorithm.html)
     
--   [mcrypt\_enc\_self\_test »](function.mcrypt-enc-self-test.html)
+-   [mcryptencselftest »](function.mcrypt-enc-self-test.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ mcrypt_enc_is_block_mode(resource $td): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо використовуваний режим повертає блоки та **`false`**якщо повертає байти.
+Повертає **`true`**, якщо використовуваний режим повертає блоки та \*\*`false`\*\*якщо повертає байти.

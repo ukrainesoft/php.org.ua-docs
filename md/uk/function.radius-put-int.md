@@ -1,8 +1,8 @@
 Приєднує цілісний атрибут
 
--   [« radius\_put\_attr](function.radius-put-attr.html)
+-   [« radiusputattr](function.radius-put-attr.html)
     
--   [radius\_put\_string »](function.radius-put-string.html)
+-   [radiusputstring »](function.radius-put-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ radius_put_int(    resource $radius_handle,    int $type,    int $va
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 
@@ -76,6 +76,6 @@ if (!radius_put_int($res, RAD_FRAMED_PROTOCOL, RAD_PPP)) {
 
 ### Дивіться також
 
--   [radius\_put\_string()](function.radius-put-string.html) - Приєднує рядковий атрибут
--   [radius\_put\_vendor\_int()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника
--   [radius\_put\_vendor\_string()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника
+-   [radiusputstring()](function.radius-put-string.html) - Приєднує рядковий атрибут
+-   [radiusputvendorint()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника
+-   [radiusputvendorstring()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника

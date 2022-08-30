@@ -1,8 +1,8 @@
 Закрити дескриптор директорії
 
--   [« streamWrapper::\_\_destruct](streamwrapper.destruct.html)
+-   [« streamWrapper::destruct](streamwrapper.destruct.html)
     
--   [streamWrapper::dir\_opendir »](streamwrapper.dir-opendir.html)
+-   [streamWrapper::diropendir »](streamwrapper.dir-opendir.html)
     
 -   [PHP Manual](index.html)
     
@@ -38,4 +38,4 @@ public streamWrapper::dir_closedir(): bool
 ### Дивіться також
 
 -   [closedir()](function.closedir.html) - Закриває дескриптор каталогу
--   [streamWrapper::dir\_opendir()](streamwrapper.dir-opendir.html) - відкрити дескриптор директорії
+-   [streamWrapper::diropendir()](streamwrapper.dir-opendir.html) - відкрити дескриптор директорії

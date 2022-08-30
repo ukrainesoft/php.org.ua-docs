@@ -1,12 +1,12 @@
 Ініціалізує виставу та повертає її
 
--   [« Yaf\_Dispatcher::getRouter](yaf-dispatcher.getrouter.html)
+-   [« YafDispatcher::getRouter](yaf-dispatcher.getrouter.html)
     
--   [Yaf\_Dispatcher::registerPlugin »](yaf-dispatcher.registerplugin.html)
+-   [YafDispatcher::registerPlugin »](yaf-dispatcher.registerplugin.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Ініціалізує виставу та повертає її
     

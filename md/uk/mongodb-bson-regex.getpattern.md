@@ -1,12 +1,12 @@
 Повертає шаблон Regex
 
--   [« MongoDB\\BSON\\Regex::getFlags](mongodb-bson-regex.getflags.html)
+-   [« MongoDBBSONRegex::getFlags](mongodb-bson-regex.getflags.html)
     
--   [MongoDB\\BSON\\Regex::jsonSerialize »](mongodb-bson-regex.jsonserialize.html)
+-   [MongoDBBSONRegex::jsonSerialize »](mongodb-bson-regex.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+-   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
     
 -   Повертає шаблон Regex
     
@@ -33,7 +33,7 @@ final public MongoDB\BSON\Regex::getPattern(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

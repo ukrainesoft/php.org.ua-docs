@@ -1,12 +1,12 @@
 Клас MongoDBDriverReadConcern
 
--   [« MongoDB\\Driver\\ReadPreference::unserialize](mongodb-driver-readpreference.unserialize.html)
+-   [« MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.html)
     
--   [MongoDB\\Driver\\ReadConcern::bsonSerialize »](mongodb-driver-readconcern.bsonserialize.html)
+-   [MongoDBDriverReadConcern::bsonSerialize »](mongodb-driver-readconcern.bsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverReadConcern
     
@@ -83,7 +83,7 @@ final public unserialize(string $serialized): void
 
 **`MongoDB\Driver\ReadConcern::LINEARIZABLE`**
 
-Запит повертає дані, які відображають усі успішні записи, випущені з гарантіями запису `"majority"` *і* підтверджені на початок операції читання. Для наборів реплік, які виконуються з параметром `writeConcernMajorityJournalDefault`, встановленим у значення **`true`**лінеаризовані гарантії читання повертають дані, які ніколи не будуть відкочуватися.
+Запит повертає дані, які відображають усі успішні записи, випущені з гарантіями запису `"majority"` *і* підтверджені на початок операції читання. Для наборів реплік, які виконуються з параметром `writeConcernMajorityJournalDefault`, встановленим у значення \*\*`true`\*\*лінеаризовані гарантії читання повертають дані, які ніколи не будуть відкочуватися.
 
 Якщо для `writeConcernMajorityJournalDefault` встановлено значення **`false`**, MongoDB не буде очікувати `w: "majority"` записів буде стійким, перш ніж підтвердити запис. Таким чином, операції запису `"majority"` можуть відкочуватися у разі втрати члена набору реплік.
 
@@ -134,7 +134,7 @@ final public unserialize(string $serialized): void
 
 Додано константу **`MongoDB\Driver\ReadConcern::LINEARIZABLE`**
 
-Реалізує [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html)
+Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.html)
 
 ## Дивіться також
 
@@ -142,9 +142,9 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDB\\Driver\\ReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
--   [MongoDB\\Driver\\ReadConcern::\_\_construct](mongodb-driver-readconcern.construct.html) - Створює новий ReadConcern
--   [MongoDB\\Driver\\ReadConcern::getLevel](mongodb-driver-readconcern.getlevel.html) - Повертає опцію "level" ReadConcern
--   [MongoDB\\Driver\\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.html) — Перевіряє, чи є гарантією прочитання за умовчанням
--   [MongoDB\\Driver\\ReadConcern::serialize](mongodb-driver-readconcern.serialize.html) - Серіалізація ReadConcern
--   [MongoDB\\Driver\\ReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern
+-   [MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html) — Повертає об'єкт для серіалізації BSON
+-   [MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.html) - Створює новий ReadConcern
+-   [MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.html) - Повертає опцію "level" ReadConcern
+-   [MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.html) — Перевіряє, чи є гарантією прочитання за умовчанням
+-   [MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.html) - Серіалізація ReadConcern
+-   [MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern

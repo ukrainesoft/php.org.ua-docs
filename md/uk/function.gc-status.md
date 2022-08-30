@@ -1,12 +1,12 @@
 Повертає інформацію про поточний статус збирача сміття
 
--   [« gc\_mem\_caches](function.gc-mem-caches.html)
+-   [« gcmemcaches](function.gc-mem-caches.html)
     
--   [get\_cfg\_var »](function.get-cfg-var.html)
+-   [getcfgvar »](function.get-cfg-var.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає інформацію про поточний статус збирача сміття
     

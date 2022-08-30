@@ -1,8 +1,8 @@
 Звільнення XML-аналізатора
 
--   [« xml\_parser\_create](function.xml-parser-create.html)
+-   [« xmlparsercreate](function.xml-parser-create.html)
     
--   [xml\_parser\_get\_option »](function.xml-parser-get-option.html)
+-   [xmlparsergetoption »](function.xml-parser-get-option.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ xml_parser_free(XMLParser $parser): bool
 
 **Застереження**
 
-До PHP 8.0.0, на додаток до виклику **xmlparserfree()**Після закінчення розбирання необхідно також явно видалити (unset) посилання на `parser` щоб уникнути витоку пам'яті, якщо ресурс парсеру посилається на об'єкт, а цей об'єкт посилається на ресурс парсера.
+До PHP 8.0.0, на додаток до виклику \*\*xmlparserfree()\*\*Після закінчення розбирання необхідно також явно видалити (unset) посилання на `parser` щоб уникнути витоку пам'яті, якщо ресурс парсеру посилається на об'єкт, а цей об'єкт посилається на ресурс парсера.
 
 ### Список параметрів
 

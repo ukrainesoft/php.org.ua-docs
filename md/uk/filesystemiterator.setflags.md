@@ -39,7 +39,7 @@ public FilesystemIterator::setFlags(int $flags): void
 
 **Приклад #1 Приклад використання [FilesystemIterator::key()](filesystemiterator.key.html)**
 
-Приклад демонструє різницю між прапорами [FilesystemIterator::KEY\_AS\_PATHNAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEY\_AS\_FILENAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-filename)
+Приклад демонструє різницю між прапорами [FilesystemIterator::KEYАСPATHNAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEYАСFILENAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-filename)
 
 ```php
 <?php
@@ -73,5 +73,5 @@ example.php
 
 ### Дивіться також
 
--   [FilesystemIterator::\_\_construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
 -   [FilesystemIterator::getFlags()](filesystemiterator.getflags.html) - Отримання прапорів налаштувань об'єкта

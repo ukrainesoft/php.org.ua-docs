@@ -1,12 +1,12 @@
 Виводить текст у заданій позиції
 
--   [« ps\_show\_boxed](function.ps-show-boxed.html)
+-   [«psshowboxed](function.ps-show-boxed.html)
     
--   [ps\_show\_xy »](function.ps-show-xy.html)
+-   [псshowxy »](function.ps-show-xy.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Виводить текст у заданій позиції
     

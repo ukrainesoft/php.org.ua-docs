@@ -1,8 +1,8 @@
 Набуває вигляду поля
 
--   [« fdf\_error](function.fdf-error.html)
+-   [« fdferror](function.fdf-error.html)
     
--   [fdf\_get\_attachment »](function.fdf-get-attachment.html)
+-   [fdfgetattachment »](function.fdf-get-attachment.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_get_ap(    resource $fdf_document,    string $field,    int $fac
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `field`
 

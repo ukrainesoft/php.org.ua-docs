@@ -1,12 +1,12 @@
 Повертає, чи мітка помилки пов'язана з винятком
 
--   [« MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html)
+-   [« MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
     
--   [MongoDB\\Driver\\Exception\\ServerException »](class.mongodb-driver-exception-serverexception.html)
+-   [MongoDBDriverExceptionServerException »](class.mongodb-driver-exception-serverexception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html)
+-   [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
     
 -   Повертає, чи мітка помилки пов'язана з винятком
     
@@ -37,5 +37,5 @@ final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $er
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Session::commitTransaction()](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
+-   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
 -   [» Документация MongoDB по транзакциям](https://www.mongodb.com/docs/manual/core/transactions/)

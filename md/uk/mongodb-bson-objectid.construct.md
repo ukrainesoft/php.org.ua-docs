@@ -1,12 +1,12 @@
 Створює новий ObjectId
 
--   [« MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+-   [« MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
--   [MongoDB\\BSON\\ObjectId::getTimestamp »](mongodb-bson-objectid.gettimestamp.html)
+-   [MongoDBBSONObjectId::getTimestamp »](mongodb-bson-objectid.gettimestamp.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+-   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
 -   Створює новий ObjectId
     
@@ -31,8 +31,8 @@ final public MongoDB\BSON\ObjectId::__construct(?string $id = null)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `id` не є 24-символьним шістнадцятковим рядком.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `id` не є 24-символьним шістнадцятковим рядком.
 
 ### Приклади
 

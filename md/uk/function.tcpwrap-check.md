@@ -1,12 +1,12 @@
 Проводить перевірку tcpwrap
 
--   [« Функции TCP](ref.tcpwrap.html)
+-   [« Функції TCP](ref.tcpwrap.html)
     
 -   [Varnish »](book.varnish.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции TCP](ref.tcpwrap.html)
+-   [Функції TCP](ref.tcpwrap.html)
     
 -   Проводить перевірку tcpwrap
     

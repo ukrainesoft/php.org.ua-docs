@@ -2,7 +2,7 @@
 
 -   [« QuickHashIntHash](class.quickhashinthash.html)
     
--   [QuickHashIntHash::\_\_construct »](quickhashinthash.construct.html)
+-   [QuickHashIntHash::construct »](quickhashinthash.construct.html)
     
 -   [PHP Manual](index.html)
     

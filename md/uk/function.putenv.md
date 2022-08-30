@@ -2,11 +2,11 @@
 
 -   [« phpversion](function.phpversion.html)
     
--   [restore\_include\_path »](function.restore-include-path.html)
+-   [restoreincludepath »](function.restore-include-path.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Встановлює значення змінного середовища
     
@@ -48,4 +48,4 @@ putenv("UNIQID=$uniqid");
 ### Дивіться також
 
 -   [getenv()](function.getenv.html) - набуття значення змінної оточення
--   [apache\_setenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
+-   [apachesetenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache

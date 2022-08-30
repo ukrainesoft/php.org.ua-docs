@@ -1,12 +1,12 @@
 Перевіряє наявність будь-яких друкованих символів, крім пробілу
 
--   [« ctype\_digit](function.ctype-digit.html)
+-   [« ctypedigit](function.ctype-digit.html)
     
--   [ctype\_lower »](function.ctype-lower.html)
+-   [ctypelower »](function.ctype-lower.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Ctype](ref.ctype.html)
+-   [Опції Ctype](ref.ctype.html)
     
 -   Перевіряє наявність будь-яких друкованих символів, крім пробілу
     
@@ -70,6 +70,6 @@ foreach ($strings as $name => $testcase) {
 
 ### Дивіться також
 
--   [ctype\_alnum()](function.ctype-alnum.html) - Перевіряє наявність буквено-цифрових символів
--   [ctype\_print()](function.ctype-print.html) - Перевіряє наявність друкованих символів
--   [ctype\_punct()](function.ctype-punct.html) - Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
+-   [ctypealnum()](function.ctype-alnum.html) - Перевіряє наявність буквено-цифрових символів
+-   [ctypeprint()](function.ctype-print.html) - Перевіряє наявність друкованих символів
+-   [ctypepunct()](function.ctype-punct.html) - Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.

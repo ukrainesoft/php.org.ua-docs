@@ -1,12 +1,12 @@
 Додає значення до кінця послідовності
 
--   [« Ds\\Sequence::pop](ds-sequence.pop.html)
+-   [« DsSequence::pop](ds-sequence.pop.html)
     
--   [Ds\\Sequence::reduce »](ds-sequence.reduce.html)
+-   [ДсSequence::reduce »](ds-sequence.reduce.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Додає значення до кінця послідовності
     

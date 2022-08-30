@@ -1,8 +1,8 @@
 Зняти з повідомлення встановлені прапори
 
--   [« imap\_check](function.imap-check.html)
+-   [« imapcheck](function.imap-check.html)
     
--   [imap\_close »](function.imap-close.html)
+-   [imapclose »](function.imap-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,  �
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `sequence`
 
@@ -51,10 +51,10 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,  �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_setflag\_full()](function.imap-setflag-full.html) - Встановити прапори на повідомлення
+-   [imapsetflagfull()](function.imap-setflag-full.html) - Встановити прапори на повідомлення

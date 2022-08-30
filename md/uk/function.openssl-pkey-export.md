@@ -1,8 +1,8 @@
 Отримує рядок із ключем у форматі PEM
 
--   [« openssl\_pkey\_export\_to\_file](function.openssl-pkey-export-to-file.html)
+-   [« opensslpkeyexportтоfile](function.openssl-pkey-export-to-file.html)
     
--   [openssl\_pkey\_free »](function.openssl-pkey-free.html)
+-   [opensslpkeyfree »](function.openssl-pkey-free.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string
 
 `options`
 
-`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться опис [openssl\_csr\_new()](function.openssl-csr-new.html) для детальної інформації про `options`
+`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться опис [opensslcsrnew()](function.openssl-csr-new.html) для детальної інформації про `options`
 
 ### Значення, що повертаються
 

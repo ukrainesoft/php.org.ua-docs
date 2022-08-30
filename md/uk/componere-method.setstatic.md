@@ -1,12 +1,12 @@
 Зміна доступності
 
--   [« Componere\\Method::setProtected](componere-method.setprotected.html)
+-   [« ComponereMethod::setProtected](componere-method.setprotected.html)
     
--   [Componere\\Method::getReflector »](componere-method.getreflector.html)
+-   [ComponereMethod::getReflector »](componere-method.getreflector.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Method](class.componere-method.html)
+-   [ComponereMethod](class.componere-method.html)
     
 -   Зміна доступності
     

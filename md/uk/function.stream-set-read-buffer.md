@@ -1,12 +1,12 @@
 Встановити буферизацію читання файлу на вказаному потоці
 
--   [« stream\_set\_chunk\_size](function.stream-set-chunk-size.html)
+-   [« streamsetchunksize](function.stream-set-chunk-size.html)
     
--   [stream\_set\_timeout »](function.stream-set-timeout.html)
+-   [streamsettimeout »](function.stream-set-timeout.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановити буферизацію читання файлу на вказаному потоці
     
@@ -23,7 +23,7 @@ streamsetreadbuffer — Встановити буферизацію читанн
 stream_set_read_buffer(resource $stream, int $size): int
 ```
 
-Встановлює буфер читання. Це еквівалент функції [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html), але операцій читання.
+Встановлює буфер читання. Це еквівалент функції [streamsetwritebuffer()](function.stream-set-write-buffer.html), але операцій читання.
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ stream_set_read_buffer(resource $stream, int $size): int
 
 ### Дивіться також
 
--   [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік
+-   [streamsetwritebuffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік

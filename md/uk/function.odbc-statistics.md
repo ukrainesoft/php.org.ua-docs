@@ -1,8 +1,8 @@
 Отримує статистику про таблицю
 
--   [« odbc\_specialcolumns](function.odbc-specialcolumns.html)
+-   [« odbcspecialcolumns](function.odbc-specialcolumns.html)
     
--   [odbc\_tableprivileges »](function.odbc-tableprivileges.html)
+-   [odbctableprivileges »](function.odbc-tableprivileges.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_statistics(    resource $odbc,    ?string $catalog,    string $
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -113,4 +113,4 @@ Array
 
 ### Дивіться також
 
--   [odbc\_tables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

@@ -1,8 +1,8 @@
 Виконує запит
 
--   [« pg\_query\_params](function.pg-query-params.html)
+-   [« pgqueryparams](function.pg-query-params.html)
     
--   [pg\_result\_error\_field »](function.pg-result-error-field.html)
+-   [пгresulterrorfield »](function.pg-result-error-field.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,9 +23,9 @@
 pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 ```
 
-**пгquery()** виконує `query` до вказаної в `connection` базі даних . [pg\_query\_params()](function.pg-query-params.html) має бути кращим у більшості випадків.
+**пгquery()** виконує `query` до вказаної в `connection` базі даних . [пгqueryparams()](function.pg-query-params.html) має бути кращим у більшості випадків.
 
-У разі помилки функція повертає **`false`**, деталі помилки можна отримати за допомогою функції [pg\_last\_error()](function.pg-last-error.html)якщо з'єднання з БД не порушено.
+У разі помилки функція повертає **`false`**, деталі помилки можна отримати за допомогою функції [пгlasterror()](function.pg-last-error.html)якщо з'єднання з БД не порушено.
 
 > **Зауваження**: Незважаючи на те, що параметр `connection` може бути опущений, робити так не рекомендується, так як це може призвести до помилок, що важко перебувають у скриптах.
 
@@ -37,7 +37,7 @@ pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -49,20 +49,20 @@ pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 
 **Увага**
 
-Строкове представлення даних користувача дуже небезпечне і часто призводить до можливості [SQL инъекции](security.database.sql-injection.html). У більшості випадків краще передавати дані користувача параметром в [pg\_query\_params()](function.pg-query-params.html), а не підставляти їх у рядок запиту.
+Строкове представлення даних користувача дуже небезпечне і часто призводить до можливості [SQL ін'єкції](security.database.sql-injection.html). У більшості випадків краще передавати дані користувача параметром в [пгqueryparams()](function.pg-query-params.html), а не підставляти їх у рядок запиту.
 
-Будь-які дані, що передаються від користувача безпосередньо в рядок запиту, повинні бути [хорошо экранированы](function.pg-escape-string.html)
+Будь-які дані, що передаються від користувача безпосередньо в рядок запиту, повинні бути [добре екрановані](function.pg-escape-string.html)
 
 ### Значення, що повертаються
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Екземпляр [PgSqlResult](class.pgsql-result.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -111,9 +111,9 @@ pg_query($conn, $query);
 
 ### Дивіться також
 
--   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [pg\_pconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [pg\_fetch\_array()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
--   [pg\_fetch\_object()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [pg\_num\_rows()](function.pg-num-rows.html) - Повертає кількість рядків у вибірці
--   [pg\_affected\_rows()](function.pg-affected-rows.html) - Повертає кількість порушених запитом записів (кортежів)
+-   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [пгfetchobject()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгnumrows()](function.pg-num-rows.html) - Повертає кількість рядків у вибірці
+-   [пгaffectedrows()](function.pg-affected-rows.html) - Повертає кількість порушених запитом записів (кортежів)

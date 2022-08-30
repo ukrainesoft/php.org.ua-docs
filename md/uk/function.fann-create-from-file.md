@@ -1,8 +1,8 @@
 Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
 
--   [« fann\_copy](function.fann-copy.html)
+-   [« fanncopy](function.fann-copy.html)
     
--   [fann\_create\_shortcut\_array »](function.fann-create-shortcut-array.html)
+-   [fanncreateshortcutarray »](function.fann-create-shortcut-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ fanncreatefromfile — Створює нейронну мережу із зво�
 fann_create_from_file(string $configuration_file): resource
 ```
 
-Створює нейронну мережу зі зворотним поширенням помилки з конфігураційного файлу, створеного раніше за допомогою [fann\_save()](function.fann-save.html)
+Створює нейронну мережу зі зворотним поширенням помилки з конфігураційного файлу, створеного раніше за допомогою [fannsave()](function.fann-save.html)
 
 ### Список параметрів
 
@@ -37,4 +37,4 @@ fann_create_from_file(string $configuration_file): resource
 
 ### Дивіться також
 
--   [fann\_save()](function.fann-save.html) - Зберігає всю мережу файл конфігурації
+-   [fannsave()](function.fann-save.html) - Зберігає всю мережу файл конфігурації

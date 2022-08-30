@@ -1,12 +1,12 @@
 Замикає шлях
 
--   [« ps\_closepath\_stroke](function.ps-closepath-stroke.html)
+-   [«psclosepathstroke](function.ps-closepath-stroke.html)
     
--   [ps\_continue\_text »](function.ps-continue-text.html)
+-   [псcontinuetext »](function.ps-continue-text.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Замикає шлях
     
@@ -29,7 +29,7 @@ ps_closepath(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ ps_closepath(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_clip()](function.ps-clip.html) - Відображення кліпів по поточному шляху
--   [ps\_closepath\_stroke()](function.ps-closepath-stroke.html) - Замикає та обводить контур
+-   [псclip()](function.ps-clip.html) - Відображення кліпів по поточному шляху
+-   [псclosepathstroke()](function.ps-closepath-stroke.html) - Замикає та обводить контур

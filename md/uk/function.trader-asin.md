@@ -1,8 +1,8 @@
 Вектор тригонометричний арксинус
 
--   [« trader\_aroonosc](function.trader-aroonosc.html)
+-   [« traderaroonosc](function.trader-aroonosc.html)
     
--   [trader\_atan »](function.trader-atan.html)
+-   [traderatan »](function.trader-atan.html)
     
 -   [PHP Manual](index.html)
     

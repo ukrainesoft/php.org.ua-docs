@@ -1,12 +1,12 @@
 Отримує сеанс клієнта
 
--   [« Client::\_\_construct](mysql-xdevapi-client.construct.html)
+-   [« Client::construct](mysql-xdevapi-client.construct.html)
     
--   [mysql\_xdevapi\\Collection »](class.mysql-xdevapi-collection.html)
+-   [mysqlxdevapiCollection »](class.mysql-xdevapi-collection.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html)
+-   [mysqlxdevapiClient](class.mysql-xdevapi-client.html)
     
 -   Отримує сеанс клієнта
     

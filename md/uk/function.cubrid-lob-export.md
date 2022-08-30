@@ -1,8 +1,8 @@
 Експортує дані BLOB/CLOB у файл
 
--   [« cubrid\_lob\_close](function.cubrid-lob-close.html)
+-   [« cubridlobclose](function.cubrid-lob-close.html)
     
--   [cubrid\_lob\_get »](function.cubrid-lob-get.html)
+-   [cubridlobget »](function.cubrid-lob-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ cubridлобexport — Експортує дані BLOB/CLOB у файл
 cubrid_lob_export(resource $conn_identifier, resource $lob_identifier, string $path_name): bool
 ```
 
-**cubridлобexport()** використовується для отримання даних BLOB/CLOB з бази даних CUBRID та збереження їхнього вмісту у файл. Щоб використати цю функцію, необхідно спочатку використати [cubrid\_lob\_get()](function.cubrid-lob-get.html), щоб отримати інформацію BLOB/CLOB із CUBRID.
+**cubridлобexport()** використовується для отримання даних BLOB/CLOB з бази даних CUBRID та збереження їхнього вмісту у файл. Щоб використати цю функцію, необхідно спочатку використати [cubridlobget()](function.cubrid-lob-get.html), щоб отримати інформацію BLOB/CLOB із CUBRID.
 
 ### Список параметрів
 
@@ -65,7 +65,7 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubrid\_lob\_get()](function.cubrid-lob-get.html) - Отримує дані BLOB/CLOB
--   [cubrid\_lob\_close()](function.cubrid-lob-close.html) - Закриває дані BLOB/CLOB
--   [cubrid\_lob\_size()](function.cubrid-lob-size.html) - Отримує розмір даних BLOB/CLOB
--   [cubrid\_lob\_send()](function.cubrid-lob-send.html) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubridlobget()](function.cubrid-lob-get.html) - Отримує дані BLOB/CLOB
+-   [cubridlobclose()](function.cubrid-lob-close.html) - Закриває дані BLOB/CLOB
+-   [cubridlobsize()](function.cubrid-lob-size.html) - Отримує розмір даних BLOB/CLOB
+-   [cubridlobsend()](function.cubrid-lob-send.html) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера

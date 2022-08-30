@@ -2,11 +2,11 @@
 
 -   [« SqlStatementResult::nextResult](mysql-xdevapi-sqlstatementresult.nextresult.html)
     
--   [Statement::\_\_construct »](mysql-xdevapi-statement.construct.html)
+-   [Statement::construct »](mysql-xdevapi-statement.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Statement
     
@@ -57,7 +57,7 @@ public hasMoreResults(): bool
 
 ## Зміст
 
--   [Statement::\_\_construct](mysql-xdevapi-statement.construct.html) - Опис конструктора
+-   [Statement::construct](mysql-xdevapi-statement.construct.html) - Опис конструктора
 -   [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.html) — Отримує наступний результат
 -   [Statement::getResult](mysql-xdevapi-statement.getresult.html) — Отримує результат
 -   [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.html) — Перевіряє, чи є ще результати

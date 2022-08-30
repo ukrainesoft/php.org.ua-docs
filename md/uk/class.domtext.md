@@ -1,8 +1,8 @@
 Клас DOMText
 
--   [« DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.html)
+-   [« DOMProcessingInstruction::construct](domprocessinginstruction.construct.html)
     
--   [DOMText::\_\_construct »](domtext.construct.html)
+-   [DOMText::construct »](domtext.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -176,7 +176,7 @@ wholeText
 
 ## Зміст
 
--   [DOMText::\_\_construct](domtext.construct.html) — Створює об'єкт класу DOMText
+-   [DOMText::construct](domtext.construct.html) — Створює об'єкт класу DOMText
 -   [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.html) — Повертає, чи містить текстовий вузол пробіл у вмісті елемента
 -   [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.html) — Визначає, чи містить текстовий вузол пробіли у вмісті
 -   [DOMText::splitText](domtext.splittext.html) — Поділяє вузол на два, починаючи із заданої позиції

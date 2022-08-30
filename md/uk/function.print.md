@@ -1,12 +1,12 @@
 Виводить рядок
 
--   [« parse\_str](function.parse-str.html)
+-   [« parsestr](function.parse-str.html)
     
 -   [printf »](function.printf.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Виводить рядок
     
@@ -33,7 +33,7 @@ print(string $expression): int
 
 `expression`
 
-Вираз для виведення. Нестрокові значення будуть перетворені на рядки, навіть якщо [включена директива `strict_types`](language.types.declarations.html#language.types.declarations.strict)
+Вираз для виведення. Нестрокові значення будуть перетворені на рядки, навіть якщо [включена директива`strict_types`](language.types.declarations.html#language.types.declarations.strict)
 
 ### Значення, що повертаються
 
@@ -141,4 +141,4 @@ if ( print "привет" ) {
 -   [echo](function.echo.html) - Виводить один або більше рядків
 -   [printf()](function.printf.html) - Виводить відформатований рядок
 -   [flush()](function.flush.html) - Скидання системного буфера виводу
--   [Способы работы со строками](language.types.string.html)
+-   [Способи роботи з рядками](language.types.string.html)

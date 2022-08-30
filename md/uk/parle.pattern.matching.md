@@ -16,11 +16,11 @@
 ## Зміст
 
 -   [Представления символов](parle.regex.chars.html)
--   [Классы символов](parle.regex.charclass.html)
+-   [Класи символів](parle.regex.charclass.html)
 -   [Классы символов Unicode](parle.regex.unicodecharclass.html)
 -   [Чередование и повторение](parle.regex.alternation.html)
 -   [Якоря](parle.regex.anchors.html)
--   [Группировка](parle.regex.grouping.html)
+-   [Угруповання](parle.regex.grouping.html)
 
 Parle підтримує зіставлення регулярних виразів аналогічно flex. Також підтримуються такі набори символів POSIX: `[:alnum:]` `[:alpha:]` `[:blank:]` `[:cntrl:]` `[:digit:]` `[:graph:]` `[:lower:]` `[:print:]` `[:punct:]` `[:space:]` `[:upper:]` і `[:xdigit:]`
 

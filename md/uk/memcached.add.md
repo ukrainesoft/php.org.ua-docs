@@ -41,7 +41,7 @@ public Memcached::add(string $key, mixed $value, int $expiration = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTSTORED`**якщо переданий ключ вже існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає \*\*`Memcached::RES_NOTSTORED`\*\*якщо переданий ключ вже існує.
 
 ### Дивіться також
 

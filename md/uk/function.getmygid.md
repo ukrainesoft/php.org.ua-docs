@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримати GID власника скрипта PHP
     
@@ -37,6 +37,6 @@ getmygid(): int|false
 
 -   [getmyuid()](function.getmyuid.html) - Отримання UID власника скрипта PHP
 -   [getmypid()](function.getmypid.html) - Отримання ID процесу PHP
--   [get\_current\_user()](function.get-current-user.html) - Отримує ім'я власника поточного скрипту PHP
+-   [getcurrentuser()](function.get-current-user.html) - Отримує ім'я власника поточного скрипту PHP
 -   [getmyinode()](function.getmyinode.html) - Отримує значення inode поточного скрипту
 -   [getlastmod()](function.getlastmod.html) - Отримує час останньої модифікації сторінки

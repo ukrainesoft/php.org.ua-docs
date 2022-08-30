@@ -1,12 +1,12 @@
 Експортує вміст директорії SVN
 
--   [« svn\_diff](function.svn-diff.html)
+-   [« svndiff](function.svn-diff.html)
     
--   [svn\_fs\_abort\_txn »](function.svn-fs-abort-txn.html)
+-   [svnфсaborttxn »](function.svn-fs-abort-txn.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Експортує вміст директорії SVN
     
@@ -58,4 +58,4 @@ svn_export($working_dir, $new_working_dir);
 
 ### Дивіться також
 
--   [svn\_import()](function.svn-import.html) - Імпорт шляху без версії до репозиторії
+-   [svnimport()](function.svn-import.html) - Імпорт шляху без версії до репозиторії

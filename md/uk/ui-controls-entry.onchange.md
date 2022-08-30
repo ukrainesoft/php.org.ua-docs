@@ -1,12 +1,12 @@
 Обробник зміни
 
--   [« UI\\Controls\\Entry::isReadOnly](ui-controls-entry.isreadonly.html)
+-   [« UIControlsEntry::isReadOnly](ui-controls-entry.isreadonly.html)
     
--   [UI\\Controls\\Entry::setReadOnly »](ui-controls-entry.setreadonly.html)
+-   [ОЙControlsEntry::setReadOnly »](ui-controls-entry.setreadonly.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+-   [ОЙControlsEntry](class.ui-controls-entry.html)
     
 -   Обробник зміни
     

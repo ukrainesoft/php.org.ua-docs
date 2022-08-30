@@ -2,7 +2,7 @@
 
 -   [« PharData::compress](phardata.compress.html)
     
--   [PharData::\_\_construct »](phardata.construct.html)
+-   [PharData::construct »](phardata.construct.html)
     
 -   [PHP Manual](index.html)
     

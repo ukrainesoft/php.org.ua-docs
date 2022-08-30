@@ -1,12 +1,12 @@
 Apache Solr
 
--   [« Модули для работы с поисковыми системами](refs.search.html)
+-   [« Модулі для роботи з пошуковими системами](refs.search.html)
     
 -   [Введение »](intro.solr.html)
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с поисковыми системами](refs.search.html)
+-   [Модулі для роботи з пошуковими системами](refs.search.html)
     
 -   Apache Solr
     
@@ -21,7 +21,7 @@ Apache Solr
     -   [Типы ресурсов](solr.resources.html)
 -   [Предопределённые константы](solr.constants.html)
 -   [Функции Solr](ref.solr.html)
-    -   [solr\_get\_version](function.solr-get-version.html) — Повертає поточну версію Apache Solr
+    -   [solrgetversion](function.solr-get-version.html) — Повертає поточну версію Apache Solr
 -   [Примеры](solr.examples.html)
 -   [SolrUtils](class.solrutils.html) - Клас SolrUtils
     -   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.html) — Перетворює XML-рядок відповіді на SolrObject
@@ -33,10 +33,10 @@ Apache Solr
     -   [SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.html) — Додає масив дочірніх документів
     -   [SolrInputDocument::addField](solrinputdocument.addfield.html) — Додає поле до документа
     -   [SolrInputDocument::clear](solrinputdocument.clear.html) — скидає вхідний документ
-    -   [SolrInputDocument::\_\_clone](solrinputdocument.clone.html) - Створює копію SolrDocument
-    -   [SolrInputDocument::\_\_construct](solrinputdocument.construct.html) - Конструктор
+    -   [SolrInputDocument::clone](solrinputdocument.clone.html) - Створює копію SolrDocument
+    -   [SolrInputDocument::construct](solrinputdocument.construct.html) - Конструктор
     -   [SolrInputDocument::deleteField](solrinputdocument.deletefield.html) — Видаляє поле із документа
-    -   [SolrInputDocument::\_\_destruct](solrinputdocument.destruct.html) - Деструктор
+    -   [SolrInputDocument::destruct](solrinputdocument.destruct.html) - Деструктор
     -   [SolrInputDocument::fieldExists](solrinputdocument.fieldexists.html) — Перевіряє, чи є поле
     -   [SolrInputDocument::getBoost](solrinputdocument.getboost.html) — Отримує поточне значення підвищення документа
     -   [SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrInputDocument)
@@ -55,13 +55,13 @@ Apache Solr
 -   [SolrDocument](class.solrdocument.html) - Клас SolrDocument
     -   [SolrDocument::addField](solrdocument.addfield.html) — Додає поле до документа
     -   [SolrDocument::clear](solrdocument.clear.html) — Видаляє всі поля у документі
-    -   [SolrDocument::\_\_clone](solrdocument.clone.html) — Створює копію об'єкта SolrDocument
-    -   [SolrDocument::\_\_construct](solrdocument.construct.html) - Конструктор
+    -   [SolrDocument::clone](solrdocument.clone.html) — Створює копію об'єкта SolrDocument
+    -   [SolrDocument::construct](solrdocument.construct.html) - Конструктор
     -   [SolrDocument::current](solrdocument.current.html) — Отримує поточне поле
     -   [SolrDocument::deleteField](solrdocument.deletefield.html) — Видаляє поле із документа
-    -   [SolrDocument::\_\_destruct](solrdocument.destruct.html) - Деструктор
+    -   [SolrDocument::destruct](solrdocument.destruct.html) - Деструктор
     -   [SolrDocument::fieldExists](solrdocument.fieldexists.html) — Перевіряє, чи є поле у ​​документі
-    -   [SolrDocument::\_\_get](solrdocument.get.html) — Доступ до поля як властивості
+    -   [SolrDocument::get](solrdocument.get.html) — Доступ до поля як властивості
     -   [SolrDocument::getChildDocuments](solrdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrDocument)
     -   [SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.html) — Повертає кількість дочірніх документів
     -   [SolrDocument::getField](solrdocument.getfield.html) — Отримує поле на ім'я
@@ -69,7 +69,7 @@ Apache Solr
     -   [SolrDocument::getFieldNames](solrdocument.getfieldnames.html) — Повертає масив імен полів у документі
     -   [SolrDocument::getInputDocument](solrdocument.getinputdocument.html) — Повертає SolrInputDocument еквівалент об'єкту
     -   [SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.html) — Перевіряє, чи документ має дочірні документи.
-    -   [SolrDocument::\_\_isset](solrdocument.isset.html) — Перевіряє, чи є поле
+    -   [SolrDocument::isset](solrdocument.isset.html) — Перевіряє, чи є поле
     -   [SolrDocument::key](solrdocument.key.html) — Отримує поточний ключ
     -   [SolrDocument::merge](solrdocument.merge.html) — Зливає джерело у поточний SolrDocument
     -   [SolrDocument::next](solrdocument.next.html) — Переміщує внутрішній покажчик на наступне поле
@@ -80,18 +80,18 @@ Apache Solr
     -   [SolrDocument::reset](solrdocument.reset.html) - Псевдонім SolrDocument::clear()
     -   [SolrDocument::rewind](solrdocument.rewind.html) — скидає внутрішній покажчик на початок
     -   [SolrDocument::serialize](solrdocument.serialize.html) — Використовується для серіалізації користувача
-    -   [SolrDocument::\_\_set](solrdocument.set.html) — Додає ще одне поле до документа
+    -   [SolrDocument::set](solrdocument.set.html) — Додає ще одне поле до документа
     -   [SolrDocument::sort](solrdocument.sort.html) — Сортує поля у документі
     -   [SolrDocument::toArray](solrdocument.toarray.html) — Повертає подання масиву документа
     -   [SolrDocument::unserialize](solrdocument.unserialize.html) — Серіалізація об'єктів користувача SolrDocument
-    -   [SolrDocument::\_\_unset](solrdocument.unset.html) — Видаляє поле із документа
+    -   [SolrDocument::unset](solrdocument.unset.html) — Видаляє поле із документа
     -   [SolrDocument::valid](solrdocument.valid.html) — Перевіряє, чи поточна позиція є внутрішньо коректною.
 -   [SolrDocumentField](class.solrdocumentfield.html) - Клас SolrDocumentField
-    -   [SolrDocumentField::\_\_construct](solrdocumentfield.construct.html) - Конструктор
-    -   [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.html) - Деструктор
+    -   [SolrDocumentField::construct](solrdocumentfield.construct.html) - Конструктор
+    -   [SolrDocumentField::destruct](solrdocumentfield.destruct.html) - Деструктор
 -   [SolrObject](class.solrobject.html) - Клас SolrObject
-    -   [SolrObject::\_\_construct](solrobject.construct.html) — Створює об'єкт Solr
-    -   [SolrObject::\_\_destruct](solrobject.destruct.html) - Деструктор
+    -   [SolrObject::construct](solrobject.construct.html) — Створює об'єкт Solr
+    -   [SolrObject::destruct](solrobject.destruct.html) - Деструктор
     -   [SolrObject::getPropertyNames](solrobject.getpropertynames.html) - Повертає масив усіх імен властивостей
     -   [SolrObject::offsetExists](solrobject.offsetexists.html) — Перевіряє, чи існує властивість
     -   [SolrObject::offsetGet](solrobject.offsetget.html) — Використовується для отримання якості
@@ -101,12 +101,12 @@ Apache Solr
     -   [SolrClient::addDocument](solrclient.adddocument.html) — Додає документ до індексу
     -   [SolrClient::addDocuments](solrclient.adddocuments.html) — Додає колекцію екземплярів SolrInputDocument до індексу
     -   [SolrClient::commit](solrclient.commit.html) — Завершує всі додавання/видалення, зроблені в індексі
-    -   [SolrClient::\_\_construct](solrclient.construct.html) - Конструктор об'єкта SolrClient
+    -   [SolrClient::construct](solrclient.construct.html) - Конструктор об'єкта SolrClient
     -   [SolrClient::deleteById](solrclient.deletebyid.html) — Видаляє за ідентифікатором
     -   [SolrClient::deleteByIds](solrclient.deletebyids.html) — Видаляє за ідентифікаторами
     -   [SolrClient::deleteByQueries](solrclient.deletebyqueries.html) — Видаляє всі документи, які відповідають будь-якому запиту.
     -   [SolrClient::deleteByQuery](solrclient.deletebyquery.html) — Видаляє всі документи, які відповідають заданому запиту
-    -   [SolrClient::\_\_destruct](solrclient.destruct.html) - Деструктор SolrClient
+    -   [SolrClient::destruct](solrclient.destruct.html) - Деструктор SolrClient
     -   [SolrClient::getById](solrclient.getbyid.html) — Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
     -   [SolrClient::getByIds](solrclient.getbyids.html) — Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
     -   [SolrClient::getDebug](solrclient.getdebug.html) — Повертає дані налагодження для останньої спроби підключення
@@ -133,18 +133,18 @@ Apache Solr
     -   [SolrResponse::setParseMode](solrresponse.setparsemode.html) — Встановлює режим аналізу
     -   [SolrResponse::success](solrresponse.success.html) — Чи був запит успішним?
 -   [SolrQueryResponse](class.solrqueryresponse.html) - Клас SolrQueryResponse
-    -   [SolrQueryResponse::\_\_construct](solrqueryresponse.construct.html) - Конструктор
-    -   [SolrQueryResponse::\_\_destruct](solrqueryresponse.destruct.html) - Деструктор
+    -   [SolrQueryResponse::construct](solrqueryresponse.construct.html) - Конструктор
+    -   [SolrQueryResponse::destruct](solrqueryresponse.destruct.html) - Деструктор
 -   [SolrUpdateResponse](class.solrupdateresponse.html) - Клас SolrUpdateResponse
-    -   [SolrUpdateResponse::\_\_construct](solrupdateresponse.construct.html) - Конструктор
-    -   [SolrUpdateResponse::\_\_destruct](solrupdateresponse.destruct.html) - Деструктор
+    -   [SolrUpdateResponse::construct](solrupdateresponse.construct.html) - Конструктор
+    -   [SolrUpdateResponse::destruct](solrupdateresponse.destruct.html) - Деструктор
 -   [SolrPingResponse](class.solrpingresponse.html) - Клас SolrPingResponse
-    -   [SolrPingResponse::\_\_construct](solrpingresponse.construct.html) - Конструктор
-    -   [SolrPingResponse::\_\_destruct](solrpingresponse.destruct.html) - Деструктор
+    -   [SolrPingResponse::construct](solrpingresponse.construct.html) - Конструктор
+    -   [SolrPingResponse::destruct](solrpingresponse.destruct.html) - Деструктор
     -   [SolrPingResponse::getResponse](solrpingresponse.getresponse.html) — Повертає відповідь від сервера
 -   [SolrGenericResponse](class.solrgenericresponse.html) - Клас SolrGenericResponse
-    -   [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.html) - Конструктор
-    -   [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.html) - Деструктор
+    -   [SolrGenericResponse::construct](solrgenericresponse.construct.html) - Конструктор
+    -   [SolrGenericResponse::destruct](solrgenericresponse.destruct.html) - Деструктор
 -   [SolrParams](class.solrparams.html) - Клас SolrParams
     -   [SolrParams::add](solrparams.add.html) - Псевдонім SolrParams::addParam
     -   [SolrParams::addParam](solrparams.addparam.html) — Додає параметр до об'єкту
@@ -158,8 +158,8 @@ Apache Solr
     -   [SolrParams::toString](solrparams.tostring.html) — Повертає всі параметри об'єкта у вигляді пар ім'я-значення
     -   [SolrParams::unserialize](solrparams.unserialize.html) — Використовується для серіалізації користувача
 -   [SolrModifiableParams](class.solrmodifiableparams.html) - Клас SolrModifiableParams
-    -   [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.html) - Конструктор
-    -   [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.html) - Деструктор
+    -   [SolrModifiableParams::construct](solrmodifiableparams.construct.html) - Конструктор
+    -   [SolrModifiableParams::destruct](solrmodifiableparams.destruct.html) - Деструктор
 -   [SolrQuery](class.solrquery.html) - Клас SolrQuery
     -   [SolrQuery::addExpandFilterQuery](solrquery.addexpandfilterquery.html) — Перевизначає запит основного фільтра, визначає, які документи включити до основної групи
     -   [SolrQuery::addExpandSortField](solrquery.addexpandsortfield.html) — Упорядковує документи у розширених групах (параметр expand.sort)
@@ -180,8 +180,8 @@ Apache Solr
     -   [SolrQuery::addStatsFacet](solrquery.addstatsfacet.html) — Запитує повернення допоміжних результатів для значень у цьому фасеті
     -   [SolrQuery::addStatsField](solrquery.addstatsfield.html) - Відповідає параметру stats.field
     -   [SolrQuery::collapse](solrquery.collapse.html) — Згортає набір результатів до одного документа на групу
-    -   [SolrQuery::\_\_construct](solrquery.construct.html) - Конструктор
-    -   [SolrQuery::\_\_destruct](solrquery.destruct.html) - Деструктор
+    -   [SolrQuery::construct](solrquery.construct.html) - Конструктор
+    -   [SolrQuery::destruct](solrquery.destruct.html) - Деструктор
     -   [SolrQuery::getExpand](solrquery.getexpand.html) — Повертає true, якщо увімкнено розширення групи
     -   [SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.html) — Повертає запити розширеного фільтра
     -   [SolrQuery::getExpandQuery](solrquery.getexpandquery.html) — Повертає параметр розширеного запиту expand.q
@@ -361,7 +361,7 @@ Apache Solr
     -   [SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.html) — Додає поле запиту із необов'язковим підвищенням (параметр qf)
     -   [SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.html) - Додає поле триграми (параметр pf3)
     -   [SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.html) — Додає поле до параметра поля користувача (uf)
-    -   [SolrDisMaxQuery::\_\_construct](solrdismaxquery.construct.html) - Конструктор класу
+    -   [SolrDisMaxQuery::construct](solrdismaxquery.construct.html) - Конструктор класу
     -   [SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.html) - Видаляє поле біграми фрази (параметр pf2)
     -   [SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.html) — Видаляє часткове підвищення запиту на ім'я поля (bq)
     -   [SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.html) - Видаляє поле фрази (параметра)
@@ -384,7 +384,7 @@ Apache Solr
     -   [SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.html) - Перемикає QueryParser на DisMax Query Parser
     -   [SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.html) - Перемикає QueryParser на EDisMax
 -   [SolrCollapseFunction](class.solrcollapsefunction.html) - Клас SolrCollapseFunction
-    -   [SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.html) - Конструктор класу
+    -   [SolrCollapseFunction::construct](solrcollapsefunction.construct.html) - Конструктор класу
     -   [SolrCollapseFunction::getField](solrcollapsefunction.getfield.html) - Повертає згорнуте поле
     -   [SolrCollapseFunction::getHint](solrcollapsefunction.gethint.html) — Повертає підказку згортання
     -   [SolrCollapseFunction::getMax](solrcollapsefunction.getmax.html) — Повертає максимальне значення
@@ -397,7 +397,7 @@ Apache Solr
     -   [SolrCollapseFunction::setMin](solrcollapsefunction.setmin.html) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
     -   [SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.html) - Встановлює NULL-політику
     -   [SolrCollapseFunction::setSize](solrcollapsefunction.setsize.html) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
-    -   [SolrCollapseFunction::\_\_toString](solrcollapsefunction.tostring.html) — Повертає рядок, який представляє побудовану функцію згортання
+    -   [SolrCollapseFunction::toString](solrcollapsefunction.tostring.html) — Повертає рядок, який представляє побудовану функцію згортання
 -   [SolrException](class.solrexception.html) - Клас SolrException
     -   [SolrException::getInternalInfo](solrexception.getinternalinfo.html) — Повертає внутрішню інформацію про те, де було викинуто виняток
 -   [SolrClientException](class.solrclientexception.html) - Клас SolrClientException

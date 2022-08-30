@@ -1,8 +1,8 @@
 MQSeries MQPUT
 
--   [« mqseries\_put1](function.mqseries-put1.html)
+-   [« mqseriesput1](function.mqseries-put1.html)
     
--   [mqseries\_set »](function.mqseries-set.html)
+-   [mqseriesset »](function.mqseries-set.html)
     
 -   [PHP Manual](index.html)
     
@@ -114,7 +114,7 @@ mqseries_put(    resource $hConn,    resource $hObj,    array &$md,�
 
 ### Дивіться також
 
--   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseries\_open()](function.mqseries-open.html) - MQSeries MQOPEN
--   [mqseries\_get()](function.mqseries-get.html) - MQSeries MQGET
+-   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN
+-   [mqseriesget()](function.mqseries-get.html) - MQSeries MQGET

@@ -83,8 +83,8 @@ name
 
 -   [ReflectionParameter::allowsNull](reflectionparameter.allowsnull.html) — Перевіряє, чи допустиме значення null для параметра
 -   [ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.html) — Перевіряє, чи можна передати цей аргумент за значенням
--   [ReflectionParameter::\_\_clone](reflectionparameter.clone.html) - Клонувати
--   [ReflectionParameter::\_\_construct](reflectionparameter.construct.html) - Конструктор
+-   [ReflectionParameter::clone](reflectionparameter.clone.html) - Клонувати
+-   [ReflectionParameter::construct](reflectionparameter.construct.html) - Конструктор
 -   [ReflectionParameter::export](reflectionparameter.export.html) - Експорт
 -   [ReflectionParameter::getAttributes](reflectionparameter.getattributes.html) — Отримує атрибути
 -   [ReflectionParameter::getClass](reflectionparameter.getclass.html) — Отримує об'єкт ReflectionClass для параметра, що відображається, або null
@@ -103,4 +103,4 @@ name
 -   [ReflectionParameter::isOptional](reflectionparameter.isoptional.html) — Перевіряє, чи аргумент є необов'язковим
 -   [ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.html) — Перевіряє, чи передано параметр за посиланням
 -   [ReflectionParameter::isVariadic](reflectionparameter.isvariadic.html) — Перевірити, чи параметр є параметром зі змінною кількістю аргументів
--   [ReflectionParameter::\_\_toString](reflectionparameter.tostring.html) — Перетворення на рядок
+-   [ReflectionParameter::toString](reflectionparameter.tostring.html) — Перетворення на рядок

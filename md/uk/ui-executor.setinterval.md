@@ -1,12 +1,12 @@
 Управління інтервалом
 
--   [« UI\\Executor::onExecute](ui-executor.onexecute.html)
+-   [« UIExecutor::onExecute](ui-executor.onexecute.html)
     
--   [UI\\Controls\\Tab »](class.ui-controls-tab.html)
+-   [ОЙControlsTab »](class.ui-controls-tab.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Executor](class.ui-executor.html)
+-   [ОЙExecutor](class.ui-executor.html)
     
 -   Управління інтервалом
     

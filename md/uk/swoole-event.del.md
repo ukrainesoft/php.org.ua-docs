@@ -1,12 +1,12 @@
 Видаляє всі callback-функції події сокету
 
--   [« Swoole\\Event::defer](swoole-event.defer.html)
+-   [« SwooleEvent::defer](swoole-event.defer.html)
     
--   [Swoole\\Event::exit »](swoole-event.exit.html)
+-   [SwooleEvent::exit »](swoole-event.exit.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Видаляє всі callback-функції події сокету
     

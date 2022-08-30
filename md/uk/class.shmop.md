@@ -1,6 +1,6 @@
 Клас Shmop
 
--   [« shmop\_write](function.shmop-write.html)
+-   [« shmopwrite](function.shmop-write.html)
     
 -   [Sync »](book.sync.html)
     

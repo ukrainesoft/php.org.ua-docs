@@ -1,6 +1,6 @@
 Модифікатори шаблонів
 
--   [« Производительность](regexp.reference.performance.html)
+-   [« Продуктивність](regexp.reference.performance.html)
     
 -   [Отличия от Perl »](reference.pcre.pattern.differences.html)
     
@@ -49,7 +49,7 @@
 > 
 > > **Зауваження**
 > > 
-> > У нежадібному режимі зазвичай неможливий збіг символів, що перевищують [pcre.backtrack\_limit](pcre.configuration.html#ini.pcre.backtrack-limit)
+> > У нежадібному режимі зазвичай неможливий збіг символів, що перевищують [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit)
 > 
 > *З* `PCRE_EXTRA`
 > 

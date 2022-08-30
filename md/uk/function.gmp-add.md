@@ -1,12 +1,12 @@
 Складання чисел
 
--   [« gmp\_abs](function.gmp-abs.html)
+-   [« gmpabs](function.gmp-abs.html)
     
--   [gmp\_and »](function.gmp-and.html)
+-   [gmpand »](function.gmp-and.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Складання чисел
     

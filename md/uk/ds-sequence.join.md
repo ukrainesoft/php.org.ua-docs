@@ -1,12 +1,12 @@
 Склеює всі значення в рядок
 
--   [« Ds\\Sequence::insert](ds-sequence.insert.html)
+-   [« DsSequence::insert](ds-sequence.insert.html)
     
--   [Ds\\Sequence::last »](ds-sequence.last.html)
+-   [ДсSequence::last »](ds-sequence.last.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Склеює всі значення в рядок
     

@@ -1,12 +1,12 @@
 Вивантажує стан пристрою
 
--   [« Parle\\RLexer::consume](parle-rlexer.consume.html)
+-   [« ParleRLexer::consume](parle-rlexer.consume.html)
     
--   [Parle\\RLexer::getToken »](parle-rlexer.gettoken.html)
+-   [ParleRLexer::getToken »](parle-rlexer.gettoken.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RLexer](class.parle-rlexer.html)
+-   [ParleRLexer](class.parle-rlexer.html)
     
 -   Вивантажує стан пристрою
     

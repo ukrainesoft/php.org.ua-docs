@@ -1,6 +1,6 @@
 Підготовка наступного доступного результуючого набору з multiquery
 
--   [« mysqli::multi\_query](mysqli.multi-query.html)
+-   [« mysqli::multiquery](mysqli.multi-query.html)
     
 -   [mysqli::options »](mysqli.options.html)
     
@@ -33,25 +33,25 @@ public mysqli::next_result(): bool
 mysqli_next_result(mysqli $mysql): bool
 ```
 
-Підготовка наступного доступного результуючого набору попереднього виклику функції [mysqli\_multi\_query()](mysqli.multi-query.html), який потім можна отримати функціями [mysqli\_store\_result()](mysqli.store-result.html) або [mysqli\_use\_result()](mysqli.use-result.html)
+Підготовка наступного доступного результуючого набору попереднього виклику функції [mysqlimultiquery()](mysqli.multi-query.html), який потім можна отримати функціями [mysqlistoreresult()](mysqli.store-result.html) або [mysqliuseresult()](mysqli.use-result.html)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Також повертає **`false`**, якщо наступний оператор призвів до помилки, на відміну від [mysqli\_more\_results()](mysqli.more-results.html)
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Також повертає **`false`**, якщо наступний оператор призвів до помилки, на відміну від [mysqlimoreresults()](mysqli.more-results.html)
 
 ### Приклади
 
-Дивіться [mysqli\_multi\_query()](mysqli.multi-query.html)
+Дивіться [mysqlimultiquery()](mysqli.multi-query.html)
 
 ### Дивіться також
 
--   [mysqli\_multi\_query()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
--   [mysqli\_more\_results()](mysqli.more-results.html) - Перевірка, чи є ще результати у мультизапиті
--   [mysqli\_store\_result()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqli\_use\_result()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqlimultiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
+-   [mysqlimoreresults()](mysqli.more-results.html) - Перевірка, чи є ще результати у мультизапиті
+-   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
+-   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання

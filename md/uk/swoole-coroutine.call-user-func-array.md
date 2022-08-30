@@ -1,12 +1,12 @@
 Викликає callback-функцію з масивом параметрів
 
--   [« Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [« SwooleCoroutine](class.swoole-coroutine.html)
     
--   [Swoole\\Coroutine::call\_user\_func »](swoole-coroutine.call-user-func.html)
+-   [SwooleCoroutine::calluserfunc »](swoole-coroutine.call-user-func.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Викликає callback-функцію з масивом параметрів
     

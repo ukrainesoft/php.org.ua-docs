@@ -1,8 +1,8 @@
 Відправляє запит і чекає на відповідь
 
--   [« radius\_salt\_encrypt\_attr](function.radius-salt-encrypt-attr.html)
+-   [« radiussaltencryptattr](function.radius-salt-encrypt-attr.html)
     
--   [radius\_server\_secret »](function.radius-server-secret.html)
+-   [radiusserversecret »](function.radius-server-secret.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ radius_send_request(resource $radius_handle): int
 
 ### Дивіться також
 
--   [radius\_create\_request()](function.radius-create-request.html) - Створює обліковий запис або запит автентифікації
+-   [radiuscreaterequest()](function.radius-create-request.html) - Створює обліковий запис або запит автентифікації

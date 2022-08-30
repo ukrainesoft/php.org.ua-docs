@@ -1,8 +1,8 @@
 Клас YarClient
 
--   [« Yar\_Server::handle](yar-server.handle.html)
+-   [« YarServer::handle](yar-server.handle.html)
     
--   [Yar\_Client::\_\_call »](yar-client.call.html)
+-   [YarClient::call »](yar-client.call.html)
     
 -   [PHP Manual](index.html)
     
@@ -66,6 +66,6 @@ running
 
 ## Зміст
 
--   [Yar\_Client::\_\_call](yar-client.call.html) - Виклик сервісу
--   [Yar\_Client::\_\_construct](yar-client.construct.html) - Конструктор YarClient
--   [Yar\_Client::setOpt](yar-client.setopt.html) — Задати контекст дзвінка
+-   [YarClient::call](yar-client.call.html) - Виклик сервісу
+-   [YarClient::construct](yar-client.construct.html) - Конструктор YarClient
+-   [YarClient::setOpt](yar-client.setopt.html) — Задати контекст дзвінка

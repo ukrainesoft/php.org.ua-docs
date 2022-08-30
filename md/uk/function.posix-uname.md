@@ -1,6 +1,6 @@
 Повертає інформацію про систему
 
--   [« posix\_ttyname](function.posix-ttyname.html)
+-   [« posixttyname](function.posix-ttyname.html)
     
 -   [Запуск программы »](book.exec.html)
     

@@ -1,8 +1,8 @@
 Отримує загальну кількість нейронів у всій мережі
 
--   [« fann\_get\_total\_connections](function.fann-get-total-connections.html)
+-   [« fanngettotalconnections](function.fann-get-total-connections.html)
     
--   [fann\_get\_train\_error\_function »](function.fann-get-train-error-function.html)
+-   [fanngettrainerrorfunction »](function.fann-get-train-error-function.html)
     
 -   [PHP Manual](index.html)
     

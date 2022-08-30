@@ -1,12 +1,12 @@
 Завантажує попередньо відкритий файл на сервер FTP
 
--   [« ftp\_fget](function.ftp-fget.html)
+-   [« ftpfget](function.ftp-fget.html)
     
--   [ftp\_get\_option »](function.ftp-get-option.html)
+-   [ftpgetoption »](function.ftp-get-option.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Завантажує попередньо відкритий файл на сервер FTP
     
@@ -29,7 +29,7 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    res
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `remote_filename`
 
@@ -53,10 +53,10 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    res
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
 
 ### Приклади
 
@@ -91,6 +91,6 @@ fclose($fp);
 
 ### Дивіться також
 
--   [ftp\_put()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftp\_nb\_fput()](function.ftp-nb-fput.html) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
--   [ftp\_nb\_put()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
+-   [ftpнбfput()](function.ftp-nb-fput.html) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
+-   [ftpнбput()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі

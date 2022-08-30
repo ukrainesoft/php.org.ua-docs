@@ -1,8 +1,8 @@
 Перевіряє, що пароль відповідає хешу
 
--   [« sodium\_crypto\_pwhash\_str\_needs\_rehash](function.sodium-crypto-pwhash-str-needs-rehash.html)
+-   [« sodiumcryptopwhashstrneedsrehash](function.sodium-crypto-pwhash-str-needs-rehash.html)
     
--   [sodium\_crypto\_pwhash\_str »](function.sodium-crypto-pwhash-str.html)
+-   [sodiumcryptopwhashstr »](function.sodium-crypto-pwhash-str.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ sodiumcryptopwhashstrverify — Перевіряє, чи пароль відпо
 sodium_crypto_pwhash_str_verify(string $hash, string $password): bool
 ```
 
-Перевіряє, що хеш пароля, створений [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html)відповідає заданому паролю. Зверніть увагу, що в цій функції порядок аргументів не відповідає порядку аргументів у схожій функції [password\_verify()](function.password-verify.html)
+Перевіряє, що хеш пароля, створений [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html)відповідає заданому паролю. Зверніть увагу, що в цій функції порядок аргументів не відповідає порядку аргументів у схожій функції [passwordverify()](function.password-verify.html)
 
 ### Список параметрів
 
 `hash`
 
-Хеш, створений функцією [password\_hash()](function.password-hash.html)
+Хеш, створений функцією [passwordhash()](function.password-hash.html)
 
 `password`
 
@@ -47,6 +47,6 @@ sodium_crypto_pwhash_str_verify(string $hash, string $password): bool
 
 ### Дивіться також
 
--   [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html) - Отримати ASCII-кодований хеш
--   [password\_hash()](function.password-hash.html) - Створює хеш пароля
--   [password\_verify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає
+-   [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html) - Отримати ASCII-кодований хеш
+-   [passwordhash()](function.password-hash.html) - Створює хеш пароля
+-   [passwordverify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає

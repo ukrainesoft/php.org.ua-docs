@@ -1,12 +1,12 @@
 Малювання обведення
 
--   [« UI\\Draw\\Color::setChannel](ui-draw-color.setchannel.html)
+-   [« UIDrawColor::setChannel](ui-draw-color.setchannel.html)
     
--   [UI\\Draw\\Stroke::\_\_construct »](ui-draw-stroke.construct.html)
+-   [ОЙDrawStroke::construct »](ui-draw-stroke.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Малювання обведення
     
@@ -52,12 +52,12 @@ public setThickness(float $thickness)
 
 ## Зміст
 
--   [UI\\Draw\\Stroke::\_\_construct](ui-draw-stroke.construct.html) - Створити новий об'єкт Stroke
--   [UI\\Draw\\Stroke::getCap](ui-draw-stroke.getcap.html) - Отримати кінець лінії
--   [UI\\Draw\\Stroke::getJoin](ui-draw-stroke.getjoin.html) — Отримати з'єднання лінії
--   [UI\\Draw\\Stroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html) — Отримати межу зрізу
--   [UI\\Draw\\Stroke::getThickness](ui-draw-stroke.getthickness.html) - Отримати товщину
--   [UI\\Draw\\Stroke::setCap](ui-draw-stroke.setcap.html) - Встановити кінець лінії
--   [UI\\Draw\\Stroke::setJoin](ui-draw-stroke.setjoin.html) — Отримати з'єднання лінії
--   [UI\\Draw\\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html) - Встановити межу зрізу
--   [UI\\Draw\\Stroke::setThickness](ui-draw-stroke.setthickness.html) - Встановити товщину
+-   [ОЙDrawStroke::construct](ui-draw-stroke.construct.html) - Створити новий об'єкт Stroke
+-   [ОЙDrawStroke::getCap](ui-draw-stroke.getcap.html) - Отримати кінець лінії
+-   [ОЙDrawStroke::getJoin](ui-draw-stroke.getjoin.html) — Отримати з'єднання лінії
+-   [ОЙDrawStroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html) — Отримати межу зрізу
+-   [ОЙDrawStroke::getThickness](ui-draw-stroke.getthickness.html) - Отримати товщину
+-   [ОЙDrawStroke::setCap](ui-draw-stroke.setcap.html) - Встановити кінець лінії
+-   [ОЙDrawStroke::setJoin](ui-draw-stroke.setjoin.html) — Отримати з'єднання лінії
+-   [ОЙDrawStroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html) - Встановити межу зрізу
+-   [ОЙDrawStroke::setThickness](ui-draw-stroke.setthickness.html) - Встановити товщину

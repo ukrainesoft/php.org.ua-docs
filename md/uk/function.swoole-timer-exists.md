@@ -1,8 +1,8 @@
 Перевірити, чи існує callback-функція таймера
 
--   [« swoole\_timer\_after](function.swoole-timer-after.html)
+-   [« swooletimerafter](function.swoole-timer-after.html)
     
--   [swoole\_timer\_tick »](function.swoole-timer-tick.html)
+-   [swooletimertick »](function.swoole-timer-tick.html)
     
 -   [PHP Manual](index.html)
     

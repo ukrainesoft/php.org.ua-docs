@@ -1,8 +1,8 @@
 Виводить стек викликів функцій
 
--   [« debug\_backtrace](function.debug-backtrace.html)
+-   [« debugbacktrace](function.debug-backtrace.html)
     
--   [error\_clear\_last »](function.error-clear-last.html)
+-   [errorclearlast »](function.error-clear-last.html)
     
 -   [PHP Manual](index.html)
     
@@ -85,4 +85,4 @@ include 'include.php';
 
 ### Дивіться також
 
--   [debug\_backtrace()](function.debug-backtrace.html) - Виводить стек викликів функцій у масив
+-   [debugbacktrace()](function.debug-backtrace.html) - Виводить стек викликів функцій у масив

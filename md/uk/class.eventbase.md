@@ -2,7 +2,7 @@
 
 -   [« Event::timer](event.timer.html)
     
--   [EventBase::\_\_construct »](eventbase.construct.html)
+-   [EventBase::construct »](eventbase.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -145,7 +145,7 @@ public
 
 ## Зміст
 
--   [EventBase::\_\_construct](eventbase.construct.html) - Конструктор об'єкта EventBase
+-   [EventBase::construct](eventbase.construct.html) - Конструктор об'єкта EventBase
 -   [EventBase::dispatch](eventbase.dispatch.html) — Відправляє події, що очікують.
 -   [EventBase::exit](eventbase.exit.html) — Припиняє надсилання подій
 -   [EventBase::free](eventbase.free.html) — Визволяє ресурси, виділені для цієї бази подій

@@ -1,12 +1,12 @@
 Малює коло
 
--   [« ps\_begin\_template](function.ps-begin-template.html)
+-   [«psbegintemplate](function.ps-begin-template.html)
     
--   [ps\_clip »](function.ps-clip.html)
+-   [псclip »](function.ps-clip.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Малює коло
     
@@ -29,7 +29,7 @@ ps_circle(    resource $psdoc,    float $x,    float $y,    floa
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `x`
 
@@ -49,5 +49,5 @@ ps_circle(    resource $psdoc,    float $x,    float $y,    floa
 
 ### Дивіться також
 
--   [ps\_arc()](function.ps-arc.html) - Малює дугу проти годинникової стрілки
--   [ps\_arcn()](function.ps-arcn.html) - Малює дугу за годинниковою стрілкою
+-   [псarc()](function.ps-arc.html) - Малює дугу проти годинникової стрілки
+-   [псarcn()](function.ps-arcn.html) - Малює дугу за годинниковою стрілкою

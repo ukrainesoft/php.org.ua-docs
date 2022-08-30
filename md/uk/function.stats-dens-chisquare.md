@@ -1,12 +1,12 @@
 Щільність ймовірності розподілу хі-квадрат
 
--   [« stats\_dens\_cauchy](function.stats-dens-cauchy.html)
+-   [« statsdenscauchy](function.stats-dens-cauchy.html)
     
--   [stats\_dens\_exponential »](function.stats-dens-exponential.html)
+-   [statsdensexponential »](function.stats-dens-exponential.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності розподілу хі-квадрат
     

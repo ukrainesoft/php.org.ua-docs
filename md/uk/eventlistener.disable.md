@@ -1,6 +1,6 @@
 Вимикає подію підключення до об'єкта слухача
 
--   [« EventListener::\_\_construct](eventlistener.construct.html)
+-   [« EventListener::construct](eventlistener.construct.html)
     
 -   [EventListener::enable »](eventlistener.enable.html)
     

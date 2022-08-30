@@ -1,8 +1,8 @@
 Повертає значення з вершини стека
 
--   [« Ds\\Stack::jsonSerialize](ds-stack.jsonserialize.html)
+-   [« DsStack::jsonSerialize](ds-stack.jsonserialize.html)
     
--   [Ds\\Stack::pop »](ds-stack.pop.html)
+-   [ДсStack::pop »](ds-stack.pop.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного дзвінка
 
--   [« preg\_quote](function.preg-quote.html)
+-   [« pregquote](function.preg-quote.html)
     
--   [preg\_replace\_callback »](function.preg-replace-callback.html)
+-   [pregreplacecallback »](function.preg-replace-callback.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ pregreplacecallbackarray — Здійснює пошук та заміну за 
 preg_replace_callback_array(    array $pattern,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
 ```
 
-Поведінка цієї функції схожа на [preg\_replace\_callback()](function.preg-replace-callback.html), за винятком того, що для кожного шаблону використовується функція зворотного дзвінка.
+Поведінка цієї функції схожа на [pregreplacecallback()](function.preg-replace-callback.html), за винятком того, що для кожного шаблону використовується функція зворотного дзвінка.
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 `flags`
 
-`flags` може бути комбінацією прапорів **`PREG_OFFSET_CAPTURE`** і **`PREG_UNMATCHED_AS_NULL`**які впливають на формат масиву збігів. Дивіться опис у [preg\_match()](function.preg-match.html) для більш детальної інформації.
+`flags` може бути комбінацією прапорів **`PREG_OFFSET_CAPTURE`** і \*\*`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [pregmatch()](function.preg-match.html) для більш детальної інформації.
 
 ### Значення, що повертаються
 
@@ -95,8 +95,8 @@ preg_replace_callback_array(
 ### Дивіться також
 
 -   [Шаблоны PCRE](pcre.pattern.html)
--   [preg\_replace\_callback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
--   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preg\_last\_error()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
--   [Анонимные функции](functions.anonymous.html)
+-   [pregreplacecallback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+-   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [Анонімні функції](functions.anonymous.html)

@@ -1,8 +1,8 @@
 Розшифровує дані
 
--   [« radius\_demangle\_mppe\_key](function.radius-demangle-mppe-key.html)
+-   [« radiusdemanglemppekey](function.radius-demangle-mppe-key.html)
     
--   [radius\_get\_attr »](function.radius-get-attr.html)
+-   [radiusgetattr »](function.radius-get-attr.html)
     
 -   [PHP Manual](index.html)
     

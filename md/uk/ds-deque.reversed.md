@@ -1,12 +1,12 @@
 Повертає перегорнуту копію двосторонньої черги
 
--   [« Ds\\Deque::reverse](ds-deque.reverse.html)
+-   [« DsDeque::reverse](ds-deque.reverse.html)
     
--   [Ds\\Deque::rotate »](ds-deque.rotate.html)
+-   [ДсDeque::rotate »](ds-deque.rotate.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає перегорнуту копію двосторонньої черги
     

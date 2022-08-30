@@ -1,12 +1,12 @@
 Отримати значення
 
--   [« UI\\Controls\\Slider::\_\_construct](ui-controls-slider.construct.html)
+-   [« UIControlsSlider::construct](ui-controls-slider.construct.html)
     
--   [UI\\Controls\\Slider::onChange »](ui-controls-slider.onchange.html)
+-   [ОЙControlsSlider::onChange »](ui-controls-slider.onchange.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+-   [ОЙControlsSlider](class.ui-controls-slider.html)
     
 -   Отримати значення
     

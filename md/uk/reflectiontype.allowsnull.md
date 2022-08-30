@@ -2,7 +2,7 @@
 
 -   [« ReflectionType](class.reflectiontype.html)
     
--   [ReflectionType::\_\_toString »](reflectiontype.tostring.html)
+-   [ReflectionType::toString »](reflectiontype.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,5 +58,5 @@ bool(true)
 ### Дивіться також
 
 -   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.html) - Перевіряє, чи є тип вбудованим
--   [ReflectionType::\_\_toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок
 -   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра

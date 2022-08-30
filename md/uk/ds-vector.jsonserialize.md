@@ -1,8 +1,8 @@
 Повертає вектор у JSON-представництві
 
--   [« Ds\\Vector::join](ds-vector.join.html)
+-   [« DsVector::join](ds-vector.join.html)
     
--   [Ds\\Vector::last »](ds-vector.last.html)
+-   [ДсVector::last »](ds-vector.last.html)
     
 -   [PHP Manual](index.html)
     

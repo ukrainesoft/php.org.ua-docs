@@ -49,7 +49,7 @@ public Imagick::importImagePixels(    int $x,    int $y,    int $wid
 
 `storage`
 
-Спосіб зберігання пікселів. Дивіться список [констант пикселей](imagick.constants.html#imagick.constants.pixel)
+Спосіб зберігання пікселів. Дивіться список [констант пікселів](imagick.constants.html#imagick.constants.pixel)
 
 `pixels`
 

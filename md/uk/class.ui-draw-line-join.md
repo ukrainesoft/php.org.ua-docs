@@ -1,12 +1,12 @@
 Налаштування з'єднання ліній
 
--   [« UI\\Draw\\Line\\Cap](class.ui-draw-line-cap.html)
+-   [« UIDrawLineCap](class.ui-draw-line-cap.html)
     
--   [UI\\Key »](class.ui-key.html)
+-   [ОЙKey »](class.ui-key.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Налаштування з'єднання ліній
     

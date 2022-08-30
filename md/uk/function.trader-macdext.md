@@ -1,8 +1,8 @@
 MACD з керованим типом MA
 
--   [« trader\_macd](function.trader-macd.html)
+-   [« tradermacd](function.trader-macd.html)
     
--   [trader\_macdfix »](function.trader-macdfix.html)
+-   [tradermacdfix »](function.trader-macdfix.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ trader_macdext(    array $real,    int $fastPeriod = ?,    int $fast
 
 `fastMAType`
 
-Тип ковзної середньої для швидкого ковзного середнього. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої для швидкого ковзного середнього. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 `slowPeriod`
 
@@ -43,7 +43,7 @@ trader_macdext(    array $real,    int $fastPeriod = ?,    int $fast
 
 `slowMAType`
 
-Тип ковзної середньої для повільного ковзного середнього. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої для повільного ковзного середнього. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 `signalPeriod`
 
@@ -51,7 +51,7 @@ trader_macdext(    array $real,    int $fastPeriod = ?,    int $fast
 
 `signalMAType`
 
-Тип ковзної середньої сигнальної лінії. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої сигнальної лінії. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 ### Значення, що повертаються
 

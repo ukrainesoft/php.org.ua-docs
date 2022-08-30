@@ -1,8 +1,8 @@
 Опис
 
--   [« phpdbg\_color](function.phpdbg-color.html)
+-   [« phpdbgcolor](function.phpdbg-color.html)
     
--   [phpdbg\_exec »](function.phpdbg-exec.html)
+-   [phpdbgexec »](function.phpdbg-exec.html)
     
 -   [PHP Manual](index.html)
     

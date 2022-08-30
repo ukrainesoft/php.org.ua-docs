@@ -1,8 +1,8 @@
 Перетворення Гільберта - період домінуючого циклу
 
--   [« trader\_get\_unstable\_period](function.trader-get-unstable-period.html)
+-   [« tradergetunstableperiod](function.trader-get-unstable-period.html)
     
--   [trader\_ht\_dcphase »](function.trader-ht-dcphase.html)
+-   [traderхтdcphase »](function.trader-ht-dcphase.html)
     
 -   [PHP Manual](index.html)
     

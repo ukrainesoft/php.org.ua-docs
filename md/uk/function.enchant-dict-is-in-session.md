@@ -1,8 +1,8 @@
 Чи є слово 'word' у сесії перевірки
 
--   [« enchant\_dict\_is\_added](function.enchant-dict-is-added.html)
+-   [« enchantdictісadded](function.enchant-dict-is-added.html)
     
--   [enchant\_dict\_quick\_check »](function.enchant-dict-quick-check.html)
+-   [enchantdictquickcheck »](function.enchant-dict-quick-check.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,4 +23,4 @@ enchantdictісінsession — Чи є слово 'word' у сесії пере�
 
 ### Опис
 
-Ця функція є псевдонімом: [enchant\_dict\_is\_added()](function.enchant-dict-is-added.html)
+Ця функція є псевдонімом: [enchantdictісadded()](function.enchant-dict-is-added.html)

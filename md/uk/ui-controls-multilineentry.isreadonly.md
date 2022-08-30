@@ -1,12 +1,12 @@
 Визначення "тільки для читання"
 
--   [« UI\\Controls\\MultilineEntry::getText](ui-controls-multilineentry.gettext.html)
+-   [« UIControlsMultilineEntry::getText](ui-controls-multilineentry.gettext.html)
     
--   [UI\\Controls\\MultilineEntry::onChange »](ui-controls-multilineentry.onchange.html)
+-   [ОЙControlsMultilineEntry::onChange »](ui-controls-multilineentry.onchange.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\MultilineEntry](class.ui-controls-multilineentry.html)
+-   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
     
 -   Визначення "тільки для читання"
     

@@ -1,6 +1,6 @@
 Витягує інформацію про останній виконаний запит
 
--   [« mysqli::get\_warnings](mysqli.get-warnings.html)
+-   [« mysqli::getwarnings](mysqli.get-warnings.html)
     
 -   [mysqli::init »](mysqli.init.html)
     
@@ -51,7 +51,7 @@ mysqli_info(mysqli $mysql): ?string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -115,6 +115,6 @@ Records: 150  Duplicates: 0  Warnings: 0
 
 ### Дивіться також
 
--   [mysqli\_affected\_rows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
--   [mysqli\_warning\_count()](mysqli.warning-count.html) - Повертає кількість попереджень із останнього запиту заданого підключення
--   [mysqli\_num\_rows()](mysqli-result.num-rows.html) - Отримує кількість рядків у наборі результатів
+-   [mysqliaffectedrows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
+-   [mysqliwarningcount()](mysqli.warning-count.html) - Повертає кількість попереджень із останнього запиту заданого підключення
+-   [mysqlinumrows()](mysqli-result.num-rows.html) - Отримує кількість рядків у наборі результатів

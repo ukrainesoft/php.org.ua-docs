@@ -1,12 +1,12 @@
 Повертає ідентифікатор топології, пов'язаний із цим сервером
 
--   [« MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.html)
+-   [« MongoDBDriverMonitoringServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent »](class.mongodb-driver-monitoring-serveropeningevent.html)
+-   [MongoDBDriverMonitoringServerOpeningEvent »](class.mongodb-driver-monitoring-serveropeningevent.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+-   [MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
     
 -   Повертає ідентифікатор топології, пов'язаний із цим сервером
     
@@ -33,4 +33,4 @@ final public MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId(): Mongo
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

@@ -1,12 +1,12 @@
 Встановлює певні значення
 
--   [« ps\_set\_text\_pos](function.ps-set-text-pos.html)
+-   [«pssettextpos](function.ps-set-text-pos.html)
     
--   [ps\_setcolor »](function.ps-setcolor.html)
+-   [псsetcolor »](function.ps-setcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює певні значення
     
@@ -29,7 +29,7 @@ ps_set_value(resource $psdoc, string $name, float $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `name`
 
@@ -65,5 +65,5 @@ leading
 
 ### Дивіться також
 
--   [ps\_get\_value()](function.ps-get-value.html) - Отримує певні значення
--   [ps\_set\_parameter()](function.ps-set-parameter.html) - Встановлює певні параметри
+-   [псgetvalue()](function.ps-get-value.html) - Отримує певні значення
+-   [псsetparameter()](function.ps-set-parameter.html) - Встановлює певні параметри

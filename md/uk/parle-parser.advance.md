@@ -1,12 +1,12 @@
 Обробляє наступне правило парсера
 
--   [« Parle\\Parser](class.parle-parser.html)
+-   [« ParleParser](class.parle-parser.html)
     
--   [Parle\\Parser::build »](parle-parser.build.html)
+-   [ParleParser::build »](parle-parser.build.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Обробляє наступне правило парсера
     

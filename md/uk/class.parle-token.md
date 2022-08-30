@@ -1,8 +1,8 @@
 Клас ParleToken
 
--   [« Parle\\Stack::push](parle-stack.push.html)
+-   [« ParleStack::push](parle-stack.push.html)
     
--   [Parle\\ErrorInfo »](class.parle-errorinfo.html)
+-   [ParleErrorInfo »](class.parle-errorinfo.html)
     
 -   [PHP Manual](index.html)
     

@@ -23,7 +23,7 @@ SessionHandlerInterface::gc — Очищає старі сесії
 public SessionHandlerInterface::gc(int $max_lifetime): int|false
 ```
 
-Очищає сесії з терміном життя, що минув. Викликається функцією [session\_start()](function.session-start.html), і ґрунтується на опціях [session.gc\_divisor](session.configuration.html#ini.session.gc-divisor) [session.gc\_probability](session.configuration.html#ini.session.gc-probability) і [session.gc\_maxlifetime](session.configuration.html#ini.session.gc-maxlifetime)
+Очищає сесії з терміном життя, що минув. Викликається функцією [sessionstart()](function.session-start.html), і ґрунтується на опціях [session.gcdivisor](session.configuration.html#ini.session.gc-divisor) [session.gcprobability](session.configuration.html#ini.session.gc-probability) і [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime)
 
 ### Список параметрів
 

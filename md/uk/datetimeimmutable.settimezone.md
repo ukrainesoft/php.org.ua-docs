@@ -61,4 +61,4 @@ echo $newDate->format('Y-m-d H:i:sP') . "\n";
 ### Дивіться також
 
 -   [DateTimeImmutable::getTimezone()](datetime.gettimezone.html) - Повертає часовий пояс щодо поточного значення DateTime
--   [DateTimeZone::\_\_construct()](datetimezone.construct.html) - Створює новий об'єкт DateTimeZone
+-   [DateTimeZone::construct()](datetimezone.construct.html) - Створює новий об'єкт DateTimeZone

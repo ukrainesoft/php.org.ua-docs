@@ -1,8 +1,8 @@
 Шифрує дані секретним ключем
 
--   [« openssl\_private\_decrypt](function.openssl-private-decrypt.html)
+-   [« opensslprivatedecrypt](function.openssl-private-decrypt.html)
     
--   [openssl\_public\_decrypt »](function.openssl-public-decrypt.html)
+-   [opensslpublicdecrypt »](function.openssl-public-decrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ opensslprivateencrypt - Шифрує дані секретним ключем
 openssl_private_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
-**opensslprivateencrypt()** шифрує `data` за допомогою секретного ключа `private_key` і зберігає результат у `encrypted_data`. Далі можна розшифрувати за допомогою [openssl\_public\_decrypt()](function.openssl-public-decrypt.html)
+**opensslprivateencrypt()** шифрує `data` за допомогою секретного ключа `private_key` і зберігає результат у `encrypted_data`. Далі можна розшифрувати за допомогою [opensslpublicdecrypt()](function.openssl-public-decrypt.html)
 
 Ця функція використовується, наприклад, для підпису даних. Щоб була впевненість у тому, хто саме надіслав повідомлення.
 
@@ -51,5 +51,5 @@ openssl_private_encrypt(    string $data,    string &$encrypted_data, �
 
 ### Дивіться також
 
--   [openssl\_public\_encrypt()](function.openssl-public-encrypt.html) - Шифрування даних відкритим ключем
--   [openssl\_public\_decrypt()](function.openssl-public-decrypt.html) - Розшифрування даних за допомогою відкритого ключа
+-   [opensslpublicencrypt()](function.openssl-public-encrypt.html) - Шифрування даних відкритим ключем
+-   [opensslpublicdecrypt()](function.openssl-public-decrypt.html) - Розшифрування даних за допомогою відкритого ключа

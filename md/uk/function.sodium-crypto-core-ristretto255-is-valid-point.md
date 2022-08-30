@@ -1,8 +1,8 @@
 Визначає, чи лежить точка на кривій.
 
--   [« sodium\_crypto\_core\_ristretto255\_from\_hash](function.sodium-crypto-core-ristretto255-from-hash.html)
+-   [« sodiumcryptocoreristretto255fromhash](function.sodium-crypto-core-ristretto255-from-hash.html)
     
--   [sodium\_crypto\_core\_ristretto255\_random »](function.sodium-crypto-core-ristretto255-random.html)
+-   [sodiumcryptocoreristretto255random »](function.sodium-crypto-core-ristretto255-random.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,5 +61,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
--   [sodium\_crypto\_scalarmult\_ristretto255\_base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
+-   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа

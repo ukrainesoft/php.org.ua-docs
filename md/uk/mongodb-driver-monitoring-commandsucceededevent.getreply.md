@@ -1,12 +1,12 @@
 Повертає документ відповіді команди
 
--   [« MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getOperationId](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html)
+-   [« MongoDBDriverMonitoringCommandSucceededEvent::getOperationId](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId »](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html)
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
+-   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
     
 -   Повертає документ відповіді команди
     
@@ -35,9 +35,9 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)
--   [Постоянные данные](mongodb.persistence.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Постійні дані](mongodb.persistence.html)

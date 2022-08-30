@@ -1,8 +1,8 @@
 Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
 
--   [« trader\_cdlsticksandwich](function.trader-cdlsticksandwich.html)
+-   [« tradercdlsticksandwich](function.trader-cdlsticksandwich.html)
     
--   [trader\_cdltasukigap »](function.trader-cdltasukigap.html)
+-   [tradercdltasukigap »](function.trader-cdltasukigap.html)
     
 -   [PHP Manual](index.html)
     

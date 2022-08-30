@@ -1,12 +1,12 @@
 Повертає значення вказаного параметра конфігурації
 
--   [« sqlsrv\_free\_stmt](function.sqlsrv-free-stmt.html)
+-   [« sqlsrvfreestmt](function.sqlsrv-free-stmt.html)
     
--   [sqlsrv\_get\_field »](function.sqlsrv-get-field.html)
+-   [sqlsrvgetfield »](function.sqlsrv-get-field.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Повертає значення вказаного параметра конфігурації
     
@@ -29,7 +29,7 @@ sqlsrv_get_config(string $setting): mixed
 
 `setting`
 
-Назва параметра, для якого повертається значення. Список настроюваних параметрів дивіться в розділі [sqlsrv\_configure()](function.sqlsrv-configure.html)
+Назва параметра, для якого повертається значення. Список настроюваних параметрів дивіться в розділі [sqlsrvconfigure()](function.sqlsrv-configure.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ sqlsrv_get_config(string $setting): mixed
 
 ### Дивіться також
 
--   [sqlsrv\_configure()](function.sqlsrv-configure.html) - Змінює конфігурацію обробки помилок драйвера та ведення журналу
+-   [sqlsrvconfigure()](function.sqlsrv-configure.html) - Змінює конфігурацію обробки помилок драйвера та ведення журналу

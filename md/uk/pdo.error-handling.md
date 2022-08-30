@@ -1,8 +1,8 @@
 Помилки та їх обробка
 
--   [« Подготовленные запросы и хранимые процедуры](pdo.prepared-statements.html)
+-   [« Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
     
--   [Большие объекты (LOB) »](pdo.lobs.html)
+-   [Великі об'єкти (LOB) »](pdo.lobs.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,7 +54,7 @@ try {
 
 > **Зауваження**
 > 
-> Метод [PDO::\_\_construct()](pdo.construct.html) завжди кидатиме виняток [PDOException](class.pdoexception.html), якщо з'єднання обірвалося, незалежно від встановленого значення **`PDO::ATTR_ERRMODE`**. Невпіймані винятки фатальні.
+> Метод [PDO::construct()](pdo.construct.html) завжди кидатиме виняток [PDOException](class.pdoexception.html), якщо з'єднання обірвалося, незалежно від встановленого значення **`PDO::ATTR_ERRMODE`**. Невпіймані винятки фатальні.
 
 **Приклад #2 Створення екземпляра класу PDO та встановлення режиму обробки помилок у конструкторі**
 

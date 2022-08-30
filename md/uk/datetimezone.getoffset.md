@@ -39,7 +39,7 @@ timezone_offset_get(DateTimeZone $object, DateTimeInterface $datetime): int
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezone\_open()](function.timezone-open.html)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezoneopen()](function.timezone-open.html)
 
 `datetime`
 

@@ -1,8 +1,8 @@
 Найбільше значення за вказаний період
 
--   [« trader\_mavp](function.trader-mavp.html)
+-   [« tradermavp](function.trader-mavp.html)
     
--   [trader\_maxindex »](function.trader-maxindex.html)
+-   [tradermaxindex »](function.trader-maxindex.html)
     
 -   [PHP Manual](index.html)
     

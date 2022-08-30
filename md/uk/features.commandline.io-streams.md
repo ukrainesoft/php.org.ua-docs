@@ -2,11 +2,11 @@
 
 -   [« Использование](features.commandline.usage.html)
     
--   [Интерактивная консоль »](features.commandline.interactive.html)
+-   [Інтерактивна консоль.](features.commandline.interactive.html)
     
 -   [PHP Manual](index.html)
     
--   [Использование PHP в командной строке](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.html)
     
 -   Потоки введення/виводу
     

@@ -1,8 +1,8 @@
 Зв'язує з колекцією всі пари ключ-значення з об'єкту класу traversable або масиву
 
--   [« Ds\\Map::put](ds-map.put.html)
+-   [« DsMap::put](ds-map.put.html)
     
--   [Ds\\Map::reduce »](ds-map.reduce.html)
+-   [ДсMap::reduce »](ds-map.reduce.html)
     
 -   [PHP Manual](index.html)
     

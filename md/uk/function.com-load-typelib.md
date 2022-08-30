@@ -1,8 +1,8 @@
 Завантаження Typelib
 
--   [« com\_get\_active\_object](function.com-get-active-object.html)
+-   [« comgetactiveobject](function.com-get-active-object.html)
     
--   [com\_message\_pump »](function.com-message-pump.html)
+-   [commessagepump »](function.com-message-pump.html)
     
 -   [PHP Manual](index.html)
     

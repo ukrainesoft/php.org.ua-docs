@@ -1,8 +1,8 @@
 Псевдонім ibasenumparams
 
--   [« fbird\_num\_fields](function.fbird-num-fields.html)
+-   [« fbirdnumfields](function.fbird-num-fields.html)
     
--   [fbird\_param\_info »](function.fbird-param-info.html)
+-   [fbirdparaminfo »](function.fbird-param-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,13 +15,13 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdnumparams — Псевдонім [ibase\_num\_params()](function.ibase-num-params.html)
+fbirdnumparams — Псевдонім [ibasenumparams()](function.ibase-num-params.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_num\_params()](function.ibase-num-params.html)
+Ця функція є псевдонімом: [ibasenumparams()](function.ibase-num-params.html)
 
 ### Дивіться також
 
--   [fbird\_prepare()](function.fbird-prepare.html) - Псевдонім ibaseprepare
--   [fbird\_param\_info()](function.fbird-param-info.html) - Псевдонім ibaseparaminfo
+-   [fbirdprepare()](function.fbird-prepare.html) - Псевдонім ibaseprepare
+-   [fbirdparaminfo()](function.fbird-param-info.html) - Псевдонім ibaseparaminfo

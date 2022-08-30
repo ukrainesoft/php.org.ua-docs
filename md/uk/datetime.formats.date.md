@@ -2,7 +2,7 @@
 
 -   [« Форматы времени](datetime.formats.time.html)
     
--   [Составные форматов »](datetime.formats.compound.html)
+-   [Складові форматів »](datetime.formats.compound.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@
 
 ## Формати дати
 
-На цій сторінці описані формати дати, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [date\_create()](function.date-create.html) [date\_create\_immutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.html)
+На цій сторінці описані формати дати, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.html)
 
 **Використовувані символи**
 

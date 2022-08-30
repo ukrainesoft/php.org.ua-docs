@@ -2,7 +2,7 @@
 
 -   [« GMP](class.gmp.html)
     
--   [GMP::\_\_unserialize »](gmp.unserialize.html)
+-   [GMP::unserialize »](gmp.unserialize.html)
     
 -   [PHP Manual](index.html)
     

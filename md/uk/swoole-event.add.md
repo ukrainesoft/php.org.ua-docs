@@ -1,12 +1,12 @@
 Додає нові callback функції сокету в EventLoop
 
--   [« Swoole\\Event](class.swoole-event.html)
+-   [« SwooleEvent](class.swoole-event.html)
     
--   [Swoole\\Event::defer »](swoole-event.defer.html)
+-   [SwooleEvent::defer »](swoole-event.defer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Додає нові callback функції сокету в EventLoop
     

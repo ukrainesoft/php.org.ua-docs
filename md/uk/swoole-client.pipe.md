@@ -1,12 +1,12 @@
 Перенаправляє дані на інший файловий дескриптор
 
--   [« Swoole\\Client::pause](swoole-client.pause.html)
+-   [« SwooleClient::pause](swoole-client.pause.html)
     
--   [Swoole\\Client::recv »](swoole-client.recv.html)
+-   [SwooleClient::recv »](swoole-client.recv.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Перенаправляє дані на інший файловий дескриптор
     

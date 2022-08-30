@@ -1,12 +1,12 @@
 Отримати ім'я вказаного стовпця
 
--   [« cubrid\_field\_len](function.cubrid-field-len.html)
+-   [« cubridfieldlen](function.cubrid-field-len.html)
     
--   [cubrid\_field\_seek »](function.cubrid-field-seek.html)
+-   [cubridfieldseek »](function.cubrid-field-seek.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати ім'я вказаного стовпця
     
@@ -29,7 +29,7 @@ cubrid_field_name(resource $result, int $field_offset): string
 
 `result`
 
-`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 

@@ -1,12 +1,12 @@
 Створити новий WriteConcern
 
--   [« MongoDB\\Driver\\WriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.html)
+-   [« MongoDBDriverWriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.html)
     
--   [MongoDB\\Driver\\WriteConcern::getJournal »](mongodb-driver-writeconcern.getjournal.html)
+-   [MongoDBDriverWriteConcern::getJournal »](mongodb-driver-writeconcern.getjournal.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
 -   Створити новий WriteConcern
     
@@ -23,7 +23,7 @@ MongoDBDriverWriteConcern::construct — Створити новий WriteConcer
 final public MongoDB\Driver\WriteConcern::__construct(string|int $w, ?int $wtimeout = null, ?bool $journal = null)
 ```
 
-Створює новий [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)що є незмінним об'єктом значення.
+Створює новий [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)що є незмінним об'єктом значення.
 
 ### Список параметрів
 
@@ -64,8 +64,8 @@ final public MongoDB\Driver\WriteConcern::__construct(string|int $w, ?int $wtime
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невірному `w` чи негативному `wtimeout` або якщо вони більше, ніж 32-бітове ціле число зі знаком, викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При невірному `w` чи негативному `wtimeout` або якщо вони більше, ніж 32-бітове ціле число зі знаком, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
@@ -91,4 +91,4 @@ $wc = new MongoDB\Driver\WriteConcern("MultipleDC", 500);
 
 ### Дивіться також
 
--   [» Справочная информация по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

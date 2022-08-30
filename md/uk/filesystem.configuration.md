@@ -17,25 +17,25 @@
 
 **Директиви конфігурації файлової системи та потоків**
 
-| Имя                                                                                       | По умолчанию | Место изменения | Список изменений                        |
-|-------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------------------|
-| [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen)                    | "1"          | PHPINISYSTEM    |                                         |
-| [allow\_url\_include](filesystem.configuration.html#ini.allow-url-include)                | "0"          | PHPINISYSTEM    | Оголошена застаріла з версії PHP 7.4.0. |
-| [user\_agent](filesystem.configuration.html#ini.user-agent)                               | NULL         | PHPINIALL       |                                         |
-| [default\_socket\_timeout](filesystem.configuration.html#ini.default-socket-timeout)      | "60"         | PHPINIALL       |                                         |
-| [from](filesystem.configuration.html#ini.from)                                            | ""           | PHPINIALL       |                                         |
-| [auto\_detect\_line\_endings](filesystem.configuration.html#ini.auto-detect-line-endings) | "0"          | PHPINIALL       | Оголошена застаріла з версії PHP 8.1.0. |
-| [sys\_temp\_dir](filesystem.configuration.html#ini.sys-temp-dir)                          | ""           | PHPINISYSTEM    |                                         |
+| Имя                                                                                 | По умолчанию | Место изменения | Список изменений                        |
+|-------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------------------|
+| [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen)                  | "1"          | PHPINISYSTEM    |                                         |
+| [allowurlinclude](filesystem.configuration.html#ini.allow-url-include)              | "0"          | PHPINISYSTEM    | Оголошена застаріла з версії PHP 7.4.0. |
+| [useragent](filesystem.configuration.html#ini.user-agent)                           | NULL         | PHPINIALL       |                                         |
+| [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)    | "60"         | PHPINIALL       |                                         |
+| [from](filesystem.configuration.html#ini.from)                                      | ""           | PHPINIALL       |                                         |
+| [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) | "0"          | PHPINIALL       | Оголошена застаріла з версії PHP 8.1.0. |
+| [systempdir](filesystem.configuration.html#ini.sys-temp-dir)                        | ""           | PHPINISYSTEM    |                                         |
 
 Коротке пояснення конфігураційних директив.
 
 `allow_url_fopen` bool
 
-Ця директива включає підтримку обгорток URL (URL wrappers), які дозволяють працювати з об'єктами URL як із звичайними файлами. Обгортки, доступні за умовчанням, служать для роботи з [удалёнными файлами](features.remote-files.html) з використанням FTP або http протоколу. Деякі модулі, наприклад, [zlib](ref.zlib.html), можуть реєструвати власні обгортки.
+Ця директива включає підтримку обгорток URL (URL wrappers), які дозволяють працювати з об'єктами URL як із звичайними файлами. Обгортки, доступні за умовчанням, служать для роботи з [віддаленими файлами](features.remote-files.html) з використанням FTP або http протоколу. Деякі модулі, наприклад, [zlib](ref.zlib.html), можуть реєструвати власні обгортки.
 
 `allow_url_include` bool
 
-Ця опція дозволяє використовувати обгортки fopen, які підтримують роботу з URL, у функціях [include](function.include.html) [include\_once](function.include-once.html) [require](function.require.html) [require\_once](function.require-once.html)
+Ця опція дозволяє використовувати обгортки fopen, які підтримують роботу з URL, у функціях [include](function.include.html) [includeonce](function.include-once.html) [require](function.require.html) [requireonce](function.require-once.html)
 
 > **Зауваження**
 > 

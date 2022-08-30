@@ -1,12 +1,12 @@
 Обчислює один із параметрів експоненційного розподілу за рештою
 
--   [« stats\_cdf\_chisquare](function.stats-cdf-chisquare.html)
+-   [« statscdfchisquare](function.stats-cdf-chisquare.html)
     
--   [stats\_cdf\_f »](function.stats-cdf-f.html)
+-   [statscdff »](function.stats-cdf-f.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів експоненційного розподілу за рештою
     

@@ -1,12 +1,12 @@
 Повертає ширину поточного значення вказаного стовпця у наборі результатів
 
--   [« db2\_field\_type](function.db2-field-type.html)
+-   [« db2fieldtype](function.db2-field-type.html)
     
--   [db2\_foreign\_keys »](function.db2-foreign-keys.html)
+-   [db2foreignkeys »](function.db2-foreign-keys.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає ширину поточного значення вказаного стовпця у наборі результатів
     
@@ -41,9 +41,9 @@ db2_field_width(resource $stmt, mixed $column): int
 
 ### Дивіться також
 
--   [db2\_field\_display\_size()](function.db2-field-display-size.html) - Повертає максимальну кількість байтів, необхідну для відображення стовпця
--   [db2\_field\_name()](function.db2-field-name.html) - Повертає ім'я стовпця у наборі результатів
--   [db2\_field\_num()](function.db2-field-num.html) - Повертає позицію зазначеного стовпця у наборі результатів
--   [db2\_field\_precision()](function.db2-field-precision.html) - Повертає точність зазначеного стовпця у наборі результатів
--   [db2\_field\_scale()](function.db2-field-scale.html) - Повертає масштаб зазначеного стовпця у наборі результатів
--   [db2\_field\_type()](function.db2-field-type.html) - Повертає тип даних зазначеного стовпця у наборі результатів
+-   [db2fielddisplaysize()](function.db2-field-display-size.html) - Повертає максимальну кількість байтів, необхідну для відображення стовпця
+-   [db2fieldname()](function.db2-field-name.html) - Повертає ім'я стовпця у наборі результатів
+-   [db2fieldnum()](function.db2-field-num.html) - Повертає позицію зазначеного стовпця у наборі результатів
+-   [db2fieldprecision()](function.db2-field-precision.html) - Повертає точність зазначеного стовпця у наборі результатів
+-   [db2fieldscale()](function.db2-field-scale.html) - Повертає масштаб зазначеного стовпця у наборі результатів
+-   [db2fieldtype()](function.db2-field-type.html) - Повертає тип даних зазначеного стовпця у наборі результатів

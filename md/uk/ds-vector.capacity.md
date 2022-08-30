@@ -1,8 +1,8 @@
 Повертає поточну місткість
 
--   [« Ds\\Vector::apply](ds-vector.apply.html)
+-   [« DsVector::apply](ds-vector.apply.html)
     
--   [Ds\\Vector::clear »](ds-vector.clear.html)
+-   [ДсVector::clear »](ds-vector.clear.html)
     
 -   [PHP Manual](index.html)
     

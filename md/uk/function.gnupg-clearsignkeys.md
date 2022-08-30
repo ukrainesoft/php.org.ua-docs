@@ -1,12 +1,12 @@
 Видаляє всі ключі, які були встановлені для підписання раніше
 
--   [« gnupg\_clearencryptkeys](function.gnupg-clearencryptkeys.html)
+-   [« gnupgclearencryptkeys](function.gnupg-clearencryptkeys.html)
     
--   [gnupg\_decrypt »](function.gnupg-decrypt.html)
+-   [gnupgdecrypt »](function.gnupg-decrypt.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Видаляє всі ключі, які були встановлені для підписання раніше
     
@@ -27,7 +27,7 @@ gnupg_clearsignkeys(resource $identifier): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Повертає потік для доступу до вмісту файлу з цієї файлової системи
 
--   [« svn\_fs\_dir\_entries](function.svn-fs-dir-entries.html)
+-   [« svnфсdirentries](function.svn-fs-dir-entries.html)
     
--   [svn\_fs\_file\_length »](function.svn-fs-file-length.html)
+-   [svnфсfilelength »](function.svn-fs-file-length.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає потік для доступу до вмісту файлу з цієї файлової системи
     

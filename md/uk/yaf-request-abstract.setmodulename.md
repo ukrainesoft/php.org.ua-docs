@@ -1,12 +1,12 @@
 Встановлює ім'я модуля
 
--   [« Yaf\_Request\_Abstract::setDispatched](yaf-request-abstract.setdispatched.html)
+-   [« YafRequestAbstract::setDispatched](yaf-request-abstract.setdispatched.html)
     
--   [Yaf\_Request\_Abstract::setParam »](yaf-request-abstract.setparam.html)
+-   [YafRequestAbstract::setParam »](yaf-request-abstract.setparam.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Встановлює ім'я модуля
     

@@ -1,12 +1,12 @@
 Повертає true, якщо властивості різні або false у противному випадку
 
--   [« svn\_fs\_node\_prop](function.svn-fs-node-prop.html)
+-   [« svnфсnodeprop](function.svn-fs-node-prop.html)
     
--   [svn\_fs\_revision\_prop »](function.svn-fs-revision-prop.html)
+-   [svnфсrevisionprop »](function.svn-fs-revision-prop.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає true, якщо властивості різні або false у противному випадку
     

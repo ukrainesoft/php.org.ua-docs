@@ -2,11 +2,11 @@
 
 -   [« intdiv](function.intdiv.html)
     
--   [is\_infinite »](function.is-infinite.html)
+-   [ісinfinite »](function.is-infinite.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Перевіряє, чи є значення допустимим кінцевим числом
     
@@ -37,5 +37,5 @@ is_finite(float $num): bool
 
 ### Дивіться також
 
--   [is\_infinite()](function.is-infinite.html) - Перевіряє, чи є значення нескінченним
--   [is\_nan()](function.is-nan.html) - Перевіряє, чи є значення "не числом"
+-   [ісinfinite()](function.is-infinite.html) - Перевіряє, чи є значення нескінченним
+-   [ісnan()](function.is-nan.html) - Перевіряє, чи є значення "не числом"

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Читає рядок із файлу
     
@@ -62,7 +62,7 @@ if ($fp) {
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [auto\_detect\_line\_endings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 > **Зауваження**
 > 
@@ -73,8 +73,8 @@ if ($fp) {
 -   [fgetss()](function.fgetss.html) - Читає рядок з файлу та видаляє HTML-теги
 -   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
 -   [fgetc()](function.fgetc.html) - Зчитує символ із файлу
--   [stream\_get\_line()](function.stream-get-line.html) - Отримує рядок із потокового ресурсу до вказаного роздільника
+-   [streamgetline()](function.stream-get-line.html) - Отримує рядок із потокового ресурсу до вказаного роздільника
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
 -   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
 -   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [stream\_set\_timeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку

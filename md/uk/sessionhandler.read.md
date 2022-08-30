@@ -23,9 +23,9 @@ SessionHandler::read — Зчитує дані сесії
 public SessionHandler::read(string $id): string|false
 ```
 
-Зчитує дані сесії зі сховища та повертає результат назад у PHP для внутрішньої обробки. Цей метод викликається автоматично, коли PHP стартує сесію (або автоматично або безпосередньо викликом. [session\_start()](function.session-start.html) з наступним викликом [SessionHandler::open()](sessionhandler.open.html)
+Зчитує дані сесії зі сховища та повертає результат назад у PHP для внутрішньої обробки. Цей метод викликається автоматично, коли PHP стартує сесію (або автоматично або безпосередньо викликом. [sessionstart()](function.session-start.html) з наступним викликом [SessionHandler::open()](sessionhandler.open.html)
 
-Цей метод є обертанням внутрішнього обробника PHP, визначеного в параметрі ini-файлу [session.save\_handler](session.configuration.html#ini.session.save-handler) який встановлюється до того, як буде визначено оброблювач сесії викликом [session\_set\_save\_handler()](function.session-set-save-handler.html)
+Цей метод є обертанням внутрішнього обробника PHP, визначеного в параметрі ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler) який встановлюється до того, як буде визначено оброблювач сесії викликом [sessionsetsavehandler()](function.session-set-save-handler.html)
 
 Якщо цей клас розширено шляхом успадкування, виклик батьківського методу `read` викликає обгортку для цього методу і, відповідно, виклик внутрішнього оброблювача. Це дозволяє методу бути перевантаженим, та/або перехопленим та відфільтрованим (наприклад для розшифровки, значення параметра `$data`, що повертає батьківський метод `read`
 
@@ -43,4 +43,4 @@ public SessionHandler::read(string $id): string|false
 
 ### Дивіться також
 
--   Директива налаштування [session.serialize\_handler](session.configuration.html#ini.session.serialize-handler)
+-   Директива налаштування [session.serializehandler](session.configuration.html#ini.session.serialize-handler)

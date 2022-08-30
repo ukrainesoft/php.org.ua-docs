@@ -2,7 +2,7 @@
 
 -   [« Eio Функции](ref.eio.html)
     
--   [eio\_cancel »](function.eio-cancel.html)
+-   [eiocancel »](function.eio-cancel.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,4 +49,4 @@ Callback-функція, що виконується, коли всі запит
 
 ### Дивіться також
 
--   [eio\_nop()](function.eio-nop.html) - Прохід по циклу запиту, не здійснюючи жодних операцій
+-   [eionop()](function.eio-nop.html) - Прохід по циклу запиту, не здійснюючи жодних операцій

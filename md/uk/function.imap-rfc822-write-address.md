@@ -1,8 +1,8 @@
 Отримати коректно сформовану e-mail адресу, задану ім'ям скриньки, хоста та персональною інформацією
 
--   [« imap\_rfc822\_parse\_headers](function.imap-rfc822-parse-headers.html)
+-   [« imaprfc822parseheaders](function.imap-rfc822-parse-headers.html)
     
--   [imap\_savebody »](function.imap-savebody.html)
+-   [imapsavebody »](function.imap-savebody.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,11 +29,11 @@ imap_rfc822_write_address(string $mailbox, string $hostname, string $personal): 
 
 `mailbox`
 
-Ім'я поштової скриньки. Детальніше читайте в описі [imap\_open()](function.imap-open.html)
+Ім'я поштової скриньки. Детальніше читайте в описі [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `hostname`
 

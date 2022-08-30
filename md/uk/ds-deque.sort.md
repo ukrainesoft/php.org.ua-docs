@@ -1,12 +1,12 @@
 Сортує двосторонню чергу
 
--   [« Ds\\Deque::slice](ds-deque.slice.html)
+-   [« DsDeque::slice](ds-deque.slice.html)
     
--   [Ds\\Deque::sorted »](ds-deque.sorted.html)
+-   [ДсDeque::sorted »](ds-deque.sorted.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Сортує двосторонню чергу
     

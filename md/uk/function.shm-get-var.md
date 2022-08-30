@@ -1,12 +1,12 @@
 Повертає змінну з пам'яті, що розділяється
 
--   [« shm\_detach](function.shm-detach.html)
+-   [« shmdetach](function.shm-detach.html)
     
--   [shm\_has\_var »](function.shm-has-var.html)
+-   [shmhasvar »](function.shm-has-var.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Повертає змінну з пам'яті, що розділяється
     
@@ -29,7 +29,7 @@ shm_get_var(SysvSharedMemory $shm, int $key): mixed
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
 
 `key`
 
@@ -47,5 +47,5 @@ shm_get_var(SysvSharedMemory $shm, int $key): mixed
 
 ### Дивіться також
 
--   [shm\_has\_var()](function.shm-has-var.html) - Перевіряє, чи існує конкретний запис
--   [shm\_put\_var()](function.shm-put-var.html) - Вставляє або оновлює змінну в пам'яті, що розділяється.
+-   [shmhasvar()](function.shm-has-var.html) - Перевіряє, чи існує конкретний запис
+-   [shmputvar()](function.shm-put-var.html) - Вставляє або оновлює змінну в пам'яті, що розділяється.

@@ -1,8 +1,8 @@
 Повертає інформацію про файл
 
--   [« finfo\_close](function.finfo-close.html)
+-   [« finfoclose](function.finfo-close.html)
     
--   [finfo\_open »](function.finfo-open.html)
+-   [finfoopen »](function.finfo-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 `filename`
 
@@ -51,7 +51,7 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 `context`
 
-Для опису `contexts`, дивіться [Функции для работы с потоками](ref.stream.html)
+Для опису `contexts`, дивіться [Функції для роботи з потоками](ref.stream.html)
 
 ### Значення, що повертаються
 
@@ -66,7 +66,7 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### Приклади
 
-**Приклад #1 Приклад використання [finfo\_file()](finfo.file.html)**
+**Приклад #1 Приклад використання [finfofile()](finfo.file.html)**
 
 ```php
 <?php
@@ -88,4 +88,4 @@ application/vnd.ms-excel
 
 ### Дивіться також
 
--   [finfo\_buffer()](finfo.buffer.html) - Псевдонім finfobuffer()
+-   [finfobuffer()](finfo.buffer.html) - Псевдонім finfobuffer()

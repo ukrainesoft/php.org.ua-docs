@@ -1,8 +1,8 @@
 Шифрування із загальним ключем з автентифікацією
 
--   [« sodium\_crypto\_secretbox\_open](function.sodium-crypto-secretbox-open.html)
+-   [« sodiumcryptosecretboxopen](function.sodium-crypto-secretbox-open.html)
     
--   [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull »](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
+-   [sodiumcryptosecretstreamxchacha20poly1305initpull »](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ sodium_crypto_secretbox(string $message, string $nonce, string $key): string
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key`
 
@@ -77,6 +77,6 @@ string(23) "message to be encrypted"
 
 ### Дивіться також
 
--   [sodium\_crypto\_secretbox\_open()](function.sodium-crypto-secretbox-open.html) - Розшифрування з використанням загального ключа з автентичністю
--   [sodium\_crypto\_secretbox\_keygen()](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
--   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [sodiumcryptosecretboxopen()](function.sodium-crypto-secretbox-open.html) - Розшифрування з використанням загального ключа з автентичністю
+-   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
+-   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти

@@ -2,7 +2,7 @@
 
 -   [« Введение](language.types.intro.html)
     
--   [Целые числа »](language.types.integer.html)
+-   [Цілі числа "](language.types.integer.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,14 +51,14 @@ if ($show_separators) {
 
 Для явного перетворення на bool, використовуйте `(bool)` або `(boolean)`. Однак, у більшості випадків приведення типу необов'язкове, оскільки значення буде автоматично перетворено, якщо оператор, функція або конструкція, що управляє, вимагає аргумент типу bool.
 
-Дивіться також [манипуляции с типами](language.types.type-juggling.html)
+Дивіться також [маніпуляції з типами](language.types.type-juggling.html)
 
 При перетворенні в bool, наступні значення розглядаються як **`false`**
 
 -   саме значення [boolean](language.types.boolean.html) **`false`**
 -   [integer](language.types.integer.html) 0 (нуль)
 -   [float](language.types.float.html) 0.0 (нуль) та -0.0 (мінус нуль)
--   порожня [строка](language.types.string.html), і [строка](language.types.string.html) "0"
+-   порожня [рядок](language.types.string.html), і [рядок](language.types.string.html) "0"
 -   [массив](language.types.array.html) без елементів
 -   особливий тип [NULL](language.types.null.html) (включаючи невстановлені змінні)
 -   об'єкти [SimpleXML](ref.simplexml.html), Створені з порожніх елементів без атрибутів, тобто елементів, що не мають ні дочірніх елементів, ні атрибутів.

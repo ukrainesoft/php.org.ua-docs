@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримує поточну версію PHP
     
@@ -98,8 +98,8 @@ if (PHP_VERSION_ID < 50207) {
 
 ### Дивіться також
 
--   [Константы PHP\_VERSION](reserved.constants.html#reserved.constants.core)
--   [version\_compare()](function.version-compare.html) - Порівнює два "стандартизовані" рядки з номером версії PHP
+-   [Константы PHPVERSION](reserved.constants.html#reserved.constants.core)
+-   [versioncompare()](function.version-compare.html) - Порівнює два "стандартизовані" рядки з номером версії PHP
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
 -   [phpcredits()](function.phpcredits.html) - Виводить список розробників PHP
--   [zend\_version()](function.zend-version.html) - Отримує версію двигуна Zend
+-   [zendversion()](function.zend-version.html) - Отримує версію двигуна Zend

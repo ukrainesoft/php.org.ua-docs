@@ -41,7 +41,7 @@ public ReflectionParameter::getClass(): ?ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html) або **`null`**якщо тип не оголошений або якщо оголошений тип не є класом або інтерфейсом.
+Об'єкт класу [ReflectionClass](class.reflectionclass.html) або \*\*`null`\*\*якщо тип не оголошений або якщо оголошений тип не є класом або інтерфейсом.
 
 ### Приклади
 

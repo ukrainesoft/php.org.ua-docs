@@ -1,8 +1,8 @@
 Повертає поверхневу копію колекції
 
--   [« Ds\\Stack::\_\_construct](ds-stack.construct.html)
+-   [« DsStack::construct](ds-stack.construct.html)
     
--   [Ds\\Stack::count »](ds-stack.count.html)
+-   [ДсStack::count »](ds-stack.count.html)
     
 -   [PHP Manual](index.html)
     

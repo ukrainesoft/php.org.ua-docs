@@ -1,8 +1,8 @@
 Отримати ім'я вказаного хеша
 
--   [« mhash\_get\_block\_size](function.mhash-get-block-size.html)
+-   [« mhashgetblocksize](function.mhash-get-block-size.html)
     
--   [mhash\_keygen\_s2k »](function.mhash-keygen-s2k.html)
+-   [mhashkeygens2k »](function.mhash-keygen-s2k.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,13 +37,13 @@ mhash_get_hash_name(int $algo): string|false
 
 ### Значення, що повертаються
 
-Повертає рядок з назвою або **`false`**якщо такого хеша немає.
+Повертає рядок з назвою або \*\*`false`\*\*якщо такого хеша немає.
 
 ### список змін
 
 | Версия | Описание                                                                                     |
 |--------|----------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функции `hash_*()`](ref.hash.html) |
+|        | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.html) |
 
 ### Приклади
 

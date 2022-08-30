@@ -1,6 +1,6 @@
 Константа SNI (Server Name Indication)
 
--   [« Константы версий](openssl.constversion.html)
+-   [« Константи версій](openssl.constversion.html)
     
 -   [Другие константы »](openssl.constants.other.html)
     

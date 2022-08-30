@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONJavascriptInterface
 
--   [« MongoDB\\BSON\\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.html)
+-   [« MongoDBBSONDecimal128Interface::toString](mongodb-bson-decimal128interface.tostring.html)
     
--   [MongoDB\\BSON\\JavascriptInterface::getCode »](mongodb-bson-javascriptinterface.getcode.html)
+-   [MongoDBBSONJavascriptInterface::getCode »](mongodb-bson-javascriptinterface.getcode.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONJavascriptInterface
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONJavascript](class.mongodb-bson-javascript.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -45,6 +45,6 @@ abstract public __toString(): string
 
 ## Зміст
 
--   [MongoDB\\BSON\\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html) — Повертає код JavascriptInterface
--   [MongoDB\\BSON\\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html) — Повертає область видимості документа JavascriptInterface
--   [MongoDB\\BSON\\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.html) — Повертає код JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html) — Повертає код JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html) — Повертає область видимості документа JavascriptInterface
+-   [MongoDBBSONJavascriptInterface::toString](mongodb-bson-javascriptinterface.tostring.html) — Повертає код JavascriptInterface

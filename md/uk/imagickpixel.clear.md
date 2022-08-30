@@ -2,7 +2,7 @@
 
 -   [« ImagickPixel](class.imagickpixel.html)
     
--   [ImagickPixel::\_\_construct »](imagickpixel.construct.html)
+-   [ImagickPixel::construct »](imagickpixel.construct.html)
     
 -   [PHP Manual](index.html)
     

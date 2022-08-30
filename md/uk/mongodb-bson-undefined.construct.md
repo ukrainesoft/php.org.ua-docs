@@ -1,12 +1,12 @@
 Створює новий Undefined (не використовується)
 
--   [« MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html)
+-   [« MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
     
--   [MongoDB\\BSON\\Undefined::jsonSerialize »](mongodb-bson-undefined.jsonserialize.html)
+-   [MongoDBBSONUndefined::jsonSerialize »](mongodb-bson-undefined.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html)
+-   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
     
 -   Створює новий Undefined (не використовується)
     
@@ -23,7 +23,7 @@ MongoDBBSONUndefined::construct — Створює новий Undefined (не в
 final private MongoDB\BSON\Undefined::__construct()
 ```
 
-Об'єкти [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBBSONUndefined](class.mongodb-bson-undefined.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

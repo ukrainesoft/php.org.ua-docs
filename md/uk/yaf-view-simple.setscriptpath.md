@@ -1,12 +1,12 @@
 Встановлює каталог шаблонів
 
--   [« Yaf\_View\_Simple::\_\_set](yaf-view-simple.set.html)
+-   [« YafViewSimple::set](yaf-view-simple.set.html)
     
--   [Yaf\_Loader »](class.yaf-loader.html)
+-   [YafLoader »](class.yaf-loader.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Встановлює каталог шаблонів
     

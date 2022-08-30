@@ -1,12 +1,12 @@
 Створення нечіткого хешу з файлу
 
--   [« ssdeep\_fuzzy\_compare](function.ssdeep-fuzzy-compare.html)
+-   [« ssdeepfuzzycompare](function.ssdeep-fuzzy-compare.html)
     
--   [ssdeep\_fuzzy\_hash »](function.ssdeep-fuzzy-hash.html)
+-   [ssdeepfuzzyhash »](function.ssdeep-fuzzy-hash.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции ssdeep](ref.ssdeep.html)
+-   [Функції ssdeep](ref.ssdeep.html)
     
 -   Створення нечіткого хешу з файлу
     
@@ -23,7 +23,7 @@ ssdeepfuzzyhashfilename — Створення нечіткого хешу з ф
 ssdeep_fuzzy_hash_filename(string $file_name): string
 ```
 
-**ssdeepfuzzyhashfilename()** обчислює хеш вказаного файлу `file_name`, використовуючи [» контекстно-переключаемое частичное хеширование](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає його значення.
+**ssdeepfuzzyhashfilename()** обчислює хеш вказаного файлу `file_name`, використовуючи [» контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає його значення.
 
 ### Список параметрів
 

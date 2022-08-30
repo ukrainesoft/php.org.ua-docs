@@ -1,12 +1,12 @@
 Виділяє пам'ять під зазначену місткість
 
--   [« Двухсторонняя очередь](class.ds-deque.html)
+-   [« Двостороння черга](class.ds-deque.html)
     
--   [Ds\\Deque::apply »](ds-deque.apply.html)
+-   [ДсDeque::apply »](ds-deque.apply.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Виділяє пам'ять під зазначену місткість
     

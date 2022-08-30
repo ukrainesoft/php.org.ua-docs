@@ -1,8 +1,8 @@
 Отримання інформації про файловий ресурс
 
--   [« streamWrapper::stream\_set\_option](streamwrapper.stream-set-option.html)
+-   [« streamWrapper::streamsetoption](streamwrapper.stream-set-option.html)
     
--   [streamWrapper::stream\_tell »](streamwrapper.stream-tell.html)
+-   [streamWrapper::streamtell »](streamwrapper.stream-tell.html)
     
 -   [PHP Manual](index.html)
     
@@ -40,4 +40,4 @@ public streamWrapper::stream_stat(): array|false
 ### Дивіться також
 
 -   [stat()](function.stat.html) - Повертає інформацію про файл
--   [streamwrapper::url\_stat()](streamwrapper.url-stat.html) - Отримання інформації про файл
+-   [streamwrapper::urlstat()](streamwrapper.url-stat.html) - Отримання інформації про файл

@@ -1,8 +1,8 @@
 Запуск самоперевірки відкритого модуля
 
--   [« mcrypt\_enc\_is\_block\_mode](function.mcrypt-enc-is-block-mode.html)
+-   [« mcryptencісblockmode](function.mcrypt-enc-is-block-mode.html)
     
--   [mcrypt\_encrypt »](function.mcrypt-encrypt.html)
+-   [mcryptencrypt »](function.mcrypt-encrypt.html)
     
 -   [PHP Manual](index.html)
     

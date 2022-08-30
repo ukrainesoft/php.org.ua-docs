@@ -43,7 +43,7 @@ datefmt_get_locale(IntlDateFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE)
 
 `type`
 
-Ви можете вибирати між коректним та поточним мовним стандартом (**`Locale::VALID_LOCALE`** і **`Locale::ACTUAL_LOCALE`**відповідно). За промовчанням використовується поточний мовний стандарт.
+Ви можете вибирати між коректним та поточним мовним стандартом (**`Locale::VALID_LOCALE`** і \*\*`Locale::ACTUAL_LOCALE`\*\*відповідно). За промовчанням використовується поточний мовний стандарт.
 
 ### Значення, що повертаються
 
@@ -116,4 +116,4 @@ echo 'Второй отформатированный вывод ' . $fmt-
 
 ### Дивіться також
 
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати

@@ -2,7 +2,7 @@
 
 -   [« SolrGenericResponse](class.solrgenericresponse.html)
     
--   [SolrGenericResponse::\_\_destruct »](solrgenericresponse.destruct.html)
+-   [SolrGenericResponse::destruct »](solrgenericresponse.destruct.html)
     
 -   [PHP Manual](index.html)
     

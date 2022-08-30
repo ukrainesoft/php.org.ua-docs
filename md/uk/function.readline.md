@@ -1,8 +1,8 @@
 Читає рядок
 
--   [« readline\_write\_history](function.readline-write-history.html)
+-   [« readlinewritehistory](function.readline-write-history.html)
     
--   [Модули для сжатия и архивации »](refs.compression.html)
+-   [Модулі для стиснення та архівації »](refs.compression.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ readline — Читає рядок
 readline(?string $prompt = null): string|false
 ```
 
-Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readline\_add\_history()](function.readline-add-history.html)
+Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readlineaddhistory()](function.readline-add-history.html)
 
 ### Список параметрів
 

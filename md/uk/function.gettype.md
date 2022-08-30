@@ -1,12 +1,12 @@
 Повертає тип змінної
 
--   [« get\_resource\_type](function.get-resource-type.html)
+-   [« getresourcetype](function.get-resource-type.html)
     
 -   [intval »](function.intval.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає тип змінної
     
@@ -80,19 +80,19 @@ string
 
 ### Дивіться також
 
--   [get\_debug\_type()](function.get-debug-type.html) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
+-   [getdebugtype()](function.get-debug-type.html) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
 -   [settype()](function.settype.html) - Задає тип змінної
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [is\_callable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [is\_null()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
--   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
--   [is\_resource()](function.is-resource.html) - Перевіряє, чи є змінна ресурсом
--   [is\_scalar()](function.is-scalar.html) - Перевіряє, чи є змінна скалярним значенням
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [method\_exists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [ісnull()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
+-   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісresource()](function.is-resource.html) - Перевіряє, чи є змінна ресурсом
+-   [ісscalar()](function.is-scalar.html) - Перевіряє, чи є змінна скалярним значенням
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі

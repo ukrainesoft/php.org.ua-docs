@@ -1,8 +1,8 @@
 Створює нову колекцію пар із елементів, вибраних за допомогою заданої callback-функції
 
--   [« Ds\\Map::diff](ds-map.diff.html)
+-   [« DsMap::diff](ds-map.diff.html)
     
--   [Ds\\Map::first »](ds-map.first.html)
+-   [ДсMap::first »](ds-map.first.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Закриває об'єкт LOB
 
--   [« cubrid\_lob2\_bind](function.cubrid-lob2-bind.html)
+-   [« cubridlob2bind](function.cubrid-lob2-bind.html)
     
--   [cubrid\_lob2\_export »](function.cubrid-lob2-export.html)
+-   [cubridlob2export »](function.cubrid-lob2-export.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ cubridlob2close — Закриває об'єкт LOB
 cubrid_lob2_close(resource $lob_identifier): bool
 ```
 
-Функція **cubridlob2close()** використовується для закриття об'єкта LOB, повернутих функцією [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) або отриманого із результуючого набору.
+Функція **cubridlob2close()** використовується для закриття об'єкта LOB, повернутих функцією [cubridlob2new()](function.cubrid-lob2-new.html) або отриманого із результуючого набору.
 
 ### Список параметрів
 
 `lob_identifier`
 
-Ідентифікатор LOB, повернутий функцією [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) або отриманий із результуючого набору.
+Ідентифікатор LOB, повернутий функцією [cubridlob2new()](function.cubrid-lob2-new.html) або отриманий із результуючого набору.
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ cubrid_lob2_close(resource $lob_identifier): bool
 
 ### Дивіться також
 
--   [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) - Створює об'єкт LOB
+-   [cubridlob2new()](function.cubrid-lob2-new.html) - Створює об'єкт LOB

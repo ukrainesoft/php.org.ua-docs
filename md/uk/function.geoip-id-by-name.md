@@ -1,8 +1,8 @@
 Повертає тип інтернет-з'єднання
 
--   [« geoip\_domain\_by\_name](function.geoip-domain-by-name.html)
+-   [« geoipdomainбname](function.geoip-domain-by-name.html)
     
--   [geoip\_isp\_by\_name »](function.geoip-isp-by-name.html)
+-   [geoipispбname »](function.geoip-isp-by-name.html)
     
 -   [PHP Manual](index.html)
     

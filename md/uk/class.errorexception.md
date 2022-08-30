@@ -1,8 +1,8 @@
 ErrorException
 
--   [« Exception::\_\_clone](exception.clone.html)
+-   [« Exception::clone](exception.clone.html)
     
--   [ErrorException::\_\_construct »](errorexception.construct.html)
+-   [ErrorException::construct »](errorexception.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -97,7 +97,7 @@ severity
 
 ## Приклади
 
-**Приклад #1 Використання [set\_error\_handler()](function.set-error-handler.html) змінити повідомлення про помилки в ErrorException.**
+**Приклад #1 Використання [seterrorhandler()](function.set-error-handler.html) змінити повідомлення про помилки в ErrorException.**
 
 ```php
 <?php
@@ -128,5 +128,5 @@ Stack trace:
 
 ## Зміст
 
--   [ErrorException::\_\_construct](errorexception.construct.html) - Створює виняток
+-   [ErrorException::construct](errorexception.construct.html) - Створює виняток
 -   [ErrorException::getSeverity](errorexception.getseverity.html) — Отримує серйозність виключення

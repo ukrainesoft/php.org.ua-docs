@@ -1,12 +1,12 @@
 Надсилає серверу команду SITE
 
--   [« ftp\_set\_option](function.ftp-set-option.html)
+-   [« ftpsetoption](function.ftp-set-option.html)
     
--   [ftp\_size »](function.ftp-size.html)
+-   [ftpsize »](function.ftp-size.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Надсилає серверу команду SITE
     
@@ -31,7 +31,7 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `command`
 
@@ -43,9 +43,9 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -71,4 +71,4 @@ if (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {
 
 ### Дивіться також
 
--   [ftp\_raw()](function.ftp-raw.html) - Надсилає довільну команду FTP-серверу
+-   [ftpraw()](function.ftp-raw.html) - Надсилає довільну команду FTP-серверу

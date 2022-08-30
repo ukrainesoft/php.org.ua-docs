@@ -2,7 +2,7 @@
 
 -   [« Stomp::unsubscribe](stomp.unsubscribe.html)
     
--   [StompFrame::\_\_construct »](stompframe.construct.html)
+-   [StompFrame::construct »](stompframe.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -67,4 +67,4 @@ body
 
 ## Зміст
 
--   [StompFrame::\_\_construct](stompframe.construct.html) - Конструктор
+-   [StompFrame::construct](stompframe.construct.html) - Конструктор

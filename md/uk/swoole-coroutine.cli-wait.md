@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine::call\_user\_func](swoole-coroutine.call-user-func.html)
+-   [« SwooleCoroutine::calluserfunc](swoole-coroutine.call-user-func.html)
     
--   [Swoole\\Coroutine::create »](swoole-coroutine.create.html)
+-   [SwooleCoroutine::create »](swoole-coroutine.create.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

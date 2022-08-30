@@ -1,12 +1,12 @@
 Зв'язує порт на віддаленому сервері та прослуховує з'єднання
 
--   [« ssh2\_forward\_accept](function.ssh2-forward-accept.html)
+-   [« ssh2forwardaccept](function.ssh2-forward-accept.html)
     
--   [ssh2\_methods\_negotiated »](function.ssh2-methods-negotiated.html)
+-   [ssh2methodsnegotiated »](function.ssh2-methods-negotiated.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Зв'язує порт на віддаленому сервері та прослуховує з'єднання
     
@@ -33,7 +33,7 @@ ssh2_forward_listen(    resource $session,    int $port,    string $
 
 `session`
 
-Ресурс SSH Session, отриманий через виклик [ssh2\_connect()](function.ssh2-connect.html)
+Ресурс SSH Session, отриманий через виклик [ssh2connect()](function.ssh2-connect.html)
 
 `port`
 
@@ -49,4 +49,4 @@ ssh2_forward_listen(    resource $session,    int $port,    string $
 
 ### Дивіться також
 
--   [ssh2\_forward\_accept()](function.ssh2-forward-accept.html) - приймає з'єднання, створене слухачем
+-   [ssh2forwardaccept()](function.ssh2-forward-accept.html) - приймає з'єднання, створене слухачем

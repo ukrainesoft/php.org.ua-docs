@@ -1,8 +1,8 @@
 Повертає масштаб поля
 
--   [« odbc\_field\_precision](function.odbc-field-precision.html)
+-   [« odbcfieldprecision](function.odbc-field-precision.html)
     
--   [odbc\_field\_type »](function.odbc-field-type.html)
+-   [odbcfieldtype »](function.odbc-field-type.html)
     
 -   [PHP Manual](index.html)
     

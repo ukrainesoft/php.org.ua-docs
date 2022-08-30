@@ -1,8 +1,8 @@
 Свічкова модель "Поштовий голуб"
 
--   [« trader\_cdlhikkakemod](function.trader-cdlhikkakemod.html)
+-   [« tradercdlhikkakemod](function.trader-cdlhikkakemod.html)
     
--   [trader\_cdlidentical3crows »](function.trader-cdlidentical3crows.html)
+-   [tradercdlidentical3crows »](function.trader-cdlidentical3crows.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Отримує прапори поля
 
--   [« fdf\_get\_file](function.fdf-get-file.html)
+-   [« fdfgetfile](function.fdf-get-file.html)
     
--   [fdf\_get\_opt »](function.fdf-get-opt.html)
+-   [fdfgetopt »](function.fdf-get-opt.html)
     
 -   [PHP Manual](index.html)
     

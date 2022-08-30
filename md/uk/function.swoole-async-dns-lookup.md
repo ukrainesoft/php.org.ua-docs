@@ -2,7 +2,7 @@
 
 -   [« Функции Swoole](ref.swoole-funcs.html)
     
--   [swoole\_async\_read »](function.swoole-async-read.html)
+-   [swooleasyncread »](function.swoole-async-read.html)
     
 -   [PHP Manual](index.html)
     

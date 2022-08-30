@@ -1,12 +1,12 @@
 Визначення кодування символів
 
--   [« mb\_decode\_numericentity](function.mb-decode-numericentity.html)
+-   [« mbdecodenumericentity](function.mb-decode-numericentity.html)
     
--   [mb\_detect\_order »](function.mb-detect-order.html)
+-   [мбdetectorder »](function.mb-detect-order.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Визначення кодування символів
     
@@ -39,13 +39,13 @@ mb_detect_encoding(string $string, array|string|null $encodings = null, bool $st
 
 Упорядкований список символів кодування. Список може бути вказаний як масив рядків або як рядок кодувань, розділених комами.
 
-Якщо `encodings` не заданий чи є **`null`**, буде використовуватись поточний detectorder (встановлений за допомогою параметра конфігурації [mbstring.detect\_order](mbstring.configuration.html#ini.mbstring.detect-order) або функції [mb\_detect\_order()](function.mb-detect-order.html)
+Якщо `encodings` не заданий чи є **`null`**, буде використовуватись поточний detectorder (встановлений за допомогою параметра конфігурації [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) або функції [мбdetectorder()](function.mb-detect-order.html)
 
 `strict`
 
 Керує поведінкою, коли `string` неприпустима в жодній із перерахованих `encodings`. Якщо для `strict` встановлено значення **`false`**, буде повернуто найбільш відповідне кодування; якщо для `strict` встановлено значення **`true`**, буде повернуто **`false`**
 
-Значення за замовчуванням для `strict` можна встановити за допомогою параметра конфігурації [mbstring.strict\_detection](mbstring.configuration.html#ini.mbstring.strict-detection)
+Значення за замовчуванням для `strict` можна встановити за допомогою параметра конфігурації [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection)
 
 ### Значення, що повертаються
 
@@ -131,4 +131,4 @@ string(10) "ISO-8859-5"
 
 ### Дивіться також
 
--   [mb\_detect\_order()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування

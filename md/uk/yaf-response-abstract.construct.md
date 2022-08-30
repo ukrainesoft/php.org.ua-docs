@@ -1,12 +1,12 @@
 Конструктор класу YafResponseAbstract
 
--   [« Yaf\_Response\_Abstract::clearHeaders](yaf-response-abstract.clearheaders.html)
+-   [« YafResponseAbstract::clearHeaders](yaf-response-abstract.clearheaders.html)
     
--   [Yaf\_Response\_Abstract::\_\_destruct »](yaf-response-abstract.destruct.html)
+-   [YafResponseAbstract::destruct »](yaf-response-abstract.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Конструктор класу YafResponseAbstract
     

@@ -1,8 +1,8 @@
 Отримати дерево пов'язаних повідомлень
 
--   [« imap\_subscribe](function.imap-subscribe.html)
+-   [« imapsubscribe](function.imap-subscribe.html)
     
--   [imap\_timeout »](function.imap-timeout.html)
+-   [imaptimeout »](function.imap-timeout.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_thread(IMAP\Connection $imap, int $flags = SE_FREE): array|false
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `flags`
 
@@ -48,9 +48,9 @@ imap_thread(IMAP\Connection $imap, int $flags = SE_FREE): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

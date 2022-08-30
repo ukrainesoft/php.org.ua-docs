@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\MySQL::connect](swoole-coroutine-mysql.connect.html)
+-   [« SwooleCoroutineMySQL::connect](swoole-coroutine-mysql.connect.html)
     
--   [Swoole\\Coroutine\\MySQL::\_\_destruct »](swoole-coroutine-mysql.destruct.html)
+-   [SwooleCoroutineMySQL::destruct »](swoole-coroutine-mysql.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

@@ -23,7 +23,7 @@ public **EvLoop::construct**
 int `$flags`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` NULL,  
 float `$io_interval`  
-float `$timeout_interval`  
+float `$timeout_interval`
 
 Конструктор об'єкта циклу подій.
 
@@ -39,11 +39,11 @@ float `$timeout_interval`
 
 `io_interval`
 
-Дивіться [io\_interval](class.evloop.html#evloop.props.io-interval)
+Дивіться [іоinterval](class.evloop.html#evloop.props.io-interval)
 
 `timeout_interval`
 
-Дивіться [timeout\_interval](class.evloop.html#evloop.props.timeout-interval)
+Дивіться [timeoutinterval](class.evloop.html#evloop.props.timeout-interval)
 
 ### Дивіться також
 

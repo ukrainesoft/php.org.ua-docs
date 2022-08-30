@@ -1,12 +1,12 @@
 Отримати попередній виняток
 
--   [« Yaf\_Exception::\_\_construct](yaf-exception.construct.html)
+-   [« YafException::construct](yaf-exception.construct.html)
     
--   [Yaf\_Exception\_TypeError »](class.yaf-exception-typeerror.html)
+-   [YafExceptionTypeError »](class.yaf-exception-typeerror.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Exception](class.yaf-exception.html)
+-   [YafException](class.yaf-exception.html)
     
 -   Отримати попередній виняток
     

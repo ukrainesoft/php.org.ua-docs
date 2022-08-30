@@ -1,8 +1,8 @@
 Повертає повідомлення про помилку openSSL
 
--   [« openssl\_encrypt](function.openssl-encrypt.html)
+-   [« opensslencrypt](function.openssl-encrypt.html)
     
--   [openssl\_free\_key »](function.openssl-free-key.html)
+-   [opensslfreekey »](function.openssl-free-key.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ openssl_error_string(): string|false
 
 ### Значення, що повертаються
 
-Повертає рядок з повідомленням про помилку або **`false`**якщо повідомлень більше немає.
+Повертає рядок з повідомленням про помилку або \*\*`false`\*\*якщо повідомлень більше немає.
 
 ### Приклади
 

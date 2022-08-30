@@ -2,7 +2,7 @@
 
 -   [« UnderflowException](class.underflowexception.html)
     
--   [Функции SPL »](ref.spl.html)
+-   [Функції SPL »](ref.spl.html)
     
 -   [PHP Manual](index.html)
     

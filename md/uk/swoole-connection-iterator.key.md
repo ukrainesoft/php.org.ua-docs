@@ -1,12 +1,12 @@
 Повертає ключ поточного з'єднання
 
--   [« Swoole\\Connection\\Iterator::current](swoole-connection-iterator.current.html)
+-   [« SwooleConnectionIterator::current](swoole-connection-iterator.current.html)
     
--   [Swoole\\Connection\\Iterator::next »](swoole-connection-iterator.next.html)
+-   [SwooleConnectionIterator::next »](swoole-connection-iterator.next.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Повертає ключ поточного з'єднання
     

@@ -1,8 +1,8 @@
 Отримати ASCII-кодований хеш
 
--   [« sodium\_crypto\_pwhash\_str\_verify](function.sodium-crypto-pwhash-str-verify.html)
+-   [« sodiumcryptopwhashstrverify](function.sodium-crypto-pwhash-str-verify.html)
     
--   [sodium\_crypto\_pwhash »](function.sodium-crypto-pwhash.html)
+-   [sodiumcryptopwhash »](function.sodium-crypto-pwhash.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ string; Пароль, для якого буде генеруватися хеш
 
 Повертає хеш пароля.
 
-Для того, щоб для того самого пароля завжди генерувався один і той же хеш, необхідно використовувати однакові значення `opslimit` і `memlimit`. Так як ці параметри включені в хеш, що згенерував, функція [sodium\_crypto\_pwhash\_str\_verify()](function.sodium-crypto-pwhash-str-verify.html) може перевіряти його коректність без необхідності зберігати ці параметри окремо.
+Для того, щоб для того самого пароля завжди генерувався один і той же хеш, необхідно використовувати однакові значення `opslimit` і `memlimit`. Так як ці параметри включені в хеш, що згенерував, функція [sodiumcryptopwhashstrverify()](function.sodium-crypto-pwhash-str-verify.html) може перевіряти його коректність без необхідності зберігати ці параметри окремо.
 
 ### Приклади
 
@@ -69,12 +69,12 @@ $argon2id$v=19$m=65536,t=2,p=1$oWIfdaXwWwhVmovOBc2NAQ$EbsZ+JnZyyavkafS0hoc4HdaOB
 
 > **Зауваження**
 > 
-> Хеші обчислюються за допомогою алгоритму Argon2ID, стійкого для атак стороннього каналу та GPU. На відміну від функції [password\_hash()](function.password-hash.html), ця функція не має параметра salt (він генерується автоматично), а параметри `opslimit` і `memlimit` є обов'язковими.
+> Хеші обчислюються за допомогою алгоритму Argon2ID, стійкого для атак стороннього каналу та GPU. На відміну від функції [passwordhash()](function.password-hash.html), ця функція не має параметра salt (він генерується автоматично), а параметри `opslimit` і `memlimit` є обов'язковими.
 
 ### Дивіться також
 
--   [sodium\_crypto\_pwhash\_str\_verify()](function.sodium-crypto-pwhash-str-verify.html) - Перевіряє, що пароль відповідає хешу
--   [sodium\_crypto\_pwhash()](function.sodium-crypto-pwhash.html) - Отримує ключ із пароля, використовуючи Argon2
--   [password\_hash()](function.password-hash.html) - Створює хеш пароля
--   [password\_verify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає
+-   [sodiumcryptopwhashstrverify()](function.sodium-crypto-pwhash-str-verify.html) - Перевіряє, що пароль відповідає хешу
+-   [sodiumcryptopwhash()](function.sodium-crypto-pwhash.html) - Отримує ключ із пароля, використовуючи Argon2
+-   [passwordhash()](function.password-hash.html) - Створює хеш пароля
+-   [passwordverify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає
 -   [» Документация на Libsodium Argon2](https://download.libsodium.org/doc/password_hashing/the_argon2i_function.html)

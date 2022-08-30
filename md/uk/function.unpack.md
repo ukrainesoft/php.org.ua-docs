@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Розпакувати дані з бінарного рядка
     

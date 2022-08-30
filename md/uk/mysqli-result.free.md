@@ -1,12 +1,12 @@
 Звільняє пам'ять, зайняту результатами запиту
 
--   [« mysqli\_result::field\_seek](mysqli-result.field-seek.html)
+-   [« mysqliresult::fieldseek](mysqli-result.field-seek.html)
     
--   [mysqli\_result::getIterator »](mysqli-result.getiterator.html)
+-   [mysqliresult::getIterator »](mysqli-result.getiterator.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Звільняє пам'ять, зайняту результатами запиту
     
@@ -51,7 +51,7 @@ mysqli_free_result(mysqli_result $result): void
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -59,7 +59,7 @@ mysqli_free_result(mysqli_result $result): void
 
 ### Дивіться також
 
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
--   [mysqli\_store\_result()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqli\_use\_result()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlistmtgetresult()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
+-   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
+-   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання

@@ -1,12 +1,12 @@
 Розширює розмір буфера пам'яті
 
--   [« Swoole\\Buffer::\_\_destruct](swoole-buffer.destruct.html)
+-   [« SwooleBuffer::destruct](swoole-buffer.destruct.html)
     
--   [Swoole\\Buffer::read »](swoole-buffer.read.html)
+-   [SwooleBuffer::read »](swoole-buffer.read.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Розширює розмір буфера пам'яті
     

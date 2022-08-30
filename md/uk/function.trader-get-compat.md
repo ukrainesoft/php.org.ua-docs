@@ -1,8 +1,8 @@
 Отримує режим сумісності
 
--   [« trader\_floor](function.trader-floor.html)
+-   [« traderfloor](function.trader-floor.html)
     
--   [trader\_get\_unstable\_period »](function.trader-get-unstable-period.html)
+-   [tradergetunstableperiod »](function.trader-get-unstable-period.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,4 +31,4 @@ trader_get_compat(): int
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор режиму сумісності, який можна визначити за константами [TRADER\_COMPATIBILITY\_\*](trader.constants.html)
+Повертає ідентифікатор режиму сумісності, який можна визначити за константами [TRADERCOMPATIBILITY](trader.constants.html)

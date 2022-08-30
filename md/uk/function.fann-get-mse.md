@@ -1,8 +1,8 @@
 Зчитує середньоквадратичну помилку мережі
 
--   [« fann\_get\_learning\_rate](function.fann-get-learning-rate.html)
+-   [« fanngetlearningrate](function.fann-get-learning-rate.html)
     
--   [fann\_get\_network\_type »](function.fann-get-network-type.html)
+-   [fanngetnetworktype »](function.fann-get-network-type.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ fann_get_MSE(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_test\_data()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього
+-   [fanntestdata()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього

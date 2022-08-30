@@ -1,8 +1,8 @@
 Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
 
--   [« hash\_hkdf](function.hash-hkdf.html)
+-   [« hashhkdf](function.hash-hkdf.html)
     
--   [hash\_hmac\_file »](function.hash-hmac-file.html)
+-   [hashhmacfile »](function.hash-hmac-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ hash_hmac_algos(): array
 
 ### Значення, що повертаються
 
-Повертає індексований масив зі списком підтримуваних функцією [hash\_hmac()](function.hash-hmac.html) алгоритмів хешування.
+Повертає індексований масив зі списком підтримуваних функцією [hashhmac()](function.hash-hmac.html) алгоритмів хешування.
 
 ### Приклади
 
@@ -96,9 +96,9 @@ Array
 
 > **Зауваження**
 > 
-> До PHP 7.2.0 єдиним варіантом отримати список підтримуваних алгоритмів було викликати функцію [hash\_algos()](function.hash-algos.html), яка також повертала алгоритми, що не підтримуються [hash\_hmac()](function.hash-hmac.html)
+> До PHP 7.2.0 єдиним варіантом отримати список підтримуваних алгоритмів було викликати функцію [hashalgos()](function.hash-algos.html), яка також повертала алгоритми, що не підтримуються [hashhmac()](function.hash-hmac.html)
 
 ### Дивіться також
 
--   [hash\_hmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
--   [hash\_algos()](function.hash-algos.html) - Повертає список зареєстрованих алгоритмів хешування
+-   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+-   [hashalgos()](function.hash-algos.html) - Повертає список зареєстрованих алгоритмів хешування

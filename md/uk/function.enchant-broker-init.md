@@ -1,8 +1,8 @@
 Створити новий об'єкт брокера
 
--   [« enchant\_broker\_get\_error](function.enchant-broker-get-error.html)
+-   [« enchantbrokergeterror](function.enchant-broker-get-error.html)
     
--   [enchant\_broker\_list\_dicts »](function.enchant-broker-list-dicts.html)
+-   [enchantbrokerlistdicts »](function.enchant-broker-list-dicts.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ enchant_broker_init(): EnchantBroker|false
 
 ### Значення, що повертаються
 
-Повертає ресурс брокера або **`false`**якщо виникла помилка.
+Повертає ресурс брокера або \*\*`false`\*\*якщо виникла помилка.
 
 ### список змін
 
@@ -37,4 +37,4 @@ enchant_broker_init(): EnchantBroker|false
 
 ### Дивіться також
 
--   [enchant\_broker\_free()](function.enchant-broker-free.html) - Звільняє ресурс брокера та його словники
+-   [enchantbrokerfree()](function.enchant-broker-free.html) - Звільняє ресурс брокера та його словники

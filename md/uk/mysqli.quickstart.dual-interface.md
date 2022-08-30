@@ -98,11 +98,11 @@ if ($row = $result->fetch_assoc()) {
 
 *Дивіться також*
 
--   [mysqli::\_\_construct()](mysqli.construct.html)
+-   [mysqli::construct()](mysqli.construct.html)
 -   [mysqli::query()](mysqli.query.html)
--   [mysqli\_result::fetch\_assoc()](mysqli-result.fetch-assoc.html)
--   [$mysqli::connect\_errno](mysqli.connect-errno.html)
--   [$mysqli::connect\_error](mysqli.connect-error.html)
+-   [mysqliresult::fetchassoc()](mysqli-result.fetch-assoc.html)
+-   [$mysqli::connecterrno](mysqli.connect-errno.html)
+-   [$mysqli::connecterror](mysqli.connect-error.html)
 -   [$mysqli::errno](mysqli.errno.html)
 -   [$mysqli::error](mysqli.error.html)
 -   [Общее описание функций модуля MySQLi](mysqli.summary.html)

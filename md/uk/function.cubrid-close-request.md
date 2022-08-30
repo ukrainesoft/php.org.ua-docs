@@ -1,8 +1,8 @@
 Закриває обробник запиту
 
--   [« cubrid\_close\_prepare](function.cubrid-close-prepare.html)
+-   [« cubridcloseprepare](function.cubrid-close-prepare.html)
     
--   [cubrid\_col\_get »](function.cubrid-col-get.html)
+-   [cubridcolget »](function.cubrid-col-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ cubridcloserequest — Закриває обробник запиту
 cubrid_close_request(resource $req_identifier): bool
 ```
 
-Функція **cubridcloserequest()** закриває обробник запиту, заданий у `req_identifier`, і звільняє виділену йому пам'ять. Є синонімом для [cubrid\_close\_prepare()](function.cubrid-close-prepare.html)
+Функція **cubridcloserequest()** закриває обробник запиту, заданий у `req_identifier`, і звільняє виділену йому пам'ять. Є синонімом для [cubridcloseprepare()](function.cubrid-close-prepare.html)
 
 ### Список параметрів
 
@@ -60,4 +60,4 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubrid\_close\_prepare()](function.cubrid-close-prepare.html) - Закриває обробник запиту
+-   [cubridcloseprepare()](function.cubrid-close-prepare.html) - Закриває обробник запиту

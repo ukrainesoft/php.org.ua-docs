@@ -1,12 +1,12 @@
 Шифрує дані
 
--   [« MongoDB\\Driver\\ClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.html)
+-   [« MongoDBDriverClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.html)
     
--   [MongoDB\\Driver\\ServerApi »](class.mongodb-driver-serverapi.html)
+-   [MongoDBDriverServerApi »](class.mongodb-driver-serverapi.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html)
+-   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html)
     
 -   Шифрує дані
     
@@ -57,7 +57,7 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 Задає документ колекції сховища ключів `keyAltName`. Взаємовиключна з опцією `keyId`, потрібна лише одна з них.
 
-| | keyId | [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+| | keyId | [MongoDBBSONBinary](class.mongodb-bson-binary.html)
 
 Задає ключ даних по `_id`. Значення типу UUID (бінарний підтип 4). Взаємовиключна з опцією `keyAltName`, потрібна лише одна з них.
 
@@ -73,12 +73,12 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 ### Значення, що повертаються
 
-Повертає зашифровані дані у вигляді об'єкту [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html) з підтипом 6.
+Повертає зашифровані дані у вигляді об'єкту [MongoDBBSONBinary](class.mongodb-bson-binary.html) з підтипом 6.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Викидає виняток [MongoDB\\Driver\\Exception\\EncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо при шифруванні виникла помилка
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Викидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо при шифруванні виникла помилка
 
 ### список змін
 
@@ -88,4 +88,4 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ClientEncryption::decrypt()](mongodb-driver-clientencryption.decrypt.html) - Розшифрувати дані
+-   [MongoDBDriverClientEncryption::decrypt()](mongodb-driver-clientencryption.decrypt.html) - Розшифрувати дані

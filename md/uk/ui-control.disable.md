@@ -1,12 +1,12 @@
 Вимкнути керуючий елемент
 
--   [« UI\\Control::destroy](ui-control.destroy.html)
+-   [« UIControl::destroy](ui-control.destroy.html)
     
--   [UI\\Control::enable »](ui-control.enable.html)
+-   [ОЙControl::enable »](ui-control.enable.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Вимкнути керуючий елемент
     

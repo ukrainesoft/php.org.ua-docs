@@ -1,8 +1,8 @@
 Вийняти MIME-заголовки для конкретного розділу повідомлення
 
--   [« imap\_fetchheader](function.imap-fetchheader.html)
+-   [« imapfetchheader](function.imap-fetchheader.html)
     
--   [imap\_fetchstructure »](function.imap-fetchstructure.html)
+-   [imapfetchstructure »](function.imap-fetchstructure.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_fetchmime(    IMAP\Connection $imap,    int $message_num,    st
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -53,12 +53,12 @@ imap_fetchmime(    IMAP\Connection $imap,    int $message_num,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_fetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
--   [imap\_fetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення
--   [imap\_fetchheader()](function.imap-fetchheader.html) - Отримати заголовок повідомлення
+-   [imapfetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
+-   [imapfetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення
+-   [imapfetchheader()](function.imap-fetchheader.html) - Отримати заголовок повідомлення

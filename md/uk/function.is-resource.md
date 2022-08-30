@@ -1,12 +1,12 @@
 Перевіряє, чи є змінна ресурсом
 
--   [« is\_real](function.is-real.html)
+-   [« isreal](function.is-real.html)
     
--   [is\_scalar »](function.is-scalar.html)
+-   [ісscalar »](function.is-scalar.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи є змінна ресурсом
     
@@ -64,4 +64,4 @@ $handle - это ресурс
 ### Дивіться також
 
 -   [Тип resource](language.types.resource.html)
--   [get\_resource\_type()](function.get-resource-type.html) - Повертає тип ресурсу
+-   [getresourcetype()](function.get-resource-type.html) - Повертає тип ресурсу

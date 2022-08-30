@@ -1,12 +1,12 @@
 Отримує ім'я віддаленого сокету з'єднання
 
--   [« Swoole\\Client::\_\_destruct](swoole-client.destruct.html)
+-   [« SwooleClient::destruct](swoole-client.destruct.html)
     
--   [Swoole\\Client::getsockname »](swoole-client.getsockname.html)
+-   [SwooleClient::getsockname »](swoole-client.getsockname.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Отримує ім'я віддаленого сокету з'єднання
     

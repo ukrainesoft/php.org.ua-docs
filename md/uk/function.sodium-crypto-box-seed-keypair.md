@@ -1,8 +1,8 @@
 Детерміністичний висновок ключової пари з одного ключа
 
--   [« sodium\_crypto\_box\_secretkey](function.sodium-crypto-box-secretkey.html)
+-   [« sodiumcryptoboxsecretkey](function.sodium-crypto-box-secretkey.html)
     
--   [sodium\_crypto\_box »](function.sodium-crypto-box.html)
+-   [sodiumcryptobox »](function.sodium-crypto-box.html)
     
 -   [PHP Manual](index.html)
     

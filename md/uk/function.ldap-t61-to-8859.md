@@ -1,12 +1,12 @@
 Перекладає символи з кодування t61 ISO-8859
 
--   [« ldap\_start\_tls](function.ldap-start-tls.html)
+-   [« ldapstarttls](function.ldap-start-tls.html)
     
--   [ldap\_unbind »](function.ldap-unbind.html)
+-   [ldapunbind »](function.ldap-unbind.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Перекладає символи з кодування t61 ISO-8859
     

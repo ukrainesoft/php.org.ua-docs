@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](classobj.constants.html)
     
--   [Функции работы с классами и объектами »](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами »](ref.classobj.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine::create](swoole-coroutine.create.html)
+-   [« SwooleCoroutine::create](swoole-coroutine.create.html)
     
--   [Swoole\\Coroutine\\Client::connect »](swoole-coroutine-client.connect.html)
+-   [SwooleCoroutineClient::connect »](swoole-coroutine-client.connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

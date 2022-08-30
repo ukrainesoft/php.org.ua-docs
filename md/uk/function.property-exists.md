@@ -1,12 +1,12 @@
 Перевіряє, чи містить об'єкт чи клас зазначений атрибут
 
--   [« method\_exists](function.method-exists.html)
+-   [« methodexists](function.method-exists.html)
     
--   [trait\_exists »](function.trait-exists.html)
+-   [traitexists »](function.trait-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Перевіряє, чи містить об'єкт чи клас зазначений атрибут
     
@@ -27,7 +27,7 @@ property_exists(object|string $object_or_class, string $property): bool
 
 > **Зауваження**
 > 
-> В протилежність [isset()](function.isset.html) **propertyexists()** повертає **`true`**навіть якщо властивість має значення **`null`**
+> В протилежність [isset()](function.isset.html) **propertyexists()** повертає \*\*`true`\*\*навіть якщо властивість має значення **`null`**
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ property_exists(object|string $object_or_class, string $property): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо властивість існує, **`false`**якщо воно не існує, або **`null`** у разі виникнення помилки.
+Повертає \*\*`true`\*\*якщо властивість існує, \*\*`false`\*\*якщо воно не існує, або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -82,4 +82,4 @@ myClass::test();
 
 ### Дивіться також
 
--   [method\_exists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
+-   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі

@@ -1,8 +1,8 @@
 Виводить вміст gz-файлу
 
--   [« inflate\_init](function.inflate-init.html)
+-   [« inflateinit](function.inflate-init.html)
     
--   [zlib\_decode »](function.zlib-decode.html)
+-   [zlibdecode »](function.zlib-decode.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ readgzfile(string $filename, int $use_include_path = 0): int|false
 
 `use_include_path`
 
-Ви можете використовувати цей необов'язковий параметр і встановити його в `1`, якщо необхідно, щоб пошук файлу також здійснювався в директоріях [include\_path](ini.core.html#ini.include-path)
+Ви можете використовувати цей необов'язковий параметр і встановити його в `1`, якщо необхідно, щоб пошук файлу також здійснювався в директоріях [includepath](ini.core.html#ini.include-path)
 
 ### Значення, що повертаються
 

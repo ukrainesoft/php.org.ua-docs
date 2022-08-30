@@ -1,12 +1,12 @@
 Функції модуля PDOSQLSRV для Microsoft SQL Server
 
--   [« PDO\_MYSQL DSN](ref.pdo-mysql.connection.html)
+-   [« PDOMYSQL DSN](ref.pdo-mysql.connection.html)
     
--   [PDO\_SQLSRV DSN »](ref.pdo-sqlsrv.connection.html)
+-   [PDOSQLSRV DSN »](ref.pdo-sqlsrv.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції модуля PDOSQLSRV для Microsoft SQL Server
     
@@ -21,9 +21,9 @@ PDOSQLSRV - це драйвер, що реалізує інтерфейс [PHP D
 
 Модуль PDOSQLSRV включається додаванням відповідного файлу DLL в директорію модулів вашої встановленої копії PHP і відповідного запису файл php.ini. Завантажена копія модуля PDOSQLSRV включає вісім файлів драйверів, чотири з них для підтримки PDO.
 
-Найчастіше використовувана версія драйвера доступна тут: [» Загрузка SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx). Вихідний код драйвера розміщено в [» публичном репозитории](https://github.com/microsoft/msphpsql)
+Найчастіше використовувана версія драйвера доступна тут: [» Загрузка SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx). Вихідний код драйвера розміщено в [» публічній репозиторії](https://github.com/microsoft/msphpsql)
 
-За детальною інформацією про системні вимоги зверніться до розділу [» Системные требования SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx)
+За детальною інформацією про системні вимоги зверніться до розділу [» Системні вимоги SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx)
 
 Модуль PDOSQLSRV може використовуватися з PHP лише у Windows. Для Linux використовуйте [ODBC](ref.pdo-odbc.html) і [» Microsoft's SQL Server ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?id=28160)
 
@@ -77,4 +77,4 @@ PDOSQLSRV - це драйвер, що реалізує інтерфейс [PHP D
 
 ## Зміст
 
--   [PDO\_SQLSRV DSN](ref.pdo-sqlsrv.connection.html) — Підключення до баз даних MS SQL Server та SQL Azure
+-   [PDOSQLSRV DSN](ref.pdo-sqlsrv.connection.html) — Підключення до баз даних MS SQL Server та SQL Azure

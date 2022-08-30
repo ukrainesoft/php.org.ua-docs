@@ -1,6 +1,6 @@
 Повертає поточний елемент DirectoryIterator
 
--   [« DirectoryIterator::\_\_construct](directoryiterator.construct.html)
+-   [« DirectoryIterator::construct](directoryiterator.construct.html)
     
 -   [DirectoryIterator::getATime »](directoryiterator.getatime.html)
     

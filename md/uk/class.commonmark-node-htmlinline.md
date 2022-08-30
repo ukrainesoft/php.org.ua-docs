@@ -1,8 +1,8 @@
 HTMLInline успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\HTMLBlock](class.commonmark-node-htmlblock.html)
+-   [« CommonMarkNodeHTMLBlock](class.commonmark-node-htmlblock.html)
     
--   [CommonMark\\Node\\Image »](class.commonmark-node-image.html)
+-   [CommonMarkNodeImage »](class.commonmark-node-image.html)
     
 -   [PHP Manual](index.html)
     

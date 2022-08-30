@@ -1,6 +1,6 @@
 Видаляє поле біграми фрази (параметр pf2)
 
--   [« SolrDisMaxQuery::\_\_construct](solrdismaxquery.construct.html)
+-   [« SolrDisMaxQuery::construct](solrdismaxquery.construct.html)
     
 -   [SolrDisMaxQuery::removeBoostQuery »](solrdismaxquery.removeboostquery.html)
     

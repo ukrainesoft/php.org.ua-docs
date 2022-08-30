@@ -2,11 +2,11 @@
 
 -   [« TableInsert::execute](mysql-xdevapi-tableinsert.execute.html)
     
--   [mysql\_xdevapi\\TableSelect »](class.mysql-xdevapi-tableselect.html)
+-   [mysqlxdevapiTableSelect »](class.mysql-xdevapi-tableselect.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableInsert](class.mysql-xdevapi-tableinsert.html)
+-   [mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html)
     
 -   Додає значення вставки рядка
     

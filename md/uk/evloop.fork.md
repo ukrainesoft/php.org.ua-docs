@@ -40,7 +40,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvFork::\_\_construct()](evfork.construct.html)
+Усі параметри, що й для [EvFork::construct()](evfork.construct.html)
 
 ### Значення, що повертаються
 
@@ -48,4 +48,4 @@ final
 
 ### Дивіться також
 
--   [EvFork::\_\_construct()](evfork.construct.html) - Конструктор спостерігача EvFork
+-   [EvFork::construct()](evfork.construct.html) - Конструктор спостерігача EvFork

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
     
@@ -94,6 +94,6 @@ Array
 ### Дивіться також
 
 -   [natsort()](function.natsort.html) - Сортує масив, використовуючи алгоритм "natural order"
--   [Сравнение функций сортировки массивов](array.sorting.html)
+-   [Порівняння функцій сортування масивів](array.sorting.html)
 -   [strnatcmp()](function.strnatcmp.html) - Порівняння рядків із використанням алгоритму "natural order"
 -   [strnatcasecmp()](function.strnatcasecmp.html) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"

@@ -1,12 +1,12 @@
 Отримати кількість стовпців у результуючому наборі
 
--   [« cubrid\_list\_dbs](function.cubrid-list-dbs.html)
+-   [« cubridlistdbs](function.cubrid-list-dbs.html)
     
--   [cubrid\_ping »](function.cubrid-ping.html)
+-   [cubridping »](function.cubrid-ping.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати кількість стовпців у результуючому наборі
     
@@ -29,7 +29,7 @@ cubrid_num_fields(resource $result): int
 
 `result`
 
-`result`, отриманий з [cubrid\_execute()](function.cubrid-execute.html) [cubrid\_query()](function.cubrid-query.html) або [cubrid\_prepare()](function.cubrid-prepare.html)
+`result`, отриманий з [cubridexecute()](function.cubrid-execute.html) [cubridquery()](function.cubrid-query.html) або [cubridprepare()](function.cubrid-prepare.html)
 
 ### Значення, що повертаються
 

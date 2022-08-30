@@ -1,8 +1,8 @@
 Створює оточення для з'єднання із сервером CUBRID
 
--   [« cubrid\_commit](function.cubrid-commit.html)
+-   [« cubridcommit](function.cubrid-commit.html)
     
--   [cubrid\_connect »](function.cubrid-connect.html)
+-   [cubridconnect »](function.cubrid-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -143,8 +143,8 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubrid\_connect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
--   [cubrid\_pconnect()](function.cubrid-pconnect.html) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubrid\_pconnect\_with\_url()](function.cubrid-pconnect-with-url.html) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubrid\_disconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
--   [cubrid\_close()](function.cubrid-close.html) - Закриває з'єднання з базою даних
+-   [cubridconnect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
+-   [cubridpconnect()](function.cubrid-pconnect.html) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubridpconnectwithurl()](function.cubrid-pconnect-with-url.html) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubriddisconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
+-   [cubridclose()](function.cubrid-close.html) - Закриває з'єднання з базою даних

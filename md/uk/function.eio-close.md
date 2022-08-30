@@ -1,8 +1,8 @@
 Закрити файл
 
--   [« eio\_chown](function.eio-chown.html)
+-   [« eiochown](function.eio-chown.html)
     
--   [eio\_custom »](function.eio-custom.html)
+-   [eiocustom »](function.eio-custom.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -65,4 +65,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_open()](function.eio-open.html) - Відкриває файл
+-   [eioopen()](function.eio-open.html) - Відкриває файл

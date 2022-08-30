@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Опис конструктора
     

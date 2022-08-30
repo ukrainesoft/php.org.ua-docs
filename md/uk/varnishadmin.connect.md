@@ -2,7 +2,7 @@
 
 -   [« VarnishAdmin::clearPanic](varnishadmin.clearpanic.html)
     
--   [VarnishAdmin::\_\_construct »](varnishadmin.construct.html)
+-   [VarnishAdmin::construct »](varnishadmin.construct.html)
     
 -   [PHP Manual](index.html)
     

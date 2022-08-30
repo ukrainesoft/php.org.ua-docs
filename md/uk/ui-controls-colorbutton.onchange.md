@@ -1,12 +1,12 @@
 Обробник зміни
 
--   [« UI\\Controls\\ColorButton::getColor](ui-controls-colorbutton.getcolor.html)
+-   [« UIControlsColorButton::getColor](ui-controls-colorbutton.getcolor.html)
     
--   [UI\\Controls\\ColorButton::setColor »](ui-controls-colorbutton.setcolor.html)
+-   [ОЙControlsColorButton::setColor »](ui-controls-colorbutton.setcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html)
+-   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
     
 -   Обробник зміни
     

@@ -1,12 +1,12 @@
 Перевіряє вхідні дані
 
--   [« Parle\\Parser::trace](parle-parser.trace.html)
+-   [« ParleParser::trace](parle-parser.trace.html)
     
--   [Parle\\RParser »](class.parle-rparser.html)
+-   [ParleRParser »](class.parle-rparser.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Перевіряє вхідні дані
     

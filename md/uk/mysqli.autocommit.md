@@ -1,8 +1,8 @@
 Вмикає або вимикає автоматичну фіксацію змін бази даних
 
--   [« mysqli::$affected\_rows](mysqli.affected-rows.html)
+-   [« mysqli::$affectedrows](mysqli.affected-rows.html)
     
--   [mysqli::begin\_transaction »](mysqli.begin-transaction.html)
+-   [mysqli::begintransaction »](mysqli.begin-transaction.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ mysqli_autocommit(mysqli $mysql, bool $enable): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `enable`
 
@@ -202,6 +202,6 @@ try {
 
 ### Дивіться також
 
--   [mysqli\_begin\_transaction()](mysqli.begin-transaction.html) - Стартує транзакцію
--   [mysqli\_commit()](mysqli.commit.html) - Фіксує поточну транзакцію
--   [mysqli\_rollback()](mysqli.rollback.html) - Відкат поточної транзакції
+-   [mysqlibegintransaction()](mysqli.begin-transaction.html) - Стартує транзакцію
+-   [mysqlicommit()](mysqli.commit.html) - Фіксує поточну транзакцію
+-   [mysqlirollback()](mysqli.rollback.html) - Відкат поточної транзакції

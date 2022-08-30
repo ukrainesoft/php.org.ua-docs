@@ -1,8 +1,8 @@
 Повертає останній номер помилки
 
--   [« fann\_get\_connection\_rate](function.fann-get-connection-rate.html)
+-   [« fanngetconnectionrate](function.fann-get-connection-rate.html)
     
--   [fann\_get\_errstr »](function.fann-get-errstr.html)
+-   [fanngeterrstr »](function.fann-get-errstr.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,5 +37,5 @@ fann_get_errno(resource $errdat): int
 
 ### Дивіться також
 
--   [fann\_reset\_errno()](function.fann-reset-errno.html) - скидає номер останньої помилки
--   [fann\_get\_errstr()](function.fann-get-errstr.html) - Повертає останній рядок помилки
+-   [fannreseterrno()](function.fann-reset-errno.html) - скидає номер останньої помилки
+-   [fanngeterrstr()](function.fann-get-errstr.html) - Повертає останній рядок помилки

@@ -1,12 +1,12 @@
 Псевдонім ftpclose
 
--   [« ftp\_pwd](function.ftp-pwd.html)
+-   [« ftppwd](function.ftp-pwd.html)
     
--   [ftp\_raw »](function.ftp-raw.html)
+-   [ftpraw »](function.ftp-raw.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Псевдонім ftpclose
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpquit - Псевдонім [ftp\_close()](function.ftp-close.html)
+ftpquit - Псевдонім [ftpclose()](function.ftp-close.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ftp\_close()](function.ftp-close.html)
+Ця функція є псевдонімом: [ftpclose()](function.ftp-close.html)

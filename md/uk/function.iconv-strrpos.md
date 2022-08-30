@@ -1,8 +1,8 @@
 Повертає позицію останнього входження підрядка
 
--   [« iconv\_strpos](function.iconv-strpos.html)
+-   [« iconvstrpos](function.iconv-strpos.html)
     
--   [iconv\_substr »](function.iconv-substr.html)
+-   [iconvsubstr »](function.iconv-substr.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 `encoding`
 
-Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internal\_encoding](iconv.configuration.html)
+Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internalencoding](iconv.configuration.html)
 
 Якщо `haystack` або `needle` не є рядками, вони будуть перетворені на рядок та застосовані як код символу.
 
@@ -51,7 +51,7 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
@@ -62,5 +62,5 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 ### Дивіться також
 
 -   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
--   [iconv\_strpos()](function.iconv-strpos.html) - Повертає позицію першого входження підрядка
--   [mb\_strrpos()](function.mb-strrpos.html) - Пошук позиції останнього входження одного рядка до іншого
+-   [iconvstrpos()](function.iconv-strpos.html) - Повертає позицію першого входження підрядка
+-   [мбstrrpos()](function.mb-strrpos.html) - Пошук позиції останнього входження одного рядка до іншого

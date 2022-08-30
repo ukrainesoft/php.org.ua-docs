@@ -1,12 +1,12 @@
 Встановлює з'єднання з сервером FTP
 
--   [« ftp\_close](function.ftp-close.html)
+-   [« ftpclose](function.ftp-close.html)
     
--   [ftp\_delete »](function.ftp-delete.html)
+-   [ftpdelete »](function.ftp-delete.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Встановлює з'єднання з сервером FTP
     
@@ -37,17 +37,17 @@ ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection
 
 `timeout`
 
-Цей аргумент вказує час очікування в секундах всіх наступних мережевих операцій. Якщо опущено, використовується значення за промовчанням - 90 секунд. Час очікування може бути змінено та отримано у будь-який момент за допомогою функцій [ftp\_set\_option()](function.ftp-set-option.html) і [ftp\_get\_option()](function.ftp-get-option.html) відповідно.
+Цей аргумент вказує час очікування в секундах всіх наступних мережевих операцій. Якщо опущено, використовується значення за промовчанням - 90 секунд. Час очікування може бути змінено та отримано у будь-який момент за допомогою функцій [ftpsetoption()](function.ftp-set-option.html) і [ftpgetoption()](function.ftp-get-option.html) відповідно.
 
 ### Значення, що повертаються
 
-Повертає [FTP\\Connection](class.ftp-connection.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [FTPConnection](class.ftp-connection.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                          |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -66,5 +66,5 @@ $ftp = ftp_connect($ftp_server) or die("Не удалось установ
 
 ### Дивіться також
 
--   [ftp\_close()](function.ftp-close.html) - Закриває з'єднання з FTP-сервером
--   [ftp\_ssl\_connect()](function.ftp-ssl-connect.html) - Встановлює з'єднання з FTP-сервером через SSL
+-   [ftpclose()](function.ftp-close.html) - Закриває з'єднання з FTP-сервером
+-   [ftpsslconnect()](function.ftp-ssl-connect.html) - Встановлює з'єднання з FTP-сервером через SSL

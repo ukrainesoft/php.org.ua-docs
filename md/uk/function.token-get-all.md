@@ -2,7 +2,7 @@
 
 -   [« Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
     
--   [token\_name »](function.token-name.html)
+-   [tokenname »](function.token-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ token_get_all(string $code, int $flags = 0): array
 
 Функція **tokengetall()** розбирає переданий рядок `code` у мовні лексеми PHP, використовуючи лексичний сканер Zend Engine.
 
-Список лексем дивіться у [Список меток (tokens) парсера](tokens.html) або використовуйте [token\_name()](function.token-name.html) для переведення значення лексеми в рядкову виставу.
+Список лексем дивіться у [Список меток (tokens) парсера](tokens.html) або використовуйте [tokenname()](function.token-name.html) для переведення значення лексеми в рядкову виставу.
 
 ### Список параметрів
 
@@ -133,4 +133,4 @@ T_LNUMBER
 ### Дивіться також
 
 -   [PhpToken::tokenize()](phptoken.tokenize.html) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
--   [token\_name()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми
+-   [tokenname()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми

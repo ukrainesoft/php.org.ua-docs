@@ -1,8 +1,8 @@
 Свічкова модель "Перевернутий молоток"
 
--   [« trader\_cdlinneck](function.trader-cdlinneck.html)
+-   [« tradercdlinneck](function.trader-cdlinneck.html)
     
--   [trader\_cdlkicking »](function.trader-cdlkicking.html)
+-   [tradercdlkicking »](function.trader-cdlkicking.html)
     
 -   [PHP Manual](index.html)
     

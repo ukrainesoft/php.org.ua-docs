@@ -1,8 +1,8 @@
 Клас FANNConnection
 
--   [« fann\_train](function.fann-train.html)
+-   [« fanntrain](function.fann-train.html)
     
--   [FANNConnection::\_\_construct »](fannconnection.construct.html)
+-   [FANNConnection::construct »](fannconnection.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-**FANNConnection** використовується для зв'язку нейронної мережі. Об'єкти цього класу використовуються у функціях [fann\_get\_connection\_array()](function.fann-get-connection-array.html) і [fann\_set\_weight\_array()](function.fann-set-weight-array.html)
+**FANNConnection** використовується для зв'язку нейронної мережі. Об'єкти цього класу використовуються у функціях [fanngetconnectionarray()](function.fann-get-connection-array.html) і [fannsetweightarray()](function.fann-set-weight-array.html)
 
 ## Огляд класів
 
@@ -72,7 +72,7 @@ weight
 
 ## Зміст
 
--   [FANNConnection::\_\_construct](fannconnection.construct.html) - Конструктор зв'язку
+-   [FANNConnection::construct](fannconnection.construct.html) - Конструктор зв'язку
 -   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.html) — Повертає позицію стартового нейрона
 -   [FANNConnection::getToNeuron](fannconnection.gettoneuron.html) — Повертає позицію кінцевого нейрона
 -   [FANNConnection::getWeight](fannconnection.getweight.html) — Повертає вагу зв'язку

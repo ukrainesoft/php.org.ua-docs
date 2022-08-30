@@ -1,12 +1,12 @@
 Комбінований лінійний конгруентний генератор
 
--   [« is\_nan](function.is-nan.html)
+-   [« isnan](function.is-nan.html)
     
 -   [log10 »](function.log10.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Комбінований лінійний конгруентний генератор
     
@@ -27,7 +27,7 @@ lcg_value(): float
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [random\_int()](function.random-int.html) [random\_bytes()](function.random-bytes.html) або [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
 
 ### Список параметрів
 
@@ -40,4 +40,4 @@ lcg_value(): float
 ### Дивіться також
 
 -   [rand()](function.rand.html) - Генерує випадкове число
--   [mt\_rand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [мтrand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна

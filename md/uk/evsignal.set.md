@@ -33,7 +33,7 @@ public
 
 `signum`
 
-Номер сигналу. Як описано в [EvSignal::\_\_construct()](evsignal.construct.html)
+Номер сигналу. Як описано в [EvSignal::construct()](evsignal.construct.html)
 
 ### Значення, що повертаються
 

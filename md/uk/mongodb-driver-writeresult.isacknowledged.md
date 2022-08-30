@@ -1,12 +1,12 @@
 Повертає, чи був запис підтверджений
 
--   [« MongoDB\\Driver\\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html)
+-   [« MongoDBDriverWriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html)
     
--   [MongoDB\\BSON »](book.bson.html)
+-   [MongoDBBSON »](book.bson.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
     
 -   Повертає, чи був запис підтверджений
     
@@ -23,7 +23,7 @@ MongoDBDriverWriteResult::isAcknowledged — Повертає, чи був за�
 final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
 ```
 
-Якщо запис підтверджено, інші поля будуть доступні в об'єкті [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+Якщо запис підтверджено, інші поля будуть доступні в об'єкті [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -87,5 +87,5 @@ bool(false)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 -   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

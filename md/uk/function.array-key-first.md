@@ -1,12 +1,12 @@
 Отримує перший ключ масиву
 
--   [« array\_key\_exists](function.array-key-exists.html)
+-   [« arraykeyexists](function.array-key-exists.html)
     
--   [array\_key\_last »](function.array-key-last.html)
+-   [arraykeylast »](function.array-key-last.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Отримує перший ключ масиву
     
@@ -59,7 +59,7 @@ string(1) "a"
 
 **Підказка**
 
-Є кілька способів надати функціональність для версій PHP 7.3.0. Можно використовувати [array\_keys()](function.array-keys.html)Але це може бути досить неефективним. Також можна використовувати [reset()](function.reset.html) і [key()](function.key.html)але це може змінити внутрішній покажчик масиву. Ефективне рішення, яке не змінює внутрішній покажчик масиву, записаний як поліфіл:
+Є кілька способів надати функціональність для версій PHP 7.3.0. Можно використовувати [arraykeys()](function.array-keys.html)Але це може бути досить неефективним. Також можна використовувати [reset()](function.reset.html) і [key()](function.key.html)але це може змінити внутрішній покажчик масиву. Ефективне рішення, яке не змінює внутрішній покажчик масиву, записаний як поліфіл:
 
 ```php
 <?php
@@ -76,5 +76,5 @@ if (!function_exists('array_key_first')) {
 
 ### Дивіться також
 
--   [array\_key\_last()](function.array-key-last.html) - Отримує останній ключ масиву
+-   [arraykeylast()](function.array-key-last.html) - Отримує останній ключ масиву
 -   [reset()](function.reset.html) - Встановлює внутрішній покажчик масиву на його перший елемент

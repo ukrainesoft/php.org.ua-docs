@@ -1,8 +1,8 @@
 Створює нову колекцію пар з елементами, ключів яких немає в іншій колекції пар
 
--   [« Ds\\Map::count](ds-map.count.html)
+-   [« DsMap::count](ds-map.count.html)
     
--   [Ds\\Map::filter »](ds-map.filter.html)
+-   [ДсMap::filter »](ds-map.filter.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public Ds\Map::diff(Ds\Map $map): Ds\Map
 
 ### Дивись також
 
--   [» Разность массивов](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Wikipedia
+-   [» Різниця масивів](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Wikipedia
 
 ### Приклади
 

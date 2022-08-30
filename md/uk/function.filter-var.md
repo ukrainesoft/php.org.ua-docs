@@ -1,12 +1,12 @@
 Фільтрує змінну за допомогою певного фільтра
 
--   [« filter\_var\_array](function.filter-var-array.html)
+-   [« filtervararray](function.filter-var-array.html)
     
 -   [Управление функциями »](book.funchand.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции фильтрации данных](ref.filter.html)
+-   [Функції фільтрації даних](ref.filter.html)
     
 -   Фільтрує змінну за допомогою певного фільтра
     
@@ -31,7 +31,7 @@ filter_var(mixed $value, int $filter = FILTER_DEFAULT, array|int $options = 0): 
 
 `filter`
 
-Ідентифікатор (ID) фільтра. На сторінці [Типы фильтров](filter.filters.html) наведено список доступних фільтрів.
+Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.html) наведено список доступних фільтрів.
 
 Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.html). Це означає, що за замовчуванням не застосовується фільтр.
 
@@ -79,7 +79,7 @@ $var = filter_var('Doe, Jane Sue', FILTER_CALLBACK, array('options' => '
 
 ### Значення, що повертаються
 
-Повертає відфільтровані дані або **`false`**якщо фільтрація завершилася невдачею.
+Повертає відфільтровані дані або \*\*`false`\*\*якщо фільтрація завершилася невдачею.
 
 ### Приклади
 
@@ -101,7 +101,7 @@ bool(false)
 
 ### Дивіться також
 
--   [filter\_var\_array()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
--   [filter\_input()](function.filter-input.html) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
--   [filter\_input\_array()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
--   [Типы фильтров](filter.filters.html)
+-   [filtervararray()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
+-   [filterinput()](function.filter-input.html) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
+-   [filterinputarray()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
+-   [Типи фільтрів](filter.filters.html)

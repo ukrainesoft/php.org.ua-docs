@@ -1,12 +1,12 @@
 Перевіряє наявність літерно-цифрових символів
 
--   [« Функции Ctype](ref.ctype.html)
+-   [« Функції Ctype](ref.ctype.html)
     
--   [ctype\_alpha »](function.ctype-alpha.html)
+-   [ctypealpha »](function.ctype-alpha.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Ctype](ref.ctype.html)
+-   [Опції Ctype](ref.ctype.html)
     
 -   Перевіряє наявність літерно-цифрових символів
     
@@ -69,6 +69,6 @@ foreach ($strings as $testcase) {
 
 ### Дивіться також
 
--   [ctype\_alpha()](function.ctype-alpha.html) - Перевіряє наявність літерних символів
--   [ctype\_digit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
+-   [ctypealpha()](function.ctype-alpha.html) - Перевіряє наявність літерних символів
+-   [ctypedigit()](function.ctype-digit.html) - Перевіряє наявність цифрових символів у рядку
 -   [setlocale()](function.setlocale.html) - Встановлює налаштування локалі

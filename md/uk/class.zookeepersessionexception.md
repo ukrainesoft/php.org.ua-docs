@@ -2,7 +2,7 @@
 
 -   [« ZookeeperOperationTimeoutException](class.zookeeperoperationtimeoutexception.html)
     
--   [Модули для работы с поисковыми системами »](refs.search.html)
+-   [Модулі для роботи з пошуковими системами »](refs.search.html)
     
 -   [PHP Manual](index.html)
     

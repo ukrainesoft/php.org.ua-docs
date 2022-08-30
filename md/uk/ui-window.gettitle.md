@@ -1,12 +1,12 @@
 Отримати заголовок
 
--   [« UI\\Window::getSize](ui-window.getsize.html)
+-   [« UIWindow::getSize](ui-window.getsize.html)
     
--   [UI\\Window::hasBorders »](ui-window.hasborders.html)
+-   [ОЙWindow::hasBorders »](ui-window.hasborders.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Отримати заголовок
     

@@ -1,8 +1,8 @@
 Повертає SOAP-заголовки останньої відповіді
 
--   [« SoapClient::\_\_getLastResponse](soapclient.getlastresponse.html)
+-   [« SoapClient::getLastResponse](soapclient.getlastresponse.html)
     
--   [SoapClient::\_\_getTypes »](soapclient.gettypes.html)
+-   [SoapClient::getTypes »](soapclient.gettypes.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,6 +51,6 @@ echo "ЗАГОЛОВКИ ОТВЕТА:\n" . $client->__getLastResponseHeader
 
 ### Дивіться також
 
--   [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.html) - Повертає SOAP-заголовки останнього запиту
--   [SoapClient::\_\_getLastRequest()](soapclient.getlastrequest.html) - Повертає останній SOAP-запит
--   [SoapClient::\_\_getLastResponse()](soapclient.getlastresponse.html) - Повертає останню SOAP-відповідь
+-   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.html) - Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::getLastRequest()](soapclient.getlastrequest.html) - Повертає останній SOAP-запит
+-   [SoapClient::getLastResponse()](soapclient.getlastresponse.html) - Повертає останню SOAP-відповідь

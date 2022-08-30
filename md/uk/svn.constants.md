@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](svn.resources.html)
     
--   [Функции SVN »](ref.svn.html)
+-   [Функції SVN »](ref.svn.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,7 +19,7 @@
 
 Магічне число (-1), що вказує на останню ревізію
 
-**Константи, що використовуються з [svn\_auth\_set\_parameter()](function.svn-auth-set-parameter.html)**
+**Константи, що використовуються з [svnauthsetparameter()](function.svn-auth-set-parameter.html)**
 
 **`SVN_AUTH_PARAM_DEFAULT_USERNAME`** (string)
 

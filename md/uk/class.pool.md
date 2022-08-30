@@ -90,7 +90,7 @@ last
 ## Зміст
 
 -   [Pool::collect](pool.collect.html) — Збирає посилання на виконані завдання
--   [Pool::\_\_construct](pool.construct.html) - Створює новий пул воркерів
+-   [Pool::construct](pool.construct.html) - Створює новий пул воркерів
 -   [Pool::resize](pool.resize.html) - Змінює розмір пулу
 -   [Pool::shutdown](pool.shutdown.html) - Вимикає всі воркери
 -   [Pool::submit](pool.submit.html) - Відправляє об'єкт на виконання

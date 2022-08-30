@@ -37,13 +37,13 @@ rar_list(RarArchive $rarfile): array|false
 
 > **Зауваження**
 > 
-> Якщо архів має елементи з однаковим ім'ям, цей метод спільно з циклом `foreach` по [RarArchive](class.rararchive.html) і доступом до нього як масиву з числовими індексами є єдиними способами отримати доступ до цих елементів (тобто . [RarArchive::getEntry()](rararchive.getentry.html) і [`rar://` обработчик (wrapper)](wrappers.rar.html) не допоможуть).
+> Якщо архів має елементи з однаковим ім'ям, цей метод спільно з циклом `foreach` по [RarArchive](class.rararchive.html) і доступом до нього як масиву з числовими індексами є єдиними способами отримати доступ до цих елементів (тобто . [RarArchive::getEntry()](rararchive.getentry.html) і [`rar://`обработчик (wrapper)](wrappers.rar.html) не допоможуть).
 
 ### Список параметрів
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html) відкритий за допомогою [rar\_open()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.html) відкритий за допомогою [raropen()](rararchive.open.html)
 
 ### Значення, що повертаються
 
@@ -112,4 +112,4 @@ rar_close($rar_arch);
 ### Дивіться також
 
 -   [RarArchive::getEntry()](rararchive.getentry.html) - Повертає об'єкт елемента з архіву RAR
--   [`rar://` обработчик(wrapper)](wrappers.rar.html)
+-   [`rar://`обработчик(wrapper)](wrappers.rar.html)

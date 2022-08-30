@@ -1,8 +1,8 @@
 Усічення потоку
 
--   [« streamWrapper::stream\_tell](streamwrapper.stream-tell.html)
+-   [« streamWrapper::streamtell](streamwrapper.stream-tell.html)
     
--   [streamWrapper::stream\_write »](streamwrapper.stream-write.html)
+-   [streamWrapper::streamwrite »](streamwrapper.stream-write.html)
     
 -   [PHP Manual](index.html)
     

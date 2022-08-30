@@ -1,8 +1,8 @@
 Встановлює коефіцієнт збільшення під час навчання Rprop
 
--   [« fann\_set\_rprop\_delta\_zero](function.fann-set-rprop-delta-zero.html)
+-   [« fannsetrpropdeltazero](function.fann-set-rprop-delta-zero.html)
     
--   [fann\_set\_sarprop\_step\_error\_shift »](function.fann-set-sarprop-step-error-shift.html)
+-   [fannsetsarpropsteperrorshift »](function.fann-set-sarprop-step-error-shift.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ fann_set_rprop_increase_factor(resource $ann, float $rprop_increase_factor): boo
 
 ### Дивіться також
 
--   [fann\_get\_rprop\_increase\_factor()](function.fann-get-rprop-increase-factor.html) - Повертає коефіцієнт збільшення, який використовується під час навчання RPROP
+-   [fanngetrpropincreasefactor()](function.fann-get-rprop-increase-factor.html) - Повертає коефіцієнт збільшення, який використовується під час навчання RPROP

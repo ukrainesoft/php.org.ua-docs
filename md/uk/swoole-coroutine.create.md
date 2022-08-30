@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine::cli\_wait](swoole-coroutine.cli-wait.html)
+-   [« SwooleCoroutine::cliwait](swoole-coroutine.cli-wait.html)
     
--   [Swoole\\Coroutine\\Client::close »](swoole-coroutine-client.close.html)
+-   [SwooleCoroutineClient::close »](swoole-coroutine-client.close.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

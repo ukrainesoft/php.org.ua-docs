@@ -1,12 +1,12 @@
 Встановлює ліміт результату
 
--   [« mysql\_xdevapi\\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html)
+-   [« mysqlxdevapiCrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html)
     
--   [mysql\_xdevapi\\CrudOperationSkippable »](class.mysql-xdevapi-crudoperationskippable.html)
+-   [mysqlxdevapiCrudOperationSkippable »](class.mysql-xdevapi-crudoperationskippable.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html)
+-   [mysqlxdevapiCrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html)
     
 -   Встановлює ліміт результату
     

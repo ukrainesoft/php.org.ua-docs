@@ -1,12 +1,12 @@
 Додати пункт меню "Вихід" (Quit)
 
--   [« UI\\Menu::appendPreferences](ui-menu.appendpreferences.html)
+-   [« UIMenu::appendPreferences](ui-menu.appendpreferences.html)
     
--   [UI\\Menu::appendSeparator »](ui-menu.appendseparator.html)
+-   [ОЙMenu::appendSeparator »](ui-menu.appendseparator.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Menu](class.ui-menu.html)
+-   [ОЙMenu](class.ui-menu.html)
     
 -   Додати пункт меню "Вихід" (Quit)
     

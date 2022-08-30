@@ -1,8 +1,8 @@
 Повертає шлях словника для заданого бекенду
 
--   [« enchant\_broker\_free](function.enchant-broker-free.html)
+-   [« enchantbrokerfree](function.enchant-broker-free.html)
     
--   [enchant\_broker\_get\_error »](function.enchant-broker-get-error.html)
+-   [enchantbrokergeterror »](function.enchant-broker-get-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 `type`
 
@@ -57,4 +57,4 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 ### Дивіться також
 
--   [enchant\_broker\_set\_dict\_path()](function.enchant-broker-set-dict-path.html) - Встановити шлях для заданого бекенду
+-   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html) - Встановити шлях для заданого бекенду

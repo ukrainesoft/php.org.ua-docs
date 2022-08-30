@@ -1,6 +1,6 @@
 Створює зупинений об'єкт спостерігач EvEmbed
 
--   [« EvEmbed::\_\_construct](evembed.construct.html)
+-   [« EvEmbed::construct](evembed.construct.html)
     
 -   [EvEmbed::set »](evembed.set.html)
     
@@ -38,17 +38,17 @@ final
     = ?): void
 ```
 
-Те саме, що й [EvEmbed::\_\_construct()](evembed.construct.html) , але спостерігача не буде автоматично запущено.
+Те саме, що й [EvEmbed::construct()](evembed.construct.html) , але спостерігача не буде автоматично запущено.
 
 ### Список параметрів
 
 `other`
 
-Те саме, що і для [EvEmbed::\_\_construct()](evembed.construct.html)
+Те саме, що і для [EvEmbed::construct()](evembed.construct.html)
 
 `callback`
 
-Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -64,5 +64,5 @@ final
 
 ### Дивіться також
 
--   [EvEmbed::\_\_construct()](evembed.construct.html) - Конструктор об'єкту EvEmbed
+-   [EvEmbed::construct()](evembed.construct.html) - Конструктор об'єкту EvEmbed
 -   [Ev::embeddableBackends()](ev.embeddablebackends.html) - Повертає набір бекендів, які можна вбудувати в інші цикли подій

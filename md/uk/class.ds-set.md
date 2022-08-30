@@ -1,12 +1,12 @@
 Клас Set
 
--   [« Ds\\Pair::toArray](ds-pair.toarray.html)
+-   [« DsPair::toArray](ds-pair.toarray.html)
     
--   [Ds\\Set::add »](ds-set.add.html)
+-   [ДсSet::add »](ds-set.add.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Клас Set
     
@@ -97,32 +97,32 @@ public xor(Ds\Set $set): Ds\Set
 
 ## Зміст
 
--   [Ds\\Set::add](ds-set.add.html) — Додає значення до набору
--   [Ds\\Set::allocate](ds-set.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [Ds\\Set::capacity](ds-set.capacity.html) — Повертає поточну місткість
--   [Ds\\Set::clear](ds-set.clear.html) — Видаляє всі значення з колекції
--   [Ds\\Set::\_\_construct](ds-set.construct.html) - Створює новий екземпляр класу
--   [Ds\\Set::contains](ds-set.contains.html) — Перевіряє, чи міститься в колекції задані значення
--   [Ds\\Set::copy](ds-set.copy.html) — Повертає поверхневу копію колекції
--   [Ds\\Set::count](ds-set.count.html) — Повертає кількість елементів колекції
--   [Ds\\Set::diff](ds-set.diff.html) — Створює новий набір із елементами, яких немає в іншому наборі
--   [Ds\\Set::filter](ds-set.filter.html) — Створює новий список із елементів, вибраних за допомогою заданої callback-функції
--   [Ds\\Set::first](ds-set.first.html) — Повертає перший елемент колекції
--   [Ds\\Set::get](ds-set.get.html) — Повертає значення за індексом
--   [Ds\\Set::intersect](ds-set.intersect.html) — Створює новий набір, створений перетином з іншим набором
--   [Ds\\Set::isEmpty](ds-set.isempty.html) — Перевіряє, чи колекція порожня.
--   [Ds\\Set::join](ds-set.join.html) — Склеює всі значення в рядок
--   [Ds\\Set::jsonSerialize](ds-set.jsonserialize.html) — Повертає колекцію в JSON-представництві
--   [Ds\\Set::last](ds-set.last.html) — Повертає останнє значення колекції
--   [Ds\\Set::merge](ds-set.merge.html) — Повертає результат додавання всіх заданих значень до набору
--   [Ds\\Set::reduce](ds-set.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
--   [Ds\\Set::remove](ds-set.remove.html) — Видаляє всі задані значення набору
--   [Ds\\Set::reverse](ds-set.reverse.html) — Перевертає поточну колекцію
--   [Ds\\Set::reversed](ds-set.reversed.html) — Повертає перегорнуту копію колекції
--   [Ds\\Set::slice](ds-set.slice.html) — Повертає піднабір із заданого діапазону
--   [Ds\\Set::sort](ds-set.sort.html) — Сортує колекцію
--   [Ds\\Set::sorted](ds-set.sorted.html) — Повертає копію колекції, відсортовану за значенням.
--   [Ds\\Set::sum](ds-set.sum.html) — Повертає суму всіх значень колекції
--   [Ds\\Set::toArray](ds-set.toarray.html) — Перетворює колекцію на масив (array)
--   [Ds\\Set::union](ds-set.union.html) — Створює новий набір з елементів поточного та переданого наборів
--   [Ds\\Set::xor](ds-set.xor.html) — Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно
+-   [ДсSet::add](ds-set.add.html) — Додає значення до набору
+-   [ДсSet::allocate](ds-set.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [ДсSet::capacity](ds-set.capacity.html) — Повертає поточну місткість
+-   [ДсSet::clear](ds-set.clear.html) — Видаляє всі значення з колекції
+-   [ДсSet::construct](ds-set.construct.html) - Створює новий екземпляр класу
+-   [ДсSet::contains](ds-set.contains.html) — Перевіряє, чи міститься в колекції задані значення
+-   [ДсSet::copy](ds-set.copy.html) — Повертає поверхневу копію колекції
+-   [ДсSet::count](ds-set.count.html) — Повертає кількість елементів колекції
+-   [ДсSet::diff](ds-set.diff.html) — Створює новий набір із елементами, яких немає в іншому наборі
+-   [ДсSet::filter](ds-set.filter.html) — Створює новий список із елементів, вибраних за допомогою заданої callback-функції
+-   [ДсSet::first](ds-set.first.html) — Повертає перший елемент колекції
+-   [ДсSet::get](ds-set.get.html) — Повертає значення за індексом
+-   [ДсSet::intersect](ds-set.intersect.html) — Створює новий набір, створений перетином з іншим набором
+-   [ДсSet::isEmpty](ds-set.isempty.html) — Перевіряє, чи колекція порожня.
+-   [ДсSet::join](ds-set.join.html) — Склеює всі значення в рядок
+-   [ДсSet::jsonSerialize](ds-set.jsonserialize.html) — Повертає колекцію в JSON-представництві
+-   [ДсSet::last](ds-set.last.html) — Повертає останнє значення колекції
+-   [ДсSet::merge](ds-set.merge.html) — Повертає результат додавання всіх заданих значень до набору
+-   [ДсSet::reduce](ds-set.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
+-   [ДсSet::remove](ds-set.remove.html) — Видаляє всі задані значення набору
+-   [ДсSet::reverse](ds-set.reverse.html) — Перевертає поточну колекцію
+-   [ДсSet::reversed](ds-set.reversed.html) — Повертає перегорнуту копію колекції
+-   [ДсSet::slice](ds-set.slice.html) — Повертає піднабір із заданого діапазону
+-   [ДсSet::sort](ds-set.sort.html) — Сортує колекцію
+-   [ДсSet::sorted](ds-set.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+-   [ДсSet::sum](ds-set.sum.html) — Повертає суму всіх значень колекції
+-   [ДсSet::toArray](ds-set.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсSet::union](ds-set.union.html) — Створює новий набір з елементів поточного та переданого наборів
+-   [ДсSet::xor](ds-set.xor.html) — Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно

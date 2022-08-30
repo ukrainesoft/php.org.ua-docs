@@ -1,12 +1,12 @@
 Змінити директорію програми
 
--   [« Yaf\_Application::run](yaf-application.run.html)
+-   [« YafApplication::run](yaf-application.run.html)
     
--   [Yaf\_Bootstrap\_Abstract »](class.yaf-bootstrap-abstract.html)
+-   [YafBootstrapAbstract »](class.yaf-bootstrap-abstract.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Змінити директорію програми
     

@@ -226,7 +226,7 @@ SNMPагент виявив можливе закольцювання через
 ## Зміст
 
 -   [SNMP::close](snmp.close.html) — Закриває сесію SNMP
--   [SNMP::\_\_construct](snmp.construct.html) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+-   [SNMP::construct](snmp.construct.html) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
 -   [SNMP::get](snmp.get.html) — Отримує об'єкт SNMP
 -   [SNMP::getErrno](snmp.geterrno.html) — Отримує код останньої помилки
 -   [SNMP::getError](snmp.geterror.html) — Отримує останнє повідомлення про помилку

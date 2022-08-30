@@ -1,8 +1,8 @@
 Перевертає поточний вектор
 
--   [« Ds\\Vector::remove](ds-vector.remove.html)
+-   [« DsVector::remove](ds-vector.remove.html)
     
--   [Ds\\Vector::reversed »](ds-vector.reversed.html)
+-   [ДсVector::reversed »](ds-vector.reversed.html)
     
 -   [PHP Manual](index.html)
     

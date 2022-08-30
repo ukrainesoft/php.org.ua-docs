@@ -1,12 +1,12 @@
 Отримати сумарний час всіх інтервалів
 
--   [« HRTime\\StopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html)
+-   [« HRTimeStopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html)
     
--   [HRTime\\StopWatch::getLastElapsedTicks »](hrtime-stopwatch.getlastelapsedticks.html)
+-   [HRTimeStopWatch::getLastElapsedTicks »](hrtime-stopwatch.getlastelapsedticks.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\StopWatch](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     
 -   Отримати сумарний час всіх інтервалів
     

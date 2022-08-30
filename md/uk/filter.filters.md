@@ -16,6 +16,6 @@
 ## Зміст
 
 -   [Фильтры валидации данных](filter.filters.validate.html)
--   [Очищающие фильтры](filter.filters.sanitize.html)
+-   [Очищаючі фільтри](filter.filters.sanitize.html)
 -   [Остальные фильтры](filter.filters.misc.html)
--   [Флаги, используемые в фильтрах](filter.filters.flags.html)
+-   [Прапори, що використовуються у фільтрах](filter.filters.flags.html)

@@ -2,7 +2,7 @@
 
 -   [« Примеры](pcntl.examples.html)
     
--   [Функции PCNTL »](ref.pcntl.html)
+-   [Функції PCNTL »](ref.pcntl.html)
     
 -   [PHP Manual](index.html)
     

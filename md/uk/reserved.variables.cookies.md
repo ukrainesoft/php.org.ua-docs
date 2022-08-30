@@ -1,8 +1,8 @@
 HTTP Cookies
 
--   [« $\_ENV](reserved.variables.environment.html)
+-   [ENV](reserved.variables.environment.html)
     
--   [$php\_errormsg »](reserved.variables.phperrormsg.html)
+-   [$phperrormsg »](reserved.variables.phperrormsg.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,4 +49,4 @@ echo 'Привет, ' . htmlspecialchars($_COOKIE["name"]) . '!';
 
 -   [setcookie()](function.setcookie.html) - Надсилає cookie
 -   [Обработка внешних переменных](language.variables.external.html)
--   [Фильтрация данных](book.filter.html)
+-   [Фільтрування даних](book.filter.html)

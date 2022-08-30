@@ -23,7 +23,7 @@ DateTimeImmutable::setstate - Оброблювач setstate
 public static DateTimeImmutable::__set_state(array $array): DateTimeImmutable
 ```
 
-Обробник [\_\_set\_state()](language.oop5.magic.html#object.set-state)
+Обробник [setstate()](language.oop5.magic.html#object.set-state)
 
 ### Список параметрів
 

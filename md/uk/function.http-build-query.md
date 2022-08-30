@@ -1,12 +1,12 @@
 Генерує URL-кодований рядок запиту
 
--   [« get\_meta\_tags](function.get-meta-tags.html)
+-   [« getmetatags](function.get-meta-tags.html)
     
--   [parse\_url »](function.parse-url.html)
+-   [parseurl »](function.parse-url.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   Генерує URL-кодований рядок запиту
     
@@ -43,7 +43,7 @@ http_build_query(    array|object $data,    string $numeric_prefix = "",
 
 `arg_separator`
 
-[arg\_separator.output](ini.core.html#ini.arg-separator.output) використовується як роздільник аргументів, але може бути перевизначений шляхом вказівки цього параметра.
+[argseparator.output](ini.core.html#ini.arg-separator.output) використовується як роздільник аргументів, але може бути перевизначений шляхом вказівки цього параметра.
 
 `encoding_type`
 
@@ -178,7 +178,7 @@ pub=publicParent&pub_bar%5Bpub%5D=publicChild
 
 ### Дивіться також
 
--   [parse\_str()](function.parse-str.html) - Розбирає рядок у змінні
--   [parse\_url()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [parsestr()](function.parse-str.html) - Розбирає рядок у змінні
+-   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
 -   [urlencode()](function.urlencode.html) - URL-кодування рядка
--   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву

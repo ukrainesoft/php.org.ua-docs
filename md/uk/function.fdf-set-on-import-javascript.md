@@ -1,8 +1,8 @@
 Додає JavaScript, який буде виконуватися, коли Acrobat відкриває FDF
 
--   [« fdf\_set\_javascript\_action](function.fdf-set-javascript-action.html)
+-   [« fdfsetjavascriptaction](function.fdf-set-javascript-action.html)
     
--   [fdf\_set\_opt »](function.fdf-set-opt.html)
+-   [fdfsetopt »](function.fdf-set-opt.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,5 +29,5 @@ fdf_set_on_import_javascript(resource $fdf_document, string $script, bool $befor
 
 ### Дивіться також
 
--   [fdf\_add\_doc\_javascript()](function.fdf-add-doc-javascript.html) - Додає код javascript у документ FDF
--   [fdf\_set\_javascript\_action()](function.fdf-set-javascript-action.html) - Встановлює дію JavaScript для поля
+-   [fdfadddocjavascript()](function.fdf-add-doc-javascript.html) - Додає код javascript у документ FDF
+-   [fdfsetjavascriptaction()](function.fdf-set-javascript-action.html) - Встановлює дію JavaScript для поля

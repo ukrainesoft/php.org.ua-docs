@@ -1,12 +1,12 @@
 Починає нову сторінку
 
--   [« ps\_arcn](function.ps-arcn.html)
+-   [«psarcn](function.ps-arcn.html)
     
--   [ps\_begin\_pattern »](function.ps-begin-pattern.html)
+-   [псbeginpattern »](function.ps-begin-pattern.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Починає нову сторінку
     
@@ -29,17 +29,17 @@ ps_begin_page(resource $psdoc, float $width, float $height): bool
 
 Кожна сторінка інкапсулюється у режим збереження/відновлення. Це означає, що більшість налаштувань, зроблених на одній сторінці, не буде збережено на наступній сторінці.
 
-Якщо до першого виклику **псbeginpage()** не було виклику [ps\_findfont()](function.ps-findfont.html), то буде виведено заголовок документа PostScript, а розмір рамки, що обмежує, буде встановлений на першу сторінку. Нижній лівий кут обмежувальної рамки встановлено (0, 0). Якщо [ps\_findfont()](function.ps-findfont.html) була викликана раніше, отже, заголовок вже було виведено і документ не матиме коректної обмежувальної рамки. Щоб запобігти цьому, слід викликати [ps\_set\_info()](function.ps-set-info.html), щоб встановити інформаційне поле `BoundingBox` і, можливо, `Orientation` перед будь-яким викликом [ps\_findfont()](function.ps-findfont.html) або **псbeginpage()**
+Якщо до першого виклику **псbeginpage()** не було виклику [псfindfont()](function.ps-findfont.html), то буде виведено заголовок документа PostScript, а розмір рамки, що обмежує, буде встановлений на першу сторінку. Нижній лівий кут обмежувальної рамки встановлено (0, 0). Якщо [псfindfont()](function.ps-findfont.html) була викликана раніше, отже, заголовок вже було виведено і документ не матиме коректної обмежувальної рамки. Щоб запобігти цьому, слід викликати [псsetinfo()](function.ps-set-info.html), щоб встановити інформаційне поле `BoundingBox` і, можливо, `Orientation` перед будь-яким викликом [псfindfont()](function.ps-findfont.html) або **псbeginpage()**
 
 > **Зауваження**
 > 
-> До версії 0.2.6 pslib функція завжди перезаписуватиме BoundingBox і Orientation, якщо вони були встановлені раніше за допомогою [ps\_set\_info()](function.ps-set-info.html) і [ps\_findfont()](function.ps-findfont.html) раніше не викликалася.
+> До версії 0.2.6 pslib функція завжди перезаписуватиме BoundingBox і Orientation, якщо вони були встановлені раніше за допомогою [псsetinfo()](function.ps-set-info.html) і [псfindfont()](function.ps-findfont.html) раніше не викликалася.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `width`
 
@@ -55,6 +55,6 @@ ps_begin_page(resource $psdoc, float $width, float $height): bool
 
 ### Дивіться також
 
--   [ps\_end\_page()](function.ps-end-page.html) - Завершує сторінку
--   [ps\_findfont()](function.ps-findfont.html) - Завантажує шрифт
--   [ps\_set\_info()](function.ps-set-info.html) - встановлює інформаційні поля документа
+-   [псendpage()](function.ps-end-page.html) - Завершує сторінку
+-   [псfindfont()](function.ps-findfont.html) - Завантажує шрифт
+-   [псsetinfo()](function.ps-set-info.html) - встановлює інформаційні поля документа

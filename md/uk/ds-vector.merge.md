@@ -1,8 +1,8 @@
 Повертає результат додавання всіх заданих значень вектор
 
--   [« Ds\\Vector::map](ds-vector.map.html)
+-   [« DsVector::map](ds-vector.map.html)
     
--   [Ds\\Vector::pop »](ds-vector.pop.html)
+-   [ДсVector::pop »](ds-vector.pop.html)
     
 -   [PHP Manual](index.html)
     

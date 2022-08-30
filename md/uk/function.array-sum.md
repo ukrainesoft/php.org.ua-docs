@@ -1,12 +1,12 @@
 Обчислює суму значень масиву
 
--   [« array\_splice](function.array-splice.html)
+-   [« arraysplice](function.array-splice.html)
     
--   [array\_udiff\_assoc »](function.array-udiff-assoc.html)
+-   [arrayudiffassoc »](function.array-udiff-assoc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Обчислює суму значень масиву
     

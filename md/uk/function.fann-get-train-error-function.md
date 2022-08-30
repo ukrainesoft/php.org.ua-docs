@@ -1,8 +1,8 @@
 Повертає функцію обробки помилок, що використовується під час навчання
 
--   [« fann\_get\_total\_neurons](function.fann-get-total-neurons.html)
+-   [« fanngettotalneurons](function.fann-get-total-neurons.html)
     
--   [fann\_get\_train\_stop\_function »](function.fann-get-train-stop-function.html)
+-   [fanngettrainstopfunction »](function.fann-get-train-stop-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ fann_get_train_error_function(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_set\_train\_error\_function()](function.fann-set-train-error-function.html) - Встановлює функцію помилки, що використовується під час тренування
+-   [fannsettrainerrorfunction()](function.fann-set-train-error-function.html) - Встановлює функцію помилки, що використовується під час тренування

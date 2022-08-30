@@ -23,7 +23,7 @@ public **APCUIterator::construct**
 array|string|null `$search` **`null`**  
 int `$format` = APCITERALL,  
 int `$chunk_size`  
-int `$list` = APCLISTACTIVE  
+int `$list` = APCLISTACTIVE
 
 Створює об'єкт [APCUIterator](class.apcuiterator.html)
 
@@ -35,7 +35,7 @@ int `$list` = APCLISTACTIVE
 
 `format`
 
-Формат, заданий однією з констант [APC\_ITER\_\*](apcu.constants.html)
+Формат, заданий однією з констант [APCITER](apcu.constants.html)
 
 `chunk_size`
 
@@ -60,5 +60,5 @@ foreach (new APCUIterator('/^counter\./') as $counter) {
 
 ### Дивіться також
 
--   [apcu\_exists()](function.apcu-exists.html) - Перевіряє, чи існують записи
--   [apcu\_cache\_info()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcuexists()](function.apcu-exists.html) - Перевіряє, чи існують записи
+-   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu

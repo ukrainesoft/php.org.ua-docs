@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Об'єднує елементи масиву в рядок
     
@@ -84,5 +84,5 @@ var_dump(implode(['a', 'b', 'c'])); // string(3) "abc"
 ### Дивіться також
 
 -   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [http\_build\_query()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [httpbuildquery()](function.http-build-query.html) - Генерує URL-кодований рядок запиту

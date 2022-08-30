@@ -1,8 +1,8 @@
 Отримує кількість полів бази даних
 
--   [« dbase\_get\_record](function.dbase-get-record.html)
+-   [« dbasegetrecord](function.dbase-get-record.html)
     
--   [dbase\_numrecords »](function.dbase-numrecords.html)
+-   [dbasenumrecords »](function.dbase-numrecords.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ dbase_numfields(resource $database): int
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 ### Значення, що повертаються
 
@@ -83,4 +83,4 @@ dbase_close($db);
 
 ### Дивіться також
 
--   [dbase\_numrecords()](function.dbase-numrecords.html) - Отримує кількість записів у базі даних
+-   [dbasenumrecords()](function.dbase-numrecords.html) - Отримує кількість записів у базі даних

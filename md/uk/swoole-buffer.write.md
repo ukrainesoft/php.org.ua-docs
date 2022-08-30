@@ -1,12 +1,12 @@
 Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не буде змінено
 
--   [« Swoole\\Buffer::\_\_toString](swoole-buffer.tostring.html)
+-   [« SwooleBuffer::toString](swoole-buffer.tostring.html)
     
--   [Swoole\\Channel »](class.swoole-channel.html)
+-   [SwooleChannel »](class.swoole-channel.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не буде змінено
     

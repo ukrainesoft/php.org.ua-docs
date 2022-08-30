@@ -25,7 +25,7 @@ public **SoapVar::construct**
 ?string `$typeName` **`null`**  
 ?string `$typeNamespace` **`null`**  
 ?string `$nodeName` **`null`**  
-?string `$nodeNamespace` **`null`**  
+?string `$nodeNamespace` **`null`**
 
 Створює новий об'єкт [SoapVar](class.soapvar.html)
 
@@ -85,5 +85,5 @@ $client->echoStruct(new SoapParam($soapstruct, "inputStruct"));
 
 ### Дивіться також
 
--   [SoapClient::\_\_soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
--   [SoapParam::\_\_construct()](soapparam.construct.html) - Конструктор SoapParam
+-   [SoapClient::soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
+-   [SoapParam::construct()](soapparam.construct.html) - Конструктор SoapParam

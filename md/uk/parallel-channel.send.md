@@ -1,12 +1,12 @@
 Спільне використання
 
--   [« parallel\\Channel::recv](parallel-channel.recv.html)
+-   [« parallelChannel::recv](parallel-channel.recv.html)
     
--   [parallel\\Channel::close »](parallel-channel.close.html)
+-   [parallelChannel::close »](parallel-channel.close.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Channel](class.parallel-channel.html)
+-   [parallelChannel](class.parallel-channel.html)
     
 -   Спільне використання
     

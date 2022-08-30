@@ -1,12 +1,12 @@
 Курсив
 
--   [« Vtiful\\Kernel\\Format::bold](vtiful-kernel-format.bold.html)
+-   [« VtifulKernelFormat::bold](vtiful-kernel-format.bold.html)
     
--   [Vtiful\\Kernel\\Format::underline »](vtiful-kernel-format.underline.html)
+-   [VtifulKernelFormat::underline »](vtiful-kernel-format.underline.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+-   [VtifulKernelFormat](class.vtiful-kernel-format.html)
     
 -   Курсив
     
@@ -23,7 +23,7 @@ VtifulKernelFormat::italic — Курсив
 public Vtiful\Kernel\Format::italic(resource $handle)
 ```
 
-Формат курсиву [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+Формат курсиву [VtifulKernelFormat](class.vtiful-kernel-format.html)
 
 ### Список параметрів
 

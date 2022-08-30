@@ -1,8 +1,8 @@
 Розшифровка відкритого ключа з автентифікацією
 
--   [« sodium\_crypto\_box\_keypair](function.sodium-crypto-box-keypair.html)
+-   [« sodiumcryptoboxkeypair](function.sodium-crypto-box-keypair.html)
     
--   [sodium\_crypto\_box\_publickey\_from\_secretkey »](function.sodium-crypto-box-publickey-from-secretkey.html)
+-   [sodiumcryptoboxpublickeyfromsecretkey »](function.sodium-crypto-box-publickey-from-secretkey.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ sodium_crypto_box_open(string $ciphertext, string $nonce, string $key_pair): str
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key_pair`
 
-Дивіться [sodium\_crypto\_box\_keypair\_from\_secretkey\_and\_publickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html). Повинна включати відкритий ключ відправника та секретний ключ одержувача.
+Дивіться [sodiumcryptoboxkeypairfromsecretkeyandpublickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html). Повинна включати відкритий ключ відправника та секретний ключ одержувача.
 
 ### Значення, що повертаються
 

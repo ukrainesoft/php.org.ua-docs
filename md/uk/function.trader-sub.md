@@ -1,8 +1,8 @@
 Векторне арифметичне віднімання
 
--   [« trader\_stochrsi](function.trader-stochrsi.html)
+-   [« traderstochrsi](function.trader-stochrsi.html)
     
--   [trader\_sum »](function.trader-sum.html)
+-   [tradersum »](function.trader-sum.html)
     
 -   [PHP Manual](index.html)
     

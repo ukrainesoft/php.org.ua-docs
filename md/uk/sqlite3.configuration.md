@@ -17,10 +17,10 @@
 
 **Опції налаштування SQLite3**
 
-| Имя                                                                            | По умолчанию | Место изменения | Список изменений                                       |
-|--------------------------------------------------------------------------------|--------------|-----------------|--------------------------------------------------------|
-| [sqlite3.extension\_dir](sqlite3.configuration.html#ini.sqlite3.extension-dir) | ""           | PHPINISYSTEM    |                                                        |
-| [sqlite3.defensive](sqlite3.configuration.html#ini.sqlite3.defensive)          |              | PHPINISYSTEM    | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0. |
+| Имя                                                                          | По умолчанию | Место изменения | Список изменений                                       |
+|------------------------------------------------------------------------------|--------------|-----------------|--------------------------------------------------------|
+| [sqlite3.extensiondir](sqlite3.configuration.html#ini.sqlite3.extension-dir) | ""           | PHPINISYSTEM    |                                                        |
+| [sqlite3.defensive](sqlite3.configuration.html#ini.sqlite3.defensive)        |              | PHPINISYSTEM    | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0. |
 
 Коротке пояснення конфігураційних директив.
 

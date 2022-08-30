@@ -1,12 +1,12 @@
 Запускає callback-функцію через певний проміжок часу
 
--   [« Swoole\\Timer](class.swoole-timer.html)
+-   [« SwooleTimer](class.swoole-timer.html)
     
--   [Swoole\\Timer::clear »](swoole-timer.clear.html)
+-   [SwooleTimer::clear »](swoole-timer.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Timer](class.swoole-timer.html)
+-   [SwooleTimer](class.swoole-timer.html)
     
 -   Запускає callback-функцію через певний проміжок часу
     

@@ -1,12 +1,12 @@
 Перевіряє, чи починається рядок із заданого підрядка
 
--   [« str\_split](function.str-split.html)
+-   [« strsplit](function.str-split.html)
     
--   [str\_word\_count »](function.str-word-count.html)
+-   [strwordcount »](function.str-word-count.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перевіряє, чи починається рядок із заданого підрядка
     
@@ -89,12 +89,12 @@ if (str_starts_with($string, 'ленивая')) {
 
 ### Дивіться також
 
--   [str\_contains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
--   [str\_ends\_with()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
+-   [strcontains()](function.str-contains.html) - Визначає, чи містить рядок заданий підрядок
+-   [strendswith()](function.str-ends-with.html) - Перевіряє, чи закінчується рядок заданим підрядком
 -   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
 -   [strrpos()](function.strrpos.html) - Повертає позицію останнього входження підрядка у рядку
 -   [strripos()](function.strripos.html) - Повертає позицію останнього входження підрядка без урахування регістру
 -   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
 -   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
 -   [substr()](function.substr.html) - Повертає підрядок
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

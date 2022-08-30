@@ -1,8 +1,8 @@
 Отримання SQL NOTIFY повідомлення
 
--   [« pg\_free\_result](function.pg-free-result.html)
+-   [« pgfreeresult](function.pg-free-result.html)
     
--   [pg\_get\_pid »](function.pg-get-pid.html)
+-   [пгgetpid »](function.pg-get-pid.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `mode`
 
@@ -41,9 +41,9 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -70,4 +70,4 @@ if (!$notify) {
 
 ### Дивіться також
 
--   [pg\_get\_pid()](function.pg-get-pid.html) - Отримує ID процесу сервера БД
+-   [пгgetpid()](function.pg-get-pid.html) - Отримує ID процесу сервера БД

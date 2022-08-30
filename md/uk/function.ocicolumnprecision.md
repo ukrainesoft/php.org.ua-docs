@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnprecision - Псевдонім [oci\_field\_precision()](function.oci-field-precision.html)
+ocicolumnprecision - Псевдонім [ocifieldprecision()](function.oci-field-precision.html)
 
 ### Опис
 
-Псевдонім [oci\_field\_precision()](function.oci-field-precision.html)
+Псевдонім [ocifieldprecision()](function.oci-field-precision.html)
 
 **Увага**
 

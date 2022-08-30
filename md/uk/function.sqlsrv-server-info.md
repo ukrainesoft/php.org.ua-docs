@@ -1,12 +1,12 @@
 Повертає інформацію про сервер
 
--   [« sqlsrv\_send\_stream\_data](function.sqlsrv-send-stream-data.html)
+-   [« sqlsrvsendstreamdata](function.sqlsrv-send-stream-data.html)
     
--   [Модули для работы с датой и временем »](refs.calendar.html)
+-   [Модулі для роботи з датою та часом »](refs.calendar.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Повертає інформацію про сервер
     
@@ -68,4 +68,4 @@ if( $server_info )
 
 ### Дивіться також
 
--   [sqlsrv\_client\_info()](function.sqlsrv-client-info.html) - Повертає інформацію про клієнта та зазначене підключення
+-   [sqlsrvclientinfo()](function.sqlsrv-client-info.html) - Повертає інформацію про клієнта та зазначене підключення

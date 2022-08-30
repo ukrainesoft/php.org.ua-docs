@@ -1,8 +1,8 @@
 Перетворює MIME-кодований текст на UTF-8
 
--   [« imap\_utf8\_to\_mutf7](function.imap-utf8-to-mutf7.html)
+-   [« imaputf8тоmutf7](function.imap-utf8-to-mutf7.html)
     
--   [IMAP\\Connection »](class.imap-connection.html)
+-   [IMAPConnection »](class.imap-connection.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,4 +53,4 @@ Johannes Schlüter
 
 ### Дивіться також
 
--   [imap\_mime\_header\_decode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
+-   [imapmimeheaderdecode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка

@@ -1,12 +1,12 @@
 Ініціалізувати підсистему SFTP
 
--   [« ssh2\_sftp\_unlink](function.ssh2-sftp-unlink.html)
+-   [« ssh2sftpunlink](function.ssh2-sftp-unlink.html)
     
--   [ssh2\_shell »](function.ssh2-shell.html)
+-   [ssh2shell »](function.ssh2-shell.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Ініціалізувати підсистему SFTP
     
@@ -29,7 +29,7 @@ ssh2_sftp(resource $session): resource|false
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 ### Значення, що повертаються
 
@@ -52,5 +52,5 @@ $stream = fopen('ssh2.sftp://' . intval($sftp) . '/path/to/file', 'r');
 
 ### Дивіться також
 
--   [ssh2\_scp\_recv()](function.ssh2-scp-recv.html) - Запит файлу через SCP
--   [ssh2\_scp\_send()](function.ssh2-scp-send.html) - Надсилання файлу через SCP
+-   [ssh2scprecv()](function.ssh2-scp-recv.html) - Запит файлу через SCP
+-   [ssh2scpsend()](function.ssh2-scp-send.html) - Надсилання файлу через SCP

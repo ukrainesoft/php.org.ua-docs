@@ -1,12 +1,12 @@
 Елемент управління "Розділювач"
 
--   [« UI\\Controls\\Progress::setValue](ui-controls-progress.setvalue.html)
+-   [« UIControlsProgress::setValue](ui-controls-progress.setvalue.html)
     
--   [UI\\Controls\\Separator::\_\_construct »](ui-controls-separator.construct.html)
+-   [ОЙControlsSeparator::construct »](ui-controls-separator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Елемент управління "Розділювач"
     
@@ -80,4 +80,4 @@ public UI\Control::show()
 
 ## Зміст
 
--   [UI\\Controls\\Separator::\_\_construct](ui-controls-separator.construct.html) — Створити новий об'єкт Separator
+-   [ОЙControlsSeparator::construct](ui-controls-separator.construct.html) — Створити новий об'єкт Separator

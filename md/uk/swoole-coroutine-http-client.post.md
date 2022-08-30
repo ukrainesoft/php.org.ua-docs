@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::isConnected](swoole-coroutine-http-client.isconnected.html)
+-   [« SwooleCoroutineHttpClient::isConnected](swoole-coroutine-http-client.isconnected.html)
     
--   [Swoole\\Coroutine\\Http\\Client::recv »](swoole-coroutine-http-client.recv.html)
+-   [SwooleCoroutineHttpClient::recv »](swoole-coroutine-http-client.recv.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

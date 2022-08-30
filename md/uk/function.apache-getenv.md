@@ -1,8 +1,8 @@
 Повертає змінну оточення підпроцесу сервера Apache
 
--   [« apache\_get\_version](function.apache-get-version.html)
+-   [« apachegetversion](function.apache-get-version.html)
     
--   [apache\_lookup\_uri »](function.apache-lookup-uri.html)
+-   [apachelookupuri »](function.apache-lookup-uri.html)
     
 -   [PHP Manual](index.html)
     
@@ -60,6 +60,6 @@ echo $ret;
 
 ### Дивіться також
 
--   [apache\_setenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
+-   [apachesetenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
 -   [getenv()](function.getenv.html) - набуття значення змінної оточення
 -   "[Суперглобальные переменные](language.variables.superglobals.html)"

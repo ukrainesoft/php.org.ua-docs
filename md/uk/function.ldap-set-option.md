@@ -1,12 +1,12 @@
 Встановити значення цієї опції
 
--   [« ldap\_search](function.ldap-search.html)
+-   [« ldapsearch](function.ldap-search.html)
     
--   [ldap\_set\_rebind\_proc »](function.ldap-set-rebind-proc.html)
+-   [ldapsetrebindproc »](function.ldap-set-rebind-proc.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Встановити значення цієї опції
     
@@ -29,7 +29,7 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 `ldap`
 
-Або екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
+Або екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
 
 `option`
 
@@ -78,9 +78,9 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -121,4 +121,4 @@ if (!ldap_set_option($ds, LDAP_OPT_SERVER_CONTROLS, array($ctrl1, $ctrl2)))�
 
 ### Дивіться також
 
--   [ldap\_get\_option()](function.ldap-get-option.html) - Отримати поточне значення цієї опції
+-   [ldapgetoption()](function.ldap-get-option.html) - Отримати поточне значення цієї опції

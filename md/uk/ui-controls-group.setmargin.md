@@ -1,12 +1,12 @@
 Встановити поле
 
--   [« UI\\Controls\\Group::hasMargin](ui-controls-group.hasmargin.html)
+-   [« UIControlsGroup::hasMargin](ui-controls-group.hasmargin.html)
     
--   [UI\\Controls\\Group::setTitle »](ui-controls-group.settitle.html)
+-   [ОЙControlsGroup::setTitle »](ui-controls-group.settitle.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Group](class.ui-controls-group.html)
+-   [ОЙControlsGroup](class.ui-controls-group.html)
     
 -   Встановити поле
     

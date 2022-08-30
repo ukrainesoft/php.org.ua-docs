@@ -1,12 +1,12 @@
 Встановлює вибрану опцію
 
--   [« UI\\Controls\\Combo::onSelected](ui-controls-combo.onselected.html)
+-   [« UIControlsCombo::onSelected](ui-controls-combo.onselected.html)
     
--   [UI\\Controls\\EditableCombo »](class.ui-controls-editablecombo.html)
+-   [ОЙControlsEditableCombo »](class.ui-controls-editablecombo.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Combo](class.ui-controls-combo.html)
+-   [ОЙControlsCombo](class.ui-controls-combo.html)
     
 -   Встановлює вибрану опцію
     

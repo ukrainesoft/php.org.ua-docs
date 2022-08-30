@@ -1,12 +1,12 @@
 Надіслати дані віддаленому клієнту
 
--   [« Swoole\\WebSocket\\Server::pack](swoole-websocket-server.pack.html)
+-   [« SwooleWebSocketServer::pack](swoole-websocket-server.pack.html)
     
--   [Swoole\\WebSocket\\Server::unpack »](swoole-websocket-server.unpack.html)
+-   [SwooleWebSocketServer::unpack »](swoole-websocket-server.unpack.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+-   [SwooleWebSocketServer](class.swoole-websocket-server.html)
     
 -   Надіслати дані віддаленому клієнту
     

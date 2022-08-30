@@ -1,8 +1,8 @@
 Отримує кількість вихідних нейронів
 
--   [« fann\_get\_num\_layers](function.fann-get-num-layers.html)
+-   [« fanngetnumlayers](function.fann-get-num-layers.html)
     
--   [fann\_get\_quickprop\_decay »](function.fann-get-quickprop-decay.html)
+-   [fanngetquickpropdecay »](function.fann-get-quickprop-decay.html)
     
 -   [PHP Manual](index.html)
     

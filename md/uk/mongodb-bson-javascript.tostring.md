@@ -1,12 +1,12 @@
 Повертає код JavaScript
 
--   [« MongoDB\\BSON\\Javascript::serialize](mongodb-bson-javascript.serialize.html)
+-   [« MongoDBBSONJavascript::serialize](mongodb-bson-javascript.serialize.html)
     
--   [MongoDB\\BSON\\Javascript::unserialize »](mongodb-bson-javascript.unserialize.html)
+-   [MongoDBBSONJavascript::unserialize »](mongodb-bson-javascript.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+-   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
     
 -   Повертає код JavaScript
     
@@ -23,7 +23,7 @@ MongoDBBSONJavascript::toString — Повертає код JavaScript
 final public MongoDB\BSON\Javascript::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDB\\BSON\\Javascript::getCode()](mongodb-bson-javascript.getcode.html)
+Цей метод є псевдонімом: [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html)
 
 ### Список параметрів
 
@@ -53,5 +53,5 @@ string(33) "function foo(bar) { return bar; }"
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Javascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
+-   [MongoDBBSONJavascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
 -   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

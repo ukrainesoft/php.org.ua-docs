@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Видаляє схему
     
@@ -35,7 +35,7 @@ public mysql_xdevapi\Session::dropSchema(string $schema_name): bool
 
 **`true`**, якщо схема видалена, або **`false`** якщо вона не існує або не може бути вилучена.
 
-Генерується помилка рівня **`E_WARNING`**якщо схема не існує.
+Генерується помилка рівня \*\*`E_WARNING`\*\*якщо схема не існує.
 
 ### Приклади
 

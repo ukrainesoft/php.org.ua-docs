@@ -1,12 +1,12 @@
 Отримати текст
 
--   [« UI\\Controls\\Check::\_\_construct](ui-controls-check.construct.html)
+-   [« UIControlsCheck::construct](ui-controls-check.construct.html)
     
--   [UI\\Controls\\Check::isChecked »](ui-controls-check.ischecked.html)
+-   [ОЙControlsCheck::isChecked »](ui-controls-check.ischecked.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Check](class.ui-controls-check.html)
+-   [ОЙControlsCheck](class.ui-controls-check.html)
     
 -   Отримати текст
     

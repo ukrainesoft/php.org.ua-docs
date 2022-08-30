@@ -109,8 +109,8 @@ tm_mday : 31 , tm_wday : 4 , tm_yday : 365 , tm_mon : 11 , tm_isdst : 0 ,
 
 ### Дивіться також
 
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
--   [datefmt\_format()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
--   [datefmt\_parse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
--   [datefmt\_get\_error\_code()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmt\_get\_error\_message()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtformat()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
+-   [datefmtparse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції

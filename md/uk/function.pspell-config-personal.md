@@ -1,8 +1,8 @@
 Встановлює файл, що містить персональний список слів
 
--   [« pspell\_config\_mode](function.pspell-config-mode.html)
+-   [« pspellconfigmode](function.pspell-config-mode.html)
     
--   [pspell\_config\_repl »](function.pspell-config-repl.html)
+-   [pspellconfigrepl »](function.pspell-config-repl.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,15 +23,15 @@ pspellconfigpersonal — Встановлює файл, який містить 
 pspell_config_personal(PSpell\Config $config, string $filename): bool
 ```
 
-Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspell\_new\_config()](function.pspell-new-config.html). Це той самий файл, в який функція [pspell\_save\_wordlist()](function.pspell-save-wordlist.html) збереже персональний перелік слів.
+Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspellnewconfig()](function.pspell-new-config.html). Це той самий файл, в який функція [pspellsavewordlist()](function.pspell-save-wordlist.html) збереже персональний перелік слів.
 
-**pspellconfigpersonal()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html)
+**pspellconfigpersonal()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpell\\Config](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.html)
 
 `filename`
 
@@ -43,9 +43,9 @@ pspell_config_personal(PSpell\Config $config, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

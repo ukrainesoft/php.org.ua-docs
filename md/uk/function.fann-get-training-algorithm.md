@@ -1,8 +1,8 @@
 Повертає алгоритм навчання
 
--   [« fann\_get\_train\_stop\_function](function.fann-get-train-stop-function.html)
+-   [« fanngettrainstopfunction](function.fann-get-train-stop-function.html)
     
--   [fann\_init\_weights »](function.fann-init-weights.html)
+-   [fanninitweights »](function.fann-init-weights.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,9 +23,9 @@ fanngettrainingalgorithm - Повертає алгоритм навчання
 fann_get_training_algorithm(resource $ann): int
 ```
 
-Повертає алгоритм навчання. Цей алгоритм навчання використовується [fann\_train\_on\_data()](function.fann-train-on-data.html) та пов'язаними функціями.
+Повертає алгоритм навчання. Цей алгоритм навчання використовується [fanntrainвінdata()](function.fann-train-on-data.html) та пов'язаними функціями.
 
-Зверніть увагу, що цей алгоритм також використовується під час [fann\_cascadetrain\_on\_data()](function.fann-cascadetrain-on-data.html), хоча під час каскадного навчання дозволено лише **`FANN_TRAIN_RPROP`** and **`FANN_TRAIN_QUICKPROP`**
+Зверніть увагу, що цей алгоритм також використовується під час [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.html), хоча під час каскадного навчання дозволено лише **`FANN_TRAIN_RPROP`** and **`FANN_TRAIN_QUICKPROP`**
 
 ### Список параметрів
 
@@ -39,4 +39,4 @@ fann_get_training_algorithm(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

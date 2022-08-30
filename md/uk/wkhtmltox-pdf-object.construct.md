@@ -1,12 +1,12 @@
 Створити новий об'єкт PDF
 
--   [« wkhtmltox\\PDF\\Object](class.wkhtmltox-pdf-object.html)
+-   [« wkhtmltoxPDFObject](class.wkhtmltox-pdf-object.html)
     
--   [wkhtmltox\\Image\\Converter »](class.wkhtmltox-image-converter.html)
+-   [wkhtmltoxImageConverter »](class.wkhtmltox-image-converter.html)
     
 -   [PHP Manual](index.html)
     
--   [wkhtmltox\\PDF\\Object](class.wkhtmltox-pdf-object.html)
+-   [wkhtmltoxPDFObject](class.wkhtmltox-pdf-object.html)
     
 -   Створити новий об'єкт PDF
     

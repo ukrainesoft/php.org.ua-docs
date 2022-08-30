@@ -1,8 +1,8 @@
 Записати дані в сокет
 
--   [« swoole\_event\_wait](function.swoole-event-wait.html)
+-   [« swooleeventwait](function.swoole-event-wait.html)
     
--   [swoole\_get\_local\_ip »](function.swoole-get-local-ip.html)
+-   [swoolegetlocalip »](function.swoole-get-local-ip.html)
     
 -   [PHP Manual](index.html)
     

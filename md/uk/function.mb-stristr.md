@@ -1,12 +1,12 @@
 Знаходить перше входження підрядки у рядку без урахування регістру
 
--   [« mb\_stripos](function.mb-stripos.html)
+-   [« mbstripos](function.mb-stripos.html)
     
--   [mb\_strlen »](function.mb-strlen.html)
+-   [мбstrlen »](function.mb-strlen.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Знаходить перше входження підрядки у рядку без урахування регістру
     
@@ -23,7 +23,7 @@
 mb_stristr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
 ```
 
-**мбstristr()** знаходить перше входження підрядка `needle` в `haystack` і повертає частину `haystack`. На відміну від [mb\_strstr()](function.mb-strstr.html) **мбstristr()** не враховує регістр. Якщо `needle` не знайдено, повертається **`false`**
+**мбstristr()** знаходить перше входження підрядка `needle` в `haystack` і повертає частину `haystack`. На відміну від [мбstrstr()](function.mb-strstr.html) **мбstristr()** не враховує регістр. Якщо `needle` не знайдено, повертається **`false`**
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ mb_stristr(    string $haystack,    string $needle,    bool $before_
 
 -   [stristr()](function.stristr.html) - Реєстронезалежний варіант функції strstr
 -   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [mb\_strstr()](function.mb-strstr.html) - Знаходить перше входження підрядка у рядку
+-   [мбstrstr()](function.mb-strstr.html) - Знаходить перше входження підрядка у рядку

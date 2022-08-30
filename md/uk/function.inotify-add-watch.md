@@ -2,7 +2,7 @@
 
 -   [« Функции Inotify](ref.inotify.html)
     
--   [inotify\_init »](function.inotify-init.html)
+-   [inotifyinit »](function.inotify-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 
 `inotify_instance`
 
-Ресурс, що повертається [inotify\_init()](function.inotify-init.html)
+Ресурс, що повертається [inotifyinit()](function.inotify-init.html)
 
 `pathname`
 
@@ -47,4 +47,4 @@ inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 
 ### Дивіться також
 
--   [inotify\_init()](function.inotify-init.html) - Ініціалізує екземпляр inotify
+-   [inotifyinit()](function.inotify-init.html) - Ініціалізує екземпляр inotify

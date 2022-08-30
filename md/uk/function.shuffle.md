@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Перемішує масив
     
@@ -65,5 +65,5 @@ foreach ($numbers as $number) {
 
 ### Дивіться також
 
--   [array\_rand()](function.array-rand.html) - Вибирає один або кілька випадкових ключів із масиву
--   [Сравнение функций сортировки массивов](array.sorting.html)
+-   [arrayrand()](function.array-rand.html) - Вибирає один або кілька випадкових ключів із масиву
+-   [Порівняння функцій сортування масивів](array.sorting.html)

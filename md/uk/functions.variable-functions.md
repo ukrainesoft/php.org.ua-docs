@@ -2,11 +2,11 @@
 
 -   [« Возврат значений](functions.returning-values.html)
     
--   [Встроенные функции »](functions.internal.html)
+-   [Вбудовані функції »](functions.internal.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](language.functions.html)
+-   [Функції](language.functions.html)
     
 -   Звернення до функцій через змінні
     
@@ -123,7 +123,7 @@ $func(); // выведет "bar"
 
 ### Дивіться також
 
--   [is\_callable()](function.is-callable.html)
--   [call\_user\_func()](function.call-user-func.html)
--   [function\_exists()](function.function-exists.html)
+-   [ісcallable()](function.is-callable.html)
+-   [calluserfunc()](function.call-user-func.html)
+-   [functionexists()](function.function-exists.html)
 -   [переменные переменных](language.variables.variable.html)

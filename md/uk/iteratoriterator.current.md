@@ -1,6 +1,6 @@
 Отримує поточне значення
 
--   [« IteratorIterator::\_\_construct](iteratoriterator.construct.html)
+-   [« IteratorIterator::construct](iteratoriterator.construct.html)
     
 -   [IteratorIterator::getInnerIterator »](iteratoriterator.getinneriterator.html)
     

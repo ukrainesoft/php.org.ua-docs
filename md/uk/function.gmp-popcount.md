@@ -1,12 +1,12 @@
 Кількість одиниць у двійковому записі числа
 
--   [« gmp\_perfect\_square](function.gmp-perfect-square.html)
+-   [« gmpperfectsquare](function.gmp-perfect-square.html)
     
--   [gmp\_pow »](function.gmp-pow.html)
+-   [gmppow »](function.gmp-pow.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Кількість одиниць у двійковому записі числа
     

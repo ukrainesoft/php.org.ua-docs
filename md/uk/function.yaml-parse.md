@@ -1,6 +1,6 @@
 Розбирає потік YAML
 
--   [« yaml\_parse\_url](function.yaml-parse-url.html)
+-   [« yamlparseurl](function.yaml-parse-url.html)
     
 -   [Yaf »](book.yaf.html)
     
@@ -41,7 +41,7 @@ yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?, 
 
 `callbacks`
 
-Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.html)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функции разбора](yaml.callbacks.parse.html)
+Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.html)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.html)
 
 ### Значення, що повертаються
 
@@ -177,6 +177,6 @@ array(8) {
 
 ### Дивіться також
 
--   [yaml\_parse\_file()](function.yaml-parse-file.html) - Розбирає YAML-потік із файлу
--   [yaml\_parse\_url()](function.yaml-parse-url.html) - Розбирає YAML-потік із URL
--   [yaml\_emit()](function.yaml-emit.html) - Повертає YAML-подання значення
+-   [yamlparsefile()](function.yaml-parse-file.html) - Розбирає YAML-потік із файлу
+-   [yamlparseurl()](function.yaml-parse-url.html) - Розбирає YAML-потік із URL
+-   [yamlemit()](function.yaml-emit.html) - Повертає YAML-подання значення

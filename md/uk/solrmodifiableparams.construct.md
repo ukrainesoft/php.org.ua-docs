@@ -2,7 +2,7 @@
 
 -   [« SolrModifiableParams](class.solrmodifiableparams.html)
     
--   [SolrModifiableParams::\_\_destruct »](solrmodifiableparams.destruct.html)
+-   [SolrModifiableParams::destruct »](solrmodifiableparams.destruct.html)
     
 -   [PHP Manual](index.html)
     

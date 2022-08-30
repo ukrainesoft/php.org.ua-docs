@@ -1,6 +1,6 @@
 Єв
 
--   [« eio\_write](function.eio-write.html)
+-   [« eiowrite](function.eio-write.html)
     
 -   [Введение »](intro.ev.html)
     
@@ -21,10 +21,10 @@
     -   [Типы ресурсов](ev.resources.html)
 -   [Предопределённые константы](ev.global.constants.html)
 -   [Примеры](ev.examples.html)
--   [Наблюдатели](ev.watchers.html)
+-   [Спостерігачі](ev.watchers.html)
 -   [Watcher callbacks](ev.watcher-callbacks.html)
--   [Режимы работы периодических наблюдателей](ev.periodic-modes.html)
--   [Ev](class.ev.html) - Клас Ev
+-   [Режими роботи періодичних спостерігачів](ev.periodic-modes.html)
+-   [Єв](class.ev.html) - Клас Ev
     -   [Ev::backend](ev.backend.html) — Повертає ціле число, що описує бекенд, який використовується libev
     -   [Ev::depth](ev.depth.html) — Здобути глибину рекурсії
     -   [Ev::embeddableBackends](ev.embeddablebackends.html) — Повертає набір бекендів, які можна вбудувати в інші цикли подій
@@ -43,32 +43,32 @@
     -   [Ev::time](ev.time.html) — Повертає поточний час у секундах (мільйонне число) минуле з початку епохи Unix
     -   [Ev::verify](ev.verify.html) - Здійснює внутрішню перевірку цілісності (для налагодження)
 -   [EvCheck](class.evcheck.html) - Клас EvCheck
-    -   [EvCheck::\_\_construct](evcheck.construct.html) - Конструктор об'єкту EvCheck
+    -   [EvCheck::construct](evcheck.construct.html) - Конструктор об'єкту EvCheck
     -   [EvCheck::createStopped](evcheck.createstopped.html) — Створює зупинений екземпляр спостерігача EvCheck
 -   [EvChild](class.evchild.html) - Клас EvChild
-    -   [EvChild::\_\_construct](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+    -   [EvChild::construct](evchild.construct.html) - Створює об'єкт спостерігач EvChild
     -   [EvChild::createStopped](evchild.createstopped.html) — Створює зупинений екземпляр спостерігача EvCheck
     -   [EvChild::set](evchild.set.html) - Конфігурування спостерігача
 -   [EvEmbed](class.evembed.html) - Клас EvEmbed
-    -   [EvEmbed::\_\_construct](evembed.construct.html) - Конструктор об'єкта EvEmbed
+    -   [EvEmbed::construct](evembed.construct.html) - Конструктор об'єкта EvEmbed
     -   [EvEmbed::createStopped](evembed.createstopped.html) — Створює зупинений об'єкт спостерігач EvEmbed
     -   [EvEmbed::set](evembed.set.html) — Налаштування спостерігача
     -   [EvEmbed::sweep](evembed.sweep.html) — Робить одиночну, неблокуючу розгортку за вбудованим циклом
 -   [EvFork](class.evfork.html) - Клас EvFork
-    -   [EvFork::\_\_construct](evfork.construct.html) - Конструктор спостерігача EvFork
+    -   [EvFork::construct](evfork.construct.html) - Конструктор спостерігача EvFork
     -   [EvFork::createStopped](evfork.createstopped.html) - Створити об'єкт класу EvFork, але не стартувати його
 -   [EvIdle](class.evidle.html) - Клас EvIdle
-    -   [EvIdle::\_\_construct](evidle.construct.html) - Конструктор спостерігача EvIdle
+    -   [EvIdle::construct](evidle.construct.html) - Конструктор спостерігача EvIdle
     -   [EvIdle::createStopped](evidle.createstopped.html) - Створити об'єкт класу EvIdle, але не стартувати його
 -   [EvIo](class.evio.html) - Клас EvIo
-    -   [EvIo::\_\_construct](evio.construct.html) - Створює об'єкт спостерігач EvIo
+    -   [EvIo::construct](evio.construct.html) - Створює об'єкт спостерігач EvIo
     -   [EvIo::createStopped](evio.createstopped.html) — Створює зупинений об'єкт спостерігача EvIo
     -   [EvIo::set](evio.set.html) - Конфігурування спостерігача
 -   [EvLoop](class.evloop.html) - Клас EvLoop
     -   [EvLoop::backend](evloop.backend.html) — Повертає ціле число, що описує бекенд, який використовується libev
     -   [EvLoop::check](evloop.check.html) — Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій
     -   [EvLoop::child](evloop.child.html) — Створює об'єкт EvChild, пов'язаний із поточним циклом подій
-    -   [EvLoop::\_\_construct](evloop.construct.html) - Конструктор об'єкта циклу подій
+    -   [EvLoop::construct](evloop.construct.html) - Конструктор об'єкта циклу подій
     -   [EvLoop::defaultLoop](evloop.defaultloop.html) — Повертає або створює цикл стандартних подій
     -   [EvLoop::embed](evloop.embed.html) — Створює екземпляр спостерігача EvEmbed, пов'язаний із поточним об'єктом EvLoop
     -   [EvLoop::fork](evloop.fork.html) — Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
@@ -91,31 +91,31 @@
 -   [EvPeriodic](class.evperiodic.html) - Клас EvPeriodic
     -   [EvPeriodic::again](evperiodic.again.html) — Зупиняє та знову запускає періодичний спостерігач
     -   [EvPeriodic::at](evperiodic.at.html) — Повертає абсолютний час, коли спостерігач запуститься наступного разу
-    -   [EvPeriodic::\_\_construct](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
+    -   [EvPeriodic::construct](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
     -   [EvPeriodic::createStopped](evperiodic.createstopped.html) - Створює зупинений спостерігач EvPeriodic
     -   [EvPeriodic::set](evperiodic.set.html) — Налаштовує спостерігача
 -   [EvPrepare](class.evprepare.html) - Клас EvPrepare
-    -   [EvPrepare::\_\_construct](evprepare.construct.html) - Конструктор спостерігача EvPrepare
+    -   [EvPrepare::construct](evprepare.construct.html) - Конструктор спостерігача EvPrepare
     -   [EvPrepare::createStopped](evprepare.createstopped.html) - Створити об'єкт класу EvPrepare, але не стартувати його
 -   [EvSignal](class.evsignal.html) - Клас EvSignal
-    -   [EvSignal::\_\_construct](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+    -   [EvSignal::construct](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
     -   [EvSignal::createStopped](evsignal.createstopped.html) — Create stopped EvSignal watcher object
     -   [EvSignal::set](evsignal.set.html) — Налаштування спостерігача
 -   [EvStat](class.evstat.html) - Клас EvStat
     -   [EvStat::attr](evstat.attr.html) — Повертає значення, нещодавно виявлені Ev
-    -   [EvStat::\_\_construct](evstat.construct.html) - Створює об'єкт спостерігача EvStat
+    -   [EvStat::construct](evstat.construct.html) - Створює об'єкт спостерігача EvStat
     -   [EvStat::createStopped](evstat.createstopped.html) - Створює зупинений об'єкт спостерігача EvStat
     -   [EvStat::prev](evstat.prev.html) — Повертає попередній набір значень, які повертаються EvStat::attr
     -   [EvStat::set](evstat.set.html) — Налаштовує спостерігача
     -   [EvStat::stat](evstat.stat.html) - Ініціює виклик статистики
 -   [EvTimer](class.evtimer.html) - Клас EvTimer
     -   [EvTimer::again](evtimer.again.html) - Перезапускає таймер спостерігача
-    -   [EvTimer::\_\_construct](evtimer.construct.html) - Конструктор об'єкта спостерігача EvTimer
+    -   [EvTimer::construct](evtimer.construct.html) - Конструктор об'єкта спостерігача EvTimer
     -   [EvTimer::createStopped](evtimer.createstopped.html) - Створює зупинений спостерігач EvTimer
     -   [EvTimer::set](evtimer.set.html) — Налаштовує спостерігача
 -   [EvWatcher](class.evwatcher.html) - Клас EvWatcher
     -   [EvWatcher::clear](evwatcher.clear.html) — Очистити статус очікування спостерігача
-    -   [EvWatcher::\_\_construct](evwatcher.construct.html) - Абстрактний конструктор об'єкта спостерігача
+    -   [EvWatcher::construct](evwatcher.construct.html) - Абстрактний конструктор об'єкта спостерігача
     -   [EvWatcher::feed](evwatcher.feed.html) — Подає зазначені події у цикл подій
     -   [EvWatcher::getLoop](evwatcher.getloop.html) — Повертає цикл, який відповідає за спостерігача
     -   [EvWatcher::invoke](evwatcher.invoke.html) - Викликає callback-функцію спостерігача із заданою бітовою маскою прийнятих подій

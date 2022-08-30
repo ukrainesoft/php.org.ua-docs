@@ -1,12 +1,12 @@
 Витягує значення налаштування конфігурації PHP
 
--   [« gc\_status](function.gc-status.html)
+-   [« gcstatus](function.gc-status.html)
     
--   [get\_current\_user »](function.get-current-user.html)
+-   [getcurrentuser »](function.get-current-user.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Витягує значення налаштування конфігурації PHP
     
@@ -41,5 +41,5 @@ get_cfg_var(string $option): string|array|false
 
 ### Дивіться також
 
--   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації
--   [ini\_get\_all()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
+-   [iniget()](function.ini-get.html) - Отримує значення налаштування конфігурації
+-   [inigetall()](function.ini-get-all.html) - Отримує всі налаштування конфігурації

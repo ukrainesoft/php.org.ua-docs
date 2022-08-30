@@ -1,6 +1,6 @@
 Кількість аргументів, переданих скрипту
 
--   [« $http\_response\_header](reserved.variables.httpresponseheader.html)
+-   [«$httpresponseheader](reserved.variables.httpresponseheader.html)
     
 -   [$argv »](reserved.variables.argv.html)
     
@@ -19,11 +19,11 @@ $argc — Кількість аргументів, переданих скрип
 
 ### Опис
 
-Містить кількість аргументів, переданих поточному скрипту під час запуску [командной строки](features.commandline.html)
+Містить кількість аргументів, переданих поточному скрипту під час запуску [командного рядка](features.commandline.html)
 
 > **Зауваження**: Ім'я файлу скрипта завжди передається як перший аргумент, таким чином мінімальне значення $argc одно `1`
 
-> **Зауваження**: Ця змінна недоступна, якщо [register\_argc\_argv](ini.core.html#ini.register-argc-argv) вимкнено.
+> **Зауваження**: Ця змінна недоступна, якщо [registerargcargv](ini.core.html#ini.register-argc-argv) вимкнено.
 
 ### Приклади
 
@@ -47,7 +47,7 @@ int(4)
 
 > **Зауваження**
 > 
-> Також доступно як [$\_SERVER\['argc'\]](reserved.variables.server.html)
+> Також доступно як [SERVER\['argc'\]](reserved.variables.server.html)
 
 ### Дивіться також
 

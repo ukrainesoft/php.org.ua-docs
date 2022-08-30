@@ -1,6 +1,6 @@
 Розтискає поточний файл
 
--   [« PharFileInfo::\_\_construct](pharfileinfo.construct.html)
+-   [« PharFileInfo::construct](pharfileinfo.construct.html)
     
 -   [PharFileInfo::delMetadata »](pharfileinfo.delmetadata.html)
     

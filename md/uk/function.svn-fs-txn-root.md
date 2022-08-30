@@ -1,12 +1,12 @@
 Створює та повертає корінь транзакції
 
--   [« svn\_fs\_revision\_root](function.svn-fs-revision-root.html)
+-   [« svnфсrevisionroot](function.svn-fs-revision-root.html)
     
--   [svn\_fs\_youngest\_rev »](function.svn-fs-youngest-rev.html)
+-   [svnфсyoungestrev »](function.svn-fs-youngest-rev.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створює та повертає корінь транзакції
     

@@ -1,8 +1,8 @@
 Створює новий запис служби у базі даних SCM
 
--   [« win32\_continue\_service](function.win32-continue-service.html)
+-   [« win32continueservice](function.win32-continue-service.html)
     
--   [win32\_delete\_service »](function.win32-delete-service.html)
+-   [win32deleteservice »](function.win32-delete-service.html)
     
 -   [PHP Manual](index.html)
     
@@ -243,7 +243,7 @@ debug_zval_dump($x);
 
 ### Дивіться також
 
--   [win32\_delete\_service()](function.win32-delete-service.html) - Видалення запису служби з бази даних SCM
+-   [win32deleteservice()](function.win32-delete-service.html) - Видалення запису служби з бази даних SCM
 -   [Базовые классы приоритета Win32](win32service.constants.basepriorities.html)
 -   [Действия восстановления Win32](win32service.constants.recovery-action.html)
 -   [Коды ошибок Win32](win32service.constants.errors.html)

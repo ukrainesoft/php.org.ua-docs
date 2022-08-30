@@ -1,12 +1,12 @@
 Надсилання закодованого повідомлення
 
--   [« mb\_scrub](function.mb-scrub.html)
+-   [« mbscrub](function.mb-scrub.html)
     
--   [mb\_split »](function.mb-split.html)
+-   [мбsplit »](function.mb-split.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Надсилання закодованого повідомлення
     
@@ -23,7 +23,7 @@
 mb_send_mail(    string $to,    string $subject,    string $message,    array|string $additional_headers = [],    ?string $additional_params = null): bool
 ```
 
-Надсилає повідомлення електронної пошти. Заголовки та повідомлення перетворюються та кодуються відповідно до налаштування [mb\_language()](function.mb-language.html). Це обгортка для функції [mail()](function.mail.html), так що варто ознайомитись і з описом функції [mail()](function.mail.html)
+Надсилає повідомлення електронної пошти. Заголовки та повідомлення перетворюються та кодуються відповідно до налаштування [мбlanguage()](function.mb-language.html). Це обгортка для функції [mail()](function.mail.html), так що варто ознайомитись і з описом функції [mail()](function.mail.html)
 
 ### Список параметрів
 
@@ -82,5 +82,5 @@ mb_send_mail(    string $to,    string $subject,    string $message,
 ### Дивіться також
 
 -   [mail()](function.mail.html) - Надсилає електронну пошту
--   [mb\_encode\_mimeheader()](function.mb-encode-mimeheader.html) - Кодує рядок для MIME-заголовка
--   [mb\_language()](function.mb-language.html) - Встановлює/отримує поточну мову
+-   [мбencodemimeheader()](function.mb-encode-mimeheader.html) - Кодує рядок для MIME-заголовка
+-   [мбlanguage()](function.mb-language.html) - Встановлює/отримує поточну мову

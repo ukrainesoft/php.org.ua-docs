@@ -2,7 +2,7 @@
 
 -   [« getallheaders](function.getallheaders.html)
     
--   [Менеджер процессов FastCGI »](book.fpm.html)
+-   [Менеджер процесів FastCGI »](book.fpm.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,13 +41,13 @@ virtual(string $uri): bool
 
 ### Приклади
 
-Приклад використання дивіться у функції [apache\_note()](function.apache-note.html)
+Приклад використання дивіться у функції [apachenote()](function.apache-note.html)
 
 ### Примітки
 
 **Увага**
 
-Рядок запиту може бути переданий файлу, що викликається, однак значення змінної [$\_GET](reserved.variables.get.html) буде скопійовано з батьківського скрипту, лише [$\_SERVER\['QUERY\_STRING'\]](reserved.variables.server.html) міститиме переданий рядок запиту. Рядок запиту може бути переданий лише при використанні Apache 2. Запрошений файл не відображатиметься в журналі доступу (access log) Apache.
+Рядок запиту може бути переданий файлу, що викликається, однак значення змінної [GET](reserved.variables.get.html) буде скопійовано з батьківського скрипту, лише [SERVER\['QUERYSTRING'\]](reserved.variables.server.html) міститиме переданий рядок запиту. Рядок запиту може бути переданий лише при використанні Apache 2. Запрошений файл не відображатиметься в журналі доступу (access log) Apache.
 
 > **Зауваження**
 > 
@@ -59,4 +59,4 @@ virtual(string $uri): bool
 
 ### Дивіться також
 
--   [apache\_note()](function.apache-note.html) - Повертає та встановлює повідомлення до запиту Apache
+-   [apachenote()](function.apache-note.html) - Повертає та встановлює повідомлення до запиту Apache

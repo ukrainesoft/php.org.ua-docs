@@ -1,8 +1,8 @@
 Кодує рядок як URL
 
--   [« curl\_error](function.curl-error.html)
+-   [« curlerror](function.curl-error.html)
     
--   [curl\_exec »](function.curl-exec.html)
+-   [curlexec »](function.curl-exec.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_escape(CurlHandle $handle, string $string): string|false
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 `string`
 
@@ -72,7 +72,7 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curl\_unescape()](function.curl-unescape.html) - Декодує закодований URL-рядок
+-   [curlunescape()](function.curl-unescape.html) - Декодує закодований URL-рядок
 -   [urlencode()](function.urlencode.html) - URL-кодування рядка
 -   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

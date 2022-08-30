@@ -1,12 +1,12 @@
 Повертає кількість елементів у черзі
 
--   [« Ds\\PriorityQueue::copy](ds-priorityqueue.copy.html)
+-   [« DsPriorityQueue::copy](ds-priorityqueue.copy.html)
     
--   [Ds\\PriorityQueue::isEmpty »](ds-priorityqueue.isempty.html)
+-   [ДсPriorityQueue::isEmpty »](ds-priorityqueue.isempty.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Повертає кількість елементів у черзі
     

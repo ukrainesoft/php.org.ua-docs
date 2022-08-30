@@ -2,11 +2,11 @@
 
 -   [« BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.html)
     
--   [mysql\_xdevapi\\Client »](class.mysql-xdevapi-client.html)
+-   [mysqlxdevapiClient »](class.mysql-xdevapi-client.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\BaseResult](class.mysql-xdevapi-baseresult.html)
+-   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html)
     
 -   Отримує кількість попереджень останньої операції
     

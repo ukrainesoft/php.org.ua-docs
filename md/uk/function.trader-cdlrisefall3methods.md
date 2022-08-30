@@ -1,8 +1,8 @@
 Бича/ведмежа модель "Три методи"
 
--   [« trader\_cdlrickshawman](function.trader-cdlrickshawman.html)
+-   [« tradercdlrickshawman](function.trader-cdlrickshawman.html)
     
--   [trader\_cdlseparatinglines »](function.trader-cdlseparatinglines.html)
+-   [tradercdlseparatinglines »](function.trader-cdlseparatinglines.html)
     
 -   [PHP Manual](index.html)
     

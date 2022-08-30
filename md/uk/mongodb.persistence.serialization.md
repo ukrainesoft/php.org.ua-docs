@@ -1,12 +1,12 @@
 Серіалізація у BSON
 
--   [« Постоянные данные](mongodb.persistence.html)
+-   [« Постійні дані](mongodb.persistence.html)
     
 -   [Десериализация из BSON »](mongodb.persistence.deserialization.html)
     
 -   [PHP Manual](index.html)
     
--   [Постоянные данные](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.html)
     
 -   Серіалізація у BSON
     
@@ -37,28 +37,28 @@
 
 Якщо об'єкт належить до класу **stdClass**, серіалізуйте, як *документ BSON*
 
-Якщо об'єкт є підтримуваним класом, який реалізує [MongoDB\\BSON\\Type](class.mongodb-bson-type.html)Використовуйте логіку серіалізації BSON для цього конкретного типу. Примірники [MongoDB\\BSON\\Type](class.mongodb-bson-type.html) (виключаючи [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html) можна серіалізувати лише як значення поля документа. Спроба серіалізації такого об'єкта як кореневий документ призведе до викиду [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
+Якщо об'єкт є підтримуваним класом, який реалізує [MongoDBBSONType](class.mongodb-bson-type.html)Використовуйте логіку серіалізації BSON для цього конкретного типу. Примірники [MongoDBBSONType](class.mongodb-bson-type.html) (виключаючи [MongoDBBSONSerializable](class.mongodb-bson-serializable.html) можна серіалізувати лише як значення поля документа. Спроба серіалізації такого об'єкта як кореневий документ призведе до викиду [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
 
-Якщо об'єкт невідомого класу реалізує інтерфейс [MongoDB\\BSON\\Type](class.mongodb-bson-type.html), Видається виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
+Якщо об'єкт невідомого класу реалізує інтерфейс [MongoDBBSONType](class.mongodb-bson-type.html), Видається виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
 
 Якщо об'єкт відноситься до будь-якого іншого класу, без реалізації будь-якого спеціального інтерфейсу, серіалізуйте, як *документ BSON*. Залишайте тільки *public* властивості та ігноруйте *protected* і *private* властивості.
 
-Якщо об'єкт належить до класу, який реалізує інтерфейс [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html), викличте [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) і використовуйте повернутий масив або **stdClass** для серіалізації як документ BSON або масиву. Тип BSON визначатиметься таким:
+Якщо об'єкт належить до класу, який реалізує інтерфейс [MongoDBBSONSerializable](class.mongodb-bson-serializable.html), викличте [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) і використовуйте повернутий масив або **stdClass** для серіалізації як документ BSON або масиву. Тип BSON визначатиметься таким:
 
 1.  Кореневі документи мають бути серіалізовані як документ BSON.
     
-2.  [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html) об'єкти повинні бути серіалізовані як документ BSON.
+2.  [MongoDBBSONPersistable](class.mongodb-bson-persistable.html) об'єкти повинні бути серіалізовані як документ BSON.
     
-3.  Якщо [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) повертає упакований масив, серіалізуйте його як масив BSON.
+3.  Якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) повертає упакований масив, серіалізуйте його як масив BSON.
     
-4.  Якщо [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) повертає невпакований масив або **stdClass**, серіалізуйте як документ BSON.
+4.  Якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) повертає невпакований масив або **stdClass**, серіалізуйте як документ BSON.
     
-5.  Якщо [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) не повернув масив або **stdClass**, видасть виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
+5.  Якщо [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) не повернув масив або **stdClass**, видасть виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
     
 
-Якщо об'єкт належить до класу, який реалізує інтерфейс [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html) (що має на увазі [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html)), отримайте властивості аналогічно попереднім абзацям, але *також* додайте додаткову властивість pclass як Binary значення з підтипом `0x80` і даними, що містять повне ім'я класу об'єкта, що серіалізується.
+Якщо об'єкт належить до класу, який реалізує інтерфейс [MongoDBBSONPersistable](class.mongodb-bson-persistable.html) (що має на увазі [MongoDBBSONSerializable](class.mongodb-bson-serializable.html)), отримайте властивості аналогічно попереднім абзацям, але *також* додайте додаткову властивість pclass як Binary значення з підтипом `0x80` і даними, що містять повне ім'я класу об'єкта, що серіалізується.
 
-Властивість pclass додається в масив або об'єкт, що повертається [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html), що означає, що воно буде перезаписувати будь-який ключ/властивість pclass у значенні, що повертається [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html). Якщо ви хочете уникнути такої поведінки та встановити власне значення pclass, ви *не* повинні реалізовувати [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html) і натомість повинні реалізовувати [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html) безпосередньо.
+Властивість pclass додається в масив або об'єкт, що повертається [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html), що означає, що воно буде перезаписувати будь-який ключ/властивість pclass у значенні, що повертається [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html). Якщо ви хочете уникнути такої поведінки та встановити власне значення pclass, ви *не* повинні реалізовувати [MongoDBBSONPersistable](class.mongodb-bson-persistable.html) і натомість повинні реалізовувати [MongoDBBSONSerializable](class.mongodb-bson-serializable.html) безпосередньо.
 
 ## Приклади
 

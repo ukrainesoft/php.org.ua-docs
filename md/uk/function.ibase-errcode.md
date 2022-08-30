@@ -1,8 +1,8 @@
 Повертає код помилки
 
--   [« ibase\_drop\_db](function.ibase-drop-db.html)
+-   [« ibasedropдб](function.ibase-drop-db.html)
     
--   [ibase\_errmsg »](function.ibase-errmsg.html)
+-   [ibaseerrmsg »](function.ibase-errmsg.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,8 +31,8 @@ ibase_errcode(): int
 
 ### Значення, що повертаються
 
-Повертає код помилки у вигляді цілого числа або **`false`**якщо помилки не сталося.
+Повертає код помилки у вигляді цілого числа або \*\*`false`\*\*якщо помилки не сталося.
 
 ### Дивіться також
 
--   [ibase\_errmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку
+-   [ibaseerrmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку

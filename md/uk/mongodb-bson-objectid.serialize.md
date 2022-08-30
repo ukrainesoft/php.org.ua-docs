@@ -1,12 +1,12 @@
 Серіалізує ObjectId
 
--   [« MongoDB\\BSON\\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html)
+-   [« MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html)
     
--   [MongoDB\\BSON\\ObjectId::\_\_toString »](mongodb-bson-objectid.tostring.html)
+-   [MongoDBBSONObjectId::toString »](mongodb-bson-objectid.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+-   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
     
 -   Серіалізує ObjectId
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\ObjectId::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+Повертає серіалізовану виставу [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\ObjectId::unserialize()](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
+-   [MongoDBBSONObjectId::unserialize()](mongodb-bson-objectid.unserialize.html) - Десеріалізує ObjectId
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

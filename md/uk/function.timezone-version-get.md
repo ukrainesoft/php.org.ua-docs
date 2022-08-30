@@ -1,6 +1,6 @@
 Отримання номера версії бази даних часових поясів
 
--   [« timezone\_transitions\_get](function.timezone-transitions-get.html)
+-   [« timezonetransitionsget](function.timezone-transitions-get.html)
     
 -   [Допустимые форматы даты/времени »](datetime.formats.html)
     
@@ -51,4 +51,4 @@ echo timezone_version_get();
 
 ### Дивіться також
 
--   [Список поддерживаемых часовых поясов](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.html)

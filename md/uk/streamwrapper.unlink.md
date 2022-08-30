@@ -1,8 +1,8 @@
 Видалення файлу
 
--   [« streamWrapper::stream\_write](streamwrapper.stream-write.html)
+-   [« streamWrapper::streamwrite](streamwrapper.stream-write.html)
     
--   [streamWrapper::url\_stat »](streamwrapper.url-stat.html)
+-   [streamWrapper::urlstat »](streamwrapper.url-stat.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Запустити сервер RPC
 
--   [« Yar\_Server::\_\_construct](yar-server.construct.html)
+-   [« YarServer::construct](yar-server.construct.html)
     
--   [Yar\_Client »](class.yar-client.html)
+-   [YarClient »](class.yar-client.html)
     
 -   [PHP Manual](index.html)
     
--   [Yar\_Server](class.yar-server.html)
+-   [YarServer](class.yar-server.html)
     
 -   Запустити сервер RPC
     
@@ -65,4 +65,4 @@ $service->handle();
 
 ### Дивіться також
 
--   [Yar\_Server::\_\_construct()](yar-server.construct.html) - Конструктор YarServer
+-   [YarServer::construct()](yar-server.construct.html) - Конструктор YarServer

@@ -1,8 +1,8 @@
 Очищує історію команд
 
--   [« readline\_callback\_read\_char](function.readline-callback-read-char.html)
+-   [« readlinecallbackreadchar](function.readline-callback-read-char.html)
     
--   [readline\_completion\_function »](function.readline-completion-function.html)
+-   [readlinecompletionfunction »](function.readline-completion-function.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Вирази
 
--   [« Магические константы](language.constants.magic.html)
+-   [Магічні константи](language.constants.magic.html)
     
--   [Операторы »](language.operators.html)
+-   [Оператори »](language.operators.html)
     
 -   [PHP Manual](index.html)
     

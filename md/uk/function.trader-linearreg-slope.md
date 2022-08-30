@@ -1,8 +1,8 @@
 Лінійний регресійний нахил
 
--   [« trader\_linearreg\_intercept](function.trader-linearreg-intercept.html)
+-   [« traderlinearregintercept](function.trader-linearreg-intercept.html)
     
--   [trader\_linearreg »](function.trader-linearreg.html)
+-   [traderlinearreg »](function.trader-linearreg.html)
     
 -   [PHP Manual](index.html)
     

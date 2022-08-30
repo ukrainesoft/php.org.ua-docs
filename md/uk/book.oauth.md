@@ -23,11 +23,11 @@ OAuth
 -   [Примеры](oauth.examples.html)
     -   [FireEagle](oauth.examples.fireeagle.html)
 -   [Функции OAuth](ref.oauth.html)
-    -   [oauth\_get\_sbs](function.oauth-get-sbs.html) - Створити базовий рядок підпису (Signature Base String)
-    -   [oauth\_urlencode](function.oauth-urlencode.html) — Кодує URI відповідно до RFC 3986
+    -   [oauthgetsbs](function.oauth-get-sbs.html) - Створити базовий рядок підпису (Signature Base String)
+    -   [oauthurlencode](function.oauth-urlencode.html) — Кодує URI відповідно до RFC 3986
 -   [OAuth](class.oauth.html) - Клас OAuth
-    -   [OAuth::\_\_construct](oauth.construct.html) — Створює новий об'єкт OAuth
-    -   [OAuth::\_\_destruct](oauth.destruct.html) - Деструктор
+    -   [OAuth::construct](oauth.construct.html) — Створює новий об'єкт OAuth
+    -   [OAuth::destruct](oauth.destruct.html) - Деструктор
     -   [OAuth::disableDebug](oauth.disabledebug.html) — Вимкнути докладну налагоджувальну інформацію
     -   [OAuth::disableRedirects](oauth.disableredirects.html) — Вимкнути переадресацію
     -   [OAuth::disableSSLChecks](oauth.disablesslchecks.html) — Вимкнути SSL перевірки
@@ -58,7 +58,7 @@ OAuth
     -   [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.html) — Викликати callback-функцію timestampNonceHandler
     -   [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.html) — Викликати callback-функцію tokenNonceHandler
     -   [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.html) - Перевірка запиту oauth
-    -   [OAuthProvider::\_\_construct](oauthprovider.construct.html) - Конструктор класу OAuthProvider
+    -   [OAuthProvider::construct](oauthprovider.construct.html) - Конструктор класу OAuthProvider
     -   [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.html) — Встановити обробник consumerHandler
     -   [OAuthProvider::generateToken](oauthprovider.generatetoken.html) - Генерація випадкового токена
     -   [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.html) - is2LeggedEndpoint

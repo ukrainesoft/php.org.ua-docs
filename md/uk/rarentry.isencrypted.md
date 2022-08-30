@@ -2,7 +2,7 @@
 
 -   [« RarEntry::isDirectory](rarentry.isdirectory.html)
     
--   [RarEntry::\_\_toString »](rarentry.tostring.html)
+-   [RarEntry::toString »](rarentry.tostring.html)
     
 -   [PHP Manual](index.html)
     

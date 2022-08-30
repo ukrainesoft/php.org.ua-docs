@@ -1,6 +1,6 @@
 Перевести подію в пасивний стан
 
--   [« Event::\_\_construct](event.construct.html)
+-   [« Event::construct](event.construct.html)
     
 -   [Event::delSignal »](event.delsignal.html)
     

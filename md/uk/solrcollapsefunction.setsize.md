@@ -2,7 +2,7 @@
 
 -   [« SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.html)
     
--   [SolrCollapseFunction::\_\_toString »](solrcollapsefunction.tostring.html)
+-   [SolrCollapseFunction::toString »](solrcollapsefunction.tostring.html)
     
 -   [PHP Manual](index.html)
     

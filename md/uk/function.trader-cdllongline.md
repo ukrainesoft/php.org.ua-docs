@@ -1,8 +1,8 @@
 Свічкова модель "Довга свічка"
 
--   [« trader\_cdllongleggeddoji](function.trader-cdllongleggeddoji.html)
+-   [« tradercdllongleggeddoji](function.trader-cdllongleggeddoji.html)
     
--   [trader\_cdlmarubozu »](function.trader-cdlmarubozu.html)
+-   [tradercdlmarubozu »](function.trader-cdlmarubozu.html)
     
 -   [PHP Manual](index.html)
     

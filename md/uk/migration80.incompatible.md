@@ -36,21 +36,21 @@
     
 -   Помилки тверджень (assertions) тепер викидаються за умовчанням. Якщо краща стара поведінка, `assert.exception=0` можна встановити в INI-налаштуваннях.
     
--   Методи з тим самим ім'ям, як і клас, більше не інтерпретуються як конструктори. Натомість слід використовувати метод [\_\_construct()](language.oop5.decon.html#object.construct)
+-   Методи з тим самим ім'ям, як і клас, більше не інтерпретуються як конструктори. Натомість слід використовувати метод [construct()](language.oop5.decon.html#object.construct)
     
--   Можливість статичного виклику нестатичних методів видалено. Таким чином, [is\_callable()](function.is-callable.html) завершиться помилкою під час перевірки нестатичного методу з ім'ям класу (необхідно перевіряти з екземпляром об'єкта).
+-   Можливість статичного виклику нестатичних методів видалено. Таким чином, [ісcallable()](function.is-callable.html) завершиться помилкою під час перевірки нестатичного методу з ім'ям класу (необхідно перевіряти з екземпляром об'єкта).
     
 -   Приведення типів `(real)` і `(unset)` видалено.
     
--   INI-директива [track\_errors](errorfunc.configuration.html#ini.track-errors) видалено. Це означає, що phperrormsg більше не є актуальним. Замість нього можна використовувати функцію [error\_get\_last()](function.error-get-last.html)
+-   INI-директива [trackerrors](errorfunc.configuration.html#ini.track-errors) видалено. Це означає, що phperrormsg більше не є актуальним. Замість нього можна використовувати функцію [errorgetlast()](function.error-get-last.html)
     
 -   Можливість визначати константи без урахування регістру було видалено. Третій аргумент [define()](function.define.html) більше не може бути **`true`**
     
--   Можливість вказувати автозавантажувач за допомогою функції [\_\_autoload()](function.autoload.html) було видалено. Натомість слід використовувати [spl\_autoload\_register()](function.spl-autoload-register.html)
+-   Можливість вказувати автозавантажувач за допомогою функції [autoload()](function.autoload.html) було видалено. Натомість слід використовувати [splautoloadregister()](function.spl-autoload-register.html)
     
--   Аргумент `errcontext` більше не передається в користувальницькі обробники помилок, заданих за допомогою [set\_error\_handler()](function.set-error-handler.html)
+-   Аргумент `errcontext` більше не передається в користувальницькі обробники помилок, заданих за допомогою [seterrorhandler()](function.set-error-handler.html)
     
--   [create\_function()](function.create-function.html) було видалено. Замість неї можна використовувати анонімні функції.
+-   [createfunction()](function.create-function.html) було видалено. Замість неї можна використовувати анонімні функції.
     
 -   [each()](function.each.html) було видалено. Замість неї можна використовувати [foreach](control-structures.foreach.html) або [ArrayIterator](class.arrayiterator.html)
     
@@ -58,15 +58,15 @@
     
 -   Можливість відв'язати це від належних замикань, що містять використання цього, також була видалена.
     
--   Можливість використання [array\_key\_exists()](function.array-key-exists.html) з об'єктами було видалено. Натомість можна використовувати [isset()](function.isset.html) або [property\_exists()](function.property-exists.html)
+-   Можливість використання [arraykeyexists()](function.array-key-exists.html) з об'єктами було видалено. Натомість можна використовувати [isset()](function.isset.html) або [propertyexists()](function.property-exists.html)
     
--   Робота параметра `key` у функції [array\_key\_exists()](function.array-key-exists.html) тепер наведена відповідно до [isset()](function.isset.html) та звичайним доступом до масиву. Всі типи ключів тепер використовують звичайне приведення типів, масив/об'єкт до ключа призведе до викидання [TypeError](class.typeerror.html)
+-   Робота параметра `key` у функції [arraykeyexists()](function.array-key-exists.html) тепер наведена відповідно до [isset()](function.isset.html) та звичайним доступом до масиву. Всі типи ключів тепер використовують звичайне приведення типів, масив/об'єкт до ключа призведе до викидання [TypeError](class.typeerror.html)
     
 -   Будь-який масив, у якого в якості першого числового ключа вказано число n, використовуватиме n+1 для свого наступного неявного ключа, навіть якщо n негативно.
     
 -   Рівень errorreporting за замовчуванням тепер **`E_ALL`**. Раніше він виключав **`E_NOTICE`** і **`E_DEPRECATED`**
     
--   [display\_startup\_errors](errorfunc.configuration.html#ini.display-startup-errors) тепер включено за замовчуванням.
+-   [displaystartuperrors](errorfunc.configuration.html#ini.display-startup-errors) тепер включено за замовчуванням.
     
 -   Використання parent всередині класу, який не має батька, тепер призведе до фатальної помилки під час компіляції.
     
@@ -217,7 +217,7 @@
     ?>
     ```
     
-    Дивіться [printf()](function.printf.html) [number\_format()](function.number-format.html) і **NumberFormatter()** для отримання інформації про способи настроювання форматування чисел.
+    Дивіться [printf()](function.printf.html) [numberformat()](function.number-format.html) і **NumberFormatter()** для отримання інформації про способи настроювання форматування чисел.
     
 -   Видалено підтримку застарілих фігурних дужок для доступу до зміщення.
     
@@ -240,11 +240,11 @@
     
 -   Для вкладених тернарних операторів тепер потрібна явна вказівка ​​дужок.
     
--   [debug\_backtrace()](function.debug-backtrace.html) і [Exception::getTrace()](exception.gettrace.html) більше не надаватимуть посилання на аргументи. Неможливо змінити аргументи функції через трасування.
+-   [debugbacktrace()](function.debug-backtrace.html) і [Exception::getTrace()](exception.gettrace.html) більше не надаватимуть посилання на аргументи. Неможливо змінити аргументи функції через трасування.
     
 -   Обробка числових рядків була змінена, щоб зробити її більш зрозумілою і менш схильною до помилок. Завершальні прогалини тепер дозволено у числових рядках для узгодженості з тим, як обробляються початкові прогалини. В основному це впливає на:
     
-    -   функцію [is\_numeric()](function.is-numeric.html)
+    -   функцію [ісnumeric()](function.is-numeric.html)
     -   Порівняння рядків з рядками
     -   Оголошення типів
     -   Операції збільшення та зменшення
@@ -272,55 +272,55 @@
     -   `__unserialize(array $data): void`
     -   `__unset(string $name): void`
     -   `__wakeup(): void`
--   Ключі масиву [call\_user\_func\_array()](function.call-user-func-array.html) тепер інтерпретуватимуться як імена параметрів, а не ігноруватимуться.
+-   Ключі масиву [calluserfuncarray()](function.call-user-func-array.html) тепер інтерпретуватимуться як імена параметрів, а не ігноруватимуться.
     
 -   Оголошення функції з ім'ям `assert()` всередині простору імен більше не допускається та викликає **`E_COMPILE_ERROR`**. Функція [assert()](function.assert.html) піддається спеціальної обробки з боку движка, що може призвести до неузгодженої поведінки щодо однойменної функції у просторі імен.
     
 
 ### Перетворення ресурсів на об'єкти
 
-Декілька ресурсів ([resource](language.types.resource.html)) були перетворені на об'єкти (object). Перевірки значення, що повертається з використанням [is\_resource()](function.is-resource.html) слід замінити перевірками на **`false`**
+Декілька ресурсів ([resource](language.types.resource.html)) були перетворені на об'єкти (object). Перевірки значення, що повертається з використанням [ісresource()](function.is-resource.html) слід замінити перевірками на **`false`**
 
--   [curl\_init()](function.curl-init.html) тепер повертає об'єкт [CurlHandle](class.curlhandle.html) замість ресурсу ([resource](language.types.resource.html)). Функція [curl\_close()](function.curl-close.html) більше не має сенсу, натомість екземпляр [CurlHandle](class.curlhandle.html) автоматично знищується, якщо на нього немає посилання.
+-   [curlinit()](function.curl-init.html) тепер повертає об'єкт [CurlHandle](class.curlhandle.html) замість ресурсу ([resource](language.types.resource.html)). Функція [curlclose()](function.curl-close.html) більше не має сенсу, натомість екземпляр [CurlHandle](class.curlhandle.html) автоматично знищується, якщо на нього немає посилання.
     
--   [curl\_multi\_init()](function.curl-multi-init.html) тепер повертає об'єкт [CurlMultiHandle](class.curlmultihandle.html) замість ресурсу ([resource](language.types.resource.html)). Функція [curl\_multi\_close()](function.curl-multi-close.html) більше не має сенсу, натомість екземпляр [CurlMultiHandle](class.curlmultihandle.html) автоматично знищується, якщо на нього немає посилання.
+-   [curlmultiinit()](function.curl-multi-init.html) тепер повертає об'єкт [CurlMultiHandle](class.curlmultihandle.html) замість ресурсу ([resource](language.types.resource.html)). Функція [curlmulticlose()](function.curl-multi-close.html) більше не має сенсу, натомість екземпляр [CurlMultiHandle](class.curlmultihandle.html) автоматично знищується, якщо на нього немає посилання.
     
--   [curl\_share\_init()](function.curl-share-init.html) тепер повертає об'єкт [CurlShareHandle](class.curlsharehandle.html) замість ресурсу ([resource](language.types.resource.html)). Функція [curl\_share\_close()](function.curl-share-close.html) більше не має сенсу, натомість екземпляр [CurlShareHandle](class.curlsharehandle.html) автоматично знищується, якщо на нього немає посилання.
+-   [curlshareinit()](function.curl-share-init.html) тепер повертає об'єкт [CurlShareHandle](class.curlsharehandle.html) замість ресурсу ([resource](language.types.resource.html)). Функція [curlshareclose()](function.curl-share-close.html) більше не має сенсу, натомість екземпляр [CurlShareHandle](class.curlsharehandle.html) автоматично знищується, якщо на нього немає посилання.
     
--   [enchant\_broker\_init()](function.enchant-broker-init.html) тепер повертає об'єкт [EnchantBroker](class.enchantbroker.html) замість ресурсу ([resource](language.types.resource.html)
+-   [enchantbrokerinit()](function.enchant-broker-init.html) тепер повертає об'єкт [EnchantBroker](class.enchantbroker.html) замість ресурсу ([resource](language.types.resource.html)
     
--   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) і [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html) тепер повертають [EnchantDictionary](class.enchantdictionary.html) об'єкт замість ресурсу ([resource](language.types.resource.html)
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) і [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html) тепер повертають [EnchantDictionary](class.enchantdictionary.html) об'єкт замість ресурсу ([resource](language.types.resource.html)
     
 -   Модуль GD тепер використовує об'єкти [GdImage](class.gdimage.html) як базова структура даних для зображень, а не ресурси ([resource](language.types.resource.html)). Функція [imagedestroy()](function.imagedestroy.html) більше немає сенсу; натомість екземпляр [GdImage](class.gdimage.html) автоматично знищується, якщо на нього немає посилання.
     
--   [openssl\_x509\_read()](function.openssl-x509-read.html) і [openssl\_csr\_sign()](function.openssl-csr-sign.html) тепер повертають об'єкт [OpenSSLCertificate](class.opensslcertificate.html) замість ресурсу ([resource](language.types.resource.html)). Функція [openssl\_x509\_free()](function.openssl-x509-free.html) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLCertificate](class.opensslcertificate.html) автоматично знищується, якщо на нього більше не посилаються.
+-   [opensslx509read()](function.openssl-x509-read.html) і [opensslcsrsign()](function.openssl-csr-sign.html) тепер повертають об'єкт [OpenSSLCertificate](class.opensslcertificate.html) замість ресурсу ([resource](language.types.resource.html)). Функція [opensslx509free()](function.openssl-x509-free.html) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLCertificate](class.opensslcertificate.html) автоматично знищується, якщо на нього більше не посилаються.
     
--   [openssl\_csr\_new()](function.openssl-csr-new.html) тепер повертає об'єкт [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html) замість ресурсу ([resource](language.types.resource.html)
+-   [opensslcsrnew()](function.openssl-csr-new.html) тепер повертає об'єкт [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html) замість ресурсу ([resource](language.types.resource.html)
     
--   [openssl\_pkey\_new()](function.openssl-pkey-new.html) тепер повертає об'єкт [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) замість ресурсу ([resource](language.types.resource.html)). Функція [openssl\_pkey\_free()](function.openssl-pkey-free.html) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) автоматично знищується, якщо на нього більше не посилаються.
+-   [opensslpkeynew()](function.openssl-pkey-new.html) тепер повертає об'єкт [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) замість ресурсу ([resource](language.types.resource.html)). Функція [opensslpkeyfree()](function.openssl-pkey-free.html) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) автоматично знищується, якщо на нього більше не посилаються.
     
--   [shmop\_open()](function.shmop-open.html) тепер повертає об'єкт [Shmop](class.shmop.html) замість ресурсу ([resource](language.types.resource.html)). Функція [shmop\_close()](function.shmop-close.html) більше немає сенсу і оголошена застарілою; натомість екземпляр [Shmop](class.shmop.html) автоматично знищується, якщо на нього більше не посилаються.
+-   [shmopopen()](function.shmop-open.html) тепер повертає об'єкт [Shmop](class.shmop.html) замість ресурсу ([resource](language.types.resource.html)). Функція [shmopclose()](function.shmop-close.html) більше немає сенсу і оголошена застарілою; натомість екземпляр [Shmop](class.shmop.html) автоматично знищується, якщо на нього більше не посилаються.
     
--   [socket\_create()](function.socket-create.html) [socket\_create\_listen()](function.socket-create-listen.html) [socket\_accept()](function.socket-accept.html) [socket\_import\_stream()](function.socket-import-stream.html) [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html) [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html) і [socket\_wsaprotocol\_info\_import()](function.socket-wsaprotocol-info-import.html) тепер повертають об'єкт [Socket](class.socket.html) замість ресурсу ([resource](language.types.resource.html) . [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html) тепер повертає масив об'єктів [AddressInfo](class.addressinfo.html) замість масиву ресурсів ([resource](language.types.resource.html)
+-   [socketcreate()](function.socket-create.html) [socketcreatelisten()](function.socket-create-listen.html) [socketaccept()](function.socket-accept.html) [socketimportstream()](function.socket-import-stream.html) [socketaddrinfoconnect()](function.socket-addrinfo-connect.html) [socketaddrinfobind()](function.socket-addrinfo-bind.html) і [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.html) тепер повертають об'єкт [Socket](class.socket.html) замість ресурсу ([resource](language.types.resource.html) . [socketaddrinfolookup()](function.socket-addrinfo-lookup.html) тепер повертає масив об'єктів [AddressInfo](class.addressinfo.html) замість масиву ресурсів ([resource](language.types.resource.html)
     
--   [msg\_get\_queue()](function.msg-get-queue.html) тепер повертають об'єкт [SysvMessageQueue](class.sysvmessagequeue.html) замість ресурсу ([resource](language.types.resource.html)
+-   [msggetqueue()](function.msg-get-queue.html) тепер повертають об'єкт [SysvMessageQueue](class.sysvmessagequeue.html) замість ресурсу ([resource](language.types.resource.html)
     
--   [sem\_get()](function.sem-get.html) тепер повертають об'єкт [SysvSemaphore](class.sysvsemaphore.html) замість ресурсу ([resource](language.types.resource.html)
+-   [semget()](function.sem-get.html) тепер повертають об'єкт [SysvSemaphore](class.sysvsemaphore.html) замість ресурсу ([resource](language.types.resource.html)
     
--   [shm\_attach()](function.shm-attach.html) тепер повертають об'єкт [SysvSharedMemory](class.sysvsharedmemory.html) замість ресурсу ([resource](language.types.resource.html)
+-   [shmattach()](function.shm-attach.html) тепер повертають об'єкт [SysvSharedMemory](class.sysvsharedmemory.html) замість ресурсу ([resource](language.types.resource.html)
     
--   [xml\_parser\_create()](function.xml-parser-create.html) і [xml\_parser\_create\_ns()](function.xml-parser-create-ns.html) тепер повертають об'єкт [XMLParser](class.xmlparser.html) замість ресурсу ([resource](language.types.resource.html)). Функція [xml\_parser\_free()](function.xml-parser-free.html) більше не має сенсу, натомість екземпляр XMLParser автоматично знищується, якщо на нього більше не посилаються.
+-   [xmlparsercreate()](function.xml-parser-create.html) і [xmlparsercreatens()](function.xml-parser-create-ns.html) тепер повертають об'єкт [XMLParser](class.xmlparser.html) замість ресурсу ([resource](language.types.resource.html)). Функція [xmlparserfree()](function.xml-parser-free.html) більше не має сенсу, натомість екземпляр XMLParser автоматично знищується, якщо на нього більше не посилаються.
     
 -   Функції [XMLWriter](book.xmlwriter.html) тепер приймають та повертають, відповідно, об'єкти [XMLWriter](class.xmlwriter.html) замість ресурсів ([resource](language.types.resource.html)
     
--   [inflate\_init()](function.inflate-init.html) тепер повертає об'єкт [InflateContext](class.inflatecontext.html) замість ресурсу ([resource](language.types.resource.html)
+-   [inflateinit()](function.inflate-init.html) тепер повертає об'єкт [InflateContext](class.inflatecontext.html) замість ресурсу ([resource](language.types.resource.html)
     
--   [deflate\_init()](function.deflate-init.html) тепер повертає об'єкт [DeflateContext](class.deflatecontext.html) замість ресурсу ([resource](language.types.resource.html)
+-   [deflateinit()](function.deflate-init.html) тепер повертає об'єкт [DeflateContext](class.deflatecontext.html) замість ресурсу ([resource](language.types.resource.html)
     
 
 ### COM та .Net (Windows)
 
-Можливість імпорту констант без урахування регістру з бібліотек типів було видалено. Другий аргумент [com\_load\_typelib()](function.com-load-typelib.html) більше не може бути false; [com.autoregister\_casesensitive](com.configuration.html#ini.com.autoregister-casesensitive) більше не можна вимкнути; Маркери без урахування регістру в [com.typelib\_file](com.configuration.html#ini.com.typelib-file) ігноруються.
+Можливість імпорту констант без урахування регістру з бібліотек типів було видалено. Другий аргумент [comloadtypelib()](function.com-load-typelib.html) більше не може бути false; [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) більше не можна вимкнути; Маркери без урахування регістру в [com.typelibfile](com.configuration.html#ini.com.typelib-file) ігноруються.
 
 ### CURL
 
@@ -361,17 +361,17 @@
 
 ### Enchant
 
--   [enchant\_broker\_list\_dicts()](function.enchant-broker-list-dicts.html) [enchant\_broker\_describe()](function.enchant-broker-describe.html) і [enchant\_dict\_suggest()](function.enchant-dict-suggest.html) тепер повертають порожній масив замість **`null`**
+-   [enchantbrokerlistdicts()](function.enchant-broker-list-dicts.html) [enchantbrokerdescribe()](function.enchant-broker-describe.html) і [enchantdictsuggest()](function.enchant-dict-suggest.html) тепер повертають порожній масив замість **`null`**
 
 ### Exif
 
-[read\_exif\_data()](function.read-exif-data.html) була видалена; Замість неї слід використовувати [exif\_read\_data()](function.exif-read-data.html)
+[readexifdata()](function.read-exif-data.html) була видалена; Замість неї слід використовувати [exifreaddata()](function.exif-read-data.html)
 
 ### Фільтрування даних
 
 -   Прапори **`FILTER_FLAG_SCHEME_REQUIRED`** і **`FILTER_FLAG_HOST_REQUIRED`** для фільтра **`FILTER_VALIDATE_URL`** були видалені . `scheme` і `host` необхідні (і завжди були).
     
--   Типи **`INPUT_REQUEST`** і **`INPUT_SESSION`** для [filter\_input()](function.filter-input.html) та її похідних були видалені. Вони ніколи не були реалізовані, а спроба їх використання завжди викликала попередження.
+-   Типи **`INPUT_REQUEST`** і **`INPUT_SESSION`** для [filterinput()](function.filter-input.html) та її похідних були видалені. Вони ніколи не були реалізовані, а спроба їх використання завжди викликала попередження.
     
 
 ### ДД
@@ -387,7 +387,7 @@
 
 ### GMP
 
-[gmp\_random()](function.gmp-random.html) було видалено. Замість неї слід використовувати [gmp\_random\_range()](function.gmp-random-range.html) або [gmp\_random\_bits()](function.gmp-random-bits.html)
+[gmprandom()](function.gmp-random.html) було видалено. Замість неї слід використовувати [gmprandomrange()](function.gmp-random-range.html) або [gmprandombits()](function.gmp-random-bits.html)
 
 ### Iconv
 
@@ -395,9 +395,9 @@
 
 ### IMAP
 
--   Невикористовуваний аргумент `default_host` функції [imap\_headerinfo()](function.imap-headerinfo.html) був видалений.
+-   Невикористовуваний аргумент `default_host` функції [imapheaderinfo()](function.imap-headerinfo.html) був видалений.
     
--   Функція [imap\_header()](function.imap-header.html)яка є псевдонімом [imap\_headerinfo()](function.imap-headerinfo.html), було видалено.
+-   Функція [imapheader()](function.imap-header.html)яка є псевдонімом [imapheaderinfo()](function.imap-headerinfo.html), було видалено.
     
 
 ### Функції інтернаціоналізації
@@ -409,46 +409,46 @@
 
 ### LDAP
 
--   Застарілі функції [ldap\_sort()](function.ldap-sort.html) [ldap\_control\_paged\_result()](function.ldap-control-paged-result.html) і [ldap\_control\_paged\_result\_response()](function.ldap-control-paged-result-response.html) видалено.
+-   Застарілі функції [ldapsort()](function.ldap-sort.html) [ldapcontrolpagedresult()](function.ldap-control-paged-result.html) і [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.html) видалено.
     
--   Змінився інтерфейс [ldap\_set\_rebind\_proc()](function.ldap-set-rebind-proc.html); параметр `callback` більше не приймає порожні рядки; натомість слід вказувати **`null`**
+-   Змінився інтерфейс [ldapsetrebindproc()](function.ldap-set-rebind-proc.html); параметр `callback` більше не приймає порожні рядки; натомість слід вказувати **`null`**
     
 
 ### MBString
 
--   Директива [mbstring.func\_overload](mbstring.configuration.html#ini.mbstring.func-overload) було видалено. Пов'язані константи **`MB_OVERLOAD_MAIL`** **`MB_OVERLOAD_STRING`** і **`MB_OVERLOAD_REGEX`** також було видалено. Зрештою, записи `"func_overload"` і `"func_overload_list"` в [mb\_get\_info()](function.mb-get-info.html) були вилучені.
+-   Директива [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload) було видалено. Пов'язані константи **`MB_OVERLOAD_MAIL`** **`MB_OVERLOAD_STRING`** і **`MB_OVERLOAD_REGEX`** також було видалено. Зрештою, записи `"func_overload"` і `"func_overload_list"` в [мбgetinfo()](function.mb-get-info.html) були вилучені.
     
--   [mb\_parse\_str()](function.mb-parse-str.html) більше не можна використовувати без передачі масиву результатів.
+-   [мбparsestr()](function.mb-parse-str.html) більше не можна використовувати без передачі масиву результатів.
     
 -   Видалено низку застарілих псевдонімів mbregex. У наступному списку вказано, які функції слід використовувати замість них:
     
-    -   **mbregexencoding()** [mb\_regex\_encoding()](function.mb-regex-encoding.html)
-    -   **mbereg()** [mb\_ereg()](function.mb-ereg.html)
-    -   **mberegi()** [mb\_eregi()](function.mb-eregi.html)
-    -   **mberegreplace()** [mb\_ereg\_replace()](function.mb-ereg-replace.html)
-    -   **mberegireplace()** [mb\_eregi\_replace()](function.mb-eregi-replace.html)
-    -   **mbsplit()** [mb\_split()](function.mb-split.html)
-    -   **mberegmatch()** [mb\_ereg\_match()](function.mb-ereg-match.html)
-    -   **mberegsearch()** [mb\_ereg\_search()](function.mb-ereg-search.html)
-    -   **mberegsearchpos()** [mb\_ereg\_search\_pos()](function.mb-ereg-search-pos.html)
-    -   **mberegsearchregs()** [mb\_ereg\_search\_regs()](function.mb-ereg-search-regs.html)
-    -   **mberegsearchinit()** [mb\_ereg\_search\_init()](function.mb-ereg-search-init.html)
-    -   **mberegsearchgetregs()** [mb\_ereg\_search\_getregs()](function.mb-ereg-search-getregs.html)
-    -   **mberegsearchgetpos()** [mb\_ereg\_search\_getpos()](function.mb-ereg-search-getpos.html)
-    -   **mberegsearchsetpos()** [mb\_ereg\_search\_setpos()](function.mb-ereg-search-setpos.html)
--   Модифікатор `e` для [mb\_ereg\_replace()](function.mb-ereg-replace.html) був видалений. Замість нього слід використовувати[mb\_ereg\_replace\_callback()](function.mb-ereg-replace-callback.html)
+    -   **mbregexencoding()** [мбregexencoding()](function.mb-regex-encoding.html)
+    -   **mbereg()** [мбereg()](function.mb-ereg.html)
+    -   **mberegi()** [мбeregi()](function.mb-eregi.html)
+    -   **mberegreplace()** [мбeregreplace()](function.mb-ereg-replace.html)
+    -   **mberegireplace()** [мбeregireplace()](function.mb-eregi-replace.html)
+    -   **mbsplit()** [мбsplit()](function.mb-split.html)
+    -   **mberegmatch()** [мбeregmatch()](function.mb-ereg-match.html)
+    -   **mberegsearch()** [мбeregsearch()](function.mb-ereg-search.html)
+    -   **mberegsearchpos()** [мбeregsearchpos()](function.mb-ereg-search-pos.html)
+    -   **mberegsearchregs()** [мбeregsearchregs()](function.mb-ereg-search-regs.html)
+    -   **mberegsearchinit()** [мбeregsearchinit()](function.mb-ereg-search-init.html)
+    -   **mberegsearchgetregs()** [мбeregsearchgetregs()](function.mb-ereg-search-getregs.html)
+    -   **mberegsearchgetpos()** [мбeregsearchgetpos()](function.mb-ereg-search-getpos.html)
+    -   **mberegsearchsetpos()** [мбeregsearchsetpos()](function.mb-ereg-search-setpos.html)
+-   Модифікатор `e` для [мбeregreplace()](function.mb-ereg-replace.html) був видалений. Замість нього слід використовувати[мбeregreplacecallback()](function.mb-ereg-replace-callback.html)
     
--   Аргумент нерядкового шаблону для [mb\_ereg\_replace()](function.mb-ereg-replace.html) тепер інтерпретуватиметься як рядок замість кодової точки ASCII. Попередню поведінку можна відновити явним викликом [chr()](function.chr.html)
+-   Аргумент нерядкового шаблону для [мбeregreplace()](function.mb-ereg-replace.html) тепер інтерпретуватиметься як рядок замість кодової точки ASCII. Попередню поведінку можна відновити явним викликом [chr()](function.chr.html)
     
--   Аргумент `needle` для функцій [mb\_strpos()](function.mb-strpos.html) [mb\_strrpos()](function.mb-strrpos.html) [mb\_stripos()](function.mb-stripos.html) [mb\_strripos()](function.mb-strripos.html) [mb\_strstr()](function.mb-strstr.html) [mb\_stristr()](function.mb-stristr.html) [mb\_strrchr()](function.mb-strrchr.html) і [mb\_strrichr()](function.mb-strrichr.html) тепер може бути порожнім.
+-   Аргумент `needle` для функцій [мбstrpos()](function.mb-strpos.html) [мбstrrpos()](function.mb-strrpos.html) [мбstripos()](function.mb-stripos.html) [мбstrripos()](function.mb-strripos.html) [мбstrstr()](function.mb-strstr.html) [мбstristr()](function.mb-stristr.html) [мбstrrchr()](function.mb-strrchr.html) і [мбstrrichr()](function.mb-strrichr.html) тепер може бути порожнім.
     
--   Параметр `is_hex`, який не використовувався для внутрішніх цілей, був видалений з [mb\_decode\_numericentity()](function.mb-decode-numericentity.html)
+-   Параметр `is_hex`, який не використовувався для внутрішніх цілей, був видалений з [мбdecodenumericentity()](function.mb-decode-numericentity.html)
     
--   Застаріла поведінка передачі кодування як третій аргумент замість зміщення функції [mb\_strrpos()](function.mb-strrpos.html) було видалено; замість цього як четвертий аргумент слід вказати явне зміщення `0` з кодуванням.
+-   Застаріла поведінка передачі кодування як третій аргумент замість зміщення функції [мбstrrpos()](function.mb-strrpos.html) було видалено; замість цього як четвертий аргумент слід вказати явне зміщення `0` з кодуванням.
     
 -   Псевдоніми кодування символів `ISO_8859-*` були замінені на псевдоніми `ISO8859-*` для кращої сумісності із модулем iconv. Псевдоніми mbregex ISO 8859 з підкресленням (`ISO_8859_*` і `ISO8859_*`) також були видалені.
     
--   [mb\_ereg()](function.mb-ereg.html) і [mb\_eregi()](function.mb-eregi.html) тепер повертатимуть логічне значення **`true`**, у разі знайденого збігу. Раніше вони повертали ціле число `1`, якщо аргумент `matches` не було передано, або `max(1, strlen($matches[0]))`, якщо `matches` був не пустий.
+-   [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.html) тепер повертатимуть логічне значення **`true`**, у разі знайденого збігу. Раніше вони повертали ціле число `1`, якщо аргумент `matches` не було передано, або `max(1, strlen($matches[0]))`, якщо `matches` був не пустий.
     
 
 ### OCI8
@@ -457,19 +457,19 @@
     
 -   Деякі функції псевдонімів оголошено застарілим.
     
--   [oci\_internal\_debug()](function.oci-internal-debug.html) та її псевдонім [ociinternaldebug()](function.ociinternaldebug.html) були вилучені.
+-   [ociinternaldebug()](function.oci-internal-debug.html) та її псевдонім [ociinternaldebug()](function.ociinternaldebug.html) були вилучені.
     
 
 ### ODBC
 
--   [odbc\_connect()](function.odbc-connect.html) більше не використовує з'єднання повторно.
+-   [odbcconnect()](function.odbc-connect.html) більше не використовує з'єднання повторно.
     
--   Параметр, що не використовується `flags` функції [odbc\_exec()](function.odbc-exec.html) був видалений.
+-   Параметр, що не використовується `flags` функції [odbcexec()](function.odbc-exec.html) був видалений.
     
 
 ### OpenSSL
 
--   [openssl\_seal()](function.openssl-seal.html) і [openssl\_open()](function.openssl-open.html) тепер вимагають передачі `method`, так як попереднє значення за замовчуванням `"RC4"` вважається небезпечним.
+-   [opensslseal()](function.openssl-seal.html) і [opensslopen()](function.openssl-open.html) тепер вимагають передачі `method`, так як попереднє значення за замовчуванням `"RC4"` вважається небезпечним.
 
 ### Регулярні вирази (сумісні з Perl)
 
@@ -486,7 +486,7 @@
 
 ### PDO ODBC
 
-Директива php.ini [pdo\_odbc.db2\_instance\_name](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) було видалено.
+Директива php.ini [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) було видалено.
 
 ### PDO MySQL
 
@@ -494,11 +494,11 @@
 
 ### PostgreSQL
 
--   Застарілий синтаксис [pg\_connect()](function.pg-connect.html) за допомогою кількох параметрів замість рядка підключення більше не підтримується.
+-   Застарілий синтаксис [пгconnect()](function.pg-connect.html) за допомогою кількох параметрів замість рядка підключення більше не підтримується.
     
--   Застарілі сигнатури [pg\_lo\_import()](function.pg-lo-import.html) і [pg\_lo\_export()](function.pg-lo-export.html), що передають з'єднання як останній аргумент, більше не підтримуються. Натомість з'єднання має бути передано першим аргументом.
+-   Застарілі сигнатури [пглоimport()](function.pg-lo-import.html) і [пглоexport()](function.pg-lo-export.html), що передають з'єднання як останній аргумент, більше не підтримуються. Натомість з'єднання має бути передано першим аргументом.
     
--   [pg\_fetch\_all()](function.pg-fetch-all.html) тепер повертатиме порожній масив замість **`false`** для наборів результатів із відсутніми рядками.
+-   [пгfetchall()](function.pg-fetch-all.html) тепер повертатиме порожній масив замість **`false`** для наборів результатів із відсутніми рядками.
     
 
 ### Phar
@@ -524,18 +524,18 @@
     -   `ReflectionClass::newInstance($arg = null, ...$args)`
     -   `ReflectionFunction::invoke($arg = null, ...$args)`
     -   `ReflectionMethod::invoke($object, $arg = null, ...$args)`
--   Метод [ReflectionType::\_\_toString()](reflectiontype.tostring.html) тепер повертатиме повне налагоджувальне уявлення типу і більше не є застарілим. Зокрема, результат включатиме індикатор допустимості значень NULL для типів, що допускають значення NULL. Формат значення, що повертається, нестабільний і може змінюватися в залежності від версії PHP.
+-   Метод [ReflectionType::toString()](reflectiontype.tostring.html) тепер повертатиме повне налагоджувальне уявлення типу і більше не є застарілим. Зокрема, результат включатиме індикатор допустимості значень NULL для типів, що допускають значення NULL. Формат значення, що повертається, нестабільний і може змінюватися в залежності від версії PHP.
     
 -   Методи Reflection export() були видалені. Натомість об'єкти reflection можуть бути перетворені на рядок.
     
--   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.html) і [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.html) тепер також повертають **`true`** для методів інтерфейсів [\_\_construct()](language.oop5.decon.html#object.construct) і [\_\_destruct()](language.oop5.decon.html#object.destruct). Раніше це було вірно лише для методів класів та трейтів.
+-   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.html) і [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.html) тепер також повертають **`true`** для методів інтерфейсів [construct()](language.oop5.decon.html#object.construct) і [destruct()](language.oop5.decon.html#object.destruct). Раніше це було вірно лише для методів класів та трейтів.
     
 -   Метод **ReflectionType::isBuiltin()** переміщений у [ReflectionNamedType](class.reflectionnamedtype.html). У [ReflectionUnionType](class.reflectionuniontype.html) цього методу немає.
     
 
 ### Сокети
 
--   Застарілі `flags` **`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`** для [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html) були вилучені.
+-   Застарілі `flags` **`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`** для [socketaddrinfolookup()](function.socket-addrinfo-lookup.html) були вилучені.
 
 ### Стандартна бібліотека PHP (SPL)
 
@@ -547,48 +547,48 @@
     
 -   [SplDoublyLinkedList::push()](spldoublylinkedlist.push.html) [SplDoublyLinkedList::unshift()](spldoublylinkedlist.unshift.html) і [SplQueue::enqueue()](splqueue.enqueue.html) тепер повертають void замість **`true`**
     
--   [spl\_autoload\_register()](function.spl-autoload-register.html) тепер завжди викидатиме [TypeError](class.typeerror.html) для неприпустимих аргументів, тому другий аргумент `do_throw` ігнорується, якщо для нього встановлено значення **`false`**
+-   [splautoloadregister()](function.spl-autoload-register.html) тепер завжди викидатиме [TypeError](class.typeerror.html) для неприпустимих аргументів, тому другий аргумент `do_throw` ігнорується, якщо для нього встановлено значення **`false`**
     
 -   [SplFixedArray](class.splfixedarray.html) тепер є [IteratorAggregate](class.iteratoraggregate.html), а не [Iterator](class.iterator.html). . [SplFixedArray::rewind()](splfixedarray.rewind.html) [SplFixedArray::current()](splfixedarray.current.html) [SplFixedArray::key()](splfixedarray.key.html) [SplFixedArray::next()](splfixedarray.next.html) і [SplFixedArray::valid()](splfixedarray.valid.html) були вилучені. Замість них було додано **SplFixedArray::getIterator()**. Будь-який код, який використовує явну ітерацію над SplFixedArray, тепер має отримати [Iterator](class.iterator.html) за допомогою **SplFixedArray::getIterator()**. Це означає, що [SplFixedArray](class.splfixedarray.html) тепер безпечно використовувати у вкладених циклах.
     
 
 ### Бібліотека стандартних функцій
 
--   [assert()](function.assert.html) більше не виконуватиме рядкові аргументи, натомість вони будуть оброблятися як будь-які звичайні аргументи. Таким чином, замість `assert('$a == $b')` слід використовувати `assert($a == $b)`. INI-директива [assert.quiet\_eval](info.configuration.html#ini.assert.quiet-eval) та константа **`ASSERT_QUIET_EVAL`** були видалені, оскільки вони не мають сенсу.
+-   [assert()](function.assert.html) більше не виконуватиме рядкові аргументи, натомість вони будуть оброблятися як будь-які звичайні аргументи. Таким чином, замість `assert('$a == $b')` слід використовувати `assert($a == $b)`. INI-директива [assert.quieteval](info.configuration.html#ini.assert.quiet-eval) та константа **`ASSERT_QUIET_EVAL`** були видалені, оскільки вони не мають сенсу.
     
--   [parse\_str()](function.parse-str.html) більше не можна використовувати без зазначення масиву результатів.
+-   [parsestr()](function.parse-str.html) більше не можна використовувати без зазначення масиву результатів.
     
--   Фільтр [string.strip\_tags](filters.string.html#filters.string.strip_tags) видалено.
+-   Фільтр [string.striptags](filters.string.html#filters.string.strip_tags) видалено.
     
 -   Аргумент `needle` функцій [strpos()](function.strpos.html) [strrpos()](function.strrpos.html) [stripos()](function.stripos.html) [strripos()](function.strripos.html) [strstr()](function.strstr.html) [strchr()](function.strchr.html) [strrchr()](function.strrchr.html) і [stristr()](function.stristr.html) тепер завжди інтерпретуватиметься як рядок. Раніше невеликі потреби інтерпретувалися як кодова точка ASCII. Явний виклик [chr()](function.chr.html) може використовуватись для відновлення попередньої поведінки.
     
 -   Аргумент `needle` функцій [strpos()](function.strpos.html) [strrpos()](function.strrpos.html) [stripos()](function.stripos.html) [strripos()](function.strripos.html) [strstr()](function.strstr.html) [stristr()](function.stristr.html) і [strrchr()](function.strrchr.html) тепер може бути порожнім.
     
--   Аргумент `length` функцій [substr()](function.substr.html) [substr\_count()](function.substr-count.html) [substr\_compare()](function.substr-compare.html) і [iconv\_substr()](function.iconv-substr.html) тепер може бути **`null`**. Значення **`null`** означає відсутність аргументу довжини, і тому функції повернуть залишок рядка замість порожнього рядка.
+-   Аргумент `length` функцій [substr()](function.substr.html) [substrcount()](function.substr-count.html) [substrcompare()](function.substr-compare.html) і [iconvsubstr()](function.iconv-substr.html) тепер може бути **`null`**. Значення **`null`** означає відсутність аргументу довжини, і тому функції повернуть залишок рядка замість порожнього рядка.
     
--   Аргумент `length` функції [array\_splice()](function.array-splice.html) тепер може бути **`null`**. Передача значення **`null`** означає відсутність аргументу, тому функція видалити все, починаючи від `offset` до кінця масиву.
+-   Аргумент `length` функції [arraysplice()](function.array-splice.html) тепер може бути **`null`**. Передача значення **`null`** означає відсутність аргументу, тому функція видалити все, починаючи від `offset` до кінця масиву.
     
 -   Аргумент `args` функцій [vsprintf()](function.vsprintf.html) [vfprintf()](function.vfprintf.html) і [vprintf()](function.vprintf.html) тепер має бути масивом. Раніше приймався будь-який тип.
     
--   Параметр `'salt'` функції [password\_hash()](function.password-hash.html) більше не підтримується. Якщо використовується опція `'salt'`, генерується попередження, передана сіль ігнорується, а замість неї використовується сгенерована сіль.
+-   Параметр `'salt'` функції [passwordhash()](function.password-hash.html) більше не підтримується. Якщо використовується опція `'salt'`, генерується попередження, передана сіль ігнорується, а замість неї використовується сгенерована сіль.
     
 -   Функція [quotemeta()](function.quotemeta.html) тепер повертатиме порожній рядок, якщо було передано порожній рядок. Раніше поверталося **`false`**
     
 -   Видалено такі функції:
     
     -   [hebrevc()](function.hebrevc.html)
-    -   [convert\_cyr\_string()](function.convert-cyr-string.html)
-    -   [money\_format()](function.money-format.html)
-    -   [ezmlm\_hash()](function.ezmlm-hash.html)
-    -   [restore\_include\_path()](function.restore-include-path.html)
-    -   [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.html)
-    -   [get\_magic\_quotes\_runtime()](function.get-magic-quotes-runtime.html)
+    -   [convertcyrstring()](function.convert-cyr-string.html)
+    -   [moneyformat()](function.money-format.html)
+    -   [ezmlmhash()](function.ezmlm-hash.html)
+    -   [restoreincludepath()](function.restore-include-path.html)
+    -   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html)
+    -   [getmagicquotesruntime()](function.get-magic-quotes-runtime.html)
     -   [fgetss()](function.fgetss.html)
 -   **`FILTER_SANITIZE_MAGIC_QUOTES`** видалено.
     
 -   Виклик [implode()](function.implode.html) з параметрами у зворотному порядку `($pieces, $glue)` більше не підтримується.
     
--   [parse\_url()](function.parse-url.html) тепер буде розрізняти відсутні та порожні запити та фрагменти:
+-   [parseurl()](function.parse-url.html) тепер буде розрізняти відсутні та порожні запити та фрагменти:
     
     -   `http://example.com/foo → query = null, fragment = null`
     -   `http://example.com/foo? → query = "", fragment = null`
@@ -597,9 +597,9 @@
     
     Раніше у всіх випадках query та fragment були **`null`**
     
--   [var\_dump()](function.var-dump.html) і [debug\_zval\_dump()](function.debug-zval-dump.html) тепер друкуватимуть числа з плаваючою точкою, використовуючи [serialize\_precision](ini.core.html#ini.serialize-precision), а не [precision](ini.core.html#ini.precision). У конфігурації за промовчанням це означає, що цифри з плаваючою точкою тепер друкуються з повною точністю цими функціями налагодження.
+-   [vardump()](function.var-dump.html) і [debugzvaldump()](function.debug-zval-dump.html) тепер друкуватимуть числа з плаваючою точкою, використовуючи [serializeprecision](ini.core.html#ini.serialize-precision), а не [precision](ini.core.html#ini.precision). У конфігурації за промовчанням це означає, що цифри з плаваючою точкою тепер друкуються з повною точністю цими функціями налагодження.
     
--   Якщо масив, що повертається [\_\_sleep()](language.oop5.magic.html#object.sleep), Містить неіснуючі властивості, тепер вони автоматично проігноруються. Раніше такі властивості були б серіалізовані, якби вони мали значення **`null`**
+-   Якщо масив, що повертається [sleep()](language.oop5.magic.html#object.sleep), Містить неіснуючі властивості, тепер вони автоматично проігноруються. Раніше такі властивості були б серіалізовані, якби вони мали значення **`null`**
     
 -   Локаль за замовчуванням під час запуску тепер завжди буде визначено як `"C"`. За замовчуванням локалі не успадковуються з оточення. Раніше для **`LC_ALL`** було встановлено значення `"C"`, в той час як **`LC_CTYPE`** успадковувався від оточення. Однак деякі функції не враховували успадковану локаль без явного виклику [setlocale()](function.setlocale.html). Явний виклик [setlocale()](function.setlocale.html) тепер потрібно завжди, якщо компонент локалі повинен бути змінений зі значенням за замовчуванням.
     
@@ -609,9 +609,9 @@
     
 -   Результат функцій сортування міг змінитися, якщо масиві є однакові елементи.
     
--   Будь-які функції, що приймають callback-функції, які явно не вказані для прийому параметрів посилання, тепер будуть попереджати, якщо використовується callback-функція з посиланнями. Наприклад, [array\_filter()](function.array-filter.html) і [array\_reduce()](function.array-reduce.html). Раніше так було більшість функцій, але не всі.
+-   Будь-які функції, що приймають callback-функції, які явно не вказані для прийому параметрів посилання, тепер будуть попереджати, якщо використовується callback-функція з посиланнями. Наприклад, [arrayfilter()](function.array-filter.html) і [arrayreduce()](function.array-reduce.html). Раніше так було більшість функцій, але не всі.
     
--   Обгортка HTTP-потоку, використовувана такими функціями, як [file\_get\_contents()](function.file-get-contents.html), тепер за промовчанням оголошує HTTP/1.1, а не HTTP/1.0. Не змінює поведінки клієнта, але може змусити сервери реагувати інакше. Щоб зберегти стару поведінку, установіть параметр контексту потоку `'protocol_version'`, наприклад:
+-   Обгортка HTTP-потоку, використовувана такими функціями, як [filegetcontents()](function.file-get-contents.html), тепер за промовчанням оголошує HTTP/1.1, а не HTTP/1.0. Не змінює поведінки клієнта, але може змусити сервери реагувати інакше. Щоб зберегти стару поведінку, установіть параметр контексту потоку `'protocol_version'`, наприклад:
     
     ```php
     <?php
@@ -620,20 +620,20 @@
     ?>
     ```
     
--   Виклик [crypt()](function.crypt.html) без явної передачі солі більше не підтримується. Якщо ви хочете створити надійний хеш із автоматично згенерованою сіллю, використовуйте натомість [password\_hash()](function.password-hash.html)
+-   Виклик [crypt()](function.crypt.html) без явної передачі солі більше не підтримується. Якщо ви хочете створити надійний хеш із автоматично згенерованою сіллю, використовуйте натомість [passwordhash()](function.password-hash.html)
     
--   [substr()](function.substr.html) [mb\_substr()](function.mb-substr.html) [iconv\_substr()](function.iconv-substr.html) і [grapheme\_substr()](function.grapheme-substr.html) тепер послідовно фіксують зміщення межі кордону рядка. Раніше, у деяких випадках, замість порожнього рядка повертався **`false`**
+-   [substr()](function.substr.html) [мбsubstr()](function.mb-substr.html) [iconvsubstr()](function.iconv-substr.html) і [graphemesubstr()](function.grapheme-substr.html) тепер послідовно фіксують зміщення межі кордону рядка. Раніше, у деяких випадках, замість порожнього рядка повертався **`false`**
     
--   У Windows функції виконання програм ([proc\_open()](function.proc-open.html) [exec()](function.exec.html) [popen()](function.popen.html) і т.д.) з використанням оболонки тепер послідовно виконують **%comspec% /s /c "$commandline"**яка робить те ж саме, що і виконання **$commandline** (без додаткових лапок).
+-   У Windows функції виконання програм ([procopen()](function.proc-open.html) [exec()](function.exec.html) [popen()](function.popen.html) і т.д.) з використанням оболонки тепер послідовно виконують \*\*%comspec% /s /c "$commandline"\*\*яка робить те ж саме, що і виконання **$commandline** (без додаткових лапок).
     
 
 ### Зовсім
 
--   Параметр `auto_release` в [sem\_get()](function.sem-get.html) був змінений, щоб набувати логічних значень (bool), а не цілі числа (int).
+-   Параметр `auto_release` в [semget()](function.sem-get.html) був змінений, щоб набувати логічних значень (bool), а не цілі числа (int).
 
 ### Tidy
 
--   Параметр `use_include_path`, який не використовувався внутрішньо, був видалений з [tidy\_repair\_string()](tidy.repairstring.html)
+-   Параметр `use_include_path`, який не використовувався внутрішньо, був видалений з [tidyrepairstring()](tidy.repairstring.html)
     
 -   [tidy::repairString()](tidy.repairstring.html) і [tidy::repairFile()](tidy.repairfile.html) стали статичними методами
     
@@ -661,7 +661,7 @@
 
 -   [gzgetss()](function.gzgetss.html) видалено.
     
--   [zlib.output\_compression](zlib.configuration.html#ini.zlib.output-compression) більше не вимикається автоматично для `Content-Type: image/*`
+-   [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) більше не вимикається автоматично для `Content-Type: image/*`
     
 
 ### Пакети тестів PHP для Windows

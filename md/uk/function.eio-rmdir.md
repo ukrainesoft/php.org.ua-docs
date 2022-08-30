@@ -1,8 +1,8 @@
 Видаляє директорію
 
--   [« eio\_rename](function.eio-rename.html)
+-   [« eiorename](function.eio-rename.html)
     
--   [eio\_seek »](function.eio-seek.html)
+-   [eioseek »](function.eio-seek.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -94,4 +94,4 @@ eio_rmdir_ok
 
 ### Дивіться також
 
--   [eio\_mkdir()](function.eio-mkdir.html) - створення директорії
+-   [eiomkdir()](function.eio-mkdir.html) - створення директорії

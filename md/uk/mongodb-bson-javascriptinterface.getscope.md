@@ -1,12 +1,12 @@
 Повертає область видимості документа JavascriptInterface
 
--   [« MongoDB\\BSON\\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html)
+-   [« MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html)
     
--   [MongoDB\\BSON\\JavascriptInterface::\_\_toString »](mongodb-bson-javascriptinterface.tostring.html)
+-   [MongoDBBSONJavascriptInterface::toString »](mongodb-bson-javascriptinterface.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)
+-   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
     
 -   Повертає область видимості документа JavascriptInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\JavascriptInterface::getScope(): ?object
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Javascript::getScope()](mongodb-bson-javascript.getscope.html) - Повертає область документа JavaScript
+-   [MongoDBBSONJavascript::getScope()](mongodb-bson-javascript.getscope.html) - Повертає область документа JavaScript

@@ -19,8 +19,8 @@
 
 **`ENCHANT_MYSPELL`** (int)
 
-Тип словника MySpell. Використовується з [enchant\_broker\_get\_dict\_path()](function.enchant-broker-get-dict-path.html) і [enchant\_broker\_set\_dict\_path()](function.enchant-broker-set-dict-path.html). Оголошено застарілим у PHP 8.0.0.
+Тип словника MySpell. Використовується з [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.html) і [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html). Оголошено застарілим у PHP 8.0.0.
 
 **`ENCHANT_ISPELL`** (int)
 
-Тип словника Ispell. Використовується з [enchant\_broker\_get\_dict\_path()](function.enchant-broker-get-dict-path.html) і [enchant\_broker\_set\_dict\_path()](function.enchant-broker-set-dict-path.html). Оголошено застарілим у PHP 8.0.0.
+Тип словника Ispell. Використовується з [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.html) і [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html). Оголошено застарілим у PHP 8.0.0.

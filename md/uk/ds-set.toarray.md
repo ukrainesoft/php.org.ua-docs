@@ -1,8 +1,8 @@
 Перетворює колекцію на масив (array)
 
--   [« Ds\\Set::sum](ds-set.sum.html)
+-   [« DsSet::sum](ds-set.sum.html)
     
--   [Ds\\Set::union »](ds-set.union.html)
+-   [ДсSet::union »](ds-set.union.html)
     
 -   [PHP Manual](index.html)
     

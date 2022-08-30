@@ -1,12 +1,12 @@
 Встановлює значення конфігураційної установки includepath
 
--   [« restore\_include\_path](function.restore-include-path.html)
+-   [« restoreincludepath](function.restore-include-path.html)
     
--   [set\_time\_limit »](function.set-time-limit.html)
+-   [settimelimit »](function.set-time-limit.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Встановлює значення конфігураційної установки includepath
     
@@ -23,17 +23,17 @@ setincludepath — Встановлює налаштування конфігу�
 set_include_path(string $include_path): string|false
 ```
 
-Задає значення конфігураційної установки [include\_path](ini.core.html#ini.include-path) тимчасово виконання скрипта.
+Задає значення конфігураційної установки [includepath](ini.core.html#ini.include-path) тимчасово виконання скрипта.
 
 ### Список параметрів
 
 `include_path`
 
-Нове значення налаштування [include\_path](ini.core.html#ini.include-path)
+Нове значення налаштування [includepath](ini.core.html#ini.include-path)
 
 ### Значення, що повертаються
 
-Повертає старе значення [include\_path](ini.core.html#ini.include-path) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає старе значення [includepath](ini.core.html#ini.include-path) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -63,7 +63,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 
 ### Дивіться також
 
--   [ini\_set()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [get\_include\_path()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
--   [restore\_include\_path()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
+-   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
+-   [getincludepath()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
+-   [restoreincludepath()](function.restore-include-path.html) - Відновлює початкове значення конфігураційної установки includepath
 -   [include](function.include.html) - include

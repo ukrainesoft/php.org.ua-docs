@@ -1,8 +1,8 @@
 Генерує CSR
 
--   [« openssl\_csr\_get\_subject](function.openssl-csr-get-subject.html)
+-   [« opensslcsrgetsubject](function.openssl-csr-get-subject.html)
     
--   [openssl\_csr\_sign »](function.openssl-csr-sign.html)
+-   [opensslcsrsign »](function.openssl-csr-sign.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey 
 
 `private_key`
 
-Параметр `private_key` має бути заданий закритим ключем раніше згенерованим функцією [openssl\_pkey\_new()](function.openssl-pkey-new.html) (або отриманий за допомогою будь-якої іншої функції сімейства opensslpkey). Відповідна відкрита частина ключа буде використана для підписання CSR.
+Параметр `private_key` має бути заданий закритим ключем раніше згенерованим функцією [opensslpkeynew()](function.openssl-pkey-new.html) (або отриманий за допомогою будь-якої іншої функції сімейства opensslpkey). Відповідна відкрита частина ключа буде використана для підписання CSR.
 
 `options`
 
@@ -45,14 +45,14 @@ openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey 
 
 | Ключ `options`   | Тип    | Соответствие в `openssl.conf` | Описание                                                                                                                                                                                                          |
 |------------------|--------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| digestalg        | string | defaultмд                     | Один із методів [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html)                                                                                                                               |
+| digestalg        | string | defaultмд                     | Один із методів [opensslgetмдmethods()](function.openssl-get-md-methods.html)                                                                                                                                     |
 | x509extensions   | string | x509extensions                | Визначає, яке розширення має використовуватись для створення сертифіката x509                                                                                                                                     |
 | reqextensions    | string | reqextensions                 | Визначає, яке розширення має використовуватись для створення CSR                                                                                                                                                  |
 | privatekeybits   | int    | defaultbits                   | Задає, скільки біт має використовуватись для генерації закритого ключа                                                                                                                                            |
 | privatekeytype   | int    | none                          | Задає тип закритого ключа, що створюється. Одна з констант: **`OPENSSL_KEYTYPE_DSA`** **`OPENSSL_KEYTYPE_DH`** **`OPENSSL_KEYTYPE_RSA`** або **`OPENSSL_KEYTYPE_EC`**. За замовчуванням **`OPENSSL_KEYTYPE_RSA`** |
 | encryptkey       | bool   | encryptkey                    | Чи повинен шифруватися (паролем) ключ, що експортується?                                                                                                                                                          |
-| encryptkeycipher | int    | none                          | Одна з [констант шифров](openssl.ciphers.html)                                                                                                                                                                    |
-| curvename        | string | none                          | Одне з [openssl\_get\_curve\_names()](function.openssl-get-curve-names.html)                                                                                                                                      |
+| encryptkeycipher | int    | none                          | Одна з [констант шифрів](openssl.ciphers.html)                                                                                                                                                                    |
+| curvename        | string | none                          | Одне з [opensslgetcurvenames()](function.openssl-get-curve-names.html)                                                                                                                                            |
 | config           | string | N/A                           | Шлях до альтернативного конфігураційного файлу openssl.conf.                                                                                                                                                      |
 
 `extra_attributes`
@@ -141,4 +141,4 @@ openssl_pkey_export_to_file($private_key, 'ecc-private.key');
 
 ### Дивіться також
 
--   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

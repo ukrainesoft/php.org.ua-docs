@@ -1,8 +1,8 @@
 Клас PSpellDictionary
 
--   [« pspell\_suggest](function.pspell-suggest.html)
+-   [« pspellsuggest](function.pspell-suggest.html)
     
--   [PSpell\\Config »](class.pspell-config.html)
+-   [PSpellConfig »](class.pspell-config.html)
     
 -   [PHP Manual](index.html)
     

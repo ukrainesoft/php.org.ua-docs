@@ -2,7 +2,7 @@
 
 -   [« SolrDocument::clear](solrdocument.clear.html)
     
--   [SolrDocument::\_\_construct »](solrdocument.construct.html)
+-   [SolrDocument::construct »](solrdocument.construct.html)
     
 -   [PHP Manual](index.html)
     

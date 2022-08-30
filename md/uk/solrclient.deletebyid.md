@@ -1,6 +1,6 @@
 Видаляє за ідентифікатором
 
--   [« SolrClient::\_\_construct](solrclient.construct.html)
+-   [« SolrClient::construct](solrclient.construct.html)
     
 -   [SolrClient::deleteByIds »](solrclient.deletebyids.html)
     

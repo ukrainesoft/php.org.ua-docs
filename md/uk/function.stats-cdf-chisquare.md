@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу хі-квадрат за рештою
 
--   [« stats\_cdf\_cauchy](function.stats-cdf-cauchy.html)
+-   [« statscdfcauchy](function.stats-cdf-cauchy.html)
     
--   [stats\_cdf\_exponential »](function.stats-cdf-exponential.html)
+-   [statscdfexponential »](function.stats-cdf-exponential.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу хі-квадрат за рештою
     

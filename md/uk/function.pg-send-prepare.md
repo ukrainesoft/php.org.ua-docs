@@ -1,8 +1,8 @@
 Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
 
--   [« pg\_send\_execute](function.pg-send-execute.html)
+-   [« pgsendexecute](function.pg-send-execute.html)
     
--   [pg\_send\_query\_params »](function.pg-send-query-params.html)
+-   [пгsendqueryparams »](function.pg-send-query-params.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 Надсилає запит на створення параметризованого SQL виразу і не чекає на його завершення.
 
-Це асинхронна версія функції [pg\_prepare()](function.pg-prepare.html): вона повертає **`true`**, якщо вдалося надіслати запит, **`false`** в іншому випадку. Після успішного надсилання, скористайтеся функцією [pg\_get\_result()](function.pg-get-result.html), щоб дізнатися, чи створився необхідний вираз SQL. Аргументи функції обробляються так само, як у [pg\_prepare()](function.pg-prepare.html). Функція не працюватиме з серверами PostgreSQL версій нижче 7.4.
+Це асинхронна версія функції [пгprepare()](function.pg-prepare.html): вона повертає **`true`**, якщо вдалося надіслати запит, **`false`** в іншому випадку. Після успішного надсилання, скористайтеся функцією [пгgetresult()](function.pg-get-result.html), щоб дізнатися, чи створився необхідний вираз SQL. Аргументи функції обробляються так само, як у [пгprepare()](function.pg-prepare.html). Функція не працюватиме з серверами PostgreSQL версій нижче 7.4.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `statement_name`
 
@@ -43,13 +43,13 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [pg\_get\_result()](function.pg-get-result.html)
+Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.html)
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -83,8 +83,8 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 ### Дивіться також
 
--   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [pg\_pconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [pg\_execute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
--   [pg\_send\_execute()](function.pg-send-execute.html) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
--   [pg\_send\_query\_params()](function.pg-send-query-params.html) - Посилає параметризований запит на сервер, не чекає результату, що повертається.
+-   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгsendexecute()](function.pg-send-execute.html) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
+-   [пгsendqueryparams()](function.pg-send-query-params.html) - Посилає параметризований запит на сервер, не чекає результату, що повертається.

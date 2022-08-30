@@ -1,12 +1,12 @@
 Отримує кодову точку символу Unicode
 
--   [« mb\_list\_encodings](function.mb-list-encodings.html)
+-   [« mblistencodings](function.mb-list-encodings.html)
     
--   [mb\_output\_handler »](function.mb-output-handler.html)
+-   [мбoutputhandler »](function.mb-output-handler.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Отримує кодову точку символу Unicode
     
@@ -25,7 +25,7 @@ mb_ord(string $string, ?string $encoding = null): int|false
 
 Повертає значення кодової точки Unicode для цього символу.
 
-Функція доповнює [mb\_chr()](function.mb-chr.html)
+Функція доповнює [мбchr()](function.mb-chr.html)
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ int(8364)
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [mb\_chr()](function.mb-chr.html) - Повертає символ за значенням кодової точки Unicode
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбchr()](function.mb-chr.html) - Повертає символ за значенням кодової точки Unicode
 -   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
 -   [ord()](function.ord.html) - Конвертує перший байт рядка до числа від 0 до 255

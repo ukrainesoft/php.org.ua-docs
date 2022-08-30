@@ -1,12 +1,12 @@
 Повертає ідентифікатор для курсору
 
--   [« MongoDB\\Driver\\Cursor::current](mongodb-driver-cursor.current.html)
+-   [« MongoDBDriverCursor::current](mongodb-driver-cursor.current.html)
     
--   [MongoDB\\Driver\\Cursor::getServer »](mongodb-driver-cursor.getserver.html)
+-   [MongoDBDriverCursor::getServer »](mongodb-driver-cursor.getserver.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Повертає ідентифікатор для курсору
     
@@ -23,7 +23,7 @@ MongoDBDriverCursor::getId — Повертає ідентифікатор дл�
 final public MongoDB\Driver\Cursor::getId(): MongoDB\Driver\CursorId
 ```
 
-Повертає [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html), пов'язаний із цим курсором. Ідентифікатор курсору однозначно ідентифікує курсор на сервері.
+Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html), пов'язаний із цим курсором. Ідентифікатор курсору однозначно ідентифікує курсор на сервері.
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ final public MongoDB\Driver\Cursor::getId(): MongoDB\Driver\CursorId
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html) для курсору.
+Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html) для курсору.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -73,5 +73,5 @@ object(MongoDB\Driver\CursorId)#5 (1) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
--   [MongoDB\\Driver\\CursorId::\_\_toString()](mongodb-driver-cursorid.tostring.html) - Строкове подання ідентифікатора курсору
+-   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
+-   [MongoDBDriverCursorId::toString()](mongodb-driver-cursorid.tostring.html) - Строкове подання ідентифікатора курсору

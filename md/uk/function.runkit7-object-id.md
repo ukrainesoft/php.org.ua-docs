@@ -1,12 +1,12 @@
 Повертає дескриптор цілого об'єкта для даного об'єкта
 
--   [« runkit7\_method\_rename](function.runkit7-method-rename.html)
+-   [« runkit7methodrename](function.runkit7-method-rename.html)
     
--   [runkit7\_superglobals »](function.runkit7-superglobals.html)
+-   [runkit7superglobals »](function.runkit7-superglobals.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.html)
     
 -   Повертає дескриптор цілого об'єкта для даного об'єкта
     
@@ -23,9 +23,9 @@ runkit7objectid — Повертає дескриптор цілого об'єк
 runkit7_object_id(object $obj): int
 ```
 
-Функція еквівалентна [spl\_object\_id()](function.spl-object-id.html)
+Функція еквівалентна [splobjectid()](function.spl-object-id.html)
 
-Ця функція повертає унікальний ідентифікатор об'єкта. Ідентифікатор об'єкта є унікальним протягом усього часу існування об'єкта. Після знищення об'єкта його ідентифікатор може бути повторно використано інших об'єктів. Поведінка схожа на [spl\_object\_hash()](function.spl-object-hash.html)
+Ця функція повертає унікальний ідентифікатор об'єкта. Ідентифікатор об'єкта є унікальним протягом усього часу існування об'єкта. Після знищення об'єкта його ідентифікатор може бути повторно використано інших об'єктів. Поведінка схожа на [splobjecthash()](function.spl-object-hash.html)
 
 ### Список параметрів
 
@@ -45,4 +45,4 @@ runkit7_object_id(object $obj): int
 
 ### Дивіться також
 
--   [spl\_object\_id()](function.spl-object-id.html) - Отримати цілісний ідентифікатор об'єкта
+-   [splobjectid()](function.spl-object-id.html) - Отримати цілісний ідентифікатор об'єкта

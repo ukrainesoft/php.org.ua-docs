@@ -1,12 +1,12 @@
 Надсилає дані з потоків параметрів на сервер
 
--   [« sqlsrv\_rows\_affected](function.sqlsrv-rows-affected.html)
+-   [« sqlsrvrowsaffected](function.sqlsrv-rows-affected.html)
     
--   [sqlsrv\_server\_info »](function.sqlsrv-server-info.html)
+-   [sqlsrvserverinfo »](function.sqlsrv-server-info.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Надсилає дані з потоків параметрів на сервер
     
@@ -29,7 +29,7 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 `stmt`
 
-Ресурс виразу, що повертається [sqlsrv\_query()](function.sqlsrv-query.html) або [sqlsrv\_execute()](function.sqlsrv-execute.html)
+Ресурс виразу, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
 
 ### Значення, що повертаються
 
@@ -74,5 +74,5 @@ echo "$i вызовов было сделано.";
 
 ### Дивіться також
 
--   [sqlsrv\_prepare()](function.sqlsrv-prepare.html) - готує запит до виконання
--   [sqlsrv\_query()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvprepare()](function.sqlsrv-prepare.html) - готує запит до виконання
+-   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит

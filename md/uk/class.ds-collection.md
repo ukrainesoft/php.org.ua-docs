@@ -2,11 +2,11 @@
 
 -   [« Примеры](ds.examples.html)
     
--   [Ds\\Collection::clear »](ds-collection.clear.html)
+-   [ДсCollection::clear »](ds-collection.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Інтерфейс Collection
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-**Collection** - це базовий інтерфейс, який покриває функціональність загальну всім структур даних у цій бібліотеці. Він гарантує, що всі структури обхідні, лічильний і можуть бути перетворені на JSON за допомогою функції [json\_encode()](function.json-encode.html)
+**Collection** - це базовий інтерфейс, який покриває функціональність загальну всім структур даних у цій бібліотеці. Він гарантує, що всі структури обхідні, лічильний і можуть бути перетворені на JSON за допомогою функції [jsonencode()](function.json-encode.html)
 
 ## Огляд інтерфейсів
 
@@ -50,7 +50,7 @@ abstract public toArray(): array
 
 ## Зміст
 
--   [Ds\\Collection::clear](ds-collection.clear.html) - Видаляє всі значення
--   [Ds\\Collection::copy](ds-collection.copy.html) — Повертає копію колекції
--   [Ds\\Collection::isEmpty](ds-collection.isempty.html) — Перевіряє, чи колекція порожня.
--   [Ds\\Collection::toArray](ds-collection.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсCollection::clear](ds-collection.clear.html) - Видаляє всі значення
+-   [ДсCollection::copy](ds-collection.copy.html) — Повертає копію колекції
+-   [ДсCollection::isEmpty](ds-collection.isempty.html) — Перевіряє, чи колекція порожня.
+-   [ДсCollection::toArray](ds-collection.toarray.html) — Перетворює колекцію на масив (array)

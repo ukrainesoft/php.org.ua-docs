@@ -1,12 +1,12 @@
 Yaconf
 
--   [« Yaf\_Exception\_LoadFailed\_View](class.yaf-exception-loadfailed-view.html)
+-   [« YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.html)
     
 -   [Введение »](intro.yaconf.html)
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Yaconf
     

@@ -1,8 +1,8 @@
 Повертає останнє значення колекції
 
--   [« Ds\\Set::jsonSerialize](ds-set.jsonserialize.html)
+-   [« DsSet::jsonSerialize](ds-set.jsonserialize.html)
     
--   [Ds\\Set::merge »](ds-set.merge.html)
+-   [ДсSet::merge »](ds-set.merge.html)
     
 -   [PHP Manual](index.html)
     

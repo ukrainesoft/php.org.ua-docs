@@ -1,12 +1,12 @@
 Створити уніфікований патч із порівняння двох файлів
 
--   [« xdiff\_file\_diff\_binary](function.xdiff-file-diff-binary.html)
+-   [xdifffilediffbinary](function.xdiff-file-diff-binary.html)
     
--   [xdiff\_file\_merge3 »](function.xdiff-file-merge3.html)
+-   [xdifffilemerge3 »](function.xdiff-file-merge3.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Створити уніфікований патч із порівняння двох файлів
     
@@ -45,7 +45,7 @@ xdiff_file_diff(    string $old_file,    string $new_file,    string
 
 `minimal`
 
-Встановіть рівним **`true`**мінімізувати розмір патча. Може зайняти тривалий час.
+Встановіть рівним \*\*`true`\*\*мінімізувати розмір патча. Може зайняти тривалий час.
 
 ### Значення, що повертаються
 
@@ -70,8 +70,8 @@ xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
 
 > **Зауваження**
 > 
-> З бінарними даними ця функція працює погано. Для бінарних патчів використовуйте [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html)[xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html)
+> З бінарними даними ця функція працює погано. Для бінарних патчів використовуйте [xdifffilebdiff()](function.xdiff-file-bdiff.html)[xdifffilerabdiff()](function.xdiff-file-rabdiff.html)
 
 ### Дивіться також
 
--   [xdiff\_file\_patch()](function.xdiff-file-patch.html) - Застосування уніфікованого патчу до файлу
+-   [xdifffilepatch()](function.xdiff-file-patch.html) - Застосування уніфікованого патчу до файлу

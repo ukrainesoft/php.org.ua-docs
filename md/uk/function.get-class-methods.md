@@ -1,12 +1,12 @@
 Повертає масив імен методів класу
 
--   [« get\_called\_class](function.get-called-class.html)
+-   [« getcalledclass](function.get-called-class.html)
     
--   [get\_class\_vars »](function.get-class-vars.html)
+-   [getclassvars »](function.get-class-vars.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає масив імен методів класу
     
@@ -89,6 +89,6 @@ myfunc2
 
 ### Дивіться також
 
--   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
--   [get\_class\_vars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
--   [get\_object\_vars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту
+-   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [getclassvars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
+-   [getobjectvars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту

@@ -1,12 +1,12 @@
 Генерує випадкове число з плаваючою точкою від 0 до 1
 
--   [« stats\_rand\_phrase\_to\_seeds](function.stats-rand-phrase-to-seeds.html)
+-   [« statsrandphraseтоseeds](function.stats-rand-phrase-to-seeds.html)
     
--   [stats\_rand\_setall »](function.stats-rand-setall.html)
+-   [statsrandsetall »](function.stats-rand-setall.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує випадкове число з плаваючою точкою від 0 до 1
     

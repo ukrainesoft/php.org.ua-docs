@@ -1,12 +1,12 @@
 Випадкове число
 
--   [« gmp\_prob\_prime](function.gmp-prob-prime.html)
+-   [« gmpprobprime](function.gmp-prob-prime.html)
     
--   [gmp\_random\_range »](function.gmp-random-range.html)
+-   [gmprandomrange »](function.gmp-random-range.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Випадкове число
     

@@ -2,7 +2,7 @@
 
 -   [« Требования](xmldiff.requirements.html)
     
--   [XMLDiff\\Base »](class.xmldiff-base.html)
+-   [XMLDiffBase »](class.xmldiff-base.html)
     
 -   [PHP Manual](index.html)
     

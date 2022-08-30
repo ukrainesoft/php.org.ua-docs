@@ -1,8 +1,8 @@
 Закриває модуль mcrypt
 
--   [« mcrypt\_list\_modes](function.mcrypt-list-modes.html)
+-   [« mcryptlistmodes](function.mcrypt-list-modes.html)
     
--   [mcrypt\_module\_get\_algo\_block\_size »](function.mcrypt-module-get-algo-block-size.html)
+-   [mcryptmodulegetalgoblocksize »](function.mcrypt-module-get-algo-block-size.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ mcrypt_module_close(resource $td): bool
 
 ### Дивіться також
 
--   [mcrypt\_module\_open()](function.mcrypt-module-open.html) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcryptmoduleopen()](function.mcrypt-module-open.html) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

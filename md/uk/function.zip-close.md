@@ -2,7 +2,7 @@
 
 -   [« Функции Zip](ref.zip.html)
     
--   [zip\_entry\_close »](function.zip-entry-close.html)
+-   [zipentryclose »](function.zip-entry-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ zip_close(resource $zip): void
 
 `zip`
 
-ZIP-файл має бути відкритий за допомогою функції [zip\_open()](function.zip-open.html)
+ZIP-файл має бути відкритий за допомогою функції [zipopen()](function.zip-open.html)
 
 ### Значення, що повертаються
 
@@ -47,5 +47,5 @@ ZIP-файл має бути відкритий за допомогою функ
 
 ### Дивіться також
 
--   [zip\_open()](function.zip-open.html) - Відкриває ZIP-архів
--   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві

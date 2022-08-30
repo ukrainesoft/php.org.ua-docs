@@ -2,11 +2,11 @@
 
 -   [« Fiber::getCurrent](fiber.getcurrent.html)
     
--   [WeakReference::\_\_construct »](weakreference.construct.html)
+-   [WeakReference::construct »](weakreference.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Клас WeakReference
     
@@ -69,6 +69,6 @@ NULL
 
 ## Зміст
 
--   [WeakReference::\_\_construct](weakreference.construct.html) - Конструктор, який забороняє реалізацію
+-   [WeakReference::construct](weakreference.construct.html) - Конструктор, який забороняє реалізацію
 -   [WeakReference::create](weakreference.create.html) — Створює нове слабке посилання
 -   [WeakReference::get](weakreference.get.html) — Отримує об'єкт із слабким посиланням

@@ -2,7 +2,7 @@
 
 -   [« SplFileObject::valid](splfileobject.valid.html)
     
--   [SplTempFileObject::\_\_construct »](spltempfileobject.construct.html)
+-   [SplTempFileObject::construct »](spltempfileobject.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -124,4 +124,4 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [SplTempFileObject::\_\_construct](spltempfileobject.construct.html) — Створює новий об'єкт тимчасового файлу
+-   [SplTempFileObject::construct](spltempfileobject.construct.html) — Створює новий об'єкт тимчасового файлу

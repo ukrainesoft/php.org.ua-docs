@@ -1,12 +1,12 @@
 Увімкнути/вимкнути асинхронну обробку сигналів або отримати поточний статус
 
--   [« pcntl\_alarm](function.pcntl-alarm.html)
+-   [pcntlalarm](function.pcntl-alarm.html)
     
--   [pcntl\_errno »](function.pcntl-errno.html)
+-   [pcntlerrno »](function.pcntl-errno.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Увімкнути/вимкнути асинхронну обробку сигналів або отримати поточний статус
     

@@ -1,8 +1,8 @@
 Повертає OID поточної позиції курсору
 
--   [« cubrid\_connect](function.cubrid-connect.html)
+-   [« cubridconnect](function.cubrid-connect.html)
     
--   [cubrid\_disconnect »](function.cubrid-disconnect.html)
+-   [cubriddisconnect »](function.cubrid-disconnect.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,4 +65,4 @@ Array
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

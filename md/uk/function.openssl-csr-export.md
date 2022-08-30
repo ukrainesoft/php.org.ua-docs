@@ -1,8 +1,8 @@
 Експортує CSR у вигляді рядка
 
--   [« openssl\_csr\_export\_to\_file](function.openssl-csr-export-to-file.html)
+-   [« opensslcsrexportтоfile](function.openssl-csr-export-to-file.html)
     
--   [openssl\_csr\_get\_public\_key »](function.openssl-csr-get-public-key.html)
+-   [opensslcsrgetpublickey »](function.openssl-csr-get-public-key.html)
     
 -   [PHP Manual](index.html)
     
@@ -73,6 +73,6 @@ echo $csr_string;
 
 ### Дивіться також
 
--   [openssl\_csr\_export\_to\_file()](function.openssl-csr-export-to-file.html) - Експортує CSR у файл
--   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
--   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrexportтоfile()](function.openssl-csr-export-to-file.html) - Експортує CSR у файл
+-   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

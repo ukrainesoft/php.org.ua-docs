@@ -1,8 +1,8 @@
 Клас ParleParser
 
--   [« Parle\\RLexer::reset](parle-rlexer.reset.html)
+-   [« ParleRLexer::reset](parle-rlexer.reset.html)
     
--   [Parle\\Parser::advance »](parle-parser.advance.html)
+-   [ParleParser::advance »](parle-parser.advance.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Клас парсеру. Правила можна визначати на льоту. Після завершення потрібен екземпляр [Parle\\Lexer](class.parle-lexer.html) для доставки потоку токенів.
+Клас парсеру. Правила можна визначати на льоту. Після завершення потрібен екземпляр [ParleLexer](class.parle-lexer.html) для доставки потоку токенів.
 
 ## Огляд класів
 
@@ -128,19 +128,19 @@ reduceId
 
 ## Зміст
 
--   [Parle\\Parser::advance](parle-parser.advance.html) - Обробляє наступне правило парсера
--   [Parle\\Parser::build](parle-parser.build.html) - Завершує граматичні правила
--   [Parle\\Parser::consume](parle-parser.consume.html) — Використовує дані для обробки
--   [Parle\\Parser::dump](parle-parser.dump.html) - Виводить граматику
--   [Parle\\Parser::errorInfo](parle-parser.errorinfo.html) — Отримує інформацію про помилку
--   [Parle\\Parser::left](parle-parser.left.html) - Оголошує токен з лівою асоціативністю
--   [Parle\\Parser::nonassoc](parle-parser.nonassoc.html) - Оголошує токен без асоціативності
--   [Parle\\Parser::precedence](parle-parser.precedence.html) — Оголошує правило пріоритету
--   [Parle\\Parser::push](parle-parser.push.html) — Додає граматичне правило
--   [Parle\\Parser::reset](parle-parser.reset.html) — скидає стан парсера
--   [Parle\\Parser::right](parle-parser.right.html) — Оголошує токен із правою асоціативністю
--   [Parle\\Parser::sigil](parle-parser.sigil.html) — Витягує частину збігу за правилом
--   [Parle\\Parser::token](parle-parser.token.html) - Оголошує токен
--   [Parle\\Parser::tokenId](parle-parser.tokenid.html) — Отримує ідентифікатор токена
--   [Parle\\Parser::trace](parle-parser.trace.html) — Слідкує за роботою парсера
--   [Parle\\Parser::validate](parle-parser.validate.html) - Перевіряє вхідні дані
+-   [ParleParser::advance](parle-parser.advance.html) - Обробляє наступне правило парсера
+-   [ParleParser::build](parle-parser.build.html) - Завершує граматичні правила
+-   [ParleParser::consume](parle-parser.consume.html) — Використовує дані для обробки
+-   [ParleParser::dump](parle-parser.dump.html) - Виводить граматику
+-   [ParleParser::errorInfo](parle-parser.errorinfo.html) — Отримує інформацію про помилку
+-   [ParleParser::left](parle-parser.left.html) - Оголошує токен з лівою асоціативністю
+-   [ParleParser::nonassoc](parle-parser.nonassoc.html) - Оголошує токен без асоціативності
+-   [ParleParser::precedence](parle-parser.precedence.html) — Оголошує правило пріоритету
+-   [ParleParser::push](parle-parser.push.html) — Додає граматичне правило
+-   [ParleParser::reset](parle-parser.reset.html) — скидає стан парсера
+-   [ParleParser::right](parle-parser.right.html) — Оголошує токен із правою асоціативністю
+-   [ParleParser::sigil](parle-parser.sigil.html) — Витягує частину збігу за правилом
+-   [ParleParser::token](parle-parser.token.html) - Оголошує токен
+-   [ParleParser::tokenId](parle-parser.tokenid.html) — Отримує ідентифікатор токена
+-   [ParleParser::trace](parle-parser.trace.html) — Слідкує за роботою парсера
+-   [ParleParser::validate](parle-parser.validate.html) - Перевіряє вхідні дані

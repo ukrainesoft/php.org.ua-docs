@@ -1,12 +1,12 @@
 Повертає значення за індексом
 
--   [« Ds\\Deque::first](ds-deque.first.html)
+-   [« DsDeque::first](ds-deque.first.html)
     
--   [Ds\\Deque::insert »](ds-deque.insert.html)
+-   [ДсDeque::insert »](ds-deque.insert.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає значення за індексом
     

@@ -1,12 +1,12 @@
 Генерує XML для значення PHP
 
--   [« xmlrpc\_encode\_request](function.xmlrpc-encode-request.html)
+-   [« xmlrpcencoderequest](function.xmlrpc-encode-request.html)
     
--   [xmlrpc\_get\_type »](function.xmlrpc-get-type.html)
+-   [xmlrpcgettype »](function.xmlrpc-get-type.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Генерує XML для значення PHP
     

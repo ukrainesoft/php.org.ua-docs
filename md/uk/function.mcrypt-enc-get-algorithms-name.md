@@ -1,8 +1,8 @@
 Повертає ім'я алгоритму
 
--   [« mcrypt\_decrypt](function.mcrypt-decrypt.html)
+-   [« mcryptdecrypt](function.mcrypt-decrypt.html)
     
--   [mcrypt\_enc\_get\_block\_size »](function.mcrypt-enc-get-block-size.html)
+-   [mcryptencgetblocksize »](function.mcrypt-enc-get-block-size.html)
     
 -   [PHP Manual](index.html)
     

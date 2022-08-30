@@ -1,6 +1,6 @@
 Повертає інформацію про місцезнаходження для часового поясу
 
--   [« DateTimeZone::\_\_construct](datetimezone.construct.html)
+-   [« DateTimeZone::construct](datetimezone.construct.html)
     
 -   [DateTimeZone::getName »](datetimezone.getname.html)
     
@@ -39,7 +39,7 @@ timezone_location_get(DateTimeZone $object): array|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezone\_open()](function.timezone-open.html)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezoneopen()](function.timezone-open.html)
 
 ### Значення, що повертаються
 

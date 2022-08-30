@@ -1,12 +1,12 @@
 Клас MongoDBDriverClientEncryption
 
--   [« MongoDB\\Driver\\Session::startTransaction](mongodb-driver-session.starttransaction.html)
+-   [« MongoDBDriverSession::startTransaction](mongodb-driver-session.starttransaction.html)
     
--   [MongoDB\\Driver\\ClientEncryption::\_\_construct »](mongodb-driver-clientencryption.construct.html)
+-   [MongoDBDriverClientEncryption::construct »](mongodb-driver-clientencryption.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас MongoDBDriverClientEncryption
     
@@ -71,17 +71,17 @@ final public encrypt(mixed $value, ?array $options = null): MongoDB\BSON\Binary
 
 **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC`**
 
-Визначає алгоритм для [» детерминированного шифрования](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#deterministic-encryption)який підходить для запитів.
+Визначає алгоритм для [» детермінованого шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#deterministic-encryption)який підходить для запитів.
 
 **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM`**
 
-Визначає алгоритм для [» рандомизированного шифрования](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#randomized-encryption)
+Визначає алгоритм для [»¦рандомізованого шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#randomized-encryption)
 
 **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**
 
 Визначає алгоритм для індексованого, зашифрованого корисного навантаження, яке може бути використане з шифруванням з можливістю запиту.
 
-Для додавання або запиту з індексованим, зашифрованим корисним навантаженням [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html) має бути налаштований з опцією драйвера `"autoEncryption"`. Опція `"bypassQueryAnalysis"` автоматичне шифрування може бути встановлене як **`true`**. Параметр `"bypassAutoEncryption"` автоматичного шифрування має бути **`false`**
+Для додавання або запиту з індексованим, зашифрованим корисним навантаженням [MongoDBDriverManager](class.mongodb-driver-manager.html) має бути налаштований з опцією драйвера `"autoEncryption"`. Опція `"bypassQueryAnalysis"` автоматичне шифрування може бути встановлене як **`true`**. Параметр `"bypassAutoEncryption"` автоматичного шифрування має бути **`false`**
 
 **`MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED`**
 
@@ -101,11 +101,11 @@ final public encrypt(mixed $value, ?array $options = null): MongoDB\BSON\Binary
 
 ## Дивіться також
 
--   [MongoDB\\Driver\\Manager::createClientEncryption()](mongodb-driver-manager.createclientencryption.html)
+-   [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.html)
 
 ## Зміст
 
--   [MongoDB\\Driver\\ClientEncryption::\_\_construct](mongodb-driver-clientencryption.construct.html) — Створює новий об'єкт ClientEncryption
--   [MongoDB\\Driver\\ClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.html) — Створює ключ шифрування
--   [MongoDB\\Driver\\ClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.html) - Розшифрувати дані
--   [MongoDB\\Driver\\ClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.html) - Шифрує дані
+-   [MongoDBDriverClientEncryption::construct](mongodb-driver-clientencryption.construct.html) — Створює новий об'єкт ClientEncryption
+-   [MongoDBDriverClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.html) — Створює ключ шифрування
+-   [MongoDBDriverClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.html) - Розшифрувати дані
+-   [MongoDBDriverClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.html) - Шифрує дані

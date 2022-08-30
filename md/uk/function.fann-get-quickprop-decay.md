@@ -1,8 +1,8 @@
 Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
 
--   [« fann\_get\_num\_output](function.fann-get-num-output.html)
+-   [« fanngetnumoutput](function.fann-get-num-output.html)
     
--   [fann\_get\_quickprop\_mu »](function.fann-get-quickprop-mu.html)
+-   [fanngetquickpropmu »](function.fann-get-quickprop-mu.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ The default decay is -0.0001.
 
 ### Дивіться також
 
--   [fann\_set\_quickprop\_decay()](function.fann-set-quickprop-decay.html) - Встановлює коефіцієнт загасання quickprop
+-   [fannsetquickpropdecay()](function.fann-set-quickprop-decay.html) - Встановлює коефіцієнт загасання quickprop

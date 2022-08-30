@@ -1,12 +1,12 @@
 Кількість операцій для пропуску
 
--   [« mysql\_xdevapi\\CrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
+-   [« mysqlxdevapiCrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
     
--   [mysql\_xdevapi\\CrudOperationSortable »](class.mysql-xdevapi-crudoperationsortable.html)
+-   [mysqlxdevapiCrudOperationSortable »](class.mysql-xdevapi-crudoperationsortable.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
+-   [mysqlxdevapiCrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
     
 -   Кількість операцій для пропуску
     

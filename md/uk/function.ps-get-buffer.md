@@ -1,12 +1,12 @@
 Отримує повний буфер, що містить згенеровані дані PS
 
--   [« ps\_findfont](function.ps-findfont.html)
+-   [«psfindfont](function.ps-findfont.html)
     
--   [ps\_get\_parameter »](function.ps-get-parameter.html)
+-   [псgetparameter »](function.ps-get-parameter.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Отримує повний буфер, що містить згенеровані дані PS
     
@@ -33,8 +33,8 @@ ps_get_buffer(resource $psdoc): string
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 ### Дивіться також
 
--   [ps\_open\_file()](function.ps-open-file.html) - Відкриває файл для виводу
+-   [псopenfile()](function.ps-open-file.html) - Відкриває файл для виводу

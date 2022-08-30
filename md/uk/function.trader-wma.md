@@ -1,8 +1,8 @@
 Зважене ковзне середнє
 
--   [« trader\_willr](function.trader-willr.html)
+-   [« traderwillr](function.trader-willr.html)
     
--   [Генерация нетекстовых MIME-форматов »](refs.utilspec.nontext.html)
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
     
 -   [PHP Manual](index.html)
     

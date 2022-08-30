@@ -1,6 +1,6 @@
 Отримує скалярне значення варіанта перерахування
 
--   [« ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.html)
+-   [« ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.html)
     
 -   [ReflectionZendExtension »](class.reflectionzendextension.html)
     

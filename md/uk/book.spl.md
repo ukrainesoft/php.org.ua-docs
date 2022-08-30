@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Стандартна бібліотека PHP (SPL)
     
@@ -20,7 +20,7 @@
     -   [Настройка во время выполнения](spl.configuration.html)
     -   [Типы ресурсов](spl.resources.html)
 -   [Предопределённые константы](spl.constants.html)
--   [Структуры данных](spl.datastructures.html)
+-   [Структури даних](spl.datastructures.html)
     -   [SplDoublyLinkedList](class.spldoublylinkedlist.html) - Клас SplDoublyLinkedList
     -   [SplStack](class.splstack.html) - Клас SplStack
     -   [SplQueue](class.splqueue.html) - Клас SplQueue
@@ -30,7 +30,7 @@
     -   [SplPriorityQueue](class.splpriorityqueue.html) - Клас SplPriorityQueue
     -   [SplFixedArray](class.splfixedarray.html) - Клас SplFixedArray
     -   [SplObjectStorage](class.splobjectstorage.html) - Клас SplObjectStorage
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     -   [AppendIterator](class.appenditerator.html) - Клас AppendIterator
     -   [ArrayIterator](class.arrayiterator.html) - Клас ArrayIterator
     -   [CachingIterator](class.cachingiterator.html) - Клас CachingIterator
@@ -74,22 +74,22 @@
     -   [RuntimeException](class.runtimeexception.html) - Клас RuntimeException
     -   [UnderflowException](class.underflowexception.html) - Клас UnderflowException
     -   [UnexpectedValueException](class.unexpectedvalueexception.html) - Клас UnexpectedValueException
--   [Функции SPL](ref.spl.html)
-    -   [class\_implements](function.class-implements.html) — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
-    -   [class\_parents](function.class-parents.html) - Повертає список батьківських класів заданого класу
-    -   [class\_uses](function.class-uses.html) — Повертає список трейтів, які використовуються заданим класом
-    -   [iterator\_apply](function.iterator-apply.html) — Викликає функцію кожного елемента в ітераторі
-    -   [iterator\_count](function.iterator-count.html) — Підраховує кількість елементів в ітераторі
-    -   [iterator\_to\_array](function.iterator-to-array.html) — Копіює ітератор у масив
-    -   [spl\_autoload\_call](function.spl-autoload-call.html) — Спроба завантажити клас усіма зареєстрованими функціями autoload()
-    -   [spl\_autoload\_extensions](function.spl-autoload-extensions.html) — Реєстрація та виведення розширень файлів для splautoload
-    -   [spl\_autoload\_functions](function.spl-autoload-functions.html) — Отримати список усіх зареєстрованих функцій autoload()
-    -   [spl\_autoload\_register](function.spl-autoload-register.html) — Реєструє задану функцію як реалізацію методу autoload()
-    -   [spl\_autoload\_unregister](function.spl-autoload-unregister.html) — Скасування реєстрації функції як реалізацію методу autoload()
-    -   [spl\_autoload](function.spl-autoload.html) - Реалізація за умовчанням методу autoload()
-    -   [spl\_classes](function.spl-classes.html) — Повертає доступні класи SPL
-    -   [spl\_object\_hash](function.spl-object-hash.html) — Повертає хеш-ідентифікатор для об'єкту
-    -   [spl\_object\_id](function.spl-object-id.html) — Отримати цілий ідентифікатор об'єкта
+-   [Функції SPL](ref.spl.html)
+    -   [classimplements](function.class-implements.html) — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+    -   [classparents](function.class-parents.html) - Повертає список батьківських класів заданого класу
+    -   [classuses](function.class-uses.html) — Повертає список трейтів, які використовуються заданим класом
+    -   [iteratorapply](function.iterator-apply.html) — Викликає функцію кожного елемента в ітераторі
+    -   [iteratorcount](function.iterator-count.html) — Підраховує кількість елементів в ітераторі
+    -   [iteratorтоarray](function.iterator-to-array.html) — Копіює ітератор у масив
+    -   [splautoloadcall](function.spl-autoload-call.html) — Спроба завантажити клас усіма зареєстрованими функціями autoload()
+    -   [splautoloadextensions](function.spl-autoload-extensions.html) — Реєстрація та виведення розширень файлів для splautoload
+    -   [splautoloadfunctions](function.spl-autoload-functions.html) — Отримати список усіх зареєстрованих функцій autoload()
+    -   [splautoloadregister](function.spl-autoload-register.html) — Реєструє задану функцію як реалізацію методу autoload()
+    -   [splautoloadunregister](function.spl-autoload-unregister.html) — Скасування реєстрації функції як реалізацію методу autoload()
+    -   [splautoload](function.spl-autoload.html) - Реалізація за умовчанням методу autoload()
+    -   [splclasses](function.spl-classes.html) — Повертає доступні класи SPL
+    -   [splobjecthash](function.spl-object-hash.html) — Повертає хеш-ідентифікатор для об'єкту
+    -   [splobjectід](function.spl-object-id.html) — Отримати цілий ідентифікатор об'єкта
 -   [Обработка файлов](spl.files.html)
     -   [SplFileInfo](class.splfileinfo.html) - Клас SplFileInfo
     -   [SplFileObject](class.splfileobject.html) - Клас SplFileObject

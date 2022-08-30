@@ -1,12 +1,12 @@
 Надати значення, що повертається для існуючої функції
 
--   [« uopz\_set\_property](function.uopz-set-property.html)
+-   [« uopzsetproperty](function.uopz-set-property.html)
     
--   [uopz\_set\_static »](function.uopz-set-static.html)
+-   [uopzsetstatic »](function.uopz-set-static.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Надати значення, що повертається для існуючої функції
     
@@ -31,7 +31,7 @@ uopz_set_return(    string $class,    string $function,    mixed $va
 
 > **Зауваження**
 > 
-> Ця функція замінює [uopz\_rename()](function.uopz-rename.html)
+> Ця функція замінює [uopzrename()](function.uopz-rename.html)
 
 ### Список параметрів
 

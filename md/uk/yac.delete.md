@@ -1,6 +1,6 @@
 Видаляє елементи з кешу
 
--   [« Yac::\_\_construct](yac.construct.html)
+-   [« Yac::construct](yac.construct.html)
     
 -   [Yac::dump »](yac.dump.html)
     

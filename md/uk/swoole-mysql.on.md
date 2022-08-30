@@ -1,12 +1,12 @@
 Реєструє callback-функцію на основі імені події
 
--   [« Swoole\\MySQL::getBuffer](swoole-mysql.getbuffer.html)
+-   [« SwooleMySQL::getBuffer](swoole-mysql.getbuffer.html)
     
--   [Swoole\\MySQL::query »](swoole-mysql.query.html)
+-   [SwooleMySQL::query »](swoole-mysql.query.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\MySQL](class.swoole-mysql.html)
+-   [SwooleMySQL](class.swoole-mysql.html)
     
 -   Реєструє callback-функцію на основі імені події
     

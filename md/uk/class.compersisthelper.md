@@ -1,8 +1,8 @@
 Клас COMPersistHelper
 
--   [« variant::\_\_construct](variant.construct.html)
+-   [« variant::construct](variant.construct.html)
     
--   [COMPersistHelper::\_\_construct »](compersisthelper.construct.html)
+-   [COMPersistHelper::construct »](compersisthelper.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-**COMPersistHelper** покращує сумісність COM і PHP щодо php.ini директиви [open\_basedir](ini.core.html#ini.open-basedir) та потокових ресурсів.
+**COMPersistHelper** покращує сумісність COM і PHP щодо php.ini директиви [openbasedir](ini.core.html#ini.open-basedir) та потокових ресурсів.
 
 ## Огляд класів
 
@@ -52,7 +52,7 @@ public SaveToStream(resource $stream): bool
 
 ## Зміст
 
--   [COMPersistHelper::\_\_construct](compersisthelper.construct.html) - Конструктор класу COMPersistHelper
+-   [COMPersistHelper::construct](compersisthelper.construct.html) - Конструктор класу COMPersistHelper
 -   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.html) — Отримати ім'я файлу
 -   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.html) — Отримати максимальний розмір потоку
 -   [COMPersistHelper::InitNew](compersisthelper.initnew.html) — Ініціалізує об'єкт у стан за умовчанням

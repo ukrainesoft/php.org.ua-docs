@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionEncryptionException
 
--   [« MongoDB\\Driver\\Exception\\ConnectionTimeoutException](class.mongodb-driver-exception-connectiontimeoutexception.html)
+-   [« MongoDBDriverExceptionConnectionTimeoutException](class.mongodb-driver-exception-connectiontimeoutexception.html)
     
--   [MongoDB\\Driver\\Exception\\Exception »](class.mongodb-driver-exception-exception.html)
+-   [MongoDBDriverExceptionException »](class.mongodb-driver-exception-exception.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionEncryptionException
     

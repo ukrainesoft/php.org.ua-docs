@@ -1,8 +1,8 @@
 Повернути елемент зі списку аргументів
 
--   [« forward\_static\_call](function.forward-static-call.html)
+-   [« forwardstaticcall](function.forward-static-call.html)
     
--   [func\_get\_args »](function.func-get-args.html)
+-   [funcgetargs »](function.func-get-args.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ func_get_arg(int $position): mixed
 
 Повертає зазначений аргумент зі списку аргументів функції користувача.
 
-Ця функція може бути використана спільно з [func\_get\_args()](function.func-get-args.html) і [func\_num\_args()](function.func-num-args.html) для створення функцій із змінною кількістю аргументів.
+Ця функція може бути використана спільно з [funcgetargs()](function.func-get-args.html) і [funcnumargs()](function.func-num-args.html) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -110,6 +110,6 @@ byRef($arg);
 
 ### Дивіться також
 
--   [Синтаксис `...`](functions.arguments.html#functions.variable-arg-list)
--   [func\_get\_args()](function.func-get-args.html)
--   [func\_num\_args()](function.func-num-args.html)
+-   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
+-   [funcgetargs()](function.func-get-args.html)
+-   [funcnumargs()](function.func-num-args.html)

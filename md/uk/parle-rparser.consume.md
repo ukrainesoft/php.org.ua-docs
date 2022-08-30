@@ -1,12 +1,12 @@
 Використовувати дані для обробки
 
--   [« Parle\\RParser::build](parle-rparser.build.html)
+-   [« ParleRParser::build](parle-rparser.build.html)
     
--   [Parle\\RParser::dump »](parle-rparser.dump.html)
+-   [ParleRParser::dump »](parle-rparser.dump.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Використовувати дані для обробки
     

@@ -1,12 +1,12 @@
 Отримує всі параметри дзвінка
 
--   [« Yaf\_Request\_Abstract::getParam](yaf-request-abstract.getparam.html)
+-   [« YafRequestAbstract::getParam](yaf-request-abstract.getparam.html)
     
--   [Yaf\_Request\_Abstract::getRequestUri »](yaf-request-abstract.getrequesturi.html)
+-   [YafRequestAbstract::getRequestUri »](yaf-request-abstract.getrequesturi.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Отримує всі параметри дзвінка
     
@@ -31,4 +31,4 @@ public Yaf_Request_Abstract::getParams(): array
 
 ### Дивіться також
 
--   [Yaf\_Request\_Abstract::setParam()](yaf-request-abstract.setparam.html) - Встановлює параметр дзвінка для запиту
+-   [YafRequestAbstract::setParam()](yaf-request-abstract.setparam.html) - Встановлює параметр дзвінка для запиту

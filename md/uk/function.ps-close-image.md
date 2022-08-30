@@ -1,12 +1,12 @@
 Закриває зображення та звільняє пам'ять
 
--   [« ps\_clip](function.ps-clip.html)
+-   [«psclip](function.ps-clip.html)
     
--   [ps\_close »](function.ps-close.html)
+-   [псclose »](function.ps-close.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Закриває зображення та звільняє пам'ять
     
@@ -29,11 +29,11 @@ ps_close_image(resource $psdoc, int $imageid): void|false
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `imageid`
 
-Ідентифікатор ресурсу зображення, повернутий функцією [ps\_open\_image()](function.ps-open-image.html) або [ps\_open\_image\_file()](function.ps-open-image-file.html)
+Ідентифікатор ресурсу зображення, повернутий функцією [псopenimage()](function.ps-open-image.html) або [псopenimagefile()](function.ps-open-image-file.html)
 
 ### Значення, що повертаються
 
@@ -41,5 +41,5 @@ ps_close_image(resource $psdoc, int $imageid): void|false
 
 ### Дивіться також
 
--   [ps\_open\_image()](function.ps-open-image.html) - Зчитує зображення для подальшого розміщення
--   [ps\_open\_image\_file()](function.ps-open-image-file.html) - Відкриває зображення із файлу
+-   [псopenimage()](function.ps-open-image.html) - Зчитує зображення для подальшого розміщення
+-   [псopenimagefile()](function.ps-open-image-file.html) - Відкриває зображення із файлу

@@ -1,8 +1,8 @@
 Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
 
--   [« grapheme\_stripos](function.grapheme-stripos.html)
+-   [« graphemestripos](function.grapheme-stripos.html)
     
--   [grapheme\_strlen »](function.grapheme-strlen.html)
+-   [graphemestrlen »](function.grapheme-strlen.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ grapheme_stristr(string $haystack, string $needle, bool $beforeNeedle = false): 
 
 `beforeNeedle`
 
-Якщо **`true`**, функція [grapheme\_strstr()](function.grapheme-strstr.html) повертає частину `haystack` до першої появи `needle` (виключаючи `needle`
+Якщо **`true`**, функція [graphemestrstr()](function.grapheme-strstr.html) повертає частину `haystack` до першої появи `needle` (виключаючи `needle`
 
 ### Значення, що повертаються
 
@@ -69,9 +69,9 @@ o%CC%88a%CC%8A
 
 ### Дивіться також
 
--   [grapheme\_stripos()](function.grapheme-stripos.html) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
--   [grapheme\_strpos()](function.grapheme-strpos.html) - знаходить позицію (в одиницях графеми) першого входження рядка
--   [grapheme\_strripos()](function.grapheme-strripos.html) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
--   [grapheme\_strrpos()](function.grapheme-strrpos.html) - знаходить позицію (в одиницях графеми) останнього входження рядка
--   [grapheme\_strstr()](function.grapheme-strstr.html) - Повертає частину рядка haystack від першої появи needle до кінця haystack
+-   [graphemestripos()](function.grapheme-stripos.html) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+-   [graphemestrpos()](function.grapheme-strpos.html) - знаходить позицію (в одиницях графеми) першого входження рядка
+-   [graphemestrripos()](function.grapheme-strripos.html) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
+-   [graphemestrrpos()](function.grapheme-strrpos.html) - знаходить позицію (в одиницях графеми) останнього входження рядка
+-   [graphemestrstr()](function.grapheme-strstr.html) - Повертає частину рядка haystack від першої появи needle до кінця haystack
 -   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

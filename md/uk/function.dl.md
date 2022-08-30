@@ -1,12 +1,12 @@
 Завантажує модуль PHP під час виконання
 
--   [« cli\_set\_process\_title](function.cli-set-process-title.html)
+-   [« clisetprocesstitle](function.cli-set-process-title.html)
     
--   [extension\_loaded »](function.extension-loaded.html)
+-   [extensionloaded »](function.extension-loaded.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Завантажує модуль PHP під час виконання
     
@@ -25,7 +25,7 @@ dl(string $extension_filename): bool
 
 Завантажує модуль PHP, заданий аргументом `extension_filename`
 
-Щоб перевірити, чи заданий модуль вже завантажений, використовуйте функцію [extension\_loaded()](function.extension-loaded.html). Функція працює як для вбудованих модулів, так і для динамічно завантажених (тобто завантажених як через php.ini, так і через **dl()**
+Щоб перевірити, чи заданий модуль вже завантажений, використовуйте функцію [extensionloaded()](function.extension-loaded.html). Функція працює як для вбудованих модулів, так і для динамічно завантажених (тобто завантажених як через php.ini, так і через **dl()**
 
 **Увага**
 
@@ -51,7 +51,7 @@ Unix - Якщо явно не задано в php.ini, директорія за
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо механізм завантаження модулів недоступний або вимкнений (значення off налаштування [enable\_dl](info.configuration.html#ini.enable-dl) у php.ini), буде видана помилка **`E_ERROR`** та виконання припиняється. Якщо **dl()** не зможе завантажити задану бібліотеку, то на додаток до **`false`** буде видано повідомлення **`E_WARNING`**
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо механізм завантаження модулів недоступний або вимкнений (значення off налаштування [enableдл](info.configuration.html#ini.enable-dl) у php.ini), буде видана помилка **`E_ERROR`** та виконання припиняється. Якщо **dl()** не зможе завантажити задану бібліотеку, то на додаток до **`false`** буде видано повідомлення **`E_WARNING`**
 
 ### Приклади
 
@@ -84,5 +84,5 @@ if (!extension_loaded('sqlite')) {
 
 ### Дивіться також
 
--   [Директивы загрузки модулей](ini.core.html#ini.extension)
--   [extension\_loaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
+-   [Директиви завантаження модулів](ini.core.html#ini.extension)
+-   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль

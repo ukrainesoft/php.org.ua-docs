@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](soap.constants.html)
     
--   [is\_soap\_fault »](function.is-soap-fault.html)
+-   [ісsoapfault »](function.is-soap-fault.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [is\_soap\_fault](function.is-soap-fault.html) — Перевіряє, чи виникла помилка під час виклику SOAP
--   [use\_soap\_error\_handler](function.use-soap-error-handler.html) — Встановити, чи слід використовувати обробник помилок SOAP
+-   [ісsoapfault](function.is-soap-fault.html) — Перевіряє, чи виникла помилка під час виклику SOAP
+-   [usesoaperrorhandler](function.use-soap-error-handler.html) — Встановити, чи слід використовувати обробник помилок SOAP

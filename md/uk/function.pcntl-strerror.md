@@ -1,12 +1,12 @@
 Отримати текст помилки за її кодом
 
--   [« pcntl\_sigwaitinfo](function.pcntl-sigwaitinfo.html)
+-   [pcntlsigwaitinfo](function.pcntl-sigwaitinfo.html)
     
--   [pcntl\_unshare »](function.pcntl-unshare.html)
+-   [pcntlunshare »](function.pcntl-unshare.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Отримати текст помилки за її кодом
     
@@ -37,4 +37,4 @@ pcntl_strerror(int $error_code): string
 
 ### Дивіться також
 
--   [pcntl\_get\_last\_error()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції
+-   [pcntlgetlasterror()](function.pcntl-get-last-error.html) - Отримати код останньої помилки, що виникла в pcntl-функції

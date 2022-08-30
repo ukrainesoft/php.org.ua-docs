@@ -1,12 +1,12 @@
 Обробник натискання
 
--   [« UI\\MenuItem::isChecked](ui-menuitem.ischecked.html)
+-   [« UIMenuItem::isChecked](ui-menuitem.ischecked.html)
     
--   [UI\\MenuItem::setChecked »](ui-menuitem.setchecked.html)
+-   [ОЙMenuItem::setChecked »](ui-menuitem.setchecked.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\MenuItem](class.ui-menuitem.html)
+-   [ОЙMenuItem](class.ui-menuitem.html)
     
 -   Обробник натискання
     

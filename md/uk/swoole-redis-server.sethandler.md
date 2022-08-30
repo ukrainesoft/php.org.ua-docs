@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Redis\\Server::format](swoole-redis-server.format.html)
+-   [« SwooleRedisServer::format](swoole-redis-server.format.html)
     
--   [Swoole\\Redis\\Server::start »](swoole-redis-server.start.html)
+-   [SwooleRedisServer::start »](swoole-redis-server.start.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Redis\\Server](class.swoole-redis-server.html)
+-   [SwooleRedisServer](class.swoole-redis-server.html)
     
 -   Опис
     

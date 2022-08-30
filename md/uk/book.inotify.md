@@ -6,7 +6,7 @@ Inotify
     
 -   [PHP Manual](index.html)
     
--   [Модули для работы с файловой системой](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
     
 -   Inotify
     
@@ -21,8 +21,8 @@ Inotify
     -   [Типы ресурсов](inotify.resources.html)
 -   [Предопределённые константы](inotify.constants.html)
 -   [Функции Inotify](ref.inotify.html)
-    -   [inotify\_add\_watch](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
-    -   [inotify\_init](function.inotify-init.html) - Ініціалізує екземпляр inotify
-    -   [inotify\_queue\_len](function.inotify-queue-len.html) — Повертає кількість очікуваних подій у черзі
-    -   [inotify\_read](function.inotify-read.html) — Читає повідомлення, що очікують, з черги
-    -   [inotify\_rm\_watch](function.inotify-rm-watch.html) - Видалити спостерігача
+    -   [inotifyaddwatch](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
+    -   [inotifyinit](function.inotify-init.html) - Ініціалізує екземпляр inotify
+    -   [inotifyqueuelen](function.inotify-queue-len.html) — Повертає кількість очікуваних подій у черзі
+    -   [inotifyread](function.inotify-read.html) — Читає повідомлення, що очікують, з черги
+    -   [inotifyрмwatch](function.inotify-rm-watch.html) - Видалити спостерігача

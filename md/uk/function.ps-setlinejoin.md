@@ -1,12 +1,12 @@
 Встановлює спосіб з'єднання ліній
 
--   [« ps\_setlinecap](function.ps-setlinecap.html)
+-   [«pssetlinecap](function.ps-setlinecap.html)
     
--   [ps\_setlinewidth »](function.ps-setlinewidth.html)
+-   [псsetlinewidth »](function.ps-setlinewidth.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює спосіб з'єднання ліній
     
@@ -29,7 +29,7 @@ ps_setlinejoin(resource $psdoc, int $type): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `type`
 
@@ -41,6 +41,6 @@ ps_setlinejoin(resource $psdoc, int $type): bool
 
 ### Дивіться також
 
--   [ps\_setlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
--   [ps\_setlinewidth()](function.ps-setlinewidth.html) - Встановлює ширину лінії
--   [ps\_setmiterlimit()](function.ps-setmiterlimit.html) - Встановлює межу скосу
+-   [псsetlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
+-   [псsetlinewidth()](function.ps-setlinewidth.html) - Встановлює ширину лінії
+-   [псsetmiterlimit()](function.ps-setmiterlimit.html) - Встановлює межу скосу

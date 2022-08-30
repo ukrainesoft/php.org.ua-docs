@@ -1,12 +1,12 @@
 Встановлює заголовки HTTP-запиту
 
--   [« Swoole\\Http\\Client::setData](swoole-http-client.setdata.html)
+-   [« SwooleHttpClient::setData](swoole-http-client.setdata.html)
     
--   [Swoole\\Http\\Client::setMethod »](swoole-http-client.setmethod.html)
+-   [SwooleHttpClient::setMethod »](swoole-http-client.setmethod.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Встановлює заголовки HTTP-запиту
     

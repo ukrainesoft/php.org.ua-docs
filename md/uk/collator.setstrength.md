@@ -119,4 +119,4 @@ array (
 ### Дивіться також
 
 -   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collator\_get\_strength()](collator.getstrength.html) - набуває поточної сили зіставлення
+-   [collatorgetstrength()](collator.getstrength.html) - набуває поточної сили зіставлення

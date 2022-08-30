@@ -1,12 +1,12 @@
 Клас The MongoDBDriverCommand
 
--   [« MongoDB\\Driver\\Manager::startSession](mongodb-driver-manager.startsession.html)
+-   [« MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.html)
     
--   [MongoDB\\Driver\\Command::\_\_construct »](mongodb-driver-command.construct.html)
+-   [MongoDBDriverCommand::construct »](mongodb-driver-command.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver](book.mongodb.html)
+-   [MongoDBDriver](book.mongodb.html)
     
 -   Клас The MongoDBDriverCommand
     
@@ -163,4 +163,4 @@ array(16) {
 
 ## Зміст
 
--   [MongoDB\\Driver\\Command::\_\_construct](mongodb-driver-command.construct.html) — Створює новий об'єкт Command
+-   [MongoDBDriverCommand::construct](mongodb-driver-command.construct.html) — Створює новий об'єкт Command

@@ -1,8 +1,8 @@
 Запускає службу
 
--   [« win32\_start\_service\_ctrl\_dispatcher](function.win32-start-service-ctrl-dispatcher.html)
+-   [« win32startservicectrldispatcher](function.win32-start-service-ctrl-dispatcher.html)
     
--   [win32\_stop\_service »](function.win32-stop-service.html)
+-   [win32stopservice »](function.win32-stop-service.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,8 +58,8 @@ win32_start_service(string $servicename, string $machine = ?): void
 
 ### Дивіться також
 
--   [win32\_stop\_service()](function.win32-stop-service.html) - зупиняє службу
--   [win32\_pause\_service()](function.win32-pause-service.html) - зупиняє службу
--   [win32\_continue\_service()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
--   [win32\_send\_custom\_control()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
+-   [win32stopservice()](function.win32-stop-service.html) - зупиняє службу
+-   [win32pauseservice()](function.win32-pause-service.html) - зупиняє службу
+-   [win32continueservice()](function.win32-continue-service.html) - Відновлює роботу зупиненої служби
+-   [win32sendcustomcontrol()](function.win32-send-custom-control.html) - Відправляє налаштований елемент керування до служби
 -   [Коды Ошибок Win32](win32service.constants.errors.html)

@@ -1,12 +1,12 @@
 Додає нового слухача на сервер
 
--   [« Swoole\\Server](class.swoole-server.html)
+-   [« SwooleServer](class.swoole-server.html)
     
--   [Swoole\\Server::addProcess »](swoole-server.addprocess.html)
+-   [SwooleServer::addProcess »](swoole-server.addprocess.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Додає нового слухача на сервер
     

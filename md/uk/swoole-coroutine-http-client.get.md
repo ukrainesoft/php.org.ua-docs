@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::execute](swoole-coroutine-http-client.execute.html)
+-   [« SwooleCoroutineHttpClient::execute](swoole-coroutine-http-client.execute.html)
     
--   [Swoole\\Coroutine\\Http\\Client::getDefer »](swoole-coroutine-http-client.getdefer.html)
+-   [SwooleCoroutineHttpClient::getDefer »](swoole-coroutine-http-client.getdefer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

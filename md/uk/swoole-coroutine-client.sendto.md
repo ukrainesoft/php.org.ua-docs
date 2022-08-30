@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::sendfile](swoole-coroutine-client.sendfile.html)
+-   [« SwooleCoroutineClient::sendfile](swoole-coroutine-client.sendfile.html)
     
--   [Swoole\\Coroutine\\Client::set »](swoole-coroutine-client.set.html)
+-   [SwooleCoroutineClient::set »](swoole-coroutine-client.set.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

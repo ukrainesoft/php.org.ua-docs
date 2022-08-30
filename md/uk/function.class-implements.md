@@ -1,12 +1,12 @@
 Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
 
--   [« Функции SPL](ref.spl.html)
+-   [« Функції SPL](ref.spl.html)
     
--   [class\_parents »](function.class-parents.html)
+-   [classparents »](function.class-parents.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SPL](ref.spl.html)
+-   [Функції SPL](ref.spl.html)
     
 -   Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
     
@@ -33,7 +33,7 @@ class_implements(object|string $object_or_class, bool $autoload = true): array|f
 
 `autoload`
 
-Чи викликати за замовчуванням [\_\_autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
 
 ### Значення, що повертаються
 
@@ -82,5 +82,5 @@ Array
 
 ### Дивіться також
 
--   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
--   [get\_declared\_interfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
+-   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів

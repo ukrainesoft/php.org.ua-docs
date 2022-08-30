@@ -1,12 +1,12 @@
 Створити новий об'єкт Separator
 
--   [« UI\\Controls\\Separator](class.ui-controls-separator.html)
+-   [« UIControlsSeparator](class.ui-controls-separator.html)
     
--   [UI\\Controls\\Combo »](class.ui-controls-combo.html)
+-   [ОЙControlsCombo »](class.ui-controls-combo.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Separator](class.ui-controls-separator.html)
+-   [ОЙControlsSeparator](class.ui-controls-separator.html)
     
 -   Створити новий об'єкт Separator
     

@@ -1,12 +1,12 @@
 Обчислює біномний коефіцієнт
 
--   [« gmp\_and](function.gmp-and.html)
+-   [« gmpand](function.gmp-and.html)
     
--   [gmp\_clrbit »](function.gmp-clrbit.html)
+-   [gmpclrbit »](function.gmp-clrbit.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислює біномний коефіцієнт
     

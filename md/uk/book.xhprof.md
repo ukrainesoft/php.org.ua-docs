@@ -22,7 +22,7 @@ Hierarchical Profiler
 -   [Предопределённые константы](xhprof.constants.html)
 -   [Примеры](xhprof.examples.html)
 -   [Функции Xhprof](ref.xhprof.html)
-    -   [xhprof\_disable](function.xhprof-disable.html) - Зупиняє профіль xhprof
-    -   [xhprof\_enable](function.xhprof-enable.html) - Запуск профілювання xhprof
-    -   [xhprof\_sample\_disable](function.xhprof-sample-disable.html) — Зупинити семплююче профіль xhprof
-    -   [xhprof\_sample\_enable](function.xhprof-sample-enable.html) - Запуск семплюючого режиму профілювання XHProf
+    -   [xhprofdisable](function.xhprof-disable.html) - Зупиняє профіль xhprof
+    -   [xhprofenable](function.xhprof-enable.html) - Запуск профілювання xhprof
+    -   [xhprofsampledisable](function.xhprof-sample-disable.html) — Зупинити семплююче профіль xhprof
+    -   [xhprofsampleenable](function.xhprof-sample-enable.html) - Запуск семплюючого режиму профілювання XHProf

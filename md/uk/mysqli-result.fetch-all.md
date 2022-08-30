@@ -1,12 +1,12 @@
 Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
 
--   [« mysqli\_result::data\_seek](mysqli-result.data-seek.html)
+-   [« mysqliresult::dataseek](mysqli-result.data-seek.html)
     
--   [mysqli\_result::fetch\_array »](mysqli-result.fetch-array.html)
+-   [mysqliresult::fetcharray »](mysqli-result.fetch-array.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
     
@@ -43,7 +43,7 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `mode`
 
@@ -105,6 +105,6 @@ Herat (AFG)
 
 ### Дивіться також
 
--   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqli\_fetch\_column()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlifetcharray()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних

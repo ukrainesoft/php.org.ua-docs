@@ -2,7 +2,7 @@
 
 -   [« SplObjectStorage::unserialize](splobjectstorage.unserialize.html)
     
--   [Итераторы »](spl.iterators.html)
+-   [Ітератори »](spl.iterators.html)
     
 -   [PHP Manual](index.html)
     

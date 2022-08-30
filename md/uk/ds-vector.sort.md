@@ -1,8 +1,8 @@
 Сортує вектор
 
--   [« Ds\\Vector::slice](ds-vector.slice.html)
+-   [« DsVector::slice](ds-vector.slice.html)
     
--   [Ds\\Vector::sorted »](ds-vector.sorted.html)
+-   [ДсVector::sorted »](ds-vector.sorted.html)
     
 -   [PHP Manual](index.html)
     

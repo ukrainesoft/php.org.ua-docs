@@ -1,6 +1,6 @@
 Записати історію команд у файл
 
--   [« readline\_redisplay](function.readline-redisplay.html)
+-   [« readlineredisplay](function.readline-redisplay.html)
     
 -   [readline »](function.readline.html)
     

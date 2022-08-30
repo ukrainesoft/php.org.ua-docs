@@ -1,8 +1,8 @@
 Встановлює максимальний час виконання
 
--   [« eio\_set\_max\_poll\_reqs](function.eio-set-max-poll-reqs.html)
+-   [« eiosetmaxpollreqs](function.eio-set-max-poll-reqs.html)
     
--   [eio\_set\_min\_parallel »](function.eio-set-min-parallel.html)
+-   [eiosetminparallel »](function.eio-set-min-parallel.html)
     
 -   [PHP Manual](index.html)
     

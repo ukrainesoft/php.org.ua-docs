@@ -1,12 +1,12 @@
 Збирає URL
 
--   [« Yaf\_Route\_Static](class.yaf-route-static.html)
+-   [« YafRouteStatic](class.yaf-route-static.html)
     
--   [Yaf\_Route\_Static::match »](yaf-route-static.match.html)
+-   [YafRouteStatic::match »](yaf-route-static.match.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Static](class.yaf-route-static.html)
+-   [YafRouteStatic](class.yaf-route-static.html)
     
 -   Збирає URL
     
@@ -37,7 +37,7 @@ public Yaf_Route_Static::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Викидає [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html), якщо ключі параметра `info` `':c'` and `':a'` не задані.
+Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.html), якщо ключі параметра `info` `':c'` and `':a'` не задані.
 
 ### Приклади
 

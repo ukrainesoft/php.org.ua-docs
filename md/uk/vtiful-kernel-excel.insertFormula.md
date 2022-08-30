@@ -1,12 +1,12 @@
 Вставити формулу розрахунку
 
--   [« Vtiful\\Kernel\\Excel::header](vtiful-kernel-excel.header.html)
+-   [« VtifulKernelExcel::header](vtiful-kernel-excel.header.html)
     
--   [Vtiful\\Kernel\\Excel::insertImage »](vtiful-kernel-excel.insertImage.html)
+-   [VtifulKernelExcel::insertImage »](vtiful-kernel-excel.insertImage.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Вставити формулу розрахунку
     
@@ -41,7 +41,7 @@ public Vtiful\Kernel\Excel::insertFormula(int $row, int $column, string $formula
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

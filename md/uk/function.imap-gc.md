@@ -1,8 +1,8 @@
 Очистити кеш IMAP
 
--   [« imap\_fetchtext](function.imap-fetchtext.html)
+-   [« imapfetchtext](function.imap-fetchtext.html)
     
--   [imap\_get\_quota »](function.imap-get-quota.html)
+-   [imapgetquota »](function.imap-get-quota.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_gc(IMAP\Connection $imap, int $flags): bool
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `flags`
 
@@ -41,9 +41,9 @@ imap_gc(IMAP\Connection $imap, int $flags): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

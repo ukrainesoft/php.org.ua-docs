@@ -109,8 +109,8 @@ echo 'Второй преобразованный вывод: ' . datefmt_
 
 ### Дивіться також
 
--   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати
--   [datefmt\_format()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
--   [datefmt\_localtime()](intldateformatter.localtime.html) - Перетворює рядок на значення часу на основі поля
--   [datefmt\_get\_error\_code()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmt\_get\_error\_message()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
+-   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtformat()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
+-   [datefmtlocaltime()](intldateformatter.localtime.html) - Перетворює рядок на значення часу на основі поля
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції

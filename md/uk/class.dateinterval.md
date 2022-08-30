@@ -2,7 +2,7 @@
 
 -   [« DateTimeZone::listIdentifiers](datetimezone.listidentifiers.html)
     
--   [DateInterval::\_\_construct »](dateinterval.construct.html)
+-   [DateInterval::construct »](dateinterval.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -153,6 +153,6 @@ datestring
 
 ## Зміст
 
--   [DateInterval::\_\_construct](dateinterval.construct.html) — Створює новий об'єкт DateInterval
+-   [DateInterval::construct](dateinterval.construct.html) — Створює новий об'єкт DateInterval
 -   [DateInterval::createFromDateString](dateinterval.createfromdatestring.html) — Створює об'єкт класу DateInterval із дати у відносному форматі
 -   [DateInterval::format](dateinterval.format.html) - Форматує інтервал

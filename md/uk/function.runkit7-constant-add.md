@@ -1,12 +1,12 @@
 Аналогічний define(), але також дозволяє визначити константу класу
 
--   [« Функции runkit7](ref.runkit7.html)
+-   [« Функції runkit7](ref.runkit7.html)
     
--   [runkit7\_constant\_redefine »](function.runkit7-constant-redefine.html)
+-   [runkit7constantredefine »](function.runkit7-constant-redefine.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.html)
     
 -   Аналогічний define(), але також дозволяє визначити константу класу
     
@@ -44,5 +44,5 @@ runkit7_constant_add(string $constant_name, mixed $value, int $newVisibility = ?
 ### Дивіться також
 
 -   [define()](function.define.html) - визначає іменовану константу
--   [runkit7\_constant\_redefine()](function.runkit7-constant-redefine.html) - Перевизначає вже певну константу
--   [runkit7\_constant\_remove()](function.runkit7-constant-remove.html) - Видаляє вже певну константу
+-   [runkit7constantredefine()](function.runkit7-constant-redefine.html) - Перевизначає вже певну константу
+-   [runkit7constantremove()](function.runkit7-constant-remove.html) - Видаляє вже певну константу

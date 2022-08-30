@@ -1,12 +1,12 @@
 Повертає сервери, до яких підключено менеджера
 
--   [« MongoDB\\Driver\\Manager::getReadPreference](mongodb-driver-manager.getreadpreference.html)
+-   [« MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.html)
     
--   [MongoDB\\Driver\\Manager::getWriteConcern »](mongodb-driver-manager.getwriteconcern.html)
+-   [MongoDBDriverManager::getWriteConcern »](mongodb-driver-manager.getwriteconcern.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+-   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
 -   Повертає сервери, до яких підключено менеджера
     
@@ -23,9 +23,9 @@ MongoDBDriverManager::getServers — Повертає сервери, до як�
 final public MongoDB\Driver\Manager::getServers(): array
 ```
 
-Повертає масив (array) екземплярів [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), до яких підключено поточного менеджера.
+Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.html), до яких підключено поточного менеджера.
 
-> **Зауваження**: Оскільки драйвер підключається до бази даних ліниво, цей метод може повертати порожній масив (array), якщо він викликається перед виконанням операції в [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+> **Зауваження**: Оскільки драйвер підключається до бази даних ліниво, цей метод може повертати порожній масив (array), якщо він викликається перед виконанням операції в [MongoDBDriverManager](class.mongodb-driver-manager.html)
 
 ### Список параметрів
 
@@ -33,11 +33,11 @@ final public MongoDB\Driver\Manager::getServers(): array
 
 ### Значення, що повертаються
 
-Повертає масив (array) екземплярів [MongoDB\\Driver\\Server](class.mongodb-driver-server.html), до яких підключено менеджера.
+Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.html), до яких підключено менеджера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -114,5 +114,5 @@ array(1) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
--   [MongoDB\\Driver\\Manager::selectServer()](mongodb-driver-manager.selectserver.html) - Вибрати сервер, що відповідає перевагам читання
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
+-   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.html) - Вибрати сервер, що відповідає перевагам читання

@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-До PHP 8.1.0, ресурс `imap`, що повертається функцією [imap\_open()](function.imap-open.html)посилався на відкритий потік IMAP.
+До PHP 8.1.0, ресурс `imap`, що повертається функцією [imapopen()](function.imap-open.html)посилався на відкритий потік IMAP.

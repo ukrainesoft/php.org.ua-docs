@@ -1,12 +1,12 @@
 Повертає ім'я поточної директорії
 
--   [« ftp\_put](function.ftp-put.html)
+-   [« ftpput](function.ftp-put.html)
     
--   [ftp\_quit »](function.ftp-quit.html)
+-   [ftpquit »](function.ftp-quit.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Повертає ім'я поточної директорії
     
@@ -27,7 +27,7 @@ ftp_pwd(FTP\Connection $ftp): string|false
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 ### Значення, що повертаються
 
@@ -35,9 +35,9 @@ ftp_pwd(FTP\Connection $ftp): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -65,5 +65,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftp\_chdir()](function.ftp-chdir.html) - Змінює поточну директорію на FTP-сервері
--   [ftp\_cdup()](function.ftp-cdup.html) - Переходить до батьківської директорії
+-   [ftpchdir()](function.ftp-chdir.html) - Змінює поточну директорію на FTP-сервері
+-   [ftpcdup()](function.ftp-cdup.html) - Переходить до батьківської директорії

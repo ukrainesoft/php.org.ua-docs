@@ -1,8 +1,8 @@
 Створює копію структури fann
 
--   [« fann\_clear\_scaling\_params](function.fann-clear-scaling-params.html)
+-   [« fannclearscalingparams](function.fann-clear-scaling-params.html)
     
--   [fann\_create\_from\_file »](function.fann-create-from-file.html)
+-   [fanncreatefromfile »](function.fann-create-from-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,4 +43,4 @@ fann_copy(resource $ann): resource
 
 ### Дивіться також
 
--   [fann\_test()](function.fann-test.html) - Тестування з набором вхідних даних та бажаним результатом
+-   [fanntest()](function.fann-test.html) - Тестування з набором вхідних даних та бажаним результатом

@@ -1,8 +1,8 @@
 Почати потокову передачу з джерела
 
--   [« openal\_source\_stop](function.openal-source-stop.html)
+-   [« openalsourcestop](function.openal-source-stop.html)
     
--   [Службы аутентификации »](refs.remote.auth.html)
+-   [Служби аутентифікації »](refs.remote.auth.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_stream(resource $source, int $format, int $rate): resource|false
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.html)
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.html)
 
 `format`
 
@@ -43,5 +43,5 @@ openal_stream(resource $source, int $format, int $rate): resource|false
 
 ### Дивіться також
 
--   [openal\_source\_create()](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openalsourcecreate()](function.openal-source-create.html) - Згенерувати джерело ресурсу
 -   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл

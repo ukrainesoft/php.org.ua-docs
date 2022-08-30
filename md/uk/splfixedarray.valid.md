@@ -2,7 +2,7 @@
 
 -   [« SplFixedArray::toArray](splfixedarray.toarray.html)
     
--   [SplFixedArray::\_\_wakeup »](splfixedarray.wakeup.html)
+-   [SplFixedArray::wakeup »](splfixedarray.wakeup.html)
     
 -   [PHP Manual](index.html)
     

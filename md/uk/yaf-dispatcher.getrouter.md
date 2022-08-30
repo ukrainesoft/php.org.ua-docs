@@ -1,12 +1,12 @@
 Отримує екземпляр маршрутизатора
 
--   [« Yaf\_Dispatcher::getRequest](yaf-dispatcher.getrequest.html)
+-   [« YafDispatcher::getRequest](yaf-dispatcher.getrequest.html)
     
--   [Yaf\_Dispatcher::initView »](yaf-dispatcher.initview.html)
+-   [YafDispatcher::initView »](yaf-dispatcher.initview.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує екземпляр маршрутизатора
     

@@ -1,8 +1,8 @@
 Отримує значення ключа /STATUS
 
--   [« fdf\_get\_opt](function.fdf-get-opt.html)
+-   [« fdfgetopt](function.fdf-get-opt.html)
     
--   [fdf\_get\_value »](function.fdf-get-value.html)
+-   [fdfgetvalue »](function.fdf-get-value.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_get_status(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ fdf_get_status(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdf\_set\_status()](function.fdf-set-status.html) - Встановлює значення ключа /STATUS
+-   [fdfsetstatus()](function.fdf-set-status.html) - Встановлює значення ключа /STATUS

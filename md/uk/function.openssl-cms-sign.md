@@ -1,8 +1,8 @@
 Підписує файл
 
--   [« openssl\_cms\_read](function.openssl-cms-read.html)
+-   [« opensslcmsread](function.openssl-cms-read.html)
     
--   [openssl\_cms\_verify »](function.openssl-cms-verify.html)
+-   [opensslcmsverify »](function.openssl-cms-verify.html)
     
 -   [PHP Manual](index.html)
     

@@ -21,8 +21,8 @@ Fight for your mind Ben Harper 1995 Electric Ladyland Jimi Hendrix 1997
 
 **Приклад # 2 collection.xsl**
 
-http://www.w3.org/1999/XSL/Transform"> Hey! Welcome to 's sweet CD collection! [xsl:apply-templates/](xsl:apply-templates/)
+[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform">) Hey! Welcome to 's sweet CD collection! [xsl:apply-templates/](xsl:apply-templates/)
 
-## by \-
+## by -
 
 * * *

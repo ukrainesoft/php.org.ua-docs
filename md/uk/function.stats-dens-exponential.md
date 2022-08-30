@@ -1,12 +1,12 @@
 Щільність ймовірності експонентного розподілу
 
--   [« stats\_dens\_chisquare](function.stats-dens-chisquare.html)
+-   [« statsdenschisquare](function.stats-dens-chisquare.html)
     
--   [stats\_dens\_f »](function.stats-dens-f.html)
+-   [statsdensf »](function.stats-dens-f.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності експонентного розподілу
     

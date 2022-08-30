@@ -1,12 +1,12 @@
 Інтерфейс ArrayAccess
 
--   [« Throwable::\_\_toString](throwable.tostring.html)
+-   [« Throwable::toString](throwable.tostring.html)
     
 -   [ArrayAccess::offsetExists »](arrayaccess.offsetexists.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Інтерфейс ArrayAccess
     

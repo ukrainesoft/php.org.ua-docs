@@ -1,12 +1,12 @@
 Перетворити рядок з однієї кодової сторінки на іншу
 
--   [« php\_strip\_whitespace](function.php-strip-whitespace.html)
+-   [« phpstripwhitespace](function.php-strip-whitespace.html)
     
--   [sapi\_windows\_cp\_get »](function.sapi-windows-cp-get.html)
+-   [sapiwindowsспget »](function.sapi-windows-cp-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Перетворити рядок з однієї кодової сторінки на іншу
     
@@ -49,5 +49,5 @@ sapi_windows_cp_conv(int|string $in_codepage, int|string $out_codepage, string $
 
 ### Дивіться також
 
--   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

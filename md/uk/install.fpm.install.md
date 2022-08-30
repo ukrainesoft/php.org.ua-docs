@@ -1,12 +1,12 @@
 Встановлення
 
--   [« Менеджер процессов FastCGI (FPM)](install.fpm.html)
+-   [Менеджер процесів FastCGI (FPM)](install.fpm.html)
     
 -   [Настройка »](install.fpm.configuration.html)
     
 -   [PHP Manual](index.html)
     
--   [Менеджер процессов FastCGI (FPM)](install.fpm.html)
+-   [Менеджер процесів FastCGI (FPM)](install.fpm.html)
     
 -   Встановлення
     

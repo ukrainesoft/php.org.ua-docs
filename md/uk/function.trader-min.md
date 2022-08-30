@@ -1,8 +1,8 @@
 Найменше значення за вказаний період
 
--   [« trader\_midprice](function.trader-midprice.html)
+-   [« tradermidprice](function.trader-midprice.html)
     
--   [trader\_minindex »](function.trader-minindex.html)
+-   [traderminindex »](function.trader-minindex.html)
     
 -   [PHP Manual](index.html)
     

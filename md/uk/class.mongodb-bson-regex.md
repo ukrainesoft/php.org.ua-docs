@@ -1,12 +1,12 @@
 Клас MongoDBBSONRegex
 
--   [« MongoDB\\BSON\\ObjectId::unserialize](mongodb-bson-objectid.unserialize.html)
+-   [« MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.html)
     
--   [MongoDB\\BSON\\Regex::\_\_construct »](mongodb-bson-regex.construct.html)
+-   [MongoDBBSONRegex::construct »](mongodb-bson-regex.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONRegex
     
@@ -55,15 +55,15 @@ final public unserialize(string $serialized): void
 | Версия              | Описание                                                                                                      |
 |---------------------|---------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+.                                          |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDB\\BSON\\RegexInterface](class.mongodb-bson-regexinterface.html)                    |
+| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)                        |
 | PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 
--   [MongoDB\\BSON\\Regex::\_\_construct](mongodb-bson-regex.construct.html) - Створює новий Regex
--   [MongoDB\\BSON\\Regex::getFlags](mongodb-bson-regex.getflags.html) — Повертає прапори Regex
--   [MongoDB\\BSON\\Regex::getPattern](mongodb-bson-regex.getpattern.html) — Повертає шаблон Regex
--   [MongoDB\\BSON\\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\Regex::serialize](mongodb-bson-regex.serialize.html) - Серіалізує Regex
--   [MongoDB\\BSON\\Regex::\_\_toString](mongodb-bson-regex.tostring.html) — Повертає рядкову виставу Regex
--   [MongoDB\\BSON\\Regex::unserialize](mongodb-bson-regex.unserialize.html) - Десеріалізує Regex
+-   [MongoDBBSONRegex::construct](mongodb-bson-regex.construct.html) - Створює новий Regex
+-   [MongoDBBSONRegex::getFlags](mongodb-bson-regex.getflags.html) — Повертає прапори Regex
+-   [MongoDBBSONRegex::getPattern](mongodb-bson-regex.getpattern.html) — Повертає шаблон Regex
+-   [MongoDBBSONRegex::jsonSerialize](mongodb-bson-regex.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONRegex::serialize](mongodb-bson-regex.serialize.html) - Серіалізує Regex
+-   [MongoDBBSONRegex::toString](mongodb-bson-regex.tostring.html) — Повертає рядкову виставу Regex
+-   [MongoDBBSONRegex::unserialize](mongodb-bson-regex.unserialize.html) - Десеріалізує Regex

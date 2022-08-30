@@ -1,12 +1,12 @@
 Замінює частину рядка
 
--   [« substr\_count](function.substr-count.html)
+-   [« substrcount](function.substr-count.html)
     
 -   [substr »](function.substr.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Замінює частину рядка
     
@@ -115,6 +115,6 @@ A: AAAXX; B: BBBX; C: CCC
 
 ### Дивіться також
 
--   [str\_replace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
+-   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
 -   [substr()](function.substr.html) - Повертає підрядок
 -   [Доступ к символу в строке и его изменение](language.types.string.html#language.types.string.substr)

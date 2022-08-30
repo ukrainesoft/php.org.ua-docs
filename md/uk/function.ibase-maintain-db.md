@@ -1,8 +1,8 @@
 Виконує команду обслуговування на сервері бази даних
 
--   [« ibase\_gen\_id](function.ibase-gen-id.html)
+-   [« ibasegenід](function.ibase-gen-id.html)
     
--   [ibase\_modify\_user »](function.ibase-modify-user.html)
+-   [ibasemodifyuser »](function.ibase-modify-user.html)
     
 -   [PHP Manual](index.html)
     

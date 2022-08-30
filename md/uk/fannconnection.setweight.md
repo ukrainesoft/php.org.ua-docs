@@ -25,7 +25,7 @@ public FANNConnection::setWeight(float $weight): void
 
 Встановлює вагу зв'язку.
 
-Цей метод відрізняється від [fann\_set\_weight()](function.fann-set-weight.html). Він не оновлює значення ваги мережі. Значення в мережі оновиться лише після дзвінка [fann\_set\_weight\_array()](function.fann-set-weight-array.html)
+Цей метод відрізняється від [fannsetweight()](function.fann-set-weight.html). Він не оновлює значення ваги мережі. Значення в мережі оновиться лише після дзвінка [fannsetweightarray()](function.fann-set-weight-array.html)
 
 ### Список параметрів
 

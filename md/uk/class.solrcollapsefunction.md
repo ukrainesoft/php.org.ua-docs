@@ -2,7 +2,7 @@
 
 -   [« SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.html)
     
--   [SolrCollapseFunction::\_\_construct »](solrcollapsefunction.construct.html)
+-   [SolrCollapseFunction::construct »](solrcollapsefunction.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -75,7 +75,7 @@ public __toString(): string
 
 ## Зміст
 
--   [SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.html) - Конструктор класу
+-   [SolrCollapseFunction::construct](solrcollapsefunction.construct.html) - Конструктор класу
 -   [SolrCollapseFunction::getField](solrcollapsefunction.getfield.html) - Повертає згорнуте поле
 -   [SolrCollapseFunction::getHint](solrcollapsefunction.gethint.html) — Повертає підказку згортання
 -   [SolrCollapseFunction::getMax](solrcollapsefunction.getmax.html) — Повертає максимальне значення
@@ -88,4 +88,4 @@ public __toString(): string
 -   [SolrCollapseFunction::setMin](solrcollapsefunction.setmin.html) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
 -   [SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.html) - Встановлює NULL-політику
 -   [SolrCollapseFunction::setSize](solrcollapsefunction.setsize.html) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
--   [SolrCollapseFunction::\_\_toString](solrcollapsefunction.tostring.html) — Повертає рядок, який представляє побудовану функцію згортання
+-   [SolrCollapseFunction::toString](solrcollapsefunction.tostring.html) — Повертає рядок, який представляє побудовану функцію згортання

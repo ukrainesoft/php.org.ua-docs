@@ -2,7 +2,7 @@
 
 -   [« QuickHashIntSet](class.quickhashintset.html)
     
--   [QuickHashIntSet::\_\_construct »](quickhashintset.construct.html)
+-   [QuickHashIntSet::construct »](quickhashintset.construct.html)
     
 -   [PHP Manual](index.html)
     

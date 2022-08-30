@@ -2,7 +2,7 @@
 
 -   [« ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.html)
     
--   [ReflectionEnumBackedCase::\_\_construct »](reflectionenumbackedcase.construct.html)
+-   [ReflectionEnumBackedCase::construct »](reflectionenumbackedcase.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -94,5 +94,5 @@ public ReflectionClassConstant::__toString(): string
 
 ## Зміст
 
--   [ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.html) — Створює об'єкт ReflectionEnumBackedCase
+-   [ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.html) — Створює об'єкт ReflectionEnumBackedCase
 -   [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.html) — Отримує скалярне значення варіанта перерахування

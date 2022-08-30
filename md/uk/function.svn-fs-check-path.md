@@ -1,12 +1,12 @@
 Визначає, яка сутність знаходиться у дорозі репозиторію fsroot
 
--   [« svn\_fs\_change\_node\_prop](function.svn-fs-change-node-prop.html)
+-   [« svnфсchangenodeprop](function.svn-fs-change-node-prop.html)
     
--   [svn\_fs\_contents\_changed »](function.svn-fs-contents-changed.html)
+-   [svnфсcontentschanged »](function.svn-fs-contents-changed.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Визначає, яка сутність знаходиться у дорозі репозиторію fsroot
     

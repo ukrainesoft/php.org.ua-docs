@@ -1,12 +1,12 @@
 Отримує ім'я контролера
 
--   [« Yaf\_Action\_Abstract::getController](yaf-action-abstract.getcontroller.html)
+-   [« YafActionAbstract::getController](yaf-action-abstract.getcontroller.html)
     
--   [Yaf\_View\_Interface »](class.yaf-view-interface.html)
+-   [YafViewInterface »](class.yaf-view-interface.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+-   [YafActionAbstract](class.yaf-action-abstract.html)
     
 -   Отримує ім'я контролера
     

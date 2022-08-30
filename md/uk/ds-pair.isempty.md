@@ -1,8 +1,8 @@
 Перевіряє, чи пара порожня
 
--   [« Ds\\Pair::copy](ds-pair.copy.html)
+-   [« DsPair::copy](ds-pair.copy.html)
     
--   [Ds\\Pair::jsonSerialize »](ds-pair.jsonserialize.html)
+-   [ДсPair::jsonSerialize »](ds-pair.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ public Ds\Pair::isEmpty(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо пара порожня і **`false`** в іншому випадку.
+Повертає \*\*`true`\*\*якщо пара порожня і **`false`** в іншому випадку.
 
 ### Приклади
 

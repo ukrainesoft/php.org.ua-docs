@@ -2,7 +2,7 @@
 
 -   [« Функции Hash](ref.hash.html)
     
--   [hash\_copy »](function.hash-copy.html)
+-   [hashcopy »](function.hash-copy.html)
     
 -   [PHP Manual](index.html)
     
@@ -121,4 +121,4 @@ Array
 
 ### Дивіться також
 
--   [hash\_hmac\_algos()](function.hash-hmac-algos.html) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
+-   [hashhmacalgos()](function.hash-hmac-algos.html) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac

@@ -52,4 +52,4 @@ juliantojd(int $month, int $day, int $year): int
 ### Дивіться також
 
 -   [jdtojulian()](function.jdtojulian.html) - Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
--   [cal\_to\_jd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
+-   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську

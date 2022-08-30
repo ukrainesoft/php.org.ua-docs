@@ -1,6 +1,6 @@
 Чекає на блокування читання
 
--   [« SyncReaderWriter::\_\_construct](syncreaderwriter.construct.html)
+-   [« SyncReaderWriter::construct](syncreaderwriter.construct.html)
     
 -   [SyncReaderWriter::readunlock »](syncreaderwriter.readunlock.html)
     

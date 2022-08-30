@@ -1,12 +1,12 @@
 Встановлює заголовки HTTP-відповіді
 
--   [« Swoole\\Http\\Response::gzip](swoole-http-response.gzip.html)
+-   [« SwooleHttpResponse::gzip](swoole-http-response.gzip.html)
     
--   [Swoole\\Http\\Response::initHeader »](swoole-http-response.initheader.html)
+-   [SwooleHttpResponse::initHeader »](swoole-http-response.initheader.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Встановлює заголовки HTTP-відповіді
     

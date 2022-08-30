@@ -1,12 +1,12 @@
 Інтерфейс Sequence
 
--   [« Ds\\Hashable::hash](ds-hashable.hash.html)
+-   [« DsHashable::hash](ds-hashable.hash.html)
     
--   [Ds\\Sequence::allocate »](ds-sequence.allocate.html)
+-   [ДсSequence::allocate »](ds-sequence.allocate.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Інтерфейс Sequence
     
@@ -80,30 +80,30 @@ abstract public unshift(mixed $values = ?): void
 
 ## Зміст
 
--   [Ds\\Sequence::allocate](ds-sequence.allocate.html) — Виділення пам'яті під зазначену місткість
--   [Ds\\Sequence::apply](ds-sequence.apply.html) — Оновлення всіх значень застосуванням переданої callback-функції до них
--   [Ds\\Sequence::capacity](ds-sequence.capacity.html) — Повертає поточну місткість
--   [Ds\\Sequence::contains](ds-sequence.contains.html) — Перевіряє, чи містяться в колекції задані значення
--   [Ds\\Sequence::filter](ds-sequence.filter.html) — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
--   [Ds\\Sequence::find](ds-sequence.find.html) - Пошук індексу за значенням
--   [Ds\\Sequence::first](ds-sequence.first.html) — Повертає перший елемент колекції
--   [Ds\\Sequence::get](ds-sequence.get.html) — Повертає значення за індексом
--   [Ds\\Sequence::insert](ds-sequence.insert.html) — Вставляє значення за вказаним індексом
--   [Ds\\Sequence::join](ds-sequence.join.html) — Склеює всі значення в рядок
--   [Ds\\Sequence::last](ds-sequence.last.html) — Повертає останнє значення колекції
--   [Ds\\Sequence::map](ds-sequence.map.html) — Повертає результат застосування callback-функції до всіх значень колекції
--   [Ds\\Sequence::merge](ds-sequence.merge.html) — Повертає результат додавання всіх заданих значень до колекції
--   [Ds\\Sequence::pop](ds-sequence.pop.html) — Видаляє та повертає останнє значення
--   [Ds\\Sequence::push](ds-sequence.push.html) — Додає значення до кінця послідовності
--   [Ds\\Sequence::reduce](ds-sequence.reduce.html) - Сплескує колекцію до одного значення використовуючи callback-функцію
--   [Ds\\Sequence::remove](ds-sequence.remove.html) — Видаляє та повертає значення за індексом
--   [Ds\\Sequence::reverse](ds-sequence.reverse.html) — Перевертає поточну колекцію
--   [Ds\\Sequence::reversed](ds-sequence.reversed.html) — Повертає перегорнуту копію колекції
--   [Ds\\Sequence::rotate](ds-sequence.rotate.html) — Перемотує послідовність на задану кількість значень
--   [Ds\\Sequence::set](ds-sequence.set.html) — Замінює значення за вказаним індексом
--   [Ds\\Sequence::shift](ds-sequence.shift.html) — Видаляє та повертає перше значення
--   [Ds\\Sequence::slice](ds-sequence.slice.html) — Повертає під-колекцію із заданого діапазону
--   [Ds\\Sequence::sort](ds-sequence.sort.html) — Сортує колекцію
--   [Ds\\Sequence::sorted](ds-sequence.sorted.html) — Повертає копію колекції, відсортовану за значенням.
--   [Ds\\Sequence::sum](ds-sequence.sum.html) — Повертає суму всіх значень колекції
--   [Ds\\Sequence::unshift](ds-sequence.unshift.html) — Додає значення на початок послідовності
+-   [ДсSequence::allocate](ds-sequence.allocate.html) — Виділення пам'яті під зазначену місткість
+-   [ДсSequence::apply](ds-sequence.apply.html) — Оновлення всіх значень застосуванням переданої callback-функції до них
+-   [ДсSequence::capacity](ds-sequence.capacity.html) — Повертає поточну місткість
+-   [ДсSequence::contains](ds-sequence.contains.html) — Перевіряє, чи містяться в колекції задані значення
+-   [ДсSequence::filter](ds-sequence.filter.html) — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
+-   [ДсSequence::find](ds-sequence.find.html) - Пошук індексу за значенням
+-   [ДсSequence::first](ds-sequence.first.html) — Повертає перший елемент колекції
+-   [ДсSequence::get](ds-sequence.get.html) — Повертає значення за індексом
+-   [ДсSequence::insert](ds-sequence.insert.html) — Вставляє значення за вказаним індексом
+-   [ДсSequence::join](ds-sequence.join.html) — Склеює всі значення в рядок
+-   [ДсSequence::last](ds-sequence.last.html) — Повертає останнє значення колекції
+-   [ДсSequence::map](ds-sequence.map.html) — Повертає результат застосування callback-функції до всіх значень колекції
+-   [ДсSequence::merge](ds-sequence.merge.html) — Повертає результат додавання всіх заданих значень до колекції
+-   [ДсSequence::pop](ds-sequence.pop.html) — Видаляє та повертає останнє значення
+-   [ДсSequence::push](ds-sequence.push.html) — Додає значення до кінця послідовності
+-   [ДсSequence::reduce](ds-sequence.reduce.html) - Сплескує колекцію до одного значення використовуючи callback-функцію
+-   [ДсSequence::remove](ds-sequence.remove.html) — Видаляє та повертає значення за індексом
+-   [ДсSequence::reverse](ds-sequence.reverse.html) — Перевертає поточну колекцію
+-   [ДсSequence::reversed](ds-sequence.reversed.html) — Повертає перегорнуту копію колекції
+-   [ДсSequence::rotate](ds-sequence.rotate.html) — Перемотує послідовність на задану кількість значень
+-   [ДсSequence::set](ds-sequence.set.html) — Замінює значення за вказаним індексом
+-   [ДсSequence::shift](ds-sequence.shift.html) — Видаляє та повертає перше значення
+-   [ДсSequence::slice](ds-sequence.slice.html) — Повертає під-колекцію із заданого діапазону
+-   [ДсSequence::sort](ds-sequence.sort.html) — Сортує колекцію
+-   [ДсSequence::sorted](ds-sequence.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+-   [ДсSequence::sum](ds-sequence.sum.html) — Повертає суму всіх значень колекції
+-   [ДсSequence::unshift](ds-sequence.unshift.html) — Додає значення на початок послідовності

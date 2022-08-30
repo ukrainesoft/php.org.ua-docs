@@ -1,8 +1,8 @@
 Розшифровує CMS-повідомлення
 
--   [« openssl\_cipher\_iv\_length](function.openssl-cipher-iv-length.html)
+-   [« opensslcipherвербlength](function.openssl-cipher-iv-length.html)
     
--   [openssl\_cms\_encrypt »](function.openssl-cms-encrypt.html)
+-   [opensslcmsencrypt »](function.openssl-cms-encrypt.html)
     
 -   [PHP Manual](index.html)
     

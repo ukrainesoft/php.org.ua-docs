@@ -1,12 +1,12 @@
 Показати блок помилки
 
--   [« UI\\Window::\_\_construct](ui-window.construct.html)
+-   [« UIWindow::construct](ui-window.construct.html)
     
--   [UI\\Window::getSize »](ui-window.getsize.html)
+-   [ОЙWindow::getSize »](ui-window.getsize.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Показати блок помилки
     

@@ -1,12 +1,12 @@
 Перевіряє підпис тексту
 
--   [« gnupg\_sign](function.gnupg-sign.html)
+-   [« gnupgsign](function.gnupg-sign.html)
     
 -   [wkhtmltox »](book.wkhtmltox.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Перевіряє підпис тексту
     
@@ -29,7 +29,7 @@ gnupg_verify(    resource $identifier,    string $signed_text,    st
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `signed_text`
 

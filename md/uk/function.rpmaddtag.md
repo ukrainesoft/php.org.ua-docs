@@ -1,12 +1,12 @@
 Додає тег, отриманий у запиті
 
--   [« Функции RpmInfo](ref.rpminfo.html)
+-   [« Функції RpmInfo](ref.rpminfo.html)
     
 -   [rpmdbinfo »](function.rpmdbinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RpmInfo](ref.rpminfo.html)
+-   [Функції RpmInfo](ref.rpminfo.html)
     
 -   Додає тег, отриманий у запиті
     

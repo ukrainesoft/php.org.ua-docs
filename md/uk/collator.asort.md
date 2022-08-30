@@ -101,5 +101,5 @@ array (
 ### Дивіться також
 
 -   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collator\_sort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
--   [collator\_sort\_with\_sort\_keys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування

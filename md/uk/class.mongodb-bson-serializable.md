@@ -1,12 +1,12 @@
 Інтерфейс MongoDBBSONSerializable
 
--   [« MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html)
+-   [« MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
     
--   [MongoDB\\BSON\\Serializable::bsonSerialize »](mongodb-bson-serializable.bsonserialize.html)
+-   [MongoDBBSONSerializable::bsonSerialize »](mongodb-bson-serializable.bsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Інтерфейс MongoDBBSONSerializable
     
@@ -49,4 +49,4 @@
 
 ## Зміст
 
--   [MongoDB\\BSON\\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html) — Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html) — Надає масив або документ для серіалізації у BSON

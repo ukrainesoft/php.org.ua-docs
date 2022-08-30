@@ -1,12 +1,12 @@
 Деструктор YafApplication
 
--   [« Yaf\_Application::\_\_construct](yaf-application.construct.html)
+-   [« YafApplication::construct](yaf-application.construct.html)
     
--   [Yaf\_Application::environ »](yaf-application.environ.html)
+-   [YafApplication::environ »](yaf-application.environ.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Деструктор YafApplication
     

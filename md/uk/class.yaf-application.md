@@ -2,7 +2,7 @@
 
 -   [« Конфигурация приложения](yaf.appconfig.html)
     
--   [Yaf\_Application::app »](yaf-application.app.html)
+-   [YafApplication::app »](yaf-application.app.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,11 +17,11 @@
 
 ## Вступ
 
-[Yaf\_Application](class.yaf-application.html) забезпечує ініціалізацію об'єкта для додатків які надають ресурси, що використовуються, загальні та модульні bootstrap-класи та перевірки залежностей.
+[YafApplication](class.yaf-application.html) забезпечує ініціалізацію об'єкта для додатків які надають ресурси, що використовуються, загальні та модульні bootstrap-класи та перевірки залежностей.
 
 > **Зауваження**
 > 
-> [Yaf\_Application](class.yaf-application.html) реалізує шаблоном singleton, та [Yaf\_Application](class.yaf-application.html) не може бути серіалізований або десеріалізований що викликає проблеми, коли ви намагаєтеся використовувати PHPUnit щоб написати деякі тести для Yaf.
+> [YafApplication](class.yaf-application.html) реалізує шаблоном singleton, та [YafApplication](class.yaf-application.html) не може бути серіалізований або десеріалізований що викликає проблеми, коли ви намагаєтеся використовувати PHPUnit щоб написати деякі тести для Yaf.
 > 
 > Ви можете використовувати @backupGlobals анотації PHPUnit для контролю бекапів та операцій відновлення глобальних змінних. У такий спосіб можна вирішити цю проблему.
 
@@ -100,18 +100,18 @@ environ
 
 ## Зміст
 
--   [Yaf\_Application::app](yaf-application.app.html) — Вийняти екземпляр програми
--   [Yaf\_Application::bootstrap](yaf-application.bootstrap.html) - Викликати bootstrap
--   [Yaf\_Application::clearLastError](yaf-application.clearlasterror.html) — Очищення інформації з останньої помилки
--   [Yaf\_Application::\_\_construct](yaf-application.construct.html) - Конструктор класу YafApplication
--   [Yaf\_Application::\_\_destruct](yaf-application.destruct.html) - Деструктор YafApplication
--   [Yaf\_Application::environ](yaf-application.environ.html) — Отримати значення оточення
--   [Yaf\_Application::execute](yaf-application.execute.html) - Запустити callback-функцію
--   [Yaf\_Application::getAppDirectory](yaf-application.getappdirectory.html) — Отримати директорію програми
--   [Yaf\_Application::getConfig](yaf-application.getconfig.html) — Отримати екземпляр класу конфігурації
--   [Yaf\_Application::getDispatcher](yaf-application.getdispatcher.html) - Отримати екземпляр класу YafDispatcher
--   [Yaf\_Application::getLastErrorMsg](yaf-application.getlasterrormsg.html) — Отримати останнє повідомлення про помилку
--   [Yaf\_Application::getLastErrorNo](yaf-application.getlasterrorno.html) — Отримати код останньої помилки
--   [Yaf\_Application::getModules](yaf-application.getmodules.html) — Отримати імена заявлених модулів
--   [Yaf\_Application::run](yaf-application.run.html) - Запустити YafApplication
--   [Yaf\_Application::setAppDirectory](yaf-application.setappdirectory.html) — Змінити директорію програми
+-   [YafApplication::app](yaf-application.app.html) — Вийняти екземпляр програми
+-   [YafApplication::bootstrap](yaf-application.bootstrap.html) - Викликати bootstrap
+-   [YafApplication::clearLastError](yaf-application.clearlasterror.html) — Очищення інформації з останньої помилки
+-   [YafApplication::construct](yaf-application.construct.html) - Конструктор класу YafApplication
+-   [YafApplication::destruct](yaf-application.destruct.html) - Деструктор YafApplication
+-   [YafApplication::environ](yaf-application.environ.html) — Отримати значення оточення
+-   [YafApplication::execute](yaf-application.execute.html) - Запустити callback-функцію
+-   [YafApplication::getAppDirectory](yaf-application.getappdirectory.html) — Отримати директорію програми
+-   [YafApplication::getConfig](yaf-application.getconfig.html) — Отримати екземпляр класу конфігурації
+-   [YafApplication::getDispatcher](yaf-application.getdispatcher.html) - Отримати екземпляр класу YafDispatcher
+-   [YafApplication::getLastErrorMsg](yaf-application.getlasterrormsg.html) — Отримати останнє повідомлення про помилку
+-   [YafApplication::getLastErrorNo](yaf-application.getlasterrorno.html) — Отримати код останньої помилки
+-   [YafApplication::getModules](yaf-application.getmodules.html) — Отримати імена заявлених модулів
+-   [YafApplication::run](yaf-application.run.html) - Запустити YafApplication
+-   [YafApplication::setAppDirectory](yaf-application.setappdirectory.html) — Змінити директорію програми

@@ -1,8 +1,8 @@
 Надає кожному з'єднанню випадкову вагу між minweight та maxweight
 
--   [« fann\_print\_error](function.fann-print-error.html)
+-   [« fannprinterror](function.fann-print-error.html)
     
--   [fann\_read\_train\_from\_file »](function.fann-read-train-from-file.html)
+-   [fannreadtrainfromfile »](function.fann-read-train-from-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,4 +47,4 @@ fann_randomize_weights(resource $ann, float $min_weight, float $max_weight): boo
 
 ### Дивіться також
 
--   [fann\_init\_weights()](function.fann-init-weights.html) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
+-   [fanninitweights()](function.fann-init-weights.html) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen

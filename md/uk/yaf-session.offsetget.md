@@ -1,12 +1,12 @@
 Призначення offsetGet
 
--   [« Yaf\_Session::offsetExists](yaf-session.offsetexists.html)
+-   [« YafSession::offsetExists](yaf-session.offsetexists.html)
     
--   [Yaf\_Session::offsetSet »](yaf-session.offsetset.html)
+-   [YafSession::offsetSet »](yaf-session.offsetset.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення offsetGet
     

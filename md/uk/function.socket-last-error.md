@@ -1,8 +1,8 @@
 Повертає останню помилку на сокеті
 
--   [« socket\_import\_stream](function.socket-import-stream.html)
+-   [« socketimportstream](function.socket-import-stream.html)
     
--   [socket\_listen »](function.socket-listen.html)
+-   [socketlisten »](function.socket-listen.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,15 +23,15 @@ socketlasterror — Повертає останню помилку на соке
 socket_last_error(?Socket $socket = null): int
 ```
 
-Якщо екземпляр [Socket](class.socket.html) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socket\_create()](function.socket-create.html), яка не повертає сокет у разі невдачі та [socket\_select()](function.socket-select.html), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socket\_strerror()](function.socket-strerror.html), яка повертає рядок, що описує вказаний код помилки.
+Якщо екземпляр [Socket](class.socket.html) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socketcreate()](function.socket-create.html), яка не повертає сокет у разі невдачі та [socketselect()](function.socket-select.html), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socketstrerror()](function.socket-strerror.html), яка повертає рядок, що описує вказаний код помилки.
 
-Якщо помилок немає або вони були очищені функцією [socket\_clear\_error()](function.socket-clear-error.html), функція поверне `0`
+Якщо помилок немає або вони були очищені функцією [socketclearerror()](function.socket-clear-error.html), функція поверне `0`
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
 
 ### Значення, що повертаються
 
@@ -65,4 +65,4 @@ if ($socket === false) {
 
 > **Зауваження**
 > 
-> **socketlasterror()** не очищає код помилки, використовуйте [socket\_clear\_error()](function.socket-clear-error.html) для цієї мети.
+> **socketlasterror()** не очищає код помилки, використовуйте [socketclearerror()](function.socket-clear-error.html) для цієї мети.

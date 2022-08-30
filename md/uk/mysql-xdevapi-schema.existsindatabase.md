@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+-   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     
 -   Перевірити, чи існує база даних
     
@@ -35,7 +35,7 @@ public mysql_xdevapi\Schema::existsInDatabase(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо схема, таблиця, колекція або подання все ще існують у схемі, в іншому випадку повертає **`false`**
+Повертає \*\*`true`\*\*якщо схема, таблиця, колекція або подання все ще існують у схемі, в іншому випадку повертає **`false`**
 
 ### Приклади
 

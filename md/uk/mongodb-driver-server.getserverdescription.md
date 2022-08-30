@@ -1,12 +1,12 @@
 Повертає ServerDescription сервера
 
--   [« MongoDB\\Driver\\Server::getPort](mongodb-driver-server.getport.html)
+-   [« MongoDBDriverServer::getPort](mongodb-driver-server.getport.html)
     
--   [MongoDB\\Driver\\Server::getTags »](mongodb-driver-server.gettags.html)
+-   [MongoDBDriverServer::getTags »](mongodb-driver-server.gettags.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Повертає ServerDescription сервера
     
@@ -23,7 +23,7 @@ MongoDBDriverServer::getServerDescription — Повертає ServerDescription
 final public MongoDB\Driver\Server::getServerDescription(): MongoDB\Driver\ServerDescription
 ```
 
-Повертає [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html) сервера. Це незмінний об'єкт значення, який описуватиме сервер під час виклику методу.
+Повертає [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html) сервера. Це незмінний об'єкт значення, який описуватиме сервер під час виклику методу.
 
 ### Список параметрів
 
@@ -31,8 +31,8 @@ final public MongoDB\Driver\Server::getServerDescription(): MongoDB\Driver\Serve
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html) сервера.
+Повертає [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html) сервера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

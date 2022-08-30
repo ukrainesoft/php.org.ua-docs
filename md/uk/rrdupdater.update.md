@@ -1,6 +1,6 @@
 Оновлює файл бази даних RRD
 
--   [« RRDUpdater::\_\_construct](rrdupdater.construct.html)
+-   [« RRDUpdater::construct](rrdupdater.construct.html)
     
 -   [ScoutAPM »](book.scoutapm.html)
     
@@ -25,7 +25,7 @@ public RRDUpdater::update(array $values, string $time
    ): bool
 ```
 
-Оновлює файл бази даних RRD, визначений через конструктор [RRDUpdater::\_\_construct()](rrdupdater.construct.html). Файл оновлюється за заданими значеннями.
+Оновлює файл бази даних RRD, визначений через конструктор [RRDUpdater::construct()](rrdupdater.construct.html). Файл оновлюється за заданими значеннями.
 
 ### Список параметрів
 

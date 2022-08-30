@@ -1,8 +1,8 @@
 Повертає дійсний ID групи поточного процесу GID
 
--   [« posix\_geteuid](function.posix-geteuid.html)
+-   [« posixgeteuid](function.posix-geteuid.html)
     
--   [posix\_getgrgid »](function.posix-getgrgid.html)
+-   [posixgetgrgid »](function.posix-getgrgid.html)
     
 -   [PHP Manual](index.html)
     
@@ -50,7 +50,7 @@ echo 'My effective group id is '.posix_getegid(); //40
 
 ### Дивіться також
 
--   [posix\_getgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
--   [posix\_getegid()](function.posix-getegid.html) - Повертає ефективний ідентифікатор групи поточного процесу EGID
--   [posix\_setgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
+-   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posixgetegid()](function.posix-getegid.html) - Повертає ефективний ідентифікатор групи поточного процесу EGID
+-   [posixsetgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
 -   POSIX керівництво GETGID(2)

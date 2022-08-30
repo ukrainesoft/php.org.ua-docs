@@ -1,8 +1,8 @@
 Адаптивна ковзна середня Кауфмана
 
--   [« trader\_ht\_trendmode](function.trader-ht-trendmode.html)
+-   [« traderхтtrendmode](function.trader-ht-trendmode.html)
     
--   [trader\_linearreg\_angle »](function.trader-linearreg-angle.html)
+-   [traderlinearregangle »](function.trader-linearreg-angle.html)
     
 -   [PHP Manual](index.html)
     

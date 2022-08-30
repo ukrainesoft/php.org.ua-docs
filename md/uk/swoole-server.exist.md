@@ -1,12 +1,12 @@
 Перевіряє, чи існує з'єднання
 
--   [« Swoole\\Server\\Port::set](swoole-server-port.set.html)
+-   [« SwooleServerPort::set](swoole-server-port.set.html)
     
--   [Swoole\\Server::finish »](swoole-server.finish.html)
+-   [SwooleServer::finish »](swoole-server.finish.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Перевіряє, чи існує з'єднання
     

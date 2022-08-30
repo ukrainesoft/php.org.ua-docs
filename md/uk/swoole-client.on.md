@@ -1,12 +1,12 @@
 Додає callback-функції, спричинені подіями
 
--   [« Swoole\\Client::isConnected](swoole-client.isconnected.html)
+-   [« SwooleClient::isConnected](swoole-client.isconnected.html)
     
--   [Swoole\\Client::pause »](swoole-client.pause.html)
+-   [SwooleClient::pause »](swoole-client.pause.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Додає callback-функції, спричинені подіями
     

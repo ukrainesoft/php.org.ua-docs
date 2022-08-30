@@ -1,8 +1,8 @@
 Запускає системний виклик select() для заданих масивів сокетів із зазначеним часом очікування
 
--   [« socket\_recvmsg](function.socket-recvmsg.html)
+-   [« socketrecvmsg](function.socket-recvmsg.html)
     
--   [socket\_send »](function.socket-send.html)
+-   [socketsend »](function.socket-send.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 `read`
 
-Сокети, перелічені у масиві `read` будуть спостерігатися для перегляду, чи є доступні символи для читання (точніше, щоб бачити, чи не буде читання блокуватися, зокрема, сокет вже досяг кінця файлу, і в цьому випадку [socket\_read()](function.socket-read.html) поверне рядок із нульовою довжиною).
+Сокети, перелічені у масиві `read` будуть спостерігатися для перегляду, чи є доступні символи для читання (точніше, щоб бачити, чи не буде читання блокуватися, зокрема, сокет вже досяг кінця файлу, і в цьому випадку [socketread()](function.socket-read.html) поверне рядок із нульовою довжиною).
 
 `write`
 
@@ -66,7 +66,7 @@ socket_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ### Значення, що повертаються
 
-У разі успішного виконання **socketselect()** повертає кількість сокетів, що містяться в змінених масивах, яка може дорівнювати нулю, якщо час очікування закінчиться до того, як станеться щось цікаве. У разі виникнення помилки повертається **`false`**. Код помилки може бути отриманий за допомогою [socket\_last\_error()](function.socket-last-error.html)
+У разі успішного виконання **socketselect()** повертає кількість сокетів, що містяться в змінених масивах, яка може дорівнювати нулю, якщо час очікування закінчиться до того, як станеться щось цікаве. У разі виникнення помилки повертається **`false`**. Код помилки може бути отриманий за допомогою [socketlasterror()](function.socket-last-error.html)
 
 > **Зауваження**
 > 
@@ -117,7 +117,7 @@ if ($num_changed_sockets === false) {
 
 ### Дивіться також
 
--   [socket\_read()](function.socket-read.html) - Читає рядок максимальну довжину байт із сокету
--   [socket\_write()](function.socket-write.html) - Запис у сокет
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketread()](function.socket-read.html) - Читає рядок максимальну довжину байт із сокету
+-   [socketwrite()](function.socket-write.html) - Запис у сокет
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

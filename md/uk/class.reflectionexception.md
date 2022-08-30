@@ -1,6 +1,6 @@
 Клас ReflectionException
 
--   [« Reflector::\_\_toString](reflector.tostring.html)
+-   [« Reflector::toString](reflector.tostring.html)
     
 -   [Обработка переменных »](book.var.html)
     

@@ -1,8 +1,8 @@
 Читає FDF документ з рядка
 
--   [« fdf\_next\_field\_name](function.fdf-next-field-name.html)
+-   [« fdfnextfieldname](function.fdf-next-field-name.html)
     
--   [fdf\_open »](function.fdf-open.html)
+-   [fdfopen »](function.fdf-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ fdf_open_string(string $fdf_data): resource
 
 `fdf_data`
 
-Дані, повернуті з PDF форми або створені за допомогою [fdf\_create()](function.fdf-create.html) і [fdf\_save\_string()](function.fdf-save-string.html)
+Дані, повернуті з PDF форми або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsavestring()](function.fdf-save-string.html)
 
 ### Значення, що повертаються
 
@@ -51,7 +51,7 @@ fdf_close($fdf);
 
 ### Дивіться також
 
--   [fdf\_open()](function.fdf-open.html) - Відкриває документ FDF
--   [fdf\_close()](function.fdf-close.html) - Закриває FDF-документ
--   [fdf\_create()](function.fdf-create.html) - Створює новий документ FDF
--   [fdf\_save\_string()](function.fdf-save-string.html) - Повертає документ FDF у вигляді рядка
+-   [fdfopen()](function.fdf-open.html) - Відкриває документ FDF
+-   [fdfclose()](function.fdf-close.html) - Закриває FDF-документ
+-   [fdfcreate()](function.fdf-create.html) - Створює новий документ FDF
+-   [fdfsavestring()](function.fdf-save-string.html) - Повертає документ FDF у вигляді рядка

@@ -1,12 +1,12 @@
 Повертає true, якщо операція пройшла успішно або false у противному випадку
 
--   [« svn\_fs\_begin\_txn2](function.svn-fs-begin-txn2.html)
+-   [« svnфсbegintxn2](function.svn-fs-begin-txn2.html)
     
--   [svn\_fs\_check\_path »](function.svn-fs-check-path.html)
+-   [svnфсcheckpath »](function.svn-fs-check-path.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає true, якщо операція пройшла успішно або false у противному випадку
     

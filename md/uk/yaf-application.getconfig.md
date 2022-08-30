@@ -1,12 +1,12 @@
 Отримати екземпляр класу конфігурації
 
--   [« Yaf\_Application::getAppDirectory](yaf-application.getappdirectory.html)
+-   [« YafApplication::getAppDirectory](yaf-application.getappdirectory.html)
     
--   [Yaf\_Application::getDispatcher »](yaf-application.getdispatcher.html)
+-   [YafApplication::getDispatcher »](yaf-application.getdispatcher.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Отримати екземпляр класу конфігурації
     
@@ -29,7 +29,7 @@ public Yaf_Application::getConfig(): Yaf_Config_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр класу [Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+Екземпляр класу [YafConfigAbstract](class.yaf-config-abstract.html)
 
 ### Приклади
 

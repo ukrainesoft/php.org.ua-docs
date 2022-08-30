@@ -1,8 +1,8 @@
 Псевдонім DateTime::format
 
--   [« date\_diff](function.date-diff.html)
+-   [« datediff](function.date-diff.html)
     
--   [date\_get\_last\_errors »](function.date-get-last-errors.html)
+-   [dategetlasterrors »](function.date-get-last-errors.html)
     
 -   [PHP Manual](index.html)
     

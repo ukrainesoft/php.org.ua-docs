@@ -2,11 +2,11 @@
 
 -   [« fgets](function.fgets.html)
     
--   [file\_exists »](function.file-exists.html)
+-   [fileexists »](function.file-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Читає рядок з файлу та видаляє HTML-теги
     
@@ -27,7 +27,7 @@ fgetss — Читає рядок із файлу та видаляє HTML-тег
 fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 ```
 
-Функція ідентична функції [fgets()](function.fgets.html), за винятком того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з прочитаного рядка. Функція зберігає стан синтаксичного аналізу від виклику до виклику і тому не еквівалентна виклику [strip\_tags()](function.strip-tags.html) для значення, що повертається [fgets()](function.fgets.html)
+Функція ідентична функції [fgets()](function.fgets.html), за винятком того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з прочитаного рядка. Функція зберігає стан синтаксичного аналізу від виклику до виклику і тому не еквівалентна виклику [striptags()](function.strip-tags.html) для значення, що повертається [fgets()](function.fgets.html)
 
 ### Список параметрів
 
@@ -41,7 +41,7 @@ fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 
 `allowable_tags`
 
-Можна використовувати третій необов'язковий параметр, щоб вказати теги, які не потрібно вирізати. Дивіться опис [strip\_tags()](function.strip-tags.html) для більш детальної інформації про `allowable_tags`
+Можна використовувати третій необов'язковий параметр, щоб вказати теги, які не потрібно вирізати. Дивіться опис [striptags()](function.strip-tags.html) для більш детальної інформації про `allowable_tags`
 
 ### Значення, що повертаються
 
@@ -84,7 +84,7 @@ if ($handle) {
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [auto\_detect\_line\_endings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 ### Дивіться також
 
@@ -92,6 +92,6 @@ if ($handle) {
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
 -   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
 -   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [strip\_tags()](function.strip-tags.html) - Видаляє теги HTML та PHP з рядка
+-   [striptags()](function.strip-tags.html) - Видаляє теги HTML та PHP з рядка
 -   [SplFileObject::fgetss()](splfileobject.fgetss.html) - Отримати рядок із файлу та видалити теги HTML
--   Фільтр [string.strip\_tags](filters.string.html#filters.string.strip_tags)
+-   Фільтр [string.striptags](filters.string.html#filters.string.strip_tags)

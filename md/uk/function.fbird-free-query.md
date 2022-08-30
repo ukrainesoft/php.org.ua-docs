@@ -1,8 +1,8 @@
 Псевдонім ibasefreequery
 
--   [« fbird\_free\_event\_handler](function.fbird-free-event-handler.html)
+-   [« fbirdfreeeventhandler](function.fbird-free-event-handler.html)
     
--   [fbird\_free\_result »](function.fbird-free-result.html)
+-   [fbirdfreeresult »](function.fbird-free-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfreequery - Псевдонім [ibase\_free\_query()](function.ibase-free-query.html)
+fbirdfreequery - Псевдонім [ibasefreequery()](function.ibase-free-query.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_free\_query()](function.ibase-free-query.html)
+Ця функція є псевдонімом: [ibasefreequery()](function.ibase-free-query.html)

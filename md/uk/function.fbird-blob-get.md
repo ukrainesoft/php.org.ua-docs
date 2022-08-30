@@ -1,8 +1,8 @@
 Псевдонім ibaseblobget
 
--   [« fbird\_blob\_echo](function.fbird-blob-echo.html)
+-   [« fbirdblobecho](function.fbird-blob-echo.html)
     
--   [fbird\_blob\_import »](function.fbird-blob-import.html)
+-   [fbirdblobimport »](function.fbird-blob-import.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,14 +15,14 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobget - Псевдонім [ibase\_blob\_get()](function.ibase-blob-get.html)
+fbirdblobget - Псевдонім [ibaseblobget()](function.ibase-blob-get.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_blob\_get()](function.ibase-blob-get.html)
+Ця функція є псевдонімом: [ibaseblobget()](function.ibase-blob-get.html)
 
 ### Дивіться також
 
--   [fbird\_blob\_open()](function.fbird-blob-open.html) - Псевдонім ibaseblobopen
--   [fbird\_blob\_close()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
--   [fbird\_blob\_echo()](function.fbird-blob-echo.html) - Псевдонім ibaseblobecho
+-   [fbirdblobopen()](function.fbird-blob-open.html) - Псевдонім ibaseblobopen
+-   [fbirdblobclose()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
+-   [fbirdblobecho()](function.fbird-blob-echo.html) - Псевдонім ibaseblobecho

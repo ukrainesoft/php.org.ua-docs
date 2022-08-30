@@ -1,8 +1,8 @@
 Призупинити вказаний контекст
 
--   [« openal\_context\_process](function.openal-context-process.html)
+-   [« openalcontextprocess](function.openal-context-process.html)
     
--   [openal\_device\_close »](function.openal-device-close.html)
+-   [openaldeviceclose »](function.openal-device-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_context_suspend(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openal\_context\_create()](function.openal-context-create.html)
+Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
 
 ### Значення, що повертаються
 
@@ -35,6 +35,6 @@ openal_context_suspend(resource $context): bool
 
 ### Дивіться також
 
--   [openal\_context\_create()](function.openal-context-create.html) - Створити контекст обробки звуку
--   [openal\_context\_current()](function.openal-context-current.html) - Зробити вказаний контекст поточним
--   [openal\_context\_process()](function.openal-context-process.html) - опрацювати зазначений контекст
+-   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openalcontextcurrent()](function.openal-context-current.html) - Зробити вказаний контекст поточним
+-   [openalcontextprocess()](function.openal-context-process.html) - опрацювати зазначений контекст

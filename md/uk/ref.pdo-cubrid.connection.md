@@ -2,7 +2,7 @@
 
 -   [« CUBRID (PDO)](ref.pdo-cubrid.html)
     
--   [PDO::cubrid\_schema »](pdo.cubrid-schema.html)
+-   [PDO::cubridschema »](pdo.cubrid-schema.html)
     
 -   [PHP Manual](index.html)
     

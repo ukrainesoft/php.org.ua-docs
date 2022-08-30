@@ -1,12 +1,12 @@
 Витягти інформацію з результату
 
--   [« ldap\_parse\_reference](function.ldap-parse-reference.html)
+-   [« ldapparsereference](function.ldap-parse-reference.html)
     
--   [ldap\_read »](function.ldap-read.html)
+-   [ldapread »](function.ldap-read.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Витягти інформацію з результату
     
@@ -29,11 +29,11 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `result`
 
-Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
+Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.html)
 
 `error_code`
 
@@ -61,11 +61,11 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
-|        | Додано підтримку параметра `controls`                                                                                                                    |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
+|        | Додано підтримку параметра `controls`                                                                                                                  |
 
 ### Приклади
 

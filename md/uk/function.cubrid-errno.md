@@ -1,12 +1,12 @@
 Повертає код помилки попередньої операції CUBRID
 
--   [« cubrid\_db\_name](function.cubrid-db-name.html)
+-   [« cubridдбname](function.cubrid-db-name.html)
     
--   [cubrid\_error »](function.cubrid-error.html)
+-   [cubriderror »](function.cubrid-error.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Повертає код помилки попередньої операції CUBRID
     
@@ -31,7 +31,7 @@ cubrid_errno(resource $conn_identifier = ?): int
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
 
 ### Значення, що повертаються
 
@@ -63,6 +63,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubrid\_error()](function.cubrid-error.html) - Повертає текст останньої помилки, що відбулася.
--   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubrid\_error\_msg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderror()](function.cubrid-error.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.

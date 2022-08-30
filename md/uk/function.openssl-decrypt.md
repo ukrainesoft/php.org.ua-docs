@@ -1,8 +1,8 @@
 Розшифровує дані
 
--   [« openssl\_csr\_sign](function.openssl-csr-sign.html)
+-   [« opensslcsrsign](function.openssl-csr-sign.html)
     
--   [openssl\_dh\_compute\_key »](function.openssl-dh-compute-key.html)
+-   [opensslдхcomputekey »](function.openssl-dh-compute-key.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 `cipher_algo`
 
-Метод шифрування. Список доступних методів можна отримати за допомогою функції [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.html)
+Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.html)
 
 `passphrase`
 
@@ -53,7 +53,7 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 **Застереження**
 
-Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [openssl\_encrypt()](function.openssl-encrypt.html). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
+Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [opensslencrypt()](function.openssl-encrypt.html). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
 
 `aad`
 
@@ -78,4 +78,4 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 ### Дивіться також
 
--   [openssl\_encrypt()](function.openssl-encrypt.html) - Шифрує дані
+-   [opensslencrypt()](function.openssl-encrypt.html) - Шифрує дані

@@ -1,6 +1,6 @@
 Постійне з'єднання
 
--   [« Несовместимости](mysqlnd.incompatibilities.html)
+-   [« Несумісності](mysqlnd.incompatibilities.html)
     
 -   [Статистика »](mysqlnd.stats.html)
     

@@ -1,12 +1,12 @@
 Перетворює 8-бітовий рядок за допомогою методу quoted-printable
 
--   [« quoted\_printable\_decode](function.quoted-printable-decode.html)
+-   [« quotedprintabledecode](function.quoted-printable-decode.html)
     
 -   [quotemeta »](function.quotemeta.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює 8-бітовий рядок за допомогою методу quoted-printable
     
@@ -25,7 +25,7 @@ quoted_printable_encode(string $string): string
 
 Повертає рядок, закодований у формат quoted-printable відповідно до розділу 6.7 [» RFC2045](http://www.faqs.org/rfcs/rfc2045)
 
-Ця функція подібна до функції [imap\_8bit()](function.imap-8bit.html), крім того, що не вимагає для своєї роботи модуля IMAP.
+Ця функція подібна до функції [imap8bit()](function.imap-8bit.html), крім того, що не вимагає для своєї роботи модуля IMAP.
 
 ### Список параметрів
 
@@ -60,5 +60,5 @@ string(29) "Möchten Sie ein paar Äpfel?"
 
 ### Дивіться також
 
--   [quoted\_printable\_decode()](function.quoted-printable-decode.html) - Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
--   [iconv\_mime\_encode()](function.iconv-mime-encode.html) - Створює поле MIME-заголовка
+-   [quotedprintabledecode()](function.quoted-printable-decode.html) - Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
+-   [iconvmimeencode()](function.iconv-mime-encode.html) - Створює поле MIME-заголовка

@@ -1,12 +1,12 @@
 Зводить число в ступінь і здійснює розподіл за модулем
 
--   [« gmp\_pow](function.gmp-pow.html)
+-   [« gmppow](function.gmp-pow.html)
     
--   [gmp\_prob\_prime »](function.gmp-prob-prime.html)
+-   [gmpprobprime »](function.gmp-prob-prime.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Зводить число в ступінь і здійснює розподіл за модулем
     

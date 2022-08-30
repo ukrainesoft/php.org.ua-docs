@@ -1,8 +1,8 @@
 Плюс-спрямований рух
 
--   [« trader\_plus\_di](function.trader-plus-di.html)
+-   [« traderplusді](function.trader-plus-di.html)
     
--   [trader\_ppo »](function.trader-ppo.html)
+-   [traderppo »](function.trader-ppo.html)
     
 -   [PHP Manual](index.html)
     

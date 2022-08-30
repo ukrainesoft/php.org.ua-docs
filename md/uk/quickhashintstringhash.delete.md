@@ -1,6 +1,6 @@
 Метод видаляє запис із хешу
 
--   [« QuickHashIntStringHash::\_\_construct](quickhashintstringhash.construct.html)
+-   [« QuickHashIntStringHash::construct](quickhashintstringhash.construct.html)
     
 -   [QuickHashIntStringHash::exists »](quickhashintstringhash.exists.html)
     

@@ -1,12 +1,12 @@
 Видаляє та повертає значення за індексом
 
--   [« Ds\\Sequence::reduce](ds-sequence.reduce.html)
+-   [« DsSequence::reduce](ds-sequence.reduce.html)
     
--   [Ds\\Sequence::reverse »](ds-sequence.reverse.html)
+-   [ДсSequence::reverse »](ds-sequence.reverse.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Видаляє та повертає значення за індексом
     

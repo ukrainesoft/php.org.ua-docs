@@ -2,7 +2,7 @@
 
 -   [« Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
     
--   [Новые функции »](migration72.new-functions.html)
+-   [Нові функції »](migration72.new-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -89,24 +89,24 @@ $db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 
 Було додано підтримку EXOP модуль LDAP. Стали доступні такі функції та константи:
 
--   [ldap\_parse\_exop()](function.ldap-parse-exop.html)
--   [ldap\_exop()](function.ldap-exop.html)
--   [ldap\_exop\_passwd()](function.ldap-exop-passwd.html)
--   [ldap\_exop\_whoami()](function.ldap-exop-whoami.html)
+-   [ldapparseexop()](function.ldap-parse-exop.html)
+-   [ldapexop()](function.ldap-exop.html)
+-   [ldapexoppasswd()](function.ldap-exop-passwd.html)
+-   [ldapexopwhoami()](function.ldap-exop-whoami.html)
 -   **`LDAP_EXOP_START_TLS`**
 -   **`LDAP_EXOP_MODIFY_PASSWD`**
 -   **`LDAP_EXOP_REFRESH`**
 -   **`LDAP_EXOP_WHO_AM_I`**
 -   **`LDAP_EXOP_TURN`**
 
-### Інформація про адресу в модулі [сокетов](book.sockets.html)
+### Інформація про адресу в модулі [сокетів](book.sockets.html)
 
 Модуль сокетів має можливість шукати адресну інформацію, а також підключатися до неї, зв'язуватися з нею і пояснювати її. Для цього були додані такі чотири функції:
 
--   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html)
--   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html)
--   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html)
--   [socket\_addrinfo\_explain()](function.socket-addrinfo-explain.html)
+-   [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
+-   [socketaddrinfoconnect()](function.socket-addrinfo-connect.html)
+-   [socketaddrinfobind()](function.socket-addrinfo-bind.html)
+-   [socketaddrinfoexplain()](function.socket-addrinfo-explain.html)
 
 ### Розширення типу параметра
 
@@ -140,9 +140,9 @@ use Foo\Bar\{
 };
 ```
 
-### Підтримка [proc\_nice()](function.proc-nice.html) для Windows
+### Підтримка [procnice()](function.proc-nice.html) для Windows
 
-Функція [proc\_nice()](function.proc-nice.html) тепер підтримується у Windows.
+Функція [procnice()](function.proc-nice.html) тепер підтримується у Windows.
 
 ### Підтримка порядку байт у [pack()](function.pack.html) і [unpack()](function.unpack.html)
 
@@ -150,7 +150,7 @@ use Foo\Bar\{
 
 ### Поліпшення в модулі [EXIF](book.exif.html)
 
-Модуль EXIF ​​оновлено для підтримки більшої кількості форматів. Це означає, що специфічні теги правильно обробляються при розборі зображень функцією [exif\_read\_data()](function.exif-read-data.html). Нові формати, що підтримуються:
+Модуль EXIF ​​оновлено для підтримки більшої кількості форматів. Це означає, що специфічні теги правильно обробляються при розборі зображень функцією [exifreaddata()](function.exif-read-data.html). Нові формати, що підтримуються:
 
 -   Samsung
 -   DJI
@@ -164,7 +164,7 @@ use Foo\Bar\{
 -   Ricoh
 -   Epson
 
-Функції [exif\_read\_data()](function.exif-read-data.html) і [exif\_thumbnail()](function.exif-thumbnail.html) тепер приймають потоки як свої перші аргументи.
+Функції [exifreaddata()](function.exif-read-data.html) і [exifthumbnail()](function.exif-thumbnail.html) тепер приймають потоки як свої перші аргументи.
 
 ### Нова функціональність у [PCRE](book.pcre.html)
 

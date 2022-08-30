@@ -1,8 +1,8 @@
 CodeBlock успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Code](class.commonmark-node-code.html)
+-   [« CommonMarkNodeCode](class.commonmark-node-code.html)
     
--   [CommonMark\\Node\\CodeBlock::\_\_construct »](commonmark-node-codeblock.construct.html)
+-   [CommonMarkNodeCodeBlock::construct »](commonmark-node-codeblock.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,4 +108,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\CodeBlock::\_\_construct](commonmark-node-codeblock.construct.html) - Конструктор класу CodeBlock
+-   [CommonMarkNodeCodeBlock::construct](commonmark-node-codeblock.construct.html) - Конструктор класу CodeBlock

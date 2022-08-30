@@ -1,6 +1,6 @@
 Повертає поточне кодування, встановлене для з'єднання з БД
 
--   [« mysqli::change\_user](mysqli.change-user.html)
+-   [« mysqli::changeuser](mysqli.change-user.html)
     
 -   [mysqli::close »](mysqli.close.html)
     
@@ -39,7 +39,7 @@ mysqli_character_set_name(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -90,5 +90,5 @@ printf("Текущая кодировка - %s\n", $charset);
 
 ### Дивіться також
 
--   [mysqli\_set\_charset()](mysqli.set-charset.html) - Встановлює набір символів
--   [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+-   [mysqlisetcharset()](mysqli.set-charset.html) - Встановлює набір символів
+-   [mysqlirealescapestring()](mysqli.real-escape-string.html) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання

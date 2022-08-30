@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции URL](ref.url.html)
+-   [Функції URL](ref.url.html)
     
 -   Декодування URL-кодованого рядка
     
@@ -57,7 +57,7 @@ foreach (explode('&', $query) as $chunk) {
 
 **Увага**
 
-Змінні у суперглобальних масивах [$\_GET](reserved.variables.get.html) і [$\_REQUEST](reserved.variables.request.html) вже декодовані. Застосування **urldecode()** до елементів [$\_GET](reserved.variables.get.html) або [$\_REQUEST](reserved.variables.request.html) може призвести до несподіваних та небезпечних результатів.
+Змінні у суперглобальних масивах [GET](reserved.variables.get.html) і [REQUEST](reserved.variables.request.html) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.html) або [REQUEST](reserved.variables.request.html) може призвести до несподіваних та небезпечних результатів.
 
 ### Дивіться також
 

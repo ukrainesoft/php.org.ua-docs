@@ -1,6 +1,6 @@
 Повертає true, якщо увімкнено розширення групи
 
--   [« SolrQuery::\_\_destruct](solrquery.destruct.html)
+-   [« SolrQuery::destruct](solrquery.destruct.html)
     
 -   [SolrQuery::getExpandFilterQueries »](solrquery.getexpandfilterqueries.html)
     
@@ -23,7 +23,7 @@ SolrQuery::getExpand — Повертає true, якщо активовано р
 public SolrQuery::getExpand(): bool
 ```
 
-Повертає **`true`**якщо включено розширення групи
+Повертає \*\*`true`\*\*якщо включено розширення групи
 
 ### Список параметрів
 

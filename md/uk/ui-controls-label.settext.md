@@ -1,12 +1,12 @@
 Встановити текст
 
--   [« UI\\Controls\\Label::getText](ui-controls-label.gettext.html)
+-   [« UIControlsLabel::getText](ui-controls-label.gettext.html)
     
--   [UI\\Controls\\Entry »](class.ui-controls-entry.html)
+-   [ОЙControlsEntry »](class.ui-controls-entry.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Label](class.ui-controls-label.html)
+-   [ОЙControlsLabel](class.ui-controls-label.html)
     
 -   Встановити текст
     

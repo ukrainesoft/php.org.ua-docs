@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+-   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
     
 -   Пропускає елементи
     

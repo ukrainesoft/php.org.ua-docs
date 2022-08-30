@@ -1,12 +1,12 @@
 Обчислює асиметрію даних у масиві
 
--   [« stats\_rand\_setall](function.stats-rand-setall.html)
+-   [« statsrandsetall](function.stats-rand-setall.html)
     
--   [stats\_standard\_deviation »](function.stats-standard-deviation.html)
+-   [statsstandarddeviation »](function.stats-standard-deviation.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює асиметрію даних у масиві
     

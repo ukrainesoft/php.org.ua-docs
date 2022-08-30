@@ -1,8 +1,8 @@
 Повертає розмір вектора, що ініціалізує, для відповідної комбінації шифру та режиму
 
--   [« mcrypt\_get\_cipher\_name](function.mcrypt-get-cipher-name.html)
+-   [« mcryptgetciphername](function.mcrypt-get-cipher-name.html)
     
--   [mcrypt\_get\_key\_size »](function.mcrypt-get-key-size.html)
+-   [mcryptgetkeysize »](function.mcrypt-get-key-size.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ mcrypt_get_iv_size(string $cipher, string $mode): int
 
 Повертає розмір вектора, що ініціалізує, для відповідної заданої комбінації шифру. `cipher` та режиму `mode`
 
-Правильніше використовуватиме [mcrypt\_enc\_get\_iv\_size()](function.mcrypt-enc-get-iv-size.html), тому що вона повертає результат по існуючому дескриптору шифрування, отриманого за допомогою [mcrypt\_module\_open()](function.mcrypt-module-open.html)
+Правильніше використовуватиме [mcryptencgetвербsize()](function.mcrypt-enc-get-iv-size.html), тому що вона повертає результат по існуючому дескриптору шифрування, отриманого за допомогою [mcryptmoduleopen()](function.mcrypt-module-open.html)
 
 ### Список параметрів
 
@@ -61,6 +61,6 @@ mcrypt_get_iv_size(string $cipher, string $mode): int
 
 ### Дивіться також
 
--   [mcrypt\_get\_block\_size()](function.mcrypt-get-block-size.html) - Повертає розмір блоку для зазначеного шифру
--   [mcrypt\_enc\_get\_iv\_size()](function.mcrypt-enc-get-iv-size.html) - Повертає розмір вектора, що ініціалізує, для алгоритму
--   [mcrypt\_create\_iv()](function.mcrypt-create-iv.html) - Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
+-   [mcryptgetblocksize()](function.mcrypt-get-block-size.html) - Повертає розмір блоку для зазначеного шифру
+-   [mcryptencgetвербsize()](function.mcrypt-enc-get-iv-size.html) - Повертає розмір вектора, що ініціалізує, для алгоритму
+-   [mcryptcreateiv()](function.mcrypt-create-iv.html) - Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела

@@ -2,7 +2,7 @@
 
 -   [« Пара](class.ds-pair.html)
     
--   [Ds\\Pair::\_\_construct »](ds-pair.construct.html)
+-   [ДсPair::construct »](ds-pair.construct.html)
     
 -   [PHP Manual](index.html)
     

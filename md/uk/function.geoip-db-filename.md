@@ -1,8 +1,8 @@
 Повертає ім'я файлу відповідної бази GeoIP
 
--   [« geoip\_db\_avail](function.geoip-db-avail.html)
+-   [« geoipдбavail](function.geoip-db-avail.html)
     
--   [geoip\_db\_get\_all\_info »](function.geoip-db-get-all-info.html)
+-   [geoipдбgetallinfo »](function.geoip-db-get-all-info.html)
     
 -   [PHP Manual](index.html)
     

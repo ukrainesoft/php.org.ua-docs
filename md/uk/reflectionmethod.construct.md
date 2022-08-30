@@ -130,4 +130,4 @@ var_dump($method->invoke(NULL));
 ### Дивіться також
 
 -   [ReflectionMethod::export()](reflectionmethod.export.html) - Експорт відбитого методу
--   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

@@ -1,8 +1,8 @@
 Перетворює колекцію на масив (array)
 
--   [« Ds\\Stack::push](ds-stack.push.html)
+-   [« DsStack::push](ds-stack.push.html)
     
--   [Очередь »](class.ds-queue.html)
+-   [Черга »](class.ds-queue.html)
     
 -   [PHP Manual](index.html)
     

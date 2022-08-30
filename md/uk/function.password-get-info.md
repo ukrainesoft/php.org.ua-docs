@@ -1,12 +1,12 @@
 Повертає інформацію про заданий хеш
 
--   [« password\_algos](function.password-algos.html)
+-   [« passwordalgos](function.password-algos.html)
     
--   [password\_hash »](function.password-hash.html)
+-   [passwordhash »](function.password-hash.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции хеширования паролей](ref.password.html)
+-   [Функції хешування паролів](ref.password.html)
     
 -   Повертає інформацію про заданий хеш
     
@@ -23,13 +23,13 @@ passwordgetinfo — Повертає інформацію про заданий 
 password_get_info(string $hash): array
 ```
 
-Якщо передано коректний хеш, створений підтримуваним [password\_hash()](function.password-hash.html) алгоритмом, то ця функція поверне інформацію про це хеш.
+Якщо передано коректний хеш, створений підтримуваним [passwordhash()](function.password-hash.html) алгоритмом, то ця функція поверне інформацію про це хеш.
 
 ### Список параметрів
 
 `hash`
 
-Хеш, створений функцією [password\_hash()](function.password-hash.html)
+Хеш, створений функцією [passwordhash()](function.password-hash.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ password_get_info(string $hash): array
 
 -   `algo`, що містить одну з [констант алгоритмов паролей](password.constants.html)
 -   `algoName`, Що містить ім'я алгоритму в людиночитаному вигляді
--   `options`, що включає опції, передані під час виклику [password\_hash()](function.password-hash.html)
+-   `options`, що включає опції, передані під час виклику [passwordhash()](function.password-hash.html)

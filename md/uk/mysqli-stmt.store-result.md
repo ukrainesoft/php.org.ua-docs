@@ -1,12 +1,12 @@
 Зберігає набір результатів у внутрішньому буфері
 
--   [« mysqli\_stmt::$sqlstate](mysqli-stmt.sqlstate.html)
+-   [« mysqlistmt::$sqlstate](mysqli-stmt.sqlstate.html)
     
--   [mysqli\_result »](class.mysqli-result.html)
+-   [mysqliresult »](class.mysqli-result.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Зберігає набір результатів у внутрішньому буфері
     
@@ -33,17 +33,17 @@ public mysqli_stmt::store_result(): bool
 mysqli_stmt_store_result(mysqli_stmt $statement): bool
 ```
 
-Функцію слід викликати для запитів, які успішно створюють набір результатів (наприклад, `SELECT, SHOW, DESCRIBE, EXPLAIN`) тільки якщо необхідно буферизувати в PHP повний набір результатів. Кожен наступний виклик [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html) повертатиме буферизовані дані.
+Функцію слід викликати для запитів, які успішно створюють набір результатів (наприклад, `SELECT, SHOW, DESCRIBE, EXPLAIN`) тільки якщо необхідно буферизувати в PHP повний набір результатів. Кожен наступний виклик [mysqlistmtfetch()](mysqli-stmt.fetch.html) повертатиме буферизовані дані.
 
 > **Зауваження**
 > 
-> В інших випадках викликати **mysqlistmtstoreresult()** немає необхідності. Але якщо такий виклик здійснено, нічого страшного не станеться, це не вплине на продуктивність та цілісність даних. Щоб переконатися, що запит повернув результуючий набір, можна скористатися функцією [mysqli\_stmt\_result\_metadata()](mysqli-stmt.result-metadata.html), яка в цьому випадку поверне **`false`**
+> В інших випадках викликати **mysqlistmtstoreresult()** немає необхідності. Але якщо такий виклик здійснено, нічого страшного не станеться, це не вплине на продуктивність та цілісність даних. Щоб переконатися, що запит повернув результуючий набір, можна скористатися функцією [mysqlistmtresultmetadata()](mysqli-stmt.result-metadata.html), яка в цьому випадку поверне **`false`**
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -96,6 +96,6 @@ printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 
 ### Дивіться також
 
--   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqli\_stmt\_result\_metadata()](mysqli-stmt.result-metadata.html) - Повертає метадані результуючої таблиці запиту, що готується.
--   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqlistmtresultmetadata()](mysqli-stmt.result-metadata.html) - Повертає метадані результуючої таблиці запиту, що готується.
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними

@@ -1,8 +1,8 @@
 Клас YafRegistry
 
--   [« Yaf\_Plugin\_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.html)
+-   [« YafPluginAbstract::routerStartup](yaf-plugin-abstract.routerstartup.html)
     
--   [Yaf\_Registry::\_\_construct »](yaf-registry.construct.html)
+-   [YafRegistry::construct »](yaf-registry.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,8 +61,8 @@ entries
 
 ## Зміст
 
--   [Yaf\_Registry::\_\_construct](yaf-registry.construct.html) - YafRegistry реалізує шаблон проектування "Одиночка"
--   [Yaf\_Registry::del](yaf-registry.del.html) — Видаляє елемент із реєстру
--   [Yaf\_Registry::get](yaf-registry.get.html) — Отримує елемент із реєстру
--   [Yaf\_Registry::has](yaf-registry.has.html) — Перевіряє, чи існує елемент
--   [Yaf\_Registry::set](yaf-registry.set.html) — Додає елемент до реєстру
+-   [YafRegistry::construct](yaf-registry.construct.html) - YafRegistry реалізує шаблон проектування "Одиночка"
+-   [YafRegistry::del](yaf-registry.del.html) — Видаляє елемент із реєстру
+-   [YafRegistry::get](yaf-registry.get.html) — Отримує елемент із реєстру
+-   [YafRegistry::has](yaf-registry.has.html) — Перевіряє, чи існує елемент
+-   [YafRegistry::set](yaf-registry.set.html) — Додає елемент до реєстру

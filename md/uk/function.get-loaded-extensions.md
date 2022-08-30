@@ -1,12 +1,12 @@
 Повертає масив імен усіх скомпілованих та завантажених модулів
 
--   [« get\_included\_files](function.get-included-files.html)
+-   [« getincludedfiles](function.get-included-files.html)
     
--   [get\_magic\_quotes\_gpc »](function.get-magic-quotes-gpc.html)
+-   [getmagicquotesgpc »](function.get-magic-quotes-gpc.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає масив імен усіх скомпілованих та завантажених модулів
     
@@ -67,7 +67,7 @@ Array
 
 ### Дивіться також
 
--   [get\_extension\_funcs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
--   [extension\_loaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
+-   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
+-   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
 -   [dl()](function.dl.html) - Завантажує модуль PHP під час виконання
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP

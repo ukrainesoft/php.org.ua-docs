@@ -1,8 +1,8 @@
 Обчислити розмір буфера повідомлення
 
--   [« socket\_close](function.socket-close.html)
+-   [« socketclose](function.socket-close.html)
     
--   [socket\_connect »](function.socket-connect.html)
+-   [socketconnect »](function.socket-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,5 +39,5 @@ socket_cmsg_space(int $level, int $type, int $num = 0): ?int
 
 ### Дивіться також
 
--   [socket\_recvmsg()](function.socket-recvmsg.html) - Прочитати повідомлення
--   [socket\_sendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення
+-   [socketrecvmsg()](function.socket-recvmsg.html) - Прочитати повідомлення
+-   [socketsendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення

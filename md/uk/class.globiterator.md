@@ -2,11 +2,11 @@
 
 -   [« FilterIterator::valid](filteriterator.valid.html)
     
--   [GlobIterator::\_\_construct »](globiterator.construct.html)
+-   [GlobIterator::construct »](globiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас GlobIterator
     
@@ -155,5 +155,5 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [GlobIterator::\_\_construct](globiterator.construct.html) - Створює ітератор директорії, використовуючи glob-вираз
+-   [GlobIterator::construct](globiterator.construct.html) - Створює ітератор директорії, використовуючи glob-вираз
 -   [GlobIterator::count](globiterator.count.html) — Визначає кількість директорій та файлів

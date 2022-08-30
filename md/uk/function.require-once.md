@@ -2,7 +2,7 @@ requireonce
 
 -   [« include](function.include.html)
     
--   [include\_once »](function.include-once.html)
+-   [includeonce »](function.include-once.html)
     
 -   [PHP Manual](index.html)
     
@@ -17,4 +17,4 @@ requireonce
 
 Вираз `require_once` аналогічно [require](function.require.html) за винятком того, що PHP перевірить, чи включався цей файл, і якщо так, не буде включати його ще раз.
 
-Дивіться документацію [include\_once](function.include-once.html) для інформації щодо поведінки `_once` і чим він відрізняється від таких самих функцій, без `_once`
+Дивіться документацію [includeonce](function.include-once.html) для інформації щодо поведінки `_once` і чим він відрізняється від таких самих функцій, без `_once`

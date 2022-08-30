@@ -1,8 +1,8 @@
 Звільняє набір результатів
 
--   [« ibase\_free\_query](function.ibase-free-query.html)
+-   [« ibasefreequery](function.ibase-free-query.html)
     
--   [ibase\_gen\_id »](function.ibase-gen-id.html)
+-   [ibasegenid »](function.ibase-gen-id.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ ibase_free_result(resource $result_identifier): bool
 
 `result_identifier`
 
-Набір результатів, створених за допомогою [ibase\_query()](function.ibase-query.html) або [ibase\_execute()](function.ibase-execute.html)
+Набір результатів, створених за допомогою [ibasequery()](function.ibase-query.html) або [ibaseexecute()](function.ibase-execute.html)
 
 ### Значення, що повертаються
 

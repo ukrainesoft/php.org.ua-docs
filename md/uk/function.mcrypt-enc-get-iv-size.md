@@ -1,8 +1,8 @@
 Повертає розмір вектора, що ініціалізує, для алгоритму
 
--   [« mcrypt\_enc\_get\_block\_size](function.mcrypt-enc-get-block-size.html)
+-   [« mcryptencgetblocksize](function.mcrypt-enc-get-block-size.html)
     
--   [mcrypt\_enc\_get\_key\_size »](function.mcrypt-enc-get-key-size.html)
+-   [mcryptencgetkeysize »](function.mcrypt-enc-get-key-size.html)
     
 -   [PHP Manual](index.html)
     

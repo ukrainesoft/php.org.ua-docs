@@ -1,6 +1,6 @@
 Нові функції
 
--   [« Новые возможности](migration71.new-features.html)
+-   [" Нові можливості](migration71.new-features.html)
     
 -   [Новые глобальные константы »](migration71.constants.html)
     
@@ -15,10 +15,10 @@
 
 ### Ядро PHP
 
--   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.html)
--   [sapi\_windows\_cp\_set()](function.sapi-windows-cp-set.html)
--   [sapi\_windows\_cp\_conv()](function.sapi-windows-cp-conv.html)
--   [sapi\_windows\_cp\_is\_utf8()](function.sapi-windows-cp-is-utf8.html)
+-   [sapiwindowsспget()](function.sapi-windows-cp-get.html)
+-   [sapiwindowsспset()](function.sapi-windows-cp-set.html)
+-   [sapiwindowsспconv()](function.sapi-windows-cp-conv.html)
+-   [sapiwindowsспісutf8()](function.sapi-windows-cp-is-utf8.html)
 
 ### [Замыкания](class.closure.html)
 
@@ -26,24 +26,24 @@
 
 ### [CURL](book.curl.html)
 
--   [curl\_multi\_errno()](function.curl-multi-errno.html)
--   [curl\_share\_errno()](function.curl-share-errno.html)
--   [curl\_share\_strerror()](function.curl-share-strerror.html)
+-   [curlmultierrno()](function.curl-multi-errno.html)
+-   [curlshareerrno()](function.curl-share-errno.html)
+-   [curlsharestrerror()](function.curl-share-strerror.html)
 
 ### [OpenSSL](book.openssl.html)
 
--   [openssl\_get\_curve\_names()](function.openssl-get-curve-names.html)
+-   [opensslgetcurvenames()](function.openssl-get-curve-names.html)
 
 ### [Сессии](book.session.html)
 
--   [session\_create\_id()](function.session-create-id.html)
--   [session\_gc()](function.session-gc.html)
+-   [sessioncreateid()](function.session-create-id.html)
+-   [sessiongc()](function.session-gc.html)
 
 ### [SPL](book.spl.html)
 
--   [is\_iterable()](function.is-iterable.html)
+-   [ісiterable()](function.is-iterable.html)
 
 ### [PCNTL](book.pcntl.html)
 
--   [pcntl\_async\_signals()](function.pcntl-async-signals.html)
--   [pcntl\_signal\_get\_handler()](function.pcntl-signal-get-handler.html)
+-   [pcntlasyncsignals()](function.pcntl-async-signals.html)
+-   [pcntlsignalgethandler()](function.pcntl-signal-get-handler.html)

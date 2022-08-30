@@ -23,7 +23,7 @@ public **tidy::construct**
 ?string `$filename` **`null`**  
 array|string|null `$config` **`null`**  
 ?string `$encoding` **`null`**  
-bool `$useIncludePath` **`false`**  
+bool `$useIncludePath` **`false`**
 
 Створює новий [tidy](class.tidy.html)об'єкт.
 
@@ -31,7 +31,7 @@ bool `$useIncludePath` **`false`**
 
 `filename`
 
-Якщо встановлено параметр `filename`, то ця функція прочитає файл та ініціалізує об'єкт із цим файлом, діючи як функція [tidy\_parse\_file()](tidy.parsefile.html)
+Якщо встановлено параметр `filename`, то ця функція прочитає файл та ініціалізує об'єкт із цим файлом, діючи як функція [tidyparsefile()](tidy.parsefile.html)
 
 `config`
 
@@ -45,7 +45,7 @@ bool `$useIncludePath` **`false`**
 
 `useIncludePath`
 
-Пошук файлу в [include\_path](ini.core.html#ini.include-path)
+Пошук файлу в [includepath](ini.core.html#ini.include-path)
 
 ### список змін
 

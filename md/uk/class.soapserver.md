@@ -1,6 +1,6 @@
 Клас SoapServer
 
--   [« SoapClient::\_\_soapCall](soapclient.soapcall.html)
+-   [« SoapClient::soapCall](soapclient.soapcall.html)
     
 -   [SoapServer::addFunction »](soapserver.addfunction.html)
     
@@ -69,7 +69,7 @@ soapfault
 
 -   [SoapServer::addFunction](soapserver.addfunction.html) — Додає одну або кілька функцій обробки запитів SOAP
 -   [SoapServer::addSoapHeader](soapserver.addsoapheader.html) — Додати заголовок SOAP у відповідь
--   [SoapServer::\_\_construct](soapserver.construct.html) - Конструктор SoapServer
+-   [SoapServer::construct](soapserver.construct.html) - Конструктор SoapServer
 -   [SoapServer::fault](soapserver.fault.html) — Вимушує SoapServer повернути помилку
 -   [SoapServer::getFunctions](soapserver.getfunctions.html) — Повернути список функцій
 -   [SoapServer::handle](soapserver.handle.html) - Обробка SOAP-запиту

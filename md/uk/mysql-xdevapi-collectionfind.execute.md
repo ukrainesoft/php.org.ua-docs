@@ -1,12 +1,12 @@
 Виконує затвердження
 
--   [« CollectionFind::\_\_construct](mysql-xdevapi-collectionfind.construct.html)
+-   [« CollectionFind::construct](mysql-xdevapi-collectionfind.construct.html)
     
 -   [CollectionFind::fields »](mysql-xdevapi-collectionfind.fields.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionFind](class.mysql-xdevapi-collectionfind.html)
+-   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     
 -   Виконує затвердження
     

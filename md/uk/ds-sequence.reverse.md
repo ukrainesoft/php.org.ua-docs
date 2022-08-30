@@ -1,12 +1,12 @@
 Перевертає поточну колекцію
 
--   [« Ds\\Sequence::remove](ds-sequence.remove.html)
+-   [« DsSequence::remove](ds-sequence.remove.html)
     
--   [Ds\\Sequence::reversed »](ds-sequence.reversed.html)
+-   [ДсSequence::reversed »](ds-sequence.reversed.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Перевертає поточну колекцію
     

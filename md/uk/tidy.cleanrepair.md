@@ -2,7 +2,7 @@
 
 -   [« tidy::body](tidy.body.html)
     
--   [tidy::\_\_construct »](tidy.construct.html)
+-   [tidy::construct »](tidy.construct.html)
     
 -   [PHP Manual](index.html)
     

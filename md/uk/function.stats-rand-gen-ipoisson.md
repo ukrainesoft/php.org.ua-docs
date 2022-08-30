@@ -1,12 +1,12 @@
 Обчислює випадкове відхилення від розподілу Пуассона
 
--   [« stats\_rand\_gen\_int](function.stats-rand-gen-int.html)
+-   [« statsrandgenint](function.stats-rand-gen-int.html)
     
--   [stats\_rand\_gen\_iuniform »](function.stats-rand-gen-iuniform.html)
+-   [statsrandgeniuniform »](function.stats-rand-gen-iuniform.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює випадкове відхилення від розподілу Пуассона
     

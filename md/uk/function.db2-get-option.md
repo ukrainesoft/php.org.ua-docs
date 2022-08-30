@@ -1,12 +1,12 @@
 Витягує значення параметра для ресурсу оператора або ресурсу з'єднання
 
--   [« db2\_free\_stmt](function.db2-free-stmt.html)
+-   [« db2freestmt](function.db2-free-stmt.html)
     
--   [db2\_last\_insert\_id »](function.db2-last-insert-id.html)
+-   [db2lastinsertid »](function.db2-last-insert-id.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Витягує значення параметра для ресурсу оператора або ресурсу з'єднання
     
@@ -29,7 +29,7 @@ db2_get_option(resource $resource, string $option): string|false
 
 `resource`
 
-Допустимий ресурс оператора, що повертається [db2\_prepare()](function.db2-prepare.html) або допустимий ресурс з'єднання, що повертається [db2\_connect()](function.db2-connect.html) або [db2\_pconnect()](function.db2-pconnect.html)
+Допустимий ресурс оператора, що повертається [db2prepare()](function.db2-prepare.html) або допустимий ресурс з'єднання, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
 
 `option`
 
@@ -178,9 +178,9 @@ workstation
 
 ### Дивіться також
 
--   [db2\_connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2\_cursor\_type()](function.db2-cursor-type.html) - Повертає тип курсору, який використовується у ресурсі оператора
--   [db2\_exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2\_set\_option()](function.db2-set-option.html) - Встановлення опції для з'єднання або ресурсу оператора
--   [db2\_pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
--   [db2\_prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
+-   [db2cursortype()](function.db2-cursor-type.html) - Повертає тип курсору, який використовується у ресурсі оператора
+-   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
+-   [db2setoption()](function.db2-set-option.html) - Встановлення опції для з'єднання або ресурсу оператора
+-   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
+-   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання

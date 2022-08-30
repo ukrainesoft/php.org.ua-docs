@@ -1,8 +1,8 @@
 Створює спеціальний або звичайний файл (POSIX.1)
 
--   [« posix\_mkfifo](function.posix-mkfifo.html)
+-   [« posixmkfifo](function.posix-mkfifo.html)
     
--   [posix\_setegid »](function.posix-setegid.html)
+-   [posixsetegid »](function.posix-setegid.html)
     
 -   [PHP Manual](index.html)
     
@@ -69,4 +69,4 @@ if (!posix_mknod($file, $type | $permissions, $major, $minor)) {
 
 ### Дивіться також
 
--   [posix\_mkfifo()](function.posix-mkfifo.html) - Створює спеціальний fifo файл (іменований канал-pipe)
+-   [posixmkfifo()](function.posix-mkfifo.html) - Створює спеціальний fifo файл (іменований канал-pipe)

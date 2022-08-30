@@ -1,8 +1,8 @@
 Слизька середня збіжність/дивергенція
 
--   [« trader\_ma](function.trader-ma.html)
+-   [« traderма](function.trader-ma.html)
     
--   [trader\_macdext »](function.trader-macdext.html)
+-   [tradermacdext »](function.trader-macdext.html)
     
 -   [PHP Manual](index.html)
     

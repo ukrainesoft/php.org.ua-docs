@@ -1,8 +1,8 @@
 Обчислює ключі сесії на стороні сервера
 
--   [« sodium\_crypto\_kx\_seed\_keypair](function.sodium-crypto-kx-seed-keypair.html)
+-   [« sodiumcryptoкксseedkeypair](function.sodium-crypto-kx-seed-keypair.html)
     
--   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
+-   [sodiumcryptopwhashscryptsalsa208sha256strverify »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_kx_server_session_keys(string $server_key_pair, string $client_key
 
 `server_key_pair`
 
-Пара ключів cryptokx, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.html)
+Пара ключів cryptokx, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.html)
 
 `client_key`
 

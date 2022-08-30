@@ -1,8 +1,8 @@
 Створює жорстке посилання на файл
 
--   [« eio\_init](function.eio-init.html)
+-   [« eioinit](function.eio-init.html)
     
--   [eio\_lstat »](function.eio-lstat.html)
+-   [eiolstat »](function.eio-lstat.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -117,4 +117,4 @@ string(%d) "%ssymlink.dat"
 
 ### Дивіться також
 
--   [eio\_symlink()](function.eio-symlink.html) - Створює символічне посилання
+-   [eiosymlink()](function.eio-symlink.html) - Створює символічне посилання

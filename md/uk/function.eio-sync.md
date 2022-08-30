@@ -1,8 +1,8 @@
 Записує кеш із буфера на диск
 
--   [« eio\_sync\_file\_range](function.eio-sync-file-range.html)
+-   [« eiosyncfilerange](function.eio-sync-file-range.html)
     
--   [eio\_syncfs »](function.eio-syncfs.html)
+-   [eiosyncfs »](function.eio-syncfs.html)
     
 -   [PHP Manual](index.html)
     

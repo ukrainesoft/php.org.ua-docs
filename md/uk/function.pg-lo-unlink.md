@@ -1,8 +1,8 @@
 Видалення великого об'єкту
 
--   [« pg\_lo\_truncate](function.pg-lo-truncate.html)
+-   [« pgлоtruncate](function.pg-lo-truncate.html)
     
--   [pg\_lo\_write »](function.pg-lo-write.html)
+-   [пглоwrite »](function.pg-lo-write.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_lo_unlink(PgSql\Connection $connection, int $oid): bool
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -51,9 +51,9 @@ OID великий об'єкт у базі даних.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -72,5 +72,5 @@ OID великий об'єкт у базі даних.
 
 ### Дивіться також
 
--   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт
--   [pg\_lo\_import()](function.pg-lo-import.html) - Імпорт великого об'єкта з файлу
+-   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [пглоimport()](function.pg-lo-import.html) - Імпорт великого об'єкта з файлу

@@ -1,12 +1,12 @@
 Визначення стану
 
--   [« Componere\\Definition::register](componere-definition.register.html)
+-   [« ComponereDefinition::register](componere-definition.register.html)
     
--   [Componere\\Definition::getClosure »](componere-definition.getclosure.html)
+-   [ComponereDefinition::getClosure »](componere-definition.getclosure.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Definition](class.componere-definition.html)
+-   [ComponereDefinition](class.componere-definition.html)
     
 -   Визначення стану
     

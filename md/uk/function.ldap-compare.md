@@ -1,12 +1,12 @@
 Порівняти значення атрибута, знайденого у записі певної DN
 
--   [« ldap\_close](function.ldap-close.html)
+-   [« ldapclose](function.ldap-close.html)
     
--   [ldap\_connect »](function.ldap-connect.html)
+-   [ldapconnect »](function.ldap-connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Порівняти значення атрибута, знайденого у записі певної DN
     
@@ -29,7 +29,7 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `dn`
 
@@ -53,11 +53,11 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                        |
-|        | Додано підтримку параметра `controls`                                                                                                                    |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
+|        | Додано підтримку параметра `controls`                                                                                                                  |
 
 ### Приклади
 

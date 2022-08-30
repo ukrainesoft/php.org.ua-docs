@@ -1,12 +1,12 @@
 Встановлює межу скосу
 
--   [« ps\_setlinewidth](function.ps-setlinewidth.html)
+-   [«pssetlinewidth](function.ps-setlinewidth.html)
     
--   [ps\_setoverprintmode »](function.ps-setoverprintmode.html)
+-   [псsetoverprintmode »](function.ps-setoverprintmode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює межу скосу
     
@@ -29,7 +29,7 @@ ps_setmiterlimit(resource $psdoc, float $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `value`
 
@@ -41,6 +41,6 @@ ps_setmiterlimit(resource $psdoc, float $value): bool
 
 ### Дивіться також
 
--   [ps\_setlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
--   [ps\_setlinejoin()](function.ps-setlinejoin.html) - Встановлює спосіб з'єднання ліній
--   [ps\_setlinewidth()](function.ps-setlinewidth.html) - Встановлює ширину лінії
+-   [псsetlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
+-   [псsetlinejoin()](function.ps-setlinejoin.html) - Встановлює спосіб з'єднання ліній
+-   [псsetlinewidth()](function.ps-setlinewidth.html) - Встановлює ширину лінії

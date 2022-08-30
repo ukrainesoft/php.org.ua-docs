@@ -1,12 +1,12 @@
 Знищує блокування пам'яті Swoole
 
--   [« Swoole\\Lock::\_\_construct](swoole-lock.construct.html)
+-   [« SwooleLock::construct](swoole-lock.construct.html)
     
--   [Swoole\\Lock::lock\_read »](swoole-lock.lock-read.html)
+-   [SwooleLock::lockread »](swoole-lock.lock-read.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Знищує блокування пам'яті Swoole
     

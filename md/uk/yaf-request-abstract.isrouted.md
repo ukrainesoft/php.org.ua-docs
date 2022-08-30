@@ -1,12 +1,12 @@
 Визначає, чи запит надіслано
 
--   [« Yaf\_Request\_Abstract::isPut](yaf-request-abstract.isput.html)
+-   [« YafRequestAbstract::isPut](yaf-request-abstract.isput.html)
     
--   [Yaf\_Request\_Abstract::isXmlHttpRequest »](yaf-request-abstract.isxmlhttprequest.html)
+-   [YafRequestAbstract::isXmlHttpRequest »](yaf-request-abstract.isxmlhttprequest.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Визначає, чи запит надіслано
     

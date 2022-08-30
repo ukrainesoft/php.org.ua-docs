@@ -82,7 +82,7 @@ echo MessageFormatter::formatMessage("de", "{0,number,integer} Affen auf {1
 
 ### Дивіться також
 
--   [msgfmt\_create()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmt\_parse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
--   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
--   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції
+-   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmtparse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmtgeterrorcode()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [msgfmtgeterrormessage()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції

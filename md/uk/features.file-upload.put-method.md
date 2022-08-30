@@ -1,6 +1,6 @@
 Підтримка методу PUT
 
--   [« Загрузка нескольких файлов](features.file-upload.multiple.html)
+-   [« Завантаження кількох файлів](features.file-upload.multiple.html)
     
 -   [Смотрите также »](features.file-upload.errors.seealso.html)
     

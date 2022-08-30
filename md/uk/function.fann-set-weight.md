@@ -1,8 +1,8 @@
 Створення зв'язку в мережі
 
--   [« fann\_set\_weight\_array](function.fann-set-weight-array.html)
+-   [« fannsetweightarray](function.fann-set-weight-array.html)
     
--   [fann\_shuffle\_train\_data »](function.fann-shuffle-train-data.html)
+-   [fannshuffletraindata »](function.fann-shuffle-train-data.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Модулі лише для Windows
 
--   [« xmlrpc\_set\_type](function.xmlrpc-set-type.html)
+-   [« xmlrpcsettype](function.xmlrpc-set-type.html)
     
 -   [COM »](book.com.html)
     
@@ -23,7 +23,7 @@
     -   [dotnet](class.dotnet.html) - Клас dotnet
     -   [variant](class.variant.html) - Клас variant
     -   [COMPersistHelper](class.compersisthelper.html) - Клас COMPersistHelper
-    -   [com\_exception](class.com-exception.html) - Клас comexception
+    -   [comexception](class.com-exception.html) - Клас comexception
     -   [Функции COM](ref.com.html)
 -   [win32service](book.win32service.html)
     -   [Введение](intro.win32service.html)

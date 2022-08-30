@@ -1,8 +1,8 @@
 Ігнорує слова довжиною менше N символів
 
--   [« pspell\_config\_dict\_dir](function.pspell-config-dict-dir.html)
+-   [« pspellconfigdictdir](function.pspell-config-dict-dir.html)
     
--   [pspell\_config\_mode »](function.pspell-config-mode.html)
+-   [pspellconfigmode »](function.pspell-config-mode.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ pspellconfigignore — Ігнорує слова довжиною менше N �
 pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 ```
 
-**pspellconfigignore()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html). Ця функція дозволяє пропускати короткі слова під час перевірки орфографії.
+**pspellconfigignore()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html). Ця функція дозволяє пропускати короткі слова під час перевірки орфографії.
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpell\\Config](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.html)
 
 `min_length`
 
@@ -41,9 +41,9 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

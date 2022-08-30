@@ -1,12 +1,12 @@
 Створення нової транзакції
 
--   [« svn\_repos\_create](function.svn-repos-create.html)
+-   [« svnreposcreate](function.svn-repos-create.html)
     
--   [svn\_repos\_fs\_commit\_txn »](function.svn-repos-fs-commit-txn.html)
+-   [svnreposфсcommittxn »](function.svn-repos-fs-commit-txn.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Створення нової транзакції
     

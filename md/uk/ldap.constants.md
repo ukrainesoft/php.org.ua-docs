@@ -125,7 +125,7 @@
 
 **`LDAP_OPT_X_TLS_CRLCHECK`** (int)
 
-Визначає стратегію оцінки CRL. Одна з констант: **`LDAP_OPT_X_TLS_CRL_NONE`****`LDAP_OPT_X_TLS_CRL_PEER`** **`LDAP_OPT_X_TLS_CRL_ALL`**
+Визначає стратегію оцінки CRL. Одна з констант: **`LDAP_OPT_X_TLS_CRL_NONE`\*\*\*\*`LDAP_OPT_X_TLS_CRL_PEER`** **`LDAP_OPT_X_TLS_CRL_ALL`**
 
 > **Зауваження**: Ця опція коректна лише для OpenSSL.
 

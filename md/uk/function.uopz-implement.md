@@ -1,12 +1,12 @@
 Реалізує інтерфейс під час виконання
 
--   [« uopz\_get\_static](function.uopz-get-static.html)
+-   [« uopzgetstatic](function.uopz-get-static.html)
     
--   [uopz\_overload »](function.uopz-overload.html)
+-   [uopzoverload »](function.uopz-overload.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Реалізує інтерфейс під час виконання
     

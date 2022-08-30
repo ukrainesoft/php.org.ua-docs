@@ -1,12 +1,12 @@
 Відправляє EOF у потік
 
--   [« ssh2\_scp\_send](function.ssh2-scp-send.html)
+-   [« ssh2scpsend](function.ssh2-scp-send.html)
     
--   [ssh2\_sftp\_chmod »](function.ssh2-sftp-chmod.html)
+-   [ssh2sftpchmod »](function.ssh2-sftp-chmod.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Відправляє EOF у потік
     
@@ -29,7 +29,7 @@ ssh2_send_eof(resource $channel): bool
 
 `channel`
 
-Потік SSH; можна отримати за допомогою таких функцій, як [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.html) або [ssh2\_connect()](function.ssh2-connect.html)
+Потік SSH; можна отримати за допомогою таких функцій, як [ssh2fetchstream()](function.ssh2-fetch-stream.html) або [ssh2connect()](function.ssh2-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ssh2_send_eof(resource $channel): bool
 
 ### Дивіться також
 
--   [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних
+-   [ssh2fetchstream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних

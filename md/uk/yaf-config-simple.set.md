@@ -1,12 +1,12 @@
 Призначення set
 
--   [« Yaf\_Config\_Simple::rewind](yaf-config-simple.rewind.html)
+-   [« YafConfigSimple::rewind](yaf-config-simple.rewind.html)
     
--   [Yaf\_Config\_Simple::toArray »](yaf-config-simple.toarray.html)
+-   [YafConfigSimple::toArray »](yaf-config-simple.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення set
     

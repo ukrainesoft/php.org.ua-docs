@@ -1,12 +1,12 @@
 Встановлення опції для з'єднання або ресурсу оператора
 
--   [« db2\_server\_info](function.db2-server-info.html)
+-   [« db2serverinfo](function.db2-server-info.html)
     
--   [db2\_special\_columns »](function.db2-special-columns.html)
+-   [db2specialcolumns »](function.db2-special-columns.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Встановлення опції для з'єднання або ресурсу оператора
     
@@ -29,7 +29,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `resource`
 
-Коректний ресурс оператора, отриманий з [db2\_prepare()](function.db2-prepare.html) або ж ресурс з'єднання, отриманий з [db2\_connect()](function.db2-connect.html) або [db2\_pconnect()](function.db2-pconnect.html)
+Коректний ресурс оператора, отриманий з [db2prepare()](function.db2-prepare.html) або ж ресурс з'єднання, отриманий з [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
 
 `options`
 
@@ -81,7 +81,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `rowcount`
 
-`DB2_ROWCOUNT_PREFETCH_ON` - клієнт може запитати кількість рядків перед вилученням, що означає, що функція [db2\_num\_rows()](function.db2-num-rows.html) поверне кількість вибраних рядків, навіть якщо використовується курсор `ROLLFORWARD_ONLY`
+`DB2_ROWCOUNT_PREFETCH_ON` - клієнт може запитати кількість рядків перед вилученням, що означає, що функція [db2numrows()](function.db2-num-rows.html) поверне кількість вибраних рядків, навіть якщо використовується курсор `ROLLFORWARD_ONLY`
 
 `DB2_ROWCOUNT_PREFETCH_OFF` - клієнт не може запитати кількість рядків перед вилученням
 
@@ -95,7 +95,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 Пароль (рядок), що відповідає ідентифікатору користувача, заданому в trusteduser.
 
-Наступні нові опції доступні в ibmdb2 версії 1.6.0 та вище. Ці опції надають корисну інформацію, яку можна отримати через [db2\_get\_option()](function.db2-get-option.html)
+Наступні нові опції доступні в ibmdb2 версії 1.6.0 та вище. Ці опції надають корисну інформацію, яку можна отримати через [db2getoption()](function.db2-get-option.html)
 
 > **Зауваження**
 > 
@@ -564,8 +564,8 @@ first2 last2
 
 ### Дивіться також
 
--   [db2\_connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2\_pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
--   [db2\_exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2\_prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
--   [db2\_cursor\_type()](function.db2-cursor-type.html) - Повертає тип курсору, який використовується у ресурсі оператора
+-   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
+-   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
+-   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
+-   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2cursortype()](function.db2-cursor-type.html) - Повертає тип курсору, який використовується у ресурсі оператора

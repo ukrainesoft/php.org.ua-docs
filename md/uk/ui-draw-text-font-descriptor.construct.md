@@ -1,12 +1,12 @@
 Конструктор класу Font Descriptor
 
--   [« UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+-   [« UIDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor::getFamily »](ui-draw-text-font-descriptor.getfamily.html)
+-   [ОЙDrawTextFontDescriptor::getFamily »](ui-draw-text-font-descriptor.getfamily.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+-   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
     
 -   Конструктор класу Font Descriptor
     
@@ -24,7 +24,7 @@ string `$family`
 float `$size`  
 int `$weight` = UIDrawTextFontWeight::Normal,  
 int `$italic` = UIDrawTextFontItalic::Normal,  
-int `$stretch` = UIDrawTextFontStretch::Normal  
+int `$stretch` = UIDrawTextFontStretch::Normal
 
 Створює новий Font Descriptor
 

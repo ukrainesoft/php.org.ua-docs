@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocinumcols - Псевдонім [oci\_num\_fields()](function.oci-num-fields.html)
+ocinumcols - Псевдонім [ocinumfields()](function.oci-num-fields.html)
 
 ### Опис
 
-Псевдонім [oci\_num\_fields()](function.oci-num-fields.html)
+Псевдонім [ocinumfields()](function.oci-num-fields.html)
 
 **Увага**
 

@@ -2,7 +2,7 @@
 
 -   [« ReflectionReference::getId](reflectionreference.getid.html)
     
--   [ReflectionAttribute::\_\_construct »](reflectionattribute.construct.html)
+-   [ReflectionAttribute::construct »](reflectionattribute.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -68,7 +68,7 @@ public newInstance(): object
 
 ## Зміст
 
--   [ReflectionAttribute::\_\_construct](reflectionattribute.construct.html) — Закритий конструктор, який забороняє створення об'єкта безпосередньо
+-   [ReflectionAttribute::construct](reflectionattribute.construct.html) — Закритий конструктор, який забороняє створення об'єкта безпосередньо
 -   [ReflectionAttribute::getArguments](reflectionattribute.getarguments.html) — Повертає аргументи, передані атрибуту
 -   [ReflectionAttribute::getName](reflectionattribute.getname.html) - Повертає ім'я атрибута
 -   [ReflectionAttribute::getTarget](reflectionattribute.gettarget.html) — Повертає мету атрибуту у вигляді бітової маски

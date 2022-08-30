@@ -1,12 +1,12 @@
 Отримати системний час високої роздільної здатності
 
--   [« highlight\_string](function.highlight-string.html)
+-   [« highlightstring](function.highlight-string.html)
     
--   [ignore\_user\_abort »](function.ignore-user-abort.html)
+-   [ignoreuserabort »](function.ignore-user-abort.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Отримати системний час високої роздільної здатності
     

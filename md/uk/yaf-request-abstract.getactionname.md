@@ -1,12 +1,12 @@
 Призначення getActionName
 
--   [« Yaf\_Request\_Abstract::clearParams](yaf-request-abstract.clearparams.html)
+-   [« YafRequestAbstract::clearParams](yaf-request-abstract.clearparams.html)
     
--   [Yaf\_Request\_Abstract::getBaseUri »](yaf-request-abstract.getbaseuri.html)
+-   [YafRequestAbstract::getBaseUri »](yaf-request-abstract.getbaseuri.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Призначення getActionName
     

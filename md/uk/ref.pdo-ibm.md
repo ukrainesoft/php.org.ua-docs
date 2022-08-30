@@ -1,12 +1,12 @@
 Функції IBM (PDOIBM)
 
--   [« PDO\_FIREBIRD DSN](ref.pdo-firebird.connection.html)
+-   [« PDOFIREBIRD DSN](ref.pdo-firebird.connection.html)
     
--   [PDO\_IBM DSN »](ref.pdo-ibm.connection.html)
+-   [PDOIBM DSN »](ref.pdo-ibm.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції IBM (PDOIBM)
     
@@ -37,4 +37,4 @@ bash$ ./configure --with-pdo-ibm=/path/to/sqllib[,shared]
 
 ## Зміст
 
--   [PDO\_IBM DSN](ref.pdo-ibm.connection.html) — З'єднання з базою даних IBM
+-   [PDOIBM DSN](ref.pdo-ibm.connection.html) — З'єднання з базою даних IBM

@@ -13,4 +13,4 @@
 
 ## Типи ресурсів
 
-У dbase 7.0.0 визначено ресурс `dbase`, який повертається функціями [dbase\_open()](function.dbase-open.html) і [dbase\_create()](function.dbase-create.html)
+У dbase 7.0.0 визначено ресурс `dbase`, який повертається функціями [dbaseopen()](function.dbase-open.html) і [dbasecreate()](function.dbase-create.html)

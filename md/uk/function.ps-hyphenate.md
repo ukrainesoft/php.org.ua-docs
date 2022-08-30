@@ -1,12 +1,12 @@
 Переносить слово
 
--   [« ps\_get\_value](function.ps-get-value.html)
+-   [«psgetvalue](function.ps-get-value.html)
     
--   [ps\_include\_file »](function.ps-include-file.html)
+-   [псincludefile »](function.ps-include-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Переносить слово
     
@@ -23,7 +23,7 @@
 ps_hyphenate(resource $psdoc, string $text): array|false
 ```
 
-Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [ps\_set\_value()](function.ps-set-value.html)) та дефіси параметра (встановлюється [ps\_set\_parameter()](function.ps-set-parameter.html)). Перед викликом цієї функції необхідно встановити дефіс.
+Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [псsetvalue()](function.ps-set-value.html)) та дефіси параметра (встановлюється [псsetparameter()](function.ps-set-parameter.html)). Перед викликом цієї функції необхідно встановити дефіс.
 
 Для роботи функції потрібно, щоб категорія мовного стандарту LCCTYPE було встановлено коректно. Це робиться при ініціалізації модуля з використанням змінних оточення. У системах Unix для додаткової інформації прочитайте довідкову сторінку мовних стандартів.
 
@@ -31,7 +31,7 @@ ps_hyphenate(resource $psdoc, string $text): array|false
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `text`
 
@@ -68,5 +68,5 @@ Ko-ordi-na-ten-sys-tem
 
 ### Дивіться також
 
--   [ps\_show\_boxed()](function.ps-show-boxed.html) - Виводить текст у поле
+-   [псshowboxed()](function.ps-show-boxed.html) - Виводить текст у поле
 -   locale(1)

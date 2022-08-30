@@ -1,12 +1,12 @@
 Отримує поточне значення атрибуту запиту
 
--   [« mysqli\_stmt::$affected\_rows](mysqli-stmt.affected-rows.html)
+-   [« mysqlistmt::$affectedrows](mysqli-stmt.affected-rows.html)
     
--   [mysqli\_stmt::attr\_set »](mysqli-stmt.attr-set.html)
+-   [mysqlistmt::attrset »](mysqli-stmt.attr-set.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_stmt](class.mysqli-stmt.html)
+-   [mysqlistmt](class.mysqli-stmt.html)
     
 -   Отримує поточне значення атрибуту запиту
     
@@ -39,7 +39,7 @@ mysqli_stmt_attr_get(mysqli_stmt $statement, int $attribute): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
 
 `attribute`
 

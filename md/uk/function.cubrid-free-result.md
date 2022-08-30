@@ -1,8 +1,8 @@
 Звільняє пам'ять, зайняту даними результату
 
--   [« cubrid\_fetch](function.cubrid-fetch.html)
+-   [« cubridfetch](function.cubrid-fetch.html)
     
--   [cubrid\_get\_autocommit »](function.cubrid-get-autocommit.html)
+-   [cubridgetautocommit »](function.cubrid-get-autocommit.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ cubridfreeresult — Звільняє пам'ять, зайняту даними
 cubrid_free_result(resource $req_identifier): bool
 ```
 
-Функція звільняє пам'ять, зайняту даними результату. Вона повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Варто звернути увагу на те, що функція тепер може лише звільняти буфер вибірки клієнта, і якщо необхідно звільнити всю пам'ять, то потрібно використовувати функцію [cubrid\_close\_request()](function.cubrid-close-request.html)
+Функція звільняє пам'ять, зайняту даними результату. Вона повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Варто звернути увагу на те, що функція тепер може лише звільняти буфер вибірки клієнта, і якщо необхідно звільнити всю пам'ять, то потрібно використовувати функцію [cubridcloserequest()](function.cubrid-close-request.html)
 
 ### Список параметрів
 

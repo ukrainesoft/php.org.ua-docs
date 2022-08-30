@@ -52,4 +52,4 @@ print_r(posix_getgrgid($info->getGroup()));
 
 ### Дивіться також
 
--   [posix\_getgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID

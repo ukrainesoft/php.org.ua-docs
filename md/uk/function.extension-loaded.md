@@ -2,11 +2,11 @@
 
 -   [« dl](function.dl.html)
     
--   [gc\_collect\_cycles »](function.gc-collect-cycles.html)
+-   [гкcollectcycles »](function.gc-collect-cycles.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Визначає, чи завантажено модуль
     
@@ -71,8 +71,8 @@ if (!extension_loaded('gd')) {
 
 ### Дивіться також
 
--   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [get\_extension\_funcs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
+-   [getloadedextensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
 -   [dl()](function.dl.html) - Завантажує модуль PHP під час виконання
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена

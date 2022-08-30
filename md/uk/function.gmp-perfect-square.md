@@ -1,12 +1,12 @@
 Перевірка числа на точний квадрат
 
--   [« gmp\_perfect\_power](function.gmp-perfect-power.html)
+-   [« gmpperfectpower](function.gmp-perfect-power.html)
     
--   [gmp\_popcount »](function.gmp-popcount.html)
+-   [gmppopcount »](function.gmp-popcount.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Перевірка числа на точний квадрат
     
@@ -64,6 +64,6 @@ bool(true)
 
 ### Дивіться також
 
--   [gmp\_perfect\_power()](function.gmp-perfect-power.html) - Перевірити, чи є число "досконалим ступенем"
--   [gmp\_sqrt()](function.gmp-sqrt.html) - Обчислення квадратного кореня
--   [gmp\_sqrtrem()](function.gmp-sqrtrem.html) - Квадратний корінь із залишком
+-   [gmpperfectpower()](function.gmp-perfect-power.html) - Перевірити, чи є число "досконалим ступенем"
+-   [gmpsqrt()](function.gmp-sqrt.html) - Обчислення квадратного кореня
+-   [gmpsqrtrem()](function.gmp-sqrtrem.html) - Квадратний корінь із залишком

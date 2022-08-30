@@ -15,7 +15,7 @@
 
 Результуючий набір MySQL містить метадані. Ці дані описують стовпці результуючої таблиці. Усі відомості, які передає MySQL, доступні через `mysqli` інтерфейс. Модуль не змінює отримані дані або ці зміни незначні. Відмінності між версіями MySQL також можна не брати до уваги.
 
-Метадані доступні через інтерфейс [mysqli\_result](class.mysqli-result.html)
+Метадані доступні через інтерфейс [mysqliresult](class.mysqli-result.html)
 
 **Приклад #1 Доступ до метаданих результуючої таблиці**
 
@@ -98,7 +98,7 @@ array(2) {
 
 *Підготовлювані запити*
 
-Метадані результуючих наборів, одержаних в результаті виконання підготовлених запитів, можна отримати аналогічним чином. Відповідний дескриптор [mysqli\_result](class.mysqli-result.html) можна отримати функцією [mysqli\_stmt::result\_metadata()](mysqli-stmt.result-metadata.html)
+Метадані результуючих наборів, одержаних в результаті виконання підготовлених запитів, можна отримати аналогічним чином. Відповідний дескриптор [mysqliresult](class.mysqli-result.html) можна отримати функцією [mysqlistmt::resultmetadata()](mysqli-stmt.result-metadata.html)
 
 **Приклад #2 Метадані підготовлених запитів**
 
@@ -117,4 +117,4 @@ var_dump($result->fetch_fields());
 *Дивіться також*
 
 -   [mysqli::query()](mysqli.query.html)
--   [mysqli\_result::fetch\_fields()](mysqli-result.fetch-fields.html)
+-   [mysqliresult::fetchfields()](mysqli-result.fetch-fields.html)

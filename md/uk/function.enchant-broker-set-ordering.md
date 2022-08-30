@@ -1,8 +1,8 @@
 Надати перевагу вибору словників для мови
 
--   [« enchant\_broker\_set\_dict\_path](function.enchant-broker-set-dict-path.html)
+-   [« enchantbrokersetdictpath](function.enchant-broker-set-dict-path.html)
     
--   [enchant\_dict\_add\_to\_personal »](function.enchant-dict-add-to-personal.html)
+-   [enchantdictaddтоpersonal »](function.enchant-dict-add-to-personal.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_set_ordering(EnchantBroker $broker, string $tag, string $ordering
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 `tag`
 

@@ -1,12 +1,12 @@
 Намагається отримати блокування. Заблокується, якщо блокування недоступне
 
--   [« Swoole\\Lock::lock\_read](swoole-lock.lock-read.html)
+-   [« SwooleLock::lockread](swoole-lock.lock-read.html)
     
--   [Swoole\\Lock::trylock\_read »](swoole-lock.trylock-read.html)
+-   [SwooleLock::trylockread »](swoole-lock.trylock-read.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Намагається отримати блокування. Заблокується, якщо блокування недоступне
     

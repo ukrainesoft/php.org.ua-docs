@@ -1,12 +1,12 @@
 Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
 
--   [« cubrid\_num\_fields](function.cubrid-num-fields.html)
+-   [« cubridnumfields](function.cubrid-num-fields.html)
     
--   [cubrid\_query »](function.cubrid-query.html)
+-   [cubridquery »](function.cubrid-query.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
     
@@ -29,11 +29,11 @@ cubrid_ping(resource $conn_identifier = ?): bool
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо з'єднання працює, інакше **`false`**
+Повертає \*\*`true`\*\*якщо з'єднання працює, інакше **`false`**
 
 ### Приклади
 

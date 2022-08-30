@@ -1,8 +1,8 @@
 Експортувати сокет у потік, що інкапсулює сокет
 
--   [« socket\_create](function.socket-create.html)
+-   [« socketcreate](function.socket-create.html)
     
--   [socket\_get\_option »](function.socket-get-option.html)
+-   [socketgetoption »](function.socket-get-option.html)
     
 -   [PHP Manual](index.html)
     

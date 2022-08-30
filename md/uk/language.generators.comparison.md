@@ -1,6 +1,6 @@
 Порівняння генераторів з об'єктами класу Iterator
 
--   [« Синтаксис генераторов](language.generators.syntax.html)
+-   [« Синтаксис генераторів](language.generators.syntax.html)
     
 -   [Атрибуты »](language.attributes.html)
     
@@ -79,4 +79,4 @@ class LineIterator implements Iterator {
 
 ### Дивіться також
 
--   [Итераторы объектов](language.oop5.iterations.html)
+-   [Ітератори об'єктів](language.oop5.iterations.html)

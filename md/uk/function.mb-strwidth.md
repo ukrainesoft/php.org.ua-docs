@@ -1,12 +1,12 @@
 Повертає ширину рядка
 
--   [« mb\_strtoupper](function.mb-strtoupper.html)
+-   [« mbstrtoupper](function.mb-strtoupper.html)
     
--   [mb\_substitute\_character »](function.mb-substitute-character.html)
+-   [мбsubstitutecharacter »](function.mb-substitute-character.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Повертає ширину рядка
     
@@ -69,5 +69,5 @@ int(2)
 
 ### Дивіться також
 
--   [mb\_strimwidth()](function.mb-strimwidth.html) - Отримання рядка, обрізаного до заданого розміру
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrimwidth()](function.mb-strimwidth.html) - Отримання рядка, обрізаного до заданого розміру
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту

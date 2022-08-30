@@ -1,8 +1,8 @@
 Отримати розмір блоку для заданого хеша
 
--   [« mhash\_count](function.mhash-count.html)
+-   [« mhashcount](function.mhash-count.html)
     
--   [mhash\_get\_hash\_name »](function.mhash-get-hash-name.html)
+-   [mhashgethashname »](function.mhash-get-hash-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ mhash_get_block_size(int $algo): int|false
 
 | Версия | Описание                                                                                     |
 |--------|----------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функции `hash_*()`](ref.hash.html) |
+|        | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.html) |
 
 ### Приклади
 

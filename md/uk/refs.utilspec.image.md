@@ -17,13 +17,13 @@
     -   [Введение](intro.exif.html)
     -   [Установка и настройка](exif.setup.html)
     -   [Предопределённые константы](exif.constants.html)
-    -   [Exif Функции](ref.exif.html)
--   [GD](book.image.html) — Обробка зображень та GD
+    -   [Exif Функції](ref.exif.html)
+-   [ДД](book.image.html) — Обробка зображень та GD
     -   [Введение](intro.image.html)
     -   [Установка и настройка](image.setup.html)
     -   [Предопределённые константы](image.constants.html)
     -   [Примеры](image.examples.html)
-    -   [Функции GD и функции для работы с изображениями](ref.image.html)
+    -   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     -   [GdImage](class.gdimage.html) - Клас GdImage
     -   [GdFont](class.gdfont.html) - Клас GdFont
 -   [Gmagick](book.gmagick.html)

@@ -1,12 +1,12 @@
 Area
 
--   [« UI\\MenuItem::setChecked](ui-menuitem.setchecked.html)
+-   [« UIMenuItem::setChecked](ui-menuitem.setchecked.html)
     
--   [UI\\Area::onDraw »](ui-area.ondraw.html)
+-   [ОЙArea::onDraw »](ui-area.ondraw.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Area
     
@@ -115,9 +115,9 @@ public UI\Control::show()
 
 ## Зміст
 
--   [UI\\Area::onDraw](ui-area.ondraw.html) — Функція зворотного виклику під час малювання
--   [UI\\Area::onKey](ui-area.onkey.html) — Функція зворотного дзвінка під час натискання
--   [UI\\Area::onMouse](ui-area.onmouse.html) — Функція зворотного дзвінка миші
--   [UI\\Area::redraw](ui-area.redraw.html) - Перемалювати область
--   [UI\\Area::scrollTo](ui-area.scrollto.html) - Прокрутити область
--   [UI\\Area::setSize](ui-area.setsize.html) - Встановити розмір
+-   [ОЙArea::onDraw](ui-area.ondraw.html) — Функція зворотного виклику під час малювання
+-   [ОЙArea::onKey](ui-area.onkey.html) — Функція зворотного дзвінка під час натискання
+-   [ОЙArea::onMouse](ui-area.onmouse.html) — Функція зворотного дзвінка миші
+-   [ОЙArea::redraw](ui-area.redraw.html) - Перемалювати область
+-   [ОЙArea::scrollTo](ui-area.scrollto.html) - Прокрутити область
+-   [ОЙArea::setSize](ui-area.setsize.html) - Встановити розмір

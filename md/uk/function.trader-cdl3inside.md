@@ -1,8 +1,8 @@
 Три дні зсередини вгору та три дні зсередини вниз
 
--   [« trader\_cdl3blackcrows](function.trader-cdl3blackcrows.html)
+-   [« tradercdl3blackcrows](function.trader-cdl3blackcrows.html)
     
--   [trader\_cdl3linestrike »](function.trader-cdl3linestrike.html)
+-   [tradercdl3linestrike »](function.trader-cdl3linestrike.html)
     
 -   [PHP Manual](index.html)
     

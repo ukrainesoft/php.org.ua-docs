@@ -1,8 +1,8 @@
 Повертає тип вказаного поля з результату запиту
 
--   [« mysql\_field\_table](function.mysql-field-table.html)
+-   [« mysqlfieldtable](function.mysql-field-table.html)
     
--   [mysql\_free\_result »](function.mysql-free-result.html)
+-   [mysqlfreeresult »](function.mysql-free-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,9 +19,9 @@ mysqlfieldtype — Повернення типу вказаного поля з 
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.html) type
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) type
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) driver:decltype або pdotype
 
 ### Опис
@@ -30,13 +30,13 @@ mysqlfieldtype — Повернення типу вказаного поля з 
 mysql_field_type(resource $result, int $field_offset): string
 ```
 
-Функція **mysqlfieldtype()** аналогічна функції [mysql\_field\_name()](function.mysql-field-name.html). Аргументи однакові, але замість імені колонки повертається її тип.
+Функція **mysqlfieldtype()** аналогічна функції [mysqlfieldname()](function.mysql-field-name.html). Аргументи однакові, але замість імені колонки повертається її тип.
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `field_offset`
 
@@ -91,5 +91,5 @@ string type 9 not_null enum
 
 ### Дивіться також
 
--   [mysql\_field\_name()](function.mysql-field-name.html) - Повертає назву вказаної колонки результату запиту
--   [mysql\_field\_len()](function.mysql-field-len.html) - Повертає довжину вказаного поля
+-   [mysqlfieldname()](function.mysql-field-name.html) - Повертає назву вказаної колонки результату запиту
+-   [mysqlfieldlen()](function.mysql-field-len.html) - Повертає довжину вказаного поля

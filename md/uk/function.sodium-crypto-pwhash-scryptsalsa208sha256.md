@@ -1,8 +1,8 @@
 Отримує ключ із пароля, використовуючи scrypt
 
--   [« sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
+-   [« sodiumcryptopwhashscryptsalsa208sha256str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
     
--   [sodium\_crypto\_pwhash\_str\_needs\_rehash »](function.sodium-crypto-pwhash-str-needs-rehash.html)
+-   [sodiumcryptopwhashstrneedsrehash »](function.sodium-crypto-pwhash-str-needs-rehash.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,9 +23,9 @@ sodiumcryptopwhashscryptsalsa208sha256 — Отримує ключ із паро
 sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit): string
 ```
 
-Аналог функції scrypt [sodium\_crypto\_pwhash()](function.sodium-crypto-pwhash.html)
+Аналог функції scrypt [sodiumcryptopwhash()](function.sodium-crypto-pwhash.html)
 
-Найпоширеніша причина використання цієї конкретної функції – отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodium\_crypto\_sign\_detached()](function.sodium-crypto-sign-detached.html)
+Найпоширеніша причина використання цієї конкретної функції – отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.html)
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $pa
 
 `salt`
 
-Сіль, яку потрібно додати до пароля перед хешуванням. Сіль має бути непередбачуваною, в ідеалі згенерованою з гарного джерела випадкових чисел, такого як [random\_bytes()](function.random-bytes.html), і мати довжину не менше **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES`** байт.
+Сіль, яку потрібно додати до пароля перед хешуванням. Сіль має бути непередбачуваною, в ідеалі згенерованою з гарного джерела випадкових чисел, такого як [randombytes()](function.random-bytes.html), і мати довжину не менше **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES`** байт.
 
 `opslimit`
 

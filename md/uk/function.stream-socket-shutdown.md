@@ -1,12 +1,12 @@
 Закрити повнодуплексне з'єднання
 
--   [« stream\_socket\_server](function.stream-socket-server.html)
+-   [« streamsocketserver](function.stream-socket-server.html)
     
--   [stream\_supports\_lock »](function.stream-supports-lock.html)
+-   [streamsupportslock »](function.stream-supports-lock.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Закрити повнодуплексне з'єднання
     
@@ -33,7 +33,7 @@ stream_socket_shutdown(resource $stream, int $mode): bool
 
 `stream`
 
-Відкритий потік (наприклад, відкритий за допомогою функції [stream\_socket\_client()](function.stream-socket-client.html)
+Відкритий потік (наприклад, відкритий за допомогою функції [streamsocketclient()](function.stream-socket-client.html)
 
 `mode`
 

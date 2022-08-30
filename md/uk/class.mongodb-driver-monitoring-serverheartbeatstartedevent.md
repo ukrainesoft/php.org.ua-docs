@@ -1,12 +1,12 @@
 Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
 
--   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.html)
+-   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html)
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.html)
     
 -   Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
     
@@ -44,6 +44,6 @@ final public isAwaited(): bool
 
 ## Зміст
 
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html) — Повертає ім'я сервера.
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html) — Повертає порт, на якому прослуховується сервер
--   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.html) — Повертає, чи використовувався в heartbeat потоковий протокол
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html) — Повертає ім'я сервера.
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html) — Повертає порт, на якому прослуховується сервер
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.html) — Повертає, чи використовувався в heartbeat потоковий протокол

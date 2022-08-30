@@ -1,12 +1,12 @@
 Побітове І
 
--   [« gmp\_add](function.gmp-add.html)
+-   [« gmpadd](function.gmp-add.html)
     
--   [gmp\_binomial »](function.gmp-binomial.html)
+-   [gmpbinomial »](function.gmp-binomial.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Побітове І
     

@@ -1,8 +1,8 @@
 Копіює дескриптор cURL разом із усіма його налаштуваннями
 
--   [« curl\_close](function.curl-close.html)
+-   [« curlclose](function.curl-close.html)
     
--   [curl\_errno »](function.curl-errno.html)
+-   [curlerrno »](function.curl-errno.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_copy_handle(CurlHandle $handle): CurlHandle|false
 
 `handle`
 
-Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
 
 ### Значення, що повертаються
 

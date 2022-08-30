@@ -36,12 +36,12 @@ Fatal error: Uncaught ArgumentCountError: Too few arguments to function test(), 
 -   [assert()](function.assert.html) - з рядком як перший аргумент
 -   [compact()](function.compact.html)
 -   [extract()](function.extract.html)
--   [func\_get\_args()](function.func-get-args.html)
--   [func\_get\_arg()](function.func-get-arg.html)
--   [func\_num\_args()](function.func-num-args.html)
--   [get\_defined\_vars()](function.get-defined-vars.html)
--   [mb\_parse\_str()](function.mb-parse-str.html) - з одним аргументом
--   [parse\_str()](function.parse-str.html) - з одним аргументом
+-   [funcgetargs()](function.func-get-args.html)
+-   [funcgetarg()](function.func-get-arg.html)
+-   [funcnumargs()](function.func-num-args.html)
+-   [getdefinedvars()](function.get-defined-vars.html)
+-   [мбparsestr()](function.mb-parse-str.html) - з одним аргументом
+-   [parsestr()](function.parse-str.html) - з одним аргументом
 
 ```php
 <?php
@@ -68,13 +68,13 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 
 Цілочисленні операції та конвертації числових рядків тепер враховують наукову нотацію, включаючи приведення `(int)` та наступні функції: [intval()](function.intval.html) (З базою 10), [settype()](function.settype.html) [decbin()](function.decbin.html) [decoct()](function.decoct.html) і [dechex()](function.dechex.html)
 
-### Виправлення алгоритму [mt\_rand()](function.mt-rand.html)
+### Виправлення алгоритму [мтrand()](function.mt-rand.html)
 
-[mt\_rand()](function.mt-rand.html) тепер за замовчуванням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [mt\_srand()](function.mt-srand.html), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [mt\_srand()](function.mt-srand.html) задля збереження старої (неправильної) реалізації.
+[мтrand()](function.mt-rand.html) тепер за замовчуванням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [мтsrand()](function.mt-srand.html), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [мтsrand()](function.mt-srand.html) задля збереження старої (неправильної) реалізації.
 
-### [rand()](function.rand.html) псевдонім для [mt\_rand()](function.mt-rand.html) і [srand()](function.srand.html) псевдонім для [mt\_srand()](function.mt-srand.html)
+### [rand()](function.rand.html) псевдонім для [мтrand()](function.mt-rand.html) і [srand()](function.srand.html) псевдонім для [мтsrand()](function.mt-srand.html)
 
-[rand()](function.rand.html) і [srand()](function.srand.html) тепер є просто синонімами для [mt\_rand()](function.mt-rand.html) і [mt\_srand()](function.mt-srand.html). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.html) [shuffle()](function.shuffle.html) [str\_shuffle()](function.str-shuffle.html) і [array\_rand()](function.array-rand.html)
+[rand()](function.rand.html) і [srand()](function.srand.html) тепер є просто синонімами для [мтrand()](function.mt-rand.html) і [мтsrand()](function.mt-srand.html). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.html) [shuffle()](function.shuffle.html) [strshuffle()](function.str-shuffle.html) і [arrayrand()](function.array-rand.html)
 
 ### Заборона використання символу видалення з таблиці ASCII в ідентифікаторах
 
@@ -88,11 +88,11 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 
 Тепер деструктори ніколи не викликаються, якщо було викликано виключення у конструкторі об'єкта. Раніше ця поведінка залежала від того, чи було посилання на об'єкт поза конструктором (наприклад, у трасуванні виключення).
 
-### [call\_user\_func()](function.call-user-func.html) обробляє посилання на аргументи
+### [calluserfunc()](function.call-user-func.html) обробляє посилання на аргументи
 
-Тепер [call\_user\_func()](function.call-user-func.html) завжди викликає попередження, якщо викликається функція, що очікує посилання як параметри. Раніше це залежало від того, чи виклик був цілком певним.
+Тепер [calluserfunc()](function.call-user-func.html) завжди викликає попередження, якщо викликається функція, що очікує посилання як параметри. Раніше це залежало від того, чи виклик був цілком певним.
 
-Крім того, [call\_user\_func()](function.call-user-func.html) і [call\_user\_func\_array()](function.call-user-func-array.html) більше не припиняють виконання функції у разі. Попередження "expected reference" буде викликано, але функція продовжить виконання.
+Крім того, [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.html) більше не припиняють виконання функції у разі. Попередження "expected reference" буде викликано, але функція продовжить виконання.
 
 ### Оператор порожнього індексу більше не застосовується до рядків
 
@@ -197,9 +197,9 @@ new DateTime() == new DateTime();
 
 ### Виклик винятків [Error](class.error.html) замість фатальних помилок
 
-Для модуля Date при некоректних даних серіалізації класів [DateTime](class.datetime.html) або [DatePeriod](class.dateperiod.html), або помилки ініціалізації часового поясу із серіалізованих даних, викидатиметься виняток [Error](class.error.html) з методів **wakeup()** або **setstate()**замість виклику фатальної помилки.
+Для модуля Date при некоректних даних серіалізації класів [DateTime](class.datetime.html) або [DatePeriod](class.dateperiod.html), або помилки ініціалізації часового поясу із серіалізованих даних, викидатиметься виняток [Error](class.error.html) з методів **wakeup()** або \*\*setstate()\*\*замість виклику фатальної помилки.
 
-У модулі DBA функції маніпулювання даними (такі як [dba\_insert()](function.dba-insert.html)) тепер викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки, що відловлюється, якщо ключ не містить рівно двох елементів.
+У модулі DBA функції маніпулювання даними (такі як [dbainsert()](function.dba-insert.html)) тепер викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки, що відловлюється, якщо ключ не містить рівно двох елементів.
 
 У модулі DOM некоректна перевірка контексту схеми чи RelaxNG тепер викидатимуть виняток [Error](class.error.html) замість виклику фатальної помилки. Аналогічно, спроби зареєструвати клас вузла, який не розширює правильний базовий клас, спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання викидатимуть виняток [Error](class.error.html)
 
@@ -209,9 +209,9 @@ new DateTime() == new DateTime();
 
 Модуль LDAP при вказівці невідомого типу модифікації в **ldapbatchmodify()** тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки.
 
-У модулі mbstring функції [mb\_ereg()](function.mb-ereg.html) і [mb\_eregi()](function.mb-eregi.html) тепер викидатимуть виняток [ParseError](class.parseerror.html) у разі некоректного регулярного вираження або у разі використання опції 'e'.
+У модулі mbstring функції [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.html) тепер викидатимуть виняток [ParseError](class.parseerror.html) у разі некоректного регулярного вираження або у разі використання опції 'e'.
 
-У модулі Mcrypt [mcrypt\_encrypt()](function.mcrypt-encrypt.html) і [mcrypt\_decrypt()](function.mcrypt-decrypt.html) тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
+У модулі Mcrypt [mcryptencrypt()](function.mcrypt-encrypt.html) і [mcryptdecrypt()](function.mcrypt-decrypt.html) тепер викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
 
 У модулі mysqli спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання будуть викидати виняток [Error](class.error.html) замість виклику фатальної помилки.
 
@@ -223,7 +223,7 @@ new DateTime() == new DateTime();
 
 У модулі SPL спроба клонувати об'єкт **SplDirectory** викидатиме виняток [Error](class.error.html) замість виклику фатальної помилки. Аналогічно, виклик [ArrayIterator::append()](arrayiterator.append.html) коли ітерація об'єкта закінчена буде викидати виняток [Error](class.error.html)
 
-Функція [assert()](function.assert.html), коли їй переданий рядковий аргумент першим параметром, тепер викидатиме виняток [ParseError](class.parseerror.html) замість виклику фатальної помилки, що відловлюється, якщо PHP-код некоректний. Аналогічно, виклик [forward\_static\_call()](function.forward-static-call.html) за межами простору класу викидатиме виняток [Error](class.error.html)
+Функція [assert()](function.assert.html), коли їй переданий рядковий аргумент першим параметром, тепер викидатиме виняток [ParseError](class.parseerror.html) замість виклику фатальної помилки, що відловлюється, якщо PHP-код некоректний. Аналогічно, виклик [forwardstaticcall()](function.forward-static-call.html) за межами простору класу викидатиме виняток [Error](class.error.html)
 
 У модулі Tidy ручне створення [tidyNode](class.tidynode.html) викидатиме виняток [Error](class.error.html)
 
@@ -268,11 +268,11 @@ object(stdClass)#1 (1) {
 }
 ```
 
-Під час передачі прапора **`JSON_UNESCAPED_UNICODE`** у функцію [json\_encode()](function.json-encode.html) послідовності U+2028 та U+2029 будуть екрановані.
+Під час передачі прапора **`JSON_UNESCAPED_UNICODE`** у функцію [jsonencode()](function.json-encode.html) послідовності U+2028 та U+2029 будуть екрановані.
 
-### Зміна у семантиці параметрів [mb\_ereg()](function.mb-ereg.html) і [mb\_eregi()](function.mb-eregi.html)
+### Зміна у семантиці параметрів [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.html)
 
-Третій параметр функцій [mb\_ereg()](function.mb-ereg.html) і [mb\_eregi()](function.mb-eregi.html) `regs`) тепер встановлюється рівним порожньому масиву, якщо не було знайдено збігів. Раніше параметр залишався незмінним.
+Третій параметр функцій [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.html) `regs`) тепер встановлюється рівним порожньому масиву, якщо не було знайдено збігів. Раніше параметр залишався незмінним.
 
 ### Видалено підтримку потоку sslv2
 

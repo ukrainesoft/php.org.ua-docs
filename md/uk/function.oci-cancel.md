@@ -1,8 +1,8 @@
 Закінчує процес читання з курсору
 
--   [« oci\_bind\_by\_name](function.oci-bind-by-name.html)
+-   [« ocibindбname](function.oci-bind-by-name.html)
     
--   [oci\_client\_version »](function.oci-client-version.html)
+-   [ociclientversion »](function.oci-client-version.html)
     
 -   [PHP Manual](index.html)
     

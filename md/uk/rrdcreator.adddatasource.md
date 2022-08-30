@@ -2,7 +2,7 @@
 
 -   [« RRDCreator::addArchive](rrdcreator.addarchive.html)
     
--   [RRDCreator::\_\_construct »](rrdcreator.construct.html)
+-   [RRDCreator::construct »](rrdcreator.construct.html)
     
 -   [PHP Manual](index.html)
     

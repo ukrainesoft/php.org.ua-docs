@@ -1,12 +1,12 @@
 Функції Microsoft SQL Server та Sybase (PDODBLIB)
 
--   [« PDO::cubrid\_schema](pdo.cubrid-schema.html)
+-   [« PDO::cubridschema](pdo.cubrid-schema.html)
     
--   [PDO\_DBLIB DSN »](ref.pdo-dblib.connection.html)
+-   [PDODBLIB DSN »](ref.pdo-dblib.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції Microsoft SQL Server та Sybase (PDODBLIB)
     
@@ -21,8 +21,8 @@ PDODBLIB – драйвер, що реалізує [интерфейс PHP Data 
 
 У Windows ви повинні використовувати SqlSrv – альтернативний драйвер для MS SQL, доступний на сайті Microsoft: [» http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx)
 
-Якщо використовувати SqlSrv неможливо, то для з'єднання з Microsoft SQL Server і Sybase, використовуйте драйвер [PDO\_ODBC](ref.pdo-odbc.html), тому що нативний Windows DB-LIB є давнім, потоконебезпечним і не підтримується Microsoft.
+Якщо використовувати SqlSrv неможливо, то для з'єднання з Microsoft SQL Server і Sybase, використовуйте драйвер [PDOODBC](ref.pdo-odbc.html), тому що нативний Windows DB-LIB є давнім, потоконебезпечним і не підтримується Microsoft.
 
 ## Зміст
 
--   [PDO\_DBLIB DSN](ref.pdo-dblib.connection.html) — З'єднання з базами даних Microsoft SQL Server та Sybase
+-   [PDODBLIB DSN](ref.pdo-dblib.connection.html) — З'єднання з базами даних Microsoft SQL Server та Sybase

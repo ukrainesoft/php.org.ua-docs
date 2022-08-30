@@ -1,12 +1,12 @@
 Завершує шаблон
 
--   [« ps\_end\_pattern](function.ps-end-pattern.html)
+-   [«psendpattern](function.ps-end-pattern.html)
     
--   [ps\_fill\_stroke »](function.ps-fill-stroke.html)
+-   [псfillstroke »](function.ps-fill-stroke.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Завершує шаблон
     
@@ -23,13 +23,13 @@
 ps_end_template(resource $psdoc): bool
 ```
 
-Завершує шаблон, який було розпочато за допомогою [ps\_begin\_template()](function.ps-begin-template.html). Після завершення шаблону його можна використовувати як зображення.
+Завершує шаблон, який було розпочато за допомогою [псbegintemplate()](function.ps-begin-template.html). Після завершення шаблону його можна використовувати як зображення.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_end_template(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_begin\_template()](function.ps-begin-template.html) - Починає новий шаблон
+-   [псbegintemplate()](function.ps-begin-template.html) - Починає новий шаблон

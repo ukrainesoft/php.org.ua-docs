@@ -259,11 +259,11 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_WEEK_OF_YEAR`**
 
-Поле календар для номера тижня в році. Залежить від того, з [какого дня начинается неделя](intlcalendar.getfirstdayofweek.html) і [минимального количества дней в неделе](intlcalendar.getminimaldaysinfirstweek.html)
+Поле календар для номера тижня в році. Залежить від того, з [якого дня починається тиждень](intlcalendar.getfirstdayofweek.html) і [мінімальної кількості днів у тижні](intlcalendar.getminimaldaysinfirstweek.html)
 
 **`IntlCalendar::FIELD_WEEK_OF_MONTH`**
 
-Поле календар для номера тижня в місяці. Залежить від того, з [какого дня начинается неделя](intlcalendar.getfirstdayofweek.html) і [минимального количества дней в неделе](intlcalendar.getminimaldaysinfirstweek.html)
+Поле календар для номера тижня в місяці. Залежить від того, з [якого дня починається тиждень](intlcalendar.getfirstdayofweek.html) і [мінімальної кількості днів у тижні](intlcalendar.getminimaldaysinfirstweek.html)
 
 **`IntlCalendar::FIELD_DATE`**
 
@@ -411,7 +411,7 @@ public toDateTime(): DateTime|false
 -   [IntlCalendar::after](intlcalendar.after.html) - Визначає, час цього об'єкта пізніше часу переданого об'єкта
 -   [IntlCalendar::before](intlcalendar.before.html) — Визначає, час цього об'єкта раніше переданого об'єкта
 -   [IntlCalendar::clear](intlcalendar.clear.html) — Очищає поле чи всі поля
--   [IntlCalendar::\_\_construct](intlcalendar.construct.html) — Закритий конструктор для заборони створення екземплярів
+-   [IntlCalendar::construct](intlcalendar.construct.html) — Закритий конструктор для заборони створення екземплярів
 -   [IntlCalendar::createInstance](intlcalendar.createinstance.html) — Створює новий об'єкт IntlCalendar
 -   [IntlCalendar::equals](intlcalendar.equals.html) — Порівнює час двох об'єктів IntlCalendar щодо рівності
 -   [IntlCalendar::fieldDifference](intlcalendar.fielddifference.html) — Обчислює різницю між заданим часом та часом об'єкта

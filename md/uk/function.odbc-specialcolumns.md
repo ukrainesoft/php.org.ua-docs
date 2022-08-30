@@ -1,8 +1,8 @@
 Витягує спеціальні стовпці
 
--   [« odbc\_setoption](function.odbc-setoption.html)
+-   [« odbcsetoption](function.odbc-setoption.html)
     
--   [odbc\_statistics »](function.odbc-statistics.html)
+-   [odbcstatistics »](function.odbc-statistics.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $ca
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `type`
 
@@ -76,4 +76,4 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $ca
 
 ### Дивіться також
 
--   [odbc\_tables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

@@ -2,11 +2,11 @@
 
 -   [« Типы ресурсов](filesystem.resources.html)
     
--   [Функции файловой системы »](ref.filesystem.html)
+-   [Функції файлової системи »](ref.filesystem.html)
     
 -   [PHP Manual](index.html)
     
--   [Файловая система](book.filesystem.html)
+-   [Файлова система](book.filesystem.html)
     
 -   Обумовлені константи
     
@@ -53,7 +53,7 @@
 
 **`FILE_USE_INCLUDE_PATH`** (int)
 
-Шукає `filename` в [include\_path](ini.core.html#ini.include-path)
+Шукає `filename` в [includepath](ini.core.html#ini.include-path)
 
 **`FILE_NO_DEFAULT_CONTEXT`** (int)
 

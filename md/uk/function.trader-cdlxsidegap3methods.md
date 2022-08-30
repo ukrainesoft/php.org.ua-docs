@@ -1,8 +1,8 @@
 Верх/вниз – три методи
 
--   [« trader\_cdlupsidegap2crows](function.trader-cdlupsidegap2crows.html)
+-   [« tradercdlupsidegap2crows](function.trader-cdlupsidegap2crows.html)
     
--   [trader\_ceil »](function.trader-ceil.html)
+-   [traderceil »](function.trader-ceil.html)
     
 -   [PHP Manual](index.html)
     

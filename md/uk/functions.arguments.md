@@ -1,12 +1,12 @@
 Аргументи функції
 
--   [« Функции, определяемые пользователем](functions.user-defined.html)
+-   [« Функції, визначені користувачем](functions.user-defined.html)
     
 -   [Возврат значений »](functions.returning-values.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](language.functions.html)
+-   [Функції](language.functions.html)
     
 -   Аргументи функції
     
@@ -15,7 +15,7 @@
 
 Функція може приймати інформацію у вигляді списку аргументів, який є списком розділених комами виразів. Аргументи обчислюються ліворуч праворуч перед фактичним викликом функції (*енергійне* обчислення).
 
-PHP підтримує передачу аргументів за значенням (за умовчанням), [передачу аргументов по ссылке](functions.arguments.html#functions.arguments.by-reference), і [значения по умолчанию](functions.arguments.html#functions.arguments.default). . [Списки аргументов переменной длины](functions.arguments.html#functions.variable-arg-list) і [именованные аргументы](functions.arguments.html#functions.named-arguments) також підтримуються.
+PHP підтримує передачу аргументів за значенням (за умовчанням), [передачу аргументів за посиланням](functions.arguments.html#functions.arguments.by-reference), і [значения по умолчанию](functions.arguments.html#functions.arguments.default). . [Списки аргументів змінної довжини](functions.arguments.html#functions.variable-arg-list) і [именованные аргументы](functions.arguments.html#functions.named-arguments) також підтримуються.
 
 **Приклад #1 Передача масиву на функцію**
 
@@ -220,7 +220,7 @@ function bar(?A $a, $b) {}       // Рекомендуется
 
 PHP підтримує списки аргументів змінної довжини для функцій, що визначаються користувачем за допомогою додавання крапки (`...`
 
-> **Зауваження**: Також можна досягти аргументів змінної довжини, використовуючи функції [func\_num\_args()](function.func-num-args.html) [func\_get\_arg()](function.func-get-arg.html) і [func\_get\_args()](function.func-get-args.html). Цей метод не рекомендується, оскільки він використовувався до введення крапки (`...`
+> **Зауваження**: Також можна досягти аргументів змінної довжини, використовуючи функції [funcnumargs()](function.func-num-args.html) [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.html). Цей метод не рекомендується, оскільки він використовувався до введення крапки (`...`
 
 Список аргументів може містити багатокрапку (`...`), щоб показати, що функція приймає змінну кількість аргументів. Аргументи у разі будуть передані як масиву. Наприклад:
 
@@ -306,7 +306,7 @@ Catchable fatal error: Argument 2 passed to total_intervals() must be an instanc
 
 #### Попередні версії PHP
 
-Для вказівки того, що функція приймає змінну кількість аргументів, спеціальний синтаксис не використовується. Для доступу до аргументів необхідно використовувати функції [func\_num\_args()](function.func-num-args.html) [func\_get\_arg()](function.func-get-arg.html) і [func\_get\_args()](function.func-get-args.html)
+Для вказівки того, що функція приймає змінну кількість аргументів, спеціальний синтаксис не використовується. Для доступу до аргументів необхідно використовувати функції [funcnumargs()](function.func-num-args.html) [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.html)
 
 У першому прикладі вище було показано, як встановити список аргументів змінної довжини для попередніх версій PHP:
 

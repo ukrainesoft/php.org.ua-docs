@@ -1,12 +1,12 @@
 Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
 
--   [« mb\_send\_mail](function.mb-send-mail.html)
+-   [« mbsendmail](function.mb-send-mail.html)
     
--   [mb\_str\_split »](function.mb-str-split.html)
+-   [мбstrsplit »](function.mb-str-split.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
     
@@ -47,9 +47,9 @@ mb_split(string $pattern, string $string, int $limit = -1): array|false
 
 > **Зауваження**
 > 
-> Кодування символів, вказане функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html), буде за замовчуванням використана для цієї функції.
+> Кодування символів, вказане функцією [мбregexencoding()](function.mb-regex-encoding.html), буде за замовчуванням використана для цієї функції.
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_ereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбereg()](function.mb-ereg.html) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань

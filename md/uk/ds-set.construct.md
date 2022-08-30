@@ -1,8 +1,8 @@
 Створює новий екземпляр класу
 
--   [« Ds\\Set::clear](ds-set.clear.html)
+-   [« DsSet::clear](ds-set.clear.html)
     
--   [Ds\\Set::contains »](ds-set.contains.html)
+-   [ДсSet::contains »](ds-set.contains.html)
     
 -   [PHP Manual](index.html)
     

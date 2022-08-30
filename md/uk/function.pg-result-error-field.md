@@ -1,8 +1,8 @@
 Повертає конкретне поле зі звіту про помилки
 
--   [« pg\_query](function.pg-query.html)
+-   [« pgquery](function.pg-query.html)
     
--   [pg\_result\_error »](function.pg-result-error.html)
+-   [пгresulterror »](function.pg-result-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,15 +25,15 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 **пгresulterrorfield()** повертає одне з полів звіту про помилки, пов'язаного з екземпляром `result`. Функція підтримується серверами PostgreSQL версій 7.4 та вище. Потрібне поле задається аргументом `field_code`
 
-Функції [pg\_query()](function.pg-query.html) і [pg\_query\_params()](function.pg-query-params.html) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [pg\_send\_query()](function.pg-send-query.html) і [pg\_get\_result()](function.pg-get-result.html)
+Функції [пгquery()](function.pg-query.html) і [пгqueryparams()](function.pg-query-params.html) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [пгsendquery()](function.pg-send-query.html) і [пгgetresult()](function.pg-get-result.html)
 
-Для отримання додаткової інформації про хід виконання функції, що відмовила [pg\_query()](function.pg-query.html) використовуйте функції [pg\_set\_error\_verbosity()](function.pg-set-error-verbosity.html) і [pg\_last\_error()](function.pg-last-error.html) та обробляйте результат їх виконання.
+Для отримання додаткової інформації про хід виконання функції, що відмовила [пгquery()](function.pg-query.html) використовуйте функції [пгseterrorverbosity()](function.pg-set-error-verbosity.html) і [пгlasterror()](function.pg-last-error.html) та обробляйте результат їх виконання.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 `field_code`
 
@@ -41,13 +41,13 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### Значення, що повертаються
 
-Повідомлення про помилку із заданого поля у вигляді рядка (string); **`null`**якщо задане поле не існує; **`false`** у разі виникнення помилки.
+Повідомлення про помилку із заданого поля у вигляді рядка (string); \*\*`null`\*\*якщо задане поле не існує; **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -68,4 +68,4 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### Дивіться також
 
--   [pg\_result\_error()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [пгresulterror()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату

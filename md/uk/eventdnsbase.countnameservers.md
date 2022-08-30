@@ -1,6 +1,6 @@
 Отримує кількість налаштованих серверів імен
 
--   [« EventDnsBase::\_\_construct](eventdnsbase.construct.html)
+-   [« EventDnsBase::construct](eventdnsbase.construct.html)
     
 -   [EventDnsBase::loadHosts »](eventdnsbase.loadhosts.html)
     

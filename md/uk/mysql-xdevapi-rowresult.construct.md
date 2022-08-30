@@ -1,12 +1,12 @@
 Конструктор класу RowResult
 
--   [« mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+-   [« mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     
 -   [RowResult::fetchAll »](mysql-xdevapi-rowresult.fetchall.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+-   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
     
 -   Конструктор класу RowResult
     

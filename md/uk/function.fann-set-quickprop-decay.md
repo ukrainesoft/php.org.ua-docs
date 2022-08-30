@@ -1,8 +1,8 @@
 Встановлює коефіцієнт загасання quickprop
 
--   [« fann\_set\_output\_scaling\_params](function.fann-set-output-scaling-params.html)
+-   [« fannsetoutputscalingparams](function.fann-set-output-scaling-params.html)
     
--   [fann\_set\_quickprop\_mu »](function.fann-set-quickprop-mu.html)
+-   [fannsetquickpropmu »](function.fann-set-quickprop-mu.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ fann_set_quickprop_decay(resource $ann, float $quickprop_decay): bool
 
 ### Дивіться також
 
--   [fann\_get\_quickprop\_decay()](function.fann-get-quickprop-decay.html) - Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
+-   [fanngetquickpropdecay()](function.fann-get-quickprop-decay.html) - Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop

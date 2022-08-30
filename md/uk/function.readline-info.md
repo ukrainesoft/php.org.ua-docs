@@ -1,8 +1,8 @@
 Встановлює/читає різні внутрішні змінні readline
 
--   [« readline\_completion\_function](function.readline-completion-function.html)
+-   [« readlinecompletionfunction](function.readline-completion-function.html)
     
--   [readline\_list\_history »](function.readline-list-history.html)
+-   [readlinelisthistory »](function.readline-list-history.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Читає вміст файлу та поміщає його в масив
 
--   [« file\_put\_contents](function.file-put-contents.html)
+-   [« fileputcontents](function.file-put-contents.html)
     
 -   [fileatime »](function.fileatime.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Читає вміст файлу та поміщає його в масив
     
@@ -27,7 +27,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 > **Зауваження**
 > 
-> Можна також використовувати функцію [file\_get\_contents()](function.file-get-contents.html) для отримання файлу у вигляді рядка.
+> Можна також використовувати функцію [filegetcontents()](function.file-get-contents.html) для отримання файлу у вигляді рядка.
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 `flags`
 
@@ -45,7 +45,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 **`FILE_USE_INCLUDE_PATH`**
 
-Шукає файл у [include\_path](ini.core.html#ini.include-path)
+Шукає файл у [includepath](ini.core.html#ini.include-path)
 
 **`FILE_IGNORE_NEW_LINES`**
 
@@ -57,7 +57,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 `context`
 
-Ресурс (resource) з [контекстом потока](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.html)
 
 ### Значення, що повертаються
 
@@ -67,11 +67,11 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 > 
 > Кожен рядок в отриманому масиві завершуватиметься символами кінця рядка, якщо тільки не використовується **`FILE_IGNORE_NEW_LINES`**
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [auto\_detect\_line\_endings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**якщо файл не існує.
+Викликає помилку рівня \*\*`E_WARNING`\*\*якщо файл не існує.
 
 ### Приклади
 
@@ -97,14 +97,14 @@ $trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LIN
 
 **Увага**
 
-При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [error\_reporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.html) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
+При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.html) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
 
 ### Дивіться також
 
--   [file\_get\_contents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [filegetcontents()](function.file-get-contents.html) - Читає вміст файлу в рядок
 -   [readfile()](function.readfile.html) - Виводить файл
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
 -   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
 -   [include](function.include.html) - include
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку

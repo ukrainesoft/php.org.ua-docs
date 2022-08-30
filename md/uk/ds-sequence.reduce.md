@@ -1,12 +1,12 @@
 Сплескує колекцію до одного значення використовуючи callback-функцію
 
--   [« Ds\\Sequence::push](ds-sequence.push.html)
+-   [« DsSequence::push](ds-sequence.push.html)
     
--   [Ds\\Sequence::remove »](ds-sequence.remove.html)
+-   [ДсSequence::remove »](ds-sequence.remove.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Сплескує колекцію до одного значення використовуючи callback-функцію
     

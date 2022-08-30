@@ -1,8 +1,8 @@
 Порівнює змінну зі старим значенням і надає їй нове значення
 
--   [« wincache\_ucache\_add](function.wincache-ucache-add.html)
+-   [« wincacheucacheadd](function.wincache-ucache-add.html)
     
--   [wincache\_ucache\_clear »](function.wincache-ucache-clear.html)
+-   [wincacheucacheclear »](function.wincache-ucache-clear.html)
     
 -   [PHP Manual](index.html)
     
@@ -64,5 +64,5 @@ int(1)
 
 ### Дивіться також
 
--   [wincache\_ucache\_inc()](function.wincache-ucache-inc.html) - Збільшує значення, пов'язане з ключем
--   [wincache\_ucache\_dec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем
+-   [wincacheucacheinc()](function.wincache-ucache-inc.html) - Збільшує значення, пов'язане з ключем
+-   [wincacheucachedec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем

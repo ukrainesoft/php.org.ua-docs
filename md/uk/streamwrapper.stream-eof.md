@@ -1,8 +1,8 @@
 Перевіряє досягнення кінця файлу за файловим покажчиком
 
--   [« streamWrapper::stream\_close](streamwrapper.stream-close.html)
+-   [« streamWrapper::streamclose](streamwrapper.stream-close.html)
     
--   [streamWrapper::stream\_flush »](streamwrapper.stream-flush.html)
+-   [streamWrapper::streamflush »](streamwrapper.stream-flush.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,13 +31,13 @@ public streamWrapper::stream_eof(): bool
 
 ### Значення, що повертаються
 
-Повинен повернути **`true`**якщо позиція читання/запису знаходиться в кінці потоку і доступних для читання даних більше немає. В інших випадках повертається **`false`**
+Повинен повернути \*\*`true`\*\*якщо позиція читання/запису знаходиться в кінці потоку і доступних для читання даних більше немає. В інших випадках повертається **`false`**
 
 ### Примітки
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [file\_get\_contents()](function.file-get-contents.html)), PHP буде викликати [streamWrapper::stream\_read()](streamwrapper.stream-read.html) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::stream\_read()](streamwrapper.stream-read.html) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати [streamWrapper::streamread()](streamwrapper.stream-read.html) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::streamread()](streamwrapper.stream-read.html) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
 
 ### Дивіться також
 

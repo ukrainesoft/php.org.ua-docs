@@ -1,8 +1,8 @@
 Прочитати список поштових скриньок, повертаючи докладну інформацію по кожному з них
 
--   [« imap\_getacl](function.imap-getacl.html)
+-   [« imapgetacl](function.imap-getacl.html)
     
--   [imap\_getsubscribed »](function.imap-getsubscribed.html)
+-   [imapgetsubscribed »](function.imap-getsubscribed.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,15 +29,15 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `reference`
 
-`reference` зазвичай має бути лише специфікацією сервера, як описано в [imap\_open()](function.imap-open.html)
+`reference` зазвичай має бути лише специфікацією сервера, як описано в [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
 
@@ -49,7 +49,7 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 Повертає масив об'єктів, що містять інформацію про скриньки. Кожен об'єкт має властивості: `name`, Що містить повне ім'я скриньки; `delimiter`містить роздільник для тієї частини ієрархії, в якій міститься ящик; і `attributes`. Параметр `Attributes` є бітовою маскою, наступних допустимих констант:
 
--   **`LATT_NOINFERIORS`** - цей ящик немає і може мати нащадків (утримувати вкладені ящики). Виклик функції [imap\_createmailbox()](function.imap-createmailbox.html) не працюватиме для цієї скриньки.
+-   **`LATT_NOINFERIORS`** - цей ящик немає і може мати нащадків (утримувати вкладені ящики). Виклик функції [imapcreatemailbox()](function.imap-createmailbox.html) не працюватиме для цієї скриньки.
     
 -   **`LATT_NOSELECT`** - це лише контейнер, а не поштова скринька. Ви не можете його відкрити.
     
@@ -68,9 +68,9 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -99,4 +99,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imap\_getsubscribed()](function.imap-getsubscribed.html) - Список усіх поштових скриньок, на які ви підписані
+-   [imapgetsubscribed()](function.imap-getsubscribed.html) - Список усіх поштових скриньок, на які ви підписані

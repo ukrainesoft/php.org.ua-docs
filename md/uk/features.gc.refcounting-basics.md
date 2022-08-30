@@ -2,7 +2,7 @@
 
 -   [« Сборка мусора](features.gc.html)
     
--   [Сбор циклических ссылок »](features.gc.collecting-cycles.html)
+-   [Збір циклічних посилань »](features.gc.collecting-cycles.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Флаги, используемые в фильтрах](filter.filters.flags.html)
+-   [« Прапори, що використовуються у фільтрах](filter.filters.flags.html)
     
 -   [Примеры »](filter.examples.html)
     

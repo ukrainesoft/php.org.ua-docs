@@ -2,11 +2,11 @@
 
 -   [« extract](function.extract.html)
     
--   [key\_exists »](function.key-exists.html)
+-   [keyexists »](function.key-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Перевіряє, чи є у масиві значення
     
@@ -41,7 +41,7 @@ in_array(mixed $needle, array $haystack, bool $strict = false): bool
 
 `strict`
 
-Якщо третій параметр `strict` встановлений в **`true`**тоді функція **інarray()** також перевірить відповідність [типов](language.types.html) параметра `needle` та відповідного значення масиву `haystack`
+Якщо третій параметр `strict` встановлений в \*\*`true`\*\*тоді функція **інarray()** також перевірить відповідність [типов](language.types.html) параметра `needle` та відповідного значення масиву `haystack`
 
 ### Значення, що повертаються
 
@@ -120,6 +120,6 @@ if (in_array('o', $a)) {
 
 ### Дивіться також
 
--   [array\_search()](function.array-search.html) - Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
+-   [arraysearch()](function.array-search.html) - Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
 -   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [array\_key\_exists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс

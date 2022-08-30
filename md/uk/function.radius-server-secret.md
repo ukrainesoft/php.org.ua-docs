@@ -1,8 +1,8 @@
 Повертає загальний секрет
 
--   [« radius\_send\_request](function.radius-send-request.html)
+-   [« radiussendrequest](function.radius-send-request.html)
     
--   [radius\_strerror »](function.radius-strerror.html)
+-   [radiusstrerror »](function.radius-strerror.html)
     
 -   [PHP Manual](index.html)
     

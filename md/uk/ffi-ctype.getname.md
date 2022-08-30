@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getKind](ffi-ctype.getkind.html)
+-   [« FFICType::getKind](ffi-ctype.getkind.html)
     
--   [FFI\\CType::getPointerType »](ffi-ctype.getpointertype.html)
+-   [FFICType::getPointerType »](ffi-ctype.getpointertype.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

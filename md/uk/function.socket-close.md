@@ -1,8 +1,8 @@
 Закриває екземпляр Socket
 
--   [« socket\_clear\_error](function.socket-clear-error.html)
+-   [« socketclearerror](function.socket-clear-error.html)
     
--   [socket\_cmsg\_space »](function.socket-cmsg-space.html)
+-   [socketcmsgspace »](function.socket-cmsg-space.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_close(Socket $socket): void
 
 `socket`
 
-Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 ### Значення, що повертаються
 
@@ -43,7 +43,7 @@ socket_close(Socket $socket): void
 
 ### Дивіться також
 
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

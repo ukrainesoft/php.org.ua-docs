@@ -2,7 +2,7 @@
 
 -   [« Memcached::cas](memcached.cas.html)
     
--   [Memcached::\_\_construct »](memcached.construct.html)
+-   [Memcached::construct »](memcached.construct.html)
     
 -   [PHP Manual](index.html)
     

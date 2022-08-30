@@ -1,6 +1,6 @@
 Закрити вказівник відкритого gz-файлу
 
--   [« deflate\_init](function.deflate-init.html)
+-   [« deflateinit](function.deflate-init.html)
     
 -   [gzcompress »](function.gzcompress.html)
     

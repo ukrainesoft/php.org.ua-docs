@@ -1,12 +1,12 @@
 Перевіряє всі з'єднання на сервері
 
--   [« Swoole\\Server::getLastError](swoole-server.getlasterror.html)
+-   [« SwooleServer::getLastError](swoole-server.getlasterror.html)
     
--   [Swoole\\Server::listen »](swoole-server.listen.html)
+-   [SwooleServer::listen »](swoole-server.listen.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Перевіряє всі з'єднання на сервері
     

@@ -1,8 +1,8 @@
 Повертає тип даних поля
 
--   [« odbc\_field\_scale](function.odbc-field-scale.html)
+-   [« odbcfieldscale](function.odbc-field-scale.html)
     
--   [odbc\_foreignkeys »](function.odbc-foreignkeys.html)
+-   [odbcforeignkeys »](function.odbc-foreignkeys.html)
     
 -   [PHP Manual](index.html)
     

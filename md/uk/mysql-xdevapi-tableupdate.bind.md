@@ -1,12 +1,12 @@
 Прив'язує параметри запиту на оновлення
 
--   [« mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+-   [« mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
     
--   [TableUpdate::\_\_construct »](mysql-xdevapi-tableupdate.construct.html)
+-   [TableUpdate::construct »](mysql-xdevapi-tableupdate.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+-   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
     
 -   Прив'язує параметри запиту на оновлення
     

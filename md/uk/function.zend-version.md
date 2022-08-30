@@ -1,12 +1,12 @@
 Отримує версію двигуна Zend
 
--   [« zend\_thread\_id](function.zend-thread-id.html)
+-   [« zendthreadід](function.zend-thread-id.html)
     
 -   [phpdbg »](book.phpdbg.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримує версію двигуна Zend
     

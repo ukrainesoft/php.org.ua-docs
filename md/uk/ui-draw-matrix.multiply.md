@@ -1,12 +1,12 @@
 Помножити матрицю
 
--   [« UI\\Draw\\Matrix::isInvertible](ui-draw-matrix.isinvertible.html)
+-   [« UIDrawMatrix::isInvertible](ui-draw-matrix.isinvertible.html)
     
--   [UI\\Draw\\Matrix::rotate »](ui-draw-matrix.rotate.html)
+-   [ОЙDrawMatrix::rotate »](ui-draw-matrix.rotate.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Помножити матрицю
     

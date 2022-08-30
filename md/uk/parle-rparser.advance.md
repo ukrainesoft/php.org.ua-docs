@@ -1,12 +1,12 @@
 Обробка наступного правила парсера
 
--   [« Parle\\RParser](class.parle-rparser.html)
+-   [« ParleRParser](class.parle-rparser.html)
     
--   [Parle\\RParser::build »](parle-rparser.build.html)
+-   [ParleRParser::build »](parle-rparser.build.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RParser](class.parle-rparser.html)
+-   [ParleRParser](class.parle-rparser.html)
     
 -   Обробка наступного правила парсера
     

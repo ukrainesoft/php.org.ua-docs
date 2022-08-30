@@ -31,10 +31,10 @@ public static SeasLog::getRequestVariable(int $key): bool
 
 Цілочисленна константа:
 
--   [SEASLOG\_REQUEST\_VARIABLE\_DOMAIN\_PORT](seaslog.constants.html#constant.seaslog-request-variable-domain-port)
--   [SEASLOG\_REQUEST\_VARIABLE\_REQUEST\_URI](seaslog.constants.html#constant.seaslog-request-variable-request-uri)
--   [SEASLOG\_REQUEST\_VARIABLE\_REQUEST\_METHOD](seaslog.constants.html#constant.seaslog-request-variable-request-method)
--   [SEASLOG\_REQUEST\_VARIABLE\_CLIENT\_IP](seaslog.constants.html#constant.seaslog-request-variable-client-ip)
+-   [SEASLOGREQUESTVARIABLEDOMAINPORT](seaslog.constants.html#constant.seaslog-request-variable-domain-port)
+-   [SEASLOGREQUESTVARIABLEREQUESTURI](seaslog.constants.html#constant.seaslog-request-variable-request-uri)
+-   [SEASLOGREQUESTVARIABLEREQUESTMETHOD](seaslog.constants.html#constant.seaslog-request-variable-request-method)
+-   [SEASLOGREQUESTVARIABLECLIENTІП](seaslog.constants.html#constant.seaslog-request-variable-client-ip)
 
 ### Значення, що повертаються
 

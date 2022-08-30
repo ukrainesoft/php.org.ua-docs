@@ -2,7 +2,7 @@
 
 -   [« EventBufferEvent::connect](eventbufferevent.connect.html)
     
--   [EventBufferEvent::\_\_construct »](eventbufferevent.construct.html)
+-   [EventBufferEvent::construct »](eventbufferevent.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public
 
 Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (Константи `EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити, викликає callback-функцію події з подією помилки. У разі успішного виконання робить спробу підключення так само, як [EventBufferEvent::connect()](eventbufferevent.connect.html)
 
-Параметр `dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::\_\_construct()](eventdnsbase.construct.html). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
+Параметр `dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::construct()](eventdnsbase.construct.html). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
 
 > **Зауваження**
 > 

@@ -1,12 +1,12 @@
 Призначення current
 
--   [« Yaf\_Config\_Simple::count](yaf-config-simple.count.html)
+-   [« YafConfigSimple::count](yaf-config-simple.count.html)
     
--   [Yaf\_Config\_Simple::\_\_get »](yaf-config-simple.get.html)
+-   [YafConfigSimple::get »](yaf-config-simple.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+-   [YafConfigSimple](class.yaf-config-simple.html)
     
 -   Призначення current
     

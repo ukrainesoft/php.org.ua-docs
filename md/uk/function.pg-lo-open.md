@@ -1,8 +1,8 @@
 Відкриває великий об'єкт бази даних
 
--   [« pg\_lo\_import](function.pg-lo-import.html)
+-   [« pgлоimport](function.pg-lo-import.html)
     
--   [pg\_lo\_read\_all »](function.pg-lo-read-all.html)
+-   [пглоreadall »](function.pg-lo-read-all.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,11 +23,11 @@
 pg_lo_open(PgSql\Connection $connection, int $oid, string $mode): PgSql\Lob|false
 ```
 
-**пглоopen()** відкриває великий об'єкт бази даних та повертає екземпляр [PgSql\\Lob](class.pgsql-lob.html)
+**пглоopen()** відкриває великий об'єкт бази даних та повертає екземпляр [PgSqlLob](class.pgsql-lob.html)
 
 **Увага**
 
-Не слід закривати з'єднання з базою даних до завершення роботи з екземпляром [PgSql\\Lob](class.pgsql-lob.html)
+Не слід закривати з'єднання з базою даних до завершення роботи з екземпляром [PgSqlLob](class.pgsql-lob.html)
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
@@ -39,7 +39,7 @@ pg_lo_open(PgSql\Connection $connection, int $oid, string $mode): PgSql\Lob|fals
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -55,14 +55,14 @@ OID великий об'єкт у базі даних.
 
 ### Значення, що повертаються
 
-Екземпляр [PgSql\\Lob](class.pgsql-lob.html) або **`false`** у разі виникнення помилки.
+Екземпляр [PgSqlLob](class.pgsql-lob.html) або **`false`** у разі виникнення помилки.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.html)                                        |
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.html)                                        |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -84,5 +84,5 @@ OID великий об'єкт у базі даних.
 
 ### Дивіться також
 
--   [pg\_lo\_close()](function.pg-lo-close.html) - Закриває великий об'єкт
--   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [пглоclose()](function.pg-lo-close.html) - Закриває великий об'єкт
+-   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт

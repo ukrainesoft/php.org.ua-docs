@@ -1,8 +1,8 @@
 Очищення параметрів масштабування
 
--   [« fann\_cascadetrain\_on\_file](function.fann-cascadetrain-on-file.html)
+-   [« fanncascadetrainвінfile](function.fann-cascadetrain-on-file.html)
     
--   [fann\_copy »](function.fann-copy.html)
+-   [fanncopy »](function.fann-copy.html)
     
 -   [PHP Manual](index.html)
     

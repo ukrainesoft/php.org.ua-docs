@@ -1,6 +1,6 @@
 Зберігає результат запиту на зображення
 
--   [« RRDGraph::\_\_construct](rrdgraph.construct.html)
+-   [« RRDGraph::construct](rrdgraph.construct.html)
     
 -   [RRDGraph::saveVerbose »](rrdgraph.saveverbose.html)
     
@@ -23,7 +23,7 @@ RRDGraph::save — Зберігає результат запиту на зоб�
 public RRDGraph::save(): array
 ```
 
-Зберігає результат запиту до бази даних RRD у зображення, визначене методом [RRDGraph::\_\_construct()](rrdgraph.construct.html)
+Зберігає результат запиту до бази даних RRD у зображення, визначене методом [RRDGraph::construct()](rrdgraph.construct.html)
 
 ### Список параметрів
 

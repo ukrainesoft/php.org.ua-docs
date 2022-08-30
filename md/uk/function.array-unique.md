@@ -1,12 +1,12 @@
 Прибирає значення, що повторюються, з масиву
 
--   [« array\_uintersect](function.array-uintersect.html)
+-   [« arrayuintersect](function.array-uintersect.html)
     
--   [array\_unshift »](function.array-unshift.html)
+-   [arrayunshift »](function.array-unshift.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Прибирає значення, що повторюються, з масиву
     
@@ -104,4 +104,4 @@ array(2) {
 
 ### Дивіться також
 
--   [array\_count\_values()](function.array-count-values.html) - підраховує кількість усіх значень масиву
+-   [arraycountvalues()](function.array-count-values.html) - підраховує кількість усіх значень масиву

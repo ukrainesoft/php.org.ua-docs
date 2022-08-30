@@ -2,7 +2,7 @@
 
 -   [« ReflectionMethod::isStatic](reflectionmethod.isstatic.html)
     
--   [ReflectionMethod::\_\_toString »](reflectionmethod.tostring.html)
+-   [ReflectionMethod::toString »](reflectionmethod.tostring.html)
     
 -   [PHP Manual](index.html)
     

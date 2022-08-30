@@ -1,8 +1,8 @@
 Розібрати файл
 
--   [« mailparse\_msg\_get\_structure](function.mailparse-msg-get-structure.html)
+-   [« mailparsemsggetstructure](function.mailparse-msg-get-structure.html)
     
--   [mailparse\_msg\_parse »](function.mailparse-msg-parse.html)
+-   [mailparsemsgparse »](function.mailparse-msg-parse.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,9 +43,9 @@ mailparse_msg_parse_file(string $filename): resource
 
 > **Зауваження**
 > 
-> Рекомендується викликати [mailparse\_msg\_free()](function.mailparse-msg-free.html) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
+> Рекомендується викликати [mailparsemsgfree()](function.mailparse-msg-free.html) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
 
 ### Дивіться також
 
--   [mailparse\_msg\_free()](function.mailparse-msg-free.html) - Вивільнити MIME-ресурс
--   [mailparse\_msg\_create()](function.mailparse-msg-create.html) - Створює поштовий MIME-ресурс
+-   [mailparsemsgfree()](function.mailparse-msg-free.html) - Вивільнити MIME-ресурс
+-   [mailparsemsgcreate()](function.mailparse-msg-create.html) - Створює поштовий MIME-ресурс

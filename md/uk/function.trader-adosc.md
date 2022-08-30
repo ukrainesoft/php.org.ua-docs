@@ -1,8 +1,8 @@
 Осцилятор Чайкіна
 
--   [« trader\_add](function.trader-add.html)
+-   [« traderadd](function.trader-add.html)
     
--   [trader\_adx »](function.trader-adx.html)
+-   [traderadx »](function.trader-adx.html)
     
 -   [PHP Manual](index.html)
     

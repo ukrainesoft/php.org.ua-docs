@@ -30,25 +30,25 @@ PHP не вимагає явного визначення типу при ого
 
 ### Числовий контекст
 
-Контекст під час використання [арифметического оператора](language.operators.arithmetic.html)
+Контекст під час використання [арифметичного оператора](language.operators.arithmetic.html)
 
 У даному контексті, якщо один з операндів є числом з плаваючою точкою (float) (або не інтерпретується як ціле число (int)), обидва операнди інтерпретуються як число з плаваючою точкою (float) і результатом буде число з плаваючою точкою (float). В іншому випадку операнди будуть інтерпретовані як ціле число (int) і результатом також буде ціле число (int). Починаючи з PHP 8.0.0, якщо один із операндів не може бути інтерпретований, викидається помилка [TypeError](class.typeerror.html)
 
 ### Рядковий контекст
 
-Контекст під час використання функцій [echo](function.echo.html) [print](function.print.html) [интерполяции строк](language.types.string.html#language.types.string.parsing) або рядкового [оператора конкатенации](language.operators.string.html)
+Контекст під час використання функцій [echo](function.echo.html) [print](function.print.html) [інтерполяції рядків](language.types.string.html#language.types.string.parsing) або рядкового [оператора конкатенации](language.operators.string.html)
 
 У цьому контексті значення інтерпретуватиметься як рядок (string).
 
 ### Логічний контекст
 
-Контекст під час використання умовних операторів, [тернарного оператора](language.operators.comparison.html#language.operators.comparison.ternary) або [логического оператора](language.operators.logical.html)
+Контекст під час використання умовних операторів, [тернарного оператора](language.operators.comparison.html#language.operators.comparison.ternary) або [логічного оператора](language.operators.logical.html)
 
 У цьому контексті значення інтерпретуватиметься як логічне значення (bool).
 
 ### Контекст цілих чисел та рядків
 
-Контекст під час використання [побитовых операторов](language.operators.bitwise.html)
+Контекст під час використання [побітових операторів](language.operators.bitwise.html)
 
 У цьому контексті, якщо у всіх операндів тип рядка (string), результат також буде рядком (string). В іншому випадку операнди будуть інтерпретовані як ціле число (int) і результат також буде цілим числом (int). Починаючи з PHP 8.0.0, якщо один із операндів не може бути інтерпретований, то буде викинута помилка [TypeError](class.typeerror.html)
 
@@ -70,7 +70,7 @@ PHP не вимагає явного визначення типу при ого
 
 **Увага**
 
-[Внутренние функции](functions.internal.html) автоматично підставляють **`null`** до скалярних типів, це поведінка *ЗАСТАРІЛО* у PHP 8.1.0.
+[Внутрішні функції](functions.internal.html) автоматично підставляють **`null`** до скалярних типів, це поведінка *ЗАСТАРІЛО* у PHP 8.1.0.
 
 ### Приведення типів
 
@@ -146,7 +146,7 @@ $binary = b"binary string";
 
 Можливо, очевидно, що саме відбудеться при перетворенні між певними типами. Для отримання додаткової інформації дивіться ці розділи:
 
--   [Преобразование типа к логическому значению (boolean)](language.types.boolean.html#language.types.boolean.casting)
+-   [Перетворення типу до логічного значення (boolean)](language.types.boolean.html#language.types.boolean.casting)
 -   [Преобразование типа к целому числу (integer)](language.types.integer.html#language.types.integer.casting)
 -   [Преобразование типа к числу с плавающей точкой (float)](language.types.float.html#language.types.float.casting)
 -   [Преобразование типа к строке (string)](language.types.string.html#language.types.string.casting)

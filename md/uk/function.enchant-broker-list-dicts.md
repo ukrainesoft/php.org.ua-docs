@@ -1,8 +1,8 @@
 Повертає список доступних словників
 
--   [« enchant\_broker\_init](function.enchant-broker-init.html)
+-   [« enchantbrokerinit](function.enchant-broker-init.html)
     
--   [enchant\_broker\_request\_dict »](function.enchant-broker-request-dict.html)
+-   [enchantbrokerrequestdict »](function.enchant-broker-request-dict.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_list_dicts(EnchantBroker $broker): array
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 
@@ -112,4 +112,4 @@ Array
 
 ### Дивіться також
 
--   [enchant\_broker\_describe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant
+-   [enchantbrokerdescribe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant

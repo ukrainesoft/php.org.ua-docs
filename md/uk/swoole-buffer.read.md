@@ -1,12 +1,12 @@
 Читає дані з буфера пам'яті на основі усунення та довжини
 
--   [« Swoole\\Buffer::expand](swoole-buffer.expand.html)
+-   [« SwooleBuffer::expand](swoole-buffer.expand.html)
     
--   [Swoole\\Buffer::recycle »](swoole-buffer.recycle.html)
+-   [SwooleBuffer::recycle »](swoole-buffer.recycle.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Читає дані з буфера пам'яті на основі усунення та довжини
     

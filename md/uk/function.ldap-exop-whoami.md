@@ -1,12 +1,12 @@
 Обертка для розширеної операції WHOAMI
 
--   [« ldap\_exop\_refresh](function.ldap-exop-refresh.html)
+-   [« ldapexoprefresh](function.ldap-exop-refresh.html)
     
--   [ldap\_exop »](function.ldap-exop.html)
+-   [ldapexop »](function.ldap-exop.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Обертка для розширеної операції WHOAMI
     
@@ -29,7 +29,7 @@ ldap_exop_whoami(LDAP\Connection $ldap): string|false
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,10 +37,10 @@ ldap_exop_whoami(LDAP\Connection $ldap): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [ldap\_exop()](function.ldap-exop.html) - Виконує розширену операцію
+-   [ldapexop()](function.ldap-exop.html) - Виконує розширену операцію

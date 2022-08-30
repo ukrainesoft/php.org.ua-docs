@@ -1,12 +1,12 @@
 Отримання відбитка віддаленого сервера
 
--   [« ssh2\_fetch\_stream](function.ssh2-fetch-stream.html)
+-   [« ssh2fetchstream](function.ssh2-fetch-stream.html)
     
--   [ssh2\_forward\_accept »](function.ssh2-forward-accept.html)
+-   [ssh2forwardaccept »](function.ssh2-forward-accept.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Отримання відбитка віддаленого сервера
     
@@ -29,7 +29,7 @@ ssh2_fingerprint(resource $session, int $flags = SSH2_FINGERPRINT_MD5 | SSH2_FIN
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `flags`
 

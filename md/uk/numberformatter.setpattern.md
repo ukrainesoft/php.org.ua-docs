@@ -88,6 +88,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmt\_create()](numberformatter.create.html) - Створює засіб форматування чисел
--   [numfmt\_get\_pattern()](numberformatter.getpattern.html) - Отримує шаблон засобу форматування
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtcreate()](numberformatter.create.html) - Створює засіб форматування чисел
+-   [numfmtgetpattern()](numberformatter.getpattern.html) - Отримує шаблон засобу форматування

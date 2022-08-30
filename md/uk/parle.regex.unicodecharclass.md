@@ -1,6 +1,6 @@
 Класи символів Unicode
 
--   [« Классы символов](parle.regex.charclass.html)
+-   [« Класи символів](parle.regex.charclass.html)
     
 -   [Чередование и повторение »](parle.regex.alternation.html)
     

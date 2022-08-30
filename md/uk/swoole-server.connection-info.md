@@ -1,12 +1,12 @@
 Отримує інформацію про з'єднання з описом файлу
 
--   [« Swoole\\Server::confirm](swoole-server.confirm.html)
+-   [« SwooleServer::confirm](swoole-server.confirm.html)
     
--   [Swoole\\Server::connection\_list »](swoole-server.connection-list.html)
+-   [SwooleServer::connectionlist »](swoole-server.connection-list.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Отримує інформацію про з'єднання з описом файлу
     

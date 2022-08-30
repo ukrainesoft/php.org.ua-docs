@@ -1,12 +1,12 @@
 Видаляє всі значення з двосторонньої черги
 
--   [« Ds\\Deque::capacity](ds-deque.capacity.html)
+-   [« DsDeque::capacity](ds-deque.capacity.html)
     
--   [Ds\\Deque::\_\_construct »](ds-deque.construct.html)
+-   [ДсDeque::construct »](ds-deque.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Видаляє всі значення з двосторонньої черги
     

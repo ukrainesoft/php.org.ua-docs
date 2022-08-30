@@ -1,8 +1,8 @@
 Об'єднує секретний ключ та відкритий ключ разом
 
--   [« sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
+-   [« sodiumcryptosigned25519сктоcurve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
     
--   [sodium\_crypto\_sign\_keypair »](function.sodium-crypto-sign-keypair.html)
+-   [sodiumcryptosignkeypair »](function.sodium-crypto-sign-keypair.html)
     
 -   [PHP Manual](index.html)
     

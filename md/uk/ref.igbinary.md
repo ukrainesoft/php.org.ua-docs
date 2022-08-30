@@ -2,7 +2,7 @@
 
 -   [« Настройка во время выполнения](igbinary.configuration.html)
     
--   [igbinary\_serialize »](function.igbinary-serialize.html)
+-   [igbinaryserialize »](function.igbinary-serialize.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [igbinary\_serialize](function.igbinary-serialize.html) — Створює компактне, двійкове уявлення, що зберігається.
--   [igbinary\_unserialize](function.igbinary-unserialize.html) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize
+-   [igbinaryserialize](function.igbinary-serialize.html) — Створює компактне, двійкове уявлення, що зберігається.
+-   [igbinaryunserialize](function.igbinary-unserialize.html) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize

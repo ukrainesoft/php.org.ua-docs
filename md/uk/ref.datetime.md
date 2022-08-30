@@ -16,33 +16,33 @@
 ## Зміст
 
 -   [checkdate](function.checkdate.html) — Перевіряє коректність дати за григоріанським календарем
--   [date\_add](function.date-add.html) - Псевдонім DateTime::add
--   [date\_create\_from\_format](function.date-create-from-format.html) - Псевдонім DateTime::createFromFormat
--   [date\_create\_immutable\_from\_format](function.date-create-immutable-from-format.html) - Псевдонім DateTimeImmutable::createFromFormat
--   [date\_create\_immutable](function.date-create-immutable.html) - Псевдонім DateTimeImmutable::construct
--   [date\_create](function.date-create.html) — Створює новий об'єкт DateTime
--   [date\_date\_set](function.date-date-set.html) - Псевдонім DateTime::setDate
--   [date\_default\_timezone\_get](function.date-default-timezone-get.html) — Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
--   [date\_default\_timezone\_set](function.date-default-timezone-set.html) — Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
--   [date\_diff](function.date-diff.html) - Псевдонім DateTime::diff
--   [date\_format](function.date-format.html) - Псевдонім DateTime::format
--   [date\_get\_last\_errors](function.date-get-last-errors.html) - Псевдонім DateTime::getLastErrors
--   [date\_interval\_create\_from\_date\_string](function.date-interval-create-from-date-string.html) - Псевдонім DateInterval::createFromDateString
--   [date\_interval\_format](function.date-interval-format.html) - Псевдонім DateInterval::format
--   [date\_isodate\_set](function.date-isodate-set.html) - Псевдонім DateTime::setISODate
--   [date\_modify](function.date-modify.html) - Псевдонім DateTime::modify
--   [date\_offset\_get](function.date-offset-get.html) - Псевдонім DateTime::getOffset
--   [date\_parse\_from\_format](function.date-parse-from-format.html) — Отримання інформації про задану у визначеному форматі дату
--   [date\_parse](function.date-parse.html) — Повертає асоціативний масив із детальною інформацією про задану дату/час.
--   [date\_sub](function.date-sub.html) - Псевдонім DateTime::sub
--   [date\_sun\_info](function.date-sun-info.html) — Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
--   [date\_sunrise](function.date-sunrise.html) — Повертає час світанку для заданого дня та місця розташування
--   [date\_sunset](function.date-sunset.html) — Повертає час заходу сонця для заданого дня та місця розташування
--   [date\_time\_set](function.date-time-set.html) - Псевдонім DateTime::setTime
--   [date\_timestamp\_get](function.date-timestamp-get.html) - Псевдонім DateTime::getTimestamp
--   [date\_timestamp\_set](function.date-timestamp-set.html) - Псевдонім DateTime::setTimestamp
--   [date\_timezone\_get](function.date-timezone-get.html) - Псевдонім DateTime::getTimezone
--   [date\_timezone\_set](function.date-timezone-set.html) - Псевдонім DateTime::setTimezone
+-   [dateadd](function.date-add.html) - Псевдонім DateTime::add
+-   [datecreatefromformat](function.date-create-from-format.html) - Псевдонім DateTime::createFromFormat
+-   [datecreateimmutablefromformat](function.date-create-immutable-from-format.html) - Псевдонім DateTimeImmutable::createFromFormat
+-   [datecreateimmutable](function.date-create-immutable.html) - Псевдонім DateTimeImmutable::construct
+-   [datecreate](function.date-create.html) — Створює новий об'єкт DateTime
+-   [datedateset](function.date-date-set.html) - Псевдонім DateTime::setDate
+-   [datedefaulttimezoneget](function.date-default-timezone-get.html) — Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
+-   [datedefaulttimezoneset](function.date-default-timezone-set.html) — Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
+-   [datediff](function.date-diff.html) - Псевдонім DateTime::diff
+-   [dateformat](function.date-format.html) - Псевдонім DateTime::format
+-   [dategetlasterrors](function.date-get-last-errors.html) - Псевдонім DateTime::getLastErrors
+-   [dateintervalcreatefromdatestring](function.date-interval-create-from-date-string.html) - Псевдонім DateInterval::createFromDateString
+-   [dateintervalformat](function.date-interval-format.html) - Псевдонім DateInterval::format
+-   [dateisodateset](function.date-isodate-set.html) - Псевдонім DateTime::setISODate
+-   [datemodify](function.date-modify.html) - Псевдонім DateTime::modify
+-   [dateoffsetget](function.date-offset-get.html) - Псевдонім DateTime::getOffset
+-   [dateparsefromformat](function.date-parse-from-format.html) — Отримання інформації про задану у визначеному форматі дату
+-   [dateparse](function.date-parse.html) — Повертає асоціативний масив із детальною інформацією про задану дату/час.
+-   [datesub](function.date-sub.html) - Псевдонім DateTime::sub
+-   [datesuninfo](function.date-sun-info.html) — Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
+-   [datesunrise](function.date-sunrise.html) — Повертає час світанку для заданого дня та місця розташування
+-   [datesunset](function.date-sunset.html) — Повертає час заходу сонця для заданого дня та місця розташування
+-   [datetimeset](function.date-time-set.html) - Псевдонім DateTime::setTime
+-   [datetimestampget](function.date-timestamp-get.html) - Псевдонім DateTime::getTimestamp
+-   [datetimestampset](function.date-timestamp-set.html) - Псевдонім DateTime::setTimestamp
+-   [datetimezoneget](function.date-timezone-get.html) - Псевдонім DateTime::getTimezone
+-   [datetimezoneset](function.date-timezone-set.html) - Псевдонім DateTime::setTimezone
 -   [date](function.date.html) — Форматує тимчасову мітку Unix
 -   [getdate](function.getdate.html) — Повертає інформацію про дату/час
 -   [gettimeofday](function.gettimeofday.html) — Повертає поточний час
@@ -57,12 +57,12 @@
 -   [strptime](function.strptime.html) — Розбирає рядок дати/часу, згенерований функцією strftime
 -   [strtotime](function.strtotime.html) — Перетворює текстове подання дати англійською мовою на позначку часу Unix
 -   [time](function.time.html) — Повертає поточну позначку системного часу Unix
--   [timezone\_abbreviations\_list](function.timezone-abbreviations-list.html) - Псевдонім DateTimeZone::listAbbreviations
--   [timezone\_identifiers\_list](function.timezone-identifiers-list.html) - Псевдонім DateTimeZone::listIdentifiers
--   [timezone\_location\_get](function.timezone-location-get.html) - Псевдонім DateTimeZone::getLocation
--   [timezone\_name\_from\_abbr](function.timezone-name-from-abbr.html) — Повертає часовий пояс відповідно до абревіатури.
--   [timezone\_name\_get](function.timezone-name-get.html) - Псевдонім DateTimeZone::getName
--   [timezone\_offset\_get](function.timezone-offset-get.html) - Псевдонім DateTimeZone::getOffset
--   [timezone\_open](function.timezone-open.html) - Псевдонім DateTimeZone::construct
--   [timezone\_transitions\_get](function.timezone-transitions-get.html) - Псевдонім DateTimeZone::getTransitions
--   [timezone\_version\_get](function.timezone-version-get.html) — Отримання номера версії бази даних часових поясів
+-   [timezoneabbreviationslist](function.timezone-abbreviations-list.html) - Псевдонім DateTimeZone::listAbbreviations
+-   [timezoneidentifierslist](function.timezone-identifiers-list.html) - Псевдонім DateTimeZone::listIdentifiers
+-   [timezonelocationget](function.timezone-location-get.html) - Псевдонім DateTimeZone::getLocation
+-   [timezonenamefromabbr](function.timezone-name-from-abbr.html) — Повертає часовий пояс відповідно до абревіатури.
+-   [timezonenameget](function.timezone-name-get.html) - Псевдонім DateTimeZone::getName
+-   [timezoneoffsetget](function.timezone-offset-get.html) - Псевдонім DateTimeZone::getOffset
+-   [timezoneopen](function.timezone-open.html) - Псевдонім DateTimeZone::construct
+-   [timezonetransitionsget](function.timezone-transitions-get.html) - Псевдонім DateTimeZone::getTransitions
+-   [timezoneversionget](function.timezone-version-get.html) — Отримання номера версії бази даних часових поясів

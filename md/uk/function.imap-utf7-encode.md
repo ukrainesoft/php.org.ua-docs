@@ -1,8 +1,8 @@
 Перетворює рядок ISO-8859-1 на модифікований UTF-7
 
--   [« imap\_utf7\_decode](function.imap-utf7-decode.html)
+-   [« imaputf7decode](function.imap-utf7-decode.html)
     
--   [imap\_utf8\_to\_mutf7 »](function.imap-utf8-to-mutf7.html)
+-   [imaputf8тоmutf7 »](function.imap-utf8-to-mutf7.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,4 +39,4 @@ imap_utf7_encode(string $string): string
 
 ### Дивіться також
 
--   [imap\_utf7\_decode()](function.imap-utf7-decode.html) - Декодує рядок із модифікованого кодування UTF-7
+-   [imaputf7decode()](function.imap-utf7-decode.html) - Декодує рядок із модифікованого кодування UTF-7

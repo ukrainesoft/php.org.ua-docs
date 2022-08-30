@@ -1,8 +1,8 @@
 Повертає кількість рядків, на які вплинув попередній запит
 
--   [« ibase\_add\_user](function.ibase-add-user.html)
+-   [« ibaseadduser](function.ibase-add-user.html)
     
--   [ibase\_backup »](function.ibase-backup.html)
+-   [ibasebackup »](function.ibase-backup.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,5 +37,5 @@ ibase_affected_rows(resource $link_identifier = ?): int
 
 ### Дивіться також
 
--   [ibase\_query()](function.ibase-query.html) - Виконує запит до бази даних InterBase
--   [ibase\_execute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит
+-   [ibasequery()](function.ibase-query.html) - Виконує запит до бази даних InterBase
+-   [ibaseexecute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит

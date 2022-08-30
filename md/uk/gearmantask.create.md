@@ -1,6 +1,6 @@
 Створює завдання (застарілий метод)
 
--   [« GearmanTask::\_\_construct](gearmantask.construct.html)
+-   [« GearmanTask::construct](gearmantask.construct.html)
     
 -   [GearmanTask::data »](gearmantask.data.html)
     

@@ -1,8 +1,8 @@
 Клас GMP
 
--   [« gmp\_xor](function.gmp-xor.html)
+-   [« gmpxor](function.gmp-xor.html)
     
--   [GMP::\_\_serialize »](gmp.serialize.html)
+-   [GMP::serialize »](gmp.serialize.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,7 +21,7 @@
 
 > **Зауваження**
 > 
-> Об'єктно-орієнтований інтерфейс для маніпуляцій з об'єктами **GMP** Відсутнє. Використовуйте [процедурный GMP API](book.gmp.html)
+> Об'єктно-орієнтований інтерфейс для маніпуляцій з об'єктами **GMP** Відсутнє. Використовуйте [процедурний GMP API](book.gmp.html)
 
 ```classsynopsis
 
@@ -44,5 +44,5 @@ public __unserialize(array $data): void
 
 ## Зміст
 
--   [GMP::\_\_serialize](gmp.serialize.html) - Серіалізує об'єкт GMP
--   [GMP::\_\_unserialize](gmp.unserialize.html) — Десеріалізує параметр data в об'єкті GMP
+-   [GMP::serialize](gmp.serialize.html) - Серіалізує об'єкт GMP
+-   [GMP::unserialize](gmp.unserialize.html) — Десеріалізує параметр data в об'єкті GMP

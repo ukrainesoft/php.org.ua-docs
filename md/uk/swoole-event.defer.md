@@ -1,12 +1,12 @@
 Додає callback-функцію у наступний цикл подій
 
--   [« Swoole\\Event::add](swoole-event.add.html)
+-   [« SwooleEvent::add](swoole-event.add.html)
     
--   [Swoole\\Event::del »](swoole-event.del.html)
+-   [SwooleEvent::del »](swoole-event.del.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Додає callback-функцію у наступний цикл подій
     

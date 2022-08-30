@@ -1,12 +1,12 @@
 Керування кольором
 
--   [« UI\\Draw\\Color::getChannel](ui-draw-color.getchannel.html)
+-   [« UIDrawColor::getChannel](ui-draw-color.getchannel.html)
     
--   [UI\\Draw\\Stroke »](class.ui-draw-stroke.html)
+-   [ОЙDrawStroke »](class.ui-draw-stroke.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Color](class.ui-draw-color.html)
+-   [ОЙDrawColor](class.ui-draw-color.html)
     
 -   Керування кольором
     

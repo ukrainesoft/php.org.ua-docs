@@ -1,8 +1,8 @@
 Встановлює кодування символів FDF
 
--   [« fdf\_set\_ap](function.fdf-set-ap.html)
+-   [« fdfsetап](function.fdf-set-ap.html)
     
--   [fdf\_set\_file »](function.fdf-set-file.html)
+-   [fdfsetfile »](function.fdf-set-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_encoding(resource $fdf_document, string $encoding): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `encoding`
 

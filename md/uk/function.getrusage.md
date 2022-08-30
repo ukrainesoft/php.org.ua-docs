@@ -2,11 +2,11 @@
 
 -   [« getopt](function.getopt.html)
     
--   [ini\_alter »](function.ini-alter.html)
+-   [inialter »](function.ini-alter.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримує інформацію про використання поточного ресурсу
     

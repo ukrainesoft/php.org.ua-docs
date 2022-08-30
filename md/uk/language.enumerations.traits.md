@@ -2,7 +2,7 @@
 
 -   [« Константы перечислений](language.enumerations.constants.html)
     
--   [Значения перечисления в постоянных выражениях »](language.enumerations.expressions.html)
+-   [Значення перерахування у постійних виразах »](language.enumerations.expressions.html)
     
 -   [PHP Manual](index.html)
     

@@ -15,14 +15,14 @@
 
 Цей розділ містить спільні питання зв'язку між PHP і базами даних. Так, сьогодні практично будь-яка база даних може бути доступна з PHP.
 
-1.  [Я слышал, что можно получить доступ к Microsoft SQL серверу из PHP. Как?](#faq.databases.mssql)
-2.  [Могу ли я получить доступ к базам данных Microsoft Access?](#faq.databases.access)
+1.  [Я чув, що можна отримати доступ до Microsoft SQL сервера з PHP. Як?](#faq.databases.mssql)
+2.  [Чи можу я отримати доступ до баз даних Microsoft Access?](#faq.databases.access)
 
 **Я чув, що можна отримати доступ до Microsoft SQL сервер з PHP. Як?**
 
-На Unix ви можете використовувати [PDO\_ODBC](ref.pdo-odbc.html) або [Унифицированное ODBC API](book.uodbc.html)
+На Unix ви можете використовувати [PDOODBC](ref.pdo-odbc.html) або [Уніфіковане ODBC API](book.uodbc.html)
 
-На Windows можна використовувати [PDO\_SQLSRV](ref.pdo-sqlsrv.html) або [SQLSRV](book.sqlsrv.html)
+На Windows можна використовувати [PDOSQLSRV](ref.pdo-sqlsrv.html) або [SQLSRV](book.sqlsrv.html)
 
 Також дивіться відповідь на запитання.
 

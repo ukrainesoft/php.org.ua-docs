@@ -1,8 +1,8 @@
 Повертає тип виразу
 
--   [« oci\_set\_prefetch](function.oci-set-prefetch.html)
+-   [« ocisetprefetch](function.oci-set-prefetch.html)
     
--   [oci\_unregister\_taf\_callback »](function.oci-unregister-taf-callback.html)
+-   [ociunregistertafcallback »](function.oci-unregister-taf-callback.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ oci_statement_type(resource $statement): string|false
 
 `statement`
 
-Допустимий ідентифікатор оператора OCI8, який повертається [oci\_parse()](function.oci-parse.html)
+Допустимий ідентифікатор оператора OCI8, який повертається [ociparse()](function.oci-parse.html)
 
 ### Значення, що повертаються
 

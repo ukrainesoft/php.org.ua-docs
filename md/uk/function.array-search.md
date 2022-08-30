@@ -1,12 +1,12 @@
 Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
 
--   [« array\_reverse](function.array-reverse.html)
+-   [« arrayreverse](function.array-reverse.html)
     
--   [array\_shift »](function.array-shift.html)
+-   [arrayshift »](function.array-shift.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
     
@@ -47,11 +47,11 @@ array_search(mixed $needle, array $haystack, bool $strict = false): int|string|f
 
 Повертає ключ для `needle`якщо він був знайдений у масиві, інакше **`false`**
 
-Якщо `needle` присутній у `haystack` більше одного разу буде повернено перший знайдений ключ. Для повернення ключів для всіх знайдених значень використовуйте функцію [array\_keys()](function.array-keys.html) з необов'язковим параметром `search_value`
+Якщо `needle` присутній у `haystack` більше одного разу буде повернено перший знайдений ключ. Для повернення ключів для всіх знайдених значень використовуйте функцію [arraykeys()](function.array-keys.html) з необов'язковим параметром `search_value`
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -68,7 +68,7 @@ $key = array_search('red', $array);   // $key = 1;
 
 ### Дивіться також
 
--   [array\_keys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [array\_values()](function.array-values.html) - Вибирає всі значення масиву
--   [array\_key\_exists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [in\_array()](function.in-array.html) - Перевіряє, чи є у масиві значення
+-   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
+-   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
+-   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [інarray()](function.in-array.html) - Перевіряє, чи є у масиві значення

@@ -2,7 +2,7 @@
 
 -   [« Spoofchecker](class.spoofchecker.html)
     
--   [Spoofchecker::\_\_construct »](spoofchecker.construct.html)
+-   [Spoofchecker::construct »](spoofchecker.construct.html)
     
 -   [PHP Manual](index.html)
     

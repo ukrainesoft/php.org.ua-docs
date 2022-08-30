@@ -1,12 +1,12 @@
 Створює нову схему
 
--   [« Session::\_\_construct](mysql-xdevapi-session.construct.html)
+-   [« Session::construct](mysql-xdevapi-session.construct.html)
     
 -   [Session::dropSchema »](mysql-xdevapi-session.dropschema.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
     
 -   Створює нову схему
     

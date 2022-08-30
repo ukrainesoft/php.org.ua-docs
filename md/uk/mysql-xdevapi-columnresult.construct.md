@@ -1,12 +1,12 @@
 Конструктор класу ColumnResult
 
--   [« mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+-   [« mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     
 -   [ColumnResult::getCharacterSetName »](mysql-xdevapi-columnresult.getcharactersetname.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+-   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     
 -   Конструктор класу ColumnResult
     

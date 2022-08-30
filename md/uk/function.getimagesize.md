@@ -1,12 +1,12 @@
 Отримання розміру зображення
 
--   [« gd\_info](function.gd-info.html)
+-   [« gdinfo](function.gd-info.html)
     
 -   [getimagesizefromstring »](function.getimagesizefromstring.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции GD и функции для работы с изображениями](ref.image.html)
+-   [Функції GD та функції для роботи із зображеннями](ref.image.html)
     
 -   Отримання розміру зображення
     
@@ -43,7 +43,7 @@ getimagesize(string $filename, array &$image_info = null): array|false
 
 `filename`
 
-Цей аргумент задає файл, відомості про який витягуватиметься. Це може бути локальний чи віддалений (залежить від конфігурації) файл. Передача даних віддаленого файлу повинна здійснюватися одним із [поддерживаемых потоков](wrappers.html)
+Цей аргумент задає файл, відомості про який витягуватиметься. Це може бути локальний чи віддалений (залежить від конфігурації) файл. Передача даних віддаленого файлу повинна здійснюватися одним із [підтримуваних потоків](wrappers.html)
 
 `image_info`
 
@@ -63,7 +63,7 @@ getimagesize(string $filename, array &$image_info = null): array|false
 > 
 > Деякі формати файлів можуть зберігати кілька зображень або взагалі не містити зображення. У таких випадках **getimagesize()** не зможе визначити розмір зображення . **getimagesize()** поверне нулі як значення висоти та ширини.
 
-Індекс 2 містить одну з констант типу зображення [IMAGETYPE\_XXX](image.constants.html)
+Індекс 2 містить одну з констант типу зображення [IMAGETYPEXXX](image.constants.html)
 
 Індекс 3 містить рядок зі значеннями ширини та висоти зображення `height="yyy" width="xxx"`яка може бути використана всередині тега IMG.
 
@@ -146,9 +146,9 @@ if (isset($info["APP13"])) {
 
 ### Дивіться також
 
--   [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
--   [exif\_imagetype()](function.exif-imagetype.html) - Визначте тип зображення.
--   [exif\_read\_data()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
--   [exif\_thumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
+-   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [exifimagetype()](function.exif-imagetype.html) - Визначте тип зображення.
+-   [exifreaddata()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
+-   [exifthumbnail()](function.exif-thumbnail.html) - Отримує вбудоване прев'ю зображення
 -   [imagesx()](function.imagesx.html) - Отримання ширини зображення
 -   [imagesy()](function.imagesy.html) - Отримання висоти зображення

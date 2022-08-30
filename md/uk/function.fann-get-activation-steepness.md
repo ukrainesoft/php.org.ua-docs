@@ -1,8 +1,8 @@
 Повертає крутість активації для нейрона, що поставляється, і номери шару.
 
--   [« fann\_get\_activation\_function](function.fann-get-activation-function.html)
+-   [« fanngetactivationfunction](function.fann-get-activation-function.html)
     
--   [fann\_get\_bias\_array »](function.fann-get-bias-array.html)
+-   [fanngetbiasarray »](function.fann-get-bias-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -53,8 +53,8 @@ fann_get_activation_steepness(resource $ann, int $layer, int $neuron): float
 
 ### Дивіться також
 
--   [fann\_set\_activation\_function()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару
--   [fann\_set\_activation\_steepness\_layer()](function.fann-set-activation-steepness-layer.html) - Встановлює крутість активації для всіх нейронів у вказаному номері шару
--   [fann\_set\_activation\_steepness\_hidden()](function.fann-set-activation-steepness-hidden.html) - Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
--   [fann\_set\_activation\_steepness\_output()](function.fann-set-activation-steepness-output.html) - Встановлює крутість активації у вихідному шарі
--   [fann\_set\_activation\_steepness()](function.fann-set-activation-steepness.html) - Встановлює крутість активації для вказаного нейрона та номера шару
+-   [fannsetactivationfunction()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару
+-   [fannsetactivationsteepnesslayer()](function.fann-set-activation-steepness-layer.html) - Встановлює крутість активації для всіх нейронів у вказаному номері шару
+-   [fannsetactivationsteepnesshidden()](function.fann-set-activation-steepness-hidden.html) - Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
+-   [fannsetactivationsteepnessoutput()](function.fann-set-activation-steepness-output.html) - Встановлює крутість активації у вихідному шарі
+-   [fannsetactivationsteepness()](function.fann-set-activation-steepness.html) - Встановлює крутість активації для вказаного нейрона та номера шару

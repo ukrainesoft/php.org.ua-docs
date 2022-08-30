@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\MySQL::\_\_destruct](swoole-coroutine-mysql.destruct.html)
+-   [« SwooleCoroutineMySQL::destruct](swoole-coroutine-mysql.destruct.html)
     
--   [Swoole\\Coroutine\\MySQL::query »](swoole-coroutine-mysql.query.html)
+-   [SwooleCoroutineMySQL::query »](swoole-coroutine-mysql.query.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

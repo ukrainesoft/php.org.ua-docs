@@ -18,19 +18,19 @@
     -   [Установка и настройка](bzip2.setup.html)
     -   [Предопределённые константы](bzip2.constants.html)
     -   [Примеры](bzip2.examples.html)
-    -   [Функции Bzip2](ref.bzip2.html)
+    -   [Функції Bzip2](ref.bzip2.html)
 -   [LZF](book.lzf.html)
     -   [Введение](intro.lzf.html)
     -   [Установка и настройка](lzf.setup.html)
     -   [Предопределённые константы](lzf.constants.html)
-    -   [Функции LZF](ref.lzf.html)
+    -   [Функції LZF](ref.lzf.html)
 -   [Phar](book.phar.html)
     -   [Введение](intro.phar.html)
     -   [Установка и настройка](phar.setup.html)
     -   [Предопределённые константы](phar.constants.html)
     -   [Использование Phar-архивов](phar.using.html)
     -   [Создание Phar-архивов](phar.creating.html)
-    -   [Чем отличается phar от tar- или zip-архива?](phar.fileformat.html)
+    -   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.html)
     -   [Phar](class.phar.html) - Клас Phar
     -   [PharData](class.phardata.html) - Клас PharData
     -   [PharFileInfo](class.pharfileinfo.html) - Клас PharFileInfo

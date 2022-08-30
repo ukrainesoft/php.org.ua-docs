@@ -1,8 +1,8 @@
 Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних
 
--   [« fann\_num\_input\_train\_data](function.fann-num-input-train-data.html)
+-   [« fannnuminputtraindata](function.fann-num-input-train-data.html)
     
--   [fann\_print\_error »](function.fann-print-error.html)
+-   [fannprinterror »](function.fann-print-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,5 +37,5 @@ fann_num_output_train_data(resource $data): int
 
 ### Дивіться також
 
--   [fann\_length\_train\_data()](function.fann-length-train-data.html) - Повертає кількість шаблонів у навчальних даних
--   [fann\_num\_input\_train\_data()](function.fann-num-input-train-data.html) - Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
+-   [fannlengthtraindata()](function.fann-length-train-data.html) - Повертає кількість шаблонів у навчальних даних
+-   [fannnuminputtraindata()](function.fann-num-input-train-data.html) - Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних

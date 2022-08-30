@@ -1,8 +1,8 @@
 Використання XML-аналізатора всередині об'єкта
 
--   [« xml\_set\_notation\_decl\_handler](function.xml-set-notation-decl-handler.html)
+-   [« xmlsetnotationdeclhandler](function.xml-set-notation-decl-handler.html)
     
--   [xml\_set\_processing\_instruction\_handler »](function.xml-set-processing-instruction-handler.html)
+-   [xmlsetprocessinginstructionhandler »](function.xml-set-processing-instruction-handler.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ xmlsetobject — Використання XML-аналізатора всере�
 xml_set_object(XMLParser $parser, object $object): bool
 ```
 
-Ця функція дозволяє використовувати `parser` всередині об'єкту `object`. Усі callback-функції можуть бути встановлені функціями [xml\_set\_element\_handler()](function.xml-set-element-handler.html) і т.п. та використовуватись як методи об'єкту `object`
+Ця функція дозволяє використовувати `parser` всередині об'єкту `object`. Усі callback-функції можуть бути встановлені функціями [xmlsetelementhandler()](function.xml-set-element-handler.html) і т.п. та використовуватись як методи об'єкту `object`
 
 ### Список параметрів
 

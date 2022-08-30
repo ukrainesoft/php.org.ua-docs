@@ -1,8 +1,8 @@
 Клас SoapVar
 
--   [« SoapParam::\_\_construct](soapparam.construct.html)
+-   [« SoapParam::construct](soapparam.construct.html)
     
--   [SoapVar::\_\_construct »](soapvar.construct.html)
+-   [SoapVar::construct »](soapvar.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -82,4 +82,4 @@ encvalue
 
 ## Зміст
 
--   [SoapVar::\_\_construct](soapvar.construct.html) - Конструктор SoapVar
+-   [SoapVar::construct](soapvar.construct.html) - Конструктор SoapVar

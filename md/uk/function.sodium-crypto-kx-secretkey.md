@@ -1,8 +1,8 @@
 Витягує секретний ключ із пари ключів cryptoккс
 
--   [« sodium\_crypto\_kx\_publickey](function.sodium-crypto-kx-publickey.html)
+-   [« sodiumcryptoкксpublickey](function.sodium-crypto-kx-publickey.html)
     
--   [sodium\_crypto\_kx\_seed\_keypair »](function.sodium-crypto-kx-seed-keypair.html)
+-   [sodiumcryptoкксseedkeypair »](function.sodium-crypto-kx-seed-keypair.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_kx_secretkey(string $key_pair): string
 
 `key_pair`
 
-Пара ключів X25519, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.html)
+Пара ключів X25519, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.html)
 
 ### Значення, що повертаються
 

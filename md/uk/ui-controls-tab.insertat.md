@@ -1,12 +1,12 @@
 Вставити сторінку
 
--   [« UI\\Controls\\Tab::hasMargin](ui-controls-tab.hasmargin.html)
+-   [« UIControlsTab::hasMargin](ui-controls-tab.hasmargin.html)
     
--   [UI\\Controls\\Tab::pages »](ui-controls-tab.pages.html)
+-   [ОЙControlsTab::pages »](ui-controls-tab.pages.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Tab](class.ui-controls-tab.html)
+-   [ОЙControlsTab](class.ui-controls-tab.html)
     
 -   Вставити сторінку
     

@@ -1,12 +1,12 @@
 Призначення getQuery
 
--   [« Yaf\_Request\_Simple::getPost](yaf-request-simple.getpost.html)
+-   [« YafRequestSimple::getPost](yaf-request-simple.getpost.html)
     
--   [Yaf\_Request\_Simple::getRequest »](yaf-request-simple.getrequest.html)
+-   [YafRequestSimple::getRequest »](yaf-request-simple.getrequest.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Simple](class.yaf-request-simple.html)
+-   [YafRequestSimple](class.yaf-request-simple.html)
     
 -   Призначення getQuery
     

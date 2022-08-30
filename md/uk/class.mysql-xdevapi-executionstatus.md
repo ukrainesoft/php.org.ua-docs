@@ -2,11 +2,11 @@
 
 -   [« Executable::execute](mysql-xdevapi-executable.execute.html)
     
--   [ExecutionStatus::\_\_construct »](mysql-xdevapi-executionstatus.construct.html)
+-   [ExecutionStatus::construct »](mysql-xdevapi-executionstatus.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас ExecutionStatus
     
@@ -69,4 +69,4 @@ lastDocumentId
 
 ## Зміст
 
--   [ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.html) - Конструктор класу ExecutionStatus
+-   [ExecutionStatus::construct](mysql-xdevapi-executionstatus.construct.html) - Конструктор класу ExecutionStatus

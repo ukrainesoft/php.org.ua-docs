@@ -1,12 +1,12 @@
 Повертає результат застосування callback-функції до всіх значень двосторонньої черги
 
--   [« Ds\\Deque::last](ds-deque.last.html)
+-   [« DsDeque::last](ds-deque.last.html)
     
--   [Ds\\Deque::merge »](ds-deque.merge.html)
+-   [ДсDeque::merge »](ds-deque.merge.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає результат застосування callback-функції до всіх значень двосторонньої черги
     

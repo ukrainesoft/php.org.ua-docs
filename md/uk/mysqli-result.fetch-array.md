@@ -1,12 +1,12 @@
 Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
 
--   [« mysqli\_result::fetch\_all](mysqli-result.fetch-all.html)
+-   [« mysqliresult::fetchall](mysqli-result.fetch-all.html)
     
--   [mysqli\_result::fetch\_assoc »](mysqli-result.fetch-assoc.html)
+-   [mysqliresult::fetchassoc »](mysqli-result.fetch-assoc.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
     
@@ -33,7 +33,7 @@ public mysqli_result::fetch_array(int $mode = MYSQLI_BOTH): array|null|false
 mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|false
 ```
 
-Вибирає один рядок даних із набору результатів та повертає її у вигляді масиву. Кожен наступний виклик цієї функції повертатиме наступний рядок у наборі результатів або **`null`**якщо рядків більше немає.
+Вибирає один рядок даних із набору результатів та повертає її у вигляді масиву. Кожен наступний виклик цієї функції повертатиме наступний рядок у наборі результатів або \*\*`null`\*\*якщо рядків більше немає.
 
 Крім зберігання даних у числових індексах масиву результатів, функція також може зберігати дані в асоціативних індексах, використовуючи імена полів набору результатів як ключі.
 
@@ -47,17 +47,17 @@ mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|f
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `mode`
 
 Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`** або **`MYSQLI_BOTH`**
 
-При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html), а при **`MYSQLI_NUM`** ідентично функції [mysqli\_fetch\_row()](mysqli-result.fetch-row.html). При завданні **`MYSQLI_BOTH`** функція створить один масив, що включає атрибути обох варіантів.
+При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqlifetchassoc()](mysqli-result.fetch-assoc.html), а при **`MYSQLI_NUM`** ідентично функції [mysqlifetchrow()](mysqli-result.fetch-row.html). При завданні **`MYSQLI_BOTH`** функція створить один масив, що включає атрибути обох варіантів.
 
 ### Значення, що повертаються
 
-Повертає масив, що представляє обраний рядок, **`null`**якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
+Повертає масив, що представляє обраний рядок, \*\*`null`\*\*якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -121,9 +121,9 @@ Herat (AFG)
 
 ### Дивіться також
 
--   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqli\_fetch\_column()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqli\_fetch\_row()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqli\_fetch\_object()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_data\_seek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqlifetchrow()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqlifetchobject()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок

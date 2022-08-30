@@ -1,12 +1,12 @@
 Замінює всі входження рядка пошуку на рядок заміни
 
--   [« str\_repeat](function.str-repeat.html)
+-   [« strrepeat](function.str-repeat.html)
     
--   [str\_rot13 »](function.str-rot13.html)
+-   [strrot13 »](function.str-rot13.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Замінює всі входження рядка пошуку на рядок заміни
     
@@ -25,7 +25,7 @@ str_replace(    array|string $search,    array|string $replace,    s
 
 Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace`
 
-Якщо не потрібні складні правила пошуку/заміни (наприклад, регулярні вирази), використання цієї функції краще [preg\_replace()](function.preg-replace.html)
+Якщо не потрібні складні правила пошуку/заміни (наприклад, регулярні вирази), використання цієї функції краще [pregreplace()](function.preg-replace.html)
 
 ### Список параметрів
 
@@ -121,11 +121,11 @@ echo $output;
 
 > **Зауваження**
 > 
-> Ця функція чутлива до регістру. Використовуйте [str\_ireplace()](function.str-ireplace.html) для заміни без урахування регістру.
+> Ця функція чутлива до регістру. Використовуйте [strireplace()](function.str-ireplace.html) для заміни без урахування регістру.
 
 ### Дивіться також
 
--   [str\_ireplace()](function.str-ireplace.html) - Реєстронезалежний варіант функції strreplace
--   [substr\_replace()](function.substr-replace.html) - Замінює частину рядка
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [strireplace()](function.str-ireplace.html) - Реєстронезалежний варіант функції strreplace
+-   [substrreplace()](function.substr-replace.html) - Замінює частину рядка
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
 -   [strtr()](function.strtr.html) - Перетворює задані символи або замінює підрядки

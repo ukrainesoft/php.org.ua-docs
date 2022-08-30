@@ -1,8 +1,8 @@
 Перевірка з'єднання з базою даних
 
--   [« pg\_pconnect](function.pg-pconnect.html)
+-   [« pgpconnect](function.pg-pconnect.html)
     
--   [pg\_port »](function.pg-port.html)
+-   [пгport »](function.pg-port.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -41,10 +41,10 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                       |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `connection` тепер допускає значення null.                                                                                                                     |
 
 ### Приклади
 
@@ -65,5 +65,5 @@ if (!pg_ping($conn))
 
 ### Дивіться також
 
--   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення
--   [pg\_connection\_reset()](function.pg-connection-reset.html) - Скидання підключення (перепідключення)
+-   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення
+-   [пгconnectionreset()](function.pg-connection-reset.html) - Скидання підключення (перепідключення)

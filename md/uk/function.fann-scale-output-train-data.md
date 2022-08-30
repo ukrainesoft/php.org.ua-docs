@@ -1,8 +1,8 @@
 Масштабує вихідні дані у навчальних даних до вказаного діапазону
 
--   [« fann\_scale\_input](function.fann-scale-input.html)
+-   [« fannscaleinput](function.fann-scale-input.html)
     
--   [fann\_scale\_output »](function.fann-scale-output.html)
+-   [fannscaleoutput »](function.fann-scale-output.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@ fann_scale_output_train_data(resource $train_data, float $new_min, float $new_ma
 
 ### Дивіться також
 
--   [fann\_scale\_input\_train\_data()](function.fann-scale-input-train-data.html) - Масштабує вхідні дані до навчальних даних до вказаного діапазону
--   [fann\_scale\_train\_data()](function.fann-scale-train-data.html) - Масштабує вхідні та вихідні дані в навчальних даних до вказаного діапазону
+-   [fannscaleinputtraindata()](function.fann-scale-input-train-data.html) - Масштабує вхідні дані до навчальних даних до вказаного діапазону
+-   [fannscaletraindata()](function.fann-scale-train-data.html) - Масштабує вхідні та вихідні дані в навчальних даних до вказаного діапазону

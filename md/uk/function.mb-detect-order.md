@@ -1,12 +1,12 @@
 Встановлення/отримання списку кодувань для механізмів визначення кодування
 
--   [« mb\_detect\_encoding](function.mb-detect-encoding.html)
+-   [« mbdetectencoding](function.mb-detect-encoding.html)
     
--   [mb\_encode\_mimeheader »](function.mb-encode-mimeheader.html)
+-   [мбencodemimeheader »](function.mb-encode-mimeheader.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Встановлення/отримання списку кодувань для механізмів визначення кодування
     
@@ -29,11 +29,11 @@ mb_detect_order(array|string|null $encoding = null): array|bool
 
 `encoding`
 
-`encoding` - масив (array) або рядок, в якому перераховані кодування через кому. Дивіться [Поддерживаемые кодировки](mbstring.supported-encodings.html)
+`encoding` - масив (array) або рядок, в якому перераховані кодування через кому. Дивіться [Підтримувані кодування](mbstring.supported-encodings.html)
 
 Якщо `encoding` опущено, функція поверне поточний список кодувань як масиву.
 
-Ця установка впливає на роботу функцій [mb\_detect\_encoding()](function.mb-detect-encoding.html) і [mb\_send\_mail()](function.mb-send-mail.html)
+Ця установка впливає на роботу функцій [мбdetectencoding()](function.mb-detect-encoding.html) і [мбsendmail()](function.mb-send-mail.html)
 
 У `mbstring` на даний момент реалізовані такі фільтри для визначення кодувань. Якщо послідовність байт у вихідному рядку не відповідатиме жодному з перерахованих кодувань, визначення кодування завершиться невдачею.
 
@@ -88,7 +88,7 @@ detect_order = UTF-8, ASCII, UTF-7
 
 ### Дивіться також
 
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [mb\_http\_input()](function.mb-http-input.html) - Визначення кодування символів вхідних даних HTTP-запиту
--   [mb\_http\_output()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
--   [mb\_send\_mail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбhttpinput()](function.mb-http-input.html) - Визначення кодування символів вхідних даних HTTP-запиту
+-   [мбhttpoutput()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
+-   [мбsendmail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення

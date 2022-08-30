@@ -2,7 +2,7 @@
 
 -   [« Параметры контекста](context.params.html)
     
--   [Поддерживаемые протоколы и обёртки »](wrappers.html)
+-   [Підтримувані протоколи та обгортки »](wrappers.html)
     
 -   [PHP Manual](index.html)
     

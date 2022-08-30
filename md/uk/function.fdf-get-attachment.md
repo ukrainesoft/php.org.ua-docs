@@ -1,8 +1,8 @@
 Виймає завантажений файл, вбудований у FDF
 
--   [« fdf\_get\_ap](function.fdf-get-ap.html)
+-   [« fdfgetап](function.fdf-get-ap.html)
     
--   [fdf\_get\_encoding »](function.fdf-get-encoding.html)
+-   [fdfgetencoding »](function.fdf-get-encoding.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath):
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 

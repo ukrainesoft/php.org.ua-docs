@@ -2,11 +2,11 @@
 
 -   [« WeakMap::offsetUnset](weakmap.offsetunset.html)
     
--   [Stringable::\_\_toString »](stringable.tostring.html)
+-   [Stringable::toString »](stringable.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Інтерфейс Stringable
     
@@ -17,7 +17,7 @@
 
 ## Вступ
 
-Інтерфейс **Stringable** позначає клас, що реалізує метод [\_\_toString()](language.oop5.magic.html#object.tostring). На відміну від більшості інтерфейсів, **Stringable** неявно присутній у будь-якому класі, в якому визначено магічний метод [\_\_toString()](language.oop5.magic.html#object.tostring)хоча він може і повинен бути оголошений явно.
+Інтерфейс **Stringable** позначає клас, що реалізує метод [toString()](language.oop5.magic.html#object.tostring). На відміну від більшості інтерфейсів, **Stringable** неявно присутній у будь-якому класі, в якому визначено магічний метод [toString()](language.oop5.magic.html#object.tostring)хоча він може і повинен бути оголошений явно.
 
 Його основне значення - дозволити функціям виконувати перевірку типу на відповідність типу union `string|Stringable`, щоб приймати або рядковий примітив, або об'єкт, який може бути перетворений на рядок.
 
@@ -83,4 +83,4 @@ showStuff($ip);
 
 ## Зміст
 
--   [Stringable::\_\_toString](stringable.tostring.html) — Отримує рядкову виставу об'єкта
+-   [Stringable::toString](stringable.tostring.html) — Отримує рядкову виставу об'єкта

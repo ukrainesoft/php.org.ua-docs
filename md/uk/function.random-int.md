@@ -1,6 +1,6 @@
 Генерує криптографічно безпечні псевдовипадкові цілі числа
 
--   [« random\_bytes](function.random-bytes.html)
+-   [« randombytes](function.random-bytes.html)
     
 -   [Hash »](book.hash.html)
     
@@ -27,12 +27,12 @@ random_int(int $min, int $max): int
 
 Джерело випадкових величин, що використовуються цією функцією:
 
--   У Windows завжди використовується [» **CryptGenRandom()**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379942(v=vs.85).aspx) Починаючи з PHP 7.2.0, замість нього завжди використовуватиметься [» CNG-API](https://docs.microsoft.com/en-us/windows/desktop/SecCNG/cng-portal)
+-   У Windows завжди використовується [**CryptGenRandom()**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379942(v=vs.85).aspx) Починаючи з PHP 7.2.0, замість нього завжди використовуватиметься [» CNG-API](https://docs.microsoft.com/en-us/windows/desktop/SecCNG/cng-portal)
 -   У Linux, якщо доступний, використовується системний виклик [» getrandom(2)](http://man7.org/linux/man-pages/man2/getrandom.2.html)
 -   На інших платформах використовується /dev/urandom.
 -   Якщо доступні джерела випадкових величин відсутні, викидається виняток [Exception](class.exception.html)
 
-> **Зауваження**: Ця функція була додана в PHP 7.0, а для версій з 5.2 до 5.6 включно доступна [» пользовательская реализация](https://github.com/paragonie/random_compat)
+> **Зауваження**: Ця функція була додана в PHP 7.0, а для версій з 5.2 до 5.6 включно доступна [» користувацька реалізація](https://github.com/paragonie/random_compat)
 
 ### Список параметрів
 
@@ -74,4 +74,4 @@ int(-898)
 
 ### Дивіться також
 
--   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти

@@ -1,6 +1,6 @@
 Повертає спосіб кодування, який використовується для стиснення виводу
 
--   [« zlib\_encode](function.zlib-encode.html)
+-   [« zlibencode](function.zlib-encode.html)
     
 -   [DeflateContext »](class.deflatecontext.html)
     
@@ -35,4 +35,4 @@ zlib_get_coding_type(): string|false
 
 ### Дивіться також
 
--   Директива [zlib.output\_compression](zlib.configuration.html#ini.zlib.output-compression)
+-   Директива [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)

@@ -1,6 +1,6 @@
 Розпочинаємо розробку плагіна mysqlnd
 
--   [« API плагинов mysqlnd](mysqlnd.plugin.api.html)
+-   [« API плагінів mysqlnd](mysqlnd.plugin.api.html)
     
 -   [OCI8 »](book.oci8.html)
     

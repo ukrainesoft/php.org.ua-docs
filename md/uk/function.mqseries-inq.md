@@ -1,8 +1,8 @@
 MQSeries MQINQ
 
--   [« mqseries\_get](function.mqseries-get.html)
+-   [« mqseriesget](function.mqseries-get.html)
     
--   [mqseries\_open »](function.mqseries-open.html)
+-   [mqseriesopen »](function.mqseries-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -96,6 +96,6 @@ mqseries_inq(    resource $hconn,    resource $hobj,    int $selecto
 
 ### Дивіться також
 
--   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseries\_open()](function.mqseries-open.html) - MQSeries MQOPEN
+-   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN

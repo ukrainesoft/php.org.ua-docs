@@ -1,12 +1,12 @@
 Встановлює назву процесу
 
--   [« Swoole\\Process::kill](swoole-process.kill.html)
+-   [« SwooleProcess::kill](swoole-process.kill.html)
     
--   [Swoole\\Process::pop »](swoole-process.pop.html)
+-   [SwooleProcess::pop »](swoole-process.pop.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Встановлює назву процесу
     

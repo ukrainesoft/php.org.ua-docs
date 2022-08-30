@@ -1,8 +1,8 @@
 Створює випадковий загальний хеш-ключ
 
--   [« sodium\_crypto\_generichash\_init](function.sodium-crypto-generichash-init.html)
+-   [« sodiumcryptogenerichashinit](function.sodium-crypto-generichash-init.html)
     
--   [sodium\_crypto\_generichash\_update »](function.sodium-crypto-generichash-update.html)
+-   [sodiumcryptogenerichashupdate »](function.sodium-crypto-generichash-update.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,6 +1,6 @@
 Опис
 
--   [« phpdbg\_prompt](function.phpdbg-prompt.html)
+-   [« phpdbgprompt](function.phpdbg-prompt.html)
     
 -   [runkit7 »](book.runkit7.html)
     

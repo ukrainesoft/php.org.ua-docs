@@ -1,12 +1,12 @@
 Захоплення семафору
 
--   [« msg\_stat\_queue](function.msg-stat-queue.html)
+-   [« msgstatqueue](function.msg-stat-queue.html)
     
--   [sem\_get »](function.sem-get.html)
+-   [semget »](function.sem-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции семафоров](ref.sem.html)
+-   [Функції семафорів](ref.sem.html)
     
 -   Захоплення семафору
     
@@ -49,5 +49,5 @@ sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 
 ### Дивіться також
 
--   [sem\_get()](function.sem-get.html) - Отримання ідентифікатора семафору
--   [sem\_release()](function.sem-release.html) - Звільнення семафору
+-   [semget()](function.sem-get.html) - Отримання ідентифікатора семафору
+-   [semrelease()](function.sem-release.html) - Звільнення семафору

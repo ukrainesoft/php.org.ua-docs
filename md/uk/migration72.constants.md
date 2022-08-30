@@ -1,8 +1,8 @@
 Нові глобальні константи
 
--   [« Новые функции](migration72.new-functions.html)
+-   [« Нові функції](migration72.new-functions.html)
     
--   [Изменения, ломающие обратную совместимость »](migration72.incompatible.html)
+-   [Зміни, що ламають зворотну сумісність »](migration72.incompatible.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,7 +21,7 @@
 -   [**`PHP_FLOAT_MAX`**](reserved.constants.html#constant.php-float-max)
 -   [**`PHP_OS_FAMILY`**](reserved.constants.html#constant.php-os-family)
 
-### [Информация о файле](book.fileinfo.html)
+### [Інформація про файл](book.fileinfo.html)
 
 -   [**`FILEINFO_EXTENSION`**](fileinfo.constants.html#constant.fileinfo-extension)
 
@@ -30,7 +30,7 @@
 -   **`JSON_INVALID_UTF8_IGNORE`**
 -   **`JSON_INVALID_UTF8_SUBSTITUTE`**
 
-### [GD](book.image.html)
+### [ДД](book.image.html)
 
 -   [**`IMG_EFFECT_MULTIPLY`**](image.constants.html#constant.img-effect-multiply)
 -   [**`IMG_BMP`**](image.constants.html#constant.img-bmp)

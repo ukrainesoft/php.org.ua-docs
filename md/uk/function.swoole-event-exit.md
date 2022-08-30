@@ -1,8 +1,8 @@
 Закрити цикл подій, доступний лише на стороні клієнта
 
--   [« swoole\_event\_del](function.swoole-event-del.html)
+-   [« swooleeventdel](function.swoole-event-del.html)
     
--   [swoole\_event\_set »](function.swoole-event-set.html)
+-   [swooleeventset »](function.swoole-event-set.html)
     
 -   [PHP Manual](index.html)
     

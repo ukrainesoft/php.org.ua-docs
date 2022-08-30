@@ -1,12 +1,12 @@
 Створити директорію
 
--   [« ssh2\_sftp\_lstat](function.ssh2-sftp-lstat.html)
+-   [« ssh2sftplstat](function.ssh2-sftp-lstat.html)
     
--   [ssh2\_sftp\_readlink »](function.ssh2-sftp-readlink.html)
+-   [ssh2sftpreadlink »](function.ssh2-sftp-readlink.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Створити директорію
     
@@ -31,7 +31,7 @@ ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `dirname`
 
@@ -67,4 +67,4 @@ ssh2_sftp_mkdir($sftp, '/home/username/newdir');
 ### Дивіться також
 
 -   [mkdir()](function.mkdir.html) - створює директорію
--   [ssh2\_sftp\_rmdir()](function.ssh2-sftp-rmdir.html) - видаляє директорію
+-   [ssh2sftprmdir()](function.ssh2-sftp-rmdir.html) - видаляє директорію

@@ -1,12 +1,12 @@
 Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
--   [« CommonMark\\Node::insertBefore](commonmark-node.insertbefore.html)
+-   [« CommonMarkNode::insertBefore](commonmark-node.insertbefore.html)
     
--   [CommonMark\\Node::unlink »](commonmark-node.unlink.html)
+-   [CommonMarkNode::unlink »](commonmark-node.unlink.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node](class.commonmark-node.html)
+-   [CommonMarkNode](class.commonmark-node.html)
     
 -   Маніпуляції з AST (Абстрактне синтаксичне дерево)
     

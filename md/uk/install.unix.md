@@ -2,7 +2,7 @@
 
 -   [« Общие инструкции по установке](install.general.html)
     
--   [Apache 2.x на Unix системах »](install.unix.apache2.html)
+-   [Apache 2.x на Unix системах](install.unix.apache2.html)
     
 -   [PHP Manual](index.html)
     
@@ -18,10 +18,10 @@
 -   [Apache 2.x на Unix системах](install.unix.apache2.html)
 -   [Установка Nginx 1.4.x на систему Unix](install.unix.nginx.html)
 -   [Установка PHP на Lighttpd 1.4 на Unix-системах](install.unix.lighttpd-14.html)
--   [Веб-сервер LiteSpeed/OpenLiteSpeed на системах Unix](install.unix.litespeed.html)
--   [Установка с интерфейсами CGI и командной строки](install.unix.commandline.html)
+-   [Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix](install.unix.litespeed.html)
+-   [Установка з інтерфейсами CGI та командного рядка](install.unix.commandline.html)
 -   [OpenBSD, замечания по установке](install.unix.openbsd.html)
--   [Инструкции по инсталляции для ОС Solaris](install.unix.solaris.html)
+-   [Інструкції з інсталяції для ОС Solaris](install.unix.solaris.html)
 -   [Инструкции по установке на Debian GNU/Linux](install.unix.debian.html)
 
 Цей розділ описує встановлення та налаштування PHP на Unix-системах. Будь ласка, прочитайте всі розділи, що стосуються вашої платформи або веб-сервера, перш ніж ви приступите до встановлення.
@@ -53,6 +53,6 @@
 
 > **Зауваження**
 > 
-> Деякі Unix системи (такі як OpenBSD і SELinux) можуть забороняти, з міркувань безпеки, виділення пам'яті одночасно записуваної та виконуваної. Це називається PaX MPROTECT або порушення захисту W^X. Тим не менш, такий режим виділення пам'яті необхідний для підтримки компіляції JIT PCRE JIT, так що в таких випадках необхідно збирати PHP [без поддержки JIT компиляции PCRE](pcre.installation.html), або бінарні файли повинні бути внесені до білого списку операційної системи,
+> Деякі Unix системи (такі як OpenBSD і SELinux) можуть забороняти, з міркувань безпеки, виділення пам'яті одночасно записуваної та виконуваної. Це називається PaX MPROTECT або порушення захисту W^X. Тим не менш, такий режим виділення пам'яті необхідний для підтримки компіляції JIT PCRE JIT, так що в таких випадках необхідно збирати PHP [без підтримки JIT компіляції PCRE](pcre.installation.html), або бінарні файли повинні бути внесені до білого списку операційної системи,
 
 > **Зауваження**: Крос-компіляція під ARM за допомогою "Android toolchain" на даний момент не підтримується.

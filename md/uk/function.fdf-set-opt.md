@@ -1,8 +1,8 @@
 Встановлює параметри поля
 
--   [« fdf\_set\_on\_import\_javascript](function.fdf-set-on-import-javascript.html)
+-   [« fdfsetвінimportjavascript](function.fdf-set-on-import-javascript.html)
     
--   [fdf\_set\_status »](function.fdf-set-status.html)
+-   [fdfsetstatus »](function.fdf-set-status.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_opt(    resource $fdf_document,    string $fieldname,    int
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 
@@ -47,4 +47,4 @@ fdf_set_opt(    resource $fdf_document,    string $fieldname,    int
 
 ### Дивіться також
 
--   [fdf\_set\_flags()](function.fdf-set-flags.html) - Встановлює прапор поля
+-   [fdfsetflags()](function.fdf-set-flags.html) - Встановлює прапор поля

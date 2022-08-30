@@ -1,12 +1,12 @@
 Перевірка, чи встановлений біт в 1
 
--   [« gmp\_sub](function.gmp-sub.html)
+-   [« gmpsub](function.gmp-sub.html)
     
--   [gmp\_xor »](function.gmp-xor.html)
+-   [gmpxor »](function.gmp-xor.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Перевірка, чи встановлений біт в 1
     
@@ -37,7 +37,7 @@ gmp_testbit(GMP|int|string $num, int $index): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо біт встановлено в `num`інакше **`false`**
+Повертає \*\*`true`\*\*якщо біт встановлено в `num`інакше **`false`**
 
 ### Помилки
 
@@ -65,5 +65,5 @@ bool(true)
 
 ### Дивіться також
 
--   [gmp\_setbit()](function.gmp-setbit.html) - Встановлення біта
--   [gmp\_clrbit()](function.gmp-clrbit.html) - Скидання біта
+-   [gmpsetbit()](function.gmp-setbit.html) - Встановлення біта
+-   [gmpclrbit()](function.gmp-clrbit.html) - Скидання біта

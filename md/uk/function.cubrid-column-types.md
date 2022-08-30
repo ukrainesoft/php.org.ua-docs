@@ -1,8 +1,8 @@
 Отримати типи стовпців у результуючому наборі
 
--   [« cubrid\_column\_names](function.cubrid-column-names.html)
+-   [« cubridcolumnnames](function.cubrid-column-names.html)
     
--   [cubrid\_commit »](function.cubrid-commit.html)
+-   [cubridcommit »](function.cubrid-commit.html)
     
 -   [PHP Manual](index.html)
     
@@ -72,6 +72,6 @@ game_date                      date                           10
 
 ### Дивіться також
 
--   [cubrid\_column\_names()](function.cubrid-column-names.html) - Отримати імена стовпців у результуючому наборі
--   [cubrid\_prepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridcolumnnames()](function.cubrid-column-names.html) - Отримати імена стовпців у результуючому наборі
+-   [cubridprepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

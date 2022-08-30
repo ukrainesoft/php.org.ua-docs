@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::sendto](swoole-coroutine-client.sendto.html)
+-   [« SwooleCoroutineClient::sendto](swoole-coroutine-client.sendto.html)
     
--   [Swoole\\Coroutine\\Http\\Client::addFile »](swoole-coroutine-http-client.addfile.html)
+-   [SwooleCoroutineHttpClient::addFile »](swoole-coroutine-http-client.addfile.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

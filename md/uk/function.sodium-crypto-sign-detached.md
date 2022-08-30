@@ -1,8 +1,8 @@
 Підписати повідомлення
 
--   [« sodium\_crypto\_shorthash](function.sodium-crypto-shorthash.html)
+-   [« sodiumcryptoshorthash](function.sodium-crypto-shorthash.html)
     
--   [sodium\_crypto\_sign\_ed25519\_pk\_to\_curve25519 »](function.sodium-crypto-sign-ed25519-pk-to-curve25519.html)
+-   [sodiumcryptosigned25519пктоcurve25519 »](function.sodium-crypto-sign-ed25519-pk-to-curve25519.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ sodium_crypto_sign_detached(string $message, string $secret_key): string
 
 `secret_key`
 
-Секретний ключ. Дивіться [sodium\_crypto\_sign\_secretkey()](function.sodium-crypto-sign-secretkey.html)
+Секретний ключ. Дивіться [sodiumcryptosignsecretkey()](function.sodium-crypto-sign-secretkey.html)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Імпортувати з бінарного рядка
 
--   [« gmp\_hamdist](function.gmp-hamdist.html)
+-   [« gmphamdist](function.gmp-hamdist.html)
     
--   [gmp\_init »](function.gmp-init.html)
+-   [gmpinit »](function.gmp-init.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Імпортувати з бінарного рядка
     
@@ -72,4 +72,4 @@ echo gmp_strval($number) . "\n";
 
 ### Дивіться також
 
--   [gmp\_export()](function.gmp-export.html) - Експортувати у бінарний рядок
+-   [gmpexport()](function.gmp-export.html) - Експортувати у бінарний рядок

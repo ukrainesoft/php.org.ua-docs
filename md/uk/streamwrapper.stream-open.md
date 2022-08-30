@@ -1,8 +1,8 @@
 Відкриває файл або URL
 
--   [« streamWrapper::stream\_metadata](streamwrapper.stream-metadata.html)
+-   [« streamWrapper::streammetadata](streamwrapper.stream-metadata.html)
     
--   [streamWrapper::stream\_read »](streamwrapper.stream-read.html)
+-   [streamWrapper::streamread »](streamwrapper.stream-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ streamWrapper::streamopen — Відкриває файл або URL
 public streamWrapper::stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
 ```
 
-Цей метод викликається відразу після ініціалізації обгортки (наприклад, [fopen()](function.fopen.html) і [file\_get\_contents()](function.file-get-contents.html)
+Цей метод викликається відразу після ініціалізації обгортки (наприклад, [fopen()](function.fopen.html) і [filegetcontents()](function.file-get-contents.html)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 
 > **Зауваження**
 > 
-> URL можна розділити на частини функцією [parse\_url()](function.parse-url.html). URL має бути відокремлений символами ://. Символи : та :/ поки працюють, але подальша підтримка не гарантується.
+> URL можна розділити на частини функцією [parseurl()](function.parse-url.html). URL має бути відокремлений символами ://. Символи : та :/ поки працюють, але подальша підтримка не гарантується.
 
 `mode`
 
@@ -47,10 +47,10 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 
 Зберігає додаткові прапори, що задаються API потоків. Може містити одне або кілька значень, які об'єднані операцією АБО. Значення наведені нижче.
 
-| Флаг                       | Описание                                                                                                                                                                                       |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`STREAM_USE_PATH`**      | Якщо шлях `path` відносний, потрібно шукати ресурс, використовуючи includepath.                                                                                                                |
-| **`STREAM_REPORT_ERRORS`** | Якщо цей прапор задано, Ви можете викликати помилки функцією [trigger\_error()](function.trigger-error.html) під час відкриття потоку. Якщо прапор не встановлено, помилки викликати не можна. |
+| Флаг                       | Описание                                                                                                                                                                                     |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`STREAM_USE_PATH`**      | Якщо шлях `path` відносний, потрібно шукати ресурс, використовуючи includepath.                                                                                                              |
+| **`STREAM_REPORT_ERRORS`** | Якщо цей прапор задано, Ви можете викликати помилки функцією [triggererror()](function.trigger-error.html) під час відкриття потоку. Якщо прапор не встановлено, помилки викликати не можна. |
 
 `opened_path`
 
@@ -73,4 +73,4 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 ### Дивіться також
 
 -   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [parse\_url()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти

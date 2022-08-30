@@ -1,6 +1,6 @@
 Перевіряє, чи текст містить підозрілі символи
 
--   [« Spoofchecker::\_\_construct](spoofchecker.construct.html)
+-   [« Spoofchecker::construct](spoofchecker.construct.html)
     
 -   [Spoofchecker::setAllowedLocales »](spoofchecker.setallowedlocales.html)
     

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+-   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
     
 -   Отримати колекцію зі схеми
     

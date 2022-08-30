@@ -1,8 +1,8 @@
 Створити новий словник, використовуючи тег
 
--   [« enchant\_broker\_list\_dicts](function.enchant-broker-list-dicts.html)
+-   [« enchantbrokerlistdicts](function.enchant-broker-list-dicts.html)
     
--   [enchant\_broker\_request\_pwl\_dict »](function.enchant-broker-request-pwl-dict.html)
+-   [enchantbrokerrequestpwldict »](function.enchant-broker-request-pwl-dict.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictiona
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 `tag`
 
@@ -50,7 +50,7 @@ enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictiona
 
 **Приклад #1 Приклад використання **enchantbrokerrequestdict()****
 
-Перевіряємо, чи існує словник за допомогою [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.html) і потім запитуємо його.
+Перевіряємо, чи існує словник за допомогою [enchantbrokerdictexists()](function.enchant-broker-dict-exists.html) і потім запитуємо його.
 
 ```php
 <?php
@@ -64,6 +64,6 @@ if (enchant_broker_dict_exists($broker,$tag)) {
 
 ### Дивіться також
 
--   [enchant\_dict\_describe()](function.enchant-dict-describe.html) - Повертає інформацію про словник
--   [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.html) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
--   [enchant\_broker\_free\_dict()](function.enchant-broker-free-dict.html) - звільняє ресурс словника
+-   [enchantdictdescribe()](function.enchant-dict-describe.html) - Повертає інформацію про словник
+-   [enchantbrokerdictexists()](function.enchant-broker-dict-exists.html) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
+-   [enchantbrokerfreedict()](function.enchant-broker-free-dict.html) - звільняє ресурс словника

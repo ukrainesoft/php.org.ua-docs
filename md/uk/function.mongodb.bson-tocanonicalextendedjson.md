@@ -1,12 +1,12 @@
 Повертає Canonical Extended JSON подання для значення BSON
 
--   [« MongoDB\\BSON\\fromPHP](function.mongodb.bson-fromphp.html)
+-   [« MongoDBBSONfromPHP](function.mongodb.bson-fromphp.html)
     
--   [MongoDB\\BSON\\toJSON »](function.mongodb.bson-tojson.html)
+-   [MongoDBBSONtoJSON »](function.mongodb.bson-tojson.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.html)
     
 -   Повертає Canonical Extended JSON подання для значення BSON
     
@@ -37,7 +37,7 @@ MongoDB\BSON\toCanonicalExtendedJSON(string $bson): string
 
 ### Помилки
 
--   Виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
+-   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### Приклади
 
@@ -106,7 +106,7 @@ foreach ($documents as $document) {
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\fromJSON()](function.mongodb.bson-fromjson.html) - Повертає подання BSON значення JSON
--   [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) - Повертає Relaxed Extended JSON подання значення BSON
+-   [MongoDBBSONfromJSON()](function.mongodb.bson-fromjson.html) - Повертає подання BSON значення JSON
+-   [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) - Повертає Relaxed Extended JSON подання значення BSON
 -   [» Спецификация Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

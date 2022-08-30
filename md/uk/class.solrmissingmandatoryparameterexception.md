@@ -2,7 +2,7 @@
 
 -   [« SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.html)
     
--   [Модули для работы с серверами »](refs.utilspec.server.html)
+-   [Модулі для роботи із серверами »](refs.utilspec.server.html)
     
 -   [PHP Manual](index.html)
     

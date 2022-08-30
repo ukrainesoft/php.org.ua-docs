@@ -2,11 +2,11 @@
 
 -   [« empty](function.empty.html)
     
--   [get\_debug\_type »](function.get-debug-type.html)
+-   [getdebugtype »](function.get-debug-type.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає значення змінної у вигляді числа з точкою, що плаває
     
@@ -65,4 +65,4 @@ echo $float_value_of_var; // 0
 -   [intval()](function.intval.html) - Повертає ціле значення змінної
 -   [strval()](function.strval.html) - Повертає строкове значення змінної
 -   [settype()](function.settype.html) - Задає тип змінної
--   [Манипуляции с типами](language.types.type-juggling.html)
+-   [Маніпуляції з типами](language.types.type-juggling.html)

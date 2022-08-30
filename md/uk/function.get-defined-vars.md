@@ -1,12 +1,12 @@
 Повертає масив усіх певних змінних
 
--   [« get\_debug\_type](function.get-debug-type.html)
+-   [« getdebugtype](function.get-debug-type.html)
     
--   [get\_resource\_id »](function.get-resource-id.html)
+-   [getresourceid »](function.get-resource-id.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає масив усіх певних змінних
     
@@ -64,5 +64,5 @@ print_r(array_keys(get_defined_vars()));
 ### Дивіться також
 
 -   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [get\_defined\_functions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [get\_defined\_constants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень

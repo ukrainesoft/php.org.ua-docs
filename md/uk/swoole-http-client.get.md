@@ -1,12 +1,12 @@
 Надсилає HTTP-запит GET на віддалений сервер
 
--   [« Swoole\\Http\\Client::execute](swoole-http-client.execute.html)
+-   [« SwooleHttpClient::execute](swoole-http-client.execute.html)
     
--   [Swoole\\Http\\Client::isConnected »](swoole-http-client.isconnected.html)
+-   [SwooleHttpClient::isConnected »](swoole-http-client.isconnected.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Надсилає HTTP-запит GET на віддалений сервер
     

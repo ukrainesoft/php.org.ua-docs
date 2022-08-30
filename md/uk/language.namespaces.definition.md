@@ -1,6 +1,6 @@
 Визначення просторів імен
 
--   [« Обзор пространств имён](language.namespaces.rationale.html)
+-   [« Огляд просторів імен](language.namespaces.rationale.html)
     
 -   [Определение подпространств имён »](language.namespaces.nested.html)
     

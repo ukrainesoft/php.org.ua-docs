@@ -1,12 +1,12 @@
 Перевіряє, що значення може бути викликане як функція у поточній області видимості
 
--   [« is\_bool](function.is-bool.html)
+-   [« isbool](function.is-bool.html)
     
--   [is\_countable »](function.is-countable.html)
+-   [ісcountable »](function.is-countable.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, що значення може бути викликане як функція у поточній області видимості
     
@@ -117,12 +117,12 @@ bool(false)
 
 ### Примітки
 
--   Об'єкт завжди є callable, якщо він реалізує [\_\_invoke()](language.oop5.magic.html#object.invoke), і цей метод доступний у поточній області видимості.
--   Ім'я класу є callable, якщо воно реалізує [\_\_callStatic()](language.oop5.overloading.html#object.callstatic)
--   Якщо об'єкт реалізує [\_\_call()](language.oop5.overloading.html#object.call)тоді ця функція поверне **`true`** для будь-якого методу цього об'єкта, навіть якщо метод не визначено.
+-   Об'єкт завжди є callable, якщо він реалізує [invoke()](language.oop5.magic.html#object.invoke), і цей метод доступний у поточній області видимості.
+-   Ім'я класу є callable, якщо воно реалізує [callStatic()](language.oop5.overloading.html#object.callstatic)
+-   Якщо об'єкт реалізує [call()](language.oop5.overloading.html#object.call)тоді ця функція поверне **`true`** для будь-якого методу цього об'єкта, навіть якщо метод не визначено.
 -   Функція може запускати автозавантаження, якщо викликається під назвою класу.
 
 ### Дивіться також
 
--   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   [method\_exists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
+-   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі

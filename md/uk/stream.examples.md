@@ -2,7 +2,7 @@
 
 -   [« Ошибки потока](stream.errors.html)
     
--   [Пример класса, зарегистрированного в качестве обёртки потока »](stream.streamwrapper.example-1.html)
+-   [Приклад класу, зареєстрованого як обгортка потоку »](stream.streamwrapper.example-1.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,9 +15,9 @@
 
 ## Зміст
 
--   [Пример класса, зарегистрированного в качестве обёртки потока](stream.streamwrapper.example-1.html)
+-   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
 
-**Приклад #1 Використання [file\_get\_contents()](function.file-get-contents.html) для отримання даних із різних джерел**
+**Приклад #1 Використання [filegetcontents()](function.file-get-contents.html) для отримання даних із різних джерел**
 
 ```php
 <?php

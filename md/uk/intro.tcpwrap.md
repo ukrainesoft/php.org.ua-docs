@@ -1,6 +1,6 @@
 Вступ
 
--   [« TCP](book.tcpwrap.html)
+-   [«TCP](book.tcpwrap.html)
     
 -   [Установка и настройка »](tcpwrap.setup.html)
     

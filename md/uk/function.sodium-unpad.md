@@ -1,6 +1,6 @@
 Видалення даних відступів
 
--   [« sodium\_pad](function.sodium-pad.html)
+-   [« sodiumpad](function.sodium-pad.html)
     
 -   [SodiumException »](class.sodiumexception.html)
     

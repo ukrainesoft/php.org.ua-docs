@@ -1,8 +1,8 @@
 Встановлює заголовки SOAP для наступних дзвінків
 
--   [« SoapClient::\_\_setLocation](soapclient.setlocation.html)
+-   [« SoapClient::setLocation](soapclient.setlocation.html)
     
--   [SoapClient::\_\_soapCall »](soapclient.soapcall.html)
+-   [SoapClient::soapCall »](soapclient.soapcall.html)
     
 -   [PHP Manual](index.html)
     

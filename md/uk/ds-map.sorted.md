@@ -1,8 +1,8 @@
 Повертає відсортовану за значенням копію колекції
 
--   [« Ds\\Map::sort](ds-map.sort.html)
+-   [« DsMap::sort](ds-map.sort.html)
     
--   [Ds\\Map::sum »](ds-map.sum.html)
+-   [ДсMap::sum »](ds-map.sum.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,7 +45,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання [Ds\\Map::sort()](ds-map.sort.html)**
+**Приклад #1 Приклад використання [ДсMap::sort()](ds-map.sort.html)**
 
 ```php
 <?php
@@ -81,7 +81,7 @@ Ds\Map Object
 )
 ```
 
-**Приклад #2 Приклад використання [Ds\\Map::sort()](ds-map.sort.html) з callback-функцією порівняння**
+**Приклад #2 Приклад використання [ДсMap::sort()](ds-map.sort.html) з callback-функцією порівняння**
 
 ```php
 <?php

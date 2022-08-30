@@ -1,8 +1,8 @@
 Вісельник
 
--   [« trader\_cdlhammer](function.trader-cdlhammer.html)
+-   [« tradercdlhammer](function.trader-cdlhammer.html)
     
--   [trader\_cdlharami »](function.trader-cdlharami.html)
+-   [tradercdlharami »](function.trader-cdlharami.html)
     
 -   [PHP Manual](index.html)
     

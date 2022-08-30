@@ -1,6 +1,6 @@
 Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
 
--   [« easter\_days](function.easter-days.html)
+-   [« easterdays](function.easter-days.html)
     
 -   [gregoriantojd »](function.gregoriantojd.html)
     
@@ -48,4 +48,4 @@ frenchtojd(int $month, int $day, int $year): int
 ### Дивіться також
 
 -   [jdtofrench()](function.jdtofrench.html) - Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
--   [cal\_to\_jd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
+-   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську

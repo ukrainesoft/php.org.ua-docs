@@ -1,12 +1,12 @@
 Створює об'єкт із масиву BSON або документа
 
--   [« MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.html)
+-   [« MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
     
--   [MongoDB\\BSON\\BinaryInterface »](class.mongodb-bson-binaryinterface.html)
+-   [MongoDBBSONBinaryInterface »](class.mongodb-bson-binaryinterface.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.html)
+-   [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
     
 -   Створює об'єкт із масиву BSON або документа
     
@@ -27,7 +27,7 @@ abstract public MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void
 
 Не забудьте перевірити властивість id під час обробки даних із документа BSON.
 
-> **Зауваження**: Даний метод служить як [конструктора](language.oop5.decon.html#language.oop5.decon.constructor) об'єкта Метод [\_\_construct()](language.oop5.decon.html#object.construct) *не* буде викликатись після цього методу.
+> **Зауваження**: Даний метод служить як [конструктора](language.oop5.decon.html#language.oop5.decon.constructor) об'єкта Метод [construct()](language.oop5.decon.html#object.construct) *не* буде викликатись після цього методу.
 
 ### Список параметрів
 
@@ -77,6 +77,6 @@ object(MyDocument)#1 (1) {
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
--   [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html)
--   [Постоянные данные](mongodb.persistence.html)
+-   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
+-   [Постійні дані](mongodb.persistence.html)

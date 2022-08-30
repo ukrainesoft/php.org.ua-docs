@@ -1,8 +1,8 @@
 Отримує ID процесу сервера БД
 
--   [« pg\_get\_notify](function.pg-get-notify.html)
+-   [« pggetnotify](function.pg-get-notify.html)
     
--   [pg\_get\_result »](function.pg-get-result.html)
+-   [пгgetresult »](function.pg-get-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@
 pg_get_pid(PgSql\Connection $connection): int
 ```
 
-**пгgetpid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [pg\_get\_notify()](function.pg-get-notify.html) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
+**пгgetpid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [пгgetnotify()](function.pg-get-notify.html) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ ID процесу сервера бази даних.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -60,4 +60,4 @@ $pid = pg_get_pid($conn);
 
 ### Дивіться також
 
--   [pg\_get\_notify()](function.pg-get-notify.html) - Отримання SQL NOTIFY повідомлення
+-   [пгgetnotify()](function.pg-get-notify.html) - Отримання SQL NOTIFY повідомлення

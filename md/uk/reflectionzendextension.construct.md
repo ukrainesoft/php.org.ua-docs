@@ -1,6 +1,6 @@
 Конструктор
 
--   [« ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.html)
+-   [« ReflectionZendExtension::clone](reflectionzendextension.clone.html)
     
 -   [ReflectionZendExtension::export »](reflectionzendextension.export.html)
     

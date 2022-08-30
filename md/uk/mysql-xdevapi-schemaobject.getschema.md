@@ -1,12 +1,12 @@
 Отримує об'єкт схеми
 
--   [« mysql\_xdevapi\\SchemaObject](class.mysql-xdevapi-schemaobject.html)
+-   [« mysqlxdevapiSchemaObject](class.mysql-xdevapi-schemaobject.html)
     
--   [mysql\_xdevapi\\Session »](class.mysql-xdevapi-session.html)
+-   [mysqlxdevapiSession »](class.mysql-xdevapi-session.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SchemaObject](class.mysql-xdevapi-schemaobject.html)
+-   [mysqlxdevapiSchemaObject](class.mysql-xdevapi-schemaobject.html)
     
 -   Отримує об'єкт схеми
     

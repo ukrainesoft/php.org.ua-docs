@@ -37,7 +37,7 @@ public LimitIterator::seek(int $offset): int
 
 ### Помилки
 
-Викидає виняток [OutOfBoundsException](class.outofboundsexception.html)якщо задана позиція виходить за межі, передані конструктору [LimitIterator::\_\_construct()](limititerator.construct.html)
+Викидає виняток [OutOfBoundsException](class.outofboundsexception.html)якщо задана позиція виходить за межі, передані конструктору [LimitIterator::construct()](limititerator.construct.html)
 
 ### Дивіться також
 

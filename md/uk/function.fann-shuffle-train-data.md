@@ -1,8 +1,8 @@
 Перемішує навчальні дані у випадковому порядку
 
--   [« fann\_set\_weight](function.fann-set-weight.html)
+-   [« fannsetweight](function.fann-set-weight.html)
     
--   [fann\_subset\_train\_data »](function.fann-subset-train-data.html)
+-   [fannsubsettraindata »](function.fann-subset-train-data.html)
     
 -   [PHP Manual](index.html)
     

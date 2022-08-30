@@ -1,12 +1,12 @@
 Виводить текст у поточній позиції
 
--   [« ps\_show\_xy](function.ps-show-xy.html)
+-   [«psshowзі](function.ps-show-xy.html)
     
--   [ps\_show »](function.ps-show.html)
+-   [псshow »](function.ps-show.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Виводить текст у поточній позиції
     
@@ -29,7 +29,7 @@ ps_show2(resource $psdoc, string $text, int $len): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `text`
 

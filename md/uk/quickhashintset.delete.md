@@ -1,6 +1,6 @@
 Метод видаляє запис із набору
 
--   [« QuickHashIntSet::\_\_construct](quickhashintset.construct.html)
+-   [« QuickHashIntSet::construct](quickhashintset.construct.html)
     
 -   [QuickHashIntSet::exists »](quickhashintset.exists.html)
     

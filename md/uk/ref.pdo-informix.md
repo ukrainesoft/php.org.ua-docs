@@ -1,12 +1,12 @@
 Функції Informix (PDOINFORMIX)
 
--   [« PDO\_IBM DSN](ref.pdo-ibm.connection.html)
+-   [« PDOIBM DSN](ref.pdo-ibm.connection.html)
     
--   [PDO\_INFORMIX DSN »](ref.pdo-informix.connection.html)
+-   [PDOINFORMIX DSN »](ref.pdo-informix.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції Informix (PDOINFORMIX)
     
@@ -35,4 +35,4 @@ PDOINFORMIX підтримує курсори, що перемотуються; 
 
 ## Зміст
 
--   [PDO\_INFORMIX DSN](ref.pdo-informix.connection.html) — З'єднання з базою даних Informix
+-   [PDOINFORMIX DSN](ref.pdo-informix.connection.html) — З'єднання з базою даних Informix

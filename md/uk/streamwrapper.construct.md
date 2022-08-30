@@ -2,7 +2,7 @@
 
 -   [« streamWrapper](class.streamwrapper.html)
     
--   [streamWrapper::\_\_destruct »](streamwrapper.destruct.html)
+-   [streamWrapper::destruct »](streamwrapper.destruct.html)
     
 -   [PHP Manual](index.html)
     
@@ -21,7 +21,7 @@ streamWrapper::construct — Створює новий об'єкт оберта�
 
 public **streamWrapper::construct**
 
-Викликається при відкритті обгортки потоку безпосередньо перед викликом методу [streamWrapper::stream\_open()](streamwrapper.stream-open.html)
+Викликається при відкритті обгортки потоку безпосередньо перед викликом методу [streamWrapper::streamopen()](streamwrapper.stream-open.html)
 
 ### Список параметрів
 

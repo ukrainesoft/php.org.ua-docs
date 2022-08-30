@@ -1,8 +1,8 @@
 Повертає останній SOAP-запит
 
--   [« SoapClient::\_\_getFunctions](soapclient.getfunctions.html)
+-   [« SoapClient::getFunctions](soapclient.getfunctions.html)
     
--   [SoapClient::\_\_getLastRequestHeaders »](soapclient.getlastrequestheaders.html)
+-   [SoapClient::getLastRequestHeaders »](soapclient.getlastrequestheaders.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,6 +51,6 @@ echo "ЗАПРОС:\n" . $client->__getLastRequest() . "\n";
 
 ### Дивіться також
 
--   [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.html) - Повертає SOAP-заголовки останнього запиту
--   [SoapClient::\_\_getLastResponse()](soapclient.getlastresponse.html) - Повертає останню SOAP-відповідь
--   [SoapClient::\_\_getLastResponseHeaders()](soapclient.getlastresponseheaders.html) - Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.html) - Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::getLastResponse()](soapclient.getlastresponse.html) - Повертає останню SOAP-відповідь
+-   [SoapClient::getLastResponseHeaders()](soapclient.getlastresponseheaders.html) - Повертає SOAP-заголовки останньої відповіді

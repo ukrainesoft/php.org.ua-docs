@@ -1,8 +1,8 @@
 Реєструє функцію для виконання при кожному тику
 
--   [« register\_shutdown\_function](function.register-shutdown-function.html)
+-   [« registershutdownfunction](function.register-shutdown-function.html)
     
--   [unregister\_tick\_function »](function.unregister-tick-function.html)
+-   [unregistertickfunction »](function.unregister-tick-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,4 +57,4 @@ register_tick_function(array($object, 'my_method'), true);
 ### Дивіться також
 
 -   [declare](control-structures.declare.html)
--   [unregister\_tick\_function()](function.unregister-tick-function.html) - Видаляє функцію зі списку зареєстрованих для виконання на кожному тику
+-   [unregistertickfunction()](function.unregister-tick-function.html) - Видаляє функцію зі списку зареєстрованих для виконання на кожному тику

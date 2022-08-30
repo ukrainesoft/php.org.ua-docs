@@ -2,11 +2,11 @@
 
 -   [« TableDelete::orderby](mysql-xdevapi-tabledelete.orderby.html)
     
--   [mysql\_xdevapi\\TableInsert »](class.mysql-xdevapi-tableinsert.html)
+-   [mysqlxdevapiTableInsert »](class.mysql-xdevapi-tableinsert.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableDelete](class.mysql-xdevapi-tabledelete.html)
+-   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     
 -   Встановлює умову пошуку для видалення
     

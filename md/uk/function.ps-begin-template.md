@@ -1,12 +1,12 @@
 Починає новий шаблон
 
--   [« ps\_begin\_pattern](function.ps-begin-pattern.html)
+-   [«psbeginpattern](function.ps-begin-pattern.html)
     
--   [ps\_circle »](function.ps-circle.html)
+-   [псcircle »](function.ps-circle.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Починає новий шаблон
     
@@ -23,13 +23,13 @@
 ps_begin_template(resource $psdoc, float $width, float $height): int
 ```
 
-Починає новий шаблон. На мові postscript шаблон називається формою. Він створюється аналогічно візерунку, але використовується як зображення. Шаблони часто використовуються для малюнків, які розміщуються в документі кілька разів, наприклад, як логотип компанії. У шаблоні можна використовувати усі функції малювання. Шаблон не буде намальований, поки він не буде розміщений за допомогою [ps\_place\_image()](function.ps-place-image.html)
+Починає новий шаблон. На мові postscript шаблон називається формою. Він створюється аналогічно візерунку, але використовується як зображення. Шаблони часто використовуються для малюнків, які розміщуються в документі кілька разів, наприклад, як логотип компанії. У шаблоні можна використовувати усі функції малювання. Шаблон не буде намальований, поки він не буде розміщений за допомогою [псplaceimage()](function.ps-place-image.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `width`
 
@@ -83,4 +83,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [ps\_end\_template()](function.ps-end-template.html) - Завершує шаблон
+-   [псendtemplate()](function.ps-end-template.html) - Завершує шаблон

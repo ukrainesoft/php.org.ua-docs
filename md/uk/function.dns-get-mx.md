@@ -1,12 +1,12 @@
 Псевдонім getmxrr
 
--   [« dns\_check\_record](function.dns-check-record.html)
+-   [« dnscheckrecord](function.dns-check-record.html)
     
--   [dns\_get\_record »](function.dns-get-record.html)
+-   [dnsgetrecord »](function.dns-get-record.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Псевдонім getmxrr
     

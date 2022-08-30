@@ -1,12 +1,12 @@
 Намалювати лінію
 
--   [« UI\\Draw\\Path::end](ui-draw-path.end.html)
+-   [« UIDrawPath::end](ui-draw-path.end.html)
     
--   [UI\\Draw\\Path::newFigure »](ui-draw-path.newfigure.html)
+-   [ОЙDrawPath::newFigure »](ui-draw-path.newfigure.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Намалювати лінію
     

@@ -2,7 +2,7 @@
 
 -   [« Новая функциональность](migration81.new-features.html)
     
--   [Новые функции »](migration81.new-functions.html)
+-   [Нові функції »](migration81.new-functions.html)
     
 -   [PHP Manual](index.html)
     

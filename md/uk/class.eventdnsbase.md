@@ -134,7 +134,7 @@ public
 -   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.html) — Додає сервер імен до бази DNS
 -   [EventDnsBase::addSearch](eventdnsbase.addsearch.html) — Додає домен до списку пошукових доменів
 -   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.html) — Видаляє всі поточні суфікси пошуку
--   [EventDnsBase::\_\_construct](eventdnsbase.construct.html) - Конструктор об'єкта EventDnsBase
+-   [EventDnsBase::construct](eventdnsbase.construct.html) - Конструктор об'єкта EventDnsBase
 -   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.html) — Отримує кількість налаштованих серверів імен
 -   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.html) — Завантажує файл hosts (у тому форматі, що і /etc/hosts) з файлу hosts
 -   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.html) — Сканує файл у форматі resolv.conf

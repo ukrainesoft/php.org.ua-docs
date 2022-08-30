@@ -1,12 +1,12 @@
 Переказує число з вісімкової системи числення до десяткової
 
--   [« mt\_srand](function.mt-srand.html)
+-   [« mtsrand](function.mt-srand.html)
     
 -   [pi »](function.pi.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Переказує число з вісімкової системи числення до десяткової
     
@@ -70,4 +70,4 @@ echo octdec(decoct(45));
 -   [decoct()](function.decoct.html) - Переводить число з десяткової системи числення до восьмирічної
 -   [bindec()](function.bindec.html) - Двійкове у десяткове
 -   [hexdec()](function.hexdec.html) - Переводить число з шістнадцяткової системи числення до десяткової
--   [base\_convert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення

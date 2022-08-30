@@ -2,7 +2,7 @@
 
 -   [« Функции модуля Fileinfo](ref.fileinfo.html)
     
--   [finfo\_close »](function.finfo-close.html)
+-   [finfoclose »](function.finfo-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -39,7 +39,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 `string`
 
@@ -64,7 +64,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### Приклади
 
-**Приклад #1 Приклад [finfo\_buffer()](finfo.buffer.html)**
+**Приклад #1 Приклад [finfobuffer()](finfo.buffer.html)**
 
 ```php
 <?php
@@ -81,4 +81,4 @@ application/x-sh; charset=us-ascii
 
 ### Дивіться також
 
--   [finfo\_file()](finfo.file.html) - Псевдонім finfofile()
+-   [finfofile()](finfo.file.html) - Псевдонім finfofile()

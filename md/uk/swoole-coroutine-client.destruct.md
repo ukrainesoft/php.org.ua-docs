@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::\_\_construct](swoole-coroutine-client.construct.html)
+-   [« SwooleCoroutineClient::construct](swoole-coroutine-client.construct.html)
     
--   [Swoole\\Coroutine\\Client::getpeername »](swoole-coroutine-client.getpeername.html)
+-   [SwooleCoroutineClient::getpeername »](swoole-coroutine-client.getpeername.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

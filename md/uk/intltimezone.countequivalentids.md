@@ -1,6 +1,6 @@
 Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
 
--   [« IntlTimeZone::\_\_construct](intltimezone.construct.html)
+-   [« IntlTimeZone::construct](intltimezone.construct.html)
     
 -   [IntlTimeZone::createDefault »](intltimezone.createdefault.html)
     

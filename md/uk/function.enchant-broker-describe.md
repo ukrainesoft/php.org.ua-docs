@@ -2,7 +2,7 @@
 
 -   [« Функции Enchant](ref.enchant.html)
     
--   [enchant\_broker\_dict\_exists »](function.enchant-broker-dict-exists.html)
+-   [enchantbrokerdictexists »](function.enchant-broker-dict-exists.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_describe(EnchantBroker $broker): array
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 

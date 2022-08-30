@@ -1,6 +1,6 @@
 Повертає розмір масиву
 
--   [« SplFixedArray::\_\_construct](splfixedarray.construct.html)
+-   [« SplFixedArray::construct](splfixedarray.construct.html)
     
 -   [SplFixedArray::current »](splfixedarray.current.html)
     

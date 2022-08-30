@@ -1,12 +1,12 @@
 Бере зображення GD та повертає зображення для розміщення в документі PS
 
--   [« ps\_open\_image](function.ps-open-image.html)
+-   [«psopenimage](function.ps-open-image.html)
     
--   [ps\_place\_image »](function.ps-place-image.html)
+-   [псplaceimage »](function.ps-place-image.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Бере зображення GD та повертає зображення для розміщення в документі PS
     
@@ -31,6 +31,6 @@ ps_open_memory_image(resource $psdoc, int $gd): int
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `gd`

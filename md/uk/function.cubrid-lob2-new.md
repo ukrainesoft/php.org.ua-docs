@@ -1,8 +1,8 @@
 Створює об'єкт LOB
 
--   [« cubrid\_lob2\_import](function.cubrid-lob2-import.html)
+-   [« cubridlob2import](function.cubrid-lob2-import.html)
     
--   [cubrid\_lob2\_read »](function.cubrid-lob2-read.html)
+-   [cubridlob2read »](function.cubrid-lob2-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 
 `conn_identifier`
 
-Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.html) або [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.html)
+Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) або [cubridconnectwithurl()](function.cubrid-connect-with-url.html)
 
 `type`
 
@@ -41,4 +41,4 @@ cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 
 ### Дивіться також
 
--   [cubrid\_lob2\_close()](function.cubrid-lob2-close.html) - Закриває об'єкт LOB
+-   [cubridlob2close()](function.cubrid-lob2-close.html) - Закриває об'єкт LOB

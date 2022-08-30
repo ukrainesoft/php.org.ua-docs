@@ -1,12 +1,12 @@
 Призначення isset
 
--   [« Yaf\_Session::has](yaf-session.has.html)
+-   [« YafSession::has](yaf-session.has.html)
     
--   [Yaf\_Session::key »](yaf-session.key.html)
+-   [YafSession::key »](yaf-session.key.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Session](class.yaf-session.html)
+-   [YafSession](class.yaf-session.html)
     
 -   Призначення isset
     

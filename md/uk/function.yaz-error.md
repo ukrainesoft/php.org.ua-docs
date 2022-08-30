@@ -1,8 +1,8 @@
 Повертає опис помилки
 
--   [« yaz\_errno](function.yaz-errno.html)
+-   [« yazerrno](function.yaz-errno.html)
     
--   [yaz\_es\_result »](function.yaz-es-result.html)
+-   [yazесresult »](function.yaz-es-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ yazerror — Повертає опис помилки
 yaz_error(resource $id): string
 ```
 
-**yazerror()** повертає текстове повідомлення англійською мовою, що відповідає останньому номеру помилки, поверненому [yaz\_errno()](function.yaz-errno.html)
+**yazerror()** повертає текстове повідомлення англійською мовою, що відповідає останньому номеру помилки, поверненому [yazerrno()](function.yaz-errno.html)
 
 ### Список параметрів
 
 `id`
 
-Ресурс підключення, що повертається [yaz\_connect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ yaz_error(resource $id): string
 
 ### Дивіться також
 
--   [yaz\_errno()](function.yaz-errno.html) - Повертає номер помилки
--   [yaz\_addinfo()](function.yaz-addinfo.html) - Повертає додаткову інформацію у разі виникнення помилки
+-   [yazerrno()](function.yaz-errno.html) - Повертає номер помилки
+-   [yazaddinfo()](function.yaz-addinfo.html) - Повертає додаткову інформацію у разі виникнення помилки

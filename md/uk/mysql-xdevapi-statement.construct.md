@@ -1,12 +1,12 @@
 Опис конструктора
 
--   [« mysql\_xdevapi\\Statement](class.mysql-xdevapi-statement.html)
+-   [« mysqlxdevapiStatement](class.mysql-xdevapi-statement.html)
     
 -   [Statement::getNextResult »](mysql-xdevapi-statement.getnextresult.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Statement](class.mysql-xdevapi-statement.html)
+-   [mysqlxdevapiStatement](class.mysql-xdevapi-statement.html)
     
 -   Опис конструктора
     

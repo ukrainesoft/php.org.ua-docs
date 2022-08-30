@@ -1,12 +1,12 @@
 Отримує змінну ENV
 
--   [« Yaf\_Request\_Abstract::getControllerName](yaf-request-abstract.getcontrollername.html)
+-   [« YafRequestAbstract::getControllerName](yaf-request-abstract.getcontrollername.html)
     
--   [Yaf\_Request\_Abstract::getException »](yaf-request-abstract.getexception.html)
+-   [YafRequestAbstract::getException »](yaf-request-abstract.getexception.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Отримує змінну ENV
     
@@ -41,5 +41,5 @@ public Yaf_Request_Abstract::getEnv(string $name, string $default = ?): void
 
 ### Дивіться також
 
--   [Yaf\_Request\_Abstract::getServer()](yaf-request-abstract.getserver.html) - Отримує змінну SERVER
--   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка
+-   [YafRequestAbstract::getServer()](yaf-request-abstract.getserver.html) - Отримує змінну SERVER
+-   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка

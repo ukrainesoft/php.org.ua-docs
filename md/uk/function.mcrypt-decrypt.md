@@ -1,8 +1,8 @@
 Розшифровує дані із заданими параметрами
 
--   [« mcrypt\_create\_iv](function.mcrypt-create-iv.html)
+-   [« mcryptcreateверб](function.mcrypt-create-iv.html)
     
--   [mcrypt\_enc\_get\_algorithms\_name »](function.mcrypt-enc-get-algorithms-name.html)
+-   [mcryptencgetalgorithmsname »](function.mcrypt-enc-get-algorithms-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,4 +57,4 @@ mcrypt_decrypt(    string $cipher,    string $key,    string $data,�
 
 ### Дивіться також
 
--   [mcrypt\_encrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами
+-   [mcryptencrypt()](function.mcrypt-encrypt.html) - Шифрує текст із заданими параметрами

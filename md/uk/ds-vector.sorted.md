@@ -1,8 +1,8 @@
 Повертає відсортовану за значенням копію колекції
 
--   [« Ds\\Vector::sort](ds-vector.sort.html)
+-   [« DsVector::sort](ds-vector.sort.html)
     
--   [Ds\\Vector::sum »](ds-vector.sum.html)
+-   [ДсVector::sum »](ds-vector.sum.html)
     
 -   [PHP Manual](index.html)
     

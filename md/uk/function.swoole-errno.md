@@ -1,8 +1,8 @@
 Отримати код помилки останнього системного виклику
 
--   [« swoole\_cpu\_num](function.swoole-cpu-num.html)
+-   [« swoolecpunum](function.swoole-cpu-num.html)
     
--   [swoole\_error\_log »](function.swoole-error-log.html)
+-   [swooleerrorlog »](function.swoole-error-log.html)
     
 -   [PHP Manual](index.html)
     

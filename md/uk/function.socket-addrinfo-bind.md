@@ -1,8 +1,8 @@
 Створити та прив'язати до сокету із вказаного addrinfo
 
--   [« socket\_accept](function.socket-accept.html)
+-   [« socketaccept](function.socket-accept.html)
     
--   [socket\_addrinfo\_connect »](function.socket-addrinfo-connect.html)
+-   [socketaddrinfoconnect »](function.socket-addrinfo-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ socketaddrinfobind — Створити та прив'язати до сокет
 socket_addrinfo_bind(AddressInfo $address): Socket|false
 ```
 
-Створити екземпляр [Socket](class.socket.html) та прив'язати його з наданим [AddressInfo](class.addressinfo.html). Значення цієї функції, що повертається, може використовуватися з [socket\_listen()](function.socket-listen.html)
+Створити екземпляр [Socket](class.socket.html) та прив'язати його з наданим [AddressInfo](class.addressinfo.html). Значення цієї функції, що повертається, може використовуватися з [socketlisten()](function.socket-listen.html)
 
 ### Список параметрів
 
 `address`
 
-Екземпляр [AddressInfo](class.addressinfo.html), створений за допомогою [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html)
+Екземпляр [AddressInfo](class.addressinfo.html), створений за допомогою [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
 
 ### Значення, що повертаються
 
@@ -44,7 +44,7 @@ socket_addrinfo_bind(AddressInfo $address): Socket|false
 
 ### Дивіться також
 
--   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html) - Створити та підключитися до сокету із вказаного addrinfo
--   [socket\_addrinfo\_explain()](function.socket-addrinfo-explain.html) - Отримати інформацію про addrinfo
--   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketaddrinfoconnect()](function.socket-addrinfo-connect.html) - Створити та підключитися до сокету із вказаного addrinfo
+-   [socketaddrinfoexplain()](function.socket-addrinfo-explain.html) - Отримати інформацію про addrinfo
+-   [socketaddrinfolookup()](function.socket-addrinfo-lookup.html) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті

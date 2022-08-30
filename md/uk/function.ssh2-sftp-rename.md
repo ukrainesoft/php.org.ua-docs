@@ -1,12 +1,12 @@
 Перейменовує файл
 
--   [« ssh2\_sftp\_realpath](function.ssh2-sftp-realpath.html)
+-   [« ssh2sftprealpath](function.ssh2-sftp-realpath.html)
     
--   [ssh2\_sftp\_rmdir »](function.ssh2-sftp-rmdir.html)
+-   [ssh2sftprmdir »](function.ssh2-sftp-rmdir.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Перейменовує файл
     
@@ -29,7 +29,7 @@ ssh2_sftp_rename(resource $sftp, string $from, string $to): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `from`
 

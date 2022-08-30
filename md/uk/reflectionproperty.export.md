@@ -1,6 +1,6 @@
 Експорт
 
--   [« ReflectionProperty::\_\_construct](reflectionproperty.construct.html)
+-   [« ReflectionProperty::construct](reflectionproperty.construct.html)
     
 -   [ReflectionProperty::getAttributes »](reflectionproperty.getattributes.html)
     
@@ -51,4 +51,4 @@ public static ReflectionProperty::export(mixed $class, string $name, bool $retur
 
 ### Дивіться також
 
--   [ReflectionProperty::\_\_toString()](reflectionproperty.tostring.html) - Перетворення на рядок
+-   [ReflectionProperty::toString()](reflectionproperty.tostring.html) - Перетворення на рядок

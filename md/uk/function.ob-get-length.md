@@ -1,12 +1,12 @@
 Повертає розмір буфера виводу
 
--   [« ob\_get\_flush](function.ob-get-flush.html)
+-   [« obgetflush](function.ob-get-flush.html)
     
--   [ob\_get\_level »](function.ob-get-level.html)
+-   [проgetlevel »](function.ob-get-level.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Повертає розмір буфера виводу
     
@@ -31,7 +31,7 @@ ob_get_length(): int|false
 
 ### Значення, що повертаються
 
-Повертає розмір у байтах вмісту буфера виводу або **`false`**якщо буферизація не активна.
+Повертає розмір у байтах вмісту буфера виводу або \*\*`false`\*\*якщо буферизація не активна.
 
 ### Приклади
 
@@ -64,5 +64,5 @@ echo $len1 . ", " . $len2;
 
 ### Дивіться також
 
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
--   [ob\_get\_contents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу

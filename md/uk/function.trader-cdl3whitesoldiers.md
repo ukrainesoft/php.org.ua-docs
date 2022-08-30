@@ -1,8 +1,8 @@
 Три наступаючі білі солдати
 
--   [« trader\_cdl3starsinsouth](function.trader-cdl3starsinsouth.html)
+-   [« tradercdl3starsinsouth](function.trader-cdl3starsinsouth.html)
     
--   [trader\_cdlabandonedbaby »](function.trader-cdlabandonedbaby.html)
+-   [tradercdlabandonedbaby »](function.trader-cdlabandonedbaby.html)
     
 -   [PHP Manual](index.html)
     

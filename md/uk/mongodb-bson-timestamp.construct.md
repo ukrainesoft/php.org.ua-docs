@@ -1,12 +1,12 @@
 Створює новий Timestamp
 
--   [« MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
+-   [« MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
--   [MongoDB\\BSON\\Timestamp::getIncrement »](mongodb-bson-timestamp.getincrement.html)
+-   [MongoDBBSONTimestamp::getIncrement »](mongodb-bson-timestamp.getincrement.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
+-   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
 -   Створює новий Timestamp
     
@@ -35,7 +35,7 @@ final public MongoDB\BSON\Timestamp::__construct(int $increment, int $timestamp)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

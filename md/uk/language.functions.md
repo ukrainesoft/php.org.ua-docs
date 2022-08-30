@@ -2,7 +2,7 @@
 
 -   [« goto](control-structures.goto.html)
     
--   [Функции, определяемые пользователем »](functions.user-defined.html)
+-   [Функції, що визначаються користувачем »](functions.user-defined.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,11 +15,11 @@
 
 ## Зміст
 
--   [Функции, определяемые пользователем](functions.user-defined.html)
+-   [Функції, визначені користувачем](functions.user-defined.html)
 -   [Аргументы функции](functions.arguments.html)
 -   [Возврат значений](functions.returning-values.html)
 -   [Обращение к функциям через переменные](functions.variable-functions.html)
--   [Встроенные функции](functions.internal.html)
--   [Анонимные функции](functions.anonymous.html)
--   [Стрелочные функции](functions.arrow.html)
--   [Callback-функции как объекты первого класса](functions.first_class_callable_syntax.html)
+-   [Вбудовані функції](functions.internal.html)
+-   [Анонімні функції](functions.anonymous.html)
+-   [Стрілочні функції](functions.arrow.html)
+-   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.html)

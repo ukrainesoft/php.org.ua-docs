@@ -2,7 +2,7 @@
 
 -   [« Функции OPcache](ref.opcache.html)
     
--   [opcache\_get\_configuration »](function.opcache-get-configuration.html)
+-   [opcachegetconfiguration »](function.opcache-get-configuration.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,8 +37,8 @@ opcache_compile_file(string $filename): bool
 
 ### Помилки
 
-Якщо `filename` не може бути завантажений або скомпільований, буде видана помилка рівня **`E_WARNING`**. Для придушення попередження можна використовувати [@](language.operators.errorcontrol.html)
+Якщо `filename` не може бути завантажений або скомпільований, буде видана помилка рівня **`E_WARNING`**. Для придушення попередження можна використовувати[](language.operators.errorcontrol.html)
 
 ### Дивіться також
 
--   [opcache\_invalidate()](function.opcache-invalidate.html) - анулює закешований скрипт
+-   [opcacheinvalidate()](function.opcache-invalidate.html) - анулює закешований скрипт

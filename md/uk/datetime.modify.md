@@ -2,7 +2,7 @@
 
 -   [« DateTime::getLastErrors](datetime.getlasterrors.html)
     
--   [DateTime::\_\_set\_state »](datetime.set-state.html)
+-   [DateTime::setstate »](datetime.set-state.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,13 +33,13 @@ public DateTime::modify(string $modifier): DateTime|false
 date_modify(DateTime $object, string $modifier): DateTime|false
 ```
 
-Змінює мітку часу об'єкта DateTime шляхом додавання або віднімання часу у форматі, прийнятому для функції [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html)
+Змінює мітку часу об'єкта DateTime шляхом додавання або віднімання часу у форматі, прийнятому для функції [DateTimeImmutable::construct()](datetimeimmutable.construct.html)
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
 
 `modifier`
 

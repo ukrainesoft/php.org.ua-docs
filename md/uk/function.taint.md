@@ -1,6 +1,6 @@
 Зіпсувати рядок
 
--   [« is\_tainted](function.is-tainted.html)
+-   [« istainted](function.is-tainted.html)
     
 -   [untaint »](function.untaint.html)
     
@@ -33,4 +33,4 @@ taint(string &$string, string ...$strings): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо перетворення рядка виконано. Завжди повертає **`true`**якщо модуль taint не включений.
+Повертає \*\*`true`\*\*якщо перетворення рядка виконано. Завжди повертає \*\*`true`\*\*якщо модуль taint не включений.

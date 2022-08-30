@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](exif.resources.html)
     
--   [Exif Функции »](ref.exif.html)
+-   [Exif Функції »](ref.exif.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,4 +19,4 @@
 
 Ця константа дорівнює `1` якщо дозволено [mbstring](ref.mbstring.html), або `0`, якщо ні.
 
-Функція [exif\_imagetype()](function.exif-imagetype.html) відображає пов'язані вбудовані константи.
+Функція [exifimagetype()](function.exif-imagetype.html) відображає пов'язані вбудовані константи.

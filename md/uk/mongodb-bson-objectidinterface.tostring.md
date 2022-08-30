@@ -1,12 +1,12 @@
 Повертає шістнадцяткову виставу ObjectIdInterface
 
--   [« MongoDB\\BSON\\ObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html)
+-   [« MongoDBBSONObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html)
     
--   [MongoDB\\BSON\\RegexInterface »](class.mongodb-bson-regexinterface.html)
+-   [MongoDBBSONRegexInterface »](class.mongodb-bson-regexinterface.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.html)
+-   [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
     
 -   Повертає шістнадцяткову виставу ObjectIdInterface
     
@@ -33,4 +33,4 @@ abstract public MongoDB\BSON\ObjectIdInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\ObjectId::\_\_toString()](mongodb-bson-objectid.tostring.html) - Повертає шістнадцяткову виставу ObjectId
+-   [MongoDBBSONObjectId::toString()](mongodb-bson-objectid.tostring.html) - Повертає шістнадцяткову виставу ObjectId

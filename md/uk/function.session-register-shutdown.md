@@ -1,12 +1,12 @@
 Функція завершення сесії
 
--   [« session\_regenerate\_id](function.session-regenerate-id.html)
+-   [« sessionregenerateід](function.session-regenerate-id.html)
     
--   [session\_reset »](function.session-reset.html)
+-   [sessionreset »](function.session-reset.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Функція завершення сесії
     
@@ -23,7 +23,7 @@ sessionregistershutdown - Функція завершення сесії
 session_register_shutdown(): void
 ```
 
-Реєструє функцію [session\_write\_close()](function.session-write-close.html) як функція завершення сесії.
+Реєструє функцію [sessionwriteclose()](function.session-write-close.html) як функція завершення сесії.
 
 ### Список параметрів
 

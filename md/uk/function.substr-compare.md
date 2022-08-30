@@ -2,11 +2,11 @@
 
 -   [« strtr](function.strtr.html)
     
--   [substr\_count »](function.substr-count.html)
+-   [substrcount »](function.substr-count.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
     

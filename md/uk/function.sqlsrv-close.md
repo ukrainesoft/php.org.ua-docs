@@ -1,12 +1,12 @@
 Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
 
--   [« sqlsrv\_client\_info](function.sqlsrv-client-info.html)
+-   [« sqlsrvclientinfo](function.sqlsrv-client-info.html)
     
--   [sqlsrv\_commit »](function.sqlsrv-commit.html)
+-   [sqlsrvcommit »](function.sqlsrv-commit.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
     
@@ -59,4 +59,4 @@ sqlsrv_close( $conn );
 
 ### Дивіться також
 
--   [sqlsrv\_connect()](function.sqlsrv-connect.html) - Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrvconnect()](function.sqlsrv-connect.html) - Відкриває з'єднання з базою даних Microsoft SQL Server

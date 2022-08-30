@@ -1,8 +1,8 @@
 Вивільняє ресурс сертифіката
 
--   [« openssl\_x509\_fingerprint](function.openssl-x509-fingerprint.html)
+-   [« opensslx509fingerprint](function.openssl-x509-fingerprint.html)
     
--   [openssl\_x509\_parse »](function.openssl-x509-parse.html)
+-   [opensslx509parse »](function.openssl-x509-parse.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Вступ
 
--   [« Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [« Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   [Установка и настройка »](mysql-xdevapi.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Вступ
     

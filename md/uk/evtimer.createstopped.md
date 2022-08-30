@@ -1,6 +1,6 @@
 Створює зупинений спостерігач EvTimer
 
--   [« EvTimer::\_\_construct](evtimer.construct.html)
+-   [« EvTimer::construct](evtimer.construct.html)
     
 -   [EvTimer::set »](evtimer.set.html)
     
@@ -43,7 +43,7 @@ final
    ): EvTimer
 ```
 
-Створює зупинений спостерігач EvTimer. На відміну від [EvTimer::\_\_construct()](evtimer.construct.html), цей метод не запускає спостерігача автоматично.
+Створює зупинений спостерігач EvTimer. На відміну від [EvTimer::construct()](evtimer.construct.html), цей метод не запускає спостерігача автоматично.
 
 ### Список параметрів
 
@@ -57,7 +57,7 @@ final
 
 `callback`
 
-Дивіться [Наблюдатели callback-функций](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі callback-функцій](ev.watcher-callbacks.html)
 
 `data`
 
@@ -99,5 +99,5 @@ Ev::run();
 
 ### Дивіться також
 
--   [EvTimer::\_\_construct()](evtimer.construct.html) - Конструктор об'єкта спостерігача EvTimer
+-   [EvTimer::construct()](evtimer.construct.html) - Конструктор об'єкта спостерігача EvTimer
 -   [EvPeriodic](class.evperiodic.html)

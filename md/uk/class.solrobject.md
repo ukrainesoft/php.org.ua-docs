@@ -1,8 +1,8 @@
 Клас SolrObject
 
--   [« SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.html)
+-   [« SolrDocumentField::destruct](solrdocumentfield.destruct.html)
     
--   [SolrObject::\_\_construct »](solrobject.construct.html)
+-   [SolrObject::construct »](solrobject.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -52,8 +52,8 @@ public offsetUnset(string $property_name): void
 
 ## Зміст
 
--   [SolrObject::\_\_construct](solrobject.construct.html) — Створює об'єкт Solr
--   [SolrObject::\_\_destruct](solrobject.destruct.html) - Деструктор
+-   [SolrObject::construct](solrobject.construct.html) — Створює об'єкт Solr
+-   [SolrObject::destruct](solrobject.destruct.html) - Деструктор
 -   [SolrObject::getPropertyNames](solrobject.getpropertynames.html) - Повертає масив усіх імен властивостей
 -   [SolrObject::offsetExists](solrobject.offsetexists.html) — Перевіряє, чи існує властивість
 -   [SolrObject::offsetGet](solrobject.offsetget.html) — Використовується для отримання якості

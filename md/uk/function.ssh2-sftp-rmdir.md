@@ -1,12 +1,12 @@
 Видаляє директорію
 
--   [« ssh2\_sftp\_rename](function.ssh2-sftp-rename.html)
+-   [« ssh2sftprename](function.ssh2-sftp-rename.html)
     
--   [ssh2\_sftp\_stat »](function.ssh2-sftp-stat.html)
+-   [ssh2sftpstat »](function.ssh2-sftp-stat.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Видаляє директорію
     
@@ -31,7 +31,7 @@ ssh2_sftp_rmdir(resource $sftp, string $dirname): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `dirname`
 
@@ -57,4 +57,4 @@ ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
 ### Дивіться також
 
 -   [rmdir()](function.rmdir.html) - видаляє директорію
--   [ssh2\_sftp\_mkdir()](function.ssh2-sftp-mkdir.html) - Створити директорію
+-   [ssh2sftpmkdir()](function.ssh2-sftp-mkdir.html) - Створити директорію

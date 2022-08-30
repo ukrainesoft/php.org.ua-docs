@@ -1,12 +1,12 @@
 Клас Vector
 
--   [« Ds\\Sequence::unshift](ds-sequence.unshift.html)
+-   [« DsSequence::unshift](ds-sequence.unshift.html)
     
--   [Ds\\Vector::allocate »](ds-vector.allocate.html)
+-   [ДсVector::allocate »](ds-vector.allocate.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Клас Vector
     
@@ -100,37 +100,37 @@ public unshift(mixed $values = ?): void
 
 ## Зміст
 
--   [Ds\\Vector::allocate](ds-vector.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [Ds\\Vector::apply](ds-vector.apply.html) - Оновлює всі значення, застосовуючи до них передану callback-функцію
--   [Ds\\Vector::capacity](ds-vector.capacity.html) — Повертає поточну місткість
--   [Ds\\Vector::clear](ds-vector.clear.html) - Видаляє всі значення
--   [Ds\\Vector::\_\_construct](ds-vector.construct.html) - Створює новий екземпляр
--   [Ds\\Vector::contains](ds-vector.contains.html) — Перевіряє, чи міститься у векторі задані значення
--   [Ds\\Vector::copy](ds-vector.copy.html) — Повертає поверхневу копію вектора
--   [Ds\\Vector::count](ds-vector.count.html) — Повертає кількість елементів вектора
--   [Ds\\Vector::filter](ds-vector.filter.html) — Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
--   [Ds\\Vector::find](ds-vector.find.html) - Пошук індексу за значенням
--   [Ds\\Vector::first](ds-vector.first.html) — Повертає перший елемент вектора
--   [Ds\\Vector::get](ds-vector.get.html) — Повертає значення за індексом
--   [Ds\\Vector::insert](ds-vector.insert.html) — Вставляє значення за вказаним індексом
--   [Ds\\Vector::isEmpty](ds-vector.isempty.html) — Перевіряє, чи вектор порожній.
--   [Ds\\Vector::join](ds-vector.join.html) — Склеює всі значення в рядок
--   [Ds\\Vector::jsonSerialize](ds-vector.jsonserialize.html) — Повертає вектор у JSON-представництві
--   [Ds\\Vector::last](ds-vector.last.html) — Повертає останнє значення вектора
--   [Ds\\Vector::map](ds-vector.map.html) — Повертає результат застосування callback-функції до всіх значень вектора
--   [Ds\\Vector::merge](ds-vector.merge.html) — Повертає результат додавання всіх заданих значень у вектор.
--   [Ds\\Vector::pop](ds-vector.pop.html) — Видаляє та повертає останнє значення
--   [Ds\\Vector::push](ds-vector.push.html) — Додає значення до кінця вектора
--   [Ds\\Vector::reduce](ds-vector.reduce.html) - Зменшує вектор до одного значення, використовуючи callback-функцію
--   [Ds\\Vector::remove](ds-vector.remove.html) — Видаляє та повертає значення за індексом
--   [Ds\\Vector::reverse](ds-vector.reverse.html) — Перевертає поточний вектор
--   [Ds\\Vector::reversed](ds-vector.reversed.html) — Повертає перегорнуту копію вектора
--   [Ds\\Vector::rotate](ds-vector.rotate.html) — Перемотує вектор на задану кількість значень
--   [Ds\\Vector::set](ds-vector.set.html) — Замінює значення за вказаним індексом
--   [Ds\\Vector::shift](ds-vector.shift.html) — Видаляє та повертає перше значення
--   [Ds\\Vector::slice](ds-vector.slice.html) — Повертає підвектор із заданого діапазону
--   [Ds\\Vector::sort](ds-vector.sort.html) — Сортує вектор
--   [Ds\\Vector::sorted](ds-vector.sorted.html) — Повертає копію колекції, відсортовану за значенням.
--   [Ds\\Vector::sum](ds-vector.sum.html) — Повертає суму всіх значень колекції
--   [Ds\\Vector::toArray](ds-vector.toarray.html) — Перетворює колекцію на масив (array)
--   [Ds\\Vector::unshift](ds-vector.unshift.html) — Додає значення на початок вектора
+-   [ДсVector::allocate](ds-vector.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [ДсVector::apply](ds-vector.apply.html) - Оновлює всі значення, застосовуючи до них передану callback-функцію
+-   [ДсVector::capacity](ds-vector.capacity.html) — Повертає поточну місткість
+-   [ДсVector::clear](ds-vector.clear.html) - Видаляє всі значення
+-   [ДсVector::construct](ds-vector.construct.html) - Створює новий екземпляр
+-   [ДсVector::contains](ds-vector.contains.html) — Перевіряє, чи міститься у векторі задані значення
+-   [ДсVector::copy](ds-vector.copy.html) — Повертає поверхневу копію вектора
+-   [ДсVector::count](ds-vector.count.html) — Повертає кількість елементів вектора
+-   [ДсVector::filter](ds-vector.filter.html) — Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
+-   [ДсVector::find](ds-vector.find.html) - Пошук індексу за значенням
+-   [ДсVector::first](ds-vector.first.html) — Повертає перший елемент вектора
+-   [ДсVector::get](ds-vector.get.html) — Повертає значення за індексом
+-   [ДсVector::insert](ds-vector.insert.html) — Вставляє значення за вказаним індексом
+-   [ДсVector::isEmpty](ds-vector.isempty.html) — Перевіряє, чи вектор порожній.
+-   [ДсVector::join](ds-vector.join.html) — Склеює всі значення в рядок
+-   [ДсVector::jsonSerialize](ds-vector.jsonserialize.html) — Повертає вектор у JSON-представництві
+-   [ДсVector::last](ds-vector.last.html) — Повертає останнє значення вектора
+-   [ДсVector::map](ds-vector.map.html) — Повертає результат застосування callback-функції до всіх значень вектора
+-   [ДсVector::merge](ds-vector.merge.html) — Повертає результат додавання всіх заданих значень у вектор.
+-   [ДсVector::pop](ds-vector.pop.html) — Видаляє та повертає останнє значення
+-   [ДсVector::push](ds-vector.push.html) — Додає значення до кінця вектора
+-   [ДсVector::reduce](ds-vector.reduce.html) - Зменшує вектор до одного значення, використовуючи callback-функцію
+-   [ДсVector::remove](ds-vector.remove.html) — Видаляє та повертає значення за індексом
+-   [ДсVector::reverse](ds-vector.reverse.html) — Перевертає поточний вектор
+-   [ДсVector::reversed](ds-vector.reversed.html) — Повертає перегорнуту копію вектора
+-   [ДсVector::rotate](ds-vector.rotate.html) — Перемотує вектор на задану кількість значень
+-   [ДсVector::set](ds-vector.set.html) — Замінює значення за вказаним індексом
+-   [ДсVector::shift](ds-vector.shift.html) — Видаляє та повертає перше значення
+-   [ДсVector::slice](ds-vector.slice.html) — Повертає підвектор із заданого діапазону
+-   [ДсVector::sort](ds-vector.sort.html) — Сортує вектор
+-   [ДсVector::sorted](ds-vector.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+-   [ДсVector::sum](ds-vector.sum.html) — Повертає суму всіх значень колекції
+-   [ДсVector::toArray](ds-vector.toarray.html) — Перетворює колекцію на масив (array)
+-   [ДсVector::unshift](ds-vector.unshift.html) — Додає значення на початок вектора

@@ -1,12 +1,12 @@
 Перемотує ітератор
 
--   [« Swoole\\Connection\\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.html)
+-   [« SwooleConnectionIterator::offsetUnset](swoole-connection-iterator.offsetunset.html)
     
--   [Swoole\\Connection\\Iterator::valid »](swoole-connection-iterator.valid.html)
+-   [SwooleConnectionIterator::valid »](swoole-connection-iterator.valid.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Перемотує ітератор
     

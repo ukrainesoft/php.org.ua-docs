@@ -22,11 +22,11 @@
 -   [Componere](book.componere.html)
     -   [Введение](intro.componere.html)
     -   [Установка и настройка](componere.setup.html)
-    -   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html) - Клас ComponereAbstractDefinition
-    -   [Componere\\Definition](class.componere-definition.html) - Клас ComponereDefinition
-    -   [Componere\\Patch](class.componere-patch.html) - Клас ComponerePatch
-    -   [Componere\\Method](class.componere-method.html) - Клас ComponereMethod
-    -   [Componere\\Value](class.componere-value.html) - Клас ComponereValue
+    -   [ComponereAbstractDefinition](class.componere-abstract-definition.html) - Клас ComponereAbstractDefinition
+    -   [ComponereDefinition](class.componere-definition.html) - Клас ComponereDefinition
+    -   [ComponerePatch](class.componere-patch.html) - Клас ComponerePatch
+    -   [ComponereMethod](class.componere-method.html) - Клас ComponereMethod
+    -   [ComponereValue](class.componere-value.html) - Клас ComponereValue
     -   [Функции Componere](reference.componere.html)
 -   [Обработка ошибок](book.errorfunc.html) — Обробка та логування помилок
     -   [Введение](intro.errorfunc.html)
@@ -40,26 +40,26 @@
     -   [Предопределённые константы](ffi.constants.html)
     -   [Примеры](ffi.examples.html)
     -   [FFI](class.ffi.html) — Основний інтерфейс до коду та даних C
-    -   [FFI\\CData](class.ffi-cdata.html) — Доступ до даних C
-    -   [FFI\\CType](class.ffi-ctype.html) — Доступ до типів C
-    -   [FFI\\Exception](class.ffi-exception.html) - Винятки FFI
-    -   [FFI\\ParserException](class.ffi-parserexception.html) - Виключення парсера FFI
+    -   [FFICData](class.ffi-cdata.html) — Доступ до даних C
+    -   [FFICType](class.ffi-ctype.html) — Доступ до типів C
+    -   [FFIException](class.ffi-exception.html) - Винятки FFI
+    -   [FFIParserException](class.ffi-parserexception.html) - Виключення парсера FFI
 -   [OPcache](book.opcache.html)
     -   [Введение](intro.opcache.html)
     -   [Установка и настройка](opcache.setup.html)
     -   [Preloading](opcache.preloading.html)
     -   [Функции OPcache](ref.opcache.html)
--   [Контроль вывода](book.outcontrol.html) - Управління буфером виводу
+-   [Контроль виведення](book.outcontrol.html) - Управління буфером виводу
     -   [Введение](intro.outcontrol.html)
     -   [Установка и настройка](outcontrol.setup.html)
     -   [Предопределённые константы](outcontrol.constants.html)
     -   [Примеры](outcontrol.examples.html)
-    -   [Функции контроля вывода](ref.outcontrol.html)
+    -   [Функції контролю виведення](ref.outcontrol.html)
 -   [Опции/информация PHP](book.info.html) - Опції та інформація PHP
     -   [Введение](intro.info.html)
     -   [Установка и настройка](info.setup.html)
     -   [Предопределённые константы](info.constants.html)
-    -   [Опции PHP/информационные функции](ref.info.html)
+    -   [Опції PHP/інформаційні функції](ref.info.html)
 -   [phpdbg](book.phpdbg.html) - Інтерактивний налагоджувач PHP
     -   [Введение](intro.phpdbg.html)
     -   [Установка и настройка](phpdbg.setup.html)
@@ -69,12 +69,12 @@
     -   [Введение](intro.runkit7.html)
     -   [Установка и настройка](runkit7.setup.html)
     -   [Предопределённые константы](runkit7.constants.html)
-    -   [Функции runkit7](ref.runkit7.html)
+    -   [Функції runkit7](ref.runkit7.html)
 -   [uopz](book.uopz.html) - User Operations для Zend
     -   [Введение](intro.uopz.html)
     -   [Установка и настройка](uopz.setup.html)
     -   [Предопределённые константы](uopz.constants.html)
-    -   [Функции Uopz](ref.uopz.html)
+    -   [Функції Uopz](ref.uopz.html)
 -   [WinCache](book.wincache.html) - Windows Cache для PHP
     -   [Введение](intro.wincache.html)
     -   [Установка и настройка](wincache.setup.html)

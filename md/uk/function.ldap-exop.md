@@ -1,12 +1,12 @@
 Виконує розширену операцію
 
--   [« ldap\_exop\_whoami](function.ldap-exop-whoami.html)
+-   [« ldapexopwhoami](function.ldap-exop-whoami.html)
     
--   [ldap\_explode\_dn »](function.ldap-explode-dn.html)
+-   [ldapexplodedn »](function.ldap-explode-dn.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Виконує розширену операцію
     
@@ -29,7 +29,7 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `request_oid`
 
@@ -57,10 +57,10 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Додана підтримка `controls`                                                                                                                              |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Додана підтримка `controls`                                                                                                                            |
 
 ### Приклади
 
@@ -101,8 +101,8 @@ if ($ds) {
 
 ### Дивіться також
 
--   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату
--   [ldap\_parse\_exop()](function.ldap-parse-exop.html) - Розбір результуючого об'єкта виконання розширеної операції LDAP
--   [ldap\_exop\_whoami()](function.ldap-exop-whoami.html) - Обгортка для розширеної операції WHOAMI
--   [ldap\_exop\_refresh()](function.ldap-exop-refresh.html) - Обгортка для розширеної операції Refresh
--   [ldap\_exop\_passwd()](function.ldap-exop-passwd.html) - Обгортка для розширеної операції PASSWD
+-   [ldapparseresult()](function.ldap-parse-result.html) - Витягти інформацію з результату
+-   [ldapparseexop()](function.ldap-parse-exop.html) - Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [ldapexopwhoami()](function.ldap-exop-whoami.html) - Обгортка для розширеної операції WHOAMI
+-   [ldapexoprefresh()](function.ldap-exop-refresh.html) - Обгортка для розширеної операції Refresh
+-   [ldapexoppasswd()](function.ldap-exop-passwd.html) - Обгортка для розширеної операції PASSWD

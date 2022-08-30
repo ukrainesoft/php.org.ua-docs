@@ -1,12 +1,12 @@
 Отримує екземпляр диспетчера
 
--   [« Yaf\_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.html)
+-   [« YafDispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.html)
     
--   [Yaf\_Dispatcher::getRequest »](yaf-dispatcher.getrequest.html)
+-   [YafDispatcher::getRequest »](yaf-dispatcher.getrequest.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує екземпляр диспетчера
     

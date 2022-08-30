@@ -1,8 +1,8 @@
 Видаляє записи
 
--   [« pg\_dbname](function.pg-dbname.html)
+-   [« pgdbname](function.pg-dbname.html)
     
--   [pg\_end\_copy »](function.pg-end-copy.html)
+-   [пгendcopy »](function.pg-end-copy.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 **пгdelete()** видаляє з таблиці записи, що відповідають ключам та значенням масиву `conditions`
 
-Якщо `flags` вказано, [pg\_convert()](function.pg-convert.html) застосовується до `conditions` із зазначеними прапорами.
+Якщо `flags` вказано, [пгconvert()](function.pg-convert.html) застосовується до `conditions` із зазначеними прапорами.
 
 За замовчуванням **пгdelete()** передає необроблені значення. Значення повинні бути екрановані або опція **`PGSQL_DML_ESCAPE`** має бути вказана . **`PGSQL_DML_ESCAPE`** укладає в лапки та екранує параметри/ідентифікатори. Тому імена таблиць/стовпців стають чутливими до регістру.
 
@@ -35,7 +35,7 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `table_name`
 
@@ -47,7 +47,7 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Комбінація констант **`PGSQL_CONV_FORCE_NULL`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** або **`PGSQL_DML_STRING`**. Якщо константа **`PGSQL_DML_STRING`** є в аргументі `flags`, то функція поверне рядок, що містить запит. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функція [pg\_convert()](function.pg-convert.html) внутрішньо не викликається.
+Комбінація констант **`PGSQL_CONV_FORCE_NULL`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** або **`PGSQL_DML_STRING`**. Якщо константа **`PGSQL_DML_STRING`** є в аргументі `flags`, то функція поверне рядок, що містить запит. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функція [пгconvert()](function.pg-convert.html) внутрішньо не викликається.
 
 ### Значення, що повертаються
 
@@ -55,9 +55,9 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -80,4 +80,4 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 ### Дивіться також
 
--   [pg\_convert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
+-   [пгconvert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах

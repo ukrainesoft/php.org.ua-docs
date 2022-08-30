@@ -1,12 +1,12 @@
 Отримує екземпляр запиту
 
--   [« Yaf\_Dispatcher::getInstance](yaf-dispatcher.getinstance.html)
+-   [« YafDispatcher::getInstance](yaf-dispatcher.getinstance.html)
     
--   [Yaf\_Dispatcher::getRouter »](yaf-dispatcher.getrouter.html)
+-   [YafDispatcher::getRouter »](yaf-dispatcher.getrouter.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+-   [YafDispatcher](class.yaf-dispatcher.html)
     
 -   Отримує екземпляр запиту
     

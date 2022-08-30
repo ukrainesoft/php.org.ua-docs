@@ -1,12 +1,12 @@
 Видаляє рядок у таблиці Swoole за $rowkey
 
--   [« Swoole\\Table::decr](swoole-table.decr.html)
+-   [« SwooleTable::decr](swoole-table.decr.html)
     
--   [Swoole\\Table::destroy »](swoole-table.destroy.html)
+-   [SwooleTable::destroy »](swoole-table.destroy.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Видаляє рядок у таблиці Swoole за $rowkey
     

@@ -1,12 +1,12 @@
 Отримує ім'я діючого маршруту
 
--   [« Yaf\_Router::\_\_construct](yaf-router.construct.html)
+-   [« YafRouter::construct](yaf-router.construct.html)
     
--   [Yaf\_Router::getRoute »](yaf-router.getroute.html)
+-   [YafRouter::getRoute »](yaf-router.getroute.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Router](class.yaf-router.html)
+-   [YafRouter](class.yaf-router.html)
     
 -   Отримує ім'я діючого маршруту
     
@@ -114,6 +114,6 @@ string(8) "_default"
 
 ### Дивіться також
 
--   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
--   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
--   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
+-   [YafPluginAbstract](class.yaf-plugin-abstract.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора

@@ -1,12 +1,12 @@
 Повертає документ метаданих для WriteConcernError
 
--   [« MongoDB\\Driver\\WriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.html)
+-   [« MongoDBDriverWriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.html)
     
--   [MongoDB\\Driver\\WriteConcernError::getMessage »](mongodb-driver-writeconcernerror.getmessage.html)
+-   [MongoDBDriverWriteConcernError::getMessage »](mongodb-driver-writeconcernerror.getmessage.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcernError](class.mongodb-driver-writeconcernerror.html)
+-   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html)
     
 -   Повертає документ метаданих для WriteConcernError
     
@@ -29,11 +29,11 @@ final public MongoDB\Driver\WriteConcernError::getInfo(): ?object
 
 ### Значення, що повертаються
 
-Повертає документ метаданих для WriteConcernError або **`null`**якщо немає метаданих.
+Повертає документ метаданих для WriteConcernError або \*\*`null`\*\*якщо немає метаданих.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

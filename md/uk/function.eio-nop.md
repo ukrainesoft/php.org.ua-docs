@@ -1,8 +1,8 @@
 Прохід по циклу запиту, не здійснюючи жодних операцій
 
--   [« eio\_mknod](function.eio-mknod.html)
+-   [« eiomknod](function.eio-mknod.html)
     
--   [eio\_npending »](function.eio-npending.html)
+-   [eionpending »](function.eio-npending.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,7 +49,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -61,4 +61,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_busy()](function.eio-busy.html) - Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
+-   [eiobusy()](function.eio-busy.html) - Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності

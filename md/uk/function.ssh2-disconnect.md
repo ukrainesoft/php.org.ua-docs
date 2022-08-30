@@ -1,12 +1,12 @@
 Закрити з'єднання з віддаленим сервером SSH
 
--   [« ssh2\_connect](function.ssh2-connect.html)
+-   [« ssh2connect](function.ssh2-connect.html)
     
--   [ssh2\_exec »](function.ssh2-exec.html)
+-   [ssh2exec »](function.ssh2-exec.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Закрити з'єднання з віддаленим сервером SSH
     
@@ -29,7 +29,7 @@ ssh2_disconnect(resource $session): bool
 
 `session`
 
-Ідентифікатор посилання з'єднання SSH, отриманий в результаті виклику [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор посилання з'єднання SSH, отриманий в результаті виклику [ssh2connect()](function.ssh2-connect.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ssh2_disconnect(resource $session): bool
 
 ### Дивіться також
 
--   [ssh2\_connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера

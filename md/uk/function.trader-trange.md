@@ -1,8 +1,8 @@
 Справжній діапазон
 
--   [« trader\_tema](function.trader-tema.html)
+-   [« tradertema](function.trader-tema.html)
     
--   [trader\_trima »](function.trader-trima.html)
+-   [tradertrima »](function.trader-trima.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Повертає об'єкт для серіалізації BSON
 
--   [« MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
+-   [« MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
     
--   [MongoDB\\Driver\\ReadConcern::\_\_construct »](mongodb-driver-readconcern.construct.html)
+-   [MongoDBDriverReadConcern::construct »](mongodb-driver-readconcern.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
+-   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
     
 -   Повертає об'єкт для серіалізації BSON
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadConcern::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -85,5 +85,5 @@ object(stdClass)#2 (1) {
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
+-   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
 -   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

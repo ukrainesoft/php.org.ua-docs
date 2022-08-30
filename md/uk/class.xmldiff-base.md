@@ -2,7 +2,7 @@
 
 -   [« Установка](xmldiff.installation.html)
     
--   [XMLDiff\\Base::\_\_construct »](xmldiff-base.construct.html)
+-   [XMLDiffBase::construct »](xmldiff-base.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,6 +44,6 @@ abstract public merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiff\\Base::\_\_construct](xmldiff-base.construct.html) - Конструктор
--   [XMLDiff\\Base::diff](xmldiff-base.diff.html) — Здійснює порівняння двох документів XML
--   [XMLDiff\\Base::merge](xmldiff-base.merge.html) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
+-   [XMLDiffBase::construct](xmldiff-base.construct.html) - Конструктор
+-   [XMLDiffBase::diff](xmldiff-base.diff.html) — Здійснює порівняння двох документів XML
+-   [XMLDiffBase::merge](xmldiff-base.merge.html) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого

@@ -1,6 +1,6 @@
 Числові рядки
 
--   [« Строки](language.types.string.html)
+-   [« Рядки](language.types.string.html)
     
 -   [Массивы »](language.types.array.html)
     
@@ -58,7 +58,7 @@ NUM_STRING       ({INT_NUM_STRING} | {FLOAT_NUM_STRING})
 -   Використання префіксного числового рядка викликало помилку рівня **`E_NOTICE`**, а не **`E_WARNING`**
 -   Якщо рядок не був числовим, викликалася помилка рівня **`E_WARNING`**, а сам рядок наводився до `0`
 
-До PHP 7.1.0 не викликалася помилка рівня **`E_NOTICE`**ні **`E_WARNING`**
+До PHP 7.1.0 не викликалася помилка рівня \*\*`E_NOTICE`\*\*ні **`E_WARNING`**
 
 ```php
 <?php

@@ -1,8 +1,8 @@
 Перевірити, чи зашифрований текст містить допустимий тег
 
--   [« sodium\_crypto\_aead\_chacha20poly1305\_encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
+-   [« sodiumcryptoaeadchacha20poly1305encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
     
--   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html)
+-   [sodiumcryptoaeadchacha20poly1305ietfencrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ sodium_crypto_aead_chacha20poly1305_ietf_decrypt(    string $ciphertext,  
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 

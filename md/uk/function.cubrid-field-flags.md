@@ -1,12 +1,12 @@
 Отримати рядок, який містить прапори стовпця за вказаним індексом
 
--   [« cubrid\_fetch\_row](function.cubrid-fetch-row.html)
+-   [« cubridfetchrow](function.cubrid-fetch-row.html)
     
--   [cubrid\_field\_len »](function.cubrid-field-len.html)
+-   [cubridfieldlen »](function.cubrid-field-len.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати рядок, який містить прапори стовпця за вказаним індексом
     
@@ -29,7 +29,7 @@ cubrid_field_flags(resource $result, int $field_offset): string
 
 `result`
 
-`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 

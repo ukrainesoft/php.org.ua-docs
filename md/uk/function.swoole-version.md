@@ -1,8 +1,8 @@
 Отримати версію Swoole
 
--   [« swoole\_timer\_tick](function.swoole-timer-tick.html)
+-   [« swooletimertick](function.swoole-timer-tick.html)
     
--   [Swoole\\Async »](class.swoole-async.html)
+-   [SwooleAsync »](class.swoole-async.html)
     
 -   [PHP Manual](index.html)
     

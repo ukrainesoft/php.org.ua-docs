@@ -1,12 +1,12 @@
 Повертає рядок, що позначає тип топології
 
--   [« MongoDB\\Driver\\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html)
+-   [« MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html)
     
--   [MongoDB\\Driver\\TopologyDescription::hasReadableServer »](mongodb-driver-topologydescription.hasreadableserver.html)
+-   [MongoDBDriverTopologyDescription::hasReadableServer »](mongodb-driver-topologydescription.hasreadableserver.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.html)
+-   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
     
 -   Повертає рядок, що позначає тип топології
     
@@ -23,7 +23,7 @@ MongoDBDriverTopologyDescription::getType — Повертає рядок, що 
 final public MongoDB\Driver\TopologyDescription::getType(): string
 ```
 
-Повертає рядок (string), що означає тип топології. Значення співвідноситиметься з константою [MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.html)
+Повертає рядок (string), що означає тип топології. Значення співвідноситиметься з константою [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ final public MongoDB\Driver\TopologyDescription::getType(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

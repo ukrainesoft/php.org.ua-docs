@@ -1,12 +1,12 @@
 Створює новий DBPointer (не використовується)
 
--   [« MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html)
+-   [« MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
     
--   [MongoDB\\BSON\\DBPointer::jsonSerialize »](mongodb-bson-dbpointer.jsonserialize.html)
+-   [MongoDBBSONDBPointer::jsonSerialize »](mongodb-bson-dbpointer.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html)
+-   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
     
 -   Створює новий DBPointer (не використовується)
     
@@ -23,7 +23,7 @@ MongoDBBSONDBPointer::construct — Створює новий DBPointer (не в
 final private MongoDB\BSON\DBPointer::__construct()
 ```
 
-Об'єкти [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

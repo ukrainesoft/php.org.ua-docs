@@ -1,12 +1,12 @@
 Додати ключ для розшифровки
 
--   [« GnuPG Функции](ref.gnupg.html)
+-   [« GnuPG Функції](ref.gnupg.html)
     
--   [gnupg\_addencryptkey »](function.gnupg-addencryptkey.html)
+-   [gnupgaddencryptkey »](function.gnupg-addencryptkey.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Додати ключ для розшифровки
     
@@ -27,7 +27,7 @@ gnupg_adddecryptkey(resource $identifier, string $fingerprint, string $passphras
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `fingerprint`
 

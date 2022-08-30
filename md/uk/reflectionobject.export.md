@@ -1,6 +1,6 @@
 Експорт
 
--   [« ReflectionObject::\_\_construct](reflectionobject.construct.html)
+-   [« ReflectionObject::construct](reflectionobject.construct.html)
     
 -   [ReflectionParameter »](class.reflectionparameter.html)
     
@@ -49,4 +49,4 @@ public static ReflectionObject::export(string $argument, bool $return = ?): stri
 
 ### Дивіться також
 
--   [ReflectionObject::\_\_construct()](reflectionobject.construct.html) - Конструктор класу ReflectionObject
+-   [ReflectionObject::construct()](reflectionobject.construct.html) - Конструктор класу ReflectionObject

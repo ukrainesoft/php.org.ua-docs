@@ -1,8 +1,8 @@
 Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
 
--   [« date\_date\_set](function.date-date-set.html)
+-   [« datedateset](function.date-date-set.html)
     
--   [date\_default\_timezone\_set »](function.date-default-timezone-set.html)
+-   [datedefaulttimezoneset »](function.date-default-timezone-set.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ date_default_timezone_get(): string
 
 Функція намагається отримати часовий пояс за замовчуванням таким чином:
 
--   Читання налаштування часового поясу за допомогою функції [date\_default\_timezone\_set()](function.date-default-timezone-set.html) (якщо можна застосувати)
+-   Читання налаштування часового поясу за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) (якщо можна застосувати)
     
 -   Читання значення ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) (якщо задана)
     
@@ -83,5 +83,5 @@ America/Los_Angeles => America/Los_Angeles => PST
 
 ### Дивіться також
 
--   [date\_default\_timezone\_set()](function.date-default-timezone-set.html) - Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
--   [Список поддерживаемых часовых поясов](timezones.html)
+-   [datedefaulttimezoneset()](function.date-default-timezone-set.html) - Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
+-   [Список підтримуваних часових поясів](timezones.html)

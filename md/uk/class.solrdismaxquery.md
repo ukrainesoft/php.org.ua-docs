@@ -324,7 +324,7 @@ public SolrQuery::setTimeAllowed(int $timeAllowed): SolrQuery
 -   [SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.html) — Додає поле запиту із необов'язковим підвищенням (параметр qf)
 -   [SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.html) - Додає поле триграми (параметр pf3)
 -   [SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.html) — Додає поле до параметра поля користувача (uf)
--   [SolrDisMaxQuery::\_\_construct](solrdismaxquery.construct.html) - Конструктор класу
+-   [SolrDisMaxQuery::construct](solrdismaxquery.construct.html) - Конструктор класу
 -   [SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.html) - Видаляє поле біграми фрази (параметр pf2)
 -   [SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.html) — Видаляє часткове підвищення запиту на ім'я поля (bq)
 -   [SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.html) - Видаляє поле фрази (параметра)

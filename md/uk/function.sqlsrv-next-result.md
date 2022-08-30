@@ -1,12 +1,12 @@
 Робить активним наступний результат вказаного оператора
 
--   [« sqlsrv\_has\_rows](function.sqlsrv-has-rows.html)
+-   [« sqlsrvhasrows](function.sqlsrv-has-rows.html)
     
--   [sqlsrv\_num\_fields »](function.sqlsrv-num-fields.html)
+-   [sqlsrvnumfields »](function.sqlsrv-num-fields.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Робить активним наступний результат вказаного оператора
     
@@ -33,7 +33,7 @@ sqlsrv_next_result(resource $stmt): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо наступний результат був успішно отриманий, **`false`**, якщо сталася помилка та **`null`**якщо результатів для отримання більше немає.
+Повертає \*\*`true`\*\*якщо наступний результат був успішно отриманий, **`false`**, якщо сталася помилка та \*\*`null`\*\*якщо результатів для отримання більше немає.
 
 ### Приклади
 
@@ -70,6 +70,6 @@ if( $next_result ) {
 
 ### Дивіться також
 
--   [sqlsrv\_query()](function.sqlsrv-query.html) - готує та виконує запит
--   [sqlsrv\_fetch\_array()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
--   [sqlsrv\_rows\_affected()](function.sqlsrv-rows-affected.html) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
+-   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
+-   [sqlsrvrowsaffected()](function.sqlsrv-rows-affected.html) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE

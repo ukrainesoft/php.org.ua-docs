@@ -2,7 +2,7 @@
 
 -   [« SolrQuery::collapse](solrquery.collapse.html)
     
--   [SolrQuery::\_\_destruct »](solrquery.destruct.html)
+-   [SolrQuery::destruct »](solrquery.destruct.html)
     
 -   [PHP Manual](index.html)
     

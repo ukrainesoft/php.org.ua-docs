@@ -1,12 +1,12 @@
 Створити новий об'єкт Window
 
--   [« UI\\Window::add](ui-window.add.html)
+-   [« UIWindow::add](ui-window.add.html)
     
--   [UI\\Window::error »](ui-window.error.html)
+-   [ОЙWindow::error »](ui-window.error.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Створити новий об'єкт Window
     

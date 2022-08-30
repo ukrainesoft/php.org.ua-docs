@@ -1,12 +1,12 @@
 Перевіряє, чи пароль хешу відповідає
 
--   [« password\_needs\_rehash](function.password-needs-rehash.html)
+-   [« passwordneedsrehash](function.password-needs-rehash.html)
     
 -   [Sodium »](book.sodium.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции хеширования паролей](ref.password.html)
+-   [Функції хешування паролів](ref.password.html)
     
 -   Перевіряє, чи пароль хешу відповідає
     
@@ -25,7 +25,7 @@ password_verify(string $password, string $hash): bool
 
 Перевіряє, чи пароль хешу відповідає. Функція **passwordverify()** сумісна з [crypt()](function.crypt.html). Отже, хеші паролів, створені [crypt()](function.crypt.html), можуть бути використані в **passwordverify()**
 
-Зверніть увагу, що [password\_hash()](function.password-hash.html) повертає алгоритм, вартість та сіль як частини хешу. Таким чином, вся необхідна для перевірки інформація включена до нього. Це дозволяє проводити перевірку без необхідності зберігати всі ці дані окремо.
+Зверніть увагу, що [passwordhash()](function.password-hash.html) повертає алгоритм, вартість та сіль як частини хешу. Таким чином, вся необхідна для перевірки інформація включена до нього. Це дозволяє проводити перевірку без необхідності зберігати всі ці дані окремо.
 
 Ця функція безпечна для атак часу.
 
@@ -37,7 +37,7 @@ password_verify(string $password, string $hash): bool
 
 `hash`
 
-Хеш, створений функцією [password\_hash()](function.password-hash.html)
+Хеш, створений функцією [passwordhash()](function.password-hash.html)
 
 ### Значення, що повертаються
 
@@ -68,6 +68,6 @@ if (password_verify('rasmuslerdorf', $hash)) {
 
 ### Дивіться також
 
--   [password\_hash()](function.password-hash.html) - Створює хеш пароля
--   [» пользовательская реализация](https://github.com/ircmaxell/password_compat)
--   [sodium\_crypto\_pwhash\_str\_verify()](function.sodium-crypto-pwhash-str-verify.html) - Перевіряє, що пароль відповідає хешу
+-   [passwordhash()](function.password-hash.html) - Створює хеш пароля
+-   [» користувацька реалізація](https://github.com/ircmaxell/password_compat)
+-   [sodiumcryptopwhashstrverify()](function.sodium-crypto-pwhash-str-verify.html) - Перевіряє, що пароль відповідає хешу

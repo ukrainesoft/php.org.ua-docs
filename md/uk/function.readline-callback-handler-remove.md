@@ -1,8 +1,8 @@
 Видаляє раніше зареєстровану callback-функцію та відновлює термінал
 
--   [« readline\_callback\_handler\_install](function.readline-callback-handler-install.html)
+-   [« readlinecallbackhandlerinstall](function.readline-callback-handler-install.html)
     
--   [readline\_callback\_read\_char »](function.readline-callback-read-char.html)
+-   [readlinecallbackreadchar »](function.readline-callback-read-char.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,9 +35,9 @@ readline_callback_handler_remove(): bool
 
 ### Приклади
 
-Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readline\_callback\_handler\_install()](function.readline-callback-handler-install.html)
+Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html)
 
 ### Дивіться також
 
--   [readline\_callback\_handler\_install()](function.readline-callback-handler-install.html) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
--   [readline\_callback\_read\_char()](function.readline-callback-read-char.html) - Читає символ та інформує callback-функцію readline, що отримано рядок
+-   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.html) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
+-   [readlinecallbackreadchar()](function.readline-callback-read-char.html) - Читає символ та інформує callback-функцію readline, що отримано рядок

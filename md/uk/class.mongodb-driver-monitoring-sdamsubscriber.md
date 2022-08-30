@@ -1,12 +1,12 @@
 Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
 
--   [« MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html)
+-   [« MongoDBDriverMonitoringCommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html)
     
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged »](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html)
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverChanged »](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.html)
     
 -   Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
     
@@ -57,12 +57,12 @@ abstract public topologyOpening(MongoDB\Driver\Monitoring\TopologyOpeningEvent $
 
 ## Зміст
 
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html) — Метод сповіщення про зміну опису сервера
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html) — Метод сповіщення про закриття сервера
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatFailed](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html) — Метод повідомлення про невдалий heartbeat сервер
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html) — Метод повідомлення про запущений heartbeat сервер
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html) — Метод сповіщення про успішний heartbeat сервер
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.html) — Метод сповіщення про відкриття сервера
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyChanged](mongodb-driver-monitoring-sdamsubscriber.topologychanged.html) — Метод сповіщення про зміну опису топології
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.html) — Метод сповіщення про закриття топології
--   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.html) — Метод повідомлення про відкриття топології
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html) — Метод сповіщення про зміну опису сервера
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html) — Метод сповіщення про закриття сервера
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html) — Метод повідомлення про невдалий heartbeat сервер
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html) — Метод повідомлення про запущений heartbeat сервер
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html) — Метод сповіщення про успішний heartbeat сервер
+-   [MongoDBDriverMonitoringSDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.html) — Метод сповіщення про відкриття сервера
+-   [MongoDBDriverMonitoringSDAMSubscriber::topologyChanged](mongodb-driver-monitoring-sdamsubscriber.topologychanged.html) — Метод сповіщення про зміну опису топології
+-   [MongoDBDriverMonitoringSDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.html) — Метод сповіщення про закриття топології
+-   [MongoDBDriverMonitoringSDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.html) — Метод повідомлення про відкриття топології

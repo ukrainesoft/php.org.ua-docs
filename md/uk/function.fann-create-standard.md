@@ -1,8 +1,8 @@
 Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
 
--   [« fann\_create\_standard\_array](function.fann-create-standard-array.html)
+-   [« fanncreatestandardarray](function.fann-create-standard-array.html)
     
--   [fann\_create\_train\_from\_callback »](function.fann-create-train-from-callback.html)
+-   [fanncreatetrainfromcallback »](function.fann-create-train-from-callback.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ fann_create_standard(    int $num_layers,    int $num_neurons1,    i
 
 У кожному шарі буде зміщений нейрон (крім вихідного шару), і цей нейрон зміщення буде пов'язаний з усіма нейронами в наступному шарі. Працюючи в мережі вузли усунення завжди видає 1.
 
-Щоб знищити нейронну мережу, скористайтеся функцією [fann\_destroy()](function.fann-destroy.html)
+Щоб знищити нейронну мережу, скористайтеся функцією [fanndestroy()](function.fann-destroy.html)
 
 ### Список параметрів
 
@@ -53,6 +53,6 @@ fann_create_standard(    int $num_layers,    int $num_neurons1,    i
 
 ### Дивіться також
 
--   [fann\_create\_standard\_array()](function.fann-create-standard-array.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
--   [fann\_create\_sparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
--   [fann\_create\_shortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
+-   [fanncreatestandardarray()](function.fann-create-standard-array.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
+-   [fanncreatesparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
+-   [fanncreateshortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання

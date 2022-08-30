@@ -1,12 +1,12 @@
 Перевіряє, чи існує рядок $rowkey
 
--   [« Swoole\\Table::destroy](swoole-table.destroy.html)
+-   [« SwooleTable::destroy](swoole-table.destroy.html)
     
--   [Swoole\\Table::get »](swoole-table.get.html)
+-   [SwooleTable::get »](swoole-table.get.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Перевіряє, чи існує рядок $rowkey
     

@@ -1,12 +1,12 @@
 Отримання розширеного потоку даних
 
--   [« ssh2\_exec](function.ssh2-exec.html)
+-   [« ssh2exec](function.ssh2-exec.html)
     
--   [ssh2\_fingerprint »](function.ssh2-fingerprint.html)
+-   [ssh2fingerprint »](function.ssh2-fingerprint.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Отримання розширеного потоку даних
     
@@ -53,6 +53,6 @@ $stderr_stream = ssh2_fetch_stream($stdio_stream, SSH2_STREAM_STDERR);
 
 ### Дивіться також
 
--   [ssh2\_shell()](function.ssh2-shell.html) - запитує інтерактивний термінал
--   [ssh2\_exec()](function.ssh2-exec.html) - Виконання команди на віддаленому сервері
--   [ssh2\_connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [ssh2shell()](function.ssh2-shell.html) - запитує інтерактивний термінал
+-   [ssh2exec()](function.ssh2-exec.html) - Виконання команди на віддаленому сервері
+-   [ssh2connect()](function.ssh2-connect.html) - Підключення до SSH-сервера

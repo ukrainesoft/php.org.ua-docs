@@ -1,12 +1,12 @@
 Нахилити матрицю
 
--   [« UI\\Draw\\Matrix::scale](ui-draw-matrix.scale.html)
+-   [« UIDrawMatrix::scale](ui-draw-matrix.scale.html)
     
--   [UI\\Draw\\Matrix::translate »](ui-draw-matrix.translate.html)
+-   [ОЙDrawMatrix::translate »](ui-draw-matrix.translate.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Нахилити матрицю
     

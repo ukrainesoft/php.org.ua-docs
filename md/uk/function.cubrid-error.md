@@ -1,12 +1,12 @@
 Повертає текст останньої помилки, що сталася
 
--   [« cubrid\_errno](function.cubrid-errno.html)
+-   [« cubriderrno](function.cubrid-errno.html)
     
--   [cubrid\_fetch\_array »](function.cubrid-fetch-array.html)
+-   [cubridfetcharray »](function.cubrid-fetch-array.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Повертає текст останньої помилки, що сталася
     
@@ -61,6 +61,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubrid\_errno()](function.cubrid-errno.html) - Повертає код помилки попередньої операції CUBRID
--   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubrid\_error\_msg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrno()](function.cubrid-errno.html) - Повертає код помилки попередньої операції CUBRID
+-   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.

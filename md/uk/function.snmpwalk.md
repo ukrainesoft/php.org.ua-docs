@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує всі об'єкти SNMP з агента
     

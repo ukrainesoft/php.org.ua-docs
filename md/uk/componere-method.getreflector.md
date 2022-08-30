@@ -1,12 +1,12 @@
 Reflection
 
--   [« Componere\\Method::setStatic](componere-method.setstatic.html)
+-   [« ComponereMethod::setStatic](componere-method.setstatic.html)
     
--   [Componere\\Value »](class.componere-value.html)
+-   [ComponereValue »](class.componere-value.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Method](class.componere-method.html)
+-   [ComponereMethod](class.componere-method.html)
     
 -   Reflection
     

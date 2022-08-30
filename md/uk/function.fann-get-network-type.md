@@ -1,8 +1,8 @@
 Отримує тип нейронної мережі
 
--   [« fann\_get\_MSE](function.fann-get-mse.html)
+-   [« fanngetMSE](function.fann-get-mse.html)
     
--   [fann\_get\_num\_input »](function.fann-get-num-input.html)
+-   [fanngetnuminput »](function.fann-get-num-input.html)
     
 -   [PHP Manual](index.html)
     

@@ -2,7 +2,7 @@
 
 -   [« finfo::file](finfo.file.html)
     
--   [Файловая система »](book.filesystem.html)
+-   [Файлова система »](book.filesystem.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo::setflags - Псевдонім [finfo\_set\_flags()](function.finfo-set-flags.html)
+finfo::setflags - Псевдонім [finfosetflags()](function.finfo-set-flags.html)
 
 ### Опис
 
@@ -23,4 +23,4 @@ finfo::setflags - Псевдонім [finfo\_set\_flags()](function.finfo-set-fl
 public finfo::set_flags(int $flags): bool
 ```
 
-Ця функція є псевдонімом: [finfo\_set\_flags()](function.finfo-set-flags.html)
+Ця функція є псевдонімом: [finfosetflags()](function.finfo-set-flags.html)

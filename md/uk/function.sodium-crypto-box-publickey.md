@@ -1,8 +1,8 @@
 Витягує відкритий ключ із ключової пари cryptobox
 
--   [« sodium\_crypto\_box\_publickey\_from\_secretkey](function.sodium-crypto-box-publickey-from-secretkey.html)
+-   [« sodiumcryptoboxpublickeyfromsecretkey](function.sodium-crypto-box-publickey-from-secretkey.html)
     
--   [sodium\_crypto\_box\_seal\_open »](function.sodium-crypto-box-seal-open.html)
+-   [sodiumcryptoboxsealopen »](function.sodium-crypto-box-seal-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_box_publickey(string $key_pair): string
 
 `key_pair`
 
-Ключова пара, створена, наприклад, [sodium\_crypto\_box\_keypair()](function.sodium-crypto-box-keypair.html) або [sodium\_crypto\_box\_seed\_keypair()](function.sodium-crypto-box-seed-keypair.html)
+Ключова пара, створена, наприклад, [sodiumcryptoboxkeypair()](function.sodium-crypto-box-keypair.html) або [sodiumcryptoboxseedkeypair()](function.sodium-crypto-box-seed-keypair.html)
 
 ### Значення, що повертаються
 

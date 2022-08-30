@@ -1,12 +1,12 @@
 Додати опцію
 
--   [« UI\\Controls\\Combo](class.ui-controls-combo.html)
+-   [« UIControlsCombo](class.ui-controls-combo.html)
     
--   [UI\\Controls\\Combo::getSelected »](ui-controls-combo.getselected.html)
+-   [ОЙControlsCombo::getSelected »](ui-controls-combo.getselected.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Combo](class.ui-controls-combo.html)
+-   [ОЙControlsCombo](class.ui-controls-combo.html)
     
 -   Додати опцію
     

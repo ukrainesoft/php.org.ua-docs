@@ -27,7 +27,7 @@ include 'coollibrary.phar';
 ?>
 ```
 
-Обгортка потоку `phar` є основою модуля phar, для її використання докладно написано [здесь](phar.using.stream.html). Обгортка потоку `phar` надає доступ до файлів усередині phar-архіву з використанням стандартних файлових функцій PHP: [fopen()](function.fopen.html) [opendir()](function.opendir.html) та інших, які працюють із звичайними файлами. Обгортка потоку `phar` підтримує всі операції читання/запису як над файлами, і над каталогами.
+Обгортка потоку `phar` є основою модуля phar, для її використання докладно написано [тут](phar.using.stream.html). Обгортка потоку `phar` надає доступ до файлів усередині phar-архіву з використанням стандартних файлових функцій PHP: [fopen()](function.fopen.html) [opendir()](function.opendir.html) та інших, які працюють із звичайними файлами. Обгортка потоку `phar` підтримує всі операції читання/запису як над файлами, і над каталогами.
 
 ```php
 <?php
@@ -38,7 +38,7 @@ echo file_get_contents('phar:///полный/путь/к/coollibrary.phar/image
 ?>
 ```
 
-Клас [Phar](class.phar.html) реалізує розширені можливості доступу до файлів і створення phar-архівів. Використання класу Phar докладно описано [здесь](phar.using.object.html)
+Клас [Phar](class.phar.html) реалізує розширені можливості доступу до файлів і створення phar-архівів. Використання класу Phar докладно описано [тут](phar.using.object.html)
 
 ```php
 <?php
@@ -107,7 +107,7 @@ openssl_pkey_export($public, $pkey);
 
 повинен бути збережений поруч із phar-архівом, для перевірки якого він використовується. Якщо phar-архів збережений як `/путь/к/моему/архиву/my.phar`, то відкритий ключ повинен бути збережений як `/путь/к/моему/архиву/my.phar.pubkey`, інакше phar не зможе перевірити справжність підпису OpenSSL.
 
-Клас [Phar](class.phar.html) також надає 3 статичні методи: [Phar::webPhar()](phar.webphar.html) [Phar::mungServer()](phar.mungserver.html) і [Phar::interceptFileFuncs()](phar.interceptfilefuncs.html), які мають вирішальне значення для упаковки PHP-додатків, призначених для використання на звичайних файлових системах та для веб-додатків . [Phar::webPhar()](phar.webphar.html) реалізує фронтальний контролер, який направляє HTTP-дзвінки у правильне місце всередині phar-архіву . [Phar::mungServer()](phar.mungserver.html) використовується для зміни значень масиву [$\_SERVER](reserved.variables.server.html)що дозволяє обдурити додатки, що обробляють ці значення . [Phar::interceptFileFuncs()](phar.interceptfilefuncs.html) інструктує Phar про необхідність перехоплення дзвінків [fopen()](function.fopen.html) [file\_get\_contents()](function.file-get-contents.html) [opendir()](function.opendir.html) та інших функцій, заснованих на stat ([file\_exists()](function.file-exists.html) [is\_readable()](function.is-readable.html) і так далі) і перенаправлення всіх відносних шляхів усередину phar-архіву.
+Клас [Phar](class.phar.html) також надає 3 статичні методи: [Phar::webPhar()](phar.webphar.html) [Phar::mungServer()](phar.mungserver.html) і [Phar::interceptFileFuncs()](phar.interceptfilefuncs.html), які мають вирішальне значення для упаковки PHP-додатків, призначених для використання на звичайних файлових системах та для веб-додатків . [Phar::webPhar()](phar.webphar.html) реалізує фронтальний контролер, який направляє HTTP-дзвінки у правильне місце всередині phar-архіву . [Phar::mungServer()](phar.mungserver.html) використовується для зміни значень масиву [SERVER](reserved.variables.server.html)що дозволяє обдурити додатки, що обробляють ці значення . [Phar::interceptFileFuncs()](phar.interceptfilefuncs.html) інструктує Phar про необхідність перехоплення дзвінків [fopen()](function.fopen.html) [filegetcontents()](function.file-get-contents.html) [opendir()](function.opendir.html) та інших функцій, заснованих на stat ([fileexists()](function.file-exists.html) [ісreadable()](function.is-readable.html) і так далі) і перенаправлення всіх відносних шляхів усередину phar-архіву.
 
 Наприклад, для упаковки випуску популярної програми phpMyAdmin для його використання як phar-архів, потрібен тільки цей простий скрипт, а `phpMyAdmin.phar.tar.php` буде доступний як звичайний файл на вашому веб-сервері після зміни значень user/password:
 

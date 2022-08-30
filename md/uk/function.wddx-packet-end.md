@@ -1,12 +1,12 @@
 Завершує пакет WDDX із зазначеним ідентифікатором
 
--   [« wddx\_deserialize](function.wddx-deserialize.html)
+-   [« wddxdeserialize](function.wddx-deserialize.html)
     
--   [wddx\_packet\_start »](function.wddx-packet-start.html)
+-   [wddxpacketstart »](function.wddx-packet-start.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.html)
     
 -   Завершує пакет WDDX із зазначеним ідентифікатором
     
@@ -33,7 +33,7 @@ wddx_packet_end(resource $packet_id): string
 
 `packet_id`
 
-Пакет WDDX, що повертається [wddx\_packet\_start()](function.wddx-packet-start.html)
+Пакет WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.html)
 
 ### Значення, що повертаються
 

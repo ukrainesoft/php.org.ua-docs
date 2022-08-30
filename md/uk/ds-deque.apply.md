@@ -1,12 +1,12 @@
 Оновлює всі значення, застосовуючи callback-функцію до кожного значення
 
--   [« Ds\\Deque::allocate](ds-deque.allocate.html)
+-   [« DsDeque::allocate](ds-deque.allocate.html)
     
--   [Ds\\Deque::capacity »](ds-deque.capacity.html)
+-   [ДсDeque::capacity »](ds-deque.capacity.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Оновлює всі значення, застосовуючи callback-функцію до кожного значення
     

@@ -1,12 +1,12 @@
 Повертає статус з'єднання у бітах
 
--   [« connection\_aborted](function.connection-aborted.html)
+-   [« connectionaborted](function.connection-aborted.html)
     
 -   [constant »](function.constant.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Повертає статус з'єднання у бітах
     
@@ -35,6 +35,6 @@ connection_status(): int
 
 ### Дивіться також
 
--   [connection\_aborted()](function.connection-aborted.html) - Перевірити, чи клієнт вимкнено
--   [ignore\_user\_abort()](function.ignore-user-abort.html) - Встановити, чи має відключення клієнта переривати виконання скрипту
+-   [connectionaborted()](function.connection-aborted.html) - Перевірити, чи клієнт вимкнено
+-   [ignoreuserabort()](function.ignore-user-abort.html) - Встановити, чи має відключення клієнта переривати виконання скрипту
 -   Дивіться [Управление соединением](features.connection-handling.html) для повної інформації про управління з'єднанням PHP.

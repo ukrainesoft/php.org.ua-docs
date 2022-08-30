@@ -1,12 +1,12 @@
 Встановлює поточну точку
 
--   [« ps\_makespotcolor](function.ps-makespotcolor.html)
+-   [«psmakespotcolor](function.ps-makespotcolor.html)
     
--   [ps\_new »](function.ps-new.html)
+-   [псnew »](function.ps-new.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Встановлює поточну точку
     
@@ -29,7 +29,7 @@ ps_moveto(resource $psdoc, float $x, float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 `x`
 
@@ -45,4 +45,4 @@ ps_moveto(resource $psdoc, float $x, float $y): bool
 
 ### Дивіться також
 
--   [ps\_lineto()](function.ps-lineto.html) - Малює лінію
+-   [псlineto()](function.ps-lineto.html) - Малює лінію

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Встановлення та налаштування
     

@@ -1,12 +1,12 @@
 Перетворити код помилки LDAP на рядкове повідомлення про помилку
 
--   [« ldap\_dn2ufn](function.ldap-dn2ufn.html)
+-   [« ldapdn2ufn](function.ldap-dn2ufn.html)
     
--   [ldap\_errno »](function.ldap-errno.html)
+-   [ldaperrno »](function.ldap-errno.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Перетворити код помилки LDAP на рядкове повідомлення про помилку
     
@@ -49,5 +49,5 @@ ldap_err2str(int $errno): string
 
 ### Дивіться також
 
--   [ldap\_errno()](function.ldap-errno.html) - Повернути номер помилки LDAP останньої команди
--   [ldap\_error()](function.ldap-error.html) - Повернути повідомлення про помилку LDAP останньої команди
+-   [ldaperrno()](function.ldap-errno.html) - Повернути номер помилки LDAP останньої команди
+-   [ldaperror()](function.ldap-error.html) - Повернути повідомлення про помилку LDAP останньої команди

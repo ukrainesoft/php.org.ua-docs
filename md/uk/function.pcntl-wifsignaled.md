@@ -1,12 +1,12 @@
 Перевірити, чи відповідає код завершення процесу завершення сигналу
 
--   [« pcntl\_wifexited](function.pcntl-wifexited.html)
+-   [pcntlwifexited](function.pcntl-wifexited.html)
     
--   [pcntl\_wifstopped »](function.pcntl-wifstopped.html)
+-   [pcntlwifstopped »](function.pcntl-wifstopped.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Перевірити, чи відповідає код завершення процесу завершення сигналу
     
@@ -29,7 +29,7 @@ pcntl_wifsignaled(int $status): bool
 
 `status`
 
-Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.html)
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.html)
 
 ### Значення, що повертаються
 
@@ -37,5 +37,5 @@ pcntl_wifsignaled(int $status): bool
 
 ### Дивіться також
 
--   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
+-   [pcntlwaitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу

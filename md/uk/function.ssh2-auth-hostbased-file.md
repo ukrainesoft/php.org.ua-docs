@@ -1,12 +1,12 @@
 Аутентифікація з використанням відкритого ключа хоста
 
--   [« ssh2\_auth\_agent](function.ssh2-auth-agent.html)
+-   [« ssh2authagent](function.ssh2-auth-agent.html)
     
--   [ssh2\_auth\_none »](function.ssh2-auth-none.html)
+-   [ssh2authnone »](function.ssh2-auth-none.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Аутентифікація з використанням відкритого ключа хоста
     
@@ -29,7 +29,7 @@ ssh2_auth_hostbased_file(    resource $session,    string $username,  
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `username`
 

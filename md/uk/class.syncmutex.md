@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](sync.constants.html)
     
--   [SyncMutex::\_\_construct »](syncmutex.construct.html)
+-   [SyncMutex::construct »](syncmutex.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,6 +45,6 @@ public unlock(bool $all = false): bool
 
 ## Зміст
 
--   [SyncMutex::\_\_construct](syncmutex.construct.html) — Створює новий об'єкт SyncMutex
+-   [SyncMutex::construct](syncmutex.construct.html) — Створює новий об'єкт SyncMutex
 -   [SyncMutex::lock](syncmutex.lock.html) — Чекає на ексклюзивне блокування
 -   [SyncMutex::unlock](syncmutex.unlock.html) - Розблокує м'ютекс

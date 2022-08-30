@@ -1,12 +1,12 @@
 Повертає ReadConcern для Manager
 
--   [« MongoDB\\Driver\\Manager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html)
+-   [« MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html)
     
--   [MongoDB\\Driver\\Manager::getReadPreference »](mongodb-driver-manager.getreadpreference.html)
+-   [MongoDBDriverManager::getReadPreference »](mongodb-driver-manager.getreadpreference.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+-   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
 -   Повертає ReadConcern для Manager
     
@@ -23,7 +23,7 @@ MongoDBDriverManager::getReadConcern — Повертає ReadConcern для Man
 final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcern
 ```
 
-Повертає [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html) для Manager, отриманий із його URI-опцій. Це гарантія прочитання за промовчанням для запитів і команд, що виконуються в Manager.
+Повертає [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) для Manager, отриманий із його URI-опцій. Це гарантія прочитання за промовчанням для запитів і команд, що виконуються в Manager.
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcer
 
 ### Значення, що повертаються
 
-[MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html) для Manager.
+[MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) для Manager.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -66,5 +66,5 @@ object(MongoDB\Driver\ReadConcern)#1 (1) {
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
--   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
+-   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
+-   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB

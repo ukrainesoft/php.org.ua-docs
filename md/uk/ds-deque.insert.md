@@ -1,12 +1,12 @@
 Вставляє значення за вказаним індексом
 
--   [« Ds\\Deque::get](ds-deque.get.html)
+-   [« DsDeque::get](ds-deque.get.html)
     
--   [Ds\\Deque::isEmpty »](ds-deque.isempty.html)
+-   [ДсDeque::isEmpty »](ds-deque.isempty.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Вставляє значення за вказаним індексом
     

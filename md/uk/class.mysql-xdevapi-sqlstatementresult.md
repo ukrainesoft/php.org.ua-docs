@@ -2,11 +2,11 @@
 
 -   [« SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.html)
     
--   [SqlStatementResult::\_\_construct »](mysql-xdevapi-sqlstatementresult.construct.html)
+-   [SqlStatementResult::construct »](mysql-xdevapi-sqlstatementresult.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас SqlStatementResult
     
@@ -52,7 +52,7 @@ public nextResult(): mysql_xdevapi\Result
 
 ## Зміст
 
--   [SqlStatementResult::\_\_construct](mysql-xdevapi-sqlstatementresult.construct.html) - Опис конструктора
+-   [SqlStatementResult::construct](mysql-xdevapi-sqlstatementresult.construct.html) - Опис конструктора
 -   [SqlStatementResult::fetchAll](mysql-xdevapi-sqlstatementresult.fetchall.html) — Отримує всі рядки з результату
 -   [SqlStatementResult::fetchOne](mysql-xdevapi-sqlstatementresult.fetchone.html) — Отримує один рядок
 -   [SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html) — Отримує порушену кількість рядків

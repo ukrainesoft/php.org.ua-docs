@@ -1,12 +1,12 @@
 Визначає, чи існує ключ
 
--   [« Yaf\_Config\_Ini::\_\_get](yaf-config-ini.get.html)
+-   [« YafConfigIni::get](yaf-config-ini.get.html)
     
--   [Yaf\_Config\_Ini::key »](yaf-config-ini.key.html)
+-   [YafConfigIni::key »](yaf-config-ini.key.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)
     
 -   Визначає, чи існує ключ
     

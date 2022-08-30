@@ -1,6 +1,6 @@
 Псевдонім ocibindбname
 
--   [« oci\_internal\_debug](function.oci-internal-debug.html)
+-   [« ociinternaldebug](function.oci-internal-debug.html)
     
 -   [ocicancel »](function.ocicancel.html)
     
@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocibindbyname - Псевдонім [oci\_bind\_by\_name()](function.oci-bind-by-name.html)
+ocibindbyname - Псевдонім [ocibindбname()](function.oci-bind-by-name.html)
 
 ### Опис
 
-Псевдонім [oci\_bind\_by\_name()](function.oci-bind-by-name.html)
+Псевдонім [ocibindбname()](function.oci-bind-by-name.html)
 
 **Увага**
 

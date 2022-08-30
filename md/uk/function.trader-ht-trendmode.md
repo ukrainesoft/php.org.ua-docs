@@ -1,8 +1,8 @@
 Перетворення Гільберта – тренд проти циклу
 
--   [« trader\_ht\_trendline](function.trader-ht-trendline.html)
+-   [« traderхтtrendline](function.trader-ht-trendline.html)
     
--   [trader\_kama »](function.trader-kama.html)
+-   [traderkama »](function.trader-kama.html)
     
 -   [PHP Manual](index.html)
     

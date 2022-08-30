@@ -1,6 +1,6 @@
 Отримати кількість загальнодоступних властивостей ArrayObject
 
--   [« ArrayObject::\_\_construct](arrayobject.construct.html)
+-   [« ArrayObject::construct](arrayobject.construct.html)
     
 -   [ArrayObject::exchangeArray »](arrayobject.exchangearray.html)
     

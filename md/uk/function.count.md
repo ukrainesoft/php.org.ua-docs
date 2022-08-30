@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Підраховує кількість елементів масиву або Countable об'єкті
     
@@ -170,9 +170,9 @@ int(2)
 
 ### Дивіться також
 
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
 -   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [empty()](function.empty.html) - Перевіряє, чи порожня змінна
 -   [strlen()](function.strlen.html) - Повертає довжину рядка
--   [is\_countable()](function.is-countable.html) - Перевірити, що вміст змінної є лічильним значенням
+-   [ісcountable()](function.is-countable.html) - Перевірити, що вміст змінної є лічильним значенням
 -   [Массивы](language.types.array.html)

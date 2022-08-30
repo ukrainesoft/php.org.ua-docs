@@ -1,12 +1,12 @@
 скасування
 
--   [« Componere\\Patch::apply](componere-patch.apply.html)
+-   [« ComponerePatch::apply](componere-patch.apply.html)
     
--   [Componere\\Patch::isApplied »](componere-patch.isapplied.html)
+-   [ComponerePatch::isApplied »](componere-patch.isapplied.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Patch](class.componere-patch.html)
+-   [ComponerePatch](class.componere-patch.html)
     
 -   скасування
     

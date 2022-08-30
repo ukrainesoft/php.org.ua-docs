@@ -25,7 +25,7 @@ gzdeflate(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_RAW): str
 
 Ця функція стискає рядок, використовуючи формат даних `DEFLATE`
 
-Детальніше про алгоритм стиснення DEFLATE дивіться "[» Формат сжатия данных DEFLATE. Спецификация версии 1.3](http://www.faqs.org/rfcs/rfc1951)(RFC 1951).
+Детальніше про алгоритм стиснення DEFLATE дивіться "[» Формат стиснення даних DEFLATE. Специфікація версії 1.3](http://www.faqs.org/rfcs/rfc1951)(RFC 1951).
 
 ### Список параметрів
 

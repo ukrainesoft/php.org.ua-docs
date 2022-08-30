@@ -19,12 +19,12 @@
 
 **Опції налаштування Expect**
 
-| Имя                                                                 | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------|--------------|-----------------|------------------|
-| [expect.timeout](expect.configuration.html#ini.expect.timeout)      | "10"         | PHPINIALL       |                  |
-| [expect.loguser](expect.configuration.html#ini.expect.loguser)      | "1"          | PHPINIALL       |                  |
-| [expect.logfile](expect.configuration.html#ini.expect.logfile)      | ""           | PHPINIALL       |                  |
-| [expect.match\_max](expect.configuration.html#ini.expect.match-max) | ""           | PHPINIALL       |                  |
+| Имя                                                               | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------|--------------|-----------------|------------------|
+| [expect.timeout](expect.configuration.html#ini.expect.timeout)    | "10"         | PHPINIALL       |                  |
+| [expect.loguser](expect.configuration.html#ini.expect.loguser)    | "1"          | PHPINIALL       |                  |
+| [expect.logfile](expect.configuration.html#ini.expect.logfile)    | ""           | PHPINIALL       |                  |
+| [expect.matchmax](expect.configuration.html#ini.expect.match-max) | ""           | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -32,13 +32,13 @@
 
 `expect.timeout` int
 
-Максимальний час очікування даних під час використання функції [expect\_expectl()](function.expect-expectl.html)
+Максимальний час очікування даних під час використання функції [expectexpectl()](function.expect-expectl.html)
 
 Значення "-1" задає вічне очікування.
 
 > **Зауваження**
 > 
-> Значення "0" означає, що функція [expect\_expectl()](function.expect-expectl.html) завершиться одразу.
+> Значення "0" означає, що функція [expectexpectl()](function.expect-expectl.html) завершиться одразу.
 
 `expect.loguser` bool
 

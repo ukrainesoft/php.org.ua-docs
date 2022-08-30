@@ -1,12 +1,12 @@
 Видалення блоку пам'яті, що розділяється
 
--   [« shmop\_close](function.shmop-close.html)
+-   [« shmopclose](function.shmop-close.html)
     
--   [shmop\_open »](function.shmop-open.html)
+-   [shmopopen »](function.shmop-open.html)
     
 -   [PHP Manual](index.html)
     
--   [Разделяемая (shared) память](ref.shmop.html)
+-   [Пам'ять, що розділяється (shared)](ref.shmop.html)
     
 -   Видалення блоку пам'яті, що розділяється
     
@@ -29,7 +29,7 @@ shmop_delete(Shmop $shmop): bool
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmop\_open()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
 
 ### Значення, що повертаються
 

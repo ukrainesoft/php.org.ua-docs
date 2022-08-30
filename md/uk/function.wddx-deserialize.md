@@ -1,12 +1,12 @@
 Десеріалізує пакет WDDX
 
--   [« wddx\_add\_vars](function.wddx-add-vars.html)
+-   [« wddxaddvars](function.wddx-add-vars.html)
     
--   [wddx\_packet\_end »](function.wddx-packet-end.html)
+-   [wddxpacketend »](function.wddx-packet-end.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции WDDX](ref.wddx.html)
+-   [Функції WDDX](ref.wddx.html)
     
 -   Десеріалізує пакет WDDX
     
@@ -31,7 +31,7 @@ wddx_deserialize(string $packet): mixed
 
 **Увага**
 
-Не передавайте неперевірене введення користувача в **wddxdeserialize()**. Десеріалізація може призвести до того, що код завантажується і виконується під час ініціалізації та автозавантаження, і зловмисник може скористатися цим. Використовуйте безпечний стандартний формат обміну даними, таким як JSON (через [json\_decode()](function.json-decode.html) і [json\_encode()](function.json-encode.html)), якщо вам необхідно передати серіалізовані дані користувачеві.
+Не передавайте неперевірене введення користувача в **wddxdeserialize()**. Десеріалізація може призвести до того, що код завантажується і виконується під час ініціалізації та автозавантаження, і зловмисник може скористатися цим. Використовуйте безпечний стандартний формат обміну даними, таким як JSON (через [jsondecode()](function.json-decode.html) і [jsonencode()](function.json-encode.html)), якщо вам необхідно передати серіалізовані дані користувачеві.
 
 ### Список параметрів
 

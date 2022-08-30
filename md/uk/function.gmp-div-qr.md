@@ -1,12 +1,12 @@
 Розподіл чисел та отримання приватного та залишку
 
--   [« gmp\_div\_q](function.gmp-div-q.html)
+-   [« gmpdivдо](function.gmp-div-q.html)
     
--   [gmp\_div\_r »](function.gmp-div-r.html)
+-   [gmpdivr »](function.gmp-div-r.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Розподіл чисел та отримання приватного та залишку
     
@@ -41,7 +41,7 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 `rounding_mode`
 
-У документації до функції [gmp\_div\_q()](function.gmp-div-q.html) наведено опис аргументу `rounding_mode`
+У документації до функції [gmpdivq()](function.gmp-div-q.html) наведено опис аргументу `rounding_mode`
 
 ### Значення, що повертаються
 
@@ -62,5 +62,5 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 ### Дивіться також
 
--   [gmp\_div\_q()](function.gmp-div-q.html) - Розподіл чисел
--   [gmp\_div\_r()](function.gmp-div-r.html) - Залишок від розподілу чисел
+-   [gmpdivq()](function.gmp-div-q.html) - Розподіл чисел
+-   [gmpdivr()](function.gmp-div-r.html) - Залишок від розподілу чисел

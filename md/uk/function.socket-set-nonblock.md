@@ -1,8 +1,8 @@
 Встановлює неблокуючий режим файлового дескриптора fd
 
--   [« socket\_set\_block](function.socket-set-block.html)
+-   [« socketsetblock](function.socket-set-block.html)
     
--   [socket\_set\_option »](function.socket-set-option.html)
+-   [socketsetoption »](function.socket-set-option.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ socket_set_nonblock(Socket $socket): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
 
 ### Значення, що повертаються
 
@@ -56,10 +56,10 @@ socket_accept($socket);
 ?>
 ```
 
-Цей приклад створює сокет, що слухає, на всіх інтерфейсах на порту 1223 і встановлює сокет в режим **`O_NONBLOCK`**. . [socket\_accept()](function.socket-accept.html) буде негайно повертати помилку, якщо тільки в цей момент немає очікуваного з'єднання.
+Цей приклад створює сокет, що слухає, на всіх інтерфейсах на порту 1223 і встановлює сокет в режим **`O_NONBLOCK`**. . [socketaccept()](function.socket-accept.html) буде негайно повертати помилку, якщо тільки в цей момент немає очікуваного з'єднання.
 
 ### Дивіться також
 
--   [socket\_set\_block()](function.socket-set-block.html) - Встановлює блокуючий режим на сокеті
--   [socket\_set\_option()](function.socket-set-option.html) - Встановлює опції для сокету
--   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [socketsetblock()](function.socket-set-block.html) - Встановлює блокуючий режим на сокеті
+-   [socketsetoption()](function.socket-set-option.html) - Встановлює опції для сокету
+-   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці

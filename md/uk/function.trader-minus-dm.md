@@ -1,8 +1,8 @@
 Мінус-спрямований рух
 
--   [« trader\_minus\_di](function.trader-minus-di.html)
+-   [« traderminusді](function.trader-minus-di.html)
     
--   [trader\_mom »](function.trader-mom.html)
+-   [tradermom »](function.trader-mom.html)
     
 -   [PHP Manual](index.html)
     

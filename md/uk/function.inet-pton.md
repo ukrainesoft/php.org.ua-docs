@@ -1,12 +1,12 @@
 Конвертує IP-адресу, що читається, в її упаковане подання inaddr
 
--   [« inet\_ntop](function.inet-ntop.html)
+-   [« inetntop](function.inet-ntop.html)
     
 -   [ip2long »](function.ip2long.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Конвертує IP-адресу, що читається, в її упаковане подання inaddr
     
@@ -51,4 +51,4 @@ $in6_addr = inet_pton('::1');
 
 -   [ip2long()](function.ip2long.html) - Конвертує рядок, що містить IPv4-адресу в ціле число
 -   [long2ip()](function.long2ip.html) - Конвертує ціле число в IPv4-адресу
--   [inet\_ntop()](function.inet-ntop.html) - Конвертує упаковану інтернет-адресу в формат, що читається
+-   [inetntop()](function.inet-ntop.html) - Конвертує упаковану інтернет-адресу в формат, що читається

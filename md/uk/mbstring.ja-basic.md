@@ -2,11 +2,11 @@
 
 -   [« Краткий обзор поддерживаемых кодировок](mbstring.encodings.html)
     
--   [Ввод и вывод HTTP »](mbstring.http.html)
+-   [Введення та виведення HTTP »](mbstring.http.html)
     
 -   [PHP Manual](index.html)
     
--   [Многобайтовые строки](book.mbstring.html)
+-   [Багатобайтові рядки](book.mbstring.html)
     
 -   Основи японських багатобайтних кодувань
     

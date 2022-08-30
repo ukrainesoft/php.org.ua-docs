@@ -1,12 +1,12 @@
 Повертає поточний елемент
 
--   [« MongoDB\\Driver\\Cursor::\_\_construct](mongodb-driver-cursor.construct.html)
+-   [« MongoDBDriverCursor::construct](mongodb-driver-cursor.construct.html)
     
--   [MongoDB\\Driver\\Cursor::getId »](mongodb-driver-cursor.getid.html)
+-   [MongoDBDriverCursor::getId »](mongodb-driver-cursor.getid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Повертає поточний елемент
     

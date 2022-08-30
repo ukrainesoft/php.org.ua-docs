@@ -1,8 +1,8 @@
 Довгоногій дожі
 
--   [« trader\_cdlpiercing](function.trader-cdlpiercing.html)
+-   [« tradercdlpiercing](function.trader-cdlpiercing.html)
     
--   [trader\_cdlrisefall3methods »](function.trader-cdlrisefall3methods.html)
+-   [tradercdlrisefall3methods »](function.trader-cdlrisefall3methods.html)
     
 -   [PHP Manual](index.html)
     

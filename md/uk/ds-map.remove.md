@@ -1,8 +1,8 @@
 Видаляє та повертає значення за ключом
 
--   [« Ds\\Map::reduce](ds-map.reduce.html)
+-   [« DsMap::reduce](ds-map.reduce.html)
     
--   [Ds\\Map::reverse »](ds-map.reverse.html)
+-   [ДсMap::reverse »](ds-map.reverse.html)
     
 -   [PHP Manual](index.html)
     

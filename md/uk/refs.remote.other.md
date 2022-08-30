@@ -1,6 +1,6 @@
 Інші служби
 
--   [« var\_representation](function.var-representation.html)
+-   [« varrepresentation](function.var-representation.html)
     
 -   [cURL »](book.curl.html)
     
@@ -29,9 +29,9 @@
     -   [Установка и настройка](event.setup.html)
     -   [Примеры](event.examples.html)
     -   [Флаги событий](event.flags.html)
-    -   [О постоянных(persistent) событиях](event.persistence.html)
+    -   [Про постійні (persistent) події](event.persistence.html)
     -   [Callback-функции](event.callbacks.html)
-    -   [Создание событий для сигналов](event.constructing.signal.events.html)
+    -   [Створення подій для сигналів](event.constructing.signal.events.html)
     -   [Event](class.event.html) - Клас Event
     -   [EventBase](class.eventbase.html) - Клас EventBase
     -   [EventBuffer](class.eventbuffer.html) - Клас EventBuffer
@@ -50,8 +50,8 @@
     -   [Установка и настройка](ftp.setup.html)
     -   [Предопределённые константы](ftp.constants.html)
     -   [Примеры](ftp.examples.html)
-    -   [Функции FTP](ref.ftp.html)
-    -   [FTP\\Connection](class.ftp-connection.html) - Клас FTPConnection
+    -   [Функції FTP](ref.ftp.html)
+    -   [FTPConnection](class.ftp-connection.html) - Клас FTPConnection
 -   [Gearman](book.gearman.html)
     -   [Введение](intro.gearman.html)
     -   [Установка и настройка](gearman.setup.html)
@@ -69,10 +69,10 @@
     -   [Использование вызовов PHP LDAP](ldap.using.html)
     -   [Управляющие объекты LDAP](ldap.controls.html)
     -   [Примеры](ldap.examples.html)
-    -   [Функции LDAP](ref.ldap.html)
-    -   [LDAP\\Connection](class.ldap-connection.html) - Клас LDAPConnection
-    -   [LDAP\\Result](class.ldap-result.html) - Клас LDAPResult
-    -   [LDAP\\ResultEntry](class.ldap-result-entry.html) - Клас LDAPResultEntry
+    -   [Функції LDAP](ref.ldap.html)
+    -   [LDAPConnection](class.ldap-connection.html) - Клас LDAPConnection
+    -   [LDAPResult](class.ldap-result.html) - Клас LDAPResult
+    -   [LDAPResultEntry](class.ldap-result-entry.html) - Клас LDAPResultEntry
 -   [Memcache](book.memcache.html)
     -   [Введение](intro.memcache.html)
     -   [Установка и настройка](memcache.setup.html)
@@ -85,7 +85,7 @@
     -   [Установка и настройка](memcached.setup.html)
     -   [Предопределённые константы](memcached.constants.html)
     -   [Время хранения объекта](memcached.expiration.html)
-    -   [Функции обратного вызова](memcached.callbacks.html)
+    -   [Опції зворотного дзвінка](memcached.callbacks.html)
     -   [Поддержка сессий](memcached.sessions.html)
     -   [Memcached](class.memcached.html) - Клас Memcached
     -   [MemcachedException](class.memcachedexception.html) - Клас MemcachedException
@@ -98,13 +98,13 @@
     -   [Введение](intro.network.html)
     -   [Установка и настройка](network.setup.html)
     -   [Предопределённые константы](network.constants.html)
-    -   [Сетевые функции](ref.network.html)
+    -   [Мережеві функції](ref.network.html)
 -   [RRD](book.rrd.html) - RRDtool
     -   [Введение](intro.rrd.html)
     -   [Установка и настройка](rrd.setup.html)
     -   [Предопределённые константы](rrd.constants.html)
     -   [Примеры](rrd.examples.html)
-    -   [Функции RRD](ref.rrd.html)
+    -   [Функції RRD](ref.rrd.html)
     -   [RRDCreator](class.rrdcreator.html) - Клас RRDCreator
     -   [RRDGraph](class.rrdgraph.html) - Клас RRDGraph
     -   [RRDUpdater](class.rrdupdater.html) - Клас RRDUpdater
@@ -117,7 +117,7 @@
     -   [Введение](intro.snmp.html)
     -   [Установка и настройка](snmp.setup.html)
     -   [Предопределённые константы](snmp.constants.html)
-    -   [Функции SNMP](ref.snmp.html)
+    -   [Функції SNMP](ref.snmp.html)
     -   [SNMP](class.snmp.html) - Клас SNMP
     -   [SNMPException](class.snmpexception.html) - Клас SNMPException
 -   [Сокеты](book.sockets.html)
@@ -125,7 +125,7 @@
     -   [Установка и настройка](sockets.setup.html)
     -   [Предопределённые константы](sockets.constants.html)
     -   [Примеры](sockets.examples.html)
-    -   [Ошибки сокетов](sockets.errors.html)
+    -   [Помилки сокетів](sockets.errors.html)
     -   [Функции сокета](ref.sockets.html)
     -   [Socket](class.socket.html) - Клас Socket
     -   [AddressInfo](class.addressinfo.html) - Клас AddressInfo
@@ -133,7 +133,7 @@
     -   [Введение](intro.ssh2.html)
     -   [Установка и настройка](ssh2.setup.html)
     -   [Предопределённые константы](ssh2.constants.html)
-    -   [Функции SSH2](ref.ssh2.html)
+    -   [Функції SSH2](ref.ssh2.html)
 -   [Stomp](book.stomp.html) - Stomp Client
     -   [Введение](intro.stomp.html)
     -   [Установка и настройка](stomp.setup.html)
@@ -152,12 +152,12 @@
     -   [Введение](intro.svn.html)
     -   [Установка и настройка](svn.setup.html)
     -   [Предопределённые константы](svn.constants.html)
-    -   [Функции SVN](ref.svn.html)
+    -   [Функції SVN](ref.svn.html)
 -   [TCP](book.tcpwrap.html) - Обгортки TCP
     -   [Введение](intro.tcpwrap.html)
     -   [Установка и настройка](tcpwrap.setup.html)
     -   [Предопределённые константы](tcpwrap.constants.html)
-    -   [Функции TCP](ref.tcpwrap.html)
+    -   [Функції TCP](ref.tcpwrap.html)
 -   [Varnish](book.varnish.html)
     -   [Введение](intro.varnish.html)
     -   [Установка и настройка](varnish.setup.html)
@@ -172,7 +172,7 @@
     -   [Предопределённые константы](yaz.constants.html)
     -   [Примеры](yaz.examples.html)
     -   [Функции YAZ](ref.yaz.html)
--   [Обмен сообщениями 0MQ](book.zmq.html) - ZMQ
+-   [Обмін повідомленнями 0MQ](book.zmq.html) - ZMQ
     -   [Введение](intro.zmq.html)
     -   [Установка и настройка](zmq.setup.html)
     -   [ZMQ](class.zmq.html) - Клас ZMQ

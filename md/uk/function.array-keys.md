@@ -1,12 +1,12 @@
 Повертає все або деяке підмножина ключів масиву
 
--   [« array\_key\_last](function.array-key-last.html)
+-   [« arraykeylast](function.array-key-last.html)
     
--   [array\_map »](function.array-map.html)
+-   [arraymap »](function.array-map.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Повертає все або деяке підмножина ключів масиву
     
@@ -90,7 +90,7 @@ Array
 
 ### Дивіться також
 
--   [array\_values()](function.array-values.html) - Вибирає всі значення масиву
--   [array\_combine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
--   [array\_key\_exists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [array\_search()](function.array-search.html) - Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
+-   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
+-   [arraycombine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [arraysearch()](function.array-search.html) - Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання

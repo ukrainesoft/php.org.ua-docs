@@ -36,11 +36,11 @@ public
 
 `fd`
 
-Дивіться [EvIo::\_\_construct()](evio.construct.html)
+Дивіться [EvIo::construct()](evio.construct.html)
 
 `events`
 
-Дивіться [EvIo::\_\_construct()](evio.construct.html)
+Дивіться [EvIo::construct()](evio.construct.html)
 
 ### Значення, що повертаються
 

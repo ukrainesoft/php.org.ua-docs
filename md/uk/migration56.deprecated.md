@@ -1,8 +1,8 @@
 Функціонал, оголошений застарілим у PHP 5.6.x
 
--   [« Новые возможности](migration56.new-features.html)
+-   [" Нові можливості](migration56.new-features.html)
     
--   [Изменённые функции »](migration56.changed-functions.html)
+-   [Змінені функції »](migration56.changed-functions.html)
     
 -   [PHP Manual](index.html)
     
@@ -42,7 +42,7 @@ B
 
 ### $HTTPRAWPOSTDATA та `always_populate_raw_post_data`
 
-`always_populate_raw_post_data` тепер буде викликати помилку **`E_DEPRECATED`**якщо $HTTPRAWPOSTDATA заповнено. Новий код має використовувати [`php://input`](wrappers.php.html#wrappers.php.input) замість $HTTPRAWPOSTDATA, який буде видалено у майбутніх версіях PHP. Ви можете вибрати нову поведінку (у якій $HTTPRAWPOSTDATA ніколи не визначається, отже, **`E_DEPRECATED`** не буде генерувати помилку) шляхом установки `always_populate_raw_post_data` в `-1`
+`always_populate_raw_post_data` тепер буде викликати помилку \*\*`E_DEPRECATED`\*\*якщо $HTTPRAWPOSTDATA заповнено. Новий код має використовувати [`php://input`](wrappers.php.html#wrappers.php.input) замість $HTTPRAWPOSTDATA, який буде видалено у майбутніх версіях PHP. Ви можете вибрати нову поведінку (у якій $HTTPRAWPOSTDATA ніколи не визначається, отже, **`E_DEPRECATED`** не буде генерувати помилку) шляхом установки `always_populate_raw_post_data` в `-1`
 
 ### Налаштування кодування [iconv](book.iconv.html) і [mbstring](book.mbstring.html)
 

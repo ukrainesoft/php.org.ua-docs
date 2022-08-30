@@ -2,11 +2,11 @@
 
 -   [« Serializable::unserialize](serializable.unserialize.html)
     
--   [Closure::\_\_construct »](closure.construct.html)
+-   [Closure::construct »](closure.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+-   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
     
 -   Клас Closure
     
@@ -21,7 +21,7 @@
 
 Анонімні функції видають об'єкти цього. Клас отримав методи, що дозволяють контролювати анонімну функцію після її створення.
 
-Крім методів, описаних тут, цей клас також має метод `__invoke`. Цей метод необхідний лише сумісності з іншими класами, у яких реалізований [магический вызов](language.oop5.magic.html#language.oop5.magic.invoke), оскільки цей метод не використовується під час виклику функції.
+Крім методів, описаних тут, цей клас також має метод `__invoke`. Цей метод необхідний лише сумісності з іншими класами, у яких реалізований [магічний виклик](language.oop5.magic.html#language.oop5.magic.invoke), оскільки цей метод не використовується під час виклику функції.
 
 ## Огляд класів
 
@@ -51,7 +51,7 @@ public static fromCallable(callable $callback): Closure
 
 ## Зміст
 
--   [Closure::\_\_construct](closure.construct.html) - Конструктор, який забороняє створення екземпляра
+-   [Closure::construct](closure.construct.html) - Конструктор, який забороняє створення екземпляра
 -   [Closure::bind](closure.bind.html) — Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
 -   [Closure::bindTo](closure.bindto.html) — Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
 -   [Closure::call](closure.call.html) — Зв'язує та запускає замикання

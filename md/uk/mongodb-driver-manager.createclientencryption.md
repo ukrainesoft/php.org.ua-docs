@@ -1,12 +1,12 @@
 Створення нового об'єкта ClientEncryption
 
--   [« MongoDB\\Driver\\Manager::\_\_construct](mongodb-driver-manager.construct.html)
+-   [« MongoDBDriverManager::construct](mongodb-driver-manager.construct.html)
     
--   [MongoDB\\Driver\\Manager::executeBulkWrite »](mongodb-driver-manager.executebulkwrite.html)
+-   [MongoDBDriverManager::executeBulkWrite »](mongodb-driver-manager.executebulkwrite.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html)
+-   [MongoDBDriverManager](class.mongodb-driver-manager.html)
     
 -   Створення нового об'єкта ClientEncryption
     
@@ -23,7 +23,7 @@ MongoDBDriverManager::createClientEncryption — Створення нового
 final public MongoDB\Driver\Manager::createClientEncryption(array $options): MongoDB\Driver\ClientEncryption
 ```
 
-Створює новий об'єкт [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html) із заданими параметрами.
+Створює новий об'єкт [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html) із заданими параметрами.
 
 ### Список параметрів
 
@@ -31,12 +31,12 @@ final public MongoDB\Driver\Manager::createClientEncryption(array $options): Mon
 
 **options**
 
-| Параметр                                                                                                                                                                                                                                    | Тип                                                           | Описание                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| keyVaultClient                                                                                                                                                                                                                              | [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html) | Менеджер використовується для маршрутизації запитів ключів даних до окремого кластера MongoDB. За промовчанням використовується поточний менеджер та кластер.           |
-| keyVaultNamespace                                                                                                                                                                                                                           | string                                                        | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
-| kmsProviders                                                                                                                                                                                                                                | array                                                         |                                                                                                                                                                         |
-| Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |                                                               |                                                                                                                                                                         |
+| Параметр                                                                                                                                                                                                                                    | Тип                                                       | Описание                                                                                                                                                                |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| keyVaultClient                                                                                                                                                                                                                              | [MongoDBDriverManager](class.mongodb-driver-manager.html) | Менеджер використовується для маршрутизації запитів ключів даних до окремого кластера MongoDB. За промовчанням використовується поточний менеджер та кластер.           |
+| keyVaultNamespace                                                                                                                                                                                                                           | string                                                    | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
+| kmsProviders                                                                                                                                                                                                                                | array                                                     |                                                                                                                                                                         |
+| Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |                                                           |                                                                                                                                                                         |
 
 Формат для `"aws"` виглядає наступним чином:
 
@@ -66,12 +66,12 @@ local: { // 96-байтовий головний ключ, який викори
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html)
+Повертає новий екземпляр [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Викидає виняток [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html) якщо модуль був скомпільований без підтримки libmongocrypt
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) якщо модуль був скомпільований без підтримки libmongocrypt
 
 ### список змін
 
@@ -82,9 +82,9 @@ local: { // 96-байтовий головний ключ, який викори
 
 Доданий параметр `"tlsOptions"`
 
-| | PECL mongodb 1.10.0 Azure та GCP тепер підтримуються як постачальники KMS для шифрування на стороні клієнта і можуть бути налаштовані в полі `"kmsProviders"` параметра драйвера `"autoEncryption"`. Рядки в кодуванні Base64 тепер приймаються як альтернатива [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html) для параметрів усередині `"kmsProviders"`.
+| | PECL mongodb 1.10.0 Azure та GCP тепер підтримуються як постачальники KMS для шифрування на стороні клієнта і можуть бути налаштовані в полі `"kmsProviders"` параметра драйвера `"autoEncryption"`. Рядки в кодуванні Base64 тепер приймаються як альтернатива [MongoDBBSONBinary](class.mongodb-bson-binary.html) для параметрів усередині `"kmsProviders"`.
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ClientEncryption::\_\_construct()](mongodb-driver-clientencryption.construct.html) - Створює новий об'єкт ClientEncryption
+-   [MongoDBDriverClientEncryption::construct()](mongodb-driver-clientencryption.construct.html) - Створює новий об'єкт ClientEncryption
 -   Сторінка в посібнику з MongoDB: [» Явное (ручное) шифрование на уровне поля на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/)

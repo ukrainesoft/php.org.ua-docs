@@ -1,12 +1,12 @@
 Записати заголовок
 
--   [« Vtiful\\Kernel\\Excel::getHandle](vtiful-kernel-excel.getHandle.html)
+-   [« VtifulKernelExcel::getHandle](vtiful-kernel-excel.getHandle.html)
     
--   [Vtiful\\Kernel\\Excel::insertFormula »](vtiful-kernel-excel.insertFormula.html)
+-   [VtifulKernelExcel::insertFormula »](vtiful-kernel-excel.insertFormula.html)
     
 -   [PHP Manual](index.html)
     
--   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+-   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
     
 -   Записати заголовок
     
@@ -33,7 +33,7 @@ public Vtiful\Kernel\Excel::header(array $headerData)
 
 ### Значення, що повертаються
 
-Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 

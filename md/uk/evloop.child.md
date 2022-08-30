@@ -2,7 +2,7 @@
 
 -   [« EvLoop::check](evloop.check.html)
     
--   [EvLoop::\_\_construct »](evloop.construct.html)
+-   [EvLoop::construct »](evloop.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -44,7 +44,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvChild::\_\_construct()](evchild.construct.html)
+Усі параметри, що й для [EvChild::construct()](evchild.construct.html)
 
 ### Значення, що повертаються
 
@@ -52,4 +52,4 @@ final
 
 ### Дивіться також
 
--   [EvChild::\_\_construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvChild::construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild

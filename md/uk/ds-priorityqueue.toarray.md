@@ -1,12 +1,12 @@
 Перетворює чергу на масив (array)
 
--   [« Ds\\PriorityQueue::push](ds-priorityqueue.push.html)
+-   [« DsPriorityQueue::push](ds-priorityqueue.push.html)
     
--   [var\_representation »](book.var_representation.html)
+-   [varrepresentation »](book.var_representation.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Перетворює чергу на масив (array)
     

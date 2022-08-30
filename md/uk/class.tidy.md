@@ -82,7 +82,7 @@ HTML-подання вузла, включаючи навколишні теги
 
 -   [tidy::body](tidy.body.html) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
 -   [tidy::cleanRepair](tidy.cleanrepair.html) — Виконати налаштоване очищення та відновлення розібраної розмітки
--   [tidy::\_\_construct](tidy.construct.html) - Створює новий tidy-об'єкт
+-   [tidy::construct](tidy.construct.html) - Створює новий tidy-об'єкт
 -   [tidy::diagnose](tidy.diagnose.html) — Запуск настроєної діагностики для розібраної та відновленої розмітки
 -   [tidy::$errorBuffer](tidy.props.errorbuffer.html) — Повертає попередження та помилки, які виникли при розборі зазначеного документа
 -   [tidy::getConfig](tidy.getconfig.html) — Отримує поточну конфігурацію Tidy

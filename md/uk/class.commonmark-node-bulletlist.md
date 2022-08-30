@@ -1,8 +1,8 @@
 BulletList успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\BlockQuote](class.commonmark-node-blockquote.html)
+-   [« CommonMarkNodeBlockQuote](class.commonmark-node-blockquote.html)
     
--   [CommonMark\\Node\\BulletList::\_\_construct »](commonmark-node-bulletlist.construct.html)
+-   [CommonMarkNodeBulletList::construct »](commonmark-node-bulletlist.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -108,4 +108,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\BulletList::\_\_construct](commonmark-node-bulletlist.construct.html) - Конструктор класу BulletList
+-   [CommonMarkNodeBulletList::construct](commonmark-node-bulletlist.construct.html) - Конструктор класу BulletList

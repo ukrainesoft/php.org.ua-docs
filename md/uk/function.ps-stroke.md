@@ -1,12 +1,12 @@
 Малює поточний шлях
 
--   [« ps\_stringwidth](function.ps-stringwidth.html)
+-   [«psstringwidth](function.ps-stringwidth.html)
     
--   [ps\_symbol\_name »](function.ps-symbol-name.html)
+-   [псsymbolname »](function.ps-symbol-name.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Малює поточний шлях
     
@@ -23,13 +23,13 @@
 ps_stroke(resource $psdoc): bool
 ```
 
-Малює шлях, побудований за допомогою раніше викликаних функцій малювання, таких як [ps\_lineto()](function.ps-lineto.html)
+Малює шлях, побудований за допомогою раніше викликаних функцій малювання, таких як [псlineto()](function.ps-lineto.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ ps_stroke(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_closepath\_stroke()](function.ps-closepath-stroke.html) - Замикає та обводить контур
--   [ps\_fill()](function.ps-fill.html) - Заповнює поточний шлях
--   [ps\_fill\_stroke()](function.ps-fill-stroke.html) - Заповнює та обводить поточний шлях
+-   [псclosepathstroke()](function.ps-closepath-stroke.html) - Замикає та обводить контур
+-   [псfill()](function.ps-fill.html) - Заповнює поточний шлях
+-   [псfillstroke()](function.ps-fill-stroke.html) - Заповнює та обводить поточний шлях

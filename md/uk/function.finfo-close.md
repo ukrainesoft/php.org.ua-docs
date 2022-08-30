@@ -1,8 +1,8 @@
 Закриває екземпляр finfo
 
--   [« finfo\_buffer](function.finfo-buffer.html)
+-   [« finfobuffer](function.finfo-buffer.html)
     
--   [finfo\_file »](function.finfo-file.html)
+-   [finfofile »](function.finfo-file.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,13 +23,13 @@ finfoclose — Закриває екземпляр finfo
 finfo_close(finfo $finfo): bool
 ```
 
-Функція закриває екземпляр, який було відкрито функцією [finfo\_open()](function.finfo-open.html)
+Функція закриває екземпляр, який було відкрито функцією [finfoopen()](function.finfo-open.html)
 
 ### Список параметрів
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
 
 ### Значення, що повертаються
 

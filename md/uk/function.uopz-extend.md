@@ -1,12 +1,12 @@
 Розширити клас під час виконання
 
--   [« uopz\_delete](function.uopz-delete.html)
+-   [« uopzdelete](function.uopz-delete.html)
     
--   [uopz\_flags »](function.uopz-flags.html)
+-   [uopzflags »](function.uopz-flags.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Розширити клас під час виконання
     

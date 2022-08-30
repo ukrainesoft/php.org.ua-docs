@@ -1,8 +1,8 @@
 Створює нову колекцію пар, створену перетином з іншою колекцією пар
 
--   [« Ds\\Map::hasValue](ds-map.hasvalue.html)
+-   [« DsMap::hasValue](ds-map.hasvalue.html)
     
--   [Ds\\Map::isEmpty »](ds-map.isempty.html)
+-   [ДсMap::isEmpty »](ds-map.isempty.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,7 +43,7 @@ public Ds\Map::intersect(Ds\Map $map): Ds\Map
 
 ### Також дивіться
 
--   [» Пересечение](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
+-   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
 
 ### Приклади
 

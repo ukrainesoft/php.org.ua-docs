@@ -1,12 +1,12 @@
 Десятковий логарифм
 
--   [« lcg\_value](function.lcg-value.html)
+-   [« lcgvalue](function.lcg-value.html)
     
 -   [log1p »](function.log1p.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Десятковий логарифм
     

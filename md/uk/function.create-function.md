@@ -1,8 +1,8 @@
 Створює функцію динамічно, оцінюючи рядок коду
 
--   [« call\_user\_func](function.call-user-func.html)
+-   [« calluserfunc](function.call-user-func.html)
     
--   [forward\_static\_call\_array »](function.forward-static-call-array.html)
+-   [forwardstaticcallarray »](function.forward-static-call-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,11 +33,11 @@ create_function(string $args, string $code): string
 
 Функція всередині себе робить виклик функції [eval()](function.eval.html), а значить має такі ж проблеми з безпекою, як і [eval()](function.eval.html). Також у неї погані характеристики продуктивності та використання пам'яті, оскільки створені функції є глобальними і не можуть бути звільнені.
 
-Використовуйте [анонимные функции](functions.anonymous.html)
+Використовуйте [анонімні функції](functions.anonymous.html)
 
 ### Список параметрів
 
-Зазвичай рекомендується передавати параметри у вигляді рядків [с одинарной кавычкой](language.types.string.html#language.types.string.syntax.single). При використанні рядків [с двойной кавычкой](language.types.string.html#language.types.string.syntax.double) імена змінних у коді повинні бути ретельно екрановані, наприклад, ось так: `\$somevar`
+Зазвичай рекомендується передавати параметри у вигляді рядків [з одинарною лапкою](language.types.string.html#language.types.string.syntax.single). При використанні рядків [з подвійною лапкою](language.types.string.html#language.types.string.syntax.double) імена змінних у коді повинні бути ретельно екрановані, наприклад, ось так: `\$somevar`
 
 `args`
 
@@ -173,7 +173,7 @@ similar(a,b) = 16(31.683168316832%)
 
 **Приклад #3 Використання динамічних функцій як callback-функцій**
 
-Можливо, найпоширенішим використанням динамічних функцій є передача їх як callback-функцій, наприклад, при використанні [array\_walk()](function.array-walk.html) або [usort()](function.usort.html)
+Можливо, найпоширенішим використанням динамічних функцій є передача їх як callback-функцій, наприклад, при використанні [arraywalk()](function.array-walk.html) або [usort()](function.usort.html)
 
 ```php
 <?php
@@ -254,4 +254,4 @@ Array
 
 ### Дивіться також
 
--   [Анонимные функции](functions.anonymous.html)
+-   [Анонімні функції](functions.anonymous.html)

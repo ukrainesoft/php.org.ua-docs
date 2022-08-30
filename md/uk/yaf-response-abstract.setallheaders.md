@@ -1,12 +1,12 @@
 Призначення setAllHeaders
 
--   [« Yaf\_Response\_Abstract::response](yaf-response-abstract.response.html)
+-   [« YafResponseAbstract::response](yaf-response-abstract.response.html)
     
--   [Yaf\_Response\_Abstract::setBody »](yaf-response-abstract.setbody.html)
+-   [YafResponseAbstract::setBody »](yaf-response-abstract.setbody.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Призначення setAllHeaders
     

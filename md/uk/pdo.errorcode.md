@@ -1,6 +1,6 @@
 Повертає код SQLSTATE результату останньої операції з базою даних
 
--   [« PDO::\_\_construct](pdo.construct.html)
+-   [« PDO::construct](pdo.construct.html)
     
 -   [PDO::errorInfo »](pdo.errorinfo.html)
     
@@ -33,7 +33,7 @@ public PDO::errorCode(): ?string
 
 **PDO::errorCode()** видає код помилки лише операцій, здійснюваних з базою даних безпосередньо з PDO. Якщо створити об'єкт PDOStatement методами [PDO::prepare()](pdo.prepare.html) або [PDO::query()](pdo.query.html), і викликати помилку його методами, **PDO::errorCode()** цю помилку не відобразить. Вам потрібно викликати [PDOStatement::errorCode()](pdostatement.errorcode.html), щоб отримати код помилки для операції, що виконується на певному об'єкті PDOStatement.
 
-Повертає **`null`**якщо жодних операцій над базою даних засобами PDO-об'єкта не проводилося.
+Повертає \*\*`null`\*\*якщо жодних операцій над базою даних засобами PDO-об'єкта не проводилося.
 
 ### Приклади
 

@@ -1,12 +1,12 @@
 Розшифровує переданий текст
 
--   [« gnupg\_clearsignkeys](function.gnupg-clearsignkeys.html)
+-   [« gnupgclearsignkeys](function.gnupg-clearsignkeys.html)
     
--   [gnupg\_decryptverify »](function.gnupg-decryptverify.html)
+-   [gnupgdecryptverify »](function.gnupg-decryptverify.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Розшифровує переданий текст
     
@@ -23,13 +23,13 @@ gnupgdecrypt — Розшифровує переданий текст
 gnupg_decrypt(resource $identifier, string $text): string
 ```
 
-Розшифровує переданий текст ключами, встановленими раніше за допомогою [gnupg\_adddecryptkey](function.gnupg-adddecryptkey.html)
+Розшифровує переданий текст ключами, встановленими раніше за допомогою [gnupgadddecryptkey](function.gnupg-adddecryptkey.html)
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `text`
 

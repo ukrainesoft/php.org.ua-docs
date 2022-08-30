@@ -1,8 +1,8 @@
 Отримати код останньої помилки
 
--   [« intl\_error\_name](function.intl-error-name.html)
+-   [« intlerrorname](function.intl-error-name.html)
     
--   [intl\_get\_error\_message »](function.intl-get-error-message.html)
+-   [intlgeterrormessage »](function.intl-get-error-message.html)
     
 -   [PHP Manual](index.html)
     
@@ -48,8 +48,8 @@ if( !$coll ) {
 
 ### Дивіться також
 
--   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
--   [intl\_error\_name()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
--   [intl\_get\_error\_message()](function.intl-get-error-message.html) - Отримати опис помилки
--   [collator\_get\_error\_code()](collator.geterrorcode.html) - Отримує останній код помилки Collator
--   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [intlerrorname()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
+-   [intlgeterrormessage()](function.intl-get-error-message.html) - Отримати опис помилки
+-   [collatorgeterrorcode()](collator.geterrorcode.html) - Отримує останній код помилки Collator
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування

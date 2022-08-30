@@ -1,12 +1,12 @@
 Створити новий об'єкт Size
 
--   [« UI\\Size](class.ui-size.html)
+-   [« UISize](class.ui-size.html)
     
--   [UI\\Size::getHeight »](ui-size.getheight.html)
+-   [ОЙSize::getHeight »](ui-size.getheight.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Size](class.ui-size.html)
+-   [ОЙSize](class.ui-size.html)
     
 -   Створити новий об'єкт Size
     

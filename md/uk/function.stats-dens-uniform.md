@@ -1,12 +1,12 @@
 Функція густини ймовірності рівномірного розподілу
 
--   [« stats\_dens\_t](function.stats-dens-t.html)
+-   [« statsdensт](function.stats-dens-t.html)
     
--   [stats\_dens\_weibull »](function.stats-dens-weibull.html)
+-   [statsdensweibull »](function.stats-dens-weibull.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Функція густини ймовірності рівномірного розподілу
     

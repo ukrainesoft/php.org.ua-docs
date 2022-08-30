@@ -1,12 +1,12 @@
 Отримує двигун відображення
 
--   [« Yaf\_Controller\_Abstract::getResponse](yaf-controller-abstract.getresponse.html)
+-   [« YafControllerAbstract::getResponse](yaf-controller-abstract.getresponse.html)
     
--   [Yaf\_Controller\_Abstract::getViewpath »](yaf-controller-abstract.getviewpath.html)
+-   [YafControllerAbstract::getViewpath »](yaf-controller-abstract.getviewpath.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+-   [YafControllerAbstract](class.yaf-controller-abstract.html)
     
 -   Отримує двигун відображення
     

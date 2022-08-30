@@ -1,12 +1,12 @@
 Клас MongoDBDriverExceptionCommandException
 
--   [« MongoDB\\Driver\\Exception\\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.html)
+-   [« MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.html)
     
--   [MongoDB\\Driver\\Exception\\CommandException::getResultDocument »](mongodb-driver-commandexception.getresultdocument.html)
+-   [MongoDBDriverExceptionCommandException::getResultDocument »](mongodb-driver-commandexception.getresultdocument.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+-   [MongoDBDriverException](mongodb.exceptions.html)
     
 -   Клас MongoDBDriverExceptionCommandException
     
@@ -108,4 +108,4 @@ resultDocument
 
 ## Зміст
 
--   [MongoDB\\Driver\\Exception\\CommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.html) — Повертає результат документа для невдалої команди
+-   [MongoDBDriverExceptionCommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.html) — Повертає результат документа для невдалої команди

@@ -1,12 +1,12 @@
 Створює новий об'єкт Slider
 
--   [« UI\\Controls\\Slider](class.ui-controls-slider.html)
+-   [« UIControlsSlider](class.ui-controls-slider.html)
     
--   [UI\\Controls\\Slider::getValue »](ui-controls-slider.getvalue.html)
+-   [ОЙControlsSlider::getValue »](ui-controls-slider.getvalue.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+-   [ОЙControlsSlider](class.ui-controls-slider.html)
     
 -   Створює новий об'єкт Slider
     

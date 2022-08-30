@@ -1,6 +1,6 @@
 Отримує об'єкт, що використовується для створення файбера
 
--   [« ReflectionFiber::\_\_construct](reflectionfiber.construct.html)
+-   [« ReflectionFiber::construct](reflectionfiber.construct.html)
     
 -   [ReflectionFiber::getExecutingFile »](reflectionfiber.getexecutingfile.html)
     

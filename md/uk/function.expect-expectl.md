@@ -2,7 +2,7 @@
 
 -   [« Функции Expect](ref.expect.html)
     
--   [expect\_popen »](function.expect-popen.html)
+-   [expectpopen »](function.expect-popen.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 `expect`
 
-Потік Expect, відкритий за допомогою [expect\_popen()](function.expect-popen.html)
+Потік Expect, відкритий за допомогою [expectpopen()](function.expect-popen.html)
 
 `cases`
 
@@ -96,4 +96,4 @@ fclose($stream);
 
 ### Дивіться також
 
--   [expect\_popen()](function.expect-popen.html) - Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
+-   [expectpopen()](function.expect-popen.html) - Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY

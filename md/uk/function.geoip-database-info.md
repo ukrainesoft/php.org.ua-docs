@@ -1,8 +1,8 @@
 Повертає інформацію про базу GeoIP
 
--   [« geoip\_country\_name\_by\_name](function.geoip-country-name-by-name.html)
+-   [« geoipcountrynameбname](function.geoip-country-name-by-name.html)
     
--   [geoip\_db\_avail »](function.geoip-db-avail.html)
+-   [geoipдбavail »](function.geoip-db-avail.html)
     
 -   [PHP Manual](index.html)
     

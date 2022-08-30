@@ -27,7 +27,7 @@ public **EvIdle::construct** [callable](language.types.callable.html) `$callback
 
 `callback`
 
-Дивіться [функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

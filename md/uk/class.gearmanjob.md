@@ -59,7 +59,7 @@ public workloadSize(): int
 ## Зміст
 
 -   [GearmanJob::complete](gearmanjob.complete.html) — Надсилання результату та статусу завершення (застарілий метод)
--   [GearmanJob::\_\_construct](gearmanjob.construct.html) - Створення об'єкта GearmanJob
+-   [GearmanJob::construct](gearmanjob.construct.html) - Створення об'єкта GearmanJob
 -   [GearmanJob::data](gearmanjob.data.html) — Надсилання даних (застарілий метод)
 -   [GearmanJob::exception](gearmanjob.exception.html) — Надсилання виключення (застарілий метод)
 -   [GearmanJob::fail](gearmanjob.fail.html) — Надсилання статусу невдалої операції (застарілий метод)

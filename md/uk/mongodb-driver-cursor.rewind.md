@@ -1,12 +1,12 @@
 Переміщує курсор до першого результату
 
--   [« MongoDB\\Driver\\Cursor::next](mongodb-driver-cursor.next.html)
+-   [« MongoDBDriverCursor::next](mongodb-driver-cursor.next.html)
     
--   [MongoDB\\Driver\\Cursor::setTypeMap »](mongodb-driver-cursor.settypemap.html)
+-   [MongoDBDriverCursor::setTypeMap »](mongodb-driver-cursor.settypemap.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Переміщує курсор до першого результату
     
@@ -35,10 +35,10 @@ public MongoDB\Driver\Cursor::rewind(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.html)
--   У разі невдалої аутентифікації кидає виняток [MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
--   Кидає виняток [MongoDB\\Driver\\Exception\\LogicException](class.mongodb-driver-exception-logicexception.html) якщо метод був викликаний після просування курсору далі за свою першу позицію.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.html)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
+-   Кидає виняток [MongoDBDriverExceptionLogicException](class.mongodb-driver-exception-logicexception.html) якщо метод був викликаний після просування курсору далі за свою першу позицію.
 
 ### Дивіться також
 

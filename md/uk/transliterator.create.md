@@ -1,6 +1,6 @@
 Створити транслітератор
 
--   [« Transliterator::\_\_construct](transliterator.construct.html)
+-   [« Transliterator::construct](transliterator.construct.html)
     
 -   [Transliterator::createFromRules »](transliterator.createfromrules.html)
     
@@ -56,4 +56,4 @@ transliterator_create(string $id, int $direction = Transliterator::FORWARD): ?Tr
 ### Дивіться також
 
 -   [Transliterator::getErrorMessage()](transliterator.geterrormessage.html) - Отримати останнє повідомлення про помилку
--   [Transliterator::\_\_construct()](transliterator.construct.html) - Приватний конструктор
+-   [Transliterator::construct()](transliterator.construct.html) - Приватний конструктор

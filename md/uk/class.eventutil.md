@@ -1,8 +1,8 @@
 Клас EventUtil
 
--   [« EventSslContext::\_\_construct](eventsslcontext.construct.html)
+-   [« EventSslContext::construct](eventsslcontext.construct.html)
     
--   [EventUtil::\_\_construct »](eventutil.construct.html)
+-   [EventUtil::construct »](eventutil.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -289,7 +289,7 @@ public
 
 ## Зміст
 
--   [EventUtil::\_\_construct](eventutil.construct.html) - Абстрактний конструктор
+-   [EventUtil::construct](eventutil.construct.html) - Абстрактний конструктор
 -   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.html) — Отримати номер останньої помилки сокету, що виникла.
 -   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.html) — Отримати останню помилку сокету, що виникла.
 -   [EventUtil::getSocketFd](eventutil.getsocketfd.html) — Отримати цифровий файловий дескриптор сокету чи потоку

@@ -2,7 +2,7 @@
 
 -   [« Сопоставление с шаблоном](parle.pattern.matching.html)
     
--   [Классы символов »](parle.regex.charclass.html)
+-   [Класи символів »](parle.regex.charclass.html)
     
 -   [PHP Manual](index.html)
     

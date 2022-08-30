@@ -1,12 +1,12 @@
 Отримує всі об'єкти SNMP з агента
 
--   [« snmp3\_set](function.snmp3-set.html)
+-   [« snmpv3set](function.snmp3-set.html)
     
 -   [snmpget »](function.snmpget.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує всі об'єкти SNMP з агента
     
@@ -106,4 +106,4 @@ array (
 
 ### Дивіться також
 
--   [snmp3\_real\_walk()](function.snmp3-real-walk.html) - Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
+-   [snmpv3realwalk()](function.snmp3-real-walk.html) - Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті

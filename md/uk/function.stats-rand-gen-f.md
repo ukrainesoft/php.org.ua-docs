@@ -1,12 +1,12 @@
 Генерує випадкове відхилення від розподілу Фішера
 
--   [« stats\_rand\_gen\_exponential](function.stats-rand-gen-exponential.html)
+-   [« statsrandgenexponential](function.stats-rand-gen-exponential.html)
     
--   [stats\_rand\_gen\_funiform »](function.stats-rand-gen-funiform.html)
+-   [statsrandgenfuniform »](function.stats-rand-gen-funiform.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує випадкове відхилення від розподілу Фішера
     

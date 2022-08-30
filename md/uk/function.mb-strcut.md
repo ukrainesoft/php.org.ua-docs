@@ -1,12 +1,12 @@
 Отримання частини рядка
 
--   [« mb\_str\_split](function.mb-str-split.html)
+-   [« mbstrsplit](function.mb-str-split.html)
     
--   [mb\_strimwidth »](function.mb-strimwidth.html)
+-   [мбstrimwidth »](function.mb-strimwidth.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Отримання частини рядка
     
@@ -23,7 +23,7 @@
 mb_strcut(    string $string,    int $start,    ?int $length = null,    ?string $encoding = null): string
 ```
 
-**мбstrcut()** вирізає підрядок з рядка також, як [mb\_substr()](function.mb-substr.html)але оперує байтами замість символів. Якщо початок частини, що вирізається, потрапляє між байтами одного символу, функція виріже підрядок, починаючи з першого байта цього символу. Це суттєва відмінність від [substr()](function.substr.html), яка просто виріже підрядок, починаючи з середини символу, і порушить тим самим послідовність байт у рядку.
+**мбstrcut()** вирізає підрядок з рядка також, як [мбsubstr()](function.mb-substr.html)але оперує байтами замість символів. Якщо початок частини, що вирізається, потрапляє між байтами одного символу, функція виріже підрядок, починаючи з першого байта цього символу. Це суттєва відмінність від [substr()](function.substr.html), яка просто виріже підрядок, починаючи з середини символу, і порушить тим самим послідовність байт у рядку.
 
 ### Список параметрів
 
@@ -59,5 +59,5 @@ mb_strcut(    string $string,    int $start,    ?int $length = null,
 
 ### Дивіться також
 
--   [mb\_substr()](function.mb-substr.html) - Повертає частину рядка
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбsubstr()](function.mb-substr.html) - Повертає частину рядка
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту

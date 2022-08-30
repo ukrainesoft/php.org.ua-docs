@@ -1,8 +1,8 @@
 Огляд інформації, що міститься в заголовках повідомлень
 
--   [« imap\_expunge](function.imap-expunge.html)
+-   [« imapexpunge](function.imap-expunge.html)
     
--   [imap\_fetchbody »](function.imap-fetchbody.html)
+-   [imapfetchbody »](function.imap-fetchbody.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `sequence`
 
@@ -65,9 +65,9 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -92,4 +92,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imap\_fetchheader()](function.imap-fetchheader.html) - Отримати заголовок повідомлення
+-   [imapfetchheader()](function.imap-fetchheader.html) - Отримати заголовок повідомлення

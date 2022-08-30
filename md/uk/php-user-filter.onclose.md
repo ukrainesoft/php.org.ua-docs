@@ -1,12 +1,12 @@
 Викликається під час закриття фільтра
 
--   [« php\_user\_filter::filter](php-user-filter.filter.html)
+-   [« phpuserfilter::filter](php-user-filter.filter.html)
     
--   [php\_user\_filter::onCreate »](php-user-filter.oncreate.html)
+-   [phpuserfilter::onCreate »](php-user-filter.oncreate.html)
     
 -   [PHP Manual](index.html)
     
--   [php\_user\_filter](class.php-user-filter.html)
+-   [phpuserfilter](class.php-user-filter.html)
     
 -   Викликається під час закриття фільтра
     

@@ -1,12 +1,12 @@
 Вставляє значення за вказаним індексом
 
--   [« Ds\\Sequence::get](ds-sequence.get.html)
+-   [« DsSequence::get](ds-sequence.get.html)
     
--   [Ds\\Sequence::join »](ds-sequence.join.html)
+-   [ДсSequence::join »](ds-sequence.join.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Вставляє значення за вказаним індексом
     

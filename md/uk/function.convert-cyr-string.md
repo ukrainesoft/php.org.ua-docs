@@ -1,12 +1,12 @@
 Перетворює рядок з одного кириличного кодування на інше
 
--   [« chunk\_split](function.chunk-split.html)
+-   [« chunksplit](function.chunk-split.html)
     
--   [convert\_uudecode »](function.convert-uudecode.html)
+-   [convertuudecode »](function.convert-uudecode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює рядок з одного кириличного кодування на інше
     
@@ -62,5 +62,5 @@ convert_cyr_string(string $str, string $from, string $to): string
 
 ### Дивіться також
 
--   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

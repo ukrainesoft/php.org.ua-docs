@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+-   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
     
 -   Отримує кількість попереджень від останньої операції
     

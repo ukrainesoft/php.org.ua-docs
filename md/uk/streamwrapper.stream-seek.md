@@ -1,8 +1,8 @@
 Переміщення на задану позицію у потоці
 
--   [« streamWrapper::stream\_read](streamwrapper.stream-read.html)
+-   [« streamWrapper::streamread](streamwrapper.stream-read.html)
     
--   [streamWrapper::stream\_set\_option »](streamwrapper.stream-set-option.html)
+-   [streamWrapper::streamsetoption »](streamwrapper.stream-set-option.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,11 +55,11 @@ public streamWrapper::stream_seek(int $offset, int $whence  = SEEK_SET): bool
 
 > **Зауваження**
 > 
-> У разі успішного виконання [streamWrapper::stream\_tell()](streamwrapper.stream-tell.html) буде викликано відразу після того, як **streamWrapper::streamseek()** відпрацює. Якщо виконання [streamWrapper::stream\_tell()](streamwrapper.stream-tell.html) завершиться невдачею, то викликаючу функцію буде повернуто значення **`false`**
+> У разі успішного виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.html) буде викликано відразу після того, як **streamWrapper::streamseek()** відпрацює. Якщо виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.html) завершиться невдачею, то викликаючу функцію буде повернуто значення **`false`**
 
 > **Зауваження**
 > 
-> Не всі операції переміщення у потоці призведуть до виклику цієї функції. У PHP за замовчуванням включена буферизація потоків (дивіться також [stream\_set\_read\_buffer()](function.stream-set-read-buffer.html)), тому переміщення в потоці може означати лише переміщення покажчика буфері.
+> Не всі операції переміщення у потоці призведуть до виклику цієї функції. У PHP за замовчуванням включена буферизація потоків (дивіться також [streamsetreadbuffer()](function.stream-set-read-buffer.html)), тому переміщення в потоці може означати лише переміщення покажчика буфері.
 
 ### Дивіться також
 

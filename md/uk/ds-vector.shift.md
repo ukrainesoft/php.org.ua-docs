@@ -1,8 +1,8 @@
 Видаляє та повертає перше значення
 
--   [« Ds\\Vector::set](ds-vector.set.html)
+-   [« DsVector::set](ds-vector.set.html)
     
--   [Ds\\Vector::slice »](ds-vector.slice.html)
+-   [ДсVector::slice »](ds-vector.slice.html)
     
 -   [PHP Manual](index.html)
     

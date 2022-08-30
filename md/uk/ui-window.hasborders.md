@@ -1,12 +1,12 @@
 Визначення рамки
 
--   [« UI\\Window::getTitle](ui-window.gettitle.html)
+-   [« UIWindow::getTitle](ui-window.gettitle.html)
     
--   [UI\\Window::hasMargin »](ui-window.hasmargin.html)
+-   [ОЙWindow::hasMargin »](ui-window.hasmargin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Визначення рамки
     

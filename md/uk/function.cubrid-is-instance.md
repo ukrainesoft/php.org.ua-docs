@@ -1,8 +1,8 @@
 Перевіряє, чи існує екземпляр, на який вказує OID
 
--   [« cubrid\_insert\_id](function.cubrid-insert-id.html)
+-   [« cubridinsertід](function.cubrid-insert-id.html)
     
--   [cubrid\_lob\_close »](function.cubrid-lob-close.html)
+-   [cubridlobclose »](function.cubrid-lob-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -82,5 +82,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubrid\_drop()](function.cubrid-drop.html) - Видалення екземпляра за OID
--   [cubrid\_get\_class\_name()](function.cubrid-get-class-name.html) - Отримує ім'я класу за допомогою OID
+-   [cubriddrop()](function.cubrid-drop.html) - Видалення екземпляра за OID
+-   [cubridgetclassname()](function.cubrid-get-class-name.html) - Отримує ім'я класу за допомогою OID

@@ -2,7 +2,7 @@
 
 -   [« Установка](stream.installation.html)
     
--   [Классы для работы с потоками »](stream.resources.html)
+-   [Класи для роботи з потоками »](stream.resources.html)
     
 -   [PHP Manual](index.html)
     

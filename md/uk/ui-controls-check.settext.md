@@ -1,12 +1,12 @@
 Встановити текст
 
--   [« UI\\Controls\\Check::setChecked](ui-controls-check.setchecked.html)
+-   [« UIControlsCheck::setChecked](ui-controls-check.setchecked.html)
     
--   [UI\\Controls\\Button »](class.ui-controls-button.html)
+-   [ОЙControlsButton »](class.ui-controls-button.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Check](class.ui-controls-check.html)
+-   [ОЙControlsCheck](class.ui-controls-check.html)
     
 -   Встановити текст
     

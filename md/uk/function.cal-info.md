@@ -1,8 +1,8 @@
 Повертає інформацію про заданий календар
 
--   [« cal\_from\_jd](function.cal-from-jd.html)
+-   [« calfromжд](function.cal-from-jd.html)
     
--   [cal\_to\_jd »](function.cal-to-jd.html)
+-   [calтоjd »](function.cal-to-jd.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Перевірити, чи підтримує обладнання AES256-GCM
 
--   [« sodium\_crypto\_aead\_aes256gcm\_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.html)
+-   [« sodiumcryptoaeadaes256gcmencrypt](function.sodium-crypto-aead-aes256gcm-encrypt.html)
     
--   [sodium\_crypto\_aead\_aes256gcm\_keygen »](function.sodium-crypto-aead-aes256gcm-keygen.html)
+-   [sodiumcryptoaeadaes256gcmkeygen »](function.sodium-crypto-aead-aes256gcm-keygen.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,4 +31,4 @@ sodium_crypto_aead_aes256gcm_is_available(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо шифрування за допомогою AES-256-GCM безпечне, інакше повертає **`false`**
+Повертає \*\*`true`\*\*якщо шифрування за допомогою AES-256-GCM безпечне, інакше повертає **`false`**

@@ -2,7 +2,7 @@
 
 -   [« LuaSandboxFunction](class.luasandboxfunction.html)
     
--   [LuaSandboxFunction::\_\_construct »](luasandboxfunction.construct.html)
+-   [LuaSandboxFunction::construct »](luasandboxfunction.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ public LuaSandboxFunction::call(string ...$args): array|bool
 
 Викликає Lua-функцію.
 
-Помилки, викликані PHP-кодом, призведуть до того, що функція поверне `false` і буде викликано попередження **`E_WARNING`**наприклад, коли тип ресурсу (resource) використовується як аргумент. У разі виникнення помилок Lua буде викинуто виняток [LuaSandboxRuntimeError](class.luasandboxruntimeerror.html)
+Помилки, викликані PHP-кодом, призведуть до того, що функція поверне `false` і буде викликано попередження \*\*`E_WARNING`\*\*наприклад, коли тип ресурсу (resource) використовується як аргумент. У разі виникнення помилок Lua буде викинуто виняток [LuaSandboxRuntimeError](class.luasandboxruntimeerror.html)
 
 Типи PHP і Lua перетворюються так:
 

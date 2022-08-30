@@ -16,4 +16,4 @@ Callback-функції
 ## Зміст
 
 -   [Callback-функции парсинга](yaml.callbacks.parse.html)
--   [Публикующие callback-функции](yaml.callbacks.emit.html)
+-   [Публікуючі callback-функції](yaml.callbacks.emit.html)

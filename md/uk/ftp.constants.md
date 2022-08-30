@@ -19,7 +19,7 @@
 
 **`FTP_AUTOSEEK`** (int)
 
-Дивіться опис функції [ftp\_set\_option()](function.ftp-set-option.html)
+Дивіться опис функції [ftpsetoption()](function.ftp-set-option.html)
 
 **`FTP_AUTORESUME`** (int)
 
@@ -49,8 +49,8 @@
 
 **`FTP_TIMEOUT_SEC`** (int)
 
-Дивіться опис функції [ftp\_set\_option()](function.ftp-set-option.html)
+Дивіться опис функції [ftpsetoption()](function.ftp-set-option.html)
 
 **`FTP_USEPASVADDRESS`** (bool)
 
-Дивіться опис функції [ftp\_set\_option()](function.ftp-set-option.html) для отримання інформації.
+Дивіться опис функції [ftpsetoption()](function.ftp-set-option.html) для отримання інформації.

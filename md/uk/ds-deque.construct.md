@@ -1,12 +1,12 @@
 Створює новий екземпляр
 
--   [« Ds\\Deque::clear](ds-deque.clear.html)
+-   [« DsDeque::clear](ds-deque.clear.html)
     
--   [Ds\\Deque::contains »](ds-deque.contains.html)
+-   [ДсDeque::contains »](ds-deque.contains.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Створює новий екземпляр
     

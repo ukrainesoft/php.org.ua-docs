@@ -2,7 +2,7 @@
 
 -   [« Примеры](wddx.examples.html)
     
--   [Функции WDDX »](ref.wddx.html)
+-   [Функції WDDX »](ref.wddx.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,4 +58,4 @@ echo $packet;
 
 > **Зауваження**
 > 
-> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html)
+> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html)

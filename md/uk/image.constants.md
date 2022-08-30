@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [GD](book.image.html)
+-   [ДД](book.image.html)
     
 -   Обумовлені константи
     
@@ -229,79 +229,79 @@
 
 **`IMAGETYPE_GIF`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_JPEG`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_JPEG2000`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_PNG`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_SWF`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_PSD`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_BMP`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_WBMP`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_XBM`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_TIFF_II`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_TIFF_MM`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_IFF`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_JB2`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_JPC`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_JP2`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_JPX`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_SWC`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_ICO`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html)
 
 **`IMAGETYPE_WEBP`** (int)
 
-Константа типу зображення, що використовується з функціями [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) і [image\_type\_to\_extension()](function.image-type-to-extension.html). (Available as of PHP 7.1.0)
+Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.html) і [imagetypeтоextension()](function.image-type-to-extension.html). (Available as of PHP 7.1.0)
 
 **`PNG_NO_FILTER`** (int)
 

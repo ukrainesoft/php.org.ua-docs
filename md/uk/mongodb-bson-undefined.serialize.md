@@ -1,12 +1,12 @@
 Серіалізує Undefined
 
--   [« MongoDB\\BSON\\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html)
+-   [« MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html)
     
--   [MongoDB\\BSON\\Undefined::\_\_toString »](mongodb-bson-undefined.tostring.html)
+-   [MongoDBBSONUndefined::toString »](mongodb-bson-undefined.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html)
+-   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
     
 -   Серіалізує Undefined
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\Undefined::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html)
+Повертає серіалізовану виставу [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Undefined::unserialize()](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
+-   [MongoDBBSONUndefined::unserialize()](mongodb-bson-undefined.unserialize.html) - Десеріалізує Undefined
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

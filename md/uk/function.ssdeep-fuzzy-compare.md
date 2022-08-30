@@ -1,12 +1,12 @@
 Обчислює схожість двох сигнатур нечітких хешів
 
--   [« Функции ssdeep](ref.ssdeep.html)
+-   [« Функції ssdeep](ref.ssdeep.html)
     
--   [ssdeep\_fuzzy\_hash\_filename »](function.ssdeep-fuzzy-hash-filename.html)
+-   [ssdeepfuzzyhashfilename »](function.ssdeep-fuzzy-hash-filename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции ssdeep](ref.ssdeep.html)
+-   [Функції ssdeep](ref.ssdeep.html)
     
 -   Обчислює схожість двох сигнатур нечітких хешів
     
@@ -23,7 +23,7 @@ ssdeepfuzzycompare — Обчислює схожість двох сигнату
 ssdeep_fuzzy_compare(string $signature1, string $signature2): int
 ```
 
-Обчислює величину збігу між `signature1` і `signature2`, використовуючи [»  контекстно-переключаемое частичное хеширование](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає її.
+Обчислює величину збігу між `signature1` і `signature2`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає її.
 
 ### Список параметрів
 

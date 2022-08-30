@@ -1,8 +1,8 @@
 Створити контекст обробки звуку
 
--   [« openal\_buffer\_loadwav](function.openal-buffer-loadwav.html)
+-   [« openalbufferloadwav](function.openal-buffer-loadwav.html)
     
--   [openal\_context\_current »](function.openal-context-current.html)
+-   [openalcontextcurrent »](function.openal-context-current.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,5 +35,5 @@ openal_context_create(resource $device): resource
 
 ### Дивіться також
 
--   [openal\_device\_open()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
--   [openal\_context\_destroy()](function.openal-context-destroy.html) - Знищує контекст
+-   [openaldeviceopen()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
+-   [openalcontextdestroy()](function.openal-context-destroy.html) - Знищує контекст

@@ -1,8 +1,8 @@
 Запитує статус сервісу
 
--   [« win32\_pause\_service](function.win32-pause-service.html)
+-   [« win32pauseservice](function.win32-pause-service.html)
     
--   [win32\_send\_custom\_control »](function.win32-send-custom-control.html)
+-   [win32sendcustomcontrol »](function.win32-send-custom-control.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,11 +43,11 @@ win32_query_service_status(string $servicename, string $machine = ?): array
 
 `ServiceType`
 
-dwServiceType. Дивіться [Битовые маски типов службы Win32Service](win32service.constants.servicetype.html)
+dwServiceType. Дивіться [Побутові маски типів служби Win32Service](win32service.constants.servicetype.html)
 
 `CurrentState`
 
-dwCurrentState. Дивіться [Константы состояния службы Win32Service](win32service.constants.servicestatus.html)
+dwCurrentState. Дивіться [Константи стану служби Win32Service](win32service.constants.servicestatus.html)
 
 `ControlsAccepted`
 
@@ -55,11 +55,11 @@ dwCurrentState. Дивіться [Константы состояния служ
 
 `Win32ExitCode`
 
-Якщо служба завершила роботу, тут з'являється код повернення з процесу. Це значення дорівнює **`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`**якщо режим виходу не є плавним. Дивіться [коды ошибок Win32Service](win32service.constants.errors.html) і [win32\_set\_service\_exit\_mode()](function.win32-set-service-exit-mode.html)
+Якщо служба завершила роботу, тут з'являється код повернення з процесу. Це значення дорівнює \*\*`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`\*\*якщо режим виходу не є плавним. Дивіться [коды ошибок Win32Service](win32service.constants.errors.html) і [win32setserviceexitmode()](function.win32-set-service-exit-mode.html)
 
 `ServiceSpecificExitCode`
 
-Якщо служба завершила роботу, тут відображається код конкретної служби, зареєстрований у журналі подій. Це значення дорівнює значенню, визначеному [win32\_set\_service\_exit\_code()](function.win32-set-service-exit-code.html)
+Якщо служба завершила роботу, тут відображається код конкретної служби, зареєстрований у журналі подій. Це значення дорівнює значенню, визначеному [win32setserviceexitcode()](function.win32-set-service-exit-code.html)
 
 `CheckPoint`
 

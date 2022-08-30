@@ -1,12 +1,12 @@
 Визначення, чи інвертована матриця
 
--   [« UI\\Draw\\Matrix::invert](ui-draw-matrix.invert.html)
+-   [« UIDrawMatrix::invert](ui-draw-matrix.invert.html)
     
--   [UI\\Draw\\Matrix::multiply »](ui-draw-matrix.multiply.html)
+-   [ОЙDrawMatrix::multiply »](ui-draw-matrix.multiply.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Визначення, чи інвертована матриця
     

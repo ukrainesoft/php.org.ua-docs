@@ -1,6 +1,6 @@
 API підтримка транзакцій
 
--   [« Множественные запросы](mysqli.quickstart.multiple-statement.html)
+-   [« Множинні запити](mysqli.quickstart.multiple-statement.html)
     
 -   [Метаданные »](mysqli.quickstart.metadata.html)
     
@@ -53,6 +53,6 @@ $mysqli->commit();
 *Дивіться також*
 
 -   [mysqli::autocommit()](mysqli.autocommit.html)
--   [mysqli::begin\_transaction()](mysqli.begin-transaction.html)
+-   [mysqli::begintransaction()](mysqli.begin-transaction.html)
 -   [mysqli::commit()](mysqli.commit.html)
 -   [mysqli::rollback()](mysqli.rollback.html)

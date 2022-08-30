@@ -1,12 +1,12 @@
 Опитування
 
--   [« parallel\\Events::remove](parallel-events.remove.html)
+-   [« parallelEvents::remove](parallel-events.remove.html)
     
--   [parallel\\Events\\Input »](class.parallel-events-input.html)
+-   [parallelEventsInput »](class.parallel-events-input.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Events](class.parallel-events.html)
+-   [parallelEvents](class.parallel-events.html)
     
 -   Опитування
     
@@ -29,7 +29,7 @@ public parallel\Events::poll(): ?parallel\Events\Event
 
 Якщо це буде неблокуючий цикл і відбудеться блокування, буде повернено значення **`null`**
 
-В іншому випадку [parallel\\Events\\Event](class.parallel-events-event.html) повертає опис події.
+В іншому випадку [parallelEventsEvent](class.parallel-events-event.html) повертає опис події.
 
 ### Помилки
 

@@ -1,6 +1,6 @@
 Довідник функцій
 
--   [« Использование SystemTap со статическими зондами PHP DTrace](features.dtrace.systemtap.html)
+-   [« Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.html)
     
 -   [Изменение поведения PHP »](refs.basic.php.html)
     
@@ -13,7 +13,7 @@
 
 **Підказка**
 
-Дивіться також [Список/классификация модулей](extensions.html)
+Дивіться також [Список/класифікація модулів](extensions.html)
 
 -   [Изменение поведения PHP](refs.basic.php.html)
     -   [APCu](book.apcu.html) — Користувальницький кеш APC
@@ -21,7 +21,7 @@
     -   [Обработка ошибок](book.errorfunc.html) — Обробка та логування помилок
     -   [FFI](book.ffi.html) - Інтерфейс зовнішньої функції (Foreign Function Interface)
     -   [OPcache](book.opcache.html)
-    -   [Контроль вывода](book.outcontrol.html) - Управління буфером виводу
+    -   [Контроль виведення](book.outcontrol.html) - Управління буфером виводу
     -   [Опции/информация PHP](book.info.html) - Опції та інформація PHP
     -   [phpdbg](book.phpdbg.html) - Інтерактивний налагоджувач PHP
     -   [runkit7](book.runkit7.html)
@@ -31,18 +31,18 @@
     -   [Yac](book.yac.html)
 -   [Обработка аудио форматов](refs.utilspec.audio.html)
     -   [OpenAL](book.openal.html) - Аудіопотоки OpenAL
--   [Службы аутентификации](refs.remote.auth.html)
+-   [Служби автентифікації](refs.remote.auth.html)
     -   [Radius](book.radius.html)
--   [Модули для работы с командной строкой](refs.utilspec.cmdline.html)
+-   [Модулі для роботи з командним рядком](refs.utilspec.cmdline.html)
     -   [Readline](book.readline.html) - GNU Readline
--   [Модули для сжатия и архивации](refs.compression.html)
+-   [Модулі для стиснення та архівації](refs.compression.html)
     -   [Bzip2](book.bzip2.html)
     -   [LZF](book.lzf.html)
     -   [Phar](book.phar.html)
     -   [Rar](book.rar.html) - Архівування Rar
     -   [Zip](book.zip.html)
     -   [Zlib](book.zlib.html)
--   [Криптографические модули](refs.crypto.html)
+-   [Криптографічні модулі](refs.crypto.html)
     -   [CSPRNG](book.csprng.html)
     -   [Hash](book.hash.html) - Фреймворк хеш-кодів HASH
     -   [Mcrypt](book.mcrypt.html)
@@ -50,55 +50,55 @@
     -   [OpenSSL](book.openssl.html)
     -   [Хеширование паролей](book.password.html)
     -   [Sodium](book.sodium.html)
--   [Модули для работы с базами данных](refs.database.html)
-    -   [Уровни абстракции](refs.database.abstract.html)
-    -   [Модули для работы с базами данных отдельных производителей](refs.database.vendors.html)
--   [Модули для работы с датой и временем](refs.calendar.html)
+-   [Модулі для роботи з базами даних](refs.database.html)
+    -   [Рівні абстракції](refs.database.abstract.html)
+    -   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
+-   [Модулі для роботи з датою та часом](refs.calendar.html)
     -   [Календарь](book.calendar.html)
     -   [Дата/время](book.datetime.html) - Дата і час
     -   [HRTime](book.hrtime.html) — Час високого дозволу
--   [Модули для работы с файловой системой](refs.fileprocess.file.html)
+-   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
     -   [Прямой ввод/вывод (Direct IO)](book.dio.html)
     -   [Каталоги](book.dir.html)
     -   [FileInfo](book.fileinfo.html) — Інформація про файл
-    -   [Файловая система](book.filesystem.html)
+    -   [Файлова система](book.filesystem.html)
     -   [Inotify](book.inotify.html)
     -   [xattr](book.xattr.html)
     -   [xdiff](book.xdiff.html)
--   [Поддержка языков и кодировок](refs.international.html)
+-   [Підтримка мов та кодувань](refs.international.html)
     -   [Enchant](book.enchant.html) - Бібліотека перевірки правопису Enchant
     -   [Gender](book.gender.html) — Визначення статі на ім'я
     -   [Gettext](book.gettext.html)
     -   [iconv](book.iconv.html)
     -   [intl](book.intl.html) - Функції інтернаціоналізації
-    -   [Многобайтовые строки](book.mbstring.html)
+    -   [Багатобайтові рядки](book.mbstring.html)
     -   [Pspell](book.pspell.html)
     -   [Recode](book.recode.html) - GNU Recode
 -   [Обработка и генерация изображений](refs.utilspec.image.html)
     -   [Exif](book.exif.html) — Змінювана інформація про зображення
-    -   [GD](book.image.html) — Обробка зображень та GD
+    -   [ДД](book.image.html) — Обробка зображень та GD
     -   [Gmagick](book.gmagick.html)
     -   [ImageMagick](book.imagick.html) - Обробка зображень (ImageMagick)
--   [Модули для работы с почтой](refs.remote.mail.html)
+-   [Модулі для роботи з поштою](refs.remote.mail.html)
     -   [IMAP](book.imap.html) - IMAP, POP3 та NNTP
     -   [Mail](book.mail.html)
     -   [Mailparse](book.mailparse.html)
--   [Математические модули](refs.math.html)
+-   [Математичні модулі](refs.math.html)
     -   [BC Math](book.bc.html) — Обчислення над числами з довільною точністю BCMath
     -   [GMP](book.gmp.html) — Обчислення над цілими числами із довільною точністю (GNU Multiple Precision)
     -   [Math](book.math.html) - Математичні функції
     -   [Статистика](book.stats.html)
     -   [Trader](book.trader.html) - Технічний аналіз для трейдерів
--   [Генерация нетекстовых MIME-форматов](refs.utilspec.nontext.html)
+-   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
     -   [FDF](book.fdf.html) - Формат даних форм
     -   [GnuPG](book.gnupg.html) - GNU Privacy Guard
     -   [wkhtmltox](book.wkhtmltox.html)
-    -   [PS](book.ps.html) - Створення документів PostScript
+    -   [ПС](book.ps.html) - Створення документів PostScript
     -   [RpmInfo](book.rpminfo.html)
     -   [XLSWriter](book.xlswriter.html)
 -   [Модули для управления процессами программ](refs.fileprocess.process.html)
     -   [Eio](book.eio.html)
-    -   [Ev](book.ev.html)
+    -   [Єв](book.ev.html)
     -   [Expect](book.expect.html)
     -   [PCNTL](book.pcntl.html) - Управління процесами
     -   [POSIX](book.posix.html)
@@ -108,7 +108,7 @@
     -   [Семафоры](book.sem.html) — Семафори, пам'ять, що розділяється, і IPC
     -   [Управление разделяемой памятью](book.shmop.html)
     -   [Sync](book.sync.html)
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     -   [GeoIP](book.geoip.html) - Geo IP Location
     -   [FANN](book.fann.html) - Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
     -   [Igbinary](book.igbinary.html)
@@ -128,8 +128,8 @@
     -   [Yaf](book.yaf.html) - Yet Another Framework
     -   [Yaconf](book.yaconf.html)
     -   [Taint](book.taint.html)
-    -   [Структуры данных](book.ds.html)
-    -   [var\_representation](book.var_representation.html)
+    -   [Структури даних](book.ds.html)
+    -   [varrepresentation](book.var_representation.html)
 -   [Другие службы](refs.remote.other.html)
     -   [cURL](book.curl.html) - Клієнтська бібліотека роботи з URL
     -   [Event](book.event.html)
@@ -151,21 +151,21 @@
     -   [TCP](book.tcpwrap.html) - Обгортки TCP
     -   [Varnish](book.varnish.html)
     -   [YAZ](book.yaz.html)
-    -   [Обмен сообщениями 0MQ](book.zmq.html) - ZMQ
+    -   [Обмін повідомленнями 0MQ](book.zmq.html) - ZMQ
     -   [ZooKeeper](book.zookeeper.html)
--   [Модули для работы с поисковыми системами](refs.search.html)
+-   [Модулі для роботи з пошуковими системами](refs.search.html)
     -   [Solr](book.solr.html) - Apache Solr
--   [Модули для работы с серверами](refs.utilspec.server.html)
+-   [Модулі для роботи із серверами](refs.utilspec.server.html)
     -   [Apache](book.apache.html)
-    -   [Менеджер процессов FastCGI](book.fpm.html)
--   [Модули для работы с сессиями](refs.basic.session.html)
+    -   [Менеджер процесів FastCGI](book.fpm.html)
+-   [Модулі для роботи із сесіями](refs.basic.session.html)
     -   [Сессии](book.session.html) - Управління сесіями
 -   [Обработка текста](refs.basic.text.html)
     -   [CommonMark](book.cmark.html)
     -   [Parle](book.parle.html) — Розбір та лексування
     -   [PCRE](book.pcre.html) — Функції для роботи з регулярними виразами (Perl-сумісні)
     -   [ssdeep](book.ssdeep.html) - Нечітке хешування ssdeep
-    -   [Строки](book.strings.html)
+    -   [Рядки](book.strings.html)
 -   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
     -   [Массивы](book.array.html)
     -   [Классы и объекты](book.classobj.html) — Інформація про клас та об'єкт
@@ -180,7 +180,7 @@
     -   [SOAP](book.soap.html)
     -   [Yar](book.yar.html) — Ще один RPC-фреймворк
     -   [XML-RPC](book.xmlrpc.html)
--   [Модули только для Windows](refs.utilspec.windows.html)
+-   [Модулі лише для Windows](refs.utilspec.windows.html)
     -   [COM](book.com.html) - COM і .Net (Windows)
     -   [win32service](book.win32service.html)
 -   [Обработка XML](refs.xml.html)
@@ -193,5 +193,5 @@
     -   [XMLReader](book.xmlreader.html)
     -   [XMLWriter](book.xmlwriter.html)
     -   [XSL](book.xsl.html)
--   [Модули для работы с GUI](refs.ui.html)
-    -   [UI](book.ui.html)
+-   [Модулі для роботи з GUI](refs.ui.html)
+    -   [ОЙ](book.ui.html)

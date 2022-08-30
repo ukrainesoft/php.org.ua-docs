@@ -1,12 +1,12 @@
 Встановлює статичні змінні у сфері видимості функції чи методу
 
--   [« uopz\_set\_return](function.uopz-set-return.html)
+-   [« uopzsetreturn](function.uopz-set-return.html)
     
--   [uopz\_undefine »](function.uopz-undefine.html)
+-   [uopzundefine »](function.uopz-undefine.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Встановлює статичні змінні у сфері видимості функції чи методу
     
@@ -70,4 +70,4 @@ string(3) "qux"
 
 ### Дивіться також
 
--   [uopz\_get\_static()](function.uopz-get-static.html) - Повертає статичні змінні в області видимості функції або методу
+-   [uopzgetstatic()](function.uopz-get-static.html) - Повертає статичні змінні в області видимості функції або методу

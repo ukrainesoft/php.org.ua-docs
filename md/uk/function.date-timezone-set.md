@@ -1,6 +1,6 @@
 Псевдонім DateTime::setTimezone
 
--   [« date\_timezone\_get](function.date-timezone-get.html)
+-   [« datetimezoneget](function.date-timezone-get.html)
     
 -   [date »](function.date.html)
     

@@ -1,6 +1,6 @@
 Повертає всі заголовки HTTP-запиту
 
--   [« apache\_setenv](function.apache-setenv.html)
+-   [« apachesetenv](function.apache-setenv.html)
     
 -   [virtual »](function.virtual.html)
     
@@ -25,7 +25,7 @@ getallheaders(): array
 
 Повертає всі заголовки для поточного запиту HTTP.
 
-Ця функція є псевдонімом функції [apache\_request\_headers()](function.apache-request-headers.html). Будь ласка, зверніться до опису функції [apache\_request\_headers()](function.apache-request-headers.html) для отримання детальної інформації про її роботу.
+Ця функція є псевдонімом функції [apacherequestheaders()](function.apache-request-headers.html). Будь ласка, зверніться до опису функції [apacherequestheaders()](function.apache-request-headers.html) для отримання детальної інформації про її роботу.
 
 ### Список параметрів
 
@@ -57,4 +57,4 @@ foreach (getallheaders() as $name => $value) {
 
 ### Дивіться також
 
--   [apache\_response\_headers()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apacheresponseheaders()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache

@@ -1,8 +1,8 @@
 Повертає копію колекції
 
--   [« Ds\\Collection::clear](ds-collection.clear.html)
+-   [« DsCollection::clear](ds-collection.clear.html)
     
--   [Ds\\Collection::isEmpty »](ds-collection.isempty.html)
+-   [ДсCollection::isEmpty »](ds-collection.isempty.html)
     
 -   [PHP Manual](index.html)
     

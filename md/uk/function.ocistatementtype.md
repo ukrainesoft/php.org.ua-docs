@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocistatementtype - Псевдонім [oci\_statement\_type()](function.oci-statement-type.html)
+ocistatementtype - Псевдонім [ocistatementtype()](function.oci-statement-type.html)
 
 ### Опис
 
-Псевдонім [oci\_statement\_type()](function.oci-statement-type.html)
+Псевдонім [ocistatementtype()](function.oci-statement-type.html)
 
 **Увага**
 

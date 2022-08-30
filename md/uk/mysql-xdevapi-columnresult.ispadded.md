@@ -2,11 +2,11 @@
 
 -   [« ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.html)
     
--   [mysql\_xdevapi\\CrudOperationBindable »](class.mysql-xdevapi-crudoperationbindable.html)
+-   [mysqlxdevapiCrudOperationBindable »](class.mysql-xdevapi-crudoperationbindable.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+-   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     
 -   Перевіряє, чи доповнюється
     
@@ -33,7 +33,7 @@ public mysql_xdevapi\ColumnResult::isPadded(): int
 
 ### Значення, що повертаються
 
-**`true`**якщо заданий стовпець доповнюється.
+\*\*`true`\*\*якщо заданий стовпець доповнюється.
 
 ### Приклади
 

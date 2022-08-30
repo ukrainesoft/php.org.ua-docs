@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Event::set](swoole-event.set.html)
+-   [« SwooleEvent::set](swoole-event.set.html)
     
--   [Swoole\\Event::write »](swoole-event.write.html)
+-   [SwooleEvent::write »](swoole-event.write.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Event](class.swoole-event.html)
+-   [SwooleEvent](class.swoole-event.html)
     
 -   Опис
     

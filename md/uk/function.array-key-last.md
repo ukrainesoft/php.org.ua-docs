@@ -1,12 +1,12 @@
 Отримує останній ключ масиву
 
--   [« array\_key\_first](function.array-key-first.html)
+-   [« arraykeyfirst](function.array-key-first.html)
     
--   [array\_keys »](function.array-keys.html)
+-   [arraykeys »](function.array-keys.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Отримує останній ключ масиву
     
@@ -37,5 +37,5 @@ array_key_last(array $array): int|string|null
 
 ### Дивіться також
 
--   [array\_key\_first()](function.array-key-first.html) - Отримує перший ключ масиву
+-   [arraykeyfirst()](function.array-key-first.html) - Отримує перший ключ масиву
 -   [end()](function.end.html) - Встановлює внутрішній покажчик масиву на його останній елемент

@@ -1,6 +1,6 @@
 Клас PgSqlЛоб
 
--   [« PgSql\\Result](class.pgsql-result.html)
+-   [« PgSqlResult](class.pgsql-result.html)
     
 -   [SQLite3 »](book.sqlite3.html)
     

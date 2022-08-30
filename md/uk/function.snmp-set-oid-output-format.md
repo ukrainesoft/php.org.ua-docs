@@ -1,12 +1,12 @@
 Встановлює вихідний OID
 
--   [« snmp\_set\_oid\_numeric\_print](function.snmp-set-oid-numeric-print.html)
+-   [« snmpsetoidnumericprint](function.snmp-set-oid-numeric-print.html)
     
--   [snmp\_set\_quick\_print »](function.snmp-set-quick-print.html)
+-   [snmpsetquickprint »](function.snmp-set-quick-print.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Встановлює вихідний OID
     

@@ -1,12 +1,12 @@
 Отримує поточний рядок
 
--   [« Swoole\\Table::create](swoole-table.create.html)
+-   [« SwooleTable::create](swoole-table.create.html)
     
--   [Swoole\\Table::decr »](swoole-table.decr.html)
+-   [SwooleTable::decr »](swoole-table.decr.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Отримує поточний рядок
     

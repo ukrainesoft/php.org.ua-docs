@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Запит дерева інформації про мережевий об'єкт
     

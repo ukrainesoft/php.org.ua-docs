@@ -1,12 +1,12 @@
 Повертає дескриптор файлової системи для репозиторію
 
--   [« svn\_repos\_fs\_commit\_txn](function.svn-repos-fs-commit-txn.html)
+-   [« svnreposфсcommittxn](function.svn-repos-fs-commit-txn.html)
     
--   [svn\_repos\_hotcopy »](function.svn-repos-hotcopy.html)
+-   [svnreposhotcopy »](function.svn-repos-hotcopy.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає дескриптор файлової системи для репозиторію
     

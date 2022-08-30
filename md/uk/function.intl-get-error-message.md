@@ -1,8 +1,8 @@
 Отримати опис помилки
 
--   [« intl\_get\_error\_code](function.intl-get-error-code.html)
+-   [« intlgeterrorcode](function.intl-get-error-code.html)
     
--   [intl\_is\_failure »](function.intl-is-failure.html)
+-   [intlісfailure »](function.intl-is-failure.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,8 +47,8 @@ if( Collator::getAvailableLocales() === false ) {
 
 ### Дивіться також
 
--   [intl\_error\_name()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
--   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
--   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
--   [collator\_get\_error\_message()](collator.geterrormessage.html) - Отримує текст для останньої помилки коду Collator
--   [numfmt\_get\_error\_message()](numberformatter.geterrormessage.html) - Отримує останнє повідомлення про помилку засобу форматування
+-   [intlerrorname()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
+-   [intlgeterrorcode()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intlісfailure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [collatorgeterrormessage()](collator.geterrormessage.html) - Отримує текст для останньої помилки коду Collator
+-   [numfmtgeterrormessage()](numberformatter.geterrormessage.html) - Отримує останнє повідомлення про помилку засобу форматування

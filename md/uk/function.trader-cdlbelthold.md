@@ -1,8 +1,8 @@
 Захоплення за пояс
 
--   [« trader\_cdladvanceblock](function.trader-cdladvanceblock.html)
+-   [« tradercdladvanceblock](function.trader-cdladvanceblock.html)
     
--   [trader\_cdlbreakaway »](function.trader-cdlbreakaway.html)
+-   [tradercdlbreakaway »](function.trader-cdlbreakaway.html)
     
 -   [PHP Manual](index.html)
     

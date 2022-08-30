@@ -1,12 +1,12 @@
 Обчислює один із параметрів розподілу Лапласа за рештою
 
--   [« stats\_cdf\_gamma](function.stats-cdf-gamma.html)
+-   [« statscdfgamma](function.stats-cdf-gamma.html)
     
--   [stats\_cdf\_logistic »](function.stats-cdf-logistic.html)
+-   [statscdflogistic »](function.stats-cdf-logistic.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів розподілу Лапласа за рештою
     

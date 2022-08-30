@@ -1,12 +1,12 @@
 Визначити, чи видимий елемент керування
 
--   [« UI\\Control::isEnabled](ui-control.isenabled.html)
+-   [« UIControl::isEnabled](ui-control.isenabled.html)
     
--   [UI\\Control::setParent »](ui-control.setparent.html)
+-   [ОЙControl::setParent »](ui-control.setparent.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Control](class.ui-control.html)
+-   [ОЙControl](class.ui-control.html)
     
 -   Визначити, чи видимий елемент керування
     

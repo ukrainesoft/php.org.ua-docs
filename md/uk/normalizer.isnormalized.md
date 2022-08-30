@@ -91,4 +91,4 @@ not normalized; normalized
 
 ### Дивіться також
 
--   [normalizer\_normalize()](normalizer.normalize.html) - Нормалізація рядка
+-   [normalizernormalize()](normalizer.normalize.html) - Нормалізація рядка

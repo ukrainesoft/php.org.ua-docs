@@ -1,12 +1,12 @@
 Пошук наступного простого числа
 
--   [« gmp\_neg](function.gmp-neg.html)
+-   [« gmpneg](function.gmp-neg.html)
     
--   [gmp\_or »](function.gmp-or.html)
+-   [gmpor »](function.gmp-or.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Пошук наступного простого числа
     

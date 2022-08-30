@@ -1,8 +1,8 @@
 Помножує скалярне значення
 
--   [« sodium\_crypto\_core\_ristretto255\_scalar\_invert](function.sodium-crypto-core-ristretto255-scalar-invert.html)
+-   [« sodiumcryptocoreristretto255scalarinvert](function.sodium-crypto-core-ristretto255-scalar-invert.html)
     
--   [sodium\_crypto\_core\_ristretto255\_scalar\_negate »](function.sodium-crypto-core-ristretto255-scalar-negate.html)
+-   [sodiumcryptocoreristretto255scalarnegate »](function.sodium-crypto-core-ristretto255-scalar-negate.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,4 +45,4 @@ sodium_crypto_core_ristretto255_scalar_mul(string $x, string $y): string
 
 ### Дивіться також
 
--   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ

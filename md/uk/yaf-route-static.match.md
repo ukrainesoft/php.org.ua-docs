@@ -1,12 +1,12 @@
 Призначення match
 
--   [« Yaf\_Route\_Static::assemble](yaf-route-static.assemble.html)
+-   [« YafRouteStatic::assemble](yaf-route-static.assemble.html)
     
--   [Yaf\_Route\_Static::route »](yaf-route-static.route.html)
+-   [YafRouteStatic::route »](yaf-route-static.route.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Static](class.yaf-route-static.html)
+-   [YafRouteStatic](class.yaf-route-static.html)
     
 -   Призначення match
     

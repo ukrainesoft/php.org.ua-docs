@@ -1,12 +1,12 @@
 Отримує певні значення
 
--   [« ps\_get\_parameter](function.ps-get-parameter.html)
+-   [«psgetparameter](function.ps-get-parameter.html)
     
--   [ps\_hyphenate »](function.ps-hyphenate.html)
+-   [псhyphenate »](function.ps-hyphenate.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Отримує певні значення
     
@@ -23,7 +23,7 @@
 ps_get_value(resource $psdoc, string $name, float $modifier = ?): float
 ```
 
-Отримує кілька значень, встановлених [ps\_set\_value()](function.ps-set-value.html). Значення визначення є значеннями з плаваючою точкою.
+Отримує кілька значень, встановлених [псsetvalue()](function.ps-set-value.html). Значення визначення є значеннями з плаваючою точкою.
 
 Параметр `name` може мати такі значення:
 
@@ -135,7 +135,7 @@ ps_get_value(resource $psdoc, string $name, float $modifier = ?): float
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 `name`
 
@@ -151,4 +151,4 @@ ps_get_value(resource $psdoc, string $name, float $modifier = ?): float
 
 ### Дивіться також
 
--   [ps\_set\_value()](function.ps-set-value.html) - Встановлює певні значення
+-   [псsetvalue()](function.ps-set-value.html) - Встановлює певні значення

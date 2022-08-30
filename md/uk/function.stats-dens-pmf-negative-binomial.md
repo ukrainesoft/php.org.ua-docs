@@ -1,12 +1,12 @@
 Функція густини ймовірності негативного біномінального розподілу
 
--   [« stats\_dens\_pmf\_hypergeometric](function.stats-dens-pmf-hypergeometric.html)
+-   [« statsdenspmfhypergeometric](function.stats-dens-pmf-hypergeometric.html)
     
--   [stats\_dens\_pmf\_poisson »](function.stats-dens-pmf-poisson.html)
+-   [statsdenspmfpoisson »](function.stats-dens-pmf-poisson.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Функція густини ймовірності негативного біномінального розподілу
     

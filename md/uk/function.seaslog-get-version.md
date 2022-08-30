@@ -1,6 +1,6 @@
 Отримує версію SeasLog
 
--   [« seaslog\_get\_author](function.seaslog-get-author.html)
+-   [« seasloggetauthor](function.seaslog-get-author.html)
     
 -   [SeasLog »](class.seaslog.html)
     

@@ -39,7 +39,7 @@ mysqli_dump_debug_info(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -47,4 +47,4 @@ mysqli_dump_debug_info(mysqli $mysql): bool
 
 ### Дивіться також
 
--   [mysqli\_debug()](mysqli.debug.html) - Виконує процедури налагодження
+-   [mysqlidebug()](mysqli.debug.html) - Виконує процедури налагодження

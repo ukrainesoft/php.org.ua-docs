@@ -1,12 +1,12 @@
 Призначення assignRef
 
--   [« Yaf\_View\_Simple::assign](yaf-view-simple.assign.html)
+-   [« YafViewSimple::assign](yaf-view-simple.assign.html)
     
--   [Yaf\_View\_Simple::clear »](yaf-view-simple.clear.html)
+-   [YafViewSimple::clear »](yaf-view-simple.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Призначення assignRef
     
@@ -23,7 +23,7 @@ YafViewSimple::assignRef — Призначення assignRef
 public Yaf_View_Simple::assignRef(string $name, mixed &$value): bool
 ```
 
-На відміну від [Yaf\_View\_Simple::assign()](yaf-view-simple.assign.html), цей метод надає значення ref движку.
+На відміну від [YafViewSimple::assign()](yaf-view-simple.assign.html), цей метод надає значення ref движку.
 
 ### Список параметрів
 
@@ -82,5 +82,5 @@ changed
 
 ### Дивіться також
 
--   [Yaf\_View\_Simple::assign()](yaf-view-simple.assign.html) - Призначити значення
--   [Yaf\_View\_Simple::\_\_set()](yaf-view-simple.set.html) - Встановлює значення для двигуна
+-   [YafViewSimple::assign()](yaf-view-simple.assign.html) - Призначити значення
+-   [YafViewSimple::set()](yaf-view-simple.set.html) - Встановлює значення для двигуна

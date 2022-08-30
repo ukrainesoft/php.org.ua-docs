@@ -1,8 +1,8 @@
 Повертає останнє повідомлення від сервера PostgreSQL
 
--   [« pg\_last\_error](function.pg-last-error.html)
+-   [« pglasterror](function.pg-last-error.html)
     
--   [pg\_last\_oid »](function.pg-last-oid.html)
+-   [пгlastoid »](function.pg-last-oid.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,7 +35,7 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `mode`
 
@@ -47,10 +47,10 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Доданий параметр `mode`                                                                                                                                          |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Доданий параметр `mode`                                                                                                                                        |
 
 ### Приклади
 
@@ -76,5 +76,5 @@ CREATE TABLE will create implicit sequence "test_id_seq" for "serial" column "te
 
 ### Дивіться також
 
--   [pg\_query()](function.pg-query.html) - Виконує запит
--   [pg\_last\_error()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [пгquery()](function.pg-query.html) - Виконує запит
+-   [пгlasterror()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.

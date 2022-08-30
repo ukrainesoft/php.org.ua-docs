@@ -1,8 +1,8 @@
 Підготовка пошуку
 
--   [« yaz\_schema](function.yaz-schema.html)
+-   [« yazschema](function.yaz-schema.html)
     
--   [yaz\_set\_option »](function.yaz-set-option.html)
+-   [yazsetoption »](function.yaz-set-option.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,13 +25,13 @@ yaz_search(resource $id, string $type, string $query): bool
 
 **yazsearch()** готує пошук на заданому з'єднанні.
 
-Так само як і [yaz\_connect()](function.yaz-connect.html) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yaz\_wait()](function.yaz-wait.html)
+Так само як і [yazconnect()](function.yaz-connect.html) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yazwait()](function.yaz-wait.html)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається функцією [yaz\_connect()](function.yaz-connect.html)
+Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.html)
 
 `type`
 
@@ -56,7 +56,7 @@ yaz_search(resource $id, string $type, string $query): bool
 
 > **Зауваження**
 > 
-> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yaz\_ccl\_conf()](function.yaz-ccl-conf.html) і [yaz\_ccl\_parse()](function.yaz-ccl-parse.html)
+> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yazcclconf()](function.yaz-ccl-conf.html) і [yazcclparse()](function.yaz-ccl-parse.html)
 
 ### Значення, що повертаються
 

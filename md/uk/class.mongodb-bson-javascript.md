@@ -1,12 +1,12 @@
 Клас MongoDBBSONJavascript
 
--   [« MongoDB\\BSON\\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.html)
+-   [« MongoDBBSONDecimal128::unserialize](mongodb-bson-decimal128.unserialize.html)
     
--   [MongoDB\\BSON\\Javascript::\_\_construct »](mongodb-bson-javascript.construct.html)
+-   [MongoDBBSONJavascript::construct »](mongodb-bson-javascript.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONJavascript
     
@@ -55,15 +55,15 @@ final public unserialize(string $serialized): void
 | Версия              | Описание                                                                                                      |
 |---------------------|---------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+.                                          |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)          |
+| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)              |
 | PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 
--   [MongoDB\\BSON\\Javascript::\_\_construct](mongodb-bson-javascript.construct.html) - Конструктор Javascript
--   [MongoDB\\BSON\\Javascript::getCode](mongodb-bson-javascript.getcode.html) — Повертає код JavaScript
--   [MongoDB\\BSON\\Javascript::getScope](mongodb-bson-javascript.getscope.html) — Повертає область документа JavaScript
--   [MongoDB\\BSON\\Javascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html) — Повертає виставу, яка може бути перетворена на JSON
--   [MongoDB\\BSON\\Javascript::serialize](mongodb-bson-javascript.serialize.html) — Серіалізувати JavaScript
--   [MongoDB\\BSON\\Javascript::\_\_toString](mongodb-bson-javascript.tostring.html) — Повертає код JavaScript
--   [MongoDB\\BSON\\Javascript::unserialize](mongodb-bson-javascript.unserialize.html) — Десеріалізувати JavaScript
+-   [MongoDBBSONJavascript::construct](mongodb-bson-javascript.construct.html) - Конструктор Javascript
+-   [MongoDBBSONJavascript::getCode](mongodb-bson-javascript.getcode.html) — Повертає код JavaScript
+-   [MongoDBBSONJavascript::getScope](mongodb-bson-javascript.getscope.html) — Повертає область документа JavaScript
+-   [MongoDBBSONJavascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html) — Повертає виставу, яка може бути перетворена на JSON
+-   [MongoDBBSONJavascript::serialize](mongodb-bson-javascript.serialize.html) — Серіалізувати JavaScript
+-   [MongoDBBSONJavascript::toString](mongodb-bson-javascript.tostring.html) — Повертає код JavaScript
+-   [MongoDBBSONJavascript::unserialize](mongodb-bson-javascript.unserialize.html) — Десеріалізувати JavaScript

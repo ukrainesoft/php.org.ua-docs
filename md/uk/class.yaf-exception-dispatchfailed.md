@@ -1,8 +1,8 @@
 Клас YafExceptionDispatchFailed
 
--   [« Yaf\_Exception\_StartupError](class.yaf-exception-startuperror.html)
+-   [« YafExceptionStartupError](class.yaf-exception-startuperror.html)
     
--   [Yaf\_Exception\_RouterFailed »](class.yaf-exception-routerfailed.html)
+-   [YafExceptionRouterFailed »](class.yaf-exception-routerfailed.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Повертає кількість завершених, але необроблених процесів
 
--   [« eio\_nop](function.eio-nop.html)
+-   [« eionop](function.eio-nop.html)
     
--   [eio\_nready »](function.eio-nready.html)
+-   [eionready »](function.eio-nready.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,6 +35,6 @@ eio_npending(): int
 
 ### Дивіться також
 
--   [eio\_nreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
--   [eio\_nready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
--   [eio\_nthreads()](function.eio-nthreads.html) - Повертає кількість потоків, що використовуються в даний момент
+-   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
+-   [eionready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
+-   [eionthreads()](function.eio-nthreads.html) - Повертає кількість потоків, що використовуються в даний момент

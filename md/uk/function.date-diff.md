@@ -1,8 +1,8 @@
 Псевдонім DateTime::diff
 
--   [« date\_default\_timezone\_set](function.date-default-timezone-set.html)
+-   [« datedefaulttimezoneset](function.date-default-timezone-set.html)
     
--   [date\_format »](function.date-format.html)
+-   [dateformat »](function.date-format.html)
     
 -   [PHP Manual](index.html)
     

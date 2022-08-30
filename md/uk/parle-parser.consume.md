@@ -1,12 +1,12 @@
 Використовує дані для обробки
 
--   [« Parle\\Parser::build](parle-parser.build.html)
+-   [« ParleParser::build](parle-parser.build.html)
     
--   [Parle\\Parser::dump »](parle-parser.dump.html)
+-   [ParleParser::dump »](parle-parser.dump.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Використовує дані для обробки
     

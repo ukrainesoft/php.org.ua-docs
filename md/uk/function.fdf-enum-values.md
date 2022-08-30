@@ -1,8 +1,8 @@
 Викликає функцію користувача для кожного значення документа
 
--   [« fdf\_create](function.fdf-create.html)
+-   [« fdfcreate](function.fdf-create.html)
     
--   [fdf\_errno »](function.fdf-errno.html)
+-   [fdferrno »](function.fdf-errno.html)
     
 -   [PHP Manual](index.html)
     

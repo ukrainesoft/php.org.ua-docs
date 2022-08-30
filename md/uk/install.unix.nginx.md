@@ -1,6 +1,6 @@
 Встановлення Nginx 1.4.x на систему Unix
 
--   [« Apache 2.x на Unix системах](install.unix.apache2.html)
+-   [Apache 2.x на Unix системах](install.unix.apache2.html)
     
 -   [Установка PHP на Lighttpd 1.4 на Unix-системах »](install.unix.lighttpd-14.html)
     
@@ -48,7 +48,7 @@
     
 5.  Важливо, що ми забороняємо Nginx від надсилати запити до бекенду PHP-FPM, якщо файл не існує, що допомагає уникнути атаки ін'єкції скрипта.
     
-    Ми можемо виправити це шляхом встановлення директиви [cgi.fix\_pathinfo](ini.core.html#ini.cgi.fix-pathinfo) рівною `0` у нашому php.ini файлі.
+    Ми можемо виправити це шляхом встановлення директиви [cgi.fixpathinfo](ini.core.html#ini.cgi.fix-pathinfo) рівною `0` у нашому php.ini файлі.
     
     Редагування php.ini:
     

@@ -2,7 +2,7 @@
 
 -   [« Журнал изменений ООП](language.oop5.changelog.html)
     
--   [Обзор пространств имён »](language.namespaces.rationale.html)
+-   [Огляд просторів імен »](language.namespaces.rationale.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,15 +15,15 @@
 
 ## Зміст
 
--   [Обзор пространств имён](language.namespaces.rationale.html)
+-   [Огляд просторів імен](language.namespaces.rationale.html)
 -   [Определение пространств имён](language.namespaces.definition.html)
 -   [Определение подпространств имён](language.namespaces.nested.html)
--   [Описание нескольких пространств имён в одном файле](language.namespaces.definitionmultiple.html)
+-   [Опис кількох просторів імен в одному файлі](language.namespaces.definitionmultiple.html)
 -   [Использование пространства имён: основы](language.namespaces.basics.html)
--   [Пространства имён и динамические особенности языка](language.namespaces.dynamic.html)
--   [Ключевое слово namespace и константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.html)
+-   [Простори імен та динамічні особливості мови](language.namespaces.dynamic.html)
+-   [Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.html)
 -   [Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.html)
--   [Глобальное пространство](language.namespaces.global.html)
--   [Использование пространств имён: переход к глобальной функции/константе](language.namespaces.fallback.html)
+-   [Глобальний простір](language.namespaces.global.html)
+-   [Використання просторів імен: перехід до глобальної функції/константи](language.namespaces.fallback.html)
 -   [Правила разрешения имён](language.namespaces.rules.html)
--   [Часто задаваемые вопросы (FAQ): вещи, которые вам необходимо знать о пространствах имён](language.namespaces.faq.html)
+-   [Часті питання (FAQ): речі, які вам необхідно знати про простори імен](language.namespaces.faq.html)

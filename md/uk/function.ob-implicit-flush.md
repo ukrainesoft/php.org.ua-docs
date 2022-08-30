@@ -1,12 +1,12 @@
 Увімкнення/вимкнення неявного скидання
 
--   [« ob\_gzhandler](function.ob-gzhandler.html)
+-   [« obgzhandler](function.ob-gzhandler.html)
     
--   [ob\_list\_handlers »](function.ob-list-handlers.html)
+-   [проlisthandlers »](function.ob-list-handlers.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Увімкнення/вимкнення неявного скидання
     
@@ -44,5 +44,5 @@ ob_implicit_flush(bool $enable = true): void
 ### Дивіться також
 
 -   [flush()](function.flush.html) - Скидання системного буфера виводу
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
--   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу
+-   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу

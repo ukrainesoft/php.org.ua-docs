@@ -1,12 +1,12 @@
 Підписує переданий текст
 
--   [« gnupg\_setsignmode](function.gnupg-setsignmode.html)
+-   [« gnupgsetsignmode](function.gnupg-setsignmode.html)
     
--   [gnupg\_verify »](function.gnupg-verify.html)
+-   [gnupgverify »](function.gnupg-verify.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Підписує переданий текст
     
@@ -23,13 +23,13 @@ gnupgsign — Підписує переданий текст
 gnupg_sign(resource $identifier, string $plaintext): string
 ```
 
-Підписує переданий у параметрі `plaintext` текст ключем, який був раніше встановлений за допомогою [gnupg\_addsignkey](function.gnupg-addsignkey.html) і повертає підписаний текст або підпис, залежно від того, що було встановлено [gnupg\_setsignmode](function.gnupg-setsignmode.html)
+Підписує переданий у параметрі `plaintext` текст ключем, який був раніше встановлений за допомогою [gnupgaddsignkey](function.gnupg-addsignkey.html) і повертає підписаний текст або підпис, залежно від того, що було встановлено [gnupgsetsignmode](function.gnupg-setsignmode.html)
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `plaintext`
 

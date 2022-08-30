@@ -1,12 +1,12 @@
 Отримати поточне значення цієї опції
 
--   [« ldap\_get\_entries](function.ldap-get-entries.html)
+-   [« ldapgetentries](function.ldap-get-entries.html)
     
--   [ldap\_get\_values\_len »](function.ldap-get-values-len.html)
+-   [ldapgetvalueslen »](function.ldap-get-values-len.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Отримати поточне значення цієї опції
     
@@ -29,7 +29,7 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `option`
 
@@ -80,9 +80,9 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -107,4 +107,4 @@ if (ldap_get_option($ds, LDAP_OPT_PROTOCOL_VERSION, $version)) {
 
 ### Дивіться також
 
--   [ldap\_set\_option()](function.ldap-set-option.html) - Встановити значення цієї опції
+-   [ldapsetoption()](function.ldap-set-option.html) - Встановити значення цієї опції

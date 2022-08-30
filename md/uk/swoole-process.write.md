@@ -1,12 +1,12 @@
 Записує дані в канал і зв'язується з батьківським чи дочірніми процесами
 
--   [« Swoole\\Process::wait](swoole-process.wait.html)
+-   [« SwooleProcess::wait](swoole-process.wait.html)
     
--   [Swoole\\Redis\\Server »](class.swoole-redis-server.html)
+-   [SwooleRedisServer »](class.swoole-redis-server.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Записує дані в канал і зв'язується з батьківським чи дочірніми процесами
     

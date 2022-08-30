@@ -1,12 +1,12 @@
 Переходить до наступного з'єднання
 
--   [« Swoole\\Connection\\Iterator::key](swoole-connection-iterator.key.html)
+-   [« SwooleConnectionIterator::key](swoole-connection-iterator.key.html)
     
--   [Swoole\\Connection\\Iterator::offsetExists »](swoole-connection-iterator.offsetexists.html)
+-   [SwooleConnectionIterator::offsetExists »](swoole-connection-iterator.offsetexists.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Переходить до наступного з'єднання
     

@@ -1,12 +1,12 @@
 Виконує запит на вставку
 
--   [« TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.html)
+-   [« TableInsert::construct](mysql-xdevapi-tableinsert.construct.html)
     
 -   [TableInsert::values »](mysql-xdevapi-tableinsert.values.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableInsert](class.mysql-xdevapi-tableinsert.html)
+-   [mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html)
     
 -   Виконує запит на вставку
     

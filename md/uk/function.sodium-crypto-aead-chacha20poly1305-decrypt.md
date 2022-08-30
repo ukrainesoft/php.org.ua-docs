@@ -1,8 +1,8 @@
 Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
 
--   [« sodium\_crypto\_aead\_aes256gcm\_keygen](function.sodium-crypto-aead-aes256gcm-keygen.html)
+-   [« sodiumcryptoaeadaes256gcmkeygen](function.sodium-crypto-aead-aes256gcm-keygen.html)
     
--   [sodium\_crypto\_aead\_chacha20poly1305\_encrypt »](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
+-   [sodiumcryptoaeadchacha20poly1305encrypt »](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    s
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodium\_crypto\_aead\_chacha20poly1305\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 

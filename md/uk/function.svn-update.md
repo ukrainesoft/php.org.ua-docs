@@ -1,12 +1,12 @@
 Оновлює робочу копію
 
--   [« svn\_status](function.svn-status.html)
+-   [« svnstatus](function.svn-status.html)
     
 -   [TCP »](book.tcpwrap.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Оновлює робочу копію
     
@@ -71,6 +71,6 @@ echo svn_update(realpath('working-copy'));
 
 ### Дивіться також
 
--   [svn\_checkout()](function.svn-checkout.html) - Отримує робочу копію з репозиторію
--   [svn\_commit()](function.svn-commit.html) - Відправляє зміни з робочої директорії до репозиторію
+-   [svncheckout()](function.svn-checkout.html) - Отримує робочу копію з репозиторію
+-   [svncommit()](function.svn-commit.html) - Відправляє зміни з робочої директорії до репозиторію
 -   [» SVN-документация по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.html)

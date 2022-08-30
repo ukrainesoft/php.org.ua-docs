@@ -1,6 +1,6 @@
 Перевіряє, чи є поточний елемент допустимим
 
--   [« CachingIterator::\_\_toString](cachingiterator.tostring.html)
+-   [« CachingIterator::toString](cachingiterator.tostring.html)
     
 -   [CallbackFilterIterator »](class.callbackfilteriterator.html)
     

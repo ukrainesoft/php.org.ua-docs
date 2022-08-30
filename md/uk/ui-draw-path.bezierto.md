@@ -1,12 +1,12 @@
 Намалювати криву Безьє
 
--   [« UI\\Draw\\Path::arcTo](ui-draw-path.arcto.html)
+-   [« UIDrawPath::arcTo](ui-draw-path.arcto.html)
     
--   [UI\\Draw\\Path::closeFigure »](ui-draw-path.closefigure.html)
+-   [ОЙDrawPath::closeFigure »](ui-draw-path.closefigure.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Намалювати криву Безьє
     

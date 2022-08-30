@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции обратного вызова](memcached.callbacks.html)
+-   [Опції зворотного дзвінка](memcached.callbacks.html)
     
 -   Функції зворотного виклику наскрізного читання кеша
     

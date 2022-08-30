@@ -1,8 +1,8 @@
 Встановлення ACL для заданої поштової скриньки
 
--   [« imap\_set\_quota](function.imap-set-quota.html)
+-   [« imapsetquota](function.imap-set-quota.html)
     
--   [imap\_setflag\_full »](function.imap-setflag-full.html)
+-   [imapsetflagfull »](function.imap-setflag-full.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,15 +29,15 @@ imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `mailbox`
 
-Ім'я поштової скриньки, докладніше дивіться в описі [imap\_open()](function.imap-open.html)
+Ім'я поштової скриньки, докладніше дивіться в описі [imapopen()](function.imap-open.html)
 
 **Увага**
 
-Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `user_id`
 
@@ -53,9 +53,9 @@ imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Примітки
 
@@ -63,4 +63,4 @@ imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string
 
 ### Дивіться також
 
--   [imap\_getacl()](function.imap-getacl.html) - Отримати ACL для заданої поштової скриньки
+-   [imapgetacl()](function.imap-getacl.html) - Отримати ACL для заданої поштової скриньки

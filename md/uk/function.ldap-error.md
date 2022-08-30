@@ -1,12 +1,12 @@
 Повернути повідомлення про помилку LDAP останньої команди
 
--   [« ldap\_errno](function.ldap-errno.html)
+-   [« ldaperrno](function.ldap-errno.html)
     
--   [ldap\_escape »](function.ldap-escape.html)
+-   [ldapescape »](function.ldap-escape.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Повернути повідомлення про помилку LDAP останньої команди
     
@@ -31,7 +31,7 @@ ldap_error(LDAP\Connection $ldap): string
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
@@ -39,11 +39,11 @@ ldap_error(LDAP\Connection $ldap): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [ldap\_err2str()](function.ldap-err2str.html) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
--   [ldap\_errno()](function.ldap-errno.html) - Повернути номер помилки LDAP останньої команди
+-   [ldaperr2str()](function.ldap-err2str.html) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
+-   [ldaperrno()](function.ldap-errno.html) - Повернути номер помилки LDAP останньої команди

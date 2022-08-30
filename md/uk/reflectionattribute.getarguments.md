@@ -1,6 +1,6 @@
 Повертає аргументи, передані атрибуту
 
--   [« ReflectionAttribute::\_\_construct](reflectionattribute.construct.html)
+-   [« ReflectionAttribute::construct](reflectionattribute.construct.html)
     
 -   [ReflectionAttribute::getName »](reflectionattribute.getname.html)
     

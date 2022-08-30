@@ -2,11 +2,11 @@
 
 -   [« end](function.end.html)
     
--   [in\_array »](function.in-array.html)
+-   [інarray »](function.in-array.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Імпортує змінні з масиву до поточної таблиці символів
     
@@ -29,7 +29,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 
 **Увага**
 
-Не використовуйте **extract()** на неперевірених даних, таких як введення користувача (наприклад, [$\_GET](reserved.variables.get.html) [$\_FILES](reserved.variables.files.html)
+Не використовуйте **extract()** на неперевірених даних, таких як введення користувача (наприклад, [GET](reserved.variables.get.html) [FILES](reserved.variables.files.html)
 
 ### Список параметрів
 
@@ -65,7 +65,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 
 **`EXTR_IF_EXISTS`**
 
-Перезаписати лише змінні, які вже є в поточній таблиці символів, інакше не робити нічого. Дана можливість корисна для визначення списку прийнятних змінних та для вилучення тільки тих змінних, які ви вже визначили з масивів типу [$\_REQUEST](reserved.variables.request.html)наприклад.
+Перезаписати лише змінні, які вже є в поточній таблиці символів, інакше не робити нічого. Дана можливість корисна для визначення списку прийнятних змінних та для вилучення тільки тих змінних, які ви вже визначили з масивів типу [REQUEST](reserved.variables.request.html)наприклад.
 
 **`EXTR_PREFIX_IF_EXISTS`**
 
@@ -89,7 +89,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 
 **Приклад #1 Приклад використання **extract()****
 
-функцію **extract()** також можна використовувати для імпорту в поточну таблицю змінних символів, що містяться в асоціативному масиві, що повертається функцією [wddx\_deserialize()](function.wddx-deserialize.html)
+функцію **extract()** також можна використовувати для імпорту в поточну таблицю змінних символів, що містяться в асоціативному масиві, що повертається функцією [wddxdeserialize()](function.wddx-deserialize.html)
 
 ```php
 <?php
@@ -114,13 +114,13 @@ echo "$color, $size, $shape, $wddx_size\n";
 blue, large, sphere, medium
 ```
 
-Змінна $size не була перезаписана, тому що ми визначили **`EXTR_PREFIX_SAME`**, внаслідок чого було створено змінну $wddxsize. Якби був визначений прапор **`EXTR_SKIP`**тоді змінна $wddxsize не була б створена . **`EXTR_OVERWRITE`** була б причиною того, що змінною $size було б надано значення "medium", і **`EXTR_PREFIX_ALL`** була б причиною того, що були б також створені нові змінні $wddxcolor, $wddxsize та $wddxshape.
+Змінна $size не була перезаписана, тому що ми визначили **`EXTR_PREFIX_SAME`**, внаслідок чого було створено змінну $wddxsize. Якби був визначений прапор \*\*`EXTR_SKIP`\*\*тоді змінна $wddxsize не була б створена . **`EXTR_OVERWRITE`** була б причиною того, що змінною $size було б надано значення "medium", і **`EXTR_PREFIX_ALL`** була б причиною того, що були б також створені нові змінні $wddxcolor, $wddxsize та $wddxshape.
 
 ### Примітки
 
 **Увага**
 
-Не використовуйте функцію **extract()** на неперевірених даних, таких як введення користувача ([$\_GET](reserved.variables.get.html) [$\_FILES](reserved.variables.files.html) і т.п.). Якщо ви зробите це, переконайтеся, що використовуєте один із прапорів `flags`, що не перезаписують змінні, такий як **`EXTR_SKIP`** і майте на увазі, що ви повинні витягувати їх у тому порядку, який визначений у директиві [variables\_order](ini.core.html#ini.variables-order) всередині [php.ini](ini.html)
+Не використовуйте функцію **extract()** на неперевірених даних, таких як введення користувача ([GET](reserved.variables.get.html) [FILES](reserved.variables.files.html) і т.п.). Якщо ви зробите це, переконайтеся, що використовуєте один із прапорів `flags`, що не перезаписують змінні, такий як **`EXTR_SKIP`** і майте на увазі, що ви повинні витягувати їх у тому порядку, який визначений у директиві [variablesorder](ini.core.html#ini.variables-order) всередині [php.ini](ini.html)
 
 ### Дивіться також
 

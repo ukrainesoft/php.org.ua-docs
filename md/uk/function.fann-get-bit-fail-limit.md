@@ -1,8 +1,8 @@
 Повертає межу збою бітів, використану під час навчання
 
--   [« fann\_get\_bias\_array](function.fann-get-bias-array.html)
+-   [« fanngetbiasarray](function.fann-get-bias-array.html)
     
--   [fann\_get\_bit\_fail »](function.fann-get-bit-fail.html)
+-   [fanngetbitfail »](function.fann-get-bit-fail.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,4 +43,4 @@ fann_get_bit_fail_limit(resource $ann): float
 
 ### Дивіться також
 
--   [fann\_set\_bit\_fail\_limit()](function.fann-set-bit-fail-limit.html) - Встановлює межу помилок, що використовується під час навчання
+-   [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.html) - Встановлює межу помилок, що використовується під час навчання

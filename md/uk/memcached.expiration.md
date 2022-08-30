@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](memcached.constants.html)
     
--   [Функции обратного вызова »](memcached.callbacks.html)
+-   [Функції зворотного дзвінка »](memcached.callbacks.html)
     
 -   [PHP Manual](index.html)
     

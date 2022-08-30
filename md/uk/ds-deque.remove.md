@@ -1,12 +1,12 @@
 Видаляє та повертає значення за індексом
 
--   [« Ds\\Deque::reduce](ds-deque.reduce.html)
+-   [« DsDeque::reduce](ds-deque.reduce.html)
     
--   [Ds\\Deque::reverse »](ds-deque.reverse.html)
+-   [ДсDeque::reverse »](ds-deque.reverse.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Видаляє та повертає значення за індексом
     

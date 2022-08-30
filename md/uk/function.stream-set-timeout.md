@@ -1,12 +1,12 @@
 Встановити час очікування для потоку
 
--   [« stream\_set\_read\_buffer](function.stream-set-read-buffer.html)
+-   [« streamsetreadbuffer](function.stream-set-read-buffer.html)
     
--   [stream\_set\_write\_buffer »](function.stream-set-write-buffer.html)
+-   [streamsetwritebuffer »](function.stream-set-write-buffer.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Встановити час очікування для потоку
     
@@ -25,7 +25,7 @@ stream_set_timeout(resource $stream, int $seconds, int $microseconds = 0): bool
 
 Встановлює значення часу очікування у потоці `stream`, що дорівнює сумі параметрів `seconds` і `microseconds`
 
-Коли час роботи потоку спливає, ключ 'timedout' масиву, що повертається функцією [stream\_get\_meta\_data()](function.stream-get-meta-data.html), встановлюється в значення **`true`**хоча помилка або попередження не генерується.
+Коли час роботи потоку спливає, ключ 'timedout' масиву, що повертається функцією [streamgetmetadata()](function.stream-get-meta-data.html), встановлюється в значення \*\*`true`\*\*хоча помилка або попередження не генерується.
 
 ### Список параметрів
 
@@ -77,9 +77,9 @@ if (!$fp) {
 
 > **Зауваження**
 > 
-> Ця функція не працює з просунутими операціями, такими як [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.html). Використовуйте замість неї [stream\_select()](function.stream-select.html) з параметром часу очікування.
+> Ця функція не працює з просунутими операціями, такими як [streamsocketrecvfrom()](function.stream-socket-recvfrom.html). Використовуйте замість неї [streamselect()](function.stream-select.html) з параметром часу очікування.
 
-Ця функція раніше викликалася через **setsockettimeout()** і пізніше через [socket\_set\_timeout()](function.socket-set-timeout.html)але це використання застаріло.
+Ця функція раніше викликалася через **setsockettimeout()** і пізніше через [socketsettimeout()](function.socket-set-timeout.html)але це використання застаріло.
 
 ### Дивіться також
 

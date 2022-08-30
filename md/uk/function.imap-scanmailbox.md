@@ -1,8 +1,8 @@
 Псевдонім imaplistscan
 
--   [« imap\_scan](function.imap-scan.html)
+-   [« imapscan](function.imap-scan.html)
     
--   [imap\_search »](function.imap-search.html)
+-   [imapsearch »](function.imap-search.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapscanmailbox - Псевдонім [imap\_listscan()](function.imap-listscan.html)
+imapscanmailbox - Псевдонім [imaplistscan()](function.imap-listscan.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [imap\_listscan()](function.imap-listscan.html)
+Ця функція є псевдонімом: [imaplistscan()](function.imap-listscan.html)

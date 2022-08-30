@@ -1,8 +1,8 @@
 Створює BLOB-об'єкт, копіює файл і закриває його.
 
--   [« ibase\_blob\_get](function.ibase-blob-get.html)
+-   [« ibaseblobget](function.ibase-blob-get.html)
     
--   [ibase\_blob\_info »](function.ibase-blob-info.html)
+-   [ibaseblobinfo »](function.ibase-blob-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -75,7 +75,7 @@ if ($fd) {
 
 ### Дивіться також
 
--   [ibase\_blob\_add()](function.ibase-blob-add.html) - Додає дані до новоствореного BLOB-об'єкту
--   [ibase\_blob\_cancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
--   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibase\_blob\_create()](function.ibase-blob-create.html) - Створює новий BLOB-об'єкт для заповнення даними
+-   [ibaseblobadd()](function.ibase-blob-add.html) - Додає дані до новоствореного BLOB-об'єкту
+-   [ibaseblobcancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibaseblobcreate()](function.ibase-blob-create.html) - Створює новий BLOB-об'єкт для заповнення даними

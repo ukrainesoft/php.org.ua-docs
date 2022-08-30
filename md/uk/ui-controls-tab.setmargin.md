@@ -1,12 +1,12 @@
 Встановити поле
 
--   [« UI\\Controls\\Tab::pages](ui-controls-tab.pages.html)
+-   [« UIControlsTab::pages](ui-controls-tab.pages.html)
     
--   [UI\\Controls\\Check »](class.ui-controls-check.html)
+-   [ОЙControlsCheck »](class.ui-controls-check.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Tab](class.ui-controls-tab.html)
+-   [ОЙControlsTab](class.ui-controls-tab.html)
     
 -   Встановити поле
     

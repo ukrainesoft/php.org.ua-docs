@@ -1,12 +1,12 @@
 Викликається під час створення об'єкта фільтра
 
--   [« php\_user\_filter::onClose](php-user-filter.onclose.html)
+-   [« phpuserfilter::onClose](php-user-filter.onclose.html)
     
 -   [streamWrapper »](class.streamwrapper.html)
     
 -   [PHP Manual](index.html)
     
--   [php\_user\_filter](class.php-user-filter.html)
+-   [phpuserfilter](class.php-user-filter.html)
     
 -   Викликається під час створення об'єкта фільтра
     
@@ -30,7 +30,7 @@ public php_user_filter::onCreate(): bool
 | Свойство                  | Содержание                                                                                                                                                                                                    |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `FilterClass->filtername` | Рядок, що містить ім'я фільтра, присвоєне йому під час створення. Фільтри можна реєструвати під різними іменами чи спецсимволами. Цю властивість можна використовувати визначення, яке ім'я було використано. |
-| `FilterClass->params`     | Вміст аргументу `params` передається у функцію [stream\_filter\_append()](function.stream-filter-append.html) або [stream\_filter\_prepend()](function.stream-filter-prepend.html)                            |
+| `FilterClass->params`     | Вміст аргументу `params` передається у функцію [streamfilterappend()](function.stream-filter-append.html) або [streamfilterprepend()](function.stream-filter-prepend.html)                                    |
 | `FilterClass->stream`     | Ресурс потоку, який фільтруватиметься. Властивість доступна, тільки якщо метод **filter()** викликається, коли параметр `closing` дорівнює **`false`**                                                        |
 
 ### Список параметрів

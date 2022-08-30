@@ -1,12 +1,12 @@
 Матриця малювання
 
--   [« UI\\Draw\\Path::newFigureWithArc](ui-draw-path.newfigurewitharc.html)
+-   [« UIDrawPath::newFigureWithArc](ui-draw-path.newfigurewitharc.html)
     
--   [UI\\Draw\\Matrix::invert »](ui-draw-matrix.invert.html)
+-   [ОЙDrawMatrix::invert »](ui-draw-matrix.invert.html)
     
 -   [PHP Manual](index.html)
     
--   [UI](book.ui.html)
+-   [ОЙ](book.ui.html)
     
 -   Матриця малювання
     
@@ -45,10 +45,10 @@ public translate(UI\Point $point)
 
 ## Зміст
 
--   [UI\\Draw\\Matrix::invert](ui-draw-matrix.invert.html) - Інвертувати матрицю
--   [UI\\Draw\\Matrix::isInvertible](ui-draw-matrix.isinvertible.html) — Визначення, чи інвертовано матрицю
--   [UI\\Draw\\Matrix::multiply](ui-draw-matrix.multiply.html) - Помножити матрицю
--   [UI\\Draw\\Matrix::rotate](ui-draw-matrix.rotate.html) - Перевернути матрицю
--   [UI\\Draw\\Matrix::scale](ui-draw-matrix.scale.html) - Масштабувати матрицю
--   [UI\\Draw\\Matrix::skew](ui-draw-matrix.skew.html) - Нахилити матрицю
--   [UI\\Draw\\Matrix::translate](ui-draw-matrix.translate.html) - Перекласти матрицю
+-   [ОЙDrawMatrix::invert](ui-draw-matrix.invert.html) - Інвертувати матрицю
+-   [ОЙDrawMatrix::isInvertible](ui-draw-matrix.isinvertible.html) — Визначення, чи інвертовано матрицю
+-   [ОЙDrawMatrix::multiply](ui-draw-matrix.multiply.html) - Помножити матрицю
+-   [ОЙDrawMatrix::rotate](ui-draw-matrix.rotate.html) - Перевернути матрицю
+-   [ОЙDrawMatrix::scale](ui-draw-matrix.scale.html) - Масштабувати матрицю
+-   [ОЙDrawMatrix::skew](ui-draw-matrix.skew.html) - Нахилити матрицю
+-   [ОЙDrawMatrix::translate](ui-draw-matrix.translate.html) - Перекласти матрицю

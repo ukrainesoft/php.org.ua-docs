@@ -1,6 +1,6 @@
 Повертає ім'я файлу на сервері
 
--   [« CURLFile::\_\_construct](curlfile.construct.html)
+-   [« CURLFile::construct](curlfile.construct.html)
     
 -   [CURLFile::getMimeType »](curlfile.getmimetype.html)
     

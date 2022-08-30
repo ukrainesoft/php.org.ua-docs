@@ -1,8 +1,8 @@
 Вибирає базу даних MySQL
 
--   [« mysql\_result](function.mysql-result.html)
+-   [« mysqlresult](function.mysql-result.html)
     
--   [mysql\_set\_charset »](function.mysql-set-charset.html)
+-   [mysqlsetcharset »](function.mysql-set-charset.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlselectdb - Вибирає базу даних MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_select\_db()](mysqli.select-db.html)
--   [PDO::\_\_construct()](pdo.construct.html) (розділ про dsn)
+-   [mysqliselectdb()](mysqli.select-db.html)
+-   [PDO::construct()](pdo.construct.html) (розділ про dsn)
 
 ### Опис
 
@@ -30,7 +30,7 @@ mysqlselectdb - Вибирає базу даних MySQL
 mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 ```
 
-Вибирає для роботи вказану базу даних на сервері, на який посилається переданий дескриптор з'єднання. Кожен наступний виклик функції [mysql\_query()](function.mysql-query.html) буде працювати з обраною базою даних.
+Вибирає для роботи вказану базу даних на сервері, на який посилається переданий дескриптор з'єднання. Кожен наступний виклик функції [mysqlquery()](function.mysql-query.html) буде працювати з обраною базою даних.
 
 ### Список параметрів
 
@@ -40,7 +40,7 @@ mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -74,6 +74,6 @@ if (!$db_selected) {
 
 ### Дивіться також
 
--   [mysql\_connect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
--   [mysql\_pconnect()](function.mysql-pconnect.html) - Встановлює постійне з'єднання із сервером MySQL
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlconnect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
+-   [mysqlpconnect()](function.mysql-pconnect.html) - Встановлює постійне з'єднання із сервером MySQL
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL

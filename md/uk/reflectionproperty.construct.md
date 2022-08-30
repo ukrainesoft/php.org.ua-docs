@@ -1,6 +1,6 @@
 Конструктор класу ReflectionProperty
 
--   [« ReflectionProperty::\_\_clone](reflectionproperty.clone.html)
+-   [« ReflectionProperty::clone](reflectionproperty.clone.html)
     
 -   [ReflectionProperty::export »](reflectionproperty.export.html)
     
@@ -128,4 +128,4 @@ int(3)
 ### Дивіться також
 
 -   [ReflectionProperty::getName()](reflectionproperty.getname.html) - Отримання імені властивості
--   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)

@@ -2,7 +2,7 @@
 
 -   [« Yac::info](yac.info.html)
     
--   [Yac::\_\_set »](yac.setter.html)
+-   [Yac::set »](yac.setter.html)
     
 -   [PHP Manual](index.html)
     

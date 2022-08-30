@@ -1,12 +1,12 @@
 Ініціювати заголовок HTTP-відповіді
 
--   [« Swoole\\Http\\Response::header](swoole-http-response.header.html)
+-   [« SwooleHttpResponse::header](swoole-http-response.header.html)
     
--   [Swoole\\Http\\Response::rawcookie »](swoole-http-response.rawcookie.html)
+-   [SwooleHttpResponse::rawcookie »](swoole-http-response.rawcookie.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Response](class.swoole-http-response.html)
+-   [SwooleHttpResponse](class.swoole-http-response.html)
     
 -   Ініціювати заголовок HTTP-відповіді
     

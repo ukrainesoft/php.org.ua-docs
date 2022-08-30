@@ -1,8 +1,8 @@
 Потрійна експоненційна ковзна середня
 
--   [« trader\_sum](function.trader-sum.html)
+-   [« tradersum](function.trader-sum.html)
     
--   [trader\_tan »](function.trader-tan.html)
+-   [tradertan »](function.trader-tan.html)
     
 -   [PHP Manual](index.html)
     

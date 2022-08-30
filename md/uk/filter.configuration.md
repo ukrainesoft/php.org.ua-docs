@@ -17,10 +17,10 @@
 
 **Параметри конфігурації Filter**
 
-| Имя                                                                         | По умолчанию | Место изменения | Список изменений                          |
-|-----------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
-| [filter.default](filter.configuration.html#ini.filter.default)              | "unsaferaw"  | PHPINIPERDIR    | Параметр застарів, починаючи з PHP 8.1.0. |
-| [filter.default\_flags](filter.configuration.html#ini.filter.default-flags) | NULL         | PHPINIPERDIR    |                                           |
+| Имя                                                                       | По умолчанию | Место изменения | Список изменений                          |
+|---------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
+| [filter.default](filter.configuration.html#ini.filter.default)            | "unsaferaw"  | PHPINIPERDIR    | Параметр застарів, починаючи з PHP 8.1.0. |
+| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL         | PHPINIPERDIR    |                                           |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -28,9 +28,9 @@
 
 `filter.default` string
 
-Фільтрує всі дані [$\_GET](reserved.variables.get.html) [$\_POST](reserved.variables.post.html) [$\_COOKIE](reserved.variables.cookies.html) [$\_REQUEST](reserved.variables.request.html) і [$\_SERVER](reserved.variables.server.html) цим фільтром. Вихідні дані можуть бути отримані за допомогою [filter\_input()](function.filter-input.html)
+Фільтрує всі дані [GET](reserved.variables.get.html) [POST](reserved.variables.post.html) [COOKIE](reserved.variables.cookies.html) [REQUEST](reserved.variables.request.html) і [SERVER](reserved.variables.server.html) цим фільтром. Вихідні дані можуть бути отримані за допомогою [filterinput()](function.filter-input.html)
 
-Приймає ім'я вказаного фільтра як значення за промовчанням. Імена фільтрів можна знайти в [списке существующих фильтров](filter.filters.html)
+Приймає ім'я вказаного фільтра як значення за промовчанням. Імена фільтрів можна знайти в [списку існуючих фільтрів](filter.filters.html)
 
 > **Зауваження**
 > 
@@ -45,4 +45,4 @@
 
 `filter.default_flags` int
 
-Прапори за промовчанням, які застосовуються, коли встановлено стандартний фільтр. За замовчуванням встановлено **`FILTER_FLAG_NO_ENCODE_QUOTES`** з метою збереження зворотної сумісності. Дивіться [список существующих флагов](filter.filters.flags.html) для ознайомлення зі списком усіх імен прапорів.
+Прапори за промовчанням, які застосовуються, коли встановлено стандартний фільтр. За замовчуванням встановлено **`FILTER_FLAG_NO_ENCODE_QUOTES`** з метою збереження зворотної сумісності. Дивіться [список існуючих прапорів](filter.filters.flags.html) для ознайомлення зі списком усіх імен прапорів.

@@ -1,8 +1,8 @@
 Зменшує колекцію до одного значення, використовуючи callback-функцію
 
--   [« Ds\\Set::merge](ds-set.merge.html)
+-   [« DsSet::merge](ds-set.merge.html)
     
--   [Ds\\Set::remove »](ds-set.remove.html)
+-   [ДсSet::remove »](ds-set.remove.html)
     
 -   [PHP Manual](index.html)
     

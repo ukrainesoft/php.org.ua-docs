@@ -1,8 +1,8 @@
 Надсилає повідомлення про помилку заданому обробнику помилок
 
--   [« error\_get\_last](function.error-get-last.html)
+-   [« errorgetlast](function.error-get-last.html)
     
--   [error\_reporting »](function.error-reporting.html)
+-   [errorreporting »](function.error-reporting.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,7 +47,7 @@ error_log(    string $message,    int $message_type = 0,    ?string 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо `message_type` дорівнює нулю, функція завжди повертає **`true`**незалежно від того, чи може помилка логуватися чи ні.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо `message_type` дорівнює нулю, функція завжди повертає \*\*`true`\*\*незалежно від того, чи може помилка логуватися чи ні.
 
 ### список змін
 
@@ -86,4 +86,4 @@ error_log("Вы ошиблись!", 3, "/var/tmp/my-errors.log");
 
 **Підказка**
 
-`message` ні містити null-символ. Врахуйте, що `message` може передаватися у файл, поштою, syslog і т.д. Використовуйте відповідну перетворювальну або екрануючу функцію, [base64\_encode()](function.base64-encode.html) [rawurlencode()](function.rawurlencode.html) або [addslashes()](function.addslashes.html) перед викликом **errorlog()**
+`message` ні містити null-символ. Врахуйте, що `message` може передаватися у файл, поштою, syslog і т.д. Використовуйте відповідну перетворювальну або екрануючу функцію, [base64encode()](function.base64-encode.html) [rawurlencode()](function.rawurlencode.html) або [addslashes()](function.addslashes.html) перед викликом **errorlog()**

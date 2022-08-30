@@ -1,8 +1,8 @@
 Повертає результат додавання всіх заданих елементів до колекції
 
--   [« Ds\\Map::map](ds-map.map.html)
+-   [« DsMap::map](ds-map.map.html)
     
--   [Ds\\Map::pairs »](ds-map.pairs.html)
+-   [ДсMap::pairs »](ds-map.pairs.html)
     
 -   [PHP Manual](index.html)
     

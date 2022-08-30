@@ -1,12 +1,12 @@
 Отримує попереднє встановлене значення, що повертається для функції
 
--   [« uopz\_get\_property](function.uopz-get-property.html)
+-   [« uopzgetproperty](function.uopz-get-property.html)
     
--   [uopz\_get\_static »](function.uopz-get-static.html)
+-   [uopzgetstatic »](function.uopz-get-static.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Отримує попереднє встановлене значення, що повертається для функції
     
@@ -27,7 +27,7 @@ uopz_get_return(string $function): mixed
 uopz_get_return(string $class, string $function): mixed
 ```
 
-Отримує значення, що повертається `function`, раніше встановлене за допомогою [uopz\_set\_return()](function.uopz-set-return.html)
+Отримує значення, що повертається `function`, раніше встановлене за допомогою [uopzsetreturn()](function.uopz-set-return.html)
 
 ### Список параметрів
 

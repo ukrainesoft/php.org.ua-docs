@@ -85,7 +85,7 @@ public static setDefault(string $locale): bool
 
 Це найспецифічніша локаль, що підтримується ICU.
 
-Ці константи описують, як розбираються або з чого складаються локалі. Вони використовуються як ключі масиву аргументів для [locale\_compose()](locale.composelocale.html) і як значення, що повертаються [locale\_parse()](locale.parselocale.html) у вигляді ключів асоціативного масиву, що повертається.
+Ці константи описують, як розбираються або з чого складаються локалі. Вони використовуються як ключі масиву аргументів для [localecompose()](locale.composelocale.html) і як значення, що повертаються [localeparse()](locale.parselocale.html) у вигляді ключів асоціативного масиву, що повертається.
 
 **`Locale::LANG_TAG`** (string)
 
@@ -117,12 +117,12 @@ public static setDefault(string $locale): bool
 
 ## Дивіться також
 
--   [» RFC 4646 - метки для идентификаторов языков](http://www.faqs.org/rfcs/rfc4646)
--   [» RFC 4647 - проверка языковых меток](http://www.faqs.org/rfcs/rfc4647)
+-   [» RFC 4646 - мітки для ідентифікаторів мов](http://www.faqs.org/rfcs/rfc4646)
+-   [» RFC 4647 - перевірка мовних міток](http://www.faqs.org/rfcs/rfc4647)
 -   [» Проект Unicode CLDR:Стандартный репозиторий данных локалей](http://www.unicode.org/cldr/)
--   [» Регистр языковых меток IANA](http://www.iana.org/assignments/language-subtag-registry)
+-   [» Регістр мовних міток IANA](http://www.iana.org/assignments/language-subtag-registry)
 -   [» Руководство пользователя ICU - Локаль](https://unicode-org.github.io/icu/userguide/locale/)
--   [» ICU api локали](http://www.icu-project.org/apiref/icu4c/uloc_8h.html#details)
+-   [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.html#details)
 
 ## Зміст
 

@@ -1,8 +1,8 @@
 Задати колір елементу
 
--   [« phpdbg\_clear](function.phpdbg-clear.html)
+-   [« phpdbgclear](function.phpdbg-clear.html)
     
--   [phpdbg\_end\_oplog »](function.phpdbg-end-oplog.html)
+-   [phpdbgendoplog »](function.phpdbg-end-oplog.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,4 +41,4 @@ phpdbg_color(int $element, string $color): void
 
 ### Дивіться також
 
--   [phpdbg\_prompt()](function.phpdbg-prompt.html) - встановити запрошення командного рядка
+-   [phpdbgprompt()](function.phpdbg-prompt.html) - встановити запрошення командного рядка

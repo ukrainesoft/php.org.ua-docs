@@ -1,8 +1,8 @@
 Створення зв'язків у мережі
 
--   [« fann\_set\_training\_algorithm](function.fann-set-training-algorithm.html)
+-   [« fannsettrainingalgorithm](function.fann-set-training-algorithm.html)
     
--   [fann\_set\_weight »](function.fann-set-weight.html)
+-   [fannsetweight »](function.fann-set-weight.html)
     
 -   [PHP Manual](index.html)
     

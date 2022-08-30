@@ -1,8 +1,8 @@
 Анотація класу CommonMarkNode
 
--   [« CommonMark\\Node\\CustomInline](class.commonmark-node-custominline.html)
+-   [« CommonMarkNodeCustomInline](class.commonmark-node-custominline.html)
     
--   [CommonMark\\Node::appendChild »](commonmark-node.appendchild.html)
+-   [CommonMarkNode::appendChild »](commonmark-node.appendchild.html)
     
 -   [PHP Manual](index.html)
     
@@ -98,10 +98,10 @@ public accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node::appendChild](commonmark-node.appendchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMark\\Node::prependChild](commonmark-node.prependchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMark\\Node::insertAfter](commonmark-node.insertafter.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMark\\Node::insertBefore](commonmark-node.insertbefore.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMark\\Node::replace](commonmark-node.replace.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMark\\Node::unlink](commonmark-node.unlink.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMark\\Node::accept](commonmark-node.accept.html) - Visitation
+-   [CommonMarkNode::appendChild](commonmark-node.appendchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::prependChild](commonmark-node.prependchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::insertAfter](commonmark-node.insertafter.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::insertBefore](commonmark-node.insertbefore.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::replace](commonmark-node.replace.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::unlink](commonmark-node.unlink.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::accept](commonmark-node.accept.html) - Visitation

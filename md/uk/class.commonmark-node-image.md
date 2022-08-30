@@ -1,8 +1,8 @@
 Image успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\HTMLInline](class.commonmark-node-htmlinline.html)
+-   [« CommonMarkNodeHTMLInline](class.commonmark-node-htmlinline.html)
     
--   [CommonMark\\Node\\Image::\_\_construct »](commonmark-node-image.construct.html)
+-   [CommonMarkNodeImage::construct »](commonmark-node-image.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -107,4 +107,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\Image::\_\_construct](commonmark-node-image.construct.html) - Конструктор класу Image
+-   [CommonMarkNodeImage::construct](commonmark-node-image.construct.html) - Конструктор класу Image

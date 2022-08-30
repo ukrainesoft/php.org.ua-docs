@@ -1,12 +1,12 @@
 Повертає дескриптор певної версії кореневої директорії репозиторію
 
--   [« svn\_fs\_revision\_prop](function.svn-fs-revision-prop.html)
+-   [« svnфсrevisionprop](function.svn-fs-revision-prop.html)
     
--   [svn\_fs\_txn\_root »](function.svn-fs-txn-root.html)
+-   [svnфсtxnroot »](function.svn-fs-txn-root.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає дескриптор певної версії кореневої директорії репозиторію
     

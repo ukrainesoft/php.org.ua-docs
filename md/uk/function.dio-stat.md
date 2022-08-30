@@ -1,12 +1,12 @@
 Отримати інформацію про файловий дескриптор
 
--   [« dio\_seek](function.dio-seek.html)
+-   [« dioseek](function.dio-seek.html)
     
--   [dio\_tcsetattr »](function.dio-tcsetattr.html)
+-   [diotcsetattr »](function.dio-tcsetattr.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Функції прямого введення/виводу](ref.dio.html)
     
 -   Отримати інформацію про файловий дескриптор
     
@@ -29,7 +29,7 @@ dio_stat(resource $fd): array
 
 `fd`
 
-Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
 
 ### Значення, що повертаються
 

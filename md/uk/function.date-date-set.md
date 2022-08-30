@@ -1,8 +1,8 @@
 Псевдонім DateTime::setDate
 
--   [« date\_create](function.date-create.html)
+-   [« datecreate](function.date-create.html)
     
--   [date\_default\_timezone\_get »](function.date-default-timezone-get.html)
+-   [datedefaulttimezoneget »](function.date-default-timezone-get.html)
     
 -   [PHP Manual](index.html)
     

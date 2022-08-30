@@ -1,12 +1,12 @@
 Додати керуючий елемент
 
--   [« UI\\Controls\\Grid](class.ui-controls-grid.html)
+-   [« UIControlsGrid](class.ui-controls-grid.html)
     
--   [UI\\Controls\\Grid::isPadded »](ui-controls-grid.ispadded.html)
+-   [ОЙControlsGrid::isPadded »](ui-controls-grid.ispadded.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Grid](class.ui-controls-grid.html)
+-   [ОЙControlsGrid](class.ui-controls-grid.html)
     
 -   Додати керуючий елемент
     

@@ -1,12 +1,12 @@
 Поточне значення тиків системи
 
--   [« HRTime\\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html)
+-   [« HRTimePerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html)
     
--   [HRTime\\PerformanceCounter::getTicksSince »](hrtime-performancecounter.gettickssince.html)
+-   [HRTimePerformanceCounter::getTicksSince »](hrtime-performancecounter.gettickssince.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html)
+-   [HRTimePerformanceCounter](class.hrtime-performancecounter.html)
     
 -   Поточне значення тиків системи
     

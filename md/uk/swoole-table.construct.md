@@ -1,12 +1,12 @@
 Створює таблицю пам'яті Swoole із фіксованим розміром
 
--   [« Swoole\\Table::column](swoole-table.column.html)
+-   [« SwooleTable::column](swoole-table.column.html)
     
--   [Swoole\\Table::count »](swoole-table.count.html)
+-   [SwooleTable::count »](swoole-table.count.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Створює таблицю пам'яті Swoole із фіксованим розміром
     

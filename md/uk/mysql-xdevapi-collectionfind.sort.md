@@ -2,11 +2,11 @@
 
 -   [« CollectionFind::offset](mysql-xdevapi-collectionfind.offset.html)
     
--   [mysql\_xdevapi\\CollectionModify »](class.mysql-xdevapi-collectionmodify.html)
+-   [mysqlxdevapiCollectionModify »](class.mysql-xdevapi-collectionmodify.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionFind](class.mysql-xdevapi-collectionfind.html)
+-   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
     
 -   Встановлює критерії сортування
     

@@ -1,6 +1,6 @@
 Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
 
--   [« SolrClient::\_\_destruct](solrclient.destruct.html)
+-   [« SolrClient::destruct](solrclient.destruct.html)
     
 -   [SolrClient::getByIds »](solrclient.getbyids.html)
     

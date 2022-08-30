@@ -1,12 +1,12 @@
 Замикає та обводить контур
 
--   [« ps\_close](function.ps-close.html)
+-   [«psclose](function.ps-close.html)
     
--   [ps\_closepath »](function.ps-closepath.html)
+-   [псclosepath »](function.ps-closepath.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Замикає та обводить контур
     
@@ -29,7 +29,7 @@ ps_closepath_stroke(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_closepath_stroke(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_closepath()](function.ps-closepath.html) - Замикає шлях
+-   [псclosepath()](function.ps-closepath.html) - Замикає шлях

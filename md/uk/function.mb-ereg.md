@@ -1,12 +1,12 @@
 Збіг з регулярним виразом за допомогою багатобайтових кодувань
 
--   [« mb\_ereg\_search](function.mb-ereg-search.html)
+-   [« mberegsearch](function.mb-ereg-search.html)
     
--   [mb\_eregi\_replace »](function.mb-eregi-replace.html)
+-   [мбeregireplace »](function.mb-eregi-replace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Збіг з регулярним виразом за допомогою багатобайтових кодувань
     
@@ -56,9 +56,9 @@ $matches міститиме перший зліва підрядок у дужк
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_eregi()](function.mb-eregi.html) - Пошук відповідностей регулярному виразу за допомогою багатобайтових символів без урахування регістру
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregi()](function.mb-eregi.html) - Пошук відповідностей регулярному виразу за допомогою багатобайтових символів без урахування регістру

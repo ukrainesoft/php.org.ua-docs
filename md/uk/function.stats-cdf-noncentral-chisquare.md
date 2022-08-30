@@ -1,12 +1,12 @@
 Обчислює один із параметрів нецентрального розподілу хі-квадрат за іншими
 
--   [« stats\_cdf\_negative\_binomial](function.stats-cdf-negative-binomial.html)
+-   [« statscdfnegativebinomial](function.stats-cdf-negative-binomial.html)
     
--   [stats\_cdf\_noncentral\_f »](function.stats-cdf-noncentral-f.html)
+-   [statscdfnoncentralf »](function.stats-cdf-noncentral-f.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює один із параметрів нецентрального розподілу хі-квадрат за іншими
     

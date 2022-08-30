@@ -1,6 +1,6 @@
 Зменшує рахунок семафору або чекає
 
--   [« SyncSemaphore::\_\_construct](syncsemaphore.construct.html)
+-   [« SyncSemaphore::construct](syncsemaphore.construct.html)
     
 -   [SyncSemaphore::unlock »](syncsemaphore.unlock.html)
     

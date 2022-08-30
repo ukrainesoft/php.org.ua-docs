@@ -1,6 +1,6 @@
 Повертає останню помилку
 
--   [« json\_last\_error\_msg](function.json-last-error-msg.html)
+-   [« jsonlasterrormsg](function.json-last-error-msg.html)
     
 -   [Lua »](book.lua.html)
     
@@ -103,7 +103,7 @@ foreach ($json as $string) {
 Декодируем: {'Organization': 'PHP Documentation Team'} - Синтаксическая ошибка, некорректный JSON
 ```
 
-**Приклад #2 Спільне використання **jsonlasterror()** і [json\_encode()](function.json-encode.html)**
+**Приклад #2 Спільне використання **jsonlasterror()** і [jsonencode()](function.json-encode.html)**
 
 ```php
 <?php
@@ -147,6 +147,6 @@ bool(true)
 
 ### Дивіться також
 
--   [json\_last\_error\_msg()](function.json-last-error-msg.html) - Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
--   [json\_decode()](function.json-decode.html) - Декодує рядок JSON
--   [json\_encode()](function.json-encode.html) - Повертає JSON-подання даних
+-   [jsonlasterrormsg()](function.json-last-error-msg.html) - Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
+-   [jsondecode()](function.json-decode.html) - Декодує рядок JSON
+-   [jsonencode()](function.json-encode.html) - Повертає JSON-подання даних

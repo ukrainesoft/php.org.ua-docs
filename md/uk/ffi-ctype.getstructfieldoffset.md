@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getStructFieldNames](ffi-ctype.getstructfieldnames.html)
+-   [« FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.html)
     
--   [FFI\\CType::getStructFieldType »](ffi-ctype.getstructfieldtype.html)
+-   [FFICType::getStructFieldType »](ffi-ctype.getstructfieldtype.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

@@ -2,7 +2,7 @@
 
 -   [« Функции обработки ошибок](ref.errorfunc.html)
     
--   [debug\_print\_backtrace »](function.debug-print-backtrace.html)
+-   [debugprintbacktrace »](function.debug-print-backtrace.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,10 +45,10 @@ debug_backtrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT, int $limit = 0): 
 
 | Имя      | Тип    | Описание                                                                                                                                                                                |
 |----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| function | string | Ім'я поточної функції. Дивіться також [\_\_FUNCTION\_\_](language.constants.predefined.html)                                                                                            |
-| line     | int    | Поточний номер рядка. Дивіться також [\_\_LINE\_\_](language.constants.predefined.html)                                                                                                 |
-| file     | string | Назва поточного файлу. Дивіться також [\_\_FILE\_\_](language.constants.predefined.html)                                                                                                |
-| class    | string | Ім'я поточного [класса](language.oop5.html). Дивіться також [\_\_CLASS\_\_](language.constants.predefined.html)                                                                         |
+| function | string | Ім'я поточної функції. Дивіться також [FUNCTION](language.constants.predefined.html)                                                                                                    |
+| line     | int    | Поточний номер рядка. Дивіться також [LINE](language.constants.predefined.html)                                                                                                         |
+| file     | string | Назва поточного файлу. Дивіться також [FILE](language.constants.predefined.html)                                                                                                        |
+| class    | string | Ім'я поточного [класса](language.oop5.html). Дивіться також [CLASS](language.constants.predefined.html)                                                                                 |
 | object   | object | Поточний [объект](language.oop5.html)                                                                                                                                                   |
 | type     | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде виведено "->". Якщо це виклик статичного методу класу, то "::". Якщо це простий виклик функції, нічого не виводиться. |
 | args     | array  | При знаходженні всередині функції буде виведено список аргументів цієї функції. Якщо всередині файлу буде виведено список файлів, що включаються.                                       |
@@ -106,5 +106,5 @@ array(4) {
 
 ### Дивіться також
 
--   [trigger\_error()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
--   [debug\_print\_backtrace()](function.debug-print-backtrace.html) - Виводить стек викликів функцій
+-   [triggererror()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
+-   [debugprintbacktrace()](function.debug-print-backtrace.html) - Виводить стек викликів функцій

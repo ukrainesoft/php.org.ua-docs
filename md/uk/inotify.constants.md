@@ -15,7 +15,7 @@
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-**Константи Inotify використовуються функцією [inotify\_add\_watch()](function.inotify-add-watch.html) та/або повертаються [inotify\_read()](function.inotify-read.html)**
+**Константи Inotify використовуються функцією [inotifyaddwatch()](function.inotify-add-watch.html) та/або повертаються [inotifyread()](function.inotify-read.html)**
 
 **`IN_ACCESS`** (int)
 
@@ -87,7 +87,7 @@
 
 **`IN_IGNORED`** (int)
 
-Спостереження було вимкнено вручну (пояснюється [inotify\_rm\_watch()](function.inotify-rm-watch.html)) або через відсутність файлу або через розмонтування файлової системи.
+Спостереження було вимкнено вручну (пояснюється [inotifyрмwatch()](function.inotify-rm-watch.html)) або через відсутність файлу або через розмонтування файлової системи.
 
 **`IN_ISDIR`** (int)
 

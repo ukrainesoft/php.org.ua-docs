@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Client::getsockname](swoole-coroutine-client.getsockname.html)
+-   [« SwooleCoroutineClient::getsockname](swoole-coroutine-client.getsockname.html)
     
--   [Swoole\\Coroutine\\Client::recv »](swoole-coroutine-client.recv.html)
+-   [SwooleCoroutineClient::recv »](swoole-coroutine-client.recv.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

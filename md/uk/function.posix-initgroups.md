@@ -1,8 +1,8 @@
 Визначає рівень доступу для групи
 
--   [« posix\_getuid](function.posix-getuid.html)
+-   [« posixgetuid](function.posix-getuid.html)
     
--   [posix\_isatty »](function.posix-isatty.html)
+-   [posixisatty »](function.posix-isatty.html)
     
 -   [PHP Manual](index.html)
     

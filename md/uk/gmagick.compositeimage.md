@@ -2,7 +2,7 @@
 
 -   [« Gmagick::commentimage](gmagick.commentimage.html)
     
--   [Gmagick::\_\_construct »](gmagick.construct.html)
+-   [Gmagick::construct »](gmagick.construct.html)
     
 -   [PHP Manual](index.html)
     

@@ -21,7 +21,7 @@ DateTime::construct - Конструктор класу DateTime
 
 public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.html) `$timezone` **`null`**
 
-Подібний до конструктора [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html), крім роботи з об'єктом [DateTime](class.datetime.html). Замість цього класу розгляньте можливість використання класу [DateTimeImmutable](class.datetimeimmutable.html)
+Подібний до конструктора [DateTimeImmutable::construct()](datetimeimmutable.construct.html), крім роботи з об'єктом [DateTime](class.datetime.html). Замість цього класу розгляньте можливість використання класу [DateTimeImmutable](class.datetimeimmutable.html)
 
 Повертає новий об'єкт DateTime.
 
@@ -49,4 +49,4 @@ public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class
 
 ### Дивіться також
 
--   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable

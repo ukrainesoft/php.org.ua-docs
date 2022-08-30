@@ -1,12 +1,12 @@
 Повертає рядкову виставу Int64
 
--   [« MongoDB\\BSON\\Int64::serialize](mongodb-bson-int64.serialize.html)
+-   [« MongoDBBSONInt64::serialize](mongodb-bson-int64.serialize.html)
     
--   [MongoDB\\BSON\\Int64::unserialize »](mongodb-bson-int64.unserialize.html)
+-   [MongoDBBSONInt64::unserialize »](mongodb-bson-int64.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html)
+-   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
     
 -   Повертає рядкову виставу Int64
     

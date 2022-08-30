@@ -1,12 +1,12 @@
 Отримати кількість рядків
 
--   [« Table::\_\_construct](mysql-xdevapi-table.construct.html)
+-   [« Table::construct](mysql-xdevapi-table.construct.html)
     
 -   [Table::delete »](mysql-xdevapi-table.delete.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html)
+-   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
     
 -   Отримати кількість рядків
     

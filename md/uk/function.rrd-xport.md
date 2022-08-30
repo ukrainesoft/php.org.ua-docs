@@ -1,12 +1,12 @@
 Експортує інформацію про базу даних RRD
 
--   [« rrd\_version](function.rrd-version.html)
+-   [« rrdversion](function.rrd-version.html)
     
--   [rrdc\_disconnect »](function.rrdc-disconnect.html)
+-   [rrdcdisconnect »](function.rrdc-disconnect.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Експортує інформацію про базу даних RRD
     

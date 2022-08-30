@@ -1,12 +1,12 @@
 Конструктор класу YafViewSimple
 
--   [« Yaf\_View\_Simple::clear](yaf-view-simple.clear.html)
+-   [« YafViewSimple::clear](yaf-view-simple.clear.html)
     
--   [Yaf\_View\_Simple::display »](yaf-view-simple.display.html)
+-   [YafViewSimple::display »](yaf-view-simple.display.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Конструктор класу YafViewSimple
     

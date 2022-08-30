@@ -1,12 +1,12 @@
 Створити новий об'єкт Point
 
--   [« UI\\Point::at](ui-point.at.html)
+-   [« UIPoint::at](ui-point.at.html)
     
--   [UI\\Point::getX »](ui-point.getx.html)
+-   [ОЙPoint::getX »](ui-point.getx.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Point](class.ui-point.html)
+-   [ОЙPoint](class.ui-point.html)
     
 -   Створити новий об'єкт Point
     

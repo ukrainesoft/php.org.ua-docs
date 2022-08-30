@@ -2,11 +2,11 @@
 
 -   [« Потоки ввода/вывода](features.commandline.io-streams.html)
     
--   [Встроенный веб-сервер »](features.commandline.webserver.html)
+-   [Вбудований веб-сервер](features.commandline.webserver.html)
     
 -   [PHP Manual](index.html)
     
--   [Использование PHP в командной строке](features.commandline.html)
+-   [Використання PHP у командному рядку](features.commandline.html)
     
 -   Інтерактивна консоль
     
@@ -72,7 +72,7 @@ php > #cli.pager=less php > phpinfo(); (output displayed in less) php >
 
 > **Зауваження**
 > 
-> Файли, підключені за допомогою опцій [auto\_prepend\_file](ini.core.html#ini.auto-prepend-file) і [auto\_append\_file](ini.core.html#ini.auto-append-file) обробляються в цьому режимі з деякими обмеженнями, наприклад функції повинні бути оголошені до їх використання.
+> Файли, підключені за допомогою опцій [autoprependfile](ini.core.html#ini.auto-prepend-file) і [autoappendfile](ini.core.html#ini.auto-append-file) обробляються в цьому режимі з деякими обмеженнями, наприклад функції повинні бути оголошені до їх використання.
 
 ## Інтерактивний режим
 

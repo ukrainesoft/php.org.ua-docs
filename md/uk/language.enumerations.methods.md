@@ -1,8 +1,8 @@
 Методи перерахувань
 
--   [« Типизированные перечисления](language.enumerations.backed.html)
+-   [Типізовані перерахування](language.enumerations.backed.html)
     
--   [Статические методы перечислений »](language.enumerations.static-methods.html)
+-   [Статичні методи перерахувань »](language.enumerations.static-methods.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Додає трейт
 
--   [« Componere\\Abstract\\Definition::addMethod](componere-abstract-definition.addmethod.html)
+-   [« ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.html)
     
--   [Componere\\Abstract\\Definition::getReflector »](componere-abstract-definition.getreflector.html)
+-   [ComponereAbstractDefinition::getReflector »](componere-abstract-definition.getreflector.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+-   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
     
 -   Додає трейт
     

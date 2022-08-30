@@ -1,12 +1,12 @@
 Отримати поточний обробник вказаного сигналу
 
--   [« pcntl\_signal\_dispatch](function.pcntl-signal-dispatch.html)
+-   [pcntlsignaldispatch](function.pcntl-signal-dispatch.html)
     
--   [pcntl\_signal »](function.pcntl-signal.html)
+-   [pcntlsignal »](function.pcntl-signal.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PCNTL](ref.pcntl.html)
+-   [Функції PCNTL](ref.pcntl.html)
     
 -   Отримати поточний обробник вказаного сигналу
     
@@ -63,4 +63,4 @@ var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(1)
 
 ### Дивіться також
 
--   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
+-   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу

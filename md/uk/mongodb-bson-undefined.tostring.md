@@ -1,12 +1,12 @@
 Повертає порожній рядок
 
--   [« MongoDB\\BSON\\Undefined::serialize](mongodb-bson-undefined.serialize.html)
+-   [« MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.html)
     
--   [MongoDB\\BSON\\Undefined::unserialize »](mongodb-bson-undefined.unserialize.html)
+-   [MongoDBBSONUndefined::unserialize »](mongodb-bson-undefined.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html)
+-   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
     
 -   Повертає порожній рядок
     

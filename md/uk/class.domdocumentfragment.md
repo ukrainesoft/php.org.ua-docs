@@ -170,4 +170,4 @@ childElementCount
 ## Зміст
 
 -   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.html) — Додавання необроблених даних XML
--   [DOMDocumentFragment::\_\_construct](domdocumentfragment.construct.html) - Конструктор об'єкта DOMDocumentFragment
+-   [DOMDocumentFragment::construct](domdocumentfragment.construct.html) - Конструктор об'єкта DOMDocumentFragment

@@ -1,12 +1,12 @@
 Повертає наступну довідку
 
--   [« ldap\_next\_entry](function.ldap-next-entry.html)
+-   [« ldapnextentry](function.ldap-next-entry.html)
     
--   [ldap\_parse\_exop »](function.ldap-parse-exop.html)
+-   [ldapparseexop »](function.ldap-parse-exop.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Повертає наступну довідку
     

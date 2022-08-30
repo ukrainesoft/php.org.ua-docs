@@ -1,8 +1,8 @@
 Створити та підключитися до сокету із вказаного addrinfo
 
--   [« socket\_addrinfo\_bind](function.socket-addrinfo-bind.html)
+-   [« socketaddrinfobind](function.socket-addrinfo-bind.html)
     
--   [socket\_addrinfo\_explain »](function.socket-addrinfo-explain.html)
+-   [socketaddrinfoexplain »](function.socket-addrinfo-explain.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ socket_addrinfo_connect(AddressInfo $address): Socket|false
 
 `address`
 
-Екземпляр [AddressInfo](class.addressinfo.html), створений за допомогою [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html)
+Екземпляр [AddressInfo](class.addressinfo.html), створений за допомогою [socketaddrinfolookup()](function.socket-addrinfo-lookup.html)
 
 ### Значення, що повертаються
 
@@ -44,6 +44,6 @@ socket_addrinfo_connect(AddressInfo $address): Socket|false
 
 ### Дивіться також
 
--   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із вказаного addrinfo
--   [socket\_addrinfo\_explain()](function.socket-addrinfo-explain.html) - Отримати інформацію про addrinfo
--   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+-   [socketaddrinfobind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із вказаного addrinfo
+-   [socketaddrinfoexplain()](function.socket-addrinfo-explain.html) - Отримати інформацію про addrinfo
+-   [socketaddrinfolookup()](function.socket-addrinfo-lookup.html) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста

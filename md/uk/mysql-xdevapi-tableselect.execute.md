@@ -1,12 +1,12 @@
 Виконує оператор вибірки
 
--   [« TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.html)
+-   [« TableSelect::construct](mysql-xdevapi-tableselect.construct.html)
     
 -   [TableSelect::groupBy »](mysql-xdevapi-tableselect.groupby.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+-   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
     
 -   Виконує оператор вибірки
     

@@ -2,7 +2,7 @@
 
 -   [« Функции Grapheme](ref.intl.grapheme.html)
     
--   [grapheme\_stripos »](function.grapheme-stripos.html)
+-   [graphemestripos »](function.grapheme-stripos.html)
     
 -   [PHP Manual](index.html)
     
@@ -86,5 +86,5 @@ o%CC%88
 
 ### Дивіться також
 
--   [grapheme\_substr()](function.grapheme-substr.html) - Повертає частину рядка
+-   [graphemesubstr()](function.grapheme-substr.html) - Повертає частину рядка
 -   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

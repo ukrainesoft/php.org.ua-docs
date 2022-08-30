@@ -1,12 +1,12 @@
 Вступ
 
--   [« Файловая система](book.filesystem.html)
+-   [« Файлова система](book.filesystem.html)
     
 -   [Установка и настройка »](filesystem.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Файловая система](book.filesystem.html)
+-   [Файлова система](book.filesystem.html)
     
 -   Вступ
     

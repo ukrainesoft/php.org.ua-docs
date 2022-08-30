@@ -1,12 +1,12 @@
 Повертає абсолютний канонізований шлях до файлу
 
--   [« realpath\_cache\_size](function.realpath-cache-size.html)
+-   [« realpathcachesize](function.realpath-cache-size.html)
     
 -   [rename »](function.rename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає абсолютний канонізований шлях до файлу
     

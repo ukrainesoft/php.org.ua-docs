@@ -1,12 +1,12 @@
 Динамічно видаляє заданий метод
 
--   [« runkit7\_method\_redefine](function.runkit7-method-redefine.html)
+-   [« runkit7methodredefine](function.runkit7-method-redefine.html)
     
--   [runkit7\_method\_rename »](function.runkit7-method-rename.html)
+-   [runkit7methodrename »](function.runkit7-method-rename.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.html)
     
 -   Динамічно видаляє заданий метод
     
@@ -74,8 +74,8 @@ bar
 
 ### Дивіться також
 
--   [runkit7\_method\_add()](function.runkit7-method-add.html) - Динамічно додає новий метод у заданий клас
--   [runkit7\_method\_copy()](function.runkit7-method-copy.html) - Копіює метод з одного класу до іншого
--   [runkit7\_method\_redefine()](function.runkit7-method-redefine.html) - динамічно змінює код заданого методу
--   [runkit7\_method\_rename()](function.runkit7-method-rename.html) - динамічно змінює ім'я заданого методу
--   [runkit7\_function\_remove()](function.runkit7-function-remove.html) - Видаляє визначення функції
+-   [runkit7methodadd()](function.runkit7-method-add.html) - Динамічно додає новий метод у заданий клас
+-   [runkit7methodcopy()](function.runkit7-method-copy.html) - Копіює метод з одного класу до іншого
+-   [runkit7methodredefine()](function.runkit7-method-redefine.html) - динамічно змінює код заданого методу
+-   [runkit7methodrename()](function.runkit7-method-rename.html) - динамічно змінює ім'я заданого методу
+-   [runkit7functionremove()](function.runkit7-function-remove.html) - Видаляє визначення функції

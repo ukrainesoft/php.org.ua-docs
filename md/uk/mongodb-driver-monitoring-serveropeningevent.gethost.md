@@ -1,12 +1,12 @@
 Повертає ім'я сервера хоста
 
--   [« MongoDB\\Driver\\Monitoring\\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
+-   [« MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getPort »](mongodb-driver-monitoring-serveropeningevent.getport.html)
+-   [MongoDBDriverMonitoringServerOpeningEvent::getPort »](mongodb-driver-monitoring-serveropeningevent.getport.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
+-   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
     
 -   Повертає ім'я сервера хоста
     
@@ -33,4 +33,4 @@ final public MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

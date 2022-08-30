@@ -1,12 +1,12 @@
 Конструктор класу Warning
 
--   [« mysql\_xdevapi\\Warning](class.mysql-xdevapi-warning.html)
+-   [« mysqlxdevapiWarning](class.mysql-xdevapi-warning.html)
     
 -   [MySQL (Original) »](book.mysql.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Warning](class.mysql-xdevapi-warning.html)
+-   [mysqlxdevapiWarning](class.mysql-xdevapi-warning.html)
     
 -   Конструктор класу Warning
     

@@ -2,11 +2,11 @@
 
 -   [« DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.html)
     
--   [DocResult::\_\_construct »](mysql-xdevapi-docresult.construct.html)
+-   [DocResult::construct »](mysql-xdevapi-docresult.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас DocResult
     
@@ -44,7 +44,7 @@ public getWarningsCount(): int
 
 ## Зміст
 
--   [DocResult::\_\_construct](mysql-xdevapi-docresult.construct.html) - Конструктор DocResult
+-   [DocResult::construct](mysql-xdevapi-docresult.construct.html) - Конструктор DocResult
 -   [DocResult::fetchAll](mysql-xdevapi-docresult.fetchall.html) — Отримати всі рядки
 -   [DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.html) — Отримати один рядок
 -   [DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.html) — Отримати попередження з останньої операції

@@ -1,8 +1,8 @@
 Створює обліковий запис або запит автентифікації
 
--   [« radius\_config](function.radius-config.html)
+-   [« radiusconfig](function.radius-config.html)
     
--   [radius\_cvt\_addr »](function.radius-cvt-addr.html)
+-   [radiuscvtaddr »](function.radius-cvt-addr.html)
     
 -   [PHP Manual](index.html)
     
@@ -54,4 +54,4 @@ if (!radius_create_request($res, RADIUS_ACCESS_REQUEST)) {
 
 ### Дивіться також
 
--   [radius\_send\_request()](function.radius-send-request.html) - Відправляє запит і чекає на відповідь
+-   [radiussendrequest()](function.radius-send-request.html) - Відправляє запит і чекає на відповідь

@@ -1,8 +1,8 @@
 Фіксує транзакцію
 
--   [« ibase\_commit\_ret](function.ibase-commit-ret.html)
+-   [« ibasecommitret](function.ibase-commit-ret.html)
     
--   [ibase\_connect »](function.ibase-connect.html)
+-   [ibaseconnect »](function.ibase-connect.html)
     
 -   [PHP Manual](index.html)
     

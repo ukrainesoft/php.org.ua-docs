@@ -1,6 +1,6 @@
 Об'єкти та посилання
 
--   [« Позднее статическое связывание](language.oop5.late-static-bindings.html)
+-   [« Пізніше статичне зв'язування](language.oop5.late-static-bindings.html)
     
 -   [Сериализация объектов »](language.oop5.serialization.html)
     

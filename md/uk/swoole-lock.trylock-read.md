@@ -1,12 +1,12 @@
 Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
 
--   [« Swoole\\Lock::lock](swoole-lock.lock.html)
+-   [« SwooleLock::lock](swoole-lock.lock.html)
     
--   [Swoole\\Lock::trylock »](swoole-lock.trylock.html)
+-   [SwooleLock::trylock »](swoole-lock.trylock.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Lock](class.swoole-lock.html)
+-   [SwooleLock](class.swoole-lock.html)
     
 -   Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
     

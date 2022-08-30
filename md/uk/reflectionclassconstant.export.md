@@ -1,6 +1,6 @@
 Експорт
 
--   [« ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.html)
+-   [« ReflectionClassConstant::construct](reflectionclassconstant.construct.html)
     
 -   [ReflectionClassConstant::getAttributes »](reflectionclassconstant.getattributes.html)
     
@@ -51,4 +51,4 @@ public static ReflectionClassConstant::export(mixed $class, string $name, bool $
 
 ### Дивіться також
 
--   [ReflectionClassConstant::\_\_toString()](reflectionclassconstant.tostring.html) - Повертає рядкове представлення об'єкта ReflectionClassConstant
+-   [ReflectionClassConstant::toString()](reflectionclassconstant.tostring.html) - Повертає рядкове представлення об'єкта ReflectionClassConstant

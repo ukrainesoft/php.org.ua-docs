@@ -1,12 +1,12 @@
 Зводить число до ступеня
 
--   [« gmp\_popcount](function.gmp-popcount.html)
+-   [« gmppopcount](function.gmp-popcount.html)
     
--   [gmp\_powm »](function.gmp-powm.html)
+-   [gmppowm »](function.gmp-powm.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Зводить число до ступеня
     

@@ -2,11 +2,11 @@
 
 -   [« eval](function.eval.html)
     
--   [get\_browser »](function.get-browser.html)
+-   [getbrowser »](function.get-browser.html)
     
 -   [PHP Manual](index.html)
     
--   [Разные функции](ref.misc.html)
+-   [Різні функції](ref.misc.html)
     
 -   Вивести повідомлення та припинити виконання поточного скрипту
     
@@ -27,7 +27,7 @@ exit(string $status = ?): void
 exit(int $status): void
 ```
 
-Припиняє виконання скрипту . [Функции отключения](function.register-shutdown-function.html) і [деструкторы объекта](language.oop5.decon.html#language.oop5.decon.destructor) будуть запущені, навіть якщо було викликано конструкцію `exit`
+Припиняє виконання скрипту . [Функции отключения](function.register-shutdown-function.html) і [деструктори об'єкту](language.oop5.decon.html#language.oop5.decon.destructor) будуть запущені, навіть якщо було викликано конструкцію `exit`
 
 `exit` - це конструкція мови, і вона може бути викликана без круглих дужок, якщо не передається параметр `status`
 
@@ -116,4 +116,4 @@ echo 'Эта строка не будет выведена.';
 
 ### Дивіться також
 
--   [register\_shutdown\_function()](function.register-shutdown-function.html) - Реєструє функцію, яка виконається після завершення роботи скрипту
+-   [registershutdownfunction()](function.register-shutdown-function.html) - Реєструє функцію, яка виконається після завершення роботи скрипту

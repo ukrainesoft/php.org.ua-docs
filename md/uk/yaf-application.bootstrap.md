@@ -1,12 +1,12 @@
 Викликати bootstrap
 
--   [« Yaf\_Application::app](yaf-application.app.html)
+-   [« YafApplication::app](yaf-application.app.html)
     
--   [Yaf\_Application::clearLastError »](yaf-application.clearlasterror.html)
+-   [YafApplication::clearLastError »](yaf-application.clearlasterror.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Викликати bootstrap
     
@@ -29,11 +29,11 @@ public Yaf_Application::bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
 
 `bootstrap`
 
-Екземпляр класу [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
+Екземпляр класу [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
 
 ### Значення, що повертаються
 
-Екземпляр класу [Yaf\_Application](class.yaf-application.html)
+Екземпляр класу [YafApplication](class.yaf-application.html)
 
 ### Приклади
 
@@ -80,4 +80,4 @@ $application->bootstrap();
 
 ### Дивіться також
 
--   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)

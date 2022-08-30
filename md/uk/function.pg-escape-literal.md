@@ -1,8 +1,8 @@
 Екранувати літерал при вставці у текстове поле
 
--   [« pg\_escape\_identifier](function.pg-escape-identifier.html)
+-   [« pgescapeidentifier](function.pg-escape-identifier.html)
     
--   [pg\_escape\_string »](function.pg-escape-string.html)
+-   [пгescapestring »](function.pg-escape-string.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
 ```
 
-Функція **пгescapeliteral()** екранує літерал для запиту бази даних PostgreSQL Вона повертає екранований літерал у форматі PostgreSQL . **пгescapeliteral()** додає лапки до та після даних. Користувачі не повинні додавати лапки. Рекомендується використовувати цю функцію замість [pg\_escape\_string()](function.pg-escape-string.html). Якщо тип стовпця – bytea, замість нього слід використовувати [pg\_escape\_bytea()](function.pg-escape-bytea.html). Для екранування ідентифікаторів (наприклад таблиці, імен полів) необхідно використовувати [pg\_escape\_identifier()](function.pg-escape-identifier.html)
+Функція **пгescapeliteral()** екранує літерал для запиту бази даних PostgreSQL Вона повертає екранований літерал у форматі PostgreSQL . **пгescapeliteral()** додає лапки до та після даних. Користувачі не повинні додавати лапки. Рекомендується використовувати цю функцію замість [пгescapestring()](function.pg-escape-string.html). Якщо тип стовпця – bytea, замість нього слід використовувати [пгescapebytea()](function.pg-escape-bytea.html). Для екранування ідентифікаторів (наприклад таблиці, імен полів) необхідно використовувати [пгescapeidentifier()](function.pg-escape-identifier.html)
 
 > **Зауваження**
 > 
@@ -33,7 +33,7 @@ pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -49,9 +49,9 @@ pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -75,6 +75,6 @@ pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
 
 ### Дивіться також
 
--   [pg\_escape\_identifier()](function.pg-escape-identifier.html) - Екранує ідентифікатор для вставки у текстове поле
--   [pg\_escape\_bytea()](function.pg-escape-bytea.html) - Екранує спецсимволи у рядку для вставки у поле типу bytea
--   [pg\_escape\_string()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту
+-   [пгescapeidentifier()](function.pg-escape-identifier.html) - Екранує ідентифікатор для вставки у текстове поле
+-   [пгescapebytea()](function.pg-escape-bytea.html) - Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [пгescapestring()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту

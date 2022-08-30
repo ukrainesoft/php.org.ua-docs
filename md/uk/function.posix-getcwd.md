@@ -1,8 +1,8 @@
 Повертає шлях поточної директорії
 
--   [« posix\_get\_last\_error](function.posix-get-last-error.html)
+-   [« posixgetlasterror](function.posix-get-last-error.html)
     
--   [posix\_getegid »](function.posix-getegid.html)
+-   [posixgetegid »](function.posix-getegid.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ posixgetcwd — Повертає шлях поточної директорії
 posix_getcwd(): string|false
 ```
 
-Повертає абсолютний шлях робочої директорії скрипта. У разі виникнення помилки буде встановлено її номер, який може бути оброблений за допомогою [posix\_get\_last\_error()](function.posix-get-last-error.html)
+Повертає абсолютний шлях робочої директорії скрипта. У разі виникнення помилки буде встановлено її номер, який може бути оброблений за допомогою [posixgetlasterror()](function.posix-get-last-error.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ posix_getcwd(): string|false
 
 ### Значення, що повертаються
 
-Повертає string з абсолютним шляхом у разі успішного виконання. У разі виникнення помилки буде повернено **`false`**, також буде встановлено номер помилки, який може бути оброблений за допомогою [posix\_get\_last\_error()](function.posix-get-last-error.html)
+Повертає string з абсолютним шляхом у разі успішного виконання. У разі виникнення помилки буде повернено **`false`**, також буде встановлено номер помилки, який може бути оброблений за допомогою [posixgetlasterror()](function.posix-get-last-error.html)
 
 ### Приклади
 

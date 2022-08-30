@@ -1,12 +1,12 @@
 Видаляє екранування символів, зроблене функцією addcslashes
 
--   [« strip\_tags](function.strip-tags.html)
+-   [« striptags](function.strip-tags.html)
     
 -   [stripos »](function.stripos.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Видаляє екранування символів, зроблене функцією addcslashes
     

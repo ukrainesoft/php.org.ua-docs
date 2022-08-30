@@ -1,6 +1,6 @@
 Використання просторів імен: перехід до глобальної функції/константи
 
--   [« Глобальное пространство](language.namespaces.global.html)
+-   [« Глобальний простір](language.namespaces.global.html)
     
 -   [Правила разрешения имён »](language.namespaces.rules.html)
     

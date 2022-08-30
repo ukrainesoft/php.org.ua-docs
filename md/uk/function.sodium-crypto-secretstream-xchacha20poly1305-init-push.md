@@ -1,8 +1,8 @@
 Ініціалізує контекст secretstream для шифрування
 
--   [« sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
+-   [« sodiumcryptosecretstreamxchacha20poly1305initpull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
     
--   [sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen »](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
+-   [sodiumcryptosecretstreamxchacha20poly1305keygen »](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_push(string $key): array
 
 `key`
 
-Ключ криптографії. Дивіться [sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen()](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
+Ключ криптографії. Дивіться [sodiumcryptosecretstreamxchacha20poly1305keygen()](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
 
 ### Значення, що повертаються
 

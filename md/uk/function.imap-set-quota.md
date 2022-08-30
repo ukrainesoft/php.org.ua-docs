@@ -1,8 +1,8 @@
 Встановити квоту для заданої поштової скриньки
 
--   [« imap\_search](function.imap-search.html)
+-   [« imapsearch](function.imap-search.html)
     
--   [imap\_setacl »](function.imap-setacl.html)
+-   [imapsetacl »](function.imap-setacl.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `quota_root`
 
@@ -45,9 +45,9 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -74,5 +74,5 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imap\_open()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
--   [imap\_get\_quota()](function.imap-get-quota.html) - Отримати налаштування рівня квоти та статистику використання поштових скриньок
+-   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
+-   [imapgetquota()](function.imap-get-quota.html) - Отримати налаштування рівня квоти та статистику використання поштових скриньок

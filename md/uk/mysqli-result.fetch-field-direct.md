@@ -1,12 +1,12 @@
 Отримання метаданих конкретного поля
 
--   [« mysqli\_result::fetch\_column](mysqli-result.fetch-column.html)
+-   [« mysqliresult::fetchcolumn](mysqli-result.fetch-column.html)
     
--   [mysqli\_result::fetch\_field »](mysqli-result.fetch-field.html)
+-   [mysqliresult::fetchfield »](mysqli-result.fetch-field.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Отримання метаданих конкретного поля
     
@@ -39,7 +39,7 @@ mysqli_fetch_field_direct(mysqli_result $result, int $index): object|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `index`
 
@@ -145,6 +145,6 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_num\_fields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
--   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
--   [mysqli\_fetch\_fields()](mysqli-result.fetch-fields.html) - Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqlinumfields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
+-   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlifetchfields()](mysqli-result.fetch-fields.html) - Повертає масив об'єктів, що становлять поля результуючого набору

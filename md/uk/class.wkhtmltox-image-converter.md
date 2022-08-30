@@ -1,8 +1,8 @@
 Клас wkhtmltoxImageConverter
 
--   [« wkhtmltox\\PDF\\Object::\_\_construct](wkhtmltox-pdf-object.construct.html)
+-   [« wkhtmltoxPDFObject::construct](wkhtmltox-pdf-object.construct.html)
     
--   [wkhtmltox\\Image\\Converter::\_\_construct »](wkhtmltox-image-converter.construct.html)
+-   [wkhtmltoxImageConverter::construct »](wkhtmltox-image-converter.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -46,6 +46,6 @@ public getVersion(): string
 
 ## Зміст
 
--   [wkhtmltox\\Image\\Converter::\_\_construct](wkhtmltox-image-converter.construct.html) — Створити новий конвертер зображень
--   [wkhtmltox\\Image\\Converter::convert](wkhtmltox-image-converter.convert.html) — Виконати перетворення зображень
--   [wkhtmltox\\Image\\Converter::getVersion](wkhtmltox-image-converter.getversion.html) — Визначити версію конвертера
+-   [wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.html) — Створити новий конвертер зображень
+-   [wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.html) — Виконати перетворення зображень
+-   [wkhtmltoxImageConverter::getVersion](wkhtmltox-image-converter.getversion.html) — Визначити версію конвертера

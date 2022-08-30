@@ -1,8 +1,8 @@
 Вектор логарифму на основі-10
 
--   [« trader\_ln](function.trader-ln.html)
+-   [« traderлн](function.trader-ln.html)
     
--   [trader\_ma »](function.trader-ma.html)
+-   [traderma »](function.trader-ma.html)
     
 -   [PHP Manual](index.html)
     

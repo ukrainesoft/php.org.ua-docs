@@ -1,12 +1,12 @@
 Побітове виключне АБО
 
--   [« gmp\_testbit](function.gmp-testbit.html)
+-   [« gmptestbit](function.gmp-testbit.html)
     
 -   [GMP »](class.gmp.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Побітове виключне АБО
     

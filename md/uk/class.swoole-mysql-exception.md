@@ -1,8 +1,8 @@
 Клас SwooleMySQLException
 
--   [« Swoole\\MySQL::query](swoole-mysql.query.html)
+-   [« SwooleMySQL::query](swoole-mysql.query.html)
     
--   [Swoole\\Process »](class.swoole-process.html)
+-   [SwooleProcess »](class.swoole-process.html)
     
 -   [PHP Manual](index.html)
     

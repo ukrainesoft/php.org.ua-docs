@@ -1,12 +1,12 @@
 Клас MongoDBDriverMonitoringCommandSucceedEvent
 
--   [« MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getServiceId](mongodb-driver-monitoring-commandstartedevent.getserviceid.html)
+-   [« MongoDBDriverMonitoringCommandStartedEvent::getServiceId](mongodb-driver-monitoring-commandstartedevent.getserviceid.html)
     
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName »](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html)
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getCommandName »](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+-   [MongoDBDriverMonitoring](mongodb.monitoring.html)
     
 -   Клас MongoDBDriverMonitoringCommandSucceedEvent
     
@@ -49,11 +49,11 @@ final public getServiceId(): ?MongoDB\BSON\ObjectId
 
 ## Зміст
 
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html) - Повертає ім'я команди
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getDurationMicros](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html) — Повертає тривалість команди у мікросекундах
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getOperationId](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html) - Повертає ідентифікатор операції команди
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getReply](mongodb-driver-monitoring-commandsucceededevent.getreply.html) - Повертає документ відповіді команди
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html) - Повертає ідентифікатор запиту команди
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getServer](mongodb-driver-monitoring-commandsucceededevent.getserver.html) — Повертає сервер, на якому було виконано команду
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getServerConnectionId](mongodb-driver-monitoring-commandsucceededevent.getserverconnectionid.html) — Повертає ідентифікатор з'єднання із сервером для команди
--   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.html) — Повертає ідентифікатор служби балансувальника навантаження для команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html) - Повертає ім'я команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html) — Повертає тривалість команди у мікросекундах
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getOperationId](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html) - Повертає ідентифікатор операції команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getReply](mongodb-driver-monitoring-commandsucceededevent.getreply.html) - Повертає документ відповіді команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html) - Повертає ідентифікатор запиту команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getServer](mongodb-driver-monitoring-commandsucceededevent.getserver.html) — Повертає сервер, на якому було виконано команду
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId](mongodb-driver-monitoring-commandsucceededevent.getserverconnectionid.html) — Повертає ідентифікатор з'єднання із сервером для команди
+-   [MongoDBDriverMonitoringCommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.html) — Повертає ідентифікатор служби балансувальника навантаження для команди

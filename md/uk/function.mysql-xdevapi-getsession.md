@@ -2,11 +2,11 @@
 
 -   [« expression](function.mysql-xdevapi-expression.html)
     
--   [mysql\_xdevapi\\BaseResult »](class.mysql-xdevapi-baseresult.html)
+-   [mysqlxdevapiBaseResult »](class.mysql-xdevapi-baseresult.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Mysql\_xdevapi](ref.mysql-xdevapi.html)
+-   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     
 -   Підключається до сервера MySQL
     

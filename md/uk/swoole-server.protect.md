@@ -1,12 +1,12 @@
 Встановлює з'єднання у захищений режим
 
--   [« Swoole\\Server::pause](swoole-server.pause.html)
+-   [« SwooleServer::pause](swoole-server.pause.html)
     
--   [Swoole\\Server::reload »](swoole-server.reload.html)
+-   [SwooleServer::reload »](swoole-server.reload.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Встановлює з'єднання у захищений режим
     

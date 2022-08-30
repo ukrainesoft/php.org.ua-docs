@@ -1,12 +1,12 @@
 Доступ до URL-адрес за протоколом FTP(s)
 
--   [« http://](wrappers.http.html)
+-   [http://](wrappers.http.html)
     
 -   [php:// »](wrappers.php.html)
     
 -   [PHP Manual](index.html)
     
--   [Поддерживаемые протоколы и обёртки](wrappers.html)
+-   [Підтримувані протоколи та обгортки](wrappers.html)
     
 -   Доступ до URL-адрес за протоколом FTP(s)
     
@@ -36,18 +36,18 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 
 **Основна інформація**
 
-| Атрибут                                                                             | Поддерживается                                                                                                                                                                                                                       |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Обмеження по [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen) | Так                                                                                                                                                                                                                                  |
-| Читання                                                                             | Так                                                                                                                                                                                                                                  |
-| Запис                                                                               | Так (нові файли / існуючі файли з опцією `overwrite`                                                                                                                                                                                 |
-| Додавання                                                                           | Так                                                                                                                                                                                                                                  |
-| Одночасне читання та запис                                                          | Ні                                                                                                                                                                                                                                   |
-| Підтримка [stat()](function.stat.html)                                              | [filesize()](function.filesize.html) [filemtime()](function.filemtime.html) [filetype()](function.filetype.html) [file\_exists()](function.file-exists.html) [is\_file()](function.is-file.html) і [is\_dir()](function.is-dir.html) |
-| Підтримка [unlink()](function.unlink.html)                                          | Так                                                                                                                                                                                                                                  |
-| Підтримка [rename()](function.rename.html)                                          | Так                                                                                                                                                                                                                                  |
-| Підтримка [mkdir()](function.mkdir.html)                                            | Так                                                                                                                                                                                                                                  |
-| Підтримка [rmdir()](function.rmdir.html)                                            | Так                                                                                                                                                                                                                                  |
+| Атрибут                                                                         | Поддерживается                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Так                                                                                                                                                                                                                            |
+| Читання                                                                         | Так                                                                                                                                                                                                                            |
+| Запис                                                                           | Так (нові файли / існуючі файли з опцією `overwrite`                                                                                                                                                                           |
+| Додавання                                                                       | Так                                                                                                                                                                                                                            |
+| Одночасне читання та запис                                                      | Ні                                                                                                                                                                                                                             |
+| Підтримка [stat()](function.stat.html)                                          | [filesize()](function.filesize.html) [filemtime()](function.filemtime.html) [filetype()](function.filetype.html) [fileexists()](function.file-exists.html) [ісfile()](function.is-file.html) і [ісdir()](function.is-dir.html) |
+| Підтримка [unlink()](function.unlink.html)                                      | Так                                                                                                                                                                                                                            |
+| Підтримка [rename()](function.rename.html)                                      | Так                                                                                                                                                                                                                            |
+| Підтримка [mkdir()](function.mkdir.html)                                        | Так                                                                                                                                                                                                                            |
+| Підтримка [rmdir()](function.rmdir.html)                                        | Так                                                                                                                                                                                                                            |
 
 ### Примітки
 

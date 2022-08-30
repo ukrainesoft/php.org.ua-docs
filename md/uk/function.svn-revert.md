@@ -1,12 +1,12 @@
 Скасує локальні зміни робочої копії
 
--   [« svn\_repos\_recover](function.svn-repos-recover.html)
+-   [« svnreposrecover](function.svn-repos-recover.html)
     
--   [svn\_status »](function.svn-status.html)
+-   [svnstatus »](function.svn-status.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Скасує локальні зміни робочої копії
     
@@ -41,5 +41,5 @@ svn_revert(string $path, bool $recursive = false): bool
 
 ### Дивіться також
 
--   [svn\_delete()](function.svn-delete.html) - Видаляє елементи з робочої копії або репозиторію
--   [svn\_export()](function.svn-export.html) - Експортує вміст директорії SVN
+-   [svndelete()](function.svn-delete.html) - Видаляє елементи з робочої копії або репозиторію
+-   [svnexport()](function.svn-export.html) - Експортує вміст директорії SVN

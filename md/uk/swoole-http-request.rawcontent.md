@@ -1,12 +1,12 @@
 Отримує необроблене тіло HTTP POST
 
--   [« Swoole\\Http\\Request::\_\_destruct](swoole-http-request.destruct.html)
+-   [« SwooleHttpRequest::destruct](swoole-http-request.destruct.html)
     
--   [Swoole\\Http\\Response »](class.swoole-http-response.html)
+-   [SwooleHttpResponse »](class.swoole-http-response.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Request](class.swoole-http-request.html)
+-   [SwooleHttpRequest](class.swoole-http-request.html)
     
 -   Отримує необроблене тіло HTTP POST
     

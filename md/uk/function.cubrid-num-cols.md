@@ -1,8 +1,8 @@
 Повертає кількість стовпців у наборі результатів
 
--   [« cubrid\_next\_result](function.cubrid-next-result.html)
+-   [« cubridnextresult](function.cubrid-next-result.html)
     
--   [cubrid\_num\_rows »](function.cubrid-num-rows.html)
+-   [cubridnumrows »](function.cubrid-num-rows.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,5 +65,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubrid\_num\_rows()](function.cubrid-num-rows.html) - Отримати кількість рядків у наборі результатів
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridnumrows()](function.cubrid-num-rows.html) - Отримати кількість рядків у наборі результатів

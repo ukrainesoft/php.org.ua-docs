@@ -1,6 +1,6 @@
 Встановлює або отримує шлях для домену
 
--   [« bind\_textdomain\_codeset](function.bind-textdomain-codeset.html)
+-   [« bindtextdomaincodeset](function.bind-textdomain-codeset.html)
     
 -   [dcgettext »](function.dcgettext.html)
     

@@ -1,12 +1,12 @@
 Отримує строкове значення буфера пам'яті
 
--   [« Swoole\\Buffer::substr](swoole-buffer.substr.html)
+-   [« SwooleBuffer::substr](swoole-buffer.substr.html)
     
--   [Swoole\\Buffer::write »](swoole-buffer.write.html)
+-   [SwooleBuffer::write »](swoole-buffer.write.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Отримує строкове значення буфера пам'яті
     

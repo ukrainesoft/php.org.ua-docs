@@ -21,9 +21,9 @@
 
 Докладніше про те, як помилки працюють у PHP 7, можна знайти на сторінці [ошибки PHP 7](language.errors.php7.html). Це керівництво лише перераховує зміни, які можуть призвести до зворотної несумісності.
 
-#### [set\_exception\_handler()](function.set-exception-handler.html) більше не гарантує отримання об'єкта класу [Exception](class.exception.html)
+#### [setexceptionhandler()](function.set-exception-handler.html) більше не гарантує отримання об'єкта класу [Exception](class.exception.html)
 
-Код, що реалізує реєстрацію обробника винятків за допомогою [set\_exception\_handler()](function.set-exception-handler.html), використовуючи декларацію типу [Exception](class.exception.html), викличе фатальну помилку, якщо буде викинуто виняток [Error](class.error.html)
+Код, що реалізує реєстрацію обробника винятків за допомогою [setexceptionhandler()](function.set-exception-handler.html), використовуючи декларацію типу [Exception](class.exception.html), викличе фатальну помилку, якщо буде викинуто виняток [Error](class.error.html)
 
 Якщо потрібна робота оброблювача в PHP 5 і 7, ви повинні прибрати оголошення класу з оброблювача. Якщо код передбачається використовувати тільки в PHP 7, то можна просто змінити тип з [Exception](class.exception.html) на [Throwable](class.throwable.html)
 
@@ -155,7 +155,7 @@ list($x, list(), $y) = $a;
 
 ##### [list()](function.list.html) не може розкривати рядки
 
-[list()](function.list.html) більше не може розкривати рядки. Використовуйте [str\_split()](function.str-split.html)
+[list()](function.list.html) більше не може розкривати рядки. Використовуйте [strsplit()](function.str-split.html)
 
 #### Змінено порядок масиву при автоматичному створенні через присвоєння за посиланням
 
@@ -394,7 +394,7 @@ Notice: A non well formed numeric value encountered in /tmp/test.php on line 5
 string(3) "foo"
 ```
 
-Використовуйте функцію [filter\_var()](function.filter-var.html) для перевірки рядка на утримання шістнадцяткового числа та перетворення цього рядка до значення типу int:
+Використовуйте функцію [filtervar()](function.filter-var.html) для перевірки рядка на утримання шістнадцяткового числа та перетворення цього рядка до значення типу int:
 
 ```php
 <?php
@@ -415,7 +415,7 @@ var_dump($int); // int(65535)
 
 #### **callusermethod()** і **calluserметодarray()**
 
-Функції, оголошені застарілими у PHP 4.1.0 на користь [call\_user\_func()](function.call-user-func.html) і [call\_user\_func\_array()](function.call-user-func-array.html). Можливо, вам також буде цікаво розглянути можливість [обращения к функциям через переменные](functions.variable-functions.html) та/або оператор [`...`](functions.arguments.html#functions.variable-arg-list)
+Функції, оголошені застарілими у PHP 4.1.0 на користь [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.html). Можливо, вам також буде цікаво розглянути можливість [обращения к функциям через переменные](functions.variable-functions.html) та/або оператор[](functions.arguments.html#functions.variable-arg-list)
 
 #### Усі функції ereg
 
@@ -423,9 +423,9 @@ var_dump($int); // int(65535)
 
 #### Псевдоніми [mcrypt](book.mcrypt.html)
 
-Застаріла функція **mcryptgenericend()** була видалена на користь функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.html)
+Застаріла функція **mcryptgenericend()** була видалена на користь функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html)
 
-Крім цього, застарілі функції **mcryptecb()** **mcryptcbc()** **mcryptcfb()** і **mcryptofb()** були видалені на користь використання [mcrypt\_decrypt()](function.mcrypt-decrypt.html) з відповідною константою **`MCRYPT_MODE_*`**
+Крім цього, застарілі функції **mcryptecb()** **mcryptcbc()** **mcryptcfb()** і **mcryptofb()** були видалені на користь використання [mcryptdecrypt()](function.mcrypt-decrypt.html) з відповідною константою **`MCRYPT_MODE_*`**
 
 #### Усі функції модуля mysql
 
@@ -435,14 +435,14 @@ var_dump($int); // int(65535)
 
 Усі функції `ext/mssql` були вилучені.
 
--   [PDO\_SQLSRV](ref.pdo-sqlsrv.html)
--   [PDO\_ODBC](ref.pdo-odbc.html)
+-   [PDOSQLSRV](ref.pdo-sqlsrv.html)
+-   [PDOODBC](ref.pdo-odbc.html)
 -   [SQLSRV](book.sqlsrv.html)
 -   [Unified ODBC API](book.uodbc.html)
 
 #### Псевдоніми [intl](book.intl.html)
 
-Застарілі псевдоніми **datefmtsettimezoneid()** і **IntlDateFormatter::setTimeZoneID()** були видалені на користь [datefmt\_set\_timezone()](intldateformatter.settimezone.html) і [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.html) відповідно.
+Застарілі псевдоніми **datefmtsettimezoneid()** і **IntlDateFormatter::setTimeZoneID()** були видалені на користь [datefmtsettimezone()](intldateformatter.settimezone.html) і [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.html) відповідно.
 
 #### **setmagicquotesruntime()**
 
@@ -450,13 +450,13 @@ var_dump($int); // int(65535)
 
 #### **setsocketblocking()**
 
-Застарілий псевдонім **setsocketblocking()** був видалений на користь [stream\_set\_blocking()](function.stream-set-blocking.html)
+Застарілий псевдонім **setsocketblocking()** був видалений на користь [streamsetblocking()](function.stream-set-blocking.html)
 
 #### [dl()](function.dl.html) у PHP-FPM
 
 Функція [dl()](function.dl.html) більше не можна використовувати в PHP-FPM. Однак вона збереглася в CLI і вбудованих SAPI.
 
-#### Функції [GD](book.image.html) Type1
+#### Функції [ДД](book.image.html) Type1
 
 Підтримка шрифтів PostScript Type1 видалена із модуля GD. Відповідно були видалені такі функції:
 
@@ -611,7 +611,7 @@ function foo($a, $b, $unused, $unused) {
 
 #### Функції, що працюють із аргументами, тепер повертають їх *поточні* значення
 
-**funcgetarg()** [func\_get\_args()](function.func-get-args.html) [debug\_backtrace()](function.debug-backtrace.html) і трасування винятків повертають не вихідні передані значення, а поточні значення, які можуть бути змінені.
+**funcgetarg()** [funcgetargs()](function.func-get-args.html) [debugbacktrace()](function.debug-backtrace.html) і трасування винятків повертають не вихідні передані значення, а поточні значення, які можуть бути змінені.
 
 ```php
 <?php
@@ -655,7 +655,7 @@ $HTTPRAWPOSTDATA більше недоступне. Замість нього в
 
 #### Заборонені коментарі `#` в INI-файлах
 
-Підтримка префіксу коментаря `#` в INI-файлах видалено. Використовуйте префікс `;` замість нього. Ця зміна стосується як php.ini, так і файлів, що обробляються функціями [parse\_ini\_file()](function.parse-ini-file.html) і [parse\_ini\_string()](function.parse-ini-string.html)
+Підтримка префіксу коментаря `#` в INI-файлах видалено. Використовуйте префікс `;` замість нього. Ця зміна стосується як php.ini, так і файлів, що обробляються функціями [parseinifile()](function.parse-ini-file.html) і [parseinistring()](function.parse-ini-string.html)
 
 #### Модуль JSON замінено на JSOND
 
@@ -683,7 +683,7 @@ $HTTPRAWPOSTDATA більше недоступне. Замість нього в
 
 #### Mhash більше не є модулем
 
-Модуль Mhash повністю інтегрований у модуль [Hash](book.hash.html). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extension\_loaded()](function.extension-loaded.html); замість неї використовуйте [function\_exists()](function.function-exists.html). Крім того, Mhash більше не виводитиме за допомогою [get\_loaded\_extensions()](function.get-loaded-extensions.html) та подібних функцій.
+Модуль Mhash повністю інтегрований у модуль [Hash](book.hash.html). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extensionloaded()](function.extension-loaded.html); замість неї використовуйте [functionexists()](function.function-exists.html). Крім того, Mhash більше не виводитиме за допомогою [getloadedextensions()](function.get-loaded-extensions.html) та подібних функцій.
 
 #### declare(ticks)
 

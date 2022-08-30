@@ -1,8 +1,8 @@
 Виводить вміст BLOB-об'єкта у браузер
 
--   [« ibase\_blob\_create](function.ibase-blob-create.html)
+-   [« ibaseblobcreate](function.ibase-blob-create.html)
     
--   [ibase\_blob\_get »](function.ibase-blob-get.html)
+-   [ibaseblobget »](function.ibase-blob-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,6 +43,6 @@ ibase_blob_echo(resource $link_identifier, string $blob_id): bool
 
 ### Дивіться також
 
--   [ibase\_blob\_open()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
--   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibase\_blob\_get()](function.ibase-blob-get.html) - Отримує кількість байтів від відкритого BLOB-об'єкта
+-   [ibaseblobopen()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
+-   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibaseblobget()](function.ibase-blob-get.html) - Отримує кількість байтів від відкритого BLOB-об'єкта

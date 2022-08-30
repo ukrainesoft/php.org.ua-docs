@@ -1,8 +1,8 @@
 Клас ParleLexerException
 
--   [« Parle\\ErrorInfo](class.parle-errorinfo.html)
+-   [« ParleErrorInfo](class.parle-errorinfo.html)
     
--   [Parle\\ParserException »](class.parle-parserexception.html)
+-   [ParleParserException »](class.parle-parserexception.html)
     
 -   [PHP Manual](index.html)
     

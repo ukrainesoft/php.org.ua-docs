@@ -1,12 +1,12 @@
 Припиняє отримання даних
 
--   [« Swoole\\Client::on](swoole-client.on.html)
+-   [« SwooleClient::on](swoole-client.on.html)
     
--   [Swoole\\Client::pipe »](swoole-client.pipe.html)
+-   [SwooleClient::pipe »](swoole-client.pipe.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Припиняє отримання даних
     

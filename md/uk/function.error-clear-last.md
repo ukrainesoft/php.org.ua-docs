@@ -1,8 +1,8 @@
 Очистити останню помилку
 
--   [« debug\_print\_backtrace](function.debug-print-backtrace.html)
+-   [« debugprintbacktrace](function.debug-print-backtrace.html)
     
--   [error\_get\_last »](function.error-get-last.html)
+-   [errorgetlast »](function.error-get-last.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ error_clear_last(): void
 
 ### Значення, що повертаються
 
-Очищає останню помилку, унеможливлюючи отримання її за допомогою [error\_get\_last()](function.error-get-last.html)
+Очищає останню помилку, унеможливлюючи отримання її за допомогою [errorgetlast()](function.error-get-last.html)
 
 ### Приклади
 

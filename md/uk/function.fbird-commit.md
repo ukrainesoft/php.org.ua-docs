@@ -1,8 +1,8 @@
 Псевдонім ibasecommit
 
--   [« fbird\_commit\_ret](function.fbird-commit-ret.html)
+-   [« fbirdcommitret](function.fbird-commit-ret.html)
     
--   [fbird\_connect »](function.fbird-connect.html)
+-   [fbirdconnect »](function.fbird-connect.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdcommit - Псевдонім [ibase\_commit()](function.ibase-commit.html)
+fbirdcommit - Псевдонім [ibasecommit()](function.ibase-commit.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_commit()](function.ibase-commit.html)
+Ця функція є псевдонімом: [ibasecommit()](function.ibase-commit.html)

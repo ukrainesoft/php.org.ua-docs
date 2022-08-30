@@ -57,4 +57,4 @@ if( collator_get_attribute( $coll, Collator::FRENCH_COLLATION ) === false�
 
 ### Дивіться також
 
--   [collator\_get\_error\_message()](collator.geterrormessage.html) - Отримує текст для останньої помилки коду Collator
+-   [collatorgeterrormessage()](collator.geterrormessage.html) - Отримує текст для останньої помилки коду Collator

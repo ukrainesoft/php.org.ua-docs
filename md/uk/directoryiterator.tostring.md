@@ -63,4 +63,4 @@ pear.jpg
 ### Дивіться також
 
 -   [DirectoryIterator::getFilename()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   Магічний метод [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   Магічний метод [toString()](language.oop5.magic.html#object.tostring)

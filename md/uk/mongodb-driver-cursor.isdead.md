@@ -1,12 +1,12 @@
 Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
 
--   [« MongoDB\\Driver\\Cursor::getServer](mongodb-driver-cursor.getserver.html)
+-   [« MongoDBDriverCursor::getServer](mongodb-driver-cursor.getserver.html)
     
--   [MongoDB\\Driver\\Cursor::key »](mongodb-driver-cursor.key.html)
+-   [MongoDBDriverCursor::key »](mongodb-driver-cursor.key.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
     
 -   Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
     
@@ -23,7 +23,7 @@ MongoDBDriverCursor::isDead — Перевіряє, чи курсор вичер
 final public MongoDB\Driver\Cursor::isDead(): bool
 ```
 
-Перевіряє, чи немає курсора додаткових результатів. Цей метод аналогічний методу [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) в оболонці MongoDB і насамперед корисний при виконанні ітерації [» хвостовых курсоров](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
+Перевіряє, чи немає курсора додаткових результатів. Цей метод аналогічний методу [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) в оболонці MongoDB і насамперед корисний при виконанні ітерації [» хвостових курсорів](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
 
 Курсор не має додаткових результатів і вважається "мертвим", якщо виконується одна з наступних умов:
 
@@ -46,7 +46,7 @@ final public MongoDB\Driver\Cursor::isDead(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -94,5 +94,5 @@ bool(true)
 
 ### Дивіться також
 
--   [» Хвостовые курсоры](https://www.mongodb.com/docs/manual/core/tailable-cursors/) у посібнику MongoDB
+-   [» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors/) у посібнику MongoDB
 -   [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) у посібнику MongoDB

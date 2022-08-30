@@ -1,8 +1,8 @@
 Повертає опис для заданого коду помилки
 
--   [« curl\_share\_setopt](function.curl-share-setopt.html)
+-   [« curlsharesetopt](function.curl-share-setopt.html)
     
--   [curl\_strerror »](function.curl-strerror.html)
+-   [curlstrerror »](function.curl-strerror.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,9 +33,9 @@ curl_share_strerror(int $error_code): ?string
 
 ### Значення, що повертаються
 
-Повертає опис для заданого коду помилки або **`null`**якщо такого коду не існує.
+Повертає опис для заданого коду помилки або \*\*`null`\*\*якщо такого коду не існує.
 
 ### Дивіться також
 
--   [curl\_share\_errno()](function.curl-share-errno.html) - Повертає код останньої помилки оброблюваного обробника curl
--   [curl\_strerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки
+-   [curlshareerrno()](function.curl-share-errno.html) - Повертає код останньої помилки оброблюваного обробника curl
+-   [curlstrerror()](function.curl-strerror.html) - Отримати текстовий опис для коду помилки

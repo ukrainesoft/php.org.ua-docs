@@ -1,12 +1,12 @@
 Додає інтерфейс
 
--   [« Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+-   [« ComponereAbstractDefinition](class.componere-abstract-definition.html)
     
--   [Componere\\Abstract\\Definition::addMethod »](componere-abstract-definition.addmethod.html)
+-   [ComponereAbstractDefinition::addMethod »](componere-abstract-definition.addmethod.html)
     
 -   [PHP Manual](index.html)
     
--   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+-   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
     
 -   Додає інтерфейс
     

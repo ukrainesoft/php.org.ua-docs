@@ -1,8 +1,8 @@
 Повертає перший елемент колекції
 
--   [« Ds\\Map::filter](ds-map.filter.html)
+-   [« DsMap::filter](ds-map.filter.html)
     
--   [Ds\\Map::get »](ds-map.get.html)
+-   [ДсMap::get »](ds-map.get.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Отримує значення в таблиці Swoole $rowkey та $columnkey
 
--   [« Swoole\\Table::exist](swoole-table.exist.html)
+-   [« SwooleTable::exist](swoole-table.exist.html)
     
--   [Swoole\\Table::incr »](swoole-table.incr.html)
+-   [SwooleTable::incr »](swoole-table.incr.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Table](class.swoole-table.html)
+-   [SwooleTable](class.swoole-table.html)
     
 -   Отримує значення в таблиці Swoole $rowkey та $columnkey
     

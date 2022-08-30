@@ -1,8 +1,8 @@
 Використання просторів імен: імпорт/створення псевдоніма імені
 
--   [« Ключевое слово namespace и константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.html)
+-   [« Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.html)
     
--   [Глобальное пространство »](language.namespaces.global.html)
+-   [Глобальний простір »](language.namespaces.global.html)
     
 -   [PHP Manual](index.html)
     

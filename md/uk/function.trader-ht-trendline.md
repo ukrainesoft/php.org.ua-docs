@@ -1,8 +1,8 @@
 Перетворення Гільберта – миттєва лінія тренду
 
--   [« trader\_ht\_sine](function.trader-ht-sine.html)
+-   [« traderхтsine](function.trader-ht-sine.html)
     
--   [trader\_ht\_trendmode »](function.trader-ht-trendmode.html)
+-   [traderхтtrendmode »](function.trader-ht-trendmode.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Повертає пікове значення об'єму пам'яті, виділене PHP
 
--   [« ini\_set](function.ini-set.html)
+-   [« iniset](function.ini-set.html)
     
--   [memory\_get\_usage »](function.memory-get-usage.html)
+-   [memorygetusage »](function.memory-get-usage.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає пікове значення об'єму пам'яті, виділене PHP
     
@@ -37,5 +37,5 @@ memory_get_peak_usage(bool $real_usage = false): int
 
 ### Дивіться також
 
--   [memory\_get\_usage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
--   [memory\_limit](ini.core.html#ini.memory-limit)
+-   [memorygetusage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
+-   [memorylimit](ini.core.html#ini.memory-limit)

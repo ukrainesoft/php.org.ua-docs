@@ -1,12 +1,12 @@
 Повертає статичні змінні в області видимості функції або методу
 
--   [« uopz\_get\_return](function.uopz-get-return.html)
+-   [« uopzgetreturn](function.uopz-get-return.html)
     
--   [uopz\_implement »](function.uopz-implement.html)
+-   [uopzimplement »](function.uopz-implement.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Повертає статичні змінні в області видимості функції або методу
     
@@ -41,7 +41,7 @@ uopz_get_static(string $function): array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив (array) імен змінних, зіставлений зі своїми поточним значенням у разі успішного виконання, чи **`null`**якщо функція або метод не існують.
+Повертає асоціативний масив (array) імен змінних, зіставлений зі своїми поточним значенням у разі успішного виконання, чи \*\*`null`\*\*якщо функція або метод не існують.
 
 ### Приклади
 
@@ -67,4 +67,4 @@ array(1) {
 
 ### Дивіться також
 
--   [uopz\_set\_static()](function.uopz-set-static.html) - Встановлює статичні змінні у сфері видимості функції чи методу
+-   [uopzsetstatic()](function.uopz-set-static.html) - Встановлює статичні змінні у сфері видимості функції чи методу

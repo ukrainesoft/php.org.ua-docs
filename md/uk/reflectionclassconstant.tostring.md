@@ -36,4 +36,4 @@ public ReflectionClassConstant::__toString(): string
 ### Дивіться також
 
 -   [ReflectionClassConstant::export()](reflectionclassconstant.export.html) - Експорт
--   [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.html#object.tostring)

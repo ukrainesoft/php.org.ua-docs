@@ -1,8 +1,8 @@
 Повертає версію сервера CUBRID
 
--   [« cubrid\_get\_query\_timeout](function.cubrid-get-query-timeout.html)
+-   [« cubridgetquerytimeout](function.cubrid-get-query-timeout.html)
     
--   [cubrid\_get »](function.cubrid-get.html)
+-   [cubridget »](function.cubrid-get.html)
     
 -   [PHP Manual](index.html)
     

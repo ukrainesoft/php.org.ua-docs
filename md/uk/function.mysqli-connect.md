@@ -1,12 +1,12 @@
 Псевдонім mysqli::construct
 
--   [« Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+-   [« Синоніми та застарілі функції Mysqli](ref.mysqli.html)
     
--   [mysqli::escape\_string »](function.mysqli-escape-string.html)
+-   [mysqli::escapestring »](function.mysqli-escape-string.html)
     
 -   [PHP Manual](index.html)
     
--   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+-   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
     
 -   Псевдонім mysqli::construct
     
@@ -15,12 +15,12 @@
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliconnect — Псевдонім [mysqli::\_\_construct()](mysqli.construct.html)
+mysqliconnect — Псевдонім [mysqli::construct()](mysqli.construct.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [mysqli::\_\_construct()](mysqli.construct.html)
+Ця функція є псевдонімом: [mysqli::construct()](mysqli.construct.html)
 
 > **Зауваження**
 > 
-> Якщо режим виключення mysqli вимкнено і сталася помилка з'єднання, тоді **mysqliconnect()** повертає **`false`** замість об'єкта. Для отримання помилки з'єднання можна використовувати функцію [mysqli\_connect\_error()](mysqli.connect-error.html)
+> Якщо режим виключення mysqli вимкнено і сталася помилка з'єднання, тоді **mysqliconnect()** повертає **`false`** замість об'єкта. Для отримання помилки з'єднання можна використовувати функцію [mysqliconnecterror()](mysqli.connect-error.html)

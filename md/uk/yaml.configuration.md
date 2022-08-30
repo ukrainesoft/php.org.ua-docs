@@ -17,14 +17,14 @@
 
 **Опції налаштування Yaml**
 
-| Имя                                                                         | По умолчанию | Место изменения | Список изменений                                                 |
-|-----------------------------------------------------------------------------|--------------|-----------------|------------------------------------------------------------------|
-| [yaml.decode\_binary](yaml.configuration.html#ini.yaml.decode-binary)       |              | PHPINIALL       |                                                                  |
-| [yaml.decode\_php](yaml.configuration.html#ini.yaml.decode-php)             |              | PHPINIALL       | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
-| [yaml.decode\_timestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |              | PHPINIALL       |                                                                  |
-| [yaml.output\_canonical](yaml.configuration.html#ini.yaml.output-canonical) |              | PHPINIALL       |                                                                  |
-| [yaml.output\_indent](yaml.configuration.html#ini.yaml.output-indent)       |              | PHPINIALL       |                                                                  |
-| [yaml.output\_width](yaml.configuration.html#ini.yaml.output-width)         |              | PHPINIALL       |                                                                  |
+| Имя                                                                       | По умолчанию | Место изменения | Список изменений                                                 |
+|---------------------------------------------------------------------------|--------------|-----------------|------------------------------------------------------------------|
+| [yaml.decodebinary](yaml.configuration.html#ini.yaml.decode-binary)       |              | PHPINIALL       |                                                                  |
+| [yaml.decodephp](yaml.configuration.html#ini.yaml.decode-php)             |              | PHPINIALL       | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
+| [yaml.decodetimestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |              | PHPINIALL       |                                                                  |
+| [yaml.outputcanonical](yaml.configuration.html#ini.yaml.output-canonical) |              | PHPINIALL       |                                                                  |
+| [yaml.outputindent](yaml.configuration.html#ini.yaml.output-indent)       |              | PHPINIALL       |                                                                  |
+| [yaml.outputwidth](yaml.configuration.html#ini.yaml.output-width)         |              | PHPINIALL       |                                                                  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -38,7 +38,7 @@
 
 `yaml.decode_timestamp` int
 
-Контролює декодування явних та неявних скалярів "tag:yaml.org,2002:timestamp" у потоці документів YAML. Значення за умовчанням дорівнює `0`що означає відсутність декодування. Якщо поставити `1`, то для розбору тимчасової мітки Unix буде використовуватись [strtotime()](function.strtotime.html). Якщо поставити `2`, то для розбору тимчасової мітки буде використовуватися [date\_create()](function.date-create.html), що створює об'єкт [DateTime](class.datetime.html)
+Контролює декодування явних та неявних скалярів "tag:yaml.org,2002:timestamp" у потоці документів YAML. Значення за умовчанням дорівнює `0`що означає відсутність декодування. Якщо поставити `1`, то для розбору тимчасової мітки Unix буде використовуватись [strtotime()](function.strtotime.html). Якщо поставити `2`, то для розбору тимчасової мітки буде використовуватися [datecreate()](function.date-create.html), що створює об'єкт [DateTime](class.datetime.html)
 
 `yaml.output_canonical` boolean
 

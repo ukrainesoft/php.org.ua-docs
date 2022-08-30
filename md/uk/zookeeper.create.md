@@ -1,6 +1,6 @@
 Створює синхронно вузол
 
--   [« Zookeeper::\_\_construct](zookeeper.construct.html)
+-   [« Zookeeper::construct](zookeeper.construct.html)
     
 -   [Zookeeper::delete »](zookeeper.delete.html)
     

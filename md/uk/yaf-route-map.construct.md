@@ -1,12 +1,12 @@
 Призначення construct
 
--   [« Yaf\_Route\_Map::assemble](yaf-route-map.assemble.html)
+-   [« YafRouteMap::assemble](yaf-route-map.assemble.html)
     
--   [Yaf\_Route\_Map::route »](yaf-route-map.route.html)
+-   [YafRouteMap::route »](yaf-route-map.route.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Map](class.yaf-route-map.html)
+-   [YafRouteMap](class.yaf-route-map.html)
     
 -   Призначення construct
     
@@ -107,9 +107,9 @@ array(
 
 ### Дивіться також
 
--   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [Yaf\_Route\_Static](class.yaf-route-static.html)
--   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
--   [Yaf\_Route\_Simple](class.yaf-route-simple.html)
--   [Yaf\_Route\_Regex](class.yaf-route-regex.html)
--   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.html)
+-   [YafRouteSupervar](class.yaf-route-supervar.html)
+-   [YafRouteSimple](class.yaf-route-simple.html)
+-   [YafRouteRegex](class.yaf-route-regex.html)
+-   [YafRouteRewrite](class.yaf-route-rewrite.html)

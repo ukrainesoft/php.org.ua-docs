@@ -1,6 +1,6 @@
 Модулі для роботи з файловою системою
 
--   [« HRTime\\Unit](class.hrtime-unit.html)
+-   [« HRTimeUnit](class.hrtime-unit.html)
     
 -   [Прямой ввод/вывод (Direct IO) »](book.dio.html)
     
@@ -17,23 +17,23 @@
     -   [Введение](intro.dio.html)
     -   [Установка и настройка](dio.setup.html)
     -   [Предопределённые константы](dio.constants.html)
-    -   [Функции прямого ввода/вывода](ref.dio.html)
+    -   [Функції прямого введення/виводу](ref.dio.html)
 -   [Каталоги](book.dir.html)
     -   [Установка и настройка](dir.setup.html)
     -   [Предопределённые константы](dir.constants.html)
     -   [Directory](class.directory.html) - Клас Directory
-    -   [Функции для работы с каталогами](ref.dir.html)
+    -   [Функції для роботи з каталогами](ref.dir.html)
 -   [FileInfo](book.fileinfo.html) — Інформація про файл
     -   [Введение](intro.fileinfo.html)
     -   [Установка и настройка](fileinfo.setup.html)
     -   [Предопределённые константы](fileinfo.constants.html)
     -   [Функции модуля Fileinfo](ref.fileinfo.html)
     -   [finfo](class.finfo.html) - Клас finfo
--   [Файловая система](book.filesystem.html)
+-   [Файлова система](book.filesystem.html)
     -   [Введение](intro.filesystem.html)
     -   [Установка и настройка](filesystem.setup.html)
     -   [Предопределённые константы](filesystem.constants.html)
-    -   [Функции файловой системы](ref.filesystem.html)
+    -   [Функції файлової системи](ref.filesystem.html)
 -   [Inotify](book.inotify.html)
     -   [Введение](intro.inotify.html)
     -   [Установка и настройка](inotify.setup.html)
@@ -48,4 +48,4 @@
     -   [Введение](intro.xdiff.html)
     -   [Установка и настройка](xdiff.setup.html)
     -   [Предопределённые константы](xdiff.constants.html)
-    -   [Функции xdiff](ref.xdiff.html)
+    -   [Функції xdiff](ref.xdiff.html)

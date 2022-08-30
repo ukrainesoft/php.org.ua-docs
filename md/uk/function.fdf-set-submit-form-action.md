@@ -1,8 +1,8 @@
 Встановлює дію форми надсилання поля
 
--   [« fdf\_set\_status](function.fdf-set-status.html)
+-   [« fdfsetstatus](function.fdf-set-status.html)
     
--   [fdf\_set\_target\_frame »](function.fdf-set-target-frame.html)
+-   [fdfsettargetframe »](function.fdf-set-target-frame.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_submit_form_action(    resource $fdf_document,    string $fieldn
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
 
 `fieldname`
 
@@ -47,4 +47,4 @@ fdf_set_submit_form_action(    resource $fdf_document,    string $fieldn
 
 ### Дивіться також
 
--   [fdf\_set\_javascript\_action()](function.fdf-set-javascript-action.html) - Встановлює дію JavaScript для поля
+-   [fdfsetjavascriptaction()](function.fdf-set-javascript-action.html) - Встановлює дію JavaScript для поля

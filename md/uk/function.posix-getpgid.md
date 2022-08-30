@@ -1,8 +1,8 @@
 Повертає ID групи поточного процесу для менеджера завдань
 
--   [« posix\_getlogin](function.posix-getlogin.html)
+-   [« posixgetlogin](function.posix-getlogin.html)
     
--   [posix\_getpgrp »](function.posix-getpgrp.html)
+-   [posixgetpgrp »](function.posix-getpgrp.html)
     
 -   [PHP Manual](index.html)
     
@@ -50,9 +50,9 @@ echo posix_getpgid($pid); //35
 
 > **Зауваження**
 > 
-> Це не POSIX функція, але вона сумісна з BSD та System V операційними системами. Якщо операційна система не підтримує цю функцію, вона не буде увімкнена при компіляції. Доступність цієї функції може бути перевірена за допомогою [function\_exists()](function.function-exists.html)
+> Це не POSIX функція, але вона сумісна з BSD та System V операційними системами. Якщо операційна система не підтримує цю функцію, вона не буде увімкнена при компіляції. Доступність цієї функції може бути перевірена за допомогою [functionexists()](function.function-exists.html)
 
 ### Дивіться також
 
--   [posix\_getppid()](function.posix-getppid.html) - Повертає ідентифікатор батьківського процесу
+-   [posixgetppid()](function.posix-getppid.html) - Повертає ідентифікатор батьківського процесу
 -   керівництво SETPGID(2)

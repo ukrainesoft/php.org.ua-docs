@@ -61,5 +61,5 @@ $files = new RecursiveCallbackFilterIterator($dir, function ($current, $ke
 ### Дивіться також
 
 -   [Примеры использования RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
--   [RecursiveCallbackFilterIterator::\_\_construct()](recursivecallbackfilteriterator.construct.html) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilterIterator::construct()](recursivecallbackfilteriterator.construct.html) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
 -   [RecursiveCallbackFilteriterator::getChildren()](recursivecallbackfilteriterator.getchildren.html) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator

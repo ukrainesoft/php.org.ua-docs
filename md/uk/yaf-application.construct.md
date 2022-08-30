@@ -1,12 +1,12 @@
 Конструктор класу YafApplication
 
--   [« Yaf\_Application::clearLastError](yaf-application.clearlasterror.html)
+-   [« YafApplication::clearLastError](yaf-application.clearlasterror.html)
     
--   [Yaf\_Application::\_\_destruct »](yaf-application.destruct.html)
+-   [YafApplication::destruct »](yaf-application.destruct.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Конструктор класу YafApplication
     
@@ -21,7 +21,7 @@ YafApplication::construct - Конструктор класу YafApplication
 
 public **YafApplication::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$config`, string `$envrion`
 
-Екземпляр [Yaf\_Application](class.yaf-application.html)
+Екземпляр [YafApplication](class.yaf-application.html)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public **YafApplication::construct**[mixed](language.types.declarations.html#lan
 
 > **Зауваження**
 > 
-> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cache\_config](yaf.configuration.html#ini.yaf.cache-config)
+> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cacheconfig](yaf.configuration.html#ini.yaf.cache-config)
 
 Параметри конфігурації (та їх значення за промовчанням):
 
@@ -95,4 +95,4 @@ $application->bootstrap()->run();
 
 ### Дивіться також
 
--   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+-   [YafConfigIni](class.yaf-config-ini.html)

@@ -2,7 +2,7 @@
 
 -   [« ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.html)
     
--   [ReflectionParameter::\_\_construct »](reflectionparameter.construct.html)
+-   [ReflectionParameter::construct »](reflectionparameter.construct.html)
     
 -   [PHP Manual](index.html)
     

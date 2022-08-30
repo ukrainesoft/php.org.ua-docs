@@ -1,12 +1,12 @@
 Функції Firebird (PDOFIREBIRD)
 
--   [« PDO\_DBLIB DSN](ref.pdo-dblib.connection.html)
+-   [« PDODBLIB DSN](ref.pdo-dblib.connection.html)
     
--   [PDO\_FIREBIRD DSN »](ref.pdo-firebird.connection.html)
+-   [PDOFIREBIRD DSN »](ref.pdo-firebird.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції Firebird (PDOFIREBIRD)
     
@@ -43,4 +43,4 @@ $ ./configure --with-pdo-firebird
 
 ## Зміст
 
--   [PDO\_FIREBIRD DSN](ref.pdo-firebird.connection.html) - З'єднання з базою Firebird
+-   [PDOFIREBIRD DSN](ref.pdo-firebird.connection.html) - З'єднання з базою Firebird

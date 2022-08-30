@@ -1,8 +1,8 @@
 Перевіряє, чи є словник чи ні. Використовується не пустий тег
 
--   [« enchant\_broker\_describe](function.enchant-broker-describe.html)
+-   [« enchantbrokerdescribe](function.enchant-broker-describe.html)
     
--   [enchant\_broker\_free\_dict »](function.enchant-broker-free-dict.html)
+-   [enchantbrokerfreedict »](function.enchant-broker-free-dict.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 `broker`
 
-Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
 
 `tag`
 
@@ -61,4 +61,4 @@ if (enchant_broker_dict_exists($r,$tag)) {
 
 ### Дивіться також
 
--   [enchant\_broker\_describe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant
+-   [enchantbrokerdescribe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant

@@ -1,8 +1,8 @@
 Клас APCUIterator
 
--   [« apcu\_store](function.apcu-store.html)
+-   [« apcustore](function.apcu-store.html)
     
--   [APCUIterator::\_\_construct »](apcuiterator.construct.html)
+-   [APCUIterator::construct »](apcuiterator.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -52,7 +52,7 @@ public valid(): bool
 
 ## Зміст
 
--   [APCUIterator::\_\_construct](apcuiterator.construct.html) — Створює об'єкт ітератора класу APCUIterator
+-   [APCUIterator::construct](apcuiterator.construct.html) — Створює об'єкт ітератора класу APCUIterator
 -   [APCUIterator::current](apcuiterator.current.html) — Отримати поточний елемент
 -   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.html) — Отримати загальну кількість записів
 -   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.html) — Отримати загальну кількість попадань у кеш

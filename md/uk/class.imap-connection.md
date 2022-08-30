@@ -1,6 +1,6 @@
 Клас IMAPConnection
 
--   [« imap\_utf8](function.imap-utf8.html)
+-   [« imaputf8](function.imap-utf8.html)
     
 -   [Mail »](book.mail.html)
     

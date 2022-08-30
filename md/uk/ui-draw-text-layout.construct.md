@@ -1,12 +1,12 @@
 Створити новий об'єкт макету тексту
 
--   [« UI\\Draw\\Text\\Layout](class.ui-draw-text-layout.html)
+-   [« UIDrawTextLayout](class.ui-draw-text-layout.html)
     
--   [UI\\Draw\\Text\\Layout::setColor »](ui-draw-text-layout.setcolor.html)
+-   [ОЙDrawTextLayout::setColor »](ui-draw-text-layout.setcolor.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Layout](class.ui-draw-text-layout.html)
+-   [ОЙDrawTextLayout](class.ui-draw-text-layout.html)
     
 -   Створити новий об'єкт макету тексту
     
@@ -19,7 +19,7 @@
 
 ### Опис
 
-public **ОЙDrawTextLayout::construct**(string `$text` [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html) `$font`, float `$width`
+public **ОЙDrawTextLayout::construct**(string `$text` [ОЙDrawTextFont](class.ui-draw-text-font.html) `$font`, float `$width`
 
 Створить новий об'єкт макету тексту
 

@@ -1,12 +1,12 @@
 Отримує інформацію про з'єднання з описом файлу
 
--   [« Swoole\\Server::finish](swoole-server.finish.html)
+-   [« SwooleServer::finish](swoole-server.finish.html)
     
--   [Swoole\\Server::getClientList »](swoole-server.getclientlist.html)
+-   [SwooleServer::getClientList »](swoole-server.getclientlist.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Отримує інформацію про з'єднання з описом файлу
     

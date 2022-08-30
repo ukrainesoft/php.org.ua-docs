@@ -2,11 +2,11 @@
 
 -   [« Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.html)
     
--   [RowResult::\_\_construct »](mysql-xdevapi-rowresult.construct.html)
+-   [RowResult::construct »](mysql-xdevapi-rowresult.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас RowResult
     
@@ -47,7 +47,7 @@ public getWarningsCount(): int
 
 ## Зміст
 
--   [RowResult::\_\_construct](mysql-xdevapi-rowresult.construct.html) - Конструктор класу RowResult
+-   [RowResult::construct](mysql-xdevapi-rowresult.construct.html) - Конструктор класу RowResult
 -   [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.html) — Отримує всі рядки з результату
 -   [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.html) — Отримує рядок із результату
 -   [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.html) — Отримує кількість стовпців

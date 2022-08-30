@@ -1,8 +1,8 @@
 Callback-функції
 
--   [« О постоянных(persistent) событиях](event.persistence.html)
+-   [« Про постійні (persistent) події](event.persistence.html)
     
--   [Создание событий для сигналов »](event.constructing.signal.events.html)
+-   [Створення подій для сигналів »](event.constructing.signal.events.html)
     
 -   [PHP Manual](index.html)
     
@@ -13,7 +13,7 @@ Callback-функції
 
 # Callback-функції
 
-Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.html) в [Event::\_\_construct()](event.construct.html) або [Event::set()](event.set.html) або в один із фабричних методів, таких як [Event::timer()](event.timer.html)
+Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.html) в [Event::construct()](event.construct.html) або [Event::set()](event.set.html) або в один із фабричних методів, таких як [Event::timer()](event.timer.html)
 
 Функція повинна відповідати наступному прототипу:
 

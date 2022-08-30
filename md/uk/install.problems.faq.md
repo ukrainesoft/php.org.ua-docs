@@ -2,7 +2,7 @@
 
 -   [« Проблемы?](install.problems.html)
     
--   [Другие проблемы »](install.problems.support.html)
+-   [Інші проблеми »](install.problems.support.html)
     
 -   [PHP Manual](index.html)
     

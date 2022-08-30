@@ -2,7 +2,7 @@
 
 -   [« PhpToken::is](phptoken.is.html)
     
--   [PhpToken::\_\_toString »](phptoken.tostring.html)
+-   [PhpToken::toString »](phptoken.tostring.html)
     
 -   [PHP Manual](index.html)
     

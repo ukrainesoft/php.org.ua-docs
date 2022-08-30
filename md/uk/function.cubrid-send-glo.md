@@ -1,6 +1,6 @@
 Читання даних з glo та виведення їх у стандартний пристрій виведення
 
--   [« cubrid\_save\_to\_glo](function.cubrid-save-to-glo.html)
+-   [« cubridsaveтоglo](function.cubrid-save-to-glo.html)
     
 -   [dBase »](book.dbase.html)
     
@@ -69,6 +69,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubrid\_new\_glo()](function.cubrid-new-glo.html) - Створює екземпляр glo
--   [cubrid\_save\_to\_glo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
--   [cubrid\_load\_from\_glo()](function.cubrid-load-from-glo.html) - Читає дані з екземпляра GLO та записує їх у файл
+-   [cubridnewglo()](function.cubrid-new-glo.html) - Створює екземпляр glo
+-   [cubridsaveтоglo()](function.cubrid-save-to-glo.html) - Зберігає запитаний файл в екземплярі GLO
+-   [cubridloadfromglo()](function.cubrid-load-from-glo.html) - Читає дані з екземпляра GLO та записує їх у файл

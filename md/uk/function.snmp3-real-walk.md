@@ -1,12 +1,12 @@
 Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
 
--   [« snmp3\_getnext](function.snmp3-getnext.html)
+-   [« snmpv3getnext](function.snmp3-getnext.html)
     
--   [snmp3\_set »](function.snmp3-set.html)
+-   [snmpv3set »](function.snmp3-set.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
     

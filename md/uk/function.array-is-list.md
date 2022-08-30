@@ -1,12 +1,12 @@
 Перевіряє, чи є даний array списком
 
--   [« array\_intersect](function.array-intersect.html)
+-   [« arrayintersect](function.array-intersect.html)
     
--   [array\_key\_exists »](function.array-key-exists.html)
+-   [arraykeyexists »](function.array-key-exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Перевіряє, чи є даний array списком
     
@@ -68,4 +68,4 @@ array_is_list([0 => 'apple', 2 => 'bar']); // false
 
 ### Дивіться також
 
--   [array\_values()](function.array-values.html) - Вибирає всі значення масиву
+-   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву

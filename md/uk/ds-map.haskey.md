@@ -1,8 +1,8 @@
 Перевіряє, чи колекція містить заданий ключ
 
--   [« Ds\\Map::get](ds-map.get.html)
+-   [« DsMap::get](ds-map.get.html)
     
--   [Ds\\Map::hasValue »](ds-map.hasvalue.html)
+-   [ДсMap::hasValue »](ds-map.hasvalue.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ public Ds\Map::hasKey(mixed $key): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо ключ знайдений, інакше **`false`**
+Повертає \*\*`true`\*\*якщо ключ знайдений, інакше **`false`**
 
 ### Приклади
 

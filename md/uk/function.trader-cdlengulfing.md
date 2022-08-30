@@ -1,8 +1,8 @@
 Модель поглинання
 
--   [« trader\_cdldragonflydoji](function.trader-cdldragonflydoji.html)
+-   [« tradercdldragonflydoji](function.trader-cdldragonflydoji.html)
     
--   [trader\_cdleveningdojistar »](function.trader-cdleveningdojistar.html)
+-   [tradercdleveningdojistar »](function.trader-cdleveningdojistar.html)
     
 -   [PHP Manual](index.html)
     

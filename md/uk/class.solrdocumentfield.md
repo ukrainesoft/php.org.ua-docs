@@ -2,7 +2,7 @@
 
 -   [« SolrDocument::valid](solrdocument.valid.html)
     
--   [SolrDocumentField::\_\_construct »](solrdocumentfield.construct.html)
+-   [SolrDocumentField::construct »](solrdocumentfield.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -76,5 +76,5 @@ values
 
 ## Зміст
 
--   [SolrDocumentField::\_\_construct](solrdocumentfield.construct.html) - Конструктор
--   [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.html) - Деструктор
+-   [SolrDocumentField::construct](solrdocumentfield.construct.html) - Конструктор
+-   [SolrDocumentField::destruct](solrdocumentfield.destruct.html) - Деструктор

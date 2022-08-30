@@ -1,8 +1,8 @@
 Повертає набір ключів колекції
 
--   [« Ds\\Map::jsonSerialize](ds-map.jsonserialize.html)
+-   [« DsMap::jsonSerialize](ds-map.jsonserialize.html)
     
--   [Ds\\Map::ksort »](ds-map.ksort.html)
+-   [ДсMap::ksort »](ds-map.ksort.html)
     
 -   [PHP Manual](index.html)
     

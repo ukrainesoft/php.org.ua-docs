@@ -1,12 +1,12 @@
 Призначення getPost
 
--   [« Yaf\_Request\_Simple::getFiles](yaf-request-simple.getfiles.html)
+-   [« YafRequestSimple::getFiles](yaf-request-simple.getfiles.html)
     
--   [Yaf\_Request\_Simple::getQuery »](yaf-request-simple.getquery.html)
+-   [YafRequestSimple::getQuery »](yaf-request-simple.getquery.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Simple](class.yaf-request-simple.html)
+-   [YafRequestSimple](class.yaf-request-simple.html)
     
 -   Призначення getPost
     

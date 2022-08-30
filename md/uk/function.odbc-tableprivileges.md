@@ -1,8 +1,8 @@
 Перелічує таблиці та привілеї, пов'язані з кожною таблицею
 
--   [« odbc\_statistics](function.odbc-statistics.html)
+-   [« odbcstatistics](function.odbc-statistics.html)
     
--   [odbc\_tables »](function.odbc-tables.html)
+-   [odbctables »](function.odbc-tables.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_tableprivileges(    resource $odbc,    ?string $catalog,    str
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -93,4 +93,4 @@ Array
 
 ### Дивіться також
 
--   [odbc\_tables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

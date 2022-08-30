@@ -1,6 +1,6 @@
 Перевіряє, чи поточна позиція є внутрішньо коректною
 
--   [« SolrDocument::\_\_unset](solrdocument.unset.html)
+-   [« SolrDocument::unset](solrdocument.unset.html)
     
 -   [SolrDocumentField »](class.solrdocumentfield.html)
     

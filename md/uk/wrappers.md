@@ -13,7 +13,7 @@
 
 # Підтримувані протоколи та обгортки
 
-PHP поставляється з багатьма вбудованими обгортками для різних URL-протоколів для використання з функціями файлової системи, таких як [fopen()](function.fopen.html) [copy()](function.copy.html) [file\_exists()](function.file-exists.html) і [filesize()](function.filesize.html). Крім цих обгорток, можна реєструвати власні обгортки, використовуючи функцію [stream\_wrapper\_register()](function.stream-wrapper-register.html)
+PHP поставляється з багатьма вбудованими обгортками для різних URL-протоколів для використання з функціями файлової системи, таких як [fopen()](function.fopen.html) [copy()](function.copy.html) [fileexists()](function.file-exists.html) і [filesize()](function.filesize.html). Крім цих обгорток, можна реєструвати власні обгортки, використовуючи функцію [streamwrapperregister()](function.stream-wrapper-register.html)
 
 > **Зауваження**: URL синтаксис, що використовується для опису обгортки, може бути тільки виду `scheme://...`. Варіанти синтаксису `scheme:/` і `scheme:` не підтримуються.
 

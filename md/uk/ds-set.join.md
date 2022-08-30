@@ -1,8 +1,8 @@
 Склеює всі значення в рядок
 
--   [« Ds\\Set::isEmpty](ds-set.isempty.html)
+-   [« DsSet::isEmpty](ds-set.isempty.html)
     
--   [Ds\\Set::jsonSerialize »](ds-set.jsonserialize.html)
+-   [ДсSet::jsonSerialize »](ds-set.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     

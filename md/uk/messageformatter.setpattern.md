@@ -90,5 +90,5 @@ Formatted number: 123 trees hosting 456 monkeys
 
 ### Дивіться також
 
--   [msgfmt\_create()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmt\_get\_pattern()](messageformatter.getpattern.html) - Повертає шаблон, який використовується засобом форматування
+-   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmtgetpattern()](messageformatter.getpattern.html) - Повертає шаблон, який використовується засобом форматування

@@ -1,12 +1,12 @@
 Встановити ширину
 
--   [« UI\\Draw\\Text\\Layout::setColor](ui-draw-text-layout.setcolor.html)
+-   [« UIDrawTextLayout::setColor](ui-draw-text-layout.setcolor.html)
     
--   [UI\\Draw\\Text\\Font »](class.ui-draw-text-font.html)
+-   [ОЙDrawTextFont »](class.ui-draw-text-font.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Text\\Layout](class.ui-draw-text-layout.html)
+-   [ОЙDrawTextLayout](class.ui-draw-text-layout.html)
     
 -   Встановити ширину
     

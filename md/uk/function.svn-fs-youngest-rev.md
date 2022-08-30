@@ -1,12 +1,12 @@
 Повертає номер ранньої ревізії у файловій системі
 
--   [« svn\_fs\_txn\_root](function.svn-fs-txn-root.html)
+-   [« svnфсtxnroot](function.svn-fs-txn-root.html)
     
--   [svn\_import »](function.svn-import.html)
+-   [svnimport »](function.svn-import.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає номер ранньої ревізії у файловій системі
     

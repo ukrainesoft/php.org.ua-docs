@@ -1,8 +1,8 @@
 Функції для роботи з масивами
 
--   [« Сортировка массивов](array.sorting.html)
+-   [« Сортування масивів](array.sorting.html)
     
--   [array\_change\_key\_case »](function.array-change-key-case.html)
+-   [arraychangekeycase »](function.array-change-key-case.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,63 +15,63 @@
 
 # Дивіться також
 
-Дивіться також [is\_array()](function.is-array.html) [explode()](function.explode.html) [implode()](function.implode.html) [preg\_split()](function.preg-split.html) і [unset()](function.unset.html)
+Дивіться також [ісarray()](function.is-array.html) [explode()](function.explode.html) [implode()](function.implode.html) [pregsplit()](function.preg-split.html) і [unset()](function.unset.html)
 
 ## Зміст
 
--   [array\_change\_key\_case](function.array-change-key-case.html) — Змінює регістр усіх ключів у масиві
--   [array\_chunk](function.array-chunk.html) - Розбиває масив на частини
--   [array\_column](function.array-column.html) — Повертає масив із значень одного стовпця вхідного масиву
--   [array\_combine](function.array-combine.html) — Створює новий масив, використовуючи один масив як ключі, а інший для його значень
--   [array\_count\_values](function.array-count-values.html) — Підраховує кількість усіх значень масиву
--   [array\_diff\_assoc](function.array-diff-assoc.html) — Обчислює розбіжність масивів із додатковою перевіркою індексу
--   [array\_diff\_key](function.array-diff-key.html) — Обчислює розбіжність масивів, порівнюючи ключі
--   [array\_diff\_uassoc](function.array-diff-uassoc.html) - Обчислює розбіжність масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
--   [array\_diff\_ukey](function.array-diff-ukey.html) - Обчислює розбіжність масивів, використовуючи callback-функцію для порівняння ключів
--   [array\_diff](function.array-diff.html) - Обчислити розбіжність масивів
--   [array\_fill\_keys](function.array-fill-keys.html) — створює масив і заповнює його значеннями з певними ключами.
--   [array\_fill](function.array-fill.html) - Заповнює масив значеннями
--   [array\_filter](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
--   [array\_flip](function.array-flip.html) — Змінює місцями ключі з їхніми значеннями у масиві
--   [array\_intersect\_assoc](function.array-intersect-assoc.html) — Обчислює сходження масивів із додатковою перевіркою індексу
--   [array\_intersect\_key](function.array-intersect-key.html) — Обчислити перетин масивів, порівнюючи ключі
--   [array\_intersect\_uassoc](function.array-intersect-uassoc.html) - Обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
--   [array\_intersect\_ukey](function.array-intersect-ukey.html) - Обчислює сходження масивів, використовуючи callback-функцію для порівняння ключів
--   [array\_intersect](function.array-intersect.html) - Обчислює сходження масивів
--   [array\_is\_list](function.array-is-list.html) — Перевіряє, чи цей array є списком
--   [array\_key\_exists](function.array-key-exists.html) — Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [array\_key\_first](function.array-key-first.html) — Отримує перший ключ масиву
--   [array\_key\_last](function.array-key-last.html) — Отримує останній ключ масиву
--   [array\_keys](function.array-keys.html) — Повертає всі або деякі підмножини ключів масиву
--   [array\_map](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
--   [array\_merge\_recursive](function.array-merge-recursive.html) — Рекурсивне злиття одного чи більше масивів
--   [array\_merge](function.array-merge.html) — Зливає один або більше масивів
--   [array\_multisort](function.array-multisort.html) — Сортує кілька масивів чи багатовимірні масиви
--   [array\_pad](function.array-pad.html) — Доповнити масив певним значенням до вказаної довжини
--   [array\_pop](function.array-pop.html) — Витягує останній елемент масиву
--   [array\_product](function.array-product.html) — Обчислити добуток значень масиву
--   [array\_push](function.array-push.html) — Додає один або кілька елементів до кінця масиву
--   [array\_rand](function.array-rand.html) — Вибирає один чи кілька випадкових ключів із масиву
--   [array\_reduce](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
--   [array\_replace\_recursive](function.array-replace-recursive.html) — Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
--   [array\_replace](function.array-replace.html) — Замінює елементи масиву елементами інших переданих масивів
--   [array\_reverse](function.array-reverse.html) — Повертає масив із елементами у зворотному порядку
--   [array\_search](function.array-search.html) — Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
--   [array\_shift](function.array-shift.html) — Витягує перший елемент масиву
--   [array\_slice](function.array-slice.html) - Вибирає зріз масиву
--   [array\_splice](function.array-splice.html) — Видаляє частину масиву і замінює її чимось ще
--   [array\_sum](function.array-sum.html) — Обчислює суму значень масиву
--   [array\_udiff\_assoc](function.array-udiff-assoc.html) - Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
--   [array\_udiff\_uassoc](function.array-udiff-uassoc.html) - Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
--   [array\_udiff](function.array-udiff.html) - Обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
--   [array\_uintersect\_assoc](function.array-uintersect-assoc.html) - Обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
--   [array\_uintersect\_uassoc](function.array-uintersect-uassoc.html) — Обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
--   [array\_uintersect](function.array-uintersect.html) - Обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
--   [array\_unique](function.array-unique.html) — Прибирає значення, що повторюються, з масиву
--   [array\_unshift](function.array-unshift.html) — Додає один або кілька елементів на початок масиву
--   [array\_values](function.array-values.html) - Вибирає всі значення масиву
--   [array\_walk\_recursive](function.array-walk-recursive.html) — Рекурсивно застосовує функцію користувача до кожного елементу масиву
--   [array\_walk](function.array-walk.html) — Застосовує задану користувачем функцію кожного елемента масиву
+-   [arraychangekeycase](function.array-change-key-case.html) — Змінює регістр усіх ключів у масиві
+-   [arraychunk](function.array-chunk.html) - Розбиває масив на частини
+-   [arraycolumn](function.array-column.html) — Повертає масив із значень одного стовпця вхідного масиву
+-   [arraycombine](function.array-combine.html) — Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [arraycountvalues](function.array-count-values.html) — Підраховує кількість усіх значень масиву
+-   [arraydiffassoc](function.array-diff-assoc.html) — Обчислює розбіжність масивів із додатковою перевіркою індексу
+-   [arraydiffkey](function.array-diff-key.html) — Обчислює розбіжність масивів, порівнюючи ключі
+-   [arraydiffuassoc](function.array-diff-uassoc.html) - Обчислює розбіжність масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
+-   [arraydiffukey](function.array-diff-ukey.html) - Обчислює розбіжність масивів, використовуючи callback-функцію для порівняння ключів
+-   [arraydiff](function.array-diff.html) - Обчислити розбіжність масивів
+-   [arrayfillkeys](function.array-fill-keys.html) — створює масив і заповнює його значеннями з певними ключами.
+-   [arrayfill](function.array-fill.html) - Заповнює масив значеннями
+-   [arrayfilter](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
+-   [arrayflip](function.array-flip.html) — Змінює місцями ключі з їхніми значеннями у масиві
+-   [arrayintersectassoc](function.array-intersect-assoc.html) — Обчислює сходження масивів із додатковою перевіркою індексу
+-   [arrayintersectkey](function.array-intersect-key.html) — Обчислити перетин масивів, порівнюючи ключі
+-   [arrayintersectuassoc](function.array-intersect-uassoc.html) - Обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
+-   [arrayintersectukey](function.array-intersect-ukey.html) - Обчислює сходження масивів, використовуючи callback-функцію для порівняння ключів
+-   [arrayintersect](function.array-intersect.html) - Обчислює сходження масивів
+-   [arrayісlist](function.array-is-list.html) — Перевіряє, чи цей array є списком
+-   [arraykeyexists](function.array-key-exists.html) — Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [arraykeyfirst](function.array-key-first.html) — Отримує перший ключ масиву
+-   [arraykeylast](function.array-key-last.html) — Отримує останній ключ масиву
+-   [arraykeys](function.array-keys.html) — Повертає всі або деякі підмножини ключів масиву
+-   [arraymap](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [arraymergerecursive](function.array-merge-recursive.html) — Рекурсивне злиття одного чи більше масивів
+-   [arraymerge](function.array-merge.html) — Зливає один або більше масивів
+-   [arraymultisort](function.array-multisort.html) — Сортує кілька масивів чи багатовимірні масиви
+-   [arraypad](function.array-pad.html) — Доповнити масив певним значенням до вказаної довжини
+-   [arraypop](function.array-pop.html) — Витягує останній елемент масиву
+-   [arrayproduct](function.array-product.html) — Обчислити добуток значень масиву
+-   [arraypush](function.array-push.html) — Додає один або кілька елементів до кінця масиву
+-   [arrayrand](function.array-rand.html) — Вибирає один чи кілька випадкових ключів із масиву
+-   [arrayreduce](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
+-   [arrayreplacerecursive](function.array-replace-recursive.html) — Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
+-   [arrayreplace](function.array-replace.html) — Замінює елементи масиву елементами інших переданих масивів
+-   [arrayreverse](function.array-reverse.html) — Повертає масив із елементами у зворотному порядку
+-   [arraysearch](function.array-search.html) — Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
+-   [arrayshift](function.array-shift.html) — Витягує перший елемент масиву
+-   [arrayslice](function.array-slice.html) - Вибирає зріз масиву
+-   [arraysplice](function.array-splice.html) — Видаляє частину масиву і замінює її чимось ще
+-   [arraysum](function.array-sum.html) — Обчислює суму значень масиву
+-   [arrayudiffassoc](function.array-udiff-assoc.html) - Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
+-   [arrayudiffuassoc](function.array-udiff-uassoc.html) - Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
+-   [arrayudiff](function.array-udiff.html) - Обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
+-   [arrayuintersectassoc](function.array-uintersect-assoc.html) - Обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
+-   [arrayuintersectuassoc](function.array-uintersect-uassoc.html) — Обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
+-   [arrayuintersect](function.array-uintersect.html) - Обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
+-   [arrayunique](function.array-unique.html) — Прибирає значення, що повторюються, з масиву
+-   [arrayunshift](function.array-unshift.html) — Додає один або кілька елементів на початок масиву
+-   [arrayvalues](function.array-values.html) - Вибирає всі значення масиву
+-   [arraywalkrecursive](function.array-walk-recursive.html) — Рекурсивно застосовує функцію користувача до кожного елементу масиву
+-   [arraywalk](function.array-walk.html) — Застосовує задану користувачем функцію кожного елемента масиву
 -   [array](function.array.html) - Створює масив
 -   [arsort](function.arsort.html) — Сортує масив у порядку зменшення та підтримує асоціацію індексів
 -   [asort](function.asort.html) — Сортує масив у порядку зростання та підтримує асоціацію індексів
@@ -81,8 +81,8 @@
 -   [each](function.each.html) — Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
 -   [end](function.end.html) — Встановлює внутрішній покажчик масиву на його останній елемент
 -   [extract](function.extract.html) — Імпортує змінні з масиву до таблиці символів.
--   [in\_array](function.in-array.html) — Перевіряє, чи є у масиві значення
--   [key\_exists](function.key-exists.html) - Псевдонім arraykeyexists
+-   [інarray](function.in-array.html) — Перевіряє, чи є у масиві значення
+-   [keyexists](function.key-exists.html) - Псевдонім arraykeyexists
 -   [key](function.key.html) — Вибирає ключ із масиву
 -   [krsort](function.krsort.html) — Сортує масив за ключом у порядку зменшення
 -   [ksort](function.ksort.html) — Сортує масив за ключом у порядку зростання

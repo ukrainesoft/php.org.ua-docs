@@ -1,8 +1,8 @@
 Отримує список процедур, що зберігаються у певному джерелі даних
 
--   [« odbc\_procedurecolumns](function.odbc-procedurecolumns.html)
+-   [« odbcprocedurecolumns](function.odbc-procedurecolumns.html)
     
--   [odbc\_result\_all »](function.odbc-result-all.html)
+-   [odbcresultall »](function.odbc-result-all.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `catalog`
 
@@ -101,5 +101,5 @@ Array
 
 ### Дивіться також
 
--   [odbc\_procedurecolumns()](function.odbc-procedurecolumns.html) - Отримує інформацію про параметри процедур
--   [odbc\_tables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbcprocedurecolumns()](function.odbc-procedurecolumns.html) - Отримує інформацію про параметри процедур
+-   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних

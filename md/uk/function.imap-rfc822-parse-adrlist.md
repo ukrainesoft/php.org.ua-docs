@@ -1,8 +1,8 @@
 Розбір адресного рядка
 
--   [« imap\_reopen](function.imap-reopen.html)
+-   [« imapreopen](function.imap-reopen.html)
     
--   [imap\_rfc822\_parse\_headers »](function.imap-rfc822-parse-headers.html)
+-   [imaprfc822parseheaders »](function.imap-rfc822-parse-headers.html)
     
 -   [PHP Manual](index.html)
     
@@ -89,4 +89,4 @@ foreach ($address_array as $id => $val) {
 
 ### Дивіться також
 
--   [imap\_rfc822\_parse\_headers()](function.imap-rfc822-parse-headers.html) - Розбір рядка заголовка листа
+-   [imaprfc822parseheaders()](function.imap-rfc822-parse-headers.html) - Розбір рядка заголовка листа

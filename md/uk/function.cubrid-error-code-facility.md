@@ -1,8 +1,8 @@
 Отримати код рівня, на якому сталася помилка
 
--   [« cubrid\_drop](function.cubrid-drop.html)
+-   [« cubriddrop](function.cubrid-drop.html)
     
--   [cubrid\_error\_code »](function.cubrid-error-code.html)
+-   [cubriderrorcode »](function.cubrid-error-code.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,5 +62,5 @@ Syntax error: unexpected 'unknown'
 
 ### Дивіться також
 
--   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
--   [cubrid\_error\_msg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrorcode()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.

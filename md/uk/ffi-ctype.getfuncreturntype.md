@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.html)
+-   [« FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.html)
     
--   [FFI\\CType::getKind »](ffi-ctype.getkind.html)
+-   [FFICType::getKind »](ffi-ctype.getkind.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

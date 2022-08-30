@@ -1,6 +1,6 @@
 Клонує помилку
 
--   [« Error::\_\_toString](error.tostring.html)
+-   [« Error::toString](error.tostring.html)
     
 -   [ArgumentCountError »](class.argumentcounterror.html)
     

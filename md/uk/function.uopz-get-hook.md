@@ -1,12 +1,12 @@
 Отримує раніше встановлений обробник на функцію чи метод
 
--   [« uopz\_get\_exit\_status](function.uopz-get-exit-status.html)
+-   [« uopzgetexitstatus](function.uopz-get-exit-status.html)
     
--   [uopz\_get\_mock »](function.uopz-get-mock.html)
+-   [uopzgetmock »](function.uopz-get-mock.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Отримує раніше встановлений обробник на функцію чи метод
     
@@ -41,7 +41,7 @@ uopz_get_hook(string $class, string $function): Closure
 
 ### Значення, що повертаються
 
-Повертає раніше встановлений обробник на функцію або метод, або **`null`**якщо обробник не був встановлений.
+Повертає раніше встановлений обробник на функцію або метод, або \*\*`null`\*\*якщо обробник не був встановлений.
 
 ### Приклади
 
@@ -66,5 +66,5 @@ object(Closure)#2 (0) {
 
 ### Дивіться також
 
--   [uopz\_set\_hook()](function.uopz-set-hook.html) - Встановлює обробник для виконання під час виклику функції або методу
--   [uopz\_unset\_hook()](function.uopz-unset-hook.html) - Видаляє раніше встановлену функцію чи метод
+-   [uopzsethook()](function.uopz-set-hook.html) - Встановлює обробник для виконання під час виклику функції або методу
+-   [uopzunsethook()](function.uopz-unset-hook.html) - Видаляє раніше встановлену функцію чи метод

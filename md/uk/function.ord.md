@@ -1,12 +1,12 @@
 Конвертує перший байт рядка до числа від 0 до 255
 
--   [« number\_format](function.number-format.html)
+-   [« numberformat](function.number-format.html)
     
--   [parse\_str »](function.parse-str.html)
+-   [parsestr »](function.parse-str.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Конвертує перший байт рядка до числа від 0 до 255
     
@@ -76,5 +76,5 @@ for ( $pos=0; $pos < strlen($str); $pos ++ ) {
 
 -   [chr()](function.chr.html) - Генерує односимвольний рядок за заданим числом
 -   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.html)
--   [mb\_ord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
+-   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
 -   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode

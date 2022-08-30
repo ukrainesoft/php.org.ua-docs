@@ -29,7 +29,7 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
 `pregFlags`
 
-Прапори налаштування регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::\_\_construct()](regexiterator.construct.html)
+Прапори налаштування регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.html)
 
 ### Значення, що повертаються
 

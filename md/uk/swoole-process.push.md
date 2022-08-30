@@ -1,12 +1,12 @@
 Записує та поміщає дані в чергу повідомлень
 
--   [« Swoole\\Process::pop](swoole-process.pop.html)
+-   [« SwooleProcess::pop](swoole-process.pop.html)
     
--   [Swoole\\Process::read »](swoole-process.read.html)
+-   [SwooleProcess::read »](swoole-process.read.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Записує та поміщає дані в чергу повідомлень
     

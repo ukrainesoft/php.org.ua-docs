@@ -1,12 +1,12 @@
 Зв'язує параметри запиту видалення
 
--   [« mysql\_xdevapi\\TableDelete](class.mysql-xdevapi-tabledelete.html)
+-   [« mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     
--   [TableDelete::\_\_construct »](mysql-xdevapi-tabledelete.construct.html)
+-   [TableDelete::construct »](mysql-xdevapi-tabledelete.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\TableDelete](class.mysql-xdevapi-tabledelete.html)
+-   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
     
 -   Зв'язує параметри запиту видалення
     

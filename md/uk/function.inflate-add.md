@@ -2,7 +2,7 @@
 
 -   [« gzwrite](function.gzwrite.html)
     
--   [inflate\_get\_read\_len »](function.inflate-get-read-len.html)
+-   [inflategetreadlen »](function.inflate-get-read-len.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `context`
 
-Контекст, створений за допомогою [inflate\_init()](function.inflate-init.html)
+Контекст, створений за допомогою [inflateinit()](function.inflate-init.html)
 
 `data`
 
@@ -57,4 +57,4 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### Дивіться також
 
--   [inflate\_init()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування
+-   [inflateinit()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування

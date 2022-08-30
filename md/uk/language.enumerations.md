@@ -1,6 +1,6 @@
 Перерахування
 
--   [« Часто задаваемые вопросы (FAQ): вещи, которые вам необходимо знать о пространствах имён](language.namespaces.faq.html)
+-   [« Часті питання (FAQ): речі, які вам необхідно знати про простори імен](language.namespaces.faq.html)
     
 -   [Обзор перечислений »](language.enumerations.overview.html)
     
@@ -17,13 +17,13 @@
 
 -   [Обзор перечислений](language.enumerations.overview.html)
 -   [Основы перечислений](language.enumerations.basics.html)
--   [Типизированные перечисления](language.enumerations.backed.html)
+-   [Типізовані перерахування](language.enumerations.backed.html)
 -   [Методы перечислений](language.enumerations.methods.html)
--   [Статические методы перечислений](language.enumerations.static-methods.html)
+-   [Статичні методи перерахувань](language.enumerations.static-methods.html)
 -   [Константы перечислений](language.enumerations.constants.html)
 -   [Трейты](language.enumerations.traits.html)
--   [Значения перечисления в постоянных выражениях](language.enumerations.expressions.html)
--   [Отличия от объектов](language.enumerations.object-differences.html)
+-   [Значення перерахування у постійних виразах](language.enumerations.expressions.html)
+-   [Відмінності від об'єктів](language.enumerations.object-differences.html)
 -   [Список значений](language.enumerations.listing.html)
 -   [Сериализация](language.enumerations.serialization.html)
 -   [Примеры](language.enumerations.examples.html)

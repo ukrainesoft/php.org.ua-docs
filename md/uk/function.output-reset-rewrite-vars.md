@@ -1,12 +1,12 @@
 Скинути значення обробника URL
 
--   [« output\_add\_rewrite\_var](function.output-add-rewrite-var.html)
+-   [« outputaddrewritevar](function.output-add-rewrite-var.html)
     
 -   [Опции/информация PHP »](book.info.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Скинути значення обробника URL
     
@@ -23,7 +23,7 @@ outputresetrewritevars — Скинути значення обробника UR
 output_reset_rewrite_vars(): bool
 ```
 
-Ця функція скидає обробник URL та видаляє всі значення, встановлені функцією [output\_add\_rewrite\_var()](function.output-add-rewrite-var.html)
+Ця функція скидає обробник URL та видаляє всі значення, встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html)
 
 ### Список параметрів
 
@@ -35,9 +35,9 @@ output_reset_rewrite_vars(): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | До PHP 7.1.0, змінні перезаписи встановлені функцією [output\_add\_rewrite\_var()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [output\_add\_rewrite\_var()](function.output-add-rewrite-var.html) |
+| Версия | Описание                                                                                                                                                                                                                                                                                                                                                 |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.html) |
 
 ### Приклади
 
@@ -65,10 +65,10 @@ echo '<a href="file.php">ссылка</a>';
 
 ### Дивіться також
 
--   [output\_add\_rewrite\_var()](function.output-add-rewrite-var.html) - Додати значення в обробник URL
--   [ob\_flush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
--   [ob\_list\_handlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
--   [url\_rewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
--   [url\_rewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
--   [session.trans\_sid\_tags](session.configuration.html#ini.session.trans-sid-tags)
--   [session.trans\_sid\_hosts](session.configuration.html#ini.session.trans-sid-hosts)
+-   [outputaddrewritevar()](function.output-add-rewrite-var.html) - Додати значення в обробник URL
+-   [проflush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
+-   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
+-   [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
+-   [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags)
+-   [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts)

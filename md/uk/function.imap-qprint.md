@@ -1,8 +1,8 @@
 Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
 
--   [« imap\_ping](function.imap-ping.html)
+-   [« imapping](function.imap-ping.html)
     
--   [imap\_rename »](function.imap-rename.html)
+-   [imaprename »](function.imap-rename.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ imap_qprint(string $string): string|false
 
 ### Дивіться також
 
--   [imap\_8bit()](function.imap-8bit.html) - Конвертує 8-бітний рядок у рядок у форматі quoted-printable
+-   [imap8bit()](function.imap-8bit.html) - Конвертує 8-бітний рядок у рядок у форматі quoted-printable

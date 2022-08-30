@@ -2,7 +2,7 @@
 
 -   [« Обработка файлов](spl.files.html)
     
--   [SplFileInfo::\_\_construct »](splfileinfo.construct.html)
+-   [SplFileInfo::construct »](splfileinfo.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -78,7 +78,7 @@ public __toString(): string
 
 ## Зміст
 
--   [SplFileInfo::\_\_construct](splfileinfo.construct.html) — Створити новий об'єкт SplFileInfo
+-   [SplFileInfo::construct](splfileinfo.construct.html) — Створити новий об'єкт SplFileInfo
 -   [SplFileInfo::getATime](splfileinfo.getatime.html) — Отримує час останнього доступу до файлу
 -   [SplFileInfo::getBasename](splfileinfo.getbasename.html) — Отримує базове ім'я файлу
 -   [SplFileInfo::getCTime](splfileinfo.getctime.html) — Повертає час останньої зміни індексного дескриптора файлу
@@ -106,4 +106,4 @@ public __toString(): string
 -   [SplFileInfo::openFile](splfileinfo.openfile.html) — Отримує об'єкт SplFileObject для файлу
 -   [SplFileInfo::setFileClass](splfileinfo.setfileclass.html) — Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
 -   [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.html) — Вказує ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
--   [SplFileInfo::\_\_toString](splfileinfo.tostring.html) — Повертає шлях до файлу у вигляді рядка
+-   [SplFileInfo::toString](splfileinfo.tostring.html) — Повертає шлях до файлу у вигляді рядка

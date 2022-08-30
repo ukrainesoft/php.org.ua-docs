@@ -19,4 +19,4 @@
 -   [Установка](win32service.installation.html)
 -   [Настройка во время выполнения](win32service.configuration.html)
 -   [Типы ресурсов](win32service.resources.html)
--   [Вопросы безопасности](win32service.security.html)
+-   [Питання безпеки](win32service.security.html)

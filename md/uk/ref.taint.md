@@ -1,8 +1,8 @@
 Функції Taint
 
--   [« Функции, которые не будут обрабатывать испорченную строку](taint.detail.untaint.html)
+-   [« Функції, які не будуть обробляти зіпсований рядок](taint.detail.untaint.html)
     
--   [is\_tainted »](function.is-tainted.html)
+-   [ісtainted »](function.is-tainted.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,6 +15,6 @@
 
 ## Зміст
 
--   [is\_tainted](function.is-tainted.html) — Перевіряє, чи зіпсований рядок
+-   [ісtainted](function.is-tainted.html) — Перевіряє, чи зіпсований рядок
 -   [taint](function.taint.html) — Зіпсувати рядок
 -   [untaint](function.untaint.html) - Виправити рядок

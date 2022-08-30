@@ -1,12 +1,12 @@
 Символ Кронекера - Якобі.
 
--   [« gmp\_jacobi](function.gmp-jacobi.html)
+-   [« gmpjacobi](function.gmp-jacobi.html)
     
--   [gmp\_lcm »](function.gmp-lcm.html)
+-   [gmplcm »](function.gmp-lcm.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Символ Кронекера - Якобі.
     
@@ -41,5 +41,5 @@ gmp_kronecker(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Дивіться також
 
--   [gmp\_jacobi()](function.gmp-jacobi.html) - Символ Якобі
--   [gmp\_legendre()](function.gmp-legendre.html) - Символ Лежандра
+-   [gmpjacobi()](function.gmp-jacobi.html) - Символ Якобі
+-   [gmplegendre()](function.gmp-legendre.html) - Символ Лежандра

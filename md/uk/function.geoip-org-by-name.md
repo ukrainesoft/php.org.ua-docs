@@ -1,8 +1,8 @@
 Повертає назву організації, яка володіє IP-адресою
 
--   [« geoip\_netspeedcell\_by\_name](function.geoip-netspeedcell-by-name.html)
+-   [« geoipnetspeedcellбname](function.geoip-netspeedcell-by-name.html)
     
--   [geoip\_record\_by\_name »](function.geoip-record-by-name.html)
+-   [geoiprecordбname »](function.geoip-record-by-name.html)
     
 -   [PHP Manual](index.html)
     

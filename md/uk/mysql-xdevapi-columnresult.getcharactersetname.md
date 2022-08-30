@@ -1,12 +1,12 @@
 Отримує набір символів
 
--   [« ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.html)
+-   [« ColumnResult::construct](mysql-xdevapi-columnresult.construct.html)
     
 -   [ColumnResult::getCollationName »](mysql-xdevapi-columnresult.getcollationname.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+-   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
     
 -   Отримує набір символів
     

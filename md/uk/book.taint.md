@@ -6,7 +6,7 @@ Taint
     
 -   [PHP Manual](index.html)
     
--   [Другие базовые модули](refs.basic.other.html)
+-   [Інші базові модулі](refs.basic.other.html)
     
 -   Taint
     
@@ -20,10 +20,10 @@ Taint
     -   [Настройка во время выполнения](taint.configuration.html)
     -   [Типы ресурсов](taint.resources.html)
 -   [Дополнительные подробности](taint.detail.html)
-    -   [Функции и операторы, которые могут распространять сомнительный символ испорченной строки](taint.detail.basic.html)
-    -   [Функции и операторы, которые проверяют испорченные строки](taint.detail.taint.html)
-    -   [Функции, которые не будут обрабатывать испорченную строку](taint.detail.untaint.html)
+    -   [Функції та оператори, які можуть поширювати сумнівний символ зіпсованого рядка](taint.detail.basic.html)
+    -   [Функції та оператори, які перевіряють зіпсовані рядки](taint.detail.taint.html)
+    -   [Функції, які не будуть обробляти зіпсований рядок](taint.detail.untaint.html)
 -   [Функции Taint](ref.taint.html)
-    -   [is\_tainted](function.is-tainted.html) — Перевіряє, чи зіпсований рядок
+    -   [ісtainted](function.is-tainted.html) — Перевіряє, чи зіпсований рядок
     -   [taint](function.taint.html) — Зіпсувати рядок
     -   [untaint](function.untaint.html) - Виправити рядок

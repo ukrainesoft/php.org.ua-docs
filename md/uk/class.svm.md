@@ -2,7 +2,7 @@
 
 -   [« Примеры](svm.examples.html)
     
--   [SVM::\_\_construct »](svm.construct.html)
+-   [SVM::construct »](svm.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -224,7 +224,7 @@ public svm::train(array $problem, array $weights = ?): SVMModel
 
 ## Зміст
 
--   [SVM::\_\_construct](svm.construct.html) - Конструктор класу SVM
+-   [SVM::construct](svm.construct.html) - Конструктор класу SVM
 -   [SVM::crossvalidate](svm.crossvalidate.html) — Тестування навчальних параметрів на підмножинах навчальних даних
 -   [SVM::getOptions](svm.getoptions.html) — Отримати поточні параметри навчання
 -   [SVM::setOptions](svm.setoptions.html) - Встановити параметри навчання

@@ -1,8 +1,8 @@
 Чекає на виконання запитів Z39.50 серверами
 
--   [« yaz\_syntax](function.yaz-syntax.html)
+-   [« yazsyntax](function.yaz-syntax.html)
     
--   [Обмен сообщениями 0MQ »](book.zmq.html)
+-   [Обмін повідомленнями 0MQ »](book.zmq.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ yazwait — Очікує на виконання запитів Z39.50 серв�
 yaz_wait(array &$options = ?): mixed
 ```
 
-Функція виконує мережну (блокуючу) дію до завершення запиту, підготовленого функціями [yaz\_connect()](function.yaz-connect.html) [yaz\_search()](function.yaz-search.html) [yaz\_present()](function.yaz-present.html) [yaz\_scan()](function.yaz-scan.html) and [yaz\_itemorder()](function.yaz-itemorder.html)
+Функція виконує мережну (блокуючу) дію до завершення запиту, підготовленого функціями [yazconnect()](function.yaz-connect.html) [yazsearch()](function.yaz-search.html) [yazpresent()](function.yaz-present.html) [yazscan()](function.yaz-scan.html) and [yazitemorder()](function.yaz-itemorder.html)
 
 **yazwait()** припиняє роботу та повертає результат після того, як усі сервери або завершать виконання всіх запитів або перервуть їх (у разі помилок).
 

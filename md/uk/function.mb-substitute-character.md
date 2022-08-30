@@ -1,12 +1,12 @@
 Встановити/отримати символ заміни
 
--   [« mb\_strwidth](function.mb-strwidth.html)
+-   [« mbstrwidth](function.mb-strwidth.html)
     
--   [mb\_substr\_count »](function.mb-substr-count.html)
+-   [мбsubstrcount »](function.mb-substr-count.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Встановити/отримати символ заміни
     
@@ -25,7 +25,7 @@ mb_substitute_character(string|int|null $substitute_character = null): string|in
 
 Задає заміщувальний символ на випадок, коли кодування вхідних даних неправильне або код символу не існує в кодуванні вихідних даних. Неприпустимі символи можуть бути замінені на `"none"` (немає виводу), рядок (string) чи числове значення (int) (код символу Юнікоду).
 
-Ця установка впливає на поведінку таких функцій: [mb\_convert\_encoding()](function.mb-convert-encoding.html) [mb\_convert\_variables()](function.mb-convert-variables.html) [mb\_output\_handler()](function.mb-output-handler.html), і [mb\_send\_mail()](function.mb-send-mail.html)
+Ця установка впливає на поведінку таких функцій: [мбconvertencoding()](function.mb-convert-encoding.html) [мбconvertvariables()](function.mb-convert-variables.html) [мбoutputhandler()](function.mb-output-handler.html), і [мбsendmail()](function.mb-send-mail.html)
 
 ### Список параметрів
 

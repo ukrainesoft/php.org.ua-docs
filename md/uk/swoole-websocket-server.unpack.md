@@ -1,12 +1,12 @@
 Розпакувати двійкові дані, отримані від клієнта
 
--   [« Swoole\\WebSocket\\Server::push](swoole-websocket-server.push.html)
+-   [« SwooleWebSocketServer::push](swoole-websocket-server.push.html)
     
 -   [Tidy »](book.tidy.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+-   [SwooleWebSocketServer](class.swoole-websocket-server.html)
     
 -   Розпакувати двійкові дані, отримані від клієнта
     

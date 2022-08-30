@@ -15,7 +15,7 @@
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-Наступні константи можна задавати у функції [ibase\_trans()](function.ibase-trans.html) визначення поведінки транзакцій.
+Наступні константи можна задавати у функції [ibasetrans()](function.ibase-trans.html) визначення поведінки транзакцій.
 
 **Прапори транзакцій Firebird/InterBase**
 
@@ -30,7 +30,7 @@
 | IBASEWAIT        | Прапор, що вказує, що транзакція повинна чекати у разі конфлікту транзакцій.                                                                                                                                                                                                                                                                                                                                                                                          |
 | IBASENOWAIT      | Прапор, що вказує на те, що транзакція повинна повернути помилку при виникненні конфлікту транзакцій.                                                                                                                                                                                                                                                                                                                                                                 |
 
-Наступні константи можна задавати у функціях [ibase\_fetch\_row()](function.ibase-fetch-row.html) [ibase\_fetch\_assoc()](function.ibase-fetch-assoc.html) або [ibase\_fetch\_object()](function.ibase-fetch-object.html)для управління поведінкою вилученням даних.
+Наступні константи можна задавати у функціях [ibasefetchrow()](function.ibase-fetch-row.html) [ibasefetchassoc()](function.ibase-fetch-assoc.html) або [ibasefetchobject()](function.ibase-fetch-object.html)для управління поведінкою вилученням даних.
 
 **Прапори вилучення Firebird/InterBase**
 
@@ -40,59 +40,59 @@
 | IBASEFETCHARRAYS | Вимушує витягувати масиви повністю, а не лише їх ідентифікатори. Ідентифікатори масивів можна використовувати тільки для операцій вставки, тому що на даний момент відсутні будь-які інші функції для роботи з ними.           |
 | IBASEUNIXTIME    | Вимушує поля типу дата/час витягуватися не як рядки, а як тимчасові мітки Unix (кількість секунд, що пройшли з 1 січня 1970 00:00 UTC). Може викликати проблеми на деяких системах, якщо необхідно працювати з ранніми датами. |
 
-Наступні константи використовуються для передачі запитів і сервісних функцій API ([ibase\_server\_info()](function.ibase-server-info.html) [ibase\_db\_info()](function.ibase-db-info.html) [ibase\_backup()](function.ibase-backup.html) [ibase\_restore()](function.ibase-restore.html) і [ibase\_maintain\_db()](function.ibase-maintain-db.html)). За подробицями зверніться до документації Firebird/InterBase.
+Наступні константи використовуються для передачі запитів і сервісних функцій API ([ibaseserverinfo()](function.ibase-server-info.html) [ibaseдбinfo()](function.ibase-db-info.html) [ibasebackup()](function.ibase-backup.html) [ibaserestore()](function.ibase-restore.html) і [ibasemaintaindb()](function.ibase-maintain-db.html)). За подробицями зверніться до документації Firebird/InterBase.
 
 **`IBASE_BKP_IGNORE_CHECKSUMS`**
 
 **`IBASE_BKP_IGNORE_LIMBO`**
 
-Опція для [ibase\_backup()](function.ibase-backup.html)
+Опція для [ibasebackup()](function.ibase-backup.html)
 
 **`IBASE_BKP_METADATA_ONLY`**
 
-Опція для [ibase\_backup()](function.ibase-backup.html)
+Опція для [ibasebackup()](function.ibase-backup.html)
 
 **`IBASE_BKP_NO_GARBAGE_COLLECT`**
 
-Опція для [ibase\_backup()](function.ibase-backup.html)
+Опція для [ibasebackup()](function.ibase-backup.html)
 
 **`IBASE_BKP_OLD_DESCRIPTIONS`**
 
-Опція для [ibase\_backup()](function.ibase-backup.html)
+Опція для [ibasebackup()](function.ibase-backup.html)
 
 **`IBASE_BKP_NON_TRANSPORTABLE`**
 
-Опція для [ibase\_backup()](function.ibase-backup.html)
+Опція для [ibasebackup()](function.ibase-backup.html)
 
 **`IBASE_BKP_CONVERT`**
 
-Опція для [ibase\_backup()](function.ibase-backup.html)
+Опція для [ibasebackup()](function.ibase-backup.html)
 
 **`IBASE_RES_DEACTIVATE_IDX`**
 
-Опція для [ibase\_restore()](function.ibase-restore.html)
+Опція для [ibaserestore()](function.ibase-restore.html)
 
 **`IBASE_RES_NO_SHADOW`**
 
-Опція для [ibase\_restore()](function.ibase-restore.html)
+Опція для [ibaserestore()](function.ibase-restore.html)
 
 **`IBASE_RES_NO_VALIDITY`**
 
-Опція для [ibase\_restore()](function.ibase-restore.html)
+Опція для [ibaserestore()](function.ibase-restore.html)
 
 **`IBASE_RES_ONE_AT_A_TIME`**
 
-Опція для [ibase\_restore()](function.ibase-restore.html)
+Опція для [ibaserestore()](function.ibase-restore.html)
 
 **`IBASE_RES_REPLACE`**
 
 **`IBASE_RES_CREATE`**
 
-Опція для [ibase\_restore()](function.ibase-restore.html)
+Опція для [ibaserestore()](function.ibase-restore.html)
 
 **`IBASE_RES_USE_ALL_SPACE`**
 
-Опція для [ibase\_restore()](function.ibase-restore.html)
+Опція для [ibaserestore()](function.ibase-restore.html)
 
 **`IBASE_PRP_PAGE_BUFFERS`**
 
@@ -142,7 +142,7 @@
 
 **`IBASE_RPR_SWEEP_DB`**
 
-Опція для [ibase\_maintain\_db()](function.ibase-maintain-db.html)
+Опція для [ibasemaintaindb()](function.ibase-maintain-db.html)
 
 **`IBASE_STS_DATA_PAGES`**
 
@@ -154,19 +154,19 @@
 
 **`IBASE_STS_SYS_RELATIONS`**
 
-Опція для [ibase\_db\_info()](function.ibase-db-info.html)
+Опція для [ibaseдбinfo()](function.ibase-db-info.html)
 
 **`IBASE_SVC_SERVER_VERSION`**
 
-Опція для [ibase\_server\_info()](function.ibase-server-info.html)
+Опція для [ibaseserverinfo()](function.ibase-server-info.html)
 
 **`IBASE_SVC_IMPLEMENTATION`**
 
-Опція для [ibase\_server\_info()](function.ibase-server-info.html)
+Опція для [ibaseserverinfo()](function.ibase-server-info.html)
 
 **`IBASE_SVC_GET_ENV`**
 
-Опція для [ibase\_server\_info()](function.ibase-server-info.html)
+Опція для [ibaseserverinfo()](function.ibase-server-info.html)
 
 **`IBASE_SVC_GET_ENV_LOCK`**
 
@@ -178,4 +178,4 @@
 
 **`IBASE_SVC_GET_USERS`**
 
-Опція для [ibase\_server\_info()](function.ibase-server-info.html)
+Опція для [ibaseserverinfo()](function.ibase-server-info.html)

@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicommit - Псевдонім [oci\_commit()](function.oci-commit.html)
+ocicommit - Псевдонім [ocicommit()](function.oci-commit.html)
 
 ### Опис
 
-Псевдонім [oci\_commit()](function.oci-commit.html)
+Псевдонім [ocicommit()](function.oci-commit.html)
 
 **Увага**
 

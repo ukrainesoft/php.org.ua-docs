@@ -1,12 +1,12 @@
 Повертає об'єкт серіалізації BSON
 
--   [« MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [« MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
--   [MongoDB\\Driver\\WriteConcern::\_\_construct »](mongodb-driver-writeconcern.construct.html)
+-   [MongoDBDriverWriteConcern::construct »](mongodb-driver-writeconcern.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
 -   Повертає об'єкт серіалізації BSON
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -91,5 +91,5 @@ object(stdClass)#2 (3) {
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
--   [» Справочная информация по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON
+-   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

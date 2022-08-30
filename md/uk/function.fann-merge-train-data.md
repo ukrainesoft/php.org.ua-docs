@@ -1,8 +1,8 @@
 Об'єднує навчальні дані
 
--   [« fann\_length\_train\_data](function.fann-length-train-data.html)
+-   [« fannlengthtraindata](function.fann-length-train-data.html)
     
--   [fann\_num\_input\_train\_data »](function.fann-num-input-train-data.html)
+-   [fannnuminputtraindata »](function.fann-num-input-train-data.html)
     
 -   [PHP Manual](index.html)
     

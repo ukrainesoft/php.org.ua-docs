@@ -1,8 +1,8 @@
 Закриває всі з'єднання ODBC
 
--   [« odbc\_binmode](function.odbc-binmode.html)
+-   [« odbcbinmode](function.odbc-binmode.html)
     
--   [odbc\_close »](function.odbc-close.html)
+-   [odbcclose »](function.odbc-close.html)
     
 -   [PHP Manual](index.html)
     

@@ -23,7 +23,7 @@ PDOStatement::execute — Запускає підготовлений запит
 public PDOStatement::execute(?array $params = null): bool
 ```
 
-Запускає [подготовленный запрос](pdo.prepared-statements.html). Якщо запит містить маркери параметрів (псевдозмінні), ви повинні:
+Запускає [підготовлений запит](pdo.prepared-statements.html). Якщо запит містить маркери параметрів (псевдозмінні), ви повинні:
 
 -   викликати [PDOStatement::bindParam()](pdostatement.bindparam.html) та/або [PDOStatement::bindValue()](pdostatement.bindvalue.html), щоб зв'язати ці маркери, відповідно, зі змінними чи значеннями. Пов'язані змінні передають свої значення як вхідні дані та отримують вихідні значення
     
@@ -134,7 +134,7 @@ $sth->execute($params);
 
 > **Зауваження**
 > 
-> Для деяких драйверів потрібно [закрывать курсор](pdostatement.closecursor.html), перш ніж виконувати наступний запит.
+> Для деяких драйверів потрібно [закривати курсор](pdostatement.closecursor.html), перш ніж виконувати наступний запит.
 
 ### Дивіться також
 

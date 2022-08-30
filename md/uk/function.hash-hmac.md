@@ -1,8 +1,8 @@
 Генерація хеш-коду на основі ключа, використовуючи метод HMAC
 
--   [« hash\_hmac\_file](function.hash-hmac-file.html)
+-   [« hashhmacfile](function.hash-hmac-file.html)
     
--   [hash\_init »](function.hash-init.html)
+-   [hashinit »](function.hash-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ hash_hmac(    string $algo,    string $data,    string $key,    
 
 `algo`
 
-Ім'я вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо) Дивіться [hash\_hmac\_algos()](function.hash-hmac-algos.html) для отримання списку алгоритмів, що підтримуються.
+Ім'я вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо) Дивіться [hashhmacalgos()](function.hash-hmac-algos.html) для отримання списку алгоритмів, що підтримуються.
 
 `data`
 
@@ -71,6 +71,6 @@ b95d4abec7c27ec87fb54da1621f9942948879e4
 ### Дивіться також
 
 -   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
--   [hash\_hmac\_algos()](function.hash-hmac-algos.html) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
--   [hash\_init()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
--   [hash\_hmac\_file()](function.hash-hmac-file.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC та вміст отриманого файлу
+-   [hashhmacalgos()](function.hash-hmac-algos.html) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
+-   [hashinit()](function.hash-init.html) - Ініціалізація інкрементального контексту хешування
+-   [hashhmacfile()](function.hash-hmac-file.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC та вміст отриманого файлу

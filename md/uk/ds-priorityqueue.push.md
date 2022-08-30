@@ -1,12 +1,12 @@
 Додає значення в чергу
 
--   [« Ds\\PriorityQueue::pop](ds-priorityqueue.pop.html)
+-   [« DsPriorityQueue::pop](ds-priorityqueue.pop.html)
     
--   [Ds\\PriorityQueue::toArray »](ds-priorityqueue.toarray.html)
+-   [ДсPriorityQueue::toArray »](ds-priorityqueue.toarray.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Додає значення в чергу
     

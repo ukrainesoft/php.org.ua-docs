@@ -1,8 +1,8 @@
 Знищує всю мережу та правильно звільняє всю пов'язану пам'ять
 
--   [« fann\_destroy\_train](function.fann-destroy-train.html)
+-   [« fanndestroytrain](function.fann-destroy-train.html)
     
--   [fann\_duplicate\_train\_data »](function.fann-duplicate-train-data.html)
+-   [fannduplicatetraindata »](function.fann-duplicate-train-data.html)
     
 -   [PHP Manual](index.html)
     

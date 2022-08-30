@@ -1,12 +1,12 @@
 Повертає строкову виставу Timestamp
 
--   [« MongoDB\\BSON\\Timestamp::serialize](mongodb-bson-timestamp.serialize.html)
+-   [« MongoDBBSONTimestamp::serialize](mongodb-bson-timestamp.serialize.html)
     
--   [MongoDB\\BSON\\Timestamp::unserialize »](mongodb-bson-timestamp.unserialize.html)
+-   [MongoDBBSONTimestamp::unserialize »](mongodb-bson-timestamp.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
+-   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
     
 -   Повертає строкову виставу Timestamp
     

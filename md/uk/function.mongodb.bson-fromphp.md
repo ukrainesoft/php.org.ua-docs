@@ -1,12 +1,12 @@
 Повертає представлення BSON значення PHP
 
--   [« MongoDB\\BSON\\fromJSON](function.mongodb.bson-fromjson.html)
+-   [« MongoDBBSONfromJSON](function.mongodb.bson-fromjson.html)
     
--   [MongoDB\\BSON\\toCanonicalExtendedJSON »](function.mongodb.bson-tocanonicalextendedjson.html)
+-   [MongoDBBSONtoCanonicalExtendedJSON »](function.mongodb.bson-tocanonicalextendedjson.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции](ref.bson.functions.html)
+-   [Функції](ref.bson.functions.html)
     
 -   Повертає представлення BSON значення PHP
     
@@ -37,7 +37,7 @@ MongoDB\BSON\fromPHP(array|object $value): string
 
 ### Помилки
 
--   Видає [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDB\\BSON\\Type](class.mongodb-bson-type.html) або [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html), не може повернути array або **stdClass**
+-   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDBBSONType](class.mongodb-bson-type.html) або [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html), не може повернути array або **stdClass**
 
 ### Приклади
 
@@ -60,6 +60,6 @@ echo bin2hex($bson), "\n";
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\toPHP()](function.mongodb.bson-tophp.html) - Повертає PHP подання значення BSON
+-   [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.html) - Повертає PHP подання значення BSON
 -   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [Постоянные данные](mongodb.persistence.html)
+-   [Постійні дані](mongodb.persistence.html)

@@ -1,8 +1,8 @@
 Псевдонім posixgetlasterror
 
--   [« posix\_ctermid](function.posix-ctermid.html)
+-   [« posixctermid](function.posix-ctermid.html)
     
--   [posix\_get\_last\_error »](function.posix-get-last-error.html)
+-   [posixgetlasterror »](function.posix-get-last-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,8 +15,8 @@
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-posixerrno - Псевдонім [posix\_get\_last\_error()](function.posix-get-last-error.html)
+posixerrno - Псевдонім [posixgetlasterror()](function.posix-get-last-error.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [posix\_get\_last\_error()](function.posix-get-last-error.html)
+Ця функція є псевдонімом: [posixgetlasterror()](function.posix-get-last-error.html)

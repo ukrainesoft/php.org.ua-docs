@@ -1,8 +1,8 @@
 Читає файл, у якому зберігаються дані навчання
 
--   [« fann\_randomize\_weights](function.fann-randomize-weights.html)
+-   [« fannrandomizeweights](function.fann-randomize-weights.html)
     
--   [fann\_reset\_errno »](function.fann-reset-errno.html)
+-   [fannreseterrno »](function.fann-reset-errno.html)
     
 -   [PHP Manual](index.html)
     
@@ -56,6 +56,6 @@ if ($train_data) {
 
 ### Дивіться також
 
--   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fann\_destroy\_train()](function.fann-destroy-train.html) - Знищує тренувальні дані
--   [fann\_save\_train()](function.fann-save-train.html) - Зберігає структуру навчання у файл
+-   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanndestroytrain()](function.fann-destroy-train.html) - Знищує тренувальні дані
+-   [fannsavetrain()](function.fann-save-train.html) - Зберігає структуру навчання у файл

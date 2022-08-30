@@ -33,7 +33,7 @@ public DOMDocument::save(string $filename, int $options = 0): int|false
 
 `options`
 
-Додаткові налаштування. На даний момент підтримується тільки [LIBXML\_NOEMPTYTAG](libxml.constants.html)
+Додаткові налаштування. На даний момент підтримується тільки [LIBXMLNOEMPTYTAG](libxml.constants.html)
 
 ### Значення, що повертаються
 

@@ -1,12 +1,12 @@
 Повертає позначку першого зразка з файлу rrd
 
--   [« rrd\_fetch](function.rrd-fetch.html)
+-   [« rrdfetch](function.rrd-fetch.html)
     
--   [rrd\_graph »](function.rrd-graph.html)
+-   [rrdgraph »](function.rrd-graph.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции RRD](ref.rrd.html)
+-   [Функції RRD](ref.rrd.html)
     
 -   Повертає позначку першого зразка з файлу rrd
     

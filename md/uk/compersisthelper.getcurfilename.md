@@ -1,6 +1,6 @@
 Отримати ім'я файлу
 
--   [« COMPersistHelper::\_\_construct](compersisthelper.construct.html)
+-   [« COMPersistHelper::construct](compersisthelper.construct.html)
     
 -   [COMPersistHelper::GetMaxStreamSize »](compersisthelper.getmaxstreamsize.html)
     
@@ -35,4 +35,4 @@ public COMPersistHelper::GetCurFileName(): string|false
 
 ### Помилки
 
-Викидає виняток [com\_exception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::GetCurFile()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::GetCurFile()** завершився помилкою.

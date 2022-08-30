@@ -1,8 +1,8 @@
 Приєднує рядковий атрибут, що залежить від постачальника
 
--   [« radius\_put\_vendor\_int](function.radius-put-vendor-int.html)
+-   [« radiusputvendorint](function.radius-put-vendor-int.html)
     
--   [radius\_request\_authenticator »](function.radius-request-authenticator.html)
+-   [radiusrequestauthenticator »](function.radius-request-authenticator.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,11 +23,11 @@ radiusputvendorstring — Приєднує рядковий атрибут, що
 radius_put_vendor_string(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
-Приєднує до поточного запиту рядковий атрибут RADIUS, що залежить від постачальника. В загальному, [radius\_put\_vendor\_attr()](function.radius-put-vendor-attr.html) - корисніша функція для приєднання рядкових атрибутів, оскільки вона бінарно безпечна.
+Приєднує до поточного запиту рядковий атрибут RADIUS, що залежить від постачальника. В загальному, [radiusputvendorattr()](function.radius-put-vendor-attr.html) - корисніша функція для приєднання рядкових атрибутів, оскільки вона бінарно безпечна.
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
 
 ### Список параметрів
 
@@ -67,4 +67,4 @@ ID виробника (Vendor).
 
 ### Дивіться також
 
--   [radius\_put\_vendor\_int()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника
+-   [radiusputvendorint()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника

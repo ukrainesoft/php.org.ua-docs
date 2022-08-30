@@ -1,12 +1,12 @@
 Повертає час кластера для цього сеансу
 
--   [« MongoDB\\Driver\\Session::endSession](mongodb-driver-session.endsession.html)
+-   [« MongoDBDriverSession::endSession](mongodb-driver-session.endsession.html)
     
--   [MongoDB\\Driver\\Session::getLogicalSessionId »](mongodb-driver-session.getlogicalsessionid.html)
+-   [MongoDBDriverSession::getLogicalSessionId »](mongodb-driver-session.getlogicalsessionid.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Повертає час кластера для цього сеансу
     
@@ -23,7 +23,7 @@ MongoDBDriverSession::getClusterTime — Повертає час кластер�
 final public MongoDB\Driver\Session::getClusterTime(): ?object
 ```
 
-Повертає час кластера для цього сеансу. Якщо сеанс не використовувався для будь-якої операції та [MongoDB\\Driver\\Session::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) не був викликаний, час кластера буде рівний **`null`**
+Повертає час кластера для цього сеансу. Якщо сеанс не використовувався для будь-якої операції та [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) не був викликаний, час кластера буде рівний **`null`**
 
 ### Список параметрів
 
@@ -35,8 +35,8 @@ final public MongoDB\Driver\Session::getClusterTime(): ?object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Session::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
+-   [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу

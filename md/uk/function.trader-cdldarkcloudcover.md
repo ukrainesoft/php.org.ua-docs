@@ -1,8 +1,8 @@
 Завіса з темних хмар
 
--   [« trader\_cdlcounterattack](function.trader-cdlcounterattack.html)
+-   [« tradercdlcounterattack](function.trader-cdlcounterattack.html)
     
--   [trader\_cdldoji »](function.trader-cdldoji.html)
+-   [tradercdldoji »](function.trader-cdldoji.html)
     
 -   [PHP Manual](index.html)
     

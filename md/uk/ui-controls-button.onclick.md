@@ -1,12 +1,12 @@
 Обробник кліку
 
--   [« UI\\Controls\\Button::getText](ui-controls-button.gettext.html)
+-   [« UIControlsButton::getText](ui-controls-button.gettext.html)
     
--   [UI\\Controls\\Button::setText »](ui-controls-button.settext.html)
+-   [ОЙControlsButton::setText »](ui-controls-button.settext.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Button](class.ui-controls-button.html)
+-   [ОЙControlsButton](class.ui-controls-button.html)
     
 -   Обробник кліку
     

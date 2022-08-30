@@ -1,8 +1,8 @@
 Клас SoapHeader
 
--   [« SoapFault::\_\_toString](soapfault.tostring.html)
+-   [« SoapFault::toString](soapfault.tostring.html)
     
--   [SoapHeader::\_\_construct »](soapheader.construct.html)
+-   [SoapHeader::construct »](soapheader.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -76,4 +76,4 @@ namespace
 
 ## Зміст
 
--   [SoapHeader::\_\_construct](soapheader.construct.html) - Конструктор SoapHeader
+-   [SoapHeader::construct](soapheader.construct.html) - Конструктор SoapHeader

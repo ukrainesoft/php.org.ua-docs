@@ -1,8 +1,8 @@
 Може бути викликана коли є запити, що очікують виконання
 
--   [« eio\_open](function.eio-open.html)
+-   [« eioopen](function.eio-open.html)
     
--   [eio\_read »](function.eio-read.html)
+-   [eioread »](function.eio-read.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ eiopoll — Може бути викликана коли є запити, що 
 eio_poll(): int
 ```
 
-**eiopoll()** може бути використана для реалізації спеціальних циклів обробки запитів. При цьому [eio\_nreqs()](function.eio-nreqs.html) може бути використана для знаходження невиконаних запитів.
+**eiopoll()** може бути використана для реалізації спеціальних циклів обробки запитів. При цьому [eionreqs()](function.eio-nreqs.html) може бути використана для знаходження невиконаних запитів.
 
 > **Зауваження**
 > 
@@ -72,4 +72,4 @@ int(0)
 
 ### Дивіться також
 
--   [eio\_nreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
+-   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати

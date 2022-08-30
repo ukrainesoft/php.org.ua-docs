@@ -1,12 +1,12 @@
 Перевіряє, чи містяться в колекції задані значення
 
--   [« Ds\\Sequence::capacity](ds-sequence.capacity.html)
+-   [« DsSequence::capacity](ds-sequence.capacity.html)
     
--   [Ds\\Sequence::filter »](ds-sequence.filter.html)
+-   [ДсSequence::filter »](ds-sequence.filter.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Перевіряє, чи містяться в колекції задані значення
     
@@ -33,7 +33,7 @@ abstract public Ds\Sequence::contains(mixed ...$values): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**якщо хоча б одне значення з `values` не знайдено в колекції та **`true`** в іншому випадку.
+Повертає \*\*`false`\*\*якщо хоча б одне значення з `values` не знайдено в колекції та **`true`** в іншому випадку.
 
 ### Приклади
 

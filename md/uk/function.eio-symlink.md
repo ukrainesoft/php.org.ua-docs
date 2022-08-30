@@ -1,8 +1,8 @@
 Створює символічне посилання
 
--   [« eio\_statvfs](function.eio-statvfs.html)
+-   [« eiostatvfs](function.eio-statvfs.html)
     
--   [eio\_sync\_file\_range »](function.eio-sync-file-range.html)
+-   [eiosyncfilerange »](function.eio-sync-file-range.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -109,4 +109,4 @@ string(16) "/tmp/symlink.dat"
 
 ### Дивіться також
 
--   [eio\_link()](function.eio-link.html) - Створює жорстке посилання на файл
+-   [eiolink()](function.eio-link.html) - Створює жорстке посилання на файл

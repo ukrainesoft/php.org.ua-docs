@@ -1,12 +1,12 @@
 Повертає статечну суму вектора
 
--   [« stats\_stat\_percentile](function.stats-stat-percentile.html)
+-   [« statsstatpercentile](function.stats-stat-percentile.html)
     
--   [stats\_variance »](function.stats-variance.html)
+-   [statsvariance »](function.stats-variance.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає статечну суму вектора
     

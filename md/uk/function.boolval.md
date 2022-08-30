@@ -1,12 +1,12 @@
 Повертає логічне значення змінної
 
--   [« Функции для работы с переменными](ref.var.html)
+-   [« Функції для роботи зі змінними](ref.var.html)
     
--   [debug\_zval\_dump »](function.debug-zval-dump.html)
+-   [debugzvaldump »](function.debug-zval-dump.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Повертає логічне значення змінної
     
@@ -77,5 +77,5 @@ stdClass: true
 -   [intval()](function.intval.html) - Повертає ціле значення змінної
 -   [strval()](function.strval.html) - Повертає строкове значення змінної
 -   [settype()](function.settype.html) - Задає тип змінної
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
 -   [Преобразование типов](language.types.type-juggling.html)

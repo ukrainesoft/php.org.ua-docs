@@ -1,12 +1,12 @@
 в
 
--   [« Parle\\RLexer::dump](parle-rlexer.dump.html)
+-   [« ParleRLexer::dump](parle-rlexer.dump.html)
     
--   [Parle\\RLexer::insertMacro »](parle-rlexer.insertmacro.html)
+-   [ParleRLexer::insertMacro »](parle-rlexer.insertmacro.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\RLexer](class.parle-rlexer.html)
+-   [ParleRLexer](class.parle-rlexer.html)
     
 -   в
     
@@ -31,4 +31,4 @@ public Parle\RLexer::getToken(): Parle\Token
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Parle\\Token](class.parle-token.html)
+Повертає екземпляр [ParleToken](class.parle-token.html)

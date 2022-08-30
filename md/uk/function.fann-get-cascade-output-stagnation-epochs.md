@@ -1,8 +1,8 @@
 Повертає кількість каскадних періодів застою кандидатів
 
--   [« fann\_get\_cascade\_output\_change\_fraction](function.fann-get-cascade-output-change-fraction.html)
+-   [« fanngetcascadeoutputchangefraction](function.fann-get-cascade-output-change-fraction.html)
     
--   [fann\_get\_cascade\_weight\_multiplier »](function.fann-get-cascade-weight-multiplier.html)
+-   [fanngetcascadeweightmultiplier »](function.fann-get-cascade-weight-multiplier.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,9 +23,9 @@ fanngetcascadeoutputstagnationepochs - Повертає кількість ка�
 fann_get_cascade_output_stagnation_epochs(resource $ann): int
 ```
 
-Кількість каскадних періодів застою кандидатів визначає кількість періодів навчання, яка буде продовжена без зміни оцінки MSE за допомогою [fann\_get\_cascade\_output\_change\_fraction()](function.fann-get-cascade-output-change-fraction.html)
+Кількість каскадних періодів застою кандидатів визначає кількість періодів навчання, яка буде продовжена без зміни оцінки MSE за допомогою [fanngetcascadeoutputchangefraction()](function.fann-get-cascade-output-change-fraction.html)
 
-Дивіться додаткову інформацію про цей параметр у [fann\_get\_cascade\_output\_change\_fraction()](function.fann-get-cascade-output-change-fraction.html)
+Дивіться додаткову інформацію про цей параметр у [fanngetcascadeoutputchangefraction()](function.fann-get-cascade-output-change-fraction.html)
 
 За замовчуванням кількість періодів застою каскадного виводу дорівнює 12.
 
@@ -41,5 +41,5 @@ fann_get_cascade_output_stagnation_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fann\_set\_cascade\_output\_stagnation\_epochs()](function.fann-set-cascade-output-stagnation-epochs.html) - встановлює кількість періодів стагнації каскадного виводу
--   [fann\_get\_cascade\_output\_change\_fraction()](function.fann-get-cascade-output-change-fraction.html) - Повертає частку зміни виходу каскаду
+-   [fannsetcascadeoutputstagnationepochs()](function.fann-set-cascade-output-stagnation-epochs.html) - встановлює кількість періодів стагнації каскадного виводу
+-   [fanngetcascadeoutputchangefraction()](function.fann-get-cascade-output-change-fraction.html) - Повертає частку зміни виходу каскаду

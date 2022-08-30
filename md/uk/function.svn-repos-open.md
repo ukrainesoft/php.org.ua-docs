@@ -1,12 +1,12 @@
 Відкриває репозиторій із загальним блокуванням
 
--   [« svn\_repos\_hotcopy](function.svn-repos-hotcopy.html)
+-   [« svnreposhotcopy](function.svn-repos-hotcopy.html)
     
--   [svn\_repos\_recover »](function.svn-repos-recover.html)
+-   [svnreposrecover »](function.svn-repos-recover.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Відкриває репозиторій із загальним блокуванням
     

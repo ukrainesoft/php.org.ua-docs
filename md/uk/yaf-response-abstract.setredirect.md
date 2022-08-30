@@ -1,12 +1,12 @@
 Призначення setRedirect
 
--   [« Yaf\_Response\_Abstract::setHeader](yaf-response-abstract.setheader.html)
+-   [« YafResponseAbstract::setHeader](yaf-response-abstract.setheader.html)
     
--   [Yaf\_Response\_Abstract::\_\_toString »](yaf-response-abstract.tostring.html)
+-   [YafResponseAbstract::toString »](yaf-response-abstract.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+-   [YafResponseAbstract](class.yaf-response-abstract.html)
     
 -   Призначення setRedirect
     

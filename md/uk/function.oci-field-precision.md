@@ -1,8 +1,8 @@
 Повертає точність поля
 
--   [« oci\_field\_name](function.oci-field-name.html)
+-   [« ocifieldname](function.oci-field-name.html)
     
--   [oci\_field\_scale »](function.oci-field-scale.html)
+-   [ocifieldscale »](function.oci-field-scale.html)
     
 -   [PHP Manual](index.html)
     
@@ -83,9 +83,9 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.html). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.html) є аліасом [oci\_field\_scale()](function.oci-field-scale.html)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.html). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.html) є аліасом [ocifieldscale()](function.oci-field-scale.html)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [oci\_field\_scale()](function.oci-field-scale.html) - Повертає масштаб поля
--   [oci\_field\_type()](function.oci-field-type.html) - Повертає ім'я типу поля
+-   [ocifieldscale()](function.oci-field-scale.html) - Повертає масштаб поля
+-   [ocifieldtype()](function.oci-field-type.html) - Повертає ім'я типу поля

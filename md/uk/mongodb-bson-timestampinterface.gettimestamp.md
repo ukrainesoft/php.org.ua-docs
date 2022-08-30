@@ -1,12 +1,12 @@
 Повертає компонент позначки часу TimestampInterface
 
--   [« MongoDB\\BSON\\TimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.html)
+-   [« MongoDBBSONTimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.html)
     
--   [MongoDB\\BSON\\TimestampInterface::\_\_toString »](mongodb-bson-timestampinterface.tostring.html)
+-   [MongoDBBSONTimestampInterface::toString »](mongodb-bson-timestampinterface.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\TimestampInterface](class.mongodb-bson-timestampinterface.html)
+-   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
     
 -   Повертає компонент позначки часу TimestampInterface
     
@@ -37,4 +37,4 @@ abstract public MongoDB\BSON\TimestampInterface::getTimestamp(): int
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Timestamp::getTimestamp()](mongodb-bson-timestamp.gettimestamp.html) - Повертає компонент позначки часу Timestamp
+-   [MongoDBBSONTimestamp::getTimestamp()](mongodb-bson-timestamp.gettimestamp.html) - Повертає компонент позначки часу Timestamp

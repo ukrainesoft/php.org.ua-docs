@@ -1,8 +1,8 @@
 Обумовлені константи
 
--   [« Модуль mysqli и постоянные соединения](mysqli.persistconns.html)
+-   [Модуль mysqli та постійні з'єднання](mysqli.persistconns.html)
     
--   [Основная информация о функциях модуля MySQLi »](mysqli.summary.html)
+-   [Основна інформація про функції модуля MySQLi »](mysqli.summary.html)
     
 -   [PHP Manual](index.html)
     
@@ -77,7 +77,7 @@
 
 **`MYSQLI_CLIENT_MULTI_QUERIES`**
 
-Дозволити виконання в одному дзвінку функції [mysqli\_query()](mysqli.query.html) кількох запитів, розділених крапкою з комою.
+Дозволити виконання в одному дзвінку функції [mysqliquery()](mysqli.query.html) кількох запитів, розділених крапкою з комою.
 
 **`MYSQLI_STORE_RESULT`**
 
@@ -325,7 +325,7 @@
 
 **`MYSQLI_DEBUG_TRACE_ENABLED`**
 
-Встановлено в 1, якщо використовується функція [mysqli\_debug()](mysqli.debug.html)
+Встановлено в 1, якщо використовується функція [mysqlidebug()](mysqli.debug.html)
 
 **`MYSQLI_SERVER_QUERY_NO_GOOD_INDEX_USED`**
 
@@ -371,31 +371,31 @@
 
 **`MYSQLI_TRANS_COR_AND_CHAIN`**
 
-Додає "AND CHAIN" у [mysqli\_commit()](mysqli.commit.html) або [mysqli\_rollback()](mysqli.rollback.html)
+Додає "AND CHAIN" у [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
 
 **`MYSQLI_TRANS_COR_AND_NO_CHAIN`**
 
-Додає "AND NO CHAIN" у [mysqli\_commit()](mysqli.commit.html) або [mysqli\_rollback()](mysqli.rollback.html)
+Додає "AND NO CHAIN" у [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
 
 **`MYSQLI_TRANS_COR_RELEASE`**
 
-Додає "RELEASE" в [mysqli\_commit()](mysqli.commit.html) або [mysqli\_rollback()](mysqli.rollback.html)
+Додає "RELEASE" в [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
 
 **`MYSQLI_TRANS_COR_NO_RELEASE`**
 
-Додає "NO RELEASE" в [mysqli\_commit()](mysqli.commit.html) або [mysqli\_rollback()](mysqli.rollback.html)
+Додає "NO RELEASE" в [mysqlicommit()](mysqli.commit.html) або [mysqlirollback()](mysqli.rollback.html)
 
 **`MYSQLI_TRANS_START_READ_ONLY`**
 
-Починає транзакцію як "START TRANSACTION READ ONLY" з [mysqli\_begin\_transaction()](mysqli.begin-transaction.html)
+Починає транзакцію як "START TRANSACTION READ ONLY" з [mysqlibegintransaction()](mysqli.begin-transaction.html)
 
 **`MYSQLI_TRANS_START_READ_WRITE`**
 
-Починає транзакцію як "START TRANSACTION READ WRITE" з [mysqli\_begin\_transaction()](mysqli.begin-transaction.html)
+Починає транзакцію як "START TRANSACTION READ WRITE" з [mysqlibegintransaction()](mysqli.begin-transaction.html)
 
 **`MYSQLI_TRANS_START_CONSISTENT_SNAPSHOT`**
 
-Починає транзакцію як "START TRANSACTION WITH CONSISTENT SNAPSHOT" з [mysqli\_begin\_transaction()](mysqli.begin-transaction.html)
+Починає транзакцію як "START TRANSACTION WITH CONSISTENT SNAPSHOT" з [mysqlibegintransaction()](mysqli.begin-transaction.html)
 
 **`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`**
 

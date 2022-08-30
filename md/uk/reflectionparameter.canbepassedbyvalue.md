@@ -2,7 +2,7 @@
 
 -   [« ReflectionParameter::allowsNull](reflectionparameter.allowsnull.html)
     
--   [ReflectionParameter::\_\_clone »](reflectionparameter.clone.html)
+-   [ReflectionParameter::clone »](reflectionparameter.clone.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,4 +29,4 @@ public ReflectionParameter::canBePassedByValue(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо передача аргументу за значенням можлива, **`false`**, якщо ні. Повертає **`null`** у разі виникнення помилки.
+Повертає \*\*`true`\*\*якщо передача аргументу за значенням можлива, **`false`**, якщо ні. Повертає **`null`** у разі виникнення помилки.

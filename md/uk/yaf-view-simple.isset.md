@@ -1,12 +1,12 @@
 Призначення isset
 
--   [« Yaf\_View\_Simple::getScriptPath](yaf-view-simple.getscriptpath.html)
+-   [« YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.html)
     
--   [Yaf\_View\_Simple::render »](yaf-view-simple.render.html)
+-   [YafViewSimple::render »](yaf-view-simple.render.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Призначення isset
     

@@ -1,12 +1,12 @@
 Список ключових слів
 
--   [« Список зарезервированных слов](reserved.html)
+-   [« Список зарезервованих слів](reserved.html)
     
 -   [Предопределённые классы »](reserved.classes.html)
     
 -   [PHP Manual](index.html)
     
--   [Список зарезервированных слов](reserved.html)
+-   [Список зарезервованих слів](reserved.html)
     
 -   Список ключових слів
     
@@ -21,6 +21,6 @@
 
 Ключове слово `readonly` можна використовувати як ім'я функції.
 
-< td>[\_\_FILE\_\_](language.constants.predefined.html)< td>
+< td>[FILE](language.constants.predefined.html)< td>
 
 <table class="doctable table"><caption><strong>Константи етапу компіляції</strong></caption><tbody class="tbody"><tr><td><a href="language.constants.predefined .html" class="link">__CLASS__</a></td><td><a href="language.constants.predefined.html" class="link">__DIR__</a></td><td><a href="language.constants.predefined.html" class="link ">__FUNCTION__</a></td><td><a href="language.constants.predefined.html" class="link">__LINE__</a></td><td><a href=" language.constants.predefined.html" class="link">__METHOD__</a></td></tr><tr><td><a href="language.namespaces.nsconstants.html" class="link ">__NAMESPACE__</a></td><td><a href="language.constants.predefined.html" class="link">__TRAIT__</a></td><td></td><td></td><td></td></tr></tbody></table>

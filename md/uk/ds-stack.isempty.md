@@ -1,8 +1,8 @@
 Перевіряє, чи порожня колекція
 
--   [« Ds\\Stack::count](ds-stack.count.html)
+-   [« DsStack::count](ds-stack.count.html)
     
--   [Ds\\Stack::jsonSerialize »](ds-stack.jsonserialize.html)
+-   [ДсStack::jsonSerialize »](ds-stack.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     

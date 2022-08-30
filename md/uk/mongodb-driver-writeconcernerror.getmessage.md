@@ -1,12 +1,12 @@
 Повертає повідомлення про помилку WriteConcernError
 
--   [« MongoDB\\Driver\\WriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.html)
+-   [« MongoDBDriverWriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.html)
     
--   [MongoDB\\Driver\\WriteError »](class.mongodb-driver-writeerror.html)
+-   [MongoDBDriverWriteError »](class.mongodb-driver-writeerror.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcernError](class.mongodb-driver-writeconcernerror.html)
+-   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.html)
     
 -   Повертає повідомлення про помилку WriteConcernError
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcernError::getMessage(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

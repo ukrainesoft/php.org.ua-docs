@@ -1,6 +1,6 @@
 Константи перерахувань
 
--   [« Статические методы перечислений](language.enumerations.static-methods.html)
+-   [« Статичні методи перерахувань](language.enumerations.static-methods.html)
     
 -   [Трейты »](language.enumerations.traits.html)
     

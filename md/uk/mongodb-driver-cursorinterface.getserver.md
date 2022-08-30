@@ -1,12 +1,12 @@
 Повертає сервер, з яким пов'язаний курсор
 
--   [« MongoDB\\Driver\\CursorInterface::getId](mongodb-driver-cursorinterface.getid.html)
+-   [« MongoDBDriverCursorInterface::getId](mongodb-driver-cursorinterface.getid.html)
     
--   [MongoDB\\Driver\\CursorInterface::isDead »](mongodb-driver-cursorinterface.isdead.html)
+-   [MongoDBDriverCursorInterface::isDead »](mongodb-driver-cursorinterface.isdead.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.html)
+-   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
     
 -   Повертає сервер, з яким пов'язаний курсор
     
@@ -23,7 +23,7 @@ MongoDBDriverCursorInterface::getServer — Повертає сервер, з я
 abstract public MongoDB\Driver\CursorInterface::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html) пов'язаний із курсором. Це той сервер, на якому запущено [MongoDB\\Driver\\Query](class.mongodb-driver-query.html) або [MongoDB\\Driver\\Command](class.mongodb-driver-command.html)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html) пов'язаний із курсором. Це той сервер, на якому запущено [MongoDBDriverQuery](class.mongodb-driver-query.html) або [MongoDBDriverCommand](class.mongodb-driver-command.html)
 
 ### Список параметрів
 
@@ -31,13 +31,13 @@ abstract public MongoDB\Driver\CursorInterface::getServer(): MongoDB\Driver\Serv
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.html) пов'язаний із курсором.
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.html) пов'язаний із курсором.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Cursor::getServer()](mongodb-driver-cursor.getserver.html) - Повертає сервер, пов'язаний із курсором
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverCursor::getServer()](mongodb-driver-cursor.getserver.html) - Повертає сервер, пов'язаний із курсором
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)

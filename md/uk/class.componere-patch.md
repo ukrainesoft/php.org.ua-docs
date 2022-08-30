@@ -1,8 +1,8 @@
 Клас ComponerePatch
 
--   [« Componere\\Definition::getClosures](componere-definition.getclosures.html)
+-   [« ComponereDefinition::getClosures](componere-definition.getclosures.html)
     
--   [Componere\\Patch::\_\_construct »](componere-patch.construct.html)
+-   [ComponerePatch::construct »](componere-patch.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -67,10 +67,10 @@ public Componere\Abstract\Definition::getReflector(): ReflectionClass
 
 ## Зміст
 
--   [Componere\\Patch::\_\_construct](componere-patch.construct.html) - Конструктор класу Patch
--   [Componere\\Patch::apply](componere-patch.apply.html) - Додаток
--   [Componere\\Patch::revert](componere-patch.revert.html) - Скасування
--   [Componere\\Patch::isApplied](componere-patch.isapplied.html) — Визначення стану
--   [Componere\\Patch::derive](componere-patch.derive.html) - Отримання патчу
--   [Componere\\Patch::getClosure](componere-patch.getclosure.html) — Отримує замикання
--   [Componere\\Patch::getClosures](componere-patch.getclosures.html) — Отримує замикання
+-   [ComponerePatch::construct](componere-patch.construct.html) - Конструктор класу Patch
+-   [ComponerePatch::apply](componere-patch.apply.html) - Додаток
+-   [ComponerePatch::revert](componere-patch.revert.html) - Скасування
+-   [ComponerePatch::isApplied](componere-patch.isapplied.html) — Визначення стану
+-   [ComponerePatch::derive](componere-patch.derive.html) - Отримання патчу
+-   [ComponerePatch::getClosure](componere-patch.getclosure.html) — Отримує замикання
+-   [ComponerePatch::getClosures](componere-patch.getclosures.html) — Отримує замикання

@@ -41,7 +41,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvEmbed::\_\_construct()](evembed.construct.html)
+Усі параметри, що й для [EvEmbed::construct()](evembed.construct.html)
 
 ### Значення, що повертаються
 
@@ -49,4 +49,4 @@ final
 
 ### Дивіться також
 
--   [EvEmbed::\_\_construct()](evembed.construct.html) - Конструктор об'єкту EvEmbed
+-   [EvEmbed::construct()](evembed.construct.html) - Конструктор об'єкту EvEmbed

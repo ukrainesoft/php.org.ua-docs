@@ -2,11 +2,11 @@
 
 -   [« Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.html)
     
--   [Table::\_\_construct »](mysql-xdevapi-table.construct.html)
+-   [Table::construct »](mysql-xdevapi-table.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас Table
     
@@ -62,7 +62,7 @@ name
 
 ## Зміст
 
--   [Table::\_\_construct](mysql-xdevapi-table.construct.html) - Конструктор Table
+-   [Table::construct](mysql-xdevapi-table.construct.html) - Конструктор Table
 -   [Table::count](mysql-xdevapi-table.count.html) — Отримати кількість рядків
 -   [Table::delete](mysql-xdevapi-table.delete.html) — Видалити рядки з таблиці
 -   [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.html) — Перевірити, чи існує таблиця у базі даних

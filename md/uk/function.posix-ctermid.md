@@ -1,8 +1,8 @@
 Повертає шлях керуючого терміналу
 
--   [« posix\_access](function.posix-access.html)
+-   [« posixaccess](function.posix-access.html)
     
--   [posix\_errno »](function.posix-errno.html)
+-   [posixerrno »](function.posix-errno.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ posixctermid - Повертає шлях керуючого терміналу
 posix_ctermid(): string|false
 ```
 
-Повертає змінну типу string, що містить шлях до поточного керуючого терміналу цього процесу. У разі виникнення помилки буде встановлено її номер, який можна обробити з використанням [posix\_get\_last\_error()](function.posix-get-last-error.html)
+Повертає змінну типу string, що містить шлях до поточного керуючого терміналу цього процесу. У разі виникнення помилки буде встановлено її номер, який можна обробити з використанням [posixgetlasterror()](function.posix-get-last-error.html)
 
 ### Список параметрів
 
@@ -31,7 +31,7 @@ posix_ctermid(): string|false
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає string шляхом до поточного керуючого терміналу. В іншому випадку повертає **`false`** та встановлює номер помилки, який може бути оброблений за допомогою [posix\_get\_last\_error()](function.posix-get-last-error.html)
+У разі успішного виконання повертає string шляхом до поточного керуючого терміналу. В іншому випадку повертає **`false`** та встановлює номер помилки, який може бути оброблений за допомогою [posixgetlasterror()](function.posix-get-last-error.html)
 
 ### Приклади
 
@@ -47,5 +47,5 @@ echo "I am running from ".posix_ctermid();
 
 ### Дивіться також
 
--   [posix\_ttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
--   [posix\_get\_last\_error()](function.posix-get-last-error.html) - Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
+-   [posixttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
+-   [posixgetlasterror()](function.posix-get-last-error.html) - Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею

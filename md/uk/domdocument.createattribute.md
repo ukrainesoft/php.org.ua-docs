@@ -1,6 +1,6 @@
 Створити новий атрибут
 
--   [« DOMDocument::\_\_construct](domdocument.construct.html)
+-   [« DOMDocument::construct](domdocument.construct.html)
     
 -   [DOMDocument::createAttributeNS »](domdocument.createattributens.html)
     

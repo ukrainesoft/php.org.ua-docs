@@ -1,8 +1,8 @@
 Клас parallelChannel
 
--   [« parallel\\Future::value](parallel-future.value.html)
+-   [« parallelFuture::value](parallel-future.value.html)
     
--   [parallel\\Channel::\_\_construct »](parallel-channel.construct.html)
+-   [parallelChannel::construct »](parallel-channel.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,13 +15,13 @@
 
 ## Небуферизовані канали
 
-Небуферизований канал блокуватиме виклики [parallel\\Channel::send()](parallel-channel.send.html) до тих пір, поки не буде одержувач і блокуватиме дзвінки [parallel\\Channel::recv()](parallel-channel.recv.html) доти, доки відправник. Це означає, що небуферизований канал - це спосіб обміну даними між завданнями, а й простий метод синхронізації.
+Небуферизований канал блокуватиме виклики [parallelChannel::send()](parallel-channel.send.html) до тих пір, поки не буде одержувач і блокуватиме дзвінки [parallelChannel::recv()](parallel-channel.recv.html) доти, доки відправник. Це означає, що небуферизований канал - це спосіб обміну даними між завданнями, а й простий метод синхронізації.
 
 Небуферизований канал – це найшвидший спосіб обміну даними між завданнями, що вимагає найменшої кількості копіювання.
 
 ## Буферизовані канали
 
-Буферизований канал не блокуватиметься під час дзвінків [parallel\\Channel::send()](parallel-channel.send.html) доти, доки не буде досягнуто ємності, виклики [parallel\\Channel::recv()](parallel-channel.recv.html) буде блокуватись, поки в буфері не з'являться дані.
+Буферизований канал не блокуватиметься під час дзвінків [parallelChannel::send()](parallel-channel.send.html) доти, доки не буде досягнуто ємності, виклики [parallelChannel::recv()](parallel-channel.recv.html) буде блокуватись, поки в буфері не з'являться дані.
 
 ## Замикання поверх каналів
 
@@ -81,9 +81,9 @@ public send(mixed $value): void
 
 ## Зміст
 
--   [parallel\\Channel::\_\_construct](parallel-channel.construct.html) - Конструктор класу Channel
--   [parallel\\Channel::make](parallel-channel.make.html) - Доступ
--   [parallel\\Channel::open](parallel-channel.open.html) - Доступ
--   [parallel\\Channel::recv](parallel-channel.recv.html) - Спільне використання
--   [parallel\\Channel::send](parallel-channel.send.html) - Спільне використання
--   [parallel\\Channel::close](parallel-channel.close.html) - Закриття
+-   [parallelChannel::construct](parallel-channel.construct.html) - Конструктор класу Channel
+-   [parallelChannel::make](parallel-channel.make.html) - Доступ
+-   [parallelChannel::open](parallel-channel.open.html) - Доступ
+-   [parallelChannel::recv](parallel-channel.recv.html) - Спільне використання
+-   [parallelChannel::send](parallel-channel.send.html) - Спільне використання
+-   [parallelChannel::close](parallel-channel.close.html) - Закриття

@@ -1,6 +1,6 @@
 Копіює вказану кількість байтів з початку буфера
 
--   [« EventBuffer::\_\_construct](eventbuffer.construct.html)
+-   [« EventBuffer::construct](eventbuffer.construct.html)
     
 -   [EventBuffer::drain »](eventbuffer.drain.html)
     

@@ -1,8 +1,8 @@
 Перевірити поточну поштову скриньку
 
--   [« imap\_bodystruct](function.imap-bodystruct.html)
+-   [« imapbodystruct](function.imap-bodystruct.html)
     
--   [imap\_clearflag\_full »](function.imap-clearflag-full.html)
+-   [imapclearflagfull »](function.imap-clearflag-full.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_check(IMAP\Connection $imap): stdClass|false
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
@@ -45,9 +45,9 @@ imap_check(IMAP\Connection $imap): stdClass|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

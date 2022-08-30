@@ -1,6 +1,6 @@
 Клас OpenSSLCertificate
 
--   [« openssl\_x509\_verify](function.openssl-x509-verify.html)
+-   [« opensslx509verify](function.openssl-x509-verify.html)
     
 -   [OpenSSLCertificateSigningRequest »](class.opensslcertificatesigningrequest.html)
     

@@ -1,8 +1,8 @@
 MQSeries MQCONN
 
--   [« mqseries\_cmit](function.mqseries-cmit.html)
+-   [« mqseriescmit](function.mqseries-cmit.html)
     
--   [mqseries\_connx »](function.mqseries-connx.html)
+-   [mqseriesconnx »](function.mqseries-connx.html)
     
 -   [PHP Manual](index.html)
     
@@ -67,4 +67,4 @@ mqseries_conn(    string $qManagerName,    resource &$hconn,    reso
 
 ### Дивіться також
 
--   [mqseries\_disc()](function.mqseries-disc.html) - MQSeries MQDISC
+-   [mqseriesdisc()](function.mqseries-disc.html) - MQSeries MQDISC

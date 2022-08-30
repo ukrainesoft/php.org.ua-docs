@@ -17,14 +17,14 @@
 
 **ibmdb2 Опції налаштування**
 
-| Имя                                                                                    | По умолчанию | Место изменения | Лог изменений            |
-|----------------------------------------------------------------------------------------|--------------|-----------------|--------------------------|
-| [ibm\_db2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode)                     | "1"          | PHPINIALL       |                          |
-| [ibm\_db2.i5\_all\_pconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.6.5. |
-| [ibm\_db2.i5\_allow\_commit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.4.9. |
-| [ibm\_db2.i5\_dbcs\_alloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc)       | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.5.0. |
-| [ibm\_db2.instance\_name](ibm-db2.configuration.html#ini.ibm-db2.instance-name)        | NULL         | PHPINISYSTEM    | Доступно з ibmdb2 1.0.2. |
-| [ibm\_db2.i5\_ignore\_userid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.8.0. |
+| Имя                                                                              | По умолчанию | Место изменения | Лог изменений            |
+|----------------------------------------------------------------------------------|--------------|-----------------|--------------------------|
+| [ibmdb2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode)                 | "1"          | PHPINIALL       |                          |
+| [ibmdb2.i5allpconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.6.5. |
+| [ibmdb2.i5allowcommit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.4.9. |
+| [ibmdb2.i5dbcsalloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc)       | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.5.0. |
+| [ibmdb2.instancename](ibm-db2.configuration.html#ini.ibm-db2.instance-name)      | NULL         | PHPINISYSTEM    | Доступно з ibmdb2 1.0.2. |
+| [ibmdb2.i5ignoreuserid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.8.0. |
 
 Коротке пояснення конфігураційних директив.
 
@@ -41,11 +41,11 @@
 
 `ibm_db2.i5_all_pconnect` int
 
-Ця опція повністю перевизначає поведінку i5 [db2\_connect()](function.db2-connect.html). Якщо `ibm_db2.i5_all_pconnect` = 1, всі з'єднання з DB2 будуть постійними ([db2\_pconnect()](function.db2-pconnect.html)). На i5/OS використовувати [db2\_pconnect()](function.db2-pconnect.html) набагато, категорично, краще ніж [db2\_connect()](function.db2-connect.html). Ця установка перевизначає [db2\_connect()](function.db2-connect.html) таким чином, що завжди викликається [db2\_pconnect()](function.db2-pconnect.html)що дозволяє не переписувати код програми.
+Ця опція повністю перевизначає поведінку i5 [db2connect()](function.db2-connect.html). Якщо `ibm_db2.i5_all_pconnect` = 1, всі з'єднання з DB2 будуть постійними ([db2pconnect()](function.db2-pconnect.html)). На i5/OS використовувати [db2pconnect()](function.db2-pconnect.html) набагато, категорично, краще ніж [db2connect()](function.db2-connect.html). Ця установка перевизначає [db2connect()](function.db2-connect.html) таким чином, що завжди викликається [db2pconnect()](function.db2-pconnect.html)що дозволяє не переписувати код програми.
 
--   [db2\_connect()](function.db2-connect.html) працює штатно
+-   [db2connect()](function.db2-connect.html) працює штатно
     
--   [db2\_connect()](function.db2-connect.html) працює як [db2\_pconnect()](function.db2-pconnect.html)
+-   [db2connect()](function.db2-connect.html) працює як [db2pconnect()](function.db2-pconnect.html)
     
 
 `ibm_db2.i5_allow_commit` int

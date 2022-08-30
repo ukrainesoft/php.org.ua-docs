@@ -13,4 +13,4 @@
 
 # Вступ
 
-Модуль XSL реалізує XSL стандарти, поведінку [» XSLT трансформации](http://www.w3.org/TR/xslt) при використанні [» библиотеки libxslt](http://xmlsoft.org/XSLT/)
+Модуль XSL реалізує XSL стандарти, поведінку [» XSLT трансформації](http://www.w3.org/TR/xslt) при використанні [» библиотеки libxslt](http://xmlsoft.org/XSLT/)

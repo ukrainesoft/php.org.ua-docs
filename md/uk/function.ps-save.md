@@ -1,12 +1,12 @@
 Зберігає поточний контекст
 
--   [« ps\_rotate](function.ps-rotate.html)
+-   [«psrotate](function.ps-rotate.html)
     
--   [ps\_scale »](function.ps-scale.html)
+-   [псscale »](function.ps-scale.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции PS](ref.ps.html)
+-   [Функції PS](ref.ps.html)
     
 -   Зберігає поточний контекст
     
@@ -23,13 +23,13 @@
 ps_save(resource $psdoc): bool
 ```
 
-Зберігає поточний графічний контекст, що містить кольори, налаштування переміщення, повороту та багато іншого. Збережений контекст можна відновити за допомогою [ps\_restore()](function.ps-restore.html)
+Зберігає поточний графічний контекст, що містить кольори, налаштування переміщення, повороту та багато іншого. Збережений контекст можна відновити за допомогою [псrestore()](function.ps-restore.html)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ ps_save(resource $psdoc): bool
 
 ### Дивіться також
 
--   [ps\_restore()](function.ps-restore.html) - Відновлює раніше збережений контекст
+-   [псrestore()](function.ps-restore.html) - Відновлює раніше збережений контекст

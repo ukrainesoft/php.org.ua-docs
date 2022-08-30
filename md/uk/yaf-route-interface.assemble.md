@@ -1,12 +1,12 @@
 Збирає запит
 
--   [« Yaf\_Route\_Interface](class.yaf-route-interface.html)
+-   [« YafRouteInterface](class.yaf-route-interface.html)
     
--   [Yaf\_Route\_Interface::route »](yaf-route-interface.route.html)
+-   [YafRouteInterface::route »](yaf-route-interface.route.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Route\_Interface](class.yaf-route-interface.html)
+-   [YafRouteInterface](class.yaf-route-interface.html)
     
 -   Збирає запит
     

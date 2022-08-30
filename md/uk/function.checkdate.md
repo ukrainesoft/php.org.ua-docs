@@ -2,7 +2,7 @@
 
 -   [« Функции даты и времени](ref.datetime.html)
     
--   [date\_add »](function.date-add.html)
+-   [dateadd »](function.date-add.html)
     
 -   [PHP Manual](index.html)
     

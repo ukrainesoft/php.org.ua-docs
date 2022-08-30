@@ -2,11 +2,11 @@
 
 -   [« dirname](function.dirname.html)
     
--   [disk\_total\_space »](function.disk-total-space.html)
+-   [disktotalspace »](function.disk-total-space.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає розмір доступного простору в каталозі або файловій системі
     
@@ -56,8 +56,8 @@ $df_d = disk_free_space("D:");
 
 ### Примітки
 
-> **Зауваження**: Ця функція не застосовується для роботи з [удалёнными файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
 
 ### Дивіться також
 
--   [disk\_total\_space()](function.disk-total-space.html) - Повертає загальний розмір файлової системи або розділу диска
+-   [disktotalspace()](function.disk-total-space.html) - Повертає загальний розмір файлової системи або розділу диска

@@ -1,6 +1,6 @@
 Інтерфейс зовнішньої функції (Foreign Function Interface)
 
--   [« user\_error](function.user-error.html)
+-   [« usererror](function.user-error.html)
     
 -   [Введение »](intro.ffi.html)
     
@@ -42,23 +42,23 @@
     -   [FFI::string](ffi.string.html) — Створює рядок PHP із області пам'яті
     -   [FFI::type](ffi.type.html) — Створює об'єкт FFICType із декларації С
     -   [FFI::typeof](ffi.typeof.html) — Отримує FFICType для FFICData
--   [FFI\\CData](class.ffi-cdata.html) — Доступ до даних C
--   [FFI\\CType](class.ffi-ctype.html) — Доступ до типів C
-    -   [FFI\\CType::getAlignment](ffi-ctype.getalignment.html) - Опис
-    -   [FFI\\CType::getArrayElementType](ffi-ctype.getarrayelementtype.html) - Опис
-    -   [FFI\\CType::getArrayLength](ffi-ctype.getarraylength.html) - Опис
-    -   [FFI\\CType::getAttributes](ffi-ctype.getattributes.html) - Опис
-    -   [FFI\\CType::getEnumKind](ffi-ctype.getenumkind.html) - Опис
-    -   [FFI\\CType::getFuncABI](ffi-ctype.getfuncabi.html) - Опис
-    -   [FFI\\CType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html) - Опис
-    -   [FFI\\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.html) - Опис
-    -   [FFI\\CType::getFuncReturnType](ffi-ctype.getfuncreturntype.html) - Опис
-    -   [FFI\\CType::getKind](ffi-ctype.getkind.html) - Опис
-    -   [FFI\\CType::getName](ffi-ctype.getname.html) - Опис
-    -   [FFI\\CType::getPointerType](ffi-ctype.getpointertype.html) - Опис
-    -   [FFI\\CType::getSize](ffi-ctype.getsize.html) - Опис
-    -   [FFI\\CType::getStructFieldNames](ffi-ctype.getstructfieldnames.html) - Опис
-    -   [FFI\\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html) - Опис
-    -   [FFI\\CType::getStructFieldType](ffi-ctype.getstructfieldtype.html) - Опис
--   [FFI\\Exception](class.ffi-exception.html) - Винятки FFI
--   [FFI\\ParserException](class.ffi-parserexception.html) - Виключення парсера FFI
+-   [FFICData](class.ffi-cdata.html) — Доступ до даних C
+-   [FFICType](class.ffi-ctype.html) — Доступ до типів C
+    -   [FFICType::getAlignment](ffi-ctype.getalignment.html) - Опис
+    -   [FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.html) - Опис
+    -   [FFICType::getArrayLength](ffi-ctype.getarraylength.html) - Опис
+    -   [FFICType::getAttributes](ffi-ctype.getattributes.html) - Опис
+    -   [FFICType::getEnumKind](ffi-ctype.getenumkind.html) - Опис
+    -   [FFICType::getFuncABI](ffi-ctype.getfuncabi.html) - Опис
+    -   [FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html) - Опис
+    -   [FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.html) - Опис
+    -   [FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.html) - Опис
+    -   [FFICType::getKind](ffi-ctype.getkind.html) - Опис
+    -   [FFICType::getName](ffi-ctype.getname.html) - Опис
+    -   [FFICType::getPointerType](ffi-ctype.getpointertype.html) - Опис
+    -   [FFICType::getSize](ffi-ctype.getsize.html) - Опис
+    -   [FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.html) - Опис
+    -   [FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html) - Опис
+    -   [FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.html) - Опис
+-   [FFIException](class.ffi-exception.html) - Винятки FFI
+-   [FFIParserException](class.ffi-parserexception.html) - Виключення парсера FFI

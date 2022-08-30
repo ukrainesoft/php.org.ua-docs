@@ -1,6 +1,6 @@
 Надсилає електронну пошту
 
--   [« ezmlm\_hash](function.ezmlm-hash.html)
+-   [« ezmlmhash](function.ezmlm-hash.html)
     
 -   [Mailparse »](book.mailparse.html)
     
@@ -96,7 +96,7 @@ $text = str_replace("\n.", "\n..", $text);
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо лист був прийнятий для передачі, інакше **`false`**
+Повертає \*\*`true`\*\*якщо лист був прийнятий для передачі, інакше **`false`**
 
 Важливо зауважити, що те, що лист був прийнятий для передачі зовсім не означає, що він досяг одержувача.
 
@@ -224,7 +224,7 @@ mail($to, $subject, $message, implode("\r\n", $headers));
 
 > **Зауваження**
 > 
-> Для надсилання HTML або інших комплексних повідомлень рекомендується використовувати PEAR-пакет [» PEAR::Mail\_Mime](https://pear.php.net/package/Mail_Mime)
+> Для надсилання HTML або інших комплексних повідомлень рекомендується використовувати PEAR-пакет [» PEAR::MailMime](https://pear.php.net/package/Mail_Mime)
 
 ### Примітки
 
@@ -240,7 +240,7 @@ mail($to, $subject, $message, implode("\r\n", $headers));
 > 
 > Не слід використовувати функцію **mail()** для надсилання великої кількості листів у циклі. Функція відкриває та закриває з'єднання з SMTP-сервером для кожного листа, що не дуже ефективно.
 > 
-> Для надсилання великої кількості повідомлень зверніть увагу на пакети [» PEAR::Mail](https://pear.php.net/package/Mail) і [» PEAR::Mail\_Queue](https://pear.php.net/package/Mail_Queue)
+> Для надсилання великої кількості повідомлень зверніть увагу на пакети [» PEAR::Mail](https://pear.php.net/package/Mail) і [» PEAR::MailQueue](https://pear.php.net/package/Mail_Queue)
 
 > **Зауваження**
 > 
@@ -248,7 +248,7 @@ mail($to, $subject, $message, implode("\r\n", $headers));
 
 ### Дивіться також
 
--   [mb\_send\_mail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення
--   [imap\_mail()](function.imap-mail.html) - Надіслати email
+-   [мбsendmail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення
+-   [imapmail()](function.imap-mail.html) - Надіслати email
 -   [» PEAR::Mail](https://pear.php.net/package/Mail)
--   [» PEAR::Mail\_Mime](https://pear.php.net/package/Mail_Mime)
+-   [» PEAR::MailMime](https://pear.php.net/package/Mail_Mime)

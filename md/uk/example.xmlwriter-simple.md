@@ -2,7 +2,7 @@
 
 -   [« Примеры](xmlwriter.examples.html)
     
--   [Работа с пространствами имён XML »](example.xmlwriter-namespace.html)
+-   [Робота з просторами імен XML »](example.xmlwriter-namespace.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Опис
 
--   [« FFI\\CType::getName](ffi-ctype.getname.html)
+-   [« FFICType::getName](ffi-ctype.getname.html)
     
--   [FFI\\CType::getSize »](ffi-ctype.getsize.html)
+-   [FFICType::getSize »](ffi-ctype.getsize.html)
     
 -   [PHP Manual](index.html)
     
--   [FFI\\CType](class.ffi-ctype.html)
+-   [FFICType](class.ffi-ctype.html)
     
 -   Опис
     

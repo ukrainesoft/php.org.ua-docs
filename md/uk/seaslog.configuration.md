@@ -17,32 +17,32 @@
 
 **Опції налаштування Seaslog**
 
-| Имя                                                                                                 | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [seaslog.appender](seaslog.configuration.html#ini.seaslog.appender)                                 |              | PHPINISYSTEM    |                  |
-| [seaslog.appender\_retry](seaslog.configuration.html#ini.seaslog.appender-retry)                    |              | PHPINIALL       |                  |
-| [seaslog.level](seaslog.configuration.html#ini.seaslog.level)                                       |              | PHPINIALL       |                  |
-| [seaslog.remote\_host](seaslog.configuration.html#ini.seaslog.remote-host)                          |              | PHPINIALL       |                  |
-| [seaslog.remote\_port](seaslog.configuration.html#ini.seaslog.remote-port)                          |              | PHPINIALL       |                  |
-| [seaslog.remote\_timeout](seaslog.configuration.html#ini.seaslog.remote-timeout)                    |              | PHPINISYSTEM    |                  |
-| [seaslog.default\_basepath](seaslog.configuration.html#ini.seaslog.default-basepath)                | /var/log/www | PHPINISYSTEM    |                  |
-| [seaslog.default\_logger](seaslog.configuration.html#ini.seaslog.default-logger)                    | default      | PHPINISYSTEM    |                  |
-| [seaslog.default\_template](seaslog.configuration.html#ini.seaslog.default-template)                | %Т           | %Л              | %П               |
-| [seaslog.default\_datetime\_format](seaslog.configuration.html#ini.seaslog.default-datetime-format) | Y-m-d H:i:s  | PHPINISYSTEM    |                  |
-| [seaslog.trace\_error](seaslog.configuration.html#ini.seaslog.trace-error)                          |              | PHPINIALL       |                  |
-| [seaslog.trace\_exception](seaslog.configuration.html#ini.seaslog.trace-exception)                  |              | PHPINISYSTEM    |                  |
-| [seaslog.trace\_notice](seaslog.configuration.html#ini.seaslog.trace-notice)                        |              | PHPINIALL       |                  |
-| [seaslog.trace\_warning](seaslog.configuration.html#ini.seaslog.trace-warning)                      |              | PHPINIALL       |                  |
-| [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer)                            |              | PHPINISYSTEM    |                  |
-| [seaslog.buffer\_size](seaslog.configuration.html#ini.seaslog.buffer-size)                          |              | PHPINIALL       |                  |
-| [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)  |              | PHPINISYSTEM    |                  |
-| [seaslog.disting\_type](seaslog.configuration.html#ini.seaslog.disting-type)                        |              | PHPINISYSTEM    |                  |
-| [seaslog.disting\_folder](seaslog.configuration.html#ini.seaslog.disting-folder)                    |              | PHPINISYSTEM    |                  |
-| [seaslog.disting\_by\_hour](seaslog.configuration.html#ini.seaslog.disting-by-hour)                 |              | PHPINISYSTEM    |                  |
-| [seaslog.recall\_depth](seaslog.configuration.html#ini.seaslog.recall-depth)                        |              | PHPINIALL       |                  |
-| [seaslog.trim\_wrap](seaslog.configuration.html#ini.seaslog.trim-wrap)                              |              | PHPINIALL       |                  |
-| [seaslog.ignore\_warning](seaslog.configuration.html#ini.seaslog.ignore-warning)                    |              | PHPINIALL       |                  |
-| [seaslog.throw\_exception](seaslog.configuration.html#ini.seaslog.throw-exception)                  |              | PHPINIALL       |                  |
+| Имя                                                                                             | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [seaslog.appender](seaslog.configuration.html#ini.seaslog.appender)                             |              | PHPINISYSTEM    |                  |
+| [seaslog.appenderretry](seaslog.configuration.html#ini.seaslog.appender-retry)                  |              | PHPINIALL       |                  |
+| [seaslog.level](seaslog.configuration.html#ini.seaslog.level)                                   |              | PHPINIALL       |                  |
+| [seaslog.remotehost](seaslog.configuration.html#ini.seaslog.remote-host)                        |              | PHPINIALL       |                  |
+| [seaslog.remoteport](seaslog.configuration.html#ini.seaslog.remote-port)                        |              | PHPINIALL       |                  |
+| [seaslog.remotetimeout](seaslog.configuration.html#ini.seaslog.remote-timeout)                  |              | PHPINISYSTEM    |                  |
+| [seaslog.defaultbasepath](seaslog.configuration.html#ini.seaslog.default-basepath)              | /var/log/www | PHPINISYSTEM    |                  |
+| [seaslog.defaultlogger](seaslog.configuration.html#ini.seaslog.default-logger)                  | default      | PHPINISYSTEM    |                  |
+| [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)              | %Т           | %Л              | %П               |
+| [seaslog.defaultdatetimeformat](seaslog.configuration.html#ini.seaslog.default-datetime-format) | Y-m-d H:i:s  | PHPINISYSTEM    |                  |
+| [seaslog.traceerror](seaslog.configuration.html#ini.seaslog.trace-error)                        |              | PHPINIALL       |                  |
+| [seaslog.traceexception](seaslog.configuration.html#ini.seaslog.trace-exception)                |              | PHPINISYSTEM    |                  |
+| [seaslog.tracenotice](seaslog.configuration.html#ini.seaslog.trace-notice)                      |              | PHPINIALL       |                  |
+| [seaslog.tracewarning](seaslog.configuration.html#ini.seaslog.trace-warning)                    |              | PHPINIALL       |                  |
+| [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)                          |              | PHPINISYSTEM    |                  |
+| [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)                        |              | PHPINIALL       |                  |
+| [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)    |              | PHPINISYSTEM    |                  |
+| [seaslog.distingtype](seaslog.configuration.html#ini.seaslog.disting-type)                      |              | PHPINISYSTEM    |                  |
+| [seaslog.distingfolder](seaslog.configuration.html#ini.seaslog.disting-folder)                  |              | PHPINISYSTEM    |                  |
+| [seaslog.distingбhour](seaslog.configuration.html#ini.seaslog.disting-by-hour)                  |              | PHPINISYSTEM    |                  |
+| [seaslog.recalldepth](seaslog.configuration.html#ini.seaslog.recall-depth)                      |              | PHPINIALL       |                  |
+| [seaslog.trimwrap](seaslog.configuration.html#ini.seaslog.trim-wrap)                            |              | PHPINIALL       |                  |
+| [seaslog.ignorewarning](seaslog.configuration.html#ini.seaslog.ignore-warning)                  |              | PHPINIALL       |                  |
+| [seaslog.throwexception](seaslog.configuration.html#ini.seaslog.throw-exception)                |              | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

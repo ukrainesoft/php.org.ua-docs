@@ -1,12 +1,12 @@
 Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
 
--   [« mb\_ereg\_search\_regs](function.mb-ereg-search-regs.html)
+-   [« mberegsearchregs](function.mb-ereg-search-regs.html)
     
--   [mb\_ereg\_search »](function.mb-ereg-search.html)
+-   [мбeregsearch »](function.mb-ereg-search.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
     
@@ -23,7 +23,7 @@
 mb_ereg_search_setpos(int $offset): bool
 ```
 
-**мбeregsearchsetpos()** задає початкову позицію, з якої почнеться пошук відповідностей регулярного вираження функцією [mb\_ereg\_search()](function.mb-ereg-search.html)
+**мбeregsearchsetpos()** задає початкову позицію, з якої почнеться пошук відповідностей регулярного вираження функцією [мбeregsearch()](function.mb-ereg-search.html)
 
 ### Список параметрів
 
@@ -45,9 +45,9 @@ mb_ereg_search_setpos(int $offset): bool
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
 
 ### Дивіться також
 
--   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [mb\_ereg\_search\_init()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження
+-   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregsearchinit()](function.mb-ereg-search-init.html) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження

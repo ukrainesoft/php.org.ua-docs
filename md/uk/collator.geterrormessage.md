@@ -60,4 +60,4 @@ if( collator_compare( $coll, 'y', 'k' ) === false ) {
 
 ### Дивіться також
 
--   [collator\_get\_error\_code()](collator.geterrorcode.html) - Отримує останній код помилки Collator
+-   [collatorgeterrorcode()](collator.geterrorcode.html) - Отримує останній код помилки Collator

@@ -1,8 +1,8 @@
 Шифрує текст із заданими параметрами
 
--   [« mcrypt\_enc\_self\_test](function.mcrypt-enc-self-test.html)
+-   [« mcryptencselftest](function.mcrypt-enc-self-test.html)
     
--   [mcrypt\_generic\_deinit »](function.mcrypt-generic-deinit.html)
+-   [mcryptgenericdeinit »](function.mcrypt-generic-deinit.html)
     
 -   [PHP Manual](index.html)
     
@@ -129,5 +129,5 @@ This string was AES-256 / CBC / ZeroBytePadding encrypted.
 
 ### Дивіться також
 
--   [mcrypt\_decrypt()](function.mcrypt-decrypt.html) - Розшифровує дані із заданими параметрами
--   [mcrypt\_module\_open()](function.mcrypt-module-open.html) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcryptdecrypt()](function.mcrypt-decrypt.html) - Розшифровує дані із заданими параметрами
+-   [mcryptmoduleopen()](function.mcrypt-module-open.html) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

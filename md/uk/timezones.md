@@ -1,6 +1,6 @@
 Список підтримуваних часових поясів
 
--   [« Относительные форматы](datetime.formats.relative.html)
+-   [« Відносні формати](datetime.formats.relative.html)
     
 -   [Африка »](timezones.africa.html)
     
@@ -21,13 +21,13 @@
 -   [Арктика](timezones.arctic.html)
 -   [Азия](timezones.asia.html)
 -   [Атлантика](timezones.atlantic.html)
--   [Австралия](timezones.australia.html)
--   [Европа](timezones.europe.html)
--   [Индийский](timezones.indian.html)
+-   [Австралія](timezones.australia.html)
+-   [Європа](timezones.europe.html)
+-   [Індійська](timezones.indian.html)
 -   [Тихоокеанский](timezones.pacific.html)
--   [Другие](timezones.others.html)
+-   [Інші](timezones.others.html)
 
-Тут ви знайдете повний список часових поясів, підтримуваних PHP, які можуть бути використані, наприклад, [date\_default\_timezone\_set()](function.date-default-timezone-set.html)
+Тут ви знайдете повний список часових поясів, підтримуваних PHP, які можуть бути використані, наприклад, [datedefaulttimezoneset()](function.date-default-timezone-set.html)
 
 **Застереження**
 

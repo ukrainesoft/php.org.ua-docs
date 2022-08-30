@@ -1,8 +1,8 @@
 Виконує один або кілька запитів до бази даних
 
--   [« mysqli::more\_results](mysqli.more-results.html)
+-   [« mysqli::moreresults](mysqli.more-results.html)
     
--   [mysqli::next\_result »](mysqli.next-result.html)
+-   [mysqli::nextresult »](mysqli.next-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,11 +35,11 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 Запускає один або кілька запитів, перерахованих через точку з комою.
 
-Запити надсилаються асинхронно за один виклик бази даних, але база даних обробляє їх послідовно . **mysqlimultiquery()** очікує завершення першого запиту, перш ніж повернути керування PHP. Потім сервер MySQL обробить наступний запит у послідовності. Як тільки наступний результат буде готовий, MySQL чекатиме наступного виконання [mysqli\_next\_result()](mysqli.next-result.html) з PHP.
+Запити надсилаються асинхронно за один виклик бази даних, але база даних обробляє їх послідовно . **mysqlimultiquery()** очікує завершення першого запиту, перш ніж повернути керування PHP. Потім сервер MySQL обробить наступний запит у послідовності. Як тільки наступний результат буде готовий, MySQL чекатиме наступного виконання [mysqlinextresult()](mysqli.next-result.html) з PHP.
 
-Для обробки кількох запитів рекомендується використовувати [do-while](control-structures.do.while.html). З'єднання буде зайнято доти, доки всі запити не будуть завершені та їх результати не будуть завантажені до PHP. Ніякий інший оператор не може бути виданий у тому ж з'єднанні, доки не будуть опрацьовані всі запити. Щоб перейти до наступного запиту у послідовності, використовуйте [mysqli\_next\_result()](mysqli.next-result.html). Якщо наступний результат ще не готовий, на mysqli буде чекати відповіді від сервера MySQL. Щоб перевірити, чи є результати, використовуйте [mysqli\_more\_results()](mysqli.more-results.html)
+Для обробки кількох запитів рекомендується використовувати [do-while](control-structures.do.while.html). З'єднання буде зайнято доти, доки всі запити не будуть завершені та їх результати не будуть завантажені до PHP. Ніякий інший оператор не може бути виданий у тому ж з'єднанні, доки не будуть опрацьовані всі запити. Щоб перейти до наступного запиту у послідовності, використовуйте [mysqlinextresult()](mysqli.next-result.html). Якщо наступний результат ще не готовий, на mysqli буде чекати відповіді від сервера MySQL. Щоб перевірити, чи є результати, використовуйте [mysqlimoreresults()](mysqli.more-results.html)
 
-Для запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_store\_result()](mysqli.store-result.html) може використовуватись для отримання набору результатів. Для запитів, які не здійснюють набір результатів, ті ж функції можуть використовуватися для отримання інформації, такої як кількість порушених рядків.
+Для запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` [mysqliuseresult()](mysqli.use-result.html) або [mysqlistoreresult()](mysqli.store-result.html) може використовуватись для отримання набору результатів. Для запитів, які не здійснюють набір результатів, ті ж функції можуть використовуватися для отримання інформації, такої як кількість порушених рядків.
 
 **Підказка**
 
@@ -49,7 +49,7 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `query`
 
@@ -59,11 +59,11 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [подготавливаемые запросы](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html)
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.html)
 
 ### Значення, що повертаються
 
-Повертає **`false`**якщо перший вираз викликав помилку. Щоб отримати доступ до помилок інших підзапитів, потрібно спочатку викликати функцію [mysqli\_next\_result()](mysqli.next-result.html)
+Повертає \*\*`false`\*\*якщо перший вираз викликав помилку. Щоб отримати доступ до помилок інших підзапитів, потрібно спочатку викликати функцію [mysqlinextresult()](mysqli.next-result.html)
 
 ### Приклади
 
@@ -137,8 +137,8 @@ Haarlemmermeer
 
 ### Дивіться також
 
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_use\_result()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
--   [mysqli\_store\_result()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqli\_next\_result()](mysqli.next-result.html) - Підготовка наступного доступного результуючого набору з multiquery
--   [mysqli\_more\_results()](mysqli.more-results.html) - Перевірка, чи є ще результати у мультизапиті
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
+-   [mysqlinextresult()](mysqli.next-result.html) - Підготовка наступного доступного результуючого набору з multiquery
+-   [mysqlimoreresults()](mysqli.more-results.html) - Перевірка, чи є ще результати у мультизапиті

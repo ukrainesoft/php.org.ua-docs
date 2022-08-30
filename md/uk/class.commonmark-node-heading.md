@@ -1,8 +1,8 @@
 Heading успадковує CommonMarkNode
 
--   [« CommonMark\\Node\\Document](class.commonmark-node-document.html)
+-   [« CommonMarkNodeDocument](class.commonmark-node-document.html)
     
--   [CommonMark\\Node\\Heading::\_\_construct »](commonmark-node-heading.construct.html)
+-   [CommonMarkNodeHeading::construct »](commonmark-node-heading.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -103,4 +103,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMark\\Node\\Heading::\_\_construct](commonmark-node-heading.construct.html) - Конструктор класу Heading
+-   [CommonMarkNodeHeading::construct](commonmark-node-heading.construct.html) - Конструктор класу Heading

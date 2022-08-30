@@ -2,11 +2,11 @@
 
 -   [« CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.html)
     
--   [mysql\_xdevapi\\CollectionRemove »](class.mysql-xdevapi-collectionremove.html)
+-   [mysqlxdevapiCollectionRemove »](class.mysql-xdevapi-collectionremove.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+-   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
     
 -   Скидає значення полів документа
     

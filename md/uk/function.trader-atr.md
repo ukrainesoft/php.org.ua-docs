@@ -1,8 +1,8 @@
 Середній дійсний діапазон
 
--   [« trader\_atan](function.trader-atan.html)
+-   [« traderatan](function.trader-atan.html)
     
--   [trader\_avgprice »](function.trader-avgprice.html)
+-   [traderavgprice »](function.trader-avgprice.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Отримує довжину рядка в одиницях графеми
 
--   [« grapheme\_stristr](function.grapheme-stristr.html)
+-   [« graphemestristr](function.grapheme-stristr.html)
     
--   [grapheme\_strpos »](function.grapheme-strpos.html)
+-   [graphemestrpos »](function.grapheme-strpos.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,6 +61,6 @@ print grapheme_strlen( 'abc' . $char_a_ring_nfd . $char_o_diaeresis_nfd .
 ### Дивіться також
 
 -   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
--   [iconv\_strlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
--   [mb\_strlen()](function.mb-strlen.html) - Отримує довжину рядка
+-   [iconvstrlen()](function.iconv-strlen.html) - Повертає кількість символів у рядку
+-   [мбstrlen()](function.mb-strlen.html) - Отримує довжину рядка
 -   [strlen()](function.strlen.html) - Повертає довжину рядка

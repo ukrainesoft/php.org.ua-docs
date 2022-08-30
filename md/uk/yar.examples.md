@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](yar.constants.html)
     
--   [Yar\_Server »](class.yar-server.html)
+-   [YarServer »](class.yar-server.html)
     
 -   [PHP Manual](index.html)
     

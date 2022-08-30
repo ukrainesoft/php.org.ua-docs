@@ -1,12 +1,12 @@
 Призначає значення для движка відображення
 
--   [« Yaf\_View\_Interface](class.yaf-view-interface.html)
+-   [« YafViewInterface](class.yaf-view-interface.html)
     
--   [Yaf\_View\_Interface::display »](yaf-view-interface.display.html)
+-   [YafViewInterface::display »](yaf-view-interface.display.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Interface](class.yaf-view-interface.html)
+-   [YafViewInterface](class.yaf-view-interface.html)
     
 -   Призначає значення для движка відображення
     

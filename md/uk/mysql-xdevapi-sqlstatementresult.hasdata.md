@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+-   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
     
 -   Перевіряє, чи є у результату дані
     
@@ -33,7 +33,7 @@ public mysql_xdevapi\SqlStatementResult::hasData(): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо в наборі результатів є дані.
+\*\*`true`\*\*якщо в наборі результатів є дані.
 
 ### Приклади
 

@@ -23,7 +23,7 @@ public **EvSignal::construct**
 int `$signum`  
 [callable](language.types.callable.html) `$callback`  
 [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`  
+int `$priority`
 
 Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для створення зупиненого об'єкта спостерігача використовуйте метод [EvSignal::createStopped()](evsignal.createstopped.html)
 
@@ -35,7 +35,7 @@ int `$priority`
 
 `callback`
 
-Дивіться [Функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 

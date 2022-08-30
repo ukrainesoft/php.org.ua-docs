@@ -1,6 +1,6 @@
 Переміщує ітератор на одну позицію вперед або на початок
 
--   [« InfiniteIterator::\_\_construct](infiniteiterator.construct.html)
+-   [« InfiniteIterator::construct](infiniteiterator.construct.html)
     
 -   [IteratorIterator »](class.iteratoriterator.html)
     
@@ -39,4 +39,4 @@ public InfiniteIterator::next(): void
 
 ### Дивіться також
 
--   [InfiniteIterator::\_\_construct()](infiniteiterator.construct.html) - Конструктор класу InfiniteIterator
+-   [InfiniteIterator::construct()](infiniteiterator.construct.html) - Конструктор класу InfiniteIterator

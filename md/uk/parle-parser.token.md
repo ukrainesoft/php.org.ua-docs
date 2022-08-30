@@ -1,12 +1,12 @@
 Оголошує токен
 
--   [« Parle\\Parser::sigil](parle-parser.sigil.html)
+-   [« ParleParser::sigil](parle-parser.sigil.html)
     
--   [Parle\\Parser::tokenId »](parle-parser.tokenid.html)
+-   [ParleParser::tokenId »](parle-parser.tokenid.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Parser](class.parle-parser.html)
+-   [ParleParser](class.parle-parser.html)
     
 -   Оголошує токен
     

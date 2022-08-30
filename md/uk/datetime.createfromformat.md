@@ -1,6 +1,6 @@
 Розбирає рядок з датою згідно з вказаним форматом
 
--   [« DateTime::\_\_construct](datetime.construct.html)
+-   [« DateTime::construct](datetime.construct.html)
     
 -   [DateTime::createFromImmutable »](datetime.createfromimmutable.html)
     

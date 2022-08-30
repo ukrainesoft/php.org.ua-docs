@@ -1,8 +1,8 @@
 Створює сокет (кінцеву точку обміну інформацією)
 
--   [« socket\_create\_pair](function.socket-create-pair.html)
+-   [« socketcreatepair](function.socket-create-pair.html)
     
--   [socket\_export\_stream »](function.socket-export-stream.html)
+-   [socketexportstream »](function.socket-export-stream.html)
     
 -   [PHP Manual](index.html)
     
@@ -67,7 +67,7 @@ socket_create(int $domain, int $type, int $protocol): Socket|false
 
 ### Значення, що повертаються
 
-Функція **socketcreate()** повертає екземпляр [Socket](class.socket.html) у разі успішного виконання, або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою виклику функції [socket\_last\_error()](function.socket-last-error.html). Ця помилка може бути передана функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Функція **socketcreate()** повертає екземпляр [Socket](class.socket.html) у разі успішного виконання, або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.html). Ця помилка може бути передана функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
 ### Помилки
 
@@ -81,9 +81,9 @@ socket_create(int $domain, int $type, int $protocol): Socket|false
 
 ### Дивіться також
 
--   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
--   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketaccept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

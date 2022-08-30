@@ -1,8 +1,8 @@
 Опис
 
--   [« sodium\_crypto\_kx\_secretkey](function.sodium-crypto-kx-secretkey.html)
+-   [« sodiumcryptoкксsecretkey](function.sodium-crypto-kx-secretkey.html)
     
--   [sodium\_crypto\_kx\_server\_session\_keys »](function.sodium-crypto-kx-server-session-keys.html)
+-   [sodiumcryptoкксserversessionkeys »](function.sodium-crypto-kx-server-session-keys.html)
     
 -   [PHP Manual](index.html)
     

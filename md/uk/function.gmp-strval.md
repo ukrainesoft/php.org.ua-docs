@@ -1,12 +1,12 @@
 Перетворення GMP числа в рядок
 
--   [« gmp\_sqrtrem](function.gmp-sqrtrem.html)
+-   [« gmpsqrtrem](function.gmp-sqrtrem.html)
     
--   [gmp\_sub »](function.gmp-sub.html)
+-   [gmpsub »](function.gmp-sub.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Перетворення GMP числа в рядок
     

@@ -1,12 +1,12 @@
 Витягує останній елемент масиву
 
--   [« array\_pad](function.array-pad.html)
+-   [« arraypad](function.array-pad.html)
     
--   [array\_product »](function.array-product.html)
+-   [arrayproduct »](function.array-product.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Витягує останній елемент масиву
     
@@ -25,7 +25,7 @@ array_pop(array &$array): mixed
 
 **arraypop()** витягує та повертає значення останнього елемента масиву `array`зменшуючи розмір `array` на один елемент.
 
-> **Зауваження**: Ця функція під час виклику [сбрасывает](function.reset.html) вказівник масиву, переданого параметром.
+> **Зауваження**: Ця функція під час виклику [скидає](function.reset.html) вказівник масиву, переданого параметром.
 
 ### Список параметрів
 
@@ -64,6 +64,6 @@ Array
 
 ### Дивіться також
 
--   [array\_push()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
--   [array\_shift()](function.array-shift.html) - Витягує перший елемент масиву
--   [array\_unshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
+-   [arraypush()](function.array-push.html) - Додає один або кілька елементів у кінець масиву
+-   [arrayshift()](function.array-shift.html) - Витягує перший елемент масиву
+-   [arrayunshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву

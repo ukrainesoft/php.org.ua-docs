@@ -1,12 +1,12 @@
 Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
 
--   [« MongoDB\\Driver\\ReadPreference::getMode](mongodb-driver-readpreference.getmode.html)
+-   [« MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.html)
     
--   [MongoDB\\Driver\\ReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.html)
+-   [MongoDBDriverReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+-   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
     
 -   Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\ReadPreference::getModeString(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -72,5 +72,5 @@ string(7) "nearest"
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\ReadPreference::getMode()](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
+-   [MongoDBDriverReadPreference::getMode()](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
 -   [» Документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

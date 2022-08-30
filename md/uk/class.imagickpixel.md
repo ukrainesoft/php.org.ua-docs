@@ -50,7 +50,7 @@ public setIndex(int $index): bool
 ## Зміст
 
 -   [ImagickPixel::clear](imagickpixel.clear.html) — Очищає ресурси, пов'язані із цим об'єктом
--   [ImagickPixel::\_\_construct](imagickpixel.construct.html) - Конструктор ImagickPixel
+-   [ImagickPixel::construct](imagickpixel.construct.html) - Конструктор ImagickPixel
 -   [ImagickPixel::destroy](imagickpixel.destroy.html) - Звільняє ресурси, пов'язані з цим об'єктом
 -   [ImagickPixel::getColor](imagickpixel.getcolor.html) - Повертає колір
 -   [ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.html) — Повертає колір у вигляді рядка

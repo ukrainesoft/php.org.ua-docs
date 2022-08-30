@@ -1,12 +1,12 @@
 Визначає чи знаходиться директорія даним шляхом
 
--   [« svn\_fs\_file\_length](function.svn-fs-file-length.html)
+-   [« svnфсfilelength](function.svn-fs-file-length.html)
     
--   [svn\_fs\_is\_file »](function.svn-fs-is-file.html)
+-   [svnфсісfile »](function.svn-fs-is-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Визначає чи знаходиться директорія даним шляхом
     

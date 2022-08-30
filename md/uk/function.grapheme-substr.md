@@ -1,8 +1,8 @@
 Повертає частину рядка
 
--   [« grapheme\_strstr](function.grapheme-strstr.html)
+-   [« graphemestrstr](function.grapheme-strstr.html)
     
--   [Функции IDN »](ref.intl.idn.html)
+-   [Функції IDN »](ref.intl.idn.html)
     
 -   [PHP Manual](index.html)
     
@@ -73,5 +73,5 @@ a%CC%8Abco%CC%88
 
 ### Дивіться також
 
--   [grapheme\_extract()](function.grapheme-extract.html) - Функція для вилучення послідовності кластерів графем за замовчуванням із текстового буфера, яка має бути закодована у UTF-8
+-   [graphemeextract()](function.grapheme-extract.html) - Функція для вилучення послідовності кластерів графем за замовчуванням із текстового буфера, яка має бути закодована у UTF-8
 -   [»  Сегментация текста в Unicode: границы кластера графемы](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

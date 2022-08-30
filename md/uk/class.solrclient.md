@@ -168,12 +168,12 @@ public threads(): void
 -   [SolrClient::addDocument](solrclient.adddocument.html) — Додає документ до індексу
 -   [SolrClient::addDocuments](solrclient.adddocuments.html) — Додає колекцію екземплярів SolrInputDocument до індексу
 -   [SolrClient::commit](solrclient.commit.html) — Завершує всі додавання/видалення, зроблені в індексі
--   [SolrClient::\_\_construct](solrclient.construct.html) - Конструктор об'єкта SolrClient
+-   [SolrClient::construct](solrclient.construct.html) - Конструктор об'єкта SolrClient
 -   [SolrClient::deleteById](solrclient.deletebyid.html) — Видаляє за ідентифікатором
 -   [SolrClient::deleteByIds](solrclient.deletebyids.html) — Видаляє за ідентифікаторами
 -   [SolrClient::deleteByQueries](solrclient.deletebyqueries.html) — Видаляє всі документи, що відповідають будь-якому запиту.
 -   [SolrClient::deleteByQuery](solrclient.deletebyquery.html) — Видаляє всі документи, які відповідають заданому запиту
--   [SolrClient::\_\_destruct](solrclient.destruct.html) - Деструктор SolrClient
+-   [SolrClient::destruct](solrclient.destruct.html) - Деструктор SolrClient
 -   [SolrClient::getById](solrclient.getbyid.html) — Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
 -   [SolrClient::getByIds](solrclient.getbyids.html) — Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
 -   [SolrClient::getDebug](solrclient.getdebug.html) — Повертає дані налагодження для останньої спроби підключення

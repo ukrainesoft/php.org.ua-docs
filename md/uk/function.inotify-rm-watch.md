@@ -1,6 +1,6 @@
 Видалити спостерігача
 
--   [« inotify\_read](function.inotify-read.html)
+-   [« inotifyread](function.inotify-read.html)
     
 -   [xattr »](book.xattr.html)
     
@@ -29,7 +29,7 @@ inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
 
 `inotify_instance`
 
-Ресурс, що повертається [inotify\_init()](function.inotify-init.html)
+Ресурс, що повертається [inotifyinit()](function.inotify-init.html)
 
 `watch_descriptor`
 
@@ -41,4 +41,4 @@ inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
 
 ### Дивіться також
 
--   [inotify\_init()](function.inotify-init.html) - Ініціалізує екземпляр inotify
+-   [inotifyinit()](function.inotify-init.html) - Ініціалізує екземпляр inotify

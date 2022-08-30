@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [var\_representation](book.var_representation.html)
+-   [varrepresentation](book.var_representation.html)
     
 -   Встановлення та налаштування
     

@@ -81,4 +81,4 @@ echo $r->get('somestring');
 
 ### Дивіться також
 
--   [resourcebundle\_count()](resourcebundle.count.html) - Отримати кількість елементів у пакеті
+-   [resourcebundlecount()](resourcebundle.count.html) - Отримати кількість елементів у пакеті

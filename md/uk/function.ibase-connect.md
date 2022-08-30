@@ -1,8 +1,8 @@
 Відкриває з'єднання з базою даних
 
--   [« ibase\_commit](function.ibase-commit.html)
+-   [« ibasecommit](function.ibase-commit.html)
     
--   [ibase\_db\_info »](function.ibase-db-info.html)
+-   [ibaseдбinfo »](function.ibase-db-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ ibase_connect(    string $database = ?,    string $username = ?,    
 
 Встановлює з'єднання із сервером Firebird/InterBase.
 
-У разі повторного виклику **ibaseconnect()** з тими ж аргументами нове посилання не буде встановлене, натомість буде повернуто ідентифікатор вже відкритого посилання. Посилання на сервер буде закрито, як тільки завершиться виконання скрипту, якщо тільки воно не було закрито раніше явним викликом [ibase\_close()](function.ibase-close.html)
+У разі повторного виклику **ibaseconnect()** з тими ж аргументами нове посилання не буде встановлене, натомість буде повернуто ідентифікатор вже відкритого посилання. Посилання на сервер буде закрито, як тільки завершиться виконання скрипту, якщо тільки воно не було закрито раніше явним викликом [ibaseclose()](function.ibase-close.html)
 
 ### Список параметрів
 
@@ -65,7 +65,7 @@ ibase_connect(    string $database = ?,    string $username = ?,    
 
 ### Помилки
 
-Якщо ви отримаєте якусь помилку, наприклад "arithmetic exception, numeric overflow, or string truncation." [ibase\_query()](function.ibase-query.html) ви повинні встановити набір символів (наприклад, ISO88591 або поточний набір символів).
+Якщо ви отримаєте якусь помилку, наприклад "arithmetic exception, numeric overflow, or string truncation." [ibasequery()](function.ibase-query.html) ви повинні встановити набір символів (наприклад, ISO88591 або поточний набір символів).
 
 ### Приклади
 
@@ -88,5 +88,5 @@ ibase_close($dbh);
 
 ### Дивіться також
 
--   [ibase\_pconnect()](function.ibase-pconnect.html) - Відкриває постійне з'єднання з базою даних InterBase
--   [ibase\_close()](function.ibase-close.html) - Закриває з'єднання з базою даних InterBase
+-   [ibasepconnect()](function.ibase-pconnect.html) - Відкриває постійне з'єднання з базою даних InterBase
+-   [ibaseclose()](function.ibase-close.html) - Закриває з'єднання з базою даних InterBase

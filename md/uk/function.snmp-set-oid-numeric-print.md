@@ -1,12 +1,12 @@
 Встановлює вихідний OID
 
--   [« snmp\_set\_enum\_print](function.snmp-set-enum-print.html)
+-   [« snmpsetenumprint](function.snmp-set-enum-print.html)
     
--   [snmp\_set\_oid\_output\_format »](function.snmp-set-oid-output-format.html)
+-   [snmpsetoidoutputformat »](function.snmp-set-oid-output-format.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Встановлює вихідний OID
     
@@ -23,8 +23,8 @@ snmpsetoidnumericprint — Встановлює вихідний формат OI
 snmp_set_oid_numeric_print(int $format): bool
 ```
 
-Ця функція є псевдонімом: [snmp\_set\_oid\_output\_format()](function.snmp-set-oid-output-format.html)
+Ця функція є псевдонімом: [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.html)
 
 ### Дивіться також
 
--   [snmp\_set\_oid\_output\_format()](function.snmp-set-oid-output-format.html) - Встановлює вихідний формат OID
+-   [snmpsetoidoutputformat()](function.snmp-set-oid-output-format.html) - Встановлює вихідний формат OID

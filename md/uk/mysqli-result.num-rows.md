@@ -1,12 +1,12 @@
 Отримує кількість рядків у наборі результатів
 
--   [« mysqli\_result::$lengths](mysqli-result.lengths.html)
+-   [« mysqliresult::$lengths](mysqli-result.lengths.html)
     
--   [mysqli\_driver »](class.mysqli-driver.html)
+-   [mysqlidriver »](class.mysqli-driver.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Отримує кількість рядків у наборі результатів
     
@@ -23,7 +23,7 @@ mysqliresult::$numrows - mysqlinumrows — Отримує кількість р�
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli\_result->num\_rows](mysqli-result.num-rows.html)
+int|string [$mysqliresult->numrows](mysqli-result.num-rows.html)
 
 Процедурний стиль
 
@@ -39,7 +39,7 @@ mysqli_num_rows(mysqli_result $result): int|string
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -94,12 +94,12 @@ printf("Получено %d строк.\n", $row_cnt);
 
 > **Зауваження**
 > 
-> На відміну від функції [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html)У цієї функції немає варіанта в об'єктно-орієнтованому стилі. В об'єктно-орієнтованому стилі використовуйте спосіб читання.
+> На відміну від функції [mysqlistmtnumrows()](mysqli-stmt.num-rows.html)У цієї функції немає варіанта в об'єктно-орієнтованому стилі. В об'єктно-орієнтованому стилі використовуйте спосіб читання.
 
 ### Дивіться також
 
--   [mysqli\_affected\_rows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
--   [mysqli\_store\_result()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
--   [mysqli\_use\_result()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
--   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера
+-   [mysqliaffectedrows()](mysqli.affected-rows.html) - Отримує кількість рядків, порушених попередньою операцією MySQL
+-   [mysqlistoreresult()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
+-   [mysqliuseresult()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання
+-   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqlistmtnumrows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера

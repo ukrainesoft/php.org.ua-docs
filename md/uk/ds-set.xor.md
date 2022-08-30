@@ -1,6 +1,6 @@
 Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно
 
--   [« Ds\\Set::union](ds-set.union.html)
+-   [« DsSet::union](ds-set.union.html)
     
 -   [Стек »](class.ds-stack.html)
     
@@ -39,7 +39,7 @@ public Ds\Set::xor(Ds\Set $set): Ds\Set
 
 ### Також дивіться
 
--   [» Симметрическая разность](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
+-   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
 
 ### Приклади
 

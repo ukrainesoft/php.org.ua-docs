@@ -62,7 +62,7 @@ public stop(): int
 -   [VarnishAdmin::banUrl](varnishadmin.banurl.html) — Заборонити URL-адресу, використовуючи вираз VCL
 -   [VarnishAdmin::clearPanic](varnishadmin.clearpanic.html) — Очистити критичні повідомлення екземпляра varnish
 -   [VarnishAdmin::connect](varnishadmin.connect.html) — Підключення до інтерфейсу адміністрування екземпляра varnish
--   [VarnishAdmin::\_\_construct](varnishadmin.construct.html) — VarnishAdmin constructor
+-   [VarnishAdmin::construct](varnishadmin.construct.html) — VarnishAdmin constructor
 -   [VarnishAdmin::disconnect](varnishadmin.disconnect.html) — Відключення від інтерфейсу адміністрування екземпляра varnish
 -   [VarnishAdmin::getPanic](varnishadmin.getpanic.html) — Отримати останнє критичне повідомлення на екземплярі varnish
 -   [VarnishAdmin::getParams](varnishadmin.getparams.html) — Отримати параметри конфігурації поточного екземпляра varnish

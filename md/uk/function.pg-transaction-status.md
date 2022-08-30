@@ -1,8 +1,8 @@
 Повертає поточний стан транзакції на сервері
 
--   [« pg\_trace](function.pg-trace.html)
+-   [« pgtrace](function.pg-trace.html)
     
--   [pg\_tty »](function.pg-tty.html)
+-   [пгtty »](function.pg-tty.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ pg_transaction_status(PgSql\Connection $connection): int
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -41,9 +41,9 @@ pg_transaction_status(PgSql\Connection $connection): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

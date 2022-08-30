@@ -2,11 +2,11 @@
 
 -   [« max](function.max.html)
     
--   [mt\_getrandmax »](function.mt-getrandmax.html)
+-   [мтgetrandmax »](function.mt-getrandmax.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Знаходить найменше значення
     

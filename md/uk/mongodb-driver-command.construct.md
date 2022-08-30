@@ -1,12 +1,12 @@
 Створює новий об'єкт Command
 
--   [« MongoDB\\Driver\\Command](class.mongodb-driver-command.html)
+-   [« MongoDBDriverCommand](class.mongodb-driver-command.html)
     
--   [MongoDB\\Driver\\Query »](class.mongodb-driver-query.html)
+-   [MongoDBDriverQuery »](class.mongodb-driver-query.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Command](class.mongodb-driver-command.html)
+-   [MongoDBDriverCommand](class.mongodb-driver-command.html)
     
 -   Створює новий об'єкт Command
     
@@ -23,9 +23,9 @@ MongoDBDriverCommand::construct — Створює новий об'єкт Comman
 final public MongoDB\Driver\Command::__construct(array|object $document, ?array $commandOptions = null)
 ```
 
-Створює новий об'єкт класу [MongoDB\\Driver\\Command](class.mongodb-driver-command.html)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.html)
+Створює новий об'єкт класу [MongoDBDriverCommand](class.mongodb-driver-command.html)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html)
 
-Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`. Параметр `commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`. Параметр `commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
 
 ### Список параметрів
 
@@ -46,7 +46,7 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### список змін
 
@@ -153,5 +153,5 @@ operation exceeded time limit
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
--   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+-   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
+-   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)

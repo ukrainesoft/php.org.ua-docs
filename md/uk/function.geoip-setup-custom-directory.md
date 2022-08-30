@@ -1,8 +1,8 @@
 Встановити власну директорію для бази даних GeoIP
 
--   [« geoip\_region\_name\_by\_code](function.geoip-region-name-by-code.html)
+-   [« geoipregionnameбcode](function.geoip-region-name-by-code.html)
     
--   [geoip\_time\_zone\_by\_country\_and\_region »](function.geoip-time-zone-by-country-and-region.html)
+-   [geoiptimezoneбcountryandregion »](function.geoip-time-zone-by-country-and-region.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ geoipsetupcustomdirectory — Встановити власну директор
 geoip_setup_custom_directory(string $path): void
 ```
 
-Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.custom\_directory](geoip.configuration.html#ini.geoip.custom-directory)
+Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory)
 
 ### Список параметрів
 

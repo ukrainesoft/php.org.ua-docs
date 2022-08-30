@@ -1,8 +1,8 @@
 Повертає повідомлення про помилку
 
--   [« ibase\_errcode](function.ibase-errcode.html)
+-   [« ibaseerrcode](function.ibase-errcode.html)
     
--   [ibase\_execute »](function.ibase-execute.html)
+-   [ibaseexecute »](function.ibase-execute.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,4 +35,4 @@ ibase_errmsg(): string
 
 ### Дивіться також
 
--   [ibase\_errcode()](function.ibase-errcode.html) - Повертає код помилки
+-   [ibaseerrcode()](function.ibase-errcode.html) - Повертає код помилки

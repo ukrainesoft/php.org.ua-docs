@@ -1,8 +1,8 @@
 Ранкова зірка
 
--   [« trader\_cdlmorningdojistar](function.trader-cdlmorningdojistar.html)
+-   [« tradercdlmorningdojistar](function.trader-cdlmorningdojistar.html)
     
--   [trader\_cdlonneck »](function.trader-cdlonneck.html)
+-   [tradercdlonneck »](function.trader-cdlonneck.html)
     
 -   [PHP Manual](index.html)
     

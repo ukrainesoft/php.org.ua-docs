@@ -1,12 +1,12 @@
 Відкриває підключення до системного журналу
 
--   [« net\_get\_interfaces](function.net-get-interfaces.html)
+-   [« netgetinterfaces](function.net-get-interfaces.html)
     
 -   [pfsockopen »](function.pfsockopen.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Відкриває підключення до системного журналу
     

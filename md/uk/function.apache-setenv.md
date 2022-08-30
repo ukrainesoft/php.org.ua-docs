@@ -1,6 +1,6 @@
 Встановлює змінну subprocessenv Apache
 
--   [« apache\_response\_headers](function.apache-response-headers.html)
+-   [« apacheresponseheaders](function.apache-response-headers.html)
     
 -   [getallheaders »](function.getallheaders.html)
     
@@ -27,7 +27,7 @@ apache_setenv(string $variable, string $value, bool $walk_to_top = false): bool
 
 > **Зауваження**
 > 
-> При установці змінної оточення Apache, відповідна їй змінна [$\_SERVER](reserved.variables.server.html) не змінюється.
+> При установці змінної оточення Apache, відповідна їй змінна [SERVER](reserved.variables.server.html) не змінюється.
 
 ### Список параметрів
 
@@ -61,8 +61,8 @@ apache_setenv("EXAMPLE_VAR", "Какое-либо значение");
 
 > **Зауваження**
 > 
-> **apachesetenv()** можна використовувати разом з [apache\_getenv()](function.apache-getenv.html) на різних сторінках або визначення змінних, які потрібно передати включенням на стороні сервера SSI (.shtml), які, у свою чергу, були включені в PHP-скрипти.
+> **apachesetenv()** можна використовувати разом з [apachegetenv()](function.apache-getenv.html) на різних сторінках або визначення змінних, які потрібно передати включенням на стороні сервера SSI (.shtml), які, у свою чергу, були включені в PHP-скрипти.
 
 ### Дивіться також
 
--   [apache\_getenv()](function.apache-getenv.html) - Повертає змінну оточення підпроцесу сервера Apache
+-   [apachegetenv()](function.apache-getenv.html) - Повертає змінну оточення підпроцесу сервера Apache

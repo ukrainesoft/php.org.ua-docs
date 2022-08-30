@@ -1,12 +1,12 @@
 Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
 
--   [« db2\_stmt\_error](function.db2-stmt-error.html)
+-   [« db2stmterror](function.db2-stmt-error.html)
     
--   [db2\_table\_privileges »](function.db2-table-privileges.html)
+-   [db2tableprivileges »](function.db2-table-privileges.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
     
@@ -25,7 +25,7 @@ db2_stmt_errormsg(resource $stmt = ?): string
 
 Повертає рядок, який містить останнє повідомлення про помилку SQL-виразу.
 
-Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2\_prepare()](function.db2-prepare.html) або [db2\_exec()](function.db2-exec.html)
+Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2prepare()](function.db2-prepare.html) або [db2exec()](function.db2-exec.html)
 
 ### Список параметрів
 
@@ -39,6 +39,6 @@ db2_stmt_errormsg(resource $stmt = ?): string
 
 ### Дивіться також
 
--   [db2\_conn\_error()](function.db2-conn-error.html) - Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
--   [db2\_conn\_errormsg()](function.db2-conn-errormsg.html) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
--   [db2\_stmt\_error()](function.db2-stmt-error.html) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
+-   [db2connerror()](function.db2-conn-error.html) - Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
+-   [db2connerrormsg()](function.db2-conn-errormsg.html) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
+-   [db2stmterror()](function.db2-stmt-error.html) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором

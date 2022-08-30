@@ -1,12 +1,12 @@
 Встановлює протокол порту сервера
 
--   [« Swoole\\Server\\Port::on](swoole-server-port.on.html)
+-   [« SwooleServerPort::on](swoole-server-port.on.html)
     
--   [Swoole\\Server::exist »](swoole-server.exist.html)
+-   [SwooleServer::exist »](swoole-server.exist.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Встановлює протокол порту сервера
     

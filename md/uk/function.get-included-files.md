@@ -1,12 +1,12 @@
 Повертає масив імен увімкнених у скрипт файлів
 
--   [« get\_include\_path](function.get-include-path.html)
+-   [« getincludepath](function.get-include-path.html)
     
--   [get\_loaded\_extensions »](function.get-loaded-extensions.html)
+-   [getloadedextensions »](function.get-loaded-extensions.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає масив імен увімкнених у скрипт файлів
     
@@ -23,7 +23,7 @@ getincludedfiles — Повертає масив імен увімкнених �
 get_included_files(): array
 ```
 
-Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.html) [include\_once](function.include-once.html) [require](function.require.html) або [require\_once](function.require-once.html)
+Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.html) [includeonce](function.include-once.html) [require](function.require.html) або [requireonce](function.require-once.html)
 
 ### Список параметрів
 
@@ -72,7 +72,7 @@ foreach ($included_files as $filename) {
 ### Дивіться також
 
 -   [include](function.include.html) - include
--   [include\_once](function.include-once.html) - includeonce
+-   [includeonce](function.include-once.html) - includeonce
 -   [require](function.require.html) - require
--   [require\_once](function.require-once.html) - requireonce
--   [get\_required\_files()](function.get-required-files.html) - Псевдонім getincludedfiles
+-   [requireonce](function.require-once.html) - requireonce
+-   [getrequiredfiles()](function.get-required-files.html) - Псевдонім getincludedfiles

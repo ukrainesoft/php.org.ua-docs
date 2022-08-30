@@ -1,8 +1,8 @@
 Повертає версію клієнтської бібліотеки
 
--   [« oci\_cancel](function.oci-cancel.html)
+-   [« ocicancel](function.oci-cancel.html)
     
--   [oci\_close »](function.oci-close.html)
+-   [ociclose »](function.oci-close.html)
     
 -   [PHP Manual](index.html)
     
@@ -51,4 +51,4 @@ oci_client_version(): string
 
 ### Дивіться також
 
--   [oci\_server\_version()](function.oci-server-version.html) - Повертає версію сервера Oracle
+-   [ociserverversion()](function.oci-server-version.html) - Повертає версію сервера Oracle

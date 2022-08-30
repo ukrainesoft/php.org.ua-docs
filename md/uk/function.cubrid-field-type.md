@@ -1,12 +1,12 @@
 Отримати тип зазначеного стовпця
 
--   [« cubrid\_field\_table](function.cubrid-field-table.html)
+-   [« cubridfieldtable](function.cubrid-field-table.html)
     
--   [cubrid\_list\_dbs »](function.cubrid-list-dbs.html)
+-   [cubridlistdbs »](function.cubrid-list-dbs.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримати тип зазначеного стовпця
     
@@ -29,7 +29,7 @@ cubrid_field_type(resource $result, int $field_offset): string
 
 `result`
 
-`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 `field_offset`
 
@@ -39,7 +39,7 @@ cubrid_field_type(resource $result, int $field_offset): string
 
 Тип стовпця у разі успішного виконання.
 
-**`false`**якщо заданий некоректний fieldoffset.
+\*\*`false`\*\*якщо заданий некоректний fieldoffset.
 
 1, якщо SQL-запит був відмінним від SELECT типу.
 

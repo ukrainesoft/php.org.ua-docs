@@ -17,4 +17,4 @@
 
 Користувачі Windows можуть завантажити готовий реліз із сайту [» PECL](https://windows.php.net/downloads/pecl/releases/uopz)
 
-Починаючи з 5.0.0, модуль повинен завантажуватись як звичайний модуль PHP ([extension](ini.core.html#ini.extension)). Раніше його треба було завантажувати як [zend\_extension](ini.core.html#ini.zend-extension)
+Починаючи з 5.0.0, модуль повинен завантажуватись як звичайний модуль PHP ([extension](ini.core.html#ini.extension)). Раніше його треба було завантажувати як [zendextension](ini.core.html#ini.zend-extension)

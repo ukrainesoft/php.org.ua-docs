@@ -1,12 +1,12 @@
 Доступ
 
--   [« parallel\\Channel::make](parallel-channel.make.html)
+-   [« parallelChannel::make](parallel-channel.make.html)
     
--   [parallel\\Channel::recv »](parallel-channel.recv.html)
+-   [parallelChannel::recv »](parallel-channel.recv.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Channel](class.parallel-channel.html)
+-   [parallelChannel](class.parallel-channel.html)
     
 -   Доступ
     

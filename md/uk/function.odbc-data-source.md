@@ -1,8 +1,8 @@
 Повертає інформацію про доступні DSN
 
--   [« odbc\_cursor](function.odbc-cursor.html)
+-   [« odbccursor](function.odbc-cursor.html)
     
--   [odbc\_do »](function.odbc-do.html)
+-   [odbcdo »](function.odbc-do.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_data_source(resource $odbc, int $fetch_type): array|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `fetch_type`
 

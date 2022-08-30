@@ -43,7 +43,7 @@ locale_get_script(string $locale): ?string
 
 ### Значення, що повертаються
 
-Алфавіт, пов'язаний з локаллю або **`null`**якщо відсутня.
+Алфавіт, пов'язаний з локаллю або \*\*`null`\*\*якщо відсутня.
 
 ### Приклади
 
@@ -71,6 +71,6 @@ Cyrl
 
 ### Дивіться також
 
--   [locale\_get\_primary\_language()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
--   [locale\_get\_region()](locale.getregion.html) - Отримати регіон для локалі
--   [locale\_get\_all\_variants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetprimarylanguage()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
+-   [localegetregion()](locale.getregion.html) - Отримати регіон для локалі
+-   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі

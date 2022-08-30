@@ -1,12 +1,12 @@
 Визначає, чи доступний файл для запису
 
--   [« is\_uploaded\_file](function.is-uploaded-file.html)
+-   [« isuploadedfile](function.is-uploaded-file.html)
     
--   [is\_writeable »](function.is-writeable.html)
+-   [ісwriteable »](function.is-writeable.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Визначає, чи доступний файл для запису
     
@@ -62,10 +62,10 @@ if (is_writable($filename)) {
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
 
 ### Дивіться також
 
--   [is\_readable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
--   [file\_exists()](function.file-exists.html) - Перевіряє існування вказаного файлу чи каталогу
+-   [ісreadable()](function.is-readable.html) - Визначає існування файлу і чи він доступний для читання
+-   [fileexists()](function.file-exists.html) - Перевіряє існування вказаного файлу чи каталогу
 -   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл

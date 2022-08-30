@@ -2,11 +2,11 @@
 
 -   [« EvCheck::createStopped](evcheck.createstopped.html)
     
--   [EvChild::\_\_construct »](evchild.construct.html)
+-   [EvChild::construct »](evchild.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Клас EvChild
     
@@ -146,7 +146,7 @@ public
 
 pid
 
-*Тільки читання*. Ідентифікатор процесу, який слідкує, або **`0`**що означає будь-який ідентифікатор процесу.
+*Тільки читання*. Ідентифікатор процесу, який слідкує, або \*\*`0`\*\*що означає будь-який ідентифікатор процесу.
 
 rpid
 
@@ -158,6 +158,6 @@ rstatus
 
 ## Зміст
 
--   [EvChild::\_\_construct](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvChild::construct](evchild.construct.html) - Створює об'єкт спостерігач EvChild
 -   [EvChild::createStopped](evchild.createstopped.html) — Створює зупинений екземпляр спостерігача EvCheck
 -   [EvChild::set](evchild.set.html) - Конфігурування спостерігача

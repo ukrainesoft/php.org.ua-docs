@@ -1,12 +1,12 @@
 Повертає логічний ідентифікатор сеансу для цього сеансу
 
--   [« MongoDB\\Driver\\Session::getClusterTime](mongodb-driver-session.getclustertime.html)
+-   [« MongoDBDriverSession::getClusterTime](mongodb-driver-session.getclustertime.html)
     
--   [MongoDB\\Driver\\Session::getOperationTime »](mongodb-driver-session.getoperationtime.html)
+-   [MongoDBDriverSession::getOperationTime »](mongodb-driver-session.getoperationtime.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+-   [MongoDBDriverSession](class.mongodb-driver-session.html)
     
 -   Повертає логічний ідентифікатор сеансу для цього сеансу
     
@@ -35,4 +35,4 @@ final public MongoDB\Driver\Session::getLogicalSessionId(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

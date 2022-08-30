@@ -1,12 +1,12 @@
 Додає вузол градієнта
 
--   [« UI\\Draw\\Brush\\Gradient](class.ui-draw-brush-gradient.html)
+-   [« UIDrawBrushGradient](class.ui-draw-brush-gradient.html)
     
--   [UI\\Draw\\Brush\\Gradient::delStop »](ui-draw-brush-gradient.delstop.html)
+-   [ОЙDrawBrushGradient::delStop »](ui-draw-brush-gradient.delstop.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Brush\\Gradient](class.ui-draw-brush-gradient.html)
+-   [ОЙDrawBrushGradient](class.ui-draw-brush-gradient.html)
     
 -   Додає вузол градієнта
     

@@ -1,8 +1,8 @@
 Лінійний регресійний кут
 
--   [« trader\_kama](function.trader-kama.html)
+-   [« traderkama](function.trader-kama.html)
     
--   [trader\_linearreg\_intercept »](function.trader-linearreg-intercept.html)
+-   [traderlinearregintercept »](function.trader-linearreg-intercept.html)
     
 -   [PHP Manual](index.html)
     

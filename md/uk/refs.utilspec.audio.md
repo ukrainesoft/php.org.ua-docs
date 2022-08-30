@@ -1,6 +1,6 @@
 Обробка аудіо форматів
 
--   [« Yac::\_\_set](yac.setter.html)
+-   [« Yac::set](yac.setter.html)
     
 -   [OpenAL »](book.openal.html)
     

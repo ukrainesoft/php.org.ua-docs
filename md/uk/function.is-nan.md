@@ -1,12 +1,12 @@
 Перевіряє, чи є значення "не числом"
 
--   [« is\_infinite](function.is-infinite.html)
+-   [« isinfinite](function.is-infinite.html)
     
--   [lcg\_value »](function.lcg-value.html)
+-   [lcgvalue »](function.lcg-value.html)
     
 -   [PHP Manual](index.html)
     
--   [Математические функции](ref.math.html)
+-   [Математичні функції](ref.math.html)
     
 -   Перевіряє, чи є значення "не числом"
     
@@ -58,5 +58,5 @@ bool(true)
 
 ### Дивіться також
 
--   [is\_finite()](function.is-finite.html) - Перевіряє, чи є значення допустимим кінцевим числом
--   [is\_infinite()](function.is-infinite.html) - Перевіряє, чи є значення нескінченним
+-   [ісfinite()](function.is-finite.html) - Перевіряє, чи є значення допустимим кінцевим числом
+-   [ісinfinite()](function.is-infinite.html) - Перевіряє, чи є значення нескінченним

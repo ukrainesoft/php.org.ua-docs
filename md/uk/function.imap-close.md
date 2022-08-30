@@ -1,8 +1,8 @@
 Закрити потік IMAP
 
--   [« imap\_clearflag\_full](function.imap-clearflag-full.html)
+-   [« imapclearflagfull](function.imap-clearflag-full.html)
     
--   [imap\_create »](function.imap-create.html)
+-   [imapcreate »](function.imap-create.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,11 +29,11 @@ imap_close(IMAP\Connection $imap, int $flags = 0): bool
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `flags`
 
-Якщо встановлено **`CL_EXPUNGE`**, то ця функція мовчки застосує всі внесені зміни, зокрема видалить всі повідомлення, позначені для видалення. По суті зробить те саме, що і функція [imap\_expunge()](function.imap-expunge.html)
+Якщо встановлено **`CL_EXPUNGE`**, то ця функція мовчки застосує всі внесені зміни, зокрема видалить всі повідомлення, позначені для видалення. По суті зробить те саме, що і функція [imapexpunge()](function.imap-expunge.html)
 
 ### Значення, що повертаються
 
@@ -41,10 +41,10 @@ imap_close(IMAP\Connection $imap, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
--   [imap\_open()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
+-   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки

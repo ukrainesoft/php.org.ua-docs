@@ -1,12 +1,12 @@
 Визволяє ресурси, пов'язані з набором результатів
 
--   [« db2\_foreign\_keys](function.db2-foreign-keys.html)
+-   [« db2foreignkeys](function.db2-foreign-keys.html)
     
--   [db2\_free\_stmt »](function.db2-free-stmt.html)
+-   [db2freestmt »](function.db2-free-stmt.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции IBM DB2](ref.ibm-db2.html)
+-   [Функції IBM DB2](ref.ibm-db2.html)
     
 -   Визволяє ресурси, пов'язані з набором результатів
     
@@ -37,4 +37,4 @@ db2_free_result(resource $stmt): bool
 
 ### Дивіться також
 
--   [db2\_free\_stmt()](function.db2-free-stmt.html) - звільняє ресурси, пов'язані із зазначеним ресурсом вираження
+-   [db2freestmt()](function.db2-free-stmt.html) - звільняє ресурси, пов'язані із зазначеним ресурсом вираження

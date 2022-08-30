@@ -1,8 +1,8 @@
 Дожі-надгробки
 
--   [« trader\_cdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.html)
+-   [« tradercdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.html)
     
--   [trader\_cdlhammer »](function.trader-cdlhammer.html)
+-   [tradercdlhammer »](function.trader-cdlhammer.html)
     
 -   [PHP Manual](index.html)
     

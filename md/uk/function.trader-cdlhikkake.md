@@ -1,8 +1,8 @@
 Свічкова модель "Крюк"
 
--   [« trader\_cdlhighwave](function.trader-cdlhighwave.html)
+-   [« tradercdlhighwave](function.trader-cdlhighwave.html)
     
--   [trader\_cdlhikkakemod »](function.trader-cdlhikkakemod.html)
+-   [tradercdlhikkakemod »](function.trader-cdlhikkakemod.html)
     
 -   [PHP Manual](index.html)
     

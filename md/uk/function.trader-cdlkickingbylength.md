@@ -1,8 +1,8 @@
 Високий стрибок - бик/ведмідь визначається за довгим марубозом
 
--   [« trader\_cdlkicking](function.trader-cdlkicking.html)
+-   [« tradercdlkicking](function.trader-cdlkicking.html)
     
--   [trader\_cdlladderbottom »](function.trader-cdlladderbottom.html)
+-   [tradercdlladderbottom »](function.trader-cdlladderbottom.html)
     
 -   [PHP Manual](index.html)
     

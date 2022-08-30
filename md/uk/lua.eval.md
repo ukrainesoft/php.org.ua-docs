@@ -1,6 +1,6 @@
 Розбирає рядок як код Lua
 
--   [« Lua::\_\_construct](lua.construct.html)
+-   [« Lua::construct](lua.construct.html)
     
 -   [Lua::getVersion »](lua.getversion.html)
     

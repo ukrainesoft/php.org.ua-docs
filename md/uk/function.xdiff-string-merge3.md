@@ -1,12 +1,12 @@
 Об'єднати три рядки в один
 
--   [« xdiff\_string\_diff](function.xdiff-string-diff.html)
+-   [xdiffstringdiff](function.xdiff-string-diff.html)
     
--   [xdiff\_string\_patch\_binary »](function.xdiff-string-patch-binary.html)
+-   [xdiffstringpatchbinary »](function.xdiff-string-patch-binary.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции xdiff](ref.xdiff.html)
+-   [Функції xdiff](ref.xdiff.html)
     
 -   Об'єднати три рядки в один
     
@@ -49,4 +49,4 @@ xdiff_string_merge3(    string $old_data,    string $new_data1,    s
 
 ### Дивіться також
 
--   [xdiff\_file\_merge3()](function.xdiff-file-merge3.html) - Об'єднання трьох файлів в один
+-   [xdifffilemerge3()](function.xdiff-file-merge3.html) - Об'єднання трьох файлів в один

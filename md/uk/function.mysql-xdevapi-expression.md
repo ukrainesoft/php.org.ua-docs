@@ -1,12 +1,12 @@
 Зв'язує підготовлені змінні твердження як параметри
 
--   [« Функции Mysql\_xdevapi](ref.mysql-xdevapi.html)
+-   [« Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     
 -   [getSession »](function.mysql-xdevapi-getsession.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Mysql\_xdevapi](ref.mysql-xdevapi.html)
+-   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
     
 -   Зв'язує підготовлені змінні твердження як параметри
     

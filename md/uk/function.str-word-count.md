@@ -1,12 +1,12 @@
 Повертає інформацію про слова, що входять до рядка
 
--   [« str\_starts\_with](function.str-starts-with.html)
+-   [« strstartswith](function.str-starts-with.html)
     
 -   [strcasecmp »](function.strcasecmp.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає інформацію про слова, що входять до рядка
     
@@ -115,6 +115,6 @@ Array
 ### Дивіться також
 
 -   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [count\_chars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
--   [substr\_count()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
+-   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка

@@ -1,8 +1,8 @@
 Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
 
--   [« cubrid\_get](function.cubrid-get.html)
+-   [« cubridget](function.cubrid-get.html)
     
--   [cubrid\_is\_instance »](function.cubrid-is-instance.html)
+-   [cubridісinstance »](function.cubrid-is-instance.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ cubrid_insert_id(resource $conn_identifier = ?): string
 
 `conn_identifier`
 
-Ідентифікатор з'єднання, отриманий раніше під час виклику [cubrid\_connect()](function.cubrid-connect.html)
+Ідентифікатор з'єднання, отриманий раніше під час виклику [cubridconnect()](function.cubrid-connect.html)
 
 ### Значення, що повертаються
 

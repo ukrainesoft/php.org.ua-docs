@@ -1,12 +1,12 @@
 Повертає всі об'єкти, включаючи їхній ідентифікатор
 
--   [« snmp2\_getnext](function.snmp2-getnext.html)
+-   [« snmp2getnext](function.snmp2-getnext.html)
     
--   [snmp2\_set »](function.snmp2-set.html)
+-   [snmp2set »](function.snmp2-set.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Повертає всі об'єкти, включаючи їхній ідентифікатор
     
@@ -76,4 +76,4 @@ Array
 
 ### Дивіться також
 
--   [snmp2\_walk()](function.snmp2-walk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmp2walk()](function.snmp2-walk.html) - Отримує всі об'єкти SNMP з агента

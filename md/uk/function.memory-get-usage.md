@@ -1,12 +1,12 @@
 Повертає кількість пам'яті, виділену для PHP
 
--   [« memory\_get\_peak\_usage](function.memory-get-peak-usage.html)
+-   [« memorygetpeakusage](function.memory-get-peak-usage.html)
     
--   [php\_ini\_loaded\_file »](function.php-ini-loaded-file.html)
+-   [phpiniloadedfile »](function.php-ini-loaded-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Повертає кількість пам'яті, виділену для PHP
     
@@ -63,5 +63,5 @@ echo memory_get_usage() . "\n"; // 36744
 
 ### Дивіться також
 
--   [memory\_get\_peak\_usage()](function.memory-get-peak-usage.html) - Повертає пікове значення об'єму пам'яті, виділене PHP
--   [memory\_limit](ini.core.html#ini.memory-limit)
+-   [memorygetpeakusage()](function.memory-get-peak-usage.html) - Повертає пікове значення об'єму пам'яті, виділене PHP
+-   [memorylimit](ini.core.html#ini.memory-limit)

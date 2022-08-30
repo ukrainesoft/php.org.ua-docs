@@ -1,12 +1,12 @@
 Визначення обраності пункту
 
--   [« UI\\MenuItem::enable](ui-menuitem.enable.html)
+-   [« UIMenuItem::enable](ui-menuitem.enable.html)
     
--   [UI\\MenuItem::onClick »](ui-menuitem.onclick.html)
+-   [ОЙMenuItem::onClick »](ui-menuitem.onclick.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\MenuItem](class.ui-menuitem.html)
+-   [ОЙMenuItem](class.ui-menuitem.html)
     
 -   Визначення обраності пункту
     

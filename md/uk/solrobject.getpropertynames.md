@@ -1,6 +1,6 @@
 Повертає масив усіх імен властивостей
 
--   [« SolrObject::\_\_destruct](solrobject.destruct.html)
+-   [« SolrObject::destruct](solrobject.destruct.html)
     
 -   [SolrObject::offsetExists »](solrobject.offsetexists.html)
     

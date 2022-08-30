@@ -1,8 +1,8 @@
 Перевірити, чи правильно написано слово та запропонувати варіанти заміни
 
--   [« enchant\_dict\_is\_in\_session](function.enchant-dict-is-in-session.html)
+-   [« enchantdictісінsession](function.enchant-dict-is-in-session.html)
     
--   [enchant\_dict\_store\_replacement »](function.enchant-dict-store-replacement.html)
+-   [enchantdictstorereplacement »](function.enchant-dict-store-replacement.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
 
@@ -41,7 +41,7 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 ### Значення, що повертаються
 
-Повертає **`true`**якщо слово написано правильно або **`false`**, якщо ні
+Повертає \*\*`true`\*\*якщо слово написано правильно або **`false`**, якщо ні
 
 ### список змін
 
@@ -101,5 +101,5 @@ Array
 
 ### Дивіться також
 
--   [enchant\_dict\_check()](function.enchant-dict-check.html) - Перевіряє, чи правильно задано слово
--   [enchant\_dict\_suggest()](function.enchant-dict-suggest.html) - Поверне список можливих варіантів для слова з помилкою
+-   [enchantdictcheck()](function.enchant-dict-check.html) - Перевіряє, чи правильно задано слово
+-   [enchantdictsuggest()](function.enchant-dict-suggest.html) - Поверне список можливих варіантів для слова з помилкою

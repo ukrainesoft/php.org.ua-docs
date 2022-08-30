@@ -1,6 +1,6 @@
 Отримує серйозність виключення
 
--   [« ErrorException::\_\_construct](errorexception.construct.html)
+-   [« ErrorException::construct](errorexception.construct.html)
     
 -   [Error »](class.error.html)
     

@@ -317,7 +317,7 @@ public
 
 фд
 
-Числовий файловий дескриптор пов'язаний із буферизованим сокетом. Зазвичай є пов'язаним сокетом. Рівний **`null`**якщо відсутній файловий дескриптор (сокет) пов'язаний з буферизованим подією.
+Числовий файловий дескриптор пов'язаний із буферизованим сокетом. Зазвичай є пов'язаним сокетом. Рівний \*\*`null`\*\*якщо відсутній файловий дескриптор (сокет) пов'язаний з буферизованим подією.
 
 priority
 
@@ -365,7 +365,7 @@ output
 
 **`EventBufferEvent::OPT_DEFER_CALLBACKS`**
 
-Коли прапор встановлено, bufferevent відкладає всі функції зворотного виклику. Дивіться [» Быстрое, переносимое, неблокирующее сетевое программирование с Libevent и отложенными функциями обратного вызова (Deferred callbacks)](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.html#_deferred_callbacks)
+Коли прапор встановлено, bufferevent відкладає всі функції зворотного виклику. Дивіться [» Швидке, переносне, неблокуюче мережне програмування з Libevent та відкладеними функціями зворотного виклику (Deferred callbacks)](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.html#_deferred_callbacks)
 
 **`EventBufferEvent::OPT_UNLOCK_CALLBACKS`**
 
@@ -388,7 +388,7 @@ output
 -   [EventBufferEvent::close](eventbufferevent.close.html) — Закриває дескриптор файлу, пов'язаний із поточною подією буфера
 -   [EventBufferEvent::connect](eventbufferevent.connect.html) — Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
 -   [EventBufferEvent::connectHost](eventbufferevent.connecthost.html) — Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
--   [EventBufferEvent::\_\_construct](eventbufferevent.construct.html) — Створює об'єкт EventBufferEvent
+-   [EventBufferEvent::construct](eventbufferevent.construct.html) — Створює об'єкт EventBufferEvent
 -   [EventBufferEvent::createPair](eventbufferevent.createpair.html) — Створює дві буферні події, пов'язані одна з одною
 -   [EventBufferEvent::disable](eventbufferevent.disable.html) — Вимикає читання, запис або те й інше у події буфера
 -   [EventBufferEvent::enable](eventbufferevent.enable.html) — Включає читання, запис чи те, й інше у події буфера

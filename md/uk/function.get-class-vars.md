@@ -1,12 +1,12 @@
 Повертає оголошені за умовчанням властивості класу
 
--   [« get\_class\_methods](function.get-class-methods.html)
+-   [« getclassmethods](function.get-class-methods.html)
     
--   [get\_class »](function.get-class.html)
+-   [getclass »](function.get-class.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає оголошені за умовчанням властивості класу
     
@@ -122,5 +122,5 @@ a
 
 ### Дивіться також
 
--   [get\_class\_methods()](function.get-class-methods.html) - Повертає масив імен методів класу
--   [get\_object\_vars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту
+-   [getclassmethods()](function.get-class-methods.html) - Повертає масив імен методів класу
+-   [getobjectvars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту

@@ -1,8 +1,8 @@
 Видалення записів із бази даних
 
--   [« dbase\_create](function.dbase-create.html)
+-   [« dbasecreate](function.dbase-create.html)
     
--   [dbase\_get\_header\_info »](function.dbase-get-header-info.html)
+-   [dbasegetheaderinfo »](function.dbase-get-header-info.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,17 +27,17 @@ dbase_delete_record(resource $database, int $number): bool
 
 > **Зауваження**
 > 
-> Для остаточного видалення записів з бази даних необхідно викликати [dbase\_pack()](function.dbase-pack.html)
+> Для остаточного видалення записів з бази даних необхідно викликати [dbasepack()](function.dbase-pack.html)
 
 ### Список параметрів
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 `number`
 
-Ціле число, в проміжку від 1 до кількості записів у базі динних (кількість записів повертає функція [dbase\_numrecords()](function.dbase-numrecords.html)
+Ціле число, в проміжку від 1 до кількості записів у базі динних (кількість записів повертає функція [dbasenumrecords()](function.dbase-numrecords.html)
 
 ### Значення, що повертаються
 
@@ -51,5 +51,5 @@ dbase_delete_record(resource $database, int $number): bool
 
 ### Дивіться також
 
--   [dbase\_add\_record()](function.dbase-add-record.html) - Додає запис до бази даних
--   [dbase\_replace\_record()](function.dbase-replace-record.html) - Замінює запис у базі даних
+-   [dbaseaddrecord()](function.dbase-add-record.html) - Додає запис до бази даних
+-   [dbasereplacerecord()](function.dbase-replace-record.html) - Замінює запис у базі даних

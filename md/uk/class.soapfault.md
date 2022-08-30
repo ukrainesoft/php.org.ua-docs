@@ -2,7 +2,7 @@
 
 -   [« SoapServer::setPersistence](soapserver.setpersistence.html)
     
--   [SoapFault::\_\_construct »](soapfault.construct.html)
+-   [SoapFault::construct »](soapfault.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -131,5 +131,5 @@ headerfault
 
 ## Зміст
 
--   [SoapFault::\_\_construct](soapfault.construct.html) - Конструктор SoapFault
--   [SoapFault::\_\_toString](soapfault.tostring.html) — Отримати текстове уявлення SoapFault
+-   [SoapFault::construct](soapfault.construct.html) - Конструктор SoapFault
+-   [SoapFault::toString](soapfault.tostring.html) — Отримати текстове уявлення SoapFault

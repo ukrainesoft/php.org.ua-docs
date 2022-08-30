@@ -1,6 +1,6 @@
 Відправляє очікувані події
 
--   [« EventBase::\_\_construct](eventbase.construct.html)
+-   [« EventBase::construct](eventbase.construct.html)
     
 -   [EventBase::exit »](eventbase.exit.html)
     

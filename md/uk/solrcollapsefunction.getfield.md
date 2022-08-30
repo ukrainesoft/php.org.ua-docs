@@ -1,6 +1,6 @@
 Повертає згорнуте поле
 
--   [« SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.html)
+-   [« SolrCollapseFunction::construct](solrcollapsefunction.construct.html)
     
 -   [SolrCollapseFunction::getHint »](solrcollapsefunction.gethint.html)
     

@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocilogoff - Псевдонім [oci\_close()](function.oci-close.html)
+ocilogoff - Псевдонім [ociclose()](function.oci-close.html)
 
 ### Опис
 
-Псевдонім [oci\_close()](function.oci-close.html)
+Псевдонім [ociclose()](function.oci-close.html)
 
 **Увага**
 

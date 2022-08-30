@@ -2,7 +2,7 @@
 
 -   [« SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.html)
     
--   [SimpleXMLElement::\_\_toString »](simplexmlelement.tostring.html)
+-   [SimpleXMLElement::toString »](simplexmlelement.tostring.html)
     
 -   [PHP Manual](index.html)
     

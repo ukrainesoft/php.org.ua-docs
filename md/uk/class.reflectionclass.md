@@ -2,7 +2,7 @@
 
 -   [« Reflection::getModifierNames](reflection.getmodifiernames.html)
     
--   [ReflectionClass::\_\_construct »](reflectionclass.construct.html)
+-   [ReflectionClass::construct »](reflectionclass.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -127,19 +127,19 @@ name
 
 **`ReflectionClass::IS_IMPLICIT_ABSTRACT`**
 
-Вказує, що клас є [абстрактным](language.oop5.abstract.html)тому, що він містить абстрактні методи.
+Вказує, що клас є [абстрактним](language.oop5.abstract.html)тому, що він містить абстрактні методи.
 
 **`ReflectionClass::IS_EXPLICIT_ABSTRACT`**
 
-Вказує, що клас є [абстрактным](language.oop5.abstract.html)тому що так зазначено при його описі.
+Вказує, що клас є [абстрактним](language.oop5.abstract.html)тому що так зазначено при його описі.
 
 **`ReflectionClass::IS_FINAL`**
 
-Вказує, що клас є [окончательным (final)](language.oop5.final.html)
+Вказує, що клас є [остаточним (final)](language.oop5.final.html)
 
 ## Зміст
 
--   [ReflectionClass::\_\_construct](reflectionclass.construct.html) — Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::construct](reflectionclass.construct.html) — Створює об'єкт класу ReflectionClass
 -   [ReflectionClass::export](reflectionclass.export.html) - Експортує клас
 -   [ReflectionClass::getAttributes](reflectionclass.getattributes.html) — Отримує атрибути
 -   [ReflectionClass::getConstant](reflectionclass.getconstant.html) — Повертає певну константу
@@ -193,4 +193,4 @@ name
 -   [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.html) - Створює екземпляр класу з переданими параметрами
 -   [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.html) - Створює новий екземпляр класу без виклику конструктора
 -   [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості
--   [ReflectionClass::\_\_toString](reflectionclass.tostring.html) — Повертає рядкову виставу об'єкта класу ReflectionClass
+-   [ReflectionClass::toString](reflectionclass.tostring.html) — Повертає рядкову виставу об'єкта класу ReflectionClass

@@ -45,7 +45,7 @@ datefmt_set_timezone(IntlDateFormatter $formatter, IntlTimeZone|DateTimeZone|str
 
 Часовий пояс для засобу форматування. Можна вказати у таких форматах:
 
--   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) або за допомогою функції [date\_default\_timezone\_set()](function.date-default-timezone-set.html) та повернена функцією [date\_default\_timezone\_get()](function.date-default-timezone-get.html)
+-   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.html)
     
 -   Об'єкт класу [IntlTimeZone](class.intltimezone.html)
     

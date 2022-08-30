@@ -1,12 +1,12 @@
 Повертає об'єкт за символічним посиланням
 
--   [« ssh2\_sftp\_mkdir](function.ssh2-sftp-mkdir.html)
+-   [« ssh2sftpmkdir](function.ssh2-sftp-mkdir.html)
     
--   [ssh2\_sftp\_realpath »](function.ssh2-sftp-realpath.html)
+-   [ssh2sftprealpath »](function.ssh2-sftp-realpath.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Повертає об'єкт за символічним посиланням
     
@@ -29,7 +29,7 @@ ssh2_sftp_readlink(resource $sftp, string $link): string
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
 
 `link`
 
@@ -57,4 +57,4 @@ $target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
 ### Дивіться також
 
 -   [readlink()](function.readlink.html) - Повертає файл, на який вказує символічне посилання
--   [ssh2\_sftp\_symlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання
+-   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання

@@ -1,6 +1,6 @@
 Клас ParleParserException
 
--   [« Parle\\LexerException](class.parle-lexerexception.html)
+-   [« ParleLexerException](class.parle-lexerexception.html)
     
 -   [PCRE »](book.pcre.html)
     

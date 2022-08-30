@@ -1,12 +1,12 @@
 Опис
 
--   [« mb\_regex\_set\_options](function.mb-regex-set-options.html)
+-   [« mbregexsetoptions](function.mb-regex-set-options.html)
     
--   [mb\_send\_mail »](function.mb-send-mail.html)
+-   [мбsendmail »](function.mb-send-mail.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Опис
     

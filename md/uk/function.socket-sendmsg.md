@@ -1,8 +1,8 @@
 Надіслати повідомлення
 
--   [« socket\_send](function.socket-send.html)
+-   [« socketsend](function.socket-send.html)
     
--   [socket\_sendto »](function.socket-sendto.html)
+-   [socketsendto »](function.socket-sendto.html)
     
 -   [PHP Manual](index.html)
     
@@ -47,5 +47,5 @@ socket_sendmsg(Socket $socket, array $message, int $flags = 0): int|false
 
 ### Дивіться також
 
--   [socket\_recvmsg()](function.socket-recvmsg.html) - Прочитати повідомлення
--   [socket\_cmsg\_space()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення
+-   [socketrecvmsg()](function.socket-recvmsg.html) - Прочитати повідомлення
+-   [socketcmsgspace()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення

@@ -1,8 +1,8 @@
 Видалити всі callback функції сокету
 
--   [« swoole\_event\_defer](function.swoole-event-defer.html)
+-   [« swooleeventdefer](function.swoole-event-defer.html)
     
--   [swoole\_event\_exit »](function.swoole-event-exit.html)
+-   [swooleeventexit »](function.swoole-event-exit.html)
     
 -   [PHP Manual](index.html)
     

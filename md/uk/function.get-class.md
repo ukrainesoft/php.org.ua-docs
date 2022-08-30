@@ -1,12 +1,12 @@
 Повертає ім'я класу, до якого належить об'єкт
 
--   [« get\_class\_vars](function.get-class-vars.html)
+-   [« getclassvars](function.get-class-vars.html)
     
--   [get\_declared\_classes »](function.get-declared-classes.html)
+-   [getdeclaredclasses »](function.get-declared-classes.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Функції роботи з класами та об'єктами](ref.classobj.html)
     
 -   Повертає ім'я класу, до якого належить об'єкт
     
@@ -143,8 +143,8 @@ string(11) "Foo\Bar\Baz"
 
 ### Дивіться також
 
--   [get\_called\_class()](function.get-called-class.html) - Ім'я класу, отримане за допомогою пізнього статичного зв'язування
--   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [getcalledclass()](function.get-called-class.html) - Ім'я класу, отримане за допомогою пізнього статичного зв'язування
+-   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
 -   [gettype()](function.gettype.html) - Повертає тип змінної
--   [get\_debug\_type()](function.get-debug-type.html) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
--   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getdebugtype()](function.get-debug-type.html) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
+-   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

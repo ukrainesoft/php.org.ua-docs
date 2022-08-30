@@ -2,11 +2,11 @@
 
 -   [« readfile](function.readfile.html)
     
--   [realpath\_cache\_get »](function.realpath-cache-get.html)
+-   [realpathcacheget »](function.realpath-cache-get.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Повертає файл, на який вказує символічне посилання
     
@@ -52,6 +52,6 @@ echo readlink('/vmlinuz');
 
 ### Дивіться також
 
--   [is\_link()](function.is-link.html) - Визначає, чи є файл символічним посиланням
+-   [ісlink()](function.is-link.html) - Визначає, чи є файл символічним посиланням
 -   [symlink()](function.symlink.html) - Створює символічне посилання
 -   [linkinfo()](function.linkinfo.html) - Повертає інформацію про посилання

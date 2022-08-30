@@ -1,12 +1,12 @@
 Проектування бази даних
 
--   [« Безопасность баз данных](security.database.html)
+-   [« Безпека баз даних](security.database.html)
     
--   [Соединение с базой данных »](security.database.connection.html)
+-   [З'єднання з базою даних »](security.database.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность баз данных](security.database.html)
+-   [Безпека баз даних](security.database.html)
     
 -   Проектування бази даних
     

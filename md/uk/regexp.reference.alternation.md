@@ -1,6 +1,6 @@
 Альтернативний вибір
 
--   [« Символьные классы](regexp.reference.character-classes.html)
+-   [« Символьні класи](regexp.reference.character-classes.html)
     
 -   [Установка внутренних опций »](regexp.reference.internal-options.html)
     

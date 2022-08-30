@@ -1,12 +1,12 @@
 Замінити значення атрибутів на нові
 
--   [« ldap\_mod\_replace\_ext](function.ldap-mod_replace-ext.html)
+-   [« ldapmodreplaceext](function.ldap-mod_replace-ext.html)
     
--   [ldap\_modify\_batch »](function.ldap-modify-batch.html)
+-   [ldapmodifybatch »](function.ldap-modify-batch.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции LDAP](ref.ldap.html)
+-   [Функції LDAP](ref.ldap.html)
     
 -   Замінити значення атрибутів на нові
     
@@ -29,7 +29,7 @@ ldap_mod_replace(    LDAP\Connection $ldap,    string $dn,    array 
 
 `ldap`
 
-Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
 
 `dn`
 
@@ -49,11 +49,11 @@ ldap_mod_replace(    LDAP\Connection $ldap,    string $dn,    array 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                        |
-|        | Додано підтримку параметра `controls`                                                                                                                    |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
+|        | Додано підтримку параметра `controls`                                                                                                                  |
 
 ### Примітки
 
@@ -61,7 +61,7 @@ ldap_mod_replace(    LDAP\Connection $ldap,    string $dn,    array 
 
 ### Дивіться також
 
--   [ldap\_mod\_replace\_ext()](function.ldap-mod_replace-ext.html) - Замінити значення атрибута на нові
--   [ldap\_mod\_del()](function.ldap-mod-del.html) - Видалити значення атрибута із поточних атрибутів
--   [ldap\_mod\_add()](function.ldap-mod-add.html) - Додати значення атрибуту до поточних атрибутів
--   [ldap\_modify\_batch()](function.ldap-modify-batch.html) - Формування та запуск пакетної зміни запису LDAP
+-   [ldapmodreplaceext()](function.ldap-mod_replace-ext.html) - Замінити значення атрибута на нові
+-   [ldapmoddel()](function.ldap-mod-del.html) - Видалити значення атрибута із поточних атрибутів
+-   [ldapmodadd()](function.ldap-mod-add.html) - Додати значення атрибуту до поточних атрибутів
+-   [ldapmodifybatch()](function.ldap-modify-batch.html) - Формування та запуск пакетної зміни запису LDAP

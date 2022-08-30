@@ -1,6 +1,6 @@
 Приймаються бітові маски обробки повідомлень службою Win32Service
 
--   [« Константы обработки сообщений службой Win32Service](win32service.constants.servicecontrol.html)
+-   [« Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.html)
     
 -   [Константы типа запуска службы Win32Service »](win32service.constants.servicestarttype.html)
     

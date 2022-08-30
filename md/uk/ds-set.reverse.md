@@ -1,8 +1,8 @@
 Перевертає поточну колекцію
 
--   [« Ds\\Set::remove](ds-set.remove.html)
+-   [« DsSet::remove](ds-set.remove.html)
     
--   [Ds\\Set::reversed »](ds-set.reversed.html)
+-   [ДсSet::reversed »](ds-set.reversed.html)
     
 -   [PHP Manual](index.html)
     

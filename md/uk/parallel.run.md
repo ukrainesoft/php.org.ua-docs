@@ -1,8 +1,8 @@
 Виконання
 
--   [« parallel\\bootstrap](parallel.bootstrap.html)
+-   [« parallelbootstrap](parallel.bootstrap.html)
     
--   [parallel\\Runtime »](class.parallel-runtime.html)
+-   [parallelRuntime »](class.parallel-runtime.html)
     
 -   [PHP Manual](index.html)
     
@@ -86,7 +86,7 @@ parallel\run(Closure $task, array $argv): ?Future
 
 Внутрішні об'єкти зазвичай використовують структуру, що налаштовується, яку не можна безпечно скопіювати за значенням, в PHP в даний час відсутній механізм для цього (без серіалізації), і тому можуть використовуватися тільки об'єкти, які не використовують структуру, що налаштовується.
 
-Деякі внутрішні об'єкти не використовують структуру, що настроюється, наприклад, [parallel\\Events\\Event](class.parallel-events-event.html) і тому можуть використовуватись спільно.
+Деякі внутрішні об'єкти не використовують структуру, що настроюється, наприклад, [parallelEventsEvent](class.parallel-events-event.html) і тому можуть використовуватись спільно.
 
 Замикання - це особливий вид внутрішнього об'єкта, який підтримує копіювання за значенням, тому може використовуватись спільно.
 
@@ -100,13 +100,13 @@ parallel\run(Closure $task, array $argv): ?Future
 
 **Увага**
 
-Не можна ігнорувати повертається [parallel\\Future](class.parallel-future.html)якщо завдання містить оператор return або throw.
+Не можна ігнорувати повертається [parallelFuture](class.parallel-future.html)якщо завдання містить оператор return або throw.
 
 ### Винятки
 
 **Увага**
 
-Викидає parallelRuntimeErrorClosed, якщо [parallel\\Runtime](class.parallel-runtime.html) було закрито.
+Викидає parallelRuntimeErrorClosed, якщо [parallelRuntime](class.parallel-runtime.html) було закрито.
 
 **Увага**
 
@@ -126,4 +126,4 @@ parallel\run(Closure $task, array $argv): ?Future
 
 ### Дивіться також
 
--   [parallel\\Runtime::run](parallel-runtime.run.html)
+-   [parallelRuntime::run](parallel-runtime.run.html)

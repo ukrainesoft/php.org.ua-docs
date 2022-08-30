@@ -15,11 +15,11 @@
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocinewcursor - Псевдонім [oci\_new\_cursor()](function.oci-new-cursor.html)
+ocinewcursor - Псевдонім [ocinewcursor()](function.oci-new-cursor.html)
 
 ### Опис
 
-Псевдонім [oci\_new\_cursor()](function.oci-new-cursor.html)
+Псевдонім [ocinewcursor()](function.oci-new-cursor.html)
 
 **Увага**
 

@@ -1,8 +1,8 @@
 Відкриває з'єднання з сервером CUBRID
 
--   [« cubrid\_connect\_with\_url](function.cubrid-connect-with-url.html)
+-   [« cubridconnectwithurl](function.cubrid-connect-with-url.html)
     
--   [cubrid\_current\_oid »](function.cubrid-current-oid.html)
+-   [cubridcurrentoid »](function.cubrid-current-oid.html)
     
 -   [PHP Manual](index.html)
     
@@ -49,7 +49,7 @@ cubrid_connect(    string $host,    int $port,    string $dbname, �
 
 `new_link`
 
-Якщо функція [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.html) була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.html) у будь-якому випадку створити нове з'єднання, навіть якщо функція [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.html) раніше була викликана з такими самими аргументами.
+Якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.html) була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує [cubridconnectwithurl()](function.cubrid-connect-with-url.html) у будь-якому випадку створити нове з'єднання, навіть якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.html) раніше була викликана з такими самими аргументами.
 
 ### Значення, що повертаються
 
@@ -113,8 +113,8 @@ CUBRID Charset:                iso8859-1
 
 ### Дивіться також
 
--   [cubrid\_pconnect()](function.cubrid-pconnect.html) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.html) - Створює оточення для з'єднання із сервером CUBRID
--   [cubrid\_pconnect\_with\_url()](function.cubrid-pconnect-with-url.html) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubrid\_disconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
--   [cubrid\_close()](function.cubrid-close.html) - Закриває з'єднання з базою даних
+-   [cubridpconnect()](function.cubrid-pconnect.html) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubridconnectwithurl()](function.cubrid-connect-with-url.html) - Створює оточення для з'єднання із сервером CUBRID
+-   [cubridpconnectwithurl()](function.cubrid-pconnect-with-url.html) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubriddisconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
+-   [cubridclose()](function.cubrid-close.html) - Закриває з'єднання з базою даних

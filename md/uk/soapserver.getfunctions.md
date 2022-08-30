@@ -55,6 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ### Дивіться також
 
--   [SoapServer::\_\_construct()](soapserver.construct.html) - Конструктор SoapServer
+-   [SoapServer::construct()](soapserver.construct.html) - Конструктор SoapServer
 -   [SoapServer::addFunction()](soapserver.addfunction.html) - Додає одну або кілька функцій для обробки запитів SOAP
 -   [SoapServer::setClass()](soapserver.setclass.html) - Встановлює клас, який обробляє SOAP-запити

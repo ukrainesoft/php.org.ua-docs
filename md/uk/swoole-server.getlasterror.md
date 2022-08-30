@@ -1,12 +1,12 @@
 Отримує код останньої помилки
 
--   [« Swoole\\Server::getClientList](swoole-server.getclientlist.html)
+-   [« SwooleServer::getClientList](swoole-server.getclientlist.html)
     
--   [Swoole\\Server::heartbeat »](swoole-server.heartbeat.html)
+-   [SwooleServer::heartbeat »](swoole-server.heartbeat.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Отримує код останньої помилки
     

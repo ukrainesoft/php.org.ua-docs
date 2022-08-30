@@ -1,12 +1,12 @@
 Реєструє потоковий фільтр, визначений користувачем
 
--   [« stream\_filter\_prepend](function.stream-filter-prepend.html)
+-   [« streamfilterprepend](function.stream-filter-prepend.html)
     
--   [stream\_filter\_remove »](function.stream-filter-remove.html)
+-   [streamfilterremove »](function.stream-filter-remove.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Реєструє потоковий фільтр, визначений користувачем
     
@@ -33,13 +33,13 @@ stream_filter_register(string $filter_name, string $class): bool
 
 `class`
 
-Щоб реалізувати фільтр, вам потрібно визначити клас як розширення [php\_user\_filter](class.php-user-filter.html) c цілим рядом функцій-членів. При виконанні операцій читання/запису на потоці, до якого прикріплений ваш фільтр, PHP передаватиме дані через ваш фільтр (і через будь-які інші фільтри, прикріплені до потоку), так що дані можуть бути змінені як потрібно. Вам необхідно реалізувати методи точно як описано в [php\_user\_filter](class.php-user-filter.html). Інша реалізація призведе до непередбачуваної поведінки.
+Щоб реалізувати фільтр, вам потрібно визначити клас як розширення [phpuserfilter](class.php-user-filter.html) c цілим рядом функцій-членів. При виконанні операцій читання/запису на потоці, до якого прикріплений ваш фільтр, PHP передаватиме дані через ваш фільтр (і через будь-які інші фільтри, прикріплені до потоку), так що дані можуть бути змінені як потрібно. Вам необхідно реалізувати методи точно як описано в [phpuserfilter](class.php-user-filter.html). Інша реалізація призведе до непередбачуваної поведінки.
 
 ### Значення, що повертаються
 
 Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-**streamfilterregister()** повертатиме **`false`**якщо фільтр з ім'ям `filter_name` вже визначено.
+**streamfilterregister()** повертатиме \*\*`false`\*\*якщо фільтр з ім'ям `filter_name` вже визначено.
 
 ### Приклади
 
@@ -165,6 +165,6 @@ EASY AS 123
 
 ### Дивіться також
 
--   [stream\_wrapper\_register()](function.stream-wrapper-register.html) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
--   [stream\_filter\_append()](function.stream-filter-append.html) - Прикріпити фільтр до потоку
--   [stream\_filter\_prepend()](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку
+-   [streamwrapperregister()](function.stream-wrapper-register.html) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
+-   [streamfilterappend()](function.stream-filter-append.html) - Прикріпити фільтр до потоку
+-   [streamfilterprepend()](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку

@@ -1,8 +1,8 @@
 Розбирає YAML-потік із файлу
 
--   [« yaml\_emit](function.yaml-emit.html)
+-   [« yamlemit](function.yaml-emit.html)
     
--   [yaml\_parse\_url »](function.yaml-parse-url.html)
+-   [yamlparseurl »](function.yaml-parse-url.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndoc
 
 `callbacks`
 
-Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.html)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функции разбора](yaml.callbacks.parse.html)
+Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.html)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.html)
 
 ### Значення, що повертаються
 
@@ -55,6 +55,6 @@ yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndoc
 
 ### Дивіться також
 
--   [yaml\_parse()](function.yaml-parse.html) - Розбирає потік YAML
--   [yaml\_parse\_url()](function.yaml-parse-url.html) - Розбирає YAML-потік із URL
--   [yaml\_emit()](function.yaml-emit.html) - Повертає YAML-подання значення
+-   [yamlparse()](function.yaml-parse.html) - Розбирає потік YAML
+-   [yamlparseurl()](function.yaml-parse-url.html) - Розбирає YAML-потік із URL
+-   [yamlemit()](function.yaml-emit.html) - Повертає YAML-подання значення

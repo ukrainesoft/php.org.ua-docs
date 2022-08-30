@@ -1,8 +1,8 @@
 Повертає копію колекції, відсортованої за ключами
 
--   [« Ds\\Map::ksort](ds-map.ksort.html)
+-   [« DsMap::ksort](ds-map.ksort.html)
     
--   [Ds\\Map::last »](ds-map.last.html)
+-   [ДсMap::last »](ds-map.last.html)
     
 -   [PHP Manual](index.html)
     

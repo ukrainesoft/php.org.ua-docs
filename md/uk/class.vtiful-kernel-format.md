@@ -1,8 +1,8 @@
 Клас VtifulKernelФормат
 
--   [« Vtiful\\Kernel\\Excel::setRow](vtiful-kernel-excel.setRow.html)
+-   [« VtifulKernelExcel::setRow](vtiful-kernel-excel.setRow.html)
     
--   [Vtiful\\Kernel\\Format::align »](vtiful-kernel-format.align.html)
+-   [VtifulKernelFormat::align »](vtiful-kernel-format.align.html)
     
 -   [PHP Manual](index.html)
     
@@ -146,7 +146,7 @@ public underline(resource $handle, int $style)
 
 ## Зміст
 
--   [Vtiful\\Kernel\\Format::align](vtiful-kernel-format.align.html) - Вирівнювання
--   [Vtiful\\Kernel\\Format::bold](vtiful-kernel-format.bold.html) - Напівжирний
--   [Vtiful\\Kernel\\Format::italic](vtiful-kernel-format.italic.html) - Курсив
--   [Vtiful\\Kernel\\Format::underline](vtiful-kernel-format.underline.html) - Підкреслений
+-   [VtifulKernelFormat::align](vtiful-kernel-format.align.html) - Вирівнювання
+-   [VtifulKernelFormat::bold](vtiful-kernel-format.bold.html) - Напівжирний
+-   [VtifulKernelFormat::italic](vtiful-kernel-format.italic.html) - Курсив
+-   [VtifulKernelFormat::underline](vtiful-kernel-format.underline.html) - Підкреслений

@@ -1,8 +1,8 @@
 Отримати код помилки
 
--   [« cubrid\_error\_code\_facility](function.cubrid-error-code-facility.html)
+-   [« cubriderrorcodefacility](function.cubrid-error-code-facility.html)
     
--   [cubrid\_error\_msg »](function.cubrid-error-msg.html)
+-   [cubriderrormsg »](function.cubrid-error-msg.html)
     
 -   [PHP Manual](index.html)
     
@@ -63,5 +63,5 @@ Error msg: Some parameter not binded
 
 ### Дивіться також
 
--   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка
--   [cubrid\_error\_msg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.
+-   [cubriderrorcodefacility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка
+-   [cubriderrormsg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.

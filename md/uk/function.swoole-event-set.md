@@ -1,8 +1,8 @@
 Оновити callback-функції події сокету
 
--   [« swoole\_event\_exit](function.swoole-event-exit.html)
+-   [« swooleeventexit](function.swoole-event-exit.html)
     
--   [swoole\_event\_wait »](function.swoole-event-wait.html)
+-   [swooleeventwait »](function.swoole-event-wait.html)
     
 -   [PHP Manual](index.html)
     

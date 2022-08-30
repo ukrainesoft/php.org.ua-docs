@@ -1,12 +1,12 @@
 Встановити покажчик поля на певне усунення
 
--   [« mysqli\_result::$field\_count](mysqli-result.field-count.html)
+-   [« mysqliresult::$fieldcount](mysqli-result.field-count.html)
     
--   [mysqli\_result::free »](mysqli-result.free.html)
+-   [mysqliresult::free »](mysqli-result.free.html)
     
 -   [PHP Manual](index.html)
     
--   [mysqli\_result](class.mysqli-result.html)
+-   [mysqliresult](class.mysqli-result.html)
     
 -   Встановити покажчик поля на певне усунення
     
@@ -33,7 +33,7 @@ public mysqli_result::field_seek(int $index): bool
 mysqli_field_seek(mysqli_result $result, int $index): bool
 ```
 
-Встановлює вказівник поля на задане усунення. Наступний виклик [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) дозволить отримати інформацію про стовпчик з позицією усунення.
+Встановлює вказівник поля на задане усунення. Наступний виклик [mysqlifetchfield()](mysqli-result.fetch-field.html) дозволить отримати інформацію про стовпчик з позицією усунення.
 
 > **Зауваження**
 > 
@@ -43,7 +43,7 @@ mysqli_field_seek(mysqli_result $result, int $index): bool
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
 
 `index`
 
@@ -135,4 +135,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqlifetchfield()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору

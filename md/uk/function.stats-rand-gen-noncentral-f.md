@@ -1,12 +1,12 @@
 Обчислює випадкове відхилення від нецентрального розподілу Фішера
 
--   [« stats\_rand\_gen\_noncentral\_chisquare](function.stats-rand-gen-noncentral-chisquare.html)
+-   [« statsrandgennoncentralchisquare](function.stats-rand-gen-noncentral-chisquare.html)
     
--   [stats\_rand\_gen\_noncentral\_t »](function.stats-rand-gen-noncentral-t.html)
+-   [statsrandgennoncentralt »](function.stats-rand-gen-noncentral-t.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Обчислює випадкове відхилення від нецентрального розподілу Фішера
     

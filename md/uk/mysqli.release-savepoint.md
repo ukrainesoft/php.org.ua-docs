@@ -39,7 +39,7 @@ mysqli_release_savepoint(mysqli $mysql, string $name): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `name`
 
@@ -51,4 +51,4 @@ mysqli_release_savepoint(mysqli $mysql, string $name): bool
 
 ### Дивіться також
 
--   [mysqli\_savepoint()](mysqli.savepoint.html) - Встановіть іменовану точку збереження транзакції
+-   [mysqlisavepoint()](mysqli.savepoint.html) - Встановіть іменовану точку збереження транзакції

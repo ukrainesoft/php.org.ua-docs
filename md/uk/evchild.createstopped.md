@@ -1,6 +1,6 @@
 Створює зупинений екземпляр спостерігача EvCheck
 
--   [« EvChild::\_\_construct](evchild.construct.html)
+-   [« EvChild::construct](evchild.construct.html)
     
 -   [EvChild::set »](evchild.set.html)
     
@@ -41,21 +41,21 @@ final
     = ?): object
 ```
 
-Те саме, що й [EvChild::\_\_construct()](evchild.construct.html) але не відбувається автоматичного запуску спостерігача.
+Те саме, що й [EvChild::construct()](evchild.construct.html) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `pid`
 
-Дивіться [EvChild::\_\_construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.html)
 
 `trace`
 
-Дивіться [EvChild::\_\_construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.html)
 
 `callback`
 
-Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
 
 `data`
 
@@ -69,5 +69,5 @@ final
 
 ### Дивіться також
 
--   [EvChild::\_\_construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvChild::construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
 -   [EvLoop::child()](evloop.child.html) - Створює об'єкт EvChild, пов'язаний із поточним циклом подій

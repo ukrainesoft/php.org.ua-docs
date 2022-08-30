@@ -1,12 +1,12 @@
 Отримує та/або встановлює термін дії поточного кешу
 
--   [« session\_abort](function.session-abort.html)
+-   [« sessionabort](function.session-abort.html)
     
--   [session\_cache\_limiter »](function.session-cache-limiter.html)
+-   [sessioncachelimiter »](function.session-cache-limiter.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Отримує та/або встановлює термін дії поточного кешу
     
@@ -25,7 +25,7 @@ session_cache_expire(?int $value = null): int|false
 
 **sessioncacheexpire()** повертає поточне значення налаштування `session.cache_expire`
 
-Термін дії скидається до значення за промовчанням (180), що зберігається в [session.cache\_expire](session.configuration.html#ini.session.cache-expire) під час запиту. Таким чином, потрібно викликати **sessioncacheexpire()** для кожного запиту (і до дзвінка [session\_start()](function.session-start.html)
+Термін дії скидається до значення за промовчанням (180), що зберігається в [session.cacheexpire](session.configuration.html#ini.session.cache-expire) під час запиту. Таким чином, потрібно викликати **sessioncacheexpire()** для кожного запиту (і до дзвінка [sessionstart()](function.session-start.html)
 
 ### Список параметрів
 
@@ -72,6 +72,6 @@ echo "Закешированные страницы сессии истек�
 
 ### Дивіться також
 
--   [session.cache\_expire](session.configuration.html#ini.session.cache-expire)
--   [session.cache\_limiter](session.configuration.html#ini.session.cache-limiter)
--   [session\_cache\_limiter()](function.session-cache-limiter.html) - Отримати та/або встановити поточний режим кешування
+-   [session.cacheexpire](session.configuration.html#ini.session.cache-expire)
+-   [session.cachelimiter](session.configuration.html#ini.session.cache-limiter)
+-   [sessioncachelimiter()](function.session-cache-limiter.html) - Отримати та/або встановити поточний режим кешування

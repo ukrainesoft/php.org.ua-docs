@@ -1,6 +1,6 @@
 Отримує об'єкт SNMP
 
--   [« SNMP::\_\_construct](snmp.construct.html)
+-   [« SNMP::construct](snmp.construct.html)
     
 -   [SNMP::getErrno »](snmp.geterrno.html)
     
@@ -43,7 +43,7 @@ public SNMP::get(array|string $objectId, bool $preserveKeys = false): mixed
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [объяснении параметра `SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [объяснении параметра`SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
 
 ### Приклади
 

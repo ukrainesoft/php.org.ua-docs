@@ -15,7 +15,7 @@
 
 Робота з помилками XML під час завантаження документів є дуже простим завданням. Використання функціональності [libxml](book.libxml.html) дозволяє придушити всі помилки XML під час завантаження документа і потім обробити їх.
 
-Об'єкт [libXMLError](class.libxmlerror.html), що повертається [libxml\_get\_errors()](function.libxml-get-errors.html)містить кілька властивостей, у тому числі [сообщение](class.libxmlerror.html#libxmlerror.props.message) [номер строки](class.libxmlerror.html#libxmlerror.props.line) і [колонку](class.libxmlerror.html#libxmlerror.props.column) (Позицію) цієї помилки.
+Об'єкт [libXMLError](class.libxmlerror.html), що повертається [libxmlgeterrors()](function.libxml-get-errors.html)містить кілька властивостей, у тому числі [сообщение](class.libxmlerror.html#libxmlerror.props.message) [номер рядка](class.libxmlerror.html#libxmlerror.props.line) і [колонку](class.libxmlerror.html#libxmlerror.props.column) (Позицію) цієї помилки.
 
 **Приклад #1 Завантаження синтаксично неправильного рядка XML**
 
@@ -44,6 +44,6 @@ if (!$sxe) {
 
 ## Дивіться також
 
--   [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.html)
--   [libxml\_get\_errors()](function.libxml-get-errors.html)
+-   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html)
+-   [libxmlgeterrors()](function.libxml-get-errors.html)
 -   [libXMLError](class.libxmlerror.html)

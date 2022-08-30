@@ -1,12 +1,12 @@
 Клас MongoDBBSONSymbol (застарілий)
 
--   [« MongoDB\\BSON\\Int64::unserialize](mongodb-bson-int64.unserialize.html)
+-   [« MongoDBBSONInt64::unserialize](mongodb-bson-int64.unserialize.html)
     
--   [MongoDB\\BSON\\Symbol::\_\_construct »](mongodb-bson-symbol.construct.html)
+-   [MongoDBBSONSymbol::construct »](mongodb-bson-symbol.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON](book.bson.html)
+-   [MongoDBBSON](book.bson.html)
     
 -   Клас MongoDBBSONSymbol (застарілий)
     
@@ -53,8 +53,8 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [MongoDB\\BSON\\Symbol::\_\_construct](mongodb-bson-symbol.construct.html) — Створює новий Symbol (не використовується)
--   [MongoDB\\BSON\\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDB\\BSON\\Symbol::serialize](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
--   [MongoDB\\BSON\\Symbol::\_\_toString](mongodb-bson-symbol.tostring.html) — Повертає Symbol у вигляді рядка
--   [MongoDB\\BSON\\Symbol::unserialize](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
+-   [MongoDBBSONSymbol::construct](mongodb-bson-symbol.construct.html) — Створює новий Symbol (не використовується)
+-   [MongoDBBSONSymbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONSymbol::serialize](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
+-   [MongoDBBSONSymbol::toString](mongodb-bson-symbol.tostring.html) — Повертає Symbol у вигляді рядка
+-   [MongoDBBSONSymbol::unserialize](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol

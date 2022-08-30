@@ -1,12 +1,12 @@
 Шифрування сховища бази даних
 
--   [« Соединение с базой данных](security.database.connection.html)
+-   [« З'єднання з базою даних](security.database.connection.html)
     
--   [SQL-инъекции »](security.database.sql-injection.html)
+-   [SQL-ін'єкції »](security.database.sql-injection.html)
     
 -   [PHP Manual](index.html)
     
--   [Безопасность баз данных](security.database.html)
+-   [Безпека баз даних](security.database.html)
     
 -   Шифрування сховища бази даних
     
@@ -25,7 +25,7 @@
 
 Функція [password](ref.password.html) дозволяє зручно хешувати конфіденційні дані та працювати з цими хешами.
 
-[password\_hash()](function.password-hash.html) дозволяє хешувати заданий рядок найсильнішим з доступних алгоритмом і [password\_verify()](function.password-verify.html) перевіряє, що заданий пароль збігається зі збереженим у БД хешем.
+[passwordhash()](function.password-hash.html) дозволяє хешувати заданий рядок найсильнішим з доступних алгоритмом і [passwordverify()](function.password-verify.html) перевіряє, що заданий пароль збігається зі збереженим у БД хешем.
 
 **Приклад #1 Хешування полів із паролями**
 

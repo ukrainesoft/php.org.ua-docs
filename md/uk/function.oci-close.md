@@ -1,8 +1,8 @@
 Закриває з'єднання з сервером Oracle
 
--   [« oci\_client\_version](function.oci-client-version.html)
+-   [« ociclientversion](function.oci-client-version.html)
     
--   [oci\_commit »](function.oci-commit.html)
+-   [ocicommit »](function.oci-commit.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ ociclose — Закриває з'єднання із сервером Oracle
 oci_close(resource $connection): ?bool
 ```
 
-Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [oci\_connect()](function.oci-connect.html) або [oci\_new\_connect()](function.oci-new-connect.html)
+Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [ociconnect()](function.oci-connect.html) або [ocinewconnect()](function.oci-new-connect.html)
 
 Рекомендується закривати більше не використовувані з'єднання, т.к. це звільняє ресурси бази даних іншим користувачам.
 
@@ -31,11 +31,11 @@ oci_close(resource $connection): ?bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html) або [oci\_new\_connect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.html)
 
 ### Значення, що повертаються
 
-Повертає **`null`** якщо [oci8.old\_oci\_close\_semantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) включений або **`true`** в іншому випадку.
+Повертає **`null`** якщо [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) включений або **`true`** в іншому випадку.
 
 ### Приклади
 
@@ -159,17 +159,17 @@ print $r;  // отображает возвращённое функцие
 
 > **Зауваження**
 > 
-> Змінні, залежні від ідентифікатора з'єднань, такі як ідентифікатори виразів, отримані з [oci\_parse()](function.oci-parse.html), повинні бути звільнені до закриття з'єднання з базою даних.
+> Змінні, залежні від ідентифікатора з'єднань, такі як ідентифікатори виразів, отримані з [ociparse()](function.oci-parse.html), повинні бути звільнені до закриття з'єднання з базою даних.
 
 > **Зауваження**
 > 
-> До версії PHP 5.1.2 (PECL OCI8 1.1) **ociclose()** не виконувала жодних дій. У новіших версіях вона вже правильно закриває з'єднання. Використовуйте директиву [oci8.old\_oci\_close\_semantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) відновлення старої поведінки цієї функції.
+> До версії PHP 5.1.2 (PECL OCI8 1.1) **ociclose()** не виконувала жодних дій. У новіших версіях вона вже правильно закриває з'єднання. Використовуйте директиву [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) відновлення старої поведінки цієї функції.
 
 > **Зауваження**
 > 
-> Функція **ociclose()** не закриває з'єднання з базою даних, створеними функцією [oci\_pconnect()](function.oci-pconnect.html)
+> Функція **ociclose()** не закриває з'єднання з базою даних, створеними функцією [ocipconnect()](function.oci-pconnect.html)
 
 ### Дивіться також
 
--   [oci\_connect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
--   [oci\_free\_statement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [ociconnect()](function.oci-connect.html) - Встановлює з'єднання з базою даних Oracle
+-   [ocifreestatement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.

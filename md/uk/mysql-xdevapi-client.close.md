@@ -1,12 +1,12 @@
 Закриття клієнта
 
--   [« mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html)
+-   [« mysqlxdevapiClient](class.mysql-xdevapi-client.html)
     
--   [Client::\_\_construct »](mysql-xdevapi-client.construct.html)
+-   [Client::construct »](mysql-xdevapi-client.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html)
+-   [mysqlxdevapiClient](class.mysql-xdevapi-client.html)
     
 -   Закриття клієнта
     
@@ -31,4 +31,4 @@ public mysql_xdevapi\Client::close(): bool
 
 ### Значення, що повертаються
 
-**`true`**якщо з'єднання закриті.
+\*\*`true`\*\*якщо з'єднання закриті.

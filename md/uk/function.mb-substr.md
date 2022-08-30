@@ -1,12 +1,12 @@
 Повертає частину рядка
 
--   [« mb\_substr\_count](function.mb-substr-count.html)
+-   [« mbsubstrcount](function.mb-substr-count.html)
     
 -   [Pspell »](book.pspell.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
     
 -   Повертає частину рядка
     
@@ -57,5 +57,5 @@ mb_substr(    string $string,    int $start,    ?int $length = null,
 
 ### Дивіться також
 
--   [mb\_strcut()](function.mb-strcut.html) - Отримання частини рядка
--   [mb\_internal\_encoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбstrcut()](function.mb-strcut.html) - Отримання частини рядка
+-   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту

@@ -1,12 +1,12 @@
 Видаляє всі параметри
 
--   [« Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [« YafRequestAbstract](class.yaf-request-abstract.html)
     
--   [Yaf\_Request\_Abstract::getActionName »](yaf-request-abstract.getactionname.html)
+-   [YafRequestAbstract::getActionName »](yaf-request-abstract.getactionname.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+-   [YafRequestAbstract](class.yaf-request-abstract.html)
     
 -   Видаляє всі параметри
     
@@ -23,7 +23,7 @@ YafRequestAbstract::clearParams — Видалення всіх параметр
 public Yaf_Request_Abstract::clearParams(): bool
 ```
 
-Видаляє всі параметри, встановлені маршрутизатором або [Yaf\_Request\_Abstract::setParam()](yaf-request-abstract.setparam.html)
+Видаляє всі параметри, встановлені маршрутизатором або [YafRequestAbstract::setParam()](yaf-request-abstract.setparam.html)
 
 ### Список параметрів
 
@@ -35,9 +35,9 @@ bool
 
 ### Дивіться також
 
--   [Yaf\_Request\_Abstract::isHead()](yaf-request-abstract.ishead.html) - Визначає, чи є запит HEAD-запитом
--   [Yaf\_Request\_Abstract::isGet()](yaf-request-abstract.isget.html) - Визначає, чи є запит GET-запитом
--   [Yaf\_Request\_Abstract::isPost()](yaf-request-abstract.ispost.html) - Визначає, чи запит POST-запитом
--   [Yaf\_Request\_Abstract::isPut()](yaf-request-abstract.isput.html) - Визначає, чи є запит PUT-запитом
--   [Yaf\_Request\_Abstract::isOptions()](yaf-request-abstract.isoptions.html) - Визначає, чи є запит OPTIONS-запитом
--   [Yaf\_Request\_Abstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом
+-   [YafRequestAbstract::isHead()](yaf-request-abstract.ishead.html) - Визначає, чи є запит HEAD-запитом
+-   [YafRequestAbstract::isGet()](yaf-request-abstract.isget.html) - Визначає, чи є запит GET-запитом
+-   [YafRequestAbstract::isPost()](yaf-request-abstract.ispost.html) - Визначає, чи запит POST-запитом
+-   [YafRequestAbstract::isPut()](yaf-request-abstract.isput.html) - Визначає, чи є запит PUT-запитом
+-   [YafRequestAbstract::isOptions()](yaf-request-abstract.isoptions.html) - Визначає, чи є запит OPTIONS-запитом
+-   [YafRequestAbstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.html) - Визначає, чи є запит AJAX-запитом

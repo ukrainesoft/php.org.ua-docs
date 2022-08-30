@@ -1,8 +1,8 @@
 Видаляє поле з документа
 
--   [« SolrInputDocument::\_\_construct](solrinputdocument.construct.html)
+-   [« SolrInputDocument::construct](solrinputdocument.construct.html)
     
--   [SolrInputDocument::\_\_destruct »](solrinputdocument.destruct.html)
+-   [SolrInputDocument::destruct »](solrinputdocument.destruct.html)
     
 -   [PHP Manual](index.html)
     

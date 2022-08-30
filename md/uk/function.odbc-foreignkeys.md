@@ -1,8 +1,8 @@
 Повертає список зовнішніх ключів
 
--   [« odbc\_field\_type](function.odbc-field-type.html)
+-   [« odbcfieldtype](function.odbc-field-type.html)
     
--   [odbc\_free\_result »](function.odbc-free-result.html)
+-   [odbcfreeresult »](function.odbc-free-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_foreignkeys(    resource $odbc,    ?string $pk_catalog,    stri
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 `fk_catalog`
 
@@ -88,5 +88,5 @@ odbc_foreignkeys(    resource $odbc,    ?string $pk_catalog,    stri
 
 ### Дивіться також
 
--   [odbc\_tables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
--   [odbc\_primarykeys()](function.odbc-primarykeys.html) - Отримує первинні ключі таблиці
+-   [odbctables()](function.odbc-tables.html) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbcprimarykeys()](function.odbc-primarykeys.html) - Отримує первинні ключі таблиці

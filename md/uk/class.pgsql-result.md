@@ -1,8 +1,8 @@
 Клас PgSqlResult
 
--   [« PgSql\\Connection](class.pgsql-connection.html)
+-   [« PgSqlConnection](class.pgsql-connection.html)
     
--   [PgSql\\Lob »](class.pgsql-lob.html)
+-   [PgSqlLob »](class.pgsql-lob.html)
     
 -   [PHP Manual](index.html)
     

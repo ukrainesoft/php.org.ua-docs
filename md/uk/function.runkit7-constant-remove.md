@@ -1,12 +1,12 @@
 Видаляє вже певну константу
 
--   [« runkit7\_constant\_redefine](function.runkit7-constant-redefine.html)
+-   [« runkit7constantredefine](function.runkit7-constant-redefine.html)
     
--   [runkit7\_function\_add »](function.runkit7-function-add.html)
+-   [runkit7functionadd »](function.runkit7-function-add.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.html)
     
 -   Видаляє вже певну константу
     
@@ -36,5 +36,5 @@ runkit7_constant_remove(string $constant_name): bool
 ### Дивіться також
 
 -   [define()](function.define.html) - визначає іменовану константу
--   [runkit7\_constant\_add()](function.runkit7-constant-add.html) - Аналогічний define(), але також дозволяє визначити константу класу
--   [runkit7\_constant\_redefine()](function.runkit7-constant-redefine.html) - Перевизначає вже певну константу
+-   [runkit7constantadd()](function.runkit7-constant-add.html) - Аналогічний define(), але також дозволяє визначити константу класу
+-   [runkit7constantredefine()](function.runkit7-constant-redefine.html) - Перевизначає вже певну константу

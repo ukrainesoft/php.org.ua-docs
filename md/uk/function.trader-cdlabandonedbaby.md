@@ -1,8 +1,8 @@
 Покинута дитина
 
--   [« trader\_cdl3whitesoldiers](function.trader-cdl3whitesoldiers.html)
+-   [« tradercdl3whitesoldiers](function.trader-cdl3whitesoldiers.html)
     
--   [trader\_cdladvanceblock »](function.trader-cdladvanceblock.html)
+-   [tradercdladvanceblock »](function.trader-cdladvanceblock.html)
     
 -   [PHP Manual](index.html)
     

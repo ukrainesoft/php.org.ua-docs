@@ -1,8 +1,8 @@
 Отримує масив з детальною інформацією про ключ
 
--   [« openssl\_pkey\_free](function.openssl-pkey-free.html)
+-   [« opensslpkeyfree](function.openssl-pkey-free.html)
     
--   [openssl\_pkey\_get\_private »](function.openssl-pkey-get-private.html)
+-   [opensslpkeygetprivate »](function.openssl-pkey-get-private.html)
     
 -   [PHP Manual](index.html)
     
@@ -71,13 +71,13 @@ openssl_pkey_get_details(OpenSSLAsymmetricKey $key): array|false
     
 -   **`OPENSSL_KEYTYPE_EC`** повертається елемент із індексом `"ec"`містить дані ключа.
     
-    | Ключ           | Описание                                                                                   |
-    |----------------|--------------------------------------------------------------------------------------------|
-    | `"curve_name"` | Назва кривої, дивись [openssl\_get\_curve\_names()](function.openssl-get-curve-names.html) |
-    | `"curve_oid"`  | Ідентифікатор об'єкта ASN1 (OID) для кривої EC.                                            |
-    | `"x"`          | x координата (відкрита)                                                                    |
-    | `"y"`          | y координата (відкрита)                                                                    |
-    | `"d"`          | секретний ключ                                                                             |
+    | Ключ           | Описание                                                                             |
+    |----------------|--------------------------------------------------------------------------------------|
+    | `"curve_name"` | Назва кривої, дивись [opensslgetcurvenames()](function.openssl-get-curve-names.html) |
+    | `"curve_oid"`  | Ідентифікатор об'єкта ASN1 (OID) для кривої EC.                                      |
+    | `"x"`          | x координата (відкрита)                                                              |
+    | `"y"`          | y координата (відкрита)                                                              |
+    | `"d"`          | секретний ключ                                                                       |
     
 
 ### список змін

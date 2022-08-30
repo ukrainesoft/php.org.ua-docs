@@ -1,8 +1,8 @@
 Клас parallelEventsEvent
 
--   [« parallel\\Events\\Input::remove](parallel-events-input.remove.html)
+-   [« parallelEventsInput::remove](parallel-events-input.remove.html)
     
--   [parallel\\Events\\Event\\Type »](class.parallel-events-event-type.html)
+-   [parallelEventsEventType »](class.parallel-events-event-type.html)
     
 -   [PHP Manual](index.html)
     

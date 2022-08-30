@@ -1,12 +1,12 @@
 Припиняє отримання даних від з'єднання
 
--   [« Swoole\\Server::on](swoole-server.on.html)
+-   [« SwooleServer::on](swoole-server.on.html)
     
--   [Swoole\\Server::protect »](swoole-server.protect.html)
+-   [SwooleServer::protect »](swoole-server.protect.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Припиняє отримання даних від з'єднання
     

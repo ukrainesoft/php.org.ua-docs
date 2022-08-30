@@ -1,8 +1,8 @@
 Псевдонім DateTime::getLastErrors
 
--   [« date\_format](function.date-format.html)
+-   [« dateformat](function.date-format.html)
     
--   [date\_interval\_create\_from\_date\_string »](function.date-interval-create-from-date-string.html)
+-   [dateintervalcreatefromdatestring »](function.date-interval-create-from-date-string.html)
     
 -   [PHP Manual](index.html)
     

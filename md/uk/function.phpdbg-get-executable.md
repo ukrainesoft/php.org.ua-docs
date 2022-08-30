@@ -1,8 +1,8 @@
 Опис
 
--   [« phpdbg\_exec](function.phpdbg-exec.html)
+-   [« phpdbgexec](function.phpdbg-exec.html)
     
--   [phpdbg\_prompt »](function.phpdbg-prompt.html)
+-   [phpdbgprompt »](function.phpdbg-prompt.html)
     
 -   [PHP Manual](index.html)
     

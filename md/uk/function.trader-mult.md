@@ -1,8 +1,8 @@
 Арифметичний вектор твору
 
--   [« trader\_mom](function.trader-mom.html)
+-   [« tradermom](function.trader-mom.html)
     
--   [trader\_natr »](function.trader-natr.html)
+-   [tradernatr »](function.trader-natr.html)
     
 -   [PHP Manual](index.html)
     

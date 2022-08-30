@@ -1,8 +1,8 @@
 Створення директорії
 
--   [« eio\_lstat](function.eio-lstat.html)
+-   [« eiolstat](function.eio-lstat.html)
     
--   [eio\_mknod »](function.eio-mknod.html)
+-   [eiomknod »](function.eio-mknod.html)
     
 -   [PHP Manual](index.html)
     
@@ -57,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -102,4 +102,4 @@ eio_mkdir_ok
 
 ### Дивіться також
 
--   [eio\_rmdir()](function.eio-rmdir.html) - видаляє директорію
+-   [eiormdir()](function.eio-rmdir.html) - видаляє директорію

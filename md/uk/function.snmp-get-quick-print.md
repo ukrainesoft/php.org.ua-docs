@@ -1,12 +1,12 @@
 Отримує поточне значення Quickprint бібліотеки NET-SNMP
 
--   [« Функции SNMP](ref.snmp.html)
+-   [« Функції SNMP](ref.snmp.html)
     
--   [snmp\_get\_valueretrieval »](function.snmp-get-valueretrieval.html)
+-   [snmpgetvalueretrieval »](function.snmp-get-valueretrieval.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує поточне значення Quickprint бібліотеки NET-SNMP
     
@@ -45,4 +45,4 @@ $quickprint = snmp_get_quick_print();
 
 ### Дивіться також
 
--   [snmp\_set\_quick\_print()](function.snmp-set-quick-print.html) - Встановлює значення enable у бібліотеці NET-SNMP для повного опису того, що робить quickprint.
+-   [snmpsetquickprint()](function.snmp-set-quick-print.html) - Встановлює значення enable у бібліотеці NET-SNMP для повного опису того, що робить quickprint.

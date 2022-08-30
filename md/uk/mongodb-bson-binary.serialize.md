@@ -1,12 +1,12 @@
 Серіалізує Binary
 
--   [« MongoDB\\BSON\\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.html)
+-   [« MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.html)
     
--   [MongoDB\\BSON\\Binary::\_\_toString »](mongodb-bson-binary.tostring.html)
+-   [MongoDBBSONBinary::toString »](mongodb-bson-binary.tostring.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+-   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
     
 -   Серіалізує Binary
     
@@ -29,14 +29,14 @@ final public MongoDB\BSON\Binary::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+Повертає серіалізовану виставу [MongoDBBSONBinary](class.mongodb-bson-binary.html)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
--   [MongoDB\\BSON\\Binary::unserialize()](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
+-   [MongoDBBSONBinary::unserialize()](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
 -   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
 -   [Сериализация объектов](language.oop5.serialization.html)

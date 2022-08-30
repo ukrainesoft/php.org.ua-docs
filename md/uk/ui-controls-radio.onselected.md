@@ -1,12 +1,12 @@
 Обробник вибору
 
--   [« UI\\Controls\\Radio::getSelected](ui-controls-radio.getselected.html)
+-   [« UIControlsRadio::getSelected](ui-controls-radio.getselected.html)
     
--   [UI\\Controls\\Radio::setSelected »](ui-controls-radio.setselected.html)
+-   [ОЙControlsRadio::setSelected »](ui-controls-radio.setselected.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Radio](class.ui-controls-radio.html)
+-   [ОЙControlsRadio](class.ui-controls-radio.html)
     
 -   Обробник вибору
     

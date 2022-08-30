@@ -1,12 +1,12 @@
 Створює новий екземпляр
 
--   [« Ds\\PriorityQueue::clear](ds-priorityqueue.clear.html)
+-   [« DsPriorityQueue::clear](ds-priorityqueue.clear.html)
     
--   [Ds\\PriorityQueue::copy »](ds-priorityqueue.copy.html)
+-   [ДсPriorityQueue::copy »](ds-priorityqueue.copy.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Створює новий екземпляр
     

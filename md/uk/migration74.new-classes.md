@@ -1,8 +1,8 @@
 Нові класи та інтерфейси
 
--   [« Новые возможности](migration74.new-features.html)
+-   [" Нові можливості](migration74.new-features.html)
     
--   [Новые функции »](migration74.new-functions.html)
+-   [Нові функції »](migration74.new-functions.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Отримує запис із бази даних у вигляді асоціативного масиву
 
--   [« dbase\_get\_header\_info](function.dbase-get-header-info.html)
+-   [« dbasegetheaderinfo](function.dbase-get-header-info.html)
     
--   [dbase\_get\_record »](function.dbase-get-record.html)
+-   [dbasegetrecord »](function.dbase-get-record.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ dbase_get_record_with_names(resource $database, int $number): array
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 `number`
 
@@ -37,13 +37,13 @@ dbase_get_record_with_names(resource $database, int $number): array
 
 ### Значення, що повертаються
 
-Асоціативний масив із даними рядка. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbase\_delete\_record()](function.dbase-delete-record.html)). Повертає і пусті записи. Отже, цією функцією неможливо отримати значення чи ім'я поля `delete`
+Асоціативний масив із даними рядка. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.html)). Повертає і пусті записи. Отже, цією функцією неможливо отримати значення чи ім'я поля `delete`
 
 Кожне поле перетворюється на відповідний тип PHP, за винятком:
 
 -   Date перетворюється на рядок.
 -   DateTime перетворюється на рядок.
--   Цілі, що виходять із діапазону **`PHP_INT_MIN`****`PHP_INT_MAX`** перетворюються на рядки.
+-   Цілі, що виходять із діапазону **`PHP_INT_MIN`\*\*\*\*`PHP_INT_MAX`** перетворюються на рядки.
 -   До dbase 7.0.0, логічні значення (`L`) перетворюються на `1` або `0`
 
 У разі виникнення помилки, **dbasegetrecordwithnames()** повертає **`false`**
@@ -82,4 +82,4 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbase\_get\_record()](function.dbase-get-record.html) - Отримує записи з бази даних, як із індексованого масиву
+-   [dbasegetrecord()](function.dbase-get-record.html) - Отримує записи з бази даних, як із індексованого масиву

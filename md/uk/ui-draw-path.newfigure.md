@@ -1,12 +1,12 @@
 Намалювати фігуру
 
--   [« UI\\Draw\\Path::lineTo](ui-draw-path.lineto.html)
+-   [« UIDrawPath::lineTo](ui-draw-path.lineto.html)
     
--   [UI\\Draw\\Path::newFigureWithArc »](ui-draw-path.newfigurewitharc.html)
+-   [ОЙDrawPath::newFigureWithArc »](ui-draw-path.newfigurewitharc.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Намалювати фігуру
     

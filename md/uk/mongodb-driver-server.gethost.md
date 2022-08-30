@@ -1,12 +1,12 @@
 Повертає ім'я сервера хоста
 
--   [« MongoDB\\Driver\\Server::executeWriteCommand](mongodb-driver-server.executewritecommand.html)
+-   [« MongoDBDriverServer::executeWriteCommand](mongodb-driver-server.executewritecommand.html)
     
--   [MongoDB\\Driver\\Server::getInfo »](mongodb-driver-server.getinfo.html)
+-   [MongoDBDriverServer::getInfo »](mongodb-driver-server.getinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+-   [MongoDBDriverServer](class.mongodb-driver-server.html)
     
 -   Повертає ім'я сервера хоста
     
@@ -35,7 +35,7 @@ final public MongoDB\Driver\Server::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
@@ -62,5 +62,5 @@ string(9) "localhost"
 
 ### Дивіться також
 
--   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
--   [MongoDB\\Driver\\ServerDescription::getHost()](mongodb-driver-serverdescription.gethost.html) - Повертає ім'я сервера хоста
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getHost()](mongodb-driver-serverdescription.gethost.html) - Повертає ім'я сервера хоста

@@ -1,12 +1,12 @@
 Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
 
--   [« snmp3\_get](function.snmp3-get.html)
+-   [« snmpv3get](function.snmp3-get.html)
     
--   [snmp3\_real\_walk »](function.snmp3-real-walk.html)
+-   [snmpv3realwalk »](function.snmp3-real-walk.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
     
@@ -89,5 +89,5 @@ $nameOfSecondInterface = snmp3_getnext('localhost', 'james', 'authPriv', 'S
 
 ### Дивіться також
 
--   [snmp3\_get()](function.snmp3-get.html) - Отримує об'єкт SNMP
--   [snmp3\_walk()](function.snmp3-walk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmpv3get()](function.snmp3-get.html) - Отримує об'єкт SNMP
+-   [snmpv3walk()](function.snmp3-walk.html) - Отримує всі об'єкти SNMP з агента

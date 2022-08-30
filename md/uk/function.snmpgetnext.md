@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
     

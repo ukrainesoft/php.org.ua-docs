@@ -2,7 +2,7 @@
 
 -   [« Требования](ui.requirements.html)
     
--   [UI\\Point »](class.ui-point.html)
+-   [ОЙPoint »](class.ui-point.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Витягує інформацію про виділення пам'яті, що розділяється APCu
 
--   [« apcu\_key\_info](function.apcu-key-info.html)
+-   [« apcukeyinfo](function.apcu-key-info.html)
     
--   [apcu\_store »](function.apcu-store.html)
+-   [apcustore »](function.apcu-store.html)
     
 -   [PHP Manual](index.html)
     
@@ -72,4 +72,4 @@ Array
 
 ### Дивіться також
 
--   [Директивы конфигурации APCu](apcu.configuration.html)
+-   [Директиви конфігурації APCu](apcu.configuration.html)

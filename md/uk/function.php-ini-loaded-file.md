@@ -1,12 +1,12 @@
 Отримати шлях до завантаженого файлу php.ini
 
--   [« memory\_get\_usage](function.memory-get-usage.html)
+-   [« memorygetusage](function.memory-get-usage.html)
     
--   [php\_ini\_scanned\_files »](function.php-ini-scanned-files.html)
+-   [phpiniscannedfiles »](function.php-ini-scanned-files.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримати шлях до завантаженого файлу php.ini
     
@@ -57,6 +57,6 @@ Loaded php.ini: /usr/local/php/php.ini
 
 ### Дивіться також
 
--   [php\_ini\_scanned\_files()](function.php-ini-scanned-files.html) - Повертає список .ini-файлів, знайдених у додатковій ini-директорії
+-   [phpiniscannedfiles()](function.php-ini-scanned-files.html) - Повертає список .ini-файлів, знайдених у додатковій ini-директорії
 -   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
 -   [Конфигурационный файл](configuration.file.html)

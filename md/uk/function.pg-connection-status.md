@@ -1,8 +1,8 @@
 Визначає стан підключення
 
--   [« pg\_connection\_reset](function.pg-connection-reset.html)
+-   [« pgconnectionreset](function.pg-connection-reset.html)
     
--   [pg\_consume\_input »](function.pg-consume-input.html)
+-   [пгconsumeinput »](function.pg-consume-input.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_connection_status(PgSql\Connection $connection): int
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,9 +37,9 @@ pg_connection_status(PgSql\Connection $connection): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -59,4 +59,4 @@ pg_connection_status(PgSql\Connection $connection): int
 
 ### Дивіться також
 
--   [pg\_connection\_busy()](function.pg-connection-busy.html) - Перевіряє, чи зайнято з'єднання на даний момент.
+-   [пгconnectionbusy()](function.pg-connection-busy.html) - Перевіряє, чи зайнято з'єднання на даний момент.

@@ -1,12 +1,12 @@
 Встановлює права доступу до файлу
 
--   [« ftp\_chdir](function.ftp-chdir.html)
+-   [« ftpchdir](function.ftp-chdir.html)
     
--   [ftp\_close »](function.ftp-close.html)
+-   [ftpclose »](function.ftp-close.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции FTP](ref.ftp.html)
+-   [Функції FTP](ref.ftp.html)
     
 -   Встановлює права доступу до файлу
     
@@ -29,7 +29,7 @@ ftp_chmod(FTP\Connection $ftp, int $permissions, string $filename): int|false
 
 `ftp`
 
-Ан [FTP\\Connection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.html) instance.
 
 `permissions`
 
@@ -45,9 +45,9 @@ ftp_chmod(FTP\Connection $ftp, int $permissions, string $filename): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                            |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

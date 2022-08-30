@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\Http\\Client::setMethod](swoole-coroutine-http-client.setmethod.html)
+-   [« SwooleCoroutineHttpClient::setMethod](swoole-coroutine-http-client.setmethod.html)
     
--   [Swoole\\Coroutine\\MySQL::connect »](swoole-coroutine-mysql.connect.html)
+-   [SwooleCoroutineMySQL::connect »](swoole-coroutine-mysql.connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

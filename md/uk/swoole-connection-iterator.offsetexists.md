@@ -1,12 +1,12 @@
 Перевіряє, чи існує зміщення
 
--   [« Swoole\\Connection\\Iterator::next](swoole-connection-iterator.next.html)
+-   [« SwooleConnectionIterator::next](swoole-connection-iterator.next.html)
     
--   [Swoole\\Connection\\Iterator::offsetGet »](swoole-connection-iterator.offsetget.html)
+-   [SwooleConnectionIterator::offsetGet »](swoole-connection-iterator.offsetget.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Перевіряє, чи існує зміщення
     

@@ -1,8 +1,8 @@
 Свічкова модель "Довгоногі доджі"
 
--   [« trader\_cdlladderbottom](function.trader-cdlladderbottom.html)
+-   [« tradercdlladderbottom](function.trader-cdlladderbottom.html)
     
--   [trader\_cdllongline »](function.trader-cdllongline.html)
+-   [tradercdllongline »](function.trader-cdllongline.html)
     
 -   [PHP Manual](index.html)
     

@@ -24,7 +24,7 @@ public **RecursiveRegexIterator::construct**
 string `$pattern`  
 int `$mode` = RecursiveRegexIterator::MATCH,  
 int `$flags`  
-int `$pregFlags`  
+int `$pregFlags`
 
 Створює новий об'єкт-ітератор регулярного вираження.
 
@@ -52,13 +52,13 @@ int `$pregFlags`
 
 **[RegexIterator](class.regexiterator.html) pregflags**
 
-| режим работы                       | доступные флаги                                             |
-|------------------------------------|-------------------------------------------------------------|
-| RecursiveRegexIterator::ALLMATCHES | Дивіться [preg\_match\_all()](function.preg-match-all.html) |
-| RecursiveRegexIterator::GETMATCH   | Дивіться [preg\_match()](function.preg-match.html)          |
-| RecursiveRegexIterator::MATCH      | Дивіться [preg\_match()](function.preg-match.html)          |
-| RecursiveRegexIterator::REPLACE    | ні                                                          |
-| RecursiveRegexIterator::SPLIT      | Дивіться [preg\_split()](function.preg-split.html)          |
+| режим работы                       | доступные флаги                                         |
+|------------------------------------|---------------------------------------------------------|
+| RecursiveRegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
+| RecursiveRegexIterator::GETMATCH   | Дивіться [pregmatch()](function.preg-match.html)        |
+| RecursiveRegexIterator::MATCH      | Дивіться [pregmatch()](function.preg-match.html)        |
+| RecursiveRegexIterator::REPLACE    | ні                                                      |
+| RecursiveRegexIterator::SPLIT      | Дивіться [pregsplit()](function.preg-split.html)        |
 
 ### Приклади
 
@@ -99,7 +99,7 @@ foreach ($rRegexIterator as $key1 => $value1) {
 
 ### Дивіться також
 
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [preg\_match\_all()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [preg\_replace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preg\_split()](function.preg-split.html) - Розбиває рядок за регулярним виразом
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
+-   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом

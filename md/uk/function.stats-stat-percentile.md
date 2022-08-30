@@ -1,12 +1,12 @@
 Повертає значення відсотка
 
--   [« stats\_stat\_paired\_t](function.stats-stat-paired-t.html)
+-   [« statsstatpairedт](function.stats-stat-paired-t.html)
     
--   [stats\_stat\_powersum »](function.stats-stat-powersum.html)
+-   [statsstatpowersum »](function.stats-stat-powersum.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає значення відсотка
     

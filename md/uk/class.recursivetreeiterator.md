@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас RecursiveTreeIterator
     
@@ -155,7 +155,7 @@ public RecursiveIteratorIterator::valid(): bool
 -   [RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.html) — Початок навігації
 -   [RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.html) — Отримання дочірніх елементів
 -   [RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.html) — Перевірка, чи має поточний елемент нащадки
--   [RecursiveTreeIterator::\_\_construct](recursivetreeiterator.construct.html) - Конструктор класу RecursiveTreeIterator
+-   [RecursiveTreeIterator::construct](recursivetreeiterator.construct.html) - Конструктор класу RecursiveTreeIterator
 -   [RecursiveTreeIterator::current](recursivetreeiterator.current.html) — Отримання поточного елемента
 -   [RecursiveTreeIterator::endChildren](recursivetreeiterator.endchildren.html) — Завершення навігації за нащадками елемента
 -   [RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.html) - Завершення навігації

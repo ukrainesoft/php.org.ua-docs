@@ -1,12 +1,12 @@
 Опис
 
--   [« Swoole\\Coroutine\\MySQL::query](swoole-coroutine-mysql.query.html)
+-   [« SwooleCoroutineMySQL::query](swoole-coroutine-mysql.query.html)
     
--   [Swoole\\Coroutine\\MySQL::setDefer »](swoole-coroutine-mysql.setdefer.html)
+-   [SwooleCoroutineMySQL::setDefer »](swoole-coroutine-mysql.setdefer.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Coroutine](class.swoole-coroutine.html)
+-   [SwooleCoroutine](class.swoole-coroutine.html)
     
 -   Опис
     

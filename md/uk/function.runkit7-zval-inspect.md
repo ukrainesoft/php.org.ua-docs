@@ -1,12 +1,12 @@
 Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
 
--   [« runkit7\_superglobals](function.runkit7-superglobals.html)
+-   [« runkit7superglobals](function.runkit7-superglobals.html)
     
 -   [uopz »](book.uopz.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции runkit7](ref.runkit7.html)
+-   [Функції runkit7](ref.runkit7.html)
     
 -   Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
     

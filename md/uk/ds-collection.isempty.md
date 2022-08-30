@@ -1,8 +1,8 @@
 Перевіряє, чи порожня колекція
 
--   [« Ds\\Collection::copy](ds-collection.copy.html)
+-   [« DsCollection::copy](ds-collection.copy.html)
     
--   [Ds\\Collection::toArray »](ds-collection.toarray.html)
+-   [ДсCollection::toArray »](ds-collection.toarray.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,12 +1,12 @@
 Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
 
--   [« libxml\_set\_external\_entity\_loader](function.libxml-set-external-entity-loader.html)
+-   [« libxmlsetexternalentityloader](function.libxml-set-external-entity-loader.html)
     
--   [libxml\_use\_internal\_errors »](function.libxml-use-internal-errors.html)
+-   [libxmluseinternalerrors »](function.libxml-use-internal-errors.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции libxml](ref.libxml.html)
+-   [Функції libxml](ref.libxml.html)
     
 -   Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
     
@@ -29,7 +29,7 @@ libxml_set_streams_context(resource $context): void
 
 `context`
 
-Ресурс контексту потоку (створений функцією [stream\_context\_create()](function.stream-context-create.html)
+Ресурс контексту потоку (створений функцією [streamcontextcreate()](function.stream-context-create.html)
 
 ### Значення, що повертаються
 
@@ -59,4 +59,4 @@ $doc = DOMDocument::load('http://www.example.com/file.xml');
 
 ### Дивіться також
 
--   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
+-   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку

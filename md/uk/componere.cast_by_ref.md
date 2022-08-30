@@ -1,6 +1,6 @@
 Приведення до типу
 
--   [« Componere\\cast](componere.cast.html)
+-   [« Componerecast](componere.cast.html)
     
 -   [Обработка ошибок »](book.errorfunc.html)
     
@@ -61,4 +61,4 @@ object типу **Type**, наведений з `object`де елементи є
 
 ### Дивіться також
 
--   [Componere\\cast](componere.cast.html)
+-   [Componerecast](componere.cast.html)

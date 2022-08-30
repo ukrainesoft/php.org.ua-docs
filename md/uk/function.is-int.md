@@ -1,12 +1,12 @@
 Перевіряє, чи є змінна цілим числом
 
--   [« is\_float](function.is-float.html)
+-   [« isfloat](function.is-float.html)
     
--   [is\_integer »](function.is-integer.html)
+-   [ісinteger »](function.is-integer.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с переменными](ref.var.html)
+-   [Функції для роботи зі змінними](ref.var.html)
     
 -   Перевіряє, чи є змінна цілим числом
     
@@ -27,7 +27,7 @@ is_int(mixed $value): bool
 
 > **Зауваження**
 > 
-> Щоб перевірити, чи змінна є числом або рядком, що містить число (як поле введення у формі, яке завжди є рядком), використовуйте [is\_numeric()](function.is-numeric.html)
+> Щоб перевірити, чи змінна є числом або рядком, що містить число (як поле введення у формі, яке завжди є рядком), використовуйте [ісnumeric()](function.is-numeric.html)
 
 ### Список параметрів
 
@@ -69,9 +69,9 @@ is_int(false) = bool(false)
 
 ### Дивіться також
 
--   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
--   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [ісfloat()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом

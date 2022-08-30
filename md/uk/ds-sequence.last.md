@@ -1,12 +1,12 @@
 Повертає останнє значення колекції
 
--   [« Ds\\Sequence::join](ds-sequence.join.html)
+-   [« DsSequence::join](ds-sequence.join.html)
     
--   [Ds\\Sequence::map »](ds-sequence.map.html)
+-   [ДсSequence::map »](ds-sequence.map.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає останнє значення колекції
     

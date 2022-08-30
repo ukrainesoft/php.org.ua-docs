@@ -1,12 +1,12 @@
 Асинхронне читання файлового потоку
 
--   [« Swoole\\Async::dnsLookup](swoole-async.dnslookup.html)
+-   [« SwooleAsync::dnsLookup](swoole-async.dnslookup.html)
     
--   [Swoole\\Async::readFile »](swoole-async.readfile.html)
+-   [SwooleAsync::readFile »](swoole-async.readfile.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Async](class.swoole-async.html)
+-   [SwooleAsync](class.swoole-async.html)
     
 -   Асинхронне читання файлового потоку
     

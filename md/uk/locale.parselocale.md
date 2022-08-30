@@ -83,4 +83,4 @@ language : sl , script : Latn , region : IT , variant0 : NEDIS ,
 
 ### Дивіться також
 
--   [locale\_compose()](locale.composelocale.html) - Повертає коректно відсортовані та розділені ідентифікатори локалі
+-   [localecompose()](locale.composelocale.html) - Повертає коректно відсортовані та розділені ідентифікатори локалі

@@ -33,7 +33,7 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 Повертає, чи вказаний день є робочим днем ​​(**`IntlCalendar::DOW_TYPE_WEEKDAY`**), вихідним днем ​​(**`IntlCalendar::DOW_TYPE_WEEKEND`**), днем, протягом якого відбувається перехід у вихідні (**`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**) або день, протягом якого припиняються вихідні (**`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**
 
-Якщо повернення або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**потім можна викликати [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.html) для отримання часу переходу.
+Якщо повернення або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або \*\*`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`\*\*потім можна викликати [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.html) для отримання часу переходу.
 
 Для цієї функції потрібний ICU 4.4 або новіший.
 

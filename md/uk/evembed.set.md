@@ -33,7 +33,7 @@ public
 
 `other`
 
-Дивіться [EvEmbed::\_\_construct()](evembed.construct.html)
+Дивіться [EvEmbed::construct()](evembed.construct.html)
 
 ### Значення, що повертаються
 

@@ -1,6 +1,6 @@
 Повертає, чи містить текстовий вузол пробіл у вмісті елемента
 
--   [« DOMText::\_\_construct](domtext.construct.html)
+-   [« DOMText::construct](domtext.construct.html)
     
 -   [DOMText::isWhitespaceInElementContent »](domtext.iswhitespaceinelementcontent.html)
     

@@ -31,7 +31,7 @@ public IteratorIterator::getInnerIterator(): ?Iterator
 
 ### Значення, що повертаються
 
-Внутрішній ітератор, який було передано методу [IteratorIterator::\_\_construct()](iteratoriterator.construct.html) або **`null`**якщо внутрішній ітератор відсутній.
+Внутрішній ітератор, який було передано методу [IteratorIterator::construct()](iteratoriterator.construct.html) або \*\*`null`\*\*якщо внутрішній ітератор відсутній.
 
 ### Дивіться також
 

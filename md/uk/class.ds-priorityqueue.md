@@ -1,12 +1,12 @@
 Клас PriorityQueue
 
--   [« Ds\\Queue::toArray](ds-queue.toarray.html)
+-   [« DsQueue::toArray](ds-queue.toarray.html)
     
--   [Ds\\PriorityQueue::allocate »](ds-priorityqueue.allocate.html)
+-   [ДсPriorityQueue::allocate »](ds-priorityqueue.allocate.html)
     
 -   [PHP Manual](index.html)
     
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     
 -   Клас PriorityQueue
     
@@ -71,15 +71,15 @@ public toArray(): array
 
 ## Зміст
 
--   [Ds\\PriorityQueue::allocate](ds-priorityqueue.allocate.html) — Виділяє пам'ять під зазначену місткість
--   [Ds\\PriorityQueue::capacity](ds-priorityqueue.capacity.html) — Повертає поточну місткість
--   [Ds\\PriorityQueue::clear](ds-priorityqueue.clear.html) - Видаляє всі значення
--   [Ds\\PriorityQueue::\_\_construct](ds-priorityqueue.construct.html) - Створює новий екземпляр
--   [Ds\\PriorityQueue::copy](ds-priorityqueue.copy.html) — Повертає поверхневу копію черги
--   [Ds\\PriorityQueue::count](ds-priorityqueue.count.html) — Повертає кількість елементів у черзі
--   [Ds\\PriorityQueue::isEmpty](ds-priorityqueue.isempty.html) — Перевіряє, чи колекція порожня.
--   [Ds\\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html) — Повертає колекцію в JSON-виставу
--   [Ds\\PriorityQueue::peek](ds-priorityqueue.peek.html) — Повертає значення із початку черги
--   [Ds\\PriorityQueue::pop](ds-priorityqueue.pop.html) — Видаляє та повертає значення з найвищим пріоритетом
--   [Ds\\PriorityQueue::push](ds-priorityqueue.push.html) — Додає значення у чергу
--   [Ds\\PriorityQueue::toArray](ds-priorityqueue.toarray.html) - Перетворює чергу на масив (array)
+-   [ДсPriorityQueue::allocate](ds-priorityqueue.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [ДсPriorityQueue::capacity](ds-priorityqueue.capacity.html) — Повертає поточну місткість
+-   [ДсPriorityQueue::clear](ds-priorityqueue.clear.html) - Видаляє всі значення
+-   [ДсPriorityQueue::construct](ds-priorityqueue.construct.html) - Створює новий екземпляр
+-   [ДсPriorityQueue::copy](ds-priorityqueue.copy.html) — Повертає поверхневу копію черги
+-   [ДсPriorityQueue::count](ds-priorityqueue.count.html) — Повертає кількість елементів у черзі
+-   [ДсPriorityQueue::isEmpty](ds-priorityqueue.isempty.html) — Перевіряє, чи колекція порожня.
+-   [ДсPriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html) — Повертає колекцію в JSON-виставу
+-   [ДсPriorityQueue::peek](ds-priorityqueue.peek.html) — Повертає значення із початку черги
+-   [ДсPriorityQueue::pop](ds-priorityqueue.pop.html) — Видаляє та повертає значення з найвищим пріоритетом
+-   [ДсPriorityQueue::push](ds-priorityqueue.push.html) — Додає значення у чергу
+-   [ДсPriorityQueue::toArray](ds-priorityqueue.toarray.html) - Перетворює чергу на масив (array)

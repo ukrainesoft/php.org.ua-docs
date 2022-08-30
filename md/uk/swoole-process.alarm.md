@@ -1,12 +1,12 @@
 Таймер високої точності, який запускає сигнал із фіксованим інтервалом
 
--   [« Swoole\\Process](class.swoole-process.html)
+-   [« SwooleProcess](class.swoole-process.html)
     
--   [Swoole\\Process::close »](swoole-process.close.html)
+-   [SwooleProcess::close »](swoole-process.close.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Process](class.swoole-process.html)
+-   [SwooleProcess](class.swoole-process.html)
     
 -   Таймер високої точності, який запускає сигнал із фіксованим інтервалом
     

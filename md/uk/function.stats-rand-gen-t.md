@@ -1,12 +1,12 @@
 Генерує одне випадкове відхилення від t-розподілу
 
--   [« stats\_rand\_gen\_normal](function.stats-rand-gen-normal.html)
+-   [« statsrandgennormal](function.stats-rand-gen-normal.html)
     
--   [stats\_rand\_get\_seeds »](function.stats-rand-get-seeds.html)
+-   [statsrandgetseeds »](function.stats-rand-get-seeds.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Генерує одне випадкове відхилення від t-розподілу
     

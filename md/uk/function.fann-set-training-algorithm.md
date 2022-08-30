@@ -1,8 +1,8 @@
 Встановлює алгоритм навчання
 
--   [« fann\_set\_train\_stop\_function](function.fann-set-train-stop-function.html)
+-   [« fannsettrainstopfunction](function.fann-set-train-stop-function.html)
     
--   [fann\_set\_weight\_array »](function.fann-set-weight-array.html)
+-   [fannsetweightarray »](function.fann-set-weight-array.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 Встановлює алгоритм навчання.
 
-Докладніша інформація доступна в [fann\_get\_training\_algorithm()](function.fann-get-training-algorithm.html)
+Докладніша інформація доступна в [fanngettrainingalgorithm()](function.fann-get-training-algorithm.html)
 
 ### Список параметрів
 
@@ -43,4 +43,4 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 ### Дивіться також
 
--   [fann\_get\_training\_algorithm()](function.fann-get-training-algorithm.html) - Повертає алгоритм навчання
+-   [fanngettrainingalgorithm()](function.fann-get-training-algorithm.html) - Повертає алгоритм навчання

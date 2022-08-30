@@ -1,12 +1,12 @@
 Перевірити, чи виконується вимір
 
--   [« HRTime\\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html)
+-   [« HRTimeStopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html)
     
--   [HRTime\\StopWatch::start »](hrtime-stopwatch.start.html)
+-   [HRTimeStopWatch::start »](hrtime-stopwatch.start.html)
     
 -   [PHP Manual](index.html)
     
--   [HRTime\\StopWatch](class.hrtime-stopwatch.html)
+-   [HRTimeStopWatch](class.hrtime-stopwatch.html)
     
 -   Перевірити, чи виконується вимір
     

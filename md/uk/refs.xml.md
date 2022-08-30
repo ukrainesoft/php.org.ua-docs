@@ -1,6 +1,6 @@
 Обробка XML
 
--   [« win32\_stop\_service](function.win32-stop-service.html)
+-   [« win32stopservice](function.win32-stop-service.html)
     
 -   [DOM »](book.dom.html)
     
@@ -45,7 +45,7 @@
     -   [Установка и настройка](libxml.setup.html)
     -   [Предопределённые константы](libxml.constants.html)
     -   [libXMLError](class.libxmlerror.html) - Клас libXMLError
-    -   [Функции libxml](ref.libxml.html)
+    -   [Функції libxml](ref.libxml.html)
 -   [SimpleXML](book.simplexml.html)
     -   [Введение](intro.simplexml.html)
     -   [Установка и настройка](simplexml.setup.html)
@@ -59,22 +59,22 @@
     -   [Установка и настройка](wddx.setup.html)
     -   [Предопределённые константы](wddx.constants.html)
     -   [Примеры](wddx.examples.html)
-    -   [Функции WDDX](ref.wddx.html)
+    -   [Функції WDDX](ref.wddx.html)
 -   [XMLDiff](book.xmldiff.html) — Порівняння та об'єднання XML
     -   [Введение](intro.xmldiff.html)
     -   [Установка и настройка](xmldiff.setup.html)
-    -   [XMLDiff\\Base](class.xmldiff-base.html) - Клас XMLDiffBase
-    -   [XMLDiff\\DOM](class.xmldiff-dom.html) - Клас XMLDiffDOM
-    -   [XMLDiff\\Memory](class.xmldiff-memory.html) - Клас XMLDiffMemory
-    -   [XMLDiff\\File](class.xmldiff-file.html) - Клас XMLDiffFile
+    -   [XMLDiffBase](class.xmldiff-base.html) - Клас XMLDiffBase
+    -   [XMLDiffDOM](class.xmldiff-dom.html) - Клас XMLDiffDOM
+    -   [XMLDiffMemory](class.xmldiff-memory.html) - Клас XMLDiffMemory
+    -   [XMLDiffFile](class.xmldiff-file.html) - Клас XMLDiffFile
 -   [Разбор XML](book.xml.html)
     -   [Введение](intro.xml.html)
     -   [Установка и настройка](xml.setup.html)
     -   [Предопределённые константы](xml.constants.html)
     -   [Обработчики событий](xml.eventhandlers.html)
-    -   [Приведение к одному регистру](xml.case-folding.html)
+    -   [Приведення до одного регістру](xml.case-folding.html)
     -   [Коды ошибок](xml.error-codes.html)
-    -   [Кодировка символов](xml.encoding.html)
+    -   [Кодування символів](xml.encoding.html)
     -   [Примеры](xml.examples.html)
     -   [Функции парсера XML](ref.xml.html)
     -   [XmlParser](class.xmlparser.html) - Клас XmlParser

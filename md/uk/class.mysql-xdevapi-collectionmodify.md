@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас CollectionModify
     
@@ -54,7 +54,7 @@ public unset(array $fields): mysql_xdevapi\CollectionModify
 -   [CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.html) — Додає елемент у поле масиву
 -   [CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.html) — Додає елемент у поле масиву
 -   [CollectionModify::bind](mysql-xdevapi-collectionmodify.bind.html) — Прив'язує значення до заповнювача запиту
--   [CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.html) - Конструктор класу CollectionModify
+-   [CollectionModify::construct](mysql-xdevapi-collectionmodify.construct.html) - Конструктор класу CollectionModify
 -   [CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.html) - Виконує операцію зміни
 -   [CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.html) — Обмежує кількість документів, що змінюються.
 -   [CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.html) - Виправляє документ

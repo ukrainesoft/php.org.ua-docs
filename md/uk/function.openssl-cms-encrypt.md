@@ -1,8 +1,8 @@
 Зашифровує CMS-повідомлення
 
--   [« openssl\_cms\_decrypt](function.openssl-cms-decrypt.html)
+-   [« opensslcmsdecrypt](function.openssl-cms-decrypt.html)
     
--   [openssl\_cms\_read »](function.openssl-cms-read.html)
+-   [opensslcmsread »](function.openssl-cms-read.html)
     
 -   [PHP Manual](index.html)
     

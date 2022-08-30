@@ -2,11 +2,11 @@
 
 -   [« Типы ресурсов](ps.resources.html)
     
--   [Функции PS »](ref.ps.html)
+-   [Функції PS »](ref.ps.html)
     
 -   [PHP Manual](index.html)
     
--   [PS](book.ps.html)
+-   [ПС](book.ps.html)
     
 -   Обумовлені константи
     

@@ -2,7 +2,7 @@
 
 -   [« Функции Sodium](ref.sodium.html)
     
--   [sodium\_base642bin »](function.sodium-base642bin.html)
+-   [sodiumbase642bin »](function.sodium-base642bin.html)
     
 -   [PHP Manual](index.html)
     

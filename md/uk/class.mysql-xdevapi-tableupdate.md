@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас TableUpdate
     
@@ -49,7 +49,7 @@ public where(string $where_expr): mysql_xdevapi\TableUpdate
 ## Зміст
 
 -   [TableUpdate::bind](mysql-xdevapi-tableupdate.bind.html) — Прив'язує параметри запиту на оновлення
--   [TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.html) - Конструктор класу TableUpdate
+-   [TableUpdate::construct](mysql-xdevapi-tableupdate.construct.html) - Конструктор класу TableUpdate
 -   [TableUpdate::execute](mysql-xdevapi-tableupdate.execute.html) — Виконує запит на оновлення
 -   [TableUpdate::limit](mysql-xdevapi-tableupdate.limit.html) - Обмежує кількість рядків для оновлення
 -   [TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.html) - Встановлює критерії сортування

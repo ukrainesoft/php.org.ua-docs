@@ -1,6 +1,6 @@
 Вимушує SoapServer повернути помилку
 
--   [« SoapServer::\_\_construct](soapserver.construct.html)
+-   [« SoapServer::construct](soapserver.construct.html)
     
 -   [SoapServer::getFunctions »](soapserver.getfunctions.html)
     
@@ -57,4 +57,4 @@ public SoapServer::fault(    string $code,    string $string,    str
 
 ### Дивіться також
 
--   [SoapFault::\_\_construct()](soapfault.construct.html) - Конструктор SoapFault
+-   [SoapFault::construct()](soapfault.construct.html) - Конструктор SoapFault

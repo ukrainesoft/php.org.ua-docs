@@ -1,8 +1,8 @@
 Генерація підпису
 
--   [« openssl\_seal](function.openssl-seal.html)
+-   [« opensslseal](function.openssl-seal.html)
     
--   [openssl\_spki\_export\_challenge »](function.openssl-spki-export-challenge.html)
+-   [opensslspkiexportchallenge »](function.openssl-spki-export-challenge.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,7 +37,7 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 `private_key`
 
-Ідентифікатор ключа типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), отриманий з [openssl\_get\_privatekey()](function.openssl-get-privatekey.html)
+Ідентифікатор ключа типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), отриманий з [opensslgetprivatekey()](function.openssl-get-privatekey.html)
 
 Рядок, що є ключем у форматі PEM
 
@@ -45,7 +45,7 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 Ціле число, що визначає алгоритм. Дивіться [алгоритмы подписи](openssl.signature-algos.html)
 
-Рядок, повернутий [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html). Наприклад, "sha256WithRSAEncryption" або "sha384".
+Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.html). Наприклад, "sha256WithRSAEncryption" або "sha384".
 
 ### Значення, що повертаються
 
@@ -109,4 +109,4 @@ var_dump($r);
 
 ### Дивіться також
 
--   [openssl\_verify()](function.openssl-verify.html) - Звіряння сигнатури
+-   [opensslverify()](function.openssl-verify.html) - Звіряння сигнатури

@@ -1,8 +1,8 @@
 Копіює контекст хешування
 
--   [« hash\_algos](function.hash-algos.html)
+-   [« hashalgos](function.hash-algos.html)
     
--   [hash\_equals »](function.hash-equals.html)
+-   [hashequals »](function.hash-equals.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ hash_copy(HashContext $context): HashContext
 
 `context`
 
-Контекст хешування, повернутий [hash\_init()](function.hash-init.html)
+Контекст хешування, повернутий [hashinit()](function.hash-init.html)
 
 ### Значення, що повертаються
 

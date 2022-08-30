@@ -2,7 +2,7 @@
 
 -   [« Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
     
--   [Новые возможности »](migration56.new-features.html)
+-   [Нові можливості "](migration56.new-features.html)
     
 -   [PHP Manual](index.html)
     
@@ -58,11 +58,11 @@ array(3) {
 }
 ```
 
-### Суворість [json\_decode()](function.json-decode.html)
+### Суворість [jsondecode()](function.json-decode.html)
 
-Тепер [json\_decode()](function.json-decode.html) відповідно до специфікації JSON відхиляє JSON літерали `true` `false` і `null`, задані не строго в нижньому регістрі, і відповідно встановлює [json\_last\_error()](function.json-last-error.html). Раніше дані, що передаються в [json\_decode()](function.json-decode.html) і що містять виключно одне з цих значень у верхньому або змішаному регістрі приймалися.
+Тепер [jsondecode()](function.json-decode.html) відповідно до специфікації JSON відхиляє JSON літерали `true` `false` і `null`, задані не строго в нижньому регістрі, і відповідно встановлює [jsonlasterror()](function.json-last-error.html). Раніше дані, що передаються в [jsondecode()](function.json-decode.html) і що містять виключно одне з цих значень у верхньому або змішаному регістрі приймалися.
 
-Ця зміна вплине тільки у разі передачі в [json\_decode()](function.json-decode.html) некоректного JSON. У разі коректно сформованого JSON ніякого ефекту не буде.
+Ця зміна вплине тільки у разі передачі в [jsondecode()](function.json-decode.html) некоректного JSON. У разі коректно сформованого JSON ніякого ефекту не буде.
 
 ### Тепер потокові обгортки за промовчанням перевіряють сертифікати точок під час використання SSL/TLS
 
@@ -74,11 +74,11 @@ array(3) {
 
 ### Тепер ресурси [GMP](book.gmp.html) є об'єктами
 
-Тепер ресурси [GMP](book.gmp.html) є об'єктами. Функціональне API, реалізоване у модулі GMP, залишилося без змін. Існуючий код має запрацювати без змін, тільки якщо в ньому явно не використовувалися перевірки на ресурс [is\_resource()](function.is-resource.html) або щось подібне.
+Тепер ресурси [GMP](book.gmp.html) є об'єктами. Функціональне API, реалізоване у модулі GMP, залишилося без змін. Існуючий код має запрацювати без змін, тільки якщо в ньому явно не використовувалися перевірки на ресурс [ісresource()](function.is-resource.html) або щось подібне.
 
 ### Тепер функція [Mcrypt](book.mcrypt.html) вимагає коректні ключі та IV
 
-[mcrypt\_encrypt()](function.mcrypt-encrypt.html) [mcrypt\_decrypt()](function.mcrypt-decrypt.html) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcrypt\_generic()](function.mcrypt-generic.html) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
+[mcryptencrypt()](function.mcrypt-encrypt.html) [mcryptdecrypt()](function.mcrypt-decrypt.html) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcryptgeneric()](function.mcrypt-generic.html) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
 
 ### Завантаження файлів за допомогою [cURL](book.curl.html)
 

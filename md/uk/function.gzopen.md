@@ -39,7 +39,7 @@ gzopen(string $filename, string $mode, int $use_include_path = 0): resource|fals
 
 `use_include_path`
 
-Якщо ви хочете, щоб пошук файлу виконувався також у директоріях [include\_path](ini.core.html#ini.include-path), встановіть значення цього аргументу в `1`
+Якщо ви хочете, щоб пошук файлу виконувався також у директоріях [includepath](ini.core.html#ini.include-path), встановіть значення цього аргументу в `1`
 
 ### Значення, що повертаються
 

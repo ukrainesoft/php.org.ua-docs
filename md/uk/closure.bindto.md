@@ -88,5 +88,5 @@ echo $cl(), "\n";
 
 ### Дивіться також
 
--   [Анонимные функции](functions.anonymous.html)
+-   [Анонімні функції](functions.anonymous.html)
 -   [Closure::bind()](closure.bind.html) - Дублює замикання із зазначенням конкретного пов'язаного об'єкта та області видимості класу

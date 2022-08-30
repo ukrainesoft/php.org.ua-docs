@@ -1,6 +1,6 @@
 Стан кешу
 
--   [« Yac::\_\_get](yac.getter.html)
+-   [« Yac::get](yac.getter.html)
     
 -   [Yac::set »](yac.set.html)
     

@@ -1,6 +1,6 @@
 Повертає або створює цикл стандартних подій
 
--   [« EvLoop::\_\_construct](evloop.construct.html)
+-   [« EvLoop::construct](evloop.construct.html)
     
 -   [EvLoop::embed »](evloop.embed.html)
     
@@ -55,11 +55,11 @@ public
 
 `io_collect_interval`
 
-Дивіться [io\_interval](class.evloop.html#evloop.props.io-interval)
+Дивіться [іоinterval](class.evloop.html#evloop.props.io-interval)
 
 `timeout_collect_interval`
 
-Дивіться [timeout\_interval](class.evloop.html#evloop.props.timeout-interval)
+Дивіться [timeoutinterval](class.evloop.html#evloop.props.timeout-interval)
 
 ### Значення, що повертаються
 
@@ -67,4 +67,4 @@ public
 
 ### Дивіться також
 
--   [EvLoop::\_\_construct()](evloop.construct.html) - Конструктор об'єкта циклу подій
+-   [EvLoop::construct()](evloop.construct.html) - Конструктор об'єкта циклу подій

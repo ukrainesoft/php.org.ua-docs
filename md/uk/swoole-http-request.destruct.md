@@ -1,12 +1,12 @@
 Знищує HTTP-запит
 
--   [« Swoole\\Http\\Request](class.swoole-http-request.html)
+-   [« SwooleHttpRequest](class.swoole-http-request.html)
     
--   [Swoole\\Http\\Request::rawcontent »](swoole-http-request.rawcontent.html)
+-   [SwooleHttpRequest::rawcontent »](swoole-http-request.rawcontent.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Request](class.swoole-http-request.html)
+-   [SwooleHttpRequest](class.swoole-http-request.html)
     
 -   Знищує HTTP-запит
     

@@ -59,7 +59,7 @@
     -   [Введение](intro.misc.html)
     -   [Установка и настройка](misc.setup.html)
     -   [Предопределённые константы](misc.constants.html)
-    -   [Разные функции](ref.misc.html)
+    -   [Різні функції](ref.misc.html)
     -   [Список изменений](changelog.misc.html)
 -   [Seaslog](book.seaslog.html)
     -   [Введение](intro.seaslog.html)
@@ -72,54 +72,54 @@
     -   [Введение](intro.spl.html)
     -   [Установка и настройка](spl.setup.html)
     -   [Предопределённые константы](spl.constants.html)
-    -   [Структуры данных](spl.datastructures.html)
-    -   [Итераторы](spl.iterators.html)
+    -   [Структури даних](spl.datastructures.html)
+    -   [Ітератори](spl.iterators.html)
     -   [Интерфейсы](spl.interfaces.html)
     -   [Исключения](spl.exceptions.html)
-    -   [Функции SPL](ref.spl.html)
+    -   [Функції SPL](ref.spl.html)
     -   [Обработка файлов](spl.files.html)
     -   [Различные классы и интерфейсы](spl.misc.html)
 -   [Потоки](book.stream.html)
     -   [Введение](intro.stream.html)
     -   [Установка и настройка](stream.setup.html)
     -   [Предопределённые константы](stream.constants.html)
-    -   [Потоковые фильтры](stream.filters.html)
-    -   [Контексты потоков](stream.contexts.html)
+    -   [Поточні фільтри](stream.filters.html)
+    -   [Контексти потоків](stream.contexts.html)
     -   [Ошибки потока](stream.errors.html)
     -   [Примеры](stream.examples.html)
-    -   [php\_user\_filter](class.php-user-filter.html) - Клас phpuserfilter
+    -   [phpuserfilter](class.php-user-filter.html) - Клас phpuserfilter
     -   [streamWrapper](class.streamwrapper.html) - Клас streamWrapper
-    -   [Функции для работы с потоками](ref.stream.html)
+    -   [Функції для роботи з потоками](ref.stream.html)
 -   [Swoole](book.swoole.html)
     -   [Введение](intro.swoole.html)
     -   [Установка и настройка](swoole.setup.html)
     -   [Предопределённые константы](swoole.constants.html)
     -   [Функции Swoole](ref.swoole-funcs.html)
-    -   [Swoole\\Async](class.swoole-async.html) - Клас SwooleAsync
-    -   [Swoole\\Atomic](class.swoole-atomic.html) - Клас SwooleAtomic
-    -   [Swoole\\Buffer](class.swoole-buffer.html) - Клас SwooleBuffer
-    -   [Swoole\\Channel](class.swoole-channel.html) - Клас SwooleChannel
-    -   [Swoole\\Client](class.swoole-client.html) - Клас SwooleClient
-    -   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html) - Клас SwooleConnectionIterator
-    -   [Swoole\\Coroutine](class.swoole-coroutine.html) - Клас SwooleCoroutine
-    -   [Swoole\\Event](class.swoole-event.html) - Клас SwooleEvent
-    -   [Swoole\\Exception](class.swoole-exception.html) - Клас SwooleException
-    -   [Swoole\\Http\\Client](class.swoole-http-client.html) - Клас SwooleHttpClient
-    -   [Swoole\\Http\\Request](class.swoole-http-request.html) - Клас SwooleHttpRequest
-    -   [Swoole\\Http\\Response](class.swoole-http-response.html) - Клас SwooleHttpResponse
-    -   [Swoole\\Http\\Server](class.swoole-http-server.html) - Клас SwooleHttpServer
-    -   [Swoole\\Lock](class.swoole-lock.html) - Клас SwooleLock
-    -   [Swoole\\Mmap](class.swoole-mmap.html) - Клас SwooleMmap
-    -   [Swoole\\MySQL](class.swoole-mysql.html) - Клас SwooleMySQL
-    -   [Swoole\\MySQL\\Exception](class.swoole-mysql-exception.html) - Клас SwooleMySQLException
-    -   [Swoole\\Process](class.swoole-process.html) - Клас SwooleProcess
-    -   [Swoole\\Redis\\Server](class.swoole-redis-server.html) - Клас SwooleRedisServer
-    -   [Swoole\\Serialize](class.swoole-serialize.html) - Клас SwooleSerialize
-    -   [Swoole\\Server](class.swoole-server.html) - Клас SwooleServer
-    -   [Swoole\\Table](class.swoole-table.html) - Клас SwooleTable
-    -   [Swoole\\Timer](class.swoole-timer.html) - Клас SwooleTimer
-    -   [Swoole\\WebSocket\\Frame](class.swoole-websocket-frame.html) - Клас SwooleWebSocketFrame
-    -   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html) - Клас SwooleWebSocketServer
+    -   [SwooleAsync](class.swoole-async.html) - Клас SwooleAsync
+    -   [SwooleAtomic](class.swoole-atomic.html) - Клас SwooleAtomic
+    -   [SwooleBuffer](class.swoole-buffer.html) - Клас SwooleBuffer
+    -   [SwooleChannel](class.swoole-channel.html) - Клас SwooleChannel
+    -   [SwooleClient](class.swoole-client.html) - Клас SwooleClient
+    -   [SwooleConnectionIterator](class.swoole-connection-iterator.html) - Клас SwooleConnectionIterator
+    -   [SwooleCoroutine](class.swoole-coroutine.html) - Клас SwooleCoroutine
+    -   [SwooleEvent](class.swoole-event.html) - Клас SwooleEvent
+    -   [SwooleException](class.swoole-exception.html) - Клас SwooleException
+    -   [SwooleHttpClient](class.swoole-http-client.html) - Клас SwooleHttpClient
+    -   [SwooleHttpRequest](class.swoole-http-request.html) - Клас SwooleHttpRequest
+    -   [SwooleHttpResponse](class.swoole-http-response.html) - Клас SwooleHttpResponse
+    -   [SwooleHttpServer](class.swoole-http-server.html) - Клас SwooleHttpServer
+    -   [SwooleLock](class.swoole-lock.html) - Клас SwooleLock
+    -   [SwooleMmap](class.swoole-mmap.html) - Клас SwooleMmap
+    -   [SwooleMySQL](class.swoole-mysql.html) - Клас SwooleMySQL
+    -   [SwooleMySQLException](class.swoole-mysql-exception.html) - Клас SwooleMySQLException
+    -   [SwooleProcess](class.swoole-process.html) - Клас SwooleProcess
+    -   [SwooleRedisServer](class.swoole-redis-server.html) - Клас SwooleRedisServer
+    -   [SwooleSerialize](class.swoole-serialize.html) - Клас SwooleSerialize
+    -   [SwooleServer](class.swoole-server.html) - Клас SwooleServer
+    -   [SwooleTable](class.swoole-table.html) - Клас SwooleTable
+    -   [SwooleTimer](class.swoole-timer.html) - Клас SwooleTimer
+    -   [SwooleWebSocketFrame](class.swoole-websocket-frame.html) - Клас SwooleWebSocketFrame
+    -   [SwooleWebSocketServer](class.swoole-websocket-server.html) - Клас SwooleWebSocketServer
 -   [Tidy](book.tidy.html)
     -   [Введение](intro.tidy.html)
     -   [Установка и настройка](tidy.setup.html)
@@ -139,7 +139,7 @@
     -   [Введение](intro.url.html)
     -   [Установка и настройка](url.setup.html)
     -   [Предопределённые константы](url.constants.html)
-    -   [Функции URL](ref.url.html)
+    -   [Функції URL](ref.url.html)
 -   [V8js](book.v8js.html) - Інтеграція V8 Javascript Engine
     -   [Введение](intro.v8js.html)
     -   [Установка и настройка](v8js.setup.html)
@@ -159,42 +159,42 @@
     -   [Предопределённые константы](yaf.constants.html)
     -   [Примеры](yaf.tutorials.html)
     -   [Конфигурация приложения](yaf.appconfig.html)
-    -   [Yaf\_Application](class.yaf-application.html) - Клас YafApplication
-    -   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html) - Клас YafBootstrapAbstract
-    -   [Yaf\_Dispatcher](class.yaf-dispatcher.html) - Клас YafDispatcher
-    -   [Yaf\_Config\_Abstract](class.yaf-config-abstract.html) - Клас YafConfigAbstract
-    -   [Yaf\_Config\_Ini](class.yaf-config-ini.html) - Клас YafConfigIni
-    -   [Yaf\_Config\_Simple](class.yaf-config-simple.html) - Клас YafConfigSimple
-    -   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html) - Клас YafControllerAbstract
-    -   [Yaf\_Action\_Abstract](class.yaf-action-abstract.html) - Клас YafActionAbstract
-    -   [Yaf\_View\_Interface](class.yaf-view-interface.html) - Клас YafViewInterface
-    -   [Yaf\_View\_Simple](class.yaf-view-simple.html) - Клас YafViewSimple
-    -   [Yaf\_Loader](class.yaf-loader.html) - Клас YafLoader
-    -   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html) - Клас YafPluginAbstract
-    -   [Yaf\_Registry](class.yaf-registry.html) - Клас YafRegistry
-    -   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html) - Клас YafRequestAbstract
-    -   [Yaf\_Request\_Http](class.yaf-request-http.html) - Клас YafRequestHttp
-    -   [Yaf\_Request\_Simple](class.yaf-request-simple.html) - Клас YafRequestSimple
-    -   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html) - Клас YafResponseAbstract
-    -   [Yaf\_Route\_Interface](class.yaf-route-interface.html) - Клас YafRouteInterface
-    -   [Yaf\_Route\_Map](class.yaf-route-map.html) - Клас YafRouteMap
-    -   [Yaf\_Route\_Regex](class.yaf-route-regex.html) - Клас YafRouteRegex
-    -   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html) - Клас YafRouteRewrite
-    -   [Yaf\_Router](class.yaf-router.html) - Клас YafRouter
-    -   [Yaf\_Route\_Simple](class.yaf-route-simple.html) - Клас YafRouteSimple
-    -   [Yaf\_Route\_Static](class.yaf-route-static.html) - Клас YafRouteStatic
-    -   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html) - Клас YafRouteSupervar
-    -   [Yaf\_Session](class.yaf-session.html) - Клас YafSession
-    -   [Yaf\_Exception](class.yaf-exception.html) - Клас YafException
-    -   [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html) - Клас YafExceptionTypeError
-    -   [Yaf\_Exception\_StartupError](class.yaf-exception-startuperror.html) - Клас YafExceptionStartupError
-    -   [Yaf\_Exception\_DispatchFailed](class.yaf-exception-dispatchfailed.html) - Клас YafExceptionDispatchFailed
-    -   [Yaf\_Exception\_RouterFailed](class.yaf-exception-routerfailed.html) - Клас YafExceptionRouterFailed
-    -   [Yaf\_Exception\_LoadFailed](class.yaf-exception-loadfailed.html) - Клас YafExceptionLoadFailed
-    -   [Yaf\_Exception\_LoadFailed\_Module](class.yaf-exception-loadfailed-module.html) - Клас YafExceptionLoadFailedModule
-    -   [Yaf\_Exception\_LoadFailed\_Controller](class.yaf-exception-loadfailed-controller.html) - Клас YafExceptionLoadFailedController
-    -   [Yaf\_Exception\_LoadFailed\_Action](class.yaf-exception-loadfailed-action.html) - Клас YafExceptionLoadFailedAction
-    -   [Yaf\_Exception\_LoadFailed\_View](class.yaf-exception-loadfailed-view.html) - Клас YafExceptionLoadFailedView
+    -   [YafApplication](class.yaf-application.html) - Клас YafApplication
+    -   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html) - Клас YafBootstrapAbstract
+    -   [YafDispatcher](class.yaf-dispatcher.html) - Клас YafDispatcher
+    -   [YafConfigAbstract](class.yaf-config-abstract.html) - Клас YafConfigAbstract
+    -   [YafConfigIni](class.yaf-config-ini.html) - Клас YafConfigIni
+    -   [YafConfigSimple](class.yaf-config-simple.html) - Клас YafConfigSimple
+    -   [YafControllerAbstract](class.yaf-controller-abstract.html) - Клас YafControllerAbstract
+    -   [YafActionAbstract](class.yaf-action-abstract.html) - Клас YafActionAbstract
+    -   [YafViewInterface](class.yaf-view-interface.html) - Клас YafViewInterface
+    -   [YafViewSimple](class.yaf-view-simple.html) - Клас YafViewSimple
+    -   [YafLoader](class.yaf-loader.html) - Клас YafLoader
+    -   [YafPluginAbstract](class.yaf-plugin-abstract.html) - Клас YafPluginAbstract
+    -   [YafRegistry](class.yaf-registry.html) - Клас YafRegistry
+    -   [YafRequestAbstract](class.yaf-request-abstract.html) - Клас YafRequestAbstract
+    -   [YafRequestHttp](class.yaf-request-http.html) - Клас YafRequestHttp
+    -   [YafRequestSimple](class.yaf-request-simple.html) - Клас YafRequestSimple
+    -   [YafResponseAbstract](class.yaf-response-abstract.html) - Клас YafResponseAbstract
+    -   [YafRouteInterface](class.yaf-route-interface.html) - Клас YafRouteInterface
+    -   [YafRouteMap](class.yaf-route-map.html) - Клас YafRouteMap
+    -   [YafRouteRegex](class.yaf-route-regex.html) - Клас YafRouteRegex
+    -   [YafRouteRewrite](class.yaf-route-rewrite.html) - Клас YafRouteRewrite
+    -   [YafRouter](class.yaf-router.html) - Клас YafRouter
+    -   [YafRouteSimple](class.yaf-route-simple.html) - Клас YafRouteSimple
+    -   [YafRouteStatic](class.yaf-route-static.html) - Клас YafRouteStatic
+    -   [YafRouteSupervar](class.yaf-route-supervar.html) - Клас YafRouteSupervar
+    -   [YafSession](class.yaf-session.html) - Клас YafSession
+    -   [YafException](class.yaf-exception.html) - Клас YafException
+    -   [YafExceptionTypeError](class.yaf-exception-typeerror.html) - Клас YafExceptionTypeError
+    -   [YafExceptionStartupError](class.yaf-exception-startuperror.html) - Клас YafExceptionStartupError
+    -   [YafExceptionDispatchFailed](class.yaf-exception-dispatchfailed.html) - Клас YafExceptionDispatchFailed
+    -   [YafExceptionRouterFailed](class.yaf-exception-routerfailed.html) - Клас YafExceptionRouterFailed
+    -   [YafExceptionLoadFailed](class.yaf-exception-loadfailed.html) - Клас YafExceptionLoadFailed
+    -   [YafExceptionLoadFailedModule](class.yaf-exception-loadfailed-module.html) - Клас YafExceptionLoadFailedModule
+    -   [YafExceptionLoadFailedController](class.yaf-exception-loadfailed-controller.html) - Клас YafExceptionLoadFailedController
+    -   [YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.html) - Клас YafExceptionLoadFailedAction
+    -   [YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.html) - Клас YafExceptionLoadFailedView
 -   [Yaconf](book.yaconf.html)
     -   [Введение](intro.yaconf.html)
     -   [Установка и настройка](yaconf.setup.html)
@@ -205,24 +205,24 @@
     -   [Установка и настройка](taint.setup.html)
     -   [Дополнительные подробности](taint.detail.html)
     -   [Функции Taint](ref.taint.html)
--   [Структуры данных](book.ds.html)
+-   [Структури даних](book.ds.html)
     -   [Введение](intro.ds.html)
     -   [Установка и настройка](ds.setup.html)
     -   [Предопределённые константы](ds.constants.html)
     -   [Примеры](ds.examples.html)
     -   [Коллекция](class.ds-collection.html) - Інтерфейс Collection
     -   [Хешируемое](class.ds-hashable.html) - Інтерфейс Hashable
-    -   [Последовательность](class.ds-sequence.html) - Інтерфейс Sequence
+    -   [Послідовність](class.ds-sequence.html) - Інтерфейс Sequence
     -   [Вектор](class.ds-vector.html) - Клас Vector
-    -   [Двухсторонняя очередь](class.ds-deque.html) - Клас Deque
+    -   [Двостороння черга](class.ds-deque.html) - Клас Deque
     -   [Коллекция пар ключ-значение](class.ds-map.html) - Клас Map
     -   [Пара](class.ds-pair.html) - Клас Pair
     -   [Набор](class.ds-set.html) - Клас Set
     -   [Стек](class.ds-stack.html) - Клас Stack
-    -   [Очередь](class.ds-queue.html) - Клас Queue
-    -   [Очередь с приоритетом](class.ds-priorityqueue.html) - Клас PriorityQueue
--   [var\_representation](book.var_representation.html)
+    -   [Черга](class.ds-queue.html) - Клас Queue
+    -   [Черга з пріоритетом](class.ds-priorityqueue.html) - Клас PriorityQueue
+-   [varrepresentation](book.var_representation.html)
     -   [Введение](intro.var_representation.html)
     -   [Установка и настройка](var-representation.setup.html)
     -   [Предопределённые константы](var-representation.constants.html)
-    -   [Функции var\_representation](ref.var-representation.html)
+    -   [Функции varrepresentation](ref.var-representation.html)

@@ -1,8 +1,8 @@
 Імпортує сокет з іншого процесу
 
--   [« socket\_wsaprotocol\_info\_export](function.socket-wsaprotocol-info-export.html)
+-   [« socketwsaprotocolinfoexport](function.socket-wsaprotocol-info-export.html)
     
--   [socket\_wsaprotocol\_info\_release »](function.socket-wsaprotocol-info-release.html)
+-   [socketwsaprotocolinforelease »](function.socket-wsaprotocol-info-release.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ socket_wsaprotocol_info_import(string $info_id): Socket|false
 
 `info_id`
 
-Ідентифікатор, отриманий під час виклику [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html)
+Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html)
 
 ### Значення, що повертаються
 
@@ -45,4 +45,4 @@ socket_wsaprotocol_info_import(string $info_id): Socket|false
 
 ### Дивіться також
 
--   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO
+-   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Реєстронезалежний варіант функції strstr
     
@@ -96,4 +96,4 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 -   [strrchr()](function.strrchr.html) - Знаходить останнє входження символу у рядку
 -   [stripos()](function.stripos.html) - Повертає позицію першого входження підрядка без урахування регістру
 -   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

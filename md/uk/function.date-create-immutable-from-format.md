@@ -1,8 +1,8 @@
 Псевдонім DateTimeImmutable::createFromFormat
 
--   [« date\_create\_from\_format](function.date-create-from-format.html)
+-   [« datecreatefromformat](function.date-create-from-format.html)
     
--   [date\_create\_immutable »](function.date-create-immutable.html)
+-   [datecreateimmutable »](function.date-create-immutable.html)
     
 -   [PHP Manual](index.html)
     

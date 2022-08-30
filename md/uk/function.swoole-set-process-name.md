@@ -1,8 +1,8 @@
 Встановити ім'я процесу
 
--   [« swoole\_select](function.swoole-select.html)
+-   [« swooleselect](function.swoole-select.html)
     
--   [swoole\_strerror »](function.swoole-strerror.html)
+-   [swoolestrerror »](function.swoole-strerror.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Дозволяє змінити користувача підключеного до бази даних
 
--   [« mysqli::begin\_transaction](mysqli.begin-transaction.html)
+-   [« mysqli::begintransaction](mysqli.begin-transaction.html)
     
--   [mysqli::character\_set\_name »](mysqli.character-set-name.html)
+-   [mysqli::charactersetname »](mysqli.character-set-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,7 +41,7 @@ mysqli_change_user(    mysqli $mysql,    string $username,    string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
 
 `username`
 
@@ -55,7 +55,7 @@ mysqli_change_user(    mysqli $mysql,    string $username,    string
 
 Ім'я бази даних
 
-Якщо потрібно змінити користувача без вибору бази даних, слід вказувати **`null`**. Для вибору бази даних необхідно використовувати функцію [mysqli\_select\_db()](mysqli.select-db.html)
+Якщо потрібно змінити користувача без вибору бази даних, слід вказувати **`null`**. Для вибору бази даних необхідно використовувати функцію [mysqliselectdb()](mysqli.select-db.html)
 
 ### Значення, що повертаються
 
@@ -157,5 +157,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqli\_connect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqli\_select\_db()](mysqli.select-db.html) - Встановлює базу даних для запитів, що виконуються.
+-   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
+-   [mysqliselectdb()](mysqli.select-db.html) - Встановлює базу даних для запитів, що виконуються.

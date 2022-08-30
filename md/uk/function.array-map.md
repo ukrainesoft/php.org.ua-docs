@@ -1,12 +1,12 @@
 Застосовує callback-функцію до всіх елементів зазначених масивів
 
--   [« array\_keys](function.array-keys.html)
+-   [« arraykeys](function.array-keys.html)
     
--   [array\_merge\_recursive »](function.array-merge-recursive.html)
+-   [arraymergerecursive »](function.array-merge-recursive.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Застосовує callback-функцію до всіх елементів зазначених масивів
     
@@ -316,7 +316,7 @@ array(1) {
 
 **Приклад #7 **arraymap()** - асоціативні масиви**
 
-Хоча **arraymap()** безпосередньо не підтримує використання ключа масиву як вхідні дані, це можна змоделювати за допомогою [array\_keys()](function.array-keys.html)
+Хоча **arraymap()** безпосередньо не підтримує використання ключа масиву як вхідні дані, це можна змоделювати за допомогою [arraykeys()](function.array-keys.html)
 
 ```php
 <?php
@@ -350,6 +350,6 @@ array(3) {
 
 ### Дивіться також
 
--   [array\_filter()](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
--   [array\_reduce()](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
--   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію до кожного елемента масиву
+-   [arrayfilter()](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
+-   [arrayreduce()](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
+-   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію до кожного елемента масиву

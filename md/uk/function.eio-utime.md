@@ -1,8 +1,8 @@
 Змінює дату та час останньої модифікації та доступу до файлу
 
--   [« eio\_unlink](function.eio-unlink.html)
+-   [« eiounlink](function.eio-unlink.html)
     
--   [eio\_write »](function.eio-write.html)
+-   [eiowrite »](function.eio-write.html)
     
 -   [PHP Manual](index.html)
     
@@ -59,7 +59,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -71,4 +71,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_futime()](function.eio-futime.html) - Змінює дату та час останньої модифікації та доступу до файлу
+-   [eiofutime()](function.eio-futime.html) - Змінює дату та час останньої модифікації та доступу до файлу

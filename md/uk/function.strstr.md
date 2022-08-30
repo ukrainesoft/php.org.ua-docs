@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Знаходить перше входження підрядка
     
@@ -79,4 +79,4 @@ echo $user; // выводит name
 -   [strrchr()](function.strrchr.html) - Знаходить останнє входження символу у рядку
 -   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
 -   [strpbrk()](function.strpbrk.html) - Шукає у рядку будь-який символ із заданого набору
--   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу

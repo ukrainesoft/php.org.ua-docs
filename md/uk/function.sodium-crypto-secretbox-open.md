@@ -1,8 +1,8 @@
 Розшифровка з використанням загального ключа з автентичністю
 
--   [« sodium\_crypto\_secretbox\_keygen](function.sodium-crypto-secretbox-keygen.html)
+-   [« sodiumcryptosecretboxkeygen](function.sodium-crypto-secretbox-keygen.html)
     
--   [sodium\_crypto\_secretbox »](function.sodium-crypto-secretbox.html)
+-   [sodiumcryptosecretbox »](function.sodium-crypto-secretbox.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,11 +29,11 @@ sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): st
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodium\_crypto\_secretbox()](function.sodium-crypto-secretbox.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.html) (Зашифрований текст та тег, об'єднані).
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.html)
 
 `key`
 
@@ -76,6 +76,6 @@ message to be encrypted
 
 ### Дивіться також
 
--   [sodium\_crypto\_secretbox()](function.sodium-crypto-secretbox.html) - Шифрування із загальним ключем з автентифікацією
--   [sodium\_crypto\_secretbox\_keygen()](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
--   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.html) - Шифрування із загальним ключем з автентифікацією
+-   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
+-   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти

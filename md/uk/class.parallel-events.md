@@ -1,8 +1,8 @@
 Клас parallelEvents
 
--   [« parallel\\Channel::close](parallel-channel.close.html)
+-   [« parallelChannel::close](parallel-channel.close.html)
     
--   [parallel\\Events::setBlocking »](parallel-events.setblocking.html)
+-   [parallelEvents::setBlocking »](parallel-events.setblocking.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Цикл подій
 
-Цикл подій відстежує стан наборів об'єктів Future та/або Channel (цілей) для виконання операцій читання ([parallel\\Future::value()](parallel-future.value.html) [parallel\\Channel::recv()](parallel-channel.recv.html)) та записи ([parallel\\Channel::send()](parallel-channel.send.html)) у міру того, як цілі стають доступними та операції можуть виконуватися без блокування циклу подій.
+Цикл подій відстежує стан наборів об'єктів Future та/або Channel (цілей) для виконання операцій читання ([parallelFuture::value()](parallel-future.value.html) [parallelChannel::recv()](parallel-channel.recv.html)) та записи ([parallelChannel::send()](parallel-channel.send.html)) у міру того, як цілі стають доступними та операції можуть виконуватися без блокування циклу подій.
 
 ## Огляд класів
 
@@ -56,10 +56,10 @@ public setTimeout(int $timeout): void
 
 ## Зміст
 
--   [parallel\\Events::setBlocking](parallel-events.setblocking.html) - Поведінка
--   [parallel\\Events::setTimeout](parallel-events.settimeout.html) - Поведінка
--   [parallel\\Events::setInput](parallel-events.setinput.html) - Вхід
--   [parallel\\Events::addChannel](parallel-events.addchannel.html) - Цілі
--   [parallel\\Events::addFuture](parallel-events.addfuture.html) - Цілі
--   [parallel\\Events::remove](parallel-events.remove.html) - Цілі
--   [parallel\\Events::poll](parallel-events.poll.html) - Опитування
+-   [parallelEvents::setBlocking](parallel-events.setblocking.html) - Поведінка
+-   [parallelEvents::setTimeout](parallel-events.settimeout.html) - Поведінка
+-   [parallelEvents::setInput](parallel-events.setinput.html) - Вхід
+-   [parallelEvents::addChannel](parallel-events.addchannel.html) - Цілі
+-   [parallelEvents::addFuture](parallel-events.addfuture.html) - Цілі
+-   [parallelEvents::remove](parallel-events.remove.html) - Цілі
+-   [parallelEvents::poll](parallel-events.poll.html) - Опитування

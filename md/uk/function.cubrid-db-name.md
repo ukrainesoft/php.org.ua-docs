@@ -1,12 +1,12 @@
 Отримання імені бази даних з результату cubridlistdbs
 
--   [« cubrid\_data\_seek](function.cubrid-data-seek.html)
+-   [« cubriddataseek](function.cubrid-data-seek.html)
     
--   [cubrid\_errno »](function.cubrid-errno.html)
+-   [cubriderrno »](function.cubrid-errno.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Отримання імені бази даних з результату cubridlistdbs
     
@@ -23,13 +23,13 @@ cubridдбname — Отримання імені бази даних із рез
 cubrid_db_name(array $result, int $index): string
 ```
 
-Витягує ім'я бази даних із результату виклику [cubrid\_list\_dbs()](function.cubrid-list-dbs.html)
+Витягує ім'я бази даних із результату виклику [cubridlistdbs()](function.cubrid-list-dbs.html)
 
 ### Список параметрів
 
 `result`
 
-Вказівник на результат виклику [cubrid\_list\_dbs()](function.cubrid-list-dbs.html)
+Вказівник на результат виклику [cubridlistdbs()](function.cubrid-list-dbs.html)
 
 `index`
 
@@ -37,7 +37,7 @@ cubrid_db_name(array $result, int $index): string
 
 ### Значення, що повертаються
 
-Повертає ім'я бази даних у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо повернулося **`false`**, використовуйте [cubrid\_error()](function.cubrid-error.html) для точного визначення помилки, що відбулася.
+Повертає ім'я бази даних у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо повернулося **`false`**, використовуйте [cubriderror()](function.cubrid-error.html) для точного визначення помилки, що відбулася.
 
 ### Приклади
 
@@ -67,4 +67,4 @@ demodb
 
 ### Дивіться також
 
--   [cubrid\_list\_dbs()](function.cubrid-list-dbs.html) - Отримати масив зі списком усіх баз даних CUBRID
+-   [cubridlistdbs()](function.cubrid-list-dbs.html) - Отримати масив зі списком усіх баз даних CUBRID

@@ -2,11 +2,11 @@
 
 -   [« CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.html)
     
--   [CollectionModify::\_\_construct »](mysql-xdevapi-collectionmodify.construct.html)
+-   [CollectionModify::construct »](mysql-xdevapi-collectionmodify.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+-   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
     
 -   Прив'язує значення до заповнювача запиту
     

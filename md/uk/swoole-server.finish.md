@@ -1,12 +1,12 @@
 Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
 
--   [« Swoole\\Server::exist](swoole-server.exist.html)
+-   [« SwooleServer::exist](swoole-server.exist.html)
     
--   [Swoole\\Server::getClientInfo »](swoole-server.getclientinfo.html)
+-   [SwooleServer::getClientInfo »](swoole-server.getclientinfo.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
     

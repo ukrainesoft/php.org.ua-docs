@@ -1,12 +1,12 @@
 Повертає результат застосування callback-функції до всіх значень колекції
 
--   [« Ds\\Sequence::last](ds-sequence.last.html)
+-   [« DsSequence::last](ds-sequence.last.html)
     
--   [Ds\\Sequence::merge »](ds-sequence.merge.html)
+-   [ДсSequence::merge »](ds-sequence.merge.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Повертає результат застосування callback-функції до всіх значень колекції
     

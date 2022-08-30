@@ -1,12 +1,12 @@
 Щільність ймовірності розподілу Вейбулла
 
--   [« stats\_dens\_uniform](function.stats-dens-uniform.html)
+-   [« statsdensuniform](function.stats-dens-uniform.html)
     
--   [stats\_harmonic\_mean »](function.stats-harmonic-mean.html)
+-   [statsharmonicmean »](function.stats-harmonic-mean.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Щільність ймовірності розподілу Вейбулла
     

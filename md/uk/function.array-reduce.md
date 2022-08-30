@@ -1,12 +1,12 @@
 Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
 
--   [« array\_rand](function.array-rand.html)
+-   [« arrayrand](function.array-rand.html)
     
--   [array\_replace\_recursive »](function.array-replace-recursive.html)
+-   [arrayreplacerecursive »](function.array-replace-recursive.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
     
@@ -90,7 +90,7 @@ var_dump(array_reduce($x, "sum", "Нет данных")); // string(19) "�
 
 ### Дивіться також
 
--   [array\_filter()](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
--   [array\_map()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
--   [array\_unique()](function.array-unique.html) - Прибирає значення, що повторюються, з масиву
--   [array\_count\_values()](function.array-count-values.html) - підраховує кількість усіх значень масиву
+-   [arrayfilter()](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
+-   [arraymap()](function.array-map.html) - Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [arrayunique()](function.array-unique.html) - Прибирає значення, що повторюються, з масиву
+-   [arraycountvalues()](function.array-count-values.html) - підраховує кількість усіх значень масиву

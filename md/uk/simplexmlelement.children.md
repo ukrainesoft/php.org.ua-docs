@@ -2,7 +2,7 @@
 
 -   [« SimpleXMLElement::attributes](simplexmlelement.attributes.html)
     
--   [SimpleXMLElement::\_\_construct »](simplexmlelement.construct.html)
+-   [SimpleXMLElement::construct »](simplexmlelement.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,7 +25,7 @@ public SimpleXMLElement::children(?string $namespaceOrPrefix = null, bool $isPre
 
 Цей метод знаходить усі дочірні елементи вузла. Результат підкоряється стандартним правилам ітерації.
 
-> **Зауваження**: SimpleXML містить правило додавання ітеративних властивостей до більшості методів. Вони не можуть бути переглянуті з використанням [var\_dump()](function.var-dump.html) чи будь-яких інших засобів аналізу об'єктів.
+> **Зауваження**: SimpleXML містить правило додавання ітеративних властивостей до більшості методів. Вони не можуть бути переглянуті з використанням [vardump()](function.var-dump.html) чи будь-яких інших засобів аналізу об'єктів.
 
 ### Список параметрів
 

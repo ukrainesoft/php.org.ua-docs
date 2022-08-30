@@ -1,12 +1,12 @@
 Повертає масив, що містить довжини всіх стовпців поточного рядка
 
--   [« cubrid\_fetch\_field](function.cubrid-fetch-field.html)
+-   [« cubridfetchfield](function.cubrid-fetch-field.html)
     
--   [cubrid\_fetch\_object »](function.cubrid-fetch-object.html)
+-   [cubridfetchobject »](function.cubrid-fetch-object.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+-   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
     
 -   Повертає масив, що містить довжини всіх стовпців поточного рядка
     
@@ -27,13 +27,13 @@ cubrid_fetch_lengths(resource $result): array
 
 > **Зауваження**
 > 
-> Якщо стовпець типу BLOB/CLOB, то для отримання його довжини використовуйте [cubrid\_lob\_size()](function.cubrid-lob-size.html)
+> Якщо стовпець типу BLOB/CLOB, то для отримання його довжини використовуйте [cubridlobsize()](function.cubrid-lob-size.html)
 
 ### Список параметрів
 
 `result`
 
-`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
 
 ### Значення, що повертаються
 

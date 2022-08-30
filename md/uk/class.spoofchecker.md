@@ -138,7 +138,7 @@ public setChecks(int $checks): void
 ## Зміст
 
 -   [Spoofchecker::areConfusable](spoofchecker.areconfusable.html) — Перевірити, чи є рядки підозрілими
--   [Spoofchecker::\_\_construct](spoofchecker.construct.html) - Конструктор класу
+-   [Spoofchecker::construct](spoofchecker.construct.html) - Конструктор класу
 -   [Spoofchecker::isSuspicious](spoofchecker.issuspicious.html) — Перевіряє, чи текст містить підозрілі символи
 -   [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.html) — Локаль для використання у перевірках
 -   [Spoofchecker::setChecks](spoofchecker.setchecks.html) — Встановити набір перевірок

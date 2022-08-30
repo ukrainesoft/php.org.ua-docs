@@ -1,12 +1,12 @@
 Повертає поточну місткість
 
--   [« Ds\\Deque::apply](ds-deque.apply.html)
+-   [« DsDeque::apply](ds-deque.apply.html)
     
--   [Ds\\Deque::clear »](ds-deque.clear.html)
+-   [ДсDeque::clear »](ds-deque.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Повертає поточну місткість
     

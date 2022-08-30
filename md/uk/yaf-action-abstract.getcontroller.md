@@ -1,12 +1,12 @@
 Отримати об'єкт контролер
 
--   [« Yaf\_Action\_Abstract::execute](yaf-action-abstract.execute.html)
+-   [« YafActionAbstract::execute](yaf-action-abstract.execute.html)
     
--   [Yaf\_Action\_Abstract::getControllerName »](yaf-controller-abstract.getcontrollername.html)
+-   [YafActionAbstract::getControllerName »](yaf-controller-abstract.getcontrollername.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+-   [YafActionAbstract](class.yaf-action-abstract.html)
     
 -   Отримати об'єкт контролер
     
@@ -31,4 +31,4 @@ publicYaf_Action_Abstract::getController(): Yaf_Controller_Abstract
 
 ### Значення, що повертаються
 
-Об'єкт класу [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+Об'єкт класу [YafControllerAbstract](class.yaf-controller-abstract.html)

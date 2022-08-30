@@ -1,8 +1,8 @@
 Перетворення варіанта на новий варіант іншого типу
 
--   [« variant\_and](function.variant-and.html)
+-   [« variantand](function.variant-and.html)
     
--   [variant\_cat »](function.variant-cat.html)
+-   [variantcat »](function.variant-cat.html)
     
 -   [PHP Manual](index.html)
     
@@ -43,4 +43,4 @@ variant_cast(variant $variant, int $type): variant
 
 ### Дивіться також
 
--   [variant\_set\_type()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"
+-   [variantsettype()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"

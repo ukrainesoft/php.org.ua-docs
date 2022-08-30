@@ -1,12 +1,12 @@
 Отримує вбудоване прев'ю зображення
 
--   [« exif\_tagname](function.exif-tagname.html)
+-   [« exiftagname](function.exif-tagname.html)
     
--   [read\_exif\_data »](function.read-exif-data.html)
+-   [readexifdata »](function.read-exif-data.html)
     
 -   [PHP Manual](index.html)
     
--   [Exif Функции](ref.exif.html)
+-   [Exif Функції](ref.exif.html)
     
 -   Отримує вбудоване прев'ю зображення
     
@@ -84,5 +84,5 @@ if ($image!==false) {
 
 ### Дивіться також
 
--   [exif\_read\_data()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
--   [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [exifreaddata()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
+-   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype

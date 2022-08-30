@@ -1,8 +1,8 @@
 Обробляє ряд результату запиту та повертає об'єкт
 
--   [« mysql\_fetch\_lengths](function.mysql-fetch-lengths.html)
+-   [« mysqlfetchlengths](function.mysql-fetch-lengths.html)
     
--   [mysql\_fetch\_row »](function.mysql-fetch-row.html)
+-   [mysqlfetchrow »](function.mysql-fetch-row.html)
     
 -   [PHP Manual](index.html)
     
@@ -19,10 +19,10 @@ mysqlfetchobject — Обробляє ряд результатів запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
--   [mysqli\_fetch\_object()](mysqli-result.fetch-object.html)
--   [PDOStatement::fetch(PDO::FETCH\_OBJ)](pdostatement.fetch.html)
+-   [mysqlifetchobject()](mysqli-result.fetch-object.html)
+-   [PDOStatement::fetch(PDO::FETCHOBJ)](pdostatement.fetch.html)
 
 ### Опис
 
@@ -36,7 +36,7 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
 
 `class_name`
 
@@ -48,7 +48,7 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 ### Значення, що повертаються
 
-Повертає об'єкт (object) з рядковими властивостями, що відповідають отриманому ряду, або **`false`**якщо рядів більше немає.
+Повертає об'єкт (object) з рядковими властивостями, що відповідають отриманому ряду, або \*\*`false`\*\*якщо рядів більше немає.
 
 ### Приклади
 
@@ -88,11 +88,11 @@ var_dump($obj);
 
 > **Зауваження** **Продуктивність**
 > 
-> У плані швидкості ця функція аналогічна [mysql\_fetch\_array()](function.mysql-fetch-array.html) і майже також швидка, як [mysql\_fetch\_row()](function.mysql-fetch-row.html) (Різниця незначна).
+> У плані швидкості ця функція аналогічна [mysqlfetcharray()](function.mysql-fetch-array.html) і майже також швидка, як [mysqlfetchrow()](function.mysql-fetch-row.html) (Різниця незначна).
 
 > **Зауваження**
 > 
-> **mysqlfetchobject()** працює аналогічно [mysql\_fetch\_array()](function.mysql-fetch-array.html), з єдиною відмінністю - функція повертає об'єкт замість масиву. Це, крім усього іншого, означає, що ви зможете працювати з полями тільки на ім'я колонок, а не індексів (числа не можуть бути властивостями об'єкта).
+> **mysqlfetchobject()** працює аналогічно [mysqlfetcharray()](function.mysql-fetch-array.html), з єдиною відмінністю - функція повертає об'єкт замість масиву. Це, крім усього іншого, означає, що ви зможете працювати з полями тільки на ім'я колонок, а не індексів (числа не можуть бути властивостями об'єкта).
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
@@ -100,8 +100,8 @@ var_dump($obj);
 
 ### Дивіться також
 
--   [mysql\_fetch\_array()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
--   [mysql\_fetch\_row()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysql\_data\_seek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
--   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysqlfetcharray()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysqlfetchassoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysqlfetchrow()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysqldataseek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysqlquery()](function.mysql-query.html) - Надсилає запит MySQL

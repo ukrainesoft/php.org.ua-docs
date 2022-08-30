@@ -1,8 +1,8 @@
 Бета
 
--   [« trader\_bbands](function.trader-bbands.html)
+-   [« traderbbands](function.trader-bbands.html)
     
--   [trader\_bop »](function.trader-bop.html)
+-   [traderbop »](function.trader-bop.html)
     
 -   [PHP Manual](index.html)
     

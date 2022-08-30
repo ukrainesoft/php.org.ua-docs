@@ -1,12 +1,12 @@
 Розшифровує та перевіряє підпис переданого тексту
 
--   [« gnupg\_decrypt](function.gnupg-decrypt.html)
+-   [« gnupgdecrypt](function.gnupg-decrypt.html)
     
--   [gnupg\_deletekey »](function.gnupg-deletekey.html)
+-   [gnupgdeletekey »](function.gnupg-deletekey.html)
     
 -   [PHP Manual](index.html)
     
--   [GnuPG Функции](ref.gnupg.html)
+-   [GnuPG Функції](ref.gnupg.html)
     
 -   Розшифровує та перевіряє підпис переданого тексту
     
@@ -29,7 +29,7 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
 
 `text`
 

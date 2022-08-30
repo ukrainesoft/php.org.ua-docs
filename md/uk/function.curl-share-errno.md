@@ -1,8 +1,8 @@
 Повертає код останньої помилки оброблюваного обробника curl
 
--   [« curl\_share\_close](function.curl-share-close.html)
+-   [« curlshareclose](function.curl-share-close.html)
     
--   [curl\_share\_init »](function.curl-share-init.html)
+-   [curlshareinit »](function.curl-share-init.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ curl_share_errno(CurlShareHandle $share_handle): int
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curl\_share\_init()](function.curl-share-init.html)
+Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.html)
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ curl_share_errno(CurlShareHandle $share_handle): int
 
 ### Дивіться також
 
--   [curl\_errno()](function.curl-errno.html) - Повертає код останньої помилки
+-   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки

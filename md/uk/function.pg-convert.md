@@ -1,8 +1,8 @@
 Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
 
--   [« pg\_consume\_input](function.pg-consume-input.html)
+-   [« pgconsumeinput](function.pg-consume-input.html)
     
--   [pg\_copy\_from »](function.pg-copy-from.html)
+-   [пгcopyfrom »](function.pg-copy-from.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 `table_name`
 
@@ -45,7 +45,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 `flags`
 
-Одна з констант **`PGSQL_CONV_IGNORE_DEFAULT`** **`PGSQL_CONV_FORCE_NULL`** або **`PGSQL_CONV_IGNORE_NOT_NULL`**або їх комбінація.
+Одна з констант **`PGSQL_CONV_IGNORE_DEFAULT`** **`PGSQL_CONV_FORCE_NULL`** або \*\*`PGSQL_CONV_IGNORE_NOT_NULL`\*\*або їх комбінація.
 
 ### Значення, що повертаються
 
@@ -53,9 +53,9 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -77,8 +77,8 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ### Дивіться також
 
--   [pg\_meta\_data()](function.pg-meta-data.html) - Отримання метаданих таблиці
--   [pg\_insert()](function.pg-insert.html) - Заносить дані з масиву до таблиці бази даних
--   [pg\_select()](function.pg-select.html) - Вибирає записи із бази даних
--   [pg\_update()](function.pg-update.html) - Оновлення даних у таблиці
--   [pg\_delete()](function.pg-delete.html) - Видаляє записи
+-   [пгmetadata()](function.pg-meta-data.html) - Отримання метаданих таблиці
+-   [пгinsert()](function.pg-insert.html) - Заносить дані з масиву до таблиці бази даних
+-   [пгselect()](function.pg-select.html) - Вибирає записи із бази даних
+-   [пгupdate()](function.pg-update.html) - Оновлення даних у таблиці
+-   [пгdelete()](function.pg-delete.html) - Видаляє записи

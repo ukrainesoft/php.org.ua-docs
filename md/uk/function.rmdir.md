@@ -2,11 +2,11 @@
 
 -   [« rewind](function.rewind.html)
     
--   [set\_file\_buffer »](function.set-file-buffer.html)
+-   [setfilebuffer »](function.set-file-buffer.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции файловой системы](ref.filesystem.html)
+-   [Функції файлової системи](ref.filesystem.html)
     
 -   Видаляє директорію
     
@@ -33,7 +33,7 @@ rmdir(string $directory, ?resource $context = null): bool
 
 `context`
 
-Ресурс (resource) з [контекстом потока](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.html)
 
 ### Значення, що повертаються
 
@@ -55,6 +55,6 @@ rmdir('examples');
 
 ### Дивіться також
 
--   [is\_dir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
+-   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
 -   [mkdir()](function.mkdir.html) - створює директорію
 -   [unlink()](function.unlink.html) - Видаляє файл

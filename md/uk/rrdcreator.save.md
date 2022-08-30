@@ -1,6 +1,6 @@
 Зберігає базу даних RRD у файл
 
--   [« RRDCreator::\_\_construct](rrdcreator.construct.html)
+-   [« RRDCreator::construct](rrdcreator.construct.html)
     
 -   [RRDGraph »](class.rrdgraph.html)
     
@@ -23,7 +23,7 @@ RRDCreator::save — Зберігає базу даних RRD у файл
 public RRDCreator::save(): bool
 ```
 
-Зберігає базу даних RRD у файл, ім'я якого визначається [RRDCreator::\_\_construct()](rrdcreator.construct.html)
+Зберігає базу даних RRD у файл, ім'я якого визначається [RRDCreator::construct()](rrdcreator.construct.html)
 
 ### Список параметрів
 

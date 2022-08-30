@@ -1,12 +1,12 @@
 Встановлює значення enable у бібліотеці NET-SNMP
 
--   [« snmp\_set\_oid\_output\_format](function.snmp-set-oid-output-format.html)
+-   [« snmpsetoidoutputformat](function.snmp-set-oid-output-format.html)
     
--   [snmp\_set\_valueretrieval »](function.snmp-set-valueretrieval.html)
+-   [snmpsetvalueretrieval »](function.snmp-set-valueretrieval.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SNMP](ref.snmp.html)
+-   [Функції SNMP](ref.snmp.html)
     
 -   Встановлює значення enable у бібліотеці NET-SNMP
     
@@ -63,4 +63,4 @@ echo "$a\n";
 
 ### Дивіться також
 
--   [snmp\_get\_quick\_print()](function.snmp-get-quick-print.html) - Отримує поточне значення Quickprint бібліотеки NET-SNMP
+-   [snmpgetquickprint()](function.snmp-get-quick-print.html) - Отримує поточне значення Quickprint бібліотеки NET-SNMP

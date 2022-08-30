@@ -1,12 +1,12 @@
 Конвертує упаковану інтернет-адресу в формат, що читається
 
--   [« http\_response\_code](function.http-response-code.html)
+-   [httpresponsecode](function.http-response-code.html)
     
--   [inet\_pton »](function.inet-pton.html)
+-   [inetpton »](function.inet-pton.html)
     
 -   [PHP Manual](index.html)
     
--   [Сетевые функции](ref.network.html)
+-   [Мережеві функції](ref.network.html)
     
 -   Конвертує упаковану інтернет-адресу в формат, що читається
     
@@ -59,4 +59,4 @@ echo $expanded;
 
 -   [long2ip()](function.long2ip.html) - Конвертує ціле число в IPv4-адресу
 -   [ip2long()](function.ip2long.html) - Конвертує рядок, що містить IPv4-адресу в ціле число
--   [inet\_pton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+-   [inetpton()](function.inet-pton.html) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr

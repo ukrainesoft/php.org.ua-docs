@@ -2,7 +2,7 @@
 
 -   [« Предопределённые константы](calendar.constants.html)
     
--   [cal\_days\_in\_month »](function.cal-days-in-month.html)
+-   [caldaysінmonth »](function.cal-days-in-month.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,12 +15,12 @@
 
 ## Зміст
 
--   [cal\_days\_in\_month](function.cal-days-in-month.html) — Повертає кількість днів на місяць для заданого року та календаря
--   [cal\_from\_jd](function.cal-from-jd.html) — Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
--   [cal\_info](function.cal-info.html) — Повертає інформацію про заданий календар
--   [cal\_to\_jd](function.cal-to-jd.html) — Перетворює задану дату на юліанську
--   [easter\_date](function.easter-date.html) — Отримати мітку часу Unix, що відповідає півночі на Великдень у заданому році
--   [easter\_days](function.easter-days.html) — Отримати кількість днів між 21 березня та Великоднем у заданому році
+-   [caldaysінmonth](function.cal-days-in-month.html) — Повертає кількість днів на місяць для заданого року та календаря
+-   [calfromжд](function.cal-from-jd.html) — Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [calinfo](function.cal-info.html) — Повертає інформацію про заданий календар
+-   [calтожд](function.cal-to-jd.html) — Перетворює задану дату на юліанську
+-   [easterdate](function.easter-date.html) — Отримати мітку часу Unix, що відповідає півночі на Великдень у заданому році
+-   [easterdays](function.easter-days.html) — Отримати кількість днів між 21 березня та Великоднем у заданому році
 -   [frenchtojd](function.frenchtojd.html) — Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
 -   [gregoriantojd](function.gregoriantojd.html) — Перетворює дату за григоріанським календарем у кількість днів у юліанському літочисленні
 -   [jddayofweek](function.jddayofweek.html) — Повертає день тижня

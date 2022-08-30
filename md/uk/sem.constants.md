@@ -2,7 +2,7 @@
 
 -   [« Типы ресурсов](sem.resources.html)
     
--   [Функции семафоров »](ref.sem.html)
+-   [Функції семафорів »](ref.sem.html)
     
 -   [PHP Manual](index.html)
     

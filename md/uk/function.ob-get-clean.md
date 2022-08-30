@@ -1,12 +1,12 @@
 Отримати вміст поточного буфера та видалити його
 
--   [« ob\_flush](function.ob-flush.html)
+-   [« obflush](function.ob-flush.html)
     
--   [ob\_get\_contents »](function.ob-get-contents.html)
+-   [проgetcontents »](function.ob-get-contents.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции контроля вывода](ref.outcontrol.html)
+-   [Функції контролю виведення](ref.outcontrol.html)
     
 -   Отримати вміст поточного буфера та видалити його
     
@@ -25,9 +25,9 @@ ob_get_clean(): string|false
 
 Отримує вміст поточного буфера, а потім видаляє поточний буфер.
 
-**проgetclean()** по суті виконує [ob\_get\_contents()](function.ob-get-contents.html) і [ob\_end\_clean()](function.ob-end-clean.html)
+**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.html) і [проendclean()](function.ob-end-clean.html)
 
-Буфер виводу має запускатися функцією [ob\_start()](function.ob-start.html) з прапорами [PHP\_OUTPUT\_HANDLER\_CLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable) і [PHP\_OUTPUT\_HANDLER\_REMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.html) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
 
 ### Список параметрів
 
@@ -63,5 +63,5 @@ string(11) "привет мир"
 
 ### Дивіться також
 
--   [ob\_get\_contents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
--   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.html) - Включення буферизації виводу

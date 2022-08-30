@@ -1,12 +1,12 @@
 Отримує каталог шаблонів
 
--   [« Yaf\_View\_Simple::\_\_get](yaf-view-simple.get.html)
+-   [« YafViewSimple::get](yaf-view-simple.get.html)
     
--   [Yaf\_View\_Simple::\_\_isset »](yaf-view-simple.isset.html)
+-   [YafViewSimple::isset »](yaf-view-simple.isset.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+-   [YafViewSimple](class.yaf-view-simple.html)
     
 -   Отримує каталог шаблонів
     

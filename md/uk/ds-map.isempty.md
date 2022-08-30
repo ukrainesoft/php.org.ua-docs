@@ -1,8 +1,8 @@
 Перевіряє, чи порожня колекція
 
--   [« Ds\\Map::intersect](ds-map.intersect.html)
+-   [« DsMap::intersect](ds-map.intersect.html)
     
--   [Ds\\Map::jsonSerialize »](ds-map.jsonserialize.html)
+-   [ДсMap::jsonSerialize »](ds-map.jsonserialize.html)
     
 -   [PHP Manual](index.html)
     

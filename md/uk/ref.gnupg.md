@@ -2,7 +2,7 @@ GnuPG Функції
 
 -   [« Прозрачное подписывание текста](gnupg.examples-clearsign.html)
     
--   [gnupg\_adddecryptkey »](function.gnupg-adddecryptkey.html)
+-   [gnupgadddecryptkey »](function.gnupg-adddecryptkey.html)
     
 -   [PHP Manual](index.html)
     
@@ -25,29 +25,29 @@ GnuPG Функції
 
 ## Зміст
 
--   [gnupg\_adddecryptkey](function.gnupg-adddecryptkey.html) — Додати ключ для розшифровки
--   [gnupg\_addencryptkey](function.gnupg-addencryptkey.html) — Додає ключ для шифрування
--   [gnupg\_addsignkey](function.gnupg-addsignkey.html) — Додати ключ для підписання
--   [gnupg\_cleardecryptkeys](function.gnupg-cleardecryptkeys.html) — Видаляє всі ключі, які були встановлені для розшифровки раніше
--   [gnupg\_clearencryptkeys](function.gnupg-clearencryptkeys.html) — Видаляє всі ключі, які були встановлені для шифрування раніше
--   [gnupg\_clearsignkeys](function.gnupg-clearsignkeys.html) — Видаляє всі ключі, які були встановлені для підписання раніше
--   [gnupg\_decrypt](function.gnupg-decrypt.html) - Розшифровує переданий текст
--   [gnupg\_decryptverify](function.gnupg-decryptverify.html) — Розшифровує та перевіряє підпис переданого тексту
--   [gnupg\_deletekey](function.gnupg-deletekey.html) — Видаляє ключ із зв'язування ключів
--   [gnupg\_encrypt](function.gnupg-encrypt.html) - Шифрує заданий текст
--   [gnupg\_encryptsign](function.gnupg-encryptsign.html) — Шифрує та підписує переданий текст
--   [gnupg\_export](function.gnupg-export.html) - Експортує ключ
--   [gnupg\_getengineinfo](function.gnupg-getengineinfo.html) — Повертає інформацію про двигун
--   [gnupg\_geterror](function.gnupg-geterror.html) — Повертає текст повідомлення про помилку, якщо функція не була виконана
--   [gnupg\_geterrorinfo](function.gnupg-geterrorinfo.html) — Повертає інформацію про помилку
--   [gnupg\_getprotocol](function.gnupg-getprotocol.html) — Повертає активний протокол для всіх операцій.
--   [gnupg\_gettrustlist](function.gnupg-gettrustlist.html) - Пошук довірчих елементів
--   [gnupg\_import](function.gnupg-import.html) - Імпортує ключ
--   [gnupg\_init](function.gnupg-init.html) - Ініціалізувати GnuPG
--   [gnupg\_keyinfo](function.gnupg-keyinfo.html) — Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
--   [gnupg\_listsignatures](function.gnupg-listsignatures.html) - Перераховує підписи ключа
--   [gnupg\_setarmor](function.gnupg-setarmor.html) — Перемикає висновок у текстовому чи бінарному режимі
--   [gnupg\_seterrormode](function.gnupg-seterrormode.html) — Встановлює режим звітування про помилки (errorreporting)
--   [gnupg\_setsignmode](function.gnupg-setsignmode.html) — Встановлює режим підписування
--   [gnupg\_sign](function.gnupg-sign.html) — Підписує переданий текст
--   [gnupg\_verify](function.gnupg-verify.html) - Перевіряє підпис тексту
+-   [gnupgadddecryptkey](function.gnupg-adddecryptkey.html) — Додати ключ для розшифровки
+-   [gnupgaddencryptkey](function.gnupg-addencryptkey.html) — Додає ключ для шифрування
+-   [gnupgaddsignkey](function.gnupg-addsignkey.html) — Додати ключ для підписання
+-   [gnupgcleardecryptkeys](function.gnupg-cleardecryptkeys.html) — Видаляє всі ключі, які були встановлені для розшифровки раніше
+-   [gnupgclearencryptkeys](function.gnupg-clearencryptkeys.html) — Видаляє всі ключі, які були встановлені для шифрування раніше
+-   [gnupgclearsignkeys](function.gnupg-clearsignkeys.html) — Видаляє всі ключі, які були встановлені для підписання раніше
+-   [gnupgdecrypt](function.gnupg-decrypt.html) - Розшифровує переданий текст
+-   [gnupgdecryptverify](function.gnupg-decryptverify.html) — Розшифровує та перевіряє підпис переданого тексту
+-   [gnupgdeletekey](function.gnupg-deletekey.html) — Видаляє ключ із зв'язування ключів
+-   [gnupgencrypt](function.gnupg-encrypt.html) - Шифрує заданий текст
+-   [gnupgencryptsign](function.gnupg-encryptsign.html) — Шифрує та підписує переданий текст
+-   [gnupgexport](function.gnupg-export.html) - Експортує ключ
+-   [gnupggetengineinfo](function.gnupg-getengineinfo.html) — Повертає інформацію про двигун
+-   [gnupggeterror](function.gnupg-geterror.html) — Повертає текст повідомлення про помилку, якщо функція не була виконана
+-   [gnupggeterrorinfo](function.gnupg-geterrorinfo.html) — Повертає інформацію про помилку
+-   [gnupggetprotocol](function.gnupg-getprotocol.html) — Повертає активний протокол для всіх операцій.
+-   [gnupggettrustlist](function.gnupg-gettrustlist.html) - Пошук довірчих елементів
+-   [gnupgimport](function.gnupg-import.html) - Імпортує ключ
+-   [gnupginit](function.gnupg-init.html) - Ініціалізувати GnuPG
+-   [gnupgkeyinfo](function.gnupg-keyinfo.html) — Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
+-   [gnupglistsignatures](function.gnupg-listsignatures.html) - Перераховує підписи ключа
+-   [gnupgsetarmor](function.gnupg-setarmor.html) — Перемикає висновок у текстовому чи бінарному режимі
+-   [gnupgseterrormode](function.gnupg-seterrormode.html) — Встановлює режим звітування про помилки (errorreporting)
+-   [gnupgsetsignmode](function.gnupg-setsignmode.html) — Встановлює режим підписування
+-   [gnupgsign](function.gnupg-sign.html) — Підписує переданий текст
+-   [gnupgverify](function.gnupg-verify.html) - Перевіряє підпис тексту

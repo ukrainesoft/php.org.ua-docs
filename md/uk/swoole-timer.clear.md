@@ -1,12 +1,12 @@
 Видаляє таймер за ідентифікатором
 
--   [« Swoole\\Timer::after](swoole-timer.after.html)
+-   [« SwooleTimer::after](swoole-timer.after.html)
     
--   [Swoole\\Timer::exists »](swoole-timer.exists.html)
+-   [SwooleTimer::exists »](swoole-timer.exists.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Timer](class.swoole-timer.html)
+-   [SwooleTimer](class.swoole-timer.html)
     
 -   Видаляє таймер за ідентифікатором
     

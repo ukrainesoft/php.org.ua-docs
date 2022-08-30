@@ -1,8 +1,8 @@
 Псевдонім ibaseblobcreate
 
--   [« fbird\_blob\_close](function.fbird-blob-close.html)
+-   [« fbirdblobclose](function.fbird-blob-close.html)
     
--   [fbird\_blob\_echo »](function.fbird-blob-echo.html)
+-   [fbirdblobecho »](function.fbird-blob-echo.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,15 +15,15 @@
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobcreate - Псевдонім [ibase\_blob\_create()](function.ibase-blob-create.html)
+fbirdblobcreate - Псевдонім [ibaseblobcreate()](function.ibase-blob-create.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibase\_blob\_create()](function.ibase-blob-create.html)
+Ця функція є псевдонімом: [ibaseblobcreate()](function.ibase-blob-create.html)
 
 ### Дивіться також
 
--   [fbird\_blob\_add()](function.fbird-blob-add.html) - Псевдонім ibaseblobadd
--   [fbird\_blob\_cancel()](function.fbird-blob-cancel.html) - Скасує створення BLOB
--   [fbird\_blob\_close()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
--   [fbird\_blob\_import()](function.fbird-blob-import.html) - Псевдонім ibaseblobimport
+-   [fbirdblobadd()](function.fbird-blob-add.html) - Псевдонім ibaseblobadd
+-   [fbirdblobcancel()](function.fbird-blob-cancel.html) - Скасує створення BLOB
+-   [fbirdblobclose()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
+-   [fbirdblobimport()](function.fbird-blob-import.html) - Псевдонім ibaseblobimport

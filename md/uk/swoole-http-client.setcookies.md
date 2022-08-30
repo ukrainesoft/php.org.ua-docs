@@ -1,12 +1,12 @@
 Встановлює cookies для HTTP-запиту
 
--   [« Swoole\\Http\\Client::set](swoole-http-client.set.html)
+-   [« SwooleHttpClient::set](swoole-http-client.set.html)
     
--   [Swoole\\Http\\Client::setData »](swoole-http-client.setdata.html)
+-   [SwooleHttpClient::setData »](swoole-http-client.setdata.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Http\\Client](class.swoole-http-client.html)
+-   [SwooleHttpClient](class.swoole-http-client.html)
     
 -   Встановлює cookies для HTTP-запиту
     

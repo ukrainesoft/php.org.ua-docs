@@ -1,12 +1,12 @@
 Отримання поточного значення конфігурації конфігурації magicquotesruntime
 
--   [« get\_magic\_quotes\_gpc](function.get-magic-quotes-gpc.html)
+-   [« getmagicquotesgpc](function.get-magic-quotes-gpc.html)
     
--   [get\_required\_files »](function.get-required-files.html)
+-   [getrequiredfiles »](function.get-required-files.html)
     
 -   [PHP Manual](index.html)
     
--   [Опции PHP/информационные функции](ref.info.html)
+-   [Опції PHP/інформаційні функції](ref.info.html)
     
 -   Отримання поточного значення конфігурації конфігурації magicquotesruntime
     
@@ -27,7 +27,7 @@ getmagicquotesruntime — Отримання поточного значення
 get_magic_quotes_runtime(): bool
 ```
 
-Повертає поточне значення налаштування [magic\_quotes\_runtime](info.configuration.html#ini.magic-quotes-runtime)
+Повертає поточне значення налаштування [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime)
 
 ### Список параметрів
 
@@ -60,4 +60,4 @@ if (get_magic_quotes_runtime())
 
 ### Дивіться також
 
--   [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) - Отримання поточного значення конфігурації конфігурації magicquotesgpc

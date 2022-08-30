@@ -1,8 +1,8 @@
 Отримує з'єднання в мережі
 
--   [« fann\_get\_cascade\_weight\_multiplier](function.fann-get-cascade-weight-multiplier.html)
+-   [« fanngetcascadeweightmultiplier](function.fann-get-cascade-weight-multiplier.html)
     
--   [fann\_get\_connection\_rate »](function.fann-get-connection-rate.html)
+-   [fanngetconnectionrate »](function.fann-get-connection-rate.html)
     
 -   [PHP Manual](index.html)
     

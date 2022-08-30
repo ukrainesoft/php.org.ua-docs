@@ -1,8 +1,8 @@
 Викликає callback-функцію, задану у першому параметрі
 
--   [« call\_user\_func\_array](function.call-user-func-array.html)
+-   [« calluserfuncarray](function.call-user-func-array.html)
     
--   [create\_function »](function.create-function.html)
+-   [createfunction »](function.create-function.html)
     
 -   [PHP Manual](index.html)
     
@@ -175,12 +175,12 @@ call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
 
 > **Зауваження**
 > 
-> Callback-функції, зареєстровані такими функціями як **calluserfunc()** і [call\_user\_func\_array()](function.call-user-func-array.html), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
+> Callback-функції, зареєстровані такими функціями як **calluserfunc()** і [calluserfuncarray()](function.call-user-func-array.html), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
 
 ### Дивіться також
 
--   [call\_user\_func\_array()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
--   [is\_callable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [calluserfuncarray()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів
+-   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
 -   [Обращение к функциям через переменные](functions.variable-functions.html)
 -   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
 -   [ReflectionMethod::invoke()](reflectionmethod.invoke.html) - Виклик

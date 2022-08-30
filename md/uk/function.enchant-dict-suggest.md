@@ -1,6 +1,6 @@
 Поверне список можливих варіантів для слова з помилкою
 
--   [« enchant\_dict\_store\_replacement](function.enchant-dict-store-replacement.html)
+-   [« enchantdictstorereplacement](function.enchant-dict-store-replacement.html)
     
 -   [EnchantBroker »](class.enchantbroker.html)
     
@@ -27,7 +27,7 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 `dictionary`
 
-Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
 
@@ -68,5 +68,5 @@ enchant_broker_free($r);
 
 ### Дивіться також
 
--   [enchant\_dict\_check()](function.enchant-dict-check.html) - Перевіряє, чи правильно задано слово
--   [enchant\_dict\_quick\_check()](function.enchant-dict-quick-check.html) - Перевірити, чи правильно написано слово та запропонувати варіанти заміни
+-   [enchantdictcheck()](function.enchant-dict-check.html) - Перевіряє, чи правильно задано слово
+-   [enchantdictquickcheck()](function.enchant-dict-quick-check.html) - Перевірити, чи правильно написано слово та запропонувати варіанти заміни

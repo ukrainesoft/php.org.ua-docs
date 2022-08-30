@@ -1,6 +1,6 @@
 Повертає значення параметра
 
--   [« XSLTProcessor::\_\_construct](xsltprocessor.construct.html)
+-   [« XSLTProcessor::construct](xsltprocessor.construct.html)
     
 -   [XSLTProcessor::getSecurityPrefs »](xsltprocessor.getsecurityprefs.html)
     
@@ -37,7 +37,7 @@ public XSLTProcessor::getParameter(string $namespace, string $name): string|fals
 
 ### Значення, що повертаються
 
-Значення параметра (у вигляді рядка), або **`false`**якщо воно не встановлено.
+Значення параметра (у вигляді рядка), або \*\*`false`\*\*якщо воно не встановлено.
 
 ### Дивіться також
 

@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
     
@@ -127,4 +127,4 @@ c => cranberry
 -   [next()](function.next.html) - Переміщує покажчик масиву вперед на один елемент
 -   [prev()](function.prev.html) - Пересуває внутрішній покажчик масиву на одну позицію назад
 -   [foreach](control-structures.foreach.html)
--   [Итерация объектов](language.oop5.iterations.html)
+-   [Ітерація об'єктів](language.oop5.iterations.html)

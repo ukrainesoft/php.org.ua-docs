@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Безопасность](security.html)
+-   [Безпека](security.html)
     
 -   Загальні міркування
     

@@ -1,12 +1,12 @@
 Повертає рядкову виставу Decimal128
 
--   [« MongoDB\\BSON\\Decimal128::serialize](mongodb-bson-decimal128.serialize.html)
+-   [« MongoDBBSONDecimal128::serialize](mongodb-bson-decimal128.serialize.html)
     
--   [MongoDB\\BSON\\Decimal128::unserialize »](mongodb-bson-decimal128.unserialize.html)
+-   [MongoDBBSONDecimal128::unserialize »](mongodb-bson-decimal128.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html)
+-   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
     
 -   Повертає рядкову виставу Decimal128
     
@@ -55,5 +55,5 @@ string(8) "Infinity"
 
 ### Дивіться також
 
--   [» Формат с плавающей точкой Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
+-   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
 -   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

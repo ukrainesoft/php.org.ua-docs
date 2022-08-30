@@ -1,12 +1,12 @@
 Інвертувати матрицю
 
--   [« UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [« UIDrawMatrix](class.ui-draw-matrix.html)
     
--   [UI\\Draw\\Matrix::isInvertible »](ui-draw-matrix.isinvertible.html)
+-   [ОЙDrawMatrix::isInvertible »](ui-draw-matrix.isinvertible.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix](class.ui-draw-matrix.html)
     
 -   Інвертувати матрицю
     

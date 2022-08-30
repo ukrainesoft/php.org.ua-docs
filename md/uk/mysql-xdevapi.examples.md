@@ -2,18 +2,18 @@
 
 -   [« Список изменений](changelog.mysql_xdevapi.html)
     
--   [Функции Mysql\_xdevapi »](ref.mysql-xdevapi.html)
+-   [Функції Mysqlxdevapi »](ref.mysql-xdevapi.html)
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Приклади
     
 
 # Приклади
 
-Центральною точкою входу в X DevAPI є функція **mysqlxdevapigetSession()**яка отримує URI на сервер MySQL 8.0 і повертає об'єкт **mysqlxdevapSession**
+Центральною точкою входу в X DevAPI є функція \*\*mysqlxdevapigetSession()\*\*яка отримує URI на сервер MySQL 8.0 і повертає об'єкт **mysqlxdevapSession**
 
 **Приклад #1 Підключення до сервера MySQL**
 
@@ -40,7 +40,7 @@ $collection = $schema->createCollection("example");
 ?>
 ```
 
-При зберіганні даних, як правило, [json\_encode()](function.json-encode.html) використовується для кодування даних JSON, який потім може зберігатися в колекції.
+При зберіганні даних, як правило, [jsonencode()](function.json-encode.html) використовується для кодування даних JSON, який потім може зберігатися в колекції.
 
 У наступному прикладі дані зберігаються в колекції, яку ми створили раніше, а потім знову витягуємо їх частини.
 

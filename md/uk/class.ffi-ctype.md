@@ -1,8 +1,8 @@
 Доступ до типів C
 
--   [« FFI\\CData](class.ffi-cdata.html)
+-   [« FFICData](class.ffi-cdata.html)
     
--   [FFI\\CType::getAlignment »](ffi-ctype.getalignment.html)
+-   [FFICType::getAlignment »](ffi-ctype.getalignment.html)
     
 -   [PHP Manual](index.html)
     
@@ -55,19 +55,19 @@ public getStructFieldType(string $name): FFI\CType
 
 ## Зміст
 
--   [FFI\\CType::getAlignment](ffi-ctype.getalignment.html) - Опис
--   [FFI\\CType::getArrayElementType](ffi-ctype.getarrayelementtype.html) - Опис
--   [FFI\\CType::getArrayLength](ffi-ctype.getarraylength.html) - Опис
--   [FFI\\CType::getAttributes](ffi-ctype.getattributes.html) - Опис
--   [FFI\\CType::getEnumKind](ffi-ctype.getenumkind.html) - Опис
--   [FFI\\CType::getFuncABI](ffi-ctype.getfuncabi.html) - Опис
--   [FFI\\CType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html) - Опис
--   [FFI\\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.html) - Опис
--   [FFI\\CType::getFuncReturnType](ffi-ctype.getfuncreturntype.html) - Опис
--   [FFI\\CType::getKind](ffi-ctype.getkind.html) - Опис
--   [FFI\\CType::getName](ffi-ctype.getname.html) - Опис
--   [FFI\\CType::getPointerType](ffi-ctype.getpointertype.html) - Опис
--   [FFI\\CType::getSize](ffi-ctype.getsize.html) - Опис
--   [FFI\\CType::getStructFieldNames](ffi-ctype.getstructfieldnames.html) - Опис
--   [FFI\\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html) - Опис
--   [FFI\\CType::getStructFieldType](ffi-ctype.getstructfieldtype.html) - Опис
+-   [FFICType::getAlignment](ffi-ctype.getalignment.html) - Опис
+-   [FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.html) - Опис
+-   [FFICType::getArrayLength](ffi-ctype.getarraylength.html) - Опис
+-   [FFICType::getAttributes](ffi-ctype.getattributes.html) - Опис
+-   [FFICType::getEnumKind](ffi-ctype.getenumkind.html) - Опис
+-   [FFICType::getFuncABI](ffi-ctype.getfuncabi.html) - Опис
+-   [FFICType::getFuncParameterCount](ffi-ctype.getfuncparametercount.html) - Опис
+-   [FFICType::getFuncParameterType](ffi-ctype.getfuncparametertype.html) - Опис
+-   [FFICType::getFuncReturnType](ffi-ctype.getfuncreturntype.html) - Опис
+-   [FFICType::getKind](ffi-ctype.getkind.html) - Опис
+-   [FFICType::getName](ffi-ctype.getname.html) - Опис
+-   [FFICType::getPointerType](ffi-ctype.getpointertype.html) - Опис
+-   [FFICType::getSize](ffi-ctype.getsize.html) - Опис
+-   [FFICType::getStructFieldNames](ffi-ctype.getstructfieldnames.html) - Опис
+-   [FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html) - Опис
+-   [FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.html) - Опис

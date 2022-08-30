@@ -1,12 +1,12 @@
 Скидає буфер пам'яті
 
--   [« Swoole\\Buffer::append](swoole-buffer.append.html)
+-   [« SwooleBuffer::append](swoole-buffer.append.html)
     
--   [Swoole\\Buffer::\_\_construct »](swoole-buffer.construct.html)
+-   [SwooleBuffer::construct »](swoole-buffer.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Buffer](class.swoole-buffer.html)
+-   [SwooleBuffer](class.swoole-buffer.html)
     
 -   Скидає буфер пам'яті
     

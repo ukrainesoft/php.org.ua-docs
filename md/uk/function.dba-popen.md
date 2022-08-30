@@ -1,12 +1,12 @@
 Встановити постійний екземпляр бази даних
 
--   [« dba\_optimize](function.dba-optimize.html)
+-   [« dbaoptimize](function.dba-optimize.html)
     
--   [dba\_replace »](function.dba-replace.html)
+-   [dbareplace »](function.dba-replace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции DBA](ref.dba.html)
+-   [Функції DBA](ref.dba.html)
     
 -   Встановити постійний екземпляр бази даних
     
@@ -23,7 +23,7 @@ dbapopen — Встановити постійний екземпляр бази
 dba_popen(    string $path,    string $mode,    string $handler = ?,    mixed ...$args): resource|false
 ```
 
-[dba\_open()](function.dba-open.html) встановлює постійний екземпляр бази даних шляхом `path` в режимі `mode`, використовуючи обробник `handler`
+[dbaopen()](function.dba-open.html) встановлює постійний екземпляр бази даних шляхом `path` в режимі `mode`, використовуючи обробник `handler`
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ dba_popen(    string $path,    string $mode,    string $handler = ?,
 
 `handler`
 
-Ім'я [обработчика](dba.requirements.html), який буде використовуватися для доступу на шляху `path`. Йому передаються всі необов'язкові параметри, задані в [dba\_open()](function.dba-open.html)
+Ім'я [обработчика](dba.requirements.html), який буде використовуватися для доступу на шляху `path`. Йому передаються всі необов'язкові параметри, задані в [dbaopen()](function.dba-open.html)
 
 `args`
 
@@ -55,5 +55,5 @@ dba_popen(    string $path,    string $mode,    string $handler = ?,
 
 ### Дивіться також
 
--   [dba\_open()](function.dba-open.html) - Відкриває базу даних
--   [dba\_close()](function.dba-close.html) - Закриває базу даних DBA
+-   [dbaopen()](function.dba-open.html) - Відкриває базу даних
+-   [dbaclose()](function.dba-close.html) - Закриває базу даних DBA

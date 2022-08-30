@@ -1,12 +1,12 @@
 Повертає поточну місткість
 
--   [« Ds\\PriorityQueue::allocate](ds-priorityqueue.allocate.html)
+-   [« DsPriorityQueue::allocate](ds-priorityqueue.allocate.html)
     
--   [Ds\\PriorityQueue::clear »](ds-priorityqueue.clear.html)
+-   [ДсPriorityQueue::clear »](ds-priorityqueue.clear.html)
     
 -   [PHP Manual](index.html)
     
--   [Очередь с приоритетом](class.ds-priorityqueue.html)
+-   [Черга з пріоритетом](class.ds-priorityqueue.html)
     
 -   Повертає поточну місткість
     

@@ -2,7 +2,7 @@
 
 -   [« Mcrypt](ref.mcrypt.html)
     
--   [mcrypt\_decrypt »](function.mcrypt-decrypt.html)
+-   [mcryptdecrypt »](function.mcrypt-decrypt.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@ mcryptcreateiv — Створити вектор, що ініціалізує (I
 
 Є такі альтернативи:
 
--   [random\_bytes()](function.random-bytes.html)
+-   [randombytes()](function.random-bytes.html)
 
 ### Опис
 
@@ -69,4 +69,4 @@ IV призначений лише завдання альтернативног
 -   [» http://www.ciphersbyritter.com/GLOSSARY.HTM#IV](http://www.ciphersbyritter.com/GLOSSARY.HTM#IV)
 -   [» http://www.quadibloc.com/crypto/co0409.htm](http://www.quadibloc.com/crypto/co0409.htm)
 -   Applied Cryptography by Schneier (ISBN 0-471-11709-9), розділ 9.3
--   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти

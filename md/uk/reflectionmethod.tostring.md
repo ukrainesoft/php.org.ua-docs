@@ -67,4 +67,4 @@ Method [ <user> public method sayHelloTo ] {
 ### Дивіться також
 
 -   [ReflectionMethod::export()](reflectionmethod.export.html) - Експорт відбитого методу
--   [\_\_toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.html#object.tostring)

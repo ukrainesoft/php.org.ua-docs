@@ -94,7 +94,7 @@ array(2) {
 
 ### Дивіться також
 
--   [seaslog.default\_template](seaslog.configuration.html#ini.seaslog.default-template)
+-   [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)
 -   [SeasLog::debug()](seaslog.debug.html) - Записує інформацію рівня "debug" до журналу
 -   [SeasLog::info()](seaslog.info.html) - Записує інформацію рівня "info" до журналу
 -   [SeasLog::notice()](seaslog.notice.html) - Записує інформацію рівня "notice" у журнал

@@ -1,12 +1,12 @@
 Callback-функція для параметра контексту notification
 
--   [« stream\_isatty](function.stream-isatty.html)
+-   [« streamisatty](function.stream-isatty.html)
     
--   [stream\_register\_wrapper »](function.stream-register-wrapper.html)
+-   [streamregisterwrapper »](function.stream-register-wrapper.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с потоками](ref.stream.html)
+-   [Функції для роботи з потоками](ref.stream.html)
     
 -   Callback-функція для параметра контексту notification
     

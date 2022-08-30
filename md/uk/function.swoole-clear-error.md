@@ -1,8 +1,8 @@
 Скидає помилки в сокеті або за останнім кодом помилки
 
--   [« swoole\_async\_writefile](function.swoole-async-writefile.html)
+-   [« swooleasyncwritefile](function.swoole-async-writefile.html)
     
--   [swoole\_client\_select »](function.swoole-client-select.html)
+-   [swooleclientselect »](function.swoole-client-select.html)
     
 -   [PHP Manual](index.html)
     

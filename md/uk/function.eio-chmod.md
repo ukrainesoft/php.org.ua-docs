@@ -1,8 +1,8 @@
 Змінює права доступу до файлу/директорії
 
--   [« eio\_cancel](function.eio-cancel.html)
+-   [« eiocancel](function.eio-cancel.html)
     
--   [eio\_chown »](function.eio-chown.html)
+-   [eiochown »](function.eio-chown.html)
     
 -   [PHP Manual](index.html)
     
@@ -61,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 
@@ -73,4 +73,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eio\_chown()](function.eio-chown.html) - Змінює права доступу до файлу/директорії
+-   [eiochown()](function.eio-chown.html) - Змінює права доступу до файлу/директорії

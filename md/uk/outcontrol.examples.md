@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Контроль вывода](book.outcontrol.html)
+-   [Контроль виведення](book.outcontrol.html)
     
 -   Приклади
     

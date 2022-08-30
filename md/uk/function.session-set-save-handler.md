@@ -1,12 +1,12 @@
 Встановлює користувальницькі обробники зберігання сесії
 
--   [« session\_set\_cookie\_params](function.session-set-cookie-params.html)
+-   [« sessionsetcookieparams](function.session-set-cookie-params.html)
     
--   [session\_start »](function.session-start.html)
+-   [sessionstart »](function.session-start.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с сессиями](ref.session.html)
+-   [Функції для роботи із сесіями](ref.session.html)
     
 -   Встановлює користувальницькі обробники зберігання сесії
     
@@ -41,7 +41,7 @@ session_set_save_handler(object $sessionhandler, bool $register_shutdown = true)
 
 `register_shutdown`
 
-Зареєструвати [session\_write\_close()](function.session-write-close.html) як функцію [register\_shutdown\_function()](function.register-shutdown-function.html)
+Зареєструвати [sessionwriteclose()](function.session-write-close.html) як функцію [registershutdownfunction()](function.register-shutdown-function.html)
 
 або
 
@@ -53,7 +53,7 @@ Callback-функція з наступною сигнатурою:
 open(string $savePath, string $sessionName): bool
 ```
 
-Callback-функція `open` працює як конструктор у класах та виконується при відкритті сесії. Це перша callback-функція, яка виконується, коли сесія стартує автоматично або вручну через [session\_start()](function.session-start.html). Значення, що повертається **`true`** у разі успішного виконання, **`false`** у разі невдачі.
+Callback-функція `open` працює як конструктор у класах та виконується при відкритті сесії. Це перша callback-функція, яка виконується, коли сесія стартує автоматично або вручну через [sessionstart()](function.session-start.html). Значення, що повертається **`true`** у разі успішного виконання, **`false`** у разі невдачі.
 
 `close`
 
@@ -63,7 +63,7 @@ Callback-функція з наступною сигнатурою:
 close(): bool
 ```
 
-Callback-функція `close` працює як деструктор у класах і виконується після того, як була викликана callback-функція `write`. Вона також викликається під час виклику [session\_write\_close()](function.session-write-close.html). Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
+Callback-функція `close` працює як деструктор у класах і виконується після того, як була викликана callback-функція `write`. Вона також викликається під час виклику [sessionwriteclose()](function.session-write-close.html). Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
 
 `read`
 
@@ -75,9 +75,9 @@ read(string $sessionId): string
 
 Callback-функція `read` повинна завжди повертати кодований (серіалізований) рядок сесії або порожній рядок, якщо немає даних для читання.
 
-Ця callback-функція викликається внутрішнім механізмом PHP при старті сесії або виклику [session\_start()](function.session-start.html). Перед тим, як буде викликана ця callback-функція, PHP викличе callback-функцію `open`
+Ця callback-функція викликається внутрішнім механізмом PHP при старті сесії або виклику [sessionstart()](function.session-start.html). Перед тим, як буде викликана ця callback-функція, PHP викличе callback-функцію `open`
 
-Значення, що повертається даної callback-функції повинно бути в такому ж серіалізованому форматі, який спочатку передавався для зберігання в callback-функцію `write`. Значення, що повертається, буде автоматично десеріалізовано PHP і використано для заповнення суперглобальної змінної [$\_SESSION](reserved.variables.session.html). Навіть якщо дані схожі на результат [serialize()](function.serialize.html), варто пам'ятати, що це інший формат серіалізації, який визначений ini-директивою [session.serialize\_handler](session.configuration.html#ini.session.serialize-handler)
+Значення, що повертається даної callback-функції повинно бути в такому ж серіалізованому форматі, який спочатку передавався для зберігання в callback-функцію `write`. Значення, що повертається, буде автоматично десеріалізовано PHP і використано для заповнення суперглобальної змінної [SESSION](reserved.variables.session.html). Навіть якщо дані схожі на результат [serialize()](function.serialize.html), варто пам'ятати, що це інший формат серіалізації, який визначений ini-директивою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
 
 `write`
 
@@ -87,11 +87,11 @@ Callback-функція з наступною сигнатурою:
 write(string $sessionId, string $data): bool
 ```
 
-Callback-функція `write` викликається, коли сесія має бути збережена та закрита. Ця callback-функція приймає ідентифікатор поточної сесії та серіалізовану версію суперглобальної змінної [$\_SESSION](reserved.variables.session.html). Метод серіалізації, що використовується всередині PHP, визначений ini-директивою. [session.serialize\_handler](session.configuration.html#ini.session.serialize-handler)
+Callback-функція `write` викликається, коли сесія має бути збережена та закрита. Ця callback-функція приймає ідентифікатор поточної сесії та серіалізовану версію суперглобальної змінної [SESSION](reserved.variables.session.html). Метод серіалізації, що використовується всередині PHP, визначений ini-директивою. [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
 
 Передані у цю callback-функцію серіалізовані дані сесії мають бути збережені у зв'язку з переданим ідентифікатором сесії. При отриманні цих даних, callback-функція `read` повинна повернути те саме значення, що було передано в callback-функцію `write`
 
-Ця callback-функція викликається, коли PHP завершує роботу або явно під час виклику [session\_write\_close()](function.session-write-close.html). Слід пам'ятати, що після виконання цієї callback-функції PHP виконає callback-функцію `close`
+Ця callback-функція викликається, коли PHP завершує роботу або явно під час виклику [sessionwriteclose()](function.session-write-close.html). Слід пам'ятати, що після виконання цієї callback-функції PHP виконає callback-функцію `close`
 
 > **Зауваження**
 > 
@@ -105,7 +105,7 @@ Callback-функція з наступною сигнатурою:
 destroy(string $sessionId): bool
 ```
 
-Ця callback-функція викликається, коли сесія знищується за допомогою [session\_destroy()](function.session-destroy.html) або під час виклику [session\_regenerate\_id()](function.session-regenerate-id.html) з параметром destroy, встановленим у **`true`**. Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
+Ця callback-функція викликається, коли сесія знищується за допомогою [sessiondestroy()](function.session-destroy.html) або під час виклику [sessionregenerateid()](function.session-regenerate-id.html) з параметром destroy, встановленим у **`true`**. Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
 
 `gc`
 
@@ -115,7 +115,7 @@ Callback-функція з наступною сигнатурою:
 gc(int $lifetime): bool
 ```
 
-Callback-функція збирача сміття періодично викликається PHP для очищення даних старих сесій. Частота контролюється директивами [session.gc\_probability](session.configuration.html#ini.session.gc-probability) і [session.gc\_divisor](session.configuration.html#ini.session.gc-divisor). Значення lifetime, яке передається в дану callback-функцію, може бути встановлено в [session.gc\_maxlifetime](session.configuration.html#ini.session.gc-maxlifetime). Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
+Callback-функція збирача сміття періодично викликається PHP для очищення даних старих сесій. Частота контролюється директивами [session.gcprobability](session.configuration.html#ini.session.gc-probability) і [session.gcdivisor](session.configuration.html#ini.session.gc-divisor). Значення lifetime, яке передається в дану callback-функцію, може бути встановлено в [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime). Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
 
 `create_sid`
 
@@ -135,7 +135,7 @@ Callback-функція з наступною сигнатурою:
 validate_sid(string $key): bool
 ```
 
-Callback-функція виконується, коли має бути запущена сесія, надається ідентифікатор сесії та вмикається [session.use\_strict\_mode](session.configuration.html#ini.session.use-strict-mode). . `key` – це ідентифікатор сесії для перевірки. Ідентифікатор сесії є дійсним, якщо сесія з таким ідентифікатором вже існує. Значення, що повертається, має бути **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Callback-функція виконується, коли має бути запущена сесія, надається ідентифікатор сесії та вмикається [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode). . `key` – це ідентифікатор сесії для перевірки. Ідентифікатор сесії є дійсним, якщо сесія з таким ідентифікатором вже існує. Значення, що повертається, має бути **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 `update_timestamp`
 
@@ -179,16 +179,16 @@ session_start();
 
 Оброблювачі `write` і `close` викликаються після деструктора об'єкта і тому можуть використовувати його контекст чи кидати винятки. Винятки не можуть бути оброблені, тому що не будуть спіймані, не буде відображено трасування стека виключення і виконання просто припиниться несподівано. Однак при цьому деструктори об'єкта можуть використовувати сесії.
 
-Можна викликати [session\_write\_close()](function.session-write-close.html) з деструктора, щоб вирішити цю проблему "курки та яйця", але найнадійніший спосіб - це реєструвати функцію завершення, як описано вище.
+Можна викликати [sessionwriteclose()](function.session-write-close.html) з деструктора, щоб вирішити цю проблему "курки та яйця", але найнадійніший спосіб - це реєструвати функцію завершення, як описано вище.
 
 **Увага**
 
-Поточний робочий каталог змінюється деякими SAPI, якщо сесія закривається після завершення скрипта. Завершити сесію можна раніше за допомогою [session\_write\_close()](function.session-write-close.html)
+Поточний робочий каталог змінюється деякими SAPI, якщо сесія закривається після завершення скрипта. Завершити сесію можна раніше за допомогою [sessionwriteclose()](function.session-write-close.html)
 
 ### Дивіться також
 
--   Директива [session.save\_handler](session.configuration.html#ini.session.save-handler)
--   Директива [session.serialize\_handler](session.configuration.html#ini.session.serialize-handler)
--   [register\_shutdown\_function()](function.register-shutdown-function.html) - Реєструє функцію, яка виконається після завершення роботи скрипту
--   [session\_register\_shutdown()](function.session-register-shutdown.html) - функція завершення сесії
--   Зверніться до [» save\_handler.inc](https://github.com/php/php-src/blob/master/ext/session/tests/save_handler.inc) для повного набору рекомендацій щодо реалізації
+-   Директива [session.savehandler](session.configuration.html#ini.session.save-handler)
+-   Директива [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+-   [registershutdownfunction()](function.register-shutdown-function.html) - Реєструє функцію, яка виконається після завершення роботи скрипту
+-   [sessionregistershutdown()](function.session-register-shutdown.html) - функція завершення сесії
+-   Зверніться до [» savehandler.inc](https://github.com/php/php-src/blob/master/ext/session/tests/save_handler.inc) для повного набору рекомендацій щодо реалізації

@@ -1,12 +1,12 @@
 Аутентифікація через SSH з використанням звичайного пароля
 
--   [« ssh2\_auth\_none](function.ssh2-auth-none.html)
+-   [« ssh2authnone](function.ssh2-auth-none.html)
     
--   [ssh2\_auth\_pubkey\_file »](function.ssh2-auth-pubkey-file.html)
+-   [ssh2authpubkeyfile »](function.ssh2-auth-pubkey-file.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SSH2](ref.ssh2.html)
+-   [Функції SSH2](ref.ssh2.html)
     
 -   Аутентифікація через SSH з використанням звичайного пароля
     
@@ -29,7 +29,7 @@ ssh2_auth_password(resource $session, string $username, string $password): bool
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
 
 `username`
 

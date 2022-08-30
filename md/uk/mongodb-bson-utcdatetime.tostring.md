@@ -1,12 +1,12 @@
 Повертає рядкову виставу UTCDateTime
 
--   [« MongoDB\\BSON\\UTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.html)
+-   [« MongoDBBSONUTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.html)
     
--   [MongoDB\\BSON\\UTCDateTime::unserialize »](mongodb-bson-utcdatetime.unserialize.html)
+-   [MongoDBBSONUTCDateTime::unserialize »](mongodb-bson-utcdatetime.unserialize.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.html)
+-   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
     
 -   Повертає рядкову виставу UTCDateTime
     

@@ -1,12 +1,12 @@
 Повертає поточний запис з'єднання
 
--   [« Swoole\\Connection\\Iterator::count](swoole-connection-iterator.count.html)
+-   [« SwooleConnectionIterator::count](swoole-connection-iterator.count.html)
     
--   [Swoole\\Connection\\Iterator::key »](swoole-connection-iterator.key.html)
+-   [SwooleConnectionIterator::key »](swoole-connection-iterator.key.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+-   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
     
 -   Повертає поточний запис з'єднання
     

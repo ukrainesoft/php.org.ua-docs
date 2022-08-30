@@ -23,7 +23,7 @@ SeasLog::getLastLogger — Отримує останній шлях реєстр
 public static SeasLog::getLastLogger(): string
 ```
 
-Використовуйте функцію **SeasLog::getLastLogger()**, щоб отримати значення [seaslog.default\_logger](seaslog.configuration.html#ini.seaslog.default-logger), яке задано у php.ini (seaslog.ini).
+Використовуйте функцію **SeasLog::getLastLogger()**, щоб отримати значення [seaslog.defaultlogger](seaslog.configuration.html#ini.seaslog.default-logger), яке задано у php.ini (seaslog.ini).
 
 ### Список параметрів
 

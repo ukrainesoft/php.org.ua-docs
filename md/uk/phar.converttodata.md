@@ -1,6 +1,6 @@
 Конвертує phar-архів в tar-або zip-файл, що не виконується.
 
--   [« Phar::\_\_construct](phar.construct.html)
+-   [« Phar::construct](phar.construct.html)
     
 -   [Phar::convertToExecutable »](phar.converttoexecutable.html)
     

@@ -2,7 +2,7 @@
 
 -   [« Список меток (tokens) парсера](tokens.html)
     
--   [Глобальное пространство имён »](userlandnaming.globalnamespace.html)
+-   [Глобальний простір імен »](userlandnaming.globalnamespace.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,7 +15,7 @@
 
 ## Зміст
 
--   [Глобальное пространство имён](userlandnaming.globalnamespace.html)
+-   [Глобальний простір імен](userlandnaming.globalnamespace.html)
 -   [Правила](userlandnaming.rules.html)
 -   [Советы](userlandnaming.tips.html)
 

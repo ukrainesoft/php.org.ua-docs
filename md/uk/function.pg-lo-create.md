@@ -1,8 +1,8 @@
 Створює великий об'єкт
 
--   [« pg\_lo\_close](function.pg-lo-close.html)
+-   [« pgлоclose](function.pg-lo-close.html)
     
--   [pg\_lo\_export »](function.pg-lo-export.html)
+-   [пглоexport »](function.pg-lo-export.html)
     
 -   [PHP Manual](index.html)
     
@@ -31,7 +31,7 @@ pg_lo_create(mixed $object_id): int
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-Замість використання інтерфейсу великих об'єктів (який не має контролю доступу і дуже громіздкий сам по собі) користуйтеся полями PostgreSQL типу bytea для зберігання бінарних даних та функцією [pg\_escape\_bytea()](function.pg-escape-bytea.html) для їхнього екранування.
+Замість використання інтерфейсу великих об'єктів (який не має контролю доступу і дуже громіздкий сам по собі) користуйтеся полями PostgreSQL типу bytea для зберігання бінарних даних та функцією [пгescapebytea()](function.pg-escape-bytea.html) для їхнього екранування.
 
 > **Зауваження**
 > 
@@ -41,7 +41,7 @@ pg_lo_create(mixed $object_id): int
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
 
 **Увага**
 
@@ -57,9 +57,9 @@ OID великого об'єкта або **`false`** у разі виникне
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

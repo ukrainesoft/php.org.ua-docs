@@ -51,7 +51,7 @@ date_offset_get(DateTimeInterface $object): int
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html)
 
 ### Значення, що повертаються
 

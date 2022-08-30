@@ -1,8 +1,8 @@
 Отримує кількість елементів у стовпці типу колекція OID
 
--   [« cubrid\_col\_get](function.cubrid-col-get.html)
+-   [« cubridcolget](function.cubrid-col-get.html)
     
--   [cubrid\_column\_names »](function.cubrid-column-names.html)
+-   [cubridcolumnnames »](function.cubrid-column-names.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Повертає значення за індексом
 
--   [« Ds\\Vector::first](ds-vector.first.html)
+-   [« DsVector::first](ds-vector.first.html)
     
--   [Ds\\Vector::insert »](ds-vector.insert.html)
+-   [ДсVector::insert »](ds-vector.insert.html)
     
 -   [PHP Manual](index.html)
     

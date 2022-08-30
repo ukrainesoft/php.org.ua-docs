@@ -40,4 +40,4 @@ public
 
 ### Дивіться також
 
--   [Event::\_\_construct()](event.construct.html) - Конструктор об'єкту Event
+-   [Event::construct()](event.construct.html) - Конструктор об'єкту Event

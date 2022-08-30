@@ -1,8 +1,8 @@
 Повертає масив входжень, які відповідають шаблону
 
--   [« preg\_filter](function.preg-filter.html)
+-   [« pregfilter](function.preg-filter.html)
     
--   [preg\_last\_error\_msg »](function.preg-last-error-msg.html)
+-   [preglasterrormsg »](function.preg-last-error-msg.html)
     
 -   [PHP Manual](index.html)
     
@@ -62,7 +62,7 @@ $fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 ### Дивіться також
 
 -   [Регулярные выражения PCRE](pcre.pattern.html)
--   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [preg\_match\_all()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [preg\_filter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом
--   [preg\_last\_error()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
+-   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
+-   [pregfilter()](function.preg-filter.html) - Здійснює пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE

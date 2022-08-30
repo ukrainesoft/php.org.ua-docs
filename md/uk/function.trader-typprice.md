@@ -1,8 +1,8 @@
 Типова ціна
 
--   [« trader\_tsf](function.trader-tsf.html)
+-   [« tradertsf](function.trader-tsf.html)
     
--   [trader\_ultosc »](function.trader-ultosc.html)
+-   [traderultosc »](function.trader-ultosc.html)
     
 -   [PHP Manual](index.html)
     

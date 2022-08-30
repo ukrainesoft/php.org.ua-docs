@@ -23,4 +23,4 @@
 
 > **Зауваження**
 > 
-> Починаючи з PHP 7.0.0, модуль Mhash повністю інтегрований у модуль [Hash](book.hash.html). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extension\_loaded()](function.extension-loaded.html); замість неї використовуйте [function\_exists()](function.function-exists.html). Крім того, Mhash більше не виводитиметься за допомогою [get\_loaded\_extensions()](function.get-loaded-extensions.html) та подібних функцій.
+> Починаючи з PHP 7.0.0, модуль Mhash повністю інтегрований у модуль [Hash](book.hash.html). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extensionloaded()](function.extension-loaded.html); замість неї використовуйте [functionexists()](function.function-exists.html). Крім того, Mhash більше не виводитиметься за допомогою [getloadedextensions()](function.get-loaded-extensions.html) та подібних функцій.

@@ -1,8 +1,8 @@
 Повертає докладну інформацію про адресу, знайдену в базі GeoIP
 
--   [« geoip\_org\_by\_name](function.geoip-org-by-name.html)
+-   [« geoiporgбname](function.geoip-org-by-name.html)
     
--   [geoip\_region\_by\_name »](function.geoip-region-by-name.html)
+-   [geoipregionбname »](function.geoip-region-by-name.html)
     
 -   [PHP Manual](index.html)
     
@@ -30,9 +30,9 @@ geoip_record_by_name(string $hostname): array
 Наступні імена ключів асоціативного масиву, що повертається:
 
 -   "continentcode" - Дволітерний код континенту (з версії 1.0.4 з libgeoip 1.4.3 або новішої)
--   " countrycode" -- Двохлітерний код країни (дивіться [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.html)
--   " countrycode3" -- Трилітерний код країни (дивіться [geoip\_country\_code3\_by\_name()](function.geoip-country-code3-by-name.html)
--   " countryname" -- Назва країни (дивіться [geoip\_country\_name\_by\_name()](function.geoip-country-name-by-name.html)
+-   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
+-   " countrycode3" -- Трилітерний код країни (дивіться [geoipcountrycode3бname()](function.geoip-country-code3-by-name.html)
+-   " countryname" -- Назва країни (дивіться [geoipcountrynameбname()](function.geoip-country-name-by-name.html)
 -   "region" -- Код регіону (наприклад: CA для Каліфорнії)
 -   "City" - Місто.
 -   "postalcode" -- Поштовий індекс, FSA або Zip-код
@@ -49,7 +49,7 @@ geoip_record_by_name(string $hostname): array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив у разі успішного виконання або **`false`**Якщо адреса не може бути знайдена в базі.
+Повертає асоціативний масив у разі успішного виконання або \*\*`false`\*\*Якщо адреса не може бути знайдена в базі.
 
 ### список змін
 

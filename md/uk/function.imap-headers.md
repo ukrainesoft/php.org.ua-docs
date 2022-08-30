@@ -1,8 +1,8 @@
 Отримати заголовки всіх повідомлень у поштовій скриньці
 
--   [« imap\_headerinfo](function.imap-headerinfo.html)
+-   [« imapheaderinfo](function.imap-headerinfo.html)
     
--   [imap\_last\_error »](function.imap-last-error.html)
+-   [imaplasterror »](function.imap-last-error.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_headers(IMAP\Connection $imap): array|false
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ imap_headers(IMAP\Connection $imap): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

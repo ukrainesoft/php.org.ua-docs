@@ -1,12 +1,12 @@
 Витягує предмет зі стека
 
--   [« Parle\\Stack](class.parle-stack.html)
+-   [« ParleStack](class.parle-stack.html)
     
--   [Parle\\Stack::push »](parle-stack.push.html)
+-   [ParleStack::push »](parle-stack.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Parle\\Stack](class.parle-stack.html)
+-   [ParleStack](class.parle-stack.html)
     
 -   Витягує предмет зі стека
     

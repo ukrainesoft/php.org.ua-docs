@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Ev](book.ev.html)
+-   [Єв](book.ev.html)
     
 -   Встановлення та налаштування
     

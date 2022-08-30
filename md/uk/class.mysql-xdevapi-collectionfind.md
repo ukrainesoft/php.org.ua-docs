@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+-   [Mysqlxdevapi](book.mysql-xdevapi.html)
     
 -   Клас CollectionFind
     
@@ -51,7 +51,7 @@ public sort(string $sort_expr): mysql_xdevapi\CollectionFind
 ## Зміст
 
 -   [CollectionFind::bind](mysql-xdevapi-collectionfind.bind.html) — Прив'язує значення до заповнювача запиту
--   [CollectionFind::\_\_construct](mysql-xdevapi-collectionfind.construct.html) - Конструктор класу CollectionFind
+-   [CollectionFind::construct](mysql-xdevapi-collectionfind.construct.html) - Конструктор класу CollectionFind
 -   [CollectionFind::execute](mysql-xdevapi-collectionfind.execute.html) - Виконує твердження
 -   [CollectionFind::fields](mysql-xdevapi-collectionfind.fields.html) — Встановлює фільтр поля документа
 -   [CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.html) - Встановлює критерії угруповання

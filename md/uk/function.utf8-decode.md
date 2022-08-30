@@ -2,11 +2,11 @@
 
 -   [« ucwords](function.ucwords.html)
     
--   [utf8\_encode »](function.utf8-encode.html)
+-   [utf8encode »](function.utf8-encode.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Перетворює рядок з UTF-8 на ISO-8859-1, замінюючи неприпустимі або непредставні символи
     
@@ -84,7 +84,7 @@ string(1) "?"
 
 ### Дивіться також
 
--   [utf8\_encode()](function.utf8-encode.html) - Перетворює рядок із ISO-8859-1 на UTF-8
--   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [utf8encode()](function.utf8-encode.html) - Перетворює рядок із ISO-8859-1 на UTF-8
+-   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
 -   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
 -   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

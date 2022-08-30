@@ -1,12 +1,12 @@
 Видаляє та повертає останнє значення
 
--   [« Ds\\Deque::merge](ds-deque.merge.html)
+-   [« DsDeque::merge](ds-deque.merge.html)
     
--   [Ds\\Deque::push »](ds-deque.push.html)
+-   [ДсDeque::push »](ds-deque.push.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Видаляє та повертає останнє значення
     

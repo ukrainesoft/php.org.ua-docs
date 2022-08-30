@@ -1,12 +1,12 @@
 Повертає опцію "journal" WriteConcern
 
--   [« MongoDB\\Driver\\WriteConcern::\_\_construct](mongodb-driver-writeconcern.construct.html)
+-   [« MongoDBDriverWriteConcern::construct](mongodb-driver-writeconcern.construct.html)
     
--   [MongoDB\\Driver\\WriteConcern::getW »](mongodb-driver-writeconcern.getw.html)
+-   [MongoDBDriverWriteConcern::getW »](mongodb-driver-writeconcern.getw.html)
     
 -   [PHP Manual](index.html)
     
--   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
     
 -   Повертає опцію "journal" WriteConcern
     
@@ -33,7 +33,7 @@ final public MongoDB\Driver\WriteConcern::getJournal(): ?bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 

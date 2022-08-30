@@ -1,12 +1,12 @@
 Повертає MD5-хеш рядки
 
--   [« md5\_file](function.md5-file.html)
+-   [« md5file](function.md5-file.html)
     
 -   [metaphone »](function.metaphone.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы со строками](ref.strings.html)
+-   [Функції для роботи з рядками](ref.strings.html)
     
 -   Повертає MD5-хеш рядки
     
@@ -19,7 +19,7 @@ md5 - Повертає MD5-хеш рядки
 
 **Увага**
 
-Не рекомендується використовувати цю функцію для забезпечення безпеки зберігання паролів через високу швидкість роботи даного алгоритму. Докладніше читайте у розділі [Ответы на часто задаваемые вопросы по хешированию паролей](faq.passwords.html#faq.passwords.fasthash)
+Не рекомендується використовувати цю функцію для забезпечення безпеки зберігання паролів через високу швидкість роботи даного алгоритму. Докладніше читайте у розділі [Відповіді на найчастіші запитання щодо шифрування паролів](faq.passwords.html#faq.passwords.fasthash)
 
 ### Опис
 
@@ -59,10 +59,10 @@ if (md5($str) === '1afa148eb41f2e7103f21410bf48346c') {
 
 ### Дивіться також
 
--   [md5\_file()](function.md5-file.html) - Повертає MD5-хеш файлу
--   [sha1\_file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
+-   [md5file()](function.md5-file.html) - Повертає MD5-хеш файлу
+-   [sha1file()](function.sha1-file.html) - Повертає SHA1-хеш файлу
 -   [crc32()](function.crc32.html) - Обчислює поліном CRC32 для рядка
 -   [sha1()](function.sha1.html) - Повертає SHA1-хеш рядки
 -   [hash()](function.hash.html) - Генерує хеш-код (підпис повідомлення)
 -   [crypt()](function.crypt.html) - Необоротне хешування рядка
--   [password\_hash()](function.password-hash.html) - Створює хеш пароля
+-   [passwordhash()](function.password-hash.html) - Створює хеш пароля

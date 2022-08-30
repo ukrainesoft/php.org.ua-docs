@@ -1,6 +1,6 @@
 Експортує функції
 
--   [« ReflectionFunction::\_\_construct](reflectionfunction.construct.html)
+-   [« ReflectionFunction::construct](reflectionfunction.construct.html)
     
 -   [ReflectionFunction::getClosure »](reflectionfunction.getclosure.html)
     
@@ -46,4 +46,4 @@ public static ReflectionFunction::export(string $name, string $return = ?): stri
 ### Дивіться також
 
 -   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
--   [ReflectionFunction::\_\_toString()](reflectionfunction.tostring.html) - Подання у вигляді рядка
+-   [ReflectionFunction::toString()](reflectionfunction.tostring.html) - Подання у вигляді рядка

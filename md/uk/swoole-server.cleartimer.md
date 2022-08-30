@@ -1,12 +1,12 @@
 Зупиняє та знищує таймер
 
--   [« Swoole\\Server::bind](swoole-server.bind.html)
+-   [« SwooleServer::bind](swoole-server.bind.html)
     
--   [Swoole\\Server::close »](swoole-server.close.html)
+-   [SwooleServer::close »](swoole-server.close.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Server](class.swoole-server.html)
+-   [SwooleServer](class.swoole-server.html)
     
 -   Зупиняє та знищує таймер
     

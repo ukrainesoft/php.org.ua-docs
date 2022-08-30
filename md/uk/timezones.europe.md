@@ -1,12 +1,12 @@
 Європа
 
--   [« Австралия](timezones.australia.html)
+-   [« Австралія](timezones.australia.html)
     
--   [Индийский »](timezones.indian.html)
+-   [Індійська »](timezones.indian.html)
     
 -   [PHP Manual](index.html)
     
--   [Список поддерживаемых часовых поясов](timezones.html)
+-   [Список підтримуваних часових поясів](timezones.html)
     
 -   Європа
     

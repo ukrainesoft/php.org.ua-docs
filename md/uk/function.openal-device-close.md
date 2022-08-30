@@ -1,8 +1,8 @@
 Закрити пристрій OpenAL
 
--   [« openal\_context\_suspend](function.openal-context-suspend.html)
+-   [« openalcontextsuspend](function.openal-context-suspend.html)
     
--   [openal\_device\_open »](function.openal-device-open.html)
+-   [openaldeviceopen »](function.openal-device-open.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ openal_device_close(resource $device): bool
 
 `device`
 
-Ресурс [Open AL(Device)](openal.resources.html) (Створений раніше за допомогою [openal\_device\_open()](function.openal-device-open.html)), який потрібно закрити.
+Ресурс [Open AL(Device)](openal.resources.html) (Створений раніше за допомогою [openaldeviceopen()](function.openal-device-open.html)), який потрібно закрити.
 
 ### Значення, що повертаються
 
@@ -35,4 +35,4 @@ openal_device_close(resource $device): bool
 
 ### Дивіться також
 
--   [openal\_device\_open()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
+-   [openaldeviceopen()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL

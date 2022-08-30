@@ -58,7 +58,7 @@ public SQLite3Stmt::bindValue(string|int $param, mixed $value, int $type = SQLIT
 
 > **Зауваження**
 > 
-> Якщо `param` дорівнює **`null`**, він завжди обробляється як **`SQLITE3_NULL`**незалежно від заданого `type`
+> Якщо `param` дорівнює **`null`**, він завжди обробляється як \*\*`SQLITE3_NULL`\*\*незалежно від заданого `type`
 
 ### Значення, що повертаються
 

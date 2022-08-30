@@ -1,8 +1,8 @@
 Вставляє один елемент для встановлення стовпця типу за допомогою OID
 
--   [« cubrid\_seq\_put](function.cubrid-seq-put.html)
+-   [« cubridseqput](function.cubrid-seq-put.html)
     
--   [cubrid\_set\_autocommit »](function.cubrid-set-autocommit.html)
+-   [cubridsetautocommit »](function.cubrid-set-autocommit.html)
     
 -   [PHP Manual](index.html)
     
@@ -102,4 +102,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubrid\_seq\_drop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqdrop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID

@@ -2,7 +2,7 @@
 
 -   [« Функции COM](ref.com.html)
     
--   [com\_event\_sink »](function.com-event-sink.html)
+-   [comeventsink »](function.com-event-sink.html)
     
 -   [PHP Manual](index.html)
     

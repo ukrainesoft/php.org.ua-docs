@@ -1,8 +1,8 @@
 Закриває з'єднання ODBC
 
--   [« odbc\_close\_all](function.odbc-close-all.html)
+-   [« odbccloseall](function.odbc-close-all.html)
     
--   [odbc\_columnprivileges »](function.odbc-columnprivileges.html)
+-   [odbccolumnprivileges »](function.odbc-columnprivileges.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_close(resource $odbc): void
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
 
 ### Значення, що повертаються
 

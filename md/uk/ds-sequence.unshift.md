@@ -1,12 +1,12 @@
 Додає значення на початок послідовності
 
--   [« Ds\\Sequence::sum](ds-sequence.sum.html)
+-   [« DsSequence::sum](ds-sequence.sum.html)
     
 -   [Вектор »](class.ds-vector.html)
     
 -   [PHP Manual](index.html)
     
--   [Последовательность](class.ds-sequence.html)
+-   [Послідовність](class.ds-sequence.html)
     
 -   Додає значення на початок послідовності
     

@@ -1,12 +1,12 @@
 Отримує тип XML-RPC для значення PHP
 
--   [« xmlrpc\_encode](function.xmlrpc-encode.html)
+-   [« xmlrpcencode](function.xmlrpc-encode.html)
     
--   [xmlrpc\_is\_fault »](function.xmlrpc-is-fault.html)
+-   [xmlrpcісfault »](function.xmlrpc-is-fault.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции XML-RPC](ref.xmlrpc.html)
+-   [Функції XML-RPC](ref.xmlrpc.html)
     
 -   Отримує тип XML-RPC для значення PHP
     
@@ -58,4 +58,4 @@ echo xmlrpc_get_type(STDIN) . "\n"; // int
 
 ### Дивіться також
 
--   [xmlrpc\_set\_type()](function.xmlrpc-set-type.html) - Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
+-   [xmlrpcsettype()](function.xmlrpc-set-type.html) - Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP

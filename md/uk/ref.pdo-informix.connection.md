@@ -27,7 +27,7 @@ PDOINFORMIX DSN — З'єднання з базою даних Informix
 
 DSN
 
-DSN повинен бути або вказаний в odbc.ini або заданий повною [» строкой соединения](http://publib.boulder.ibm.com/infocenter/idshelp/v10/topic/com.ibm.odbc.doc/odbc66.htm#sii02998361)
+DSN повинен бути або вказаний в odbc.ini або заданий повною [»рядком з'єднання](http://publib.boulder.ibm.com/infocenter/idshelp/v10/topic/com.ibm.odbc.doc/odbc66.htm#sii02998361)
 
 ### Приклади
 

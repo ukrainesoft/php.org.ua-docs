@@ -1,12 +1,12 @@
 Функція зворотного виклику миші
 
--   [« UI\\Area::onKey](ui-area.onkey.html)
+-   [« UIArea::onKey](ui-area.onkey.html)
     
--   [UI\\Area::redraw »](ui-area.redraw.html)
+-   [ОЙArea::redraw »](ui-area.redraw.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Area](class.ui-area.html)
+-   [ОЙArea](class.ui-area.html)
     
 -   Функція зворотного виклику миші
     

@@ -1,12 +1,12 @@
 Імовірнісні заходи біномінального розподілу
 
--   [« stats\_dens\_normal](function.stats-dens-normal.html)
+-   [« statsdensnormal](function.stats-dens-normal.html)
     
--   [stats\_dens\_pmf\_hypergeometric »](function.stats-dens-pmf-hypergeometric.html)
+-   [statsdenspmfhypergeometric »](function.stats-dens-pmf-hypergeometric.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Імовірнісні заходи біномінального розподілу
     

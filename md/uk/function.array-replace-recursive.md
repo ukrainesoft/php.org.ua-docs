@@ -1,12 +1,12 @@
 Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
 
--   [« array\_reduce](function.array-reduce.html)
+-   [« arrayreduce](function.array-reduce.html)
     
--   [array\_replace »](function.array-replace.html)
+-   [arrayreplace »](function.array-replace.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции для работы с массивами](ref.array.html)
+-   [Функції для роботи з масивами](ref.array.html)
     
 -   Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
     
@@ -128,5 +128,5 @@ Array
 
 ### Дивіться також
 
--   [array\_replace()](function.array-replace.html) - Замінює елементи масиву елементами інших переданих масивів
--   [array\_merge\_recursive()](function.array-merge-recursive.html) - Рекурсивне злиття одного або більше масивів
+-   [arrayreplace()](function.array-replace.html) - Замінює елементи масиву елементами інших переданих масивів
+-   [arraymergerecursive()](function.array-merge-recursive.html) - Рекурсивне злиття одного або більше масивів

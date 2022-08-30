@@ -1,8 +1,8 @@
 Зареєструвати функцію автодоповнення
 
--   [« readline\_clear\_history](function.readline-clear-history.html)
+-   [« readlineclearhistory](function.readline-clear-history.html)
     
--   [readline\_info »](function.readline-info.html)
+-   [readlineinfo »](function.readline-info.html)
     
 -   [PHP Manual](index.html)
     

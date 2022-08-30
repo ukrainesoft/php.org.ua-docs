@@ -1,8 +1,8 @@
 Отримує інформацію про властивості полів бази даних
 
--   [« dbase\_delete\_record](function.dbase-delete-record.html)
+-   [« dbasedeleterecord](function.dbase-delete-record.html)
     
--   [dbase\_get\_record\_with\_names »](function.dbase-get-record-with-names.html)
+-   [dbasegetrecordwithnames »](function.dbase-get-record-with-names.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ dbase_get_header_info(resource $database): array
 
 `database`
 
-Ресурс бази даних, отриманий за допомогою [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
+Ресурс бази даних, отриманий за допомогою [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
 
 ### Значення, що повертаються
 
@@ -43,7 +43,7 @@ name
 
 type
 
-Тип поля dBase в зручному для сприйняття вигляді (date, boolean, і т.д.) типи файлів, що підтримуються, перераховані в [вводной секции](intro.dbase.html)
+Тип поля dBase в зручному для сприйняття вигляді (date, boolean, і т.д.) типи файлів, що підтримуються, перераховані в [вступної секції](intro.dbase.html)
 
 length
 

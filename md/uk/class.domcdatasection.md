@@ -2,7 +2,7 @@
 
 -   [« DOMAttr::isId](domattr.isid.html)
     
--   [DOMCdataSection::\_\_construct »](domcdatasection.construct.html)
+-   [DOMCdataSection::construct »](domcdatasection.construct.html)
     
 -   [PHP Manual](index.html)
     
@@ -162,4 +162,4 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Зміст
 
--   [DOMCdataSection::\_\_construct](domcdatasection.construct.html) — Створює новий екземпляр класу DOMCdataSection
+-   [DOMCdataSection::construct](domcdatasection.construct.html) — Створює новий екземпляр класу DOMCdataSection

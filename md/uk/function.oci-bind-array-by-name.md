@@ -2,7 +2,7 @@
 
 -   [« OCI8 Функции](ref.oci8.html)
     
--   [oci\_bind\_by\_name »](function.oci-bind-by-name.html)
+-   [ocibindбname »](function.oci-bind-by-name.html)
     
 -   [PHP Manual](index.html)
     

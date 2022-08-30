@@ -1,12 +1,12 @@
 Обробник обраної опції
 
--   [« UI\\Controls\\Combo::getSelected](ui-controls-combo.getselected.html)
+-   [« UIControlsCombo::getSelected](ui-controls-combo.getselected.html)
     
--   [UI\\Controls\\Combo::setSelected »](ui-controls-combo.setselected.html)
+-   [ОЙControlsCombo::setSelected »](ui-controls-combo.setselected.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Combo](class.ui-controls-combo.html)
+-   [ОЙControlsCombo](class.ui-controls-combo.html)
     
 -   Обробник обраної опції
     

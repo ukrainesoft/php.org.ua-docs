@@ -1,6 +1,6 @@
 Обгортки TCP
 
--   [« svn\_update](function.svn-update.html)
+-   [« svnupdate](function.svn-update.html)
     
 -   [Введение »](intro.tcpwrap.html)
     
@@ -20,5 +20,5 @@
     -   [Настройка во время выполнения](tcpwrap.configuration.html)
     -   [Типы ресурсов](tcpwrap.resources.html)
 -   [Предопределённые константы](tcpwrap.constants.html)
--   [Функции TCP](ref.tcpwrap.html)
-    -   [tcpwrap\_check](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap
+-   [Функції TCP](ref.tcpwrap.html)
+    -   [tcpwrapcheck](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap

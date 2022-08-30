@@ -37,7 +37,7 @@ public static IntlChar::getPropertyEnum(string $alias): int
 
 ### Значення, що повертаються
 
-Повертає значення константи `IntlChar::PROPERTY_`, або **`IntlChar::PROPERTY_INVALID_CODE`**якщо задане ім'я не відповідає жодній властивості.
+Повертає значення константи `IntlChar::PROPERTY_`, або \*\*`IntlChar::PROPERTY_INVALID_CODE`\*\*якщо задане ім'я не відповідає жодній властивості.
 
 ### Приклади
 

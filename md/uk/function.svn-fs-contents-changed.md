@@ -1,12 +1,12 @@
 Повертає true, якщо вміст відрізняється або false у противному випадку
 
--   [« svn\_fs\_check\_path](function.svn-fs-check-path.html)
+-   [« svnфсcheckpath](function.svn-fs-check-path.html)
     
--   [svn\_fs\_copy »](function.svn-fs-copy.html)
+-   [svnфсcopy »](function.svn-fs-copy.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SVN](ref.svn.html)
+-   [Функції SVN](ref.svn.html)
     
 -   Повертає true, якщо вміст відрізняється або false у противному випадку
     

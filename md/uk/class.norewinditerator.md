@@ -2,11 +2,11 @@
 
 -   [« MultipleIterator::valid](multipleiterator.valid.html)
     
--   [NoRewindIterator::\_\_construct »](norewinditerator.construct.html)
+-   [NoRewindIterator::construct »](norewinditerator.construct.html)
     
 -   [PHP Manual](index.html)
     
--   [Итераторы](spl.iterators.html)
+-   [Ітератори](spl.iterators.html)
     
 -   Клас NoRewindIterator
     
@@ -62,7 +62,7 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [NoRewindIterator::\_\_construct](norewinditerator.construct.html) — Створює новий об'єкт NoRewindIterator
+-   [NoRewindIterator::construct](norewinditerator.construct.html) — Створює новий об'єкт NoRewindIterator
 -   [NoRewindIterator::current](norewinditerator.current.html) — Отримує поточне значення
 -   [NoRewindIterator::getInnerIterator](norewinditerator.getinneriterator.html) — Отримує внутрішній ітератор
 -   [NoRewindIterator::key](norewinditerator.key.html) — Отримує поточний ключ

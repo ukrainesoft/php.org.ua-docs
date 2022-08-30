@@ -1,8 +1,8 @@
 Додати нових callback-функцій сокету до циклу подій
 
--   [« swoole\_error\_log](function.swoole-error-log.html)
+-   [« swooleerrorlog](function.swoole-error-log.html)
     
--   [swoole\_event\_defer »](function.swoole-event-defer.html)
+-   [swooleeventdefer »](function.swoole-event-defer.html)
     
 -   [PHP Manual](index.html)
     

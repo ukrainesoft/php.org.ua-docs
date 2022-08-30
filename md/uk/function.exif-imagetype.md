@@ -1,12 +1,12 @@
 Визначення типу зображення
 
--   [« Exif Функции](ref.exif.html)
+-   [« Exif Функції](ref.exif.html)
     
--   [exif\_read\_data »](function.exif-read-data.html)
+-   [exifreaddata »](function.exif-read-data.html)
     
 -   [PHP Manual](index.html)
     
--   [Exif Функции](ref.exif.html)
+-   [Exif Функції](ref.exif.html)
     
 -   Визначення типу зображення
     
@@ -25,7 +25,7 @@ exif_imagetype(string $filename): int|false
 
 **exifimagetype()** зчитує початкові байти зображення та перевіряє їх сигнатуру.
 
-**exifimagetype()** може використовуватися, щоб уникнути інших викликів [exif-функций](ref.exif.html) з непідтримуваними аргументами. Також при взаємодії з [$\_SERVER\['HTTP\_ACCEPT'\]](reserved.variables.server.html) можна перевіряти, чи зображення відображатиметься у браузері.
+**exifimagetype()** може використовуватися, щоб уникнути інших викликів [exif-функций](ref.exif.html) з непідтримуваними аргументами. Також при взаємодії з [SERVER\['HTTPACCEPT'\]](reserved.variables.server.html) можна перевіряти, чи зображення відображатиметься у браузері.
 
 ### Список параметрів
 
@@ -86,5 +86,5 @@ if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
 
 ### Дивіться також
 
--   [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+-   [imagetypeтоmimetype()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
 -   [getimagesize()](function.getimagesize.html) - Отримання розміру зображення

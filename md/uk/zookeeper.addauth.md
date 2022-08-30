@@ -85,5 +85,5 @@ nodevalue
 -   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
 -   [Zookeeper::setAcl()](zookeeper.setacl.html) - Встановлює ACL, пов'язаний із вузлом синхронно
 -   [Zookeeper::getAcl()](zookeeper.getacl.html) - Синхронно отримує ACL, пов'язаний із вузлом
--   [Состояния ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
+-   [Стан ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
 -   [ZookeeperException](class.zookeeperexception.html)

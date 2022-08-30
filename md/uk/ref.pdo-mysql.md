@@ -1,12 +1,12 @@
 Функції MySQL (PDOMYSQL)
 
--   [« PDO\_INFORMIX DSN](ref.pdo-informix.connection.html)
+-   [« PDOINFORMIX DSN](ref.pdo-informix.connection.html)
     
--   [PDO\_MYSQL DSN »](ref.pdo-mysql.connection.html)
+-   [PDOMYSQL DSN »](ref.pdo-mysql.connection.html)
     
 -   [PHP Manual](index.html)
     
--   [Драйверы PDO](pdo.drivers.html)
+-   [Драйвери PDO](pdo.drivers.html)
     
 -   Функції MySQL (PDOMYSQL)
     
@@ -23,7 +23,7 @@ PDOMYSQL за умовчанням використовує емульовану
 
 При запуску PHP до версії 7.1.16 або PHP 7.2 до 7.2.4 встановіть плагін пароля за умовчанням MySQL 8 Server в *mysqlnativepassword*, інакше ви побачите помилки, схожі на *Server потребує authentication method unknown to the client cachingsha2password*, навіть коли *cachingsha2password* не використовується.
 
-Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysql\_xdevapi](book.mysql-xdevapi.html) підтримує його.
+Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysqlxdevapi](book.mysql-xdevapi.html) підтримує його.
 
 **Увага**
 
@@ -51,7 +51,7 @@ PDOMYSQL за умовчанням використовує емульовану
 $ ./configure --with-pdo-mysql --with-mysql-sock=/var/mysql/mysql.sock
 ```
 
-Підтримка SSL вмикається, використовуючи відповідну [константу PDO\_MySQL](ref.pdo-mysql.html#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функции mysql\_ssl\_set() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.html). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» подключении к MySQL с SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.html)
+Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.html#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функции mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.html). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.html)
 
 ## Обумовлені константи
 
@@ -158,10 +158,10 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 **Опції конфігурації PDOMYSQL**
 
-| Имя                                                                           | По умолчанию     | Место изменения |
-|-------------------------------------------------------------------------------|------------------|-----------------|
-| [pdo\_mysql.default\_socket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM    |
-| [pdo\_mysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug)                    | NULL             | PHPINISYSTEM    |
+| Имя                                                                       | По умолчанию     | Место изменения |
+|---------------------------------------------------------------------------|------------------|-----------------|
+| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM    |
+| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug)                  | NULL             | PHPINISYSTEM    |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -177,4 +177,4 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 ## Зміст
 
--   [PDO\_MYSQL DSN](ref.pdo-mysql.connection.html) — З'єднання з базою даних MySQL
+-   [PDOMYSQL DSN](ref.pdo-mysql.connection.html) — З'єднання з базою даних MySQL

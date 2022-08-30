@@ -1,8 +1,8 @@
 Створює новий екземпляр класу
 
--   [« Ds\\Stack::clear](ds-stack.clear.html)
+-   [« DsStack::clear](ds-stack.clear.html)
     
--   [Ds\\Stack::copy »](ds-stack.copy.html)
+-   [ДсStack::copy »](ds-stack.copy.html)
     
 -   [PHP Manual](index.html)
     

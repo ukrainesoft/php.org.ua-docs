@@ -1,6 +1,6 @@
 Конфігурація часу виконання
 
--   [« Сообщения о багах](install.problems.bugs.html)
+-   [« Повідомлення про баги](install.problems.bugs.html)
     
 -   [Файл конфигурации »](configuration.file.html)
     
@@ -18,4 +18,4 @@
 -   [Файл конфигурации](configuration.file.html)
 -   [Файлы .user.ini](configuration.file.per-user.html)
 -   [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
--   [Как изменить настройки конфигурации](configuration.changes.html)
+-   [Як змінити налаштування конфігурації](configuration.changes.html)

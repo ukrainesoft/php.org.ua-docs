@@ -2,7 +2,7 @@
 
 -   [« Стек](class.ds-stack.html)
     
--   [Ds\\Stack::capacity »](ds-stack.capacity.html)
+-   [ДсStack::capacity »](ds-stack.capacity.html)
     
 -   [PHP Manual](index.html)
     

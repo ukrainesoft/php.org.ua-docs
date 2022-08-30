@@ -1,6 +1,6 @@
 Вбудований драйвер MySQL
 
--   [« mysql\_unbuffered\_query](function.mysql-unbuffered-query.html)
+-   [« mysqlunbufferedquery](function.mysql-unbuffered-query.html)
     
 -   [Введение »](intro.mysqlnd.html)
     
@@ -17,7 +17,7 @@
 -   [Обзор](mysqlnd.overview.html)
 -   [Установка](mysqlnd.install.html)
 -   [Настройка во время выполнения](mysqlnd.config.html)
--   [Несовместимости](mysqlnd.incompatibilities.html)
+-   [Несумісності](mysqlnd.incompatibilities.html)
 -   [Постоянное соединение](mysqlnd.persist.html)
 -   [Статистика](mysqlnd.stats.html)
 -   [Замечания](mysqlnd.notes.html)
@@ -26,5 +26,5 @@
     -   [Сравнение плагинов mysqlnd с MySQL Proxy](mysqlnd.plugin.mysql-proxy.html)
     -   [Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.html)
     -   [Архитектура плагинов MySQL Native Driver](mysqlnd.plugin.architecture.html)
-    -   [API плагинов mysqlnd](mysqlnd.plugin.api.html)
+    -   [API плагінів mysqlnd](mysqlnd.plugin.api.html)
     -   [Начинаем разработку плагина mysqlnd](mysqlnd.plugin.developing.html)

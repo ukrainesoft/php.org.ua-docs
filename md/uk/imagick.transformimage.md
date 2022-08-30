@@ -1,6 +1,6 @@
 Зручний метод налаштування розміру кадрування та геометрії зображення
 
--   [« Imagick::\_\_toString](imagick.tostring.html)
+-   [« Imagick::toString](imagick.tostring.html)
     
 -   [Imagick::transformImageColorspace »](imagick.transformimagecolorspace.html)
     

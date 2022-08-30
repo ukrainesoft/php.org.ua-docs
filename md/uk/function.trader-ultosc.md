@@ -1,8 +1,8 @@
 Остаточний, граничний осцилятор
 
--   [« trader\_typprice](function.trader-typprice.html)
+-   [« tradertypprice](function.trader-typprice.html)
     
--   [trader\_var »](function.trader-var.html)
+-   [tradervar »](function.trader-var.html)
     
 -   [PHP Manual](index.html)
     

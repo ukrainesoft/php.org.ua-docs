@@ -1,8 +1,8 @@
 Робить поточний процес лідером сесії
 
--   [« posix\_setrlimit](function.posix-setrlimit.html)
+-   [« posixsetrlimit](function.posix-setrlimit.html)
     
--   [posix\_setuid »](function.posix-setuid.html)
+-   [posixsetuid »](function.posix-setuid.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Отримання значення налаштування XML-аналізатора
 
--   [« xml\_parser\_free](function.xml-parser-free.html)
+-   [« xmlparserfree](function.xml-parser-free.html)
     
--   [xml\_parser\_set\_option »](function.xml-parser-set-option.html)
+-   [xmlparsersetoption »](function.xml-parser-set-option.html)
     
 -   [PHP Manual](index.html)
     
@@ -33,7 +33,7 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int
 
 `option`
 
-Яке налаштування отримати. Доступні такі параметри **`XML_OPTION_CASE_FOLDING`** **`XML_OPTION_SKIP_TAGSTART`** **`XML_OPTION_SKIP_WHITE`** і **`XML_OPTION_TARGET_ENCODING`**. Їх опис дивіться у документації до функції [xml\_parser\_set\_option()](function.xml-parser-set-option.html)
+Яке налаштування отримати. Доступні такі параметри **`XML_OPTION_CASE_FOLDING`** **`XML_OPTION_SKIP_TAGSTART`** **`XML_OPTION_SKIP_WHITE`** і **`XML_OPTION_TARGET_ENCODING`**. Їх опис дивіться у документації до функції [xmlparsersetoption()](function.xml-parser-set-option.html)
 
 ### Значення, що повертаються
 

@@ -1,6 +1,6 @@
 Обумовлені константи
 
--   [« Вопросы безопасности](win32service.security.html)
+-   [« Питання безпеки](win32service.security.html)
     
 -   [Битовые маски типа службы Win32Service »](win32service.constants.servicetype.html)
     
@@ -17,8 +17,8 @@
 
 -   [Битовые маски типа службы Win32Service](win32service.constants.servicetype.html)
 -   [Константы статуса службы Win32Service](win32service.constants.servicestatus.html)
--   [Константы обработки сообщений службой Win32Service](win32service.constants.servicecontrol.html)
--   [Принимаемые битовые маски обработки сообщений службой Win32Service](win32service.constants.controlsaccepted.html)
+-   [Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.html)
+-   [Приймаються бітові маски обробки повідомлень службою Win32Service](win32service.constants.controlsaccepted.html)
 -   [Константы типа запуска службы Win32Service](win32service.constants.servicestarttype.html)
 -   [Константы контроля ошибок сервиса Win32Service](win32service.constants.errorcontrol.html)
 -   [Константы флагов сервиса Win32Service](win32service.constants.serviceflag.html)

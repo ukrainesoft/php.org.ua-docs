@@ -1,12 +1,12 @@
 Намалювати фігуру з дугою
 
--   [« UI\\Draw\\Path::newFigure](ui-draw-path.newfigure.html)
+-   [« UIDrawPath::newFigure](ui-draw-path.newfigure.html)
     
--   [UI\\Draw\\Matrix »](class.ui-draw-matrix.html)
+-   [ОЙDrawMatrix »](class.ui-draw-matrix.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Draw\\Path](class.ui-draw-path.html)
+-   [ОЙDrawPath](class.ui-draw-path.html)
     
 -   Намалювати фігуру з дугою
     

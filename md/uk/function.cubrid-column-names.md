@@ -1,8 +1,8 @@
 Отримати імена стовпців у результуючому наборі
 
--   [« cubrid\_col\_size](function.cubrid-col-size.html)
+-   [« cubridcolsize](function.cubrid-col-size.html)
     
--   [cubrid\_column\_types »](function.cubrid-column-types.html)
+-   [cubridcolumntypes »](function.cubrid-column-types.html)
     
 -   [PHP Manual](index.html)
     
@@ -72,6 +72,6 @@ game_date                      date                           10
 
 ### Дивіться також
 
--   [cubrid\_prepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
--   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubrid\_column\_types()](function.cubrid-column-types.html) - Отримати типи стовпців у результуючому наборі
+-   [cubridprepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
+-   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridcolumntypes()](function.cubrid-column-types.html) - Отримати типи стовпців у результуючому наборі

@@ -1,8 +1,8 @@
 Смуги Боллінджера
 
--   [« trader\_avgprice](function.trader-avgprice.html)
+-   [« traderavgprice](function.trader-avgprice.html)
     
--   [trader\_beta »](function.trader-beta.html)
+-   [traderbeta »](function.trader-beta.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,15 +35,15 @@ trader_bbands(    array $real,    int $timePeriod = ?,    float $nbD
 
 `nbDevUp`
 
-Розмножувач для верхньої смуги. Допустимі значення від [TRADER\_REAL\_MIN](trader.constants.html#constant.trader-real-min) до [TRADER\_REAL\_MAX](trader.constants.html#constant.trader-real-max)
+Розмножувач для верхньої смуги. Допустимі значення від [TRADERREALMIN](trader.constants.html#constant.trader-real-min) до [TRADERREALMAX](trader.constants.html#constant.trader-real-max)
 
 `nbDevDn`
 
-Розмножувач для нижньої смуги. Допустимі значення від [TRADER\_REAL\_MIN](trader.constants.html#constant.trader-real-min) до [TRADER\_REAL\_MAX](trader.constants.html#constant.trader-real-max)
+Розмножувач для нижньої смуги. Допустимі значення від [TRADERREALMIN](trader.constants.html#constant.trader-real-min) до [TRADERREALMAX](trader.constants.html#constant.trader-real-max)
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
+Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.html)
 
 ### Значення, що повертаються
 

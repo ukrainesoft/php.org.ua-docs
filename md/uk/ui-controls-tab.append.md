@@ -1,12 +1,12 @@
 Додати сторінку
 
--   [« UI\\Controls\\Tab](class.ui-controls-tab.html)
+-   [« UIControlsTab](class.ui-controls-tab.html)
     
--   [UI\\Controls\\Tab::delete »](ui-controls-tab.delete.html)
+-   [ОЙControlsTab::delete »](ui-controls-tab.delete.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Tab](class.ui-controls-tab.html)
+-   [ОЙControlsTab](class.ui-controls-tab.html)
     
 -   Додати сторінку
     

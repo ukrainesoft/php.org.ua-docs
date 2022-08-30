@@ -1,8 +1,8 @@
 Повертає та встановлює повідомлення до запиту Apache
 
--   [« apache\_lookup\_uri](function.apache-lookup-uri.html)
+-   [« apachelookupuri](function.apache-lookup-uri.html)
     
--   [apache\_request\_headers »](function.apache-request-headers.html)
+-   [apacherequestheaders »](function.apache-request-headers.html)
     
 -   [PHP Manual](index.html)
     

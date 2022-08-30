@@ -2,7 +2,7 @@
 
 -   [« ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.html)
     
--   [ReflectionFunction::\_\_toString »](reflectionfunction.tostring.html)
+-   [ReflectionFunction::toString »](reflectionfunction.tostring.html)
     
 -   [PHP Manual](index.html)
     
@@ -27,7 +27,7 @@ ReflectionFunction::isDisabled — Перевіряє, що функція ви�
 public ReflectionFunction::isDisabled(): bool
 ```
 
-Перевіряє, чи функція вимкнена, за допомогою директиви [disable\_functions](ini.core.html#ini.disable-functions)
+Перевіряє, чи функція вимкнена, за допомогою директиви [disablefunctions](ini.core.html#ini.disable-functions)
 
 ### Список параметрів
 
@@ -40,4 +40,4 @@ public ReflectionFunction::isDisabled(): bool
 ### Дивіться також
 
 -   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.html) - Перевіряє, чи функція є певною користувачем
--   [Директива disable\_functions](ini.core.html#ini.disable-functions)
+-   [Директива disablefunctions](ini.core.html#ini.disable-functions)

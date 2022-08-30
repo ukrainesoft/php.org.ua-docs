@@ -1,12 +1,12 @@
 Встановлює параметри клієнта Swoole до встановлення з'єднання
 
--   [« Swoole\\Client::sendto](swoole-client.sendto.html)
+-   [« SwooleClient::sendto](swoole-client.sendto.html)
     
--   [Swoole\\Client::sleep »](swoole-client.sleep.html)
+-   [SwooleClient::sleep »](swoole-client.sleep.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\Client](class.swoole-client.html)
+-   [SwooleClient](class.swoole-client.html)
     
 -   Встановлює параметри клієнта Swoole до встановлення з'єднання
     

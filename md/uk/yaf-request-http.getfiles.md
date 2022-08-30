@@ -1,12 +1,12 @@
 Призначення getFiles
 
--   [« Yaf\_Request\_Http::getCookie](yaf-request-http.getcookie.html)
+-   [« YafRequestHttp::getCookie](yaf-request-http.getcookie.html)
     
--   [Yaf\_Request\_Http::getPost »](yaf-request-http.getpost.html)
+-   [YafRequestHttp::getPost »](yaf-request-http.getpost.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Request\_Http](class.yaf-request-http.html)
+-   [YafRequestHttp](class.yaf-request-http.html)
     
 -   Призначення getFiles
     

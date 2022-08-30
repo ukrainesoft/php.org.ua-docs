@@ -2,7 +2,7 @@
 
 -   [« Generator::throw](generator.throw.html)
     
--   [Generator::\_\_wakeup »](generator.wakeup.html)
+-   [Generator::wakeup »](generator.wakeup.html)
     
 -   [PHP Manual](index.html)
     

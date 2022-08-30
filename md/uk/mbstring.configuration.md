@@ -17,18 +17,18 @@
 
 **Опції конфігурації mbstring**
 
-| Имя                                                                                                           | По умолчанию | Место изменения         | Список изменений                                        |
-|---------------------------------------------------------------------------------------------------------------|--------------|-------------------------|---------------------------------------------------------|
-| [mbstring.language](mbstring.configuration.html#ini.mbstring.language)                                        | "neutral"    | PHPINIALL               |                                                         |
-| [mbstring.detect\_order](mbstring.configuration.html#ini.mbstring.detect-order)                               | NULL         | PHPINIALL               |                                                         |
-| [mbstring.http\_input](mbstring.configuration.html#ini.mbstring.http-input)                                   | "pass"       | PHPINIALL               | Застаріла                                               |
-| [mbstring.http\_output](mbstring.configuration.html#ini.mbstring.http-output)                                 | "pass"       | PHPINIALL               | Застаріла                                               |
-| [mbstring.internal\_encoding](mbstring.configuration.html#ini.mbstring.internal-encoding)                     | NULL         | PHPINIALL               | Застаріла                                               |
-| [mbstring.substitute\_character](mbstring.configuration.html#ini.mbstring.substitute-character)               | NULL         | PHPINIALL               |                                                         |
-| [mbstring.func\_overload](mbstring.configuration.html#ini.mbstring.func-overload)                             | "0"          | PHPINISYSTEM            | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
-| [mbstring.encoding\_translation](mbstring.configuration.html#ini.mbstring.encoding-translation)               | "0"          | PHPINIPERDIR            |                                                         |
-| [mbstring.http\_output\_conv\_mimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/     | application/xhtml+xml)" | PHPINIALL                                               |
-| [mbstring.strict\_detection](mbstring.configuration.html#ini.mbstring.strict-detection)                       | "0"          | PHPINIALL               |                                                         |
+| Имя                                                                                                     | По умолчанию | Место изменения         | Список изменений                                        |
+|---------------------------------------------------------------------------------------------------------|--------------|-------------------------|---------------------------------------------------------|
+| [mbstring.language](mbstring.configuration.html#ini.mbstring.language)                                  | "neutral"    | PHPINIALL               |                                                         |
+| [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order)                           | NULL         | PHPINIALL               |                                                         |
+| [mbstring.httpinput](mbstring.configuration.html#ini.mbstring.http-input)                               | "pass"       | PHPINIALL               | Застаріла                                               |
+| [mbstring.httpoutput](mbstring.configuration.html#ini.mbstring.http-output)                             | "pass"       | PHPINIALL               | Застаріла                                               |
+| [mbstring.internalencoding](mbstring.configuration.html#ini.mbstring.internal-encoding)                 | NULL         | PHPINIALL               | Застаріла                                               |
+| [mbstring.substitutecharacter](mbstring.configuration.html#ini.mbstring.substitute-character)           | NULL         | PHPINIALL               |                                                         |
+| [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload)                         | "0"          | PHPINISYSTEM            | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
+| [mbstring.encodingtranslation](mbstring.configuration.html#ini.mbstring.encoding-translation)           | "0"          | PHPINIPERDIR            |                                                         |
+| [mbstring.httpoutputconvmimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/     | application/xhtml+xml)" | PHPINIALL                                               |
+| [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection)                   | "0"          | PHPINIALL               |                                                         |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
@@ -74,11 +74,11 @@
 
 `mbstring.detect_order` string
 
-Визначає порядок визначення кодування символів за промовчанням. Дивіться також [mb\_detect\_order()](function.mb-detect-order.html)
+Визначає порядок визначення кодування символів за промовчанням. Дивіться також [мбdetectorder()](function.mb-detect-order.html)
 
 `mbstring.substitute_character` string
 
-Визначає символ для заміни неприпустимих символів кодування. Список підтримуваних значень дивіться в описі функції [mb\_substitute\_character()](function.mb-substitute-character.html)
+Визначає символ для заміни неприпустимих символів кодування. Список підтримуваних значень дивіться в описі функції [мбsubstitutecharacter()](function.mb-substitute-character.html)
 
 `mbstring.func_overload` string
 
@@ -94,11 +94,11 @@
 
 `mbstring.strict_detection` bool
 
-Включає чітке визначення кодування. Дивіться опис та приклади в [mb\_detect\_encoding()](function.mb-detect-encoding.html)
+Включає чітке визначення кодування. Дивіться опис та приклади в [мбdetectencoding()](function.mb-detect-encoding.html)
 
-Згідно [» спецификации HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.html#adef-accept-charset), веб-браузерам дозволено перекодувати дані з форми, які вони набувають у кодуванні символів, відмінної від використовуваної на сторінці. Дивіться функцію [mb\_http\_input()](function.mb-http-input.html) для того, щоб визначити кодування символів, що використовується браузерами.
+Згідно [» специфікації HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.html#adef-accept-charset), веб-браузерам дозволено перекодувати дані з форми, які вони набувають у кодуванні символів, відмінної від використовуваної на сторінці. Дивіться функцію [мбhttpinput()](function.mb-http-input.html) для того, щоб визначити кодування символів, що використовується браузерами.
 
-Хоча популярні браузери здатні досить точно визначити кодування символів даного HTML-документа, краще встановити параметр `charset` у HTTP-заголовку `Content-Type` відповідним значенням за допомогою [header()](function.header.html) або вказати потрібне значення у параметрі [default\_charset](ini.core.html#ini.sect.data-handling) в ini-налаштуваннях.
+Хоча популярні браузери здатні досить точно визначити кодування символів даного HTML-документа, краще встановити параметр `charset` у HTTP-заголовку `Content-Type` відповідним значенням за допомогою [header()](function.header.html) або вказати потрібне значення у параметрі [defaultcharset](ini.core.html#ini.sect.data-handling) в ini-налаштуваннях.
 
 **Приклад #1 Приклади налаштувань php.ini**
 

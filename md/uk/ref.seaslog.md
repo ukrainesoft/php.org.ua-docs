@@ -2,7 +2,7 @@
 
 -   [« Примеры](seaslog.examples.html)
     
--   [seaslog\_get\_author »](function.seaslog-get-author.html)
+-   [seasloggetauthor »](function.seaslog-get-author.html)
     
 -   [PHP Manual](index.html)
     
@@ -15,5 +15,5 @@
 
 ## Зміст
 
--   [seaslog\_get\_author](function.seaslog-get-author.html) — Отримує автора SeasLog
--   [seaslog\_get\_version](function.seaslog-get-version.html) — Отримує версію SeasLog
+-   [seasloggetauthor](function.seaslog-get-author.html) — Отримує автора SeasLog
+-   [seasloggetversion](function.seaslog-get-version.html) — Отримує версію SeasLog

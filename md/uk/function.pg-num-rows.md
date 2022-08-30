@@ -1,8 +1,8 @@
 Повертає кількість рядків у вибірці
 
--   [« pg\_num\_fields](function.pg-num-fields.html)
+-   [« pgnumfields](function.pg-num-fields.html)
     
--   [pg\_options »](function.pg-options.html)
+-   [пгoptions »](function.pg-options.html)
     
 -   [PHP Manual](index.html)
     
@@ -23,7 +23,7 @@
 pg_num_rows(PgSql\Result $result): int
 ```
 
-**пгnumrows()** повертає кількість рядків в екземплярі [PgSql\\Result](class.pgsql-result.html)
+**пгnumrows()** повертає кількість рядків в екземплярі [PgSqlResult](class.pgsql-result.html)
 
 > **Зауваження**
 > 
@@ -33,7 +33,7 @@ pg_num_rows(PgSql\Result $result): int
 
 `result`
 
-Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
 
 ### Значення, що повертаються
 
@@ -41,9 +41,9 @@ pg_num_rows(PgSql\Result $result): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
@@ -67,5 +67,5 @@ echo "Возвращено строк: " . $rows . ".\n";
 
 ### Дивіться також
 
--   [pg\_num\_fields()](function.pg-num-fields.html) - Повертає кількість полів у вибірці
--   [pg\_affected\_rows()](function.pg-affected-rows.html) - Повертає кількість порушених запитом записів (кортежів)
+-   [пгnumfields()](function.pg-num-fields.html) - Повертає кількість полів у вибірці
+-   [пгaffectedrows()](function.pg-affected-rows.html) - Повертає кількість порушених запитом записів (кортежів)

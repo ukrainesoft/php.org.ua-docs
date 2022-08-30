@@ -1,8 +1,8 @@
 Повертає значення за ключем
 
--   [« Ds\\Map::first](ds-map.first.html)
+-   [« DsMap::first](ds-map.first.html)
     
--   [Ds\\Map::hasKey »](ds-map.haskey.html)
+-   [ДсMap::hasKey »](ds-map.haskey.html)
     
 -   [PHP Manual](index.html)
     

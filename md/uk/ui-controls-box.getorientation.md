@@ -1,12 +1,12 @@
 Отримати орієнтацію
 
--   [« UI\\Controls\\Box::delete](ui-controls-box.delete.html)
+-   [« UIControlsBox::delete](ui-controls-box.delete.html)
     
--   [UI\\Controls\\Box::isPadded »](ui-controls-box.ispadded.html)
+-   [ОЙControlsBox::isPadded »](ui-controls-box.ispadded.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Box](class.ui-controls-box.html)
+-   [ОЙControlsBox](class.ui-controls-box.html)
     
 -   Отримати орієнтацію
     

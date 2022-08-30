@@ -2,7 +2,7 @@
 
 -   [« Функции IMAP](ref.imap.html)
     
--   [imap\_alerts »](function.imap-alerts.html)
+-   [imapalerts »](function.imap-alerts.html)
     
 -   [PHP Manual](index.html)
     
@@ -37,4 +37,4 @@ imap_8bit(string $string): string|false
 
 ### Дивіться також
 
--   [imap\_qprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+-   [imapqprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок

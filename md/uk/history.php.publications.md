@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [История PHP и смежных проектов](history.html)
+-   [Історія PHP та суміжних проектів](history.html)
     
 -   Публікації, присвячені PHP
     

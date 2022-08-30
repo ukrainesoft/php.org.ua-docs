@@ -1,12 +1,12 @@
 Робота з формами
 
--   [« Делаем что-нибудь полезное](tutorial.useful.html)
+-   [« Робимо щось корисне](tutorial.useful.html)
     
--   [Что дальше? »](tutorial.whatsnext.html)
+-   [Що далі? »](tutorial.whatsnext.html)
     
 -   [PHP Manual](index.html)
     
--   [Простой учебник](tutorial.html)
+-   [Простий підручник](tutorial.html)
     
 -   Робота з формами
     
@@ -17,9 +17,9 @@
 
 **Приклад #1 Найпростіша форма HTML**
 
-Ваше ім'я: 
+Ваше ім'я:
 
-Ваш вік: 
+Ваш вік:
 
 У цій формі немає нічого особливого. Це звичайна форма HTML без спеціальних тегів. Коли користувач заповнить форму та натисне кнопку відправки, буде викликана сторінка action.php. У цьому файлі може бути щось на кшталт:
 
@@ -36,6 +36,6 @@
 Здравствуйте, Сергей. Вам 30 лет.
 ```
 
-Якщо не брати до уваги шматки коду з [htmlspecialchars()](function.htmlspecialchars.html) і `(int)`, принцип роботи цього коду має бути простим і зрозумілим . [htmlspecialchars()](function.htmlspecialchars.html) забезпечує правильне кодування "особливих" HTML-символів так, щоб шкідливий HTML або Javascript не було вставлено на вашу сторінку. Поле age, про яке нам відомо, що воно має бути число, ми можемо просто [преобразовать](language.types.type-juggling.html#language.types.typecasting) в int, що автоматично позбавить нас небажаних символів. PHP також може зробити це автоматично за допомогою модуля [filter](ref.filter.html). Змінні [$\_POST\['name'\]](reserved.variables.post.html) і [$\_POST\['age'\]](reserved.variables.post.html) автоматично встановлені для вас засобами PHP. Раніше ми використовували суперглобальну змінну [$\_SERVER](reserved.variables.server.html), тут же ми так само використовуємо суперглобальну змінну [$\_POST](reserved.variables.post.html), яка містить усі POST-дані. Зауважимо, що *метод відправлення* (method) нашої форми – POST. Якби ми використовували метод *GET*, то інформація нашої форми була б у суперглобальній змінній [$\_GET](reserved.variables.get.html). Крім цього, можна використовувати змінну [$\_REQUEST](reserved.variables.request.html)якщо джерело даних не має значення. Ця змінна містить суміш GET, POST, COOKIE.
+Якщо не брати до уваги шматки коду з [htmlspecialchars()](function.htmlspecialchars.html) і `(int)`, принцип роботи цього коду має бути простим і зрозумілим . [htmlspecialchars()](function.htmlspecialchars.html) забезпечує правильне кодування "особливих" HTML-символів так, щоб шкідливий HTML або Javascript не було вставлено на вашу сторінку. Поле age, про яке нам відомо, що воно має бути число, ми можемо просто [преобразовать](language.types.type-juggling.html#language.types.typecasting) в int, що автоматично позбавить нас небажаних символів. PHP також може зробити це автоматично за допомогою модуля [filter](ref.filter.html). Змінні [POST\['name'\]](reserved.variables.post.html) і [POST\['age'\]](reserved.variables.post.html) автоматично встановлені для вас засобами PHP. Раніше ми використовували суперглобальну змінну [SERVER](reserved.variables.server.html), тут же ми так само використовуємо суперглобальну змінну [POST](reserved.variables.post.html), яка містить усі POST-дані. Зауважимо, що *метод відправлення* (method) нашої форми – POST. Якби ми використовували метод *GET*, то інформація нашої форми була б у суперглобальній змінній [GET](reserved.variables.get.html). Крім цього, можна використовувати змінну [REQUEST](reserved.variables.request.html)якщо джерело даних не має значення. Ця змінна містить суміш GET, POST, COOKIE.
 
 У PHP можна також працювати і з XForms, хоча ви знайдете роботу із звичайними HTML-формами досить комфортною вже через деякий час. Незважаючи на те, що робота з XForms не для новачків, вони можуть здатися вам цікавими. У розділі можливостей PHP у нас також є [короткое введение в обработку данных из XForms](features.xforms.html)

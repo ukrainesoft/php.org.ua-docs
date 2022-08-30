@@ -1,12 +1,12 @@
 Використання повного екрану
 
--   [« UI\\Window::setBorders](ui-window.setborders.html)
+-   [« UIWindow::setBorders](ui-window.setborders.html)
     
--   [UI\\Window::setMargin »](ui-window.setmargin.html)
+-   [ОЙWindow::setMargin »](ui-window.setmargin.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Window](class.ui-window.html)
+-   [ОЙWindow](class.ui-window.html)
     
 -   Використання повного екрану
     

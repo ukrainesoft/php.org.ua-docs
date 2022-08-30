@@ -2,7 +2,7 @@
 
 -   [« Требования](componere.requirements.html)
     
--   [Componere\\Abstract\\Definition »](class.componere-abstract-definition.html)
+-   [ComponereAbstractDefinition »](class.componere-abstract-definition.html)
     
 -   [PHP Manual](index.html)
     

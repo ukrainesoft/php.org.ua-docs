@@ -1,12 +1,12 @@
 Повертає абсолютне відхилення масиву значень
 
--   [« Функции статистики](ref.stats.html)
+-   [« Функції статистики](ref.stats.html)
     
--   [stats\_cdf\_beta »](function.stats-cdf-beta.html)
+-   [statscdfbeta »](function.stats-cdf-beta.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Повертає абсолютне відхилення масиву значень
     

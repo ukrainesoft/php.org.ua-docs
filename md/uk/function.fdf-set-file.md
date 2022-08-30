@@ -1,8 +1,8 @@
 Встановлює PDF-документ для відображення даних FDF
 
--   [« fdf\_set\_encoding](function.fdf-set-encoding.html)
+-   [« fdfsetencoding](function.fdf-set-encoding.html)
     
--   [fdf\_set\_flags »](function.fdf-set-flags.html)
+-   [fdfsetflags »](function.fdf-set-flags.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
 
 `url`
 
@@ -37,7 +37,7 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 `target_frame`
 
-Використовуйте цей параметр, щоб вказати кадр, у якому буде відображено документ. Ви також можете встановити значення за промовчанням для цього параметра за допомогою [fdf\_set\_target\_frame()](function.fdf-set-target-frame.html)
+Використовуйте цей параметр, щоб вказати кадр, у якому буде відображено документ. Ви також можете встановити значення за промовчанням для цього параметра за допомогою [fdfsettargetframe()](function.fdf-set-target-frame.html)
 
 ### Значення, що повертаються
 
@@ -71,5 +71,5 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 ### Дивіться також
 
--   [fdf\_get\_file()](function.fdf-get-file.html) - Отримує значення ключа /F
--   [fdf\_set\_target\_frame()](function.fdf-set-target-frame.html) - Встановлює цільовий кадр для відображення форми
+-   [fdfgetfile()](function.fdf-get-file.html) - Отримує значення ключа /F
+-   [fdfsettargetframe()](function.fdf-set-target-frame.html) - Встановлює цільовий кадр для відображення форми

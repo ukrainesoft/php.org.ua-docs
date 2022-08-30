@@ -16,4 +16,4 @@
 ## Зміст
 
 -   [Базовое использование SimpleXML](simplexml.examples-basic.html)
--   [Работа с ошибками XML](simplexml.examples-errors.html)
+-   [Робота з помилками XML](simplexml.examples-errors.html)

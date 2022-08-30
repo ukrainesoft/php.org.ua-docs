@@ -1,8 +1,8 @@
 Прочитати заголовок повідомлення
 
--   [« imap\_header](function.imap-header.html)
+-   [« imapheader](function.imap-header.html)
     
--   [imap\_headers »](function.imap-headers.html)
+-   [imapheaders »](function.imap-headers.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    i
 
 `imap`
 
-Екземпляр [IMAP\\Connection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.html)
 
 `message_num`
 
@@ -88,11 +88,11 @@ imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    i
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Параметр, що не використовується `defaulthost` був видалений.                                                                                            |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Параметр, що не використовується `defaulthost` був видалений.                                                                                          |
 
 ### Дивіться також
 
--   [imap\_fetch\_overview()](function.imap-fetch-overview.html) - Огляд інформації, що міститься в заголовках повідомлень
+-   [imapfetchoverview()](function.imap-fetch-overview.html) - Огляд інформації, що міститься в заголовках повідомлень

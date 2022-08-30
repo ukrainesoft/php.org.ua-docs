@@ -1,8 +1,8 @@
 Встановлює початковий розмір кроку
 
--   [« fann\_set\_rprop\_delta\_min](function.fann-set-rprop-delta-min.html)
+-   [« fannsetrpropdeltamin](function.fann-set-rprop-delta-min.html)
     
--   [fann\_set\_rprop\_increase\_factor »](function.fann-set-rprop-increase-factor.html)
+-   [fannsetrpropincreasefactor »](function.fann-set-rprop-increase-factor.html)
     
 -   [PHP Manual](index.html)
     
@@ -41,6 +41,6 @@ fann_set_rprop_delta_zero(resource $ann, float $rprop_delta_zero): bool
 
 ### Дивіться також
 
--   [fann\_get\_rprop\_delta\_zero()](function.fann-get-rprop-delta-zero.html) - Повертає початковий розмір кроку
--   [fann\_get\_rprop\_delta\_min()](function.fann-get-rprop-delta-min.html) - Повертає мінімальний розмір кроку
--   [fann\_get\_rprop\_delta\_max()](function.fann-get-rprop-delta-max.html) - Повертає максимальний розмір кроку
+-   [fanngetrpropdeltazero()](function.fann-get-rprop-delta-zero.html) - Повертає початковий розмір кроку
+-   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.html) - Повертає мінімальний розмір кроку
+-   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.html) - Повертає максимальний розмір кроку

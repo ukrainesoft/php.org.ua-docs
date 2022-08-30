@@ -1,12 +1,12 @@
 Пошук одиниці в числі
 
--   [« gmp\_scan0](function.gmp-scan0.html)
+-   [« gmpscan0](function.gmp-scan0.html)
     
--   [gmp\_setbit »](function.gmp-setbit.html)
+-   [gmpsetbit »](function.gmp-setbit.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Пошук одиниці в числі
     

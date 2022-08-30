@@ -1,8 +1,8 @@
 Скинути дані вихідного запиту на з'єднанні
 
--   [« pg\_field\_type](function.pg-field-type.html)
+-   [« pgfieldtype](function.pg-field-type.html)
     
--   [pg\_free\_result »](function.pg-free-result.html)
+-   [пгfreeresult »](function.pg-free-result.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ pg_flush(PgSql\Connection $connection): int|bool
 
 `connection`
 
-Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
@@ -37,6 +37,6 @@ pg_flush(PgSql\Connection $connection): int|bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

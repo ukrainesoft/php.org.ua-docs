@@ -51,7 +51,7 @@ public SyncSharedMemory::read(int $start = 0, int $length = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.html)**
+**Приклад #1 Приклад використання [SyncSharedMemory::construct()](syncsharedmemory.construct.html)**
 
 ```php
 <?php
@@ -78,7 +78,7 @@ string(3) "ort"
 
 ### Дивіться також
 
--   [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
 -   [SyncSharedMemory::first()](syncsharedmemory.first.html) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
 -   [SyncSharedMemory::write()](syncsharedmemory.write.html) - Копіює дані в іменовану пам'ять, що розділяється.
 -   **SyncSharedMemory::read()**

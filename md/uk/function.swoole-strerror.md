@@ -1,8 +1,8 @@
 Конвертувати Errno у повідомлення про помилки
 
--   [« swoole\_set\_process\_name](function.swoole-set-process-name.html)
+-   [« swoolesetprocessname](function.swoole-set-process-name.html)
     
--   [swoole\_timer\_after »](function.swoole-timer-after.html)
+-   [swooletimerafter »](function.swoole-timer-after.html)
     
 -   [PHP Manual](index.html)
     

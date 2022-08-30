@@ -1,12 +1,12 @@
 Обчислення залишку від цілого розподілу
 
--   [« gmp\_legendre](function.gmp-legendre.html)
+-   [« gmplegendre](function.gmp-legendre.html)
     
--   [gmp\_mul »](function.gmp-mul.html)
+-   [gmpmul »](function.gmp-mul.html)
     
 -   [PHP Manual](index.html)
     
--   [GMP Функции](ref.gmp.html)
+-   [GMP Функції](ref.gmp.html)
     
 -   Обчислення залишку від цілого розподілу
     

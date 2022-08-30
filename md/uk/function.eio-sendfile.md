@@ -1,8 +1,8 @@
 Переміщує дані між файлами
 
--   [« eio\_seek](function.eio-seek.html)
+-   [« eioseek](function.eio-seek.html)
     
--   [eio\_set\_max\_idle »](function.eio-set-max-idle.html)
+-   [eiosetmaxidle »](function.eio-set-max-idle.html)
     
 -   [PHP Manual](index.html)
     
@@ -65,7 +65,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
 
 `data`
 

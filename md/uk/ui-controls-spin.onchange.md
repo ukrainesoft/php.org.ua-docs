@@ -1,12 +1,12 @@
 Обробник зміни
 
--   [« UI\\Controls\\Spin::getValue](ui-controls-spin.getvalue.html)
+-   [« UIControlsSpin::getValue](ui-controls-spin.getvalue.html)
     
--   [UI\\Controls\\Spin::setValue »](ui-controls-spin.setvalue.html)
+-   [ОЙControlsSpin::setValue »](ui-controls-spin.setvalue.html)
     
 -   [PHP Manual](index.html)
     
--   [UI\\Controls\\Spin](class.ui-controls-spin.html)
+-   [ОЙControlsSpin](class.ui-controls-spin.html)
     
 -   Обробник зміни
     

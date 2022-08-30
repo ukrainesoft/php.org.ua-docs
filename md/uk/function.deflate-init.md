@@ -1,6 +1,6 @@
 Ініціалізувати контекст інкрементального стиснення
 
--   [« deflate\_add](function.deflate-add.html)
+-   [« deflateadd](function.deflate-add.html)
     
 -   [gzclose »](function.gzclose.html)
     
@@ -75,5 +75,5 @@ dictionary
 
 ### Дивіться також
 
--   [deflate\_add()](function.deflate-add.html) - Інкрементальний стиск даних
--   [inflate\_init()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування
+-   [deflateadd()](function.deflate-add.html) - Інкрементальний стиск даних
+-   [inflateinit()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування

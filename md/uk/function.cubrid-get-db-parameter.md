@@ -1,8 +1,8 @@
 Повертає параметри бази даних CUBRID
 
--   [« cubrid\_get\_client\_info](function.cubrid-get-client-info.html)
+-   [« cubridgetclientinfo](function.cubrid-get-client-info.html)
     
--   [cubrid\_get\_query\_timeout »](function.cubrid-get-query-timeout.html)
+-   [cubridgetquerytimeout »](function.cubrid-get-query-timeout.html)
     
 -   [PHP Manual](index.html)
     
@@ -36,7 +36,7 @@ cubrid_get_db_parameter(resource $conn_identifier): array
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PARAMISOLATIONLEVEL | Рівень ізоляції транзакції.                                                                                                                                                                                                                                                                                                                |
 | LOCKTIMEOUT         | CUBRID надає функцію часу очікування блокування, яка встановлює час очікування (у секундах) для блокування доти, доки не буде дозволено налаштування блокування транзакції. Значення за промовчанням для locktimeoutінsecs дорівнює -1, що означає, що клієнт програми чекатиме нескінченно, поки блокування транзакції не буде дозволено. |
-| PARAMAUTOCOMMIT     | У CUBRID PHP режим автоматичної фіксації вимкнено за умовчанням для керування транзакціями. Його можна встановити за допомогою [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.html)                                                                                                                                            |
+| PARAMAUTOCOMMIT     | У CUBRID PHP режим автоматичної фіксації вимкнено за умовчанням для керування транзакціями. Його можна встановити за допомогою [cubridsetautocommit()](function.cubrid-set-autocommit.html)                                                                                                                                                |
 
 У наступній таблиці показані рівні ізоляції від 1 до 6. Вона складається зі схеми (рядка) таблиці та рівня ізоляції:
 
@@ -55,7 +55,7 @@ cubrid_get_db_parameter(resource $conn_identifier): array
 
 `conn_identifier`
 
-З'єднання CUBRID. Якщо ідентифікатор з'єднання не вказано, передбачається останнє посилання, відкрите [cubrid\_connect()](function.cubrid-connect.html)
+З'єднання CUBRID. Якщо ідентифікатор з'єднання не вказано, передбачається останнє посилання, відкрите [cubridconnect()](function.cubrid-connect.html)
 
 ### Значення, що повертаються
 
@@ -126,5 +126,5 @@ PARAM_AUTO_COMMIT              1
 
 ### Дивіться також
 
--   [cubrid\_set\_db\_parameter()](function.cubrid-set-db-parameter.html) - Встановлює параметри бази даних CUBRID
--   [cubrid\_get\_autocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання
+-   [cubridsetдбparameter()](function.cubrid-set-db-parameter.html) - Встановлює параметри бази даних CUBRID
+-   [cubridgetautocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання

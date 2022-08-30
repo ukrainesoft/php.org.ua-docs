@@ -1,8 +1,8 @@
 Повертає налаштування авто-комміту для з'єднання
 
--   [« cubrid\_free\_result](function.cubrid-free-result.html)
+-   [« cubridfreeresult](function.cubrid-free-result.html)
     
--   [cubrid\_get\_charset »](function.cubrid-get-charset.html)
+-   [cubridgetcharset »](function.cubrid-get-charset.html)
     
 -   [PHP Manual](index.html)
     
@@ -45,5 +45,5 @@ cubrid_get_autocommit(resource $conn_identifier): bool
 
 ### Дивіться також
 
--   [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.html) - Встановлює режим авто-комміту для з'єднання
--   [cubrid\_commit()](function.cubrid-commit.html) - підтвердження транзакції
+-   [cubridsetautocommit()](function.cubrid-set-autocommit.html) - Встановлює режим авто-комміту для з'єднання
+-   [cubridcommit()](function.cubrid-commit.html) - підтвердження транзакції

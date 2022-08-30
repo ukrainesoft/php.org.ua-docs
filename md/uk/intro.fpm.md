@@ -1,12 +1,12 @@
 Вступ
 
--   [« Менеджер процессов FastCGI](book.fpm.html)
+-   [Менеджер процесів FastCGI](book.fpm.html)
     
 -   [Установка и настройка »](fpm.setup.html)
     
 -   [PHP Manual](index.html)
     
--   [Менеджер процессов FastCGI](book.fpm.html)
+-   [Менеджер процесів FastCGI](book.fpm.html)
     
 -   Вступ
     

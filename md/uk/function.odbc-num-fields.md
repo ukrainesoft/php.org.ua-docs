@@ -1,8 +1,8 @@
 Повертає кількість стовпців у результаті
 
--   [« odbc\_next\_result](function.odbc-next-result.html)
+-   [« odbcnextresult](function.odbc-next-result.html)
     
--   [odbc\_num\_rows »](function.odbc-num-rows.html)
+-   [odbcnumrows »](function.odbc-num-rows.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ odbc_num_fields(resource $statement): int
 
 `statement`
 
-Ідентифікатор результату, що повертається [odbc\_exec()](function.odbc-exec.html)
+Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.html)
 
 ### Значення, що повертаються
 

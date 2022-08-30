@@ -1,12 +1,12 @@
 Конструктор класу Text
 
--   [« CommonMark\\Node\\Text](class.commonmark-node-text.html)
+-   [« CommonMarkNodeText](class.commonmark-node-text.html)
     
--   [CommonMark\\Node\\Text\\Strong »](class.commonmark-node-text-strong.html)
+-   [CommonMarkNodeTextStrong »](class.commonmark-node-text-strong.html)
     
 -   [PHP Manual](index.html)
     
--   [CommonMark\\Node\\Text](class.commonmark-node-text.html)
+-   [CommonMarkNodeText](class.commonmark-node-text.html)
     
 -   Конструктор класу Text
     

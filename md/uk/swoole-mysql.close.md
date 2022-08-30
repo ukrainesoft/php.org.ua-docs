@@ -1,12 +1,12 @@
 Закриває асинхронне з'єднання MySQL
 
--   [« Swoole\\MySQL](class.swoole-mysql.html)
+-   [« SwooleMySQL](class.swoole-mysql.html)
     
--   [Swoole\\MySQL::connect »](swoole-mysql.connect.html)
+-   [SwooleMySQL::connect »](swoole-mysql.connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Swoole\\MySQL](class.swoole-mysql.html)
+-   [SwooleMySQL](class.swoole-mysql.html)
     
 -   Закриває асинхронне з'єднання MySQL
     

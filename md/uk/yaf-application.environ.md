@@ -1,12 +1,12 @@
 Отримати значення оточення
 
--   [« Yaf\_Application::\_\_destruct](yaf-application.destruct.html)
+-   [« YafApplication::destruct](yaf-application.destruct.html)
     
--   [Yaf\_Application::execute »](yaf-application.execute.html)
+-   [YafApplication::execute »](yaf-application.execute.html)
     
 -   [PHP Manual](index.html)
     
--   [Yaf\_Application](class.yaf-application.html)
+-   [YafApplication](class.yaf-application.html)
     
 -   Отримати значення оточення
     

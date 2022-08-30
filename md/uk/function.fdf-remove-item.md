@@ -1,8 +1,8 @@
 Встановлює цільовий кадр для форми
 
--   [« fdf\_open](function.fdf-open.html)
+-   [« fdfopen](function.fdf-open.html)
     
--   [fdf\_save\_string »](function.fdf-save-string.html)
+-   [fdfsavestring »](function.fdf-save-string.html)
     
 -   [PHP Manual](index.html)
     

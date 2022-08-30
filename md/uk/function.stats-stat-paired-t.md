@@ -1,12 +1,12 @@
 Отримати значення t для двовибіркового t-критерію Стьюдента для залежних вибірок
 
--   [« stats\_stat\_innerproduct](function.stats-stat-innerproduct.html)
+-   [« statsstatinnerproduct](function.stats-stat-innerproduct.html)
     
--   [stats\_stat\_percentile »](function.stats-stat-percentile.html)
+-   [statsstatpercentile »](function.stats-stat-percentile.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции статистики](ref.stats.html)
+-   [Функції статистики](ref.stats.html)
     
 -   Отримати значення t для двовибіркового t-критерію Стьюдента для залежних вибірок
     

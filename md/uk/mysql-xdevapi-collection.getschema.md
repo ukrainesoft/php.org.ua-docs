@@ -6,7 +6,7 @@
     
 -   [PHP Manual](index.html)
     
--   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+-   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
     
 -   Повертає об'єкт Schema
     

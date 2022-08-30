@@ -1,12 +1,12 @@
 Відновити раніше зарезервовану функцію
 
--   [« uopz\_rename](function.uopz-rename.html)
+-   [« uopzrename](function.uopz-rename.html)
     
--   [uopz\_set\_hook »](function.uopz-set-hook.html)
+-   [uopzsethook »](function.uopz-set-hook.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции Uopz](ref.uopz.html)
+-   [Функції Uopz](ref.uopz.html)
     
 -   Відновити раніше зарезервовану функцію
     

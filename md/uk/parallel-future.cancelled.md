@@ -1,12 +1,12 @@
 Визначення стану
 
--   [« parallel\\Future::cancel](parallel-future.cancel.html)
+-   [« parallelFuture::cancel](parallel-future.cancel.html)
     
--   [parallel\\Future::done »](parallel-future.done.html)
+-   [parallelFuture::done »](parallel-future.done.html)
     
 -   [PHP Manual](index.html)
     
--   [parallel\\Future](class.parallel-future.html)
+-   [parallelFuture](class.parallel-future.html)
     
 -   Визначення стану
     

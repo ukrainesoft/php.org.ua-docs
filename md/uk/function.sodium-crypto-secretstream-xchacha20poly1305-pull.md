@@ -1,8 +1,8 @@
 Розшифровує частину даних із зашифрованого потоку
 
--   [« sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
+-   [« sodiumcryptosecretstreamxchacha20poly1305keygen](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
     
--   [sodium\_crypto\_secretstream\_xchacha20poly1305\_push »](function.sodium-crypto-secretstream-xchacha20poly1305-push.html)
+-   [sodiumcryptosecretstreamxchacha20poly1305push »](function.sodium-crypto-secretstream-xchacha20poly1305-push.html)
     
 -   [PHP Manual](index.html)
     
@@ -29,7 +29,7 @@ sodium_crypto_secretstream_xchacha20poly1305_pull(string &$state, string $cipher
 
 `state`
 
-Дивіться [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull()](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html) і [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
+Дивіться [sodiumcryptosecretstreamxchacha20poly1305initpull()](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html) і [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
 
 `ciphertext`
 

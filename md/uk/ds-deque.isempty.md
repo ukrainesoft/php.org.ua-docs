@@ -1,12 +1,12 @@
 Перевіряє, чи порожня двостороння черга
 
--   [« Ds\\Deque::insert](ds-deque.insert.html)
+-   [« DsDeque::insert](ds-deque.insert.html)
     
--   [Ds\\Deque::join »](ds-deque.join.html)
+-   [ДсDeque::join »](ds-deque.join.html)
     
 -   [PHP Manual](index.html)
     
--   [Двухсторонняя очередь](class.ds-deque.html)
+-   [Двостороння черга](class.ds-deque.html)
     
 -   Перевіряє, чи порожня двостороння черга
     

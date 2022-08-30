@@ -2,7 +2,7 @@
 
 -   [« Новые глобальные константы](migration70.constants.html)
     
--   [Удалённые модули и SAPI »](migration70.removed-exts-sapis.html)
+-   [Віддалені модулі та SAPI »](migration70.removed-exts-sapis.html)
     
 -   [PHP Manual](index.html)
     

@@ -1,8 +1,8 @@
 Ініціалізувати звуковий рівень OpenAL
 
--   [« openal\_device\_close](function.openal-device-close.html)
+-   [« openaldeviceclose](function.openal-device-close.html)
     
--   [openal\_listener\_get »](function.openal-listener-get.html)
+-   [openallistenerget »](function.openal-listener-get.html)
     
 -   [PHP Manual](index.html)
     
@@ -35,5 +35,5 @@ openal_device_open(string $device_desc = ?): resource
 
 ### Дивіться також
 
--   [openal\_device\_close()](function.openal-device-close.html) - Закрити пристрій OpenAL
--   [openal\_context\_create()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openaldeviceclose()](function.openal-device-close.html) - Закрити пристрій OpenAL
+-   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку

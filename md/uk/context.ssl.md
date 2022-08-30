@@ -101,7 +101,7 @@
 
 `security_level` int
 
-Встановлює рівень безпеки. Якщо не вказано, використовується стандартний рівень безпеки, вказаний у бібліотеці. Рівні безпеки описані в [» SSL\_CTX\_get\_security\_level(3)](https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_get_security_level.html)
+Встановлює рівень безпеки. Якщо не вказано, використовується стандартний рівень безпеки, вказаний у бібліотеці. Рівні безпеки описані в [» SSLCTXgetsecuritylevel(3)](https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_get_security_level.html)
 
 Доступна з PHP 7.2.0 та OpenSSL 1.1.0.
 

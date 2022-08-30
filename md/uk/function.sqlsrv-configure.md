@@ -1,12 +1,12 @@
 Змінює конфігурацію обробки помилок драйвера та ведення журналу
 
--   [« sqlsrv\_commit](function.sqlsrv-commit.html)
+-   [« sqlsrvcommit](function.sqlsrv-commit.html)
     
--   [sqlsrv\_connect »](function.sqlsrv-connect.html)
+-   [sqlsrvconnect »](function.sqlsrv-connect.html)
     
 -   [PHP Manual](index.html)
     
--   [Функции SQLSRV](ref.sqlsrv.html)
+-   [Функції SQLSRV](ref.sqlsrv.html)
     
 -   Змінює конфігурацію обробки помилок драйвера та ведення журналу
     
@@ -50,4 +50,4 @@ sqlsrv_configure(string $setting, mixed $value): bool
 ### Дивіться також
 
 -   [» Обработка ошибок SQLSRV](http://msdn.microsoft.com/en-us/library/cc626302.aspx)
--   [» Ведение журнала активности SQLSRV](http://msdn.microsoft.com/en-us/library/cc296188.aspx)
+-   [» Ведення журналу активності SQLSRV](http://msdn.microsoft.com/en-us/library/cc296188.aspx)

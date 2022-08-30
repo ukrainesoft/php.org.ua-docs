@@ -19,11 +19,11 @@
 
 **Параметри конфігурації Zlib**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) | "0" | PHPINIALL |  |
-| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1" | PHPINIALL |  |
-| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler) | "" | PHPINIALL |  |
+| Имя                                                                                      | По умолчанию | Место изменения | Список изменений |
+|------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)            | "0"          | PHPINIALL       |                  |
+| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1"         | PHPINIALL       |                  |
+| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler)                    | ""           | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

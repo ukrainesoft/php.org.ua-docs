@@ -41,9 +41,9 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

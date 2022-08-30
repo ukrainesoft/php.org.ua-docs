@@ -53,9 +53,9 @@ imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

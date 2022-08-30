@@ -45,6 +45,6 @@ openssl_x509_export(OpenSSLCertificate|string $certificate, string &$output, boo
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+| Версия | Описание                                                                                                                                                                       |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

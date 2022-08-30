@@ -51,9 +51,9 @@ locale_get_display_name(string $locale, ?string $displayLocale = null): string|f
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `displayLocale` тепер допускає значення null. |
+| Версия | Описание                                      |
+|--------|-----------------------------------------------|
+|        | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

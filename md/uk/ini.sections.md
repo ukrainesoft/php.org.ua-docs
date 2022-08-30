@@ -21,10 +21,10 @@
 
 **Розділи**
 
-| Название | Место изменения | История изменений |
-| --- | --- | --- |
-| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM |  |
-| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM |  |
+| Название                                    | Место изменения | История изменений |
+|---------------------------------------------|-----------------|-------------------|
+| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM    |                   |
+| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM    |                   |
 
 Коротке пояснення конфігураційних директив.
 

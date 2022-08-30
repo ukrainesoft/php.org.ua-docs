@@ -58,9 +58,9 @@ imap_status(IMAP\Connection $imap, string $mailbox, int $flags): stdClass|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

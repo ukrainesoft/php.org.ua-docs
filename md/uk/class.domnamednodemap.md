@@ -56,10 +56,10 @@ length
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
-|  | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
+| Версия | Описание                                                                                                                                                                                      |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
+|        | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md)            |
 
 ## Зміст
 

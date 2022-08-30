@@ -37,9 +37,9 @@ ftp_systype(FTP\Connection $ftp): string|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                          |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

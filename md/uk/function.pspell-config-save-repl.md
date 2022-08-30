@@ -43,9 +43,9 @@ pspell_config_save_repl(PSpell\Config $config, bool $save): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

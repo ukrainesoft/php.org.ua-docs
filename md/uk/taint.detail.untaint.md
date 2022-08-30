@@ -13,16 +13,16 @@
 
 ## Функції, які не будуть обробляти зіпсований рядок
 
-| Функция/Оператор | Мин. версия |
-| --- | --- |
-| addslashes |  |
-| addcslashes |  |
-| htmlspecialchars |  |
-| htmlentities |  |
-| escapeshellcmd |  |
-| mysqlescapestring |  |
-| mysqlrealescapestring |  |
-| mysqliescapestring/MySQLi::escapestring |  |
-| mysqlirealescapestring/MySQLi::realescapestring |  |
-| sqliteescapestring/SqliteDataBase::escapeString |  |
-| PDO::quote |  |
+| Функция/Оператор                                | Мин. версия |
+|-------------------------------------------------|-------------|
+| addslashes                                      |             |
+| addcslashes                                     |             |
+| htmlspecialchars                                |             |
+| htmlentities                                    |             |
+| escapeshellcmd                                  |             |
+| mysqlescapestring                               |             |
+| mysqlrealescapestring                           |             |
+| mysqliescapestring/MySQLi::escapestring         |             |
+| mysqlirealescapestring/MySQLi::realescapestring |             |
+| sqliteescapestring/SqliteDataBase::escapeString |             |
+| PDO::quote                                      |             |

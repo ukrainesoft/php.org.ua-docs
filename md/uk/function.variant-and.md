@@ -46,16 +46,16 @@ variant_and(mixed $left, mixed $right): variant
 **Правила І для варіантів**
 
 | Если `left` равен | и `right` равен | результат будет |
-| --- | --- | --- |
-| **`true`** | **`true`** | **`true`** |
-| **`true`** | **`false`** | **`false`** |
-| **`true`** | **`null`** | **`null`** |
-| **`false`** | **`true`** | **`false`** |
-| **`false`** | **`false`** | **`false`** |
-| **`false`** | **`null`** | **`false`** |
-| **`null`** | **`true`** | **`null`** |
-| **`null`** | **`false`** | **`false`** |
-| **`null`** | **`null`** | **`null`** |
+|-------------------|-----------------|-----------------|
+| **`true`**        | **`true`**      | **`true`**      |
+| **`true`**        | **`false`**     | **`false`**     |
+| **`true`**        | **`null`**      | **`null`**      |
+| **`false`**       | **`true`**      | **`false`**     |
+| **`false`**       | **`false`**     | **`false`**     |
+| **`false`**       | **`null`**      | **`false`**     |
+| **`null`**        | **`true`**      | **`null`**      |
+| **`null`**        | **`false`**     | **`false`**     |
+| **`null`**        | **`null`**      | **`null`**      |
 
 ### Помилки
 

@@ -162,10 +162,10 @@ childElementCount
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додані властивості першихелементівChild, LastElementChild і ChildElementCount. |
-|  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
+| Версия | Описание                                                                                      |
+|--------|-----------------------------------------------------------------------------------------------|
+|        | Додані властивості першихелементівChild, LastElementChild і ChildElementCount.                |
+|        | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
 
 ## Зміст
 

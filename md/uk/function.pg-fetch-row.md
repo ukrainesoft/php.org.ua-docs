@@ -49,9 +49,9 @@ pg_fetch_row(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_NUM): arr
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                         |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -17,10 +17,10 @@
 
 **Опції налаштування V8js**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [v8js.maxdisposedcontexts](v8js.configuration.html#ini.v8js.max-disposed-contexts) |  | PHPINIALL |  |
-| [v8js.flags](v8js.configuration.html#ini.v8js.flags) |  | PHPINIALL |  |
+| Имя                                                                                | По умолчанию | Место изменения | Список изменений |
+|------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [v8js.maxdisposedcontexts](v8js.configuration.html#ini.v8js.max-disposed-contexts) |              | PHPINIALL       |                  |
+| [v8js.flags](v8js.configuration.html#ini.v8js.flags)                               |              | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

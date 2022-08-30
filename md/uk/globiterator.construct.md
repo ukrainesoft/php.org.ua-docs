@@ -41,9 +41,9 @@ public **GlobIterator::construct**(string `$pattern`, int `$flags` = FilesystemI
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| Версия | Описание                                                                                                                                                                          |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 

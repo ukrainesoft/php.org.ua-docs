@@ -43,9 +43,9 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

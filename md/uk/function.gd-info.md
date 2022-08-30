@@ -35,19 +35,19 @@ gd_info(): array
 
 **Елементи масиву, що повертається з **гдinfo()****
 
-| Атрибут | Смысловое значение |
-| --- | --- |
-| GD Version | Рядок (string), що містить версію `libgd` |
-| FreeType Support | bool значення . **`true`**, якщо компонент FreeType Support встановлено. |
-| FreeType Linkage | Рядок (string), що містить опис, яким чином підключений компонент FreeType. Очікувані значення: 'with freetype', 'with TTF library', 'with unknown library'. Цей елемент буде визначений лише якщо `FreeType Support` має значення **`true`** |
-| GIF Read Support | bool значення . **`true`**, якщо включена підтримка читання (*reading* `GIF` зображень. |
-| GIF Create Support | bool значення . **`true`**, якщо включена підтримка запису (*creating* `GIF` зображень. |
-| JPEG Support | bool значення . **`true`**, якщо включена підтримка `JPEG` |
-| PNG Support | bool значення . **`true`**, якщо включена підтримка `PNG` |
-| WBMP Support | bool значення . **`true`**, якщо включена підтримка `WBMP` |
-| XBM Support | bool значення . **`true`**, якщо включена підтримка `XBM` |
-| WebP Support | bool значення . **`true`**, якщо включена підтримка `WebP` |
-| AVIF Support | bool значення . **`true`**, якщо включена підтримка `AVIF`. Доступно з PHP 8.1.0. |
+| Атрибут            | Смысловое значение                                                                                                                                                                                                                            |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| GD Version         | Рядок (string), що містить версію `libgd`                                                                                                                                                                                                     |
+| FreeType Support   | bool значення . **`true`**, якщо компонент FreeType Support встановлено.                                                                                                                                                                      |
+| FreeType Linkage   | Рядок (string), що містить опис, яким чином підключений компонент FreeType. Очікувані значення: 'with freetype', 'with TTF library', 'with unknown library'. Цей елемент буде визначений лише якщо `FreeType Support` має значення **`true`** |
+| GIF Read Support   | bool значення . **`true`**, якщо включена підтримка читання (*reading* `GIF` зображень.                                                                                                                                                       |
+| GIF Create Support | bool значення . **`true`**, якщо включена підтримка запису (*creating* `GIF` зображень.                                                                                                                                                       |
+| JPEG Support       | bool значення . **`true`**, якщо включена підтримка `JPEG`                                                                                                                                                                                    |
+| PNG Support        | bool значення . **`true`**, якщо включена підтримка `PNG`                                                                                                                                                                                     |
+| WBMP Support       | bool значення . **`true`**, якщо включена підтримка `WBMP`                                                                                                                                                                                    |
+| XBM Support        | bool значення . **`true`**, якщо включена підтримка `XBM`                                                                                                                                                                                     |
+| WebP Support       | bool значення . **`true`**, якщо включена підтримка `WebP`                                                                                                                                                                                    |
+| AVIF Support       | bool значення . **`true`**, якщо включена підтримка `AVIF`. Доступно з PHP 8.1.0.                                                                                                                                                             |
 
 ### Приклади
 

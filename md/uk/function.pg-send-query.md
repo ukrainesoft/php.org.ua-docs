@@ -47,9 +47,9 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -118,9 +118,9 @@ money_format(string $format, float $number): string
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Функція застаріла. Замість неї використовуйте [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.md) |
+| Версия | Описание                                                                                                             |
+|--------|----------------------------------------------------------------------------------------------------------------------|
+|        | Функція застаріла. Замість неї використовуйте [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.md) |
 
 ### Приклади
 

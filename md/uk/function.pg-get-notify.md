@@ -41,9 +41,9 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

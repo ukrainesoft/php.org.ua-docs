@@ -43,11 +43,11 @@ ldap_first_entry(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEntry|f
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md)       |
+|        | Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше повертався ресурс ([resource](language.types.resource.md)                 |
 
 ### Дивіться також
 

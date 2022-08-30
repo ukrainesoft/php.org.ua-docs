@@ -41,9 +41,9 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                             |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------|
+|        | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

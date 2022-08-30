@@ -59,10 +59,10 @@ OID великий об'єкт у базі даних.
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.md)                                        |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

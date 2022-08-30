@@ -87,10 +87,10 @@ generic
 
 **Конфігураційні опції PDOODBC**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [pdoodbc.connectionpooling](ref.pdo-odbc.html#ini.pdo-odbc.connection-pooling) | "strict" | PHPINIALL |  |
-| [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) | NULL | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| Имя                                                                            | По умолчанию | Место изменения | Список изменений                                                        |
+|--------------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------------------------------------|
+| [pdoodbc.connectionpooling](ref.pdo-odbc.html#ini.pdo-odbc.connection-pooling) | "strict"     | PHPINIALL       |                                                                         |
+| [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name)    | NULL         | PHPINISYSTEM    | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

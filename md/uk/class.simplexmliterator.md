@@ -67,9 +67,9 @@ public SimpleXMLElement::xpath(string $expression): array|null|false
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
+| Версия | Описание                                                                              |
+|--------|---------------------------------------------------------------------------------------|
+|        | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 

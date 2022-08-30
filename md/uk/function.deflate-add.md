@@ -49,9 +49,9 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание                                                                                                      |
+|--------|---------------------------------------------------------------------------------------------------------------|
+|        | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

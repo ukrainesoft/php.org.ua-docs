@@ -39,10 +39,10 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|  | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів. |
+| Версия | Описание                                                                                                                                                                                          |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|        | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів.                                                                                                                 |
 
 ### Приклади
 

@@ -49,9 +49,9 @@ enchant_broker_set_dict_path(EnchantBroker $broker, int $type, string $path): bo
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                              |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------|
+|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

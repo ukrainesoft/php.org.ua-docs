@@ -53,9 +53,9 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

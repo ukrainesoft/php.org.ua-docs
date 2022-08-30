@@ -45,9 +45,9 @@ mb_convert_case(string $string, int $mode, ?string $encoding = null): string
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додана підтримка **`MB_CASE_FOLD`** **`MB_CASE_UPPER_SIMPLE`** **`MB_CASE_LOWER_SIMPLE`** **`MB_CASE_TITLE_SIMPLE`** і **`MB_CASE_FOLD_SIMPLE`** у параметрі `mode` |
+| Версия | Описание                                                                                                                                                            |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Додана підтримка **`MB_CASE_FOLD`** **`MB_CASE_UPPER_SIMPLE`** **`MB_CASE_LOWER_SIMPLE`** **`MB_CASE_TITLE_SIMPLE`** і **`MB_CASE_FOLD_SIMPLE`** у параметрі `mode` |
 
 ### Приклади
 

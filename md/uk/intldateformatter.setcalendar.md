@@ -55,8 +55,8 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия           | Описание                                                                  |
+|------------------|---------------------------------------------------------------------------|
 | 5.5.0/PECL 3.0.0 | Додана можливість передати об'єкт [IntlCalendar](class.intlcalendar.html) |
 
 ### Приклади

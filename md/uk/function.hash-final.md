@@ -39,9 +39,9 @@ hash_final(HashContext $context, bool $binary = false): string
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| Версия | Описание                                                     |
+|--------|--------------------------------------------------------------|
+|        | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 

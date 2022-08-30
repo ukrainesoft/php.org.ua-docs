@@ -35,13 +35,13 @@ mysqli_info(mysqli $mysql): ?string
 
 **Можливі значення, що повертаються mysqliinfo**
 
-| Тип запроса | Пример результирующей строки |
-| --- | --- |
-| INSERT INTO...SELECT... | Records: 100 Duplicates: 0 Warnings: 0 |
-| INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0 |
-| LOAD DATA INFILE ... | Records: 1 Deleted: 0 Skipped: 0 Warnings: 0 |
-| ALTER TABLE ... | Records: 3 Duplicates: 0 Warnings: 0 |
-| UPDATE ... | Rows matched: 40 Changed: 40 Warnings: 0 |
+| Тип запроса                            | Пример результирующей строки                 |
+|----------------------------------------|----------------------------------------------|
+| INSERT INTO...SELECT...                | Records: 100 Duplicates: 0 Warnings: 0       |
+| INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0         |
+| LOAD DATA INFILE ...                   | Records: 1 Deleted: 0 Skipped: 0 Warnings: 0 |
+| ALTER TABLE ...                        | Records: 3 Duplicates: 0 Warnings: 0         |
+| UPDATE ...                             | Rows matched: 40 Changed: 40 Warnings: 0     |
 
 > **Зауваження**
 > 

@@ -37,7 +37,7 @@ openssl_x509_read(OpenSSLCertificate|string $certificate): OpenSSLCertificate|fa
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | У разі успішного виконання повертає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание                                                                                                                                                                                    |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | У разі успішного виконання повертає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509`          |

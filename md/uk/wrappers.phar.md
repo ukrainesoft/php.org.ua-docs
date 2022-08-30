@@ -27,19 +27,19 @@ phar:// - PHP-архів
 
 **Основна інформація**
 
-| Атрибут | Поддержка |
-| --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
-| Обмеження по [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | Ні |
-| Читання | Так |
-| Запис | Так |
-| Додавання | Ні |
-| Одночасне читання та запис | Так |
-| Підтримка [stat()](function.stat.md) | Так |
-| Підтримка [unlink()](function.unlink.md) | Так |
-| Підтримка [rename()](function.rename.md) | Так |
-| Підтримка [mkdir()](function.mkdir.md) | Так |
-| Підтримка [rmdir()](function.rmdir.md) | Так |
+| Атрибут                                                                             | Поддержка |
+|-------------------------------------------------------------------------------------|-----------|
+| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen)     | Ні        |
+| Обмеження по [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | Ні        |
+| Читання                                                                             | Так       |
+| Запис                                                                               | Так       |
+| Додавання                                                                           | Ні        |
+| Одночасне читання та запис                                                          | Так       |
+| Підтримка [stat()](function.stat.md)                                                | Так       |
+| Підтримка [unlink()](function.unlink.md)                                            | Так       |
+| Підтримка [rename()](function.rename.md)                                            | Так       |
+| Підтримка [mkdir()](function.mkdir.md)                                              | Так       |
+| Підтримка [rmdir()](function.rmdir.md)                                              | Так       |
 
 ### Дивіться також
 

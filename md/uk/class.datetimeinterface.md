@@ -195,10 +195,10 @@ World Wide Web Consortium (приклад: 2005-08-15T15:52:01+00:00)
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додано константу DateTimeInterface::ISO8601EXPANDED. |
-|  | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
+| Версия | Описание                                                                              |
+|--------|---------------------------------------------------------------------------------------|
+|        | Додано константу DateTimeInterface::ISO8601EXPANDED.                                  |
+|        | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
 
 ## Зміст
 

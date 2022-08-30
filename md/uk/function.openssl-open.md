@@ -55,10 +55,10 @@ openssl_open(    string $data,    string &$output,    string $encryp
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
-|  | `cipher_algo` більше не є необов'язковим параметром. |
+| Версия | Описание                                                                                                                                                                                                                                                             |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
+|        | `cipher_algo` більше не є необов'язковим параметром.                                                                                                                                                                                                                 |
 
 ### Приклади
 

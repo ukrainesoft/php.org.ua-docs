@@ -131,9 +131,9 @@ public setChecks(int $checks): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
+| Версия | Описание                                                                                                                                                                                                                                                                                                                             |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
 
 ## Зміст
 

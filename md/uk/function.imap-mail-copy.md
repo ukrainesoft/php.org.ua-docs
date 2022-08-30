@@ -56,9 +56,9 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

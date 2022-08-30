@@ -45,6 +45,6 @@ enchant_dict_store_replacement(EnchantDictionary $dictionary, string $misspelled
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                          |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

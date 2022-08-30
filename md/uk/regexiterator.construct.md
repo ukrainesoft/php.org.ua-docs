@@ -52,13 +52,13 @@ int `$pregFlags`
 
 **[RegexIterator](class.regexiterator.md) pregflags**
 
-| режим работы | доступные флаги |
-| --- | --- |
+| режим работы              | доступные флаги                                         |
+|---------------------------|---------------------------------------------------------|
 | RegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
-| RegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.html) |
-| RegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.html) |
-| RegexIterator::REPLACE | ні |
-| RegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.html) |
+| RegexIterator::GETMATCH   | Дивіться [pregmatch()](function.preg-match.html)        |
+| RegexIterator::MATCH      | Дивіться [pregmatch()](function.preg-match.html)        |
+| RegexIterator::REPLACE    | ні                                                      |
+| RegexIterator::SPLIT      | Дивіться [pregsplit()](function.preg-split.html)        |
 
 ### Помилки
 

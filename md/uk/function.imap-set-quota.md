@@ -45,9 +45,9 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -3718,9 +3718,9 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
+| Версия | Описание                                          |
+|--------|---------------------------------------------------|
+|        | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
 
 ## Зміст
 

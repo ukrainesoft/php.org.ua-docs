@@ -41,9 +41,9 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                              |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------|
+|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

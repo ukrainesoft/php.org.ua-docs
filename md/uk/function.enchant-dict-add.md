@@ -41,9 +41,9 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                          |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 **Приклад #1 Додавання слова до PWL**
 

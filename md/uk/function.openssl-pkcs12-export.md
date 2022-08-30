@@ -47,10 +47,10 @@ openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    str
 
 Масив опцій. Ключі, які не описані тут, будуть проігноровані.
 
-| Ключ | Описание |
-| --- | --- |
-| `"extracerts"` | масив додаткових сертифікатів або один сертифікат для включення файлу PKCS#12. |
-| `"friendlyname"` | рядок для використання сертифікатом та ключем |
+| Ключ             | Описание                                                                       |
+|------------------|--------------------------------------------------------------------------------|
+| `"extracerts"`   | масив додаткових сертифікатів або один сертифікат для включення файлу PKCS#12. |
+| `"friendlyname"` | рядок для використання сертифікатом та ключем                                  |
 
 ### Значення, що повертаються
 
@@ -58,7 +58,7 @@ openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    str
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание                                                                                                                                                                                                                                                   |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR`                                                                         |
+|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

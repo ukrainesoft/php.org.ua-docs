@@ -39,6 +39,6 @@ ldap_free_result(LDAP\Result $result): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                       |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

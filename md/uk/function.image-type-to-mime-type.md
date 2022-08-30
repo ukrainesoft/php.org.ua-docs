@@ -37,26 +37,26 @@ image_type_to_mime_type(int $image_type): string
 
 **Значення, що повертаються і Константи**
 
-| `image_type` | Возвращаемое значение |
-| --- | --- |
-| **`IMAGETYPE_GIF`** | `image/gif` |
-| **`IMAGETYPE_JPEG`** | `image/jpeg` |
-| **`IMAGETYPE_PNG`** | `image/png` |
-| **`IMAGETYPE_SWF`** | `application/x-shockwave-flash` |
-| **`IMAGETYPE_PSD`** | `image/psd` |
-| **`IMAGETYPE_BMP`** | `image/bmp` |
-| **`IMAGETYPE_TIFF_II`** (порядок байт intel) | `image/tiff` |
-| **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) | `image/tiff` |
-| **`IMAGETYPE_JPC`** | `application/octet-stream` |
-| **`IMAGETYPE_JP2`** | `image/jp2` |
-| **`IMAGETYPE_JPX`** | `application/octet-stream` |
-| **`IMAGETYPE_JB2`** | `application/octet-stream` |
-| **`IMAGETYPE_SWC`** | `application/x-shockwave-flash` |
-| **`IMAGETYPE_IFF`** | `image/iff` |
-| **`IMAGETYPE_WBMP`** | `image/vnd.wap.wbmp` |
-| **`IMAGETYPE_XBM`** | `image/xbm` |
-| **`IMAGETYPE_ICO`** | `image/vnd.microsoft.icon` |
-| **`IMAGETYPE_WEBP`** | `image/webp` |
+| `image_type`                                    | Возвращаемое значение           |
+|-------------------------------------------------|---------------------------------|
+| **`IMAGETYPE_GIF`**                             | `image/gif`                     |
+| **`IMAGETYPE_JPEG`**                            | `image/jpeg`                    |
+| **`IMAGETYPE_PNG`**                             | `image/png`                     |
+| **`IMAGETYPE_SWF`**                             | `application/x-shockwave-flash` |
+| **`IMAGETYPE_PSD`**                             | `image/psd`                     |
+| **`IMAGETYPE_BMP`**                             | `image/bmp`                     |
+| **`IMAGETYPE_TIFF_II`** (порядок байт intel)    | `image/tiff`                    |
+| **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) | `image/tiff`                    |
+| **`IMAGETYPE_JPC`**                             | `application/octet-stream`      |
+| **`IMAGETYPE_JP2`**                             | `image/jp2`                     |
+| **`IMAGETYPE_JPX`**                             | `application/octet-stream`      |
+| **`IMAGETYPE_JB2`**                             | `application/octet-stream`      |
+| **`IMAGETYPE_SWC`**                             | `application/x-shockwave-flash` |
+| **`IMAGETYPE_IFF`**                             | `image/iff`                     |
+| **`IMAGETYPE_WBMP`**                            | `image/vnd.wap.wbmp`            |
+| **`IMAGETYPE_XBM`**                             | `image/xbm`                     |
+| **`IMAGETYPE_ICO`**                             | `image/vnd.microsoft.icon`      |
+| **`IMAGETYPE_WEBP`**                            | `image/webp`                    |
 
 ### Приклади
 

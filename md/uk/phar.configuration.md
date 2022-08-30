@@ -17,11 +17,11 @@
 
 **Параметри конфігурації файлової системи та потоків**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [phar.readonly](phar.configuration.html#ini.phar.readonly) | "1" | PHPINIALL |  |
-| [phar.requirehash](phar.configuration.html#ini.phar.require-hash) | "1" | PHPINIALL |  |
-| [phar.cachelist](phar.configuration.html#ini.phar.cache-list) | "" | PHPINISYSTEM |  |
+| Имя                                                               | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------|--------------|-----------------|------------------|
+| [phar.readonly](phar.configuration.html#ini.phar.readonly)        | "1"          | PHPINIALL       |                  |
+| [phar.requirehash](phar.configuration.html#ini.phar.require-hash) | "1"          | PHPINIALL       |                  |
+| [phar.cachelist](phar.configuration.html#ini.phar.cache-list)     | ""           | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 

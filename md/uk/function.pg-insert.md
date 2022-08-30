@@ -55,10 +55,10 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

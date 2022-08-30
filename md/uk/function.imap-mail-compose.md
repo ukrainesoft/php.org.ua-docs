@@ -37,21 +37,21 @@ imap_mail_compose(array $envelope, array $bodies): string|false
 
 **Структура масиву тіла**
 
-| Ключ | Тип | Описание |
-| --- | --- | --- |
-| `type` | int | Тип MIME. Один з **`TYPETEXT`** (за замовчуванням), **`TYPEMULTIPART`** **`TYPEMESSAGE`** **`TYPEAPPLICATION`** **`TYPEAUDIO`** **`TYPEIMAGE`** **`TYPEMODEL`** або **`TYPEOTHER`** |
-| `encoding` | int | Значення `Content-Transfer-Encoding`. Одне з **`ENC7BIT`** (default), **`ENC8BIT`** **`ENCBINARY`** **`ENCBASE64`** **`ENCQUOTEDPRINTABLE`** або **`ENCOTHER`** |
-| `charset` | string | Параметр charset типу MIME. |
-| `type.parameters` | array | Асоціативний масив (array) імен параметрів `Content-Type` та їх значень. |
-| `subtype` | string | Підтип MIME, наприклад, `'jpeg'` для **`TYPEIMAGE`** |
-| `id` | string | Значення `Content-ID` |
-| `description` | string | Значення `Content-Description` |
-| `disposition.type` | string | Значення `Content-Disposition`, наприклад, `'attachment'` |
-| `disposition` | array | Асоціативний масив (array) імен параметрів `Content-Disposition` та їх значень. |
-| `contents.data` | string | Корисне навантаження. |
-| `lines` | int | Розмір корисного навантаження у рядках. |
-| `bytes` | int | Розмір корисного навантаження у байтах. |
-| `md5` | string | Контрольна сума MD5 корисного навантаження. |
+| Ключ               | Тип    | Описание                                                                                                                                                                            |
+|--------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `type`             | int    | Тип MIME. Один з **`TYPETEXT`** (за замовчуванням), **`TYPEMULTIPART`** **`TYPEMESSAGE`** **`TYPEAPPLICATION`** **`TYPEAUDIO`** **`TYPEIMAGE`** **`TYPEMODEL`** або **`TYPEOTHER`** |
+| `encoding`         | int    | Значення `Content-Transfer-Encoding`. Одне з **`ENC7BIT`** (default), **`ENC8BIT`** **`ENCBINARY`** **`ENCBASE64`** **`ENCQUOTEDPRINTABLE`** або **`ENCOTHER`**                     |
+| `charset`          | string | Параметр charset типу MIME.                                                                                                                                                         |
+| `type.parameters`  | array  | Асоціативний масив (array) імен параметрів `Content-Type` та їх значень.                                                                                                            |
+| `subtype`          | string | Підтип MIME, наприклад, `'jpeg'` для **`TYPEIMAGE`**                                                                                                                                |
+| `id`               | string | Значення `Content-ID`                                                                                                                                                               |
+| `description`      | string | Значення `Content-Description`                                                                                                                                                      |
+| `disposition.type` | string | Значення `Content-Disposition`, наприклад, `'attachment'`                                                                                                                           |
+| `disposition`      | array  | Асоціативний масив (array) імен параметрів `Content-Disposition` та їх значень.                                                                                                     |
+| `contents.data`    | string | Корисне навантаження.                                                                                                                                                               |
+| `lines`            | int    | Розмір корисного навантаження у рядках.                                                                                                                                             |
+| `bytes`            | int    | Розмір корисного навантаження у байтах.                                                                                                                                             |
+| `md5`              | string | Контрольна сума MD5 корисного навантаження.                                                                                                                                         |
 
 ### Значення, що повертаються
 

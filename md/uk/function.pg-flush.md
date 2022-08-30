@@ -37,6 +37,6 @@ pg_flush(PgSql\Connection $connection): int|bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

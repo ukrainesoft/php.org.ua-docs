@@ -31,14 +31,14 @@ odbc_binmode(resource $statement, int $mode): bool
 
 **Обробка LONGVARBINARY**
 
-| binmode | longreadlen | result |
-| --- | --- | --- |
-| **`ODBC_BINMODE_PASSTHRU`** |  | passthru |
-| **`ODBC_BINMODE_RETURN`** |  | passthru |
-| **`ODBC_BINMODE_CONVERT`** |  | passthru |
-| **`ODBC_BINMODE_PASSTHRU`** | \> | passthru |
-| **`ODBC_BINMODE_RETURN`** | \> | повернути як є |
-| **`ODBC_BINMODE_CONVERT`** | \> | повернути у вигляді char |
+| binmode                     | longreadlen | result                   |
+|-----------------------------|-------------|--------------------------|
+| **`ODBC_BINMODE_PASSTHRU`** |             | passthru                 |
+| **`ODBC_BINMODE_RETURN`**   |             | passthru                 |
+| **`ODBC_BINMODE_CONVERT`**  |             | passthru                 |
+| **`ODBC_BINMODE_PASSTHRU`** | \>          | passthru                 |
+| **`ODBC_BINMODE_RETURN`**   | \>          | повернути як є           |
+| **`ODBC_BINMODE_CONVERT`**  | \>          | повернути у вигляді char |
 
 Якщо використовується [odbcfetchinto()](function.odbc-fetch-into.html), passthru означає, що для цих стовпців повертається порожній рядок. Якщо використовується [odbcresult()](function.odbc-result.html), passthru означає, що дані надсилаються клієнту безпосередньо (тобто друкуються).
 

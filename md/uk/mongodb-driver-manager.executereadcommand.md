@@ -41,10 +41,10 @@ final public MongoDB\Driver\Manager::executeReadCommand(string $db, MongoDB\Driv
 
 **options**
 
-| Опция | Тип | Описание |
-| --- | --- | --- |
-| readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |  |
-| Гарантія для застосування до операції. |  |  |
+| Опция                                  | Тип                                                               | Описание |
+|----------------------------------------|-------------------------------------------------------------------|----------|
+| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
+| Гарантія для застосування до операції. |                                                                   |          |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 

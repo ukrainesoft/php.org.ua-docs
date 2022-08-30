@@ -127,9 +127,9 @@ public IteratorIterator::valid(): bool
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **CachingIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
+| Версия | Описание                                                                            |
+|--------|-------------------------------------------------------------------------------------|
+|        | Клас **CachingIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 

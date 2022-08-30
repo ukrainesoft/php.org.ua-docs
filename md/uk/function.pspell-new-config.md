@@ -37,10 +37,10 @@ pspell_new_config(PSpell\Config $config): PSpell\Dictionary|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                           |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|        | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше повертався ресурс ([resource](language.types.resource.md)              |
 
 ### Приклади
 

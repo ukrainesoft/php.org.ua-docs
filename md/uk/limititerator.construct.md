@@ -43,10 +43,10 @@ public **LimitIterator::construct**[Iterator](class.iterator.md) `$iterator`, in
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| Версия | Описание                                                                                                                                                                    |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 

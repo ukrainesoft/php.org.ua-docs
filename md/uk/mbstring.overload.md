@@ -25,21 +25,21 @@ mbstring підтримує механізм 'перевантаження фу�
 
 **Функції, які будуть перевантажені**
 
-| значение настройки mbstring.func\_overload | исходная функция | перегруженная функция |
-| --- | --- | --- |
-|  | [mail()](function.mail.md) | [мбsendmail()](function.mb-send-mail.html) |
-|  | [strlen()](function.strlen.md) | [мбstrlen()](function.mb-strlen.html) |
-|  | [strpos()](function.strpos.md) | [мбstrpos()](function.mb-strpos.html) |
-|  | [strrpos()](function.strrpos.md) | [мбstrrpos()](function.mb-strrpos.html) |
-|  | [substr()](function.substr.md) | [мбsubstr()](function.mb-substr.html) |
-|  | [strtolower()](function.strtolower.md) | [мбstrtolower()](function.mb-strtolower.html) |
-|  | [strtoupper()](function.strtoupper.md) | [мбstrtoupper()](function.mb-strtoupper.html) |
-|  | [stripos()](function.stripos.md) | [мбstripos()](function.mb-stripos.html) |
-|  | [strripos()](function.strripos.md) | [мбstrripos()](function.mb-strripos.html) |
-|  | [strstr()](function.strstr.md) | [мбstrstr()](function.mb-strstr.html) |
-|  | [stristr()](function.stristr.md) | [мбstristr()](function.mb-stristr.html) |
-|  | [strrchr()](function.strrchr.md) | [мбstrrchr()](function.mb-strrchr.html) |
-|  | [substrcount()](function.substr-count.html) | [мбsubstrcount()](function.mb-substr-count.html) |
+| значение настройки mbstring.func\_overload | исходная функция                            | перегруженная функция                            |
+|--------------------------------------------|---------------------------------------------|--------------------------------------------------|
+|                                            | [mail()](function.mail.md)                  | [мбsendmail()](function.mb-send-mail.html)       |
+|                                            | [strlen()](function.strlen.md)              | [мбstrlen()](function.mb-strlen.html)            |
+|                                            | [strpos()](function.strpos.md)              | [мбstrpos()](function.mb-strpos.html)            |
+|                                            | [strrpos()](function.strrpos.md)            | [мбstrrpos()](function.mb-strrpos.html)          |
+|                                            | [substr()](function.substr.md)              | [мбsubstr()](function.mb-substr.html)            |
+|                                            | [strtolower()](function.strtolower.md)      | [мбstrtolower()](function.mb-strtolower.html)    |
+|                                            | [strtoupper()](function.strtoupper.md)      | [мбstrtoupper()](function.mb-strtoupper.html)    |
+|                                            | [stripos()](function.stripos.md)            | [мбstripos()](function.mb-stripos.html)          |
+|                                            | [strripos()](function.strripos.md)          | [мбstrripos()](function.mb-strripos.html)        |
+|                                            | [strstr()](function.strstr.md)              | [мбstrstr()](function.mb-strstr.html)            |
+|                                            | [stristr()](function.stristr.md)            | [мбstristr()](function.mb-stristr.html)          |
+|                                            | [strrchr()](function.strrchr.md)            | [мбstrrchr()](function.mb-strrchr.html)          |
+|                                            | [substrcount()](function.substr-count.html) | [мбsubstrcount()](function.mb-substr-count.html) |
 
 > **Зауваження**
 > 

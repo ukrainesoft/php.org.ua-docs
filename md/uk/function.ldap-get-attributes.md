@@ -53,10 +53,10 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                 |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md)     |
+|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -17,14 +17,14 @@
 
 **Опції налаштування Yaml**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [yaml.decodebinary](yaml.configuration.html#ini.yaml.decode-binary) |  | PHPINIALL |  |
-| [yaml.decodephp](yaml.configuration.html#ini.yaml.decode-php) |  | PHPINIALL | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
-| [yaml.decodetimestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |  | PHPINIALL |  |
-| [yaml.outputcanonical](yaml.configuration.html#ini.yaml.output-canonical) |  | PHPINIALL |  |
-| [yaml.outputindent](yaml.configuration.html#ini.yaml.output-indent) |  | PHPINIALL |  |
-| [yaml.outputwidth](yaml.configuration.html#ini.yaml.output-width) |  | PHPINIALL |  |
+| Имя                                                                       | По умолчанию | Место изменения | Список изменений                                                 |
+|---------------------------------------------------------------------------|--------------|-----------------|------------------------------------------------------------------|
+| [yaml.decodebinary](yaml.configuration.html#ini.yaml.decode-binary)       |              | PHPINIALL       |                                                                  |
+| [yaml.decodephp](yaml.configuration.html#ini.yaml.decode-php)             |              | PHPINIALL       | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
+| [yaml.decodetimestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |              | PHPINIALL       |                                                                  |
+| [yaml.outputcanonical](yaml.configuration.html#ini.yaml.output-canonical) |              | PHPINIALL       |                                                                  |
+| [yaml.outputindent](yaml.configuration.html#ini.yaml.output-indent)       |              | PHPINIALL       |                                                                  |
+| [yaml.outputwidth](yaml.configuration.html#ini.yaml.output-width)         |              | PHPINIALL       |                                                                  |
 
 Коротке пояснення конфігураційних директив.
 

@@ -17,10 +17,10 @@
 
 **Параметри конфігурації Runkit**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [runkit.superglobal](runkit7.configuration.html#ini.runkit7.superglobal) | "" | PHPINIPERDIR |  |
-| [runkit.internaloverride](runkit7.configuration.html#ini.runkit7.internal-override) | "0" | PHPINISYSTEM |  |
+| Имя                                                                                 | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [runkit.superglobal](runkit7.configuration.html#ini.runkit7.superglobal)            | ""           | PHPINIPERDIR    |                  |
+| [runkit.internaloverride](runkit7.configuration.html#ini.runkit7.internal-override) | "0"          | PHPINISYSTEM    |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

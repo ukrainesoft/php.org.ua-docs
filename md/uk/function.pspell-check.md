@@ -41,9 +41,9 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

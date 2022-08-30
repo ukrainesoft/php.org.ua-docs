@@ -45,9 +45,9 @@ imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание                                                                                         |
+|--------|--------------------------------------------------------------------------------------------------|
+|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

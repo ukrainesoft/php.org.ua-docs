@@ -17,11 +17,11 @@
 
 **Опції конфігурації PCRE**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit) | "1000000" | PHPINIALL |  |
-| [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit) | "100000" | PHPINIALL |  |
-| [pcre.jit](pcre.configuration.html#ini.pcre.jit) | "1" | PHPINIALL |  |
+| Имя                                                                     | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit) | "1000000"    | PHPINIALL       |                  |
+| [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit) | "100000"     | PHPINIALL       |                  |
+| [pcre.jit](pcre.configuration.html#ini.pcre.jit)                        | "1"          | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

@@ -47,10 +47,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия              | Описание                                                           |
+|---------------------|--------------------------------------------------------------------|
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
-| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.md) |
+| PECL mongodb 1.7.0  | Реалізує [Serializable](class.serializable.md)                     |
 
 ## Зміст
 

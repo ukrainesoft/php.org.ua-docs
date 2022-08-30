@@ -17,9 +17,9 @@
 
 **Опції налаштування DBA**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler) | DBADEFAULT | PHPINIALL |  |
+| Имя                                                                  | По умолчанию | Место изменения | Список изменений |
+|----------------------------------------------------------------------|--------------|-----------------|------------------|
+| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler) | DBADEFAULT   | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

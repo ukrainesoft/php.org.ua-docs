@@ -17,13 +17,13 @@
 
 **Конфігураційні опції керування висновком**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [outputbuffering](outcontrol.configuration.html#ini.output-buffering) | "0" | PHPINIPERDIR |  |
-| [outputhandler](outcontrol.configuration.html#ini.output-handler) | NULL | PHPINIPERDIR |  |
-| [implicitflush](outcontrol.configuration.html#ini.implicit-flush) | "0" | PHPINIALL |  |
-| [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) | "a=href,area=href,frame=src,form=,fieldset=" | PHPINIALL | До PHP 7.1.0 використовувалася для встановлення перезапису сесії "trans sid". З PHP 7.1.0 використовується тільки [outputaddrewritevar()](function.output-add-rewrite-var.html) |
-| [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts) | `$_SERVER['HTTP_HOST']` використовується за замовчуванням. | PHPINIALL | Доступно з PHP 7.1.0 |
+| Имя                                                                       | По умолчанию                                               | Место изменения | Список изменений                                                                                                                                                                |
+|---------------------------------------------------------------------------|------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [outputbuffering](outcontrol.configuration.html#ini.output-buffering)     | "0"                                                        | PHPINIPERDIR    |                                                                                                                                                                                 |
+| [outputhandler](outcontrol.configuration.html#ini.output-handler)         | NULL                                                       | PHPINIPERDIR    |                                                                                                                                                                                 |
+| [implicitflush](outcontrol.configuration.html#ini.implicit-flush)         | "0"                                                        | PHPINIALL       |                                                                                                                                                                                 |
+| [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)   | "a=href,area=href,frame=src,form=,fieldset="               | PHPINIALL       | До PHP 7.1.0 використовувалася для встановлення перезапису сесії "trans sid". З PHP 7.1.0 використовується тільки [outputaddrewritevar()](function.output-add-rewrite-var.html) |
+| [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts) | `$_SERVER['HTTP_HOST']` використовується за замовчуванням. | PHPINIALL       | Доступно з PHP 7.1.0                                                                                                                                                            |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

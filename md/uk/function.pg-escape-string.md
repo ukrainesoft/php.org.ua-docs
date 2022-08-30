@@ -49,9 +49,9 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

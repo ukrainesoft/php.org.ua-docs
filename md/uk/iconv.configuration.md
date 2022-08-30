@@ -17,11 +17,11 @@
 
 **Опції настроювання Iconv**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
-| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
-| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| Имя                                                                            | По умолчанию | Место изменения | Список изменений       |
+|--------------------------------------------------------------------------------|--------------|-----------------|------------------------|
+| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding)       | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
+| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding)     | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
+| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | ""           | PHPINIALL       | Застаріло з PHP 5.6.0. |
 
 Коротке пояснення конфігураційних директив.
 

@@ -39,9 +39,9 @@ hash_update(HashContext $context, string $data): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| Версия | Описание                                                     |
+|--------|--------------------------------------------------------------|
+|        | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Дивіться також
 

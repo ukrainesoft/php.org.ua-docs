@@ -45,9 +45,9 @@ ldap_exop_refresh(LDAP\Connection $ldap, string $dn, int $ttl): int|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

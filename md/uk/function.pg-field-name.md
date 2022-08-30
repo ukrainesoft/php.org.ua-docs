@@ -45,9 +45,9 @@ pg_field_name(PgSql\Result $result, int $field): string
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                         |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

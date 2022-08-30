@@ -15,10 +15,10 @@
 
 **Список фільтрів валідації даних**
 
-| Идентификатор | Имя | Параметры | Флаги | Описание |
-| --- | --- | --- | --- | --- |
-| **`FILTER_VALIDATE_BOOLEAN`** **`FILTER_VALIDATE_BOOL`** | "boolean" | `default` | **`FILTER_NULL_ON_FAILURE`** |  |
-| Повертає **`true`** для значень "1", "true", "on" та "yes". Інакше повертає **`false`** |  |  |  |  |
+| Идентификатор                                                                           | Имя       | Параметры | Флаги                        | Описание |
+|-----------------------------------------------------------------------------------------|-----------|-----------|------------------------------|----------|
+| **`FILTER_VALIDATE_BOOLEAN`** **`FILTER_VALIDATE_BOOL`**                                | "boolean" | `default` | **`FILTER_NULL_ON_FAILURE`** |          |
+| Повертає **`true`** для значень "1", "true", "on" та "yes". Інакше повертає **`false`** |           |           |                              |          |
 
 Якщо встановлено прапор **`FILTER_NULL_ON_FAILURE`**, то **`false`** повертається тільки для значень "0", "false", "off", "no" та "", а **`null`** буде повернутий всім значень не логічного типу.
 
@@ -56,10 +56,10 @@
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Константа **`FILTER_SANITIZE_STRING`** і **`FILTER_SANITIZE_STRIPPED`** оголошено застарілими. |
-|  | Прапор **`FILTER_FLAG_SCHEME_REQUIRED`** **`FILTER_FLAG_HOST_REQUIRED`** і **`FILTER_VALIDATE_URL`** були вилучені. Прапори `scheme` і `host` є (і були) завжди обов'язковими. |
-|  | Додано константу **`FILTER_VALIDATE_BOOL`** як псевдонім **`FILTER_VALIDATE_BOOLEAN`**. Переважно використовувати **`FILTER_VALIDATE_BOOL`** |
-|  | Додані опції `min_range` і `max_range` для **`FILTER_VALIDATE_FLOAT`** |
-|  | Додано константу **`FILTER_FLAG_HOSTNAME`** і **`FILTER_VALIDATE_DOMAIN`** |
+| Версия | Описание                                                                                                                                                                       |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Константа **`FILTER_SANITIZE_STRING`** і **`FILTER_SANITIZE_STRIPPED`** оголошено застарілими.                                                                                 |
+|        | Прапор **`FILTER_FLAG_SCHEME_REQUIRED`** **`FILTER_FLAG_HOST_REQUIRED`** і **`FILTER_VALIDATE_URL`** були вилучені. Прапори `scheme` і `host` є (і були) завжди обов'язковими. |
+|        | Додано константу **`FILTER_VALIDATE_BOOL`** як псевдонім **`FILTER_VALIDATE_BOOLEAN`**. Переважно використовувати **`FILTER_VALIDATE_BOOL`**                                   |
+|        | Додані опції `min_range` і `max_range` для **`FILTER_VALIDATE_FLOAT`**                                                                                                         |
+|        | Додано константу **`FILTER_FLAG_HOSTNAME`** і **`FILTER_VALIDATE_DOMAIN`**                                                                                                     |

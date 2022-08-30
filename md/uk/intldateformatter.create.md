@@ -81,10 +81,10 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-| 5.5.0/PECL 3.0.0 |  |
-| Об'єкт [IntlCalendar](class.intlcalendar.md) допускається у параметрі `calendar` |  |
+| Версия                                                                           | Описание |
+|----------------------------------------------------------------------------------|----------|
+| 5.5.0/PECL 3.0.0                                                                 |          |
+| Об'єкт [IntlCalendar](class.intlcalendar.md) допускається у параметрі `calendar` |          |
 
 Об'єкти [IntlTimeZone](class.intltimezone.md) і [DateTimeZone](class.datetimezone.md) допускаються у параметрі `timezone`
 

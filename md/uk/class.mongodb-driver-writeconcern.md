@@ -63,9 +63,9 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.html) |
+| Версия             | Описание                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.html)                         |
 | PECL mongodb 1.2.0 | Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.html) |
 
 ## Зміст

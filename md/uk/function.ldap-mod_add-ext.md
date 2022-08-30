@@ -35,12 +35,12 @@ ldap_mod_add_ext(    LDAP\Connection $ldap,    string $dn,    array 
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                            |
+|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
+|        | Додано підтримку параметра `controls`                                                                                                                |
 
 ### Дивіться також
 

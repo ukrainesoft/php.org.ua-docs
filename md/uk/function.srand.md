@@ -41,9 +41,9 @@ srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | **srand()** [стала синонимом](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) функції [мтsrand()](function.mt-srand.html) |
+| Версия | Описание                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | **srand()** [стала синонимом](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) функції [мтsrand()](function.mt-srand.html) |
 
 ### Приклади
 

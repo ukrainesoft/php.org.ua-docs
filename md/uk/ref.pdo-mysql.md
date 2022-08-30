@@ -158,10 +158,10 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 **Опції конфігурації PDOMYSQL**
 
-| Имя | По умолчанию | Место изменения |
-| --- | --- | --- |
-| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM |
-| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug) | NULL | PHPINISYSTEM |
+| Имя                                                                       | По умолчанию     | Место изменения |
+|---------------------------------------------------------------------------|------------------|-----------------|
+| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM    |
+| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug)                  | NULL             | PHPINISYSTEM    |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

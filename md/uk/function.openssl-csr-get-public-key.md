@@ -43,10 +43,10 @@ openssl_csr_get_public_key(OpenSSLCertificateSigningRequest|string $csr, bool $s
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание                                                                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key`              |
+|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

@@ -24,8 +24,8 @@
 **Формати зображень, що підтримуються**
 
 | Формат изображения | Необходимая библиотека | Замечания |
-| --- | --- | --- |
-| `gif` |  |  |
+|--------------------|------------------------|-----------|
+| `gif`              |                        |           |
 | `jpeg` | [» http://www.ijg.org/](http://www.ijg.org/) | При збиранні бібліотеки jpeg (перед збиранням PHP) необхідно увімкнути налаштування **\-enable-shared** на етапі конфігурування. Якщо цього не зробити, на етапі конфігурування збірки PHP буде видана помилка \`libjpeg.(a |
 | `png` | [» http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |  |
 | `xpm` | [» http://www.ibiblio.org/pub/Linux/libs/X/!INDEX.html](http://www.ibiblio.org/pub/Linux/libs/X/!INDEX.html) | Якщо в системі встановлено оточення X-Environment, бібліотека вже доступна. |

@@ -41,10 +41,10 @@ enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): Enchan
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                                    |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html)                                   |
+|        | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

@@ -55,10 +55,10 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Доданий параметр `mode` |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|        | Доданий параметр `mode`                                                                                                                                      |
 
 ### Приклади
 

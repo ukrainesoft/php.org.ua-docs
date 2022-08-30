@@ -37,9 +37,9 @@ public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| Версия | Описание                                                      |
+|--------|---------------------------------------------------------------|
+|        | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 

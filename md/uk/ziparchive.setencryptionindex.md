@@ -45,9 +45,9 @@ public ZipArchive::setEncryptionIndex(int $index, int $method, ?string $password
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `password` тепер допускає значення null. |
+| Версия | Описание                                 |
+|--------|------------------------------------------|
+|        | `password` тепер допускає значення null. |
 
 ### Примітки
 

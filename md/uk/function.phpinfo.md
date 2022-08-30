@@ -37,16 +37,16 @@ phpinfo(int $flags = INFO_ALL): bool
 
 **Налаштування **phpinfo()****
 
-| Имя (константа) | Значение | Описание |
-| --- | --- | --- |
-| INFOGENERAL |  | Рядок конфігурації, розташування php.ini, дата складання, сервер, система та ін. |
-| INFOCREDITS |  | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.md) |
-| INFOCONFIGURATION |  | Поточні значення основних та локальних PHP директив. Дивіться також [iniget()](function.ini-get.html) |
-| INFOMODULES |  | Завантажені модулі та їх налаштування. Дивіться також [getloadedextensions()](function.get-loaded-extensions.html) |
-| INFOENVIRONMENT |  | Інформація про змінні оточення, яка також доступна в [ENV](reserved.variables.environment.md) |
-| INFOVARIABLES |  | Виводить все [зумовлені змінні](language.variables.predefined.md) з EGPCS (Environment, GET, POST, Cookie, Server). |
-| INFOLICENSE |  | Інформація про ліцензію PHP. Дивіться також [» license FAQ](https://www.php.net/license/) |
-| INFOALL |  | Виводить все наведене вище. |
+| Имя (константа)   | Значение | Описание                                                                                                            |
+|-------------------|----------|---------------------------------------------------------------------------------------------------------------------|
+| INFOGENERAL       |          | Рядок конфігурації, розташування php.ini, дата складання, сервер, система та ін.                                    |
+| INFOCREDITS       |          | Розробники PHP. Дивіться також [phpcredits()](function.phpcredits.md)                                               |
+| INFOCONFIGURATION |          | Поточні значення основних та локальних PHP директив. Дивіться також [iniget()](function.ini-get.html)               |
+| INFOMODULES       |          | Завантажені модулі та їх налаштування. Дивіться також [getloadedextensions()](function.get-loaded-extensions.html)  |
+| INFOENVIRONMENT   |          | Інформація про змінні оточення, яка також доступна в [ENV](reserved.variables.environment.md)                       |
+| INFOVARIABLES     |          | Виводить все [зумовлені змінні](language.variables.predefined.md) з EGPCS (Environment, GET, POST, Cookie, Server). |
+| INFOLICENSE       |          | Інформація про ліцензію PHP. Дивіться також [» license FAQ](https://www.php.net/license/)                           |
+| INFOALL           |          | Виводить все наведене вище.                                                                                         |
 
 ### Значення, що повертаються
 

@@ -63,8 +63,8 @@ rar_open(string $filename, string $password = NULL, callable $volume_callback = 
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия         | Описание                      |
+|----------------|-------------------------------|
 | PECL rar 3.0.0 | Був доданий `volume_callback` |
 
 ### Приклади

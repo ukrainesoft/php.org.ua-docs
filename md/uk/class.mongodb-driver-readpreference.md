@@ -150,10 +150,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.7.0 |  |
-| Додані константи **`MongoDB\Driver\ReadPreference::PRIMARY`** **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::SECONDARY`** **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::NEAREST`** |  |
+| Версия                                                                                                                                                                                                                                                                    | Описание |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.7.0                                                                                                                                                                                                                                                        |          |
+| Додані константи **`MongoDB\Driver\ReadPreference::PRIMARY`** **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::SECONDARY`** **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::NEAREST`** |          |
 
 Реалізує [Serializable](class.serializable.md)
 

@@ -49,9 +49,9 @@ public __toString(): string
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | **ReflectionType** став абстрактним, а метод **ReflectionType::isBuiltin()** був переміщений у [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) |
+| Версия | Описание                                                                                                                                                            |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | **ReflectionType** став абстрактним, а метод **ReflectionType::isBuiltin()** був переміщений у [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) |
 
 ## Зміст
 

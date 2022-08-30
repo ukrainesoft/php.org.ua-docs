@@ -55,10 +55,10 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание                                                                                                                                                                           |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
+|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

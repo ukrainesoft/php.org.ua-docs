@@ -45,9 +45,9 @@ openssl_csr_export_to_file(OpenSSLCertificateSigningRequest|string $csr, string 
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание                                                                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

@@ -52,11 +52,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html) |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
+| Версия              | Описание                                                                                                  |
+|---------------------|-----------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                                        |
+| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)            |
+| PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 

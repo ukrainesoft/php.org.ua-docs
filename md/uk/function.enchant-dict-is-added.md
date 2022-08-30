@@ -41,9 +41,9 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                          |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

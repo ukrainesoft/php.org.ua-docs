@@ -17,18 +17,18 @@
 
 **Опції конфігурації mbstring**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [mbstring.language](mbstring.configuration.html#ini.mbstring.language) | "neutral" | PHPINIALL |  |
-| [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) | NULL | PHPINIALL |  |
-| [mbstring.httpinput](mbstring.configuration.html#ini.mbstring.http-input) | "pass" | PHPINIALL | Застаріла |
-| [mbstring.httpoutput](mbstring.configuration.html#ini.mbstring.http-output) | "pass" | PHPINIALL | Застаріла |
-| [mbstring.internalencoding](mbstring.configuration.html#ini.mbstring.internal-encoding) | NULL | PHPINIALL | Застаріла |
-| [mbstring.substitutecharacter](mbstring.configuration.html#ini.mbstring.substitute-character) | NULL | PHPINIALL |  |
-| [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload) | "0" | PHPINISYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
-| [mbstring.encodingtranslation](mbstring.configuration.html#ini.mbstring.encoding-translation) | "0" | PHPINIPERDIR |  |
-| [mbstring.httpoutputconvmimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/ | application/xhtml+xml)" | PHPINIALL |
-| [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection) | "0" | PHPINIALL |  |
+| Имя                                                                                                     | По умолчанию | Место изменения         | Список изменений                                        |
+|---------------------------------------------------------------------------------------------------------|--------------|-------------------------|---------------------------------------------------------|
+| [mbstring.language](mbstring.configuration.html#ini.mbstring.language)                                  | "neutral"    | PHPINIALL               |                                                         |
+| [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order)                           | NULL         | PHPINIALL               |                                                         |
+| [mbstring.httpinput](mbstring.configuration.html#ini.mbstring.http-input)                               | "pass"       | PHPINIALL               | Застаріла                                               |
+| [mbstring.httpoutput](mbstring.configuration.html#ini.mbstring.http-output)                             | "pass"       | PHPINIALL               | Застаріла                                               |
+| [mbstring.internalencoding](mbstring.configuration.html#ini.mbstring.internal-encoding)                 | NULL         | PHPINIALL               | Застаріла                                               |
+| [mbstring.substitutecharacter](mbstring.configuration.html#ini.mbstring.substitute-character)           | NULL         | PHPINIALL               |                                                         |
+| [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload)                         | "0"          | PHPINISYSTEM            | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
+| [mbstring.encodingtranslation](mbstring.configuration.html#ini.mbstring.encoding-translation)           | "0"          | PHPINIPERDIR            |                                                         |
+| [mbstring.httpoutputconvmimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/     | application/xhtml+xml)" | PHPINIALL                                               |
+| [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection)                   | "0"          | PHPINIALL               |                                                         |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

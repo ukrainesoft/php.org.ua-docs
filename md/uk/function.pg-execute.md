@@ -57,10 +57,10 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                       |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

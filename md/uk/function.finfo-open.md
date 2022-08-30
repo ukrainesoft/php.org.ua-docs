@@ -51,10 +51,10 @@ public [finfo::construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [finfo](class.finfo.html); раніше повертався ресурс ([resource](language.types.resource.html) |
-|  | `magic_database` тепер допускає значення null. |
+| Версия | Описание                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [finfo](class.finfo.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|        | `magic_database` тепер допускає значення null.                                                                   |
 
 ### Приклади
 

@@ -53,10 +53,10 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
-| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime` |
+| Версия     | Описание                                                                                                                                                                              |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
+| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime`                                                                                      |
 
 ### Приклади
 

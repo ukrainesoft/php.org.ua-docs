@@ -27,12 +27,12 @@ public **wkhtmltoxPDFConverter::construct**(array `$settings`
 
 `settings`
 
-| Название | Описание | Значения | Версия |
-| --- | --- | --- | --- |
-| size.pageSize | розмір паперу вихідного документа | А4 | \> |
-| size.width | ширина вихідного документа | 210mm | \> |
-| size.height | висота вихідного документа | 297mm | \> |
-| orientation | орієнтація вихідного документа |  |  |
+| Название      | Описание                          | Значения | Версия |
+|---------------|-----------------------------------|----------|--------|
+| size.pageSize | розмір паперу вихідного документа | А4       | \>     |
+| size.width    | ширина вихідного документа        | 210mm    | \>     |
+| size.height   | висота вихідного документа        | 297mm    | \>     |
+| orientation   | орієнтація вихідного документа    |          |        |
 
 <table class="doctable table"><tbody class="tbody"><tr><td>Landscape</td></tr><tr><td>Portrait</td></tr></tbody></table>
 

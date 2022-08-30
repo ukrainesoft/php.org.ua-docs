@@ -41,9 +41,9 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
+| Версия | Описание                                                                                                                  |
+|--------|---------------------------------------------------------------------------------------------------------------------------|
+|        | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Приклади
 

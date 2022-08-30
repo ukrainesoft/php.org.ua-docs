@@ -53,10 +53,10 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание                                                                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                                  |
+|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

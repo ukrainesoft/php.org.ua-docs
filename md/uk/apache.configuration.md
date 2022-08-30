@@ -23,12 +23,12 @@ php_flag engine off
 
 **Установки конфігурації Apache**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [engine](apache.configuration.html#ini.engine) | "1" | PHPINIALL |  |
-| [childterminate](apache.configuration.html#ini.child-terminate) | "0" | PHPINIALL |  |
-| [lastmodified](apache.configuration.html#ini.last-modified) | "0" | PHPINIALL |  |
-| [xbithack](apache.configuration.html#ini.xbithack) | "0" | PHPINIALL |  |
+| Имя                                                             | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------------------------|--------------|-----------------|------------------|
+| [engine](apache.configuration.html#ini.engine)                  | "1"          | PHPINIALL       |                  |
+| [childterminate](apache.configuration.html#ini.child-terminate) | "0"          | PHPINIALL       |                  |
+| [lastmodified](apache.configuration.html#ini.last-modified)     | "0"          | PHPINIALL       |                  |
+| [xbithack](apache.configuration.html#ini.xbithack)              | "0"          | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

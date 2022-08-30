@@ -59,10 +59,10 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | `options` і `internal_date` тепер допускають значення null. |
+| Версия | Описание                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `options` і `internal_date` тепер допускають значення null.                                                                                            |
 
 ### Приклади
 

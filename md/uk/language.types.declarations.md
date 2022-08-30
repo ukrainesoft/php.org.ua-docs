@@ -21,20 +21,20 @@
 
 ### Поодинокі типи
 
-| Тип | Описание | Версия |
-| --- | --- | --- |
-| Ім'я класу/інтерфейсу | Значення має бути [`instanceof`](language.operators.type.html) заданого класу чи інтерфейсу. |  |
-| self | Значення має бути [`instanceof`](language.operators.type.html) того ж класу, у якому використовується оголошення типу. Може використовуватись лише у класах. |  |
-| parent | Значення має бути [`instanceof`](language.operators.type.html) батьківського класу, у якому використовується оголошення типу. Може використовуватись лише у класах. |  |
-| array | Значення має бути типу array. |  |
-| [callable](language.types.callable.html) | Значення має бути коректним [callable](language.types.callable.html). Не можна використовувати як оголошення для властивостей класу. |  |
-| bool | Значення має бути логічного типу. |  |
-| float | Значення має бути числом із плаваючою точкою. |  |
-| int | Значення має бути цілим числом. |  |
-| string | Значення має бути рядком (тип string). |  |
-| [iterable](language.types.iterable.html) | Значення може бути або масивом (тип array), або являти собою [`instanceof`](language.operators.type.html) [Traversable](class.traversable.html) | PHP 7.1.0 |
-| object | Значення має бути об'єктом (тип об'єкта). | PHP 7.2.0 |
-| [mixed](language.types.declarations.html#language.types.declarations.mixed) | Значення може мати будь-який тип. | PHP 8.0.0 |
+| Тип                                                                         | Описание                                                                                                                                                            | Версия    |
+|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Ім'я класу/інтерфейсу                                                       | Значення має бути [`instanceof`](language.operators.type.html) заданого класу чи інтерфейсу.                                                                        |           |
+| self                                                                        | Значення має бути [`instanceof`](language.operators.type.html) того ж класу, у якому використовується оголошення типу. Може використовуватись лише у класах.        |           |
+| parent                                                                      | Значення має бути [`instanceof`](language.operators.type.html) батьківського класу, у якому використовується оголошення типу. Може використовуватись лише у класах. |           |
+| array                                                                       | Значення має бути типу array.                                                                                                                                       |           |
+| [callable](language.types.callable.html)                                    | Значення має бути коректним [callable](language.types.callable.html). Не можна використовувати як оголошення для властивостей класу.                                |           |
+| bool                                                                        | Значення має бути логічного типу.                                                                                                                                   |           |
+| float                                                                       | Значення має бути числом із плаваючою точкою.                                                                                                                       |           |
+| int                                                                         | Значення має бути цілим числом.                                                                                                                                     |           |
+| string                                                                      | Значення має бути рядком (тип string).                                                                                                                              |           |
+| [iterable](language.types.iterable.html)                                    | Значення може бути або масивом (тип array), або являти собою [`instanceof`](language.operators.type.html) [Traversable](class.traversable.html)                     | PHP 7.1.0 |
+| object                                                                      | Значення має бути об'єктом (тип об'єкта).                                                                                                                           | PHP 7.2.0 |
+| [mixed](language.types.declarations.html#language.types.declarations.mixed) | Значення може мати будь-який тип.                                                                                                                                   | PHP 8.0.0 |
 
 **Увага**
 

@@ -17,11 +17,11 @@
 
 **Опції налаштування Intl**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |  | PHPINIALL |  |
-| [intl.errorlevel](intl.configuration.html#ini.intl.error-level) |  | PHPINIALL |  |
-| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |  | PHPINIALL | Доступно з PECL 3.0.0a1 |
+| Имя                                                                   | По умолчанию | Место изменения | Список изменений        |
+|-----------------------------------------------------------------------|--------------|-----------------|-------------------------|
+| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |              | PHPINIALL       |                         |
+| [intl.errorlevel](intl.configuration.html#ini.intl.error-level)       |              | PHPINIALL       |                         |
+| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |              | PHPINIALL       | Доступно з PECL 3.0.0a1 |
 
 Коротке пояснення конфігураційних директив.
 

@@ -55,13 +55,13 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
+| Версия                  | Описание                                                                                                                                                          |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`**                                                   |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
-| PECL win32service 0.4.0 | Доданий параметр `gracefulMode` |
-| PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI. |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                        |
+| PECL win32service 0.4.0 | Доданий параметр `gracefulMode`                                                                                                                                   |
+| PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI.                                                                                                                          |
 
 ### Приклади
 
